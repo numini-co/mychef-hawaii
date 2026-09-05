@@ -1093,6 +1093,12 @@ Still no zip on this machine. Wave 140 drops island `/private-chef` from `ISLAND
 
 - Coverage/locations honesty lists stay paper. Quote-form TypePanel stays.
 
+## Wave 141 — hub and island /pricing ship FAQPage JSON-LD (this branch)
+
+Still no zip on this machine. Wave 141 puts the visible `/pricing` accordion into FAQPage JSON-LD. Hub uses the statewide tariff FAQs; each island uses `islandPricing` FAQs. OfferCatalog stays. `seo:audit` fails if those lists drift apart. No new URLs. No JPEG remaps. No related-door photography.
+
+- Coverage/locations honesty lists stay paper. Quote-form TypePanel stays.
+
 ## Keyword discipline (measured, not invented)
 
 Use these as title keywords. Null-volume neighborhood phrases stay in H1/FAQ, not in the `<title>`. `private chef maui cost` (10) stays in Maui `/private-chef-cost` and `/pricing` body copy — a support title containing that phrase would match `private chef maui`.

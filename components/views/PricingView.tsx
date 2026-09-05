@@ -7,6 +7,7 @@ import { QuoteCta } from '@/components/Cta';
 import Eyebrow from '@/components/Eyebrow';
 import Hero from '@/components/Hero';
 import HostLink from '@/components/HostLink';
+import JsonLd from '@/components/JsonLd';
 import LineReveal from '@/components/LineReveal';
 import { Longform, SiblingCluster } from '@/components/Longform';
 import Photo from '@/components/Photo';
@@ -82,6 +83,17 @@ export default function PricingView({ related }: { related?: ReactNode } = {}) {
 
   return (
     <>
+      <JsonLd
+        data={{
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: questions.map((f) => ({
+            '@type': 'Question',
+            name: f.q,
+            acceptedAnswer: { '@type': 'Answer', text: f.a },
+          })),
+        }}
+      />
       <Hero src={(photo ?? photos.hubPricing).file} alt={(photo ?? photos.hubPricing).alt}>
         <p className="text-[13px] text-mute">{copy?.kicker ?? 'Published starting prices'}</p>
         <LineReveal

@@ -1135,6 +1135,12 @@ const pricingViewSrc = read('components/views/PricingView.tsx');
 if (/>Mobile bar</.test(pricingViewSrc)) {
   errors.push('pricing table still labels the cart Mobile bar');
 }
+if (!/'FAQPage'/.test(pricingViewSrc)) {
+  errors.push('pricing pages still missing FAQPage JSON-LD');
+}
+if (!/mainEntity: questions\.map/.test(pricingViewSrc) || !/\{questions\.map\(/.test(pricingViewSrc)) {
+  errors.push('pricing FAQPage still drifts from visible questions');
+}
 if (/name: `Private chef dinner/.test(seoSrc) || /name: `Private chef —/.test(seoSrc)) {
   errors.push('JSON-LD offers still use Private chef dinner names');
 }
