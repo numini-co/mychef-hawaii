@@ -1186,6 +1186,9 @@ if (/ISLAND_RATE_JSONLD[\s\S]{0,400}'\/bar'/.test(seoSrc) || /HUB_RATE_JSONLD[\s
 if (/ISLAND_RATE_JSONLD[\s\S]{0,400}'\/private-chef'/.test(seoSrc)) {
   errors.push('JSON-LD OfferCatalog still sprays onto island /private-chef');
 }
+if (/ISLAND_RATE_JSONLD[\s\S]{0,400}'\/private-chef-cost'/.test(seoSrc)) {
+  errors.push('JSON-LD OfferCatalog still sprays onto island /private-chef-cost');
+}
 if (/ISLAND_RATE_JSONLD[\s\S]{0,400}'\/services'/.test(seoSrc)) {
   errors.push('JSON-LD OfferCatalog still sprays onto island /services');
 }

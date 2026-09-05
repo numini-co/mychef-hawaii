@@ -105,7 +105,6 @@ function ogImageFor(islandId: IslandId | null, origin: string, localPath = '/'):
 const ISLAND_RATE_JSONLD = new Set([
   '/',
   '/pricing',
-  '/private-chef-cost',
   '/mobile-bar',
   '/weddings',
   '/vacation-chef',
