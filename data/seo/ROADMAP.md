@@ -1081,6 +1081,12 @@ Still no zip on this machine. Wave 138 lists island `/personal-chef` beside `/mo
 
 - Coverage/locations honesty lists stay paper. Quote-form TypePanel stays.
 
+## Wave 139 — hub /services Bar door becomes Bartender add-on (this branch)
+
+Still no zip on this machine. Wave 139 relabels the hub `/services` four-up `/bar` door to **Bartender add-on**. Header **Bar** now points at `/mobile-bar`; keeping the same word on the add-on door would send people to two URLs. The packaged cart stays in the related grid. Quote-form TypePanel stays. `seo:audit` fails if that four-up is labeled Bar again. No new URLs. No JPEG remaps. No related-door photography.
+
+- Coverage/locations honesty lists stay paper. Quote-form TypePanel stays.
+
 ## Keyword discipline (measured, not invented)
 
 Use these as title keywords. Null-volume neighborhood phrases stay in H1/FAQ, not in the `<title>`. `private chef maui cost` (10) stays in Maui `/private-chef-cost` and `/pricing` body copy — a support title containing that phrase would match `private chef maui`.

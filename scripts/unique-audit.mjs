@@ -1251,6 +1251,9 @@ if (/articlesFor/.test(supportViewsSrc) || /from '@\/data\/editorial'/.test(supp
 if (/href: '\/private-chef',\s*title: 'Private chef'/.test(supportViewsSrc)) {
   errors.push('hub /services still labels /private-chef as Private chef');
 }
+if (/href: '\/bar',\s*title: 'Bar'/.test(supportViewsSrc)) {
+  errors.push('hub /services still labels /bar as Bar');
+}
 if (/Private chef dinners from \$125 a guest, Stay Chef day rates, wedding catering/.test(supportViewsSrc)) {
   errors.push('hub /services hero still uses Private chef dinners / wedding catering');
 }

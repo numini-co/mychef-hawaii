@@ -1331,7 +1331,7 @@ export function ServicesView() {
           },
           {
             href: '/bar',
-            title: 'Bar',
+            title: 'Bartender add-on',
             body: 'Terrace cocktails, stacked or alone.',
             still: photos.barHero,
           },
