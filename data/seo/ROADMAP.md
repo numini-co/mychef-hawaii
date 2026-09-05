@@ -1105,6 +1105,12 @@ Still no zip on this machine. Wave 142 lists island `/vacation-chef` beside `/pe
 
 - Coverage/locations honesty lists stay paper. Quote-form TypePanel stays.
 
+## Wave 143 — island footer Pricing and Legal stay on the island host (this branch)
+
+Still no zip on this machine. Wave 143 sends footer **Pricing** and **Legal** to the current host, matching About / FAQ / Coverage. Island `/pricing` and `/legal` are unique documents; the footer was hardcoding hub `/pricing` and `/legal` even on island hosts, while the copyright Legal line already used the island-aware href. `seo:audit` fails if those nav items point at hub again. No new URLs. No JPEG remaps. No related-door photography.
+
+- Coverage/locations honesty lists stay paper. Quote-form TypePanel stays.
+
 ## Keyword discipline (measured, not invented)
 
 Use these as title keywords. Null-volume neighborhood phrases stay in H1/FAQ, not in the `<title>`. `private chef maui cost` (10) stays in Maui `/private-chef-cost` and `/pricing` body copy — a support title containing that phrase would match `private chef maui`.

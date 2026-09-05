@@ -133,12 +133,20 @@ export default function SiteFooter({
                 </>
               )}
               <li>
-                <HostLink island="root" path="/pricing" className="text-base text-paper hover:underline underline-offset-4">
+                <HostLink
+                  island={islandId ?? 'root'}
+                  path="/pricing"
+                  className="text-base text-paper hover:underline underline-offset-4"
+                >
                   Pricing
                 </HostLink>
               </li>
               <li>
-                <HostLink island="root" path="/legal" className="text-base text-paper hover:underline underline-offset-4">
+                <HostLink
+                  island={islandId ?? 'root'}
+                  path="/legal"
+                  className="text-base text-paper hover:underline underline-offset-4"
+                >
                   Legal
                 </HostLink>
               </li>

@@ -1278,6 +1278,20 @@ if (!/path="\/mobile-bar"[\s\S]{0,240}Bar/.test(headerSrc)) {
   errors.push('site header Bar no longer points at /mobile-bar');
 }
 
+const footerSrc = read('components/SiteFooter.tsx');
+if (/island="root" path="\/pricing"/.test(footerSrc)) {
+  errors.push('island footer still sends Pricing to hub /pricing');
+}
+if (/island="root" path="\/legal"/.test(footerSrc)) {
+  errors.push('island footer still sends Legal to hub /legal');
+}
+if (!/island=\{islandId \?\? 'root'\}[\s\S]{0,80}path="\/pricing"/.test(footerSrc)) {
+  errors.push('island footer Pricing must stay on the current host');
+}
+if (!/island=\{islandId \?\? 'root'\}[\s\S]{0,80}path="\/legal"/.test(footerSrc)) {
+  errors.push('island footer Legal must stay on the current host');
+}
+
 for (const key of [
   'vacationOahu',
   'vacationMaui',
