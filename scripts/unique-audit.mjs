@@ -1062,6 +1062,9 @@ if (!/Private chef Hawaii — myCHEF/.test(homeViewSrc)) {
 if (!/const homeFaqItems = \[\.\.\.hubFaqs, \.\.\.hubHomeFaqs\]/.test(homeViewSrc)) {
   errors.push('hub home FAQPage still omits visible hubHomeFaqs');
 }
+if (/the bar page/.test(homeViewSrc)) {
+  errors.push('hub home FAQ still calls /bar the bar page after header Bar moved to /mobile-bar');
+}
 if (/path: '\/private-chef',\s*title: 'Private chef'/.test(islandHomeSrc)) {
   errors.push('island homes still label /private-chef as Private chef');
 }

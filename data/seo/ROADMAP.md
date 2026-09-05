@@ -1123,6 +1123,12 @@ Still no zip on this machine. Wave 145 drops island `/private-chef-cost` from th
 
 - Coverage/locations honesty lists stay paper. Quote-form TypePanel stays.
 
+## Wave 146 — hub home FAQ stops calling /bar the bar page (this branch)
+
+Still no zip on this machine. Wave 146 rewrites the hub home inclusion FAQ so the bartender add-on lives on `/bar`, not “the bar page.” Header **Bar** now points at `/mobile-bar`; leaving that phrase in visible FAQ copy and FAQPage JSON-LD sent the add-on to the wrong door. Quote-form TypePanel stays. `seo:audit` fails if “the bar page” returns. No new URLs. No JPEG remaps. No related-door photography.
+
+- Coverage/locations honesty lists stay paper. Quote-form TypePanel stays.
+
 ## Keyword discipline (measured, not invented)
 
 Use these as title keywords. Null-volume neighborhood phrases stay in H1/FAQ, not in the `<title>`. `private chef maui cost` (10) stays in Maui `/private-chef-cost` and `/pricing` body copy — a support title containing that phrase would match `private chef maui`.

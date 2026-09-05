@@ -24,7 +24,7 @@ const hubFaqs = [
   },
   {
     q: "What's included?",
-    a: 'Menu design, shopping, cooking in your villa, table service and a clean kitchen. Drinks BYO or quoted. Bartender add-on on the bar page.',
+    a: 'Menu design, shopping, cooking in your villa, table service and a clean kitchen. Drinks BYO or quoted. Bartender add-on lives on /bar.',
   },
   {
     q: 'Do you have Hawaii guest reviews?',
