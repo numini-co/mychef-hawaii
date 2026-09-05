@@ -109,7 +109,6 @@ const ISLAND_RATE_JSONLD = new Set([
   '/services',
   '/mobile-bar',
   '/weddings',
-  '/private-chef',
   '/vacation-chef',
   '/catering',
 ]);

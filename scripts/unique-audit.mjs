@@ -1177,6 +1177,9 @@ if (/HUB_RATE_JSONLD[\s\S]{0,250}'\/corporate'/.test(seoSrc) || /HUB_RATE_JSONLD
 if (/ISLAND_RATE_JSONLD[\s\S]{0,400}'\/bar'/.test(seoSrc) || /HUB_RATE_JSONLD[\s\S]{0,250}'\/bar'/.test(seoSrc)) {
   errors.push('JSON-LD OfferCatalog still treats /bar as the packaged-cart product');
 }
+if (/ISLAND_RATE_JSONLD[\s\S]{0,400}'\/private-chef'/.test(seoSrc)) {
+  errors.push('JSON-LD OfferCatalog still sprays onto island /private-chef');
+}
 if (!/LOCAL_BUSINESS_JSONLD/.test(seoSrc)) {
   errors.push('LocalBusiness JSON-LD must use an identity-page allow list');
 }

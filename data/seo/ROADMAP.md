@@ -1087,6 +1087,12 @@ Still no zip on this machine. Wave 139 relabels the hub `/services` four-up `/ba
 
 - Coverage/locations honesty lists stay paper. Quote-form TypePanel stays.
 
+## Wave 140 — island /private-chef stops shipping OfferCatalog (this branch)
+
+Still no zip on this machine. Wave 140 drops island `/private-chef` from `ISLAND_RATE_JSONLD`. That URL is the inclusion doc, not a tariff — same as hub `/private-chef`, which never had the catalog. FAQPage stays. `seo:audit` fails if the catalog returns. No new URLs. No JPEG remaps. No related-door photography.
+
+- Coverage/locations honesty lists stay paper. Quote-form TypePanel stays.
+
 ## Keyword discipline (measured, not invented)
 
 Use these as title keywords. Null-volume neighborhood phrases stay in H1/FAQ, not in the `<title>`. `private chef maui cost` (10) stays in Maui `/private-chef-cost` and `/pricing` body copy — a support title containing that phrase would match `private chef maui`.
