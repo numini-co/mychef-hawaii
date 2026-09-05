@@ -887,22 +887,22 @@ const sitemapRouteSrc = read('app/sitemap.xml/route.ts');
 if (!/'\/mobile-bar'/.test(sitemapRouteSrc)) {
   errors.push('island XML sitemap still omits /mobile-bar');
 }
-if (!/'\/mobile-bar', '\/personal-chef'/.test(sitemapRouteSrc)) {
-  errors.push('island XML sitemap still omits /personal-chef beside /mobile-bar');
+if (!/'\/mobile-bar', '\/personal-chef', '\/vacation-chef'/.test(sitemapRouteSrc)) {
+  errors.push('island XML sitemap still omits /vacation-chef beside /personal-chef');
 }
 if (!/cell\.slug !== 'personal-chef'/.test(sitemapRouteSrc)) {
   errors.push('island XML sitemap still duplicates /personal-chef from islandServices');
 }
 const seoSitemapSrc = read('lib/seo.ts');
-if (!/'\/mobile-bar', '\/personal-chef'/.test(seoSitemapSrc)) {
-  errors.push('seo.ts sitemapLocs still omits island /personal-chef beside /mobile-bar');
+if (!/'\/mobile-bar', '\/personal-chef', '\/vacation-chef'/.test(seoSitemapSrc)) {
+  errors.push('seo.ts sitemapLocs still omits island /vacation-chef beside /personal-chef');
 }
 if (!/cell\.slug !== 'personal-chef'/.test(seoSitemapSrc)) {
   errors.push('seo.ts sitemapLocs still duplicates /personal-chef from islandServices');
 }
 const htmlSitemapSrc = read('components/views/SupportViews.tsx');
-if (!/'\/mobile-bar', '\/personal-chef'/.test(htmlSitemapSrc)) {
-  errors.push('HTML sitemap still omits island /personal-chef beside /mobile-bar');
+if (!/'\/mobile-bar', '\/personal-chef', '\/vacation-chef'/.test(htmlSitemapSrc)) {
+  errors.push('HTML sitemap still omits island /vacation-chef beside /personal-chef');
 }
 if (!/cell\.slug !== 'personal-chef'/.test(htmlSitemapSrc)) {
   errors.push('HTML sitemap still duplicates /personal-chef from islandServices');

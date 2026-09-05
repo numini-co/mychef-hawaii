@@ -2,7 +2,8 @@
  * Locked master map — island money URLs plus hub /about.
  * Neighborhood corridors are live on each island host and listed in XML
  * sitemaps (see moneyNeighborhoods). Supporting /private-chef /bar /pricing
- * /quote stay live, unadvertised.
+ * /quote stay live, unadvertised. Island /vacation-chef is advertised at
+ * support priority beside /personal-chef; hub /vacation-chef stays a picker.
  */
 
 export const PRODUCTION_ROOT = 'mychef-hawaii.com';

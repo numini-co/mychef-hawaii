@@ -1099,6 +1099,12 @@ Still no zip on this machine. Wave 141 puts the visible `/pricing` accordion int
 
 - Coverage/locations honesty lists stay paper. Quote-form TypePanel stays.
 
+## Wave 142 — island /vacation-chef enters the support sitemap (this branch)
+
+Still no zip on this machine. Wave 142 lists island `/vacation-chef` beside `/personal-chef` on island XML and HTML sitemaps so the Stay Chef week document is advertised at support priority. It was a live unique product URL with OfferCatalog that fell through every sitemap source: not MASTER_MAP, not SUPPORTING_PATHS, not a unique-cell or service-cell slug. Hub `/vacation-chef` stays an unadvertised picker, same as hub `/private-chef`. `/private-chef`, `/bar`, `/pricing`, and `/quote` stay unadvertised. `seo:audit` fails if those sitemap rows drop. No new URLs. No JPEG remaps. No related-door photography.
+
+- Coverage/locations honesty lists stay paper. Quote-form TypePanel stays.
+
 ## Keyword discipline (measured, not invented)
 
 Use these as title keywords. Null-volume neighborhood phrases stay in H1/FAQ, not in the `<title>`. `private chef maui cost` (10) stays in Maui `/private-chef-cost` and `/pricing` body copy — a support title containing that phrase would match `private chef maui`.
