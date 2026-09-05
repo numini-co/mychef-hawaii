@@ -106,14 +106,13 @@ const ISLAND_RATE_JSONLD = new Set([
   '/',
   '/pricing',
   '/private-chef-cost',
-  '/services',
   '/mobile-bar',
   '/weddings',
   '/vacation-chef',
   '/catering',
 ]);
 
-const HUB_RATE_JSONLD = new Set(['/', '/pricing', '/services', '/mobile-bar', '/weddings', '/catering']);
+const HUB_RATE_JSONLD = new Set(['/', '/pricing', '/mobile-bar', '/weddings', '/catering']);
 
 const LOCAL_BUSINESS_JSONLD = new Set(['/', '/about', '/contact']);
 

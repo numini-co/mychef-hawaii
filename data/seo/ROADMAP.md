@@ -1111,6 +1111,12 @@ Still no zip on this machine. Wave 143 sends footer **Pricing** and **Legal** to
 
 - Coverage/locations honesty lists stay paper. Quote-form TypePanel stays.
 
+## Wave 144 — hub and island /services stop shipping OfferCatalog (this branch)
+
+Still no zip on this machine. Wave 144 drops `/services` from both rate-page allow lists. That URL is the service list, not a tariff — same as `/private-chef` (inclusion) and `/events` (occasions). OfferCatalog stays on `/pricing`, money owners, `/vacation-chef`, and `/private-chef-cost`. Island `/services` FAQPage stays. `seo:audit` fails if the catalog returns on `/services`. No new URLs. No JPEG remaps. No related-door photography.
+
+- Coverage/locations honesty lists stay paper. Quote-form TypePanel stays.
+
 ## Keyword discipline (measured, not invented)
 
 Use these as title keywords. Null-volume neighborhood phrases stay in H1/FAQ, not in the `<title>`. `private chef maui cost` (10) stays in Maui `/private-chef-cost` and `/pricing` body copy — a support title containing that phrase would match `private chef maui`.
