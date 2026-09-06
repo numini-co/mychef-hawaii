@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
+import BrandMark from '@/components/BrandMark';
 import { EnquireCta } from '@/components/Cta';
 import HostLink from '@/components/HostLink';
 import IslandSwitcher from '@/components/IslandSwitcher';
@@ -89,9 +90,12 @@ export default function SiteHeader() {
           <HostLink
             island={islandId ?? 'root'}
             aria-label={islandId ? `myCHEF ${islands[islandId].name} home` : 'myCHEF Hawaii home'}
-            className="font-display text-[1.375rem] font-light tracking-tight text-[var(--nav-fg)]"
+            className="flex items-center gap-2.5 font-display text-[1.375rem] font-light tracking-tight text-[var(--nav-fg)]"
           >
-            myCHEF
+            <BrandMark className="h-7 w-7" />
+            <span>
+              my<span className="text-brass">CHEF</span>
+            </span>
           </HostLink>
         </div>
 
