@@ -101,7 +101,7 @@ export function PageHeader({
           />
         </>
       ) : null}
-      <div className={`mx-auto w-full max-w-6xl px-6 ${hero ? 'pt-24 pb-14 sm:pb-20' : 'py-16'}`}>{copy}</div>
+      <div className={`mx-auto w-full max-w-6xl px-6 ${hero ? 'pb-12 pt-20 sm:pb-20 sm:pt-24' : 'py-12 sm:py-16'}`}>{copy}</div>
     </header>
   );
 }
@@ -114,7 +114,7 @@ function HeaderCta({ cta }: { cta: ContentRecord['cta'] }) {
   const resolve = useResolve();
   if (!cta?.label || !cta.href) return null;
   return (
-    <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 sm:mt-8">
+    <div className="mt-6 flex flex-col items-stretch gap-3 sm:mt-8 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-6 sm:gap-y-3">
       <Link to={resolve(cta.href)} className="cta-site">
         {cta.label}
       </Link>
@@ -134,7 +134,7 @@ export function SectionLinks({ section }: { section: ContentSection }) {
     <ul className="mt-4 flex flex-wrap gap-x-6 gap-y-2">
       {section.links.map((l) => (
         <li key={l.href + l.label}>
-          <Link to={resolve(l.href)} className="link-site">
+          <Link to={resolve(l.href)} className="link-site inline-flex min-h-11 items-center">
             {l.label} →
           </Link>
         </li>
@@ -197,7 +197,7 @@ export function RelatedPages({ record }: { record: ContentRecord }) {
       <ul className="grid gap-3 sm:grid-cols-2">
         {related.map((r) => (
           <li key={r.slug}>
-            <Link to={link(r.slug)} className="card-site block min-h-11 px-4 py-3">
+            <Link to={link(r.slug)} className="card-site block min-h-11 px-4 py-4">
               <span className="eyebrow-site">{r.category}</span>
               <span className="mt-1 block text-ink">{r.h1}</span>
             </Link>

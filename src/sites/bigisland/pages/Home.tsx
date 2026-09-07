@@ -63,7 +63,7 @@ export default function BigIslandHome() {
           first. Villa dinners $150–$225 a guest, ENTRY from $110. Stay Chef from $950 a day. The written
           quote is the confirmed total.
         </p>
-        <div className="mt-8 flex flex-wrap items-center gap-6">
+        <div className="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-6">
           <Link to={link('quote')} className="cta-site">
             Get a written quote
           </Link>

@@ -22,7 +22,7 @@ export default function FAQAccordion({ items, className = '' }: { items: FaqItem
                 aria-expanded={isOpen}
                 aria-controls={panelId}
                 onClick={() => setOpen(isOpen ? null : i)}
-                className="motion-site flex w-full items-center justify-between gap-4 py-4 text-left font-medium hover:text-ink-2"
+                className="motion-site flex min-h-11 w-full items-start justify-between gap-4 py-3.5 text-left font-medium hover:text-ink-2"
               >
                 <span>{item.q}</span>
                 <span aria-hidden="true" className="text-accent-site">{isOpen ? '−' : '+'}</span>

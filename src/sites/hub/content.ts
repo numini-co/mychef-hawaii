@@ -13,14 +13,15 @@ export const content: ContentRecord[] = [
   {
     slug: '',
     category: 'core',
-    title: 'Private Chef Hawaii — Four Islands, Published Prices',
-    h1: 'A private chef, anywhere in Hawaiʻi.',
+    title: 'Private Chef Hawaii — The Statewide Desk | myCHEF',
+    h1: 'One desk. Four islands. Every table.',
     meta: {
       description:
-        'One network, four island teams — Oʻahu, Maui, Kauaʻi, and the Big Island. Published per-guest prices, a written quote that is the confirmed total, and a chef who shops, cooks, serves, and leaves the kitchen clean.',
+        'The main myCHEF Hawaii site. Private chefs, catering, weddings and events across Oʻahu, Maui, Kauaʻi and the Big Island — or as one multi-island itinerary. Published prices. A written quote that is the confirmed total.',
+      ogImage: '/img/hub/hero-statewide-desk.jpg',
     },
     intro:
-      'One network, four island teams. Published per-guest prices, a written quote that is the confirmed total, and a chef who shops, cooks, serves, and leaves the kitchen clean.',
+      'This is the main myCHEF Hawaii site. Pick the island you are staying on, or give us the whole itinerary — private chefs, catering, and events, staffed by the team that lives where you land.',
     sections: [],
     cta: { label: 'Get a written quote', href: '/quote', secondaryLabel: 'Compare the islands', secondaryHref: '/islands' },
     keywords: ['private chef Hawaii'],

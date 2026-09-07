@@ -29,7 +29,12 @@ interface AreaOption {
 }
 
 const AREAS: Record<SiteId, AreaOption[]> = {
-  hub: [],
+  hub: [
+    { label: 'Two islands' },
+    { label: 'Three islands' },
+    { label: 'All four islands' },
+    { label: 'Wedding week across islands' },
+  ],
   oahu: [
     { label: 'Honolulu / Waikīkī' },
     { label: 'Kahala' },
@@ -69,24 +74,28 @@ interface ServiceOption {
   islands?: SiteId[]; // restricted services (weekly resident)
 }
 
+function rateOf(island: SiteId) {
+  return island === 'hub' ? null : RATES[island];
+}
+
 const SERVICES: ServiceOption[] = [
   {
     id: 'signature',
     label: 'One evening — Signature dinner',
     scope: 'A restaurant-grade dinner cooked and served in your kitchen.',
-    price: (i) => `${RATES[i as keyof typeof RATES].coreBand} a guest`,
+    price: (i) => `${rateOf(i)?.coreBand ?? '$125–$250'} a guest`,
   },
   {
     id: 'date-night',
     label: 'Date Night for two',
     scope: 'The two-person format: one chef, one table, one evening.',
-    price: (i) => RATES[i as keyof typeof RATES].dateNight,
+    price: (i) => rateOf(i)?.dateNight ?? 'from $450',
   },
   {
     id: 'stay-chef',
     label: 'Multi-day — Stay Chef',
     scope: 'The same chef across the trip: breakfasts, kids’ meals, dinners.',
-    price: (i) => `from $${RATES[i as keyof typeof RATES].stayChefDay}/day`,
+    price: (i) => `from $${rateOf(i)?.stayChefDay ?? 850}/day`,
   },
   {
     id: 'wedding-week',
@@ -175,11 +184,17 @@ function track(event: string, detail?: Record<string, unknown>) {
 
 /* ---------------- component ---------------- */
 
+function arrivingMulti() {
+  if (typeof window === 'undefined') return false;
+  return new URLSearchParams(window.location.search).get('itinerary') === 'multi';
+}
+
 export default function QuoteFlow() {
   const { siteId, link } = useSite();
   const arrivingIsland = siteId !== 'hub' ? siteId : '';
 
   const [s, setS] = useState<QuoteState>(() => {
+    if (arrivingMulti()) return { ...initialState(''), island: 'hub' };
     try {
       const saved = sessionStorage.getItem(STORAGE_KEY);
       if (saved) {
@@ -225,7 +240,9 @@ export default function QuoteFlow() {
   }, [s]);
 
   /* The hub re-skin: from step 2 onward the chosen island's tokens apply. */
-  const skinId: SiteId = siteId === 'hub' && s.island && s.step >= 2 ? (s.island as SiteId) : siteId;
+  const skinId: SiteId =
+    siteId === 'hub' && s.island && s.island !== 'hub' && s.step >= 2 ? (s.island as SiteId) : siteId;
+  const islandLabel = s.island === 'hub' ? 'Multi-island itinerary' : SITE_META[island]?.name ?? '—';
   const skinVars = tokensToCssVars(TOKENS[skinId]) as React.CSSProperties;
 
   const area = AREAS[island]?.find((a) => a.label === s.area);
@@ -234,7 +251,7 @@ export default function QuoteFlow() {
   const brief = useMemo(() => {
     const lines = [
       'myCHEF Hawaii — quote brief',
-      `Island: ${SITE_META[island]?.name ?? '—'}`,
+      `Island: ${islandLabel}`,
       `Service: ${service?.label ?? '—'}`,
       `Date: ${s.date || '—'}`,
       `Guests: ${s.guests}`,
@@ -248,11 +265,11 @@ export default function QuoteFlow() {
       '(The written quote is the confirmed total; ranges are estimates only.)',
     ].filter(Boolean);
     return lines.join('\n');
-  }, [s, island, service]);
+  }, [s, island, service, islandLabel]);
 
   const whatsappHref = `https://wa.me/${CONTACT.whatsappNumber}?text=${encodeURIComponent(brief)}`;
   const mailtoHref = `mailto:${CONTACT.email}?subject=${encodeURIComponent(
-    `Quote brief — ${SITE_META[island]?.name ?? 'Hawaiʻi'} — ${s.date || 'dates flexible'}`,
+    `Quote brief — ${islandLabel} — ${s.date || 'dates flexible'}`,
   )}&body=${encodeURIComponent(brief)}`;
 
   const indicative = useMemo(() => {
@@ -277,12 +294,15 @@ export default function QuoteFlow() {
 
         {/* Progress */}
         <nav aria-label="Quote progress" className="mt-8">
-          <ol className="flex flex-wrap items-center gap-2">
+          <p className="mb-3 text-sm text-ink-2 sm:hidden">
+            Step {s.step} of 6 · {STEP_NAMES[s.step - 1]}
+          </p>
+          <ol className="flex items-center gap-2 overflow-x-auto pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {STEP_NAMES.map((name, i) => {
               const n = i + 1;
               const state = n < s.step ? 'done' : n === s.step ? 'current' : 'todo';
               return (
-                <li key={name} className="flex items-center gap-2">
+                <li key={name} className="flex shrink-0 items-center gap-2">
                   <button
                     type="button"
                     disabled={n > s.step}
@@ -299,7 +319,7 @@ export default function QuoteFlow() {
                   >
                     {n}
                   </button>
-                  {n < STEP_NAMES.length ? <span aria-hidden="true" className="h-px w-4" style={{ backgroundColor: 'var(--site-line)' }} /> : null}
+                  {n < STEP_NAMES.length ? <span aria-hidden="true" className="hidden h-px w-4 sm:block" style={{ backgroundColor: 'var(--site-line)' }} /> : null}
                 </li>
               );
             })}
@@ -310,7 +330,7 @@ export default function QuoteFlow() {
           Step {s.step} of 6: {STEP_NAMES[s.step - 1]}
         </div>
 
-        <div className="card-site mt-8 p-6 md:p-8">
+        <div className="card-site mt-8 p-4 sm:p-6 md:p-8">
           {s.step === 1 ? (
             <StepIsland s={s} set={set} />
           ) : s.step === 2 ? (
@@ -421,6 +441,12 @@ function StepIsland({ s, set }: StepProps) {
             body={`Signature ${RATES[id].coreBand} a guest · Stay Chef from $${RATES[id].stayChefDay}/day`}
           />
         ))}
+        <ChoiceCard
+          selected={s.island === 'hub'}
+          onSelect={() => set({ island: 'hub', area: '' })}
+          title="More than one island"
+          body="We staff every table on the itinerary — one brief, one written quote."
+        />
       </div>
     </fieldset>
   );
@@ -466,9 +492,25 @@ function StepDateGuests({ s, set, island, area }: StepProps & { island: SiteId; 
         <div>
           <span id="q-guests-label" className="eyebrow-site mb-2 block">Guests</span>
           <div className="flex items-center gap-4" role="group" aria-labelledby="q-guests-label">
-            <button type="button" className="cta-secondary-site" aria-label="Fewer guests" onClick={() => set({ guests: Math.max(2, s.guests - 1) })}>−</button>
+            <button
+              type="button"
+              className="inline-flex h-11 w-11 items-center justify-center border border-line-site text-xl"
+              style={{ borderRadius: 'var(--site-cta-radius)' }}
+              aria-label="Fewer guests"
+              onClick={() => set({ guests: Math.max(2, s.guests - 1) })}
+            >
+              −
+            </button>
             <span className="tabular-site font-display text-3xl" aria-live="polite">{s.guests}</span>
-            <button type="button" className="cta-secondary-site" aria-label="More guests" onClick={() => set({ guests: Math.min(80, s.guests + 1) })}>+</button>
+            <button
+              type="button"
+              className="inline-flex h-11 w-11 items-center justify-center border border-line-site text-xl"
+              style={{ borderRadius: 'var(--site-cta-radius)' }}
+              aria-label="More guests"
+              onClick={() => set({ guests: Math.min(80, s.guests + 1) })}
+            >
+              +
+            </button>
           </div>
           {s.guests > 75 ? (
             <p className="mt-2 text-sm text-ink-2">Over 75 guests is a written exception — we confirm staffing in writing before taking the date.</p>
@@ -501,7 +543,7 @@ function StepDetails({ s, set }: StepProps) {
       <div className="mt-5 space-y-6">
         <div>
           <span id="q-kitchen-label" className="eyebrow-site mb-2 block">Does the property have a full kitchen?</span>
-          <div className="flex flex-wrap gap-3" role="group" aria-labelledby="q-kitchen-label">
+          <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap" role="group" aria-labelledby="q-kitchen-label">
             {([
               ['yes', 'Yes — stove, oven, counter'],
               ['unsure', 'Not sure'],
@@ -511,7 +553,7 @@ function StepDetails({ s, set }: StepProps) {
                 key={v}
                 type="button"
                 aria-pressed={s.kitchen === v}
-                className="cta-secondary-site"
+                className="cta-secondary-site w-full sm:w-auto"
                 style={s.kitchen === v ? { borderColor: 'var(--site-accent-text)' } : undefined}
                 onClick={() => set({ kitchen: v })}
               >
@@ -528,7 +570,7 @@ function StepDetails({ s, set }: StepProps) {
                 key={d}
                 type="button"
                 aria-pressed={s.dietary.includes(d)}
-                className="border px-3 py-1.5 text-sm motion-site"
+                className="chip-site motion-site"
                 style={{
                   borderRadius: 'var(--site-cta-radius)',
                   borderColor: s.dietary.includes(d) ? 'var(--site-accent-text)' : 'var(--site-line)',
@@ -560,7 +602,7 @@ function StepDetails({ s, set }: StepProps) {
                 key={a}
                 type="button"
                 aria-pressed={s.addons.includes(a)}
-                className="border px-3 py-1.5 text-sm motion-site"
+                className="chip-site motion-site"
                 style={{
                   borderRadius: 'var(--site-cta-radius)',
                   borderColor: s.addons.includes(a) ? 'var(--site-accent-text)' : 'var(--site-line)',
@@ -635,7 +677,9 @@ function StepReview({
   if (s.sent) {
     return (
       <div role="status">
-        <p className="font-display text-2xl">Your brief is with the {SITE_META[island].name} team.</p>
+        <p className="font-display text-2xl">
+          Your brief is with the {island === 'hub' ? 'statewide' : SITE_META[island].name} desk.
+        </p>
         <p className="mt-4 text-ink-2">
           The written quote you receive is the confirmed total. A 50% deposit locks the date — only after
           you’ve seen the numbers.
@@ -645,7 +689,7 @@ function StepReview({
   }
 
   const rows: [string, string][] = [
-    ['Island', SITE_META[island].name],
+    ['Island', island === 'hub' ? 'Multi-island itinerary' : SITE_META[island].name],
     ['Service', service?.label ?? '—'],
     ['Date', s.date],
     ['Guests', String(s.guests)],
@@ -709,7 +753,7 @@ function StepReview({
         </a>
       </div>
       <p className="mt-4 text-sm text-ink-2">
-        Both doors send the same structured brief to the {SITE_META[island].name} team. Nothing is booked yet;
+        Both doors send the same structured brief to the {island === 'hub' ? 'statewide' : SITE_META[island].name} desk. Nothing is booked yet;
         nothing is charged.
       </p>
     </div>
@@ -734,7 +778,7 @@ function ChoiceCard({
       type="button"
       aria-pressed={selected}
       onClick={onSelect}
-      className="card-site motion-site p-4 text-left"
+      className="card-site motion-site min-h-11 p-4 text-left"
       style={selected ? { borderColor: 'var(--site-accent-text)', borderWidth: 1 } : undefined}
     >
       <span className="block font-medium">{title}</span>

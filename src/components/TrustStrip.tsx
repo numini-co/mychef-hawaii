@@ -8,7 +8,7 @@ import { TRUST_CLAIMS } from '@/platform/config';
 export default function TrustStrip({ className = '' }: { className?: string }) {
   return (
     <div className={`rule-y ${className}`}>
-      <div className="mx-auto grid max-w-6xl grid-cols-2 gap-px lg:grid-cols-4">
+      <div className="mx-auto grid max-w-6xl grid-cols-2 gap-px px-4 lg:grid-cols-4">
         {TRUST_CLAIMS.map((claim, i) => (
           <SectionReveal
             key={claim}

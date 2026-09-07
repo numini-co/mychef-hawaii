@@ -111,7 +111,7 @@ export function HeroPanel({
         }}
       />
       <div className="absolute inset-x-0 bottom-0">
-        <div className="mx-auto max-w-6xl px-6 pb-12 md:pb-16">
+        <div className="mx-auto max-w-6xl px-6 pb-[calc(var(--rate-bar-h)+1.75rem)] md:pb-16">
           {/* Cream, not lehua: the accent only clears AA on flat basalt, and a
               hero photo is never flat. */}
           <Mono className="text-[12px] text-ink">{eyebrow}</Mono>
@@ -141,7 +141,7 @@ export function BandQuote({
         <Mono className="text-[11px] text-ink-2">QUOTE — FIVE FIELDS, TWO MINUTES</Mono>
         <h2 className="h2-site mt-4 max-w-2xl">{heading}</h2>
         <p className="measure-site mt-5 text-ink-2">{note}</p>
-        <div className="mt-8 flex flex-wrap items-center gap-6">
+        <div className="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-6">
           <Link to={link('quote')} className="cta-site">
             Get a written quote
           </Link>

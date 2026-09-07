@@ -15,8 +15,8 @@ export default function Footer() {
   if (isHub) {
     return (
       <footer className="footer-site rule-t">
-        <div className="mx-auto max-w-6xl px-6 py-14">
-          <div className="grid gap-10 md:grid-cols-4">
+        <div className="mx-auto max-w-6xl px-6 py-10 sm:py-14">
+          <div className="grid grid-cols-2 gap-8 md:grid-cols-4 md:gap-10">
             <FooterCol
               title="Islands"
               links={[
@@ -66,8 +66,8 @@ export default function Footer() {
 
   return (
     <footer className="footer-site rule-t">
-      <div className="mx-auto max-w-6xl px-6 py-14">
-        <div className="grid gap-10 md:grid-cols-3">
+      <div className="mx-auto max-w-6xl px-6 py-10 sm:py-14">
+        <div className="grid gap-10 sm:grid-cols-3">
           <div>
             <Link to={link('')} className="text-ink" aria-label="Home">
               <BrandLockup />
@@ -169,7 +169,7 @@ function FooterCol({ title, links }: { title: string; links: { label: string; to
       <ul className="space-y-2 text-sm">
         {links.map((l) => (
           <li key={l.to + l.label}>
-            <Link to={l.to} className="link-site">
+            <Link to={l.to} className="link-site inline-flex min-h-11 items-center">
               {l.label}
             </Link>
           </li>

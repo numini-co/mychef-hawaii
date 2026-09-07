@@ -81,8 +81,27 @@ export default function ConciergeWidget() {
   const { siteId, isHub } = useSite();
   const host = HOSTS[siteId];
   const [open, setOpen] = useState(false);
+  const [docked, setDocked] = useState(true);
   const wrap = useRef<HTMLDivElement | null>(null);
   const button = useRef<HTMLButtonElement | null>(null);
+
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 639px)');
+    const sync = () => {
+      if (!mq.matches) {
+        setDocked(true);
+        return;
+      }
+      setDocked(window.scrollY > 280);
+    };
+    sync();
+    window.addEventListener('scroll', sync, { passive: true });
+    mq.addEventListener('change', sync);
+    return () => {
+      window.removeEventListener('scroll', sync);
+      mq.removeEventListener('change', sync);
+    };
+  }, []);
 
   useEffect(() => {
     if (!open) return;
@@ -105,6 +124,7 @@ export default function ConciergeWidget() {
 
   const place = isHub ? 'Hawaiʻi' : SITE_META[siteId].name;
   const band = isHub ? 'Signature dinners $125–$250 a guest' : `Signature dinners ${RATES[siteId as IslandId].coreBand} a guest`;
+  const dock = 'calc(var(--rate-bar-h) + 0.85rem)';
 
   // The greeting a host would actually send — island-specific, not a form.
   const GREETINGS: Record<SiteId, string> = {
@@ -116,8 +136,17 @@ export default function ConciergeWidget() {
   };
   const waText = encodeURIComponent(GREETINGS[siteId]);
 
+  if (!docked && !open) return null;
+
   return (
-    <div ref={wrap} className="fixed bottom-5 right-5 z-50 sm:bottom-6 sm:right-6">
+    <div
+      ref={wrap}
+      className="fixed z-50"
+      style={{
+        right: 'max(1.25rem, env(safe-area-inset-right, 0px))',
+        bottom: dock,
+      }}
+    >
       {open ? (
         <div
           role="dialog"

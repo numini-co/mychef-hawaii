@@ -12,7 +12,7 @@ export default function ServicePage({ record }: { record: ContentRecord }) {
   const [first, ...rest] = record.sections;
   return (
     <article>
-      <div className="section-pad mx-auto max-w-6xl px-6">
+      <div className="section-pad mx-auto max-w-6xl px-4 sm:px-6">
         <PageHeader record={record} crumbs={crumbs} />
         {first ? (
           <div className="mt-14 grid items-start gap-10 md:grid-cols-2">
@@ -22,7 +22,7 @@ export default function ServicePage({ record }: { record: ContentRecord }) {
         ) : null}
         <div className="mt-16 space-y-16">
           {rest.map((s, i) => (
-            <div key={s.id ?? s.heading ?? i} className={s.band ? 'band-site section-pad -mx-6 px-6' : ''}>
+            <div key={s.id ?? s.heading ?? i} className={s.band ? 'band-site section-pad -mx-4 px-4 sm:-mx-6 sm:px-6' : ''}>
               {s.band ? (
                 <div className="mx-auto max-w-6xl">
                   <SectionBody section={s} index={i + 1} />

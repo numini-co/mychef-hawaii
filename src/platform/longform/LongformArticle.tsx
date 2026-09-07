@@ -11,13 +11,15 @@ import SectionReveal from '@/components/SectionReveal';
 export default function LongformArticle({ record }: { record: ContentRecord }) {
   const { siteId, link } = useSite();
   const extra = expandRecord(record, siteId as SiteId);
-  const shots = bodyShots(record, siteId as SiteId, 2);
+  const shots = bodyShots(record, siteId as SiteId, 9);
   const resolve = (href: string) => (href.startsWith('/') ? href : link(href));
 
   return (
     <div className="longform-site mx-auto max-w-3xl px-4 sm:px-6">
       <div className="rule-t mt-12 space-y-10 pt-10 sm:mt-16 sm:space-y-12 sm:pt-14">
-        {extra.sections.map((s, i) => (
+        {extra.sections.map((s, i) => {
+          const shot = shots[i];
+          return (
           <div key={s.id ?? s.heading ?? i} className="space-y-10 sm:space-y-12">
             <SectionReveal as="section">
               {s.heading ? <h2 className="h2-site">{s.heading}</h2> : null}
@@ -51,42 +53,40 @@ export default function LongformArticle({ record }: { record: ContentRecord }) {
               ) : null}
             </SectionReveal>
 
-            {i === 1 && shots[0] ? (
+            {shot ? (
               <SectionReveal as="div" className="overflow-hidden rounded-[var(--site-card-radius)] border border-line-site bg-card-site shadow-[var(--site-card-shadow)]">
                 <figure className="m-0">
                   <img
-                    src={shots[0].src}
-                    alt={shots[0].alt}
+                    src={shot.src}
+                    alt={shot.alt}
                     loading="lazy"
                     className="h-64 w-full object-cover sm:h-80"
                   />
                   <figcaption className="px-4 py-2.5 text-xs text-ink-2">
-                    {shots[0].alt}
-                  </figcaption>
-                </figure>
-              </SectionReveal>
-            ) : null}
-
-            {i === 4 && shots[1] ? (
-              <SectionReveal as="div" className="overflow-hidden rounded-[var(--site-card-radius)] border border-line-site bg-card-site shadow-[var(--site-card-shadow)]">
-                <figure className="m-0">
-                  <img
-                    src={shots[1].src}
-                    alt={shots[1].alt}
-                    loading="lazy"
-                    className="h-64 w-full object-cover sm:h-80"
-                  />
-                  <figcaption className="px-4 py-2.5 text-xs text-ink-2">
-                    {shots[1].alt}
+                    {shot.alt}
                   </figcaption>
                 </figure>
               </SectionReveal>
             ) : null}
           </div>
-        ))}
+          );
+        })}
       </div>
       {extra.faq.length ? (
         <section className="mt-12 sm:mt-16" aria-label="More questions">
+          {shots[extra.sections.length] ? (
+            <figure className="mb-10 overflow-hidden rounded-[var(--site-card-radius)] border border-line-site bg-card-site shadow-[var(--site-card-shadow)]">
+              <img
+                src={shots[extra.sections.length].src}
+                alt={shots[extra.sections.length].alt}
+                loading="lazy"
+                className="h-64 w-full object-cover sm:h-80"
+              />
+              <figcaption className="px-4 py-2.5 text-xs text-ink-2">
+                {shots[extra.sections.length].alt}
+              </figcaption>
+            </figure>
+          ) : null}
           <h2 className="h2-site mb-6">More questions about this page</h2>
           <FAQAccordion items={extra.faq} />
         </section>

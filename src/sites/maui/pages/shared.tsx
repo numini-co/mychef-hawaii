@@ -33,7 +33,7 @@ export function MauiStyles() {
       .maui-timeline-track::-webkit-scrollbar { display: none; }
       .maui-timeline-track > li { scroll-snap-align: start; }
       .maui-progress-line { transform-origin: left; transform: scaleX(0); transition: transform 150ms linear; }
-      @media (prefers-reduced-motion: reduce) {
+      @media (max-width: 767px), (prefers-reduced-motion: reduce) {
         .maui-hero-img, .maui-hero-h1, .maui-hero-sub { animation: none; opacity: 1; transform: none; }
         .card-site .maui-card-img, a.card-site { transition: none; }
         .maui-progress-line { transition: none; }

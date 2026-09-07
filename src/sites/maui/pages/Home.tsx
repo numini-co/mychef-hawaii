@@ -147,7 +147,7 @@ export default function MauiHome() {
               'linear-gradient(to top, rgba(36,28,23,0.88) 0%, rgba(36,28,23,0.62) 34%, rgba(36,28,23,0.30) 58%, rgba(36,28,23,0.08) 78%, rgba(36,28,23,0) 92%)',
           }}
         />
-        <div className="relative mx-auto w-full max-w-6xl px-6 pb-24 pt-40 md:pb-32">
+        <div className="relative mx-auto w-full max-w-6xl px-6 pb-[calc(var(--rate-bar-h)+2.5rem)] pt-28 md:pb-32 md:pt-40">
           <h1
             className="maui-hero-h1 font-display"
             style={{
@@ -163,13 +163,13 @@ export default function MauiHome() {
             A private chef for your Wailea villa, your Kapalua estate, your whole wedding week. Villa dinners
             $150–$250 a guest; the written quote is the confirmed total.
           </p>
-          <div className="maui-hero-sub mt-8 flex flex-wrap items-center gap-6">
+          <div className="maui-hero-sub mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-6">
             <Link to={link('weddings/wedding-week')} className="cta-site">
               Plan your week
             </Link>
             <Link
               to={link('pricing')}
-              className="motion-site underline underline-offset-4"
+              className="cta-ghost-site"
               style={{ color: '#FBF3E8' }}
             >
               See pricing

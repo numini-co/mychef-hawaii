@@ -14,7 +14,7 @@ export default function IslandRateBar() {
   if (!rates) return null;
 
   return (
-    <div className="rate-bar-site fixed inset-x-0 bottom-0 z-40 border-t border-line-site px-4 py-2.5 sm:px-6">
+    <div className="rate-bar-site fixed inset-x-0 bottom-0 z-40 border-t border-line-site px-4 py-1.5 sm:px-6 sm:py-2.5">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 text-xs sm:text-sm">
         <p className="tabular-site min-w-0 truncate text-ink-2">
           <span className="text-ink">Signature {rates.coreBand}</span>
@@ -25,7 +25,7 @@ export default function IslandRateBar() {
             Date Night {rates.dateNight}
           </span>
         </p>
-        <Link to={link('pricing')} className="link-site shrink-0">
+        <Link to={link('pricing')} className="link-site inline-flex min-h-11 shrink-0 items-center">
           Rate card →
         </Link>
       </div>

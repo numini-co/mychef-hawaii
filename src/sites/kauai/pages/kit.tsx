@@ -54,7 +54,7 @@ export function FramedHero({
   children?: ReactNode;
 }) {
   return (
-    <header className="mx-auto max-w-6xl px-6 pt-10 pb-14 md:pt-16">
+    <header className="mx-auto max-w-6xl px-6 pt-8 pb-12 md:pt-16 md:pb-14">
       <div className="grid items-end gap-8 md:grid-cols-12">
         <div className="md:col-span-5">
           <p className="eyebrow-site word-rise" style={{ ['--wr-delay' as string]: '0ms' }}>

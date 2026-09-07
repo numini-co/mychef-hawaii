@@ -94,7 +94,7 @@ export default function OahuHome() {
               Signature dinner {RATES.oahu.coreBand} a guest, groceries included. Stay Chef from $850 a day.
               The written quote is the confirmed total.
             </p>
-            <div className="mt-8 flex flex-wrap items-center gap-5">
+            <div className="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-5">
               <Link to="/oahu/quote" className="cta-site">Get a written quote</Link>
               <Link to="/oahu/pricing" className="cta-secondary-site">See the rate card →</Link>
             </div>

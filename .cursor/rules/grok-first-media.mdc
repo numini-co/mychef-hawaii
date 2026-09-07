@@ -1,0 +1,17 @@
+---
+description: Grok is the only generator for images and videos. Never use BFL.
+alwaysApply: true
+---
+
+# Grok-only media
+
+This project has **no BFL account**. Never call BFL, Flux, `flux.py`, or Black Forest Labs.
+
+Images and videos are created with the **Grok** model only:
+
+1. Stills — Cursor `GenerateImage` (Grok).
+2. Video — Grok image/video tools. Do not invent footage with Luma, Runway, or ffmpeg.
+
+ffmpeg, WebP, and JPEG are convert/encode only. They may compress or loop a file Grok already made. They must not be the first creator of a picture or film.
+
+If Grok cannot generate, stop and say so. Do not fall back to BFL.

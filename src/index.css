@@ -24,11 +24,15 @@
     --input: 240 5.9% 90%;
     --ring: 240 4.9% 83.9%;
     --radius: 0.625rem;
-    --nav-h: 60px;
+    --nav-bar: 60px;
+    --nav-h: calc(var(--nav-bar) + env(safe-area-inset-top, 0px));
+    --fab: 3.5rem;
+    --rate-bar-h: 0px;
   }
   @media (min-width: 768px) {
     :root {
-      --nav-h: 72px;
+      --nav-bar: 72px;
+      --nav-h: calc(var(--nav-bar) + env(safe-area-inset-top, 0px));
     }
   }
 }
@@ -40,6 +44,8 @@
   html {
     scroll-behavior: smooth;
     overflow-x: clip;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
   }
   body {
     @apply antialiased;
@@ -47,7 +53,10 @@
     overflow-x: clip;
   }
   img {
-    @apply max-w-full h-auto;
+    @apply max-w-full;
+  }
+  img:not(.object-cover) {
+    height: auto;
   }
 }
 
@@ -90,6 +99,8 @@
     letter-spacing: var(--site-display-tracking);
     font-size: var(--site-h1);
     line-height: 1.06;
+    overflow-wrap: break-word;
+    text-wrap: balance;
   }
   .h2-site {
     font-family: var(--font-display);
@@ -97,6 +108,12 @@
     letter-spacing: var(--site-display-tracking);
     font-size: var(--site-h2);
     line-height: 1.12;
+    overflow-wrap: break-word;
+    text-wrap: balance;
+  }
+  @media (max-width: 639px) {
+    .h1-site { font-size: min(var(--site-h1), 2.35rem); }
+    .h2-site { font-size: min(var(--site-h2), 1.75rem); }
   }
   .eyebrow-site {
     font-family: var(--font-accent);
@@ -128,24 +145,61 @@
     text-transform: var(--site-cta-transform);
     letter-spacing: var(--site-cta-tracking);
     padding: 0.9rem 1.5rem;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
     transition: opacity var(--site-motion-ms) var(--site-motion-ease),
       transform var(--site-motion-ms) var(--site-motion-ease),
       background-color var(--site-motion-ms) var(--site-motion-ease);
   }
   .cta-site:hover { opacity: 0.88; }
+  @media (max-width: 639px) {
+    .cta-site { width: 100%; }
+  }
   .cta-secondary-site {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.4rem;
+    min-height: 44px;
     color: var(--site-accent-text);
     font: var(--site-cta-font);
     text-transform: var(--site-cta-transform);
     letter-spacing: var(--site-cta-tracking);
     border-bottom: 1px solid var(--site-line);
-    padding-bottom: 2px;
+    padding: 0.55rem 0.15rem;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
     transition: border-color var(--site-motion-ms) var(--site-motion-ease);
   }
   .cta-secondary-site:hover { border-color: var(--site-accent-text); }
+  .cta-ghost-site {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    width: 100%;
+    padding: 0.9rem 1.5rem;
+    border: 1px solid currentColor;
+    border-radius: var(--site-cta-radius);
+    font: var(--site-cta-font);
+    text-transform: var(--site-cta-transform);
+    letter-spacing: var(--site-cta-tracking);
+    touch-action: manipulation;
+  }
+  @media (min-width: 640px) {
+    .cta-ghost-site { width: auto; }
+  }
+  .chip-site {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 0.45rem 0.9rem;
+    border: 1px solid var(--site-line);
+    border-radius: var(--site-cta-radius);
+    font-size: 0.875rem;
+    touch-action: manipulation;
+  }
 
   .link-site {
     color: var(--site-accent-text);
@@ -227,9 +281,15 @@
     margin-top: 0;
   }
 
-  /* Island rate bar clearance + safe area */
+  /* Island rate bar + floating concierge clearance */
+  [data-site]:not([data-site="hub"]) {
+    --rate-bar-h: calc(3.5rem + env(safe-area-inset-bottom, 0px));
+  }
   [data-site]:not([data-site="hub"]) main {
-    padding-bottom: calc(3.75rem + env(safe-area-inset-bottom, 0px));
+    padding-bottom: calc(var(--rate-bar-h) + 0.5rem);
+  }
+  [data-site="hub"] main {
+    padding-bottom: calc(1.25rem + env(safe-area-inset-bottom, 0px));
   }
   /*
    * Full-bleed page hero. Templates mount it as the first child of a padded,
@@ -237,9 +297,9 @@
    * cancels exactly the padding-top that container just applied.
    */
   .page-hero-site {
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+    margin-right: -1rem;
     margin-top: calc(-1 * min(var(--site-section-pad), 56px));
     min-height: calc(100svh - var(--nav-h));
   }
@@ -253,7 +313,12 @@
     --site-accent2: var(--site-ink-base);
   }
   @media (min-width: 640px) {
-    .page-hero-site { margin-top: calc(-1 * var(--site-section-pad)); }
+    .page-hero-site {
+      width: calc(100% + 3rem);
+      margin-left: -1.5rem;
+      margin-right: -1.5rem;
+      margin-top: calc(-1 * var(--site-section-pad));
+    }
   }
   @media (min-width: 768px) {
     .page-hero-site { margin-top: calc(-1 * var(--site-section-pad-desktop)); }
@@ -275,6 +340,24 @@
   .rate-bar-site {
     background-color: var(--site-bg);
     padding-bottom: calc(0.65rem + env(safe-area-inset-bottom, 0px));
+  }
+
+  .table-scroll-site {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  @media (min-width: 640px) {
+    .table-scroll-site {
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 
   .motion-site {
@@ -338,5 +421,21 @@
     .reveal-site { opacity: 1; transform: none; transition: none; }
     .word-rise { animation: none; }
     .cta-site, .cta-secondary-site, .link-site, .motion-site { transition: none; }
+  }
+}
+
+@layer utilities {
+  .site-shell a,
+  .site-shell button {
+    touch-action: manipulation;
+  }
+  @media (max-width: 639px) {
+    .max-w-6xl.px-6,
+    .max-w-4xl.px-6,
+    .max-w-3xl.px-6,
+    .max-w-2xl.px-6 {
+      padding-left: max(1rem, env(safe-area-inset-left, 0px));
+      padding-right: max(1rem, env(safe-area-inset-right, 0px));
+    }
   }
 }

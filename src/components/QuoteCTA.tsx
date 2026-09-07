@@ -29,12 +29,12 @@ export default function QuoteCTA({
         <p className="mt-4 max-w-xl text-ink-2">
           {cta.note ?? "The button is not “Book now.” You tell us the table; we send a written quote — and that quote is the confirmed total."}
         </p>
-        <div className="mt-8 flex flex-col items-stretch gap-4 sm:flex-row sm:items-center sm:gap-5">
+        <div className="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:gap-5">
           <Link to={href} className="cta-site w-full sm:w-auto">
             {cta.label}
           </Link>
           {cta.secondaryLabel && secondaryHref ? (
-            <Link to={secondaryHref} className="cta-secondary-site justify-center sm:justify-start">
+            <Link to={secondaryHref} className="cta-ghost-site sm:w-auto">
               {cta.secondaryLabel} →
             </Link>
           ) : null}

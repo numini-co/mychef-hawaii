@@ -72,7 +72,7 @@ export default function IslandPicker() {
         <div
           role="menu"
           aria-label="Choose an island"
-          className="card-site absolute left-0 top-full z-50 mt-2 w-[min(88vw,22rem)] overflow-hidden p-1"
+          className="card-site absolute left-0 top-full z-50 mt-2 w-[min(88vw,22rem)] overflow-hidden p-1 max-sm:fixed max-sm:left-4 max-sm:right-4 max-sm:w-auto"
         >
           {OPTIONS.map((o) => {
             const active = o.id === siteId;

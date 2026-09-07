@@ -24,7 +24,7 @@ export default function LocationPage({ record }: { record: ContentRecord }) {
         ) : null}
         <div className="mt-16 grid gap-12 md:grid-cols-2">
           {rest.map((s, i) => (
-            <div key={s.id ?? s.heading ?? i} className={s.band ? 'band-site -mx-6 px-6 py-10 md:mx-0 md:px-8' : ''}>
+            <div key={s.id ?? s.heading ?? i} className={s.band ? 'band-site -mx-4 px-4 py-10 sm:-mx-6 sm:px-6 md:mx-0 md:px-8' : ''}>
               <SectionBody section={s} index={i + 1} />
             </div>
           ))}

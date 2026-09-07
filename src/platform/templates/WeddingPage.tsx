@@ -16,7 +16,7 @@ export default function WeddingPage({ record }: { record: ContentRecord }) {
           {record.sections.map((s, i) => (
             <SectionReveal key={s.id ?? s.heading ?? i} delay={Math.min(i, 4) * 60}>
               {s.band ? (
-                <div className="band-site section-pad -mx-6 px-6">
+                <div className="band-site section-pad -mx-4 px-4 sm:-mx-6 sm:px-6">
                   <div className="mx-auto max-w-6xl">
                     <SectionBody section={s} index={i} />
                   </div>

@@ -78,7 +78,7 @@ export default function KauaiHome() {
         title="Kauaʻi, cooked in."
         sub="A private chef for your estate, your retreat, your whole stay — both shores. Signature dinners $150–$250 a guest; Stay Chef from $1,100 a day. The written quote is the confirmed total."
       >
-        <div className="flex flex-wrap items-center gap-5">
+        <div className="flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-5">
           <Link to={link('quote')} className="cta-site">
             Begin an inquiry
           </Link>
@@ -105,7 +105,7 @@ export default function KauaiHome() {
               your kitchen for the length of the trip — from $1,100 a day, groceries at cost with receipts. The only
               published multi-day chef rate on the island.
             </p>
-            <div className="mt-6 flex flex-wrap gap-5">
+            <div className="mt-6 flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:gap-5">
               <Link to={link('stay-chef')} className="cta-site">
                 Stay Chef, from $1,100/day
               </Link>

@@ -55,7 +55,7 @@ export function IslandSwitcher({ className = '' }: { className?: string }) {
   const { siteId } = useSite();
   return (
     <nav aria-label="Island sites" className={className}>
-      <ul className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm">
+      <ul className="grid grid-cols-2 gap-x-2 gap-y-1 text-sm sm:flex sm:flex-wrap sm:items-center sm:gap-x-3 sm:gap-y-2">
         <li>
           <Link
             to="/"
@@ -116,12 +116,15 @@ export default function Navbar() {
   return (
     <header
       className={`${position} z-50 motion-site transition-colors ${ground}`}
-      style={groundStyle}
+      style={{
+        ...(groundStyle ?? {}),
+        paddingTop: 'env(safe-area-inset-top, 0px)',
+      }}
     >
-      <div className="mx-auto flex h-[var(--nav-h)] max-w-6xl items-center justify-between gap-4 px-4 sm:px-6">
+      <div className="mx-auto flex h-[var(--nav-bar)] max-w-6xl items-center justify-between gap-3 px-4 sm:gap-4 sm:px-6">
         {/* Wordmark links home; the island chip beside it opens the switcher. */}
         <div className="flex min-w-0 shrink items-center gap-2.5 text-ink">
-          <Link to={basePath || '/'} className="shrink-0 text-ink" aria-label={`${SITE_META[siteId].name} home`}>
+          <Link to={basePath || '/'} className="inline-flex h-11 shrink-0 items-center text-ink" aria-label={`${SITE_META[siteId].name} home`}>
             <Wordmark className="h-7 w-auto" />
           </Link>
           <span className="h-7 w-px shrink-0 bg-current opacity-25" aria-hidden="true" />
@@ -170,7 +173,11 @@ export default function Navbar() {
         <div
           id="mobile-nav"
           className="rule-t bg-site px-4 py-5 sm:px-6 lg:hidden"
-          style={{ maxHeight: 'calc(100dvh - var(--nav-h))', overflowY: 'auto' }}
+          style={{
+            maxHeight: 'calc(100dvh - var(--nav-h))',
+            overflowY: 'auto',
+            paddingBottom: 'max(1.25rem, env(safe-area-inset-bottom, 0px))',
+          }}
         >
           <nav aria-label="Primary mobile">
             <ul className="space-y-1">
