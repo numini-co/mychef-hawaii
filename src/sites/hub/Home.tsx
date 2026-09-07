@@ -79,10 +79,10 @@ const SERVICES = [
 ];
 
 const ISLAND_CARDS = [
-  { id: 'oahu' as const, world: 'Metropolitan · Waikīkī to the North Shore', thumb: '/img/hub/island-oahu-thumb.jpg', alt: 'Honolulu skyline at blue hour through floor-to-ceiling glass, a stone kitchen island edge in the foreground' },
-  { id: 'maui' as const, world: 'Cinematic · Wailea to Kapalua', thumb: '/img/hub/island-maui-thumb.jpg', alt: 'A Wailea lānai long table in last-hour golden light, the ocean in the mid-ground' },
-  { id: 'kauai' as const, world: 'Botanical · both shores', thumb: '/img/hub/island-kauai-thumb.jpg', alt: 'A plantation veranda table framed by foliage in soft overcast light' },
-  { id: 'bigisland' as const, world: 'Volcanic · Kona–Kohala', thumb: '/img/hub/island-bigisland-thumb.jpg', alt: 'A single plated course on black basalt in low hard Kona sun' },
+  { id: 'oahu' as const, world: 'Metropolitan · Waikīkī to the North Shore', thumb: '/img/hub/island-oahu-thumb.jpg', alt: 'Executive corporate celebration dinner our team cooked and served in a private Honolulu penthouse overlooking the ocean' },
+  { id: 'maui' as const, world: 'Cinematic · Wailea to Kapalua', thumb: '/img/hub/island-maui-thumb.jpg', alt: 'A multi-course anniversary dinner table our chefs prepared on an oceanfront Wailea villa lānai for a family of 12' },
+  { id: 'kauai' as const, world: 'Botanical · both shores', thumb: '/img/hub/island-kauai-thumb.jpg', alt: 'A private estate wedding dinner our chef team catered on the plantation veranda in Hanalei, set for 16 guests before sunset' },
+  { id: 'bigisland' as const, world: 'Volcanic · Kona–Kohala', thumb: '/img/hub/island-bigisland-thumb.jpg', alt: 'Hand-plated local catch course finished by our chef during an intimate 10-guest dinner on the Kona coast' },
 ];
 
 const HOME_FAQ = [
