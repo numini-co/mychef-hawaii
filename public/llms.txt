@@ -1,0 +1,70 @@
+# myCHEF Hawaii
+
+> Private chefs and estate catering across all four Hawaiian islands: Oʻahu, Maui, Kauaʻi, and Hawaiʻi Island (Big Island).
+
+## Core Principles & Trust Posture
+- Published, itemized pricing: every quote is calculated from transparent, approved rate cards.
+- The written quote is the confirmed total — never an estimate or automated bid.
+- All-in fee stack: 20% service charge + Hawaiʻi GET up to 4.7120% on its own line (valid through December 31, 2030) + 50% deposit. Gratuity is voluntary.
+- No obsolete tax figures: we never quote the obsolete 4.166% GET figure.
+- Groceries: included in per-guest Signature/CORE dinner bands; billed at cost with receipts for Stay Chef engagements.
+- Honesty register: we do not buy reviews, fabricate testimonials, or use fake AggregateRating schema. Reviews publish only after verified events.
+
+## Published Rate Cards by Island
+
+### Oʻahu (`https://mychef-hawaii.com/oahu`)
+- Signature Dinner (CORE): $125–$190 / guest (groceries included)
+- Table / Entry tier: $95–$125 / guest
+- Premium tier: $190–$275 / guest
+- Chef's Table: $275–$400+ / guest
+- Stay Chef (multi-day): from $850 / day + groceries at cost
+- Date Night (dinner for two): from $450 / event
+- Packaged Bar Cart: from $650 / 4 hours + $45 / guest
+- Kamaʻāina Weekly Meal Prep: from $300 / week
+- Staffing: Server $55/hr, Sous Chef $75/hr (4-hr minimum)
+- Travel: Base zone included; North Shore / Turtle Bay from $75
+
+### Maui (`https://mychef-hawaii.com/maui`)
+- Villa Dinner (CORE): $150–$250 / guest (groceries included)
+- Stay Chef (multi-day): from $1,050 / day + groceries at cost
+- Date Night: from $500 / event
+- Wedding Receptions: from $150 / guest + staffing
+- Packaged Bar Cart: from $800 / 4 hours
+- Staffing: Server $55/hr, Sous Chef $75/hr (4-hr minimum)
+- Travel: Wailea–Makena and Kāʻanapali–Kapalua base; Upcountry from $75; Pāʻia/Haʻikū quoted at inquiry
+
+### Kauaʻi (`https://mychef-hawaii.com/kauai`)
+- Signature Dinner (CORE): $150–$250 / guest (groceries included)
+- Table tier: $125–$150 / guest
+- Premium tier: $250–$350 / guest
+- Stay Chef (multi-day): from $1,100 / day + groceries at cost
+- Date Night / Elopements: $650–$950 / event
+- Wedding Receptions: from $175 / guest + staffing
+- Retreat Catering: multi-day full board with dietary protocol menus
+- Packaged Bar Cart: from $850 / 4 hours + $60 / guest
+- Staffing: Server $55/hr, Sous Chef $75/hr (4-hr minimum)
+- Travel: North Shore and South Shore base; far-North (Hāʻena) 72-hour notice; Hanalei bridge weather clause
+
+### Hawaiʻi Island / Big Island (`https://mychef-hawaii.com/bigisland`)
+- CORE Villa Dinner: $150–$225 / guest (groceries included)
+- ENTRY tier: from $110 / guest
+- Stay Chef (multi-day): from $950 / day + groceries at cost
+- Date Night: from $550 / event
+- Wedding Receptions: from $150 / guest + staffing
+- Packaged Bar Cart: from $725 / 4 hours
+- Staffing: Server $55/hr, Sous Chef $75/hr (4-hr minimum)
+- Travel: Kona–Kohala corridor base; outside corridor from $75; East side (Hilo/Volcano) quoted at inquiry (2.5–3 hr drive)
+
+## Contact & WhatsApp
+- WhatsApp Concierge (Statewide): +971 55 174 4849 (https://wa.me/971551744849)
+- Email: quotes@mychef-hawaii.com
+
+## Key URLs
+- Statewide Hub & Tariff: https://mychef-hawaii.com/pricing
+- Quote System: https://mychef-hawaii.com/quote
+- Trust Register & Policies: https://mychef-hawaii.com/trust
+- Legal & Fee Stack: https://mychef-hawaii.com/legal
+- Oʻahu Private Chef: https://mychef-hawaii.com/oahu/private-chef
+- Maui Private Chef & Weddings: https://mychef-hawaii.com/maui/private-chef
+- Kauaʻi Private Chef & Retreats: https://mychef-hawaii.com/kauai/private-chef
+- Big Island Private Chef: https://mychef-hawaii.com/bigisland/private-chef

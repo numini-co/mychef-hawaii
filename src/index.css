@@ -1,0 +1,342 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 4.8% 95.9%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 4.9% 83.9%;
+    --radius: 0.625rem;
+    --nav-h: 60px;
+  }
+  @media (min-width: 768px) {
+    :root {
+      --nav-h: 72px;
+    }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+    overflow-x: clip;
+  }
+  body {
+    @apply antialiased;
+    background-color: #f7f5f0; /* hub paper behind everything; site-shell repaints per route */
+    overflow-x: clip;
+  }
+  img {
+    @apply max-w-full h-auto;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * myCHEF token-driven utility classes (design.md §3, §6.1.2 hard rule).
+ * Shared components use ONLY these — no color/radius/motion literals.
+ * Values come from the scoped vars injected by <IslandProvider>.
+ * ------------------------------------------------------------------------- */
+@layer components {
+  .site-shell {
+    background-color: var(--site-bg);
+    color: var(--site-ink);
+    font-family: var(--font-body);
+    font-size: var(--site-body-size);
+    line-height: var(--site-body-leading);
+  }
+
+  .bg-site { background-color: var(--site-bg); }
+  .bg-surface-site { background-color: var(--site-surface); }
+  .bg-card-site { background-color: var(--site-card); }
+  .bg-band-site { background-color: var(--site-band-bg); }
+
+  .text-ink { color: var(--site-ink); }
+  .text-ink-2 { color: var(--site-ink2); }
+  .text-accent-site { color: var(--site-accent-text); }
+  .text-band-ink { color: var(--site-band-ink); }
+
+  .border-line-site { border-color: var(--site-line); }
+  .rule-t { border-top: 1px solid var(--site-line); }
+  .rule-b { border-bottom: 1px solid var(--site-line); }
+  .rule-y { border-top: 1px solid var(--site-line); border-bottom: 1px solid var(--site-line); }
+
+  .font-display { font-family: var(--font-display); font-weight: var(--site-display-weight); letter-spacing: var(--site-display-tracking); }
+  .font-body-site { font-family: var(--font-body); }
+  .font-accent-site { font-family: var(--font-accent); }
+
+  .h1-site {
+    font-family: var(--font-display);
+    font-weight: var(--site-display-weight);
+    letter-spacing: var(--site-display-tracking);
+    font-size: var(--site-h1);
+    line-height: 1.06;
+  }
+  .h2-site {
+    font-family: var(--font-display);
+    font-weight: var(--site-display-weight);
+    letter-spacing: var(--site-display-tracking);
+    font-size: var(--site-h2);
+    line-height: 1.12;
+  }
+  .eyebrow-site {
+    font-family: var(--font-accent);
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--site-accent-text);
+  }
+  .measure-site { max-width: var(--site-measure); }
+
+  .card-site {
+    background-color: var(--site-card);
+    border: 1px solid var(--site-card-border);
+    border-radius: var(--site-card-radius);
+    box-shadow: var(--site-card-shadow);
+  }
+
+  .cta-site {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 44px;
+    background-color: var(--site-cta-bg);
+    color: var(--site-cta-ink);
+    border-radius: var(--site-cta-radius);
+    font: var(--site-cta-font);
+    text-transform: var(--site-cta-transform);
+    letter-spacing: var(--site-cta-tracking);
+    padding: 0.9rem 1.5rem;
+    transition: opacity var(--site-motion-ms) var(--site-motion-ease),
+      transform var(--site-motion-ms) var(--site-motion-ease),
+      background-color var(--site-motion-ms) var(--site-motion-ease);
+  }
+  .cta-site:hover { opacity: 0.88; }
+  .cta-secondary-site {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--site-accent-text);
+    font: var(--site-cta-font);
+    text-transform: var(--site-cta-transform);
+    letter-spacing: var(--site-cta-tracking);
+    border-bottom: 1px solid var(--site-line);
+    padding-bottom: 2px;
+    transition: border-color var(--site-motion-ms) var(--site-motion-ease);
+  }
+  .cta-secondary-site:hover { border-color: var(--site-accent-text); }
+
+  .link-site {
+    color: var(--site-accent-text);
+    text-decoration: underline;
+    text-decoration-color: var(--site-line);
+    text-underline-offset: 3px;
+    transition: text-decoration-color var(--site-motion-ms) var(--site-motion-ease);
+  }
+  .link-site:hover { text-decoration-color: var(--site-accent-text); }
+
+  .band-site {
+    background-color: var(--site-band-bg);
+    color: var(--site-band-ink);
+    /* Inside a band, token pairs remap so shared primitives keep working. */
+    --site-bg: var(--site-band-bg);
+    --site-ink: var(--site-band-ink);
+    --site-ink2: color-mix(in srgb, var(--site-band-ink) 68%, transparent);
+    --site-line: color-mix(in srgb, var(--site-band-ink) 22%, transparent);
+    --site-accent-text: var(--site-band-accent);
+    --site-accent2: var(--site-band-accent);
+  }
+
+  .footer-site {
+    background-color: var(--site-footer-bg);
+    color: var(--site-footer-ink);
+    --site-ink: var(--site-footer-ink);
+    --site-ink2: color-mix(in srgb, var(--site-footer-ink) 68%, transparent);
+    --site-line: color-mix(in srgb, var(--site-footer-ink) 22%, transparent);
+    --site-accent-text: var(--site-footer-accent);
+    --site-accent2: var(--site-footer-accent);
+  }
+
+  /*
+   * A card/surface inside a band keeps the PAGE ground (--site-card is not
+   * remapped above), so it must also take page ink back — otherwise band ink
+   * lands on the page-ground card and the text disappears.
+   */
+  .band-site .card-site,
+  .band-site .bg-card-site,
+  .band-site .bg-surface-site,
+  .band-site .input-site,
+  .footer-site .card-site,
+  .footer-site .bg-card-site,
+  .footer-site .bg-surface-site,
+  .footer-site .input-site {
+    color: var(--site-ink-base);
+    --site-ink: var(--site-ink-base);
+    --site-ink2: var(--site-ink2-base);
+    --site-line: var(--site-line-base);
+    --site-accent-text: var(--site-accent-text-base);
+    --site-accent2: var(--site-accent2-base);
+  }
+
+  .section-pad {
+    padding-top: min(var(--site-section-pad), 56px);
+    padding-bottom: min(var(--site-section-pad), 56px);
+  }
+  @media (min-width: 640px) {
+    .section-pad {
+      padding-top: var(--site-section-pad);
+      padding-bottom: var(--site-section-pad);
+    }
+  }
+  @media (min-width: 768px) {
+    .section-pad { padding-top: var(--site-section-pad-desktop); padding-bottom: var(--site-section-pad-desktop); }
+  }
+  /*
+   * Two padded blocks in a row would otherwise stack both paddings and leave a
+   * double-height void. The section rhythm is one pad between neighbours, so
+   * the follower drops its own top pad — unless it draws a rule, where the pad
+   * is what keeps the line off the text.
+   */
+  .section-pad + .section-pad:not(.rule-t):not(.band-site) {
+    padding-top: 0;
+  }
+  /* Same rule for the longform block: the section above already paid the gap. */
+  .section-pad + .longform-site > .rule-t,
+  .band-site + .longform-site > .rule-t {
+    margin-top: 0;
+  }
+
+  /* Island rate bar clearance + safe area */
+  [data-site]:not([data-site="hub"]) main {
+    padding-bottom: calc(3.75rem + env(safe-area-inset-bottom, 0px));
+  }
+  /*
+   * Full-bleed page hero. Templates mount it as the first child of a padded,
+   * centred container, so it breaks the width back out to the viewport and
+   * cancels exactly the padding-top that container just applied.
+   */
+  .page-hero-site {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    margin-top: calc(-1 * min(var(--site-section-pad), 56px));
+    min-height: calc(100svh - var(--nav-h));
+  }
+  /*
+   * A photo is never a flat ground, so the accent colour can't be trusted to
+   * clear AA everywhere it might land. Inside a photo hero, links and accents
+   * take the page ink instead — the strongest, most consistent choice.
+   */
+  .page-hero-site[data-has-image] {
+    --site-accent-text: var(--site-ink-base);
+    --site-accent2: var(--site-ink-base);
+  }
+  @media (min-width: 640px) {
+    .page-hero-site { margin-top: calc(-1 * var(--site-section-pad)); }
+  }
+  @media (min-width: 768px) {
+    .page-hero-site { margin-top: calc(-1 * var(--site-section-pad-desktop)); }
+  }
+
+  .nav-scrim-site {
+    background-image: linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--site-bg) 92%, transparent) 0%,
+      color-mix(in srgb, var(--site-bg) 80%, transparent) 64%,
+      color-mix(in srgb, var(--site-bg) 0%, transparent) 100%
+    );
+  }
+
+  /*
+   * The bar floats over heroes and dark bands, so it carries the page ground
+   * opaquely — a translucent bar puts page ink on whatever photo scrolls under.
+   */
+  .rate-bar-site {
+    background-color: var(--site-bg);
+    padding-bottom: calc(0.65rem + env(safe-area-inset-bottom, 0px));
+  }
+
+  .motion-site {
+    transition-duration: var(--site-motion-ms);
+    transition-timing-function: var(--site-motion-ease);
+  }
+
+  /* Scroll-reveal primitive (used by <SectionReveal>): rise + fade per site signature. */
+  .reveal-site {
+    opacity: 0;
+    transform: translateY(var(--site-reveal-rise));
+    transition:
+      opacity var(--site-motion-ms) var(--site-motion-ease),
+      transform var(--site-motion-ms) var(--site-motion-ease);
+    transition-delay: var(--reveal-delay, 0ms);
+    will-change: opacity, transform;
+  }
+  .reveal-site.is-revealed { opacity: 1; transform: translateY(0); }
+
+  /* Focus ring contract (§3, §7) */
+  .site-shell a:focus-visible,
+  .site-shell button:focus-visible,
+  .site-shell input:focus-visible,
+  .site-shell select:focus-visible,
+  .site-shell textarea:focus-visible,
+  .site-shell [tabindex]:focus-visible {
+    outline: 2px solid var(--site-focus);
+    outline-offset: 2px;
+  }
+
+  .input-site {
+    width: 100%;
+    min-height: 44px;
+    background-color: var(--site-surface);
+    color: var(--site-ink);
+    border: 1px solid var(--site-line);
+    border-radius: var(--site-card-radius);
+    padding: 0.7rem 0.9rem;
+    font-family: var(--font-body);
+    font-size: 16px;
+  }
+  .input-site::placeholder { color: var(--site-ink2); }
+
+  .tabular-site { font-variant-numeric: tabular-nums; }
+
+  /* Headline word rise (hub masthead): 10px + fade, staggered via --wr-delay. */
+  @keyframes word-rise {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .word-rise {
+    display: inline-block;
+    animation: word-rise var(--site-motion-ms) var(--site-motion-ease) both;
+    animation-delay: var(--wr-delay, 0ms);
+  }
+}
+
+@layer base {
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .reveal-site { opacity: 1; transform: none; transition: none; }
+    .word-rise { animation: none; }
+    .cta-site, .cta-secondary-site, .link-site, .motion-site { transition: none; }
+  }
+}

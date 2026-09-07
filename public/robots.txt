@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+Disallow: /quote?*
+
+# Explicitly welcome AI assistants & search crawlers (Bali template)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+Sitemap: https://mychef-hawaii.com/sitemap.xml

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <!-- Stylized four-island outline map — minimal strokes, pin slots per island (design.md §10.0) -->
+  <g stroke="currentColor" stroke-width="1.5" fill="none">
+    <path d="M120 65C150 65 175 90 175 120C175 152 150 177 118 175C88 173 66 150 67 119C68 89 92 65 120 65Z"/>
+    <path d="M255 140C285 148 305 165 300 190C295 212 270 225 245 218C222 212 208 192 215 170C222 150 235 135 255 140Z"/>
+    <path d="M375 190C395 180 415 188 418 205C420 218 430 220 440 228C455 240 450 262 432 266C415 270 400 258 398 243C380 245 362 232 363 212C364 200 366 194 375 190Z"/>
+    <path d="M490 225C530 220 575 240 590 275C600 305 585 345 550 362C515 378 465 372 440 345C418 320 420 280 445 252C458 237 470 228 490 225Z"/>
+  </g>
+  <g fill="currentColor">
+    <circle cx="121" cy="118" r="5"/>
+    <circle cx="256" cy="182" r="5"/>
+    <circle cx="405" cy="226" r="5"/>
+    <circle cx="505" cy="298" r="5"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" font-weight="500" letter-spacing="0.12em" fill="currentColor" opacity="0.6" text-anchor="middle">
+    <text x="121" y="60">KAUAʻI</text>
+    <text x="256" y="136">OʻAHU</text>
+    <text x="405" y="182">MAUI</text>
+    <text x="505" y="222">BIG ISLAND</text>
+  </g>
+</svg>
