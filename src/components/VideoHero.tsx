@@ -3,11 +3,13 @@ import { useEffect, useState, type ReactNode } from 'react';
 /**
  * Full-bleed cinematic hero: poster is the instant LCP, video mounts after
  * idle and fades in. Muted, looped, playsInline. Reduced-motion users keep
- * the still. Pattern matches the Dubai desk so the network feels like one house.
+ * the still. The Hawaii hub file is already a forward-then-reverse encode,
+ * so native loop is the ping-pong — it never falls back to the still.
  */
 export default function VideoHero({
   poster,
   video,
+  preferWebm = true,
   alt,
   eyebrow,
   title,
@@ -15,6 +17,8 @@ export default function VideoHero({
 }: {
   poster: string;
   video?: string;
+  /** Skip when the WebM is larger than the MP4 (hub ping-pong hero). */
+  preferWebm?: boolean;
   alt: string;
   eyebrow: string;
   title: string;
@@ -63,7 +67,7 @@ export default function VideoHero({
           muted
           loop
           playsInline
-          preload="metadata"
+          preload="auto"
           poster={poster}
           aria-hidden="true"
           onCanPlay={(e) => {
@@ -73,7 +77,7 @@ export default function VideoHero({
           className="absolute inset-0 h-full w-full object-cover transition-opacity duration-1000"
           style={{ opacity: ready ? 1 : 0 }}
         >
-          <source src={video.replace(/\.mp4$/, '.webm')} type="video/webm" />
+          {preferWebm ? <source src={video.replace(/\.mp4$/, '.webm')} type="video/webm" /> : null}
           <source src={video} type="video/mp4" />
         </video>
       ) : null}

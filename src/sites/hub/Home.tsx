@@ -137,7 +137,8 @@ export default function HubHome() {
       <VideoHero
         poster="/img/hub/hero-statewide-desk.webp"
         video="/videos/hub/hero-statewide-desk.mp4"
-        alt="Sunset villa dinner our chefs plated for a twelve-guest family gathering on an oceanfront Hawaiian lanai — the statewide desk’s work, on any island"
+        preferWebm={false}
+        alt="Golden-hour wedding dinner on a Hawaiian estate lawn — cake, string quartet, and staffed tables facing the ocean"
         eyebrow="The statewide desk · Oʻahu · Maui · Kauaʻi · Hawaiʻi Island"
         title={H1}
       >

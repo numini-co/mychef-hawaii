@@ -50,7 +50,7 @@ const ALT: Record<string, string> = {
   'hub/island-oahu-thumb': 'Executive corporate celebration dinner our team cooked and served in a private Honolulu penthouse overlooking the ocean',
   'hub/pricing-statewide': 'Our itemized rate card and published fee breakdown reviewed with clients before booking',
   'hub/trust-ledger': 'Verified event folio and grocery receipts provided to our Stay Chef clients with zero markup',
-  'hub/hero-statewide-desk': 'Sunset villa dinner our chefs plated for a twelve-guest family gathering on an oceanfront Hawaiian lanai',
+  'hub/hero-statewide-desk': 'Golden-hour wedding dinner on a Hawaiian estate lawn — cake, string quartet, and staffed tables facing the ocean',
   'hub/service-private-chef': 'Our chef finishing a seared Hawaiian catch course in a private villa kitchen for a family dinner',
   'hub/service-stay-chef': 'Our Stay Chef preparing a fresh tropical breakfast in the villa kitchen during a family week',
   'hub/service-catering': 'Staffed 40-guest banquet our culinary team executed on a private Hawaiian estate lawn at dusk',
