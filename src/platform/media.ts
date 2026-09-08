@@ -126,9 +126,9 @@ const shot = (key: string): Shot | null => (ALT[key] ? { src: IMG(...(key.split(
 const SETS: Record<SiteId, Record<string, string[]>> = {
   hub: {
     hero: ['hub/hero-statewide-desk', 'hub/service-private-chef'],
-    pricing: ['hub/pricing-statewide', 'hub/trust-ledger'],
+    pricing: ['hub/pricing-statewide', 'hub/rate-card-quote', 'hub/trust-ledger'],
     trust: ['hub/trust-ledger', 'hub/pedigree-discretion'],
-    guide: ['hub/guides-library', 'hub/pricing-statewide'],
+    guide: ['hub/guides-library', 'hub/guides-planning'],
     body: [
       'hub/service-private-chef',
       'hub/service-catering',
@@ -233,6 +233,11 @@ function pick<T>(list: T[], seed: string, offset = 0): T | undefined {
 
 /** The page's lead image, or null when nothing in the library honestly fits. */
 export function heroShot(record: ContentRecord, siteId: SiteId): Shot | null {
+  if (record.meta?.ogImage) {
+    const key = record.meta.ogImage.replace(/^\/img\//, '').replace(/\.(jpg|jpeg|webp|png)$/, '');
+    const s = shot(key);
+    if (s) return s;
+  }
   const slug = record.slug.toLowerCase();
   for (const [needle, key] of Object.entries(SLUG_MATCH)) {
     if (slug.includes(needle)) {

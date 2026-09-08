@@ -1,15 +1,16 @@
-import { useEffect, useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 
 /**
- * Full-bleed cinematic hero: poster is the instant LCP, video mounts after
- * idle and fades in. Muted, looped, playsInline. Reduced-motion users keep
- * the still. The Hawaii hub file is already a forward-then-reverse encode,
- * so native loop is the ping-pong — it never falls back to the still.
+ * Full-bleed cinematic hero:
+ * - Dark, moody base with an atmospheric video running subtly in the background.
+ * - Poster matches the darkened tone so there is zero brightness jump or flash.
+ * - Video autoplays immediately (muted, looped, playsInline) and ping-pongs seamlessly.
+ * - Darkened gradient scrim ensures all headline text, eyebrows, and CTAs are effortlessly readable.
  */
 export default function VideoHero({
   poster,
   video,
-  preferWebm = true,
+  preferWebm = false,
   alt,
   eyebrow,
   title,
@@ -17,40 +18,55 @@ export default function VideoHero({
 }: {
   poster: string;
   video?: string;
-  /** Skip when the WebM is larger than the MP4 (hub ping-pong hero). */
+  /** Skip when the WebM is larger or missing (hub ping-pong hero uses MP4). */
   preferWebm?: boolean;
   alt: string;
   eyebrow: string;
   title: string;
   children: ReactNode;
 }) {
-  const [loadVideo, setLoadVideo] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const [ready, setReady] = useState(false);
+  const [reduceMotion, setReduceMotion] = useState(false);
 
   useEffect(() => {
     if (!video) return;
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reduce) return;
+    if (reduce) {
+      setReduceMotion(true);
+      return;
+    }
     const saveData = Boolean((navigator as Navigator & { connection?: { saveData?: boolean } }).connection?.saveData);
-    if (saveData) return;
-    let done = false;
-    const mount = () => {
-      if (done) return;
-      done = true;
-      const w = window as Window & { requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number };
-      if (w.requestIdleCallback) w.requestIdleCallback(() => setLoadVideo(true), { timeout: 1800 });
-      else window.setTimeout(() => setLoadVideo(true), 500);
-    };
-    if (document.readyState === 'complete') mount();
-    else window.addEventListener('load', mount, { once: true });
-    return () => window.removeEventListener('load', mount);
+    if (saveData) {
+      setReduceMotion(true);
+      return;
+    }
+
+    // Ensure muted autoplay starts immediately across WebKit / Safari and Chromium
+    const v = videoRef.current;
+    if (v) {
+      v.defaultMuted = true;
+      v.muted = true;
+      const playPromise = v.play();
+      if (playPromise) {
+        playPromise
+          .then(() => setReady(true))
+          .catch(() => {
+            // Autoplay policy fallback: stays muted
+          });
+      }
+    }
   }, [video]);
 
   return (
     <section
-      className="relative isolate flex min-h-[calc(100svh-var(--nav-h))] items-end overflow-hidden"
+      className="relative isolate flex min-h-[calc(100svh-var(--nav-h))] items-end overflow-hidden bg-[#12100D]"
       aria-label={eyebrow}
     >
+      {/* Dark ground backing */}
+      <div className="absolute inset-0 bg-[#12100D]" aria-hidden="true" />
+
+      {/* Poster image — darkened to match the subtle ambient tone */}
       <img
         src={poster}
         alt={alt}
@@ -59,10 +75,17 @@ export default function VideoHero({
         loading="eager"
         fetchPriority="high"
         decoding="async"
-        className="absolute inset-0 h-full w-full object-cover"
+        className="absolute inset-0 h-full w-full object-cover transition-opacity duration-1000"
+        style={{
+          opacity: ready ? 0 : 0.30,
+          filter: 'brightness(0.46) contrast(1.02)',
+        }}
       />
-      {video && loadVideo ? (
+
+      {/* Background ambient video — plays automatically and loops forward/back */}
+      {video && !reduceMotion ? (
         <video
+          ref={videoRef}
           autoPlay
           muted
           loop
@@ -70,33 +93,48 @@ export default function VideoHero({
           preload="auto"
           poster={poster}
           aria-hidden="true"
+          onPlaying={() => setReady(true)}
           onCanPlay={(e) => {
             setReady(true);
             e.currentTarget.play().catch(() => {});
           }}
           className="absolute inset-0 h-full w-full object-cover transition-opacity duration-1000"
-          style={{ opacity: ready ? 1 : 0 }}
+          style={{
+            opacity: ready ? 0.30 : 0,
+            filter: 'brightness(0.46) contrast(1.02)',
+          }}
         >
           {preferWebm ? <source src={video.replace(/\.mp4$/, '.webm')} type="video/webm" /> : null}
           <source src={video} type="video/mp4" />
         </video>
       ) : null}
+
+      {/* Dark gradient & atmospheric vignette scrim so hero text is effortlessly readable */}
       <div
         aria-hidden="true"
-        className="absolute inset-0"
+        className="pointer-events-none absolute inset-0"
         style={{
           background:
-            'linear-gradient(to top, rgba(35,32,26,0.92) 0%, rgba(35,32,26,0.72) 28%, rgba(35,32,26,0.38) 52%, rgba(35,32,26,0.16) 74%, rgba(35,32,26,0.08) 100%)',
+            'linear-gradient(to right, rgba(16,14,11,0.96) 0%, rgba(16,14,11,0.86) 38%, rgba(16,14,11,0.55) 65%, rgba(16,14,11,0.28) 100%), linear-gradient(to top, rgba(16,14,11,0.98) 0%, rgba(16,14,11,0.85) 32%, rgba(16,14,11,0.48) 65%, rgba(16,14,11,0.72) 100%)',
         }}
       />
+
       <div className="relative z-10 mx-auto w-full max-w-6xl px-6 pb-[max(4.5rem,calc(2.5rem+env(safe-area-inset-bottom,0px)))] pt-20 sm:pt-24 md:pb-20 md:pt-32">
-        <p className="eyebrow-site" style={{ color: '#EDE8DB' }}>
+        <p
+          className="eyebrow-site text-sm font-semibold uppercase tracking-wider"
+          style={{ color: '#EDE8DB', textShadow: '0 1px 6px rgba(0,0,0,0.75)' }}
+        >
           {eyebrow}
         </p>
-        <h1 className="h1-site mt-4 max-w-4xl" style={{ color: '#F7F5F0' }}>
+        <h1
+          className="h1-site mt-4 max-w-4xl"
+          style={{ color: '#F7F5F0', textShadow: '0 2px 16px rgba(0,0,0,0.85)' }}
+        >
           {title}
         </h1>
-        <div style={{ color: 'rgba(247,245,240,0.92)' }}>{children}</div>
+        <div style={{ color: 'rgba(247,245,240,0.95)', textShadow: '0 1px 8px rgba(0,0,0,0.65)' }}>
+          {children}
+        </div>
       </div>
     </section>
   );

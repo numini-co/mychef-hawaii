@@ -142,19 +142,33 @@ export default function HubHome() {
         eyebrow="The statewide desk · Oʻahu · Maui · Kauaʻi · Hawaiʻi Island"
         title={H1}
       >
-        <p className="measure-site mt-6 text-base sm:text-lg" style={{ color: 'rgba(247,245,240,0.92)' }}>
+        <p
+          className="measure-site mt-6 text-base sm:text-lg"
+          style={{ color: '#F7F5F0', textShadow: '0 2px 10px rgba(0,0,0,0.85)' }}
+        >
           This is the main myCHEF Hawaii site. If you already know the island, open that kitchen.
           If the trip hops — a villa week on Maui, a wedding dinner on Kauaʻi, a corporate night on
           Oʻahu — stay here. We run the itinerary as one brief.
         </p>
-        <p className="tabular-site mt-4 text-sm" style={{ color: 'rgba(237,232,219,0.82)' }}>
+        <p
+          className="tabular-site mt-4 text-sm font-medium"
+          style={{ color: '#EDE8DB', textShadow: '0 1px 6px rgba(0,0,0,0.85)' }}
+        >
           Signature dinners $125–$250 a guest · Stay Chef from $850–$1,100 a day
         </p>
         <div className="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:gap-5">
-          <Link to="/quote?itinerary=multi" className="cta-site w-full sm:w-auto">
+          <Link
+            to="/quote?itinerary=multi"
+            className="cta-site w-full sm:w-auto"
+            style={{ backgroundColor: '#F7F5F0', color: '#23201A' }}
+          >
             Plan a multi-island trip
           </Link>
-          <a href="#choose-island" className="cta-ghost-site" style={{ color: '#EDE8DB' }}>
+          <a
+            href="#choose-island"
+            className="cta-ghost-site w-full sm:w-auto"
+            style={{ color: '#EDE8DB', borderColor: 'rgba(237,232,219,0.4)' }}
+          >
             I know my island →
           </a>
         </div>

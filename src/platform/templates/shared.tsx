@@ -96,7 +96,7 @@ export function PageHeader({
             className="absolute inset-0 -z-10"
             style={{
               background:
-                'linear-gradient(to top, var(--site-bg) 2%, color-mix(in srgb, var(--site-bg) 97%, transparent) 34%, color-mix(in srgb, var(--site-bg) 90%, transparent) 58%, color-mix(in srgb, var(--site-bg) 62%, transparent) 78%, color-mix(in srgb, var(--site-bg) 28%, transparent) 90%, transparent 100%)',
+                'linear-gradient(to top, var(--site-bg) 2%, color-mix(in srgb, var(--site-bg) 97%, transparent) 34%, color-mix(in srgb, var(--site-bg) 90%, transparent) 58%, color-mix(in srgb, var(--site-bg) 65%, transparent) 78%, color-mix(in srgb, var(--site-bg) 40%, transparent) 90%, color-mix(in srgb, var(--site-bg) 22%, transparent) 100%)',
             }}
           />
         </>
