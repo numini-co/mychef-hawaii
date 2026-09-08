@@ -6,6 +6,8 @@ import MauiPricing from './pages/Pricing';
 import MauiCatering from './pages/Catering';
 import MauiWeddings from './pages/Weddings';
 import MauiWeddingWeek from './pages/WeddingWeek';
+import MauiStayChef from './pages/StayChef';
+import MauiDateNight from './pages/DateNight';
 
 /**
  * Maui site module — Cinematic Resort-Villa Hospitality (design.md §3.3).
@@ -22,5 +24,7 @@ export const mauiSite: SiteModule = {
     catering: MauiCatering,
     weddings: MauiWeddings,
     'weddings/wedding-week': MauiWeddingWeek,
+    'stay-chef': MauiStayChef,
+    'services/date-night': MauiDateNight,
   },
 };

@@ -8,6 +8,7 @@ import KauaiPricing from './pages/Pricing';
 import KauaiCatering from './pages/Catering';
 import KauaiWeddings from './pages/Weddings';
 import KauaiRetreatCatering from './pages/RetreatCatering';
+import KauaiStayChef from './pages/StayChef';
 
 function LegacyPrivateChefCost() {
   return createElement(Navigate, { to: '/kauai/private-chef-cost', replace: true });
@@ -27,6 +28,7 @@ export const kauaiSite: SiteModule = {
     pricing: KauaiPricing,
     catering: KauaiCatering,
     weddings: KauaiWeddings,
+    'stay-chef': KauaiStayChef,
     'retreat-catering': KauaiRetreatCatering,
     'pricing/private-chef-cost': LegacyPrivateChefCost,
   },

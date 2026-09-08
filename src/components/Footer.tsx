@@ -85,10 +85,14 @@ export default function Footer() {
             title="Explore"
             links={[
               { label: 'Private chef', to: link('private-chef') },
+              { label: 'Stay Chef', to: link('stay-chef') },
               { label: 'Pricing', to: link('pricing') },
               { label: 'Catering', to: link('catering') },
+              ...(siteId === 'oahu' ? [{ label: 'Corporate', to: link('corporate') }] : []),
+              ...(siteId === 'maui' ? [{ label: 'Date Night', to: link('services/date-night') }] : []),
+              ...(siteId === 'kauai' ? [{ label: 'Retreats', to: link('retreat-catering') }] : []),
               { label: 'Weddings', to: link('weddings') },
-              { label: 'Guides', to: link('guides') },
+              { label: 'Locations', to: link('locations') },
               { label: 'Get a quote', to: link('quote') },
             ]}
           />
@@ -100,6 +104,16 @@ export default function Footer() {
                 { label: 'South Shore — Poʻipū · Kōloa', to: link('locations') },
                 { label: 'East — Kapaʻa · Līhuʻe', to: link('locations') },
                 { label: 'The one-bridge clause', to: link('trust') },
+              ]}
+            />
+          ) : siteId === 'bigisland' ? (
+            <FooterCol
+              title="Kona–Kohala & Coast"
+              links={[
+                { label: 'Kailua-Kona', to: link('locations/kona') },
+                { label: 'Kohala Coast', to: link('locations/kohala-coast') },
+                { label: 'Hualālai & Kūkiʻo', to: link('locations/hualalai') },
+                { label: 'Waikoloa & Mauna Lani', to: link('locations/waikoloa') },
               ]}
             />
           ) : (

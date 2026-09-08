@@ -55,8 +55,19 @@ for (const siteId of Object.keys(BASE_MAP)) {
   discoveredRoutes.add(`${base}/quote`);
   discoveredRoutes.add(`${base}/pricing`);
   discoveredRoutes.add(`${base}/private-chef`);
+  discoveredRoutes.add(`${base}/stay-chef`);
   discoveredRoutes.add(`${base}/catering`);
   discoveredRoutes.add(`${base}/weddings`);
+  if (siteId === 'oahu') {
+    discoveredRoutes.add(`${base}/corporate`);
+  }
+  if (siteId === 'maui') {
+    discoveredRoutes.add(`${base}/services/date-night`);
+    discoveredRoutes.add(`${base}/weddings/wedding-week`);
+  }
+  if (siteId === 'kauai') {
+    discoveredRoutes.add(`${base}/retreat-catering`);
+  }
 
   const contentFile = join(SITES_DIR, siteId, 'content.ts');
   if (existsSync(contentFile)) {
@@ -150,8 +161,8 @@ for (const route of routes) {
 
     // 2. Format HTML with clean semantic line breaks so crawlers can easily parse line by line
     cleanBodyHtml = cleanBodyHtml
-      .replace(/<(header|nav|main|section|article|footer|h1|h2|h3|h4|p|ul|ol|li|details|summary|table|thead|tbody|tr|td|th)\b/gi, '\n<$1')
-      .replace(/<\/(header|nav|main|section|article|footer|h1|h2|h3|h4|p|ul|ol|li|details|summary|table|thead|tbody|tr|td|th)>/gi, '</$1>\n')
+      .replace(/<(header|nav|main|section|article|footer|h1|h2|h3|h4|p|ul|ol|li|details|summary|table|thead|tbody|tr|td|th|div|a|span|button|svg|form|label|input|select)\b/gi, '\n<$1')
+      .replace(/<\/(header|nav|main|section|article|footer|h1|h2|h3|h4|p|ul|ol|li|details|summary|table|thead|tbody|tr|td|th|div|a|span|button|svg|form|label|input|select)>/gi, '</$1>\n')
       .replace(/\n\s*\n/g, '\n');
 
     // 3. Inject formatted body HTML into <div id="root">

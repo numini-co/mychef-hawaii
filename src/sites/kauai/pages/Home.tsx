@@ -30,7 +30,7 @@ const HOME_FAQ = [
   },
   {
     q: 'Do you cater wellness and yoga retreats on Kauaʻi?',
-    a: 'Yes, it is a Kauaʻi core specialty: 8–30 guests across 3–7 days, one contract, menus labeled by dietary protocol (plant-based, gluten-free, anti-inflammatory, pescatarian) with published rates nobody else on the island publishes.',
+    a: 'Yes, it is a Kauaʻi core specialty: 8–30 guests across 3–7 days, one contract, menus labeled by dietary protocol (plant-based, gluten-free, anti-inflammatory, pescatarian) with fully itemized written quotes and published baseline rates.',
   },
   {
     q: 'What happens if the Hanalei bridge closes due to weather?',
@@ -88,7 +88,7 @@ const KAUAI_CAPABILITIES = [
     price: 'From $650',
     unit: 'Two guests · candlelit 4-course dining',
     desc: 'A private chef dedicates the entire evening to cooking and serving a bespoke four-course dinner for two on your veranda.',
-    href: 'private-chef',
+    href: 'services/date-night',
     tag: 'Two Guests',
   },
   {
@@ -112,23 +112,23 @@ const KAUAI_CAPABILITIES = [
 const PACKAGES = [
   {
     title: 'Princeville Bluff Sunset Plated Dinner',
-    tier: 'Signature Fine Dining',
+    tier: 'Example Package · Signature Fine Dining',
     guests: '8 Guests',
     summary: 'A 4-course sunset dinner on a Princeville cliffside veranda overlooking the Pacific.',
     includes: [
-      'Executive Chef on-site for 4.5 hours with full table service',
+      'Private Chef on-site for 4.5 hours with full table service',
       'Course 1: Kauaʻi sweet shrimp ceviche with passion fruit & avocado',
       'Course 2: Kīlauea organic mixed greens with citrus vinaigrette & macadamia nuts',
       'Course 3: Pan-roasted wild onaga or Makaweli beef tenderloin with taro purée',
       'Course 4: Warm dark chocolate cake with Hawaiian vanilla cream',
       'Pristine kitchen restoration and sparkling clean counter handover',
     ],
-    total: '$1,850 all-in',
+    total: '$1,850 estimated',
     note: 'Includes chef fee, groceries, 20% service, and 4.7120% Kauaʻi County GET. Gratuity voluntary.',
   },
   {
     title: 'Poʻipū Estate Multi-Family Feast',
-    tier: 'Family-Style Celebration',
+    tier: 'Example Package · Family-Style Celebration',
     guests: '14 Guests',
     summary: 'An abundant, relaxed passed dinner on a covered South Shore lānai for an extended family.',
     includes: [
@@ -138,12 +138,12 @@ const PACKAGES = [
       'Roasted sweet potatoes, coconut jasmine rice, and seasonal greens',
       'Continuous wine service, plate clearing, and complete kitchen cleanup',
     ],
-    total: '$2,780 all-in',
+    total: '$2,780 estimated',
     note: 'Includes chef, server, all food, 20% service, and tax. Zero unexpected additions.',
   },
   {
     title: 'Hanalei River Villa 5-Day Stay Chef',
-    tier: 'Stay Chef Multi-Day',
+    tier: 'Example Package · Stay Chef Multi-Day',
     guests: '6 Guests (5 Days)',
     summary: 'Complete culinary management for a private North Shore riverfront compound.',
     includes: [
@@ -158,7 +158,7 @@ const PACKAGES = [
   },
   {
     title: 'Kīlauea Plantation Garden Gathering',
-    tier: 'Estate Reception & Canapés',
+    tier: 'Example Package · Estate Reception & Canapés',
     guests: '25 Guests',
     summary: 'An open-air garden party with passed hors d’oeuvres and chef-attended carving stations.',
     includes: [
@@ -167,7 +167,7 @@ const PACKAGES = [
       'Carving station: whole roast ribeye & grilled island catch with fresh chimichurri',
       'Full tableware clearing and dishwashing service',
     ],
-    total: '$4,650 all-in',
+    total: '$4,650 estimated',
     note: 'Includes all chef labor, service staffing, groceries, 20% service, and county tax.',
   },
 ];
@@ -176,7 +176,7 @@ const PURVEYORS = [
   {
     name: 'Kauaʻi Shrimp (Kekaha)',
     role: 'Sweet Salt-Water Harvest',
-    desc: 'Sustainably raised in pristine salt-water ponds on the sunny West Side of Kauaʻi. Sweet, firm, and harvested hours before service — a signature element of our seafood courses.',
+    desc: 'Sustainably raised in pristine salt-water ponds on the sunny West Side of Kauaʻi. Sweet, firm, and harvested fresh — a signature element of our seafood courses.',
     badge: 'West Side Salt-Water',
   },
   {
@@ -201,14 +201,14 @@ const PURVEYORS = [
 
 const RESIDENT_LEADS = [
   {
-    name: 'Noah Callahan',
-    role: 'Executive Chef · Kauaʻi Operations',
-    bio: 'Hanalei resident with 12 years executive experience across Kauaʻi luxury resorts and private bluff compounds. Expert in Pacific Rim seafood techniques and organic farm-to-table cuisine.',
+    name: 'Garden Island Culinary Brigade',
+    role: 'Vetted Kauaʻi Private Chefs',
+    bio: 'Experienced resident private chefs living on Kauaʻi, with deep familiarity with both North Shore (Princeville, Hanalei) and South Shore (Poʻipū, Kōloa) kitchen logistics, local fish landings, and organic farm sourcing.',
   },
   {
-    name: 'Alana Lindsey',
-    role: 'Guest Concierge & Operations Director',
-    bio: 'Born on the Garden Island, Alana manages estate vendor clearances, gated community access, rental tableware logistics, and guest service staffing across both shores.',
+    name: 'Kauaʻi Concierge & Logistics Desk',
+    role: 'Estate Access & Shore Coordination',
+    bio: 'Manages estate vendor clearances, road and weather timing around the Hanalei bridge, rental tableware logistics, and guest service staffing across both shores.',
   },
 ];
 
@@ -322,9 +322,9 @@ export default function KauaiHome() {
             <p className="eyebrow-site text-accent-site uppercase tracking-wider text-xs">
               Transparent Accounting
             </p>
-            <h2 className="h2-site mt-2">Concrete worked event packages</h2>
+            <h2 className="h2-site mt-2">Example event packages</h2>
             <p className="mt-4 text-ink-2 text-sm sm:text-base">
-              Real events we cook regularly across Kauaʻi with itemized, all-inclusive pricing breakdown.
+              Representative event formats we coordinate regularly across Kauaʻi with itemized pricing estimates.
             </p>
           </div>
 

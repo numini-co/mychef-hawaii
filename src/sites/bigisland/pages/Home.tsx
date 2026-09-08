@@ -105,38 +105,38 @@ const BIGISLAND_CAPABILITIES = [
 const PACKAGES = [
   {
     title: 'Kūkiʻo Estate Plated Oceanview Dinner',
-    tier: 'Signature Fine Dining',
+    tier: 'Example Package · Signature Fine Dining',
     guests: '8 Guests',
     summary: 'A 4-course sunset dinner in a private gated Kūkiʻo estate overlooking the Kohala Coast.',
     includes: [
-      'Executive Chef on-site for 4.5 hours with full table service',
-      'Course 1: Kawaihae day-boat ahi sashimi with white truffle ponzu',
+      'Private Chef on-site for 4.5 hours with full table service',
+      'Course 1: Fresh Kawaihae day-boat ahi sashimi with white truffle ponzu',
       'Course 2: Hāmākua aliʻi mushroom tart with microgreens & herb oil',
-      'Course 3: Seared Parker Ranch beef tenderloin or local wild onaga',
+      'Course 3: Seared island beef tenderloin or local wild onaga',
       'Course 4: Big Island chocolate lava cake with Kona coffee anglaise',
       'Pristine kitchen restoration and complete post-dinner cleaning',
     ],
-    total: '$1,800 all-in',
+    total: '$1,800 estimated',
     note: 'Includes food, chef fee, 20% service, and 4.7120% Hawaiʻi County GET. Gratuity voluntary.',
   },
   {
     title: 'Mauna Lani Lanai Sunset BBQ',
-    tier: 'Lanai Live-Flame Feast',
+    tier: 'Example Package · Lanai Live-Flame Feast',
     guests: '16 Guests',
     summary: 'An outdoor chef-attended grill evening on a resort residence lānai for family & friends.',
     includes: [
       'Lead Chef attended grill station plus 1 service associate',
       'Grilled catch of the day with charred lime and herb butter',
-      'Kalbi-marinated Parker Ranch beef skewers & glazed pork ribs',
+      'Kalbi-marinated island beef skewers & glazed pork ribs',
       'Waimea roasted sweet corn & island greens with lilikoʻi dressing',
       'Complete table clearing and dishwashing service',
     ],
-    total: '$2,650 all-in',
+    total: '$2,650 estimated',
     note: 'Includes chef, server, all food, 20% service, and tax. Zero unexpected additions.',
   },
   {
     title: 'Kohala Coast 4-Day Villa Residency',
-    tier: 'Stay Chef Multi-Day',
+    tier: 'Example Package · Stay Chef Multi-Day',
     guests: '6 Guests (4 Days)',
     summary: 'Full private chef coverage for an extended multi-day luxury stay on the Kohala Coast.',
     includes: [
@@ -151,7 +151,7 @@ const PACKAGES = [
   },
   {
     title: 'Waikoloa Family Reunion Gathering',
-    tier: 'Communal Celebration',
+    tier: 'Example Package · Communal Celebration',
     guests: '28 Guests',
     summary: 'An abundant buffet and passed canapé celebration for a multi-generational family reunion.',
     includes: [
@@ -161,22 +161,22 @@ const PACKAGES = [
       'Dessert table: Hawaiian fruit pavlova & warm bread pudding',
       'Tableware clearing, bar glassware support, and kitchen sanitization',
     ],
-    total: '$4,350 all-in',
+    total: '$4,350 estimated',
     note: 'Includes all chef labor, service staffing, groceries, 20% service, and county tax.',
   },
 ];
 
 const PURVEYORS = [
   {
-    name: 'Kawaihae & Honokōhau Day-Boat Fishermen',
+    name: 'Kawaihae & Honokōhau Day-Boat Landings',
     role: 'Deep Ocean Pacific Catch',
     desc: 'Ahi, mahimahi, ono, and deep-water onaga hooked by licensed local fishermen on day-boats out of Kawaihae and Honokōhau harbors. Sourced fresh the morning of service.',
     badge: 'Day-Boat Fresh Catch',
   },
   {
-    name: 'Parker Ranch (Waimea)',
-    role: 'Historic High-Country Grass-Fed Beef',
-    desc: 'Founded in 1847 on the volcanic foothills of Mauna Kea. Free-roaming pasture-raised cattle produce exceptionally tender, rich, and ethical Hawaiian beef.',
+    name: 'Parker Ranch & Island Cattle Co.',
+    role: 'High-Country Grass-Fed Beef',
+    desc: 'Raised on the volcanic foothills of Mauna Kea. Free-roaming pasture-raised cattle produce exceptionally tender, rich, and ethical Hawaiian beef.',
     badge: '100% Pasture-Raised Beef',
   },
   {
@@ -195,14 +195,14 @@ const PURVEYORS = [
 
 const RESIDENT_LEADS = [
   {
-    name: 'Kalani Becker',
-    role: 'Executive Chef · Big Island Operations',
-    bio: 'Waimea native with 15 years executive experience across Kohala Coast luxury resorts and private estates. Master of open-fire live grilling and local Pacific Rim fusion.',
+    name: 'Hawaiʻi Island Culinary Brigade',
+    role: 'Vetted Big Island Private Chefs',
+    bio: 'Experienced resident private chefs specializing in Kohala Coast luxury compound dining, open-fire live grilling, and local ranch-to-table cuisine from Waimea to Kona.',
   },
   {
-    name: 'Kainoa Silva',
-    role: 'Logistics Director & Community Access Lead',
-    bio: 'Specialist in gated community security clearances (Kūkiʻo, Hualālai, Kohanaiki), venue COI processing, and complex multi-day island itineraries across both coasts.',
+    name: 'Big Island Logistics & Gated Access Desk',
+    role: 'Estate Clearance & Inter-District Coordination',
+    bio: 'Coordinates gated community access protocols (Kūkiʻo, Hualālai, Kohanaiki, Mauna Lani), vendor insurance certificates, and inter-district travel schedules across both coasts.',
   },
 ];
 
@@ -228,7 +228,7 @@ export default function BigIslandHome() {
       {/* S2 — Hero: the image carries the headline, the price and the way in */}
       <HeroPanel
         src="/img/bigisland/hero-home.jpg"
-        alt="A single plated course on a slab of black lava with the ocean line behind, in golden-hour Kona light"
+        alt="A private chef finishing a coursed dinner on a modern lava-stone estate terrace, Kona sunset in the background"
         eyebrow="Private chef · Hawaiʻi Island"
         title="Private chef, Big Island."
       >
@@ -302,14 +302,14 @@ export default function BigIslandHome() {
         </div>
       </section>
 
-      {/* Concrete Worked Event Packages */}
+      {/* Example Event Packages */}
       <section className="section-pad rule-t bg-[#1C1A17] text-white">
         <div className="mx-auto max-w-6xl px-6">
           <div className="max-w-2xl">
             <Mono className="text-[11px] text-accent-site">TRANSPARENT ACCOUNTING</Mono>
-            <h2 className="h2-site mt-3 text-white">Real Big Island event packages</h2>
+            <h2 className="h2-site mt-3 text-white">Example Big Island event packages</h2>
             <p className="mt-4 text-white/80 text-sm sm:text-base">
-              Real events we cook regularly across Kona and Kohala with their exact all-inclusive price breakdown.
+              Representative event formats we coordinate across Kona and Kohala with estimated all-inclusive pricing breakdown.
             </p>
           </div>
 

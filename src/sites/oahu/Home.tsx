@@ -114,11 +114,11 @@ const OAHU_CAPABILITIES = [
 const PACKAGES = [
   {
     title: 'Kahala Estate Plated Dinner',
-    tag: 'Private Chef · 10 Guests',
-    price: 'From $1,650 all-inclusive',
-    summary: 'A 4-course seated dinner featuring morning Pier 38 yellowfin ahi carpaccio, seared Kona kampachi, Hawaiian sea salt ribeye, and tropical guava mousse.',
+    tag: 'Example Package · Private Chef · 10 Guests',
+    price: 'From $1,650 estimated',
+    summary: 'A 4-course seated dinner featuring Hawaiian ahi carpaccio, seared Kona kampachi, island sea salt ribeye, and tropical guava mousse.',
     includes: [
-      'Dedicated Executive Chef + 1 Server on site (4 hours)',
+      'Dedicated Private Chef + 1 Server on site (4 hours)',
       'All premium groceries, pantry staples & artisan bread',
       'Individual table course plating & synchronized service',
       'Immaculate kitchen clean, pans hand-washed, surfaces sanitized',
@@ -127,8 +127,8 @@ const PACKAGES = [
   },
   {
     title: 'Waikīkī Penthouse Celebration',
-    tag: 'In-Suite Dining · 6 Guests',
-    price: 'From $990 all-inclusive',
+    tag: 'Example Package · In-Suite Dining · 6 Guests',
+    price: 'From $990 estimated',
     summary: 'Sunset dinner on the lanai above the Honolulu skyline. Full building logistics handled including property insurance certificate (COI) and service elevator booking.',
     includes: [
       'Complete building COI issuance naming your property manager',
@@ -140,9 +140,9 @@ const PACKAGES = [
   },
   {
     title: 'Kailua Beachfront Lawn BBQ',
-    tag: 'Event Catering · 20 Guests',
-    price: 'From $2,950 all-inclusive',
-    summary: 'Casual luxury on the lawn: live wood-fire grilling of local catch, marinated Big Island beef, sweet Maui onion salads, and roasted purple sweet potatoes.',
+    tag: 'Example Package · Event Catering · 20 Guests',
+    price: 'From $2,950 estimated',
+    summary: 'Casual luxury on the lawn: live wood-fire grilling of local catch, marinated island beef, sweet Maui onion salads, and roasted purple sweet potatoes.',
     includes: [
       '1 Lead Grill Chef + 1 Service Associate',
       'Outdoor grill station management & passed family platters',
@@ -153,7 +153,7 @@ const PACKAGES = [
   },
   {
     title: 'Ko Olina 7-Day Stay Chef',
-    tag: 'Stay Chef Week · 8 Guests',
+    tag: 'Example Package · Stay Chef Week · 8 Guests',
     price: '$5,950 chef fee + groceries at cost',
     summary: 'Complete culinary residency for a family holiday week in a Ko Olina resort villa: daily chef-prepared breakfasts, poolside lunches, afternoon pupus, and 5-course dinners.',
     includes: [
@@ -168,21 +168,21 @@ const PACKAGES = [
 
 const PURVEYORS = [
   {
-    name: 'Honolulu Fish Auction (Pier 38)',
+    name: 'Honolulu Fish Wholesalers (Pier 38)',
     role: 'Morning Dock Sourcing',
-    desc: 'At 5:30 AM every service morning, our chefs bid directly at the United Fishing Agency dock for line-caught Yellowfin Ahi, Shutome (Swordfish), Mahimahi, and Opah landed by local Hawaiian longline vessels.',
-    badge: 'Daily 5:30 AM Bidding',
+    desc: 'Sourced fresh through certified Honolulu Fish Auction wholesalers and morning dock landings at Pier 38 — featuring day-catch Hawaiian Yellowfin Ahi, Shutome (Swordfish), Mahimahi, and Opah.',
+    badge: 'Morning Dock Fresh',
   },
   {
     name: 'Waimānalo Greens & Herbs',
     role: 'Windward Oʻahu Organic Agriculture',
-    desc: 'Harvested under the Koolau mountains less than 24 hours before your dinner: crisp micro-cilantro, edible hibiscus blossoms, baby arugula, and peppery nasturtium that never spend days in cargo transit.',
+    desc: 'Harvested under the Koolau mountains: crisp micro-cilantro, edible hibiscus blossoms, baby arugula, and peppery nasturtium that never spend days in cargo transit.',
     badge: 'Same-Day Harvest',
   },
   {
     name: 'Kahuku Farms (North Shore)',
     role: 'Tropical Produce & Citrus',
-    desc: 'Grown on the northern coastal plain: sweet strawberry papayas, sun-ripened lilikoi (passionfruit), apple bananas, and organic citrus for our reduction glazes, vinaigrettes, and handcrafted desserts.',
+    desc: 'Grown on the northern coastal plain: sweet strawberry papayas, sun-ripened lilikoi (passionfruit), apple bananas, and organic citrus for our reduction glazes and handcrafted desserts.',
     badge: 'North Shore Organic',
   },
   {
@@ -195,19 +195,19 @@ const PURVEYORS = [
 
 const RESIDENT_LEADS = [
   {
-    name: 'Chef Keanu Santos',
-    role: 'Executive Chef — Oʻahu Operations',
-    bio: 'Born in Kailua and a graduate of UH Kapiʻolani Culinary Institute of the Pacific. Former chef de partie at top Waikīkī hotel dining rooms and private estate culinary lead for 9 years. Personally handles morning Pier 38 auction buying.',
+    name: 'Resident Lead Chef Brigade',
+    role: 'Vetted Oʻahu Private Chefs',
+    bio: 'Professional resident private chefs with fine-dining backgrounds across top Honolulu and resort dining rooms, specializing in Pacific Rim techniques, multi-course tasting menus, and luxury villa service.',
   },
   {
-    name: 'Chef Maya Lin',
-    role: 'Senior Sous & Pastry Lead',
-    bio: 'Specialist in French-trained Pacific Rim techniques and plant-forward tasting menus. Leads bespoke dessert design, seasonal fruit reductions, and multi-course dietary translation.',
+    name: 'Dedicated Event Service Staff',
+    role: 'Insured Table Service & Bartending',
+    bio: 'Professional, background-checked servers and bartenders trained in quiet residential villa etiquette, course-by-course synchronized service, and complete post-dinner cleanup.',
   },
   {
-    name: 'Nicole Alana',
-    role: 'Oʻahu Logistics & Concierge Director',
-    bio: 'Manages building COI approvals, security gate clearances for Kahala and Ko Olina estates, rental deliveries, and freight elevator reservations across Waikīkī residential high-rises.',
+    name: 'Oʻahu Logistics & Permitting Desk',
+    role: 'Property & Building Clearance',
+    bio: 'Coordinates building COI issuance naming your property manager, freight elevator reservations in Waikīkī high-rises, and security gate clearances for Kahala and Ko Olina gated estates.',
   },
 ];
 
@@ -339,14 +339,14 @@ export default function OahuHome() {
         </div>
       </section>
 
-      {/* S5 — Concrete Worked Event Packages */}
+      {/* S5 — Example Event Packages */}
       <section className="section-pad rule-t bg-[#F7F5F0]">
         <div className="mx-auto max-w-6xl px-6">
           <SectionReveal>
-            <p className="eyebrow-site">Real Pricing Examples</p>
-            <h2 className="h2-site mt-3">Transparent event arithmetic. No guessing.</h2>
+            <p className="eyebrow-site">Example Event Packages</p>
+            <h2 className="h2-site mt-3">Representative event pricing. No guessing.</h2>
             <p className="measure-site mt-4 text-ink-2">
-              Instead of abstract “starting from” rates, here is what confirmed Oʻahu events actually look like on paper:
+              Representative package pricing to help you model your event. Confirmed written quotes are calculated specifically for your guest count, kitchen, and menu tier:
             </p>
           </SectionReveal>
 

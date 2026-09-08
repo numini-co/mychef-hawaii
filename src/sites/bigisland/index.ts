@@ -5,6 +5,7 @@ import PrivateChef from './pages/PrivateChef';
 import Pricing from './pages/Pricing';
 import Catering from './pages/Catering';
 import Weddings from './pages/Weddings';
+import StayChef from './pages/StayChef';
 
 /**
  * bigisland site module — Volcanic Minimalism (design.md §3.5).
@@ -37,5 +38,6 @@ export const bigislandSite: SiteModule = {
     pricing: Pricing,
     catering: Catering,
     weddings: Weddings,
+    'stay-chef': StayChef,
   },
 };

@@ -261,7 +261,7 @@ export default function HubHome() {
         poster="/img/hub/hero-statewide-desk.webp"
         video="/videos/hub/hero-statewide-desk.mp4"
         preferWebm={false}
-        alt="Golden-hour wedding dinner on a Hawaiian estate lawn — cake, string quartet, and staffed tables facing the ocean"
+        alt="Private chef preparing island dinner and sunset estate dining in Hawaii"
         eyebrow="PRIVATE CHEF & CATERING ACROSS HAWAII"
         title={H1}
       >

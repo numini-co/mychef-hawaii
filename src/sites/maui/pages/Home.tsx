@@ -20,7 +20,7 @@ import { ExperienceCard, MauiLink, MauiStyles, MAUI_FEE_NOTE } from './shared';
 const HOME_FAQ = [
   {
     q: 'How much is a private chef dinner on Maui?',
-    a: 'Signature dinners run $150–$250 a guest, groceries inside the band. Premium menus run $220–$325; chef’s-table formats $275–$400+. The 20% service charge and Maui County General Excise Tax (4.166%) appear on their own lines in the written quote — which is the confirmed total.',
+    a: 'Signature dinners run $150–$250 a guest, groceries inside the band. Premium menus run $220–$325; chef’s-table formats $275–$400+. The 20% service charge and Hawaiʻi General Excise Tax (4.7120%) appear on their own lines in the written quote — which is the confirmed total.',
   },
   {
     q: 'Can you cater our whole wedding week?',
@@ -110,23 +110,23 @@ const MAUI_CAPABILITIES = [
 const PACKAGES = [
   {
     title: 'Wailea Oceanfront Villa Dinner',
-    tier: 'Signature Fine Dining',
+    tier: 'Example Package · Signature Fine Dining',
     guests: '8 Guests',
     summary: 'A 4-course sunset dinner in a private Wailea villa overlooking the Pacific.',
     includes: [
-      'Dedicated Executive Chef for 4.5 hours on-site',
-      'Course 1: Day-boat ahi crudo with finger lime & chili crunch',
-      'Course 2: Kula baby greens with Surfing Goat chevre & macadamia crumble',
+      'Dedicated Private Chef for 4.5 hours on-site',
+      'Course 1: Fresh Pacific ahi crudo with finger lime & chili crunch',
+      'Course 2: Kula baby greens with artisan goat chevre & macadamia crumble',
       'Course 3: Seared Pacific catch or Maui Cattle Co. beef tenderloin',
       'Course 4: Warm lilikoʻi tart with coconut gelato',
       'Complete table service and pristine kitchen restoration',
     ],
-    total: '$1,850 all-in',
-    note: 'Includes food, chef fee, 20% service, and 4.166% Maui County GET. Gratuity voluntary.',
+    total: '$1,850 estimated',
+    note: 'Includes food, chef fee, 20% service, and 4.7120% Hawaiʻi GET. Gratuity voluntary.',
   },
   {
     title: 'Kapalua Estate Wedding Welcome Feast',
-    tier: 'Multi-Course Celebration',
+    tier: 'Example Package · Multi-Course Celebration',
     guests: '22 Guests',
     summary: 'A relaxed but elevated welcome dinner on an oceanview lawn for arriving wedding guests.',
     includes: [
@@ -136,12 +136,12 @@ const PACKAGES = [
       'Roasted Upcountry vegetables & jasmine rice with scallion butter',
       'Table wine service, clearing, and full kitchen cleanup',
     ],
-    total: '$3,950 all-in',
-    note: 'Includes food, all service staffing, 20% service, and Maui GET. Zero surprise surcharges.',
+    total: '$3,950 estimated',
+    note: 'Includes food, all service staffing, 20% service, and Hawaiʻi GET. Zero surprise surcharges.',
   },
   {
     title: 'Upcountry Kula Farmstead Residency',
-    tier: 'Stay Chef Multi-Day',
+    tier: 'Example Package · Stay Chef Multi-Day',
     guests: '6 Guests (4 Days)',
     summary: 'Full private chef coverage for an extended multi-day retreat in Kula or Makawao.',
     includes: [
@@ -156,7 +156,7 @@ const PACKAGES = [
   },
   {
     title: 'Mākena Sunset Lanai Live-Flame Grill',
-    tier: 'Estate Lanai BBQ',
+    tier: 'Example Package · Estate Lanai BBQ',
     guests: '16 Guests',
     summary: 'Outdoor chef-attended grill station for a milestone anniversary or birthday gathering.',
     includes: [
@@ -166,17 +166,17 @@ const PACKAGES = [
       'Charred corn salad with cotija & lime crema',
       'Island fruit platter with Hawaiian vanilla whipped cream',
     ],
-    total: '$2,750 all-in',
+    total: '$2,750 estimated',
     note: 'Complete food and staffing coverage. Equipment, gas/coals, and post-event cleanup included.',
   },
 ];
 
 const PURVEYORS = [
   {
-    name: 'Maʻalaea & Lahaina Day-Boat Fleet',
-    role: 'Wild Pacific Day-Boat Catch',
-    desc: 'Our seafood never sits on ice for days. We source ahi, mahimahi, onaga, and ʻōpakapaka directly from licensed Maui commercial day-boats that dock each morning in Maʻalaea Harbor.',
-    badge: 'Pier-to-Plate Seafood',
+    name: 'Maʻalaea & Island Fishermen Fleet',
+    role: 'Fresh Island Day Catch',
+    desc: 'We source fresh Hawaiian ahi, mahimahi, onaga, and ʻōpakapaka landed by licensed commercial island fishermen and local Maui seafood wholesalers.',
+    badge: 'Island Dock Sourced',
   },
   {
     name: 'Maui Cattle Company',
@@ -200,14 +200,14 @@ const PURVEYORS = [
 
 const RESIDENT_LEADS = [
   {
-    name: 'Mateo Fernandez',
-    role: 'Executive Chef · Maui Operations',
-    bio: 'Over 14 years helming kitchens across Wailea luxury resort properties and private estates. Specialist in Hawaii regional cuisine, wood-fired grilling, and French classical seafood cookery.',
+    name: 'Maui Resident Culinary Brigade',
+    role: 'Vetted Maui Private Chefs',
+    bio: 'Professional resident private chefs with backgrounds across top Wailea resort kitchens and private oceanfront estates, specializing in Pacific Rim fine dining, wood-fired grilling, and multi-course wine pairings.',
   },
   {
-    name: 'Malia Vance',
-    role: 'Event Director & Wedding Concierge',
-    bio: 'Born and raised on Maui, Malia coordinates private estate access, venue compliance, rental tableware logistics, and guest service staffing across South and West Maui.',
+    name: 'Maui Villa & Event Logistics Desk',
+    role: 'Estate Access & Tableware Coordination',
+    bio: 'Coordinates private estate access, venue compliance, rental tableware logistics, and guest service staffing across Wailea, Mākena, and Kapalua.',
   },
 ];
 
@@ -428,9 +428,9 @@ export default function MauiHome() {
             <p className="eyebrow-site text-accent-site uppercase tracking-wider text-xs">
               Transparent Accounting
             </p>
-            <h2 className="h2-site mt-2">Real worked event packages</h2>
+            <h2 className="h2-site mt-2">Example event packages</h2>
             <p className="mt-4 text-ink-2 text-sm sm:text-base">
-              Wondering what your gathering will cost? Here are four real events we cook regularly across Maui with their exact all-inclusive price breakdown.
+              Wondering what your gathering will cost? Here are four representative event formats we coordinate regularly across Maui with their estimated all-inclusive pricing breakdown.
             </p>
           </div>
 

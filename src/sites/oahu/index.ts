@@ -5,6 +5,8 @@ import OahuPrivateChef from './PrivateChef';
 import OahuPricing from './Pricing';
 import OahuCatering from './Catering';
 import OahuWeddings from './Weddings';
+import OahuStayChef from './StayChef';
+import OahuCorporate from './Corporate';
 
 /**
  * Oʻahu site module. Bespoke flagship pages render through overrides;
@@ -19,5 +21,7 @@ export const oahuSite: SiteModule = {
     pricing: OahuPricing,
     catering: OahuCatering,
     weddings: OahuWeddings,
+    'stay-chef': OahuStayChef,
+    corporate: OahuCorporate,
   },
 };

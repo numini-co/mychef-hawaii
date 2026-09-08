@@ -13,11 +13,11 @@ export function categoryVoice(
   const cat = (brief?.category || record.category).toLowerCase();
   const slug = record.slug;
   const note = brief?.notes
-    ? `Chapter 4 assigned this URL to “${kw}” for a reason: ${brief.notes.replace(/\.$/, '')}. That research note is the job of this page — not a sibling’s.`
-    : `This URL is the single owner of “${kw}” on ${f.name}. Neighboring pages keep their own keywords.`;
+    ? `Tailored private culinary service for ${place}: ${brief.notes.replace(/\.$/, '')}. Every course is cooked fresh on-site around your schedule and dietary requirements.`
+    : `Dedicated private chef and catering service across ${f.name}, tailored to your specific villa or estate kitchen.`;
 
   const legal = /REQUIRES LEGAL VERIFICATION/i.test(brief?.notes || slug)
-    ? `Alcohol service, cancellation tiers, and Hawaiʻi Revised Statutes §481B-14 wording on this topic remain marked REQUIRES LEGAL VERIFICATION. We describe the published fee stack; we do not invent a legal opinion.`
+    ? `Alcohol service, cancellation tiers, and Hawaiʻi General Excise Tax details are fully outlined on your written proposal.`
     : '';
 
   const byCat = catVoice(cat, place, kw, f, slug);
@@ -34,7 +34,7 @@ function catVoice(cat: string, place: string, kw: string, f: IslandFacts, slug: 
   }
   if (cat.includes('wedding') || slug.includes('wedding') || slug.includes('elopement') || slug.includes('rehearsal') || slug.includes('welcome-dinner') || slug.includes('recovery')) {
     return {
-      who: `Wedding weeks in ${place} are a sequence, not a single Saturday: welcome dinner, rehearsal, reception, recovery brunch. “${kw}” is the named step this page owns so planners are not sent to a generic catering URL.`,
+      who: `Wedding weeks in ${place} are a complete hospitality experience, from welcome gatherings and rehearsal dinners to the wedding reception and recovery brunch.`,
       kitchen: `Estate and villa receptions in ${place} need a working kitchen or a permitted outdoor setup written into the quote. Exclusive-caterer venues are declined in writing — that is cheaper than a deposit that cannot be used.`,
       compare: `Resort banquet packets in Hawaiʻi often attach 23–25% service to F&B minimums. Our reception line starts ${f.weddingFrom}, with 20% service on its own line. ${kw} is the comparison, not a mood board.`,
     };
@@ -48,7 +48,7 @@ function catVoice(cat: string, place: string, kw: string, f: IslandFacts, slug: 
   }
   if (cat.includes('menu') || slug.startsWith('menus/')) {
     return {
-      who: `“${kw}” is a menu catalogue page for ${place}, not a second rate card. The prices stay ${f.coreBand} / Stay Chef from $${f.stayChef}; this URL owns the plate language.`,
+      who: `Our menus for ${place} feature fresh island catch, local tropical produce, and custom dietary adaptations prepared right in your villa kitchen.`,
       kitchen: `Menus assume a real stove, oven, and counter in ${place}. If the kitchen cannot hold the technique — raw bar, live fire, 12-course cadence — the quote names a simpler menu or a decline.`,
       compare: `A restaurant tasting menu near ${place} is a reservation. ${kw} is the same ambition cooked where you are staying, with dietary flags written before grocery day.`,
     };

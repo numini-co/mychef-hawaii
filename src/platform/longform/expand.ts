@@ -88,7 +88,7 @@ export function expandRecord(record: ContentRecord, siteId: SiteId): Longform {
       id: 'lf-owns',
       heading: `What this page covers: ${kw}`,
       body: [
-        `This page exists so “${kw}” has one owner on ${f.name}. If you arrived looking for ${kw}, the answer is here: we cook in real kitchens on ${f.name}, we publish the numbers, and the written quote you approve is the confirmed total — never a chat estimate and never a “booked” screen.`,
+        `When planning ${kw.toLowerCase()} on ${f.name}, clear standards matter: we cook on-site in your kitchen, publish transparent rates, and provide an itemized written quote before any deposit is paid.`,
         voice.note,
         voice.legal || f.extras[0] || `${place} keeps the operational facts — travel, notice, kitchen rules — on this URL.`,
       ].filter((p): p is string => Boolean(p)),
@@ -156,7 +156,7 @@ export function expandRecord(record: ContentRecord, siteId: SiteId): Longform {
       heading: `The next step for ${kw} in ${place}`,
       body: [
         `Six-step quote: island, service, date and guests, kitchen, contact, review. Handoff is WhatsApp or email with the brief structured — not a booked screen and not a chat estimate.`,
-        `The number, if that is all you needed: ${f.coreBand} a guest on ${f.name}, Stay Chef from $${f.stayChef}, Date Night ${f.dateNight}, fee stack itemized. One keyword, one owner — ${kw} stays on this URL.`,
+        `The number, if that is all you needed: ${f.coreBand} a guest on ${f.name}, Stay Chef from $${f.stayChef}, Date Night ${f.dateNight}, fee stack itemized. Every booking is backed by verified resident culinary teams, transparent grocery receipts, and written terms.`,
       ],
     },
   ];
