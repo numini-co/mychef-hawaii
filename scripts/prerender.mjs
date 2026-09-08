@@ -5,18 +5,21 @@
  * Runs after `vite build`.
  * 1. Builds the SSR bundle via Vite SSR.
  * 2. Loads dist/index.html as template.
- * 3. Renders key commercial and landing routes to static HTML files in dist/.
- * 4. Injects rendered body into <div id="root">, ensuring crawlers (Google, Bing, AI bots)
- *    get full static HTML, headings, structured data, and content on initial GET.
+ * 3. Dynamically discovers and renders all key commercial routes across all 5 sites.
+ * 4. Injects extracted metadata (<title>, <meta>, canonical, og:*) cleanly into <head>.
+ * 5. Cleans and formats body HTML with semantic newlines and indentation so that
+ *    ALL crawlers (Googlebot, Bingbot, LLM crawlers, text-based scrapers) receive
+ *    hundreds of well-formed, readable lines with full H1, prices, FAQs, and links.
  */
 
-import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { execSync } from 'node:child_process';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const DIST = join(ROOT, 'dist');
 const TEMPLATE_PATH = join(DIST, 'index.html');
+const SITES_DIR = join(ROOT, 'src/sites');
 
 if (!existsSync(TEMPLATE_PATH)) {
   console.error('prerender.mjs: dist/index.html not found. Run vite build first.');
@@ -34,108 +37,125 @@ execSync('npx vite build --ssr src/entry-server.tsx --outDir dist-ssr', {
 const ssrEntryPath = join(ROOT, 'dist-ssr/entry-server.js');
 const { render } = await import(`file://${ssrEntryPath}`);
 
-// Primary commercial routes that require 100% crawlable static pre-rendering
-const CORE_ROUTES = [
+// Dynamically collect key commercial routes from all sites
+const BASE_MAP = { hub: '', oahu: '/oahu', maui: '/maui', kauai: '/kauai', bigisland: '/bigisland' };
+const discoveredRoutes = new Set([
   '/',
   '/pricing',
   '/multi-island-catering-hawaii',
   '/calculator',
   '/islands',
   '/quote',
+]);
 
-  // Oʻahu Flagship commercial hierarchy & locations
-  '/oahu',
-  '/oahu/quote',
-  '/oahu/private-chef',
-  '/oahu/pricing',
-  '/oahu/catering',
-  '/oahu/weddings',
-  '/oahu/locations/waikiki',
-  '/oahu/locations/honolulu',
-  '/oahu/locations/kahala-gold-coast',
-  '/oahu/locations/ko-olina',
-  '/oahu/locations/kailua-lanikai',
-  '/oahu/locations/north-shore',
-  '/oahu/locations/turtle-bay',
-  '/oahu/locations/kapolei',
-  '/oahu/locations/hawaii-kai',
-  '/oahu/services/dinner-party-chef',
-  '/oahu/services/stay-chef',
-  '/oahu/services/wedding-catering',
-  '/oahu/services/corporate-retreat',
-  '/oahu/services/bbq-catering',
-  '/oahu/services/birthday-catering',
-  '/oahu/services/production-catering',
+for (const siteId of Object.keys(BASE_MAP)) {
+  const base = BASE_MAP[siteId];
+  if (!base) continue;
+  discoveredRoutes.add(base);
+  discoveredRoutes.add(`${base}/quote`);
+  discoveredRoutes.add(`${base}/pricing`);
+  discoveredRoutes.add(`${base}/private-chef`);
+  discoveredRoutes.add(`${base}/catering`);
+  discoveredRoutes.add(`${base}/weddings`);
 
-  // Maui Flagship
-  '/maui',
-  '/maui/pricing',
-  '/maui/private-chef',
-  '/maui/catering',
-  '/maui/weddings',
+  const contentFile = join(SITES_DIR, siteId, 'content.ts');
+  if (existsSync(contentFile)) {
+    const src = readFileSync(contentFile, 'utf8');
+    for (const m of src.matchAll(/slug:\s*'([^']*)'/g)) {
+      const slug = m[1];
+      // Include key commercial categories: core, service, pricing, wedding, locations
+      if (
+        slug.startsWith('locations/') ||
+        slug.startsWith('services/') ||
+        slug.startsWith('pricing/') ||
+        slug.startsWith('menus/') ||
+        slug.startsWith('weddings/') ||
+        slug === 'private-chef' ||
+        slug === 'catering' ||
+        slug === 'weddings' ||
+        slug === 'pricing'
+      ) {
+        discoveredRoutes.add(`${base}/${slug}`);
+      }
+    }
+  }
+}
 
-  // Kauaʻi Flagship
-  '/kauai',
-  '/kauai/pricing',
-  '/kauai/private-chef',
-  '/kauai/catering',
-  '/kauai/weddings',
-
-  // Big Island Flagship
-  '/bigisland',
-  '/bigisland/pricing',
-  '/bigisland/private-chef',
-  '/bigisland/catering',
-  '/bigisland/weddings',
-];
-
-// Deduplicate routes
-const routes = [...new Set(CORE_ROUTES)];
-console.log(`⚡ Pre-rendering ${routes.length} key commercial routes...`);
+const routes = [...discoveredRoutes];
+console.log(`⚡ Pre-rendering ${routes.length} key commercial routes across all 5 sites...`);
 
 let successCount = 0;
 for (const route of routes) {
   try {
-    const { html: bodyHtml } = await render(route);
+    const { html: rawBodyHtml } = await render(route);
 
     let pageHtml = template;
+    let cleanBodyHtml = rawBodyHtml;
 
     // 1. Extract page-specific SEO tags rendered by React and inject into <head>
-    const titleMatch = bodyHtml.match(/<title[^>]*>(.*?)<\/title>/);
+    const titleMatch = cleanBodyHtml.match(/<title[^>]*>(.*?)<\/title>/);
     if (titleMatch) {
       pageHtml = pageHtml.replace(/<title>.*?<\/title>/, `<title>${titleMatch[1]}</title>`);
+      // Remove title from body
+      cleanBodyHtml = cleanBodyHtml.replace(/<title[^>]*>.*?<\/title>/g, '');
     }
 
-    const descMatch = bodyHtml.match(/<meta[^>]*name=["']description["'][^>]*content=["']([^"']*)["']/);
+    const descMatch = cleanBodyHtml.match(/<meta[^>]*name=["']description["'][^>]*content=["']([^"']*)["']/);
     if (descMatch) {
-      pageHtml = pageHtml.replace(/<meta\s+name=["']description["']\s+content=["'][^"']*["']\s*\/?>/, `<meta name="description" content="${descMatch[1]}" />`);
+      pageHtml = pageHtml.replace(
+        /<meta\s+name=["']description["']\s+content=["'][^"']*["']\s*\/?>/,
+        `<meta name="description" content="${descMatch[1]}" />`
+      );
+      cleanBodyHtml = cleanBodyHtml.replace(/<meta[^>]*name=["']description["'][^>]*\/?>/g, '');
     }
 
-    const canonicalMatch = bodyHtml.match(/<link[^>]*rel=["']canonical["'][^>]*href=["']([^"']*)["']/);
+    const canonicalMatch = cleanBodyHtml.match(/<link[^>]*rel=["']canonical["'][^>]*href=["']([^"']*)["']/);
     if (canonicalMatch) {
-      // Remove any existing canonical in template and insert new
       pageHtml = pageHtml.replace(/<link\s+rel=["']canonical["'][^>]*\/?>/g, '');
       pageHtml = pageHtml.replace('</head>', `  <link rel="canonical" href="${canonicalMatch[1]}" />\n  </head>`);
+      cleanBodyHtml = cleanBodyHtml.replace(/<link[^>]*rel=["']canonical["'][^>]*\/?>/g, '');
     }
 
-    const ogTitleMatch = bodyHtml.match(/<meta[^>]*property=["']og:title["'][^>]*content=["']([^"']*)["']/);
+    const ogTitleMatch = cleanBodyHtml.match(/<meta[^>]*property=["']og:title["'][^>]*content=["']([^"']*)["']/);
     if (ogTitleMatch) {
-      pageHtml = pageHtml.replace(/<meta\s+property=["']og:title["']\s+content=["'][^"']*["']\s*\/?>/, `<meta property="og:title" content="${ogTitleMatch[1]}" />`);
+      pageHtml = pageHtml.replace(
+        /<meta\s+property=["']og:title["']\s+content=["'][^"']*["']\s*\/?>/,
+        `<meta property="og:title" content="${ogTitleMatch[1]}" />`
+      );
+      cleanBodyHtml = cleanBodyHtml.replace(/<meta[^>]*property=["']og:title["'][^>]*\/?>/g, '');
     }
 
-    const ogDescMatch = bodyHtml.match(/<meta[^>]*property=["']og:description["'][^>]*content=["']([^"']*)["']/);
+    const ogDescMatch = cleanBodyHtml.match(/<meta[^>]*property=["']og:description["'][^>]*content=["']([^"']*)["']/);
     if (ogDescMatch) {
-      pageHtml = pageHtml.replace(/<meta\s+property=["']og:description["']\s+content=["'][^"']*["']\s*\/?>/, `<meta property="og:description" content="${ogDescMatch[1]}" />`);
+      pageHtml = pageHtml.replace(
+        /<meta\s+property=["']og:description["']\s+content=["'][^"']*["']\s*\/?>/,
+        `<meta property="og:description" content="${ogDescMatch[1]}" />`
+      );
+      cleanBodyHtml = cleanBodyHtml.replace(/<meta[^>]*property=["']og:description["'][^>]*\/?>/g, '');
     }
 
-    const ogImageMatch = bodyHtml.match(/<meta[^>]*property=["']og:image["'][^>]*content=["']([^"']*)["']/);
+    const ogImageMatch = cleanBodyHtml.match(/<meta[^>]*property=["']og:image["'][^>]*content=["']([^"']*)["']/);
     if (ogImageMatch) {
-      pageHtml = pageHtml.replace(/<meta\s+property=["']og:image["']\s+content=["'][^"']*["']\s*\/?>/g, '');
+      pageHtml = pageHtml.replace(/<meta\s+property=["']og:image["'][^>]*\/?>/g, '');
       pageHtml = pageHtml.replace('</head>', `  <meta property="og:image" content="${ogImageMatch[1]}" />\n  </head>`);
+      cleanBodyHtml = cleanBodyHtml.replace(/<meta[^>]*property=["']og:image["'][^>]*\/?>/g, '');
     }
 
-    // 2. Inject body HTML into <div id="root">
-    pageHtml = pageHtml.replace('<div id="root"></div>', `<div id="root">${bodyHtml}</div>`);
+    // Clean any remaining meta tags from body
+    cleanBodyHtml = cleanBodyHtml.replace(/<meta[^>]*property=["']og:type["'][^>]*\/?>/g, '');
+    cleanBodyHtml = cleanBodyHtml.replace(/<meta[^>]*property=["']og:url["'][^>]*\/?>/g, '');
+
+    // Strip out code-path attributes injected by debug tools
+    cleanBodyHtml = cleanBodyHtml.replace(/\s*code-path="[^"]*"/g, '');
+
+    // 2. Format HTML with clean semantic line breaks so crawlers can easily parse line by line
+    cleanBodyHtml = cleanBodyHtml
+      .replace(/<(header|nav|main|section|article|footer|h1|h2|h3|h4|p|ul|ol|li|details|summary|table|thead|tbody|tr|td|th)\b/gi, '\n<$1')
+      .replace(/<\/(header|nav|main|section|article|footer|h1|h2|h3|h4|p|ul|ol|li|details|summary|table|thead|tbody|tr|td|th)>/gi, '</$1>\n')
+      .replace(/\n\s*\n/g, '\n');
+
+    // 3. Inject formatted body HTML into <div id="root">
+    pageHtml = pageHtml.replace('<div id="root"></div>', `<div id="root">\n${cleanBodyHtml}\n</div>`);
 
     // Clean up destination path
     let outFilePath;
