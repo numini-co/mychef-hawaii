@@ -13,6 +13,7 @@ const NAV_LINKS: Record<SiteId, { label: string; slug: string }[]> = {
     { label: 'Multi-Island', slug: 'multi-island-catering-hawaii' },
     { label: 'Islands', slug: 'islands' },
     { label: 'Pricing', slug: 'pricing' },
+    { label: 'Calculator', slug: 'calculator' },
     { label: 'Guides', slug: 'guides' },
     { label: 'Trust', slug: 'trust' },
     { label: 'Quote', slug: 'quote' },
@@ -20,6 +21,7 @@ const NAV_LINKS: Record<SiteId, { label: string; slug: string }[]> = {
   oahu: [
     { label: 'Private chef', slug: 'private-chef' },
     { label: 'Pricing', slug: 'pricing' },
+    { label: 'Calculator', slug: 'calculator' },
     { label: 'Catering', slug: 'catering' },
     { label: 'Locations', slug: 'locations' },
     { label: 'Guides', slug: 'guides' },

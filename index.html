@@ -19,34 +19,26 @@
     />
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
 
-    <!-- Fonts (design.md §3.0 — Google Fonts equivalents, font-display: swap, max 4 weights/site) -->
+    <!-- Fonts (single combined request, font-display: swap, non-blocking for CWV) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Hub: Cormorant Garamond 500/600 + Work Sans 400/500 -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Work+Sans:wght@400;500&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500&family=Cormorant+Garamond:wght@500;600&family=Fraunces:opsz,wght@9..144,300;9..144,400&family=IBM+Plex+Mono:wght@400;500&family=Inter+Tight:wght@400;500;600&family=Karla:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,300&family=Noto+Sans+JP:wght@400;500&family=Source+Sans+3:wght@400;600&family=Spectral:ital,wght@0,300;0,400;1,300;1,400&family=Work+Sans:wght@400;500&display=swap"
     />
-    <!-- Oʻahu: Inter Tight 400/500/600 + Newsreader 300 italic/400 (+ Noto Sans JP for the JA cluster) -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,300&family=Noto+Sans+JP:wght@400;500&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500&family=Cormorant+Garamond:wght@500;600&family=Fraunces:opsz,wght@9..144,300;9..144,400&family=IBM+Plex+Mono:wght@400;500&family=Inter+Tight:wght@400;500;600&family=Karla:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,300&family=Noto+Sans+JP:wght@400;500&family=Source+Sans+3:wght@400;600&family=Spectral:ital,wght@0,300;0,400;1,300;1,400&family=Work+Sans:wght@400;500&display=swap"
+      media="print"
+      onload="this.media='all'"
     />
-    <!-- Maui: Fraunces 300/400 (opsz) + Source Sans 3 400/600 -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400&family=Source+Sans+3:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Kauaʻi: Spectral 300/400 + italic + Karla 400/500 -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;1,300;1,400&family=Karla:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Big Island: Archivo 300/400/500 + IBM Plex Mono 400/500 -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500&family=Cormorant+Garamond:wght@500;600&family=Fraunces:opsz,wght@9..144,300;9..144,400&family=IBM+Plex+Mono:wght@400;500&family=Inter+Tight:wght@400;500;600&family=Karla:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,300&family=Noto+Sans+JP:wght@400;500&family=Source+Sans+3:wght@400;600&family=Spectral:ital,wght@0,300;0,400;1,300;1,400&family=Work+Sans:wght@400;500&display=swap"
+      />
+    </noscript>
   </head>
   <body>
     <div id="root"></div>

@@ -105,6 +105,7 @@ export default function VideoHero({
           }}
         >
           {preferWebm ? <source src={video.replace(/\.mp4$/, '.webm')} type="video/webm" /> : null}
+          <source src={video.replace(/\.mp4$/, '-mobile.mp4')} media="(max-width: 767px)" type="video/mp4" />
           <source src={video} type="video/mp4" />
         </video>
       ) : null}

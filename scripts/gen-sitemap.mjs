@@ -26,6 +26,9 @@ for (const siteId of readdirSync(SITES_DIR)) {
   if (base === undefined) continue;
   const file = join(SITES_DIR, siteId, 'content.ts');
   const slugs = new Set(['', 'quote']); // bespoke routes always present
+  if (siteId === 'hub') {
+    slugs.add('calculator');
+  }
   if (existsSync(file)) {
     const src = readFileSync(file, 'utf8');
     for (const m of src.matchAll(/slug:\s*'([^']*)'/g)) slugs.add(m[1]);

@@ -29,6 +29,7 @@ export default function Footer() {
               links={[
                 { label: 'Multi-Island Catering', to: '/multi-island-catering-hawaii' },
                 { label: 'The statewide tariff', to: '/pricing' },
+                { label: 'Event Pricing Calculator', to: '/calculator' },
                 { label: 'Cost by island', to: '/pricing/cost-by-island' },
                 { label: 'The fee stack', to: '/pricing/fee-stack' },
                 { label: 'What a private chef costs', to: '/private-chef-cost' },

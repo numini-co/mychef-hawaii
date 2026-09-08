@@ -11,7 +11,7 @@
  */
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router';
-import type { SiteId } from '@/platform/tokens';
+import type { IslandId, SiteId } from '@/platform/tokens';
 import { ISLAND_IDS, SITE_META, TOKENS, tokensToCssVars } from '@/platform/tokens';
 import { CONTACT, RATES } from '@/platform/config';
 import { useSite } from '@/platform/IslandProvider';
@@ -184,9 +184,40 @@ function track(event: string, detail?: Record<string, unknown>) {
 
 /* ---------------- component ---------------- */
 
-function arrivingMulti() {
-  if (typeof window === 'undefined') return false;
-  return new URLSearchParams(window.location.search).get('itinerary') === 'multi';
+function arrivingInitialState(arrivingIsland: SiteId | ''): QuoteState {
+  if (typeof window === 'undefined') return initialState(arrivingIsland);
+  const params = new URLSearchParams(window.location.search);
+  const isMulti = params.get('itinerary') === 'multi' || params.get('multi') === 'true';
+  const paramIsland = params.get('island') as SiteId | null;
+  const paramService = params.get('service') || '';
+  const paramGuests = parseInt(params.get('guests') || '', 10);
+  const paramDates = params.get('dates') || params.get('date') || '';
+  const paramArea = params.get('area') || '';
+  const paramDietary = params.get('dietary') ? params.get('dietary')!.split(',') : [];
+  const paramAddons = params.get('addons') ? params.get('addons')!.split(',') : [];
+
+  const effectiveIsland: SiteId | '' = isMulti
+    ? 'hub'
+    : paramIsland && (ISLAND_IDS.includes(paramIsland as IslandId) || paramIsland === 'hub')
+      ? paramIsland
+      : arrivingIsland && arrivingIsland !== 'hub'
+        ? arrivingIsland
+        : '';
+
+  const initial = initialState(effectiveIsland);
+
+  if (paramService) initial.service = paramService;
+  if (!isNaN(paramGuests) && paramGuests >= 2) initial.guests = paramGuests;
+  if (paramDates) initial.date = paramDates;
+  if (paramArea) initial.area = paramArea;
+  if (paramDietary.length) initial.dietary = paramDietary;
+  if (paramAddons.length) initial.addons = paramAddons;
+
+  if (effectiveIsland && initial.service) {
+    initial.step = 3;
+  }
+
+  return initial;
 }
 
 export default function QuoteFlow() {
@@ -194,8 +225,11 @@ export default function QuoteFlow() {
   const arrivingIsland = siteId !== 'hub' ? siteId : '';
 
   const [s, setS] = useState<QuoteState>(() => {
-    if (arrivingMulti()) return { ...initialState(''), island: 'hub' };
     try {
+      const urlHasPrefills = typeof window !== 'undefined' && window.location.search.length > 1;
+      if (urlHasPrefills) {
+        return arrivingInitialState(arrivingIsland);
+      }
       const saved = sessionStorage.getItem(STORAGE_KEY);
       if (saved) {
         const parsed = JSON.parse(saved) as QuoteState;
@@ -204,7 +238,7 @@ export default function QuoteFlow() {
     } catch {
       /* fresh state */
     }
-    return initialState(arrivingIsland);
+    return arrivingInitialState(arrivingIsland);
   });
 
   useEffect(() => {

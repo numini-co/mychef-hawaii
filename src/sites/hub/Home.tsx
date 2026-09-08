@@ -314,13 +314,20 @@ export default function HubHome() {
         </div>
 
         {/* Primary Dual Actions */}
-        <div className="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:gap-5">
+        <div className="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:gap-4">
           <Link
             to="/quote?itinerary=multi"
             className="cta-site w-full sm:w-auto"
             style={{ backgroundColor: '#F7F5F0', color: '#23201A' }}
           >
             Plan a Multi-Island Event
+          </Link>
+          <Link
+            to="/calculator"
+            className="cta-ghost-site w-full sm:w-auto"
+            style={{ color: '#EDE8DB', borderColor: 'rgba(237,232,219,0.75)', backgroundColor: 'rgba(0,0,0,0.3)' }}
+          >
+            Estimate Budget (Calculator) ⚡
           </Link>
           <a
             href="#choose-island"

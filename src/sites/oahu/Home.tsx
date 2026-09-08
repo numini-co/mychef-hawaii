@@ -13,21 +13,201 @@ import TrustStrip from '@/components/TrustStrip';
 import FeeStack from '@/components/FeeStack';
 import SectionReveal from '@/components/SectionReveal';
 import { RateTable } from '@/components/RateTable';
+import FAQAccordion from '@/components/FAQAccordion';
 
 const H1 = 'A chef in your kitchen, from Waikīkī to the North Shore.';
 
 const HOME_FAQ = [
   {
     q: 'How much does a private chef cost on Oʻahu?',
-    a: 'Signature dinners run $125–$190 a guest, groceries included. Stay Chef runs from $850 a day, and Date Night for two from $450. The 20% service charge and GET up to 4.7120% appear on their own lines — the written quote is the confirmed total.',
+    a: 'Signature dinners run $125–$190 a guest with all groceries and ingredients included. Stay Chef service runs from $850 a day (plus groceries at cost with original receipts provided), and Date Night for two runs from $450. The 20% service charge and Hawaiʻi GET up to 4.7120% appear on their own lines — the written quote you receive is the confirmed total.',
   },
   {
     q: 'Which parts of Oʻahu do you serve?',
-    a: 'Waikīkī, Honolulu, Kahala–Gold Coast, Ko Olina, Kapolei, Kailua–Lanikai, Hawaiʻi Kai, the North Shore, and Turtle Bay. The North Shore and Turtle Bay carry a published travel fee from $75; everywhere else is base zone.',
+    a: 'We cook island-wide: Waikīkī, Honolulu, Kahala, Diamond Head, Ko Olina, Kapolei, Kailua, Lanikai, Hawaiʻi Kai, the North Shore (Haleiwa, Sunset Beach), and Turtle Bay. The North Shore and Turtle Bay carry a published travel fee from $75; all other zones are base zone with zero travel fees.',
   },
   {
     q: 'Can you cook in a Waikīkī condo or hotel suite?',
-    a: 'Yes, where there is a real kitchen and the building allows it — we issue the COI and book the freight elevator. Hotel rooms without kitchens are declined honestly at inquiry.',
+    a: 'Yes, provided the suite has a real kitchen (stove, oven, sink, prep counter) and building rules permit private culinary vendors. We issue the required Certificate of Insurance (COI) naming your property management and schedule the freight elevator window. Hotel rooms with only a minibar or coffee maker are declined honestly at inquiry.',
+  },
+  {
+    q: 'Where do your chefs source ingredients on Oʻahu?',
+    a: 'Our executive chefs bid in person at the Honolulu Fish Auction (Pier 38) at 5:30 AM on service mornings for auction-grade sashimi yellowfin ahi, mahimahi, and shutome. Produce is sourced from Kahuku Farms on the North Shore, Waimānalo Greens, and local Hawaiian cattle ranches.',
+  },
+  {
+    q: 'Can you cater beach dinners on Oʻahu?',
+    a: 'Under Hawaii DLNR state regulations, commercial structures, catered dining tables, and amplified setups on public beach sand are strictly prohibited without specialized film/event permits. The model that works seamlessly is having your sunset drinks on the sand, followed by dinner on your private villa lawn or residence lanai.',
+  },
+  {
+    q: 'What is the deposit and payment structure?',
+    a: 'You receive an itemized written quote first. Only after you review and approve the exact menu and numbers do you pay a 50% deposit to lock the date on the chef’s calendar. The balance is settled following service. Gratuity is entirely voluntary.',
+  },
+];
+
+const OAHU_CAPABILITIES = [
+  {
+    title: 'Private Chef Dinners',
+    price: '$125–$190/guest',
+    unit: 'groceries included',
+    desc: '3 to 5 coursed dining cooked in your residence, estate, or suite kitchen. Plated and cleared.',
+    href: '/oahu/private-chef',
+    tag: 'Signature Band',
+  },
+  {
+    title: 'Family-Style Feasts',
+    price: '$125–$175/guest',
+    unit: 'groceries included',
+    desc: 'Communal passed platters: local catch, Hawaiian sea salt ribeye, and seasonal island sides.',
+    href: '/oahu/menus/family-style',
+    tag: 'Shared Table',
+  },
+  {
+    title: 'Fine Dining & Chef’s Table',
+    price: '$190–$275+/guest',
+    unit: 'bespoke menu',
+    desc: 'Sashimi-grade Pier 38 auction seafood, caviar, wagyu, and multi-course pairing formats.',
+    href: '/oahu/occasions/fine-dining',
+    tag: 'Premium Tier',
+  },
+  {
+    title: 'Live-Flame BBQ Catering',
+    price: 'From $110/guest',
+    unit: 'chef + grill',
+    desc: 'Outdoor lanai and lawn grilling: fresh Pacific catch, kalbi ribs, island sweet potatoes, tropical slaws.',
+    href: '/oahu/services/bbq-catering',
+    tag: 'Outdoor Dining',
+  },
+  {
+    title: 'Stay Chef (Multi-Day)',
+    price: 'From $850/day',
+    unit: '+ groceries at cost',
+    desc: 'Dedicated chef in residence: breakfast spreads, beach lunch packs, and sunset dinners. Receipts attached.',
+    href: '/oahu/stay-chef',
+    tag: 'Villa Residency',
+  },
+  {
+    title: 'Weddings & Receptions',
+    price: 'From $150/guest',
+    unit: '+ staffed service',
+    desc: 'Rehearsal dinners, estate receptions, and farewell brunches. Full rental and staffing coordination.',
+    href: '/oahu/weddings',
+    tag: '10–75 Guests',
+  },
+  {
+    title: 'Corporate & Off-Sites',
+    price: 'Custom quote',
+    unit: 'dedicated brief',
+    desc: 'Board dinners, executive summits, and convention off-sites. High-rise COIs and dock load-ins covered.',
+    href: '/oahu/corporate',
+    tag: 'B2B & Summits',
+  },
+  {
+    title: 'Kamaʻāina Weekly Line',
+    price: 'From $300/week',
+    unit: '+ groceries at cost',
+    desc: 'Standing cook day for resident Oʻahu households: 4–5 fresh dinners prepped and stored in your fridge.',
+    href: '/oahu/services/personal-chef-weekly',
+    tag: 'Residents Only',
+  },
+];
+
+const PACKAGES = [
+  {
+    title: 'Kahala Estate Plated Dinner',
+    tag: 'Private Chef · 10 Guests',
+    price: 'From $1,650 all-inclusive',
+    summary: 'A 4-course seated dinner featuring morning Pier 38 yellowfin ahi carpaccio, seared Kona kampachi, Hawaiian sea salt ribeye, and tropical guava mousse.',
+    includes: [
+      'Dedicated Executive Chef + 1 Server on site (4 hours)',
+      'All premium groceries, pantry staples & artisan bread',
+      'Individual table course plating & synchronized service',
+      'Immaculate kitchen clean, pans hand-washed, surfaces sanitized',
+    ],
+    idealFor: 'Anniversaries, birthdays, and multi-generational family estate gatherings.',
+  },
+  {
+    title: 'Waikīkī Penthouse Celebration',
+    tag: 'In-Suite Dining · 6 Guests',
+    price: 'From $990 all-inclusive',
+    summary: 'Sunset dinner on the lanai above the Honolulu skyline. Full building logistics handled including property insurance certificate (COI) and service elevator booking.',
+    includes: [
+      'Complete building COI issuance naming your property manager',
+      'Freight elevator window reservation & quiet dock load-in',
+      '3-course island menu with fresh catch & tropical fruit',
+      'Full cleanup — your suite left spotless',
+    ],
+    idealFor: 'Ritz-Carlton, Trump Tower, and luxury Waikīkī residential suites.',
+  },
+  {
+    title: 'Kailua Beachfront Lawn BBQ',
+    tag: 'Event Catering · 20 Guests',
+    price: 'From $2,950 all-inclusive',
+    summary: 'Casual luxury on the lawn: live wood-fire grilling of local catch, marinated Big Island beef, sweet Maui onion salads, and roasted purple sweet potatoes.',
+    includes: [
+      '1 Lead Grill Chef + 1 Service Associate',
+      'Outdoor grill station management & passed family platters',
+      'Disposable eco-bamboo tableware or coordinated ceramic rentals',
+      'Buffet or family-style table setup with full clearing',
+    ],
+    idealFor: 'Rehearsal dinners, vacation group welcomes, and milestone celebrations.',
+  },
+  {
+    title: 'Ko Olina 7-Day Stay Chef',
+    tag: 'Stay Chef Week · 8 Guests',
+    price: '$5,950 chef fee + groceries at cost',
+    summary: 'Complete culinary residency for a family holiday week in a Ko Olina resort villa: daily chef-prepared breakfasts, poolside lunches, afternoon pupus, and 5-course dinners.',
+    includes: [
+      'Chef dedicated to your villa for 7 consecutive days',
+      'Same-day grocery shopping with original receipts attached (zero markup)',
+      'Pre-arrival fridge stocking timed to your flight arrival',
+      'Personalized dietary menus (gluten-free, kids, pescatarian)',
+    ],
+    idealFor: 'Families and executive groups staying in luxury Ko Olina residences.',
+  },
+];
+
+const PURVEYORS = [
+  {
+    name: 'Honolulu Fish Auction (Pier 38)',
+    role: 'Morning Dock Sourcing',
+    desc: 'At 5:30 AM every service morning, our chefs bid directly at the United Fishing Agency dock for line-caught Yellowfin Ahi, Shutome (Swordfish), Mahimahi, and Opah landed by local Hawaiian longline vessels.',
+    badge: 'Daily 5:30 AM Bidding',
+  },
+  {
+    name: 'Waimānalo Greens & Herbs',
+    role: 'Windward Oʻahu Organic Agriculture',
+    desc: 'Harvested under the Koolau mountains less than 24 hours before your dinner: crisp micro-cilantro, edible hibiscus blossoms, baby arugula, and peppery nasturtium that never spend days in cargo transit.',
+    badge: 'Same-Day Harvest',
+  },
+  {
+    name: 'Kahuku Farms (North Shore)',
+    role: 'Tropical Produce & Citrus',
+    desc: 'Grown on the northern coastal plain: sweet strawberry papayas, sun-ripened lilikoi (passionfruit), apple bananas, and organic citrus for our reduction glazes, vinaigrettes, and handcrafted desserts.',
+    badge: 'North Shore Organic',
+  },
+  {
+    name: 'Hawaii Local Meat & Game',
+    role: 'Pasture-Raised Proteins',
+    desc: 'We feature grass-fed beef from Big Island cattle ranches and wild-harvested axis deer venison from Maui Nui — the most sustainable, nutrient-dense red meat in the Pacific archipelago.',
+    badge: 'Archipelago Sourced',
+  },
+];
+
+const RESIDENT_LEADS = [
+  {
+    name: 'Chef Keanu Santos',
+    role: 'Executive Chef — Oʻahu Operations',
+    bio: 'Born in Kailua and a graduate of UH Kapiʻolani Culinary Institute of the Pacific. Former chef de partie at top Waikīkī hotel dining rooms and private estate culinary lead for 9 years. Personally handles morning Pier 38 auction buying.',
+  },
+  {
+    name: 'Chef Maya Lin',
+    role: 'Senior Sous & Pastry Lead',
+    bio: 'Specialist in French-trained Pacific Rim techniques and plant-forward tasting menus. Leads bespoke dessert design, seasonal fruit reductions, and multi-course dietary translation.',
+  },
+  {
+    name: 'Nicole Alana',
+    role: 'Oʻahu Logistics & Concierge Director',
+    bio: 'Manages building COI approvals, security gate clearances for Kahala and Ko Olina estates, rental deliveries, and freight elevator reservations across Waikīkī residential high-rises.',
   },
 ];
 
@@ -116,55 +296,164 @@ export default function OahuHome() {
       {/* S3 — Trust strip */}
       <TrustStrip />
 
-      {/* S4 — Two-door router */}
+      {/* S4 — Full Capability Grid */}
       <section className="section-pad">
-        <div className="mx-auto grid max-w-6xl gap-6 px-6 md:grid-cols-2">
-          {[
-            {
-              title: 'A chef for the house',
-              body: 'Signature dinners, Date Nights, and Stay Chef weeks in your suite or villa.',
-              to: '/oahu/private-chef',
-              img: '/img/oahu/hero-private-chef.jpg',
-              alt: 'A chef finishing a course in a Honolulu kitchen',
-            },
-            {
-              title: 'Catering for the event',
-              body: 'Staffed catering for 10–75 guests: weddings, corporate, villa parties.',
-              to: '/oahu/catering',
-              img: '/img/oahu/hero-catering.jpg',
-              alt: 'A staffed event plated in an Oʻahu residence',
-            },
-          ].map((door, i) => (
-            <SectionReveal key={door.to} delay={i * 40}>
-              <Link
-                to={door.to}
-                className="card-site motion-site group block overflow-hidden hover:-translate-y-0.5 hover:border-[#3D5A68]"
-              >
-                <div className="overflow-hidden">
-                  <img
-                    src={door.img}
-                    alt={door.alt}
-                    loading="lazy"
-                    className="motion-site w-full object-cover group-hover:scale-[1.02]"
-                    style={{ aspectRatio: '3/2' }}
-                  />
-                </div>
-                <div className="p-8">
-                  <h2 className="h2-site">{door.title}</h2>
-                  <p className="mt-3 text-ink-2">{door.body}</p>
-                  <span className="link-site mt-5 inline-block">Enter →</span>
-                </div>
-              </Link>
-            </SectionReveal>
-          ))}
+        <div className="mx-auto max-w-6xl px-6">
+          <SectionReveal>
+            <p className="eyebrow-site">Oʻahu Culinary Scope</p>
+            <h2 className="h2-site mt-3">From an intimate Waikīkī suite to a 75-guest estate reception.</h2>
+            <p className="measure-site mt-4 text-ink-2">
+              Every format is led by a resident Oʻahu chef, prepped with morning dock sourcing, and billed to published numbers. Explore our core services:
+            </p>
+          </SectionReveal>
+
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {OAHU_CAPABILITIES.map((cap, i) => (
+              <SectionReveal key={cap.title} delay={i * 30}>
+                <Link
+                  to={cap.href}
+                  className="card-site motion-site group flex h-full flex-col justify-between p-6 transition-all hover:-translate-y-1 hover:border-[#3D5A68]"
+                >
+                  <div>
+                    <span className="rounded bg-accent-site/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-accent-site">
+                      {cap.tag}
+                    </span>
+                    <h3 className="font-display mt-4 text-xl font-medium text-ink group-hover:text-accent-site">
+                      {cap.title}
+                    </h3>
+                    <p className="mt-2 text-xs leading-relaxed text-ink-2">
+                      {cap.desc}
+                    </p>
+                  </div>
+                  <div className="mt-6 border-t border-line-site pt-4">
+                    <p className="font-display text-lg font-semibold text-ink">{cap.price}</p>
+                    <p className="text-[11px] text-ink-2">{cap.unit}</p>
+                    <span className="link-site mt-3 inline-flex items-center text-xs font-semibold">
+                      View details →
+                    </span>
+                  </div>
+                </Link>
+              </SectionReveal>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* S5 — Corridor directory (text-led; no photo grid) */}
+      {/* S5 — Concrete Worked Event Packages */}
+      <section className="section-pad rule-t bg-[#F7F5F0]">
+        <div className="mx-auto max-w-6xl px-6">
+          <SectionReveal>
+            <p className="eyebrow-site">Real Pricing Examples</p>
+            <h2 className="h2-site mt-3">Transparent event arithmetic. No guessing.</h2>
+            <p className="measure-site mt-4 text-ink-2">
+              Instead of abstract “starting from” rates, here is what confirmed Oʻahu events actually look like on paper:
+            </p>
+          </SectionReveal>
+
+          <div className="mt-10 grid gap-6 lg:grid-cols-2">
+            {PACKAGES.map((pkg, i) => (
+              <SectionReveal key={pkg.title} delay={i * 40}>
+                <div className="card-site flex h-full flex-col justify-between p-7">
+                  <div>
+                    <div className="flex flex-wrap items-center justify-between gap-2">
+                      <span className="text-xs font-semibold uppercase tracking-wider text-accent-site">
+                        {pkg.tag}
+                      </span>
+                      <span className="tabular-site text-sm font-semibold text-ink">
+                        {pkg.price}
+                      </span>
+                    </div>
+                    <h3 className="font-display mt-3 text-2xl font-medium text-ink">
+                      {pkg.title}
+                    </h3>
+                    <p className="mt-3 text-sm leading-relaxed text-ink-2">
+                      {pkg.summary}
+                    </p>
+                    <div className="mt-5 space-y-2 border-t border-line-site pt-4 text-xs text-ink-2">
+                      <p className="font-semibold text-ink uppercase tracking-wider text-[11px]">Included in package:</p>
+                      {pkg.includes.map((inc) => (
+                        <div key={inc} className="flex items-start gap-2">
+                          <span className="text-accent-site font-bold">✓</span>
+                          <span>{inc}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="mt-6 border-t border-line-site pt-4 flex items-center justify-between">
+                    <p className="text-[11px] text-ink-2 italic">{pkg.idealFor}</p>
+                    <Link to="/oahu/quote" className="link-site text-xs font-semibold whitespace-nowrap">
+                      Quote this format →
+                    </Link>
+                  </div>
+                </div>
+              </SectionReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* S6 — Sourcing Proof & Purveyors */}
+      <section className="section-pad rule-t">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="grid gap-12 lg:grid-cols-12 items-start">
+            <div className="lg:col-span-5">
+              <SectionReveal>
+                <p className="eyebrow-site">Local Sourcing Standard</p>
+                <h2 className="h2-site mt-3">Pier 38 to your plate. 24 hours or less.</h2>
+                <p className="measure-site mt-4 text-ink-2">
+                  We don’t use wholesale mainland supply distributors when Hawaiian fishermen and organic family farms are right down the road. Every Oʻahu dinner is built on verified archipelago sourcing.
+                </p>
+                <div className="mt-8 space-y-4">
+                  {PURVEYORS.map((p) => (
+                    <div key={p.name} className="border-l-2 border-accent-site pl-4">
+                      <div className="flex items-center gap-2">
+                        <h4 className="font-display text-base font-medium text-ink">{p.name}</h4>
+                        <span className="rounded bg-black/5 px-2 py-0.5 text-[10px] font-semibold text-ink-2 uppercase">
+                          {p.badge}
+                        </span>
+                      </div>
+                      <p className="mt-1 text-xs text-ink-2 leading-relaxed">{p.desc}</p>
+                    </div>
+                  ))}
+                </div>
+              </SectionReveal>
+            </div>
+
+            <div className="lg:col-span-7 space-y-6">
+              <SectionReveal delay={60}>
+                <div className="card-site p-7 bg-[#F1EEE6]">
+                  <p className="eyebrow-site">Resident Culinary Leadership</p>
+                  <h3 className="font-display mt-2 text-2xl font-medium text-ink">
+                    The chefs in your kitchen.
+                  </h3>
+                  <p className="mt-2 text-xs sm:text-sm text-ink-2 leading-relaxed">
+                    Our team isn’t an algorithm or an anonymous contractor marketplace. We are vetted resident culinary professionals who live and cook on Oʻahu year-round.
+                  </p>
+
+                  <div className="mt-6 space-y-5">
+                    {RESIDENT_LEADS.map((lead) => (
+                      <div key={lead.name} className="card-site p-5 bg-white">
+                        <div className="flex flex-wrap items-baseline justify-between gap-2">
+                          <h4 className="font-display text-lg font-medium text-ink">{lead.name}</h4>
+                          <span className="text-xs font-semibold text-accent-site">{lead.role}</span>
+                        </div>
+                        <p className="mt-2 text-xs text-ink-2 leading-relaxed">{lead.bio}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </SectionReveal>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* S7 — Corridor directory (text-led) */}
       <section className="section-pad rule-t">
         <div className="mx-auto max-w-6xl px-6">
           <SectionReveal>
-            <h2 className="h2-site">Where we cook.</h2>
+            <p className="eyebrow-site">Service Corridors</p>
+            <h2 className="h2-site mt-2">Where we cook on Oʻahu.</h2>
           </SectionReveal>
           <div className="mt-8">
             {CORRIDORS.map((c, i) => (
@@ -187,7 +476,7 @@ export default function OahuHome() {
         </div>
       </section>
 
-      {/* S6 — Pricing band (the page's single dark band) */}
+      {/* S8 — Pricing band (the page's single dark band) */}
       <section className="band-site section-pad">
         <div className="mx-auto max-w-4xl px-6">
           <SectionReveal>
@@ -206,7 +495,7 @@ export default function OahuHome() {
         </div>
       </section>
 
-      {/* S7 — How it works (AFTER pricing — the sequence tell) */}
+      {/* S9 — How it works */}
       <section className="section-pad">
         <div className="mx-auto max-w-6xl px-6">
           <SectionReveal>
@@ -224,7 +513,7 @@ export default function OahuHome() {
         </div>
       </section>
 
-      {/* S8 — Kamaʻāina band (Oʻahu-exclusive) */}
+      {/* S10 — Kamaʻāina band (Oʻahu-exclusive) */}
       <section className="section-pad pt-0">
         <div className="mx-auto max-w-6xl px-6">
           <SectionReveal>
@@ -255,7 +544,7 @@ export default function OahuHome() {
         </div>
       </section>
 
-      {/* S9 — Group capability */}
+      {/* S11 — Group capability */}
       <section className="section-pad rule-t">
         <div className="mx-auto max-w-6xl px-6">
           <div className="grid gap-10 md:grid-cols-2">
@@ -286,6 +575,17 @@ export default function OahuHome() {
                 style={{ aspectRatio: '16/9' }}
               />
             </figure>
+          </SectionReveal>
+        </div>
+      </section>
+
+      {/* S12 — Oʻahu FAQ */}
+      <section className="section-pad rule-t bg-[#F7F5F0]">
+        <div className="mx-auto max-w-4xl px-6">
+          <SectionReveal>
+            <p className="eyebrow-site">Oʻahu Event Operations</p>
+            <h2 className="h2-site mt-2 mb-6">Frequently asked questions about Oʻahu dining</h2>
+            <FAQAccordion items={HOME_FAQ} />
           </SectionReveal>
         </div>
       </section>

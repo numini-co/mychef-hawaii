@@ -162,10 +162,17 @@ export default function PricingHubPage() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
-            <a
-              href="#what-it-buys"
+            <Link
+              to="/calculator"
               className="cta-site"
               style={{ backgroundColor: '#F7F5F0', color: '#23201A' }}
+            >
+              Interactive Price Calculator ⚡
+            </Link>
+            <a
+              href="#what-it-buys"
+              className="cta-ghost-site"
+              style={{ color: '#EDE8DB', borderColor: 'rgba(237,232,219,0.45)' }}
             >
               What $125 Buys (Inclusions) ↓
             </a>

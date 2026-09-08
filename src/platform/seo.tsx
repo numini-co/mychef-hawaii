@@ -19,23 +19,6 @@ function upsertMeta(attr: 'name' | 'property', key: string, content: string) {
   el.setAttribute('content', content);
 }
 
-let ldCounter = 0;
-
-function useJsonLd(blocks: JsonLd[]) {
-  useEffect(() => {
-    const id = `jsonld-${++ldCounter}`;
-    const script = document.createElement('script');
-    script.type = 'application/ld+json';
-    script.id = id;
-    script.textContent = JSON.stringify(blocks.length === 1 ? blocks[0] : blocks);
-    document.head.appendChild(script);
-    return () => {
-      document.getElementById(id)?.remove();
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [JSON.stringify(blocks)]);
-}
-
 export interface SeoProps {
   /** Page title without brand suffix. */
   title: string;
@@ -47,18 +30,21 @@ export interface SeoProps {
   jsonLd?: JsonLd[];
 }
 
-/** Per-page head manager. Renders nothing. */
 export function Seo({ title, description, path, ogImage, jsonLd = [] }: SeoProps) {
   const fullTitle = title.includes('myCHEF') ? title : `${title} | myCHEF Hawaii`;
   const url = `${SITE_URL}${path}`;
+  const imgUrl = ogImage ? (ogImage.startsWith('http') ? ogImage : `${SITE_URL}${ogImage}`) : undefined;
+  const jsonLdContent = jsonLd.length > 0 ? (jsonLd.length === 1 ? jsonLd[0] : jsonLd) : null;
+
   useEffect(() => {
+    if (typeof document === 'undefined') return;
     document.title = fullTitle;
     upsertMeta('name', 'description', description);
     upsertMeta('property', 'og:title', fullTitle);
     upsertMeta('property', 'og:description', description);
     upsertMeta('property', 'og:url', url);
     upsertMeta('property', 'og:type', 'website');
-    if (ogImage) upsertMeta('property', 'og:image', ogImage.startsWith('http') ? ogImage : `${SITE_URL}${ogImage}`);
+    if (imgUrl) upsertMeta('property', 'og:image', imgUrl);
     let canonical = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]');
     if (!canonical) {
       canonical = document.createElement('link');
@@ -66,9 +52,26 @@ export function Seo({ title, description, path, ogImage, jsonLd = [] }: SeoProps
       document.head.appendChild(canonical);
     }
     canonical.href = url;
-  }, [fullTitle, description, url, ogImage]);
-  useJsonLd(jsonLd);
-  return null;
+  }, [fullTitle, description, url, imgUrl]);
+
+  return (
+    <>
+      <title>{fullTitle}</title>
+      <meta name="description" content={description} />
+      <link rel="canonical" href={url} />
+      <meta property="og:title" content={fullTitle} />
+      <meta property="og:description" content={description} />
+      <meta property="og:url" content={url} />
+      <meta property="og:type" content="website" />
+      {imgUrl && <meta property="og:image" content={imgUrl} />}
+      {jsonLdContent && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdContent) }}
+        />
+      )}
+    </>
+  );
 }
 
 /* ---------------- JSON-LD builders ---------------- */

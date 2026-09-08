@@ -494,6 +494,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://mychef-hawaii.com/calculator</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://mychef-hawaii.com/careers</loc>
     <priority>0.7</priority>
   </url>
