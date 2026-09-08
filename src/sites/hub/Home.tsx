@@ -174,7 +174,7 @@ const CAPABILITIES: ServiceCapability[] = [
     category: 'Statewide Hub',
     desc: 'One point of contact coordinating catering across Oʻahu, Maui, Kauaʻi and Big Island.',
     price: 'One central brief',
-    to: '/quote?itinerary=multi',
+    to: '/multi-island-catering-hawaii',
     badge: 'Statewide',
   },
 ];
@@ -469,13 +469,20 @@ export default function HubHome() {
                 film productions. You deal with one coordinator, approve one master quote, and enjoy
                 seamless dining on every island without managing four separate vendors.
               </p>
-              <div className="mt-6">
+              <div className="mt-6 flex flex-wrap gap-3">
                 <Link
                   to="/quote?itinerary=multi"
                   className="cta-site w-full sm:w-auto inline-flex items-center justify-center"
                   style={{ backgroundColor: '#F7F5F0', color: '#23201A' }}
                 >
                   Plan with myCHEF Hawaii →
+                </Link>
+                <Link
+                  to="/multi-island-catering-hawaii"
+                  className="cta-ghost-site w-full sm:w-auto inline-flex items-center justify-center"
+                  style={{ color: '#EDE8DB', borderColor: 'rgba(237,232,219,0.5)' }}
+                >
+                  Multi-Island Product Details →
                 </Link>
               </div>
             </SectionReveal>

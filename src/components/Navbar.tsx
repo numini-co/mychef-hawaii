@@ -10,6 +10,7 @@ import Wordmark from './Wordmark';
 /** Header links per site — commercial doors first, then depth. */
 const NAV_LINKS: Record<SiteId, { label: string; slug: string }[]> = {
   hub: [
+    { label: 'Multi-Island', slug: 'multi-island-catering-hawaii' },
     { label: 'Islands', slug: 'islands' },
     { label: 'Pricing', slug: 'pricing' },
     { label: 'Guides', slug: 'guides' },

@@ -363,6 +363,52 @@ export const content: ContentRecord[] = [
     keywords: ['corporate catering Hawaii'],
   },
   {
+    slug: 'multi-island-catering-hawaii',
+    category: 'service',
+    title: 'Multi-Island Catering Hawaii — One Partner Across 4 Islands',
+    h1: 'Multi-island catering across Oʻahu, Maui, Kauaʻi & Big Island.',
+    meta: {
+      description:
+        'Turnkey multi-island catering and private chef coordination across Hawaii. One coordinator, one master quote, unified dietary ledger, and resident culinary teams on every island.',
+      ogImage: '/img/hub/multi-island-itinerary.jpg',
+    },
+    intro:
+      'Planning events, retreats, or private villa dining across more than one Hawaiian island? myCHEF Hawaii coordinates your catering across Oʻahu, Maui, Kauaʻi, and Hawaiʻi Island through one inquiry, one central coordinator, and four resident island teams.',
+    sections: [
+      {
+        heading: 'Why multi-island itineraries need a central desk',
+        body: [
+          'Hawaii has no inter-island vehicle ferries and barge freight moves slowly. Coordinating catering across islands usually forces planners to source, interview, and contract four separate catering companies with different minimums and varying terms.',
+          'myCHEF Hawaii solves this with a centralized statewide desk. You work with one dedicated coordinator, approve one master proposal, and maintain one consolidated invoice while resident chefs execute on each island.',
+        ],
+      },
+      {
+        heading: '100% Resident Island Culinary Teams',
+        body: [
+          'We do not fly chefs between islands with expensive flights, excess baggage, and airport delay risks. We maintain vetted culinary teams who permanently reside on Oʻahu, Maui, Kauaʻi, and the Big Island. They source fresh ingredients from local docks and morning farmers on the day of your event.',
+        ],
+      },
+      {
+        heading: 'The Unified Dietary Master Ledger',
+        body: [
+          'Dietary requirements, severe allergies, and personal food preferences are collected once during your initial intake. That ledger is shared across all four island kitchens so you never have to re-explain guest needs when your trip moves between islands.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'Can we have different formats on each island?',
+        a: 'Yes. You can schedule an informal welcome BBQ on Oʻahu, an all-day wellness retreat meal plan on Kauaʻi, a 40-guest celebration dinner on Maui, and a farewell private chef tasting menu on the Big Island.',
+      },
+      {
+        q: 'How does billing work for multi-island catering?',
+        a: 'You receive one consolidated written quote itemizing each island segment, staffing hours, 20% service charge, and local county GET. A single 50% deposit secures your dates across all islands.',
+      },
+    ],
+    cta: { label: 'Plan a multi-island itinerary', href: '/quote?itinerary=multi', secondaryLabel: 'See the statewide tariff', secondaryHref: '/pricing' },
+    keywords: ['multi island catering Hawaii', 'statewide catering Hawaii', 'multi island private chef Hawaii'],
+  },
+  {
     slug: 'villa-chef',
     category: 'service',
     title: 'Private Chef for Your Vacation Rental in Hawaii',

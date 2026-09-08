@@ -25,8 +25,9 @@ export default function Footer() {
               ]}
             />
             <FooterCol
-              title="Pricing"
+              title="Pricing & Scope"
               links={[
+                { label: 'Multi-Island Catering', to: '/multi-island-catering-hawaii' },
                 { label: 'The statewide tariff', to: '/pricing' },
                 { label: 'Cost by island', to: '/pricing/cost-by-island' },
                 { label: 'The fee stack', to: '/pricing/fee-stack' },
