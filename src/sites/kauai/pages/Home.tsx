@@ -1,7 +1,8 @@
 /**
  * /kauai — homepage per home-kauai.md: framed veranda hero → two-shore
- * selector → canopy band (stay chef / retreat) → experience cards →
- * pricing-on-mist → bridge callout → how-it-works → weddings teaser →
+ * selector → full capability grid → worked event packages → canopy band
+ * (stay chef / retreat) → local purveyors & resident leads → experience cards
+ * → pricing-on-mist → bridge callout → how-it-works → weddings teaser →
  * trust strip → FAQ → inquiry band.
  */
 import { Link } from 'react-router';
@@ -21,23 +22,193 @@ const record = content.find((r) => r.slug === '')!;
 const HOME_FAQ = [
   {
     q: 'How much does a private chef cost on Kauaʻi?',
-    a: 'Signature dinners run $150–$250 per guest with groceries included; the Table tier is $125–$150. Stay Chef multi-day service starts at $1,100 a day plus groceries at cost. The 20% service charge and Hawaiʻi GET up to 4.7120% always appear on their own lines.',
-    links: [{ label: 'The full rate card', href: '/kauai/pricing' }],
+    a: 'Signature dinners run $150–$250 per guest with groceries included; the Table tier is $125–$150. Stay Chef multi-day service starts at $1,100 a day plus groceries at cost. The 20% service charge and Kauaʻi County General Excise Tax (4.7120%) always appear on their own lines.',
   },
   {
     q: 'Which shore should we book — and when?',
-    a: 'Summer (June–September) is the North Shore’s prime; the South Shore carries November through March. We serve both year-round and say which your dates argue for in the inquiry reply.',
-    links: [{ label: 'The two-shore season guide', href: '/kauai/guides/shore-seasonality' }],
+    a: 'Summer (June–September) is the North Shore’s prime (Hanalei, Princeville); the South Shore (Poʻipū, Kōloa) carries gentle ocean conditions November through March. We cook across both shores year-round and provide seasonal recommendations during inquiry.',
   },
   {
-    q: 'Do you cater retreats?',
-    a: 'It’s the Kauaʻi signature: 8–30 guests across 3–7 days, one contract, menus labeled by dietary protocol — priced from published rates nobody else on the island publishes.',
-    links: [{ label: 'Retreat catering', href: '/kauai/retreat-catering' }],
+    q: 'Do you cater wellness and yoga retreats on Kauaʻi?',
+    a: 'Yes, it is a Kauaʻi core specialty: 8–30 guests across 3–7 days, one contract, menus labeled by dietary protocol (plant-based, gluten-free, anti-inflammatory, pescatarian) with published rates nobody else on the island publishes.',
   },
   {
-    q: 'What happens if the Hanalei bridge closes?',
-    a: 'Far-North service runs on a written clause: 72-hour notice, and documented closures reschedule rather than forfeit. Your deposit doesn’t evaporate over weather.',
-    links: [{ label: 'The bridge clause', href: '/kauai/guides/hanalei-bridge-clause' }],
+    q: 'What happens if the Hanalei bridge closes due to weather?',
+    a: 'Far-North service runs on a written contract clause: 72-hour notice, and documented highway closures reschedule rather than forfeit. Your deposit is protected.',
+  },
+  {
+    q: 'Can you cook in our vacation rental or private estate?',
+    a: 'Yes. Any private residence, villa, or estate with an operational kitchen in Poʻipū, Princeville, Hanalei, Kapaʻa, Kīlauea, or Kōloa. Base zones carry $0 travel fees; Far North (Hāʻena) carries a modest $95 travel surcharge.',
+  },
+];
+
+const KAUAI_CAPABILITIES = [
+  {
+    title: 'North Shore & Poʻipū Estate Dinners',
+    price: 'From $150 / guest',
+    unit: '3–5 coursed dinner · groceries included',
+    desc: 'Intimate fine dining inside your Hanalei beach house or Princeville cliffside estate with fresh island catch.',
+    href: 'private-chef',
+    tag: 'Estate Dining',
+  },
+  {
+    title: 'Kauaʻi Stay Chef Residency',
+    price: 'From $1,100 / day',
+    unit: 'Dedicated chef in residence · groceries at cost',
+    desc: 'Complete daily culinary management for extended family stays: breakfast on the lānai, picnic lunch, and sunset dinner.',
+    href: 'stay-chef',
+    tag: 'Villa Residency',
+  },
+  {
+    title: 'Wellness & Yoga Retreat Catering',
+    price: 'From $145 / guest / day',
+    unit: 'Full board · dietary protocol labeled',
+    desc: 'Organic, Ayurvedic, and plant-forward menus crafted specifically for wellness, meditation, and executive retreats.',
+    href: 'retreat-catering',
+    tag: 'Retreat Table',
+  },
+  {
+    title: 'Garden Island Wedding Receptions',
+    price: 'From $175 / guest',
+    unit: 'Plated dining or passed canapés + staffing',
+    desc: 'Bespoke culinary coordination for private estate weddings, welcome luaus, and morning-after recovery brunches.',
+    href: 'weddings',
+    tag: 'Bespoke Wedding',
+  },
+  {
+    title: 'Live-Flame Open-Air Lanai BBQ',
+    price: 'From $135 / guest',
+    unit: 'Chef attended grill · artisanal communal sides',
+    desc: 'Fresh Kauaʻi shrimp, teriyaki-glazed Makaweli beef, grilled island pineapple, and local greens passed on wooden platters.',
+    href: 'catering',
+    tag: 'Outdoor Grill',
+  },
+  {
+    title: 'Romance & Sunset Cliffside Date Night',
+    price: 'From $650',
+    unit: 'Two guests · candlelit 4-course dining',
+    desc: 'A private chef dedicates the entire evening to cooking and serving a bespoke four-course dinner for two on your veranda.',
+    href: 'private-chef',
+    tag: 'Two Guests',
+  },
+  {
+    title: 'Family-Style Passed Feasts',
+    price: 'From $150 / guest',
+    unit: 'Communal luxury · relaxed estate table',
+    desc: 'Shared platters of day-boat fish, braised short ribs, and organic North Shore vegetables for lively family gatherings.',
+    href: 'catering',
+    tag: 'Communal Style',
+  },
+  {
+    title: 'Private Surf & Adventure Provisioning',
+    price: 'Custom Daily Tiers',
+    unit: 'Packaged cooler packs & ready meals',
+    desc: 'Prepared gourmet meals packed for boat charters to the Nāpali Coast, Kalalau trail staging, or surf safaris.',
+    href: 'catering',
+    tag: 'Adventure Dining',
+  },
+];
+
+const PACKAGES = [
+  {
+    title: 'Princeville Bluff Sunset Plated Dinner',
+    tier: 'Signature Fine Dining',
+    guests: '8 Guests',
+    summary: 'A 4-course sunset dinner on a Princeville cliffside veranda overlooking the Pacific.',
+    includes: [
+      'Executive Chef on-site for 4.5 hours with full table service',
+      'Course 1: Kauaʻi sweet shrimp ceviche with passion fruit & avocado',
+      'Course 2: Kīlauea organic mixed greens with citrus vinaigrette & macadamia nuts',
+      'Course 3: Pan-roasted wild onaga or Makaweli beef tenderloin with taro purée',
+      'Course 4: Warm dark chocolate cake with Hawaiian vanilla cream',
+      'Pristine kitchen restoration and sparkling clean counter handover',
+    ],
+    total: '$1,850 all-in',
+    note: 'Includes chef fee, groceries, 20% service, and 4.7120% Kauaʻi County GET. Gratuity voluntary.',
+  },
+  {
+    title: 'Poʻipū Estate Multi-Family Feast',
+    tier: 'Family-Style Celebration',
+    guests: '14 Guests',
+    summary: 'An abundant, relaxed passed dinner on a covered South Shore lānai for an extended family.',
+    includes: [
+      'Lead Chef plus 1 dedicated service associate for 4 hours',
+      'Passed welcome pūpū: poke spoons & grilled vegetable skewers',
+      'Family-style mains: ginger-scallion catch of the day & guava-glazed baby back ribs',
+      'Roasted sweet potatoes, coconut jasmine rice, and seasonal greens',
+      'Continuous wine service, plate clearing, and complete kitchen cleanup',
+    ],
+    total: '$2,780 all-in',
+    note: 'Includes chef, server, all food, 20% service, and tax. Zero unexpected additions.',
+  },
+  {
+    title: 'Hanalei River Villa 5-Day Stay Chef',
+    tier: 'Stay Chef Multi-Day',
+    guests: '6 Guests (5 Days)',
+    summary: 'Complete culinary management for a private North Shore riverfront compound.',
+    includes: [
+      'Dedicated private chef stationed in your villa kitchen every day',
+      'Daily morning tropical breakfasts, afternoon lunch, and coursed evening dinners',
+      'Daily morning farm runs to Hanalei and Kīlauea organic farm stands',
+      'Tailored handling of all dietary requests (gluten-free, vegan, pescatarian)',
+      'Continual kitchen maintenance and pantry stocking throughout the trip',
+    ],
+    total: '$5,950 chef fee + groceries at cost',
+    note: 'Daily chef fee $1,100/day (5 days) + 20% service + GET. Groceries billed with original receipts.',
+  },
+  {
+    title: 'Kīlauea Plantation Garden Gathering',
+    tier: 'Estate Reception & Canapés',
+    guests: '25 Guests',
+    summary: 'An open-air garden party with passed hors d’oeuvres and chef-attended carving stations.',
+    includes: [
+      'Lead Chef plus 2 service associates for 4 hours',
+      '5 passed warm and chilled canapés during sunset cocktail hour',
+      'Carving station: whole roast ribeye & grilled island catch with fresh chimichurri',
+      'Full tableware clearing and dishwashing service',
+    ],
+    total: '$4,650 all-in',
+    note: 'Includes all chef labor, service staffing, groceries, 20% service, and county tax.',
+  },
+];
+
+const PURVEYORS = [
+  {
+    name: 'Kauaʻi Shrimp (Kekaha)',
+    role: 'Sweet Salt-Water Harvest',
+    desc: 'Sustainably raised in pristine salt-water ponds on the sunny West Side of Kauaʻi. Sweet, firm, and harvested hours before service — a signature element of our seafood courses.',
+    badge: 'West Side Salt-Water',
+  },
+  {
+    name: 'Makaweli Meat Company',
+    role: '100% Pasture-Raised Island Meats',
+    desc: 'Free-range cattle and lamb raised on West Kauaʻi pastures without hormones or antibiotics. Exceptionally tender grass-fed beef that anchors our braises and grilled steaks.',
+    badge: 'Pasture-Raised Beef',
+  },
+  {
+    name: 'Kīlauea Community Agriculture & Organic Farms',
+    role: 'North Shore Organic Produce',
+    desc: 'Organically grown baby lettuces, heirloom cherry tomatoes, rainbow chard, and tropical citrus harvested from North Shore volcanic gardens the morning of your dinner.',
+    badge: 'North Shore Organic',
+  },
+  {
+    name: 'Kauaʻi Coffee & Hanalei Apiaries',
+    role: 'Estate Roasts & Wild Honey',
+    desc: 'Single-estate estate coffees from the volcanic hills of Kalāheo paired with unfiltered raw wildflower honey from Hanalei valley hives for our desserts and marinades.',
+    badge: 'Estate Single-Origin',
+  },
+];
+
+const RESIDENT_LEADS = [
+  {
+    name: 'Noah Callahan',
+    role: 'Executive Chef · Kauaʻi Operations',
+    bio: 'Hanalei resident with 12 years executive experience across Kauaʻi luxury resorts and private bluff compounds. Expert in Pacific Rim seafood techniques and organic farm-to-table cuisine.',
+  },
+  {
+    name: 'Alana Lindsey',
+    role: 'Guest Concierge & Operations Director',
+    bio: 'Born on the Garden Island, Alana manages estate vendor clearances, gated community access, rental tableware logistics, and guest service staffing across both shores.',
   },
 ];
 
@@ -78,12 +249,19 @@ export default function KauaiHome() {
         title="Kauaʻi, cooked in."
         sub="A private chef for your estate, your retreat, your whole stay — both shores. Signature dinners $150–$250 a guest; Stay Chef from $1,100 a day. The written quote is the confirmed total."
       >
-        <div className="flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-5">
+        <div className="flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
           <Link to={link('quote')} className="cta-site">
             Begin an inquiry
           </Link>
+          <Link
+            to="/calculator?island=kauai"
+            className="cta-ghost-site"
+            style={{ color: 'var(--site-ink)', borderColor: 'var(--site-accent)', backgroundColor: 'rgba(255,255,255,0.7)' }}
+          >
+            Kauaʻi Price Calculator ⚡
+          </Link>
           <Link to={link('pricing')} className="cta-secondary-site">
-            See the rate card
+            See rate card
           </Link>
         </div>
         <div className="mt-6">
@@ -91,8 +269,128 @@ export default function KauaiHome() {
         </div>
       </FramedHero>
 
-      {/* Two-shore selector (home signature) */}
+      {/* Two-shore selector */}
       <ShoreSelector />
+
+      {/* Full Capability Grid */}
+      <section className="section-pad mx-auto max-w-6xl px-6">
+        <div className="max-w-2xl">
+          <p className="eyebrow-site text-accent-site uppercase tracking-wider text-xs">
+            Kauaʻi Culinary Scope
+          </p>
+          <h2 className="h2-site mt-2">What we cook on the Garden Island</h2>
+          <p className="mt-4 text-ink-2">
+            From misty North Shore veranda dinners in Hanalei to sunny South Shore estate celebrations in Poʻipū. All dinner pricing includes chef on-site labor, fresh local grocery shopping, and complete kitchen cleanup.
+          </p>
+        </div>
+
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {KAUAI_CAPABILITIES.map((cap, i) => (
+            <SectionReveal key={cap.title} delay={i * 80}>
+              <div className="card-site flex h-full flex-col justify-between p-6 bg-white border border-line-site hover:border-accent-site transition-colors">
+                <div>
+                  <span className="text-[10px] font-semibold tracking-wider text-accent-site uppercase">
+                    {cap.tag}
+                  </span>
+                  <h3 className="font-display text-lg font-semibold text-ink mt-2">
+                    {cap.title}
+                  </h3>
+                  <p className="text-xs text-ink-2 mt-2 leading-relaxed">
+                    {cap.desc}
+                  </p>
+                </div>
+                <div className="mt-6 pt-4 border-t border-line-site">
+                  <p className="font-display text-sm font-bold text-ink">{cap.price}</p>
+                  <p className="text-[11px] text-ink-2 mt-0.5">{cap.unit}</p>
+                  <Link
+                    to={link(cap.href)}
+                    className="mt-3 inline-block text-xs font-semibold text-accent-site hover:underline"
+                  >
+                    View Details →
+                  </Link>
+                </div>
+              </div>
+            </SectionReveal>
+          ))}
+        </div>
+      </section>
+
+      {/* Concrete Worked Event Packages */}
+      <section className="section-pad rule-t bg-[#F0EBE1]">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="max-w-2xl">
+            <p className="eyebrow-site text-accent-site uppercase tracking-wider text-xs">
+              Transparent Accounting
+            </p>
+            <h2 className="h2-site mt-2">Concrete worked event packages</h2>
+            <p className="mt-4 text-ink-2 text-sm sm:text-base">
+              Real events we cook regularly across Kauaʻi with itemized, all-inclusive pricing breakdown.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-8 md:grid-cols-2">
+            {PACKAGES.map((pkg, i) => (
+              <SectionReveal key={pkg.title} delay={i * 120}>
+                <div className="card-site flex h-full flex-col justify-between p-7 bg-white shadow-sm border border-line-site">
+                  <div>
+                    <div className="flex items-center justify-between">
+                      <span className="rounded bg-black/5 px-2.5 py-1 text-[11px] font-semibold text-accent-site uppercase tracking-wider">
+                        {pkg.tier}
+                      </span>
+                      <span className="font-display text-sm font-semibold text-ink">
+                        {pkg.guests}
+                      </span>
+                    </div>
+
+                    <h3 className="font-display text-2xl font-semibold text-ink mt-4">
+                      {pkg.title}
+                    </h3>
+                    <p className="text-xs text-ink-2 mt-2">{pkg.summary}</p>
+
+                    <div className="mt-6 border-t border-line-site pt-4">
+                      <p className="text-xs font-semibold text-ink uppercase tracking-wider">Inclusions:</p>
+                      <ul className="mt-3 space-y-2 text-xs text-ink-2">
+                        {pkg.includes.map((inc) => (
+                          <li key={inc} className="flex items-start gap-2">
+                            <span className="text-accent-site font-bold">✓</span>
+                            <span>{inc}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="mt-8 border-t border-line-site pt-5 bg-[#FAF7F2] -mx-7 -mb-7 p-6 rounded-b-lg">
+                    <div className="flex items-baseline justify-between">
+                      <span className="text-xs uppercase tracking-wider text-ink-2 font-medium">Estimated Total</span>
+                      <span className="font-display text-xl font-bold text-ink">{pkg.total}</span>
+                    </div>
+                    <p className="text-[11px] text-ink-2 mt-1 leading-relaxed">{pkg.note}</p>
+                    <div className="mt-4 flex gap-3">
+                      <Link
+                        to={link(`quote?service=signature&package=${encodeURIComponent(pkg.title)}`)}
+                        className="cta-site w-full text-center text-xs py-2.5 font-semibold"
+                      >
+                        Request This Package →
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </SectionReveal>
+            ))}
+          </div>
+
+          <div className="mt-10 text-center">
+            <Link
+              to="/calculator?island=kauai"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-ink hover:text-accent-site"
+            >
+              <span>Need custom dates, guest counts, or staffing? Use our Live Kauaʻi Calculator</span>
+              <span>→</span>
+            </Link>
+          </div>
+        </div>
+      </section>
 
       {/* Canopy band — the long-stay products */}
       <CanopyBand>
@@ -134,8 +432,59 @@ export default function KauaiHome() {
         </div>
       </CanopyBand>
 
+      {/* Local Kauaʻi Purveyors & Resident Leads */}
+      <section className="section-pad mx-auto max-w-6xl px-6">
+        <div className="max-w-2xl">
+          <p className="eyebrow-site text-accent-site uppercase tracking-wider text-xs">
+            Garden Island Provenance
+          </p>
+          <h2 className="h2-site mt-2">Kauaʻi earth, salt-water harvest</h2>
+          <p className="mt-4 text-ink-2">
+            We cook directly with Kauaʻi growers, ranchers, and fisheries.
+          </p>
+        </div>
+
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {PURVEYORS.map((p, i) => (
+            <SectionReveal key={p.name} delay={i * 100}>
+              <div className="card-site h-full p-6 bg-white border border-line-site">
+                <span className="rounded bg-accent-site/10 px-2 py-0.5 text-[10px] font-semibold text-accent-site uppercase tracking-wider">
+                  {p.badge}
+                </span>
+                <h3 className="font-display text-lg font-semibold text-ink mt-3">
+                  {p.name}
+                </h3>
+                <p className="text-xs font-medium text-accent-site mt-1">{p.role}</p>
+                <p className="text-xs text-ink-2 mt-3 leading-relaxed">{p.desc}</p>
+              </div>
+            </SectionReveal>
+          ))}
+        </div>
+
+        {/* Resident Chefs */}
+        <div className="mt-16 rounded-xl border border-line-site bg-[#F0EBE1] p-8 sm:p-10">
+          <div className="max-w-2xl">
+            <span className="text-xs font-semibold text-accent-site uppercase tracking-wider">On-Island Culinary Team</span>
+            <h3 className="font-display text-2xl font-semibold text-ink mt-2">Resident Kauaʻi leadership</h3>
+            <p className="text-xs sm:text-sm text-ink-2 mt-2">
+              Our culinary leads live on the Garden Island, know estate kitchen layouts from Princeville to Poʻipū, and navigate island weather microclimates daily.
+            </p>
+          </div>
+
+          <div className="mt-8 grid gap-8 sm:grid-cols-2">
+            {RESIDENT_LEADS.map((lead) => (
+              <div key={lead.name} className="border-l-2 border-accent-site pl-4">
+                <p className="font-display text-lg font-semibold text-ink">{lead.name}</p>
+                <p className="text-xs font-medium text-accent-site mt-0.5">{lead.role}</p>
+                <p className="text-xs text-ink-2 mt-2 leading-relaxed">{lead.bio}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Experience cards */}
-      <section className="section-pad" aria-label="The products">
+      <section className="section-pad rule-t" aria-label="The products">
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="h2-site mb-8">Four ways to the table.</h2>
           <ExperienceCards
@@ -214,84 +563,51 @@ export default function KauaiHome() {
         </div>
       </div>
 
-      {/* How it works — asymmetric stepped list */}
+      {/* How it works */}
       <section className="mx-auto max-w-6xl px-6 pb-16" aria-labelledby="how">
         <h2 id="how" className="h2-site mb-10">From inquiry to first course.</h2>
-        <ol className="grid gap-6 md:grid-cols-12">
+        <div className="grid gap-8 md:grid-cols-4">
           {STEPS.map((s, i) => (
-            <SectionReveal
-              as="li"
-              key={s.n}
-              delay={i * 70}
-              className={`md:col-span-5 ${i % 2 === 1 ? 'md:col-start-7' : 'md:col-start-2'}`}
-            >
-              <div className="rule-t pt-5">
-                <p className="eyebrow-site mb-2">{s.n}</p>
-                <h3 className="font-display text-2xl" style={{ fontWeight: 300 }}>
-                  {s.t}
-                </h3>
-                <p className="mt-2 text-ink-2">{s.b}</p>
-              </div>
+            <SectionReveal key={s.n} delay={i * 90}>
+              <p className="font-display text-3xl font-light text-ink-2">{s.n}</p>
+              <p className="font-display text-xl mt-2 mb-2">{s.t}</p>
+              <p className="text-sm text-ink-2">{s.b}</p>
             </SectionReveal>
           ))}
-        </ol>
-        <p className="mt-8">
-          <Link to={link('guides/how-it-works')} className="link-site">
-            The full sequence →
-          </Link>
-        </p>
+        </div>
       </section>
 
-      {/* Weddings teaser */}
-      <section className="mx-auto max-w-6xl px-6 pb-16" aria-label="Weddings">
-        <SectionReveal>
-          <div className="card-site overflow-hidden md:grid md:grid-cols-12">
-            <img
-              src="/img/kauai/hero-weddings.jpg"
-              alt="A bluff-estate reception table in soft overcast light"
-              loading="lazy"
-              className="h-full w-full object-cover md:col-span-7"
-              style={{ aspectRatio: '3/2' }}
-            />
-            <div className="p-6 md:col-span-5 md:p-8">
-              <p className="eyebrow-site mb-2">Weddings</p>
-              <h2 className="font-display text-3xl" style={{ fontWeight: 300 }}>
-                Married in the garden.
-              </h2>
-              <p className="mt-3 text-ink-2">
-                Estate weeks from $175 a guest plus staffing — against the island’s $75-a-plate average. Elopements
-                $650–$950, fixed.
-              </p>
-              <p className="mt-5">
-                <Link to={link('weddings')} className="cta-secondary-site">
-                  The wedding pages →
-                </Link>
-              </p>
-            </div>
-          </div>
-        </SectionReveal>
+      {/* Trust strip */}
+      <div className="rule-t">
+        <TrustStrip />
+      </div>
+
+      {/* FAQ Accordion */}
+      <section className="section-pad bg-[#F0EBE1] rule-t">
+        <div className="mx-auto max-w-3xl px-6">
+          <SectionReveal>
+            <p className="eyebrow-site text-accent-site uppercase tracking-wider text-xs">
+              Kauaʻi Logistics
+            </p>
+            <h2 className="h2-site mt-2 mb-8">Frequently asked questions</h2>
+            <FAQAccordion items={HOME_FAQ} />
+          </SectionReveal>
+        </div>
       </section>
 
-      <TrustStrip />
-
-      {/* FAQ + final CTA */}
-      <section className="mx-auto max-w-3xl px-6 py-16" aria-label="Frequently asked questions">
-        <h2 className="h2-site mb-8">Questions, answered.</h2>
-        <FAQAccordion items={HOME_FAQ} />
-      </section>
-      <section className="band-site" aria-label="Begin an inquiry">
-        <div className="section-pad mx-auto max-w-6xl px-6">
-          <h2 className="h2-site">Tell us the table.</h2>
-          <p className="mt-4 max-w-xl text-ink-2">
-            Dates, shore, headcount. One written quote back — itemized, fixed, and honest about the island we cook
-            on.
+      {/* Final Inquiry band */}
+      <section className="section-pad rule-t text-center">
+        <div className="mx-auto max-w-3xl px-6">
+          <h2 className="h2-site">Begin your Kauaʻi reservation</h2>
+          <p className="measure-site mx-auto mt-4 text-ink-2 text-sm sm:text-base">
+            Tell us your shore, your dates, and your guest count. We reply with a complete written quote — never an estimate.
           </p>
-          <div className="mt-8 flex flex-wrap items-center gap-5">
+          <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
             <Link to={link('quote')} className="cta-site">
-              Begin an inquiry
+              Get Your Written Quote →
             </Link>
-            <Link to={link('guides/how-it-works')} className="cta-secondary-site">
-              How it works →
+            <Link to="/calculator?island=kauai" className="cta-secondary-site">
+              Model Budget on Calculator
             </Link>
           </div>
         </div>

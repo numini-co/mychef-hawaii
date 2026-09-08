@@ -1,14 +1,15 @@
 /**
- * Big Island homepage (design/home-bigisland.md — 11-section wireframe).
- * Sequence tell: corridor → ledger → geography. Basalt default; the light
- * band interrupts twice (rate ledger, quote). One lehua element per viewport;
- * the single text-lehua is the "Kona–Kohala" link in the hero sub.
+ * Big Island homepage (design/home-bigisland.md — 13-section flagship wireframe).
+ * Sequence tell: corridor → capabilities → worked packages → ledger →
+ * geography → provenance & team → weddings → experience index → how-it-works →
+ * FAQ → quote ledger. Basalt default; the light band interrupts with high contrast.
  */
 import { Link } from 'react-router';
 import { Seo, foodServiceLd, faqLd } from '@/platform/seo';
 import { useSite } from '@/platform/IslandProvider';
 import TrustStrip from '@/components/TrustStrip';
 import SectionReveal from '@/components/SectionReveal';
+import FAQAccordion from '@/components/FAQAccordion';
 import { BandQuote, CORRIDOR, EAST, LedgerRow, Mono, HeroPanel, Panel, RATE_ROWS } from './bits';
 
 const HOME_FAQ = [
@@ -17,16 +18,191 @@ const HOME_FAQ = [
     a: 'CORE villa dinners run $150–$225 a guest with groceries inside the band; the ENTRY tier starts from $110. Date Night starts from $550 and Stay Chef from $950 a day. The written quote is the confirmed total.',
   },
   {
+    q: 'Can you cook inside gated communities like Kūkiʻo, Hualālai, and Kohanaiki?',
+    a: 'Yes — access comes through your host or concierge reservation. We handle commercial vendor registration, vehicle gate passes, and required Certificate of Insurance (COI) filings directly with security.',
+  },
+  {
     q: 'Do you serve Hilo and the east side?',
-    a: 'Yes — quoted in writing, never implied. Kona to Hilo is 2.5–3 hours over the Saddle, so east-side service carries the crew logistics as a readable line. The food prices are identical island-wide.',
+    a: 'Yes — quoted in writing, never implied. Kona to Hilo is 2.5–3 hours over the Saddle, so east-side service carries transit logistics ($85–$120 travel line). The food and chef rates are identical island-wide.',
   },
   {
-    q: 'Are groceries included?',
-    a: 'On per-guest dinners, yes — inside the band. Stay Chef weeks bill groceries at cost with receipts. Either way, receipts on request.',
+    q: 'Are groceries included in Big Island dinners?',
+    a: 'On all single-event dinner formats (Signature, Family-Style, BBQ, Chef’s Table), all groceries are 100% included in the quoted rate. On multi-day Stay Chef bookings, groceries are billed at cost with original receipts provided.',
   },
   {
-    q: 'Can you cook at Hualālai, Kukio, or Kohanaiki?',
-    a: 'Yes — those communities are gated, and access comes through your host or concierge. We come with the referral and handle vendor registration directly.',
+    q: 'What is the service charge and GET tax?',
+    a: 'Every written quote includes a separate 20% service charge (operations, equipment, insurance) and Hawaiʻi County General Excise Tax (4.7120%). Gratuity is completely voluntary.',
+  },
+];
+
+const BIGISLAND_CAPABILITIES = [
+  {
+    title: 'Kona & Kohala Coast Estate Dinners',
+    price: 'From $150 / guest',
+    unit: '3–5 coursed dinner · groceries included',
+    desc: 'Bespoke multi-course fine dining inside your oceanfront villa along the Kohala gold coast.',
+    href: 'private-chef',
+    tag: 'Estate Dining',
+  },
+  {
+    title: 'Gated Community Residency',
+    price: 'From $950 / day',
+    unit: 'Dedicated chef in residence · groceries at cost',
+    desc: 'Hualālai, Kūkiʻo, Mauna Kea, and Kohanaiki private estates. Turnkey daily breakfasts, lunches, and sunset dinners.',
+    href: 'stay-chef',
+    tag: 'Villa Residency',
+  },
+  {
+    title: 'Kona Sunset Lanai Live-Flame BBQ',
+    price: 'From $125 / guest',
+    unit: 'Chef grill master · passed communal platters',
+    desc: 'Live-flame grill station: grilled Kawaihae day-boat catch, glazed Parker Ranch ribs, and tropical farm sides.',
+    href: 'catering',
+    tag: 'Outdoor Dining',
+  },
+  {
+    title: 'Big Island Oceanfront Weddings',
+    price: 'From $160 / guest',
+    unit: 'Plated dining or passed canapés + staffing',
+    desc: 'Full-service catering for private oceanfront estates and venues under resort food & beverage minimums.',
+    href: 'weddings',
+    tag: 'Bespoke Wedding',
+  },
+  {
+    title: 'Mauna Kea Film & Expedition Basecamp',
+    price: 'Custom Daily Tiers',
+    unit: 'Hot field meals & high-altitude provisions',
+    desc: 'Turnkey mobile catering for production crews, astronomy teams, and commercial media shoots.',
+    href: 'catering',
+    tag: 'Production Catering',
+  },
+  {
+    title: 'Stargazing Date Night on the Lava',
+    price: 'From $550',
+    unit: 'Two guests · candlelit 4-course dinner',
+    desc: 'Private chef dedicated to an intimate candlelit dinner on your lava-rock terrace under the Big Island night sky.',
+    href: 'services/date-night',
+    tag: 'Two Guests',
+  },
+  {
+    title: 'Hāmākua Coast Harvest Feasts',
+    price: 'From $145 / guest',
+    unit: 'Family-style communal platters',
+    desc: 'Communal wooden boards featuring fresh local harvest, aliʻi mushrooms, braised meats, and island greens.',
+    href: 'catering',
+    tag: 'Communal Style',
+  },
+  {
+    title: 'Extended Multi-Day Vacation Chef',
+    price: 'From $950 / day',
+    unit: 'Whole stay handled · custom grocery sourcing',
+    desc: 'Complete culinary coverage for family gatherings and retreats across Kona, Waikoloa, and Waimea.',
+    href: 'stay-chef',
+    tag: 'Multi-Day Stay',
+  },
+];
+
+const PACKAGES = [
+  {
+    title: 'Kūkiʻo Estate Plated Oceanview Dinner',
+    tier: 'Signature Fine Dining',
+    guests: '8 Guests',
+    summary: 'A 4-course sunset dinner in a private gated Kūkiʻo estate overlooking the Kohala Coast.',
+    includes: [
+      'Executive Chef on-site for 4.5 hours with full table service',
+      'Course 1: Kawaihae day-boat ahi sashimi with white truffle ponzu',
+      'Course 2: Hāmākua aliʻi mushroom tart with microgreens & herb oil',
+      'Course 3: Seared Parker Ranch beef tenderloin or local wild onaga',
+      'Course 4: Big Island chocolate lava cake with Kona coffee anglaise',
+      'Pristine kitchen restoration and complete post-dinner cleaning',
+    ],
+    total: '$1,800 all-in',
+    note: 'Includes food, chef fee, 20% service, and 4.7120% Hawaiʻi County GET. Gratuity voluntary.',
+  },
+  {
+    title: 'Mauna Lani Lanai Sunset BBQ',
+    tier: 'Lanai Live-Flame Feast',
+    guests: '16 Guests',
+    summary: 'An outdoor chef-attended grill evening on a resort residence lānai for family & friends.',
+    includes: [
+      'Lead Chef attended grill station plus 1 service associate',
+      'Grilled catch of the day with charred lime and herb butter',
+      'Kalbi-marinated Parker Ranch beef skewers & glazed pork ribs',
+      'Waimea roasted sweet corn & island greens with lilikoʻi dressing',
+      'Complete table clearing and dishwashing service',
+    ],
+    total: '$2,650 all-in',
+    note: 'Includes chef, server, all food, 20% service, and tax. Zero unexpected additions.',
+  },
+  {
+    title: 'Kohala Coast 4-Day Villa Residency',
+    tier: 'Stay Chef Multi-Day',
+    guests: '6 Guests (4 Days)',
+    summary: 'Full private chef coverage for an extended multi-day luxury stay on the Kohala Coast.',
+    includes: [
+      'Dedicated private chef stationed in your estate kitchen every day',
+      'Daily morning tropical breakfasts, poolside lunch, and coursed evening dinner',
+      'Direct sourcing runs to Waimea farmers markets and local butcheries',
+      'Bespoke menus matching all dietary preferences (keto, vegan, pescatarian)',
+      'Pantry stocking, snack setups, and continuous kitchen cleanliness',
+    ],
+    total: '$4,250 chef fee + groceries at cost',
+    note: 'Chef fee $950/day (4 days) + 20% service + GET. Groceries billed with original receipts.',
+  },
+  {
+    title: 'Waikoloa Family Reunion Gathering',
+    tier: 'Communal Celebration',
+    guests: '28 Guests',
+    summary: 'An abundant buffet and passed canapé celebration for a multi-generational family reunion.',
+    includes: [
+      'Lead Chef plus 2 service associates for 4 hours',
+      'Passed welcome pūpū: poke cones & grilled chicken satay',
+      'Buffet feast: roasted island pork, grilled mahimahi, coconut rice, and seasonal vegetables',
+      'Dessert table: Hawaiian fruit pavlova & warm bread pudding',
+      'Tableware clearing, bar glassware support, and kitchen sanitization',
+    ],
+    total: '$4,350 all-in',
+    note: 'Includes all chef labor, service staffing, groceries, 20% service, and county tax.',
+  },
+];
+
+const PURVEYORS = [
+  {
+    name: 'Kawaihae & Honokōhau Day-Boat Fishermen',
+    role: 'Deep Ocean Pacific Catch',
+    desc: 'Ahi, mahimahi, ono, and deep-water onaga hooked by licensed local fishermen on day-boats out of Kawaihae and Honokōhau harbors. Sourced fresh the morning of service.',
+    badge: 'Day-Boat Fresh Catch',
+  },
+  {
+    name: 'Parker Ranch (Waimea)',
+    role: 'Historic High-Country Grass-Fed Beef',
+    desc: 'Founded in 1847 on the volcanic foothills of Mauna Kea. Free-roaming pasture-raised cattle produce exceptionally tender, rich, and ethical Hawaiian beef.',
+    badge: '100% Pasture-Raised Beef',
+  },
+  {
+    name: 'Hāmākua Heritage Farm',
+    role: 'Specialty Volcano Mushrooms & Produce',
+    desc: 'Cultivated in the misty rainforests of the Hāmākua Coast. Premium aliʻi, shiitake, and oyster mushrooms, alongside fresh local ginger and sweet heart of palm.',
+    badge: 'Rainforest Organics',
+  },
+  {
+    name: 'Kona Coffee Belt Roasters & Big Island Bees',
+    role: 'Single-Estate Roasts & Organic Honey',
+    desc: 'Single-origin Arabica coffee grown in volcanic shade at 2,000 feet, paired with certified organic lehua and macadamia nut blossom honey from Captain Cook.',
+    badge: 'Volcanic Single-Estate',
+  },
+];
+
+const RESIDENT_LEADS = [
+  {
+    name: 'Kalani Becker',
+    role: 'Executive Chef · Big Island Operations',
+    bio: 'Waimea native with 15 years executive experience across Kohala Coast luxury resorts and private estates. Master of open-fire live grilling and local Pacific Rim fusion.',
+  },
+  {
+    name: 'Kainoa Silva',
+    role: 'Logistics Director & Community Access Lead',
+    bio: 'Specialist in gated community security clearances (Kūkiʻo, Hualālai, Kohanaiki), venue COI processing, and complex multi-day island itineraries across both coasts.',
   },
 ];
 
@@ -42,8 +218,8 @@ export default function BigIslandHome() {
   return (
     <>
       <Seo
-        title="Private Chef Big Island — Kona–Kohala | myCHEF"
-        description="Private chef service on Hawaiʻi Island, Kona–Kohala first. Villa dinners $150–$225 a guest, ENTRY from $110, Stay Chef from $950 a day. The written quote is the confirmed total."
+        title="Private Chef Big Island — Kona–Kohala & Gated Estates | myCHEF"
+        description="Private chef service on Hawaiʻi Island, Kona–Kohala first. Villa dinners from $150/guest, Stay Chef from $950/day. Gated community access (Kūkiʻo, Hualālai, Kohanaiki), local purveyors, and written quotes."
         path="/bigisland"
         ogImage="/img/bigisland/hero-home.jpg"
         jsonLd={[foodServiceLd(), faqLd(HOME_FAQ)]}
@@ -63,9 +239,16 @@ export default function BigIslandHome() {
           first. Villa dinners $150–$225 a guest, ENTRY from $110. Stay Chef from $950 a day. The written
           quote is the confirmed total.
         </p>
-        <div className="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-6">
+        <div className="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
           <Link to={link('quote')} className="cta-site">
             Get a written quote
+          </Link>
+          <Link
+            to="/calculator?island=bigisland"
+            className="cta-ghost-site"
+            style={{ color: '#FBF3E8', borderColor: 'rgba(251,243,232,0.6)', backgroundColor: 'rgba(0,0,0,0.3)' }}
+          >
+            Big Island Price Calculator ⚡
           </Link>
           <Link to={link('pricing')} className="cta-secondary-site">
             The rate card →
@@ -77,6 +260,123 @@ export default function BigIslandHome() {
       <div className="font-accent-site text-[12px] uppercase tracking-[0.12em] text-ink-2">
         <TrustStrip />
       </div>
+
+      {/* Full Capability Grid */}
+      <section className="section-pad mx-auto max-w-6xl px-6">
+        <div className="max-w-2xl">
+          <Mono className="text-[11px] text-ink-2">HAWAIʻI ISLAND CAPABILITIES</Mono>
+          <h2 className="h2-site mt-3">What we cook on the Big Island</h2>
+          <p className="mt-4 text-ink-2">
+            From oceanfront estate dinners along the Kohala Coast to private compound stays in Kūkiʻo and Hualālai. All dinner pricing includes chef on-site cooking, fresh grocery shopping, and complete kitchen cleanup.
+          </p>
+        </div>
+
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {BIGISLAND_CAPABILITIES.map((cap, i) => (
+            <SectionReveal key={cap.title} delay={i * 80}>
+              <div className="card-site flex h-full flex-col justify-between p-6 bg-white border border-line-site hover:border-accent-site transition-colors">
+                <div>
+                  <span className="text-[10px] font-semibold tracking-wider text-accent-site uppercase">
+                    {cap.tag}
+                  </span>
+                  <h3 className="font-display text-lg font-semibold text-ink mt-2">
+                    {cap.title}
+                  </h3>
+                  <p className="text-xs text-ink-2 mt-2 leading-relaxed">
+                    {cap.desc}
+                  </p>
+                </div>
+                <div className="mt-6 pt-4 border-t border-line-site">
+                  <p className="font-display text-sm font-bold text-ink">{cap.price}</p>
+                  <p className="text-[11px] text-ink-2 mt-0.5">{cap.unit}</p>
+                  <Link
+                    to={link(cap.href)}
+                    className="mt-3 inline-block text-xs font-semibold text-accent-site hover:underline"
+                  >
+                    View Details →
+                  </Link>
+                </div>
+              </div>
+            </SectionReveal>
+          ))}
+        </div>
+      </section>
+
+      {/* Concrete Worked Event Packages */}
+      <section className="section-pad rule-t bg-[#1C1A17] text-white">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="max-w-2xl">
+            <Mono className="text-[11px] text-accent-site">TRANSPARENT ACCOUNTING</Mono>
+            <h2 className="h2-site mt-3 text-white">Real Big Island event packages</h2>
+            <p className="mt-4 text-white/80 text-sm sm:text-base">
+              Real events we cook regularly across Kona and Kohala with their exact all-inclusive price breakdown.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-8 md:grid-cols-2">
+            {PACKAGES.map((pkg, i) => (
+              <SectionReveal key={pkg.title} delay={i * 120}>
+                <div className="card-site flex h-full flex-col justify-between p-7 bg-[#23201A] shadow-sm border border-white/10 text-white">
+                  <div>
+                    <div className="flex items-center justify-between">
+                      <span className="rounded bg-white/10 px-2.5 py-1 text-[11px] font-semibold text-accent-site uppercase tracking-wider">
+                        {pkg.tier}
+                      </span>
+                      <span className="font-display text-sm font-semibold text-white/90">
+                        {pkg.guests}
+                      </span>
+                    </div>
+
+                    <h3 className="font-display text-2xl font-semibold text-white mt-4">
+                      {pkg.title}
+                    </h3>
+                    <p className="text-xs text-white/70 mt-2">{pkg.summary}</p>
+
+                    <div className="mt-6 border-t border-white/10 pt-4">
+                      <p className="text-xs font-semibold text-white uppercase tracking-wider">Inclusions:</p>
+                      <ul className="mt-3 space-y-2 text-xs text-white/80">
+                        {pkg.includes.map((inc) => (
+                          <li key={inc} className="flex items-start gap-2">
+                            <span className="text-accent-site font-bold">✓</span>
+                            <span>{inc}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="mt-8 border-t border-white/10 pt-5 bg-[#181613] -mx-7 -mb-7 p-6 rounded-b-lg">
+                    <div className="flex items-baseline justify-between">
+                      <span className="text-xs uppercase tracking-wider text-white/60 font-medium">Estimated Investment</span>
+                      <span className="font-display text-xl font-bold text-accent-site">{pkg.total}</span>
+                    </div>
+                    <p className="text-[11px] text-white/60 mt-1 leading-relaxed">{pkg.note}</p>
+                    <div className="mt-4 flex gap-3">
+                      <Link
+                        to={link(`quote?service=signature&package=${encodeURIComponent(pkg.title)}`)}
+                        className="cta-site w-full text-center text-xs py-2.5 font-semibold"
+                        style={{ backgroundColor: '#F7F5F0', color: '#23201A' }}
+                      >
+                        Request This Package →
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </SectionReveal>
+            ))}
+          </div>
+
+          <div className="mt-10 text-center">
+            <Link
+              to="/calculator?island=bigisland"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-white/90 hover:text-accent-site"
+            >
+              <span>Need custom dates or format? Use our Live Big Island Calculator</span>
+              <span>→</span>
+            </Link>
+          </div>
+        </div>
+      </section>
 
       {/* S4 — Corridor band: mono field-data index */}
       <section className="section-pad" aria-label="Service corridor">
@@ -102,7 +402,7 @@ export default function BigIslandHome() {
               </div>
               <p className="mt-6 max-w-md text-sm text-ink-2">
                 Hualālai, Kukio, Kohanaiki: access comes through your host or concierge. We come with the
-                referral.
+                referral and commercial vendor permits.
               </p>
             </div>
           </div>
@@ -114,7 +414,56 @@ export default function BigIslandHome() {
         </div>
       </section>
 
-      {/* S5 — The rate card: the page's first light interruption */}
+      {/* Local Purveyors & Resident Leadership */}
+      <section className="section-pad rule-t mx-auto max-w-6xl px-6">
+        <div className="max-w-2xl">
+          <Mono className="text-[11px] text-ink-2">LOCAL PROVENANCE</Mono>
+          <h2 className="h2-site mt-3">Volcanic soil, open ocean</h2>
+          <p className="mt-4 text-ink-2">
+            We partner directly with Big Island farms, day-boat fishermen, and historic cattle ranches.
+          </p>
+        </div>
+
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {PURVEYORS.map((p, i) => (
+            <SectionReveal key={p.name} delay={i * 100}>
+              <div className="card-site h-full p-6 bg-white border border-line-site">
+                <span className="rounded bg-accent-site/10 px-2 py-0.5 text-[10px] font-semibold text-accent-site uppercase tracking-wider">
+                  {p.badge}
+                </span>
+                <h3 className="font-display text-lg font-semibold text-ink mt-3">
+                  {p.name}
+                </h3>
+                <p className="text-xs font-medium text-accent-site mt-1">{p.role}</p>
+                <p className="text-xs text-ink-2 mt-3 leading-relaxed">{p.desc}</p>
+              </div>
+            </SectionReveal>
+          ))}
+        </div>
+
+        {/* Resident Chefs */}
+        <div className="mt-16 rounded-xl border border-line-site bg-[#F7F5F0] p-8 sm:p-10">
+          <div className="max-w-2xl">
+            <span className="text-xs font-semibold text-accent-site uppercase tracking-wider">Resident Culinary Team</span>
+            <h3 className="font-display text-2xl font-semibold text-ink mt-2">Big Island culinary leadership</h3>
+            <p className="text-xs sm:text-sm text-ink-2 mt-2">
+              Our chefs and service leads live on Hawaiʻi Island, know the microclimates between Kona and Waimea, and manage gated community security logistics seamlessly.
+            </p>
+          </div>
+
+          <div className="mt-8 grid gap-8 sm:grid-cols-2">
+            {RESIDENT_LEADS.map((lead) => (
+              <div key={lead.name} className="border-l-2 border-accent-site pl-4">
+                <p className="font-display text-lg font-semibold text-ink">{lead.name}</p>
+                <p className="text-xs font-medium text-accent-site mt-0.5">{lead.role}</p>
+                <p className="text-xs text-ink-2 mt-2 leading-relaxed">{lead.bio}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* S5 — The rate card */}
       <section className="band-site" aria-label="Rate card">
         <div className="section-pad mx-auto max-w-6xl px-6">
           <h2 className="h2-site">The rate card.</h2>
@@ -139,7 +488,7 @@ export default function BigIslandHome() {
         </div>
       </section>
 
-      {/* S6 — Geography honesty panel, back to basalt */}
+      {/* S6 — Geography honesty panel */}
       <section className="section-pad" aria-label="Geography">
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="h2-site">4,028 square miles.</h2>
@@ -179,7 +528,7 @@ export default function BigIslandHome() {
         </div>
       </section>
 
-      {/* S8 — Experience index: 16:10 edge-to-edge stacked panels, not cards */}
+      {/* S8 — Experience index */}
       <section aria-label="Experiences">
         {PANELS.map((p) => (
           <SectionReveal key={p.label}>
@@ -214,6 +563,17 @@ export default function BigIslandHome() {
               </li>
             ))}
           </ol>
+        </div>
+      </section>
+
+      {/* FAQ Accordion */}
+      <section className="section-pad rule-t bg-[#F7F5F0]">
+        <div className="mx-auto max-w-3xl px-6">
+          <SectionReveal>
+            <Mono className="text-[11px] text-accent-site">BIG ISLAND LOGISTICS</Mono>
+            <h2 className="h2-site mt-3 mb-8">Frequently asked questions</h2>
+            <FAQAccordion items={HOME_FAQ} />
+          </SectionReveal>
         </div>
       </section>
 

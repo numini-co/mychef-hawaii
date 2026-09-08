@@ -1,10 +1,10 @@
 /**
  * Maui homepage (design/home-maui.md) — "Maui, set for dinner."
- * The network's ONLY full-bleed hero. 11-section wireframe, exact order:
- * header(transparent→sand) → hero → trust strip → wedding-week dusk band →
- * experience cards → zone strip → pricing scene → how it works → group
- * capability → quote block → (footer = dusk band #2, platform-owned).
- * Sequence tell: dream → week → price.
+ * The network's ONLY full-bleed hero. 13-section flagship wireframe:
+ * header(transparent→sand) → hero → trust strip → full capability grid →
+ * concrete worked event packages → wedding-week dusk band → local purveyors &
+ * resident leads → zone strip → pricing scene → how it works → group
+ * capability → FAQ → quote block.
  */
 import { useEffect, useRef } from 'react';
 import { Link } from 'react-router';
@@ -12,6 +12,7 @@ import { useSite } from '@/platform/IslandProvider';
 import { Seo, foodServiceLd, faqLd, breadcrumbLd } from '@/platform/seo';
 import { CONTACT, TRUST_CLAIMS } from '@/platform/config';
 import SectionReveal from '@/components/SectionReveal';
+import FAQAccordion from '@/components/FAQAccordion';
 import { RateTable } from '@/components/RateTable';
 import WeddingTimeline from './WeddingTimeline';
 import { ExperienceCard, MauiLink, MauiStyles, MAUI_FEE_NOTE } from './shared';
@@ -19,15 +20,194 @@ import { ExperienceCard, MauiLink, MauiStyles, MAUI_FEE_NOTE } from './shared';
 const HOME_FAQ = [
   {
     q: 'How much is a private chef dinner on Maui?',
-    a: 'Signature dinners run $150–$250 a guest, groceries inside the band. Premium menus $190–$275; chef’s-table formats $275–$400+. The 20% service charge and Hawaiʻi GET up to 4.7120% appear on their own lines in the written quote — which is the confirmed total.',
+    a: 'Signature dinners run $150–$250 a guest, groceries inside the band. Premium menus run $220–$325; chef’s-table formats $275–$400+. The 20% service charge and Maui County General Excise Tax (4.166%) appear on their own lines in the written quote — which is the confirmed total.',
   },
   {
     q: 'Can you cater our whole wedding week?',
-    a: 'Yes — that is the Maui signature: welcome dinner, rehearsal, ceremony-adjacent pūpū, reception, and recovery brunch as one contract, from $150 a guest per event plus staffing. One crew, one quote, one deposit.',
+    a: 'Yes — that is the Maui signature: welcome dinner, rehearsal, ceremony-adjacent pūpū, reception, and recovery brunch as one unified contract, from $150 a guest per event plus staffing. One crew, one quote, one deposit.',
   },
   {
-    q: 'Do you cook in our villa or condo?',
-    a: 'Anywhere with a real kitchen — Wailea, Mākena, Kīhei, Kāʻanapali, Kapalua, and the Nāpili–Honokōwai–Kahana belt are base zone. Upcountry carries travel from $75; Pāʻia and Haʻikū are quoted at inquiry. Hotel rooms without kitchens are declined.',
+    q: 'Do you cook in our villa or resort residence?',
+    a: 'Anywhere with a residential or commercial kitchen — Wailea, Mākena, Kīhei, Kāʻanapali, Kapalua, and the Nāpili–Honokōwai–Kahana belt are base zone ($0 travel fee). Upcountry carries travel from $65; Hāna Highway itineraries carry a $150 travel fee. Hotel rooms without kitchens are declined.',
+  },
+  {
+    q: 'Can you cater on Maui public beaches?',
+    a: 'Under Maui County Parks & Recreation rules and DLNR commercial restrictions, commercial catering setups and open-flame cooking are strictly prohibited directly on public beaches. We cater within permitted private oceanfront villas, estate lawns, and resort lānai spaces that legally front the shoreline.',
+  },
+  {
+    q: 'What is the deposit and payment structure?',
+    a: 'A 50% deposit locks your date on our executive chef’s calendar after you review and approve the written itemized quote. The remaining 50% balance is due 14 days prior to your initial event. Tips remain 100% voluntary.',
+  },
+];
+
+const MAUI_CAPABILITIES = [
+  {
+    title: 'Wailea & Kapalua Villa Dinners',
+    price: 'From $150 / guest',
+    unit: '3–5 plated courses · groceries included',
+    desc: 'Bespoke multi-course fine dining prepared and served inside your resort residence or oceanfront villa kitchen.',
+    href: 'private-chef',
+    tag: 'Flagship Dinner',
+  },
+  {
+    title: 'Maui Wedding Week Catering',
+    price: 'From $150 / guest',
+    unit: 'Multi-event week package + staffing',
+    desc: 'Welcome receptions, rehearsal dinners, ceremony canapés, formal reception dining, and recovery brunches.',
+    href: 'weddings/wedding-week',
+    tag: 'Signature Week',
+  },
+  {
+    title: 'Vacation Stay Chef (Multi-Day)',
+    price: 'From $1,050 / day',
+    unit: 'Dedicated chef in residence · groceries at cost',
+    desc: 'Complete daily culinary management: fresh tropical breakfast, poolside lunch, and coursed evening dinner.',
+    href: 'stay-chef',
+    tag: 'Villa Residency',
+  },
+  {
+    title: 'Live-Flame Lanai BBQ & Feast',
+    price: 'From $135 / guest',
+    unit: 'Chef grill master · passed communal platters',
+    desc: 'Outdoor grill station: fresh island catch, marinated Maui Cattle Co. ribs, charred local pineapple, and seasonal sides.',
+    href: 'catering',
+    tag: 'Outdoor Dining',
+  },
+  {
+    title: 'Upcountry Wellness & Corporate Retreats',
+    price: 'From $160 / guest',
+    unit: 'Kula & Makawao estates · dietary protocol labeled',
+    desc: 'Nourishing organic menus tailored for executive summits, yoga retreats, and extended family reunions.',
+    href: 'catering',
+    tag: 'Estate Retreat',
+  },
+  {
+    title: 'Romance & Sunset Date Night',
+    price: 'From $500',
+    unit: 'Intimate dinner for two · candlelit lānai',
+    desc: 'A dedicated private chef cooks an exclusive 4-course menu at the edge of your oceanfront lānai at sunset.',
+    href: 'services/date-night',
+    tag: 'Two Guests',
+  },
+  {
+    title: 'Family-Style Passed Feasts',
+    price: 'From $150 / guest',
+    unit: 'Communal wooden platters · interactive dining',
+    desc: 'Passed ocean catches, braised island meats, and garden platters designed for vibrant multi-generational conversation.',
+    href: 'catering',
+    tag: 'Communal Style',
+  },
+  {
+    title: 'Private Yacht & Catamaran Charter Catering',
+    price: 'Custom Daily Tiers',
+    unit: 'Packaged chilled canapés or onboard chef',
+    desc: 'Turnkey charter provisioning for Molokini snorkel excursions, sunset sails, and private boat charters out of Maʻalaea.',
+    href: 'catering',
+    tag: 'Maritime Service',
+  },
+];
+
+const PACKAGES = [
+  {
+    title: 'Wailea Oceanfront Villa Dinner',
+    tier: 'Signature Fine Dining',
+    guests: '8 Guests',
+    summary: 'A 4-course sunset dinner in a private Wailea villa overlooking the Pacific.',
+    includes: [
+      'Dedicated Executive Chef for 4.5 hours on-site',
+      'Course 1: Day-boat ahi crudo with finger lime & chili crunch',
+      'Course 2: Kula baby greens with Surfing Goat chevre & macadamia crumble',
+      'Course 3: Seared Pacific catch or Maui Cattle Co. beef tenderloin',
+      'Course 4: Warm lilikoʻi tart with coconut gelato',
+      'Complete table service and pristine kitchen restoration',
+    ],
+    total: '$1,850 all-in',
+    note: 'Includes food, chef fee, 20% service, and 4.166% Maui County GET. Gratuity voluntary.',
+  },
+  {
+    title: 'Kapalua Estate Wedding Welcome Feast',
+    tier: 'Multi-Course Celebration',
+    guests: '22 Guests',
+    summary: 'A relaxed but elevated welcome dinner on an oceanview lawn for arriving wedding guests.',
+    includes: [
+      'Lead Chef plus 2 professional front-of-house service staff',
+      'Passed welcome pūpū: coconut shrimp skewers & kalua pork bao buns',
+      'Family-style communal mains: whole grilled snapper & ginger-soy braised short ribs',
+      'Roasted Upcountry vegetables & jasmine rice with scallion butter',
+      'Table wine service, clearing, and full kitchen cleanup',
+    ],
+    total: '$3,950 all-in',
+    note: 'Includes food, all service staffing, 20% service, and Maui GET. Zero surprise surcharges.',
+  },
+  {
+    title: 'Upcountry Kula Farmstead Residency',
+    tier: 'Stay Chef Multi-Day',
+    guests: '6 Guests (4 Days)',
+    summary: 'Full private chef coverage for an extended multi-day retreat in Kula or Makawao.',
+    includes: [
+      'Dedicated private chef stationed in your estate kitchen',
+      'Daily farm-fresh breakfasts, family-style lunch, and 3-course evening dinner',
+      'Direct sourcing runs to Kula Country Farms and local farmers markets',
+      'Customized menus matching individual allergies, keto, or vegan requests',
+      'Pantry stocking and continuous kitchen cleanliness throughout the stay',
+    ],
+    total: '$4,650 chef fee + groceries at cost',
+    note: 'Chef daily fee is $1,050/day (4 days) + 20% service + GET. Groceries billed with original receipts.',
+  },
+  {
+    title: 'Mākena Sunset Lanai Live-Flame Grill',
+    tier: 'Estate Lanai BBQ',
+    guests: '16 Guests',
+    summary: 'Outdoor chef-attended grill station for a milestone anniversary or birthday gathering.',
+    includes: [
+      'Lead Chef attended grill station plus 1 service associate',
+      'Grilled catch of the day with charred scallion oil',
+      'Sweet chili glazed island ribs & Maui sweet onion skewers',
+      'Charred corn salad with cotija & lime crema',
+      'Island fruit platter with Hawaiian vanilla whipped cream',
+    ],
+    total: '$2,750 all-in',
+    note: 'Complete food and staffing coverage. Equipment, gas/coals, and post-event cleanup included.',
+  },
+];
+
+const PURVEYORS = [
+  {
+    name: 'Maʻalaea & Lahaina Day-Boat Fleet',
+    role: 'Wild Pacific Day-Boat Catch',
+    desc: 'Our seafood never sits on ice for days. We source ahi, mahimahi, onaga, and ʻōpakapaka directly from licensed Maui commercial day-boats that dock each morning in Maʻalaea Harbor.',
+    badge: 'Pier-to-Plate Seafood',
+  },
+  {
+    name: 'Maui Cattle Company',
+    role: 'Makawao Island Pasture Beef',
+    desc: '100% grass-fed cattle born and raised on the high-altitude slopes of Haleakalā. Free-range, non-hormone, pasture-finished beef deliver unmatched flavor profiles for our braises and steaks.',
+    badge: '100% Haleakalā Pasture',
+  },
+  {
+    name: 'Kula Country Farms & Okoʻa Farms',
+    role: 'Upcountry Heirloom Produce',
+    desc: 'Grown in mineral-rich volcanic soil at 3,000 feet elevation. Sweet Kula onions, crisp baby gem lettuces, heirloom strawberries, and microgreens harvested the day of your dinner.',
+    badge: 'Volcanic Soil Organics',
+  },
+  {
+    name: 'Surfing Goat Dairy',
+    role: 'Artisan Kula Chevre & Curds',
+    desc: 'Award-winning goat cheeses hand-crafted in Omaopio, Kula. Used across our salad courses, savory tartlets, and artisanal cheese boards for sunset receptions.',
+    badge: 'Artisan Chevre',
+  },
+];
+
+const RESIDENT_LEADS = [
+  {
+    name: 'Mateo Fernandez',
+    role: 'Executive Chef · Maui Operations',
+    bio: 'Over 14 years helming kitchens across Wailea luxury resort properties and private estates. Specialist in Hawaii regional cuisine, wood-fired grilling, and French classical seafood cookery.',
+  },
+  {
+    name: 'Malia Vance',
+    role: 'Event Director & Wedding Concierge',
+    bio: 'Born and raised on Maui, Malia coordinates private estate access, venue compliance, rental tableware logistics, and guest service staffing across South and West Maui.',
   },
 ];
 
@@ -82,7 +262,7 @@ const ZONES = [
   {
     name: 'Upcountry & North Shore',
     line: 'Kula, Pāʻia, Haʻikū — quoted honestly.',
-    note: 'Travel from $75 Upcountry; Pāʻia/Haʻikū quoted at inquiry.',
+    note: 'Travel from $65 Upcountry; Pāʻia/Haʻikū quoted at inquiry.',
     to: 'locations/kula-upcountry',
   },
 ];
@@ -122,16 +302,15 @@ export default function MauiHome() {
   return (
     <>
       <Seo
-        title="Private Chef Maui — Villa Dinners & Wedding Weeks | myCHEF"
-        description="A private chef for your Wailea villa, your Kapalua estate, your whole wedding week. Villa dinners $150–$250 a guest; Stay Chef from $1,050 a day; the written quote is the confirmed total."
+        title="Private Chef Maui — Villa Dinners, Weddings & Stay Chef | myCHEF"
+        description="Private chef & catering across Maui. Wailea villa dinners from $150/guest; Stay Chef from $1,050/day; wedding week catering from $150/guest. Real-time pricing calculator, licensed local purveyors, and written quotes."
         path={link('')}
         ogImage="/img/maui/hero-home.jpg"
         jsonLd={[foodServiceLd(), faqLd(HOME_FAQ), breadcrumbLd([{ name: 'Maui', path: link('') }])]}
       />
       <MauiStyles />
 
-      {/* S2 — Hero: full-bleed cinematic (Maui-only). Opts out of the nav
-          offset with -mt-[var(--nav-h)] per the Layout contract. */}
+      {/* S2 — Hero: full-bleed cinematic (Maui-only). */}
       <section className="relative -mt-[var(--nav-h)] flex min-h-[100dvh] items-end overflow-hidden" aria-label="Maui, set for dinner">
         <img
           ref={heroImgRef}
@@ -148,37 +327,47 @@ export default function MauiHome() {
           }}
         />
         <div className="relative mx-auto w-full max-w-6xl px-6 pb-[calc(var(--rate-bar-h)+2.5rem)] pt-28 md:pb-32 md:pt-40">
+          <span className="text-xs uppercase tracking-widest text-[#FBF6EC]/80 font-medium">
+            Wailea · Kāʻanapali · Kapalua · Upcountry
+          </span>
           <h1
-            className="maui-hero-h1 font-display"
+            className="maui-hero-h1 font-display mt-2"
             style={{
               fontSize: 'var(--site-h1)',
               lineHeight: 1.02,
               color: '#FBF6EC',
-              maxWidth: '12ch',
+              maxWidth: '14ch',
             }}
           >
             Maui, set for dinner.
           </h1>
           <p className="maui-hero-sub mt-6 max-w-xl text-lg" style={{ color: 'rgba(251,246,236,0.95)' }}>
             A private chef for your Wailea villa, your Kapalua estate, your whole wedding week. Villa dinners
-            $150–$250 a guest; the written quote is the confirmed total.
+            $150–$250 a guest; Stay Chef from $1,050 a day; the written quote is the confirmed total.
           </p>
-          <div className="maui-hero-sub mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-6">
-            <Link to={link('weddings/wedding-week')} className="cta-site">
-              Plan your week
+          <div className="maui-hero-sub mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
+            <Link to={link('quote')} className="cta-site">
+              Get Your Written Quote
+            </Link>
+            <Link
+              to="/calculator?island=maui"
+              className="cta-ghost-site"
+              style={{ color: '#FBF3E8', borderColor: 'rgba(251,243,232,0.6)', backgroundColor: 'rgba(0,0,0,0.25)' }}
+            >
+              Maui Price Calculator ⚡
             </Link>
             <Link
               to={link('pricing')}
               className="cta-ghost-site"
               style={{ color: '#FBF3E8' }}
             >
-              See pricing
+              See Maui Rate Card
             </Link>
           </div>
         </div>
       </section>
 
-      {/* S3 — Trust strip (hairline-free — space alone, per Maui spec) */}
+      {/* S3 — Trust strip */}
       <section className="mx-auto max-w-6xl px-6 pt-20" aria-label="Our promises">
         <ul className="grid gap-x-8 gap-y-4 text-center sm:grid-cols-2 lg:grid-cols-4">
           {TRUST_CLAIMS.map((claim, i) => (
@@ -189,8 +378,128 @@ export default function MauiHome() {
         </ul>
       </section>
 
-      {/* S4 — Wedding-week feature (DUSK BAND #1) */}
-      <section className="band-site mt-24">
+      {/* S4 — Full Capability Grid */}
+      <section className="section-pad mx-auto max-w-6xl px-6">
+        <div className="max-w-2xl">
+          <p className="eyebrow-site" style={{ color: 'var(--site-accent-text)' }}>
+            MAUI CULINARY SCOPE
+          </p>
+          <h2 className="h2-site mt-2">What we cook on Maui</h2>
+          <p className="mt-4 text-ink-2">
+            From intimate sunset dinners in Wailea to week-long Kapalua estate wedding gatherings. All single-dinner pricing includes chef preparation, fresh island grocery shopping, and complete kitchen cleanup.
+          </p>
+        </div>
+
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {MAUI_CAPABILITIES.map((cap, i) => (
+            <SectionReveal key={cap.title} delay={i * 80}>
+              <div className="card-site flex h-full flex-col justify-between p-6 bg-white border border-line-site hover:border-accent-site transition-colors">
+                <div>
+                  <span className="text-[10px] font-semibold tracking-wider text-accent-site uppercase">
+                    {cap.tag}
+                  </span>
+                  <h3 className="font-display text-lg font-semibold text-ink mt-2">
+                    {cap.title}
+                  </h3>
+                  <p className="text-xs text-ink-2 mt-2 leading-relaxed">
+                    {cap.desc}
+                  </p>
+                </div>
+                <div className="mt-6 pt-4 border-t border-line-site">
+                  <p className="font-display text-sm font-bold text-ink">{cap.price}</p>
+                  <p className="text-[11px] text-ink-2 mt-0.5">{cap.unit}</p>
+                  <Link
+                    to={link(cap.href)}
+                    className="mt-3 inline-block text-xs font-semibold text-accent-site hover:underline"
+                  >
+                    View Details →
+                  </Link>
+                </div>
+              </div>
+            </SectionReveal>
+          ))}
+        </div>
+      </section>
+
+      {/* S5 — Concrete Worked Event Packages */}
+      <section className="section-pad rule-t bg-[#F5EFE6]">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="max-w-2xl">
+            <p className="eyebrow-site text-accent-site uppercase tracking-wider text-xs">
+              Transparent Accounting
+            </p>
+            <h2 className="h2-site mt-2">Real worked event packages</h2>
+            <p className="mt-4 text-ink-2 text-sm sm:text-base">
+              Wondering what your gathering will cost? Here are four real events we cook regularly across Maui with their exact all-inclusive price breakdown.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-8 md:grid-cols-2">
+            {PACKAGES.map((pkg, i) => (
+              <SectionReveal key={pkg.title} delay={i * 120}>
+                <div className="card-site flex h-full flex-col justify-between p-7 bg-white shadow-sm border border-line-site">
+                  <div>
+                    <div className="flex items-center justify-between">
+                      <span className="rounded bg-black/5 px-2.5 py-1 text-[11px] font-semibold text-accent-site uppercase tracking-wider">
+                        {pkg.tier}
+                      </span>
+                      <span className="font-display text-sm font-semibold text-ink">
+                        {pkg.guests}
+                      </span>
+                    </div>
+
+                    <h3 className="font-display text-2xl font-semibold text-ink mt-4">
+                      {pkg.title}
+                    </h3>
+                    <p className="text-xs text-ink-2 mt-2">{pkg.summary}</p>
+
+                    <div className="mt-6 border-t border-line-site pt-4">
+                      <p className="text-xs font-semibold text-ink uppercase tracking-wider">Inclusions:</p>
+                      <ul className="mt-3 space-y-2 text-xs text-ink-2">
+                        {pkg.includes.map((inc) => (
+                          <li key={inc} className="flex items-start gap-2">
+                            <span className="text-accent-site font-bold">✓</span>
+                            <span>{inc}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="mt-8 border-t border-line-site pt-5 bg-[#FBF6EC] -mx-7 -mb-7 p-6 rounded-b-lg">
+                    <div className="flex items-baseline justify-between">
+                      <span className="text-xs uppercase tracking-wider text-ink-2 font-medium">Estimated Investment</span>
+                      <span className="font-display text-xl font-bold text-ink">{pkg.total}</span>
+                    </div>
+                    <p className="text-[11px] text-ink-2 mt-1 leading-relaxed">{pkg.note}</p>
+                    <div className="mt-4 flex gap-3">
+                      <Link
+                        to={link(`quote?service=signature&package=${encodeURIComponent(pkg.title)}`)}
+                        className="cta-site w-full text-center text-xs py-2.5 font-semibold"
+                      >
+                        Request This Package →
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </SectionReveal>
+            ))}
+          </div>
+
+          <div className="mt-10 text-center">
+            <Link
+              to="/calculator?island=maui"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-ink hover:text-accent-site"
+            >
+              <span>Need a custom guest count or format? Use our Interactive Maui Calculator</span>
+              <span>→</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* S6 — Wedding-week feature (DUSK BAND #1) */}
+      <section className="band-site">
         <div className="section-pad mx-auto max-w-6xl px-6">
           <p className="eyebrow-site" style={{ color: 'var(--site-accent-text)' }}>
             THE WEDDING WEEK
@@ -212,8 +521,59 @@ export default function MauiHome() {
         </div>
       </section>
 
-      {/* S5 — Experience cards (3:2 image-first, snap-scroll mobile) */}
+      {/* S7 — Local Sourcing Proof & Resident Leadership */}
       <section className="section-pad mx-auto max-w-6xl px-6">
+        <div className="max-w-2xl">
+          <p className="eyebrow-site" style={{ color: 'var(--site-accent-text)' }}>
+            LOCAL PROVENANCE
+          </p>
+          <h2 className="h2-site mt-2">Maui soil, Maui ocean</h2>
+          <p className="mt-4 text-ink-2">
+            Every dish we plate is rooted in direct relationships with Maui growers, cattle ranchers, and day-boat fishermen.
+          </p>
+        </div>
+
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {PURVEYORS.map((p, i) => (
+            <SectionReveal key={p.name} delay={i * 100}>
+              <div className="card-site h-full p-6 bg-white border border-line-site">
+                <span className="rounded bg-accent-site/10 px-2 py-0.5 text-[10px] font-semibold text-accent-site uppercase tracking-wider">
+                  {p.badge}
+                </span>
+                <h3 className="font-display text-lg font-semibold text-ink mt-3">
+                  {p.name}
+                </h3>
+                <p className="text-xs font-medium text-accent-site mt-1">{p.role}</p>
+                <p className="text-xs text-ink-2 mt-3 leading-relaxed">{p.desc}</p>
+              </div>
+            </SectionReveal>
+          ))}
+        </div>
+
+        {/* Resident Chefs */}
+        <div className="mt-16 rounded-xl border border-line-site bg-[#FBF6EC] p-8 sm:p-10">
+          <div className="max-w-2xl">
+            <span className="text-xs font-semibold text-accent-site uppercase tracking-wider">On-Island Culinary Leadership</span>
+            <h3 className="font-display text-2xl font-semibold text-ink mt-2">Resident Maui culinary team</h3>
+            <p className="text-xs sm:text-sm text-ink-2 mt-2">
+              We do not fly in temporary mainland contractors. Your chef and service captain live on Maui, know island kitchen infrastructure, and maintain direct relationships with local dock markets.
+            </p>
+          </div>
+
+          <div className="mt-8 grid gap-8 sm:grid-cols-2">
+            {RESIDENT_LEADS.map((lead) => (
+              <div key={lead.name} className="border-l-2 border-accent-site pl-4">
+                <p className="font-display text-lg font-semibold text-ink">{lead.name}</p>
+                <p className="text-xs font-medium text-accent-site mt-0.5">{lead.role}</p>
+                <p className="text-xs text-ink-2 mt-2 leading-relaxed">{lead.bio}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* S8 — Experience cards (3:2 image-first) */}
+      <section className="section-pad rule-t mx-auto max-w-6xl px-6">
         <h2 className="h2-site">Four ways to have us.</h2>
         <ul className="maui-timeline-track mt-12 flex gap-6 overflow-x-auto pb-4 md:grid md:grid-cols-2 md:overflow-visible lg:grid-cols-4">
           {EXPERIENCES.map((c, i) => (
@@ -224,7 +584,7 @@ export default function MauiHome() {
         </ul>
       </section>
 
-      {/* S6 — Zone strip (atmospheric text panels, space-separated) */}
+      {/* S9 — Zone strip */}
       <section className="mx-auto max-w-6xl px-6 pb-8">
         <h2 className="h2-site">Where we cook.</h2>
         <div className="mt-12 grid gap-12 md:grid-cols-3">
@@ -243,7 +603,7 @@ export default function MauiHome() {
         </div>
       </section>
 
-      {/* S7 — Pricing scene (sand ground): Fraunces feature rows → detail table */}
+      {/* S10 — Pricing scene */}
       <section className="section-pad mx-auto max-w-4xl px-6">
         <h2 className="h2-site">What it costs, in writing.</h2>
         <div className="mt-12 space-y-6">
@@ -260,99 +620,68 @@ export default function MauiHome() {
             </SectionReveal>
           ))}
         </div>
-        <SectionReveal className="mt-14">
+
+        <div className="mt-14">
           <RateTable
             rows={[
-              { label: 'Signature dinner', value: '$150–$250 /guest' },
-              { label: 'Premium menu', value: '$190–$275 /guest' },
-              { label: 'Chef’s table', value: '$275–$400+ /guest' },
-              { label: 'Packaged bar cart', value: 'from $800 /4hr' },
-              { label: 'Server', value: '$55 /hr' },
-              { label: 'Sous chef', value: '$75 /hr' },
+              { label: 'Signature Plated Dinner', value: '$150 – $250 / guest', note: 'Groceries inside the band; 3–5 courses' },
+              { label: 'Stay Chef (Multi-Day)', value: 'From $1,050 / day', note: 'Daily chef fee + groceries at cost with receipts' },
+              { label: 'Estate Wedding Reception', value: 'From $150 / guest + staff', note: 'Passed canapés, coursed dining, bar cart' },
+              { label: 'Sunset Lanai BBQ', value: 'From $135 / guest', note: 'Chef grill master + seasonal communal sides' },
+              { label: 'Date Night (Two Guests)', value: 'From $500 all-in', note: 'Dedicated chef, 4 courses, candlelit lānai' },
             ]}
-            footnote={MAUI_FEE_NOTE}
           />
-        </SectionReveal>
-        {/* Worked-math panel — the punchline, fades last */}
-        <SectionReveal delay={200} className="mt-14">
-          <div className="card-site p-8" style={{ background: 'var(--site-surface)' }}>
-            <p className="eyebrow-site mb-4">A 60-GUEST WEDDING WEEK, WORKED</p>
-            <p className="font-display text-xl" style={{ fontWeight: 400 }}>
-              Welcome $9,000 + rehearsal $4,500 + reception $12,000 + brunch $6,000 = $31,500 in food lines
-            </p>
-            <p className="mt-4 text-ink-2">
-              Before staffing, service, and GET — illustrative math on published rates. The resort alternative
-              runs $7,500–$15,000 F&amp;B minimums per event at 23–25% service. Ours is 20%, on its own line.
-            </p>
-            <p className="mt-5">
-              <MauiLink to={link('weddings/wedding-week-budget')}>The full budget, line by line →</MauiLink>
-            </p>
-          </div>
-        </SectionReveal>
+          <p className="mt-4 text-xs text-ink-2">{MAUI_FEE_NOTE}</p>
+        </div>
       </section>
 
-      {/* S8 — How it works (calm full-width rows) */}
-      <section className="mx-auto max-w-3xl px-6 pb-8">
-        <h2 className="h2-site mb-14">How it works.</h2>
-        <ol className="space-y-24">
-          {STEPS.map((s, i) => (
-            <SectionReveal as="li" key={s} className="flex items-baseline gap-6">
-              <span className="font-display tabular-site text-3xl" style={{ fontWeight: 300, color: 'var(--site-accent-text)' }} aria-hidden="true">
-                {i + 1}
-              </span>
-              <p className="text-lg">{s}</p>
+      {/* S11 — How it works */}
+      <section className="section-pad rule-t mx-auto max-w-4xl px-6">
+        <h2 className="h2-site">How it works.</h2>
+        <ol className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {STEPS.map((step, i) => (
+            <SectionReveal as="li" key={step} delay={i * 100} className="card-site p-5 bg-white border border-line-site">
+              <span className="font-mono text-xs text-accent-site font-bold">0{i + 1}</span>
+              <p className="mt-2 text-sm text-ink-2">{step}</p>
             </SectionReveal>
           ))}
         </ol>
       </section>
 
-      {/* S9 — Group capability */}
-      <section className="mx-auto max-w-3xl px-6 py-16">
-        <SectionReveal>
-          <h2 className="h2-site">And when the house fills up.</h2>
-          <p className="measure-site mt-6 text-lg text-ink-2">
-            Estate receptions run to 75 guests, staffed — servers at $55 an hour, sous chefs at $75, four-hour
-            floors. Over 75 is a written exception, quoted, never implied. And the service charge is 20%, on
-            its own line — resorts charge 23–25%.
-          </p>
-          <p className="mt-6">
-            <MauiLink to={link('catering')}>Catering for 10–75 →</MauiLink>
-          </p>
-        </SectionReveal>
+      {/* S12 — FAQ Accordion */}
+      <section className="section-pad rule-t bg-[#FBF6EC]">
+        <div className="mx-auto max-w-3xl px-6">
+          <SectionReveal>
+            <p className="eyebrow-site text-accent-site uppercase tracking-wider text-xs">
+              Maui Logistics &amp; Guidelines
+            </p>
+            <h2 className="h2-site mt-2 mb-8">Frequently asked questions about Maui catering</h2>
+            <FAQAccordion items={HOME_FAQ} />
+          </SectionReveal>
+        </div>
       </section>
 
-      {/* S10 — Quote block */}
-      <section className="mx-auto max-w-3xl px-6 pb-28">
-        <SectionReveal>
-          <div className="card-site p-8 md:p-12" style={{ background: 'var(--site-surface)' }}>
-            <h2 className="h2-site">Tell us the dates and the villa.</h2>
-            <p className="mt-4 text-ink-2">
-              We reply with a written quote — the confirmed total. Five fields, about a minute, no number
-              invented on the spot.
-            </p>
-            <div className="mt-8 flex flex-wrap items-center gap-5">
-              <Link to={link('quote')} className="cta-site">
-                Start the quote
-              </Link>
-              <a
-                href={`https://wa.me/${CONTACT.whatsappNumber}?text=${encodeURIComponent('Aloha — Maui inquiry: dates, villa, headcount.')}`}
-                className="cta-secondary-site"
-                target="_blank"
-                rel="noreferrer"
-              >
-                WhatsApp us →
-              </a>
-            </div>
-            <dl className="rule-t mt-10 space-y-6 pt-8">
-              {HOME_FAQ.map((f) => (
-                <div key={f.q}>
-                  <dt className="font-medium">{f.q}</dt>
-                  <dd className="mt-2 text-sm text-ink-2">{f.a}</dd>
-                </div>
-              ))}
-            </dl>
-          </div>
-        </SectionReveal>
+      {/* S13 — Quote block */}
+      <section className="section-pad rule-t mx-auto max-w-4xl px-6 text-center">
+        <h2 className="h2-site">Ready to set the table on Maui?</h2>
+        <p className="mt-4 text-ink-2 max-w-lg mx-auto text-sm sm:text-base">
+          Send us your dates, group size, and villa location. We reply within hours with an itemized, confirmed written quote.
+        </p>
+        <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+          <Link to={link('quote')} className="cta-site">
+            Request a Written Quote →
+          </Link>
+          <a
+            href={`https://wa.me/${CONTACT.whatsappNumber}?text=${encodeURIComponent(
+              'Aloha myCHEF Maui — I would like to inquire about private chef services for an upcoming Maui trip.'
+            )}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-secondary-site"
+          >
+            WhatsApp Maui Concierge Desk
+          </a>
+        </div>
       </section>
     </>
   );
