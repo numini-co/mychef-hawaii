@@ -1,5 +1,6 @@
 import { Suspense, lazy, useEffect } from 'react';
 import { Routes, Route, useParams, useLocation } from 'react-router';
+import { Analytics } from '@vercel/analytics/react';
 import { IslandProvider } from '@/platform/IslandProvider';
 import { ISLAND_IDS } from '@/platform/tokens';
 import type { IslandId } from '@/platform/tokens';
@@ -86,6 +87,7 @@ export default function App() {
           </>
         )}
       </Routes>
+      <Analytics />
     </>
   );
 }
