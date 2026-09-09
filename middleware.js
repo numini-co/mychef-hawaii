@@ -1,13 +1,27 @@
 /**
  * Edge Middleware — runs BEFORE the static filesystem.
  *
- * Critical: host-based vercel.json rewrites do NOT fire when index.html /
- * robots.txt already exist. Island hosts must be rewritten here so crawlers
- * get Oʻahu/Maui/… HTML instead of the hub shell.
+ * Host-based vercel.json rewrites do NOT fire when index.html already exists.
+ * Island hosts are rewritten here so crawlers get island HTML, not the hub shell.
+ *
+ * Uses Response headers (x-middleware-rewrite / x-middleware-next) so we do not
+ * depend on @vercel/edge helpers that break the edge bundle.
  */
-import { next, rewrite, redirect } from '@vercel/edge';
-
 const ISLANDS = ['oahu', 'maui', 'kauai', 'bigisland'];
+
+function pass() {
+  return new Response(null, {
+    headers: { 'x-middleware-next': '1' },
+  });
+}
+
+function rewriteTo(destination) {
+  return new Response(null, {
+    headers: {
+      'x-middleware-rewrite': typeof destination === 'string' ? destination : destination.toString(),
+    },
+  });
+}
 
 export default function middleware(request) {
   const url = new URL(request.url);
@@ -16,12 +30,12 @@ export default function middleware(request) {
   // www → apex (all hosts)
   if (host.startsWith('www.')) {
     url.host = host.slice(4);
-    return redirect(url, 301);
+    return Response.redirect(url, 301);
   }
 
   const sub = host.split('.')[0];
   if (!ISLANDS.includes(sub)) {
-    return next();
+    return pass();
   }
 
   const path = url.pathname;
@@ -40,26 +54,24 @@ export default function middleware(request) {
     }
   }
 
-  // Already prefixed (after a prior rewrite destination) — serve as-is
+  // Already prefixed after rewrite destination
   if (path === `/${sub}` || path.startsWith(`/${sub}/`)) {
-    return next();
+    return pass();
   }
 
-  // Static assets / known public files with extensions (except we handle robots/sitemap)
   if (path === '/robots.txt') {
-    return rewrite(new URL(`/robots-${sub}.txt`, request.url));
+    return rewriteTo(new URL(`/robots-${sub}.txt`, request.url));
   }
   if (path === '/sitemap.xml') {
-    return rewrite(new URL(`/_sitemaps/${sub}.xml`, request.url));
+    return rewriteTo(new URL(`/_sitemaps/${sub}.xml`, request.url));
   }
 
-  // Skip files with extensions (assets, images, pdf, etc.)
+  // Skip files with extensions
   const last = path.split('/').pop() || '';
   if (last.includes('.')) {
-    return next();
+    return pass();
   }
 
-  // Strip duplicate island prefix if client requested /oahu on oahu host → already handled above
   const destPath = path === '/' ? `/${sub}` : `/${sub}${path}`;
-  return rewrite(new URL(destPath, request.url));
+  return rewriteTo(new URL(destPath, request.url));
 }
