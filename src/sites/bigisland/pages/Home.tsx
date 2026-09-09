@@ -11,6 +11,7 @@ import { useSite } from '@/platform/IslandProvider';
 import TrustStrip from '@/components/TrustStrip';
 import SectionReveal from '@/components/SectionReveal';
 import FAQAccordion from '@/components/FAQAccordion';
+import { MultiIslandCrossSell } from '@/components/CrossHostSell';
 import { BandQuote, CORRIDOR, EAST, LedgerRow, Mono, HeroPanel, Panel, RATE_ROWS } from './bits';
 
 const HOME_FAQ = [
@@ -220,7 +221,7 @@ export default function BigIslandHome() {
     <>
       <Seo
         title="Private Chef Big Island — Kona–Kohala & Gated Estates | myCHEF"
-        description="Private chef service on Hawaiʻi Island, Kona–Kohala first. Villa dinners from $150/guest, Stay Chef from $950/day. Gated community access (Kūkiʻo, Hualālai, Kohanaiki), local purveyors, and written quotes."
+        description="Private chef service on Hawaiʻi Island, Kona–Kohala first. Villa dinners from $150/guest, Stay Chef from $950/day."
         path="/bigisland"
         ogImage="/img/bigisland/hero-home.webp"
         jsonLd={[
@@ -574,6 +575,8 @@ export default function BigIslandHome() {
           </ol>
         </div>
       </section>
+
+      <MultiIslandCrossSell />
 
       {/* FAQ Accordion */}
       <section className="section-pad rule-t bg-[#F7F5F0]">

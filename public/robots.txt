@@ -24,4 +24,8 @@ User-agent: Applebot
 Allow: /
 
 Sitemap: https://mychef-hawaii.com/sitemap-index.xml
+# Apex sitemap.xml lists hub URLs only; island hosts publish their own via the index.
 Sitemap: https://mychef-hawaii.com/sitemap.xml
+
+# www.* island hosts: DNS optional. When DNS exists, vercel.json 301s www.{island} → {island}.
+# Intentionally unsupported until A/CNAME records are added at the registrar.

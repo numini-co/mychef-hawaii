@@ -138,7 +138,7 @@ export default function MultiIslandPage() {
     <>
       <Seo
         title="Multi-Island Catering Hawaii — One Partner Across 4 Islands | myCHEF"
-        description="Turnkey multi-island catering and private chef coordination across Oʻahu, Maui, Kauaʻi, and Big Island. One point of contact, one master quote, and resident culinary teams on every island for corporate retreats, weddings, and luxury groups."
+        description="Multi-island catering Hawaii: one coordinator, one master quote, unified dietary ledger, resident culinary teams on every island."
         path="/multi-island-catering-hawaii"
         ogImage="/img/hub/multi-island-itinerary.jpg"
         jsonLd={[organizationLd(), foodServiceLd(), faqLd(FAQ)]}

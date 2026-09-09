@@ -50,6 +50,10 @@ export function Seo({ title, description, path, ogImage, jsonLd = [], alternates
     upsertMeta('property', 'og:url', url);
     upsertMeta('property', 'og:type', 'website');
     if (imgUrl) upsertMeta('property', 'og:image', imgUrl);
+    upsertMeta('name', 'twitter:card', 'summary_large_image');
+    upsertMeta('name', 'twitter:title', fullTitle);
+    upsertMeta('name', 'twitter:description', description);
+    if (imgUrl) upsertMeta('name', 'twitter:image', imgUrl);
     let canonical = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]');
     if (!canonical) {
       canonical = document.createElement('link');
@@ -72,6 +76,10 @@ export function Seo({ title, description, path, ogImage, jsonLd = [], alternates
       <meta property="og:url" content={url} />
       <meta property="og:type" content="website" />
       {imgUrl && <meta property="og:image" content={imgUrl} />}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={fullTitle} />
+      <meta name="twitter:description" content={description} />
+      {imgUrl && <meta name="twitter:image" content={imgUrl} />}
       {jsonLdContent && (
         <script
           type="application/ld+json"

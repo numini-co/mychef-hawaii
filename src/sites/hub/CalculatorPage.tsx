@@ -308,7 +308,7 @@ export default function CalculatorPage() {
     <>
       <Seo
         title="Hawaii Private Chef &amp; Catering Pricing Calculator | myCHEF"
-        description="Interactive Hawaii private chef cost calculator. Compare published rates across Oʻahu, Maui, Kauaʻi, and Big Island. See itemized food, staffing, 20% service, and GET tax."
+        description="Hawaii private chef cost calculator: compare published Oahu, Maui, Kauai, and Big Island rates with itemized service and GET."
         path="/calculator"
         ogImage="/img/hub/rate-card-quote.jpg"
         jsonLd={[

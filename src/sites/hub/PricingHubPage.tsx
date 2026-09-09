@@ -140,7 +140,7 @@ export default function PricingHubPage() {
     <>
       <Seo
         title="Hawaii Private Chef & Catering Pricing — The Statewide Tariff | myCHEF"
-        description="Transparent statewide pricing for private chefs and catering across Oʻahu, Maui, Kauaʻi, and Big Island. See exactly what $125/person includes, compare island rate cards, and review itemized fee stacks."
+        description="Statewide tariff: signature dinners $125–$250/guest by island, Stay Chef $850–$1,100/day, Date Night $450–$950. 20% service and GET itemized."
         path="/pricing"
         ogImage="/img/hub/pricing-statewide.jpg"
         jsonLd={[organizationLd(), foodServiceLd(), faqLd(PRICING_FAQ)]}

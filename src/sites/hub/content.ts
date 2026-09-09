@@ -17,7 +17,7 @@ export const content: ContentRecord[] = [
     h1: 'One desk. Four islands. Every table.',
     meta: {
       description:
-        'The main myCHEF Hawaii site. Private chefs, catering, weddings and events across Oʻahu, Maui, Kauaʻi and the Big Island — or as one multi-island itinerary. Published prices. A written quote that is the confirmed total.',
+        'Private chef Hawaii statewide: Oahu, Maui, Kauai, Big Island — or one multi-island itinerary. Published prices and itemized written quotes.',
       ogImage: '/img/hub/hero-statewide-desk.jpg',
     },
     intro:
@@ -57,7 +57,7 @@ export const content: ContentRecord[] = [
           'Waikīkī penthouses, Kahala estates, Ko Olina villas, North Shore houses. The deepest roster in the network, corporate and convention capability, and a kamaʻāina weekly line for residents.',
           'Signature dinners $125–$190 a guest · Stay Chef from $850 a day · Date Night from $450.',
         ],
-        links: [{ label: 'The Oʻahu site', href: '/oahu' }],
+        links: [{ label: 'Private chef on Oʻahu — Waikīkī to North Shore', href: 'https://oahu.mychef-hawaii.com/' }],
       },
       {
         heading: 'Maui — Cinematic',
@@ -65,7 +65,7 @@ export const content: ContentRecord[] = [
           'Wailea to Kapalua, villa weeks and the network’s deepest wedding-week program. Golden-hour service on the lānai; the five-meal wedding week as one contract.',
           'Signature dinners $150–$250 a guest · Stay Chef from $1,050 a day · Date Night from $500.',
         ],
-        links: [{ label: 'The Maui site', href: '/maui' }],
+        links: [{ label: 'Private chef on Maui — Wailea to Kapalua', href: 'https://maui.mychef-hawaii.com/' }],
       },
       {
         heading: 'Kauaʻi — Botanical',
@@ -73,7 +73,7 @@ export const content: ContentRecord[] = [
           'Both shores — Hanalei and Princeville in the north, Poʻipū in the south — estate weeks, retreats, and inquiry-first honesty about the far North.',
           'Signature dinners $150–$250 a guest · Stay Chef from $1,100 a day · Date Night $650–$950.',
         ],
-        links: [{ label: 'The Kauaʻi site', href: '/kauai' }],
+        links: [{ label: 'Private chef on Kauaʻi — Hanalei to Poʻipū', href: 'https://kauai.mychef-hawaii.com/' }],
       },
       {
         heading: 'Big Island — Volcanic',
@@ -81,7 +81,7 @@ export const content: ContentRecord[] = [
           'The Kona–Kohala corridor west, Hilo–Volcano east — two and a half hours apart, priced honestly. Ledger-style pricing, night service, food carrying the color on basalt.',
           'Signature dinners $150–$225 a guest · Stay Chef from $950 a day · Date Night from $550.',
         ],
-        links: [{ label: 'The Big Island site', href: '/bigisland' }],
+        links: [{ label: 'Private chef on the Big Island — Kona to Kohala', href: 'https://bigisland.mychef-hawaii.com/' }],
       },
       {
         heading: 'Still deciding?',
@@ -101,7 +101,7 @@ export const content: ContentRecord[] = [
     h1: 'A private chef, in your kitchen, on your island.',
     meta: {
       description:
-        'How hiring a private chef in Hawaii works: your chef shops that morning, cooks in your villa kitchen, serves dinner, and leaves the kitchen clean. Published per-guest prices on four islands.',
+        'How a Hawaii private chef works: morning shop, cooks in your villa kitchen, serves dinner, leaves it clean. Published per-guest prices on four islands.',
     },
     intro:
       'Your chef shops that morning, arrives before service, cooks in your villa kitchen, serves dinner, and leaves the kitchen clean. This page explains the model statewide; each island owns its own rate card and roster.',
@@ -161,7 +161,7 @@ export const content: ContentRecord[] = [
     h1: 'Catering for the event, staffed and written down.',
     meta: {
       description:
-        'Event catering across Hawaiʻi: weddings, retreats, corporate receptions — 10 to 75 staffed guests, over 75 by written exception. Published staffing rates and the fee stack itemized.',
+        'Event catering across Hawaii: weddings, retreats, corporate — 10 to 75 staffed guests. Published staffing rates; 20% service and GET itemized.',
     },
     intro:
       'Weddings, retreats, corporate receptions, estate parties — staffed service for 10 to 75 guests, with headcounts over 75 handled as a written exception so staffing is planned, not improvised.',
@@ -215,7 +215,7 @@ export const content: ContentRecord[] = [
     h1: 'A wedding week, fed properly.',
     meta: {
       description:
-        'Wedding catering across Hawaiʻi — from elopement dinners to the five-meal wedding week under one contract. Per-guest prices published; 20% service vs the 23–25% resort norm.',
+        'Wedding catering across Hawaii — elopement dinners to five-meal wedding weeks under one contract. Per-guest prices; 20% service itemized.',
     },
     intro:
       'Hawaiʻi weddings skew destination, and destination weddings are really a week of meals with a ceremony in the middle. We cater that week — welcome dinner, rehearsal, reception, recovery brunch — as one written contract.',
@@ -267,7 +267,7 @@ export const content: ContentRecord[] = [
     h1: 'A chef for the stay, not just the evening.',
     meta: {
       description:
-        'Stay Chef puts a private chef in your villa kitchen for the length of the trip — breakfasts, kids’ meals, dinners — from $850–$1,100 a day depending on island. Published day rates, written quote.',
+        'Stay Chef puts a private chef in your villa for the trip — breakfasts, kids meals, dinners. From $850–$1,100/day by island. Published day rates.',
     },
     intro:
       'Stay Chef is the vacation-chef rhythm: the same chef in your kitchen across the trip — coffee and breakfast before the beach, kids’ meals handled early, dinner when you want it. Day rates are published per island.',
@@ -369,7 +369,7 @@ export const content: ContentRecord[] = [
     h1: 'Multi-island catering across Oʻahu, Maui, Kauaʻi & Big Island.',
     meta: {
       description:
-        'Turnkey multi-island catering and private chef coordination across Hawaii. One coordinator, one master quote, unified dietary ledger, and resident culinary teams on every island.',
+        'Multi-island catering Hawaii: one coordinator, one master quote, unified dietary ledger, resident culinary teams on every island.',
       ogImage: '/img/hub/multi-island-itinerary.jpg',
     },
     intro:
@@ -415,7 +415,7 @@ export const content: ContentRecord[] = [
     h1: 'The rental has a kitchen. Put a chef in it.',
     meta: {
       description:
-        'A private chef for your Hawaii vacation rental: we check the kitchen during the quote, shop locally, cook in the villa, and leave it clean. Published prices on four islands.',
+        'Private chef for your Hawaii vacation rental: kitchen check at quote, local shop, cook in-villa, leave clean. Published prices on four islands.',
     },
     intro:
       'A third or more of Hawaiʻi visitors stay in rentals, and the kitchen is usually the best room nobody uses. Villa chef service is built around that room — we verify the kitchen during the quote, then cook in it.',
@@ -451,7 +451,7 @@ export const content: ContentRecord[] = [
     h1: 'Welcome dinner to recovery brunch, one written quote.',
     meta: {
       description:
-        'The myCHEF wedding week: welcome dinner, rehearsal, ceremony-adjacent meal, reception, recovery brunch — five meals planned as one arc under one contract, priced per guest.',
+        'myCHEF wedding week: welcome, rehearsal, ceremony-adjacent, reception, recovery brunch — five meals, one contract, priced per guest.',
     },
     parent: 'weddings',
     intro:
@@ -498,7 +498,7 @@ export const content: ContentRecord[] = [
     h1: 'The bar cart, staffed and licensed-aware.',
     meta: {
       description:
-        'Packaged bar cart service for Hawaii events: from $650/4hr plus per-guest on Oʻahu to $850 plus $60/guest on Kauaʻi. County liquor rules differ — we tell you what applies.',
+        'Packaged bar cart for Hawaii events: from $650/4hr on Oahu to $850 plus per-guest on Kauai. County liquor rules explained plainly.',
     },
     intro:
       'A packaged bar cart with a working bartender: four-hour blocks, published pricing, and straight talk about Hawaiʻi’s county-by-county liquor rules.',
@@ -568,7 +568,7 @@ export const content: ContentRecord[] = [
     h1: 'Eleven flags, carried across every meal.',
     meta: {
       description:
-        'Dietary restrictions handled as spec, not favor: eleven standard flags — vegetarian, vegan, gluten-free, halal, allergies and more — captured once and carried across every meal.',
+        'Dietary restrictions as spec, not favor: eleven standard flags — vegetarian, vegan, gluten-free,halal, allergies — carried across every meal.',
     },
     intro:
       'Dietary needs are captured in the quote as flags, written into the menu, and carried across every meal of the booking — not re-explained each night.',
@@ -601,7 +601,7 @@ export const content: ContentRecord[] = [
     h1: 'The only statewide published rate card.',
     meta: {
       description:
-        'The statewide tariff: signature dinners $125–$250 a guest depending on island, Stay Chef from $850–$1,100 a day, Date Night from $450–$950. 20% service and GET always on their own lines.',
+        'Statewide tariff: signature dinners $125–$250/guest by island, Stay Chef $850–$1,100/day, Date Night $450–$950. 20% service and GET itemized.',
       ogImage: '/img/hub/pricing-statewide.jpg',
     },
     intro:
@@ -667,7 +667,7 @@ export const content: ContentRecord[] = [
     h1: 'What a private chef costs in Hawaiʻi — the whole stack.',
     meta: {
       description:
-        'The cost anatomy: per-guest bands $125–$250 by island, what is included, what is separate, the 20% service line, GET up to 4.7120%, and the 50% deposit. No teaser pricing.',
+        'Hawaii private chef cost: $125–$250/guest by island, inclusions, 20% service, GET 4.7120%, 50% deposit. No teaser pricing.',
     },
     parent: 'pricing',
     intro:
@@ -726,7 +726,7 @@ export const content: ContentRecord[] = [
     h1: 'Same standard, four price cards.',
     meta: {
       description:
-        'Private chef cost by island: Oʻahu $125–$190, Maui $150–$250, Kauaʻi $150–$250, Big Island $150–$225 per guest. Stay Chef day rates, Date Night minimums, and travel postures compared.',
+        'Private chef cost by island: Oahu $125–$190, Maui/Kauai $150–$250, Big Island $150–$225/guest. Stay Chef and Date Night compared.',
     },
     parent: 'pricing',
     intro:
@@ -760,7 +760,7 @@ export const content: ContentRecord[] = [
     h1: 'Every fee, on its own line, before you pay anything.',
     meta: {
       description:
-        'The myCHEF fee stack: 20% service charge, Hawaiʻi GET up to 4.7120% (valid through 12/31/2030), 50% deposit locks the date, gratuity always voluntary, groceries at cost with receipts.',
+        'myCHEF fee stack: 20% service charge, Hawaii GET 4.7120%, 50% deposit locks the date, voluntary gratuity, groceries at cost with receipts.',
     },
     parent: 'pricing',
     intro:
@@ -805,7 +805,7 @@ export const content: ContentRecord[] = [
     h1: 'Travel lines, published before you ask.',
     meta: {
       description:
-        'Travel zones across the four islands: Oʻahu North Shore from $75, Maui Upcountry from $75, Kauaʻi shore surcharges $50–$75, Big Island outside Kona–Kohala from $75. Quote-only zones explained.',
+        'Hawaii private chef travel zones: Oahu North Shore from $75, Maui Upcountry from $75, Kauai $50–$75, Big Island from $75. Quote-only zones explained.',
     },
     parent: 'pricing',
     intro:
@@ -838,7 +838,7 @@ export const content: ContentRecord[] = [
     h1: 'An honest estimate in sixty seconds.',
     meta: {
       description:
-        'Estimate your Hawaii private chef cost from the published rate cards — service, guests, days, staffing, travel — with 20% service and GET shown as separate lines. ESTIMATE ONLY: the written quote is the confirmed total.',
+        'Estimate Hawaii private chef cost from published rate cards — service, guests, days, staffing. 20% service and GET on separate lines.',
     },
     parent: 'pricing',
     intro:
@@ -901,7 +901,7 @@ export const content: ContentRecord[] = [
     h1: 'Private chef, personal chef: the difference is the day.',
     meta: {
       description:
-        'Private chef vs personal chef, defined plainly: a private chef cooks your event or stay in your kitchen; a personal chef batch-cooks on a schedule. Hawaii pricing for both.',
+        'Private chef vs personal chef: event or stay in your kitchen vs scheduled batch cooking. Hawaii published pricing for both formats.',
     },
     parent: 'private-chef-cost',
     intro:
@@ -964,7 +964,7 @@ export const content: ContentRecord[] = [
     h1: 'Read before you book.',
     meta: {
       description:
-        'The statewide library: how private chefs work, what they cost, which island to choose, tipping etiquette, villa kitchens, lead times, and the fine print — full-prose guides, no stubs.',
+        'Statewide library: how private chefs work, costs, which island, tipping, villa kitchens, lead times — full-prose guides, published pricing.',
       ogImage: '/img/hub/guides-library.jpg',
     },
     intro:
@@ -1015,7 +1015,7 @@ export const content: ContentRecord[] = [
     h1: 'How a private chef works, in four steps.',
     meta: {
       description:
-        'How hiring a private chef in Hawaii works: brief, written quote, deposit, service day. The chef shops that morning, cooks in your kitchen, serves, and leaves it clean.',
+        'How a Hawaii private chef booking works: brief, written quote, deposit, service day — shop, cook, serve, clean kitchen. Published prices.',
     },
     parent: 'guides',
     intro:
@@ -1054,7 +1054,7 @@ export const content: ContentRecord[] = [
     h1: 'Hiring a private chef in Hawaiʻi, without the runaround.',
     meta: {
       description:
-        'How to hire a private chef in Hawaii: what to check (published prices, itemized fees, real kitchen questions), what to avoid (teaser rates, fake reviews), and how the quote works.',
+        'How to hire a private chef in Hawaii: check published prices, itemized fees, kitchen fit — avoid teaser rates. How the written quote works.',
     },
     parent: 'guides',
     intro:
@@ -1087,7 +1087,7 @@ export const content: ContentRecord[] = [
     h1: 'Which island is yours?',
     meta: {
       description:
-        'Which Hawaiian island for a villa vacation with a private chef: Oʻahu’s metro depth, Maui’s resort villas, Kauaʻi’s estates, the Big Island’s space — with the chef price bands per island.',
+        'Which Hawaiian island for a villa with a private chef: Oahu metro depth, Maui resort villas, Kauai estates, Big Island space — with price bands.',
     },
     parent: 'islands',
     intro:
@@ -1120,7 +1120,7 @@ export const content: ContentRecord[] = [
     h1: 'What your kitchen needs — less than you think.',
     meta: {
       description:
-        'What kitchen a private chef needs in a Hawaii rental: stove, oven, counter space, refrigeration. Chefs bring the kit; hotel rooms without kitchens are declined, politely.',
+        'What kitchen a Hawaii private chef needs: stove, oven, counters, refrigeration. Chefs bring kit; hotel rooms without kitchens are declined.',
     },
     parent: 'guides',
     intro:
@@ -1182,7 +1182,7 @@ export const content: ContentRecord[] = [
     h1: 'Book the chef when you book the flights.',
     meta: {
       description:
-        'How far in advance to book a private chef in Hawaii: 2–4 weeks in normal seasons; December–March and holiday weeks need months. Ironman and wedding weeks compress first.',
+        'How far ahead to book a Hawaii private chef: 2–4 weeks normally; December–March and holidays need months. Peak weeks compress first.',
     },
     parent: 'guides',
     intro:
@@ -1245,7 +1245,7 @@ export const content: ContentRecord[] = [
     h1: 'The seasons, and what they do to your table.',
     meta: {
       description:
-        'Best time to visit Hawaii with a private chef: per-island seasonality, December–March peak pressure, whale season, summer family travel, and when to book for each.',
+        'Best time for Hawaii with a private chef: per-island seasonality, Dec–Mar peak, whale season, summer families, and when to book each island.',
     },
     parent: 'guides',
     intro:
@@ -1277,7 +1277,7 @@ export const content: ContentRecord[] = [
     h1: 'The dietary guide: flags, allergies, protocols.',
     meta: {
       description:
-        'How dietary restrictions work with a Hawaii private chef: the eleven-flag system, allergy cross-contact handling, retreat protocols, and menus the whole table can eat.',
+        'Dietary restrictions with a Hawaii private chef: eleven-flag system, allergy cross-contact, retreat protocols, menus the whole table can eat.',
     },
     parent: 'guides',
     intro:
@@ -1307,7 +1307,7 @@ export const content: ContentRecord[] = [
     h1: 'What a service includes — and what it doesn’t.',
     meta: {
       description:
-        'What a private chef service includes in Hawaii: menu planning, the morning shop, cooking, plating, service, and a clean kitchen. What is separate: alcohol, rentals, staffing, gratuity.',
+        'What Hawaii private chef service includes: menu planning, morning shop, cooking, plating, service, clean kitchen — and what is billed separately.',
     },
     parent: 'guides',
     intro:
@@ -1343,7 +1343,7 @@ export const content: ContentRecord[] = [
     h1: 'The alcohol policy, county by county.',
     meta: {
       description:
-        'Alcohol at Hawaii private events: client-supplied or licensed referral, packaged bar carts from $650–$850/4hr, and the four county liquor commissions explained plainly.',
+        'Alcohol at Hawaii private events: client-supplied or licensed referral, bar carts from $650–$850/4hr, four county liquor commissions explained.',
     },
     parent: 'guides',
     intro:
@@ -1373,7 +1373,7 @@ export const content: ContentRecord[] = [
     h1: 'Tipping a private chef: voluntary, always.',
     meta: {
       description:
-        'How much to tip a private chef: gratuity is always voluntary at myCHEF — the 20% service charge is not a tip. What guests typically do, and what the service charge actually funds.',
+        'How much to tip a private chef in Hawaii: gratuity is always voluntary at myCHEF — the 20% service charge is not a tip. What guests typically do.',
     },
     parent: 'guides',
     intro:
@@ -1403,7 +1403,7 @@ export const content: ContentRecord[] = [
     h1: 'One network, four island teams, one standard.',
     meta: {
       description:
-        'Meet the culinary directors and resident leads of myCHEF Hawaii. Transparent operations across Oʻahu, Maui, Kauaʻi, and Big Island with published rates and itemized proposals.',
+        'Culinary directors and resident leads of myCHEF Hawaii across Oahu, Maui, Kauai, and Big Island — published rates and itemized proposals.',
     },
     intro:
       'myCHEF Hawaii is a statewide culinary coordination hub and network of resident master chefs working across four islands under one standard: published rates, an itemized fee stack, and a written quote that is the confirmed total.',
@@ -1474,20 +1474,16 @@ export const content: ContentRecord[] = [
       {
         heading: 'Verifiable Third-Party Reviews & Island Google Business Profiles',
         body: [
-          'We publish curated, attributable Hawaii reviews from completed events — and we invite verification on each island desk. Open the Google Maps search for the desk that matches your trip:',
-          '• Oʻahu Desk — Honolulu, Waikīkī, North Shore',
-          '• Maui Desk — Wailea, Mākena, Kapalua',
-          '• Kauaʻi Desk — Hanalei, Princeville, Poʻipū',
-          '• Big Island Desk — Kona, Kohala Coast, Kūkiʻo',
-          'The 4.98 average and 50 Hawaii reviews on the homepage are drawn from this verified set. The “10,000+ worldwide” figure counts five-star private dinners across the myCHEF International network (Dubai, Bali, Cape Town, and Hawaiʻi). Verifiable estate-manager references are available under NDA for qualifying accounts.',
+          'We publish curated, attributable Hawaii reviews from completed events. The 4.98 average and 50 Hawaii reviews on the homepage are drawn from this verified set. The “10,000+ worldwide” figure counts five-star private dinners across the myCHEF International network (Dubai, Bali, Cape Town, and Hawaiʻi).',
+          'Island Google Business Profiles are being claimed desk-by-desk. Until each Place listing is live, we do not publish Maps search links that could land on a competitor — verification goes through this register, the reviews policy, and network sister sites.',
+          'Verifiable estate-manager references are available under NDA for qualifying accounts.',
         ],
         links: [
-          { label: 'Oʻahu desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Oahu+Honolulu' },
-          { label: 'Maui desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Maui+Wailea' },
-          { label: 'Kauaʻi desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Kauai' },
-          { label: 'Big Island desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Kona+Kohala' },
           { label: 'Reviews policy', href: '/reviews-policy' },
           { label: 'Sample Itemized Quote (PDF)', href: '/sample-quotes/sample-itemized-quote-mychef-hawaii.pdf' },
+          { label: 'myCHEF Dubai', href: 'https://mychef.ae' },
+          { label: 'myCHEF Bali', href: 'https://mychef.id' },
+          { label: 'myCHEF Cape Town', href: 'https://mychefs.co.za' },
         ],
       },
       {
@@ -1628,7 +1624,7 @@ export const content: ContentRecord[] = [
     h1: 'Four doors, not one inbox.',
     meta: {
       description:
-        'Contact myCHEF Hawaii: book a chef through the quote flow, partner with us as a villa manager or planner, press enquiries, or chef careers. Plus the WhatsApp line (+1 (808) 468-7748).',
+        'Contact myCHEF Hawaii: written quote flow, villa-manager partnerships, press, chef careers — plus WhatsApp +1 (808) 468-7748.',
     },
     intro:
       'One inbox is how messages get lost. Pick the door that matches your message and it routes to the team that can actually answer it.',
@@ -1762,10 +1758,10 @@ export const content: ContentRecord[] = [
           'Every published Hawaiʻi testimonial reflects a completed, verified event with client consent, service type, and island.',
         ],
         links: [
-          { label: 'Oʻahu desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Oahu+Honolulu' },
-          { label: 'Maui desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Maui+Wailea' },
-          { label: 'Kauaʻi desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Kauai' },
-          { label: 'Big Island desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Kona+Kohala' },
+          { label: 'Honesty register', href: '/trust' },
+          { label: 'myCHEF Dubai', href: 'https://mychef.ae' },
+          { label: 'myCHEF Bali', href: 'https://mychef.id' },
+          { label: 'myCHEF Cape Town', href: 'https://mychefs.co.za' },
         ],
       },
       {
@@ -1774,13 +1770,13 @@ export const content: ContentRecord[] = [
           'The event completes — quote, service, balance paid',
           'The guest is invited to review; the invitation is the acquisition program, disclosed here',
           'The review publishes with the service type and island, never with invented detail',
-          'Google-sourced lines link out to the matching island desk Maps search so you can verify independently',
+          'Island Google Business Profiles will replace in-page badges with live Place links once each desk listing is claimed',
         ],
       },
       {
         heading: 'What you will never see here',
         body: [
-          'Purchased testimonials, reviews with no completed event, or AggregateRating schema in page markup. On-page star averages appear only when they match this published, attributable Hawaii sample — and we never inject AggregateRating into JSON-LD.',
+          'Purchased testimonials, reviews with no completed event, AggregateRating schema in page markup, or Maps search links that could resolve to a competitor before our Place listings are live.',
         ],
         links: [{ label: 'The honesty register', href: '/trust' }],
       },

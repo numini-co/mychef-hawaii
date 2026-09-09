@@ -60,7 +60,7 @@ export default function OahuPrivateChef() {
     <>
       <Seo
         title="Hire a Private Chef on Oʻahu — Dinners, Date Nights, Stay Chef | myCHEF"
-        description="Signature dinners $125–$190 a guest, Date Night from $450, Stay Chef from $850 a day, vacation-chef full board $179–$300+ per guest per day. Serving Waikīkī, Honolulu, Kahala, Ko Olina, Kailua, and the North Shore."
+        description="Signature dinners $125–$190 a guest, Date Night from $450, Stay Chef from $850 a day, vacation-chef full board $179–$300+ per guest per day."
         path="/oahu/private-chef"
         ogImage="/img/oahu/hero-private-chef.jpg"
         jsonLd={[

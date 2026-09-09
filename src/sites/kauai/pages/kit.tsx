@@ -81,6 +81,8 @@ export function FramedHero({
           <img
             src={image}
             alt={alt}
+            width={1200}
+            height={900}
             className="w-full object-cover"
             style={{
               aspectRatio: '4/5',

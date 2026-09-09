@@ -55,7 +55,7 @@ export default function OahuWeddings() {
     <>
       <Seo
         title="Wedding Catering Oʻahu — Estates, Villas, Elopements | myCHEF"
-        description="Estate, villa, and elopement wedding catering on Oʻahu. The wedding week as one contract — welcome dinner to recovery brunch, from $125 a guest plus staffing. Written quotes, itemized fees."
+        description="Estate, villa, and elopement wedding catering on Oʻahu. The wedding week as one contract."
         path="/oahu/weddings"
         ogImage="/img/oahu/hero-weddings.jpg"
         jsonLd={[faqLd(FAQ), breadcrumbLd([{ name: 'Oʻahu', path: '/oahu' }, { name: 'Weddings', path: '/oahu/weddings' }])]}

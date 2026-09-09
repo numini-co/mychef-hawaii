@@ -50,7 +50,7 @@ export default function BigIslandPrivateChef() {
     <>
       <Seo
         title="Hire a Private Chef on the Big Island — Kona to the Kohala Coast"
-        description="Villa dinners $150–$225 a guest, Date Night from $550, Stay Chef from $950 a day across the Kona–Kohala corridor. Published prices, groceries inside the band, the written quote is the confirmed total."
+        description="Villa dinners $150–$225 a guest, Date Night from $550, Stay Chef from $950 a day across the Kona–Kohala corridor."
         path="/bigisland/private-chef"
         ogImage="/img/bigisland/hero-private-chef.jpg"
         jsonLd={[serviceLd('Hire a Private Chef on the Big Island', 'Villa dinners $150–$225 a guest, Date Night from $550, Stay Chef from $950 a day across the Kona–Kohala corridor.', '/bigisland/private-chef', 'Big Island'), faqLd(FAQ)]}

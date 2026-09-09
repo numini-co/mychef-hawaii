@@ -18,7 +18,8 @@ body_style = ParagraphStyle('Body', parent=styles['Normal'], fontName='Helvetica
 bold_style = ParagraphStyle('Bold', parent=styles['Normal'], fontName='Helvetica-Bold', fontSize=10, leading=14, textColor=colors.HexColor('#1A1815'))
 h2_style = ParagraphStyle('H2', parent=styles['Heading2'], fontName='Helvetica-Bold', fontSize=12, leading=16, textColor=colors.HexColor('#1A1815'))
 
-story.append(Paragraph('myCHEF HAWAIʻI', title_style))
+# Helvetica lacks Hawaiian ʻokina — use ASCII "Hawaii" so PDF text extractors never show "HAWAI I" / "Hawaini".
+story.append(Paragraph('myCHEF HAWAII', title_style))
 story.append(Paragraph('Statewide Culinary Coordination Hub & Island Flagships · Hawaii GET License: GE-214-892-7488-01', subtitle_style))
 story.append(Spacer(1, 15))
 story.append(HRFlowable(width='100%', thickness=1, color=colors.HexColor('#D6D0C4'), spaceBefore=5, spaceAfter=15))
@@ -45,7 +46,7 @@ items = [
     [Paragraph('<b>Item & Scope Description</b>', bold_style), Paragraph('<b>Rate / Base</b>', bold_style), Paragraph('<b>Amount</b>', bold_style)],
     [Paragraph('<b>Culinary Labor & Dedicated Lead Chef</b><br/><font size="8" color="#706A5E">Bespoke menu design, prep, in-villa execution, table service coordination, and spotless kitchen return.</font>', body_style), Paragraph('$150.00 / guest<br/>(10 guests)', body_style), Paragraph('$1,500.00', bold_style)],
     [Paragraph('<b>Service Charge (Itemized)</b><br/><font size="8" color="#706A5E">Dedicated kitchen assistant, logistical pack-in, sanitation, service support.</font>', body_style), Paragraph('20.0%', body_style), Paragraph('$300.00', bold_style)],
-    [Paragraph('<b>Hawaiʻi General Excise Tax (GET)</b><br/><font size="8" color="#706A5E">State of Hawaiʻi statutory tax (pursuant to HRS §237 & Act 247 Maui County surcharge).</font>', body_style), Paragraph('4.7120%', body_style), Paragraph('$84.82', bold_style)],
+    [Paragraph('<b>Hawaii General Excise Tax (GET)</b><br/><font size="8" color="#706A5E">State of Hawaii statutory tax (pursuant to HRS 237 & Act 247 Maui County surcharge).</font>', body_style), Paragraph('4.7120%', body_style), Paragraph('$84.82', bold_style)],
     [Paragraph('<b>Groceries & Ingredients (At Cost Guarantee)</b><br/><font size="8" color="#706A5E">Fresh daily catch from local purveyors, organic produce, farm ingredients passed through at zero retail markup. Original receipts presented at service.</font>', body_style), Paragraph('Receipt Cost<br/>(Zero Markup)', body_style), Paragraph('Estimated<br/>$450.00–$550.00', body_style)],
 ]
 t = Table(items, colWidths=[310, 110, 100])

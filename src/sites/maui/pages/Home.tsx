@@ -14,6 +14,7 @@ import { CONTACT, TRUST_CLAIMS } from '@/platform/config';
 import { GBP_DESKS } from '@/data/trust-proof';
 import SectionReveal from '@/components/SectionReveal';
 import FAQAccordion from '@/components/FAQAccordion';
+import { MultiIslandCrossSell } from '@/components/CrossHostSell';
 import { RateTable } from '@/components/RateTable';
 import WeddingTimeline from './WeddingTimeline';
 import { ExperienceCard, MauiLink, MauiStyles, MAUI_FEE_NOTE } from './shared';
@@ -304,7 +305,7 @@ export default function MauiHome() {
     <>
       <Seo
         title="Private Chef Maui — Villa Dinners, Weddings & Stay Chef | myCHEF"
-        description="Private chef & catering across Maui. Wailea villa dinners from $150/guest; Stay Chef from $1,050/day; wedding week catering from $150/guest. Real-time pricing calculator, licensed local purveyors, and written quotes."
+        description="Private chef & catering across Maui. Wailea villa dinners from $150/guest; Stay Chef from $1,050/day; wedding week catering from $150/guest."
         path={link('')}
         ogImage="/img/maui/hero-home.webp"
         jsonLd={[
@@ -659,6 +660,9 @@ export default function MauiHome() {
           ))}
         </ol>
       </section>
+
+      {/* Cross-host sell — multi-island hub */}
+      <MultiIslandCrossSell />
 
       {/* S12 — FAQ Accordion */}
       <section className="section-pad rule-t bg-[#FBF6EC]">

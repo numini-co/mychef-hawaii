@@ -53,7 +53,7 @@ export default function OahuPricing() {
     <>
       <Seo
         title="Private Chef Oʻahu Cost — The Rate Card | myCHEF"
-        description="Every published Oʻahu price: Table $95–$125, Signature $125–$190, Premium $190–$275, Chef’s table $275–$400+ a guest. Stay Chef from $850/day, servers $55/hr, travel from $75. 20% service and GET on their own lines."
+        description="Every published Oʻahu price: Table $95–$125, Signature $125–$190, Premium $190–$275, Chef’s table $275–$400+ a guest."
         path="/oahu/pricing"
         ogImage="/img/oahu/hero-pricing.jpg"
         jsonLd={[faqLd(FAQ), breadcrumbLd([{ name: 'Oʻahu', path: '/oahu' }, { name: 'Pricing', path: '/oahu/pricing' }])]}

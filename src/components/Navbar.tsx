@@ -205,6 +205,16 @@ export default function Navbar() {
                 </Link>
               </span>
             ) : null}
+            {siteId === 'hub' ? (
+              <a
+                href="https://oahu.mychef-hawaii.com/ja"
+                lang="ja"
+                className="text-sm link-site"
+                hrefLang="ja"
+              >
+                日本語
+              </a>
+            ) : null}
             <Link to={link('quote')} className="cta-site !px-4 !py-2.5">
               Get a quote
             </Link>

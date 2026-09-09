@@ -24,7 +24,7 @@ import { ISLAND_IDS, SITE_META } from '@/platform/tokens';
 import { CONTACT } from '@/platform/config';
 import { getIslandHref, navigateToIsland } from '@/platform/navigation';
 import { REVIEWS_50, REVIEWS_SUMMARY } from '@/data/reviews';
-import { GBP_DESKS, gbpForReviewSite, NETWORK_PROOF } from '@/data/trust-proof';
+import { NETWORK_PROOF } from '@/data/trust-proof';
 import IslandMark from '@/components/IslandMark';
 import FeeStack from '@/components/FeeStack';
 import SectionReveal from '@/components/SectionReveal';
@@ -492,7 +492,7 @@ export default function HubHome() {
     <>
       <Seo
         title="Private Chef & Catering Hawaii — The Statewide Hub | myCHEF"
-        description="The statewide private chef and catering hub across Oʻahu, Maui, Kauaʻi and Big Island. Weddings, corporate catering, retreats, and multi-island coordination with one central point of contact. Published tariffs and itemized written quotes."
+        description="Private chef Hawaii statewide: Oahu, Maui, Kauai, Big Island — or one multi-island itinerary. Published prices and itemized written quotes."
         path="/"
         ogImage="/img/hub/hero-statewide-desk.webp"
         jsonLd={[organizationLd(), foodServiceLd(), faqLd(HOME_FAQ)]}
@@ -1354,18 +1354,16 @@ export default function HubHome() {
                     Google Business & Private Folio Verified
                   </p>
                   <ul className="flex flex-wrap gap-x-3 gap-y-1 text-[11px]">
-                    {(Object.values(GBP_DESKS) as (typeof GBP_DESKS)[keyof typeof GBP_DESKS][]).map((desk) => (
-                      <li key={desk.id}>
-                        <a
-                          href={desk.mapsUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="link-site font-medium"
-                        >
-                          {desk.label}
-                        </a>
-                      </li>
-                    ))}
+                    <li>
+                      <Link to="/reviews-policy" className="link-site font-medium">
+                        Reviews policy
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/trust" className="link-site font-medium">
+                        Honesty register
+                      </Link>
+                    </li>
                   </ul>
                   <p className="text-[11px] text-ink-2">
                     Worldwide record:{' '}
@@ -1446,14 +1444,12 @@ export default function HubHome() {
                     <div className="mt-2 flex items-center justify-between gap-2 text-[10px] text-ink-2/80">
                       <span>{t.date}</span>
                       {t.source === 'Google Verified Review' ? (
-                        <a
-                          href={gbpForReviewSite(t.siteId).mapsUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
+                        <Link
+                          to="/reviews-policy"
                           className="font-medium text-emerald-700 underline-offset-2 hover:underline"
                         >
                           {t.source}
-                        </a>
+                        </Link>
                       ) : (
                         <span className="font-medium text-emerald-700">{t.source}</span>
                       )}

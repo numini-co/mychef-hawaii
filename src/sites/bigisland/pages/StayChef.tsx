@@ -129,7 +129,7 @@ export default function BigIslandStayChef() {
     <>
       <Seo
         title="Stay Chef Big Island — Private Chef for Your Whole Stay from $950/Day | myCHEF"
-        description="Private chef daily residency across the Big Island: Kona, Kohala Coast, Kūkiʻo, Hualālai, and Mauna Lani. From $950/day plus groceries at cost with receipts. Open-fire grilling and estate dining."
+        description="Private chef daily residency across the Big Island: Kona, Kohala Coast, Kūkiʻo, Hualālai, and Mauna Lani."
         path={link('stay-chef')}
         ogImage="/img/bigisland/panel-stay-chef.jpg"
         jsonLd={[

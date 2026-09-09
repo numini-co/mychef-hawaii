@@ -27,6 +27,8 @@ const FORBIDDEN = [
   /What this page covers:/i,
   /conversion-door/i,
   /Fee stack on every the /i,
+  /href=["']\/https?:/i,
+  /href=["']\/http\b/i,
 ];
 
 function walk(dir, out = []) {

@@ -142,9 +142,49 @@ for (const route of routes) {
       cleanBodyHtml = cleanBodyHtml.replace(/<meta[^>]*property=["']og:image["'][^>]*\/?>/g, '');
     }
 
-    // Clean any remaining meta tags from body
+    const ogUrlMatch = cleanBodyHtml.match(/<meta[^>]*property=["']og:url["'][^>]*content=["']([^"']*)["']/);
+    if (ogUrlMatch) {
+      pageHtml = pageHtml.replace(/<meta\s+property=["']og:url["'][^>]*\/?>/g, '');
+      pageHtml = pageHtml.replace('</head>', `  <meta property="og:url" content="${ogUrlMatch[1]}" />\n  </head>`);
+      cleanBodyHtml = cleanBodyHtml.replace(/<meta[^>]*property=["']og:url["'][^>]*\/?>/g, '');
+    }
+
+    const ogTypeMatch = cleanBodyHtml.match(/<meta[^>]*property=["']og:type["'][^>]*content=["']([^"']*)["']/);
+    if (ogTypeMatch) {
+      pageHtml = pageHtml.replace(/<meta\s+property=["']og:type["'][^>]*\/?>/g, '');
+      pageHtml = pageHtml.replace('</head>', `  <meta property="og:type" content="${ogTypeMatch[1]}" />\n  </head>`);
+      cleanBodyHtml = cleanBodyHtml.replace(/<meta[^>]*property=["']og:type["'][^>]*\/?>/g, '');
+    }
+
+    // Twitter cards
+    for (const name of ['twitter:card', 'twitter:title', 'twitter:description', 'twitter:image']) {
+      const re = new RegExp(`<meta[^>]*name=["']${name}["'][^>]*content=["']([^"']*)["']`);
+      const m = cleanBodyHtml.match(re);
+      if (m) {
+        pageHtml = pageHtml.replace(new RegExp(`<meta\\s+name=["']${name}["'][^>]*\\/?>`, 'g'), '');
+        pageHtml = pageHtml.replace('</head>', `  <meta name="${name}" content="${m[1]}" />\n  </head>`);
+        cleanBodyHtml = cleanBodyHtml.replace(new RegExp(`<meta[^>]*name=["']${name}["'][^>]*\\/?>`, 'g'), '');
+      }
+    }
+
+    // hreflang alternates → <head>
+    const hreflangRe = /<link[^>]*rel=["']alternate["'][^>]*hrefLang=["']([^"']+)["'][^>]*href=["']([^"']+)["'][^>]*\/?>|<link[^>]*rel=["']alternate["'][^>]*href=["']([^"']+)["'][^>]*hrefLang=["']([^"']+)["'][^>]*\/?>/gi;
+    let hm;
+    const seenHl = new Set();
+    while ((hm = hreflangRe.exec(cleanBodyHtml))) {
+      const lang = hm[1] || hm[4];
+      const href = hm[2] || hm[3];
+      const key = `${lang}|${href}`;
+      if (seenHl.has(key)) continue;
+      seenHl.add(key);
+      pageHtml = pageHtml.replace('</head>', `  <link rel="alternate" hreflang="${lang}" href="${href}" />\n  </head>`);
+    }
+    cleanBodyHtml = cleanBodyHtml.replace(/<link[^>]*rel=["']alternate["'][^>]*\/?>/gi, '');
+
+    // Clean any remaining stray SEO tags from body
     cleanBodyHtml = cleanBodyHtml.replace(/<meta[^>]*property=["']og:type["'][^>]*\/?>/g, '');
     cleanBodyHtml = cleanBodyHtml.replace(/<meta[^>]*property=["']og:url["'][^>]*\/?>/g, '');
+    cleanBodyHtml = cleanBodyHtml.replace(/<meta[^>]*name=["']twitter:[^"']+["'][^>]*\/?>/g, '');
 
     // Strip out code-path attributes injected by debug tools
     cleanBodyHtml = cleanBodyHtml.replace(/\s*code-path="[^"]*"/g, '');

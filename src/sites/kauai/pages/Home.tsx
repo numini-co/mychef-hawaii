@@ -12,6 +12,7 @@ import { Seo, breadcrumbLd, faqLd, islandFoodServiceLd, serviceLd } from '@/plat
 import { GBP_DESKS } from '@/data/trust-proof';
 import SectionReveal from '@/components/SectionReveal';
 import FAQAccordion from '@/components/FAQAccordion';
+import { MultiIslandCrossSell } from '@/components/CrossHostSell';
 import FeeStack from '@/components/FeeStack';
 import TrustStrip from '@/components/TrustStrip';
 import { RateTable } from '@/components/RateTable';
@@ -588,6 +589,8 @@ export default function KauaiHome() {
       <div className="rule-t">
         <TrustStrip />
       </div>
+
+      <MultiIslandCrossSell />
 
       {/* FAQ Accordion */}
       <section className="section-pad bg-[#F0EBE1] rule-t">

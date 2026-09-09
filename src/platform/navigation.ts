@@ -1,41 +1,32 @@
+/**
+ * Cross-host island URLs — always absolute https so prerendered HTML carries
+ * crawlable equity between hub and flagships (re-audit §3.1).
+ */
 import { SITE_META } from './tokens';
 import type { SiteId } from './tokens';
 
-/**
- * Returns true if running in a browser on the live mychef-hawaii.com domain.
- */
 export function isLiveDomain(): boolean {
   if (typeof window === 'undefined') return false;
   return window.location.hostname.includes('mychef-hawaii.com');
 }
 
-/**
- * Returns the destination canonical URL or local route path for an island.
- * - On live domains: returns 'https://[subdomain].mychef-hawaii.com/' (or 'https://mychef-hawaii.com/' for hub).
- * - On local/preview environments: returns '/oahu', '/maui', etc. (or '/' for hub).
- */
+/** Absolute public URL for an island (or hub). Prefer this in footer / switcher hrefs. */
 export function getIslandHref(id: SiteId): string {
-  if (isLiveDomain()) {
-    if (id === 'hub') return 'https://mychef-hawaii.com/';
-    return `https://${id}.mychef-hawaii.com/`;
-  }
-  return id === 'hub' ? '/' : (SITE_META[id]?.basePath || '/');
+  if (id === 'hub') return 'https://mychef-hawaii.com/';
+  return `https://${id}.mychef-hawaii.com/`;
 }
 
-/**
- * Performs seamless navigation to an island site.
- * - On live domains: switches subdomains via window.location.href.
- * - On local/preview: uses SPA navigate() or fallbacks to path navigation.
- */
+/** Same-origin path for local SPA navigation on localhost / preview. */
+export function getIslandPath(id: SiteId): string {
+  return id === 'hub' ? '/' : SITE_META[id]?.basePath || '/';
+}
+
 export function navigateToIsland(id: SiteId, navigate?: (path: string) => void) {
   if (isLiveDomain()) {
     window.location.href = getIslandHref(id);
     return;
   }
-  const path = id === 'hub' ? '/' : (SITE_META[id]?.basePath || '/');
-  if (navigate) {
-    navigate(path);
-  } else if (typeof window !== 'undefined') {
-    window.location.href = path;
-  }
+  const path = getIslandPath(id);
+  if (navigate) navigate(path);
+  else if (typeof window !== 'undefined') window.location.href = path;
 }

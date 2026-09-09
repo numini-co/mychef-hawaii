@@ -11,11 +11,19 @@ import FAQAccordion from '@/components/FAQAccordion';
 import QuoteCTA from '@/components/QuoteCTA';
 import { RateTable } from '@/components/RateTable';
 import SectionReveal from '@/components/SectionReveal';
+import {
+  MultiIslandCrossSell,
+  SiblingGuideCrossSell,
+  WeddingMultiIslandCrossSell,
+} from '@/components/CrossHostSell';
 
-/** Resolve a content link against the current site base. */
+/** Resolve a content link against the current site base. Absolute URLs pass through. */
 export function useResolve() {
   const { link } = useSite();
-  return (href: string) => (href.startsWith('/') ? href : link(href));
+  return (href: string) => {
+    if (/^(https?:|mailto:|tel:)/i.test(href)) return href;
+    return href.startsWith('/') ? href : link(href);
+  };
 }
 
 /** Breadcrumb trail from the record's parent chain. */
@@ -134,13 +142,28 @@ export function SectionLinks({ section }: { section: ContentSection }) {
   if (!section.links?.length) return null;
   return (
     <ul className="mt-4 flex flex-wrap gap-x-6 gap-y-2">
-      {section.links.map((l) => (
-        <li key={l.href + l.label}>
-          <Link to={resolve(l.href)} className="link-site inline-flex min-h-11 items-center">
-            {l.label} →
-          </Link>
-        </li>
-      ))}
+      {section.links.map((l) => {
+        const href = resolve(l.href);
+        const external = /^(https?:|mailto:|tel:)/i.test(href);
+        return (
+          <li key={l.href + l.label}>
+            {external ? (
+              <a
+                href={href}
+                className="link-site inline-flex min-h-11 items-center"
+                target={href.startsWith('http') ? '_blank' : undefined}
+                rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
+              >
+                {l.label} →
+              </a>
+            ) : (
+              <Link to={href} className="link-site inline-flex min-h-11 items-center">
+                {l.label} →
+              </Link>
+            )}
+          </li>
+        );
+      })}
     </ul>
   );
 }
@@ -220,6 +243,17 @@ export function RelatedPages({ record }: { record: ContentRecord }) {
 
 /** Tail of every template: price table, FAQ, related pages, quote CTA. */
 export function PageTail({ record }: { record: ContentRecord }) {
+  const { siteId, isHub } = useSite();
+  const showMulti =
+    !isHub &&
+    (record.slug === '' ||
+      record.slug === 'quote' ||
+      record.category === 'core' ||
+      record.category === 'service');
+  const showWedding = !isHub && (record.slug === 'weddings' || record.slug.startsWith('weddings/'));
+  const showGuide = !isHub && (record.category === 'guide' || record.slug.startsWith('guides'));
+  const islandId = siteId === 'hub' ? null : siteId;
+
   return (
     <>
       {record.priceTable ? (
@@ -237,6 +271,9 @@ export function PageTail({ record }: { record: ContentRecord }) {
           <FAQAccordion items={record.faq} />
         </section>
       ) : null}
+      {showWedding ? <WeddingMultiIslandCrossSell /> : null}
+      {showGuide && islandId ? <SiblingGuideCrossSell siteId={islandId} /> : null}
+      {showMulti && !showWedding ? <MultiIslandCrossSell /> : null}
       <RelatedPages record={record} />
       <div className="mt-12 sm:mt-20">
         <QuoteCTA cta={record.cta} />

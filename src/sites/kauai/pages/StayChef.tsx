@@ -112,7 +112,7 @@ export default function KauaiStayChef() {
     <article>
       <Seo
         title="Stay Chef Kauaʻi — Private Chef for Your Whole Stay from $1,100/Day | myCHEF"
-        description="Private chef daily residency across Kauaʻi: Hanalei, Princeville, Poʻipū, and Kīlauea. From $1,100/day plus groceries at cost with receipts. 3, 5, 7, and 10+ day schedules."
+        description="Private chef daily residency across Kauaʻi: Hanalei, Princeville, Poʻipū, and Kīlauea. From $1,100/day plus groceries at cost with receipts."
         path={link('stay-chef')}
         ogImage="/img/kauai/hero-stay-chef.jpg"
         jsonLd={[

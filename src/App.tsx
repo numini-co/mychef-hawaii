@@ -17,12 +17,9 @@ function ScrollToTop() {
   return null;
 }
 
+/** Empty fallback — never ship "Loading…" into prerendered HTML for crawlers. */
 function RouteFallback() {
-  return (
-    <div className="bg-site min-h-[60vh] flex items-center justify-center" aria-busy="true">
-      <span className="text-ink-2 text-sm tracking-wide">Loading…</span>
-    </div>
-  );
+  return <div className="bg-site min-h-[40vh]" aria-busy="true" />;
 }
 
 /** Hub site shell — '/' tree. Home renders via the hub override registry. */

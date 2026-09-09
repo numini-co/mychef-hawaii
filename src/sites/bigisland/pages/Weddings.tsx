@@ -57,7 +57,7 @@ export default function BigIslandWeddings() {
     <>
       <Seo
         title="Big Island Wedding Catering — The Wedding Week, in Writing"
-        description="Big Island wedding catering from $150 a guest plus staffing: welcome dinner, rehearsal, reception, recovery brunch. 20% service on its own line — against resort minimums of $7,500–$15,000 at 23–25%."
+        description="Big Island wedding catering from $150 a guest plus staffing: welcome dinner, rehearsal, reception, recovery brunch."
         path="/bigisland/weddings"
         ogImage="/img/bigisland/hero-weddings.jpg"
         jsonLd={[faqLd(FAQ)]}

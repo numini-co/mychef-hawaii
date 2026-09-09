@@ -97,7 +97,7 @@ export default function OahuStayChef() {
     <>
       <Seo
         title="Stay Chef Oʻahu — Private Chef for Your Whole Stay from $850/Day | myCHEF"
-        description="Private chef daily residency across Oʻahu: Waikīkī, Ko Olina, Kahala, Kailua, and the North Shore. From $850/day plus groceries at cost with receipts. Breakfast, lunch, and coursed dinners."
+        description="Private chef daily residency across Oʻahu: Waikīkī, Ko Olina, Kahala, Kailua, and the North Shore. From $850/day plus groceries at cost with receipts."
         path="/oahu/stay-chef"
         ogImage="/img/oahu/stay-chef.jpg"
         jsonLd={[

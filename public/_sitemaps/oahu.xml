@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://oahu.mychef-hawaii.com/</loc>
     <lastmod>2026-09-09</lastmod>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oahu.mychef-hawaii.com/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oahu.mychef-hawaii.com/ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oahu.mychef-hawaii.com/" />
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/about</loc>
@@ -124,26 +127,41 @@
     <loc>https://oahu.mychef-hawaii.com/ja</loc>
     <lastmod>2026-09-09</lastmod>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oahu.mychef-hawaii.com/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oahu.mychef-hawaii.com/ja" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oahu.mychef-hawaii.com/" />
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/ja/omakase-at-home</loc>
     <lastmod>2026-09-09</lastmod>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oahu.mychef-hawaii.com/omakase-at-home" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oahu.mychef-hawaii.com/ja/omakase-at-home" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oahu.mychef-hawaii.com/omakase-at-home" />
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/ja/stay-chef</loc>
     <lastmod>2026-09-09</lastmod>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oahu.mychef-hawaii.com/stay-chef" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oahu.mychef-hawaii.com/ja/stay-chef" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oahu.mychef-hawaii.com/stay-chef" />
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/ja/waikiki-private-chef</loc>
     <lastmod>2026-09-09</lastmod>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oahu.mychef-hawaii.com/waikiki-private-chef" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oahu.mychef-hawaii.com/ja/waikiki-private-chef" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oahu.mychef-hawaii.com/waikiki-private-chef" />
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/ja/weddings</loc>
     <lastmod>2026-09-09</lastmod>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oahu.mychef-hawaii.com/weddings" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oahu.mychef-hawaii.com/ja/weddings" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oahu.mychef-hawaii.com/weddings" />
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/legal</loc>
@@ -554,6 +572,9 @@
     <loc>https://oahu.mychef-hawaii.com/stay-chef</loc>
     <lastmod>2026-09-09</lastmod>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oahu.mychef-hawaii.com/stay-chef" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oahu.mychef-hawaii.com/ja/stay-chef" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oahu.mychef-hawaii.com/stay-chef" />
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/trust</loc>
@@ -564,6 +585,9 @@
     <loc>https://oahu.mychef-hawaii.com/weddings</loc>
     <lastmod>2026-09-09</lastmod>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oahu.mychef-hawaii.com/weddings" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oahu.mychef-hawaii.com/ja/weddings" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oahu.mychef-hawaii.com/weddings" />
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/weddings/elopement</loc>

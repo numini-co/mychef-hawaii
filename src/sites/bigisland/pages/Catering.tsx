@@ -35,7 +35,7 @@ export default function BigIslandCatering() {
     <>
       <Seo
         title="Catering on the Big Island — Villa Weddings, Rehearsals, Estate Events"
-        description="Staffed catering for 10–75 guests on Hawaiʻi Island — villa weddings, rehearsal dinners, estate events. From $150 a guest with 20% service on its own line, against resort F&B minimums of $7,500–$15,000 at 23–25%."
+        description="Staffed catering for 10–75 guests on Hawaiʻi Island — villa weddings, rehearsal dinners, estate events."
         path="/bigisland/catering"
         ogImage="/img/bigisland/hero-catering.jpg"
         jsonLd={[serviceLd('Catering on the Big Island', 'Staffed catering for 10–75 guests — villa weddings, rehearsal dinners, estate events. From $150 a guest with 20% service on its own line.', '/bigisland/catering', 'Big Island'), faqLd(FAQ)]}

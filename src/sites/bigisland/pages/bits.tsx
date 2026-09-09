@@ -66,6 +66,8 @@ export function Panel({
       <img
         src={src}
         alt={alt}
+        width={1200}
+        height={1500}
         loading={eager ? 'eager' : 'lazy'}
         fetchPriority={eager ? 'high' : undefined}
         className="aspect-[4/5] w-full object-cover object-bottom md:aspect-[16/10]"
@@ -98,6 +100,8 @@ export function HeroPanel({
       <img
         src={src}
         alt={alt}
+        width={1920}
+        height={1080}
         loading="eager"
         fetchPriority="high"
         className="h-[100svh] max-h-none min-h-[520px] w-full object-cover object-center"

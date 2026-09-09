@@ -35,6 +35,7 @@ export function IslandProvider({ siteId, children }: { siteId: SiteId; children:
       world: meta.world,
       tokens: TOKENS[siteId],
       link: (slug: string) => {
+        if (/^(https?:|mailto:|tel:)/i.test(slug)) return slug;
         const clean = slug.replace(/^\//, '');
         const isSubdomain =
           typeof window !== 'undefined' &&

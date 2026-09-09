@@ -15,6 +15,7 @@ import FeeStack from '@/components/FeeStack';
 import SectionReveal from '@/components/SectionReveal';
 import { RateTable } from '@/components/RateTable';
 import FAQAccordion from '@/components/FAQAccordion';
+import { MultiIslandCrossSell } from '@/components/CrossHostSell';
 
 const H1 = 'A chef in your kitchen, from Waikīkī to the North Shore.';
 
@@ -253,7 +254,7 @@ export default function OahuHome() {
     <>
       <Seo
         title="Private Chef Oʻahu — from $125/guest | myCHEF"
-        description="Private chef and staffed catering across Oʻahu. Signature dinners $125–$190 a guest, groceries included. Stay Chef from $850 a day. The written quote is the confirmed total."
+        description="Private chef and staffed catering across Oʻahu. Signature dinners $125–$190 a guest, groceries included. Stay Chef from $850 a day."
         path="/oahu"
         ogImage="/img/oahu/hero-home.webp"
         jsonLd={[
@@ -294,6 +295,8 @@ export default function OahuHome() {
               <img
                 src="/img/oahu/hero-home.jpg"
                 alt="A chef’s hands plating a course at a stone island in a penthouse kitchen, the Honolulu city grid at blue hour through floor-to-ceiling glass"
+                width={1200}
+                height={900}
                 className="h-full w-full object-cover"
                 style={{ aspectRatio: '4/3' }}
                 fetchPriority="high"
@@ -542,6 +545,8 @@ export default function OahuHome() {
                 </div>
                 <div className="relative min-h-[280px]">
                   <img
+                width={1200}
+                height={800}
                     src="/img/oahu/stay-chef.jpg"
                     alt="A chef working a villa kitchen across a multi-day stay"
                     loading="lazy"
@@ -578,6 +583,8 @@ export default function OahuHome() {
           <SectionReveal className="mt-10">
             <figure className="card-site overflow-hidden">
               <img
+                width={1200}
+                height={800}
                 src="/img/oahu/corporate.jpg"
                 alt="A boardroom-style dinner plated in a Honolulu residence"
                 loading="lazy"
@@ -588,6 +595,8 @@ export default function OahuHome() {
           </SectionReveal>
         </div>
       </section>
+
+      <MultiIslandCrossSell />
 
       {/* S12 — Oʻahu FAQ */}
       <section className="section-pad rule-t bg-[#F7F5F0]">
@@ -672,6 +681,8 @@ export default function OahuHome() {
           <SectionReveal className="hidden md:col-span-5 md:block" delay={80}>
             <figure className="card-site overflow-hidden">
               <img
+                width={1200}
+                height={800}
                 src="/img/oahu/quote-kitchen.jpg"
                 alt="A quiet, immaculate modern kitchen with a chef’s mise en place arranged on a stone counter, evening city light through the window"
                 className="h-full w-full object-cover"

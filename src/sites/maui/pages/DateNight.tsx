@@ -78,7 +78,7 @@ export default function MauiDateNight() {
     <>
       <Seo
         title="Romantic Private Chef Dinner for Two Maui — Date Night & Proposals | myCHEF"
-        description="Private chef dinners for two across Maui: Wailea, Kapalua, Mākena, and Kāʻanapali. From $500 all-inclusive. Proposals, anniversaries, and honeymoon sunset dinners on your villa lānai."
+        description="Private chef dinners for two across Maui: Wailea, Kapalua, Mākena, and Kāʻanapali. From $500 all-inclusive."
         path={link('services/date-night')}
         ogImage="/img/maui/hero-date-night.jpg"
         jsonLd={[

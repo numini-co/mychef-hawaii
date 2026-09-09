@@ -57,7 +57,7 @@ export default function OahuCatering() {
     <>
       <Seo
         title="Catering on Oʻahu — Staffed Events for 10–75 Guests | myCHEF"
-        description="Staffed catering across Oʻahu for 10–75 guests: buffets, family-style, plated courses, pūpū and grazing, chef-attended stations. Servers $55/hr, published per-guest lines, written quotes."
+        description="Staffed catering across Oʻahu for 10–75 guests: buffets, family-style, plated courses, pūpū and grazing, chef-attended stations."
         path="/oahu/catering"
         ogImage="/img/oahu/hero-catering.jpg"
         jsonLd={[

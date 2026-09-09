@@ -76,7 +76,7 @@ export default function OahuCorporate() {
     <>
       <Seo
         title="Corporate Catering Honolulu — Executive Dinners, Retreats & Conventions | myCHEF"
-        description="Corporate catering across Oʻahu: executive dinners, convention receptions, corporate retreats, and film production catering for 10–75 guests. COIs handled, loading dock cleared, published pricing."
+        description="Corporate catering across Oʻahu: executive dinners, convention receptions, corporate retreats, and film production catering for 10–75 guests."
         path="/oahu/corporate"
         ogImage="/img/oahu/corporate.jpg"
         jsonLd={[

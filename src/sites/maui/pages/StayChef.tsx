@@ -100,7 +100,7 @@ export default function MauiStayChef() {
     <>
       <Seo
         title="Stay Chef Maui — Private Chef for Your Whole Stay from $1,050/Day | myCHEF"
-        description="Private chef daily residency across Maui: Wailea, Kapalua, Mākena, Kāʻanapali, and Upcountry. From $1,050/day plus groceries at cost with receipts. Breakfast, lunch, and sunset dinners."
+        description="Private chef daily residency across Maui: Wailea, Kapalua, Mākena, Kāʻanapali, and Upcountry. From $1,050/day plus groceries at cost with receipts."
         path={link('stay-chef')}
         ogImage="/img/maui/hero-stay-chef.jpg"
         jsonLd={[

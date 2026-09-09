@@ -43,7 +43,7 @@ export default function BigIslandPricing() {
     <>
       <Seo
         title="Private Chef Big Island Cost — The Rate Card"
-        description="The only full published private-chef rate card on Hawaiʻi Island: Entry from $110 under Signature, Signature $150–$225 a guest, Stay Chef from $950 a day, travel from $75, 20% service and GET on their own lines."
+        description="The only full published private-chef rate card on Hawaiʻi Island: Entry from $110 under Signature, Signature $150–$225 a guest, Stay Chef from $950 a day."
         path="/bigisland/pricing"
         ogImage="/img/bigisland/hero-pricing-ledger.jpg"
         jsonLd={[faqLd(FAQ)]}
