@@ -11,16 +11,20 @@ import SectionReveal from '@/components/SectionReveal';
 export default function LongformArticle({ record }: { record: ContentRecord }) {
   const { siteId, link } = useSite();
   const extra = expandRecord(record, siteId as SiteId);
-  const shots = bodyShots(record, siteId as SiteId, 9);
+  // Cap supporting shots so pages don't fill with large empty-looking image cards.
+  const shots = bodyShots(record, siteId as SiteId, 3);
   const resolve = (href: string) => (href.startsWith('/') ? href : link(href));
+  // Place images after every other section (and once before FAQ), not after every block.
+  const imageAfterSection = (i: number) => i % 2 === 1;
 
   return (
     <div className="longform-site mx-auto max-w-3xl px-4 sm:px-6">
       <div className="rule-t mt-12 space-y-10 pt-10 sm:mt-16 sm:space-y-12 sm:pt-14">
         {extra.sections.map((s, i) => {
-          const shot = shots[i];
+          const shotIndex = Math.floor(i / 2);
+          const shot = imageAfterSection(i) ? shots[shotIndex] : undefined;
           return (
-          <div key={s.id ?? s.heading ?? i} className="space-y-10 sm:space-y-12">
+          <div key={s.id ?? s.heading ?? i} className="space-y-8 sm:space-y-10">
             <SectionReveal as="section">
               {s.heading ? <h2 className="h2-site">{s.heading}</h2> : null}
               {s.body?.map((p) => (
@@ -60,7 +64,10 @@ export default function LongformArticle({ record }: { record: ContentRecord }) {
                     src={shot.src}
                     alt={shot.alt}
                     loading="lazy"
-                    className="h-64 w-full object-cover sm:h-80"
+                    decoding="async"
+                    width={1536}
+                    height={1024}
+                    className="aspect-[3/2] h-auto w-full object-cover max-h-56 sm:max-h-64"
                   />
                   <figcaption className="px-4 py-2.5 text-xs text-ink-2">
                     {shot.alt}
@@ -74,16 +81,19 @@ export default function LongformArticle({ record }: { record: ContentRecord }) {
       </div>
       {extra.faq.length ? (
         <section className="mt-12 sm:mt-16" aria-label="More questions">
-          {shots[extra.sections.length] ? (
+          {shots[2] ? (
             <figure className="mb-10 overflow-hidden rounded-[var(--site-card-radius)] border border-line-site bg-card-site shadow-[var(--site-card-shadow)]">
               <img
-                src={shots[extra.sections.length].src}
-                alt={shots[extra.sections.length].alt}
+                src={shots[2].src}
+                alt={shots[2].alt}
                 loading="lazy"
-                className="h-64 w-full object-cover sm:h-80"
+                decoding="async"
+                width={1536}
+                height={1024}
+                className="aspect-[3/2] h-auto w-full object-cover max-h-56 sm:max-h-64"
               />
               <figcaption className="px-4 py-2.5 text-xs text-ink-2">
-                {shots[extra.sections.length].alt}
+                {shots[2].alt}
               </figcaption>
             </figure>
           ) : null}
