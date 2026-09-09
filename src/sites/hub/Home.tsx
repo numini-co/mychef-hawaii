@@ -3,10 +3,11 @@
  * myCHEF Hawaii coordinates single-island private dining and
  * complex multi-island events across Oʻahu, Maui, Kauaʻi, and Big Island.
  */
-import { Link } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 import { Seo, organizationLd, foodServiceLd, faqLd } from '@/platform/seo';
 import { ISLAND_IDS, SITE_META } from '@/platform/tokens';
 import { CONTACT, TRUST_CLAIMS } from '@/platform/config';
+import { getIslandHref, navigateToIsland } from '@/platform/navigation';
 import IslandMark from '@/components/IslandMark';
 import FeeStack from '@/components/FeeStack';
 import SectionReveal from '@/components/SectionReveal';
@@ -246,6 +247,7 @@ const HOME_FAQ = [
 ];
 
 export default function HubHome() {
+  const navigate = useNavigate();
   return (
     <>
       <Seo
@@ -545,8 +547,12 @@ export default function HubHome() {
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {ISLAND_CARDS.map((c, i) => (
               <SectionReveal key={c.id} delay={i * 80}>
-                <Link
-                  to={SITE_META[c.id].basePath}
+                <a
+                  href={getIslandHref(c.id)}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    navigateToIsland(c.id, navigate);
+                  }}
                   className="card-site group flex h-full flex-col overflow-hidden no-underline"
                   style={{ color: 'inherit' }}
                 >
@@ -575,7 +581,7 @@ export default function HubHome() {
                       View {SITE_META[c.id].shortName} →
                     </p>
                   </div>
-                </Link>
+                </a>
               </SectionReveal>
             ))}
           </div>

@@ -1,6 +1,7 @@
 import { Link } from 'react-router';
 import { useSite } from '@/platform/IslandProvider';
 import { ISLAND_IDS, SITE_META } from '@/platform/tokens';
+import { getIslandHref } from '@/platform/navigation';
 import { IslandSwitcher } from './Navbar';
 import BrandLockup from './BrandLockup';
 
@@ -21,7 +22,7 @@ export default function Footer() {
               title="Islands"
               links={[
                 { label: 'Choose your island', to: '/islands' },
-                ...ISLAND_IDS.map((id) => ({ label: SITE_META[id].shortName, to: SITE_META[id].basePath })),
+                ...ISLAND_IDS.map((id) => ({ label: SITE_META[id].shortName, to: getIslandHref(id) })),
               ]}
             />
             <FooterCol
@@ -120,10 +121,10 @@ export default function Footer() {
             <FooterCol
               title="Network"
               links={[
-                { label: 'Statewide hub', to: '/' },
+                { label: 'Statewide hub', to: getIslandHref('hub') },
                 ...ISLAND_IDS.filter((id) => id !== siteId).map((id) => ({
                   label: SITE_META[id].shortName,
-                  to: SITE_META[id].basePath,
+                  to: getIslandHref(id),
                 })),
               ]}
             />
@@ -183,13 +184,22 @@ function FooterCol({ title, links }: { title: string; links: { label: string; to
     <nav aria-label={title}>
       <p className="eyebrow-site mb-4">{title}</p>
       <ul className="space-y-2 text-sm">
-        {links.map((l) => (
-          <li key={l.to + l.label}>
-            <Link to={l.to} className="link-site inline-flex min-h-11 items-center">
-              {l.label}
-            </Link>
-          </li>
-        ))}
+        {links.map((l) => {
+          const isExternal = l.to.startsWith('http://') || l.to.startsWith('https://');
+          return (
+            <li key={l.to + l.label}>
+              {isExternal ? (
+                <a href={l.to} className="link-site inline-flex min-h-11 items-center">
+                  {l.label}
+                </a>
+              ) : (
+                <Link to={l.to} className="link-site inline-flex min-h-11 items-center">
+                  {l.label}
+                </Link>
+              )}
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );
