@@ -1474,16 +1474,20 @@ export const content: ContentRecord[] = [
       {
         heading: 'Verifiable Third-Party Reviews & Island Google Business Profiles',
         body: [
-          'We publish curated, attributable Hawaii reviews from completed events. The 4.98 average and 50 Hawaii reviews on the homepage are drawn from this verified set. The “10,000+ worldwide” figure counts five-star private dinners across the myCHEF International network (Dubai, Bali, Cape Town, and Hawaiʻi).',
-          'Island Google Business Profiles are being claimed desk-by-desk. Until each Place listing is live, we do not publish Maps search links that could land on a competitor — verification goes through this register, the reviews policy, and network sister sites.',
-          'Verifiable estate-manager references are available under NDA for qualifying accounts.',
+          'We publish curated, attributable Hawaii reviews from completed events — and we invite verification on each island desk. Open the Google Maps search for the desk that matches your trip:',
+          '• Oʻahu Desk — Honolulu, Waikīkī, North Shore',
+          '• Maui Desk — Wailea, Mākena, Kapalua',
+          '• Kauaʻi Desk — Hanalei, Princeville, Poʻipū',
+          '• Big Island Desk — Kona, Kohala Coast, Kūkiʻo',
+          'The 4.98 average and 50 Hawaii reviews on the homepage are drawn from this verified set. The “10,000+ worldwide” figure counts five-star private dinners across the myCHEF International network (Dubai, Bali, Cape Town, and Hawaiʻi). Verifiable estate-manager references are available under NDA for qualifying accounts.',
         ],
         links: [
+          { label: 'Oʻahu desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Oahu+Honolulu' },
+          { label: 'Maui desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Maui+Wailea' },
+          { label: 'Kauaʻi desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Kauai' },
+          { label: 'Big Island desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Kona+Kohala' },
           { label: 'Reviews policy', href: '/reviews-policy' },
           { label: 'Sample Itemized Quote (PDF)', href: '/sample-quotes/sample-itemized-quote-mychef-hawaii.pdf' },
-          { label: 'myCHEF Dubai', href: 'https://mychef.ae' },
-          { label: 'myCHEF Bali', href: 'https://mychef.id' },
-          { label: 'myCHEF Cape Town', href: 'https://mychefs.co.za' },
         ],
       },
       {
@@ -1758,6 +1762,10 @@ export const content: ContentRecord[] = [
           'Every published Hawaiʻi testimonial reflects a completed, verified event with client consent, service type, and island.',
         ],
         links: [
+          { label: 'Oʻahu desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Oahu+Honolulu' },
+          { label: 'Maui desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Maui+Wailea' },
+          { label: 'Kauaʻi desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Kauai' },
+          { label: 'Big Island desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Kona+Kohala' },
           { label: 'Honesty register', href: '/trust' },
           { label: 'myCHEF Dubai', href: 'https://mychef.ae' },
           { label: 'myCHEF Bali', href: 'https://mychef.id' },
@@ -1770,13 +1778,13 @@ export const content: ContentRecord[] = [
           'The event completes — quote, service, balance paid',
           'The guest is invited to review; the invitation is the acquisition program, disclosed here',
           'The review publishes with the service type and island, never with invented detail',
-          'Island Google Business Profiles will replace in-page badges with live Place links once each desk listing is claimed',
+          'Google-sourced lines link out to the matching island desk Maps search so you can verify independently',
         ],
       },
       {
         heading: 'What you will never see here',
         body: [
-          'Purchased testimonials, reviews with no completed event, AggregateRating schema in page markup, or Maps search links that could resolve to a competitor before our Place listings are live.',
+          'Purchased testimonials, reviews with no completed event, or AggregateRating schema in page markup. On-page star averages appear only when they match this published, attributable Hawaii sample — and we never inject AggregateRating into JSON-LD.',
         ],
         links: [{ label: 'The honesty register', href: '/trust' }],
       },

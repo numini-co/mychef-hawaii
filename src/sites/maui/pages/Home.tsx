@@ -15,6 +15,7 @@ import { GBP_DESKS } from '@/data/trust-proof';
 import SectionReveal from '@/components/SectionReveal';
 import FAQAccordion from '@/components/FAQAccordion';
 import { MultiIslandCrossSell } from '@/components/CrossHostSell';
+import { TrustDeskLinks } from '@/components/TrustDeskLinks';
 import { RateTable } from '@/components/RateTable';
 import WeddingTimeline from './WeddingTimeline';
 import { ExperienceCard, MauiLink, MauiStyles, MAUI_FEE_NOTE } from './shared';
@@ -661,6 +662,7 @@ export default function MauiHome() {
         </ol>
       </section>
 
+      <TrustDeskLinks accentIsland="maui" className="mt-10 mb-4" />
       {/* Cross-host sell — multi-island hub */}
       <MultiIslandCrossSell />
 

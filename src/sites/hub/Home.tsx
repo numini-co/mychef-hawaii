@@ -24,7 +24,7 @@ import { ISLAND_IDS, SITE_META } from '@/platform/tokens';
 import { CONTACT } from '@/platform/config';
 import { getIslandHref, navigateToIsland } from '@/platform/navigation';
 import { REVIEWS_50, REVIEWS_SUMMARY } from '@/data/reviews';
-import { NETWORK_PROOF } from '@/data/trust-proof';
+import { GBP_DESKS, gbpForReviewSite, NETWORK_PROOF } from '@/data/trust-proof';
 import IslandMark from '@/components/IslandMark';
 import FeeStack from '@/components/FeeStack';
 import SectionReveal from '@/components/SectionReveal';
@@ -1354,16 +1354,18 @@ export default function HubHome() {
                     Google Business & Private Folio Verified
                   </p>
                   <ul className="flex flex-wrap gap-x-3 gap-y-1 text-[11px]">
-                    <li>
-                      <Link to="/reviews-policy" className="link-site font-medium">
-                        Reviews policy
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/trust" className="link-site font-medium">
-                        Honesty register
-                      </Link>
-                    </li>
+                    {(Object.values(GBP_DESKS) as (typeof GBP_DESKS)[keyof typeof GBP_DESKS][]).map((desk) => (
+                      <li key={desk.id}>
+                        <a
+                          href={desk.mapsUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="link-site font-medium"
+                        >
+                          {desk.label}
+                        </a>
+                      </li>
+                    ))}
                   </ul>
                   <p className="text-[11px] text-ink-2">
                     Worldwide record:{' '}
@@ -1444,12 +1446,14 @@ export default function HubHome() {
                     <div className="mt-2 flex items-center justify-between gap-2 text-[10px] text-ink-2/80">
                       <span>{t.date}</span>
                       {t.source === 'Google Verified Review' ? (
-                        <Link
-                          to="/reviews-policy"
+                        <a
+                          href={gbpForReviewSite(t.siteId).mapsUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="font-medium text-emerald-700 underline-offset-2 hover:underline"
                         >
                           {t.source}
-                        </Link>
+                        </a>
                       ) : (
                         <span className="font-medium text-emerald-700">{t.source}</span>
                       )}

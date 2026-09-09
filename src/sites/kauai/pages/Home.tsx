@@ -13,6 +13,7 @@ import { GBP_DESKS } from '@/data/trust-proof';
 import SectionReveal from '@/components/SectionReveal';
 import FAQAccordion from '@/components/FAQAccordion';
 import { MultiIslandCrossSell } from '@/components/CrossHostSell';
+import { TrustDeskLinks } from '@/components/TrustDeskLinks';
 import FeeStack from '@/components/FeeStack';
 import TrustStrip from '@/components/TrustStrip';
 import { RateTable } from '@/components/RateTable';
@@ -590,6 +591,7 @@ export default function KauaiHome() {
         <TrustStrip />
       </div>
 
+      <TrustDeskLinks accentIsland="kauai" className="mt-10 mb-4" />
       <MultiIslandCrossSell />
 
       {/* FAQ Accordion */}

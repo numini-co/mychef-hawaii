@@ -16,6 +16,7 @@ import {
   SiblingGuideCrossSell,
   WeddingMultiIslandCrossSell,
 } from '@/components/CrossHostSell';
+import { TrustDeskLinks } from '@/components/TrustDeskLinks';
 
 /** Resolve a content link against the current site base. Absolute URLs pass through. */
 export function useResolve() {
@@ -252,6 +253,7 @@ export function PageTail({ record }: { record: ContentRecord }) {
       record.category === 'service');
   const showWedding = !isHub && (record.slug === 'weddings' || record.slug.startsWith('weddings/'));
   const showGuide = !isHub && (record.category === 'guide' || record.slug.startsWith('guides'));
+  const showTrust = record.category === 'trust' || record.slug === 'trust' || record.slug === 'reviews-policy';
   const islandId = siteId === 'hub' ? null : siteId;
 
   return (
@@ -270,6 +272,9 @@ export function PageTail({ record }: { record: ContentRecord }) {
           <h2 className="h2-site mb-6">Questions, answered</h2>
           <FAQAccordion items={record.faq} />
         </section>
+      ) : null}
+      {showTrust ? (
+        <TrustDeskLinks accentIsland={islandId ?? undefined} className="mt-12" />
       ) : null}
       {showWedding ? <WeddingMultiIslandCrossSell /> : null}
       {showGuide && islandId ? <SiblingGuideCrossSell siteId={islandId} /> : null}

@@ -16,6 +16,7 @@ import SectionReveal from '@/components/SectionReveal';
 import { RateTable } from '@/components/RateTable';
 import FAQAccordion from '@/components/FAQAccordion';
 import { MultiIslandCrossSell } from '@/components/CrossHostSell';
+import { TrustDeskLinks } from '@/components/TrustDeskLinks';
 
 const H1 = 'A chef in your kitchen, from Waikīkī to the North Shore.';
 
@@ -596,6 +597,7 @@ export default function OahuHome() {
         </div>
       </section>
 
+      <TrustDeskLinks accentIsland="oahu" className="mt-10 mb-4" />
       <MultiIslandCrossSell />
 
       {/* S12 — Oʻahu FAQ */}

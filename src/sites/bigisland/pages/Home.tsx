@@ -12,6 +12,7 @@ import TrustStrip from '@/components/TrustStrip';
 import SectionReveal from '@/components/SectionReveal';
 import FAQAccordion from '@/components/FAQAccordion';
 import { MultiIslandCrossSell } from '@/components/CrossHostSell';
+import { TrustDeskLinks } from '@/components/TrustDeskLinks';
 import { BandQuote, CORRIDOR, EAST, LedgerRow, Mono, HeroPanel, Panel, RATE_ROWS } from './bits';
 
 const HOME_FAQ = [
@@ -576,6 +577,7 @@ export default function BigIslandHome() {
         </div>
       </section>
 
+      <TrustDeskLinks accentIsland="bigisland" className="mt-10 mb-4" />
       <MultiIslandCrossSell />
 
       {/* FAQ Accordion */}
