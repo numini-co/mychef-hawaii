@@ -12,9 +12,11 @@ export function categoryVoice(
 ): Record<string, string> {
   const cat = (brief?.category || record.category).toLowerCase();
   const slug = record.slug;
-  const note = brief?.notes
+  const note = brief?.notes && !/conversion door|indexed parameters|canonical/i.test(brief.notes)
     ? `Tailored private culinary service for ${place}: ${brief.notes.replace(/\.$/, '')}. Every course is cooked fresh on-site around your schedule and dietary requirements.`
-    : `Dedicated private chef and catering service across ${f.name}, tailored to your specific villa or estate kitchen.`;
+    : slug === 'quote'
+      ? `This is the written-quote door for ${f.name}. Tell us the table — island, service, dates, guests, and kitchen — and we reply with an itemized proposal. Nothing is booked and nothing is charged until you approve the numbers.`
+      : `Dedicated private chef and catering service across ${f.name}, tailored to your specific villa or estate kitchen.`;
 
   const legal = /REQUIRES LEGAL VERIFICATION/i.test(brief?.notes || slug)
     ? `Alcohol service, cancellation tiers, and Hawaiʻi General Excise Tax details are fully outlined on your written proposal.`

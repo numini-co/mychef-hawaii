@@ -18,6 +18,13 @@ import { useSite } from '@/platform/IslandProvider';
 import { Seo } from '@/platform/seo';
 import LongformArticle from '@/platform/longform/LongformArticle';
 import type { ContentRecord } from '@/platform/types';
+import {
+  computeQuoteEstimate,
+  datesAreValid,
+  formatEstimateRange,
+  minServiceDate,
+  uniqueSortedDates,
+} from './estimate';
 
 /* ---------------- data ---------------- */
 
@@ -154,12 +161,15 @@ interface QuoteState {
   name: string;
   contact: string;
   channel: 'whatsapp' | 'email' | '';
-  sent: '' | 'whatsapp' | 'email';
+  sent: '' | 'whatsapp' | 'email' | 'submitted';
+  leadId?: number;
 }
 
 const initialState = (island: SiteId | ''): QuoteState => ({
+  // Hub (multi-island) preselect stays on step 1 with island chosen;
+  // a concrete island skips to Service.
   step: island && island !== 'hub' ? 2 : 1,
-  island: island && island !== 'hub' ? island : '',
+  island: island || '',
   service: '',
   dates: [''],
   guests: 6,
@@ -175,7 +185,7 @@ const initialState = (island: SiteId | ''): QuoteState => ({
 });
 
 function formatDates(dates: string[]): string {
-  const filled = dates.map((d) => d.trim()).filter(Boolean);
+  const filled = uniqueSortedDates(dates);
   if (!filled.length) return '—';
   return filled.join(', ');
 }
@@ -192,16 +202,34 @@ function normalizeQuoteState(raw: Partial<QuoteState> & { date?: string }): Quot
     ...base,
     ...raw,
     dates: datesFromLegacy.length ? datesFromLegacy : [''],
+    sent: raw.sent === 'submitted' || raw.sent === 'whatsapp' || raw.sent === 'email' ? raw.sent : '',
   };
 }
 
-const STORAGE_KEY = 'mychef-quote';
+const STORAGE_KEY = 'mychef-quote-v2';
 
 function track(event: string, detail?: Record<string, unknown>) {
-  // Analytics contract (quote.md): quote_start, quote_step_complete{step},
-  // quote_handoff{channel}, quote_decline_path{kitchen}
   const dl = (window as unknown as { dataLayer?: unknown[] }).dataLayer;
   if (dl) dl.push({ event, ...detail });
+}
+
+async function postQuoteLead(body: Record<string, unknown>) {
+  const resp = await fetch('/api/quote', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+    keepalive: true,
+  });
+  const data = (await resp.json().catch(() => ({}))) as {
+    ok?: boolean;
+    id?: number;
+    replyHours?: string;
+    error?: string;
+  };
+  if (!resp.ok || !data.ok) {
+    throw new Error(data.error || `Quote submit failed (${resp.status})`);
+  }
+  return data;
 }
 
 /* ---------------- component ---------------- */
@@ -231,17 +259,23 @@ function arrivingInitialState(arrivingIsland: SiteId | ''): QuoteState {
   if (paramService) initial.service = paramService;
   if (!isNaN(paramGuests) && paramGuests >= 2) initial.guests = paramGuests;
   if (paramDates) {
-    initial.dates = paramDates
-      .split(/[,|]/)
-      .map((d) => d.trim())
-      .filter(Boolean);
+    initial.dates = uniqueSortedDates(
+      paramDates
+        .split(/[,|]/)
+        .map((d) => d.trim())
+        .filter(Boolean),
+    );
     if (!initial.dates.length) initial.dates = [''];
   }
   if (paramArea) initial.area = paramArea;
   if (paramDietary.length) initial.dietary = paramDietary;
   if (paramAddons.length) initial.addons = paramAddons;
 
-  if (effectiveIsland && initial.service) {
+  // Multi-island CTA: keep hub selected on step 1 so the customer sees it chosen.
+  if (isMulti) {
+    initial.island = 'hub';
+    initial.step = 1;
+  } else if (effectiveIsland && initial.service) {
     initial.step = 3;
   }
 
@@ -251,6 +285,9 @@ function arrivingInitialState(arrivingIsland: SiteId | ''): QuoteState {
 export default function QuoteFlow() {
   const { siteId, link } = useSite();
   const arrivingIsland = siteId !== 'hub' ? siteId : '';
+  const [restored, setRestored] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState('');
 
   const [s, setS] = useState<QuoteState>(() => {
     try {
@@ -258,10 +295,14 @@ export default function QuoteFlow() {
       if (urlHasPrefills) {
         return arrivingInitialState(arrivingIsland);
       }
-      const saved = sessionStorage.getItem(STORAGE_KEY);
+      const saved = localStorage.getItem(STORAGE_KEY) || sessionStorage.getItem(STORAGE_KEY);
       if (saved) {
         const parsed = JSON.parse(saved) as Partial<QuoteState> & { date?: string };
         const normalized = normalizeQuoteState(parsed);
+        if (normalized.sent === 'submitted') {
+          // Fresh brief after a completed send
+          return arrivingInitialState(arrivingIsland);
+        }
         return {
           ...normalized,
           island: normalized.island || arrivingIsland || normalized.island,
@@ -275,7 +316,18 @@ export default function QuoteFlow() {
 
   useEffect(() => {
     try {
-      sessionStorage.setItem(STORAGE_KEY, JSON.stringify(s));
+      const had = Boolean(localStorage.getItem(STORAGE_KEY) || sessionStorage.getItem(STORAGE_KEY));
+      if (had && s.step > 1 && !s.sent) setRestored(true);
+    } catch {
+      /* ignore */
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(s));
+      sessionStorage.removeItem('mychef-quote');
     } catch {
       /* private mode */
     }
@@ -286,6 +338,39 @@ export default function QuoteFlow() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // Abandoned-lead beacon when the guest has given contact details.
+  useEffect(() => {
+    const onLeave = () => {
+      if (s.sent === 'submitted') return;
+      if (!s.name.trim() || !s.contact.trim()) return;
+      const body = {
+        status: 'abandoned',
+        island: s.island,
+        service: s.service,
+        dates: uniqueSortedDates(s.dates),
+        guests: s.guests,
+        area: s.area,
+        kitchen: s.kitchen,
+        dietary: s.dietary,
+        occasion: s.occasion,
+        addons: s.addons,
+        name: s.name,
+        contact: s.contact,
+        channel: s.channel,
+        step: s.step,
+        sourcePath: typeof window !== 'undefined' ? window.location.pathname : '/quote',
+      };
+      try {
+        const blob = new Blob([JSON.stringify(body)], { type: 'application/json' });
+        navigator.sendBeacon?.('/api/quote', blob);
+      } catch {
+        /* ignore */
+      }
+    };
+    window.addEventListener('pagehide', onLeave);
+    return () => window.removeEventListener('pagehide', onLeave);
+  }, [s]);
+
   const set = (patch: Partial<QuoteState>) => setS((prev) => ({ ...prev, ...patch }));
   const island = (s.island || arrivingIsland || 'oahu') as SiteId;
 
@@ -295,18 +380,16 @@ export default function QuoteFlow() {
   };
 
   const stepValid = useMemo(() => {
-    const hasDate = s.dates.some((d) => d.trim().length > 0);
     switch (s.step) {
       case 1: return !!s.island;
       case 2: return !!s.service;
-      case 3: return hasDate && s.guests >= 2 && !!s.area;
+      case 3: return datesAreValid(s.dates) && s.guests >= 2 && !!s.area;
       case 4: return !!s.kitchen;
       case 5: return s.name.trim().length > 1 && s.contact.trim().length > 3 && !!s.channel;
       default: return true;
     }
   }, [s]);
 
-  /* The hub re-skin: from step 2 onward the chosen island's tokens apply. */
   const skinId: SiteId =
     siteId === 'hub' && s.island && s.island !== 'hub' && s.step >= 2 ? (s.island as SiteId) : siteId;
   const islandLabel = s.island === 'hub' ? 'Multi-island itinerary' : SITE_META[island]?.name ?? '—';
@@ -314,6 +397,19 @@ export default function QuoteFlow() {
 
   const area = AREAS[island]?.find((a) => a.label === s.area);
   const service = SERVICES.find((sv) => sv.id === s.service);
+
+  const estimate = useMemo(
+    () =>
+      computeQuoteEstimate({
+        island,
+        service: s.service,
+        guests: s.guests,
+        dates: s.dates,
+        addons: s.addons,
+        quoteOnlyArea: Boolean(area?.quoteOnly),
+      }),
+    [island, s.service, s.guests, s.dates, s.addons, area?.quoteOnly],
+  );
 
   const brief = useMemo(() => {
     const lines = [
@@ -327,12 +423,13 @@ export default function QuoteFlow() {
       `Dietary: ${s.dietary.length ? s.dietary.join(', ') : 'none flagged'}`,
       s.occasion ? `Occasion: ${s.occasion}` : '',
       s.addons.length ? `Add-ons: ${s.addons.join(', ')}` : '',
+      `Indicative range: ${formatEstimateRange(estimate)}`,
       `Name: ${s.name}`,
       `Reply via: ${s.channel} — ${s.contact}`,
       '(The written quote is the confirmed total; ranges are estimates only.)',
     ].filter(Boolean);
     return lines.join('\n');
-  }, [s, service, islandLabel]);
+  }, [s, service, islandLabel, estimate]);
 
   const whatsappHref = `https://wa.me/${CONTACT.whatsappNumber}?text=${encodeURIComponent(brief)}`;
   const mailtoHref = `mailto:${CONTACT.email}?subject=${encodeURIComponent(
@@ -347,6 +444,43 @@ export default function QuoteFlow() {
 
   const declineKitchen = s.kitchen === 'no';
 
+  const submitBrief = async () => {
+    setSubmitting(true);
+    setSubmitError('');
+    try {
+      const result = await postQuoteLead({
+        status: 'submitted',
+        island: s.island,
+        service: s.service,
+        dates: uniqueSortedDates(s.dates),
+        guests: s.guests,
+        area: s.area,
+        kitchen: s.kitchen,
+        dietary: s.dietary,
+        occasion: s.occasion,
+        addons: s.addons,
+        name: s.name,
+        contact: s.contact,
+        channel: s.channel,
+        brief,
+        estimate: formatEstimateRange(estimate),
+        sourcePath: typeof window !== 'undefined' ? window.location.pathname : '/quote',
+        step: 6,
+      });
+      track('quote_handoff', { channel: 'server', id: result.id });
+      set({ sent: 'submitted', leadId: result.id });
+      try {
+        localStorage.removeItem(STORAGE_KEY);
+      } catch {
+        /* ignore */
+      }
+    } catch (err) {
+      setSubmitError(err instanceof Error ? err.message : 'Could not submit the brief');
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
   return (
     <div className="section-pad" style={skinVars}>
       <Seo
@@ -358,6 +492,31 @@ export default function QuoteFlow() {
         <p className="eyebrow-site">The quote desk</p>
         <h1 className="h1-site mt-3">Tell us about the table.</h1>
         <p className="mt-4 text-ink-2">The button is not “Book now.” You get a written quote.</p>
+
+        {restored ? (
+          <div
+            role="status"
+            className="mt-5 rounded-[var(--site-card-radius)] border border-accent-site/40 bg-accent-site/10 px-4 py-3 text-sm text-ink"
+          >
+            Welcome back — your {islandLabel !== '—' ? `${islandLabel} ` : ''}brief is still here. Continue where you left off, or{' '}
+            <button
+              type="button"
+              className="font-medium underline underline-offset-2"
+              onClick={() => {
+                setS(arrivingInitialState(arrivingIsland));
+                setRestored(false);
+                try {
+                  localStorage.removeItem(STORAGE_KEY);
+                } catch {
+                  /* ignore */
+                }
+              }}
+            >
+              start fresh
+            </button>
+            .
+          </div>
+        ) : null}
 
         {/* Progress */}
         <nav aria-label="Quote progress" className="mt-8">
@@ -413,11 +572,14 @@ export default function QuoteFlow() {
               s={s}
               set={set}
               island={island}
-              area={area}
               service={service}
               indicative={indicative}
+              estimate={estimate}
               whatsappHref={whatsappHref}
               mailtoHref={mailtoHref}
+              submitting={submitting}
+              submitError={submitError}
+              onSubmit={submitBrief}
             />
           )}
 
@@ -541,6 +703,7 @@ function StepService({ s, set, island }: StepProps & { island: SiteId }) {
 }
 
 function StepDateGuests({ s, set, island, area }: StepProps & { island: SiteId; area?: AreaOption }) {
+  const minDate = minServiceDate();
   const updateDate = (index: number, value: string) => {
     const next = [...s.dates];
     next[index] = value;
@@ -558,6 +721,10 @@ function StepDateGuests({ s, set, island, area }: StepProps & { island: SiteId; 
     set({ dates: s.dates.filter((_, i) => i !== index) });
   };
 
+  const filled = s.dates.map((d) => d.trim()).filter(Boolean);
+  const hasDuplicate = filled.length !== new Set(filled).size;
+  const hasPast = filled.some((d) => d < minDate);
+
   return (
     <fieldset>
       <legend className="font-display text-2xl">When, and how many?</legend>
@@ -565,7 +732,7 @@ function StepDateGuests({ s, set, island, area }: StepProps & { island: SiteId; 
         <div>
           <div className="mb-2 flex items-end justify-between gap-3">
             <label className="eyebrow-site !mb-0 block">Service date(s)</label>
-            <span className="text-xs text-ink-2">{s.dates.filter((d) => d).length || 0} selected</span>
+            <span className="text-xs text-ink-2">{uniqueSortedDates(s.dates).length} selected</span>
           </div>
           <div className="space-y-3">
             {s.dates.map((date, index) => (
@@ -573,6 +740,7 @@ function StepDateGuests({ s, set, island, area }: StepProps & { island: SiteId; 
                 <input
                   id={index === 0 ? 'q-date' : `q-date-${index}`}
                   type="date"
+                  min={minDate}
                   className="input-site flex-1"
                   value={date}
                   onChange={(e) => updateDate(index, e.target.value)}
@@ -581,17 +749,27 @@ function StepDateGuests({ s, set, island, area }: StepProps & { island: SiteId; 
                 {s.dates.length > 1 ? (
                   <button
                     type="button"
-                    className="inline-flex h-11 w-11 shrink-0 items-center justify-center border border-line-site text-lg text-ink-2 hover:border-accent-site hover:text-ink"
+                    className="inline-flex h-11 shrink-0 items-center justify-center gap-1 border border-line-site px-3 text-sm font-medium text-ink-2 hover:border-accent-site hover:text-ink"
                     style={{ borderRadius: 'var(--site-cta-radius)' }}
                     aria-label={`Remove date ${index + 1}`}
                     onClick={() => removeDate(index)}
                   >
-                    ×
+                    Remove
                   </button>
                 ) : null}
               </div>
             ))}
           </div>
+          {hasPast ? (
+            <p className="mt-2 text-sm text-red-700" role="alert">
+              Dates need at least 48 hours’ notice — choose {minDate} or later.
+            </p>
+          ) : null}
+          {hasDuplicate ? (
+            <p className="mt-2 text-sm text-red-700" role="alert">
+              Each date can only appear once. Remove the duplicate to continue.
+            </p>
+          ) : null}
           <div className="mt-3 flex flex-wrap items-center gap-3">
             <button
               type="button"
@@ -601,9 +779,9 @@ function StepDateGuests({ s, set, island, area }: StepProps & { island: SiteId; 
             >
               + Add another date
             </button>
-            <p className="text-sm text-ink-2">Stay Chef, wedding weeks, and multi-meal trips can list several evenings.</p>
+            <p className="text-sm text-ink-2">Stay Chef, wedding weeks, and multi-meal trips can list several evenings (max 8).</p>
           </div>
-          <p className="mt-2 text-sm text-ink-2">December–March and holiday weeks book first.</p>
+          <p className="mt-2 text-sm text-ink-2">December–March and holiday weeks book first. Minimum notice: 48 hours.</p>
         </div>
 
         <div>
@@ -792,30 +970,57 @@ function StepReview({
   s,
   set,
   island,
-  area,
   service,
   indicative,
+  estimate,
   whatsappHref,
   mailtoHref,
+  submitting,
+  submitError,
+  onSubmit,
 }: {
   s: QuoteState;
   set: (patch: Partial<QuoteState>) => void;
   island: SiteId;
-  area?: AreaOption;
   service?: ServiceOption;
   indicative: string | null;
+  estimate: ReturnType<typeof computeQuoteEstimate>;
   whatsappHref: string;
   mailtoHref: string;
+  submitting: boolean;
+  submitError: string;
+  onSubmit: () => void;
 }) {
-  if (s.sent) {
+  if (s.sent === 'submitted' || s.sent === 'whatsapp' || s.sent === 'email') {
     return (
       <div role="status">
         <p className="font-display text-2xl">
-          Your brief is with the {island === 'hub' ? 'statewide' : SITE_META[island].name} desk.
+          Brief received — the {island === 'hub' ? 'statewide' : SITE_META[island].name} desk replies within 4–24 business hours.
         </p>
         <p className="mt-4 text-ink-2">
-          The written quote you receive is the confirmed total. A 50% deposit locks the date — only after
-          you’ve seen the numbers.
+          Nothing is booked yet; nothing is charged. The written quote you receive is the confirmed total. A 50% deposit
+          locks the date — only after you’ve seen the numbers.
+        </p>
+        <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+          <a
+            href={whatsappHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-site w-full sm:w-auto"
+            onClick={() => track('quote_handoff', { channel: 'whatsapp', after: 'submit' })}
+          >
+            Also send via WhatsApp ({CONTACT.whatsappDisplay})
+          </a>
+          <a
+            href={mailtoHref}
+            className="cta-secondary-site"
+            onClick={() => track('quote_handoff', { channel: 'email', after: 'submit' })}
+          >
+            Also open in email →
+          </a>
+        </div>
+        <p className="mt-3 text-xs text-ink-2">
+          WhatsApp and email are optional accelerators — your brief is already with the desk.
         </p>
       </div>
     );
@@ -846,48 +1051,58 @@ function StepReview({
         ))}
       </dl>
 
-      <div className="rule-y mt-6 py-4">
-        {area?.quoteOnly ? (
+      <div className="rule-y mt-6 space-y-2 py-4">
+        {estimate.quoteOnly ? (
           <p className="text-sm text-ink-2">
-            <span className="font-medium text-ink">Quoted at inquiry.</span> {area.quoteOnly}
-          </p>
-        ) : indicative ? (
-          <p className="text-sm">
-            Indicative range: <span className="tabular-site font-medium">{indicative}</span>{' '}
-            <span className="text-ink-2">— ESTIMATE ONLY. The written quote is the confirmed total.</span>
+            <span className="font-medium text-ink">Quoted at inquiry.</span> {estimate.note}
           </p>
         ) : (
-          <p className="text-sm text-ink-2">Priced per event — the written quote carries the numbers.</p>
+          <>
+            <p className="text-sm">
+              Estimated all-in:{' '}
+              <span className="tabular-site font-display text-xl font-medium text-ink">
+                {formatEstimateRange(estimate)}
+              </span>
+            </p>
+            <p className="text-xs text-ink-2 leading-relaxed">{estimate.note}</p>
+            {indicative ? (
+              <p className="text-xs text-ink-2">Published band reference: {indicative}.</p>
+            ) : null}
+          </>
         )}
       </div>
 
+      {submitError ? (
+        <p className="mt-4 text-sm text-red-700" role="alert">
+          {submitError} — you can still use WhatsApp ({CONTACT.whatsappDisplay}) as a backup.
+        </p>
+      ) : null}
+
       <div className="mt-6 flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
+        <button
+          type="button"
+          className="cta-site w-full sm:w-auto"
+          disabled={submitting}
+          onClick={onSubmit}
+        >
+          {submitting ? 'Sending brief…' : 'Submit brief to the desk'}
+        </button>
         <a
           href={whatsappHref}
           target="_blank"
           rel="noopener noreferrer"
-          className="cta-site w-full sm:w-auto"
+          className="cta-secondary-site"
           onClick={() => {
-            track('quote_handoff', { channel: 'whatsapp' });
+            track('quote_handoff', { channel: 'whatsapp', before_submit: true });
             set({ sent: 'whatsapp' });
           }}
         >
-          Send via WhatsApp
-        </a>
-        <a
-          href={mailtoHref}
-          className="cta-secondary-site"
-          onClick={() => {
-            track('quote_handoff', { channel: 'email' });
-            set({ sent: 'email' });
-          }}
-        >
-          Send by email →
+          Or WhatsApp now →
         </a>
       </div>
       <p className="mt-4 text-sm text-ink-2">
-        Both doors send the same structured brief to the {island === 'hub' ? 'statewide' : SITE_META[island].name} desk. Nothing is booked yet;
-        nothing is charged.
+        Submitting logs your brief with the {island === 'hub' ? 'statewide' : SITE_META[island].name} desk even if you never open WhatsApp.
+        Nothing is booked yet; nothing is charged.
       </p>
     </div>
   );

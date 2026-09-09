@@ -109,6 +109,7 @@ const NAMED: Record<string, string> = {
   'cost-by-island': 'cost by island',
   'travel-zones': 'travel zones',
   estimate: 'the price estimate',
+  quote: 'the written quote desk',
   'private-chef-vs-restaurant': 'private chef versus restaurant',
   'private-vs-personal-chef': 'private versus personal chef',
   'mychef-vs-marketplaces': 'myCHEF versus marketplaces',

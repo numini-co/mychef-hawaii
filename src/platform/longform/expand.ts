@@ -67,13 +67,65 @@ export function authoredWords(record: ContentRecord): number {
  */
 export function expandRecord(record: ContentRecord, siteId: SiteId): Longform {
   const f = islandOf(siteId);
-  const place = record.slug === '' ? f.name : placeFromSlug(record.slug);
+  // Quote pages must never title-case the slug into "Quote" as a place name.
+  const place =
+    record.slug === 'quote'
+      ? 'the written quote'
+      : record.slug === ''
+        ? f.name
+        : placeFromSlug(record.slug);
   const kw = keyword(record, siteId);
   const brief = briefOf(siteId, record.slug);
   const travel = travelNote(record.slug, f.english);
   const voice = categoryVoice(record, place, kw, f, brief);
   const low = siteId === 'hub' ? 125 : siteId === 'oahu' ? 125 : 150;
   const high = siteId === 'oahu' ? 190 : siteId === 'bigisland' ? 225 : siteId === 'hub' ? 250 : 250;
+
+  if (record.slug === 'quote') {
+    return {
+      sections: [
+        {
+          id: 'lf-quote-how',
+          heading: 'How the written quote works',
+          body: [
+            'Six calm steps: island, service, dates and guests, kitchen details, how to reach you, then review. You submit the brief to the island desk first — WhatsApp and email are optional accelerators after that.',
+            `Signature dinners on ${f.name} run ${f.coreBand} a guest (groceries included). Stay Chef from $${f.stayChef}/day with groceries at cost. ${FEE.service}; ${FEE.get}. The written quote is the confirmed total.`,
+          ],
+          list: [
+            'Submit the brief — we log it even if you never open WhatsApp',
+            'Receive an itemized written quote before any deposit',
+            'A 50% deposit locks the date only after you approve the numbers',
+            'Your chef shops that morning, cooks in your kitchen, serves, and leaves it clean',
+          ],
+        },
+        {
+          id: 'lf-quote-kitchen',
+          heading: 'The kitchen rule, stated once',
+          body: [
+            'A coffee maker is not a kitchen. No stove, oven, and usable counter — we decline hotel rooms and offer a dining-room booking, a venue kitchen, or a drop-off where the island allows it.',
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: `How much does a private chef cost on ${f.name}?`,
+          a: `Signature is ${f.coreBand} a guest (groceries included), Stay Chef from $${f.stayChef} a day, Date Night ${f.dateNight}. ${FEE.service} and ${FEE.get} are their own lines. The written quote is the confirmed total.`,
+        },
+        {
+          q: 'Is the written quote the final price?',
+          a: 'Yes. Menu, staffing, travel, 20% service charge, and GET are itemized. A 50% deposit locks the date only after you have seen it. Gratuity stays voluntary.',
+        },
+        {
+          q: 'Can you cook without a full kitchen?',
+          a: 'No. We decline hotel rooms without kitchens. Send photos at inquiry and we will say yes or no before you spend time on a menu.',
+        },
+        {
+          q: 'How fast does the desk reply?',
+          a: 'Most briefs receive a written reply within 4–24 business hours. Peak December–March weeks may take longer; holiday weeks book first.',
+        },
+      ],
+    };
+  }
 
   if (record.slug.startsWith('ja')) {
     const extra = expandJapanese(record, place, kw, f, brief);
