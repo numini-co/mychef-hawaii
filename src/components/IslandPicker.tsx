@@ -1,9 +1,9 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { createPortal } from 'react-dom';
 import { useNavigate } from 'react-router';
 import { Check, ChevronDown, X } from 'lucide-react';
 import { useSite } from '@/platform/IslandProvider';
-import { SITE_META } from '@/platform/tokens';
+import { SITE_META, TOKENS, tokensToCssVars } from '@/platform/tokens';
 import type { SiteId } from '@/platform/tokens';
 import { RATES } from '@/platform/config';
 import { getIslandHref, navigateToIsland } from '@/platform/navigation';
@@ -54,6 +54,9 @@ export default function IslandPicker() {
   const [open, setOpen] = useState(false);
   const wrap = useRef<HTMLDivElement | null>(null);
   const button = useRef<HTMLButtonElement | null>(null);
+  // Portal renders on document.body (outside .site-shell), so re-apply site tokens
+  // or --site-surface / ink colors resolve to nothing and the sheet stays transparent.
+  const portalVars = tokensToCssVars(TOKENS[siteId]) as CSSProperties;
 
   useEffect(() => {
     if (!open) return;
@@ -73,7 +76,7 @@ export default function IslandPicker() {
 
   const modalContent = open && typeof document !== 'undefined' ? (
     createPortal(
-      <>
+      <div style={portalVars}>
         {/* Backdrop: dims page and closes dialog on mobile & desktop */}
         <div
           className="fixed inset-0 z-[100] bg-black/60 backdrop-blur-xs transition-opacity animate-in fade-in duration-200"
@@ -86,8 +89,10 @@ export default function IslandPicker() {
           role="dialog"
           aria-modal="true"
           aria-label="Choose an island site"
-          className="fixed inset-x-0 bottom-0 z-[101] max-h-[85dvh] overflow-y-auto rounded-t-3xl border-t border-line-site bg-surface-site p-4 pb-8 shadow-2xl transition-all animate-in slide-in-from-bottom duration-200 sm:bottom-auto sm:left-1/2 sm:top-24 sm:-translate-x-1/2 sm:max-h-[36rem] sm:w-[440px] sm:rounded-2xl sm:border sm:p-3 sm:pb-3"
+          className="fixed inset-x-0 bottom-0 z-[101] max-h-[85dvh] overflow-y-auto rounded-t-3xl border border-line-site bg-card-site p-4 pb-8 text-ink shadow-2xl transition-all animate-in slide-in-from-bottom duration-200 sm:bottom-auto sm:left-1/2 sm:top-24 sm:-translate-x-1/2 sm:max-h-[36rem] sm:w-[440px] sm:rounded-2xl sm:p-3 sm:pb-3"
           style={{
+            backgroundColor: 'var(--site-card, #F7F5F0)',
+            color: 'var(--site-ink, #23201A)',
             paddingBottom: 'max(1.5rem, calc(env(safe-area-inset-bottom, 0px) + 1rem))',
           }}
         >
@@ -159,7 +164,7 @@ export default function IslandPicker() {
             })}
           </div>
         </div>
-      </>,
+      </div>,
       document.body,
     )
   ) : null;
