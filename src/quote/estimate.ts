@@ -1,5 +1,5 @@
 import type { SiteId } from '@/platform/tokens';
-import { RATES } from '@/platform/config';
+import { formatMoney, RATES } from '@/platform/config';
 
 const GET_RATE = 0.04712;
 const SERVICE_RATE = 0.2;
@@ -49,7 +49,7 @@ export interface QuoteEstimate {
 }
 
 function money(n: number): string {
-  return `$${Math.round(n).toLocaleString('en-US')}`;
+  return formatMoney(n);
 }
 
 export function formatEstimateRange(est: QuoteEstimate): string {

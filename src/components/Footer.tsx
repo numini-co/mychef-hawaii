@@ -1,6 +1,7 @@
 import { Link } from 'react-router';
 import { Globe, Sparkles, Building2, Palmtree, Mountain } from 'lucide-react';
 import { useSite } from '@/platform/IslandProvider';
+import { CONTACT } from '@/platform/config';
 import { ISLAND_IDS, SITE_META } from '@/platform/tokens';
 import { getIslandHref } from '@/platform/navigation';
 import { IslandSwitcher } from './Navbar';
@@ -56,13 +57,36 @@ export default function Footer() {
               ]}
             />
           </div>
-          <div className="rule-t mt-12 pt-6">
+          <div className="rule-t mt-12 flex flex-col gap-4 pt-6 sm:flex-row sm:items-end sm:justify-between">
             <IslandSwitcher />
+            <p className="text-sm text-ink-2">
+              <a className="link-site" href={`mailto:${CONTACT.email}`}>
+                {CONTACT.email}
+              </a>
+              <span className="mx-2 text-ink-2/50" aria-hidden="true">
+                ·
+              </span>
+              <a className="link-site" href={`tel:+${CONTACT.whatsappNumber}`}>
+                {CONTACT.phoneDisplay}
+              </a>
+              <span className="mx-2 text-ink-2/50" aria-hidden="true">
+                ·
+              </span>
+              <a
+                className="link-site"
+                href={`https://wa.me/${CONTACT.whatsappNumber}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                WhatsApp {CONTACT.whatsappDisplay}
+              </a>
+            </p>
           </div>
           <GroupNetwork />
           <p className="mt-4 text-xs text-ink-2">
             20% service charge and Hawaiʻi GET up to 4.7120% always appear on their own lines. The written quote is the confirmed total.
           </p>
+          <FooterLegal />
         </div>
       </footer>
     );
@@ -132,9 +156,32 @@ export default function Footer() {
           )}
         </div>
         <GroupNetwork />
+        <p className="mt-6 text-sm text-ink-2">
+          <a className="link-site" href={`mailto:${CONTACT.email}`}>
+            {CONTACT.email}
+          </a>
+          <span className="mx-2 text-ink-2/50" aria-hidden="true">
+            ·
+          </span>
+          <a className="link-site" href={`tel:+${CONTACT.whatsappNumber}`}>
+            {CONTACT.phoneDisplay}
+          </a>
+          <span className="mx-2 text-ink-2/50" aria-hidden="true">
+            ·
+          </span>
+          <a
+            className="link-site"
+            href={`https://wa.me/${CONTACT.whatsappNumber}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            WhatsApp {CONTACT.whatsappDisplay}
+          </a>
+        </p>
         <p className={`rule-t mt-12 pt-6 text-xs text-ink-2 ${siteId === 'bigisland' ? 'font-accent-site' : ''}`}>
           20% service charge and Hawaiʻi GET up to 4.7120% always appear on their own lines. The written quote is the confirmed total.
         </p>
+        <FooterLegal />
       </div>
     </footer>
   );
@@ -156,7 +203,7 @@ function GroupNetwork() {
       </div>
       <p className="measure-site text-sm text-ink-2">
         Hawaiʻi is one kitchen in an international private culinary group. Dubai, Bali, Cape Town, and Hawaiʻi operate to the same
-        rigorous Michelin-caliber chef vetting and transparent published-price standard, sharing global techniques, seasonal sourcing, and discrete hospitality standards.
+        rigorous Michelin-caliber chef vetting and transparent published-price standard, sharing global techniques, seasonal sourcing, and discreet hospitality standards.
       </p>
       <ul className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm">
         <li>
@@ -202,6 +249,37 @@ function GroupNetwork() {
         </li>
       </ul>
     </section>
+  );
+}
+
+function FooterLegal() {
+  const year = new Date().getFullYear();
+  const hubRaw = getIslandHref('hub');
+  const hubBase = hubRaw === '/' ? '' : hubRaw.replace(/\/$/, '');
+  const hubPath = (slug: string) => (hubBase ? `${hubBase}/${slug}` : `/${slug}`);
+  return (
+    <div className="rule-t mt-8 flex flex-col gap-3 pt-6 text-xs text-ink-2 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
+      <p>
+        © {year} myCHEF Hawaii LLC · Hawaiʻi GET License GE-214-892-7488-01
+      </p>
+      <nav aria-label="Legal" className="flex flex-wrap gap-x-4 gap-y-2">
+        <a href={hubPath('legal')} className="link-site">
+          Booking Terms
+        </a>
+        <a href={hubPath('reviews-policy')} className="link-site">
+          Reviews Policy
+        </a>
+        <a href={hubPath('trust')} className="link-site">
+          Honesty Register
+        </a>
+        <a href={hubPath('contact')} className="link-site">
+          Contact
+        </a>
+        <a className="link-site" href={`mailto:${CONTACT.partnershipsEmail}`}>
+          {CONTACT.partnershipsEmail}
+        </a>
+      </nav>
+    </div>
   );
 }
 

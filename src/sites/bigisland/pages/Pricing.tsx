@@ -43,7 +43,7 @@ export default function BigIslandPricing() {
     <>
       <Seo
         title="Private Chef Big Island Cost — The Rate Card"
-        description="The only full published private-chef rate card on Hawaiʻi Island: ENTRY from $110, CORE $150–$225 a guest, Stay Chef from $950 a day, travel from $75, 20% service and GET on their own lines."
+        description="The only full published private-chef rate card on Hawaiʻi Island: Entry from $110 under Signature, Signature $150–$225 a guest, Stay Chef from $950 a day, travel from $75, 20% service and GET on their own lines."
         path="/bigisland/pricing"
         ogImage="/img/bigisland/hero-pricing-ledger.jpg"
         jsonLd={[faqLd(FAQ)]}
@@ -88,7 +88,7 @@ export default function BigIslandPricing() {
             {MATH.map((m) => (
               <div key={m.guests} className="rule-t grid grid-cols-2 items-baseline gap-4 py-4 font-accent-site text-[12px] uppercase tracking-[0.14em] md:grid-cols-4">
                 <span>{m.guests}</span>
-                <span>CORE {m.core}</span>
+                <span>SIGNATURE {m.core}</span>
                 <span className="text-ink-2">ENTRY {m.entry}</span>
                 <span className="text-[11px] normal-case tracking-normal text-ink-2">{m.note}</span>
               </div>
@@ -142,7 +142,7 @@ export default function BigIslandPricing() {
           <div className="rule-t mt-16 pt-8">
             <Mono className="text-[11px] text-ink-2">ESTIMATE ONLY — THE WRITTEN QUOTE IS THE CONFIRMED TOTAL</Mono>
             <p className="mt-4 max-w-xl text-[15px] text-ink-2">
-              Run your own arithmetic on the card, or send the five fields and get the number in writing.
+              Run your own arithmetic on the card, or send the six steps and get the number in writing.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-6">
               <Link to={link('pricing/estimate')} className="cta-site">

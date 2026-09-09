@@ -5,6 +5,7 @@ import { ISLAND_IDS } from '@/platform/tokens';
 import type { IslandId } from '@/platform/tokens';
 import { LAZY_SITES } from '@/platform/sites';
 import Layout from '@/components/Layout';
+import NotFound from '@/components/NotFound';
 
 const QuoteFlow = lazy(() => import('@/quote/QuoteFlow'));
 
@@ -55,6 +56,17 @@ function IslandShell({ siteId }: { siteId: IslandId }) {
   );
 }
 
+function CrossIslandBlock({ siteId }: { siteId: IslandId }) {
+  const { pathname } = useLocation();
+  return (
+    <IslandProvider siteId={siteId}>
+      <Layout>
+        <NotFound path={pathname} />
+      </Layout>
+    </IslandProvider>
+  );
+}
+
 function getSubdomainIsland(): IslandId | null {
   if (typeof window === 'undefined') return null;
   const host = window.location.hostname.toLowerCase();
@@ -74,6 +86,9 @@ export default function App() {
       <Routes>
         {subdomain ? (
           <>
+            {ISLAND_IDS.filter((id) => id !== subdomain).map((id) => (
+              <Route key={id} path={`/${id}/*`} element={<CrossIslandBlock siteId={subdomain} />} />
+            ))}
             <Route path={`/${subdomain}/*`} element={<IslandShell siteId={subdomain} />} />
             <Route path="/*" element={<IslandShell siteId={subdomain} />} />
           </>

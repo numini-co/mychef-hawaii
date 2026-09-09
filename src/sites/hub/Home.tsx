@@ -24,6 +24,7 @@ import { ISLAND_IDS, SITE_META } from '@/platform/tokens';
 import { CONTACT } from '@/platform/config';
 import { getIslandHref, navigateToIsland } from '@/platform/navigation';
 import { REVIEWS_50, REVIEWS_SUMMARY } from '@/data/reviews';
+import { GBP_DESKS, gbpForReviewSite, NETWORK_PROOF } from '@/data/trust-proof';
 import IslandMark from '@/components/IslandMark';
 import FeeStack from '@/components/FeeStack';
 import SectionReveal from '@/components/SectionReveal';
@@ -84,7 +85,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Memorable birthday dinners, anniversaries and intimate family milestone gatherings.',
     price: 'From $125/person',
     to: '/catering',
-    image: '/img/kauai/card-estate-dinner.jpg',
+    image: '/img/kauai/card-estate-dinner.webp',
   },
   {
     title: 'Villa Parties & Receptions',
@@ -92,13 +93,13 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Full-service staffed cocktail hours, passed hors d’oeuvres and sunset lānai dining.',
     price: 'From $125/person',
     to: '/catering',
-    image: '/img/maui/quote-lanai.jpg',
+    image: '/img/maui/quote-lanai.webp',
   },
   {
     title: 'BBQ & Island Grilling',
     category: 'Casual & Live Flame',
     desc: 'Live open-flame Hawaiian beef, fresh local catch skewers, artisanal glazes and island sides.',
-    price: 'From $110/person',
+    price: 'Entry from $110 · Signature from $125',
     to: '/catering',
     image: '/img/hub/card-bbq.webp',
   },
@@ -106,7 +107,7 @@ const CAPABILITIES: ServiceCapability[] = [
     title: 'Buffet Catering',
     category: 'Elevated Spreads',
     desc: 'Generous farm-to-table salads, hot Hawaiian specialty stations and curated self-service spreads.',
-    price: 'From $110/person',
+    price: 'Entry from $110 · Signature from $125',
     to: '/catering',
     image: '/img/hub/service-catering.webp',
   },
@@ -116,7 +117,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Synchronized course plating, wine-pairing support and restaurant-grade execution.',
     price: 'From $125/person',
     to: '/private-chef',
-    image: '/img/oahu/menu-signature.jpg',
+    image: '/img/oahu/menu-signature.webp',
   },
   {
     title: 'Family-Style Dining',
@@ -124,7 +125,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Abundant communal platters passed at the table for relaxed, joyful family gatherings.',
     price: 'From $125/person',
     to: '/private-chef',
-    image: '/img/kauai/menu-hanalei-table.jpg',
+    image: '/img/kauai/menu-hanalei-table.webp',
   },
   {
     title: 'Retreat & Group Catering',
@@ -148,7 +149,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Fresh tropical fruit platters, artisanal eggs, baked pastries and 100% Kona coffee service.',
     price: 'Stay Chef inclusive',
     to: '/stay-chef',
-    image: '/img/bigisland/menu-coffee.jpg',
+    image: '/img/bigisland/menu-coffee.webp',
   },
   {
     title: 'Lunch & Poolside',
@@ -156,7 +157,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Fresh local poke bowls, grilled island catch sandwiches and light farm-fresh salads.',
     price: 'Stay Chef inclusive',
     to: '/stay-chef',
-    image: '/img/kauai/market-hanalei.jpg',
+    image: '/img/kauai/market-hanalei.webp',
   },
   {
     title: 'Dinner Catering',
@@ -164,7 +165,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Sunset oceanfront dinners with full culinary execution, table service and spotless cleanup.',
     price: 'From $125/person',
     to: '/private-chef',
-    image: '/img/maui/menu-wailea-sunset.jpg',
+    image: '/img/maui/menu-wailea-sunset.webp',
   },
   {
     title: 'Cooking Classes & Demos',
@@ -463,17 +464,29 @@ const HOME_FAQ = [
   },
 ];
 
+/** Homepage-featured formats — full matrix lives on /pricing */
+const FEATURED_FORMAT_COUNT = 6;
+/** Homepage-featured chefs — full roster expands in place */
+const FEATURED_CHEF_COUNT = 3;
+/** Homepage-featured reviews — expand reveals the rest */
+const FEATURED_REVIEW_COUNT = 3;
+
 export default function HubHome() {
   const navigate = useNavigate();
   const [reviewIsland, setReviewIsland] = useState<string>('all');
   const [showAllReviews, setShowAllReviews] = useState<boolean>(false);
+  const [showAllChefs, setShowAllChefs] = useState<boolean>(false);
 
   const filteredReviews =
     reviewIsland === 'all'
       ? REVIEWS_50
       : REVIEWS_50.filter((r) => r.siteId === reviewIsland || (reviewIsland === 'multi' && r.siteId === 'hub'));
 
-  const displayedReviews = showAllReviews ? filteredReviews : filteredReviews.slice(0, 8);
+  const displayedReviews = showAllReviews
+    ? filteredReviews
+    : filteredReviews.slice(0, FEATURED_REVIEW_COUNT);
+  const displayedChefs = showAllChefs ? CHEF_ROSTER : CHEF_ROSTER.slice(0, FEATURED_CHEF_COUNT);
+  const featuredFormats = CAPABILITIES.slice(0, FEATURED_FORMAT_COUNT);
 
   return (
     <>
@@ -481,7 +494,7 @@ export default function HubHome() {
         title="Private Chef & Catering Hawaii — The Statewide Hub | myCHEF"
         description="The statewide private chef and catering hub across Oʻahu, Maui, Kauaʻi and Big Island. Weddings, corporate catering, retreats, and multi-island coordination with one central point of contact. Published tariffs and itemized written quotes."
         path="/"
-        ogImage="/img/hub/hero-statewide-desk.jpg"
+        ogImage="/img/hub/hero-statewide-desk.webp"
         jsonLd={[organizationLd(), foodServiceLd(), faqLd(HOME_FAQ)]}
       />
 
@@ -668,18 +681,20 @@ export default function HubHome() {
             </p>
           </SectionReveal>
 
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {CAPABILITIES.map((cap, i) => (
-              <SectionReveal key={cap.title} delay={Math.min(i, 8) * 40}>
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {featuredFormats.map((cap, i) => (
+              <SectionReveal key={cap.title} delay={Math.min(i, 5) * 40}>
                 <Link
                   to={cap.to}
                   className="card-site group flex h-full flex-col overflow-hidden transition-all hover:border-accent-site hover:shadow-xl no-underline"
                   style={{ color: 'inherit' }}
                 >
-                  <div className="relative h-48 w-full overflow-hidden bg-surface-site">
+                  <div className="relative h-40 w-full overflow-hidden bg-surface-site sm:h-44">
                     <img
                       src={cap.image}
                       alt={`${cap.title} by myCHEF Hawaii`}
+                      width={800}
+                      height={600}
                       loading="lazy"
                       decoding="async"
                       className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -697,7 +712,7 @@ export default function HubHome() {
                     </div>
                   </div>
 
-                  <div className="flex flex-1 flex-col justify-between p-6">
+                  <div className="flex flex-1 flex-col justify-between p-5">
                     <div>
                       <h3 className="font-display text-xl font-medium tracking-tight text-ink group-hover:text-accent-site transition-colors">
                         {cap.title}
@@ -705,7 +720,7 @@ export default function HubHome() {
                       <p className="mt-2 text-sm text-ink-2 leading-relaxed">{cap.desc}</p>
                     </div>
 
-                    <div className="mt-6 flex items-center justify-between border-t border-line-site pt-4 text-xs">
+                    <div className="mt-5 flex items-center justify-between border-t border-line-site pt-3 text-xs">
                       <span className="font-semibold text-ink">{cap.price}</span>
                       <span className="font-semibold text-accent-site group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">
                         Explore <ArrowRight className="h-3.5 w-3.5" />
@@ -715,6 +730,13 @@ export default function HubHome() {
                 </Link>
               </SectionReveal>
             ))}
+          </div>
+
+          <div className="mt-8 text-center">
+            <Link to="/pricing" className="cta-secondary-site inline-flex items-center gap-2">
+              See all formats &amp; published tariffs
+              <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+            </Link>
           </div>
         </div>
       </section>
@@ -856,8 +878,17 @@ export default function HubHome() {
             <p className="eyebrow-site">Dedicated Island Flagships</p>
             <h2 className="h2-site mt-3">Only need one island? Choose your dedicated island section/site.</h2>
             <p className="measure-site mt-4 text-ink-2">
-              Each island has its own dedicated island section/site with resident chefs, local menus, county-specific
-              taxes, and island coverage. Open the kitchen that lives where you are staying:
+              Each island has its own dedicated flagship site with resident chefs, local menus, county-specific
+              taxes, and island coverage. Open the kitchen that lives where you are staying. Visiting Oʻahu with
+              Japanese-speaking guests?{' '}
+              <a
+                href={`${getIslandHref('oahu').replace(/\/$/, '')}/ja`}
+                lang="ja"
+                className="link-site font-medium"
+              >
+                日本語の Oʻahu サイト
+              </a>
+              .
             </p>
           </SectionReveal>
 
@@ -877,7 +908,10 @@ export default function HubHome() {
                     <img
                       src={c.thumb}
                       alt={c.alt}
+                      width={640}
+                      height={400}
                       loading={i > 1 ? 'lazy' : undefined}
+                      decoding="async"
                       className="motion-site w-full object-cover group-hover:scale-[1.03]"
                       style={{ aspectRatio: '16/10' }}
                     />
@@ -907,7 +941,7 @@ export default function HubHome() {
 
       {/* 5. PRICES — STATEWIDE PUBLISHED TARIFF & COMPARISON TABLE */}
       <section className="rule-t">
-        <div className="section-pad mx-auto max-w-6xl px-6">
+        <div className="mx-auto max-w-6xl px-6 pt-[var(--site-section-pad)] pb-10 md:pt-[var(--site-section-pad-desktop)] md:pb-12">
           <SectionReveal>
             <p className="eyebrow-site">Clear Tariff</p>
             <h2 className="h2-site mt-3">Statewide published pricing comparison.</h2>
@@ -956,8 +990,8 @@ export default function HubHome() {
                   </tr>
                   <tr>
                     <td className="px-6 py-4 font-display text-base font-semibold">BBQ & Buffet Spreads</td>
-                    <td className="tabular-site px-6 py-4 font-semibold text-accent-site">From $110/person</td>
-                    <td className="px-6 py-4 text-ink-2">Live open-flame Hawaiian grilling, farm salads and elevated self-service spreads.</td>
+                    <td className="tabular-site px-6 py-4 font-semibold text-accent-site">Entry from $110 · Signature from $125</td>
+                    <td className="px-6 py-4 text-ink-2">Oʻahu Table / Big Island Entry where published; Signature floors elsewhere. Live grill and elevated spreads.</td>
                     <td className="px-6 py-4 text-right">
                       <Link to="/catering" className="link-site font-medium">Explore →</Link>
                     </td>
@@ -999,7 +1033,7 @@ export default function HubHome() {
             </div>
           </SectionReveal>
 
-          <div className="mt-8 grid gap-8 lg:grid-cols-12 lg:items-center">
+          <div className="mt-6 grid gap-6 lg:grid-cols-12 lg:items-center">
             <div className="lg:col-span-8">
               <FeeStack />
             </div>
@@ -1016,7 +1050,7 @@ export default function HubHome() {
       </section>
 
       {/* 6. HOW IT WORKS — DUAL PATHWAY */}
-      <section className="section-pad rule-t bg-[#F7F5F0]">
+      <section className="rule-t bg-[#F7F5F0] pt-10 pb-[var(--site-section-pad)] md:pt-12 md:pb-[var(--site-section-pad-desktop)]">
         <div className="mx-auto max-w-6xl px-6">
           <SectionReveal>
             <p className="eyebrow-site">Straightforward Planning</p>
@@ -1112,7 +1146,7 @@ export default function HubHome() {
       </section>
 
       {/* 6.5. RESIDENT CHEF ROSTER — PEOPLE & PROOF */}
-      <section className="section-pad rule-t bg-[#F7F5F0]">
+      <section id="chef-roster" className="pt-10 pb-[var(--site-section-pad)] rule-t bg-[#F7F5F0] md:pt-12 md:pb-[var(--site-section-pad-desktop)]">
         <div className="mx-auto max-w-6xl px-6">
           <SectionReveal>
             <div className="flex items-center gap-2">
@@ -1123,18 +1157,22 @@ export default function HubHome() {
             <p className="measure-site mt-4 text-ink-2">
               We never fly chefs between islands or rely on anonymous contractors. Vetted, background-checked,
               and fully insured culinary leads reside permanently on the island where your table is set.
+              Brand portraits below identify the named lead for each desk — the same people who run your kitchen.
             </p>
           </SectionReveal>
 
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {CHEF_ROSTER.map((chef, i) => (
-              <SectionReveal key={chef.name} delay={i * 60}>
+          <div className={`mt-8 grid gap-4 sm:grid-cols-2 ${showAllChefs ? 'lg:grid-cols-4' : 'lg:grid-cols-3'}`}>
+            {displayedChefs.map((chef, i) => (
+              <SectionReveal key={chef.name} delay={i * 50}>
                 <div className="card-site flex h-full flex-col overflow-hidden bg-surface-site">
-                  <div className="relative h-60 w-full overflow-hidden bg-surface-site">
+                  <div className="relative h-48 w-full overflow-hidden bg-surface-site sm:h-52">
                     <img
                       src={chef.photo}
                       alt={chef.name}
+                      width={640}
+                      height={480}
                       loading="lazy"
+                      decoding="async"
                       className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
@@ -1145,19 +1183,19 @@ export default function HubHome() {
                       </span>
                     </div>
                   </div>
-                  <div className="flex flex-1 flex-col justify-between p-5">
+                  <div className="flex flex-1 flex-col justify-between p-4">
                     <div>
                       <h3 className="font-display text-lg font-medium text-ink">{chef.name}</h3>
                       <p className="mt-1 text-xs text-accent-site font-medium">{chef.title}</p>
                       {chef.hotels && (
-                        <div className="mt-2.5 flex items-center gap-1.5 rounded bg-black/[0.04] px-2.5 py-1 text-[11px] font-medium text-ink-2">
+                        <div className="mt-2 flex items-center gap-1.5 rounded bg-black/[0.04] px-2.5 py-1 text-[11px] font-medium text-ink-2">
                           <Building2 className="h-3.5 w-3.5 shrink-0 text-accent-site" aria-hidden="true" />
                           <span className="truncate">{chef.hotels}</span>
                         </div>
                       )}
-                      <p className="mt-2.5 text-xs text-ink-2 leading-relaxed">{chef.bio}</p>
+                      <p className="mt-2 text-xs text-ink-2 leading-relaxed">{chef.bio}</p>
                     </div>
-                    <div className="mt-4 border-t border-line-site pt-3">
+                    <div className="mt-3 border-t border-line-site pt-3">
                       <p className="text-[10px] uppercase tracking-wider font-semibold text-ink-2">Signature Dish</p>
                       <p className="mt-1 text-xs font-medium text-ink leading-snug">{chef.dish}</p>
                     </div>
@@ -1166,6 +1204,35 @@ export default function HubHome() {
               </SectionReveal>
             ))}
           </div>
+
+          {!showAllChefs ? (
+            <div className="mt-6 text-center">
+              <a
+                href="#chef-roster-full"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setShowAllChefs(true);
+                }}
+                className="cta-ghost-site inline-flex items-center gap-2 text-xs font-semibold"
+              >
+                See the full roster
+                <span className="rounded-full bg-accent-site/10 px-2 py-0.5 text-[10px] text-accent-site">
+                  {CHEF_ROSTER.length} leads
+                </span>
+                <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+              </a>
+            </div>
+          ) : (
+            <div id="chef-roster-full" className="mt-6 text-center">
+              <button
+                type="button"
+                onClick={() => setShowAllChefs(false)}
+                className="cta-ghost-site inline-flex items-center gap-2 px-5 py-2 text-xs font-medium cursor-pointer"
+              >
+                Show featured leads
+              </button>
+            </div>
+          )}
         </div>
       </section>
 
@@ -1279,12 +1346,37 @@ export default function HubHome() {
                     {REVIEWS_SUMMARY.worldwideStatement}
                   </p>
                 </div>
-                <div className="flex flex-col items-start sm:items-end shrink-0">
+                <div className="flex flex-col items-start sm:items-end shrink-0 gap-2">
                   <span className="rounded-full bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-700">
                     ✓ 100% Attributable Guest Proof
                   </span>
-                  <p className="mt-2 text-xs text-ink-2">
+                  <p className="text-xs text-ink-2">
                     Google Business & Private Folio Verified
+                  </p>
+                  <ul className="flex flex-wrap gap-x-3 gap-y-1 text-[11px]">
+                    {(Object.values(GBP_DESKS) as (typeof GBP_DESKS)[keyof typeof GBP_DESKS][]).map((desk) => (
+                      <li key={desk.id}>
+                        <a
+                          href={desk.mapsUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="link-site font-medium"
+                        >
+                          {desk.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="text-[11px] text-ink-2">
+                    Worldwide record:{' '}
+                    {NETWORK_PROOF.map((n, i) => (
+                      <span key={n.href}>
+                        {i > 0 ? ' · ' : null}
+                        <a href={n.href} target="_blank" rel="noopener noreferrer" className="link-site">
+                          {n.label}
+                        </a>
+                      </span>
+                    ))}
                   </p>
                 </div>
               </div>
@@ -1321,8 +1413,8 @@ export default function HubHome() {
             </div>
           </SectionReveal>
 
-          {/* 50 Reviews Grid */}
-          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {/* Reviews grid — 3 featured by default */}
+          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {displayedReviews.map((t, i) => (
               <SectionReveal key={t.id} delay={Math.min(i * 30, 240)}>
                 <div className="card-site flex h-full flex-col justify-between p-5 bg-surface-site border border-line-site/80 hover:border-accent-site/50 transition-colors">
@@ -1351,9 +1443,20 @@ export default function HubHome() {
                   <div className="mt-4 border-t border-line-site pt-3">
                     <p className="font-semibold text-ink text-xs">{t.author}</p>
                     <p className="text-[11px] text-ink-2 mt-0.5 leading-snug">{t.role}</p>
-                    <div className="mt-2 flex items-center justify-between text-[10px] text-ink-2/80">
+                    <div className="mt-2 flex items-center justify-between gap-2 text-[10px] text-ink-2/80">
                       <span>{t.date}</span>
-                      <span className="font-medium text-emerald-700">{t.source}</span>
+                      {t.source === 'Google Verified Review' ? (
+                        <a
+                          href={gbpForReviewSite(t.siteId).mapsUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="font-medium text-emerald-700 underline-offset-2 hover:underline"
+                        >
+                          {t.source}
+                        </a>
+                      ) : (
+                        <span className="font-medium text-emerald-700">{t.source}</span>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -1361,8 +1464,8 @@ export default function HubHome() {
             ))}
           </div>
 
-          {/* Toggle Button to expand all 50 reviews */}
-          {!showAllReviews && filteredReviews.length > 8 && (
+          {/* Toggle Button to expand all reviews */}
+          {!showAllReviews && filteredReviews.length > FEATURED_REVIEW_COUNT && (
             <div className="mt-8 text-center">
               <button
                 type="button"
@@ -1378,14 +1481,14 @@ export default function HubHome() {
             </div>
           )}
 
-          {showAllReviews && filteredReviews.length > 8 && (
+          {showAllReviews && filteredReviews.length > FEATURED_REVIEW_COUNT && (
             <div className="mt-8 text-center">
               <button
                 type="button"
                 onClick={() => setShowAllReviews(false)}
                 className="cta-ghost-site inline-flex items-center gap-2 px-5 py-2 text-xs font-medium cursor-pointer"
               >
-                <span>Collapse Reviews (Show Top 8)</span>
+                <span>Collapse Reviews (Show Top 3)</span>
               </button>
             </div>
           )}
@@ -1404,9 +1507,9 @@ export default function HubHome() {
                   Trusted by private family offices, dignitaries, and notable figures.
                 </h4>
                 <p className="mt-1 text-xs sm:text-sm text-ink-2 leading-relaxed">
-                  Over two decades, our culinary directors and estate leads have cooked for rooms the world already
-                  knew — including Robin Williams and Britney Spears — as well as private family offices and executives requiring
-                  ironclad non-disclosure agreements (NDAs) and total kitchen privacy.
+                  Over two decades, culinary directors across myCHEF International network kitchens have cooked for
+                  rooms the world already knew — including Robin Williams and Britney Spears — as well as private
+                  family offices and executives requiring ironclad non-disclosure agreements (NDAs) and total kitchen privacy.
                 </p>
               </div>
             </div>
@@ -1448,8 +1551,9 @@ export default function HubHome() {
               <SectionReveal delay={60}>
                 <h3 className="font-display text-xl">Confidential Discretion</h3>
                 <p className="mt-2 text-sm text-ink-2">
-                  We have cooked for high-profile rooms the world already knew — including Robin
-                  Williams and Britney Spears — and for private family offices that demand absolute privacy.
+                  Across myCHEF International network kitchens, our teams have cooked for high-profile rooms the
+                  world already knew — including Robin Williams and Britney Spears — and for private family
+                  offices that demand absolute privacy.
                 </p>
               </SectionReveal>
               <SectionReveal delay={120}>
@@ -1554,8 +1658,8 @@ export default function HubHome() {
             One dinner or four islands. Start here.
           </h2>
           <p className="mt-4 text-base sm:text-lg leading-relaxed" style={{ color: 'rgba(247,245,240,0.90)' }}>
-            Tell us your island(s), date(s), guest count, and event format. We deliver a confirmed,
-            itemized written quote with published numbers and zero hidden surprises.
+            Six steps, two minutes: tell us your island(s), date(s), guest count, and event format. We deliver a
+            confirmed, itemized written quote with published numbers and zero hidden surprises.
           </p>
 
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row sm:flex-wrap sm:gap-4">

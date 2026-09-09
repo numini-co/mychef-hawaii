@@ -9,8 +9,9 @@
 import { useEffect, useRef } from 'react';
 import { Link } from 'react-router';
 import { useSite } from '@/platform/IslandProvider';
-import { Seo, foodServiceLd, faqLd, breadcrumbLd } from '@/platform/seo';
+import { Seo, islandFoodServiceLd, faqLd, breadcrumbLd } from '@/platform/seo';
 import { CONTACT, TRUST_CLAIMS } from '@/platform/config';
+import { GBP_DESKS } from '@/data/trust-proof';
 import SectionReveal from '@/components/SectionReveal';
 import FAQAccordion from '@/components/FAQAccordion';
 import { RateTable } from '@/components/RateTable';
@@ -305,8 +306,17 @@ export default function MauiHome() {
         title="Private Chef Maui — Villa Dinners, Weddings & Stay Chef | myCHEF"
         description="Private chef & catering across Maui. Wailea villa dinners from $150/guest; Stay Chef from $1,050/day; wedding week catering from $150/guest. Real-time pricing calculator, licensed local purveyors, and written quotes."
         path={link('')}
-        ogImage="/img/maui/hero-home.jpg"
-        jsonLd={[foodServiceLd(), faqLd(HOME_FAQ), breadcrumbLd([{ name: 'Maui', path: link('') }])]}
+        ogImage="/img/maui/hero-home.webp"
+        jsonLd={[
+          ...islandFoodServiceLd('maui', {
+            name: 'myCHEF Maui',
+            description:
+              'Private chef & catering across Maui. Wailea villa dinners from $150/guest; Stay Chef from $1,050/day; wedding week catering from $150/guest.',
+            sameAs: [GBP_DESKS.maui.mapsUrl],
+          }),
+          faqLd(HOME_FAQ),
+          breadcrumbLd([{ name: 'Maui', path: link('') }]),
+        ]}
       />
       <MauiStyles />
 
@@ -314,8 +324,10 @@ export default function MauiHome() {
       <section className="relative -mt-[var(--nav-h)] flex min-h-[100dvh] items-end overflow-hidden" aria-label="Maui, set for dinner">
         <img
           ref={heroImgRef}
-          src="/img/maui/hero-home.jpg"
+          src="/img/maui/hero-home.webp"
           alt="A lānai table set for eight at a Maui resort villa, low golden sun, ocean in the mid-ground"
+          width={1920}
+          height={1080}
           className="maui-hero-img absolute inset-0 h-full w-full object-cover"
         />
         <div

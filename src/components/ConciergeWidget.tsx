@@ -81,6 +81,14 @@ function Avatar({ host, size }: { host: Host; size: number }) {
   );
 }
 
+function dismissBubble() {
+  try {
+    sessionStorage.setItem('mychef_chat_bubble_dismissed', 'true');
+  } catch {
+    /* sessionStorage may be blocked */
+  }
+}
+
 export default function ConciergeWidget() {
   const { siteId, isHub } = useSite();
   const host = HOSTS[siteId];
@@ -94,6 +102,7 @@ export default function ConciergeWidget() {
     }
   });
   const [docked, setDocked] = useState(true);
+  const [nearForm, setNearForm] = useState(false);
   const wrap = useRef<HTMLDivElement | null>(null);
   const button = useRef<HTMLButtonElement | null>(null);
 
@@ -112,6 +121,46 @@ export default function ConciergeWidget() {
     return () => {
       window.removeEventListener('scroll', sync);
       mq.removeEventListener('change', sync);
+    };
+  }, []);
+
+  // Auto-collapse greeting after 8s so it does not sit over form CTAs.
+  useEffect(() => {
+    if (bubbleDismissed || open) return;
+    const t = window.setTimeout(() => {
+      setBubbleDismissed(true);
+      dismissBubble();
+    }, 8000);
+    return () => window.clearTimeout(t);
+  }, [bubbleDismissed, open]);
+
+  // On mobile, lift the launcher when a submit/CTA is in the lower viewport.
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 639px)');
+    const check = () => {
+      if (!mq.matches) {
+        setNearForm(false);
+        return;
+      }
+      const nodes = document.querySelectorAll(
+        'form button[type="submit"], form .cta-site, form .cta-secondary-site, [data-quote-cta] .cta-site',
+      );
+      const vh = window.innerHeight;
+      let hit = false;
+      nodes.forEach((el) => {
+        const r = (el as HTMLElement).getBoundingClientRect();
+        if (r.bottom > vh - 140 && r.top < vh) hit = true;
+      });
+      setNearForm(hit);
+    };
+    check();
+    window.addEventListener('scroll', check, { passive: true });
+    window.addEventListener('resize', check);
+    mq.addEventListener('change', check);
+    return () => {
+      window.removeEventListener('scroll', check);
+      window.removeEventListener('resize', check);
+      mq.removeEventListener('change', check);
     };
   }, []);
 
@@ -136,7 +185,9 @@ export default function ConciergeWidget() {
 
   const place = isHub ? 'Hawaiʻi' : SITE_META[siteId].name;
   const band = isHub ? 'Signature dinners $125–$250 a guest' : `Signature dinners ${RATES[siteId as IslandId].coreBand} a guest`;
-  const dock = 'calc(var(--rate-bar-h) + 0.85rem)';
+  const showBubble = !open && !bubbleDismissed;
+  const lift = nearForm ? '4.5rem' : showBubble ? '0.5rem' : '0px';
+  const dock = `calc(var(--rate-bar-h, 0px) + 0.85rem + ${lift} + env(safe-area-inset-bottom, 0px))`;
 
   // The greeting a host would actually send — island-specific, not a form.
   const GREETINGS: Record<SiteId, string> = {
@@ -214,32 +265,31 @@ export default function ConciergeWidget() {
         </div>
       ) : null}
 
-      {/* Floating active chat bubble prompt with dismiss button */}
-      {!open && !bubbleDismissed ? (
+      {/* Floating greeting — compact on mobile; auto-collapses after 8s */}
+      {showBubble ? (
         <div
-          className="motion-site group mb-2.5 ml-auto flex max-w-[270px] items-center gap-2 rounded-2xl border border-line-site/80 bg-surface-site p-2 pl-3 text-left text-xs font-medium text-ink shadow-xl transition-all hover:border-accent-site"
+          className="motion-site group mb-2 ml-auto flex max-w-[11.5rem] items-center gap-1.5 rounded-2xl border border-line-site/80 bg-surface-site p-1.5 pl-2.5 text-left text-[11px] font-medium text-ink shadow-lg transition-all hover:border-accent-site sm:mb-2.5 sm:max-w-[220px] sm:gap-2 sm:p-2 sm:pl-3 sm:text-xs"
           style={{ boxShadow: '0 8px 24px rgba(0,0,0,0.14)' }}
         >
           <button
             type="button"
             onClick={() => setOpen(true)}
             className="flex flex-1 items-center gap-2 text-left cursor-pointer"
-            aria-label="Open concierge chat"
+            aria-label={`Open concierge chat with ${host.name}`}
           >
             <span className="relative flex h-2 w-2 shrink-0">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
               <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
             </span>
-            <span className="leading-snug">Hello! If there's anything we can help you with, chat with us 👋</span>
+            <span className="leading-snug sm:hidden">Need help? Chat with us</span>
+            <span className="hidden leading-snug sm:inline">Hello! Chat with us if we can help</span>
           </button>
           <button
             type="button"
             onClick={(e) => {
               e.stopPropagation();
               setBubbleDismissed(true);
-              try {
-                sessionStorage.setItem('mychef_chat_bubble_dismissed', 'true');
-              } catch {}
+              dismissBubble();
             }}
             className="inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-ink-2/60 hover:bg-black/5 hover:text-ink active:scale-90 transition-colors"
             aria-label="Dismiss chat bubble"
@@ -256,8 +306,9 @@ export default function ConciergeWidget() {
           type="button"
           onClick={() => setOpen(!open)}
           aria-expanded={open}
+          aria-haspopup="dialog"
           aria-label={open ? 'Close contact panel' : `Contact ${host.name} on the ${place} desk`}
-          className="motion-site relative flex h-14 w-14 items-center justify-center overflow-hidden rounded-full shadow-lg transition-transform hover:scale-105 active:scale-95"
+          className="motion-site relative flex h-12 w-12 items-center justify-center overflow-hidden rounded-full shadow-lg transition-transform hover:scale-105 active:scale-95 sm:h-14 sm:w-14"
           style={{ boxShadow: 'var(--site-card-shadow, 0 8px 24px rgba(0,0,0,0.18))' }}
         >
           {open ? (

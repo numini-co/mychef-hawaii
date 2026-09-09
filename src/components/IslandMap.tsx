@@ -2,12 +2,12 @@ import { useState } from 'react';
 import { Link } from 'react-router';
 import { ISLAND_IDS, SITE_META } from '@/platform/tokens';
 import type { SiteId } from '@/platform/tokens';
-import { RATES } from '@/platform/config';
+import { formatMoney, RATES } from '@/platform/config';
 
 /**
  * Stylized four-island outline map (design.md §10.0 map-hawaii.svg) rendered
  * inline so pins are interactive: hover/focus raises the pin and shows the
- * micro-card (name, CORE band, Stay Chef from-price). Click routes down.
+ * micro-card (name, Signature band, Stay Chef from-price). Click routes down.
  */
 const ISLAND_SHAPES: Record<SiteId, { d: string; pin: [number, number]; label: [number, number] } | null> = {
   hub: null,
@@ -106,7 +106,7 @@ export default function IslandMap({ className = '' }: { className?: string }) {
                   Signature {RATES[id].coreBand}/guest
                 </p>
                 <p className="tabular-site text-sm text-ink-2">
-                  Stay Chef from ${RATES[id].stayChefDay}/day
+                  Stay Chef from {formatMoney(RATES[id].stayChefDay)}/day
                 </p>
               </div>
             ) : null}

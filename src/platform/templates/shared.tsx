@@ -5,14 +5,12 @@ import { useSiteContent } from '@/platform/contentContext';
 import { heroShot } from '@/platform/media';
 import type { SiteId } from '@/platform/tokens';
 import { Seo, breadcrumbLd, faqLd, serviceLd } from '@/platform/seo';
-import { expandRecord } from '@/platform/longform/expand';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import type { Crumb } from '@/components/Breadcrumbs';
 import FAQAccordion from '@/components/FAQAccordion';
 import QuoteCTA from '@/components/QuoteCTA';
 import { RateTable } from '@/components/RateTable';
 import SectionReveal from '@/components/SectionReveal';
-import LongformArticle from '@/platform/longform/LongformArticle';
 
 /** Resolve a content link against the current site base. */
 export function useResolve() {
@@ -42,12 +40,11 @@ export function useCrumbs(record: ContentRecord, all: ContentRecord[]): Crumb[] 
 export function PageSeo({ record, crumbs }: { record: ContentRecord; crumbs: Crumb[] }) {
   const { link, name, siteId } = useSite();
   const path = link(record.slug);
-  const extraFaq = expandRecord(record, siteId).faq;
-  const allFaq = [...(record.faq ?? []), ...extraFaq.filter((f) => !(record.faq ?? []).some((x) => x.q === f.q))];
-  const jsonLd = [breadcrumbLd(crumbs)];
+  const allFaq = record.faq ?? [];
+  const jsonLd = [breadcrumbLd(crumbs, siteId)];
   if (allFaq.length) jsonLd.push(faqLd(allFaq));
   if (record.category === 'core' || record.category === 'service') {
-    jsonLd.push(serviceLd(record.h1, record.meta.description, path, name));
+    jsonLd.push(serviceLd(record.h1, record.meta.description, path, name, siteId));
   }
   return <Seo title={record.title} description={record.meta.description} path={path} ogImage={record.meta.ogImage} jsonLd={jsonLd} />;
 }
@@ -84,13 +81,18 @@ export function PageHeader({
       <PageSeo record={record} crumbs={crumbs} />
       {hero ? (
         <>
-          <img
-            src={hero.src}
-            alt={hero.alt}
-            loading="eager"
-            fetchPriority="high"
-            className="absolute inset-0 -z-10 h-full w-full object-cover"
-          />
+          <picture>
+            {hero.srcFallback ? <source srcSet={hero.src} type="image/webp" /> : null}
+            <img
+              src={hero.srcFallback ?? hero.src}
+              alt={hero.alt}
+              width={hero.width ?? 1920}
+              height={hero.height ?? 1080}
+              loading="eager"
+              fetchPriority="high"
+              className="absolute inset-0 -z-10 h-full w-full object-cover"
+            />
+          </picture>
           <div
             aria-hidden="true"
             className="absolute inset-0 -z-10"
@@ -147,13 +149,21 @@ export function SectionMedia({ section }: { section: ContentSection }) {
   if (!section.media) return null;
   return (
     <figure className="card-site overflow-hidden">
-      <img
-        src={section.media.src}
-        alt={section.media.alt}
-        loading="lazy"
-        className="h-full w-full object-cover"
-        style={{ aspectRatio: section.media.ratio ?? '3/2' }}
-      />
+      <picture>
+        {section.media.src.endsWith('.webp') ? (
+          <source srcSet={section.media.src} type="image/webp" />
+        ) : null}
+        <img
+          src={section.media.src.replace(/\.webp$/i, '.jpg')}
+          alt={section.media.alt}
+          width={1200}
+          height={800}
+          loading="lazy"
+          decoding="async"
+          className="h-full w-full object-cover"
+          style={{ aspectRatio: section.media.ratio ?? '3/2' }}
+        />
+      </picture>
     </figure>
   );
 }
@@ -227,7 +237,6 @@ export function PageTail({ record }: { record: ContentRecord }) {
           <FAQAccordion items={record.faq} />
         </section>
       ) : null}
-      <LongformArticle record={record} />
       <RelatedPages record={record} />
       <div className="mt-12 sm:mt-20">
         <QuoteCTA cta={record.cta} />

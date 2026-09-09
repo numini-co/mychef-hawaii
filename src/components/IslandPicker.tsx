@@ -5,7 +5,7 @@ import { Check, ChevronDown, X } from 'lucide-react';
 import { useSite } from '@/platform/IslandProvider';
 import { SITE_META, TOKENS, tokensToCssVars } from '@/platform/tokens';
 import type { SiteId } from '@/platform/tokens';
-import { RATES } from '@/platform/config';
+import { formatMoney, RATES } from '@/platform/config';
 import { getIslandHref, navigateToIsland } from '@/platform/navigation';
 import IslandMark from './IslandMark';
 
@@ -21,25 +21,25 @@ const OPTIONS: { id: SiteId; title: string; subtitle: string; note: string }[] =
     id: 'oahu',
     title: 'Oʻahu Flagship',
     subtitle: 'Honolulu · Waikīkī · Kahala · North Shore',
-    note: `${RATES.oahu.coreBand}/guest · Stay Chef from $${RATES.oahu.stayChefDay}/day`,
+    note: `${RATES.oahu.coreBand}/guest · Stay Chef from ${formatMoney(RATES.oahu.stayChefDay)}/day`,
   },
   {
     id: 'maui',
     title: 'Maui Flagship',
     subtitle: 'Wailea · Mākena · Kapalua · Upcountry',
-    note: `${RATES.maui.coreBand}/guest · Stay Chef from $${RATES.maui.stayChefDay}/day`,
+    note: `${RATES.maui.coreBand}/guest · Stay Chef from ${formatMoney(RATES.maui.stayChefDay)}/day`,
   },
   {
     id: 'kauai',
     title: 'Kauaʻi Flagship',
     subtitle: 'Hanalei · Princeville · Poʻipū · Kōloa',
-    note: `${RATES.kauai.coreBand}/guest · Stay Chef from $${RATES.kauai.stayChefDay}/day`,
+    note: `${RATES.kauai.coreBand}/guest · Stay Chef from ${formatMoney(RATES.kauai.stayChefDay)}/day`,
   },
   {
     id: 'bigisland',
     title: 'Big Island Flagship',
     subtitle: 'Kona–Kohala · Kūkiʻo · Hualālai · Mauna Lani',
-    note: `${RATES.bigisland.coreBand}/guest · Stay Chef from $${RATES.bigisland.stayChefDay}/day`,
+    note: `${RATES.bigisland.coreBand}/guest · Stay Chef from ${formatMoney(RATES.bigisland.stayChefDay)}/day`,
   },
 ];
 
@@ -72,7 +72,9 @@ export default function IslandPicker() {
     };
   }, [open]);
 
-  const label = siteId === 'hub' ? 'All Islands' : SITE_META[siteId].shortName;
+  /** Mobile pill stays short ("Islands"); desktop can show the full hub label. */
+  const label = siteId === 'hub' ? 'Islands' : SITE_META[siteId].shortName;
+  const labelDesktop = siteId === 'hub' ? 'All Islands' : SITE_META[siteId].shortName;
 
   const modalContent = open && typeof document !== 'undefined' ? (
     createPortal(
@@ -177,12 +179,15 @@ export default function IslandPicker() {
         onClick={() => setOpen(!open)}
         aria-expanded={open}
         aria-haspopup="dialog"
-        aria-label={`Current island: ${label}. Tap to change island.`}
+        aria-label={`Current island: ${labelDesktop}. Tap to change island.`}
         className="motion-site inline-flex min-h-[38px] items-center gap-1.5 rounded-full border border-line-site/70 bg-surface-site/60 px-2 py-0.5 text-ink shadow-xs transition-colors hover:border-accent-site/50 hover:bg-surface-site active:scale-[0.98] sm:min-h-[42px] sm:px-2.5 sm:py-1"
       >
         <IslandMark siteId={siteId} className="h-5 w-5 shrink-0 sm:h-6 sm:w-6" />
-        <span className="eyebrow-site !mb-0 font-medium tracking-wider text-ink text-xs truncate max-w-[72px] sm:max-w-none">
+        <span className="eyebrow-site !mb-0 font-medium tracking-wider text-ink text-xs truncate max-w-[72px] sm:hidden">
           {label}
+        </span>
+        <span className="eyebrow-site !mb-0 hidden font-medium tracking-wider text-ink text-xs sm:inline">
+          {labelDesktop}
         </span>
         <ChevronDown
           aria-hidden="true"

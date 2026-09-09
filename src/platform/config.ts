@@ -10,6 +10,8 @@ export const CONTACT = {
   whatsappDisplay: '+1 (808) 468-7748',
   phoneDisplay: '(808) 468-7748',
   email: 'quotes@mychef-hawaii.com',
+  partnershipsEmail: 'partnerships@mychef-hawaii.com',
+  pressEmail: 'press@mychef-hawaii.com',
 } as const;
 
 /** Per-island inbox, so a Waikīkī inquiry lands with the Oʻahu desk. */
@@ -21,6 +23,45 @@ export const ISLAND_EMAIL: Record<IslandId, string> = {
 } as const;
 
 export const SITE_URL = 'https://mychef-hawaii.com';
+
+const ISLAND_HOSTS = ['oahu', 'maui', 'kauai', 'bigisland'] as const;
+type IslandHost = (typeof ISLAND_HOSTS)[number];
+
+function isIslandHost(id: string): id is IslandHost {
+  return (ISLAND_HOSTS as readonly string[]).includes(id);
+}
+
+/**
+ * Absolute public URL for a site path.
+ * Island path URLs (/oahu/…) and bare island-site paths (/pricing on oahu host)
+ * canonicalize to the flagship subdomain (NEO dual-journey).
+ */
+export function absoluteUrl(path: string, siteId?: string): string {
+  const clean = path.startsWith('/') ? path : `/${path}`;
+  const prefixed = clean.match(/^\/(oahu|maui|kauai|bigisland)(\/.*)?$/);
+  if (prefixed) {
+    const rest = prefixed[2] && prefixed[2] !== '/' ? prefixed[2] : '/';
+    return `https://${prefixed[1]}.mychef-hawaii.com${rest}`;
+  }
+
+  let island: IslandHost | undefined = siteId && isIslandHost(siteId) ? siteId : undefined;
+  if (!island && typeof window !== 'undefined') {
+    const sub = window.location.hostname.toLowerCase().split('.')[0];
+    if (isIslandHost(sub)) island = sub;
+  }
+  if (island) {
+    const rest = clean === '/' || clean === '' ? '/' : clean;
+    return `https://${island}.mychef-hawaii.com${rest}`;
+  }
+
+  if (clean === '/' || clean === '') return `${SITE_URL}/`;
+  return `${SITE_URL}${clean}`;
+}
+
+export function islandHostOfPath(path: string): IslandHost | null {
+  const m = path.match(/^\/(oahu|maui|kauai|bigisland)(\/|$)/);
+  return m ? (m[1] as IslandHost) : null;
+}
 
 /** The fee stack — identical words everywhere (legal). Skin only. */
 export const FEE_STACK_LINES = [
@@ -40,7 +81,7 @@ export const TRUST_CLAIMS = [
 ] as const;
 
 export interface IslandRateCard {
-  /** CORE/Signature per-guest band, display string. */
+  /** Signature (primary) per-guest band, display string. Property key `coreBand` kept for internal compatibility. */
   coreBand: string;
   coreLow: number;
   coreHigh: number;
@@ -52,7 +93,12 @@ export interface IslandRateCard {
 
 import type { IslandId } from './tokens';
 
-/** Statewide published rate summary (info.md / pricing.md data table). */
+/** Format USD whole dollars with commas — use for all Stay Chef / worked-math display. */
+export function formatMoney(n: number): string {
+  return `$${Math.round(n).toLocaleString('en-US')}`;
+}
+
+/** Statewide published rate summary — mirrors public/pricing.json (audit Phase 4 SSOT). */
 export const RATES: Record<IslandId, IslandRateCard> = {
   oahu: {
     coreBand: '$125–$190',

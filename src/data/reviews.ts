@@ -15,7 +15,8 @@ export const REVIEWS_SUMMARY = {
   totalHawaiiCount: 50,
   totalWorldwideCount: '10,000+',
   headline: '50 Verified Hawaii Reviews',
-  worldwideStatement: 'Showing 50 curated Hawaii reviews — part of over 10,000 5-star private dinners served worldwide across Dubai, Bali, Cape Town, and Hawaii.',
+  worldwideStatement:
+    'Showing 50 curated Hawaii reviews from verified events — part of over 10,000 five-star private dinners served worldwide across the myCHEF network in Dubai, Bali, Cape Town, and Hawaiʻi.',
 };
 
 export const REVIEWS_50: Review[] = [

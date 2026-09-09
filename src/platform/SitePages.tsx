@@ -11,7 +11,6 @@ import MenuPage from './templates/MenuPage';
 import OccasionPage from './templates/OccasionPage';
 import GuidePage from './templates/GuidePage';
 import TrustPage from './templates/TrustPage';
-import LongformArticle from './longform/LongformArticle';
 import type { ComponentType } from 'react';
 
 const TEMPLATES: Record<PageCategory, ComponentType<{ record: ContentRecord }>> = {
@@ -42,7 +41,6 @@ export default function SitePages({ site, slug, siteId }: { site: SiteModule; sl
     return (
       <SiteContentContext.Provider value={site.content} key={siteId}>
         <Override />
-        {record ? <LongformArticle record={record} /> : null}
       </SiteContentContext.Provider>
     );
   }

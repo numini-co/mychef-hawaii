@@ -10,12 +10,19 @@
 import type { ContentRecord } from './types';
 import type { SiteId } from './tokens';
 
+const IMG = (site: string, name: string) => `/img/${site}/${name}.webp`;
+
+/** JPG twin for browsers that need a fallback (picture / srcset). */
+export const imgJpg = (webpSrc: string) => webpSrc.replace(/\.webp$/i, '.jpg');
+
 export interface Shot {
   src: string;
   alt: string;
+  /** Optional JPG fallback when src is WebP. */
+  srcFallback?: string;
+  width?: number;
+  height?: number;
 }
-
-const IMG = (site: string, name: string) => `/img/${site}/${name}.jpg`;
 
 /**
  * Client-related authentic captions for every photo in the network library.
@@ -120,7 +127,16 @@ const ALT: Record<string, string> = {
   'oahu/stay-chef': 'Our chef preparing fresh midday lunch during a multi-day family villa stay on Oʻahu',
 };
 
-const shot = (key: string): Shot | null => (ALT[key] ? { src: IMG(...(key.split('/') as [string, string])), alt: ALT[key] } : null);
+const shot = (key: string): Shot | null =>
+  ALT[key]
+    ? {
+        src: IMG(...(key.split('/') as [string, string])),
+        srcFallback: `/img/${key}.jpg`,
+        alt: ALT[key],
+        width: 1600,
+        height: 1000,
+      }
+    : null;
 
 /** Island photo sets, in the order we prefer to use them. */
 const SETS: Record<SiteId, Record<string, string[]>> = {

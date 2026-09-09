@@ -9,8 +9,8 @@ import type { ContentRecord } from '@/platform/types';
  * base zone Kona–Kohala, outside-corridor travel from $75, east side quoted
  * at inquiry — never implied. Term duality: titles/H1s say "Big Island"
  * (visitor term); body copy, alt text, and FAQs carry "Hawaiʻi Island."
- * Approved numbers only (info.md): CORE $150–$225/guest, ENTRY from $110,
- * PREMIUM $190–$275, CHEF'S TABLE $275–$400+, Stay Chef from $950/day,
+ * Approved numbers only (info.md): Signature $150–$225/guest, Entry from $110 under Signature,
+ * Premium $190–$275, Chef's Table $275–$400+, Stay Chef from $950/day,
  * Date Night from $550, cart from $725/4hr, server $55/hr, sous $75/hr,
  * 4-hr floor, travel from $75, 20% service + GET up to 4.7120% on own lines,
  * 50% deposit. The hero never says "from $125".
@@ -26,11 +26,11 @@ export const content: ContentRecord[] = [
     h1: 'Private chef, Big Island.',
     meta: {
       description:
-        'Private chef service on Hawaiʻi Island, Kona–Kohala first. Villa dinners $150–$225 a guest, ENTRY from $110, Stay Chef from $950 a day. The written quote is the confirmed total.',
+        'Private chef service on Hawaiʻi Island, Kona–Kohala first. Villa dinners $150–$225 a guest, Entry from $110 under Signature, Stay Chef from $950 a day. The written quote is the confirmed total.',
       ogImage: '/img/bigisland/hero-home.jpg',
     },
     intro:
-      'Kona–Kohala first. Villa dinners $150–$225 a guest, ENTRY from $110. Stay Chef from $950 a day. The written quote is the confirmed total.',
+      'Kona–Kohala first. Villa dinners $150–$225 a guest, Entry from $110 under Signature. Stay Chef from $950 a day. The written quote is the confirmed total.',
     sections: [],
     cta: { ...QUOTE, secondaryLabel: 'The rate card', secondaryHref: 'pricing' },
     keywords: ['private chef Big Island'],
@@ -42,7 +42,7 @@ export const content: ContentRecord[] = [
     h1: 'Tell us the table. We send the number.',
     meta: {
       description:
-        'Five fields, two minutes. One written quote for your Big Island dinner, stay, or wedding week — and that quote is the confirmed total.',
+        'Six steps, two minutes. One written quote for your Big Island dinner, stay, or wedding week — and that quote is the confirmed total.',
     },
     sections: [],
     cta: { label: 'Start the quote', href: 'quote' },
@@ -64,10 +64,10 @@ export const content: ContentRecord[] = [
       {
         heading: 'The services, in ledger form',
         body: [
-          'Four products cover nearly every stay on Hawaiʻi Island: the villa dinner (CORE $150–$225 a guest, ENTRY from $110), Date Night for two (from $550), Stay Chef for multi-day service (from $950 a day), and the wedding week (from $150 a guest plus staffing). Each is priced on the published card — the same numbers on this page are the numbers in your quote.',
+          'Four products cover nearly every stay on Hawaiʻi Island: the villa dinner (Signature $150–$225 a guest, Entry from $110 under Signature), Date Night for two (from $550), Stay Chef for multi-day service (from $950 a day), and the wedding week (from $150 a guest plus staffing). Each is priced on the published card — the same numbers on this page are the numbers in your quote.',
         ],
         list: [
-          'VILLA DINNER — $150–$225/GUEST · ENTRY FROM $110',
+          'VILLA DINNER — SIGNATURE $150–$225/GUEST · ENTRY FROM $110',
           'DATE NIGHT — FROM $550',
           'STAY CHEF — FROM $950/DAY',
           'WEDDING WEEK — FROM $150/GUEST + STAFFING',
@@ -108,7 +108,7 @@ export const content: ContentRecord[] = [
     faq: [
       {
         q: 'How much is a private chef on the Big Island?',
-        a: 'CORE villa dinners run $150–$225 a guest with groceries inside the band; the ENTRY tier starts from $110 a guest. Date Night for two starts from $550 and Stay Chef from $950 a day. Staffing, travel outside Kona–Kohala, and bar service are separate published lines.',
+        a: 'Signature villa dinners run $150–$225 a guest with groceries inside the band; the Entry tier under Signature starts from $110 a guest. Date Night for two starts from $550 and Stay Chef from $950 a day. Staffing, travel outside Kona–Kohala, and bar service are separate published lines.',
         links: [{ label: 'See the rate card', href: '/bigisland/pricing' }],
       },
       {
@@ -342,7 +342,7 @@ export const content: ContentRecord[] = [
     h1: 'The rate card.',
     meta: {
       description:
-        'The only full published private-chef rate card on Hawaiʻi Island: ENTRY from $110, CORE $150–$225 a guest, Stay Chef from $950 a day, travel from $75, 20% service and GET on their own lines.',
+        'The only full published private-chef rate card on Hawaiʻi Island: Entry from $110 under Signature, Signature $150–$225 a guest, Stay Chef from $950 a day, travel from $75, 20% service and GET on their own lines.',
       ogImage: '/img/bigisland/hero-pricing-ledger.jpg',
     },
     intro:
@@ -4194,7 +4194,7 @@ export const content: ContentRecord[] = [
         a: 'The flow takes two minutes on your side; the written quote follows after we check date, crew, and your kitchen — you will never receive a chat estimate dressed as a price.',
       },
     ],
-    cta: { label: 'Start the five fields', href: 'quote' },
+    cta: { label: 'Start the six steps', href: 'quote' },
     keywords: ['how does a private chef work Big Island'],
   },
   {
@@ -4837,7 +4837,7 @@ export const content: ContentRecord[] = [
       {
         heading: 'The quote form',
         body: [
-          'Five fields, two minutes: date, area, guests, dietary flags, the occasion. What comes back is a written quote — the confirmed total, itemized.',
+          'Six steps, two minutes: island, service, date and guests, kitchen and dietary details, contact, review. What comes back is a written quote — the confirmed total, itemized.',
         ],
         links: [{ label: 'Start the quote', href: 'quote' }],
       },

@@ -44,7 +44,7 @@ export const content: ContentRecord[] = [
     h1: 'Tell us about the table.',
     meta: {
       description:
-        'Five fields, two minutes, one written quote for your Oʻahu dinner, stay, or event. The written quote you receive is the confirmed total — never a chat estimate.',
+        'Six steps, two minutes, one written quote for your Oʻahu dinner, stay, or event. The written quote you receive is the confirmed total — never a chat estimate.',
     },
     sections: [],
     cta: { label: 'Start the quote', href: '/oahu/quote' },
@@ -2936,7 +2936,7 @@ export const content: ContentRecord[] = [
       {
         heading: 'The four steps',
         list: [
-          'Send the quote form — five fields, two minutes',
+          'Send the quote form — six steps, two minutes',
           'Get a written quote — the confirmed total, itemized',
           '50% deposit locks the date — only after you have seen the numbers',
           'We cook, we serve, we clean',
@@ -3484,7 +3484,7 @@ export const content: ContentRecord[] = [
       {
         heading: 'The two doors',
         body: [
-          'The quote form takes five fields and two minutes; the written quote comes back itemized. WhatsApp (+1 (808) 468-7748) is for everything else — the kitchen photo, the “is this possible,” the date you are not sure about.',
+          'The quote form takes six steps and two minutes; the written quote comes back itemized. WhatsApp (+1 (808) 468-7748) is for everything else — the kitchen photo, the “is this possible,” the date you are not sure about.',
         ],
         links: [
           { label: 'Start the quote form', href: '/oahu/quote' },

@@ -4,7 +4,9 @@
  * NEVER AggregateRating / Review (trust posture — no fake reviews).
  */
 import { useEffect } from 'react';
-import { SITE_URL } from './config';
+import { SITE_URL, absoluteUrl } from './config';
+import { useSite } from './IslandProvider';
+import type { SiteId } from './tokens';
 import type { FaqItem } from './types';
 
 type JsonLd = Record<string, unknown>;
@@ -23,21 +25,24 @@ export interface SeoProps {
   /** Page title without brand suffix. */
   title: string;
   description: string;
-  /** Absolute path, e.g. '/oahu/pricing'. */
+  /** Absolute path, e.g. '/oahu/pricing' or subdomain-bare '/pricing'. */
   path: string;
   ogImage?: string;
   /** JSON-LD blocks to inject. */
   jsonLd?: JsonLd[];
+  /** Optional hreflang alternates (EN ↔ JA for Oʻahu). */
+  alternates?: { hreflang: string; href: string }[];
 }
 
-export function Seo({ title, description, path, ogImage, jsonLd = [] }: SeoProps) {
+export function Seo({ title, description, path, ogImage, jsonLd = [], alternates }: SeoProps) {
+  const { siteId } = useSite();
   const fullTitle = title.includes('myCHEF') ? title : `${title} | myCHEF Hawaii`;
-  const url = `${SITE_URL}${path}`;
+  const url = absoluteUrl(path, siteId);
   const imgUrl = ogImage ? (ogImage.startsWith('http') ? ogImage : `${SITE_URL}${ogImage}`) : undefined;
   const jsonLdContent = jsonLd.length > 0 ? (jsonLd.length === 1 ? jsonLd[0] : jsonLd) : null;
+  const autoAlternates = alternates ?? oahuHreflang(path, siteId);
 
   useEffect(() => {
-    if (typeof document === 'undefined') return;
     document.title = fullTitle;
     upsertMeta('name', 'description', description);
     upsertMeta('property', 'og:title', fullTitle);
@@ -59,6 +64,9 @@ export function Seo({ title, description, path, ogImage, jsonLd = [] }: SeoProps
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={url} />
+      {autoAlternates?.map((a) => (
+        <link key={a.hreflang} rel="alternate" hrefLang={a.hreflang} href={a.href} />
+      ))}
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={url} />
@@ -72,6 +80,24 @@ export function Seo({ title, description, path, ogImage, jsonLd = [] }: SeoProps
       )}
     </>
   );
+}
+
+/** EN ↔ JA pairs for Oʻahu pages that have a Japanese cluster twin. */
+function oahuHreflang(path: string, siteId: SiteId): { hreflang: string; href: string }[] | undefined {
+  if (siteId !== 'oahu') return undefined;
+  const raw = path.replace(/^\/oahu/, '') || '/';
+  const isJa = raw === '/ja' || raw.startsWith('/ja/');
+  const enPath = isJa ? raw.replace(/^\/ja/, '') || '/' : raw;
+  const jaPath = isJa ? raw : enPath === '/' ? '/ja' : `/ja${enPath}`;
+  // Only advertise pairs for the JA index and a few known twins — avoid inventing JA URLs.
+  const jaKnown = new Set(['/ja', '/ja/omakase-at-home', '/ja/waikiki-private-chef', '/ja/stay-chef', '/ja/weddings', '/']);
+  if (!isJa && !jaKnown.has(jaPath) && enPath !== '/') return undefined;
+  if (isJa && !jaKnown.has(raw) && raw !== '/ja') return undefined;
+  return [
+    { hreflang: 'en', href: absoluteUrl(enPath === '/' ? '/oahu' : `/oahu${enPath}`, 'oahu') },
+    { hreflang: 'ja', href: absoluteUrl(jaPath === '/' ? '/oahu/ja' : `/oahu${jaPath}`, 'oahu') },
+    { hreflang: 'x-default', href: absoluteUrl(enPath === '/' ? '/oahu' : `/oahu${enPath}`, 'oahu') },
+  ];
 }
 
 /* ---------------- JSON-LD builders ---------------- */
@@ -103,19 +129,63 @@ export function foodServiceLd(): JsonLd {
   };
 }
 
-export function serviceLd(name: string, description: string, path: string, areaName?: string): JsonLd {
+/** Per-island FoodService + LocalBusiness for subdomain homes. */
+export function islandFoodServiceLd(
+  siteId: Exclude<SiteId, 'hub'>,
+  opts: { name: string; description: string; sameAs?: string[] },
+): JsonLd[] {
+  const url = absoluteUrl('/', siteId);
+  const area =
+    siteId === 'oahu'
+      ? 'Oʻahu'
+      : siteId === 'maui'
+        ? 'Maui'
+        : siteId === 'kauai'
+          ? 'Kauaʻi'
+          : 'Hawaiʻi Island';
+  return [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'FoodService',
+      name: opts.name,
+      description: opts.description,
+      url,
+      areaServed: { '@type': 'AdministrativeArea', name: area },
+      provider: { '@type': 'Organization', name: 'myCHEF Hawaii', url: SITE_URL },
+      ...(opts.sameAs?.length ? { sameAs: opts.sameAs } : {}),
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'LocalBusiness',
+      name: opts.name,
+      description: opts.description,
+      url,
+      areaServed: area,
+      parentOrganization: { '@type': 'Organization', name: 'myCHEF Hawaii', url: SITE_URL },
+      ...(opts.sameAs?.length ? { sameAs: opts.sameAs } : {}),
+    },
+  ];
+}
+
+export function serviceLd(
+  name: string,
+  description: string,
+  path: string,
+  areaName?: string,
+  siteId?: SiteId,
+): JsonLd {
   return {
     '@context': 'https://schema.org',
     '@type': 'Service',
     serviceType: name,
     description,
-    url: `${SITE_URL}${path}`,
+    url: absoluteUrl(path, siteId),
     provider: { '@type': 'Organization', name: 'myCHEF Hawaii', url: SITE_URL },
     ...(areaName ? { areaServed: { '@type': 'AdministrativeArea', name: areaName } } : {}),
   };
 }
 
-export function breadcrumbLd(items: { name: string; path: string }[]): JsonLd {
+export function breadcrumbLd(items: { name: string; path: string }[], siteId?: SiteId): JsonLd {
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -123,7 +193,7 @@ export function breadcrumbLd(items: { name: string; path: string }[]): JsonLd {
       '@type': 'ListItem',
       position: i + 1,
       name: it.name,
-      item: `${SITE_URL}${it.path}`,
+      item: absoluteUrl(it.path, siteId),
     })),
   };
 }

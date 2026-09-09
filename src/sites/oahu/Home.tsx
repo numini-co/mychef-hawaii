@@ -7,8 +7,9 @@
  */
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router';
-import { Seo, foodServiceLd, faqLd, breadcrumbLd } from '@/platform/seo';
+import { Seo, islandFoodServiceLd, faqLd, breadcrumbLd } from '@/platform/seo';
 import { RATES } from '@/platform/config';
+import { GBP_DESKS } from '@/data/trust-proof';
 import TrustStrip from '@/components/TrustStrip';
 import FeeStack from '@/components/FeeStack';
 import SectionReveal from '@/components/SectionReveal';
@@ -71,7 +72,7 @@ const OAHU_CAPABILITIES = [
   },
   {
     title: 'Live-Flame BBQ Catering',
-    price: 'From $110/guest',
+    price: 'Table band · $95–$125/guest',
     unit: 'chef + grill',
     desc: 'Outdoor lanai and lawn grilling: fresh Pacific catch, kalbi ribs, island sweet potatoes, tropical slaws.',
     href: '/oahu/services/bbq-catering',
@@ -235,7 +236,7 @@ const RATE_ROWS = [
 ];
 
 const STEPS = [
-  { n: '01', title: 'Send the quote form', body: 'Five fields, two minutes.' },
+  { n: '01', title: 'Send the quote form', body: 'Six steps, two minutes.' },
   { n: '02', title: 'Get a written quote', body: 'The confirmed total, itemized.' },
   { n: '03', title: '50% deposit locks the date', body: 'Only after you have seen the numbers.' },
   { n: '04', title: 'We cook, we serve, we clean', body: 'Your kitchen, left cleaner than we found it.' },
@@ -254,8 +255,17 @@ export default function OahuHome() {
         title="Private Chef Oʻahu — from $125/guest | myCHEF"
         description="Private chef and staffed catering across Oʻahu. Signature dinners $125–$190 a guest, groceries included. Stay Chef from $850 a day. The written quote is the confirmed total."
         path="/oahu"
-        ogImage="/img/oahu/hero-home.jpg"
-        jsonLd={[foodServiceLd(), faqLd(HOME_FAQ), breadcrumbLd([{ name: 'Home', path: '/' }, { name: 'Oʻahu', path: '/oahu' }])]}
+        ogImage="/img/oahu/hero-home.webp"
+        jsonLd={[
+          ...islandFoodServiceLd('oahu', {
+            name: 'myCHEF Oʻahu',
+            description:
+              'Private chef and staffed catering across Oʻahu. Signature dinners $125–$190 a guest, groceries included. Stay Chef from $850 a day.',
+            sameAs: [GBP_DESKS.oahu.mapsUrl],
+          }),
+          faqLd(HOME_FAQ),
+          breadcrumbLd([{ name: 'Home', path: '/' }, { name: 'Oʻahu', path: '/oahu' }]),
+        ]}
       />
 
       {/* S2 — Split editorial hero (Oʻahu-only composition; not full-bleed) */}

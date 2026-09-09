@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import { useSite } from '@/platform/IslandProvider';
-import { RATES } from '@/platform/config';
+import { formatMoney, RATES } from '@/platform/config';
 import type { IslandId } from '@/platform/tokens';
 
 /**
@@ -19,7 +19,7 @@ export default function IslandRateBar() {
         <p className="tabular-site min-w-0 truncate text-ink-2">
           <span className="text-ink">Signature {rates.coreBand}</span>
           <span aria-hidden="true"> · </span>
-          Stay Chef from ${rates.stayChefDay}/day
+          Stay Chef from {formatMoney(rates.stayChefDay)}/day
           <span className="hidden sm:inline">
             <span aria-hidden="true"> · </span>
             Date Night {rates.dateNight}

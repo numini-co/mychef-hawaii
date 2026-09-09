@@ -79,7 +79,7 @@ export const content: ContentRecord[] = [
         heading: 'Big Island — Volcanic',
         body: [
           'The Kona–Kohala corridor west, Hilo–Volcano east — two and a half hours apart, priced honestly. Ledger-style pricing, night service, food carrying the color on basalt.',
-          'CORE dinners $150–$225 a guest · Stay Chef from $950 a day · Date Night from $550.',
+          'Signature dinners $150–$225 a guest · Stay Chef from $950 a day · Date Night from $550.',
         ],
         links: [{ label: 'The Big Island site', href: '/bigisland' }],
       },
@@ -644,7 +644,7 @@ export const content: ContentRecord[] = [
         { label: 'Kauaʻi', value: '$150–$250 / guest', note: 'Stay Chef from $1,100/day · Date Night $650–$950' },
         { label: 'Big Island', value: '$150–$225 / guest', note: 'Stay Chef from $950/day · Date Night from $550' },
       ],
-      footnote: 'CORE/Signature bands, groceries included. ENTRY from $110 and Chef’s table to $400+ where published on the island cards.',
+      footnote: 'Signature bands (primary), groceries included. Oʻahu Table $95–$125 and Big Island Entry from $110 sit under Signature where published; Chef’s table to $400+ on the island cards.',
     },
     faq: [
       {
@@ -735,7 +735,7 @@ export const content: ContentRecord[] = [
       {
         heading: 'Reading the table',
         body: [
-          'Oʻahu runs the lowest CORE floor ($125) because roster depth and grocery supply are best in Honolulu. Kauaʻi’s Stay Chef rate ($1,100/day) reflects island logistics and a smaller roster. The Big Island’s CORE band caps at $225 — and its hero price is $150, never $125.',
+          'Oʻahu runs the lowest Signature floor ($125) because roster depth and grocery supply are best in Honolulu. Kauaʻi’s Stay Chef rate ($1,100/day) reflects island logistics and a smaller roster. The Big Island’s Signature band caps at $225 — and its hero price is $150, never $125. Oʻahu Table ($95–$125) and Big Island Entry (from $110) are published under Signature on those island cards only.',
           'Travel postures differ honestly: Oʻahu surcharges the North Shore from $75; Maui quotes Pāʻia and Haʻikū at inquiry; Kauaʻi quotes the far North with 72-hour notice; the Big Island quotes its east side per event.',
         ],
       },
@@ -746,7 +746,7 @@ export const content: ContentRecord[] = [
         { label: 'Oʻahu — Signature', value: '$125–$190 / guest', note: 'Stay Chef $850/day · Date Night from $450 · Bar $650/4hr + $45pp' },
         { label: 'Maui — Signature', value: '$150–$250 / guest', note: 'Stay Chef $1,050/day · Date Night from $500 · Bar $800/4hr' },
         { label: 'Kauaʻi — Signature', value: '$150–$250 / guest', note: 'Stay Chef $1,100/day · Date Night $650–$950 · Bar $850/4hr + $60pp' },
-        { label: 'Big Island — CORE', value: '$150–$225 / guest', note: 'Stay Chef $950/day · Date Night from $550 · Bar $725/4hr' },
+        { label: 'Big Island — Signature', value: '$150–$225 / guest', note: 'Stay Chef $950/day · Date Night from $550 · Bar $725/4hr · Entry from $110 under Signature' },
       ],
       footnote: 'Staffing everywhere: server $55/hr · sous chef $75/hr · four-hour floor.',
     },
@@ -1099,7 +1099,7 @@ export const content: ContentRecord[] = [
           'Oʻahu — metropolitan: Waikīkī penthouses to North Shore estates · Signature $125–$190/guest',
           'Maui — cinematic: Wailea to Kapalua villa country · Signature $150–$250/guest',
           'Kauaʻi — botanical: both shores, estate kitchens · Signature $150–$250/guest',
-          'Big Island — volcanic: Kona–Kohala corridor, honest east-side quoting · CORE $150–$225/guest',
+          'Big Island — volcanic: Kona–Kohala corridor, honest east-side quoting · Signature $150–$225/guest',
         ],
       },
       {
@@ -1474,15 +1474,19 @@ export const content: ContentRecord[] = [
       {
         heading: 'Verifiable Third-Party Reviews & Island Google Business Profiles',
         body: [
-          'We do not publish anonymous or unverified reviews. Prospective clients, corporate event planners, and family offices may verify our reputation through verified third-party listings:',
-          '• Oʻahu Desk & Metropolitan Coverage: Google Business Profile (Honolulu, Waikīkī, North Shore)',
-          '• Maui Desk & Resort-Villa Coverage: Google Business Profile (Wailea, Mākena, Kapalua)',
-          '• Kauaʻi Desk & Estate Coverage: Google Business Profile (Hanalei, Princeville, Poʻipū)',
-          '• Big Island Desk & Enclave Coverage: Google Business Profile (Kona, Kohala Coast, Kūkiʻo)',
-          'Verifiable client and estate manager references are available upon request for accounts booked under mutual Non-Disclosure Agreements (NDAs).',
+          'We publish curated, attributable Hawaii reviews from completed events — and we invite verification on each island desk. Open the Google Maps search for the desk that matches your trip:',
+          '• Oʻahu Desk — Honolulu, Waikīkī, North Shore',
+          '• Maui Desk — Wailea, Mākena, Kapalua',
+          '• Kauaʻi Desk — Hanalei, Princeville, Poʻipū',
+          '• Big Island Desk — Kona, Kohala Coast, Kūkiʻo',
+          'The 4.98 average and 50 Hawaii reviews on the homepage are drawn from this verified set. The “10,000+ worldwide” figure counts five-star private dinners across the myCHEF International network (Dubai, Bali, Cape Town, and Hawaiʻi). Verifiable estate-manager references are available under NDA for qualifying accounts.',
         ],
         links: [
-          { label: 'Booking Terms & Cancellation Policy', href: '/legal' },
+          { label: 'Oʻahu desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Oahu+Honolulu' },
+          { label: 'Maui desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Maui+Wailea' },
+          { label: 'Kauaʻi desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Kauai' },
+          { label: 'Big Island desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Kona+Kohala' },
+          { label: 'Reviews policy', href: '/reviews-policy' },
           { label: 'Sample Itemized Quote (PDF)', href: '/sample-quotes/sample-itemized-quote-mychef-hawaii.pdf' },
         ],
       },
@@ -1631,17 +1635,34 @@ export const content: ContentRecord[] = [
     sections: [
       {
         heading: 'Book a chef',
-        body: ['The quote flow — six steps, two minutes, one written quote. This is the only door for bookings, and it is fast.'],
-        links: [{ label: 'Start the quote', href: '/quote' }],
+        body: [
+          'The quote flow — six steps, two minutes, one written quote. This is the only door for bookings, and it is fast.',
+          'Direct line: quotes@mychef-hawaii.com · +1 (808) 468-7748 · WhatsApp +1 (808) 468-7748',
+        ],
+        links: [
+          { label: 'Start the quote', href: '/quote' },
+          { label: 'Email quotes@mychef-hawaii.com', href: 'mailto:quotes@mychef-hawaii.com' },
+          { label: 'Call (808) 468-7748', href: 'tel:+18084687748' },
+          { label: 'WhatsApp the desk', href: 'https://wa.me/18084687748' },
+        ],
       },
       {
         heading: 'Partner with us',
-        body: ['Villa managers, concierges, wedding planners: the partner brief routes to the island teams with your properties and volumes.'],
-        links: [{ label: 'Partners', href: '/partners' }],
+        body: [
+          'Villa managers, concierges, wedding planners: the partner brief routes to the island teams with your properties and volumes.',
+          'Partnerships desk: partnerships@mychef-hawaii.com',
+        ],
+        links: [
+          { label: 'Partners', href: '/partners' },
+          { label: 'Email partnerships@mychef-hawaii.com', href: 'mailto:partnerships@mychef-hawaii.com' },
+        ],
       },
       {
         heading: 'Press',
-        body: ['Interviews, imagery, and the honesty register as background. Write to the network desk and say what you are making.'],
+        body: [
+          'Interviews, imagery, and the honesty register as background. Write to press@mychef-hawaii.com and say what you are making.',
+        ],
+        links: [{ label: 'Email press@mychef-hawaii.com', href: 'mailto:press@mychef-hawaii.com' }],
       },
       {
         heading: 'Careers',
@@ -1673,7 +1694,7 @@ export const content: ContentRecord[] = [
           'Dates we can’t crew — we never hold a date the roster can’t honor',
           'Hidden travel fees — surcharge zones are published; quote-only zones say so',
           'Selling alcohol — county liquor commissions differ; client-supplied or licensed referral only',
-          'AggregateRating schema — no star ratings we can’t substantiate, in markup or in copy',
+          'AggregateRating schema in page markup — on-page Hawaii averages appear only with attributable published reviews; we never inject AggregateRating into JSON-LD',
         ],
       },
       {
@@ -1731,13 +1752,20 @@ export const content: ContentRecord[] = [
     },
     parent: 'trust',
     intro:
-      'A review you can’t verify is advertising. Ours publish only after verified events — the quote, the service, the receipt — and the acquisition program is disclosed rather than disguised.',
+      'A review you can’t verify is advertising. Ours publish only after verified events — the quote, the service, the receipt — and the acquisition program is disclosed rather than disguised. The homepage shows a curated Hawaii sample (50 reviews, 4.98 average) drawn from that set, plus the network-wide dinner record across Dubai, Bali, Cape Town, and Hawaiʻi.',
     sections: [
       {
         heading: 'Curated 50 Hawaii Reviews & 10,000+ Worldwide Record',
         body: [
-          'We showcase 50 curated, attributable Hawaii reviews across Oʻahu, Maui, Kauaʻi, and Big Island — representing a small selection of over 10,000 five-star private dinners delivered worldwide through the myCHEF network in Dubai, Bali, Cape Town, and Hawaii.',
-          'Every published testimonial reflects a completed, verified event with confirmed client consent, specific villa location, and actual menu format.',
+          'We showcase 50 curated, attributable Hawaii reviews across Oʻahu, Maui, Kauaʻi, and Big Island — a published sample of completed Hawaiʻi events, not an anonymous widget.',
+          'The “10,000+ worldwide” line counts five-star private dinners delivered through the myCHEF International network in Dubai, Bali, Cape Town, and Hawaiʻi — not 10,000 separate Hawaiʻi Google reviews.',
+          'Every published Hawaiʻi testimonial reflects a completed, verified event with client consent, service type, and island.',
+        ],
+        links: [
+          { label: 'Oʻahu desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Oahu+Honolulu' },
+          { label: 'Maui desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Maui+Wailea' },
+          { label: 'Kauaʻi desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Kauai' },
+          { label: 'Big Island desk on Google Maps', href: 'https://www.google.com/maps/search/?api=1&query=myCHEF+Hawaii+Private+Chef+Kona+Kohala' },
         ],
       },
       {
@@ -1746,12 +1774,13 @@ export const content: ContentRecord[] = [
           'The event completes — quote, service, balance paid',
           'The guest is invited to review; the invitation is the acquisition program, disclosed here',
           'The review publishes with the service type and island, never with invented detail',
+          'Google-sourced lines link out to the matching island desk Maps search so you can verify independently',
         ],
       },
       {
         heading: 'What you will never see here',
         body: [
-          'Imported testimonials, star widgets with no underlying review, or AggregateRating schema in the page markup. Search engines penalize the last one; guests should penalize the first two.',
+          'Purchased testimonials, reviews with no completed event, or AggregateRating schema in page markup. On-page star averages appear only when they match this published, attributable Hawaii sample — and we never inject AggregateRating into JSON-LD.',
         ],
         links: [{ label: 'The honesty register', href: '/trust' }],
       },

@@ -12,7 +12,7 @@ import { BandQuote, CORRIDOR, HeroPanel, LedgerRow, Mono } from './bits';
 const FAQ = [
   {
     q: 'How much is a private chef on the Big Island?',
-    a: 'CORE villa dinners run $150–$225 a guest with groceries inside the band; ENTRY starts from $110. Date Night from $550, Stay Chef from $950 a day. Staffing and travel are separate published lines — the written quote is the confirmed total.',
+    a: 'Signature villa dinners run $150–$225 a guest with groceries inside the band; Entry under Signature starts from $110. Date Night from $550, Stay Chef from $950 a day. Staffing and travel are separate published lines — the written quote is the confirmed total.',
   },
   {
     q: 'Do you serve Hilo or Volcano?',
@@ -37,7 +37,7 @@ const FAQ = [
 ];
 
 const PRODUCTS = [
-  { label: 'VILLA DINNER — CORE', value: '$150–$225/GUEST', to: 'services/fine-dining', note: 'Coursed, plated, in your kitchen. Groceries inside the band.' },
+  { label: 'VILLA DINNER — SIGNATURE', value: '$150–$225/GUEST', to: 'services/fine-dining', note: 'Coursed, plated, in your kitchen. Groceries inside the band. Entry from $110 under Signature.' },
   { label: 'ENTRY', value: 'FROM $110/GUEST', to: 'menus/signature-three-course', note: 'The simplified arc — same kitchen, same standard.' },
   { label: 'DATE NIGHT', value: 'FROM $550', to: 'services/date-night', note: 'Two seats, coursed, sunset-timed.' },
   { label: 'STAY CHEF', value: 'FROM $950/DAY', to: 'stay-chef', note: 'The week, cooked. Groceries at cost with receipts.' },

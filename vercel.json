@@ -4,7 +4,191 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.mychef-hawaii.com" }],
+      "destination": "https://mychef-hawaii.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.oahu.mychef-hawaii.com" }],
+      "destination": "https://oahu.mychef-hawaii.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.maui.mychef-hawaii.com" }],
+      "destination": "https://maui.mychef-hawaii.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.kauai.mychef-hawaii.com" }],
+      "destination": "https://kauai.mychef-hawaii.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.bigisland.mychef-hawaii.com" }],
+      "destination": "https://bigisland.mychef-hawaii.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/oahu",
+      "has": [{ "type": "host", "value": "mychef-hawaii.com" }],
+      "destination": "https://oahu.mychef-hawaii.com/",
+      "permanent": true
+    },
+    {
+      "source": "/oahu/:path*",
+      "has": [{ "type": "host", "value": "mychef-hawaii.com" }],
+      "destination": "https://oahu.mychef-hawaii.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/maui",
+      "has": [{ "type": "host", "value": "mychef-hawaii.com" }],
+      "destination": "https://maui.mychef-hawaii.com/",
+      "permanent": true
+    },
+    {
+      "source": "/maui/:path*",
+      "has": [{ "type": "host", "value": "mychef-hawaii.com" }],
+      "destination": "https://maui.mychef-hawaii.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/kauai",
+      "has": [{ "type": "host", "value": "mychef-hawaii.com" }],
+      "destination": "https://kauai.mychef-hawaii.com/",
+      "permanent": true
+    },
+    {
+      "source": "/kauai/:path*",
+      "has": [{ "type": "host", "value": "mychef-hawaii.com" }],
+      "destination": "https://kauai.mychef-hawaii.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/bigisland",
+      "has": [{ "type": "host", "value": "mychef-hawaii.com" }],
+      "destination": "https://bigisland.mychef-hawaii.com/",
+      "permanent": true
+    },
+    {
+      "source": "/bigisland/:path*",
+      "has": [{ "type": "host", "value": "mychef-hawaii.com" }],
+      "destination": "https://bigisland.mychef-hawaii.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/oahu/:path*",
+      "has": [{ "type": "host", "value": "oahu.mychef-hawaii.com" }],
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/maui/:path*",
+      "has": [{ "type": "host", "value": "maui.mychef-hawaii.com" }],
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/kauai/:path*",
+      "has": [{ "type": "host", "value": "kauai.mychef-hawaii.com" }],
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/bigisland/:path*",
+      "has": [{ "type": "host", "value": "bigisland.mychef-hawaii.com" }],
+      "destination": "/:path*",
+      "permanent": true
+    }
+  ],
   "rewrites": [
+    {
+      "source": "/robots.txt",
+      "has": [{ "type": "host", "value": "oahu.mychef-hawaii.com" }],
+      "destination": "/robots-oahu.txt"
+    },
+    {
+      "source": "/robots.txt",
+      "has": [{ "type": "host", "value": "maui.mychef-hawaii.com" }],
+      "destination": "/robots-maui.txt"
+    },
+    {
+      "source": "/robots.txt",
+      "has": [{ "type": "host", "value": "kauai.mychef-hawaii.com" }],
+      "destination": "/robots-kauai.txt"
+    },
+    {
+      "source": "/robots.txt",
+      "has": [{ "type": "host", "value": "bigisland.mychef-hawaii.com" }],
+      "destination": "/robots-bigisland.txt"
+    },
+    {
+      "source": "/sitemap.xml",
+      "has": [{ "type": "host", "value": "oahu.mychef-hawaii.com" }],
+      "destination": "/_sitemaps/oahu.xml"
+    },
+    {
+      "source": "/sitemap.xml",
+      "has": [{ "type": "host", "value": "maui.mychef-hawaii.com" }],
+      "destination": "/_sitemaps/maui.xml"
+    },
+    {
+      "source": "/sitemap.xml",
+      "has": [{ "type": "host", "value": "kauai.mychef-hawaii.com" }],
+      "destination": "/_sitemaps/kauai.xml"
+    },
+    {
+      "source": "/sitemap.xml",
+      "has": [{ "type": "host", "value": "bigisland.mychef-hawaii.com" }],
+      "destination": "/_sitemaps/bigisland.xml"
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "oahu.mychef-hawaii.com" }],
+      "destination": "/oahu"
+    },
+    {
+      "source": "/((?!api/|assets/|img/|videos/|sample-quotes/|favicon|robots\\.txt|sitemap\\.xml|llms\\.txt|.*\\..*).*)",
+      "has": [{ "type": "host", "value": "oahu.mychef-hawaii.com" }],
+      "destination": "/oahu/$1"
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "maui.mychef-hawaii.com" }],
+      "destination": "/maui"
+    },
+    {
+      "source": "/((?!api/|assets/|img/|videos/|sample-quotes/|favicon|robots\\.txt|sitemap\\.xml|llms\\.txt|.*\\..*).*)",
+      "has": [{ "type": "host", "value": "maui.mychef-hawaii.com" }],
+      "destination": "/maui/$1"
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "kauai.mychef-hawaii.com" }],
+      "destination": "/kauai"
+    },
+    {
+      "source": "/((?!api/|assets/|img/|videos/|sample-quotes/|favicon|robots\\.txt|sitemap\\.xml|llms\\.txt|.*\\..*).*)",
+      "has": [{ "type": "host", "value": "kauai.mychef-hawaii.com" }],
+      "destination": "/kauai/$1"
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "bigisland.mychef-hawaii.com" }],
+      "destination": "/bigisland"
+    },
+    {
+      "source": "/((?!api/|assets/|img/|videos/|sample-quotes/|favicon|robots\\.txt|sitemap\\.xml|llms\\.txt|.*\\..*).*)",
+      "has": [{ "type": "host", "value": "bigisland.mychef-hawaii.com" }],
+      "destination": "/bigisland/$1"
+    },
     {
       "source": "/((?!api/|assets/|img/|videos/|sample-quotes/|favicon|robots\\.txt|sitemap\\.xml|llms\\.txt|.*\\..*).*)",
       "destination": "/index.html"

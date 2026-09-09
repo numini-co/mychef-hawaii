@@ -1,0 +1,57 @@
+{
+  "serviceChargePercent": 20,
+  "getPercent": 4.712,
+  "getValidThrough": "2030-12-31",
+  "depositPercent": 50,
+  "groceries": "at cost",
+  "tiers": {
+    "signature": "Signature",
+    "premium": "Premium",
+    "chefsTable": "Chef's Table",
+    "table": "Table",
+    "entry": "Entry"
+  },
+  "islands": {
+    "oahu": {
+      "signatureLow": 125,
+      "signatureHigh": 190,
+      "signatureBand": "$125–$190",
+      "tableLow": 95,
+      "tableHigh": 125,
+      "tableBand": "$95–$125",
+      "stayChefDay": 850,
+      "dateNight": "from $450",
+      "barCart": "from $650/4hr",
+      "travel": "from $75"
+    },
+    "maui": {
+      "signatureLow": 150,
+      "signatureHigh": 250,
+      "signatureBand": "$150–$250",
+      "stayChefDay": 1050,
+      "dateNight": "from $500",
+      "barCart": "from $700/4hr",
+      "travel": "from $75"
+    },
+    "kauai": {
+      "signatureLow": 150,
+      "signatureHigh": 250,
+      "signatureBand": "$150–$250",
+      "stayChefDay": 1100,
+      "dateNight": "$650–$950",
+      "barCart": "from $700/4hr",
+      "travel": "from $75"
+    },
+    "bigisland": {
+      "signatureLow": 150,
+      "signatureHigh": 225,
+      "signatureBand": "$150–$225",
+      "entryFrom": 110,
+      "entryBand": "from $110",
+      "stayChefDay": 950,
+      "dateNight": "from $550",
+      "barCart": "from $725/4hr",
+      "travel": "from $75"
+    }
+  }
+}

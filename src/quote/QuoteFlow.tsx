@@ -13,11 +13,10 @@ import { useEffect, useMemo, useState, type CSSProperties } from 'react';
 import { Link } from 'react-router';
 import type { IslandId, SiteId } from '@/platform/tokens';
 import { ISLAND_IDS, SITE_META, TOKENS, tokensToCssVars } from '@/platform/tokens';
-import { CONTACT, RATES } from '@/platform/config';
+import { CONTACT, formatMoney, RATES } from '@/platform/config';
 import { useSite } from '@/platform/IslandProvider';
 import { Seo } from '@/platform/seo';
-import LongformArticle from '@/platform/longform/LongformArticle';
-import type { ContentRecord } from '@/platform/types';
+import PageFaq from '@/components/PageFaq';
 import {
   computeQuoteEstimate,
   datesAreValid,
@@ -102,7 +101,7 @@ const SERVICES: ServiceOption[] = [
     id: 'stay-chef',
     label: 'Multi-day — Stay Chef',
     scope: 'The same chef across the trip: breakfasts, kids’ meals, dinners.',
-    price: (i) => `from $${rateOf(i)?.stayChefDay ?? 850}/day`,
+    price: (i) => `from ${formatMoney(rateOf(i)?.stayChefDay ?? 850)}/day`,
   },
   {
     id: 'wedding-week',
@@ -627,26 +626,29 @@ export default function QuoteFlow() {
           locks the date, only after you have seen the numbers.
         </p>
       </div>
-      <LongformArticle record={quoteRecord(siteId)} />
+      <PageFaq
+        heading="Before you start the quote"
+        items={[
+          {
+            q: 'Is the range on this page the final price?',
+            a: 'No. Ranges are estimates only. The written quote you receive is the confirmed total — itemized with labor, 20% service charge, Hawaiʻi GET, and groceries at cost.',
+          },
+          {
+            q: 'When do you take a deposit?',
+            a: 'A 50% deposit locks the date only after you have seen the written numbers. The button on this page is not a booking.',
+          },
+          {
+            q: 'What if my villa kitchen is limited?',
+            a: 'Send kitchen photos early. We decline hotel rooms without kitchens and will say yes or no before you spend time on a menu.',
+          },
+          {
+            q: 'Can one quote cover more than one island?',
+            a: 'Yes. Choose “More than one island” and we staff every table on the itinerary under one brief and one written quote.',
+          },
+        ]}
+      />
     </div>
   );
-}
-
-function quoteRecord(siteId: SiteId): ContentRecord {
-  const label =
-    siteId === 'hub' ? 'Hawaii' : siteId === 'oahu' ? 'Oahu' : siteId === 'maui' ? 'Maui' : siteId === 'kauai' ? 'Kauai' : 'Big Island';
-  return {
-    slug: 'quote',
-    category: 'core',
-    title: `Get a Written Quote — Private Chef ${label}`,
-    h1: 'Tell us about the table.',
-    meta: {
-      description: `Six steps, two minutes, one written quote for ${label}. The written quote is the confirmed total — never a chat estimate.`,
-    },
-    sections: [],
-    cta: { label: 'Start the quote', href: 'quote' },
-    keywords: [`book a private chef ${label}`],
-  };
 }
 
 /* ---------------- steps ---------------- */
@@ -667,7 +669,7 @@ function StepIsland({ s, set }: StepProps) {
             selected={s.island === id}
             onSelect={() => set({ island: id, area: '' })}
             title={SITE_META[id].name}
-            body={`Signature ${RATES[id].coreBand} a guest · Stay Chef from $${RATES[id].stayChefDay}/day`}
+            body={`Signature ${RATES[id].coreBand} a guest · Stay Chef from ${formatMoney(RATES[id].stayChefDay)}/day`}
           />
         ))}
         <ChoiceCard

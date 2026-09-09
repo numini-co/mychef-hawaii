@@ -2,7 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /quote?*
 
-# Explicitly welcome AI assistants & search crawlers (Bali template)
 User-agent: GPTBot
 Allow: /
 
@@ -24,4 +23,5 @@ Allow: /
 User-agent: Applebot
 Allow: /
 
+Sitemap: https://mychef-hawaii.com/sitemap-index.xml
 Sitemap: https://mychef-hawaii.com/sitemap.xml

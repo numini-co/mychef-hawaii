@@ -22,6 +22,7 @@ import SectionReveal from '@/components/SectionReveal';
 import FAQAccordion from '@/components/FAQAccordion';
 import type { IslandId } from '@/platform/tokens';
 import IslandMark from '@/components/IslandMark';
+import { formatMoney, RATES } from '@/platform/config';
 
 interface IslandPricingConfig {
   id: IslandId;
@@ -46,11 +47,11 @@ const ISLAND_CONFIGS: Record<IslandId, IslandPricingConfig> = {
     taxRate: 0.04712,
     taxLabel: '4.7120% (Honolulu County)',
     foodBands: {
-      signature: { min: 125, max: 190, label: '$125–$190/guest' },
-      family: { min: 125, max: 175, label: '$125–$175/guest' },
-      premium: { min: 190, max: 275, label: '$190–$275/guest' },
-      bbq: { min: 110, max: 160, label: 'From $110/guest' },
-      stayChefDaily: 850,
+      signature: { min: RATES.oahu.coreLow, max: RATES.oahu.coreHigh, label: `${RATES.oahu.coreBand}/guest` },
+      family: { min: RATES.oahu.coreLow, max: RATES.oahu.coreHigh, label: `Signature ${RATES.oahu.coreBand}/guest` },
+      premium: { min: 190, max: 275, label: 'Premium $190–$275/guest' },
+      bbq: { min: 95, max: 125, label: 'Table $95–$125/guest' },
+      stayChefDaily: RATES.oahu.stayChefDay,
       dateNightFixed: 450,
     },
     zones: [
@@ -62,14 +63,14 @@ const ISLAND_CONFIGS: Record<IslandId, IslandPricingConfig> = {
   maui: {
     id: 'maui',
     name: 'Maui',
-    taxRate: 0.04166,
-    taxLabel: '4.166% (Maui County)',
+    taxRate: 0.04712,
+    taxLabel: '4.7120% (Maui County)',
     foodBands: {
-      signature: { min: 150, max: 250, label: '$150–$250/guest' },
-      family: { min: 150, max: 220, label: '$150–$220/guest' },
-      premium: { min: 220, max: 325, label: '$220–$325/guest' },
-      bbq: { min: 135, max: 190, label: 'From $135/guest' },
-      stayChefDaily: 1050,
+      signature: { min: RATES.maui.coreLow, max: RATES.maui.coreHigh, label: `${RATES.maui.coreBand}/guest` },
+      family: { min: RATES.maui.coreLow, max: RATES.maui.coreHigh, label: `Signature ${RATES.maui.coreBand}/guest` },
+      premium: { min: 190, max: 275, label: 'Premium $190–$275/guest' },
+      bbq: { min: RATES.maui.coreLow, max: RATES.maui.coreHigh, label: `Signature from ${formatMoney(RATES.maui.coreLow)}/guest` },
+      stayChefDaily: RATES.maui.stayChefDay,
       dateNightFixed: 500,
     },
     zones: [
@@ -84,11 +85,11 @@ const ISLAND_CONFIGS: Record<IslandId, IslandPricingConfig> = {
     taxRate: 0.04712,
     taxLabel: '4.7120% (Kauaʻi County)',
     foodBands: {
-      signature: { min: 150, max: 250, label: '$150–$250/guest' },
-      family: { min: 150, max: 220, label: '$150–$220/guest' },
-      premium: { min: 225, max: 350, label: '$225–$350/guest' },
-      bbq: { min: 135, max: 190, label: 'From $135/guest' },
-      stayChefDaily: 1100,
+      signature: { min: RATES.kauai.coreLow, max: RATES.kauai.coreHigh, label: `${RATES.kauai.coreBand}/guest` },
+      family: { min: RATES.kauai.coreLow, max: RATES.kauai.coreHigh, label: `Signature ${RATES.kauai.coreBand}/guest` },
+      premium: { min: 190, max: 275, label: 'Premium $190–$275/guest' },
+      bbq: { min: RATES.kauai.coreLow, max: RATES.kauai.coreHigh, label: `Signature from ${formatMoney(RATES.kauai.coreLow)}/guest` },
+      stayChefDaily: RATES.kauai.stayChefDay,
       dateNightFixed: 650,
     },
     zones: [
@@ -103,11 +104,11 @@ const ISLAND_CONFIGS: Record<IslandId, IslandPricingConfig> = {
     taxRate: 0.04712,
     taxLabel: '4.7120% (Hawaiʻi County)',
     foodBands: {
-      signature: { min: 150, max: 225, label: '$150–$225/guest' },
-      family: { min: 145, max: 210, label: '$145–$210/guest' },
-      premium: { min: 210, max: 320, label: '$210–$320/guest' },
-      bbq: { min: 125, max: 180, label: 'From $125/guest' },
-      stayChefDaily: 950,
+      signature: { min: RATES.bigisland.coreLow, max: RATES.bigisland.coreHigh, label: `${RATES.bigisland.coreBand}/guest` },
+      family: { min: RATES.bigisland.coreLow, max: RATES.bigisland.coreHigh, label: `Signature ${RATES.bigisland.coreBand}/guest` },
+      premium: { min: 190, max: 275, label: 'Premium $190–$275/guest' },
+      bbq: { min: 110, max: RATES.bigisland.coreLow, label: `Entry from $110 · Signature from ${formatMoney(RATES.bigisland.coreLow)}` },
+      stayChefDaily: RATES.bigisland.stayChefDay,
       dateNightFixed: 550,
     },
     zones: [
@@ -565,10 +566,10 @@ export default function CalculatorPage() {
                   <div className="mt-4">
                     <p className="text-xs text-[#EDE8DB]/80 uppercase tracking-wider">Estimated Total Investment</p>
                     <p className="font-display tabular-site text-3xl sm:text-4xl font-bold mt-1 text-[#F7F5F0]">
-                      ${Math.round(math.totalMin).toLocaleString()} – ${Math.round(math.totalMax).toLocaleString()}
+                      {formatMoney(math.totalMin)} – {formatMoney(math.totalMax)}
                     </p>
                     <p className="tabular-site text-xs text-[#EDE8DB]/80 mt-1">
-                      Approximately ${Math.round(math.perGuestMin)} – ${Math.round(math.perGuestMax)} per guest (all taxes &amp; fees included)
+                      Approximately {formatMoney(math.perGuestMin)} – {formatMoney(math.perGuestMax)} per guest (all taxes &amp; fees included)
                     </p>
                   </div>
                 </div>
@@ -587,7 +588,7 @@ export default function CalculatorPage() {
                       </span>
                     </div>
                     <span className="tabular-site font-semibold text-ink whitespace-nowrap">
-                      ${Math.round(math.foodMin).toLocaleString()} – ${Math.round(math.foodMax).toLocaleString()}
+                      {formatMoney(math.foodMin)} – {formatMoney(math.foodMax)}
                     </span>
                   </div>
 
@@ -602,7 +603,7 @@ export default function CalculatorPage() {
                       </span>
                     </div>
                     <span className="tabular-site font-semibold text-ink whitespace-nowrap">
-                      {math.staffingCost > 0 ? `$${math.staffingCost.toLocaleString()}` : '$0'}
+                      {math.staffingCost > 0 ? formatMoney(math.staffingCost) : '$0'}
                     </span>
                   </div>
 
@@ -614,7 +615,7 @@ export default function CalculatorPage() {
                         <span className="text-xs text-ink-2">Glassware, ice, craft mixers</span>
                       </div>
                       <span className="tabular-site font-semibold text-ink whitespace-nowrap">
-                        ${math.barCost.toLocaleString()}
+                        {formatMoney(math.barCost)}
                       </span>
                     </div>
                   )}
@@ -637,7 +638,7 @@ export default function CalculatorPage() {
                       <span className="text-xs text-ink-2">Operations, COI &amp; culinary equipment</span>
                     </div>
                     <span className="tabular-site font-semibold text-ink whitespace-nowrap">
-                      ${Math.round(math.serviceMin).toLocaleString()} – ${Math.round(math.serviceMax).toLocaleString()}
+                      {formatMoney(math.serviceMin)} – {formatMoney(math.serviceMax)}
                     </span>
                   </div>
 
@@ -648,7 +649,7 @@ export default function CalculatorPage() {
                       <span className="text-xs text-ink-2">{cfg.taxLabel}</span>
                     </div>
                     <span className="tabular-site font-semibold text-ink whitespace-nowrap">
-                      ${Math.round(math.taxMin).toLocaleString()} – ${Math.round(math.taxMax).toLocaleString()}
+                      {formatMoney(math.taxMin)} – {formatMoney(math.taxMax)}
                     </span>
                   </div>
 
@@ -656,7 +657,7 @@ export default function CalculatorPage() {
                   <div className="pt-4 flex justify-between items-baseline font-bold text-base text-ink">
                     <span>Confirmed Quote Range</span>
                     <span className="tabular-site text-accent-site text-lg">
-                      ${Math.round(math.totalMin).toLocaleString()} – ${Math.round(math.totalMax).toLocaleString()}
+                      {formatMoney(math.totalMin)} – {formatMoney(math.totalMax)}
                     </span>
                   </div>
 
@@ -674,7 +675,7 @@ export default function CalculatorPage() {
 
                   <a
                     href={`https://wa.me/18084687748?text=${encodeURIComponent(
-                      `myCHEF Hawaii Calculator Estimate:\nIsland: ${cfg.name}\nFormat: ${format.name}\nGuests: ${guests}\nEstimate: $${Math.round(math.totalMin)} - $${Math.round(math.totalMax)}\nPlease provide formal written availability.`
+                      `myCHEF Hawaii Calculator Estimate:\nIsland: ${cfg.name}\nFormat: ${format.name}\nGuests: ${guests}\nEstimate: ${formatMoney(math.totalMin)} - ${formatMoney(math.totalMax)}\nPlease provide formal written availability.`
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"

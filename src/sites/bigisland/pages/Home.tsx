@@ -5,7 +5,8 @@
  * FAQ → quote ledger. Basalt default; the light band interrupts with high contrast.
  */
 import { Link } from 'react-router';
-import { Seo, foodServiceLd, faqLd } from '@/platform/seo';
+import { Seo, islandFoodServiceLd, faqLd } from '@/platform/seo';
+import { GBP_DESKS } from '@/data/trust-proof';
 import { useSite } from '@/platform/IslandProvider';
 import TrustStrip from '@/components/TrustStrip';
 import SectionReveal from '@/components/SectionReveal';
@@ -15,7 +16,7 @@ import { BandQuote, CORRIDOR, EAST, LedgerRow, Mono, HeroPanel, Panel, RATE_ROWS
 const HOME_FAQ = [
   {
     q: 'How much is a private chef on the Big Island?',
-    a: 'CORE villa dinners run $150–$225 a guest with groceries inside the band; the ENTRY tier starts from $110. Date Night starts from $550 and Stay Chef from $950 a day. The written quote is the confirmed total.',
+    a: 'Signature villa dinners run $150–$225 a guest with groceries inside the band; the Entry tier under Signature starts from $110. Date Night starts from $550 and Stay Chef from $950 a day. The written quote is the confirmed total.',
   },
   {
     q: 'Can you cook inside gated communities like Kūkiʻo, Hualālai, and Kohanaiki?',
@@ -221,8 +222,16 @@ export default function BigIslandHome() {
         title="Private Chef Big Island — Kona–Kohala & Gated Estates | myCHEF"
         description="Private chef service on Hawaiʻi Island, Kona–Kohala first. Villa dinners from $150/guest, Stay Chef from $950/day. Gated community access (Kūkiʻo, Hualālai, Kohanaiki), local purveyors, and written quotes."
         path="/bigisland"
-        ogImage="/img/bigisland/hero-home.jpg"
-        jsonLd={[foodServiceLd(), faqLd(HOME_FAQ)]}
+        ogImage="/img/bigisland/hero-home.webp"
+        jsonLd={[
+          ...islandFoodServiceLd('bigisland', {
+            name: 'myCHEF Big Island',
+            description:
+              'Private chef service on Hawaiʻi Island, Kona–Kohala first. Villa dinners from $150/guest, Stay Chef from $950/day.',
+            sameAs: [GBP_DESKS.bigisland.mapsUrl],
+          }),
+          faqLd(HOME_FAQ),
+        ]}
       />
 
       {/* S2 — Hero: the image carries the headline, the price and the way in */}
@@ -236,7 +245,7 @@ export default function BigIslandHome() {
           <Link to={link('locations')} className="link-site">
             Kona–Kohala
           </Link>{' '}
-          first. Villa dinners $150–$225 a guest, ENTRY from $110. Stay Chef from $950 a day. The written
+          first. Villa dinners $150–$225 a guest, Entry from $110 under Signature. Stay Chef from $950 a day. The written
           quote is the confirmed total.
         </p>
         <div className="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
@@ -550,7 +559,7 @@ export default function BigIslandHome() {
           <h2 className="h2-site">How it works.</h2>
           <ol className="mt-12 space-y-10">
             {[
-              'Five fields, two minutes.',
+              'Six steps, two minutes.',
               'Written quote — the confirmed total.',
               '50% deposit locks the date.',
               'We cook. We clean. We go.',

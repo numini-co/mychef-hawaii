@@ -167,7 +167,7 @@ export default function Navbar() {
           {/* Wordmark + Island Picker Button */}
           <div className="flex min-w-0 shrink items-center gap-2 text-ink sm:gap-2.5">
             <Link
-              to={basePath || '/'}
+              to={link('')}
               className="inline-flex h-11 shrink-0 items-center text-ink"
               aria-label={`${SITE_META[siteId].name} home`}
             >
@@ -196,11 +196,11 @@ export default function Navbar() {
               ))}
             {siteId === 'oahu' ? (
               <span className="flex items-center gap-1 text-sm text-ink-2" aria-label="Language">
-                <Link to={basePath} className="link-site">
+                <Link to={link('')} className="link-site">
                   EN
                 </Link>
                 <span aria-hidden="true">/</span>
-                <Link to={`${basePath}/ja`} lang="ja" className="link-site">
+                <Link to={link('ja')} lang="ja" className="link-site">
                   日本語
                 </Link>
               </span>
@@ -354,7 +354,7 @@ export default function Navbar() {
                   <span className="text-xs font-medium text-ink-2">Language</span>
                   <div className="flex items-center gap-3 text-xs font-semibold">
                     <Link
-                      to={basePath}
+                      to={link('')}
                       className="text-ink hover:text-accent-site"
                       onClick={() => setOpen(false)}
                     >
@@ -364,7 +364,7 @@ export default function Navbar() {
                       |
                     </span>
                     <Link
-                      to={`${basePath}/ja`}
+                      to={link('ja')}
                       lang="ja"
                       className="text-ink hover:text-accent-site"
                       onClick={() => setOpen(false)}

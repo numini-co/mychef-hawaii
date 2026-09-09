@@ -7,7 +7,7 @@
  */
 import { Link } from 'react-router';
 import { useSite } from '@/platform/IslandProvider';
-import { RATES } from '@/platform/config';
+import { formatMoney, RATES } from '@/platform/config';
 import FeeStack from '@/components/FeeStack';
 
 const R = RATES.bigisland;
@@ -157,12 +157,12 @@ export function BandQuote({
 
 /** The published rate ledger — one source, reused by home + pricing. */
 export const RATE_ROWS = [
-  { label: 'ENTRY', value: 'FROM $110/GUEST' },
-  { label: 'CORE — THE VILLA DINNER', value: `${R.coreBand}/GUEST` },
+  { label: 'ENTRY — UNDER SIGNATURE', value: 'FROM $110/GUEST' },
+  { label: 'SIGNATURE — THE VILLA DINNER', value: `${R.coreBand}/GUEST` },
   { label: 'PREMIUM', value: '$190–$275/GUEST' },
   { label: "CHEF'S TABLE", value: '$275–$400+/GUEST' },
   { label: 'DATE NIGHT', value: R.dateNight.toUpperCase() },
-  { label: 'STAY CHEF', value: `FROM $${R.stayChefDay}/DAY` },
+  { label: 'STAY CHEF', value: `FROM ${formatMoney(R.stayChefDay)}/DAY` },
   { label: 'WEDDING WEEK', value: 'FROM $150/GUEST + STAFFING' },
   { label: 'PACKAGED BAR CART', value: `FROM ${R.barCart.replace('/4hr', '')}/4HR` },
   { label: 'SERVER', value: '$55/HR' },

@@ -8,7 +8,8 @@
 import { Link } from 'react-router';
 import { useSite } from '@/platform/IslandProvider';
 import { useCrumbs } from '@/platform/templates/shared';
-import { Seo, breadcrumbLd, faqLd, foodServiceLd, serviceLd } from '@/platform/seo';
+import { Seo, breadcrumbLd, faqLd, islandFoodServiceLd, serviceLd } from '@/platform/seo';
+import { GBP_DESKS } from '@/data/trust-proof';
 import SectionReveal from '@/components/SectionReveal';
 import FAQAccordion from '@/components/FAQAccordion';
 import FeeStack from '@/components/FeeStack';
@@ -232,12 +233,18 @@ export default function KauaiHome() {
         jsonLd={[
           breadcrumbLd(crumbs),
           faqLd(HOME_FAQ),
-          foodServiceLd(),
+          ...islandFoodServiceLd('kauai', {
+            name: 'myCHEF Kauaʻi',
+            description:
+              'Private chef, catering, Stay Chef, and retreat catering across Kauaʻi — published rates, written quotes, both shores.',
+            sameAs: [GBP_DESKS.kauai.mapsUrl],
+          }),
           serviceLd(
             'Private Chef Kauaʻi',
             'Private chef, catering, Stay Chef, and retreat catering across Kauaʻi — published rates, written quotes, both shores.',
             link(''),
             'Kauaʻi',
+            'kauai',
           ),
         ]}
       />
