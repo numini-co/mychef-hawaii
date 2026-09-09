@@ -9,7 +9,7 @@
  * never show a number; ends in WhatsApp / mailto handoff, not a fake
  * "booked" state.
  */
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, type CSSProperties } from 'react';
 import { Link } from 'react-router';
 import type { IslandId, SiteId } from '@/platform/tokens';
 import { ISLAND_IDS, SITE_META, TOKENS, tokensToCssVars } from '@/platform/tokens';
@@ -143,7 +143,8 @@ interface QuoteState {
   step: number;
   island: SiteId | '';
   service: string;
-  date: string;
+  /** One or more service dates (YYYY-MM-DD). */
+  dates: string[];
   guests: number;
   area: string;
   kitchen: 'yes' | 'no' | 'unsure' | '';
@@ -160,7 +161,7 @@ const initialState = (island: SiteId | ''): QuoteState => ({
   step: island && island !== 'hub' ? 2 : 1,
   island: island && island !== 'hub' ? island : '',
   service: '',
-  date: '',
+  dates: [''],
   guests: 6,
   area: '',
   kitchen: '',
@@ -172,6 +173,27 @@ const initialState = (island: SiteId | ''): QuoteState => ({
   channel: '',
   sent: '',
 });
+
+function formatDates(dates: string[]): string {
+  const filled = dates.map((d) => d.trim()).filter(Boolean);
+  if (!filled.length) return '—';
+  return filled.join(', ');
+}
+
+function normalizeQuoteState(raw: Partial<QuoteState> & { date?: string }): QuoteState {
+  const base = initialState('');
+  const datesFromLegacy =
+    Array.isArray(raw.dates) && raw.dates.length
+      ? raw.dates
+      : typeof raw.date === 'string' && raw.date
+        ? [raw.date]
+        : [''];
+  return {
+    ...base,
+    ...raw,
+    dates: datesFromLegacy.length ? datesFromLegacy : [''],
+  };
+}
 
 const STORAGE_KEY = 'mychef-quote';
 
@@ -208,7 +230,13 @@ function arrivingInitialState(arrivingIsland: SiteId | ''): QuoteState {
 
   if (paramService) initial.service = paramService;
   if (!isNaN(paramGuests) && paramGuests >= 2) initial.guests = paramGuests;
-  if (paramDates) initial.date = paramDates;
+  if (paramDates) {
+    initial.dates = paramDates
+      .split(/[,|]/)
+      .map((d) => d.trim())
+      .filter(Boolean);
+    if (!initial.dates.length) initial.dates = [''];
+  }
   if (paramArea) initial.area = paramArea;
   if (paramDietary.length) initial.dietary = paramDietary;
   if (paramAddons.length) initial.addons = paramAddons;
@@ -232,8 +260,12 @@ export default function QuoteFlow() {
       }
       const saved = sessionStorage.getItem(STORAGE_KEY);
       if (saved) {
-        const parsed = JSON.parse(saved) as QuoteState;
-        return { ...parsed, island: parsed.island || arrivingIsland || parsed.island };
+        const parsed = JSON.parse(saved) as Partial<QuoteState> & { date?: string };
+        const normalized = normalizeQuoteState(parsed);
+        return {
+          ...normalized,
+          island: normalized.island || arrivingIsland || normalized.island,
+        };
       }
     } catch {
       /* fresh state */
@@ -263,10 +295,11 @@ export default function QuoteFlow() {
   };
 
   const stepValid = useMemo(() => {
+    const hasDate = s.dates.some((d) => d.trim().length > 0);
     switch (s.step) {
       case 1: return !!s.island;
       case 2: return !!s.service;
-      case 3: return !!s.date && s.guests >= 2 && !!s.area;
+      case 3: return hasDate && s.guests >= 2 && !!s.area;
       case 4: return !!s.kitchen;
       case 5: return s.name.trim().length > 1 && s.contact.trim().length > 3 && !!s.channel;
       default: return true;
@@ -277,7 +310,7 @@ export default function QuoteFlow() {
   const skinId: SiteId =
     siteId === 'hub' && s.island && s.island !== 'hub' && s.step >= 2 ? (s.island as SiteId) : siteId;
   const islandLabel = s.island === 'hub' ? 'Multi-island itinerary' : SITE_META[island]?.name ?? '—';
-  const skinVars = tokensToCssVars(TOKENS[skinId]) as React.CSSProperties;
+  const skinVars = tokensToCssVars(TOKENS[skinId]) as CSSProperties;
 
   const area = AREAS[island]?.find((a) => a.label === s.area);
   const service = SERVICES.find((sv) => sv.id === s.service);
@@ -287,10 +320,10 @@ export default function QuoteFlow() {
       'myCHEF Hawaii — quote brief',
       `Island: ${islandLabel}`,
       `Service: ${service?.label ?? '—'}`,
-      `Date: ${s.date || '—'}`,
+      `Date(s): ${formatDates(s.dates)}`,
       `Guests: ${s.guests}`,
       `Area: ${s.area || '—'}`,
-      `Kitchen: ${s.kitchen === 'yes' ? 'Full kitchen' : s.kitchen === 'unsure' ? 'Not sure' : '—'}`,
+      `Kitchen: ${s.kitchen === 'yes' ? 'Full kitchen' : s.kitchen === 'unsure' ? 'Not sure' : s.kitchen === 'no' ? 'No kitchen' : '—'}`,
       `Dietary: ${s.dietary.length ? s.dietary.join(', ') : 'none flagged'}`,
       s.occasion ? `Occasion: ${s.occasion}` : '',
       s.addons.length ? `Add-ons: ${s.addons.join(', ')}` : '',
@@ -299,11 +332,11 @@ export default function QuoteFlow() {
       '(The written quote is the confirmed total; ranges are estimates only.)',
     ].filter(Boolean);
     return lines.join('\n');
-  }, [s, island, service, islandLabel]);
+  }, [s, service, islandLabel]);
 
   const whatsappHref = `https://wa.me/${CONTACT.whatsappNumber}?text=${encodeURIComponent(brief)}`;
   const mailtoHref = `mailto:${CONTACT.email}?subject=${encodeURIComponent(
-    `Quote brief — ${islandLabel} — ${s.date || 'dates flexible'}`,
+    `Quote brief — ${islandLabel} — ${formatDates(s.dates) === '—' ? 'dates flexible' : formatDates(s.dates)}`,
   )}&body=${encodeURIComponent(brief)}`;
 
   const indicative = useMemo(() => {
@@ -508,27 +541,77 @@ function StepService({ s, set, island }: StepProps & { island: SiteId }) {
 }
 
 function StepDateGuests({ s, set, island, area }: StepProps & { island: SiteId; area?: AreaOption }) {
+  const updateDate = (index: number, value: string) => {
+    const next = [...s.dates];
+    next[index] = value;
+    set({ dates: next });
+  };
+  const addDate = () => {
+    if (s.dates.length >= 8) return;
+    set({ dates: [...s.dates, ''] });
+  };
+  const removeDate = (index: number) => {
+    if (s.dates.length <= 1) {
+      set({ dates: [''] });
+      return;
+    }
+    set({ dates: s.dates.filter((_, i) => i !== index) });
+  };
+
   return (
     <fieldset>
       <legend className="font-display text-2xl">When, and how many?</legend>
-      <div className="mt-5 space-y-5">
+      <div className="mt-5 space-y-6">
         <div>
-          <label htmlFor="q-date" className="eyebrow-site mb-2 block">Date</label>
-          <input
-            id="q-date"
-            type="date"
-            className="input-site"
-            value={s.date}
-            onChange={(e) => set({ date: e.target.value })}
-          />
+          <div className="mb-2 flex items-end justify-between gap-3">
+            <label className="eyebrow-site !mb-0 block">Service date(s)</label>
+            <span className="text-xs text-ink-2">{s.dates.filter((d) => d).length || 0} selected</span>
+          </div>
+          <div className="space-y-3">
+            {s.dates.map((date, index) => (
+              <div key={`date-${index}`} className="flex items-center gap-2">
+                <input
+                  id={index === 0 ? 'q-date' : `q-date-${index}`}
+                  type="date"
+                  className="input-site flex-1"
+                  value={date}
+                  onChange={(e) => updateDate(index, e.target.value)}
+                  aria-label={index === 0 ? 'Primary service date' : `Additional service date ${index + 1}`}
+                />
+                {s.dates.length > 1 ? (
+                  <button
+                    type="button"
+                    className="inline-flex h-11 w-11 shrink-0 items-center justify-center border border-line-site text-lg text-ink-2 hover:border-accent-site hover:text-ink"
+                    style={{ borderRadius: 'var(--site-cta-radius)' }}
+                    aria-label={`Remove date ${index + 1}`}
+                    onClick={() => removeDate(index)}
+                  >
+                    ×
+                  </button>
+                ) : null}
+              </div>
+            ))}
+          </div>
+          <div className="mt-3 flex flex-wrap items-center gap-3">
+            <button
+              type="button"
+              className="inline-flex min-h-[44px] items-center justify-center gap-1.5 rounded-[var(--site-cta-radius)] border border-line-site bg-surface-site px-3.5 text-sm font-medium text-ink hover:border-accent-site"
+              onClick={addDate}
+              disabled={s.dates.length >= 8}
+            >
+              + Add another date
+            </button>
+            <p className="text-sm text-ink-2">Stay Chef, wedding weeks, and multi-meal trips can list several evenings.</p>
+          </div>
           <p className="mt-2 text-sm text-ink-2">December–March and holiday weeks book first.</p>
         </div>
+
         <div>
           <span id="q-guests-label" className="eyebrow-site mb-2 block">Guests</span>
           <div className="flex items-center gap-4" role="group" aria-labelledby="q-guests-label">
             <button
               type="button"
-              className="inline-flex h-11 w-11 items-center justify-center border border-line-site text-xl"
+              className="inline-flex h-12 w-12 items-center justify-center border-2 border-line-site bg-surface-site text-xl font-medium text-ink hover:border-accent-site"
               style={{ borderRadius: 'var(--site-cta-radius)' }}
               aria-label="Fewer guests"
               onClick={() => set({ guests: Math.max(2, s.guests - 1) })}
@@ -538,7 +621,7 @@ function StepDateGuests({ s, set, island, area }: StepProps & { island: SiteId; 
             <span className="tabular-site font-display text-3xl" aria-live="polite">{s.guests}</span>
             <button
               type="button"
-              className="inline-flex h-11 w-11 items-center justify-center border border-line-site text-xl"
+              className="inline-flex h-12 w-12 items-center justify-center border-2 border-line-site bg-surface-site text-xl font-medium text-ink hover:border-accent-site"
               style={{ borderRadius: 'var(--site-cta-radius)' }}
               aria-label="More guests"
               onClick={() => set({ guests: Math.min(80, s.guests + 1) })}
@@ -550,14 +633,20 @@ function StepDateGuests({ s, set, island, area }: StepProps & { island: SiteId; 
             <p className="mt-2 text-sm text-ink-2">Over 75 guests is a written exception — we confirm staffing in writing before taking the date.</p>
           ) : null}
         </div>
+
         <div>
-          <label htmlFor="q-area" className="eyebrow-site mb-2 block">Area</label>
-          <select id="q-area" className="input-site" value={s.area} onChange={(e) => set({ area: e.target.value })}>
-            <option value="">Choose an area…</option>
+          <span id="q-area-label" className="eyebrow-site mb-2 block">Area</span>
+          <div className="grid gap-2 sm:grid-cols-2" role="group" aria-labelledby="q-area-label">
             {AREAS[island].map((a) => (
-              <option key={a.label} value={a.label}>{a.label}</option>
+              <ChoiceCard
+                key={a.label}
+                selected={s.area === a.label}
+                onSelect={() => set({ area: a.label })}
+                title={a.label}
+                body={a.surcharge ?? a.quoteOnly ?? undefined}
+              />
             ))}
-          </select>
+          </div>
           {area?.surcharge ? <p className="mt-2 text-sm text-ink-2">{area.surcharge}.</p> : null}
           {area?.quoteOnly ? (
             <p className="mt-2 text-sm text-ink-2">{area.quoteOnly} Your brief goes to the island team as-is.</p>
@@ -571,52 +660,69 @@ function StepDateGuests({ s, set, island, area }: StepProps & { island: SiteId; 
 function StepDetails({ s, set }: StepProps) {
   const toggle = (list: string[], item: string) =>
     list.includes(item) ? list.filter((x) => x !== item) : [...list, item];
+
+  const kitchenOptions = [
+    {
+      id: 'yes' as const,
+      title: 'Yes — full kitchen',
+      body: 'Stove, oven, and counter space we can cook in.',
+    },
+    {
+      id: 'unsure' as const,
+      title: 'Not sure yet',
+      body: 'Send photos later — we will confirm before locking a menu.',
+    },
+    {
+      id: 'no' as const,
+      title: 'No — hotel room / no kitchen',
+      body: 'We decline coffee-maker rooms and offer safer alternatives.',
+    },
+  ];
+
   return (
     <fieldset>
       <legend className="font-display text-2xl">The details.</legend>
-      <div className="mt-5 space-y-6">
+      <div className="mt-5 space-y-7">
         <div>
-          <span id="q-kitchen-label" className="eyebrow-site mb-2 block">Does the property have a full kitchen?</span>
-          <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap" role="group" aria-labelledby="q-kitchen-label">
-            {([
-              ['yes', 'Yes — stove, oven, counter'],
-              ['unsure', 'Not sure'],
-              ['no', 'No — hotel room'],
-            ] as const).map(([v, label]) => (
-              <button
-                key={v}
-                type="button"
-                aria-pressed={s.kitchen === v}
-                className="cta-secondary-site w-full sm:w-auto"
-                style={s.kitchen === v ? { borderColor: 'var(--site-accent-text)' } : undefined}
-                onClick={() => set({ kitchen: v })}
-              >
-                {label}
-              </button>
+          <span id="q-kitchen-label" className="eyebrow-site mb-3 block">Does the property have a full kitchen?</span>
+          <div className="grid gap-3" role="radiogroup" aria-labelledby="q-kitchen-label">
+            {kitchenOptions.map((opt) => (
+              <ChoiceCard
+                key={opt.id}
+                selected={s.kitchen === opt.id}
+                onSelect={() => set({ kitchen: opt.id })}
+                title={opt.title}
+                body={opt.body}
+              />
             ))}
           </div>
         </div>
+
         <div>
-          <span id="q-dietary-label" className="eyebrow-site mb-2 block">Dietary flags</span>
-          <div className="flex flex-wrap gap-2" role="group" aria-labelledby="q-dietary-label">
-            {DIETARY_FLAGS.map((d) => (
-              <button
-                key={d}
-                type="button"
-                aria-pressed={s.dietary.includes(d)}
-                className="chip-site motion-site"
-                style={{
-                  borderRadius: 'var(--site-cta-radius)',
-                  borderColor: s.dietary.includes(d) ? 'var(--site-accent-text)' : 'var(--site-line)',
-                  color: s.dietary.includes(d) ? 'var(--site-accent-text)' : 'var(--site-ink2)',
-                }}
-                onClick={() => set({ dietary: toggle(s.dietary, d) })}
-              >
-                {d}
-              </button>
-            ))}
+          <span id="q-dietary-label" className="eyebrow-site mb-3 block">Dietary flags</span>
+          <div className="flex flex-wrap gap-2.5" role="group" aria-labelledby="q-dietary-label">
+            {DIETARY_FLAGS.map((d) => {
+              const on = s.dietary.includes(d);
+              return (
+                <button
+                  key={d}
+                  type="button"
+                  aria-pressed={on}
+                  className="motion-site inline-flex min-h-[44px] items-center rounded-[var(--site-cta-radius)] border-2 px-3.5 text-sm font-medium"
+                  style={{
+                    borderColor: on ? 'var(--site-accent-text)' : 'var(--site-line)',
+                    backgroundColor: on ? 'color-mix(in srgb, var(--site-accent) 14%, var(--site-card))' : 'var(--site-card)',
+                    color: on ? 'var(--site-ink)' : 'var(--site-ink2)',
+                  }}
+                  onClick={() => set({ dietary: toggle(s.dietary, d) })}
+                >
+                  {on ? '✓ ' : ''}{d}
+                </button>
+              );
+            })}
           </div>
         </div>
+
         <div>
           <label htmlFor="q-occasion" className="eyebrow-site mb-2 block">Occasion note (optional)</label>
           <input
@@ -628,24 +734,17 @@ function StepDetails({ s, set }: StepProps) {
             onChange={(e) => set({ occasion: e.target.value })}
           />
         </div>
+
         <div>
-          <span id="q-addons-label" className="eyebrow-site mb-2 block">Add-ons</span>
-          <div className="flex flex-wrap gap-2" role="group" aria-labelledby="q-addons-label">
+          <span id="q-addons-label" className="eyebrow-site mb-3 block">Add-ons</span>
+          <div className="grid gap-3 sm:grid-cols-3" role="group" aria-labelledby="q-addons-label">
             {['Bar cart', 'Server ($55/hr)', 'Sous chef ($75/hr)'].map((a) => (
-              <button
+              <ChoiceCard
                 key={a}
-                type="button"
-                aria-pressed={s.addons.includes(a)}
-                className="chip-site motion-site"
-                style={{
-                  borderRadius: 'var(--site-cta-radius)',
-                  borderColor: s.addons.includes(a) ? 'var(--site-accent-text)' : 'var(--site-line)',
-                  color: s.addons.includes(a) ? 'var(--site-accent-text)' : 'var(--site-ink2)',
-                }}
-                onClick={() => set({ addons: toggle(s.addons, a) })}
-              >
-                {a}
-              </button>
+                selected={s.addons.includes(a)}
+                onSelect={() => set({ addons: toggle(s.addons, a) })}
+                title={a}
+              />
             ))}
           </div>
         </div>
@@ -668,20 +767,20 @@ function StepContact({ s, set }: StepProps) {
           <input id="q-contact" type="text" autoComplete="email" className="input-site" value={s.contact} onChange={(e) => set({ contact: e.target.value })} />
         </div>
         <div>
-          <span id="q-channel-label" className="eyebrow-site mb-2 block">Preferred reply channel</span>
-          <div className="flex gap-3" role="group" aria-labelledby="q-channel-label">
-            {(['whatsapp', 'email'] as const).map((c) => (
-              <button
-                key={c}
-                type="button"
-                aria-pressed={s.channel === c}
-                className="cta-secondary-site"
-                style={s.channel === c ? { borderColor: 'var(--site-accent-text)' } : undefined}
-                onClick={() => set({ channel: c })}
-              >
-                {c === 'whatsapp' ? 'WhatsApp' : 'Email'}
-              </button>
-            ))}
+          <span id="q-channel-label" className="eyebrow-site mb-3 block">Preferred reply channel</span>
+          <div className="grid gap-3 sm:grid-cols-2" role="radiogroup" aria-labelledby="q-channel-label">
+            <ChoiceCard
+              selected={s.channel === 'whatsapp'}
+              onSelect={() => set({ channel: 'whatsapp' })}
+              title="WhatsApp"
+              body="Fastest reply on the island desk."
+            />
+            <ChoiceCard
+              selected={s.channel === 'email'}
+              onSelect={() => set({ channel: 'email' })}
+              title="Email"
+              body="Full written quote in your inbox."
+            />
           </div>
         </div>
       </div>
@@ -725,7 +824,7 @@ function StepReview({
   const rows: [string, string][] = [
     ['Island', island === 'hub' ? 'Multi-island itinerary' : SITE_META[island].name],
     ['Service', service?.label ?? '—'],
-    ['Date', s.date],
+    ['Date(s)', formatDates(s.dates)],
     ['Guests', String(s.guests)],
     ['Area', s.area],
     ['Kitchen', s.kitchen === 'yes' ? 'Full kitchen' : s.kitchen === 'unsure' ? 'Not sure' : 'No kitchen'],
@@ -812,12 +911,31 @@ function ChoiceCard({
       type="button"
       aria-pressed={selected}
       onClick={onSelect}
-      className="card-site motion-site min-h-11 p-4 text-left"
-      style={selected ? { borderColor: 'var(--site-accent-text)', borderWidth: 1 } : undefined}
+      className="motion-site min-h-12 w-full border-2 p-4 text-left"
+      style={{
+        borderRadius: 'var(--site-card-radius)',
+        borderColor: selected ? 'var(--site-accent-text)' : 'var(--site-line)',
+        backgroundColor: selected
+          ? 'color-mix(in srgb, var(--site-accent) 16%, var(--site-card))'
+          : 'var(--site-card)',
+        boxShadow: selected ? 'inset 0 0 0 1px color-mix(in srgb, var(--site-accent-text) 35%, transparent)' : 'var(--site-card-shadow)',
+        color: 'var(--site-ink)',
+      }}
     >
-      <span className="block font-medium">{title}</span>
-      {body ? <span className="mt-1 block text-sm text-ink-2">{body}</span> : null}
-      {price ? <span className="tabular-site mt-2 block text-sm text-accent-site">{price}</span> : null}
+      <span className="flex items-start justify-between gap-3">
+        <span className="block font-medium leading-snug">{title}</span>
+        {selected ? (
+          <span
+            aria-hidden="true"
+            className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[11px] font-bold"
+            style={{ backgroundColor: 'var(--site-accent-text)', color: 'var(--site-card)' }}
+          >
+            ✓
+          </span>
+        ) : null}
+      </span>
+      {body ? <span className="mt-1.5 block text-sm leading-relaxed text-ink-2">{body}</span> : null}
+      {price ? <span className="tabular-site mt-2 block text-sm font-medium text-accent-site">{price}</span> : null}
     </button>
   );
 }
