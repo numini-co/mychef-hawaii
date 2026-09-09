@@ -4168,7 +4168,7 @@ export const content: ContentRecord[] = [
       {
         heading: 'The four steps',
         list: [
-          'FIVE FIELDS, TWO MINUTES — date, area, guests, dietary flags, the occasion',
+          'SIX STEPS, TWO MINUTES — date, area, guests, dietary flags, the occasion',
           'THE WRITTEN QUOTE — menu, staffing, travel, 20% service, GET: the confirmed total',
           '50% DEPOSIT — locks the date, only after you have seen the numbers',
           'WE COOK. WE CLEAN. WE GO. — shop that morning, serve that evening, leave it clean',

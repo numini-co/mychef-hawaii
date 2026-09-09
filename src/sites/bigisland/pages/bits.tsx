@@ -138,7 +138,7 @@ export function BandQuote({
   return (
     <section className="band-site">
       <div className="section-pad mx-auto max-w-6xl px-6">
-        <Mono className="text-[11px] text-ink-2">QUOTE — FIVE FIELDS, TWO MINUTES</Mono>
+        <Mono className="text-[11px] text-ink-2">QUOTE — SIX STEPS, TWO MINUTES</Mono>
         <h2 className="h2-site mt-4 max-w-2xl">{heading}</h2>
         <p className="measure-site mt-5 text-ink-2">{note}</p>
         <div className="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-6">
