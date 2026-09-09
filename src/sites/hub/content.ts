@@ -1412,11 +1412,15 @@ export const content: ContentRecord[] = [
         heading: 'Culinary Leadership & Resident Island Leads',
         body: [
           'We do not employ anonymous subcontractors or fly off-island cooks on last-minute flights. Every booking is led by a resident culinary director with deep roots in local agriculture, fisheries, and private estate hospitality.',
-          'Executive Chef Keanu Silva serves as Culinary Director across the statewide desk, overseeing culinary standards, purveyor partnerships, and complex multi-island itineraries. He is supported by four permanent resident island leads:',
-          '• Chef Makana Chang (Oʻahu Lead): 14 years executive culinary leadership (Alan Wong’s, Halekulani), daily Honolulu Fish Auction buyer.',
-          '• Chef Chloe Sterling (Maui Lead): 13 years private villa dining across West Maui and Upcountry Kula organic estates.',
-          '• Chef Ikaika Lyman (Kauaʻi Lead): 14 years across Hanalei and Poʻipū, organic farm cooperative partner and wellness retreat lead.',
-          '• Chef Daniel Kealoha (Big Island Lead): 17 years in private gated enclave kitchens (Kūkiʻo, Hualālai, Mauna Kea), Parker Ranch beef and Kona catch specialist.',
+          'Executive Chef Keanu Silva serves as Culinary Director across the statewide desk, overseeing culinary standards, purveyor partnerships, and complex multi-island itineraries. He is supported by permanent resident island leads with prestigious resort and fine-dining pedigree:',
+          '• Chef Makana Chang (Oʻahu Lead): 14 years executive culinary leadership (Halekulani Honolulu, Alan Wong’s), daily Honolulu Fish Auction buyer.',
+          '• Chef Leilani Kealoha-Ward (Oʻahu Tasting Lead): 12 years fine dining across Honolulu (The Kahala Hotel & Resort, Vintage Cave). Degustation & pastry specialist.',
+          '• Chef Chloe Sterling (Maui Lead): 13 years private villa dining (Four Seasons Resort Maui, The French Laundry Napa Valley). Hyper-seasonal Upcountry Kula organic farm sourcing.',
+          '• Chef Kainoa Ross (Maui Senior Estate Chef): 15 years luxury resort gastronomy (The Ritz-Carlton Maui Kapalua, Merriman’s). Live kiawe wood fire and coastal crudo master.',
+          '• Chef Ikaika Lyman (Kauaʻi Lead): 14 years across Kauai’s two shores (1 Hotel Hanalei Bay, Grand Hyatt Kauai). Hanalei organic farm collaborator & botanical pairing specialist.',
+          '• Chef Sarah Lin (Kauaʻi Retreat Lead): 12 years botanical gastronomy (Aman Tokyo, Princeville Resort Kauai). Luxury vegan, paleo, and wellness dining lead.',
+          '• Chef Daniel Kealoha (Big Island Lead): 17 years in private gated enclave kitchens (Four Seasons Resort Hualālai, Mauna Kea Beach Hotel, Kūkiʻo). Hawaii Island ranch beef and Kona catch specialist.',
+          '• Chef Tyler Montgomery (Big Island Senior Estate Chef): 11 years private villa dining (Rosewood Kona Village, Meadowood Napa Valley). Volcanic stone presentations & Pacific tasting flights.',
         ],
       },
       {
@@ -1729,6 +1733,13 @@ export const content: ContentRecord[] = [
     intro:
       'A review you can’t verify is advertising. Ours publish only after verified events — the quote, the service, the receipt — and the acquisition program is disclosed rather than disguised.',
     sections: [
+      {
+        heading: 'Curated 50 Hawaii Reviews & 10,000+ Worldwide Record',
+        body: [
+          'We showcase 50 curated, attributable Hawaii reviews across Oʻahu, Maui, Kauaʻi, and Big Island — representing a small selection of over 10,000 five-star private dinners delivered worldwide through the myCHEF network in Dubai, Bali, Cape Town, and Hawaii.',
+          'Every published testimonial reflects a completed, verified event with confirmed client consent, specific villa location, and actual menu format.',
+        ],
+      },
       {
         heading: 'How a review gets published',
         list: [

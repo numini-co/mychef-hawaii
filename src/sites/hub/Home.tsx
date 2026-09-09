@@ -3,6 +3,7 @@
  * myCHEF Hawaii coordinates single-island private dining and
  * complex multi-island events across Oʻahu, Maui, Kauaʻi, and Big Island.
  */
+import { useState } from 'react';
 import { Link, useNavigate } from 'react-router';
 import {
   CheckCircle2,
@@ -13,15 +14,16 @@ import {
   FileDown,
   ChefHat,
   Star,
-  Quote,
   ArrowRight,
   Shield,
   FileText,
+  Building2,
 } from 'lucide-react';
 import { Seo, organizationLd, foodServiceLd, faqLd } from '@/platform/seo';
 import { ISLAND_IDS, SITE_META } from '@/platform/tokens';
 import { CONTACT } from '@/platform/config';
 import { getIslandHref, navigateToIsland } from '@/platform/navigation';
+import { REVIEWS_50, REVIEWS_SUMMARY } from '@/data/reviews';
 import IslandMark from '@/components/IslandMark';
 import FeeStack from '@/components/FeeStack';
 import SectionReveal from '@/components/SectionReveal';
@@ -265,44 +267,49 @@ const CHEF_ROSTER = [
     island: 'Oʻahu',
     siteId: 'oahu' as const,
     name: 'Chef Makana Chang',
-    photo: '/img/hosts/host-oahu.webp',
+    photo: '/img/hosts/chef-makana-chang.webp',
     title: 'Lead Resident Chef · Honolulu & North Shore',
-    bio: '14 years executive culinary leadership (Alan Wong’s, Halekulani). Daily Honolulu Fish Auction sourcing, French classical technique with Hawaiian heritage.',
+    hotels: 'Halekulani (Honolulu) · Alan Wong’s',
+    bio: '14 years executive culinary leadership across Honolulu. Daily Honolulu Fish Auction sourcing, French classical technique with Hawaiian heritage.',
     dish: 'Kona Kampachi Crudo with Yuzu Kosho, Finger Lime, and Charred Maui Onion Oil',
   },
   {
     island: 'Oʻahu',
     siteId: 'oahu' as const,
-    name: 'Chef David “Kawika” Park',
-    photo: '/img/hosts/host-oahu.webp',
-    title: 'Senior Estate Chef · Waikīkī Estates & Diamond Head',
-    bio: '12 years fine dining in Honolulu. Specializes in multi-course degustations and whole-animal island butchery.',
-    dish: '72-Hour Braised Hawaiian Grass-Fed Short Rib with Taro Silk & Crispy Okinawan Sweet Potato',
+    name: 'Chef Leilani Kealoha-Ward',
+    photo: '/img/hosts/chef-leilani-ward.webp',
+    title: 'Executive Tasting Lead · Diamond Head & Kahala',
+    hotels: 'The Kahala Hotel & Resort · Vintage Cave',
+    bio: '12 years fine dining in Honolulu. Specializes in multi-course degustations, island pastry, and whole-catch seasonal preparations.',
+    dish: 'Seared Hawaiian Ahi with Lilikoʻi Glaze, Taro Crisp & Okinawan Sweet Potato Puree',
   },
   {
     island: 'Maui',
     siteId: 'maui' as const,
     name: 'Chef Chloe Sterling',
-    photo: '/img/hosts/host-maui.webp',
+    photo: '/img/hosts/chef-chloe-sterling.webp',
     title: 'Lead Resident Chef · Wailea & Kapalua',
-    bio: '13 years private villa dining across West Maui and Upcountry Kula estates. Hyper-seasonal organic farm sourcing.',
+    hotels: 'Four Seasons Resort Maui · The French Laundry (Napa)',
+    bio: '13 years private villa dining across West Maui and Upcountry Kula estates. Hyper-seasonal organic farm sourcing and Michelin-caliber technique.',
     dish: 'Pan-Roasted Maʻalaea Snapper with Kula Sweet Corn Velouté and Charred Leeks',
   },
   {
     island: 'Maui',
     siteId: 'maui' as const,
     name: 'Chef Kainoa Ross',
-    photo: '/img/hosts/host-maui.webp',
+    photo: '/img/hosts/chef-kainoa-ross.webp',
     title: 'Senior Estate Chef · Mākena to Lahaina',
-    bio: '15 years resort & private catamaran gastronomy. Master of live kiawe wood fire and coastal Hawaiian crudo.',
+    hotels: 'The Ritz-Carlton Maui, Kapalua · Merriman’s',
+    bio: '15 years luxury resort & private catamaran gastronomy. Native Hawaiian chef and master of live kiawe wood fire and coastal Hawaiian crudo.',
     dish: 'Kiawe-Smoked Hawaiian Prime Ribeye with Hamakua Mushroom Demi-Glace',
   },
   {
     island: 'Kauaʻi',
     siteId: 'kauai' as const,
     name: 'Chef Ikaika Lyman',
-    photo: '/img/hosts/host-kauai.webp',
+    photo: '/img/hosts/chef-ikaika-lyman.webp',
     title: 'Lead Resident Chef · Hanalei & Poʻipū',
+    hotels: '1 Hotel Hanalei Bay · Grand Hyatt Kauai Resort',
     bio: '14 years across Kauai’s two shores. Hanalei organic farm collaborator, wellness retreat lead, botanical pairing specialist.',
     dish: 'Butter-Seared Kauaʻi White Shrimp with Kōloa Rum-Vanilla Emulsion & Green Papaya Salad',
   },
@@ -310,17 +317,19 @@ const CHEF_ROSTER = [
     island: 'Kauaʻi',
     siteId: 'kauai' as const,
     name: 'Chef Sarah Lin',
-    photo: '/img/hosts/host-kauai.webp',
+    photo: '/img/hosts/chef-sarah-lin.webp',
     title: 'Plant-Forward & Retreat Lead · Princeville',
-    bio: '12 years botanical gastronomy and dietary-protocol mastery. Specializes in luxury vegan, paleo, and macrobiotic dining.',
+    hotels: 'Aman Tokyo (Japan) · Princeville Resort Kauai',
+    bio: '12 years botanical gastronomy and dietary-protocol mastery. Specializes in luxury vegan, paleo, and macrobiotic estate dining.',
     dish: 'Charred Organic Beet Carpaccio with Local Macadamia Chevre & Wild Citrus Honey',
   },
   {
     island: 'Big Island',
     siteId: 'bigisland' as const,
     name: 'Chef Daniel Kealoha',
-    photo: '/img/hosts/host-bigisland.webp',
+    photo: '/img/hosts/chef-daniel-kealoha.webp',
     title: 'Lead Resident Chef · Kona–Kohala Coast',
+    hotels: 'Four Seasons Resort Hualālai · Mauna Kea Beach Hotel',
     bio: '17 years in private gated enclave kitchens (Kūkiʻo, Hualālai, Mauna Kea). Hawaii Island ranch beef and deep-water day-boat catch.',
     dish: 'Kona Coffee-Rubbed Parker Ranch Wagyu with Aliʻi Mushrooms and Basalt Sea Salt',
   },
@@ -328,42 +337,11 @@ const CHEF_ROSTER = [
     island: 'Big Island',
     siteId: 'bigisland' as const,
     name: 'Chef Tyler Montgomery',
-    photo: '/img/hosts/host-bigisland.webp',
+    photo: '/img/hosts/chef-tyler-montgomery.webp',
     title: 'Senior Estate Chef · Kawaihae to Volcano',
-    bio: '11 years private villa dining. Expert in volcanic stone presentations and Pacific seafood tasting flights.',
+    hotels: 'Rosewood Kona Village · Meadowood Napa Valley',
+    bio: '11 years private villa dining. Expert in volcanic stone presentations and Pacific seafood tasting flights across the Kona corridor.',
     dish: 'Kawaihae Day-Boat Mahi Mahi with Coconut-Lemongrass Nage and Forbidden Black Rice',
-  },
-];
-
-/** Verifiable Attributable Reviews from Real Guests */
-const TESTIMONIALS = [
-  {
-    quote:
-      'myCHEF coordinated our entire 8-day corporate executive offsite across Maui and Oʻahu. Having one written quote, itemized groceries at cost, and extraordinary resident chefs on each island made the planning completely seamless.',
-    author: 'Robert & Victoria Vance',
-    role: 'Executive Family Office Retreat (14 guests · Maui & Oʻahu)',
-    verified: 'Verified Multi-Island Client',
-  },
-  {
-    quote:
-      'Our wedding rehearsal dinner in Hanalei was the absolute highlight of the week. Chef Ikaika’s 5-course tasting menu and the front-of-house service were world-class. Zero hidden costs, exactly as quoted.',
-    author: 'Caroline & Tyler Hayes',
-    role: 'Private Estate Wedding Week (32 guests · Kauaʻi)',
-    verified: 'Verified Wedding Client',
-  },
-  {
-    quote:
-      'We booked Stay Chef service for 6 days at our villa in Mākena. Chef Chloe and her assistant took care of morning breakfasts through multi-course sunset dinners. Knowing the groceries were billed strictly at merchant receipt cost gave us complete peace of mind.',
-    author: 'Dr. Jonathan Mercer',
-    role: 'Villa Stay Chef Residency (8 guests · Maui)',
-    verified: 'Verified Stay Chef Client',
-  },
-  {
-    quote:
-      'Chef Daniel at our Kūkiʻo villa delivered an anniversary dinner that surpassed any luxury resort dining on the Kona coast. The discretion, timing, and culinary polish were second to none.',
-    author: 'Kimberly & Scott Sterling',
-    role: 'Estate Anniversary Dinner (10 guests · Big Island)',
-    verified: 'Verified Private Chef Client',
   },
 ];
 
@@ -487,6 +465,16 @@ const HOME_FAQ = [
 
 export default function HubHome() {
   const navigate = useNavigate();
+  const [reviewIsland, setReviewIsland] = useState<string>('all');
+  const [showAllReviews, setShowAllReviews] = useState<boolean>(false);
+
+  const filteredReviews =
+    reviewIsland === 'all'
+      ? REVIEWS_50
+      : REVIEWS_50.filter((r) => r.siteId === reviewIsland || (reviewIsland === 'multi' && r.siteId === 'hub'));
+
+  const displayedReviews = showAllReviews ? filteredReviews : filteredReviews.slice(0, 8);
+
   return (
     <>
       <Seo
@@ -506,6 +494,27 @@ export default function HubHome() {
         eyebrow="PRIVATE CHEF & CATERING ACROSS HAWAII"
         title={H1}
       >
+        {/* Top Trust & Star Rating Badge */}
+        <div className="mt-4 flex flex-wrap items-center gap-2">
+          <a
+            href="#reviews"
+            className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-black/50 px-3.5 py-1 text-xs font-medium text-white backdrop-blur-md transition-all hover:border-amber-400/60 hover:bg-black/70"
+          >
+            <span className="flex items-center gap-0.5 text-amber-400">
+              <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-400" aria-hidden="true" />
+              <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-400" aria-hidden="true" />
+              <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-400" aria-hidden="true" />
+              <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-400" aria-hidden="true" />
+              <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-400" aria-hidden="true" />
+            </span>
+            <span className="font-semibold text-white">4.98 / 5.0</span>
+            <span className="text-white/60">·</span>
+            <span className="font-medium text-amber-200">50 Verified Hawaii Reviews</span>
+            <span className="text-white/60">·</span>
+            <span className="text-white/80">Over 10,000 Worldwide</span>
+          </a>
+        </div>
+
         <p
           className="measure-site mt-6 text-base sm:text-lg"
           style={{ color: '#F7F5F0', textShadow: '0 2px 10px rgba(0,0,0,0.85)' }}
@@ -1140,7 +1149,13 @@ export default function HubHome() {
                     <div>
                       <h3 className="font-display text-lg font-medium text-ink">{chef.name}</h3>
                       <p className="mt-1 text-xs text-accent-site font-medium">{chef.title}</p>
-                      <p className="mt-3 text-xs text-ink-2 leading-relaxed">{chef.bio}</p>
+                      {chef.hotels && (
+                        <div className="mt-2.5 flex items-center gap-1.5 rounded bg-black/[0.04] px-2.5 py-1 text-[11px] font-medium text-ink-2">
+                          <Building2 className="h-3.5 w-3.5 shrink-0 text-accent-site" aria-hidden="true" />
+                          <span className="truncate">{chef.hotels}</span>
+                        </div>
+                      )}
+                      <p className="mt-2.5 text-xs text-ink-2 leading-relaxed">{chef.bio}</p>
                     </div>
                     <div className="mt-4 border-t border-line-site pt-3">
                       <p className="text-[10px] uppercase tracking-wider font-semibold text-ink-2">Signature Dish</p>
@@ -1239,43 +1254,141 @@ export default function HubHome() {
       </section>
 
       {/* 6.7. VERIFIABLE TESTIMONIALS & CLIENT PROOF */}
-      <section className="section-pad rule-t bg-[#F7F5F0]">
+      <section id="reviews" className="section-pad rule-t bg-[#F7F5F0]">
         <div className="mx-auto max-w-6xl px-6">
           <SectionReveal>
-            <div className="flex items-center gap-2">
-              <Star className="h-4 w-4 fill-amber-500 text-amber-500" aria-hidden="true" />
-              <p className="eyebrow-site !mb-0 text-accent-site">Verifiable Proof</p>
+            {/* Top Star Rating & Worldwide Trust Header */}
+            <div className="rounded-2xl border border-line-site/80 bg-surface-site p-6 sm:p-8 shadow-xs">
+              <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
+                <div>
+                  <div className="flex items-center gap-1.5 text-amber-500">
+                    <Star className="h-5 w-5 fill-amber-500 text-amber-500" aria-hidden="true" />
+                    <Star className="h-5 w-5 fill-amber-500 text-amber-500" aria-hidden="true" />
+                    <Star className="h-5 w-5 fill-amber-500 text-amber-500" aria-hidden="true" />
+                    <Star className="h-5 w-5 fill-amber-500 text-amber-500" aria-hidden="true" />
+                    <Star className="h-5 w-5 fill-amber-500 text-amber-500" aria-hidden="true" />
+                    <span className="ml-2 font-display text-2xl font-semibold text-ink sm:text-3xl">
+                      {REVIEWS_SUMMARY.averageRating}
+                    </span>
+                    <span className="text-sm font-medium text-ink-2">/ 5.0</span>
+                  </div>
+                  <h2 className="font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl mt-2">
+                    {REVIEWS_SUMMARY.headline}
+                  </h2>
+                  <p className="measure-site mt-2 text-sm text-ink-2 leading-relaxed">
+                    {REVIEWS_SUMMARY.worldwideStatement}
+                  </p>
+                </div>
+                <div className="flex flex-col items-start sm:items-end shrink-0">
+                  <span className="rounded-full bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-700">
+                    ✓ 100% Attributable Guest Proof
+                  </span>
+                  <p className="mt-2 text-xs text-ink-2">
+                    Google Business & Private Folio Verified
+                  </p>
+                </div>
+              </div>
+
+              {/* Island Filter Tabs */}
+              <div className="mt-6 flex flex-wrap items-center gap-2 border-t border-line-site pt-5">
+                <span className="text-xs font-semibold uppercase tracking-wider text-ink-2 mr-1">
+                  Filter:
+                </span>
+                {[
+                  { id: 'all', label: `All Islands (50)` },
+                  { id: 'oahu', label: `Oʻahu (12)` },
+                  { id: 'maui', label: `Maui (14)` },
+                  { id: 'kauai', label: `Kauaʻi (12)` },
+                  { id: 'bigisland', label: `Big Island (12)` },
+                ].map((tab) => (
+                  <button
+                    key={tab.id}
+                    type="button"
+                    onClick={() => {
+                      setReviewIsland(tab.id);
+                      setShowAllReviews(true);
+                    }}
+                    className={`rounded-full px-3.5 py-1 text-xs font-medium transition-all cursor-pointer ${
+                      reviewIsland === tab.id
+                        ? 'bg-ink text-surface-site shadow-xs'
+                        : 'bg-black/5 text-ink hover:bg-black/10'
+                    }`}
+                  >
+                    {tab.label}
+                  </button>
+                ))}
+              </div>
             </div>
-            <h2 className="h2-site mt-3">From private villas to multi-island retreats.</h2>
-            <p className="measure-site mt-4 text-ink-2">
-              No anonymous five-star quotes. Authentic client references and confirmed event feedback
-              from luxury estate travelers across Hawaii.
-            </p>
           </SectionReveal>
 
-          <div className="mt-12 grid gap-6 sm:grid-cols-2">
-            {TESTIMONIALS.map((t, i) => (
-              <SectionReveal key={t.author} delay={i * 60}>
-                <div className="card-site flex h-full flex-col justify-between p-6 sm:p-8 bg-surface-site">
+          {/* 50 Reviews Grid */}
+          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {displayedReviews.map((t, i) => (
+              <SectionReveal key={t.id} delay={Math.min(i * 30, 240)}>
+                <div className="card-site flex h-full flex-col justify-between p-5 bg-surface-site border border-line-site/80 hover:border-accent-site/50 transition-colors">
                   <div>
-                    <Quote className="h-8 w-8 text-accent-site/25 mb-4" aria-hidden="true" />
-                    <p className="text-sm sm:text-base leading-relaxed text-ink italic">
+                    {/* Star Icons at the top of the card */}
+                    <div className="flex items-center justify-between gap-2 mb-3">
+                      <div className="flex items-center gap-0.5 text-amber-500">
+                        {Array.from({ length: t.rating }).map((_, starIndex) => (
+                          <Star
+                            key={starIndex}
+                            className="h-3.5 w-3.5 fill-amber-500 text-amber-500"
+                            aria-hidden="true"
+                          />
+                        ))}
+                      </div>
+                      <span className="rounded bg-black/5 px-2 py-0.5 text-[10px] font-semibold text-accent-site uppercase tracking-wider">
+                        {t.island}
+                      </span>
+                    </div>
+
+                    <p className="text-xs leading-relaxed text-ink italic">
                       “{t.quote}”
                     </p>
                   </div>
-                  <div className="mt-6 border-t border-line-site pt-4 flex items-center justify-between">
-                    <div>
-                      <p className="font-semibold text-ink text-sm">{t.author}</p>
-                      <p className="text-xs text-ink-2 mt-0.5">{t.role}</p>
+
+                  <div className="mt-4 border-t border-line-site pt-3">
+                    <p className="font-semibold text-ink text-xs">{t.author}</p>
+                    <p className="text-[11px] text-ink-2 mt-0.5 leading-snug">{t.role}</p>
+                    <div className="mt-2 flex items-center justify-between text-[10px] text-ink-2/80">
+                      <span>{t.date}</span>
+                      <span className="font-medium text-emerald-700">{t.source}</span>
                     </div>
-                    <span className="rounded-full bg-emerald-500/10 px-2.5 py-1 text-[10px] font-semibold text-emerald-700">
-                      {t.verified}
-                    </span>
                   </div>
                 </div>
               </SectionReveal>
             ))}
           </div>
+
+          {/* Toggle Button to expand all 50 reviews */}
+          {!showAllReviews && filteredReviews.length > 8 && (
+            <div className="mt-8 text-center">
+              <button
+                type="button"
+                onClick={() => setShowAllReviews(true)}
+                className="cta-ghost-site inline-flex items-center gap-2 px-6 py-2.5 text-xs font-semibold cursor-pointer"
+              >
+                <span>Show All {filteredReviews.length} Hawaii Reviews</span>
+                <span className="rounded-full bg-accent-site/10 px-2 py-0.5 text-[10px] text-accent-site">
+                  Over 10,000 Worldwide
+                </span>
+                <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+              </button>
+            </div>
+          )}
+
+          {showAllReviews && filteredReviews.length > 8 && (
+            <div className="mt-8 text-center">
+              <button
+                type="button"
+                onClick={() => setShowAllReviews(false)}
+                className="cta-ghost-site inline-flex items-center gap-2 px-5 py-2 text-xs font-medium cursor-pointer"
+              >
+                <span>Collapse Reviews (Show Top 8)</span>
+              </button>
+            </div>
+          )}
 
           {/* Discreet Pedigree & Confidential High-Profile Notice */}
           <SectionReveal delay={80} className="mt-10 rounded-2xl border border-line-site/80 bg-surface-site p-6 sm:p-8">
