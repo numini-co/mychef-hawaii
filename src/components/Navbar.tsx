@@ -386,14 +386,14 @@ export default function Navbar() {
 
               {/* WhatsApp Direct Concierge */}
               <a
-                href="https://wa.me/971551744849?text=Aloha%2C%20I%20would%20like%20to%20inquire%20about%20a%20private%20chef%20in%20Hawaii."
+                href="https://wa.me/18084687748?text=Aloha%2C%20I%20would%20like%20to%20inquire%20about%20a%20private%20chef%20in%20Hawaii."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cta-secondary-site flex min-h-[46px] w-full items-center justify-center gap-2 rounded-xl text-sm font-medium"
                 onClick={() => setOpen(false)}
               >
                 <MessageCircle className="h-4 w-4 text-emerald-600" aria-hidden="true" />
-                <span>WhatsApp Concierge (+971 55 174 4849)</span>
+                <span>WhatsApp Concierge (+1 808 468 7748)</span>
               </a>
 
               {/* Published fee stack guarantee */}

@@ -5872,7 +5872,7 @@ const trust: ContentRecord[] = [
     h1: 'Four doors, not one inbox.',
     meta: {
       description:
-        'Contact myCHEF Maui: book a chef through the quote flow, partner as a villa manager or planner, press inquiries, or join the chef roster. WhatsApp (+971 55 174 4849) for the direct line.',
+        'Contact myCHEF Maui: book a chef through the quote flow, partner as a villa manager or planner, press inquiries, or join the chef roster. WhatsApp (+1 (808) 468-7748) for the direct line.',
     },
     intro:
       'One inbox is how messages get lost. Pick the door that matches why you are here — each routes to the right human.',

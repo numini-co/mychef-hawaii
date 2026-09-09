@@ -673,7 +673,7 @@ export default function CalculatorPage() {
                   </button>
 
                   <a
-                    href={`https://wa.me/971551744849?text=${encodeURIComponent(
+                    href={`https://wa.me/18084687748?text=${encodeURIComponent(
                       `myCHEF Hawaii Calculator Estimate:\nIsland: ${cfg.name}\nFormat: ${format.name}\nGuests: ${guests}\nEstimate: $${Math.round(math.totalMin)} - $${Math.round(math.totalMax)}\nPlease provide formal written availability.`
                     )}`}
                     target="_blank"

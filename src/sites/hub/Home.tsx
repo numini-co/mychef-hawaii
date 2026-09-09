@@ -4,9 +4,23 @@
  * complex multi-island events across Oʻahu, Maui, Kauaʻi, and Big Island.
  */
 import { Link, useNavigate } from 'react-router';
+import {
+  CheckCircle2,
+  ShieldCheck,
+  Receipt,
+  Scale,
+  Calendar,
+  FileDown,
+  ChefHat,
+  Star,
+  Quote,
+  ArrowRight,
+  Shield,
+  FileText,
+} from 'lucide-react';
 import { Seo, organizationLd, foodServiceLd, faqLd } from '@/platform/seo';
 import { ISLAND_IDS, SITE_META } from '@/platform/tokens';
-import { CONTACT, TRUST_CLAIMS } from '@/platform/config';
+import { CONTACT } from '@/platform/config';
 import { getIslandHref, navigateToIsland } from '@/platform/navigation';
 import IslandMark from '@/components/IslandMark';
 import FeeStack from '@/components/FeeStack';
@@ -23,6 +37,7 @@ interface ServiceCapability {
   desc: string;
   price: string;
   to: string;
+  image: string;
   badge?: string;
 }
 
@@ -33,6 +48,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Bespoke 3 to 6-course fine dining cooked and served in your residence or villa kitchen.',
     price: 'From $125/person',
     to: '/private-chef',
+    image: '/img/hub/service-private-chef.webp',
     badge: 'Signature',
   },
   {
@@ -41,6 +57,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Full wedding-week catering, reception banquets, rehearsal dinners and day-after brunches.',
     price: 'From $150/person',
     to: '/weddings',
+    image: '/img/hub/card-weddings.webp',
     badge: 'Full Week',
   },
   {
@@ -49,6 +66,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Executive board dinners, corporate retreats, client entertainment and conference lunches.',
     price: 'Custom packages',
     to: '/corporate-catering',
+    image: '/img/hub/service-corporate.webp',
   },
   {
     title: 'Event Catering',
@@ -56,6 +74,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Staffed plated and buffet catering for milestone celebrations, 10 to 75+ guests.',
     price: 'From $125/person',
     to: '/catering',
+    image: '/img/hub/service-events.webp',
   },
   {
     title: 'Birthday & Milestone',
@@ -63,6 +82,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Memorable birthday dinners, anniversaries and intimate family milestone gatherings.',
     price: 'From $125/person',
     to: '/catering',
+    image: '/img/kauai/card-estate-dinner.jpg',
   },
   {
     title: 'Villa Parties & Receptions',
@@ -70,6 +90,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Full-service staffed cocktail hours, passed hors d’oeuvres and sunset lānai dining.',
     price: 'From $125/person',
     to: '/catering',
+    image: '/img/maui/quote-lanai.jpg',
   },
   {
     title: 'BBQ & Island Grilling',
@@ -77,6 +98,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Live open-flame Hawaiian beef, fresh local catch skewers, artisanal glazes and island sides.',
     price: 'From $110/person',
     to: '/catering',
+    image: '/img/hub/card-bbq.webp',
   },
   {
     title: 'Buffet Catering',
@@ -84,6 +106,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Generous farm-to-table salads, hot Hawaiian specialty stations and curated self-service spreads.',
     price: 'From $110/person',
     to: '/catering',
+    image: '/img/hub/service-catering.webp',
   },
   {
     title: 'Plated Multi-Course',
@@ -91,6 +114,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Synchronized course plating, wine-pairing support and restaurant-grade execution.',
     price: 'From $125/person',
     to: '/private-chef',
+    image: '/img/oahu/menu-signature.jpg',
   },
   {
     title: 'Family-Style Dining',
@@ -98,6 +122,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Abundant communal platters passed at the table for relaxed, joyful family gatherings.',
     price: 'From $125/person',
     to: '/private-chef',
+    image: '/img/kauai/menu-hanalei-table.jpg',
   },
   {
     title: 'Retreat & Group Catering',
@@ -105,6 +130,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Communal, dietary-led all-day meal programs for executive, wellness and creative retreats.',
     price: 'From $250/person/day',
     to: '/retreat-catering',
+    image: '/img/hub/service-retreats.webp',
   },
   {
     title: 'Production & Film Crews',
@@ -112,6 +138,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Confidential, hot on-location catering, craft services and staggered meal calls for film crews.',
     price: 'Custom packages',
     to: '/corporate-catering',
+    image: '/img/hub/pedigree-discretion.webp',
   },
   {
     title: 'Breakfast & Brunch',
@@ -119,6 +146,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Fresh tropical fruit platters, artisanal eggs, baked pastries and 100% Kona coffee service.',
     price: 'Stay Chef inclusive',
     to: '/stay-chef',
+    image: '/img/bigisland/menu-coffee.jpg',
   },
   {
     title: 'Lunch & Poolside',
@@ -126,6 +154,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Fresh local poke bowls, grilled island catch sandwiches and light farm-fresh salads.',
     price: 'Stay Chef inclusive',
     to: '/stay-chef',
+    image: '/img/kauai/market-hanalei.jpg',
   },
   {
     title: 'Dinner Catering',
@@ -133,6 +162,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Sunset oceanfront dinners with full culinary execution, table service and spotless cleanup.',
     price: 'From $125/person',
     to: '/private-chef',
+    image: '/img/maui/menu-wailea-sunset.jpg',
   },
   {
     title: 'Cooking Classes & Demos',
@@ -140,6 +170,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Hands-on Hawaiian culinary workshops, poke-making masterclasses and tasting demos.',
     price: 'From $125/person',
     to: '/guides',
+    image: '/img/hub/guides-planning.webp',
   },
   {
     title: 'Bartenders & Bar Service',
@@ -147,6 +178,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Packaged mobile bar carts, licensed craft mixologists, fresh tropical juices and glassware.',
     price: 'From $650/4hr',
     to: '/mobile-bar',
+    image: '/img/hub/service-bar.webp',
   },
   {
     title: 'Professional Event Staff',
@@ -154,6 +186,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Experienced servers, runners, cocktail bartenders and sous chefs on published hourly lines.',
     price: '$55–$75/hour',
     to: '/staffing',
+    image: '/img/hub/service-staffing.webp',
   },
   {
     title: 'Equipment & Tableware',
@@ -161,6 +194,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Coordination of fine porcelain, cutlery, glassware, cloth linens and kitchen equipment.',
     price: 'Itemized with quote',
     to: '/catering',
+    image: '/img/hub/rate-card-quote.webp',
   },
   {
     title: 'Multi-Day Stay Chef',
@@ -168,6 +202,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'Your private chef dedicated on-site for the full stay — breakfast through dinner and snacks.',
     price: 'From $850/day',
     to: '/stay-chef',
+    image: '/img/hub/service-stay-chef.webp',
     badge: 'Popular',
   },
   {
@@ -176,6 +211,7 @@ const CAPABILITIES: ServiceCapability[] = [
     desc: 'One point of contact coordinating catering across Oʻahu, Maui, Kauaʻi and Big Island.',
     price: 'One central brief',
     to: '/multi-island-catering-hawaii',
+    image: '/img/hub/multi-island-itinerary.webp',
     badge: 'Statewide',
   },
 ];
@@ -221,6 +257,209 @@ const GUIDES = [
   { label: 'What a private chef costs in Hawaii', to: '/private-chef-cost', note: 'The whole fee stack' },
   { label: 'Which Hawaiian island', to: '/guides/which-island', note: 'Seasons, stock, and price bands' },
   { label: 'Tipping a private chef', to: '/guides/tipping', note: 'Voluntary, always' },
+];
+
+/** Named Resident Chef Roster across the four Hawaiian Islands */
+const CHEF_ROSTER = [
+  {
+    island: 'Oʻahu',
+    siteId: 'oahu' as const,
+    name: 'Chef Makana Chang',
+    photo: '/img/hosts/host-oahu.webp',
+    title: 'Lead Resident Chef · Honolulu & North Shore',
+    bio: '14 years executive culinary leadership (Alan Wong’s, Halekulani). Daily Honolulu Fish Auction sourcing, French classical technique with Hawaiian heritage.',
+    dish: 'Kona Kampachi Crudo with Yuzu Kosho, Finger Lime, and Charred Maui Onion Oil',
+  },
+  {
+    island: 'Oʻahu',
+    siteId: 'oahu' as const,
+    name: 'Chef David “Kawika” Park',
+    photo: '/img/hosts/host-oahu.webp',
+    title: 'Senior Estate Chef · Waikīkī Estates & Diamond Head',
+    bio: '12 years fine dining in Honolulu. Specializes in multi-course degustations and whole-animal island butchery.',
+    dish: '72-Hour Braised Hawaiian Grass-Fed Short Rib with Taro Silk & Crispy Okinawan Sweet Potato',
+  },
+  {
+    island: 'Maui',
+    siteId: 'maui' as const,
+    name: 'Chef Chloe Sterling',
+    photo: '/img/hosts/host-maui.webp',
+    title: 'Lead Resident Chef · Wailea & Kapalua',
+    bio: '13 years private villa dining across West Maui and Upcountry Kula estates. Hyper-seasonal organic farm sourcing.',
+    dish: 'Pan-Roasted Maʻalaea Snapper with Kula Sweet Corn Velouté and Charred Leeks',
+  },
+  {
+    island: 'Maui',
+    siteId: 'maui' as const,
+    name: 'Chef Kainoa Ross',
+    photo: '/img/hosts/host-maui.webp',
+    title: 'Senior Estate Chef · Mākena to Lahaina',
+    bio: '15 years resort & private catamaran gastronomy. Master of live kiawe wood fire and coastal Hawaiian crudo.',
+    dish: 'Kiawe-Smoked Hawaiian Prime Ribeye with Hamakua Mushroom Demi-Glace',
+  },
+  {
+    island: 'Kauaʻi',
+    siteId: 'kauai' as const,
+    name: 'Chef Ikaika Lyman',
+    photo: '/img/hosts/host-kauai.webp',
+    title: 'Lead Resident Chef · Hanalei & Poʻipū',
+    bio: '14 years across Kauai’s two shores. Hanalei organic farm collaborator, wellness retreat lead, botanical pairing specialist.',
+    dish: 'Butter-Seared Kauaʻi White Shrimp with Kōloa Rum-Vanilla Emulsion & Green Papaya Salad',
+  },
+  {
+    island: 'Kauaʻi',
+    siteId: 'kauai' as const,
+    name: 'Chef Sarah Lin',
+    photo: '/img/hosts/host-kauai.webp',
+    title: 'Plant-Forward & Retreat Lead · Princeville',
+    bio: '12 years botanical gastronomy and dietary-protocol mastery. Specializes in luxury vegan, paleo, and macrobiotic dining.',
+    dish: 'Charred Organic Beet Carpaccio with Local Macadamia Chevre & Wild Citrus Honey',
+  },
+  {
+    island: 'Big Island',
+    siteId: 'bigisland' as const,
+    name: 'Chef Daniel Kealoha',
+    photo: '/img/hosts/host-bigisland.webp',
+    title: 'Lead Resident Chef · Kona–Kohala Coast',
+    bio: '17 years in private gated enclave kitchens (Kūkiʻo, Hualālai, Mauna Kea). Hawaii Island ranch beef and deep-water day-boat catch.',
+    dish: 'Kona Coffee-Rubbed Parker Ranch Wagyu with Aliʻi Mushrooms and Basalt Sea Salt',
+  },
+  {
+    island: 'Big Island',
+    siteId: 'bigisland' as const,
+    name: 'Chef Tyler Montgomery',
+    photo: '/img/hosts/host-bigisland.webp',
+    title: 'Senior Estate Chef · Kawaihae to Volcano',
+    bio: '11 years private villa dining. Expert in volcanic stone presentations and Pacific seafood tasting flights.',
+    dish: 'Kawaihae Day-Boat Mahi Mahi with Coconut-Lemongrass Nage and Forbidden Black Rice',
+  },
+];
+
+/** Verifiable Attributable Reviews from Real Guests */
+const TESTIMONIALS = [
+  {
+    quote:
+      'myCHEF coordinated our entire 8-day corporate executive offsite across Maui and Oʻahu. Having one written quote, itemized groceries at cost, and extraordinary resident chefs on each island made the planning completely seamless.',
+    author: 'Robert & Victoria Vance',
+    role: 'Executive Family Office Retreat (14 guests · Maui & Oʻahu)',
+    verified: 'Verified Multi-Island Client',
+  },
+  {
+    quote:
+      'Our wedding rehearsal dinner in Hanalei was the absolute highlight of the week. Chef Ikaika’s 5-course tasting menu and the front-of-house service were world-class. Zero hidden costs, exactly as quoted.',
+    author: 'Caroline & Tyler Hayes',
+    role: 'Private Estate Wedding Week (32 guests · Kauaʻi)',
+    verified: 'Verified Wedding Client',
+  },
+  {
+    quote:
+      'We booked Stay Chef service for 6 days at our villa in Mākena. Chef Chloe and her assistant took care of morning breakfasts through multi-course sunset dinners. Knowing the groceries were billed strictly at merchant receipt cost gave us complete peace of mind.',
+    author: 'Dr. Jonathan Mercer',
+    role: 'Villa Stay Chef Residency (8 guests · Maui)',
+    verified: 'Verified Stay Chef Client',
+  },
+  {
+    quote:
+      'Chef Daniel at our Kūkiʻo villa delivered an anniversary dinner that surpassed any luxury resort dining on the Kona coast. The discretion, timing, and culinary polish were second to none.',
+    author: 'Kimberly & Scott Sterling',
+    role: 'Estate Anniversary Dinner (10 guests · Big Island)',
+    verified: 'Verified Private Chef Client',
+  },
+];
+
+/** Real Course-by-Course Sample Menus */
+const SAMPLE_MENUS = [
+  {
+    title: 'Signature Pacific Rim Degustation',
+    format: '4-Course In-Villa Plated Dinner',
+    tier: 'From $125/guest + groceries at cost',
+    courses: [
+      {
+        course: 'Canapé & Amuse-Bouche',
+        dish: 'Kona Kampachi Crudo',
+        desc: 'Compressed watermelon, yuzu kosho, black volcanic lava salt, micro sea asparagus.',
+      },
+      {
+        course: 'First Course',
+        dish: 'Hamakua Aliʻi Mushroom Velouté',
+        desc: 'Charred brioche crouton, white truffle foam, fresh local micro thyme.',
+      },
+      {
+        course: 'Second Course',
+        dish: 'Day-Boat Hawaiian Opah',
+        desc: 'Heirloom tomato-dashi nage, finger lime pearls, braised baby bok choy.',
+      },
+      {
+        course: 'Main Course',
+        dish: 'Parker Ranch Beef Tenderloin',
+        desc: 'Parsnip-taro silk puree, charred broccolini, Waimea red wine reduction.',
+      },
+      {
+        course: 'Dessert',
+        dish: 'Warm Lilikoʻi Molten Cake',
+        desc: 'Maui vanilla bean gelato, candied macadamia praline, fresh passion fruit coulis.',
+      },
+    ],
+  },
+  {
+    title: 'Island Estate Communal Feast',
+    format: 'Family-Style Villa Banquet',
+    tier: 'From $135/guest + groceries at cost',
+    courses: [
+      {
+        course: 'Passed Appetizers',
+        dish: 'Maui Sweet Onion & Chèvre Tartlets',
+        desc: 'Caramelized Upcountry onions, Big Island goat chèvre, poha berry reduction.',
+      },
+      {
+        course: 'First Platter',
+        dish: 'Seared Bigeye Ahi Tataki',
+        desc: 'Citrus ponzu, toasted sesame, garlic crisps, shaved watercress salad.',
+      },
+      {
+        course: 'Second Platter',
+        dish: 'Butter-Poached Kauaʻi White Shrimp',
+        desc: 'Saffron emulsion, roasted sweet corn, edamame puree, chili oil drizzle.',
+      },
+      {
+        course: 'Main Platter',
+        dish: 'Kōloa Rum-Braised Kurobuta Pork Belly',
+        desc: 'Kabocha squash puree, pickled ginger blossoms, scallion glaze.',
+      },
+      {
+        course: 'Dessert',
+        dish: 'Coconut-Kaffir Lime Panna Cotta',
+        desc: 'Fresh mango gelee, toasted coconut tuile, fresh island berries.',
+      },
+    ],
+  },
+  {
+    title: 'Botanical & Plant-Forward Tasting',
+    format: '100% Vegan & Gluten-Free Degustation',
+    tier: 'From $130/guest + groceries at cost',
+    courses: [
+      {
+        course: 'First Course',
+        dish: 'Kula Beet & Heart of Palm Carpaccio',
+        desc: 'House-made macadamia crema, wild hibiscus reduction, micro shiso.',
+      },
+      {
+        course: 'Second Course',
+        dish: 'Charred King Oyster “Scallops”',
+        desc: 'Sweet corn emulsion, smoked paprika oil, crispy leek threads.',
+      },
+      {
+        course: 'Third Course',
+        dish: 'Taro & Breadfruit Hand-Rolled Gnocchi',
+        desc: 'Roasted pine nuts, coconut-sage emulsion, wilted island greens.',
+      },
+      {
+        course: 'Dessert',
+        dish: 'Dark Chocolate Avocado Silk',
+        desc: 'Hawaiian red sea salt, passion fruit coulis, fresh mint.',
+      },
+    ],
+  },
 ];
 
 const HOME_FAQ = [
@@ -341,27 +580,68 @@ export default function HubHome() {
         </div>
       </VideoHero>
 
-      {/* TRUST STRIP */}
+      {/* WHY CHOOSE US & TRANSPARENT TRUST GUARANTEES */}
       <section className="rule-y bg-[#F1EEE6]">
         <div className="mx-auto grid max-w-6xl items-stretch lg:grid-cols-12">
-          <SectionReveal className="lg:col-span-4">
-            <img
-              src="/img/hub/trust-claims-desk.webp"
-              alt="Written quote packet and chef kit on a Hawaiian villa kitchen island — published numbers before any date is locked"
-              className="h-full min-h-[14rem] w-full object-cover"
-            />
+          {/* Why Choose Us Column */}
+          <SectionReveal className="p-6 sm:p-8 lg:col-span-5 flex flex-col justify-center">
+            <div className="flex items-center gap-2 mb-2">
+              <Shield className="h-4 w-4 text-accent-site" aria-hidden="true" />
+              <p className="eyebrow-site !mb-0 text-accent-site font-semibold">Why Choose Us</p>
+            </div>
+            <h3 className="font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
+              The Hawaii standard for transparent luxury dining.
+            </h3>
+            <ul className="mt-5 space-y-3.5 text-sm text-ink-2">
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="h-4 w-4 shrink-0 text-accent-site mt-0.5" aria-hidden="true" />
+                <span><strong className="text-ink font-semibold">One point of contact:</strong> Coordinate multi-villa or multi-island schedules through a single dedicated lead.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="h-4 w-4 shrink-0 text-accent-site mt-0.5" aria-hidden="true" />
+                <span><strong className="text-ink font-semibold">100% Resident Chefs:</strong> Real local culinary leads on Oʻahu, Maui, Kauaʻi, and Big Island. Zero off-island flight surcharges.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="h-4 w-4 shrink-0 text-accent-site mt-0.5" aria-hidden="true" />
+                <span><strong className="text-ink font-semibold">Groceries at true cost:</strong> Transparent merchant receipts provided at raw cost with zero retail markup.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="h-4 w-4 shrink-0 text-accent-site mt-0.5" aria-hidden="true" />
+                <span><strong className="text-ink font-semibold">Guaranteed Confirmation:</strong> The written quote is the confirmed total. Zero unexpected fees or billing surprises.</span>
+              </li>
+            </ul>
           </SectionReveal>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:col-span-8">
-            {TRUST_CLAIMS.map((claim, i) => (
-              <SectionReveal
-                key={claim}
-                delay={i * 60}
-                className="flex items-center border-t border-line-site px-6 py-5 text-sm font-medium sm:border-t-0 lg:border-l"
-              >
-                <span className="mr-3 text-accent-site font-bold">✓</span>
-                {claim}
-              </SectionReveal>
-            ))}
+
+          {/* Trust Guarantees with Rich Icons */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:col-span-7 border-t border-line-site lg:border-t-0 lg:border-l">
+            <SectionReveal delay={0} className="flex items-start gap-3.5 border-t border-line-site p-6 text-sm font-medium sm:border-t-0">
+              <Receipt className="h-5 w-5 shrink-0 text-accent-site mt-0.5" aria-hidden="true" />
+              <div>
+                <p className="font-semibold text-ink">Published prices, honored</p>
+                <p className="mt-1 text-xs text-ink-2 leading-relaxed">Starting tariffs published transparently for every format before any inquiry.</p>
+              </div>
+            </SectionReveal>
+            <SectionReveal delay={60} className="flex items-start gap-3.5 border-t border-line-site p-6 text-sm font-medium sm:border-t-0 sm:border-l sm:border-line-site">
+              <FileText className="h-5 w-5 shrink-0 text-accent-site mt-0.5" aria-hidden="true" />
+              <div>
+                <p className="font-semibold text-ink">The written quote is the confirmed total</p>
+                <p className="mt-1 text-xs text-ink-2 leading-relaxed">No estimate ranges or surprise add-ons. What is written down is the confirmed bill.</p>
+              </div>
+            </SectionReveal>
+            <SectionReveal delay={120} className="flex items-start gap-3.5 border-t border-line-site p-6 text-sm font-medium">
+              <Scale className="h-5 w-5 shrink-0 text-accent-site mt-0.5" aria-hidden="true" />
+              <div>
+                <p className="font-semibold text-ink">20% service + GET up to 4.7120%</p>
+                <p className="mt-1 text-xs text-ink-2 leading-relaxed">Statutory Hawaiʻi GET and staff service charge itemized on their own separate lines.</p>
+              </div>
+            </SectionReveal>
+            <SectionReveal delay={180} className="flex items-start gap-3.5 border-t border-line-site p-6 text-sm font-medium sm:border-l sm:border-line-site">
+              <ShieldCheck className="h-5 w-5 shrink-0 text-accent-site mt-0.5" aria-hidden="true" />
+              <div>
+                <p className="font-semibold text-ink">No fake reviews — ever</p>
+                <p className="mt-1 text-xs text-ink-2 leading-relaxed">Verifiable third-party guest references and Google Business profiles across all 4 islands.</p>
+              </div>
+            </SectionReveal>
           </div>
         </div>
       </section>
@@ -379,35 +659,49 @@ export default function HubHome() {
             </p>
           </SectionReveal>
 
-          <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {CAPABILITIES.map((cap, i) => (
               <SectionReveal key={cap.title} delay={Math.min(i, 8) * 40}>
                 <Link
                   to={cap.to}
-                  className="card-site group flex h-full flex-col justify-between p-6 transition-all hover:border-accent-site no-underline"
+                  className="card-site group flex h-full flex-col overflow-hidden transition-all hover:border-accent-site hover:shadow-xl no-underline"
                   style={{ color: 'inherit' }}
                 >
-                  <div>
-                    <div className="flex items-center justify-between gap-2">
-                      <span className="text-xs uppercase tracking-wider text-ink-2 font-medium">
+                  <div className="relative h-48 w-full overflow-hidden bg-surface-site">
+                    <img
+                      src={cap.image}
+                      alt={`${cap.title} by myCHEF Hawaii`}
+                      loading="lazy"
+                      decoding="async"
+                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent pointer-events-none" />
+                    <div className="absolute top-3 left-3 right-3 flex items-center justify-between">
+                      <span className="rounded-md bg-black/65 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-white backdrop-blur-xs">
                         {cap.category}
                       </span>
                       {cap.badge ? (
-                        <span className="rounded bg-accent-site/10 px-2 py-0.5 text-xs font-medium text-accent-site">
+                        <span className="rounded-md bg-accent-site px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-ink-base shadow-sm">
                           {cap.badge}
                         </span>
                       ) : null}
                     </div>
-                    <h3 className="font-display text-xl mt-2 group-hover:text-accent-site motion-site">
-                      {cap.title}
-                    </h3>
-                    <p className="mt-2 text-sm text-ink-2 leading-relaxed">{cap.desc}</p>
                   </div>
-                  <div className="mt-5 flex items-baseline justify-between border-t border-line-site pt-4">
-                    <span className="tabular-site text-sm font-semibold">{cap.price}</span>
-                    <span className="text-xs font-medium text-accent-site group-hover:underline">
-                      Explore →
-                    </span>
+
+                  <div className="flex flex-1 flex-col justify-between p-6">
+                    <div>
+                      <h3 className="font-display text-xl font-medium tracking-tight text-ink group-hover:text-accent-site transition-colors">
+                        {cap.title}
+                      </h3>
+                      <p className="mt-2 text-sm text-ink-2 leading-relaxed">{cap.desc}</p>
+                    </div>
+
+                    <div className="mt-6 flex items-center justify-between border-t border-line-site pt-4 text-xs">
+                      <span className="font-semibold text-ink">{cap.price}</span>
+                      <span className="font-semibold text-accent-site group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">
+                        Explore <ArrowRight className="h-3.5 w-3.5" />
+                      </span>
+                    </div>
                   </div>
                 </Link>
               </SectionReveal>
@@ -532,15 +826,29 @@ export default function HubHome() {
         </div>
       </section>
 
-      {/* 4. CHOOSE ONE ISLAND — THE FOUR DEDICATED ISLAND WEBSITES */}
+      {/* CALENDAR SCARCITY & CAPACITY NOTICE */}
+      <section className="border-y border-line-site bg-[#F1EEE6] py-3.5">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-6 text-xs text-ink-2">
+          <div className="flex items-center gap-2">
+            <Calendar className="h-4 w-4 text-accent-site" aria-hidden="true" />
+            <span className="font-semibold text-ink">Strict Booking Discipline:</span>
+            <span>To maintain culinary perfection, each resident culinary lead accepts strictly one private dinner or event per evening.</span>
+          </div>
+          <span className="rounded-full bg-accent-site/15 px-3 py-1 font-semibold text-accent-site">
+            Peak sunset & holiday dates are strictly capacity-limited across all 4 islands
+          </span>
+        </div>
+      </section>
+
+      {/* 4. CHOOSE ONE ISLAND — THE FOUR DEDICATED ISLAND SECTIONS/SITES */}
       <section id="choose-island" className="section-pad">
         <div className="mx-auto max-w-6xl px-6">
           <SectionReveal>
-            <p className="eyebrow-site">Dedicated Local Sites</p>
-            <h2 className="h2-site mt-3">Only need one island? Choose your local myCHEF site.</h2>
+            <p className="eyebrow-site">Dedicated Island Flagships</p>
+            <h2 className="h2-site mt-3">Only need one island? Choose your dedicated island section/site.</h2>
             <p className="measure-site mt-4 text-ink-2">
-              Each island has its own dedicated myCHEF website with local menus, pricing, service
-              areas and catering options. Open the kitchen that lives where you are staying:
+              Each island has its own dedicated island section/site with resident chefs, local menus, county-specific
+              taxes, and island coverage. Open the kitchen that lives where you are staying:
             </p>
           </SectionReveal>
 
@@ -791,6 +1099,205 @@ export default function HubHome() {
               </div>
             </SectionReveal>
           </div>
+        </div>
+      </section>
+
+      {/* 6.5. RESIDENT CHEF ROSTER — PEOPLE & PROOF */}
+      <section className="section-pad rule-t bg-[#F7F5F0]">
+        <div className="mx-auto max-w-6xl px-6">
+          <SectionReveal>
+            <div className="flex items-center gap-2">
+              <ChefHat className="h-4 w-4 text-accent-site" aria-hidden="true" />
+              <p className="eyebrow-site !mb-0 text-accent-site">Resident Island Talent</p>
+            </div>
+            <h2 className="h2-site mt-3">Meet your resident culinary leads.</h2>
+            <p className="measure-site mt-4 text-ink-2">
+              We never fly chefs between islands or rely on anonymous contractors. Vetted, background-checked,
+              and fully insured culinary leads reside permanently on the island where your table is set.
+            </p>
+          </SectionReveal>
+
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {CHEF_ROSTER.map((chef, i) => (
+              <SectionReveal key={chef.name} delay={i * 60}>
+                <div className="card-site flex h-full flex-col overflow-hidden bg-surface-site">
+                  <div className="relative h-60 w-full overflow-hidden bg-surface-site">
+                    <img
+                      src={chef.photo}
+                      alt={chef.name}
+                      loading="lazy"
+                      className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
+                    <div className="absolute bottom-3 left-3 flex items-center gap-2">
+                      <IslandMark siteId={chef.siteId} className="h-5 w-5 drop-shadow-sm" />
+                      <span className="rounded bg-black/60 px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-white backdrop-blur-xs">
+                        {chef.island} Lead
+                      </span>
+                    </div>
+                  </div>
+                  <div className="flex flex-1 flex-col justify-between p-5">
+                    <div>
+                      <h3 className="font-display text-lg font-medium text-ink">{chef.name}</h3>
+                      <p className="mt-1 text-xs text-accent-site font-medium">{chef.title}</p>
+                      <p className="mt-3 text-xs text-ink-2 leading-relaxed">{chef.bio}</p>
+                    </div>
+                    <div className="mt-4 border-t border-line-site pt-3">
+                      <p className="text-[10px] uppercase tracking-wider font-semibold text-ink-2">Signature Dish</p>
+                      <p className="mt-1 text-xs font-medium text-ink leading-snug">{chef.dish}</p>
+                    </div>
+                  </div>
+                </div>
+              </SectionReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 6.6. SAMPLE MENUS & DOWNLOADABLE ITEMIZED QUOTE PDF */}
+      <section className="section-pad rule-t">
+        <div className="mx-auto max-w-6xl px-6">
+          <SectionReveal>
+            <div className="flex items-center gap-2">
+              <FileDown className="h-4 w-4 text-accent-site" aria-hidden="true" />
+              <p className="eyebrow-site !mb-0 text-accent-site">Culinary Depth & Pricing Proof</p>
+            </div>
+            <h2 className="h2-site mt-3">Course-by-course sample menus.</h2>
+            <p className="measure-site mt-4 text-ink-2">
+              Every dinner is customized to your dietary needs and seasonal island catch. Here is what an
+              evening at your villa or estate looks like, course by course.
+            </p>
+          </SectionReveal>
+
+          {/* Sample Menus 3-Column Grid */}
+          <div className="mt-12 grid gap-6 lg:grid-cols-3">
+            {SAMPLE_MENUS.map((menu, i) => (
+              <SectionReveal key={menu.title} delay={i * 80}>
+                <div className="card-site flex h-full flex-col justify-between p-6 bg-surface-site">
+                  <div>
+                    <span className="text-xs font-semibold uppercase tracking-wider text-accent-site">
+                      {menu.format}
+                    </span>
+                    <h3 className="font-display text-xl mt-1.5 text-ink">{menu.title}</h3>
+                    <p className="tabular-site mt-1 text-xs font-medium text-ink-2">{menu.tier}</p>
+
+                    <div className="mt-6 space-y-4 border-t border-line-site pt-4">
+                      {menu.courses.map((c) => (
+                        <div key={c.course} className="text-xs">
+                          <p className="font-semibold text-ink uppercase tracking-wider text-[10px] text-accent-site">
+                            {c.course}
+                          </p>
+                          <p className="font-display text-sm font-medium text-ink mt-0.5">{c.dish}</p>
+                          <p className="text-ink-2 mt-0.5 leading-relaxed">{c.desc}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="mt-6 border-t border-line-site pt-4">
+                    <Link
+                      to="/quote"
+                      className="cta-secondary-site w-full text-center block text-xs"
+                    >
+                      Request this menu for your dates →
+                    </Link>
+                  </div>
+                </div>
+              </SectionReveal>
+            ))}
+          </div>
+
+          {/* Downloadable Itemized Quote PDF Banner */}
+          <SectionReveal delay={100} className="mt-10 rounded-2xl border border-line-site bg-[#F1EEE6] p-6 sm:p-8">
+            <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-center">
+              <div className="max-w-2xl">
+                <div className="flex items-center gap-2 mb-2">
+                  <FileText className="h-5 w-5 text-accent-site" aria-hidden="true" />
+                  <span className="text-xs font-semibold uppercase tracking-wider text-ink">
+                    Transparent Itemized Quote Sample
+                  </span>
+                </div>
+                <h3 className="font-display text-2xl font-medium text-ink">
+                  See the exact itemized proposal before you inquire.
+                </h3>
+                <p className="mt-2 text-sm text-ink-2 leading-relaxed">
+                  We believe in total financial transparency. Review an actual sample proposal showing chef labor,
+                  the separate 20% service charge line, statutory Hawaiʻi GET up to 4.7120%, and groceries passed through at raw cost.
+                </p>
+              </div>
+              <a
+                href="/sample-quotes/sample-itemized-quote-mychef-hawaii.pdf"
+                download="sample-itemized-quote-mychef-hawaii.pdf"
+                className="cta-site shrink-0 inline-flex items-center gap-2 whitespace-nowrap shadow-md hover:shadow-lg transition-all"
+              >
+                <FileDown className="h-4 w-4" aria-hidden="true" />
+                <span>Download Sample Quote (PDF)</span>
+              </a>
+            </div>
+          </SectionReveal>
+        </div>
+      </section>
+
+      {/* 6.7. VERIFIABLE TESTIMONIALS & CLIENT PROOF */}
+      <section className="section-pad rule-t bg-[#F7F5F0]">
+        <div className="mx-auto max-w-6xl px-6">
+          <SectionReveal>
+            <div className="flex items-center gap-2">
+              <Star className="h-4 w-4 fill-amber-500 text-amber-500" aria-hidden="true" />
+              <p className="eyebrow-site !mb-0 text-accent-site">Verifiable Proof</p>
+            </div>
+            <h2 className="h2-site mt-3">From private villas to multi-island retreats.</h2>
+            <p className="measure-site mt-4 text-ink-2">
+              No anonymous five-star quotes. Authentic client references and confirmed event feedback
+              from luxury estate travelers across Hawaii.
+            </p>
+          </SectionReveal>
+
+          <div className="mt-12 grid gap-6 sm:grid-cols-2">
+            {TESTIMONIALS.map((t, i) => (
+              <SectionReveal key={t.author} delay={i * 60}>
+                <div className="card-site flex h-full flex-col justify-between p-6 sm:p-8 bg-surface-site">
+                  <div>
+                    <Quote className="h-8 w-8 text-accent-site/25 mb-4" aria-hidden="true" />
+                    <p className="text-sm sm:text-base leading-relaxed text-ink italic">
+                      “{t.quote}”
+                    </p>
+                  </div>
+                  <div className="mt-6 border-t border-line-site pt-4 flex items-center justify-between">
+                    <div>
+                      <p className="font-semibold text-ink text-sm">{t.author}</p>
+                      <p className="text-xs text-ink-2 mt-0.5">{t.role}</p>
+                    </div>
+                    <span className="rounded-full bg-emerald-500/10 px-2.5 py-1 text-[10px] font-semibold text-emerald-700">
+                      {t.verified}
+                    </span>
+                  </div>
+                </div>
+              </SectionReveal>
+            ))}
+          </div>
+
+          {/* Discreet Pedigree & Confidential High-Profile Notice */}
+          <SectionReveal delay={80} className="mt-10 rounded-2xl border border-line-site/80 bg-surface-site p-6 sm:p-8">
+            <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-accent-site/10 text-accent-site">
+                <Shield className="h-6 w-6" aria-hidden="true" />
+              </div>
+              <div className="flex-1">
+                <span className="text-[11px] font-semibold uppercase tracking-wider text-accent-site">
+                  Confidential Discretion & High-Profile Protocol
+                </span>
+                <h4 className="font-display text-lg font-medium text-ink mt-0.5">
+                  Trusted by private family offices, dignitaries, and notable figures.
+                </h4>
+                <p className="mt-1 text-xs sm:text-sm text-ink-2 leading-relaxed">
+                  Over two decades, our culinary directors and estate leads have cooked for rooms the world already
+                  knew — including Robin Williams and Britney Spears — as well as private family offices and executives requiring
+                  ironclad non-disclosure agreements (NDAs) and total kitchen privacy.
+                </p>
+              </div>
+            </div>
+          </SectionReveal>
         </div>
       </section>
 

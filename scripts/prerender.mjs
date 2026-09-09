@@ -50,23 +50,24 @@ const discoveredRoutes = new Set([
 
 for (const siteId of Object.keys(BASE_MAP)) {
   const base = BASE_MAP[siteId];
-  if (!base) continue;
-  discoveredRoutes.add(base);
-  discoveredRoutes.add(`${base}/quote`);
-  discoveredRoutes.add(`${base}/pricing`);
-  discoveredRoutes.add(`${base}/private-chef`);
-  discoveredRoutes.add(`${base}/stay-chef`);
-  discoveredRoutes.add(`${base}/catering`);
-  discoveredRoutes.add(`${base}/weddings`);
-  if (siteId === 'oahu') {
-    discoveredRoutes.add(`${base}/corporate`);
-  }
-  if (siteId === 'maui') {
-    discoveredRoutes.add(`${base}/services/date-night`);
-    discoveredRoutes.add(`${base}/weddings/wedding-week`);
-  }
-  if (siteId === 'kauai') {
-    discoveredRoutes.add(`${base}/retreat-catering`);
+  if (base) {
+    discoveredRoutes.add(base);
+    discoveredRoutes.add(`${base}/quote`);
+    discoveredRoutes.add(`${base}/pricing`);
+    discoveredRoutes.add(`${base}/private-chef`);
+    discoveredRoutes.add(`${base}/stay-chef`);
+    discoveredRoutes.add(`${base}/catering`);
+    discoveredRoutes.add(`${base}/weddings`);
+    if (siteId === 'oahu') {
+      discoveredRoutes.add(`${base}/corporate`);
+    }
+    if (siteId === 'maui') {
+      discoveredRoutes.add(`${base}/services/date-night`);
+      discoveredRoutes.add(`${base}/weddings/wedding-week`);
+    }
+    if (siteId === 'kauai') {
+      discoveredRoutes.add(`${base}/retreat-catering`);
+    }
   }
 
   const contentFile = join(SITES_DIR, siteId, 'content.ts');
@@ -74,20 +75,9 @@ for (const siteId of Object.keys(BASE_MAP)) {
     const src = readFileSync(contentFile, 'utf8');
     for (const m of src.matchAll(/slug:\s*'([^']*)'/g)) {
       const slug = m[1];
-      // Include key commercial categories: core, service, pricing, wedding, locations
-      if (
-        slug.startsWith('locations/') ||
-        slug.startsWith('services/') ||
-        slug.startsWith('pricing/') ||
-        slug.startsWith('menus/') ||
-        slug.startsWith('weddings/') ||
-        slug === 'private-chef' ||
-        slug === 'catering' ||
-        slug === 'weddings' ||
-        slug === 'pricing'
-      ) {
-        discoveredRoutes.add(`${base}/${slug}`);
-      }
+      if (!slug) continue;
+      const fullPath = base ? `${base}/${slug}` : `/${slug}`;
+      discoveredRoutes.add(fullPath);
     }
   }
 }

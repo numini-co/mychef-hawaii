@@ -6,8 +6,9 @@
 /** Contact endpoints for the quote handoff.
  *  The WhatsApp business number is provisioned at launch — update it here only. */
 export const CONTACT = {
-  whatsappNumber: '971551744849',
-  whatsappDisplay: '+971 55 174 4849',
+  whatsappNumber: '18084687748',
+  whatsappDisplay: '+1 (808) 468-7748',
+  phoneDisplay: '(808) 468-7748',
   email: 'quotes@mychef-hawaii.com',
 } as const;
 

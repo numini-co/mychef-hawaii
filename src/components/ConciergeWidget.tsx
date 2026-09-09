@@ -25,35 +25,39 @@ interface Host {
 
 const HOSTS: Record<SiteId, Host> = {
   hub: {
-    name: 'The Hawaiʻi desk',
-    role: 'Four islands, one team',
-    initials: 'HI',
+    name: 'Executive Chef Keanu',
+    role: 'Culinary Director · The Hawaiʻi Desk',
+    photo: '/img/hosts/host-hub.webp',
+    alt: 'Executive Chef Keanu in the estate kitchen',
+    initials: 'KS',
   },
   oahu: {
-    name: 'Your Oʻahu host',
-    role: 'Private chef · Waikīkī to the North Shore',
+    name: 'Chef Makana',
+    role: 'Oʻahu Lead · Waikīkī to North Shore',
     photo: '/img/hosts/host-oahu.webp',
-    alt: 'The Oʻahu service host in a villa kitchen',
-    initials: 'OA',
+    alt: 'Chef Makana in an oceanview kitchen',
+    initials: 'MC',
   },
   maui: {
-    name: 'Your Maui host',
-    role: 'Private chef · Wailea to Kapalua',
+    name: 'Chef Chloe',
+    role: 'Maui Lead · Wailea to Kapalua',
     photo: '/img/hosts/host-maui.webp',
-    alt: 'The Maui service host on a villa lānai',
-    initials: 'MA',
+    alt: 'Chef Chloe on a sunset villa lānai',
+    initials: 'CS',
   },
   kauai: {
-    name: 'Your Kauaʻi host',
-    role: 'Private chef · both shores',
+    name: 'Chef Ikaika',
+    role: 'Kauaʻi Lead · Both Shores',
     photo: '/img/hosts/host-kauai.webp',
-    alt: 'The Kauaʻi service host on a plantation veranda',
-    initials: 'KA',
+    alt: 'Chef Ikaika on an estate veranda',
+    initials: 'IL',
   },
   bigisland: {
-    name: 'Your Big Island host',
-    role: 'Private chef · Kona–Kohala',
-    initials: 'BI',
+    name: 'Chef Daniel',
+    role: 'Big Island Lead · Kona–Kohala',
+    photo: '/img/hosts/host-bigisland.webp',
+    alt: 'Chef Daniel in an open-air villa kitchen',
+    initials: 'DK',
   },
 };
 
@@ -81,6 +85,14 @@ export default function ConciergeWidget() {
   const { siteId, isHub } = useSite();
   const host = HOSTS[siteId];
   const [open, setOpen] = useState(false);
+  const [bubbleDismissed, setBubbleDismissed] = useState(() => {
+    if (typeof window === 'undefined') return false;
+    try {
+      return sessionStorage.getItem('mychef_chat_bubble_dismissed') === 'true';
+    } catch {
+      return false;
+    }
+  });
   const [docked, setDocked] = useState(true);
   const wrap = useRef<HTMLDivElement | null>(null);
   const button = useRef<HTMLButtonElement | null>(null);
@@ -153,14 +165,24 @@ export default function ConciergeWidget() {
           aria-label={`Contact the ${place} desk`}
           className="card-site mb-4 w-[min(88vw,20rem)] overflow-hidden"
         >
-          <div className="flex items-center gap-4 p-5">
-            <span className="h-14 w-14 shrink-0 overflow-hidden rounded-full">
-              <Avatar host={host} size={56} />
-            </span>
-            <div className="min-w-0">
-              <p className="font-display text-lg leading-tight">{host.name}</p>
-              <p className="text-sm text-ink-2">{host.role}</p>
+          <div className="flex items-center justify-between p-5 pb-4">
+            <div className="flex items-center gap-3.5 min-w-0">
+              <span className="h-12 w-12 shrink-0 overflow-hidden rounded-full">
+                <Avatar host={host} size={48} />
+              </span>
+              <div className="min-w-0">
+                <p className="font-display text-base leading-tight truncate">{host.name}</p>
+                <p className="text-xs text-ink-2 truncate">{host.role}</p>
+              </div>
             </div>
+            <button
+              type="button"
+              onClick={() => setOpen(false)}
+              aria-label="Close concierge panel"
+              className="ml-2 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-ink-2 hover:bg-black/5 hover:text-ink active:scale-95 transition-colors"
+            >
+              <X className="h-4 w-4" aria-hidden="true" />
+            </button>
           </div>
           <div className="rule-t px-5 py-4">
             <p className="text-sm text-ink-2">
@@ -168,7 +190,7 @@ export default function ConciergeWidget() {
               with a written quote. {band}.
             </p>
             <p className="mt-2 text-xs text-ink-2 tabular-site">
-              WhatsApp: <a href={`https://wa.me/${CONTACT.whatsappNumber}?text=${waText}`} target="_blank" rel="noopener noreferrer" className="text-ink font-medium underline underline-offset-2 hover:text-accent-site">+971 55 174 4849</a>
+              WhatsApp: <a href={`https://wa.me/${CONTACT.whatsappNumber}?text=${waText}`} target="_blank" rel="noopener noreferrer" className="text-ink font-medium underline underline-offset-2 hover:text-accent-site">{CONTACT.whatsappDisplay}</a>
             </p>
           </div>
           <div className="rule-t grid grid-cols-2">
@@ -179,7 +201,7 @@ export default function ConciergeWidget() {
               className="motion-site flex items-center justify-center gap-2 px-4 py-3.5 text-sm font-medium text-ink hover:bg-surface-site"
             >
               <MessageCircle aria-hidden="true" className="h-4 w-4 text-accent-site" />
-              <span>WhatsApp <span className="hidden sm:inline font-normal text-xs text-ink-2">(+971 55 174 4849)</span></span>
+              <span>WhatsApp <span className="hidden sm:inline font-normal text-xs text-ink-2">({CONTACT.whatsappDisplay})</span></span>
             </a>
             <a
               href={`mailto:${isHub ? CONTACT.email : ISLAND_EMAIL[siteId as IslandId]}?subject=${encodeURIComponent(`myCHEF Hawaiʻi — ${place} inquiry`)}`}
@@ -192,23 +214,69 @@ export default function ConciergeWidget() {
         </div>
       ) : null}
 
-      <button
-        ref={button}
-        type="button"
-        onClick={() => setOpen(!open)}
-        aria-expanded={open}
-        aria-label={open ? 'Close contact panel' : `Contact the ${place} desk`}
-        className="motion-site ml-auto flex h-14 w-14 items-center justify-center overflow-hidden rounded-full shadow-lg transition-transform hover:scale-105"
-        style={{ boxShadow: 'var(--site-card-shadow, 0 8px 24px rgba(0,0,0,0.18))' }}
-      >
-        {open ? (
-          <span className="flex h-full w-full items-center justify-center bg-card-site">
-            <X aria-hidden="true" className="h-5 w-5 text-ink" />
+      {/* Floating active chat bubble prompt with dismiss button */}
+      {!open && !bubbleDismissed ? (
+        <div
+          className="motion-site group mb-2.5 ml-auto flex max-w-[270px] items-center gap-2 rounded-2xl border border-line-site/80 bg-surface-site p-2 pl-3 text-left text-xs font-medium text-ink shadow-xl transition-all hover:border-accent-site"
+          style={{ boxShadow: '0 8px 24px rgba(0,0,0,0.14)' }}
+        >
+          <button
+            type="button"
+            onClick={() => setOpen(true)}
+            className="flex flex-1 items-center gap-2 text-left cursor-pointer"
+            aria-label="Open concierge chat"
+          >
+            <span className="relative flex h-2 w-2 shrink-0">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
+            </span>
+            <span className="leading-snug">Hello! If there's anything we can help you with, chat with us 👋</span>
+          </button>
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              setBubbleDismissed(true);
+              try {
+                sessionStorage.setItem('mychef_chat_bubble_dismissed', 'true');
+              } catch {}
+            }}
+            className="inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-ink-2/60 hover:bg-black/5 hover:text-ink active:scale-90 transition-colors"
+            aria-label="Dismiss chat bubble"
+            title="Dismiss"
+          >
+            <X className="h-3.5 w-3.5" aria-hidden="true" />
+          </button>
+        </div>
+      ) : null}
+
+      <div className="relative ml-auto w-fit">
+        <button
+          ref={button}
+          type="button"
+          onClick={() => setOpen(!open)}
+          aria-expanded={open}
+          aria-label={open ? 'Close contact panel' : `Contact ${host.name} on the ${place} desk`}
+          className="motion-site relative flex h-14 w-14 items-center justify-center overflow-hidden rounded-full shadow-lg transition-transform hover:scale-105 active:scale-95"
+          style={{ boxShadow: 'var(--site-card-shadow, 0 8px 24px rgba(0,0,0,0.18))' }}
+        >
+          {open ? (
+            <span className="flex h-full w-full items-center justify-center bg-card-site">
+              <X aria-hidden="true" className="h-5 w-5 text-ink" />
+            </span>
+          ) : (
+            <Avatar host={host} size={56} />
+          )}
+        </button>
+        {!open ? (
+          <span
+            className="pointer-events-none absolute -bottom-0.5 -right-0.5 flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500 text-white shadow-xs"
+            aria-hidden="true"
+          >
+            <MessageCircle className="h-3 w-3 fill-current" />
           </span>
-        ) : (
-          <Avatar host={host} size={56} />
-        )}
-      </button>
+        ) : null}
+      </div>
     </div>
   );
 }

@@ -3484,7 +3484,7 @@ export const content: ContentRecord[] = [
       {
         heading: 'The two doors',
         body: [
-          'The quote form takes five fields and two minutes; the written quote comes back itemized. WhatsApp (+971 55 174 4849) is for everything else — the kitchen photo, the “is this possible,” the date you are not sure about.',
+          'The quote form takes five fields and two minutes; the written quote comes back itemized. WhatsApp (+1 (808) 468-7748) is for everything else — the kitchen photo, the “is this possible,” the date you are not sure about.',
         ],
         links: [
           { label: 'Start the quote form', href: '/oahu/quote' },

@@ -1,4 +1,5 @@
 import { Link } from 'react-router';
+import { Globe, Sparkles, Building2, Palmtree, Mountain } from 'lucide-react';
 import { useSite } from '@/platform/IslandProvider';
 import { ISLAND_IDS, SITE_META } from '@/platform/tokens';
 import { getIslandHref } from '@/platform/navigation';
@@ -139,13 +140,6 @@ export default function Footer() {
   );
 }
 
-/** Sister brands in the myCHEF group. Ordered by city, Hawaiʻi marked as here. */
-const GROUP = [
-  { city: 'Dubai', country: 'United Arab Emirates', href: 'https://mychef.ae', domain: 'mychef.ae' },
-  { city: 'Bali', country: 'Indonesia', href: 'https://mychef.id', domain: 'mychef.id' },
-  { city: 'Cape Town', country: 'South Africa', href: 'https://mychefs.co.za', domain: 'mychefs.co.za' },
-];
-
 /**
  * The group block — on every page, hub and islands alike. It is a trust signal
  * as much as a link: the same vetting and the same published-price standard
@@ -154,25 +148,57 @@ const GROUP = [
 function GroupNetwork() {
   return (
     <section className="rule-t mt-12 pt-8" aria-labelledby="group-network">
-      <p className="eyebrow-site mb-3" id="group-network">
-        myCHEF around the world
-      </p>
+      <div className="flex items-center gap-2 mb-3">
+        <Globe className="h-4 w-4 text-accent-site" aria-hidden="true" />
+        <p className="eyebrow-site !mb-0 font-medium tracking-widest text-xs" id="group-network">
+          myCHEF International Luxury Network
+        </p>
+      </div>
       <p className="measure-site text-sm text-ink-2">
-        Hawaiʻi is one kitchen in an international group. Dubai, Bali, Cape Town and Hawaiʻi work to the same
-        chef vetting and the same published-price standard, and share menus, sourcing and training across the
-        network.
+        Hawaiʻi is one kitchen in an international private culinary group. Dubai, Bali, Cape Town, and Hawaiʻi operate to the same
+        rigorous Michelin-caliber chef vetting and transparent published-price standard, sharing global techniques, seasonal sourcing, and discrete hospitality standards.
       </p>
-      <ul className="mt-5 flex flex-wrap gap-x-8 gap-y-3 text-sm">
-        {GROUP.map((g) => (
-          <li key={g.domain}>
-            <a href={g.href} className="link-site" target="_blank" rel="noopener">
-              myCHEF {g.city}
-            </a>
-            <span className="ml-2 text-ink-2">{g.domain}</span>
-          </li>
-        ))}
-        <li aria-current="true" className="text-ink-2">
-          myCHEF Hawaiʻi <span className="ml-2">mychef-hawaii.com — you are here</span>
+      <ul className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm">
+        <li>
+          <a
+            href="https://mychef.ae"
+            className="link-site inline-flex items-center gap-1.5 font-medium transition-colors hover:text-accent-site"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Building2 className="h-3.5 w-3.5 text-accent-site/80" aria-hidden="true" />
+            <span>myCHEF Dubai</span>
+            <span className="text-xs text-ink-2 font-normal">mychef.ae</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://mychef.id"
+            className="link-site inline-flex items-center gap-1.5 font-medium transition-colors hover:text-accent-site"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Palmtree className="h-3.5 w-3.5 text-accent-site/80" aria-hidden="true" />
+            <span>myCHEF Bali</span>
+            <span className="text-xs text-ink-2 font-normal">mychef.id</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://mychefs.co.za"
+            className="link-site inline-flex items-center gap-1.5 font-medium transition-colors hover:text-accent-site"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Mountain className="h-3.5 w-3.5 text-accent-site/80" aria-hidden="true" />
+            <span>myCHEF Cape Town</span>
+            <span className="text-xs text-ink-2 font-normal">mychefs.co.za</span>
+          </a>
+        </li>
+        <li aria-current="true" className="inline-flex items-center gap-1.5 rounded-full border border-accent-site/35 bg-accent-site/10 px-3 py-1 text-xs font-semibold text-accent-site">
+          <Sparkles className="h-3.5 w-3.5 text-accent-site" aria-hidden="true" />
+          <span>myCHEF Hawaiʻi</span>
+          <span className="font-normal opacity-80">(mychef-hawaii.com — you are here)</span>
         </li>
       </ul>
     </section>

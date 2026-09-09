@@ -201,7 +201,7 @@ export default function OahuWeddings() {
           label: 'Get a written quote',
           href: '/oahu/quote',
           secondaryLabel: 'WhatsApp us',
-          secondaryHref: 'https://wa.me/971551744849',
+          secondaryHref: 'https://wa.me/18084687748',
           note: 'Tell us the venue (or the shortlist), the guest counts per event, and the dates — the written quote itemizes the whole week.',
         }}
       />

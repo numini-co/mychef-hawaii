@@ -190,7 +190,7 @@ export default function OahuCatering() {
           label: 'Get a written quote',
           href: '/oahu/quote',
           secondaryLabel: 'WhatsApp us',
-          secondaryHref: 'https://wa.me/971551744849',
+          secondaryHref: 'https://wa.me/18084687748',
           note: 'Tell us the headcount, the venue, and the date — the written quote comes back itemized, and it is the confirmed total.',
         }}
       />

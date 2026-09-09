@@ -648,7 +648,7 @@ export default function OahuHome() {
                     Get a written quote
                   </button>
                   <a
-                    href="https://wa.me/971551744849?text=Aloha%20myCHEF%20O%CA%BBahu%20—%20I%27d%20like%20a%20written%20quote."
+                    href="https://wa.me/18084687748?text=Aloha%20myCHEF%20O%CA%BBahu%20—%20I%27d%20like%20a%20written%20quote."
                     target="_blank"
                     rel="noreferrer"
                     className="cta-secondary-site"

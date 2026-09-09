@@ -209,7 +209,7 @@ export default function OahuPricing() {
         </div>
       </section>
 
-      <QuoteCTA cta={{ label: 'Get a written quote', href: '/oahu/quote', secondaryLabel: 'WhatsApp us', secondaryHref: 'https://wa.me/971551744849' }} />
+      <QuoteCTA cta={{ label: 'Get a written quote', href: '/oahu/quote', secondaryLabel: 'WhatsApp us', secondaryHref: 'https://wa.me/18084687748' }} />
     </>
   );
 }

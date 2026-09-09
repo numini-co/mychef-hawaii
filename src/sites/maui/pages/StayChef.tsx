@@ -128,7 +128,7 @@ export default function MauiStayChef() {
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-5">
               <Link to={link('quote?service=stay-chef')} className="cta-site">Get a written quote</Link>
-              <a href="https://wa.me/971551744849?text=Aloha%20myCHEF%20Maui%20—%20I%27d%20like%20to%20discuss%20Stay%20Chef%20dates." target="_blank" rel="noreferrer" className="cta-secondary-site">WhatsApp our team →</a>
+              <a href="https://wa.me/18084687748?text=Aloha%20myCHEF%20Maui%20—%20I%27d%20like%20to%20discuss%20Stay%20Chef%20dates." target="_blank" rel="noreferrer" className="cta-secondary-site">WhatsApp our team →</a>
             </div>
           </div>
           <SectionReveal className="md:col-span-6">
@@ -271,7 +271,7 @@ export default function MauiStayChef() {
           label: 'Get a written quote',
           href: link('quote?service=stay-chef'),
           secondaryLabel: 'WhatsApp us',
-          secondaryHref: 'https://wa.me/971551744849',
+          secondaryHref: 'https://wa.me/18084687748',
         }}
       />
     </>

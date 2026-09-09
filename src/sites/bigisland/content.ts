@@ -4844,10 +4844,10 @@ export const content: ContentRecord[] = [
       {
         heading: 'WhatsApp',
         body: [
-          'For the fast question — “is this date open,” “does this rental’s kitchen work,” “can you do Hilo” — WhatsApp (+971 55 174 4849) gets you a direct answer, usually with the quote flow attached when the answer turns into a booking.',
+          'For the fast question — “is this date open,” “does this rental’s kitchen work,” “can you do Hilo” — WhatsApp (+1 (808) 468-7748) gets you a direct answer, usually with the quote flow attached when the answer turns into a booking.',
         ],
         links: [
-          { label: 'WhatsApp +971 55 174 4849', href: 'https://wa.me/971551744849' },
+          { label: 'WhatsApp +1 (808) 468-7748', href: 'https://wa.me/18084687748' },
           { label: 'Open the quote flow', href: 'quote' }
         ],
       },

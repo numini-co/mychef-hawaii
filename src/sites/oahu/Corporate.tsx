@@ -100,7 +100,7 @@ export default function OahuCorporate() {
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-5">
               <Link to="/oahu/quote?service=catering" className="cta-site">Request a corporate quote</Link>
-              <a href="https://wa.me/971551744849?text=Aloha%20myCHEF%20O%CA%BBahu%20—%20I%27d%20like%20a%20corporate%20catering%20proposal." target="_blank" rel="noreferrer" className="cta-secondary-site">WhatsApp our team →</a>
+              <a href="https://wa.me/18084687748?text=Aloha%20myCHEF%20O%CA%BBahu%20—%20I%27d%20like%20a%20corporate%20catering%20proposal." target="_blank" rel="noreferrer" className="cta-secondary-site">WhatsApp our team →</a>
             </div>
           </div>
           <SectionReveal className="md:col-span-6">
@@ -199,7 +199,7 @@ export default function OahuCorporate() {
           label: 'Request a corporate quote',
           href: '/oahu/quote?service=catering',
           secondaryLabel: 'WhatsApp our team',
-          secondaryHref: 'https://wa.me/971551744849',
+          secondaryHref: 'https://wa.me/18084687748',
         }}
       />
     </>

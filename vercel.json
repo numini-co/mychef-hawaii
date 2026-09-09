@@ -3,5 +3,11 @@
   "framework": "vite",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/((?!assets/|img/|videos/|sample-quotes/|favicon|robots\\.txt|sitemap\\.xml|llms\\.txt|.*\\..*).*)",
+      "destination": "/index.html"
+    }
+  ]
 }

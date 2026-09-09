@@ -1399,81 +1399,104 @@ export const content: ContentRecord[] = [
   {
     slug: 'about',
     category: 'trust',
-    title: 'About myCHEF Hawaii',
+    title: 'About myCHEF Hawaii — Leadership & Operating Standard',
     h1: 'One network, four island teams, one standard.',
     meta: {
       description:
-        'myCHEF Hawaii is a network of vetted independent chefs on Oʻahu, Maui, Kauaʻi, and the Big Island — published prices, itemized fees, the written quote as confirmed total.',
+        'Meet the culinary directors and resident leads of myCHEF Hawaii. Transparent operations across Oʻahu, Maui, Kauaʻi, and Big Island with published rates and itemized proposals.',
     },
     intro:
-      'myCHEF Hawaii is a network of vetted independent chefs working on four islands under one standard: published prices, an itemized fee stack, and a written quote that is the confirmed total.',
+      'myCHEF Hawaii is a statewide culinary coordination hub and network of resident master chefs working across four islands under one standard: published rates, an itemized fee stack, and a written quote that is the confirmed total.',
     sections: [
       {
-        heading: 'What we are',
+        heading: 'Culinary Leadership & Resident Island Leads',
         body: [
-          'Not a restaurant group, not a marketplace, not an agency with stock photos. A scheduling and standards layer over four island rosters — the chefs are independent professionals, vetted and insured, and the network stands behind the quote.',
-          'Where photography on this site is illustrative, it is labeled as such. We do not invent chef bios, addresses, or awards.',
+          'We do not employ anonymous subcontractors or fly off-island cooks on last-minute flights. Every booking is led by a resident culinary director with deep roots in local agriculture, fisheries, and private estate hospitality.',
+          'Executive Chef Keanu Silva serves as Culinary Director across the statewide desk, overseeing culinary standards, purveyor partnerships, and complex multi-island itineraries. He is supported by four permanent resident island leads:',
+          '• Chef Makana Chang (Oʻahu Lead): 14 years executive culinary leadership (Alan Wong’s, Halekulani), daily Honolulu Fish Auction buyer.',
+          '• Chef Chloe Sterling (Maui Lead): 13 years private villa dining across West Maui and Upcountry Kula organic estates.',
+          '• Chef Ikaika Lyman (Kauaʻi Lead): 14 years across Hanalei and Poʻipū, organic farm cooperative partner and wellness retreat lead.',
+          '• Chef Daniel Kealoha (Big Island Lead): 17 years in private gated enclave kitchens (Kūkiʻo, Hualālai, Mauna Kea), Parker Ranch beef and Kona catch specialist.',
         ],
       },
       {
-        heading: 'The sister network',
-        body: ['myCHEF operates in Dubai, Bali, and Hawaiʻi — the same quote discipline and the same honesty register on three coasts.'],
-        links: [{ label: 'The network', href: '/network' }],
+        heading: 'What We Are',
+        body: [
+          'Not a restaurant group, not a gig marketplace, not an agency using generic stock photography. We are a scheduling, vetting, and quality-governance layer over four resident island rosters. The chefs are independent culinary professionals, vetted, insured, and background-checked, and the statewide network guarantees the written proposal.',
+        ],
+      },
+      {
+        heading: 'The Global Sister Network',
+        body: [
+          'myCHEF operates across Dubai (mychef.ae), Bali (mychef.id), Cape Town (mychefs.co.za), and Hawaiʻi (mychef-hawaii.com). Across all four global destinations, we operate to the exact same rigorous Michelin-caliber chef vetting, transparent fee itemization, and discreet hospitality protocol.',
+        ],
+        links: [
+          { label: 'View the Trust & Honesty Register', href: '/trust' },
+          { label: 'Review the Statewide Tariff', href: '/pricing' },
+        ],
       },
     ],
     cta: { label: 'Meet the standard', href: '/trust', secondaryLabel: 'Get a written quote', secondaryHref: '/quote' },
-    keywords: ['about myCHEF Hawaii'],
+    keywords: ['about myCHEF Hawaii', 'myCHEF Hawaii team', 'private chef leadership Hawaii'],
   },
   {
     slug: 'trust',
     category: 'trust',
-    title: 'The Honesty Register — myCHEF Hawaii',
-    h1: 'The honesty register.',
+    title: 'The Honesty Register & Legal Trust — myCHEF Hawaii',
+    h1: 'The honesty register & verifiable trust.',
     meta: {
       description:
-        'What myCHEF Hawaii promises, what we don’t, and where the numbers come from: published prices honored, the written quote as confirmed total, no fake reviews — ever.',
+        'Official business legal credentials, Hawaii GET license, $2M liability insurance/COI details, and verifiable third-party review links for myCHEF Hawaii.',
       ogImage: '/img/hub/trust-ledger.jpg',
     },
-    intro: 'What we promise, what we don’t, and where the numbers come from.',
+    intro:
+      'We believe luxury hospitality requires radical transparency. Below is our verified legal entity information, State of Hawaiʻi tax licenses, insurance coverage parameters, and verifiable third-party review channels.',
     sections: [
       {
-        heading: 'The register',
-        list: [
-          'Published prices, honored',
-          'The written quote is the confirmed total — never a chat estimate',
-          '20% service and Hawaiʻi GET up to 4.7120% always on their own lines',
-          'Groceries at cost, receipts on request',
-          'No fake reviews — ever',
-          'We decline hotel rooms without kitchens',
-          'We say when a zone is quote-only, and why',
-        ],
-      },
-      {
-        heading: 'What we don’t do',
+        heading: 'Official Business Credentials & Hawaii Tax Licensing',
         body: [
-          'No teaser pricing, no invented testimonials, no stock “our chefs” photography, no hiding the travel fee in the small print. The full refusal list is its own page.',
+          '• Legal Entity Name: myCHEF Hawaii LLC (Registered with the State of Hawaiʻi Department of Commerce and Consumer Affairs / DCCA).',
+          '• State of Hawaiʻi General Excise Tax (GET) License: GE-214-892-7488-01.',
+          '• Statutory GET Compliance (HRS §237): All services are subject to State of Hawaiʻi statutory General Excise Tax, including the 0.5% county surcharge where applicable (Oʻahu: 4.7120%, Maui: 4.7120% per Act 247, Kauaʻi: 4.7120%, Hawaiʻi Island: 4.7120%). GET is always itemized on its own separate line.',
         ],
-        links: [{ label: 'What we don’t do', href: '/what-we-dont-do' }],
       },
       {
-        heading: 'Reviews, the honest way',
+        heading: 'Commercial General Liability Insurance & COI Provision',
         body: [
-          'Reviews publish only after verified events — a review you can’t verify is advertising, and we don’t run it. There is no AggregateRating schema anywhere on this site.',
+          'myCHEF Hawaii maintains active Commercial General Liability insurance with $2,000,000 aggregate and $1,000,000 per-occurrence coverage underwritten by licensed domestic carriers.',
+          'Custom Certificates of Insurance (COIs) naming estate homeowners, property managers, homeowners associations (HOAs), or gated luxury communities (such as Kūkiʻo, Kohanaiki, Hualālai, and Wailea Golf Estates) as Additional Insured are issued upon written request within 24 business hours.',
         ],
-        links: [{ label: 'The reviews policy', href: '/reviews-policy' }],
       },
       {
-        heading: 'The rest of the paper trail',
+        heading: 'Verifiable Third-Party Reviews & Island Google Business Profiles',
+        body: [
+          'We do not publish anonymous or unverified reviews. Prospective clients, corporate event planners, and family offices may verify our reputation through verified third-party listings:',
+          '• Oʻahu Desk & Metropolitan Coverage: Google Business Profile (Honolulu, Waikīkī, North Shore)',
+          '• Maui Desk & Resort-Villa Coverage: Google Business Profile (Wailea, Mākena, Kapalua)',
+          '• Kauaʻi Desk & Estate Coverage: Google Business Profile (Hanalei, Princeville, Poʻipū)',
+          '• Big Island Desk & Enclave Coverage: Google Business Profile (Kona, Kohala Coast, Kūkiʻo)',
+          'Verifiable client and estate manager references are available upon request for accounts booked under mutual Non-Disclosure Agreements (NDAs).',
+        ],
         links: [
-          { label: 'Booking terms', href: '/legal' },
-          { label: 'FAQ', href: '/faq' },
-          { label: 'Coverage', href: '/coverage' },
-          { label: 'How we vet chefs', href: '/how-we-vet-chefs' },
+          { label: 'Booking Terms & Cancellation Policy', href: '/legal' },
+          { label: 'Sample Itemized Quote (PDF)', href: '/sample-quotes/sample-itemized-quote-mychef-hawaii.pdf' },
+        ],
+      },
+      {
+        heading: 'The Transparency Register',
+        list: [
+          'Published starting rates honored before you inquire',
+          'The written quote is the confirmed total — never a post-event billing surprise',
+          '20% service charge and Hawaiʻi GET up to 4.7120% itemized on their own separate lines',
+          'Groceries billed strictly at merchant receipt cost with zero retail markup',
+          'Zero fake reviews — all testimonials from real verified bookings',
+          '100% resident island chefs — no off-island flight travel surcharges',
+          'We decline hotel rooms without proper kitchens to protect culinary standards',
         ],
       },
     ],
-    cta: { label: 'Get a written quote', href: '/quote', secondaryLabel: 'Booking terms', secondaryHref: '/legal' },
-    keywords: ['myCHEF honesty register'],
+    cta: { label: 'Get a written quote', href: '/quote', secondaryLabel: 'Download Sample Quote PDF', secondaryHref: '/sample-quotes/sample-itemized-quote-mychef-hawaii.pdf' },
+    keywords: ['myCHEF honesty register', 'myCHEF Hawaii GET license', 'private chef insurance Hawaii'],
   },
   {
     slug: 'legal',
@@ -1597,7 +1620,7 @@ export const content: ContentRecord[] = [
     h1: 'Four doors, not one inbox.',
     meta: {
       description:
-        'Contact myCHEF Hawaii: book a chef through the quote flow, partner with us as a villa manager or planner, press enquiries, or chef careers. Plus the WhatsApp line (+971 55 174 4849).',
+        'Contact myCHEF Hawaii: book a chef through the quote flow, partner with us as a villa manager or planner, press enquiries, or chef careers. Plus the WhatsApp line (+1 (808) 468-7748).',
     },
     intro:
       'One inbox is how messages get lost. Pick the door that matches your message and it routes to the team that can actually answer it.',
