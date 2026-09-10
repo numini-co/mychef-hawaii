@@ -49,7 +49,7 @@ export default function IslandSwitcher({
     leave.current = window.setTimeout(() => setOpen(false), 140);
   };
 
-  const label = islandId ? islands[islandId].shortName : 'Islands';
+  const label = islandId ? islands[islandId].shortName : 'All islands';
 
   return (
     <div

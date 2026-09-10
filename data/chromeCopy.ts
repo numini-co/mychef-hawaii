@@ -3,12 +3,18 @@ import type { IslandId } from './islands';
 /** Homepage chrome copy — unique H1s stay locked in islandOffers / HomeView. */
 export const hubChrome = {
   kicker: 'myCHEF Hawaii · Private dining in your villa',
-  h1: 'Private Chef Hawaii — in your villa, on your island.',
-  lede: 'A private dinner, a Stay Chef or a staffed event in your villa. We shop, cook, serve and clean in a real kitchen.',
+  h1: 'Private chefs & catering across all four Hawaiian islands.',
+  lede: 'A private dinner, a Stay Chef or a staffed event in your villa on Oʻahu, Maui, Kauaʻi or Hawaiʻi Island. We shop, cook, serve and clean in a real kitchen.',
   price:
     'Signature dinner from $125 a guest on Oʻahu and $150 on Maui and Kauaʻi. Stay Chef from $850 a day on Oʻahu.',
-  primaryCta: 'Request a written quote',
-  secondaryCta: 'Choose your island',
+  oneIslandCta: 'I need one island',
+  multiIslandCta: 'I need multiple islands',
+  ctaHelper: 'Only visiting one island? Start on that island’s site for local menus and rate cards.',
+  priceLinkLabel: 'See published prices',
+  multiH2: 'Cooking on more than one island?',
+  multiLine:
+    'One coordinator, one master quote. Resident chefs cook on each island — no fly-in surcharge. Tell us the itinerary and we sequence the crews.',
+  multiCta: 'Plan a multi-island itinerary',
   coresH2: 'A chef for the house, or catering for the event.',
   chefLine: 'One dinner in the villa. Shop, cook, serve, clean. Stay Chef weeks live on /vacation-chef.',
   chefPrice: 'From $125 a guest on Oʻahu · $150 on Maui and Kauaʻi',
@@ -45,22 +51,33 @@ export const processSteps = [
   },
 ] as const;
 
-export const islandChooserCopy: Record<IslandId, { line: string; price: string }> = {
+export const islandChooserCopy: Record<
+  IslandId,
+  { tagline: string; line: string; price: string; alt: string }
+> = {
   oahu: {
+    tagline: 'Metropolitan luxury · Waikīkī to North Shore',
     line: 'Honolulu to Ko Olina, for villa dinners and staffed events. Quotes open now.',
     price: 'Signature dinner from $125 a guest · Stay Chef from $850 a day',
+    alt: 'A chef plating sesame ahi on an Oʻahu villa counter with Diamond Head and Waikīkī lights at twilight — myCHEF Oʻahu private chef.',
   },
   maui: {
+    tagline: 'Resort-coast dining · Wailea to Kapalua',
     line: 'Wailea, Kīhei and West Maui, for villa dinners and staffed events. Quotes open now.',
     price: 'Signature dinner from $150 a guest · Stay Chef from $1,050 a day',
+    alt: 'A candlelit Maui villa terrace table at dusk with seared fish and heliconia against the west-side sunset — myCHEF Maui private chef.',
   },
   kauai: {
+    tagline: 'Garden-isle estates · Princeville to Poʻipū',
     line: 'Princeville and Hanalei to Poʻipū, for villa dinners and staffed events. Inquiry stage.',
     price: 'Signature dinner from $150 a guest',
+    alt: 'An estate table on Kauaʻi looking into a misted valley of fluted mountains at golden hour — myCHEF Kauaʻi private chef, inquiry stage.',
   },
   bigisland: {
+    tagline: 'Volcanic minimalism · Kona–Kohala Coast',
     line: 'Kona and the Kohala Coast first, for villa dinners and staffed events. Inquiry stage.',
     price: 'Signature dinner from $125 a guest · west side first',
+    alt: 'A lava-coast terrace table on Hawaiʻi Island at sunset with fruit and wine glasses, Mauna Loa on the horizon — myCHEF Hawaiʻi Island private chef, inquiry stage.',
   },
 };
 

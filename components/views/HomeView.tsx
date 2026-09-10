@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { CtaLink, QuoteCta } from '@/components/Cta';
+import { CtaLink } from '@/components/Cta';
 import Eyebrow from '@/components/Eyebrow';
 import Hero from '@/components/Hero';
 import IslandChooser from '@/components/IslandChooser';
@@ -46,11 +46,28 @@ export default function HomeView() {
           {
             '@context': 'https://schema.org',
             '@type': 'FoodService',
-            name: 'Private chef Hawaii — myCHEF',
+            name: 'myCHEF Hawaii',
             description: hubChrome.lede,
-            areaServed: 'Hawaiʻi',
-            serviceType: 'Private chef',
-            parentOrganization: { '@type': 'Organization', name: 'myCHEF Hawaii' },
+            url: 'https://mychef-hawaii.com/',
+            telephone: '+18084687748',
+            email: 'quotes@mychef-hawaii.com',
+            priceRange: '$125–$250',
+            serviceType: 'Private chef and catering',
+            areaServed: [
+              { '@type': 'AdministrativeArea', name: 'Oʻahu' },
+              { '@type': 'AdministrativeArea', name: 'Maui' },
+              { '@type': 'AdministrativeArea', name: 'Kauaʻi' },
+              { '@type': 'AdministrativeArea', name: 'Hawaiʻi Island' },
+            ],
+            contactPoint: {
+              '@type': 'ContactPoint',
+              contactType: 'sales',
+              telephone: '+18084687748',
+              email: 'quotes@mychef-hawaii.com',
+              areaServed: 'US-HI',
+              availableLanguage: 'English',
+            },
+            parentOrganization: { '@type': 'Organization', name: 'myCHEF' },
           },
           {
             '@context': 'https://schema.org',
@@ -73,11 +90,20 @@ export default function HomeView() {
         <p className="mt-6 max-w-[42ch] text-[17px] leading-[1.6] text-paper lg:text-[19px]">{hubChrome.lede}</p>
         <p className="mt-4 text-[15px] text-paper">{hubChrome.price}</p>
         <div className="mt-9 flex flex-wrap items-center gap-4">
-          <QuoteCta variant="light">{hubChrome.primaryCta}</QuoteCta>
-          <CtaLink href="#islands" variant="ghost">
-            {hubChrome.secondaryCta}
+          <CtaLink href="#choose-island" variant="light">
+            {hubChrome.oneIslandCta}
+          </CtaLink>
+          <CtaLink href="/quote?itinerary=multi" variant="ghost">
+            {hubChrome.multiIslandCta}
           </CtaLink>
         </div>
+        <p className="mt-4 max-w-[46ch] text-[14px] leading-relaxed text-paper/90">{hubChrome.ctaHelper}</p>
+        <Link
+          href="/pricing"
+          className="mt-3 inline-block text-[14px] font-medium text-paper underline decoration-paper/60 underline-offset-[6px]"
+        >
+          {hubChrome.priceLinkLabel}
+        </Link>
       </Hero>
 
       <section className="bg-paper py-24 lg:py-32">
@@ -130,6 +156,25 @@ export default function HomeView() {
       </section>
 
       <IslandChooser />
+
+      <section className="bg-paper pb-24 lg:pb-32">
+        <div className="mx-auto w-full max-w-spread px-5 lg:px-10">
+          <div className="border-t border-line pt-14 lg:grid lg:grid-cols-[1fr_auto] lg:items-end lg:gap-12">
+            <div>
+              <Eyebrow>Multi-island</Eyebrow>
+              <h2 className="mt-4 max-w-[20ch] font-display text-[clamp(1.75rem,3.5vw,2.75rem)] font-light leading-[1.1] text-ink">
+                {hubChrome.multiH2}
+              </h2>
+              <p className="mt-5 max-w-[52ch] text-[17px] leading-relaxed text-mute">{hubChrome.multiLine}</p>
+            </div>
+            <div className="mt-8 lg:mt-0">
+              <CtaLink href="/quote?itinerary=multi" variant="primary">
+                {hubChrome.multiCta}
+              </CtaLink>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="bg-sand py-24 lg:py-32">
         <div className="mx-auto w-full max-w-spread px-5 lg:px-10">

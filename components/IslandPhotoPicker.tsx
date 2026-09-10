@@ -37,13 +37,16 @@ export default function IslandPhotoPicker({
                   <span className="relative block aspect-[3/4] overflow-hidden bg-sand">
                     <Photo
                       src={isl.selectorImage}
-                      alt={isl.name}
+                      alt={chooser.alt}
                       fill
                       sizes="(min-width: 1280px) 25vw, (min-width: 640px) 50vw, 100vw"
                       className="transition-transform duration-[1200ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.04] motion-reduce:transform-none"
                     />
                   </span>
-                  <span className="mt-5 block font-display text-[1.5rem] font-light text-ink">{isl.name}</span>
+                  <span className="mt-5 block text-[12px] uppercase tracking-[0.14em] text-brass">
+                    {chooser.tagline}
+                  </span>
+                  <span className="mt-2 block font-display text-[1.5rem] font-light text-ink">{isl.name}</span>
                   <span className="mt-2 block text-[15px] leading-relaxed text-mute">{chooser.line}</span>
                   <span className="mt-2 block text-[13px] text-mute">
                     {detail ?? chooser.price}
