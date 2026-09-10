@@ -16,7 +16,11 @@ const DEFAULT: PageMetaRecord = {
 };
 
 export const PAGE_META: Record<string, PageMetaRecord> = {
-  '/': DEFAULT,
+  '/': {
+    title: 'Private Chef Hawaii — Four Islands, Published Prices | myCHEF',
+    description:
+      'Private chef & catering across Oʻahu, Maui, Kauaʻi and the Big Island. From $125 a guest, published. Written quote is the total; 20% service and Hawaiʻi GET itemized.',
+  },
   '/islands': {
     title: 'Four island hosts | myCHEF Hawaii',
     description:
