@@ -32,7 +32,12 @@ function isStaticAsset(pathname: string): boolean {
   if (pathname.startsWith('/api/')) return true;
   if (pathname === '/favicon.ico') return true;
   if (pathname === '/logo.svg') return true;
-  return /\.[a-zA-Z0-9]+$/.test(pathname) && pathname !== '/sitemap.xml' && pathname !== '/robots.txt';
+  return (
+    /\.[a-zA-Z0-9]+$/.test(pathname) &&
+    pathname !== '/sitemap.xml' &&
+    pathname !== '/sitemap-index.xml' &&
+    pathname !== '/robots.txt'
+  );
 }
 
 export function middleware(request: NextRequest) {
@@ -112,7 +117,7 @@ export function middleware(request: NextRequest) {
   if (islandHost && isIsland(islandHost)) {
     requestHeaders.set('x-island', islandHost);
     requestHeaders.set('x-host-mode', '1');
-    if (path === '/sitemap.xml' || path === '/robots.txt') {
+    if (path === '/sitemap.xml' || path === '/sitemap-index.xml' || path === '/robots.txt') {
       return NextResponse.next({ request: { headers: requestHeaders } });
     }
     const alreadyPrefixed = path === `/${islandHost}` || path.startsWith(`/${islandHost}/`);

@@ -13,11 +13,18 @@ export async function GET(request: Request) {
         : PRODUCTION_ROOT;
   const proto = host.includes('localhost') ? 'http' : 'https';
   const origin = `${proto}://${host}`;
+  // Hub advertises the network sitemap index; island hosts advertise their own sitemap.
+  const sitemapLines = island
+    ? `Sitemap: ${origin}/sitemap.xml`
+    : `Sitemap: ${origin}/sitemap-index.xml
+Sitemap: ${origin}/sitemap.xml`;
   const body = `User-agent: *
 Allow: /
+Allow: /quote
+Disallow: /quote?*
 
 Host: ${origin}
-Sitemap: ${origin}/sitemap.xml
+${sitemapLines}
 `;
   return new Response(body, {
     status: 200,

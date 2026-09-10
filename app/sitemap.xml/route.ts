@@ -14,6 +14,9 @@ import { blogArticles } from '@/data/blogArticles';
 import { SUPPORT_PATHS } from '@/data/islandSupport';
 import { HUB_ALL_PICKER_PATHS } from '@/data/hubDirectories';
 
+/** Key hub landing routes that must always be crawlable from the hub sitemap. */
+const HUB_KEY_PATHS = ['/pricing', '/islands', '/quote', '/trust'] as const;
+
 function xmlEscape(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
 }
@@ -77,25 +80,39 @@ ${entries.join('\n')}
 `;
 }
 
+/** Minimal valid urlset so the route never 500s, even if generation throws. */
+function fallbackUrlset(): string {
+  return urlset([{ host: 'hub', path: '/' }]);
+}
+
 export async function GET(request: Request) {
-  const host = (request.headers.get('x-forwarded-host') || request.headers.get('host') || PRODUCTION_ROOT)
-    .split(':')[0]
-    .toLowerCase();
-  const island = detectIslandFromHost(host);
-  const extras = island
-    ? [...neighborhoodRows(island), ...supportRows(island), ...uniqueCellRows(island)]
-    : (['oahu', 'maui', 'kauai', 'bigisland'] as const).flatMap((id) => [
-        ...neighborhoodRows(id),
-        ...supportRows(id),
-        ...uniqueCellRows(id),
-      ]);
-  const hubRows = island
-    ? []
-    : HUB_ALL_PICKER_PATHS.map((path) => ({ host: 'hub' as const, path, priority: '0.55' }));
-  const rows = island
-    ? [...MASTER_MAP.filter((r) => r.host === island), ...extras]
-    : [...MASTER_MAP, ...hubRows, ...extras];
-  return new Response(urlset(rows), {
+  let body: string;
+  try {
+    const host = (request.headers.get('x-forwarded-host') || request.headers.get('host') || PRODUCTION_ROOT)
+      .split(':')[0]
+      .toLowerCase();
+    const island = detectIslandFromHost(host);
+    const extras = island
+      ? [...neighborhoodRows(island), ...supportRows(island), ...uniqueCellRows(island)]
+      : (['oahu', 'maui', 'kauai', 'bigisland'] as const).flatMap((id) => [
+          ...neighborhoodRows(id),
+          ...supportRows(id),
+          ...uniqueCellRows(id),
+        ]);
+    const hubRows = island
+      ? []
+      : [
+          ...HUB_KEY_PATHS.map((path) => ({ host: 'hub' as const, path, priority: '0.8' })),
+          ...HUB_ALL_PICKER_PATHS.map((path) => ({ host: 'hub' as const, path, priority: '0.55' })),
+        ];
+    const rows = island
+      ? [...MASTER_MAP.filter((r) => r.host === island), ...extras]
+      : [...MASTER_MAP, ...hubRows, ...extras];
+    body = urlset(rows);
+  } catch {
+    body = fallbackUrlset();
+  }
+  return new Response(body, {
     status: 200,
     headers: {
       'content-type': 'application/xml; charset=utf-8',
