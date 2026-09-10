@@ -433,7 +433,10 @@ export function resolveDocumentSeo(hostname: string, pathname: string): Document
     },
   ];
 
-  if (LOCAL_BUSINESS_JSONLD.has(localPath)) {
+  // Hub homepage emits a richer FoodService node in HomeView; skip the generic
+  // LocalBusiness there to avoid a duplicate/conflicting LocalBusiness block.
+  const skipHubHomeLocalBusiness = islandId === null && localPath === '/';
+  if (LOCAL_BUSINESS_JSONLD.has(localPath) && !skipHubHomeLocalBusiness) {
     jsonLd.push(localBusinessJsonLd(islandId, origin || `https://${PRODUCTION_ROOT}`));
   }
 
