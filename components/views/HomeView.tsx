@@ -46,7 +46,7 @@ export default function HomeView() {
           {
             '@context': 'https://schema.org',
             '@type': 'FoodService',
-            name: 'myCHEF Hawaii',
+            name: 'Private chef Hawaii — myCHEF',
             description: hubChrome.lede,
             url: 'https://mychef-hawaii.com/',
             telephone: '+18084687748',
