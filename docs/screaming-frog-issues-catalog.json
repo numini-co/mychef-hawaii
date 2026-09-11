@@ -1,0 +1,1656 @@
+{
+  "source": "https://www.screamingfrog.co.uk/seo-spider/issues/",
+  "fetched": "2026-09-11",
+  "note": "Catalog of Screaming Frog SEO Spider issue types. Automated gate scripts/check-seo-frog.mjs covers automatable subset on prerendered HTML.",
+  "issueCountLinked": 320,
+  "categories": {
+    "accessibility": [
+      {
+        "name": "Best Practice Accesskey Attribute Value Must Be Unique",
+        "slug": "best-practice-accesskey-attribute-value-must-be-unique",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-accesskey-attribute-value-must-be-unique/"
+      },
+      {
+        "name": "Best Practice Elements Must Not Have Tabindex Greater Than Zero",
+        "slug": "best-practice-elements-must-not-have-tabindex-greater-than-zero",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-elements-must-not-have-tabindex-greater-than-zero/"
+      },
+      {
+        "name": "Best Practice Aria Dialog Alertdialog Require Accessible Name",
+        "slug": "best-practice-aria-dialog-alertdialog-require-accessible-name",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-aria-dialog-alertdialog-require-accessible-name/"
+      },
+      {
+        "name": "Best Practice Aria Treeitem Nodes Require Accessible Name",
+        "slug": "best-practice-aria-treeitem-nodes-require-accessible-name",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-aria-treeitem-nodes-require-accessible-name/"
+      },
+      {
+        "name": "Best Practice Roletext Should Have No Focusable Descendants",
+        "slug": "best-practice-roletext-should-have-no-focusable-descendants",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-roletext-should-have-no-focusable-descendants/"
+      },
+      {
+        "name": "Best Practice Form Elements Should Have Visible Label",
+        "slug": "best-practice-form-elements-should-have-visible-label",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-form-elements-should-have-visible-label/"
+      },
+      {
+        "name": "Best Practice Frames Should Be Tested With Axe Core",
+        "slug": "best-practice-frames-should-be-tested-with-axe-core",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-frames-should-be-tested-with-axe-core/"
+      },
+      {
+        "name": "Best Practice Scope Attribute Should Be Used Correctly On Tables",
+        "slug": "best-practice-scope-attribute-should-be-used-correctly-on-tables",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-scope-attribute-should-be-used-correctly-on-tables/"
+      },
+      {
+        "name": "Wcag 2 0 A Scrollable Region Requires Keyboard Access",
+        "slug": "wcag-2-0-a-scrollable-region-requires-keyboard-access",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-scrollable-region-requires-keyboard-access/"
+      },
+      {
+        "name": "Wcag 2 0 A Required Aria Attributes Must Be Provided",
+        "slug": "wcag-2-0-a-required-aria-attributes-must-be-provided",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-required-aria-attributes-must-be-provided/"
+      },
+      {
+        "name": "Wcag 2 0 A Aria Attribute Must Be Used As Specified For Role",
+        "slug": "wcag-2-0-a-aria-attribute-must-be-used-as-specified-for-role",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-aria-attribute-must-be-used-as-specified-for-role/"
+      },
+      {
+        "name": "Wcag 2 0 A Aria Attributes Require Valid Values",
+        "slug": "wcag-2-0-a-aria-attributes-require-valid-values",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-aria-attributes-require-valid-values/"
+      },
+      {
+        "name": "Wcag 2 0 A Aria Attributes Require Valid Names",
+        "slug": "wcag-2-0-a-aria-attributes-require-valid-names",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-aria-attributes-require-valid-names/"
+      },
+      {
+        "name": "Wcag 2 0 A Aria Commands Require Accessible Name",
+        "slug": "wcag-2-0-a-aria-commands-require-accessible-name",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-aria-commands-require-accessible-name/"
+      },
+      {
+        "name": "Wcag 2 0 A Aria Input Fields Require Accessible Name",
+        "slug": "wcag-2-0-a-aria-input-fields-require-accessible-name",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-aria-input-fields-require-accessible-name/"
+      },
+      {
+        "name": "Wcag 2 0 A Aria Meter Nodes Require Accessible Name",
+        "slug": "wcag-2-0-a-aria-meter-nodes-require-accessible-name",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-aria-meter-nodes-require-accessible-name/"
+      },
+      {
+        "name": "Wcag 2 0 A Aria Progressbar Nodes Require Accessible Name",
+        "slug": "wcag-2-0-a-aria-progressbar-nodes-require-accessible-name",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-aria-progressbar-nodes-require-accessible-name/"
+      },
+      {
+        "name": "Wcag 2 0 A Aria Roles Must Be Contained By Required Parent",
+        "slug": "wcag-2-0-a-aria-roles-must-be-contained-by-required-parent",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-aria-roles-must-be-contained-by-required-parent/"
+      },
+      {
+        "name": "Wcag 2 0 A Aria Roles Require Valid Values",
+        "slug": "wcag-2-0-a-aria-roles-require-valid-values",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-aria-roles-require-valid-values/"
+      },
+      {
+        "name": "Wcag 2 0 A Aria Toggle Fields Require Accessible Name",
+        "slug": "wcag-2-0-a-aria-toggle-fields-require-accessible-name",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-aria-toggle-fields-require-accessible-name/"
+      },
+      {
+        "name": "Wcag 2 0 A Aria Tooltip Nodes Require Accessible Name",
+        "slug": "wcag-2-0-a-aria-tooltip-nodes-require-accessible-name",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-aria-tooltip-nodes-require-accessible-name/"
+      },
+      {
+        "name": "Wcag 2 0 A Certain Aria Roles Must Contain Specific Children",
+        "slug": "wcag-2-0-a-certain-aria-roles-must-contain-specific-children",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-certain-aria-roles-must-contain-specific-children/"
+      },
+      {
+        "name": "Wcag 2 0 A Aria Braille Require Non Braille Equivalent",
+        "slug": "wcag-2-0-a-aria-braille-require-non-braille-equivalent",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-aria-braille-require-non-braille-equivalent/"
+      },
+      {
+        "name": "Wcag 2 0 A Aria Hidden Elements Contains Focusable Elements",
+        "slug": "wcag-2-0-a-aria-hidden-elements-contains-focusable-elements",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-aria-hidden-elements-contains-focusable-elements/"
+      },
+      {
+        "name": "Wcag 2 0 A Aria Hiddentrue Must Not Be Used In Body",
+        "slug": "wcag-2-0-a-aria-hiddentrue-must-not-be-used-in-body",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-aria-hiddentrue-must-not-be-used-in-body/"
+      },
+      {
+        "name": "Wcag 2 0 A Elements Must Only Use Permitted Aria Attributes",
+        "slug": "wcag-2-0-a-elements-must-only-use-permitted-aria-attributes",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-elements-must-only-use-permitted-aria-attributes/"
+      },
+      {
+        "name": "Wcag 2 0 A Elements Must Use Allowed Aria Attributes",
+        "slug": "wcag-2-0-a-elements-must-use-allowed-aria-attributes",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-elements-must-use-allowed-aria-attributes/"
+      },
+      {
+        "name": "Wcag 2 0 A Ids Used In Aria Labels Must Be Unique",
+        "slug": "wcag-2-0-a-ids-used-in-aria-labels-must-be-unique",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-ids-used-in-aria-labels-must-be-unique/"
+      },
+      {
+        "name": "Wcag 2 0 A Page Requires Means To Bypass Repeated Blocks",
+        "slug": "wcag-2-0-a-page-requires-means-to-bypass-repeated-blocks",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-page-requires-means-to-bypass-repeated-blocks/"
+      },
+      {
+        "name": "Wcag 2 0 A Form Input Elements Require Labels",
+        "slug": "wcag-2-0-a-form-input-elements-require-labels",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-form-input-elements-require-labels/"
+      },
+      {
+        "name": "Wcag 2 0 A Frames Require Title Attribute",
+        "slug": "wcag-2-0-a-frames-require-title-attribute",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-frames-require-title-attribute/"
+      },
+      {
+        "name": "Wcag 2 0 A Frames Require Unique Title Attribute",
+        "slug": "wcag-2-0-a-frames-require-unique-title-attribute",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-frames-require-unique-title-attribute/"
+      },
+      {
+        "name": "Wcag 2 0 A Frames With Focusable Content Must Not Use Tabindex 1",
+        "slug": "wcag-2-0-a-frames-with-focusable-content-must-not-use-tabindex-1",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-frames-with-focusable-content-must-not-use-tabindex-1/"
+      },
+      {
+        "name": "Wcag 2 0 A Page Must Contain Title",
+        "slug": "wcag-2-0-a-page-must-contain-title",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-page-must-contain-title/"
+      },
+      {
+        "name": "Wcag 2 0 A Html Element Lang Attribute Value Must Be Valid",
+        "slug": "wcag-2-0-a-html-element-lang-attribute-value-must-be-valid",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-html-element-lang-attribute-value-must-be-valid/"
+      },
+      {
+        "name": "Wcag 2 0 A Html Element Requires Lang Attribute",
+        "slug": "wcag-2-0-a-html-element-requires-lang-attribute",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-html-element-requires-lang-attribute/"
+      },
+      {
+        "name": "Wcag 2 0 A Image Button Requires Alternate Text",
+        "slug": "wcag-2-0-a-image-button-requires-alternate-text",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-image-button-requires-alternate-text/"
+      },
+      {
+        "name": "Wcag 2 0 A Images Require Alternate Text",
+        "slug": "wcag-2-0-a-images-require-alternate-text",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-images-require-alternate-text/"
+      },
+      {
+        "name": "Wcag 2 0 A Object Elements Require Alternate Text",
+        "slug": "wcag-2-0-a-object-elements-require-alternate-text",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-object-elements-require-alternate-text/"
+      },
+      {
+        "name": "Wcag 2 0 A Active Area Elements Require Alternate Text",
+        "slug": "wcag-2-0-a-active-area-elements-require-alternate-text",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-active-area-elements-require-alternate-text/"
+      },
+      {
+        "name": "Wcag 2 0 A Elements Marked Roleimg Require Alternate Text",
+        "slug": "wcag-2-0-a-elements-marked-roleimg-require-alternate-text",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-elements-marked-roleimg-require-alternate-text/"
+      },
+      {
+        "name": "Wcag 2 0 A Svg Images Graphics Require Accessible Text",
+        "slug": "wcag-2-0-a-svg-images-graphics-require-accessible-text",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-svg-images-graphics-require-accessible-text/"
+      },
+      {
+        "name": "Wcag 2 0 A Video Elements Require Track For Captions",
+        "slug": "wcag-2-0-a-video-elements-require-track-for-captions",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-video-elements-require-track-for-captions/"
+      },
+      {
+        "name": "Wcag 2 0 A Video Or Audio Elements Must Not Auto Play",
+        "slug": "wcag-2-0-a-video-or-audio-elements-must-not-auto-play",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-video-or-audio-elements-must-not-auto-play/"
+      },
+      {
+        "name": "Wcag 2 0 A Buttons Require Discernible Text",
+        "slug": "wcag-2-0-a-buttons-require-discernible-text",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-buttons-require-discernible-text/"
+      },
+      {
+        "name": "Wcag 2 0 A Input Buttons Require Discernible Text",
+        "slug": "wcag-2-0-a-input-buttons-require-discernible-text",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-input-buttons-require-discernible-text/"
+      },
+      {
+        "name": "Wcag 2 0 A Links Require Discernible Text",
+        "slug": "wcag-2-0-a-links-require-discernible-text",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-links-require-discernible-text/"
+      },
+      {
+        "name": "Wcag 2 0 A Links Must Be Distinguishable",
+        "slug": "wcag-2-0-a-links-must-be-distinguishable",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-links-must-be-distinguishable/"
+      },
+      {
+        "name": "Wcag 2 0 A Select Element Requires Accessible Name",
+        "slug": "wcag-2-0-a-select-element-requires-accessible-name",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-select-element-requires-accessible-name/"
+      },
+      {
+        "name": "Wcag 2 0 A Summary Elements Require Discernible Text",
+        "slug": "wcag-2-0-a-summary-elements-require-discernible-text",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-summary-elements-require-discernible-text/"
+      },
+      {
+        "name": "Wcag 2 0 A Deprecated Marquee Element Must Not Be Used",
+        "slug": "wcag-2-0-a-deprecated-marquee-element-must-not-be-used",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-deprecated-marquee-element-must-not-be-used/"
+      },
+      {
+        "name": "Wcag 2 0 A Interactive Controls Must Not Be Nested",
+        "slug": "wcag-2-0-a-interactive-controls-must-not-be-nested",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-interactive-controls-must-not-be-nested/"
+      },
+      {
+        "name": "Wcag 2 0 A List Items Must Be Contained In List Elements",
+        "slug": "wcag-2-0-a-list-items-must-be-contained-in-list-elements",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-list-items-must-be-contained-in-list-elements/"
+      },
+      {
+        "name": "Wcag 2 0 A Lists Must Only Contain Li Content Elements",
+        "slug": "wcag-2-0-a-lists-must-only-contain-li-content-elements",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-lists-must-only-contain-li-content-elements/"
+      },
+      {
+        "name": "Wcag 2 0 A Dt Dd Elements Must Be Contained By Dl",
+        "slug": "wcag-2-0-a-dt-dd-elements-must-be-contained-by-dl",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-dt-dd-elements-must-be-contained-by-dl/"
+      },
+      {
+        "name": "Wcag 2 0 A Dl Must Only Have Ordered Dt Dd Groups",
+        "slug": "wcag-2-0-a-dl-must-only-have-ordered-dt-dd-groups",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-dl-must-only-have-ordered-dt-dd-groups/"
+      },
+      {
+        "name": "Wcag 2 0 A Blink Elements Deprecated Must Not Be Used",
+        "slug": "wcag-2-0-a-blink-elements-deprecated-must-not-be-used",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-blink-elements-deprecated-must-not-be-used/"
+      },
+      {
+        "name": "Wcag 2 0 A Th Element Requires Associated Data Cells",
+        "slug": "wcag-2-0-a-th-element-requires-associated-data-cells",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-th-element-requires-associated-data-cells/"
+      },
+      {
+        "name": "Wcag 2 0 A Table Header Attr Must Refer To Cell In Same Table",
+        "slug": "wcag-2-0-a-table-header-attr-must-refer-to-cell-in-same-table",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-table-header-attr-must-refer-to-cell-in-same-table/"
+      },
+      {
+        "name": "Wcag 2 0 Aa Meta Viewport Zoom Scaling Disabled",
+        "slug": "wcag-2-0-aa-meta-viewport-zoom-scaling-disabled",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-aa-meta-viewport-zoom-scaling-disabled/"
+      },
+      {
+        "name": "Wcag 2 0 Aa Lang Attribute Requires Valid Value",
+        "slug": "wcag-2-0-aa-lang-attribute-requires-valid-value",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-aa-lang-attribute-requires-valid-value/"
+      },
+      {
+        "name": "Wcag 2 0 Aa Text Requires Higher Color Contrast To Background",
+        "slug": "wcag-2-0-aa-text-requires-higher-color-contrast-to-background",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-aa-text-requires-higher-color-contrast-to-background/"
+      },
+      {
+        "name": "Wcag 2 0 Aaa Text Requires Higher Color Contrast Ratio",
+        "slug": "wcag-2-0-aaa-text-requires-higher-color-contrast-ratio",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-aaa-text-requires-higher-color-contrast-ratio/"
+      },
+      {
+        "name": "Wcag 2 1 Aa Autocomplete Attribute Must Be Used Correctly",
+        "slug": "wcag-2-1-aa-autocomplete-attribute-must-be-used-correctly",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-1-aa-autocomplete-attribute-must-be-used-correctly/"
+      },
+      {
+        "name": "Wcag 2 1 Aa Inline Text Spacing Must Be Adjustable",
+        "slug": "wcag-2-1-aa-inline-text-spacing-must-be-adjustable",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-1-aa-inline-text-spacing-must-be-adjustable/"
+      },
+      {
+        "name": "Wcag 2 2 Aa Touch Targets Require Sufficient Size Spacing",
+        "slug": "wcag-2-2-aa-touch-targets-require-sufficient-size-spacing",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-2-aa-touch-targets-require-sufficient-size-spacing/"
+      },
+      {
+        "name": "Best Practice Skip Link Target Should Exist Be Focusable",
+        "slug": "best-practice-skip-link-target-should-exist-be-focusable",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-skip-link-target-should-exist-be-focusable/"
+      },
+      {
+        "name": "Best Practice All Page Content Must Be Contained By Landmarks",
+        "slug": "best-practice-all-page-content-must-be-contained-by-landmarks",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-all-page-content-must-be-contained-by-landmarks/"
+      },
+      {
+        "name": "Best Practice Page Requires One Main Landmark",
+        "slug": "best-practice-page-requires-one-main-landmark",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-page-requires-one-main-landmark/"
+      },
+      {
+        "name": "Best Practice Page Must Not Have More Than One Banner Landmark",
+        "slug": "best-practice-page-must-not-have-more-than-one-banner-landmark",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-page-must-not-have-more-than-one-banner-landmark/"
+      },
+      {
+        "name": "Best Practice Banner Landmark Must Not Be In Another Landmark",
+        "slug": "best-practice-banner-landmark-must-not-be-in-another-landmark",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-banner-landmark-must-not-be-in-another-landmark/"
+      },
+      {
+        "name": "Best Practice Page Must Not Have Multiple Contentinfo Landmarks",
+        "slug": "best-practice-page-must-not-have-multiple-contentinfo-landmarks",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-page-must-not-have-multiple-contentinfo-landmarks/"
+      },
+      {
+        "name": "Best Practice Page Requires At Most One Main Landmark",
+        "slug": "best-practice-page-requires-at-most-one-main-landmark",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-page-requires-at-most-one-main-landmark/"
+      },
+      {
+        "name": "Best Practice Complementary Landmarks Asides Must Be Top Level",
+        "slug": "best-practice-complementary-landmarks-asides-must-be-top-level",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-complementary-landmarks-asides-must-be-top-level/"
+      },
+      {
+        "name": "Best Practice Contentinfo Landmark Must Be Top Level Landmark",
+        "slug": "best-practice-contentinfo-landmark-must-be-top-level-landmark",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-contentinfo-landmark-must-be-top-level-landmark/"
+      },
+      {
+        "name": "Best Practice Main Landmark Must Not Be In Another Landmark",
+        "slug": "best-practice-main-landmark-must-not-be-in-another-landmark",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-main-landmark-must-not-be-in-another-landmark/"
+      },
+      {
+        "name": "Best Practice Landmarks Require Unique Role Or Accessible Name",
+        "slug": "best-practice-landmarks-require-unique-role-or-accessible-name",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-landmarks-require-unique-role-or-accessible-name/"
+      },
+      {
+        "name": "Best Practice Page Must Contain H1",
+        "slug": "best-practice-page-must-contain-h1",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-page-must-contain-h1/"
+      },
+      {
+        "name": "Best Practice Heading Levels Should Only Increase By One",
+        "slug": "best-practice-heading-levels-should-only-increase-by-one",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-heading-levels-should-only-increase-by-one/"
+      },
+      {
+        "name": "Wcag 2 0 A Form Field Must Not Have Multiple Label Elements",
+        "slug": "wcag-2-0-a-form-field-must-not-have-multiple-label-elements",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-form-field-must-not-have-multiple-label-elements/"
+      },
+      {
+        "name": "Wcag 2 0 A Html Lang Xml Lang Value Should Match",
+        "slug": "wcag-2-0-a-html-lang-xml-lang-value-should-match",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-html-lang-xml-lang-value-should-match/"
+      },
+      {
+        "name": "Best Practice Ensure Elements Marked Presentational Are Ignored",
+        "slug": "best-practice-ensure-elements-marked-presentational-are-ignored",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-ensure-elements-marked-presentational-are-ignored/"
+      },
+      {
+        "name": "Best Practice Aria Role Should Be Appropriate For Element",
+        "slug": "best-practice-aria-role-should-be-appropriate-for-element",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-aria-role-should-be-appropriate-for-element/"
+      },
+      {
+        "name": "Best Practice Headings Should Not Be Empty",
+        "slug": "best-practice-headings-should-not-be-empty",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-headings-should-not-be-empty/"
+      },
+      {
+        "name": "Best Practice Meta Viewport Should Allow Zoom Scale Up To 500",
+        "slug": "best-practice-meta-viewport-should-allow-zoom-scale-up-to-500",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-meta-viewport-should-allow-zoom-scale-up-to-500/"
+      },
+      {
+        "name": "Best Practice Alt Text Should Not Be Repeated As Text",
+        "slug": "best-practice-alt-text-should-not-be-repeated-as-text",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-alt-text-should-not-be-repeated-as-text/"
+      },
+      {
+        "name": "Best Practice Table Headers Require Discernible Text",
+        "slug": "best-practice-table-headers-require-discernible-text",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-table-headers-require-discernible-text/"
+      },
+      {
+        "name": "Best Practice Table With Identical Summary Caption Text",
+        "slug": "best-practice-table-with-identical-summary-caption-text",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/best-practice-table-with-identical-summary-caption-text/"
+      },
+      {
+        "name": "Wcag 2 0 A Deprecated Aria Roles Must Not Be Used",
+        "slug": "wcag-2-0-a-deprecated-aria-roles-must-not-be-used",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-deprecated-aria-roles-must-not-be-used/"
+      },
+      {
+        "name": "Wcag 2 0 A Server Side Image Maps Must Not Be Used",
+        "slug": "wcag-2-0-a-server-side-image-maps-must-not-be-used",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-a-server-side-image-maps-must-not-be-used/"
+      },
+      {
+        "name": "Wcag 2 0 Aaa Delayed Meta Refresh Must Not Be Used",
+        "slug": "wcag-2-0-aaa-delayed-meta-refresh-must-not-be-used",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-aaa-delayed-meta-refresh-must-not-be-used/"
+      },
+      {
+        "name": "Wcag 2 0 Aaa Links With Same Accessible Name",
+        "slug": "wcag-2-0-aaa-links-with-same-accessible-name",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/accessibility/wcag-2-0-aaa-links-with-same-accessible-name/"
+      }
+    ],
+    "amp": [
+      {
+        "name": "Non 200 Response",
+        "slug": "non-200-response",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/amp/non-200-response/"
+      },
+      {
+        "name": "Missing Non Amp Return Link",
+        "slug": "missing-non-amp-return-link",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/amp/missing-non-amp-return-link/"
+      },
+      {
+        "name": "Missing Canonical To Non Amp",
+        "slug": "missing-canonical-to-non-amp",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/amp/missing-canonical-to-non-amp/"
+      },
+      {
+        "name": "Amp Non Indexable Canonical",
+        "slug": "amp-non-indexable-canonical",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/amp/amp-non-indexable-canonical/"
+      },
+      {
+        "name": "Missing Htmlamp Tag",
+        "slug": "missing-htmlamp-tag",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/amp/missing-htmlamp-tag/"
+      },
+      {
+        "name": "Missing Invalid Doctype Html Tag",
+        "slug": "missing-invalid-doctype-html-tag",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/amp/missing-invalid-doctype-html-tag/"
+      },
+      {
+        "name": "Amp Missing Head Tag",
+        "slug": "amp-missing-head-tag",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/amp/amp-missing-head-tag/"
+      },
+      {
+        "name": "Amp Missing Body Tag",
+        "slug": "amp-missing-body-tag",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/amp/amp-missing-body-tag/"
+      },
+      {
+        "name": "Amp Missing Canonical",
+        "slug": "amp-missing-canonical",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/amp/amp-missing-canonical/"
+      },
+      {
+        "name": "Missing Invalid Meta Charset Tag",
+        "slug": "missing-invalid-meta-charset-tag",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/amp/missing-invalid-meta-charset-tag/"
+      },
+      {
+        "name": "Missing Invalid Meta Viewport Tag",
+        "slug": "missing-invalid-meta-viewport-tag",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/amp/missing-invalid-meta-viewport-tag/"
+      },
+      {
+        "name": "Missing Invalid Amp Script",
+        "slug": "missing-invalid-amp-script",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/amp/missing-invalid-amp-script/"
+      },
+      {
+        "name": "Missing Invalid Amp Boilerplate",
+        "slug": "missing-invalid-amp-boilerplate",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/amp/missing-invalid-amp-boilerplate/"
+      },
+      {
+        "name": "Contains Disallowed Html",
+        "slug": "contains-disallowed-html",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/amp/contains-disallowed-html/"
+      },
+      {
+        "name": "Other Validation Errors",
+        "slug": "other-validation-errors",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/amp/other-validation-errors/"
+      },
+      {
+        "name": "Indexable",
+        "slug": "indexable",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/amp/indexable/"
+      }
+    ],
+    "analytics": [
+      {
+        "name": "Analytics Orphan Urls",
+        "slug": "analytics-orphan-urls",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/analytics/analytics-orphan-urls/"
+      },
+      {
+        "name": "Bounce Rate Above 70",
+        "slug": "bounce-rate-above-70",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/analytics/bounce-rate-above-70/"
+      },
+      {
+        "name": "No Ga Data",
+        "slug": "no-ga-data",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/analytics/no-ga-data/"
+      },
+      {
+        "name": "Non Indexable With Ga Data",
+        "slug": "non-indexable-with-ga-data",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/analytics/non-indexable-with-ga-data/"
+      }
+    ],
+    "canonicals": [
+      {
+        "name": "Multiple Conflicting",
+        "slug": "multiple-conflicting",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/canonicals/multiple-conflicting/"
+      },
+      {
+        "name": "Non Indexable Canonical",
+        "slug": "non-indexable-canonical",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/canonicals/non-indexable-canonical/"
+      },
+      {
+        "name": "Invalid Attribute In Annotation",
+        "slug": "invalid-attribute-in-annotation",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/canonicals/invalid-attribute-in-annotation/"
+      },
+      {
+        "name": "Contains Fragment Url",
+        "slug": "contains-fragment-url",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/canonicals/contains-fragment-url/"
+      },
+      {
+        "name": "Canonicals Outside Head",
+        "slug": "canonicals-outside-head",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/canonicals/canonicals-outside-head/"
+      },
+      {
+        "name": "Canonicalised",
+        "slug": "canonicalised",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/canonicals/canonicalised/"
+      },
+      {
+        "name": "Canonical Missing",
+        "slug": "canonical-missing",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/canonicals/canonical-missing/"
+      },
+      {
+        "name": "Unlinked",
+        "slug": "unlinked",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/canonicals/unlinked/"
+      },
+      {
+        "name": "Canonical Multiple",
+        "slug": "canonical-multiple",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/canonicals/canonical-multiple/"
+      },
+      {
+        "name": "Canonical Is Relative",
+        "slug": "canonical-is-relative",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/canonicals/canonical-is-relative/"
+      }
+    ],
+    "content": [
+      {
+        "name": "Exact Duplicates",
+        "slug": "exact-duplicates",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/content/exact-duplicates/"
+      },
+      {
+        "name": "Spelling Errors",
+        "slug": "spelling-errors",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/content/spelling-errors/"
+      },
+      {
+        "name": "Grammar Errors",
+        "slug": "grammar-errors",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/content/grammar-errors/"
+      },
+      {
+        "name": "Soft 404 Pages",
+        "slug": "soft-404-pages",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/content/soft-404-pages/"
+      },
+      {
+        "name": "Lorem Ipsum Placeholder",
+        "slug": "lorem-ipsum-placeholder",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/content/lorem-ipsum-placeholder/"
+      },
+      {
+        "name": "Near Duplicates",
+        "slug": "near-duplicates",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/content/near-duplicates/"
+      },
+      {
+        "name": "Semantically Similar",
+        "slug": "semantically-similar",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/content/semantically-similar/"
+      },
+      {
+        "name": "Low Relevance Content",
+        "slug": "low-relevance-content",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/content/low-relevance-content/"
+      },
+      {
+        "name": "Low Content Pages",
+        "slug": "low-content-pages",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/content/low-content-pages/"
+      },
+      {
+        "name": "Readability Difficult",
+        "slug": "readability-difficult",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/content/readability-difficult/"
+      },
+      {
+        "name": "Readability Very Difficult",
+        "slug": "readability-very-difficult",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/content/readability-very-difficult/"
+      }
+    ],
+    "directives": [
+      {
+        "name": "Directive Outside Head",
+        "slug": "directive-outside-head",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/directives/directive-outside-head/"
+      },
+      {
+        "name": "Noimageindex",
+        "slug": "noimageindex",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/directives/noimageindex/"
+      },
+      {
+        "name": "Noindex",
+        "slug": "noindex",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/directives/noindex/"
+      },
+      {
+        "name": "Nofollow",
+        "slug": "nofollow",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/directives/nofollow/"
+      },
+      {
+        "name": "None",
+        "slug": "none",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/directives/none/"
+      },
+      {
+        "name": "Unavailable After",
+        "slug": "unavailable-after",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/directives/unavailable-after/"
+      },
+      {
+        "name": "Nosnippet",
+        "slug": "nosnippet",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/directives/nosnippet/"
+      },
+      {
+        "name": "Noodp",
+        "slug": "noodp",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/directives/noodp/"
+      },
+      {
+        "name": "Noydir",
+        "slug": "noydir",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/directives/noydir/"
+      },
+      {
+        "name": "Notranslate",
+        "slug": "notranslate",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/directives/notranslate/"
+      }
+    ],
+    "h1": [
+      {
+        "name": "H1 Missing",
+        "slug": "h1-missing",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/h1/h1-missing/"
+      },
+      {
+        "name": "H1 Multiple",
+        "slug": "h1-multiple",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/h1/h1-multiple/"
+      },
+      {
+        "name": "Alt Text In H1",
+        "slug": "alt-text-in-h1",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/h1/alt-text-in-h1/"
+      },
+      {
+        "name": "H1 Non Sequential",
+        "slug": "h1-non-sequential",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/h1/h1-non-sequential/"
+      },
+      {
+        "name": "H1 Duplicate",
+        "slug": "h1-duplicate",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/h1/h1-duplicate/"
+      },
+      {
+        "name": "H1 Over 70 Characters",
+        "slug": "h1-over-70-characters",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/h1/h1-over-70-characters/"
+      }
+    ],
+    "h2": [
+      {
+        "name": "H2 Missing",
+        "slug": "h2-missing",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/h2/h2-missing/"
+      },
+      {
+        "name": "H2 Multiple",
+        "slug": "h2-multiple",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/h2/h2-multiple/"
+      },
+      {
+        "name": "H2 Non Sequential",
+        "slug": "h2-non-sequential",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/h2/h2-non-sequential/"
+      },
+      {
+        "name": "H2 Duplicate",
+        "slug": "h2-duplicate",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/h2/h2-duplicate/"
+      },
+      {
+        "name": "H2 Over 70 Characters",
+        "slug": "h2-over-70-characters",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/h2/h2-over-70-characters/"
+      }
+    ],
+    "hreflang": [
+      {
+        "name": "Non 200 Hreflang Urls",
+        "slug": "non-200-hreflang-urls",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/hreflang/non-200-hreflang-urls/"
+      },
+      {
+        "name": "Missing Return Links",
+        "slug": "missing-return-links",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/hreflang/missing-return-links/"
+      },
+      {
+        "name": "Inconsistent Language Region Confirmation Links",
+        "slug": "inconsistent-language-region-confirmation-links",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/hreflang/inconsistent-language-region-confirmation-links/"
+      },
+      {
+        "name": "Non Canonical Return Links",
+        "slug": "non-canonical-return-links",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/hreflang/non-canonical-return-links/"
+      },
+      {
+        "name": "Noindex Returns Links",
+        "slug": "noindex-returns-links",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/hreflang/noindex-returns-links/"
+      },
+      {
+        "name": "Incorrect Language Region Codes",
+        "slug": "incorrect-language-region-codes",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/hreflang/incorrect-language-region-codes/"
+      },
+      {
+        "name": "Multiple Entries",
+        "slug": "multiple-entries",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/hreflang/multiple-entries/"
+      },
+      {
+        "name": "Not Using Canonical",
+        "slug": "not-using-canonical",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/hreflang/not-using-canonical/"
+      },
+      {
+        "name": "Hreflang Outside Head",
+        "slug": "hreflang-outside-head",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/hreflang/hreflang-outside-head/"
+      },
+      {
+        "name": "Unlinked Hreflang Urls",
+        "slug": "unlinked-hreflang-urls",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/hreflang/unlinked-hreflang-urls/"
+      },
+      {
+        "name": "Missing Self Reference",
+        "slug": "missing-self-reference",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/hreflang/missing-self-reference/"
+      },
+      {
+        "name": "Missing X Default",
+        "slug": "missing-x-default",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/hreflang/missing-x-default/"
+      }
+    ],
+    "images": [
+      {
+        "name": "Missing Alt Text",
+        "slug": "missing-alt-text",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/images/missing-alt-text/"
+      },
+      {
+        "name": "Missing Alt Attribute",
+        "slug": "missing-alt-attribute",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/images/missing-alt-attribute/"
+      },
+      {
+        "name": "Background Images",
+        "slug": "background-images",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/images/background-images/"
+      },
+      {
+        "name": "Over 100 Kb",
+        "slug": "over-100-kb",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/images/over-100-kb/"
+      },
+      {
+        "name": "Alt Text Over 100 Characters",
+        "slug": "alt-text-over-100-characters",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/images/alt-text-over-100-characters/"
+      },
+      {
+        "name": "Incorrectly Sized Images",
+        "slug": "incorrectly-sized-images",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/images/incorrectly-sized-images/"
+      },
+      {
+        "name": "Missing Size Attributes",
+        "slug": "missing-size-attributes",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/images/missing-size-attributes/"
+      }
+    ],
+    "javascript": [
+      {
+        "name": "Noindex Only In Original Html",
+        "slug": "noindex-only-in-original-html",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/javascript/noindex-only-in-original-html/"
+      },
+      {
+        "name": "Nofollow Only In Original Html",
+        "slug": "nofollow-only-in-original-html",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/javascript/nofollow-only-in-original-html/"
+      },
+      {
+        "name": "Canonical Mismatch",
+        "slug": "canonical-mismatch",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/javascript/canonical-mismatch/"
+      },
+      {
+        "name": "Uses Old Ajax Crawling Scheme Urls",
+        "slug": "uses-old-ajax-crawling-scheme-urls",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/javascript/uses-old-ajax-crawling-scheme-urls/"
+      },
+      {
+        "name": "Uses Old Ajax Crawling Scheme Meta Fragment Tag",
+        "slug": "uses-old-ajax-crawling-scheme-meta-fragment-tag",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/javascript/uses-old-ajax-crawling-scheme-meta-fragment-tag/"
+      },
+      {
+        "name": "Pages With Blocked Resources",
+        "slug": "pages-with-blocked-resources",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/javascript/pages-with-blocked-resources/"
+      },
+      {
+        "name": "Contains Javascript Links",
+        "slug": "contains-javascript-links",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/javascript/contains-javascript-links/"
+      },
+      {
+        "name": "Contains Javascript Content",
+        "slug": "contains-javascript-content",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/javascript/contains-javascript-content/"
+      },
+      {
+        "name": "Page Title Only In Rendered Html",
+        "slug": "page-title-only-in-rendered-html",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/javascript/page-title-only-in-rendered-html/"
+      },
+      {
+        "name": "Page Title Updated By Javascript",
+        "slug": "page-title-updated-by-javascript",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/javascript/page-title-updated-by-javascript/"
+      },
+      {
+        "name": "Meta Description Only In Rendered Html",
+        "slug": "meta-description-only-in-rendered-html",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/javascript/meta-description-only-in-rendered-html/"
+      },
+      {
+        "name": "Meta Description Updated By Javascript",
+        "slug": "meta-description-updated-by-javascript",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/javascript/meta-description-updated-by-javascript/"
+      },
+      {
+        "name": "H1 Only In Rendered Html",
+        "slug": "h1-only-in-rendered-html",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/javascript/h1-only-in-rendered-html/"
+      },
+      {
+        "name": "H1 Updated By Javascript",
+        "slug": "h1-updated-by-javascript",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/javascript/h1-updated-by-javascript/"
+      },
+      {
+        "name": "Canonical Only In Rendered Html",
+        "slug": "canonical-only-in-rendered-html",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/javascript/canonical-only-in-rendered-html/"
+      },
+      {
+        "name": "Pages With Javascript Errors",
+        "slug": "pages-with-javascript-errors",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/javascript/pages-with-javascript-errors/"
+      }
+    ],
+    "links": [
+      {
+        "name": "Outlinks To Localhost",
+        "slug": "outlinks-to-localhost",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/links/outlinks-to-localhost/"
+      },
+      {
+        "name": "Pages With Uncrawlable Internal Outlinks",
+        "slug": "pages-with-uncrawlable-internal-outlinks",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/links/pages-with-uncrawlable-internal-outlinks/"
+      },
+      {
+        "name": "Pages Without Internal Outlinks",
+        "slug": "pages-without-internal-outlinks",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/links/pages-without-internal-outlinks/"
+      },
+      {
+        "name": "Non Indexable Page Inlinks Only",
+        "slug": "non-indexable-page-inlinks-only",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/links/non-indexable-page-inlinks-only/"
+      },
+      {
+        "name": "Internal Nofollow Outlinks",
+        "slug": "internal-nofollow-outlinks",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/links/internal-nofollow-outlinks/"
+      },
+      {
+        "name": "Pages With High External Outlinks",
+        "slug": "pages-with-high-external-outlinks",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/links/pages-with-high-external-outlinks/"
+      },
+      {
+        "name": "Pages With High Internal Outlinks",
+        "slug": "pages-with-high-internal-outlinks",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/links/pages-with-high-internal-outlinks/"
+      },
+      {
+        "name": "Follow Nofollow Internal Inlinks To Page",
+        "slug": "follow-nofollow-internal-inlinks-to-page",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/links/follow-nofollow-internal-inlinks-to-page/"
+      },
+      {
+        "name": "Internal Nofollow Inlinks Only",
+        "slug": "internal-nofollow-inlinks-only",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/links/internal-nofollow-inlinks-only/"
+      },
+      {
+        "name": "Pages With High Crawl Depth",
+        "slug": "pages-with-high-crawl-depth",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/links/pages-with-high-crawl-depth/"
+      },
+      {
+        "name": "Internal Outlinks With No Anchor Text",
+        "slug": "internal-outlinks-with-no-anchor-text",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/links/internal-outlinks-with-no-anchor-text/"
+      },
+      {
+        "name": "Non Descriptive Anchor Text In Internal Outlinks",
+        "slug": "non-descriptive-anchor-text-in-internal-outlinks",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/links/non-descriptive-anchor-text-in-internal-outlinks/"
+      }
+    ],
+    "meta-description": [
+      {
+        "name": "Meta Description Multiple",
+        "slug": "meta-description-multiple",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/meta-description/meta-description-multiple/"
+      },
+      {
+        "name": "Meta Description Outside Head",
+        "slug": "meta-description-outside-head",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/meta-description/meta-description-outside-head/"
+      },
+      {
+        "name": "Meta Description Missing",
+        "slug": "meta-description-missing",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/meta-description/meta-description-missing/"
+      },
+      {
+        "name": "Meta Description Duplicate",
+        "slug": "meta-description-duplicate",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/meta-description/meta-description-duplicate/"
+      },
+      {
+        "name": "Over 155 Characters",
+        "slug": "over-155-characters",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/meta-description/over-155-characters/"
+      },
+      {
+        "name": "Below 70 Characters",
+        "slug": "below-70-characters",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/meta-description/below-70-characters/"
+      },
+      {
+        "name": "Over 985 Pixels",
+        "slug": "over-985-pixels",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/meta-description/over-985-pixels/"
+      },
+      {
+        "name": "Below 400 Pixels",
+        "slug": "below-400-pixels",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/meta-description/below-400-pixels/"
+      }
+    ],
+    "mobile": [
+      {
+        "name": "Viewport Not Set",
+        "slug": "viewport-not-set",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/mobile/viewport-not-set/"
+      },
+      {
+        "name": "Content Not Sized Correctly",
+        "slug": "content-not-sized-correctly",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/mobile/content-not-sized-correctly/"
+      },
+      {
+        "name": "Illegible Font Size",
+        "slug": "illegible-font-size",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/mobile/illegible-font-size/"
+      },
+      {
+        "name": "Contains Unsupported Plugins",
+        "slug": "contains-unsupported-plugins",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/mobile/contains-unsupported-plugins/"
+      },
+      {
+        "name": "Target Size",
+        "slug": "target-size",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/mobile/target-size/"
+      },
+      {
+        "name": "Mobile Alternate Link",
+        "slug": "mobile-alternate-link",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/mobile/mobile-alternate-link/"
+      }
+    ],
+    "page-titles": [
+      {
+        "name": "Page Title Missing",
+        "slug": "page-title-missing",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/page-titles/page-title-missing/"
+      },
+      {
+        "name": "Multiple",
+        "slug": "multiple",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/page-titles/multiple/"
+      },
+      {
+        "name": "Page Title Outside Head",
+        "slug": "page-title-outside-head",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/page-titles/page-title-outside-head/"
+      },
+      {
+        "name": "Duplicate",
+        "slug": "duplicate",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/page-titles/duplicate/"
+      },
+      {
+        "name": "Over 60 Characters",
+        "slug": "over-60-characters",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/page-titles/over-60-characters/"
+      },
+      {
+        "name": "Below 30 Characters",
+        "slug": "below-30-characters",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/page-titles/below-30-characters/"
+      },
+      {
+        "name": "Over 561 Pixels",
+        "slug": "over-561-pixels",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/page-titles/over-561-pixels/"
+      },
+      {
+        "name": "Below 200 Pixels",
+        "slug": "below-200-pixels",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/page-titles/below-200-pixels/"
+      },
+      {
+        "name": "Same As H1",
+        "slug": "same-as-h1",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/page-titles/same-as-h1/"
+      }
+    ],
+    "pagespeed": [
+      {
+        "name": "Document Request Latency",
+        "slug": "document-request-latency",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/document-request-latency/"
+      },
+      {
+        "name": "Lcp Request Discovery",
+        "slug": "lcp-request-discovery",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/lcp-request-discovery/"
+      },
+      {
+        "name": "Eliminate Render Blocking Resources",
+        "slug": "eliminate-render-blocking-resources",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/eliminate-render-blocking-resources/"
+      },
+      {
+        "name": "Network Dependency Tree",
+        "slug": "network-dependency-tree",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/network-dependency-tree/"
+      },
+      {
+        "name": "Serve Static Assets With An Efficient Cache Policy",
+        "slug": "serve-static-assets-with-an-efficient-cache-policy",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/serve-static-assets-with-an-efficient-cache-policy/"
+      },
+      {
+        "name": "Avoid Large Layout Shifts",
+        "slug": "avoid-large-layout-shifts",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/avoid-large-layout-shifts/"
+      },
+      {
+        "name": "Improve Image Delivery",
+        "slug": "improve-image-delivery",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/improve-image-delivery/"
+      },
+      {
+        "name": "Forced Reflow",
+        "slug": "forced-reflow",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/forced-reflow/"
+      },
+      {
+        "name": "Avoid Serving Legacy Javascript To Modern Browsers",
+        "slug": "avoid-serving-legacy-javascript-to-modern-browsers",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/avoid-serving-legacy-javascript-to-modern-browsers/"
+      },
+      {
+        "name": "Duplicated Javascript",
+        "slug": "duplicated-javascript",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/duplicated-javascript/"
+      },
+      {
+        "name": "Avoid Enormous Network Payloads",
+        "slug": "avoid-enormous-network-payloads",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/avoid-enormous-network-payloads/"
+      },
+      {
+        "name": "Minify Css",
+        "slug": "minify-css",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/minify-css/"
+      },
+      {
+        "name": "Minify Javascript",
+        "slug": "minify-javascript",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/minify-javascript/"
+      },
+      {
+        "name": "Remove Unused Css",
+        "slug": "remove-unused-css",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/remove-unused-css/"
+      },
+      {
+        "name": "Remove Unused Javascript",
+        "slug": "remove-unused-javascript",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/remove-unused-javascript/"
+      },
+      {
+        "name": "Reduce Javascript Execution Time",
+        "slug": "reduce-javascript-execution-time",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/reduce-javascript-execution-time/"
+      },
+      {
+        "name": "Minimize Main Thread Work",
+        "slug": "minimize-main-thread-work",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/minimize-main-thread-work/"
+      },
+      {
+        "name": "Avoid Excessive Dom Size",
+        "slug": "avoid-excessive-dom-size",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/avoid-excessive-dom-size/"
+      },
+      {
+        "name": "Ensure Text Remains Visible During Webfont Load",
+        "slug": "ensure-text-remains-visible-during-webfont-load",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagespeed/ensure-text-remains-visible-during-webfont-load/"
+      }
+    ],
+    "pagination": [
+      {
+        "name": "Pagination Url Not In Anchor Tag",
+        "slug": "pagination-url-not-in-anchor-tag",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagination/pagination-url-not-in-anchor-tag/"
+      },
+      {
+        "name": "Non 200 Pagination Urls",
+        "slug": "non-200-pagination-urls",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagination/non-200-pagination-urls/"
+      },
+      {
+        "name": "Unlinked Pagination Urls",
+        "slug": "unlinked-pagination-urls",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagination/unlinked-pagination-urls/"
+      },
+      {
+        "name": "Multiple Pagination Urls",
+        "slug": "multiple-pagination-urls",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagination/multiple-pagination-urls/"
+      },
+      {
+        "name": "Pagination Loop",
+        "slug": "pagination-loop",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagination/pagination-loop/"
+      },
+      {
+        "name": "Sequence Error",
+        "slug": "sequence-error",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagination/sequence-error/"
+      },
+      {
+        "name": "Non Indexable",
+        "slug": "non-indexable",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/pagination/non-indexable/"
+      }
+    ],
+    "response-codes": [
+      {
+        "name": "Internal No Response",
+        "slug": "internal-no-response",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/response-codes/internal-no-response/"
+      },
+      {
+        "name": "Internal Client Error 4Xx",
+        "slug": "internal-client-error-4xx",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/response-codes/internal-client-error-4xx/"
+      },
+      {
+        "name": "Internal Server Error 5Xx",
+        "slug": "internal-server-error-5xx",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/response-codes/internal-server-error-5xx/"
+      },
+      {
+        "name": "Internal Redirect Loop",
+        "slug": "internal-redirect-loop",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/response-codes/internal-redirect-loop/"
+      },
+      {
+        "name": "Internal Blocked By Robots Txt",
+        "slug": "internal-blocked-by-robots-txt",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/response-codes/internal-blocked-by-robots-txt/"
+      },
+      {
+        "name": "Internal Blocked Resource",
+        "slug": "internal-blocked-resource",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/response-codes/internal-blocked-resource/"
+      },
+      {
+        "name": "Internal Redirect Chains",
+        "slug": "internal-redirect-chains",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/response-codes/internal-redirect-chains/"
+      },
+      {
+        "name": "External Blocked Resource",
+        "slug": "external-blocked-resource",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/response-codes/external-blocked-resource/"
+      },
+      {
+        "name": "Internal Redirection 3Xx",
+        "slug": "internal-redirection-3xx",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/response-codes/internal-redirection-3xx/"
+      },
+      {
+        "name": "Internal Redirection Meta Refresh",
+        "slug": "internal-redirection-meta-refresh",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/response-codes/internal-redirection-meta-refresh/"
+      },
+      {
+        "name": "Internal Redirection Http Refresh",
+        "slug": "internal-redirection-http-refresh",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/response-codes/internal-redirection-http-refresh/"
+      },
+      {
+        "name": "Internal Redirection Javascript",
+        "slug": "internal-redirection-javascript",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/response-codes/internal-redirection-javascript/"
+      },
+      {
+        "name": "External No Response",
+        "slug": "external-no-response",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/response-codes/external-no-response/"
+      },
+      {
+        "name": "External Client Error 4Xx",
+        "slug": "external-client-error-4xx",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/response-codes/external-client-error-4xx/"
+      },
+      {
+        "name": "External Server Error 5Xx",
+        "slug": "external-server-error-5xx",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/response-codes/external-server-error-5xx/"
+      }
+    ],
+    "search-console": [
+      {
+        "name": "Page Is Not Mobile Friendly",
+        "slug": "page-is-not-mobile-friendly",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/search-console/page-is-not-mobile-friendly/"
+      },
+      {
+        "name": "Search Console Orphan Urls",
+        "slug": "search-console-orphan-urls",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/search-console/search-console-orphan-urls/"
+      },
+      {
+        "name": "Url Is On Google But Has Issues",
+        "slug": "url-is-on-google-but-has-issues",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/search-console/url-is-on-google-but-has-issues/"
+      },
+      {
+        "name": "Amp Url Is Invalid",
+        "slug": "amp-url-is-invalid",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/search-console/amp-url-is-invalid/"
+      },
+      {
+        "name": "Rich Result Is Invalid",
+        "slug": "rich-result-is-invalid",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/search-console/rich-result-is-invalid/"
+      },
+      {
+        "name": "Indexable Url Not Indexed",
+        "slug": "indexable-url-not-indexed",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/search-console/indexable-url-not-indexed/"
+      },
+      {
+        "name": "User Declared Canonical Not Selected",
+        "slug": "user-declared-canonical-not-selected",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/search-console/user-declared-canonical-not-selected/"
+      },
+      {
+        "name": "No Search Analytics Data",
+        "slug": "no-search-analytics-data",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/search-console/no-search-analytics-data/"
+      },
+      {
+        "name": "Non Indexable With Search Analytics Data",
+        "slug": "non-indexable-with-search-analytics-data",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/search-console/non-indexable-with-search-analytics-data/"
+      },
+      {
+        "name": "Url Is Not On Google",
+        "slug": "url-is-not-on-google",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/search-console/url-is-not-on-google/"
+      }
+    ],
+    "security": [
+      {
+        "name": "Http Urls",
+        "slug": "http-urls",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/security/http-urls/"
+      },
+      {
+        "name": "Mixed Content",
+        "slug": "mixed-content",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/security/mixed-content/"
+      },
+      {
+        "name": "Form Url Insecure",
+        "slug": "form-url-insecure",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/security/form-url-insecure/"
+      },
+      {
+        "name": "Form On Http Url",
+        "slug": "form-on-http-url",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/security/form-on-http-url/"
+      },
+      {
+        "name": "Missing Hsts Header",
+        "slug": "missing-hsts-header",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/security/missing-hsts-header/"
+      },
+      {
+        "name": "Unsafe Cross Origin Links",
+        "slug": "unsafe-cross-origin-links",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/security/unsafe-cross-origin-links/"
+      },
+      {
+        "name": "Protocol Relative Resource Links",
+        "slug": "protocol-relative-resource-links",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/security/protocol-relative-resource-links/"
+      },
+      {
+        "name": "Missing Content Security Policy Header",
+        "slug": "missing-content-security-policy-header",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/security/missing-content-security-policy-header/"
+      },
+      {
+        "name": "Missing X Content Type Options Header",
+        "slug": "missing-x-content-type-options-header",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/security/missing-x-content-type-options-header/"
+      },
+      {
+        "name": "Missing X Frames Options Header",
+        "slug": "missing-x-frames-options-header",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/security/missing-x-frames-options-header/"
+      },
+      {
+        "name": "Missing Secure Referrer Policy Header",
+        "slug": "missing-secure-referrer-policy-header",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/security/missing-secure-referrer-policy-header/"
+      },
+      {
+        "name": "Bad Content Type",
+        "slug": "bad-content-type",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/security/bad-content-type/"
+      }
+    ],
+    "sitemaps": [
+      {
+        "name": "Xml Sitemap With Over 50K Urls",
+        "slug": "xml-sitemap-with-over-50k-urls",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/sitemaps/xml-sitemap-with-over-50k-urls/"
+      },
+      {
+        "name": "Xml Sitemap Over 50Mb",
+        "slug": "xml-sitemap-over-50mb",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/sitemaps/xml-sitemap-over-50mb/"
+      },
+      {
+        "name": "Urls Not In Sitemap",
+        "slug": "urls-not-in-sitemap",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/sitemaps/urls-not-in-sitemap/"
+      },
+      {
+        "name": "Orphan Urls",
+        "slug": "orphan-urls",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/sitemaps/orphan-urls/"
+      },
+      {
+        "name": "Non Indexable Urls In Sitemap",
+        "slug": "non-indexable-urls-in-sitemap",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/sitemaps/non-indexable-urls-in-sitemap/"
+      },
+      {
+        "name": "Urls In Multiple Sitemaps",
+        "slug": "urls-in-multiple-sitemaps",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/sitemaps/urls-in-multiple-sitemaps/"
+      }
+    ],
+    "structured-data": [
+      {
+        "name": "Validation Errors",
+        "slug": "validation-errors",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/structured-data/validation-errors/"
+      },
+      {
+        "name": "Rich Result Validation Errors",
+        "slug": "rich-result-validation-errors",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/structured-data/rich-result-validation-errors/"
+      },
+      {
+        "name": "Parse Errors",
+        "slug": "parse-errors",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/structured-data/parse-errors/"
+      },
+      {
+        "name": "Structured Data Missing",
+        "slug": "structured-data-missing",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/structured-data/structured-data-missing/"
+      },
+      {
+        "name": "Validation Warnings",
+        "slug": "validation-warnings",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/structured-data/validation-warnings/"
+      },
+      {
+        "name": "Rich Result Validation Warnings",
+        "slug": "rich-result-validation-warnings",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/structured-data/rich-result-validation-warnings/"
+      }
+    ],
+    "url": [
+      {
+        "name": "Multiple Slashes",
+        "slug": "multiple-slashes",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/url/multiple-slashes/"
+      },
+      {
+        "name": "Contains A Space",
+        "slug": "contains-a-space",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/url/contains-a-space/"
+      },
+      {
+        "name": "Broken Bookmark",
+        "slug": "broken-bookmark",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/url/broken-bookmark/"
+      },
+      {
+        "name": "Non Ascii Characters",
+        "slug": "non-ascii-characters",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/url/non-ascii-characters/"
+      },
+      {
+        "name": "Uppercase",
+        "slug": "uppercase",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/url/uppercase/"
+      },
+      {
+        "name": "Repetitive Path",
+        "slug": "repetitive-path",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/url/repetitive-path/"
+      },
+      {
+        "name": "Internal Search",
+        "slug": "internal-search",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/url/internal-search/"
+      },
+      {
+        "name": "Parameters",
+        "slug": "parameters",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/url/parameters/"
+      },
+      {
+        "name": "Ga Tracking Parameters",
+        "slug": "ga-tracking-parameters",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/url/ga-tracking-parameters/"
+      },
+      {
+        "name": "Underscores",
+        "slug": "underscores",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/url/underscores/"
+      },
+      {
+        "name": "Over 115 Characters",
+        "slug": "over-115-characters",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/url/over-115-characters/"
+      }
+    ],
+    "validation": [
+      {
+        "name": "Missing Head Tag",
+        "slug": "missing-head-tag",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/validation/missing-head-tag/"
+      },
+      {
+        "name": "Multiple Head Tags",
+        "slug": "multiple-head-tags",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/validation/multiple-head-tags/"
+      },
+      {
+        "name": "Missing Body Tag",
+        "slug": "missing-body-tag",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/validation/missing-body-tag/"
+      },
+      {
+        "name": "Multiple Body Tags",
+        "slug": "multiple-body-tags",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/validation/multiple-body-tags/"
+      },
+      {
+        "name": "Html Document Over 2Mb",
+        "slug": "html-document-over-2mb",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/validation/html-document-over-2mb/"
+      },
+      {
+        "name": "Resource Over 2Mb",
+        "slug": "resource-over-2mb",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/validation/resource-over-2mb/"
+      },
+      {
+        "name": "Invalid Html Elements In Head",
+        "slug": "invalid-html-elements-in-head",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/validation/invalid-html-elements-in-head/"
+      },
+      {
+        "name": "Body Element Preceding Html",
+        "slug": "body-element-preceding-html",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/validation/body-element-preceding-html/"
+      },
+      {
+        "name": "Head Not First In Html Element",
+        "slug": "head-not-first-in-html-element",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/validation/head-not-first-in-html-element/"
+      },
+      {
+        "name": "High Carbon Rating",
+        "slug": "high-carbon-rating",
+        "url": "https://www.screamingfrog.co.uk/seo-spider/issues/validation/high-carbon-rating/"
+      }
+    ]
+  }
+}
