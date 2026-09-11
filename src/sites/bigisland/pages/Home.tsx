@@ -18,7 +18,7 @@ import { BandQuote, CORRIDOR, EAST, LedgerRow, Mono, HeroPanel, Panel, RATE_ROWS
 const HOME_FAQ = [
   {
     q: 'How much is a private chef on the Big Island?',
-    a: 'Signature villa dinners run $150–$225 a guest with groceries inside the band; the Entry tier under Signature starts from $110. Date Night starts from $550 and Stay Chef from $950 a day. The written quote is the confirmed total.',
+    a: 'Signature villa dinners run $150–$225 a guest with groceries inside the band; the Entry tier under Signature starts from $110. Date Night starts from $550. Stay Chef runs from $950 a day plus groceries at cost with receipts. The written quote is the confirmed total.',
   },
   {
     q: 'Can you cook inside gated communities like Kūkiʻo, Hualālai, and Kohanaiki?',

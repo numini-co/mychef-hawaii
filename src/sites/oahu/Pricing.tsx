@@ -94,7 +94,7 @@ export default function OahuPricing() {
           <SectionReveal>
             <h2 className="h2-site">Per-guest bands & standing rates.</h2>
             <div className="mt-8">
-              <RateTable rows={TIERS} footnote="Groceries at cost, receipts on request. Nothing on this page is a starting-at fiction." />
+              <RateTable rows={TIERS} footnote="Signature dinners: food inside the band. Stay Chef: groceries at cost with receipts. Nothing on this page is a starting-at fiction." />
               <FeeStack className="mt-8 opacity-90" />
             </div>
           </SectionReveal>

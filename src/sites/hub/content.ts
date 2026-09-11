@@ -760,7 +760,7 @@ export const content: ContentRecord[] = [
     h1: 'Every fee, on its own line, before you pay anything.',
     meta: {
       description:
-        'myCHEF fee stack: 20% service charge, Hawaii GET 4.7120%, 50% deposit locks the date, voluntary gratuity, groceries at cost with receipts.',
+        'myCHEF fee stack: 20% service, Hawaiʻi GET up to 4.7120%, 50% deposit after written quote, voluntary gratuity, Stay Chef groceries at cost with receipts.',
     },
     parent: 'pricing',
     intro:
@@ -769,18 +769,18 @@ export const content: ContentRecord[] = [
       {
         heading: 'The five lines',
         list: [
-          'The menu — per-guest band or day rate, groceries included',
           '20% service charge — on its own line. It pays the coordination, planning, and insurance layer; it is disclosed as a service charge, not hidden in the menu price',
           'Hawaiʻi GET — up to 4.7120% depending on county, on its own line, valid through 12/31/2030. Never the obsolete 4.166%',
           '50% deposit — locks the date, due only after you have seen the written quote',
           'Gratuity — always voluntary, never assumed, never pre-added',
+          'Stay Chef groceries — at cost with merchant receipts (zero retail markup). Signature dinners keep food inside the published per-guest band',
         ],
       },
       {
         heading: 'Why we itemize instead of bundling',
         body: [
           'Bundled pricing is how the 23–25% resort service norm stays invisible. Itemizing keeps every line auditable: you can check the GET against the county rate and the service charge against the standard, line by line.',
-          'Groceries are charged at cost with receipts on request — a policy, not a promise.',
+          'Grocery treatment is format-aware: signature dinners include food and procurement inside the published band; multi-day Stay Chef bills groceries at cost with receipts — a policy, not a promise.',
         ],
         links: [{ label: 'The honesty register', href: '/trust' }],
       },
@@ -1149,20 +1149,26 @@ export const content: ContentRecord[] = [
   {
     slug: 'guides/groceries-at-cost',
     category: 'guide',
-    title: 'Are Groceries Included? — The At-Cost Policy',
-    h1: 'Groceries at cost, receipts on request.',
+    title: 'Are Groceries Included? — Signature vs Stay Chef',
+    h1: 'Signature dinners: food in the band. Stay Chef: groceries at cost.',
     meta: {
       description:
-        'Are groceries included in private chef pricing? At myCHEF Hawaii groceries sit inside the per-guest band at cost, with receipts on request — no markup, ever.',
+        'Are groceries included? Signature dinners: food & procurement inside the published band. Stay Chef: groceries at cost with receipts — no markup.',
     },
     parent: 'guides',
     intro:
-      'The direct answer: yes — groceries are inside the per-guest band, bought that morning, charged at cost, with receipts available on request. There is no grocery markup anywhere in the network.',
+      'The direct answer depends on format. Signature private chef dinners include food and grocery procurement inside the published per-guest band. Multi-day Stay Chef bills the daily chef fee plus groceries at true cost with merchant receipts. There is no grocery markup anywhere in the network.',
     sections: [
       {
-        heading: 'Why at-cost matters in Hawaiʻi',
+        heading: 'Signature dinners — inside the band',
         body: [
-          'Island groceries run 31–53% above mainland prices. A markup on top of that is where hidden margin usually lives — so we removed it. The band covers the shop; the receipts prove it.',
+          'For Private Chef Dinner and other per-guest signature bands, the published rate covers chef time, menu design, shopping, and the food itself inside the chosen tier. You do not see a separate “+ groceries at cost” line on those formats.',
+        ],
+      },
+      {
+        heading: 'Stay Chef — at cost with receipts',
+        body: [
+          'Island groceries run 31–53% above mainland prices, and a week of shopping for a villa varies by thousands. Stay Chef therefore bills groceries at cost with original receipts — honesty at scale, not a padded estimate.',
         ],
       },
       {

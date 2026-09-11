@@ -7,7 +7,7 @@ import type { CtaBlock, ContentSection, FaqItem } from '@/platform/types';
  */
 
 export const FEE_FOOTNOTE =
-  '20% service charge and Hawaiʻi GET up to 4.7120% always appear on their own lines (GET valid through 12/31/2030). 50% deposit locks the date. Gratuity is always voluntary. Groceries at cost, receipts on request.';
+  '20% service charge and Hawaiʻi GET up to 4.7120% always appear on their own lines (GET valid through 12/31/2030). 50% deposit locks the date. Signature dinners: food inside the band. Stay Chef: groceries at cost with receipts. Gratuity is always voluntary.';
 
 export const CTA_QUOTE: CtaBlock = {
   label: 'Begin an inquiry',

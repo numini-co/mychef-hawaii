@@ -275,9 +275,9 @@ export default function OahuHome() {
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 md:grid-cols-12">
           <div className="md:col-span-6">
             <p className="eyebrow-site">Private chef Oʻahu — Honolulu · Kahala · Ko Olina · North Shore</p>
-            <h1 className="h1-site mt-5" aria-label={H1}>
+            <h1 className="h1-site mt-5">
               {H1.split(' ').map((w, i) => (
-                <span key={i} aria-hidden="true" className="word-rise" style={{ '--wr-delay': `${i * 30}ms` } as React.CSSProperties}>
+                <span key={i} className="word-rise" style={{ '--wr-delay': `${i * 30}ms` } as React.CSSProperties}>
                   {w}{' '}
                 </span>
               ))}
@@ -496,7 +496,7 @@ export default function OahuHome() {
           <SectionReveal>
             <h2 className="h2-site">The Oʻahu rate card.</h2>
             <div className="mt-8">
-              <RateTable rows={RATE_ROWS} footnote="Every figure published, every figure honored. Groceries at cost, receipts on request." />
+              <RateTable rows={RATE_ROWS} footnote="Every figure published, every figure honored. Signature dinners: food inside the band. Stay Chef & weekly cook: groceries at cost with receipts." />
               <FeeStack className="mt-8 opacity-90" />
             </div>
             <div className="mt-10">
