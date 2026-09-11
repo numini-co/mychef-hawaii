@@ -6,6 +6,7 @@
  */
 import { Link } from 'react-router';
 import { Seo, faqLd, serviceLd, breadcrumbLd } from '@/platform/seo';
+import { CONTACT } from '@/platform/config';
 import SectionReveal from '@/components/SectionReveal';
 import FAQAccordion from '@/components/FAQAccordion';
 import QuoteCTA from '@/components/QuoteCTA';
@@ -85,7 +86,7 @@ export default function OahuPrivateChef() {
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-5">
               <Link to="/oahu/quote" className="cta-site">Get a written quote</Link>
-              <a href="https://wa.me/18084687748" target="_blank" rel="noreferrer" className="cta-secondary-site">WhatsApp us →</a>
+              <a href={`https://wa.me/${CONTACT.whatsappNumber}`} target="_blank" rel="noreferrer" className="cta-secondary-site">WhatsApp us →</a>
             </div>
           </div>
           <SectionReveal className="md:col-span-6">
@@ -257,7 +258,7 @@ export default function OahuPrivateChef() {
         </div>
       </section>
 
-      <QuoteCTA cta={{ label: 'Get a written quote', href: '/oahu/quote', secondaryLabel: 'WhatsApp us', secondaryHref: 'https://wa.me/18084687748' }} />
+      <QuoteCTA cta={{ label: 'Get a written quote', href: '/oahu/quote', secondaryLabel: 'WhatsApp us', secondaryHref: `https://wa.me/${CONTACT.whatsappNumber}` }} />
     </>
   );
 }

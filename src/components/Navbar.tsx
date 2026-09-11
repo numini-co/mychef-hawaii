@@ -5,6 +5,7 @@ import { useSite } from '@/platform/IslandProvider';
 import { ISLAND_IDS, SITE_META } from '@/platform/tokens';
 import type { SiteId } from '@/platform/tokens';
 import { getIslandHref, navigateToIsland } from '@/platform/navigation';
+import { CONTACT } from '@/platform/config';
 import IslandMark from './IslandMark';
 import IslandPicker from './IslandPicker';
 import Wordmark from './Wordmark';
@@ -396,19 +397,19 @@ export default function Navbar() {
 
               {/* WhatsApp Direct Concierge */}
               <a
-                href="https://wa.me/18084687748?text=Aloha%2C%20I%20would%20like%20to%20inquire%20about%20a%20private%20chef%20in%20Hawaii."
+                href={`https://wa.me/${CONTACT.whatsappNumber}?text=Aloha%2C%20I%20would%20like%20to%20inquire%20about%20a%20private%20chef%20in%20Hawaii.`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cta-secondary-site flex min-h-[46px] w-full items-center justify-center gap-2 rounded-xl text-sm font-medium"
                 onClick={() => setOpen(false)}
               >
                 <MessageCircle className="h-4 w-4 text-emerald-600" aria-hidden="true" />
-                <span>WhatsApp Concierge (+1 808 468 7748)</span>
+                <span>WhatsApp Concierge ({CONTACT.whatsappDisplay})</span>
               </a>
 
               {/* Published fee stack guarantee */}
               <p className="px-1 text-center text-[11px] leading-relaxed text-ink-2">
-                20% service charge & Hawaiʻi GET up to 4.7120% itemized on own lines · Groceries at cost ·
+                20% service charge & Hawaiʻi GET up to 4.7120% itemized on own lines · Signature dinners include food in-band · Stay Chef groceries at cost ·
                 The written quote is the confirmed total.
               </p>
             </div>

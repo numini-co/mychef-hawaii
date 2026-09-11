@@ -1,4 +1,5 @@
 import type { ContentRecord } from '@/platform/types';
+import { CONTACT } from '@/platform/config';
 
 /**
  * bigisland content registry — the full 121-page inventory
@@ -3736,7 +3737,7 @@ export const content: ContentRecord[] = [
     h1: 'The fee stack, line by line.',
     meta: {
       description:
-        'Big Island private chef fees itemized: 20% service charge, Hawaiʻi GET up to 4.7120% through 12/31/2030, 50% deposit, voluntary gratuity, groceries at cost. Every line explained.',
+        'Big Island private chef fees itemized: 20% service charge, Hawaiʻi GET up to 4.7120% through 12/31/2030, 50% deposit, voluntary gratuity, Stay Chef groceries at cost. Every line explained.',
     },
     intro:
       'Every myCHEF invoice carries the same five lines. Here is what each one is, why it exists, and why it sits on its own line instead of inside the price.',
@@ -3748,7 +3749,7 @@ export const content: ContentRecord[] = [
           'HAWAIʻI GET UP TO 4.7120% — the maximum visible pass-on, valid through 12/31/2030, never the obsolete 4.166%',
           '50% DEPOSIT — locks the date, only after you have seen the numbers',
           'GRATUITY — always voluntary, never bundled',
-          'GROCERIES — at cost, receipts on request',
+          'STAY CHEF GROCERIES — at cost with receipts; signature dinners keep food inside the published band',
         ],
       },
       {
@@ -4292,13 +4293,13 @@ export const content: ContentRecord[] = [
     category: 'guide',
     parent: 'guides',
     title: 'Are Groceries Included? Big Island Private Chef Costs Explained',
-    h1: 'Groceries, at cost, with receipts.',
+    h1: 'Signature dinners: food in the band. Stay Chef: groceries at cost.',
     meta: {
       description:
         'Are groceries included with a Big Island private chef? Dinners: inside the per-guest band. Stay Chef: at cost with receipts. Here is exactly how each works.',
     },
     intro:
-      'Two honest answers depending on the product — and both end with receipts on request.',
+      'Two honest answers depending on the product — signature dinners keep food inside the published band; Stay Chef bills groceries at cost with receipts.',
     sections: [
       {
         heading: 'Dinners: inside the band',
@@ -4844,10 +4845,10 @@ export const content: ContentRecord[] = [
       {
         heading: 'WhatsApp',
         body: [
-          'For the fast question — “is this date open,” “does this rental’s kitchen work,” “can you do Hilo” — WhatsApp (+1 (808) 468-7748) gets you a direct answer, usually with the quote flow attached when the answer turns into a booking.',
+          'For the fast question — “is this date open,” “does this rental’s kitchen work,” “can you do Hilo” — WhatsApp (+971 55 174 4849) gets you a direct answer, usually with the quote flow attached when the answer turns into a booking.',
         ],
         links: [
-          { label: 'WhatsApp +1 (808) 468-7748', href: 'https://wa.me/18084687748' },
+          { label: `WhatsApp ${CONTACT.whatsappDisplay}`, href: `https://wa.me/${CONTACT.whatsappNumber}` },
           { label: 'Open the quote flow', href: 'quote' }
         ],
       },

@@ -6,6 +6,7 @@
  */
 import { Link } from 'react-router';
 import { Seo, faqLd, breadcrumbLd } from '@/platform/seo';
+import { CONTACT } from '@/platform/config';
 import { RateTable } from '@/components/RateTable';
 import SectionReveal from '@/components/SectionReveal';
 import FAQAccordion from '@/components/FAQAccordion';
@@ -201,7 +202,7 @@ export default function OahuWeddings() {
           label: 'Get a written quote',
           href: '/oahu/quote',
           secondaryLabel: 'WhatsApp us',
-          secondaryHref: 'https://wa.me/18084687748',
+          secondaryHref: `https://wa.me/${CONTACT.whatsappNumber}`,
           note: 'Tell us the venue (or the shortlist), the guest counts per event, and the dates — the written quote itemizes the whole week.',
         }}
       />

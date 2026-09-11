@@ -1,4 +1,5 @@
 import type { ContentRecord } from '@/platform/types';
+import { CONTACT } from '@/platform/config';
 
 /**
  * Hub content registry — the full 48-page statewide inventory
@@ -1634,7 +1635,7 @@ export const content: ContentRecord[] = [
     h1: 'Four doors, not one inbox.',
     meta: {
       description:
-        'Contact myCHEF Hawaii: written quote flow, villa-manager partnerships, press, chef careers — plus WhatsApp +1 (808) 468-7748.',
+        'Contact myCHEF Hawaii: written quote flow, villa-manager partnerships, press, chef careers — plus WhatsApp +971 55 174 4849.',
     },
     intro:
       'One inbox is how messages get lost. Pick the door that matches your message and it routes to the team that can actually answer it.',
@@ -1643,13 +1644,13 @@ export const content: ContentRecord[] = [
         heading: 'Book a chef',
         body: [
           'The quote flow — six steps, two minutes, one written quote. This is the only door for bookings, and it is fast.',
-          'Direct line: quotes@mychef-hawaii.com · +1 (808) 468-7748 · WhatsApp +1 (808) 468-7748',
+          'Direct line: quotes@mychef-hawaii.com · +1 (808) 468-7748 · WhatsApp +971 55 174 4849',
         ],
         links: [
           { label: 'Start the quote', href: '/quote' },
           { label: 'Email quotes@mychef-hawaii.com', href: 'mailto:quotes@mychef-hawaii.com' },
           { label: 'Call (808) 468-7748', href: 'tel:+18084687748' },
-          { label: 'WhatsApp the desk', href: 'https://wa.me/18084687748' },
+          { label: 'WhatsApp the desk', href: `https://wa.me/${CONTACT.whatsappNumber}` },
         ],
       },
       {

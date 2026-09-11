@@ -1,5 +1,8 @@
-# DNS notes — island www hosts (re-audit §3.6 / handoff #9)
+# DNS notes — island www hosts
 
-Vercel redirects already 301 `www.{oahu,maui,kauai,bigisland}.mychef-hawaii.com` → non-www.
+Vercel redirects 301 `www.{oahu,maui,kauai,bigisland}.mychef-hawaii.com` → non-www (`vercel.json`).
 
-**DNS (owner):** CNAME (or A/AAAA) for each `www.<island>.mychef-hawaii.com` → Vercel so those redirects can fire. Owner is adding records (2026-09-11); once live, www resolves and forwards to the non-www island host. No app/code change required for the forward.
+**Status (2026-09-11):** DNS A records resolve to Vercel; all four `www.<island>` hosts were added to the `mychef-hawaii` project (Numini). Live check: HTTPS redirects to the non-www island host with HTTP 200.
+
+If SSL ever fails again after a DNS change, re-verify with:
+`vercel domains inspect www.<island>.mychef-hawaii.com --scope numini`

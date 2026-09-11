@@ -5238,14 +5238,14 @@ const guides: ContentRecord[] = [
   {
     slug: 'guides/groceries-at-cost',
     category: 'guide',
-    title: 'Groceries at Cost on Kauaʻi — What That Actually Means',
-    h1: 'Groceries at cost, receipts attached.',
+    title: 'Groceries on Kauaʻi — In-Band Dinners vs At-Cost Stay Chef',
+    h1: 'Signature dinners: food in the band. Stay Chef: groceries at cost.',
     parent: 'guides',
     meta: {
       description:
-        'What “groceries at cost” means for Kauaʻi chef service: receipts attached, island food prices 31–53% above mainland, and why multi-day service bills food separately from the day rate.',
+        'How groceries work on Kauaʻi: inside the per-guest band for signature dinners; at cost with receipts for Stay Chef weeks. Island food prices run 31–53% above mainland.',
     },
-    intro: 'Multi-day service bills groceries at cost with receipts. On an island where food runs 31–53% above mainland prices, that phrase deserves a page.',
+    intro: 'Format decides the billing. Signature dinners include food inside the published per-guest band. Multi-day Stay Chef bills groceries at cost with receipts — on an island where food runs 31–53% above mainland prices, that split deserves a page.',
     sections: [
       {
         heading: 'The mechanics',

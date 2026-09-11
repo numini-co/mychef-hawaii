@@ -4,10 +4,13 @@
  */
 
 /** Contact endpoints for the quote handoff.
- *  The WhatsApp business number is provisioned at launch — update it here only. */
+ *  WhatsApp is network-wide UAE desk; Hawaii voice line stays separate. */
 export const CONTACT = {
-  whatsappNumber: '18084687748',
-  whatsappDisplay: '+1 (808) 468-7748',
+  /** Digits only for https://wa.me/{whatsappNumber} */
+  whatsappNumber: '971551744849',
+  whatsappDisplay: '+971 55 174 4849',
+  /** Digits only for tel:+{phoneNumber} */
+  phoneNumber: '18084687748',
   phoneDisplay: '(808) 468-7748',
   email: 'quotes@mychef-hawaii.com',
   partnershipsEmail: 'partnerships@mychef-hawaii.com',

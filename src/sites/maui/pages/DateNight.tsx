@@ -5,6 +5,7 @@
  */
 import { Link } from 'react-router';
 import { useSite } from '@/platform/IslandProvider';
+import { CONTACT } from '@/platform/config';
 import { Seo, faqLd, serviceLd, breadcrumbLd } from '@/platform/seo';
 import SectionReveal from '@/components/SectionReveal';
 import FAQAccordion from '@/components/FAQAccordion';
@@ -107,7 +108,7 @@ export default function MauiDateNight() {
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-5">
               <Link to={link('quote?service=date-night')} className="cta-site">Get a written quote</Link>
-              <a href="https://wa.me/18084687748?text=Aloha%20myCHEF%20Maui%20—%20I%27d%20like%20to%20plan%20a%20dinner%20for%20two." target="_blank" rel="noreferrer" className="cta-secondary-site">WhatsApp our team →</a>
+              <a href={`https://wa.me/${CONTACT.whatsappNumber}?text=Aloha%20myCHEF%20Maui%20—%20I%27d%20like%20to%20plan%20a%20dinner%20for%20two.`} target="_blank" rel="noreferrer" className="cta-secondary-site">WhatsApp our team →</a>
             </div>
           </div>
           <SectionReveal className="md:col-span-6">
@@ -203,7 +204,7 @@ export default function MauiDateNight() {
           label: 'Get a written quote',
           href: link('quote?service=date-night'),
           secondaryLabel: 'WhatsApp us',
-          secondaryHref: 'https://wa.me/18084687748',
+          secondaryHref: `https://wa.me/${CONTACT.whatsappNumber}`,
         }}
       />
     </>

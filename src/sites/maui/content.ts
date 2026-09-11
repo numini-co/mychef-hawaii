@@ -4691,7 +4691,7 @@ const pricing: ContentRecord[] = [
           'Hawaiʻi GET up to 4.7120%, on its own line — the maximum visible pass-on, valid through 12/31/2030',
           '50% deposit locks the date — only after you have seen the numbers',
           'Gratuity is always voluntary, never required',
-          'Groceries at cost, receipts on request',
+          'Stay Chef groceries at cost with receipts — signature dinners keep food inside the published band',
         ],
       },
       {
@@ -5282,13 +5282,13 @@ const guides: ContentRecord[] = [
     category: 'guide',
     parent: 'guides',
     title: 'Are Groceries Included with a Private Chef in Maui?',
-    h1: 'Are groceries included? Yes — and here is exactly how.',
+    h1: 'Signature dinners: food in the band. Stay Chef: groceries at cost.',
     meta: {
       description:
         'How groceries work with a Maui private chef: inside the per-guest band for dinners, at cost with receipts for Stay Chef weeks — never marked up, always visible.',
     },
     intro:
-      'Yes for dinners, at cost for the long stays — and either way, never marked up. The two models exist because the two products price honestly in different ways.',
+      'Yes for dinners (inside the band), at cost for Stay Chef weeks — and either way, never marked up. The two models exist because the two products price honestly in different ways.',
     sections: [
       {
         heading: 'Dinners: inside the band',
@@ -5710,7 +5710,7 @@ const trust: ContentRecord[] = [
           'Published prices, honored — the rate card you read is the rate card you pay',
           'The written quote is the confirmed total — never a chat estimate',
           '20% service and GET up to 4.7120% always on their own lines',
-          'Groceries at cost, receipts on request',
+          'Signature dinners: food inside the band · Stay Chef: groceries at cost with receipts',
           'No fake reviews — ever; reviews publish only after verified events',
           'We decline hotel rooms without kitchens',
           'We say when a zone is quote-only, and why',
@@ -5872,7 +5872,7 @@ const trust: ContentRecord[] = [
     h1: 'Four doors, not one inbox.',
     meta: {
       description:
-        'Contact myCHEF Maui: book a chef through the quote flow, partner as a villa manager or planner, press inquiries, or join the chef roster. WhatsApp (+1 (808) 468-7748) for the direct line.',
+        'Contact myCHEF Maui: book a chef through the quote flow, partner as a villa manager or planner, press inquiries, or join the chef roster. WhatsApp (+971 55 174 4849) for the direct line.',
     },
     intro:
       'One inbox is how messages get lost. Pick the door that matches why you are here — each routes to the right human.',

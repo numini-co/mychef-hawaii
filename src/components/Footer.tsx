@@ -66,7 +66,7 @@ export default function Footer() {
               <span className="mx-2 text-ink-2/50" aria-hidden="true">
                 ·
               </span>
-              <a className="link-site" href={`tel:+${CONTACT.whatsappNumber}`}>
+              <a className="link-site" href={`tel:+${CONTACT.phoneNumber}`}>
                 {CONTACT.phoneDisplay}
               </a>
               <span className="mx-2 text-ink-2/50" aria-hidden="true">
@@ -171,7 +171,7 @@ export default function Footer() {
           <span className="mx-2 text-ink-2/50" aria-hidden="true">
             ·
           </span>
-          <a className="link-site" href={`tel:+${CONTACT.whatsappNumber}`}>
+          <a className="link-site" href={`tel:+${CONTACT.phoneNumber}`}>
             {CONTACT.phoneDisplay}
           </a>
           <span className="mx-2 text-ink-2/50" aria-hidden="true">

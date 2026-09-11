@@ -22,7 +22,7 @@ import SectionReveal from '@/components/SectionReveal';
 import FAQAccordion from '@/components/FAQAccordion';
 import type { IslandId } from '@/platform/tokens';
 import IslandMark from '@/components/IslandMark';
-import { formatMoney, RATES } from '@/platform/config';
+import { formatMoney, RATES, CONTACT } from '@/platform/config';
 
 interface IslandPricingConfig {
   id: IslandId;
@@ -674,7 +674,7 @@ export default function CalculatorPage() {
                   </button>
 
                   <a
-                    href={`https://wa.me/18084687748?text=${encodeURIComponent(
+                    href={`https://wa.me/${CONTACT.whatsappNumber}?text=${encodeURIComponent(
                       `myCHEF Hawaii Calculator Estimate:\nIsland: ${cfg.name}\nFormat: ${format.name}\nGuests: ${guests}\nEstimate: ${formatMoney(math.totalMin)} - ${formatMoney(math.totalMax)}\nPlease provide formal written availability.`
                     )}`}
                     target="_blank"

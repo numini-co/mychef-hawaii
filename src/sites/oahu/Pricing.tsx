@@ -6,6 +6,7 @@
  */
 import { Link } from 'react-router';
 import { Seo, faqLd, breadcrumbLd } from '@/platform/seo';
+import { CONTACT } from '@/platform/config';
 import { RateTable } from '@/components/RateTable';
 import FeeStack from '@/components/FeeStack';
 import SectionReveal from '@/components/SectionReveal';
@@ -209,7 +210,7 @@ export default function OahuPricing() {
         </div>
       </section>
 
-      <QuoteCTA cta={{ label: 'Get a written quote', href: '/oahu/quote', secondaryLabel: 'WhatsApp us', secondaryHref: 'https://wa.me/18084687748' }} />
+      <QuoteCTA cta={{ label: 'Get a written quote', href: '/oahu/quote', secondaryLabel: 'WhatsApp us', secondaryHref: `https://wa.me/${CONTACT.whatsappNumber}` }} />
     </>
   );
 }

@@ -2531,7 +2531,7 @@ export const content: ContentRecord[] = [
     h1: 'What a private chef costs in Honolulu — the whole stack.',
     meta: {
       description:
-        'The full cost anatomy of a private chef in Honolulu: per-guest bands $95–$400+, staffing at $55/$75 an hour, travel zones from $75, 20% service, GET up to 4.7120%, and groceries at cost — every line explained.',
+        'The full cost anatomy of a private chef in Honolulu: per-guest bands $95–$400+, staffing at $55/$75 an hour, travel zones from $75, 20% service, GET up to 4.7120%, signature food in-band, Stay Chef groceries at cost.',
     },
     intro:
       'The one canonical cost page for Oʻahu: every line that can appear on a quote, what drives it, and what it should look like when someone else quotes you.',
@@ -2539,7 +2539,7 @@ export const content: ContentRecord[] = [
       {
         heading: 'The lines on every quote',
         body: [
-          'Food is priced per guest by band. Staffing is hourly with a four-hour floor. Travel is a published zone fee where it applies. Then the fee stack: 20% service charge and GET up to 4.7120%, each on its own line, plus groceries at cost with receipts. If a quote you are holding does not itemize these, ask why.',
+          'Food is priced per guest by band — for signature dinners, grocery procurement and ingredients sit inside that band. Staffing is hourly with a four-hour floor. Travel is a published zone fee where it applies. Then the fee stack: 20% service charge and GET up to 4.7120%, each on its own line. Stay Chef weeks add groceries at cost with receipts. If a quote you are holding does not itemize these, ask why.',
         ],
       },
       {
@@ -2688,7 +2688,7 @@ export const content: ContentRecord[] = [
     h1: 'The fee stack, line by line.',
     meta: {
       description:
-        'Every fee on a myCHEF Oʻahu quote explained: the 20% service charge, Hawaiʻi GET up to 4.7120% on its own line, the 50% deposit, voluntary gratuity, and groceries at cost with receipts.',
+        'Every fee on a myCHEF Oʻahu quote explained: 20% service, Hawaiʻi GET up to 4.7120%, 50% deposit, voluntary gratuity, and Stay Chef groceries at cost (signature dinners keep food in-band).',
     },
     intro:
       'Five lines that appear on every quote, in the same words, network-wide. Here is what each one is and why it is itemized.',
@@ -2700,7 +2700,7 @@ export const content: ContentRecord[] = [
           'Hawaiʻi GET up to 4.7120% — on its own line, valid through 12/31/2030',
           '50% deposit — locks the date, only after you have seen the numbers',
           'Gratuity — always voluntary, never suggested by us',
-          'Groceries — at cost, receipts on request',
+          'Stay Chef groceries — at cost with receipts; signature dinners keep food inside the published band',
         ],
         body: [
           'Itemization is the point. A 20% service charge you can see beats a 23–25% charge folded into a package price — and Hawaiʻi’s general excise tax applies to the whole transaction, which is why it gets its own line rather than hiding in the food cost.',
@@ -3072,7 +3072,7 @@ export const content: ContentRecord[] = [
     slug: 'guides/groceries-at-cost',
     category: 'guide',
     title: 'Are Groceries Included with a Private Chef? Oʻahu Policy',
-    h1: 'Groceries, at cost, with receipts.',
+    h1: 'Signature dinners: food in the band. Stay Chef: groceries at cost.',
     meta: {
       description:
         'How groceries work with a private chef on Oʻahu: inside the per-guest band for Signature dinners, at cost with receipts for Stay Chef and weekly service — never marked up.',
@@ -3484,7 +3484,7 @@ export const content: ContentRecord[] = [
       {
         heading: 'The two doors',
         body: [
-          'The quote form takes six steps and two minutes; the written quote comes back itemized. WhatsApp (+1 (808) 468-7748) is for everything else — the kitchen photo, the “is this possible,” the date you are not sure about.',
+          'The quote form takes six steps and two minutes; the written quote comes back itemized. WhatsApp (+971 55 174 4849) is for everything else — the kitchen photo, the “is this possible,” the date you are not sure about.',
         ],
         links: [
           { label: 'Start the quote form', href: '/oahu/quote' },
