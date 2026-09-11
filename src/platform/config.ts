@@ -69,7 +69,7 @@ export const FEE_STACK_LINES = [
   'Hawaiʻi GET up to 4.7120%, on its own line (valid through 12/31/2030)',
   '50% deposit locks the date — only after you have seen the numbers',
   'Gratuity is always voluntary',
-  'Groceries at cost, receipts on request',
+  'Stay Chef groceries at cost with merchant receipts (zero retail markup)',
 ] as const;
 
 /** TrustStrip claims (design.md §4). */

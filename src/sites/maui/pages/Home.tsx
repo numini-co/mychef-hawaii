@@ -23,7 +23,7 @@ import { ExperienceCard, MauiLink, MauiStyles, MAUI_FEE_NOTE } from './shared';
 const HOME_FAQ = [
   {
     q: 'How much is a private chef dinner on Maui?',
-    a: 'Signature dinners run $150–$250 a guest, groceries inside the band. Premium menus run $220–$325; chef’s-table formats $275–$400+. The 20% service charge and Hawaiʻi General Excise Tax (4.7120%) appear on their own lines in the written quote — which is the confirmed total.',
+    a: 'Signature dinners run $150–$250 a guest, with food and grocery procurement inside the published band. Premium menus run $220–$325; chef’s-table formats $275–$400+. Stay Chef weeks bill a daily chef fee from $1,050 plus groceries at cost with original merchant receipts. The 20% service charge and Hawaiʻi General Excise Tax (4.7120%) appear on their own lines in the written quote — which is the confirmed total.',
   },
   {
     q: 'Can you cater our whole wedding week?',
@@ -499,6 +499,10 @@ export default function MauiHome() {
               </SectionReveal>
             ))}
           </div>
+
+          <p className="mt-8 max-w-3xl text-xs sm:text-sm text-ink-2 leading-relaxed">
+            Single dinners include food in the published band; Stay Chef residencies bill groceries at cost with receipts.
+          </p>
 
           <div className="mt-10 text-center">
             <Link

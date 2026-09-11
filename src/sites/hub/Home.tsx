@@ -351,7 +351,7 @@ const SAMPLE_MENUS = [
   {
     title: 'Signature Pacific Rim Degustation',
     format: '4-Course In-Villa Plated Dinner',
-    tier: 'From $125/guest + groceries at cost',
+    tier: 'From $125/guest · groceries included in the band',
     courses: [
       {
         course: 'Canapé & Amuse-Bouche',
@@ -383,7 +383,7 @@ const SAMPLE_MENUS = [
   {
     title: 'Island Estate Communal Feast',
     format: 'Family-Style Villa Banquet',
-    tier: 'From $135/guest + groceries at cost',
+    tier: 'From $135/guest · groceries included in the band',
     courses: [
       {
         course: 'Passed Appetizers',
@@ -415,7 +415,7 @@ const SAMPLE_MENUS = [
   {
     title: 'Botanical & Plant-Forward Tasting',
     format: '100% Vegan & Gluten-Free Degustation',
-    tier: 'From $130/guest + groceries at cost',
+    tier: 'From $130/guest · groceries included in the band',
     courses: [
       {
         course: 'First Course',
@@ -452,7 +452,7 @@ const HOME_FAQ = [
   },
   {
     q: 'What does catering or private chef service cost in Hawaii?',
-    a: 'Signature private chef dinners start from $125 per guest on Oʻahu and from $150 per guest on Maui, Kauaʻi, and Hawaiʻi Island, with groceries included in the band. Multi-day Stay Chef service runs from $850–$1,100 per day. The 20% service charge and Hawaiʻi GET up to 4.7120% always sit on their own itemized lines, and your written quote is the confirmed total.',
+    a: 'Signature private chef dinners start from $125 per guest on Oʻahu and from $150 per guest on Maui, Kauaʻi, and Hawaiʻi Island, with food and grocery procurement included in the published band. Multi-day Stay Chef service runs from $850–$1,100 per day plus groceries at cost with original merchant receipts. The 20% service charge and Hawaiʻi GET up to 4.7120% always sit on their own itemized lines, and your written quote is the confirmed total.',
   },
   {
     q: 'Do you cater large weddings, corporate productions, and group retreats?',
@@ -492,7 +492,7 @@ export default function HubHome() {
     <>
       <Seo
         title="Private Chef & Catering Hawaii — The Statewide Hub | myCHEF"
-        description="Private chef Hawaii statewide: Oahu, Maui, Kauai, Big Island — or one multi-island itinerary. Published prices and itemized written quotes."
+        description="Private chef Hawaii: signature dinners include food in-band; Stay Chef groceries at cost. Published tariffs, itemized quotes."
         path="/"
         ogImage="/img/hub/hero-statewide-desk.webp"
         jsonLd={[organizationLd(), foodServiceLd(), faqLd(HOME_FAQ)]}
@@ -625,7 +625,7 @@ export default function HubHome() {
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle2 className="h-4 w-4 shrink-0 text-accent-site mt-0.5" aria-hidden="true" />
-                <span><strong className="text-ink font-semibold">Groceries at true cost:</strong> Transparent merchant receipts provided at raw cost with zero retail markup.</span>
+                <span><strong className="text-ink font-semibold">Food &amp; groceries, format-aware:</strong> Signature dinners include food and grocery procurement inside the published band. Stay Chef: groceries at true cost with merchant receipts (zero retail markup).</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle2 className="h-4 w-4 shrink-0 text-accent-site mt-0.5" aria-hidden="true" />
@@ -967,17 +967,17 @@ export default function HubHome() {
                   <tr>
                     <td className="px-6 py-4 font-display text-base font-semibold">Private Chef Dinner</td>
                     <td className="tabular-site px-6 py-4 font-semibold text-accent-site">From $125/person</td>
-                    <td className="px-6 py-4 text-ink-2">Oʻahu from $125 · Maui, Kauaʻi & Big Island from $150. Groceries included.</td>
+                    <td className="px-6 py-4 text-ink-2">Oʻahu from $125 · Maui, Kauaʻi & Big Island from $150. Food & groceries inside the band.</td>
                     <td className="px-6 py-4 text-right">
-                      <Link to="/private-chef" className="link-site font-medium">Explore →</Link>
+                      <Link to="/pricing" className="link-site font-medium">Private chef tariff →</Link>
                     </td>
                   </tr>
                   <tr>
                     <td className="px-6 py-4 font-display text-base font-semibold">Stay Chef (Multi-Day)</td>
                     <td className="tabular-site px-6 py-4 font-semibold text-accent-site">From $850/day</td>
-                    <td className="px-6 py-4 text-ink-2">Oʻahu from $850 · Big Island $950 · Maui $1,050 · Kauaʻi $1,100/day. Multi-meal villa care.</td>
+                    <td className="px-6 py-4 text-ink-2">Oʻahu from $850 · Big Island $950 · Maui $1,050 · Kauaʻi $1,100/day + groceries at cost with receipts.</td>
                     <td className="px-6 py-4 text-right">
-                      <Link to="/stay-chef" className="link-site font-medium">Explore →</Link>
+                      <Link to="/pricing" className="link-site font-medium">Stay Chef day rates →</Link>
                     </td>
                   </tr>
                   <tr>
@@ -985,7 +985,7 @@ export default function HubHome() {
                     <td className="tabular-site px-6 py-4 font-semibold text-accent-site">From $125/person</td>
                     <td className="px-6 py-4 text-ink-2">Staffed plated courses or buffets for 10 to 75+ guests with complete service.</td>
                     <td className="px-6 py-4 text-right">
-                      <Link to="/catering" className="link-site font-medium">Explore →</Link>
+                      <Link to="/pricing" className="link-site font-medium">Event catering rates →</Link>
                     </td>
                   </tr>
                   <tr>
@@ -993,7 +993,7 @@ export default function HubHome() {
                     <td className="tabular-site px-6 py-4 font-semibold text-accent-site">Entry from $110 · Signature from $125</td>
                     <td className="px-6 py-4 text-ink-2">Oʻahu Table / Big Island Entry where published; Signature floors elsewhere. Live grill and elevated spreads.</td>
                     <td className="px-6 py-4 text-right">
-                      <Link to="/catering" className="link-site font-medium">Explore →</Link>
+                      <Link to="/catering" className="link-site font-medium">BBQ & buffet catering →</Link>
                     </td>
                   </tr>
                   <tr>
@@ -1001,7 +1001,7 @@ export default function HubHome() {
                     <td className="tabular-site px-6 py-4 font-semibold text-accent-site">From $150/person</td>
                     <td className="px-6 py-4 text-ink-2">Rehearsal dinners, ceremony receptions and multi-day bridal party villa dining.</td>
                     <td className="px-6 py-4 text-right">
-                      <Link to="/weddings" className="link-site font-medium">Explore →</Link>
+                      <Link to="/weddings" className="link-site font-medium">Wedding catering →</Link>
                     </td>
                   </tr>
                   <tr>
@@ -1009,7 +1009,7 @@ export default function HubHome() {
                     <td className="tabular-site px-6 py-4 font-semibold text-accent-site">From $125/person</td>
                     <td className="px-6 py-4 text-ink-2">Interactive island culinary classes, poke workshops and private kitchen demos.</td>
                     <td className="px-6 py-4 text-right">
-                      <Link to="/guides" className="link-site font-medium">Explore →</Link>
+                      <Link to="/guides" className="link-site font-medium">Cooking class guides →</Link>
                     </td>
                   </tr>
                   <tr>
@@ -1017,7 +1017,7 @@ export default function HubHome() {
                     <td className="tabular-site px-6 py-4 font-semibold text-accent-site">Custom packages</td>
                     <td className="px-6 py-4 text-ink-2">Executive summits, film shoots, craft services and corporate invoicing.</td>
                     <td className="px-6 py-4 text-right">
-                      <Link to="/corporate-catering" className="link-site font-medium">Explore →</Link>
+                      <Link to="/corporate-catering" className="link-site font-medium">Corporate catering →</Link>
                     </td>
                   </tr>
                   <tr>
@@ -1025,7 +1025,7 @@ export default function HubHome() {
                     <td className="tabular-site px-6 py-4 font-semibold text-accent-site">One central brief</td>
                     <td className="px-6 py-4 text-ink-2">Seamless coordination across Oʻahu, Maui, Kauaʻi and Big Island under one contract.</td>
                     <td className="px-6 py-4 text-right">
-                      <Link to="/quote?itinerary=multi" className="link-site font-medium">Quote →</Link>
+                      <Link to="/quote?itinerary=multi" className="link-site font-medium">Multi-island written quote →</Link>
                     </td>
                   </tr>
                 </tbody>
@@ -1304,7 +1304,7 @@ export default function HubHome() {
                 </h3>
                 <p className="mt-2 text-sm text-ink-2 leading-relaxed">
                   We believe in total financial transparency. Review an actual sample proposal showing chef labor,
-                  the separate 20% service charge line, statutory Hawaiʻi GET up to 4.7120%, and groceries passed through at raw cost.
+                  the separate 20% service charge line, statutory Hawaiʻi GET up to 4.7120%, signature-dinner food inside the band, and Stay Chef groceries passed through at raw cost with receipts.
                 </p>
               </div>
               <a

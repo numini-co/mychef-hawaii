@@ -217,3 +217,65 @@ export function faqLd(faq: FaqItem[]): JsonLd {
     })),
   };
 }
+
+/** Statewide tariff OfferCatalog — published /pricing table numbers only (no invented bands). */
+export function offerCatalogLd(): JsonLd {
+  const dinnerDesc =
+    'Per-guest signature private chef dinner band. Includes chef on-site, custom menu, grocery shopping & procurement, food & ingredients inside the chosen tier, cooking, plating, and kitchen cleanup. 20% service charge and Hawaiʻi GET up to 4.7120% itemized on their own lines.';
+  const stayDesc =
+    'Daily Stay Chef residency fee plus groceries at cost with original merchant receipts. 20% service charge and Hawaiʻi GET up to 4.7120% itemized on their own lines.';
+
+  const dinnerOffers = [
+    { island: 'Oʻahu', siteId: 'oahu' as const, low: 125, high: 190 },
+    { island: 'Maui', siteId: 'maui' as const, low: 150, high: 250 },
+    { island: 'Kauaʻi', siteId: 'kauai' as const, low: 150, high: 250 },
+    { island: 'Hawaiʻi Island', siteId: 'bigisland' as const, low: 150, high: 225 },
+  ].map((row) => ({
+    '@type': 'Offer',
+    name: `Private Chef Dinner — ${row.island}`,
+    description: `${dinnerDesc} Food and groceries included inside the published band.`,
+    priceCurrency: 'USD',
+    priceSpecification: {
+      '@type': 'PriceSpecification',
+      minPrice: row.low,
+      maxPrice: row.high,
+      priceCurrency: 'USD',
+      unitText: 'GUEST',
+    },
+    areaServed: { '@type': 'AdministrativeArea', name: row.island },
+    url: absoluteUrl('/', row.siteId),
+    availability: 'https://schema.org/InStock',
+  }));
+
+  const stayOffers = [
+    { island: 'Oʻahu', siteId: 'oahu' as const, price: 850 },
+    { island: 'Maui', siteId: 'maui' as const, price: 1050 },
+    { island: 'Kauaʻi', siteId: 'kauai' as const, price: 1100 },
+    { island: 'Hawaiʻi Island', siteId: 'bigisland' as const, price: 950 },
+  ].map((row) => ({
+    '@type': 'Offer',
+    name: `Stay Chef (Multi-Day) — ${row.island}`,
+    description: stayDesc,
+    price: String(row.price),
+    priceCurrency: 'USD',
+    priceSpecification: {
+      '@type': 'UnitPriceSpecification',
+      price: row.price,
+      priceCurrency: 'USD',
+      unitText: 'DAY',
+    },
+    areaServed: { '@type': 'AdministrativeArea', name: row.island },
+    url: absoluteUrl('/stay-chef', row.siteId),
+    availability: 'https://schema.org/InStock',
+  }));
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'OfferCatalog',
+    name: 'myCHEF Hawaii Statewide Tariff',
+    description:
+      'Published statewide rate card: signature dinners include food inside the per-guest band; Stay Chef bills daily chef fee plus groceries at cost with receipts.',
+    url: absoluteUrl('/pricing'),
+    itemListElement: [...dinnerOffers, ...stayOffers],
+  };
+}

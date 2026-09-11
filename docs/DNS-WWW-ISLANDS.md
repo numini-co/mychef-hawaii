@@ -2,7 +2,4 @@
 
 Vercel redirects already 301 `www.{oahu,maui,kauai,bigisland}.mychef-hawaii.com` → non-www.
 
-**Owner action required at the DNS registrar:** add CNAME (or A/AAAA) records for each
-`www.<island>.mychef-hawaii.com` pointing at Vercel before those redirects can fire.
-Until then, www island hosts intentionally do not resolve (curl 000). This is a conscious
-trade-off — document here rather than leave ambiguous.
+**DNS (owner):** CNAME (or A/AAAA) for each `www.<island>.mychef-hawaii.com` → Vercel so those redirects can fire. Owner is adding records (2026-09-11); once live, www resolves and forwards to the non-www island host. No app/code change required for the forward.

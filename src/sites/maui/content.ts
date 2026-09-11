@@ -16,7 +16,7 @@ import type { ContentRecord } from '@/platform/types';
  */
 
 const FEE_FOOTNOTE =
-  '20% service charge and Hawaiʻi GET up to 4.7120% always appear on their own lines. 50% deposit locks the date; gratuity is voluntary; groceries at cost with receipts.';
+  '20% service charge and Hawaiʻi GET up to 4.7120% always appear on their own lines. 50% deposit locks the date. Signature dinners: food inside the band. Stay Chef: groceries at cost with receipts. Gratuity voluntary.';
 
 export const content: ContentRecord[] = [
   /* ================= CORE (8) ================= */
@@ -88,7 +88,7 @@ export const content: ContentRecord[] = [
     faq: [
       {
         q: 'How much is a private chef dinner on Maui?',
-        a: 'Signature dinners run $150–$250 a guest, groceries inside the band. Premium menus are $190–$275 and chef’s-table formats $275–$400+. The fee stack — 20% service and Hawaiʻi GET up to 4.7120% — appears on its own lines in the written quote, which is the confirmed total.',
+        a: 'Signature dinners run $150–$250 a guest, with food and grocery procurement inside the published band. Premium menus are $190–$275 and chef’s-table formats $275–$400+. Stay Chef weeks bill from $1,050 a day plus groceries at cost with receipts. The fee stack — 20% service and Hawaiʻi GET up to 4.7120% — appears on its own lines in the written quote, which is the confirmed total.',
         links: [{ label: 'The full rate card', href: '/maui/pricing' }],
       },
       {

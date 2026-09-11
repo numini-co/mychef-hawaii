@@ -9,8 +9,8 @@
  * 4. Dual conversion paths: Single-island local tariff vs Multi-island combined proposal.
  */
 import { Link } from 'react-router';
-import { Seo, organizationLd, foodServiceLd, faqLd } from '@/platform/seo';
-import { CONTACT, STAFFING, TRUST_CLAIMS } from '@/platform/config';
+import { Seo, organizationLd, foodServiceLd, faqLd, offerCatalogLd } from '@/platform/seo';
+import { CONTACT, STAFFING, TRUST_CLAIMS, absoluteUrl } from '@/platform/config';
 import { ISLAND_IDS, SITE_META } from '@/platform/tokens';
 import IslandMark from '@/components/IslandMark';
 import SectionReveal from '@/components/SectionReveal';
@@ -143,7 +143,7 @@ export default function PricingHubPage() {
         description="Statewide tariff: signature dinners $125–$250/guest by island, Stay Chef $850–$1,100/day, Date Night $450–$950. 20% service and GET itemized."
         path="/pricing"
         ogImage="/img/hub/pricing-statewide.jpg"
-        jsonLd={[organizationLd(), foodServiceLd(), faqLd(PRICING_FAQ)]}
+        jsonLd={[organizationLd(), foodServiceLd(), offerCatalogLd(), faqLd(PRICING_FAQ)]}
       />
 
       {/* HEADER SECTION */}
@@ -325,24 +325,24 @@ export default function PricingHubPage() {
                   <tr className="border-b border-line-site bg-[#F1EEE6] text-ink">
                     <th scope="col" className="px-5 py-4 font-semibold">Service</th>
                     <th scope="col" className="px-5 py-4 font-semibold">
-                      <Link to="/oahu/pricing" className="link-site inline-flex items-center gap-1.5">
+                      <a href={absoluteUrl('/pricing', 'oahu')} className="link-site inline-flex items-center gap-1.5">
                         <IslandMark siteId="oahu" className="h-4 w-4" /> Oʻahu
-                      </Link>
+                      </a>
                     </th>
                     <th scope="col" className="px-5 py-4 font-semibold">
-                      <Link to="/maui/pricing" className="link-site inline-flex items-center gap-1.5">
+                      <a href={absoluteUrl('/pricing', 'maui')} className="link-site inline-flex items-center gap-1.5">
                         <IslandMark siteId="maui" className="h-4 w-4" /> Maui
-                      </Link>
+                      </a>
                     </th>
                     <th scope="col" className="px-5 py-4 font-semibold">
-                      <Link to="/kauai/pricing" className="link-site inline-flex items-center gap-1.5">
+                      <a href={absoluteUrl('/pricing', 'kauai')} className="link-site inline-flex items-center gap-1.5">
                         <IslandMark siteId="kauai" className="h-4 w-4" /> Kauaʻi
-                      </Link>
+                      </a>
                     </th>
                     <th scope="col" className="px-5 py-4 font-semibold">
-                      <Link to="/bigisland/pricing" className="link-site inline-flex items-center gap-1.5">
+                      <a href={absoluteUrl('/pricing', 'bigisland')} className="link-site inline-flex items-center gap-1.5">
                         <IslandMark siteId="bigisland" className="h-4 w-4" /> Big Island
-                      </Link>
+                      </a>
                     </th>
                     <th scope="col" className="px-5 py-4 font-semibold">Billing Basis</th>
                   </tr>
@@ -377,13 +377,13 @@ export default function PricingHubPage() {
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {ISLAND_IDS.map((id) => (
-                  <Link
+                  <a
                     key={id}
-                    to={`${SITE_META[id].basePath}/pricing`}
+                    href={absoluteUrl('/', id)}
                     className="cta-secondary-site text-xs"
                   >
                     {SITE_META[id].shortName} Rate Card →
-                  </Link>
+                  </a>
                 ))}
               </div>
             </div>

@@ -148,4 +148,4 @@ export function ExperienceCard({
 
 /** Fee-stack footnote line used across Maui pages. */
 export const MAUI_FEE_NOTE =
-  '20% service charge and Hawaiʻi GET up to 4.7120% always appear on their own lines. 50% deposit locks the date; gratuity is voluntary; groceries at cost with receipts.';
+  '20% service charge and Hawaiʻi GET up to 4.7120% always appear on their own lines. 50% deposit locks the date. Signature dinners: food inside the band. Stay Chef: groceries at cost with receipts. Gratuity voluntary.';
