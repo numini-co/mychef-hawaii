@@ -48,6 +48,10 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
         a: 'Yes. Turtle Bay and the North Shore are a published surcharge — 60–90+ minutes from town. Surf-season dates book early. See /north-shore and /coverage.',
       },
       {
+        q: 'Are groceries included?',
+        a: 'Two models, and we never blend them. On a Signature or per-guest dinner, food and grocery procurement sit inside the published per-guest band — there is no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking, it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The rate card is /pricing; the fee stack is /private-chef-cost.',
+      },
+      {
         q: 'Do you have Oʻahu guest reviews?',
         a: 'Not yet. We will not invent them. Reviews publish after verified events. Proof today is published starting prices and a written quote. See /trust.',
       },
@@ -85,6 +89,14 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
         a: `Starting prices are on /pricing — CORE $150–$250 a guest on Maui. “Private chef Maui cost” is a related search we do not invent a volume for here; the written quote is the number.`,
       },
       {
+        q: 'Are groceries included?',
+        a: 'Two models, never conflated. A Signature or per-guest dinner keeps food and grocery procurement inside the published band — no separate “+ groceries” line. A Stay Chef, multi-day or weekly-cook villa week is the chef fee plus groceries at cost, with original merchant receipts and zero markup. See /pricing and /private-chef-cost.',
+      },
+      {
+        q: 'Do you have Maui guest reviews?',
+        a: 'Not yet — and we will not invent them. Reviews publish only after verified events, never bought or written in-house. What we can prove now is published starting prices from $150 a guest, sample menus, and a written quote. See /trust and /blog/no-fake-reviews.',
+      },
+      {
         q: 'Wedding week vs a Tuesday dinner?',
         a: `Wedding catering Maui is /weddings (${SEARCH_VOLUMES['wedding catering maui']} monthly). Welcome, rehearsal, reception, and recovery brunch are separate lines on /wedding-week.`,
       },
@@ -118,6 +130,10 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
         a: `No. /catering owns that keyword (${SEARCH_VOLUMES['kauai catering']}). This page is questions: inquiry, shores, weather.`,
       },
       {
+        q: 'Are groceries included?',
+        a: 'Two models, kept separate even at inquiry. A Signature or per-guest dinner has food and grocery procurement inside the published band — no separate “+ groceries” line. A Stay Chef, multi-day or weekly-cook booking is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The card is /pricing; the stack is /private-chef-cost.',
+      },
+      {
         q: 'Do you have Kauaʻi guest reviews?',
         a: 'Not yet. We will not invent them. Proof is published starting prices from $150 a guest and a written quote.',
       },
@@ -149,6 +165,14 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
       {
         q: 'Can you do Hilo from Kona in one day?',
         a: 'No. East side is 2.5–3 hours. Dedicated staffing, quoted honestly — never squeezed into a west-side day.',
+      },
+      {
+        q: 'Are groceries included?',
+        a: 'Two models, never blended. A Signature or per-guest dinner keeps food and grocery procurement inside the published band — no separate “+ groceries” line. A Stay Chef, multi-day or weekly-cook west-side booking is the chef fee plus groceries at cost, with original merchant receipts and zero markup. See /pricing and /private-chef-cost.',
+      },
+      {
+        q: 'Do you have Hawaiʻi Island guest reviews?',
+        a: 'Not yet — and we will not invent them. West-side inquiry-stage means proof is published starting prices from $150 a guest, sample menus, and a written quote — not a five-star page. See /trust and /blog/no-fake-reviews.',
       },
       {
         q: 'Ironman week — are you available?',

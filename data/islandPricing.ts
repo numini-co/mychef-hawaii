@@ -40,6 +40,10 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
         a: 'That page is how service, GET, travel, and deposit print after the band. This page is the tariff itself.',
       },
       {
+        q: 'Are groceries included?',
+        a: 'Two models, never blended. On a Signature or per-guest dinner ($125–$190 a guest on Oʻahu), food and grocery procurement sit inside the published band — there is no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking (from $850 a day), it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The fee stack is /private-chef-cost.',
+      },
+      {
         q: 'Is North Shore inside CORE?',
         a: 'The food band holds. Travel is a published surcharge. See /coverage and /north-shore.',
       },
@@ -63,6 +67,10 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
       {
         q: 'Same as /private-chef-cost?',
         a: 'That page is the stack. This page is the tariff. Upcountry is the usual surcharge; Saturday West Maui is timing, not a mystery fee.',
+      },
+      {
+        q: 'Are groceries included?',
+        a: 'Two models, never blended. On a Signature or per-guest dinner ($150–$250 a guest on Maui), food and grocery procurement sit inside the published band — no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking (from $1,050 a day), it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. How each line prints: /private-chef-cost.',
       },
       {
         q: 'Is Wailea cheaper than Kāʻanapali?',
@@ -90,6 +98,10 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
         a: 'That page is the stack, including both-shore travel. This page is the tariff.',
       },
       {
+        q: 'Are groceries included?',
+        a: 'Two models, never blended, even at inquiry. On a Signature or per-guest dinner ($150–$250 a guest on Kauaʻi), food and grocery procurement sit inside the published band — no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking (from $1,100 a day), it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The stack is /private-chef-cost.',
+      },
+      {
         q: 'Does a closed bridge change the band?',
         a: 'The food band holds. We reschedule. See /hanalei-bridge.',
       },
@@ -113,6 +125,10 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
       {
         q: 'Same as /private-chef-cost?',
         a: 'That page is the stack, including east-side days. This page is the west-side tariff.',
+      },
+      {
+        q: 'Are groceries included?',
+        a: 'Two models, never blended. On a Signature or per-guest dinner ($150–$225 a guest, Table from $110), food and grocery procurement sit inside the published band — no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking (from $950 a day), it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The fee stack is /private-chef-cost.',
       },
       {
         q: 'Is Hilo inside CORE?',
