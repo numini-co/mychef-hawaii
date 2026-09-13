@@ -88,14 +88,22 @@ export function middleware(request: NextRequest) {
     }
   }
 
-  // /sitemap-index.xml has no dotted route folder (Next rejects *.xml folders),
-  // so serve it from the /sitemap-index route handler via an internal rewrite.
-  if (path === '/sitemap-index.xml') {
+  // Next rejects folders named `*.xml` (the live /sitemap.xml 500). Serve both
+  // XML endpoints from undotted route handlers via internal rewrite.
+  if (path === '/sitemap-index.xml' || path === '/sitemap-index') {
     const requestHeaders = new Headers(request.headers);
     requestHeaders.set('x-request-host', host);
     requestHeaders.set('x-pathname', path);
     const rewriteUrl = url.clone();
     rewriteUrl.pathname = '/sitemap-index';
+    return NextResponse.rewrite(rewriteUrl, { request: { headers: requestHeaders } });
+  }
+  if (path === '/sitemap.xml' || path === '/sitemap-xml') {
+    const requestHeaders = new Headers(request.headers);
+    requestHeaders.set('x-request-host', host);
+    requestHeaders.set('x-pathname', path);
+    const rewriteUrl = url.clone();
+    rewriteUrl.pathname = '/sitemap-xml';
     return NextResponse.rewrite(rewriteUrl, { request: { headers: requestHeaders } });
   }
 
@@ -128,7 +136,13 @@ export function middleware(request: NextRequest) {
   if (islandHost && isIsland(islandHost)) {
     requestHeaders.set('x-island', islandHost);
     requestHeaders.set('x-host-mode', '1');
-    if (path === '/sitemap.xml' || path === '/robots.txt') {
+    if (
+      path === '/sitemap.xml' ||
+      path === '/sitemap-xml' ||
+      path === '/sitemap-index.xml' ||
+      path === '/sitemap-index' ||
+      path === '/robots.txt'
+    ) {
       return NextResponse.next({ request: { headers: requestHeaders } });
     }
     const alreadyPrefixed = path === `/${islandHost}` || path.startsWith(`/${islandHost}/`);

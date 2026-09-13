@@ -1,5 +1,6 @@
 import HostLink from '@/components/HostLink';
-import { QuoteCta } from '@/components/Cta';
+import ContactCluster from '@/components/ContactCluster';
+import { QuoteCta, WhatsAppCta } from '@/components/Cta';
 import Hero from '@/components/Hero';
 import JsonLd from '@/components/JsonLd';
 import LineReveal from '@/components/LineReveal';
@@ -1020,11 +1021,13 @@ export function ContactIndexView({ islandId }: { islandId: (typeof islandOrder)[
           className="mt-4 font-display text-[clamp(2.5rem,6vw,4.25rem)] font-light leading-[1.05] tracking-[-0.02em] text-ink"
         />
         <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink">{copy.lede}</p>
-        <div className="mt-8">
+        <div className="mt-8 flex flex-wrap items-center gap-3">
           <QuoteCta island={islandId} variant="light" />
+          <WhatsAppCta island={islandId} variant="secondary" />
         </div>
       </Hero>
       <Longform sections={[{ h2: copy.kicker, paras: copy.body }]} />
+      <ContactCluster island={islandId} />
       <DocumentPhotoGrid
         islandId={islandId}
         eyebrow={`${islands[islandId].shortName} · Beside this desk`}

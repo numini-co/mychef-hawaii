@@ -1,4 +1,5 @@
 import BrandMark from '@/components/BrandMark';
+import ContactCluster from '@/components/ContactCluster';
 import HostLink from '@/components/HostLink';
 import { EnquireCta } from '@/components/Cta';
 import { LocationsBlock } from '@/components/LocationsBlock';
@@ -161,14 +162,17 @@ export default function SiteFooter({
           </nav>
         </div>
 
-        <p className="mt-12 border-t border-white/15 pt-6 text-[13px] leading-relaxed text-on-ink">
-          Published prices. Written quote. 20% service and Hawaiʻi GET are their own lines. Oʻahu Signature $125–$190 a
-          guest. Maui $150–$250.{' '}
-          <a href={href('/legal')} className="underline underline-offset-2">
-            Legal
-          </a>
-          . © {year} myCHEF Hawaii.
-        </p>
+        <div className="mt-12 border-t border-white/15 pt-6">
+          <ContactCluster island={islandId} compact />
+          <p className="mt-4 text-[13px] leading-relaxed text-on-ink">
+            Published prices. Written quote. 20% service and Hawaiʻi GET are their own lines. Oʻahu Signature $125–$190 a
+            guest. Maui $150–$250.{' '}
+            <a href={href('/legal')} className="underline underline-offset-2">
+              Legal
+            </a>
+            . © {year} myCHEF Hawaii.
+          </p>
+        </div>
       </div>
     </footer>
   );

@@ -1,3 +1,4 @@
+import ContactCluster from '@/components/ContactCluster';
 import HubPhotoGrid from '@/components/HubPhotoGrid';
 import { HubDirectoryView } from '@/components/views/SupportViews';
 import { photos } from '@/data/photos';
@@ -10,6 +11,8 @@ export default function Page() {
     <HubDirectoryView
       id="contact"
       related={
+        <>
+        <ContactCluster />
         <HubPhotoGrid
           eyebrow="Beside this desk"
           heading="Open a related document."
@@ -42,6 +45,7 @@ export default function Page() {
             },
           ]}
         />
+        </>
       }
     />
   );

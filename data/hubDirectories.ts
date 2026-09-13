@@ -144,13 +144,13 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     description:
       'Each island department has its own desk hours and form. This hub page is the picker — not the Oahu desk, not the Maui desk.',
     lede:
-      'Quotes and inquiry replies run in Hawaii Standard Time on the island host. This page does not take the booking. Open the desk that holds the house.',
+      'Quotes and inquiry replies run in Hawaii Standard Time on the island host. This page does not take the booking. Open the desk that holds the house — or write quotes@mychef-hawaii.com.',
     kicker: 'Statewide · Contact',
     photo: 'hubContact',
     cardLabel: 'The desk',
     body: [
       `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) and private chef Maui (${SEARCH_VOLUMES['private chef maui']}) stay on those hosts. This directory is how to reach a coordinator, not a dinner title.`,
-      'Oʻahu and Maui take quotes. Kauaʻi and Hawaiʻi Island are inquiry. WhatsApp and the five-field form live on the island /contact and /quote pages.',
+      'Oʻahu and Maui take quotes. Kauaʻi and Hawaiʻi Island are inquiry. Reach us in that order: the quote form, WhatsApp (+971 55 174 4849), or quotes@mychef-hawaii.com. We do not publish an 808 number.',
     ],
     faqs: [
       {
