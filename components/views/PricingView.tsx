@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     q: 'Are groceries included?',
-    a: 'On a signature dinner, groceries sit inside the per-guest band. On Stay Chef and multi-day days, groceries are billed at cost with receipts.',
+    a: 'Two models, never blended. On a Signature or per-guest dinner, food and grocery procurement sit inside the published per-guest band — no separate “+ groceries” line. On Stay Chef, multi-day and weekly-cook bookings, it is the chef fee plus groceries at cost, with original merchant receipts and zero markup.',
   },
   {
     q: 'What is added on the quote?',

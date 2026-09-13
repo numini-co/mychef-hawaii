@@ -97,6 +97,18 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
         q: 'Does this page own a money keyword?',
         a: 'No. Catering and private-chef titles stay on island hosts and on hub /catering. This is a directory.',
       },
+      {
+        q: 'Are groceries included?',
+        a: 'Two models, never blended. On a Signature or per-guest dinner, food and grocery procurement sit inside the published per-guest band — there is no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking, it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The line-by-line card is on /pricing; how each fee prints is on /private-chef-cost.',
+      },
+      {
+        q: 'Are your Hawaiʻi reviews real?',
+        a: 'We do not have Hawaiʻi guest reviews yet, and we will not invent them. They publish only after verified events — never bought, never written in-house. What we can prove today is published starting prices, sample menus, cleanup, and a written quote. The full posture is on /trust and /blog/no-fake-reviews.',
+      },
+      {
+        q: 'What is the difference between this hub and the island sites?',
+        a: 'mychef-hawaii.com is the four-island hub — statewide pickers that do not rank for a single island’s dinner title. Each island is its own host — oahu., maui., kauai. and bigisland.mychef-hawaii.com — with its own chefs, zones and pricing. Oʻahu and Maui take quotes; Kauaʻi and Hawaiʻi Island are inquiry-stage. Open the island host for the house that will actually be cooked in.',
+      },
     ],
   },
   coverage: {
