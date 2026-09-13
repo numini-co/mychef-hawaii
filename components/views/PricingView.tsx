@@ -207,6 +207,13 @@ export default function PricingView({ related }: { related?: ReactNode } = {}) {
 
           <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3">
             <QuoteCta island={islandId ?? active} />
+            <HostLink
+              island={islandId ?? 'root'}
+              path="/estimate"
+              className="text-ink underline underline-offset-4"
+            >
+              Estimate a night
+            </HostLink>
             {islandId ? (
               <HostLink
                 island={islandId}

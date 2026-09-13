@@ -15,7 +15,7 @@ import { SUPPORT_PATHS } from '@/data/islandSupport';
 import { HUB_ALL_PICKER_PATHS } from '@/data/hubDirectories';
 
 /** Key hub landing routes that must always be crawlable from the hub sitemap. */
-const HUB_KEY_PATHS = ['/pricing', '/islands', '/quote', '/trust'] as const;
+const HUB_KEY_PATHS = ['/pricing', '/estimate', '/islands', '/quote', '/trust'] as const;
 
 function xmlEscape(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
@@ -36,7 +36,7 @@ function neighborhoodRows(island: IslandSitemapHost): { host: MasterHost; path: 
 }
 
 function supportRows(island: IslandSitemapHost): { host: MasterHost; path: string; priority: string }[] {
-  return [...SUPPORT_PATHS, '/about', '/events', '/mobile-bar', '/personal-chef', '/vacation-chef', '/legal', '/journal', '/blog', '/locations', '/areas', '/contact', '/trust', '/services', '/help', '/fine-dining', '/staffing', '/corporate', '/gatherings', '/islands', '/sitemap'].map((path) => ({
+  return [...SUPPORT_PATHS, '/estimate', '/about', '/events', '/mobile-bar', '/personal-chef', '/vacation-chef', '/legal', '/journal', '/blog', '/locations', '/areas', '/contact', '/trust', '/services', '/help', '/fine-dining', '/staffing', '/corporate', '/gatherings', '/islands', '/sitemap'].map((path) => ({
     host: island,
     path,
     priority: '0.6',

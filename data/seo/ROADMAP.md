@@ -1129,6 +1129,15 @@ Still no zip on this machine. Wave 146 rewrites the hub home inclusion FAQ so th
 
 - Coverage/locations honesty lists stay paper. Quote-form TypePanel stays.
 
+## Wave 147 — cost estimator tool: `/estimate` + `/{island}/estimate` (this branch)
+
+Blueprint zip extracted this run (`research/master_url_map.csv`, 401 URLs). Gap analysis: the highest-value honest, **photo-independent** gap was an interactive cost estimator — the blueprint names a "how much does a private chef cost in Hawaiʻi" tool and no such route existed (only the static `/pricing` card and `/private-chef-cost` explainer). Wave 147 adds one hub route and four island routes, all thin `page.tsx` → `EstimateView` → `lib/estimate.ts`, which derives every number from the canonical `data/rateCard.ts` (no new prices invented).
+
+- **Uniqueness**: no photo hero — a paper header (kicker + `LineReveal` H1 + lede), so the audit's per-page-type hero-uniqueness rule is never touched and no place is misrepresented. Each of the five pages has a distinct title/H1/description in `data/pageMeta.ts` (hub = four-island framing; islands = island bands, shores, inquiry-stage honesty).
+- **Honesty**: groceries stay dual-model — signature dinner / dinner-for-two / wedding are inside the per-guest band (in the estimated subtotal); Stay Chef and weekly household show the chef fee estimated with groceries as an **at-cost line outside the total**. 20% service + Hawaiʻi GET (`4.712%`) itemised. Copy repeats "an estimate, not a booking price; the written quote is the total." No reviews, no ratings, no fabricated counts.
+- **Schema**: `WebApplication` (free tool) + `FAQPage` + `BreadcrumbList`, matching existing templates. Links UP to island `/pricing`, `/private-chef-cost`, `/quote` — never sideways to sibling money pages.
+- **Wiring**: `/estimate` added to hub key paths + support rows in `app/sitemap.xml/route.ts`, `lib/seo.ts` `sitemapLocs`, and the HTML sitemap in `components/views/SupportViews.tsx`; a text "Estimate a night" link added to `PricingView`. No JPEG remaps. No related-door photography. `seo:audit` unchanged and still green.
+
 ## Keyword discipline (measured, not invented)
 
 Use these as title keywords. Null-volume neighborhood phrases stay in H1/FAQ, not in the `<title>`. `private chef maui cost` (10) stays in Maui `/private-chef-cost` and `/pricing` body copy — a support title containing that phrase would match `private chef maui`.

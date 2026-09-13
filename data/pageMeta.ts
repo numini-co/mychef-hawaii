@@ -64,6 +64,31 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     title: 'Get a quote — myCHEF Hawaii',
     description: 'Five fields, two minutes. WhatsApp or this form. Typical reply in Hawaii business hours.',
   },
+  '/estimate': {
+    title: 'Hawaiʻi private chef cost estimator | myCHEF',
+    description:
+      'Estimate a villa chef night across four islands from published starting prices. Groceries dual-model, 20% service and Hawaiʻi GET itemized. An estimate — the written quote is the total.',
+  },
+  '/oahu/estimate': {
+    title: 'Oʻahu chef cost estimator | myCHEF',
+    description:
+      'Estimate an Oʻahu villa dinner, Stay Chef week or mobile bar from published bands. Groceries dual-model, 20% service and GET itemized. Not a quote — the written quote is the total.',
+  },
+  '/maui/estimate': {
+    title: 'Maui chef cost estimator | myCHEF',
+    description:
+      'Estimate a Maui villa dinner, wedding or Stay Chef week from published bands. Groceries dual-model, 20% service and GET itemized. Not a quote — the written quote is the total.',
+  },
+  '/kauai/estimate': {
+    title: 'Kauaʻi chef cost estimator | myCHEF',
+    description:
+      'Estimate a Kauaʻi villa dinner or week from published bands, both shores, inquiry stage. Groceries dual-model, 20% service and GET itemized. The written quote is the total.',
+  },
+  '/bigisland/estimate': {
+    title: 'Hawaiʻi Island chef cost estimator | myCHEF',
+    description:
+      'Estimate a Hawaiʻi Island villa dinner or week from published bands, Kona–Kohala, inquiry stage. Groceries dual-model, 20% service and GET itemized. The written quote is the total.',
+  },
   '/about': {
     title: 'About myCHEF Hawaii | Island Chef Teams',
     description:
