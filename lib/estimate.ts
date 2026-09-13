@@ -185,7 +185,7 @@ export function computeEstimate(input: EstimateInput): EstimateResult {
       const entry = tierEntry(island, tier);
       subtotalLow = entry.band[0] * guests;
       subtotalHigh = entry.band[1] * guests;
-      fromOnly = entry.highPlus && entry.band[0] === entry.band[1];
+      fromOnly = Boolean(entry.highPlus) && entry.band[0] === entry.band[1];
       baseLabel = `Signature dinner · ${entry.tier} · ${guests} guests`;
       baseModel = `${formatBand(entry)} per guest × ${guests}. Groceries are inside the band.`;
       if (guests < entry.minimumParty) {
