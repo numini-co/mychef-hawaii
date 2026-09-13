@@ -40,12 +40,36 @@ function isStaticAsset(pathname: string): boolean {
   );
 }
 
+function sitemapStaticPath(host: string, path: string): string | null {
+  if (path === '/sitemap-index.xml' || path === '/_sitemaps/index.xml') return '/_sitemaps/index.xml';
+  if (path === '/_sitemaps/hub.xml') return '/_sitemaps/hub.xml';
+  const islandFile = path.match(/^\/_sitemaps\/(oahu|maui|kauai|bigisland)\.xml$/);
+  if (islandFile) return path;
+  if (path === '/sitemap.xml') {
+    const label = firstLabel(host);
+    if (isIsland(label) && (host.endsWith(`.${PRODUCTION_ROOT}`) || host.endsWith('.localhost'))) {
+      return `/_sitemaps/${label}.xml`;
+    }
+    return '/_sitemaps/hub.xml';
+  }
+  return null;
+}
+
 export function middleware(request: NextRequest) {
   const url = request.nextUrl;
   const host = (request.headers.get('x-forwarded-host') || request.headers.get('host') || '')
     .split(':')[0]
     .toLowerCase();
   const path = url.pathname;
+
+  // Sitemaps are static CDN files. Never send them through App Router —
+  // RSC / non-Googlebot UAs 500 on the dynamic /sitemap.xml route.
+  const sitemapDest = sitemapStaticPath(host, path);
+  if (sitemapDest) {
+    const dest = url.clone();
+    dest.pathname = sitemapDest;
+    return NextResponse.rewrite(dest);
+  }
 
   if (isStaticAsset(path)) return NextResponse.next();
 

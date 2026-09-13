@@ -8,8 +8,32 @@ import {
 } from '@/data/commercialGraph';
 import { HUB_ALL_PICKER_PATHS } from '@/data/hubDirectories';
 
-/** Key hub landing routes that must always be crawlable from the hub sitemap. */
-export const HUB_KEY_PATHS = ['/pricing', '/estimate', '/islands', '/quote', '/trust'] as const;
+/** Key hub routes that must appear in the apex urlset. */
+export const HUB_REQUIRED_PATHS = [
+  '/',
+  '/pricing',
+  '/quote',
+  '/faq',
+  '/trust',
+  '/catering',
+  '/weddings',
+  '/about',
+  '/private-chef-cost',
+  '/vacation-chef',
+  '/islands',
+] as const;
+
+/** Key island routes that must appear on every island host (and on the hub urlset). */
+export const ISLAND_REQUIRED_PATHS = [
+  '/',
+  '/pricing',
+  '/quote',
+  '/faq',
+  '/trust',
+  '/catering',
+  '/weddings',
+  '/vacation-chef',
+] as const;
 
 type SitemapRow = { host: MasterHost; path: string; priority?: string };
 
@@ -32,7 +56,7 @@ function urlset(rows: SitemapRow[]): string {
     seen.add(href);
     const priority =
       r.priority ??
-      (r.path === '/' ? (r.host === 'hub' ? '1.0' : '0.9') : r.path === '/about' ? '0.6' : '0.8');
+      (r.path === '/' ? (r.host === 'hub' ? '1.0' : '0.9') : r.path === '/pricing' || r.path === '/quote' ? '0.8' : r.path === '/about' ? '0.6' : '0.7');
     const changefreq = r.path === '/' ? 'weekly' : 'monthly';
     entries.push(`  <url>
     <loc>${xmlEscape(href)}</loc>
@@ -48,7 +72,12 @@ ${entries.join('\n')}
 }
 
 function fallbackUrlset(): string {
-  return urlset([{ host: 'hub', path: '/' }, ...HUB_KEY_PATHS.map((path) => ({ host: 'hub' as const, path }))]);
+  return urlset([
+    ...HUB_REQUIRED_PATHS.map((path) => ({ host: 'hub' as const, path })),
+    ...ISLAND_SITEMAP_HOSTS.flatMap((host) =>
+      ISLAND_REQUIRED_PATHS.map((path) => ({ host, path })),
+    ),
+  ]);
 }
 
 async function islandExtras(island: IslandSitemapHost): Promise<SitemapRow[]> {
@@ -67,19 +96,18 @@ async function islandExtras(island: IslandSitemapHost): Promise<SitemapRow[]> {
 
   const support = [
     ...SUPPORT_PATHS,
+    ...ISLAND_REQUIRED_PATHS,
     '/estimate',
     '/about',
     '/events',
     '/mobile-bar',
     '/personal-chef',
-    '/vacation-chef',
     '/legal',
     '/journal',
     '/blog',
     '/locations',
     '/areas',
     '/contact',
-    '/trust',
     '/services',
     '/help',
     '/fine-dining',
@@ -88,7 +116,7 @@ async function islandExtras(island: IslandSitemapHost): Promise<SitemapRow[]> {
     '/gatherings',
     '/islands',
     '/sitemap',
-  ].map((path) => ({ host: island, path, priority: '0.6' }));
+  ].map((path) => ({ host: island, path, priority: path === '/pricing' || path === '/quote' ? '0.8' : '0.6' }));
 
   const neighborhoods = moneyNeighborhoods[island].map((hood) => ({
     host: island,
@@ -114,17 +142,28 @@ async function islandExtras(island: IslandSitemapHost): Promise<SitemapRow[]> {
   return [...neighborhoods, ...support, ...cells];
 }
 
-function hubRows(): SitemapRow[] {
+function hubCoreRows(): SitemapRow[] {
   return [
-    ...HUB_KEY_PATHS.map((path) => ({ host: 'hub' as const, path, priority: '0.8' })),
+    ...HUB_REQUIRED_PATHS.map((path) => ({
+      host: 'hub' as const,
+      path,
+      priority: path === '/' ? '1.0' : path === '/pricing' || path === '/quote' ? '0.9' : '0.8',
+    })),
     ...HUB_ALL_PICKER_PATHS.map((path) => ({ host: 'hub' as const, path, priority: '0.55' })),
+    ...ISLAND_SITEMAP_HOSTS.flatMap((host) =>
+      ISLAND_REQUIRED_PATHS.map((path) => ({
+        host,
+        path,
+        priority: path === '/' ? '0.9' : path === '/pricing' || path === '/quote' ? '0.8' : '0.7',
+      })),
+    ),
   ];
 }
 
 /**
  * Production-shaped urlset.
- * Hub: money map + key hub URLs (pricing/quote/trust/…). Island extras stay on island sitemaps.
- * Island host: that island's money URLs + corridors + support/editorial cells.
+ * Hub: required desk URLs + pickers + island homes/pricing/quote + island extras
+ * (matches the ~640-URL GSC inventory). Island host: that island only.
  */
 export async function buildSitemapXml(hostHeader: string): Promise<string> {
   try {
@@ -137,9 +176,23 @@ export async function buildSitemapXml(hostHeader: string): Promise<string> {
       } catch {
         extras = [];
       }
-      return urlset([...MASTER_MAP.filter((r) => r.host === island), ...extras]);
+      const required = ISLAND_REQUIRED_PATHS.map((path) => ({
+        host: island,
+        path,
+        priority: path === '/' ? '0.9' : '0.8',
+      }));
+      return urlset([...MASTER_MAP.filter((r) => r.host === island), ...required, ...extras]);
     }
-    return urlset([...MASTER_MAP, ...hubRows()]);
+
+    const extras: SitemapRow[] = [];
+    for (const id of ISLAND_SITEMAP_HOSTS) {
+      try {
+        extras.push(...(await islandExtras(id)));
+      } catch {
+        /* keep required rows even if one island catalog fails */
+      }
+    }
+    return urlset([...MASTER_MAP, ...hubCoreRows(), ...extras]);
   } catch {
     return fallbackUrlset();
   }
@@ -171,5 +224,5 @@ ${entries.join('\n')}
 
 export const SITEMAP_HEADERS = {
   'content-type': 'application/xml; charset=utf-8',
-  'cache-control': 'public, s-maxage=3600, stale-while-revalidate=86400',
+  'cache-control': 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400',
 } as const;
