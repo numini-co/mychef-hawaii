@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Allow: /quote
+Disallow: /quote?*
+Disallow: /thank-you
+
+Host: https://mychef-hawaii.com
+Sitemap: https://mychef-hawaii.com/sitemap-index.xml
+Sitemap: https://mychef-hawaii.com/sitemap.xml

@@ -44,6 +44,12 @@ export const proofRegister: ProofClaim[] = [
     status: 'VERIFIED',
     label: 'VERIFIED — POLICY',
   },
+  {
+    claim:
+      'Groceries follow two published models — never blended. Signature dinners include food inside the published band. Stay Chef bills groceries at cost with merchant receipts. The line-by-line card is on /pricing.',
+    status: 'VERIFIED',
+    label: 'PUBLISHED — /pricing',
+  },
 ];
 
 /** Homepage trust-strip rows (home.md §4), order preserved. */

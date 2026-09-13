@@ -7,6 +7,9 @@
   },
   "scripts": {
     "dev": "next dev --port 3000",
+    "prebuild": "npx tsx --tsconfig tsconfig.json scripts/write-sitemaps.ts",
+    "sitemap:write": "npx tsx --tsconfig tsconfig.json scripts/write-sitemaps.ts",
+    "sitemap:check": "npx tsx --tsconfig tsconfig.json scripts/check-sitemap.ts",
     "build": "next build",
     "start": "next start --port 3000",
     "lint": "eslint .",

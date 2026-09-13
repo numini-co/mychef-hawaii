@@ -7,6 +7,7 @@ import { islands } from '@/data/islands';
  * with a Hawaii-prefilled opener. Typical reply in business hours.
  */
 export const WHATSAPP_NUMBER = '971551744849';
+export const WHATSAPP_DISPLAY = '+971 55 174 4849';
 
 export function whatsappHref(island?: IslandId | null, intent = 'a private chef'): string {
   const where = island ? islands[island].name : 'Hawaii';

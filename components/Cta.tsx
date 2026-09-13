@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { quotePath } from '@/lib/paths';
 import { primaryCtaLabel, type IslandId } from '@/data/islands';
+import { whatsappHref } from '@/lib/whatsapp';
 
 const base =
   'inline-flex h-12 items-center justify-center px-6 text-[14px] font-medium leading-none tracking-[0.01em] rounded-[2px] transition-transform duration-200 ease-[cubic-bezier(0.22,1,0.36,1)] hover:scale-[1.02] active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2';
@@ -27,8 +28,13 @@ export function CtaLink({
   const cls = cn(variants[variant], className);
   const external = href.startsWith('http') || href.startsWith('mailto:');
   if (external) {
+    const remote = href.startsWith('http');
     return (
-      <a href={href} className={cls}>
+      <a
+        href={href}
+        className={cls}
+        {...(remote ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+      >
         {children}
       </a>
     );
@@ -72,6 +78,24 @@ export function EnquireCta({
   return (
     <CtaLink href={quotePath(island ?? undefined)} variant={variant} className={className}>
       {primaryCtaLabel(island)}
+    </CtaLink>
+  );
+}
+
+export function WhatsAppCta({
+  island,
+  variant = 'secondary',
+  className,
+  children,
+}: {
+  island?: IslandId | null;
+  variant?: keyof typeof variants;
+  className?: string;
+  children?: React.ReactNode;
+}) {
+  return (
+    <CtaLink href={whatsappHref(island)} variant={variant} className={className}>
+      {children ?? 'WhatsApp'}
     </CtaLink>
   );
 }

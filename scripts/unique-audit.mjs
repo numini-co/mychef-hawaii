@@ -883,16 +883,75 @@ const graphSrc = read('data/commercialGraph.ts');
 if (!/host: 'hub', path: '\/mobile-bar'/.test(graphSrc)) {
   errors.push('MASTER_MAP still omits hub /mobile-bar');
 }
-const sitemapRouteSrc = read('app/sitemap.xml/route.ts');
-if (!/'\/mobile-bar'/.test(sitemapRouteSrc)) {
+const sitemapXmlSrc = read('lib/sitemapXml.ts');
+if (!/'\/mobile-bar'/.test(sitemapXmlSrc)) {
   errors.push('island XML sitemap still omits /mobile-bar');
 }
-if (!/'\/mobile-bar', '\/personal-chef', '\/vacation-chef'/.test(sitemapRouteSrc)) {
-  errors.push('island XML sitemap still omits /vacation-chef beside /personal-chef');
+if (!/'\/personal-chef'/.test(sitemapXmlSrc)) {
+  errors.push('island XML sitemap still omits /personal-chef');
 }
-if (!/cell\.slug !== 'personal-chef'/.test(sitemapRouteSrc)) {
+if (!/'\/vacation-chef'/.test(sitemapXmlSrc)) {
+  errors.push('island XML sitemap still omits /vacation-chef');
+}
+if (!/cell\.slug !== 'personal-chef'/.test(sitemapXmlSrc)) {
   errors.push('island XML sitemap still duplicates /personal-chef from islandServices');
 }
+if (!existsSync(join(ROOT, 'scripts/write-sitemaps.ts'))) {
+  errors.push('missing scripts/write-sitemaps.ts (static sitemap generator)');
+}
+
+const STATIC_SITEMAPS = [
+  'public/_sitemaps/hub.xml',
+  'public/_sitemaps/oahu.xml',
+  'public/_sitemaps/maui.xml',
+  'public/_sitemaps/kauai.xml',
+  'public/_sitemaps/bigisland.xml',
+  'public/_sitemaps/index.xml',
+  'public/sitemap.xml',
+  'public/sitemap-index.xml',
+];
+for (const rel of STATIC_SITEMAPS) {
+  if (!existsSync(join(ROOT, rel))) errors.push(`missing static sitemap ${rel}`);
+}
+
+function sitemapLocs(rel) {
+  return [...read(rel).matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+}
+
+function assertSitemapLocs(rel, required, label) {
+  if (!existsSync(join(ROOT, rel))) return;
+  const locs = sitemapLocs(rel);
+  errors.push(...dupes(locs, `${label} loc`));
+  for (const loc of required) {
+    if (!locs.includes(loc)) errors.push(`${label} still omits ${loc}`);
+  }
+}
+
+const islandSitemapPaths = ['/mobile-bar', '/personal-chef', '/vacation-chef'];
+for (const island of ISLANDS) {
+  const host = `https://${island}.mychef-hawaii.com`;
+  assertSitemapLocs(
+    `public/_sitemaps/${island}.xml`,
+    islandSitemapPaths.map((path) => `${host}${path}`),
+    `${island} static sitemap`,
+  );
+}
+assertSitemapLocs(
+  'public/_sitemaps/hub.xml',
+  [
+    'https://mychef-hawaii.com/mobile-bar',
+    'https://mychef-hawaii.com/vacation-chef',
+    ...ISLANDS.flatMap((island) =>
+      islandSitemapPaths.map((path) => `https://${island}.mychef-hawaii.com${path}`),
+    ),
+  ],
+  'hub static sitemap',
+);
+assertSitemapLocs(
+  'public/_sitemaps/index.xml',
+  ['https://mychef-hawaii.com/sitemap.xml', ...ISLANDS.map((island) => `https://${island}.mychef-hawaii.com/sitemap.xml`)],
+  'static sitemap index',
+);
 const seoSitemapSrc = read('lib/seo.ts');
 if (!/'\/mobile-bar', '\/personal-chef', '\/vacation-chef'/.test(seoSitemapSrc)) {
   errors.push('seo.ts sitemapLocs still omits island /vacation-chef beside /personal-chef');

@@ -40,12 +40,36 @@ function isStaticAsset(pathname: string): boolean {
   );
 }
 
+function sitemapStaticPath(host: string, path: string): string | null {
+  if (path === '/sitemap-index.xml' || path === '/_sitemaps/index.xml') return '/_sitemaps/index.xml';
+  if (path === '/_sitemaps/hub.xml') return '/_sitemaps/hub.xml';
+  const islandFile = path.match(/^\/_sitemaps\/(oahu|maui|kauai|bigisland)\.xml$/);
+  if (islandFile) return path;
+  if (path === '/sitemap.xml') {
+    const label = firstLabel(host);
+    if (isIsland(label) && (host.endsWith(`.${PRODUCTION_ROOT}`) || host.endsWith('.localhost'))) {
+      return `/_sitemaps/${label}.xml`;
+    }
+    return '/_sitemaps/hub.xml';
+  }
+  return null;
+}
+
 export function middleware(request: NextRequest) {
   const url = request.nextUrl;
   const host = (request.headers.get('x-forwarded-host') || request.headers.get('host') || '')
     .split(':')[0]
     .toLowerCase();
   const path = url.pathname;
+
+  // Sitemaps are static CDN files. Never send them through App Router —
+  // RSC / non-Googlebot UAs 500 on the dynamic /sitemap.xml route.
+  const sitemapDest = sitemapStaticPath(host, path);
+  if (sitemapDest) {
+    const dest = url.clone();
+    dest.pathname = sitemapDest;
+    return NextResponse.rewrite(dest);
+  }
 
   if (isStaticAsset(path)) return NextResponse.next();
 
@@ -88,14 +112,22 @@ export function middleware(request: NextRequest) {
     }
   }
 
-  // /sitemap-index.xml has no dotted route folder (Next rejects *.xml folders),
-  // so serve it from the /sitemap-index route handler via an internal rewrite.
-  if (path === '/sitemap-index.xml') {
+  // Next rejects folders named `*.xml` (the live /sitemap.xml 500). Serve both
+  // XML endpoints from undotted route handlers via internal rewrite.
+  if (path === '/sitemap-index.xml' || path === '/sitemap-index') {
     const requestHeaders = new Headers(request.headers);
     requestHeaders.set('x-request-host', host);
     requestHeaders.set('x-pathname', path);
     const rewriteUrl = url.clone();
     rewriteUrl.pathname = '/sitemap-index';
+    return NextResponse.rewrite(rewriteUrl, { request: { headers: requestHeaders } });
+  }
+  if (path === '/sitemap.xml' || path === '/sitemap-xml') {
+    const requestHeaders = new Headers(request.headers);
+    requestHeaders.set('x-request-host', host);
+    requestHeaders.set('x-pathname', path);
+    const rewriteUrl = url.clone();
+    rewriteUrl.pathname = '/sitemap-xml';
     return NextResponse.rewrite(rewriteUrl, { request: { headers: requestHeaders } });
   }
 
@@ -128,7 +160,13 @@ export function middleware(request: NextRequest) {
   if (islandHost && isIsland(islandHost)) {
     requestHeaders.set('x-island', islandHost);
     requestHeaders.set('x-host-mode', '1');
-    if (path === '/sitemap.xml' || path === '/robots.txt') {
+    if (
+      path === '/sitemap.xml' ||
+      path === '/sitemap-xml' ||
+      path === '/sitemap-index.xml' ||
+      path === '/sitemap-index' ||
+      path === '/robots.txt'
+    ) {
       return NextResponse.next({ request: { headers: requestHeaders } });
     }
     const alreadyPrefixed = path === `/${islandHost}` || path.startsWith(`/${islandHost}/`);
