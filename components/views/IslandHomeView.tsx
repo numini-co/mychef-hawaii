@@ -16,6 +16,7 @@ import { islandOffers, moneyNeighborhoods } from '@/data/offers';
 import { photos } from '@/data/photos';
 import { stillForPath } from '@/lib/documentStill';
 import { islandHref } from '@/lib/paths';
+import { canonicalUrl } from '@/lib/site';
 import { LocationsBlock } from '@/components/LocationsBlock';
 import PlacePriceBlock from '@/components/PlacePriceBlock';
 
@@ -41,8 +42,19 @@ export default function IslandHomeView({
             '@type': 'FoodService',
             name: `${offer.title.split('|')[0].trim()} — myCHEF`,
             description: offer.description,
+            url: canonicalUrl(islandId, '/'),
+            telephone: '+18084687748',
+            email: 'quotes@mychef-hawaii.com',
             areaServed: island.name,
             serviceType: 'Private chef',
+            contactPoint: {
+              '@type': 'ContactPoint',
+              contactType: 'sales',
+              telephone: '+18084687748',
+              email: 'quotes@mychef-hawaii.com',
+              areaServed: 'US-HI',
+              availableLanguage: 'English',
+            },
             parentOrganization: { '@type': 'Organization', name: `myCHEF ${island.name}` },
           },
           {
