@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState, type ReactNode } from 'react';
+import { Suspense, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { useSearchParams } from 'next/navigation';
 import * as Accordion from '@radix-ui/react-accordion';
 import { QuoteCta } from '@/components/Cta';
@@ -61,14 +61,21 @@ const faqs = [
   },
 ];
 
-export default function PricingView({ related }: { related?: ReactNode } = {}) {
-  const { islandId, href } = useIsland();
+function HubIslandFromQuery({ onIsland }: { onIsland: (id: IslandId) => void }) {
   const params = useSearchParams();
   const paramIsland = params.get('island');
-  const initial: IslandId =
-    islandOrder.find((id) => id === paramIsland) ??
-    (islandId && islandOrder.includes(islandId) ? islandId : 'oahu');
-  const [active, setActive] = useState<IslandId>(initial);
+  useEffect(() => {
+    const hit = islandOrder.find((id) => id === paramIsland);
+    if (hit) onIsland(hit);
+  }, [paramIsland, onIsland]);
+  return null;
+}
+
+export default function PricingView({ related }: { related?: ReactNode } = {}) {
+  const { islandId, href } = useIsland();
+  const locked = islandId && islandOrder.includes(islandId) ? islandId : null;
+  const [picked, setPicked] = useState<IslandId>(locked ?? 'oahu');
+  const active = locked ?? picked;
   const tiers = useMemo(() => getTiers(active), [active]);
   const day = getDayRate(active);
   const bar = getMobileBar(active);
@@ -105,6 +112,12 @@ export default function PricingView({ related }: { related?: ReactNode } = {}) {
           <QuoteCta island={islandId} variant="light" />
         </div>
       </Hero>
+
+      {!locked ? (
+        <Suspense fallback={null}>
+          <HubIslandFromQuery onIsland={setPicked} />
+        </Suspense>
+      ) : null}
 
       {!islandId ? (
         <section className="bg-paper py-24 lg:py-32">
@@ -150,7 +163,7 @@ export default function PricingView({ related }: { related?: ReactNode } = {}) {
                 <button
                   key={id}
                   type="button"
-                  onClick={() => setActive(id)}
+                  onClick={() => setPicked(id)}
                   className={cn(
                     'inline-flex h-10 items-center border px-4 text-sm font-medium rounded-[2px]',
                     active === id ? 'border-ink bg-ink text-paper' : 'border-line bg-paper text-ink',

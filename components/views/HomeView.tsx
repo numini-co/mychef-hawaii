@@ -20,7 +20,7 @@ const hubFaqs = [
   },
   {
     q: 'How much does a private chef cost in Hawaii?',
-    a: 'Signature dinner from $125 a guest on Oʻahu, $150 on Maui and Kauaʻi. Stay Chef day rates from $850. Service 20% and Hawaiʻi GET are added once on the written quote.',
+    a: 'Signature dinner from $125 a guest on Oʻahu, $150 on Maui, Kauaʻi and Hawaiʻi Island. Stay Chef from $850 Oʻahu / $1,050 Maui / $950 Hawaiʻi Island (inquiry). Service 20% and Hawaiʻi GET are added once on the written quote.',
   },
   {
     q: "What's included?",
@@ -197,12 +197,12 @@ export default function HomeView() {
       <section className="bg-paper py-24 lg:py-32">
         <div className="mx-auto w-full max-w-spread px-5 lg:px-10">
           <Eyebrow>Published prices</Eyebrow>
-          <p className="mt-6 max-w-[24ch] font-display text-[clamp(2rem,4.2vw,3.5rem)] font-light leading-[1.08] text-ink">
-            Signature dinner from $125 a guest on Oʻahu, $150 on Maui and Kauaʻi.
+          <p className="mt-6 max-w-[28ch] font-display text-[clamp(2rem,4.2vw,3.5rem)] font-light leading-[1.08] text-ink">
+            Signature dinner from $125 a guest on Oʻahu, $150 on Maui, Kauaʻi and Hawaiʻi Island.
           </p>
           <p className="mt-6 max-w-[52ch] text-[17px] leading-relaxed text-mute">
-            Stay Chef from $850 a day on Oʻahu and $1,050 on Maui. Service 20% and Hawaiʻi GET up to 4.712% appear as
-            separate lines on the written quote.
+            Stay Chef from $850 a day on Oʻahu, $1,050 on Maui, and $950 on Hawaiʻi Island (inquiry). Service 20% and
+            Hawaiʻi GET up to 4.712% appear as separate lines on the written quote.
           </p>
           <Link
             href="/pricing"

@@ -8,6 +8,7 @@ import PlacePriceBlock from '@/components/PlacePriceBlock';
 import QuoteTeaser from '@/components/QuoteTeaser';
 import { SampleMenu } from '@/components/SampleMenu';
 import HostLink from '@/components/HostLink';
+import { sampleMenuJsonLd, sampleMenus } from '@/data/menus';
 import { isAreaDinnerDoor } from '@/data/areaCells';
 import type { IslandSupportPage } from '@/data/islandSupport';
 import { islands, type IslandId } from '@/data/islands';
@@ -59,6 +60,7 @@ export function IslandSupportView({
   return (
     <>
       <FaqSchema faqs={copy.faqs} />
+      {showMenu && islandId === 'bigisland' ? <JsonLd data={sampleMenuJsonLd(islandId)} /> : null}
       <Hero src={photo.file} alt={photo.alt}>
         <p className="text-[13px] text-mute">{copy.kicker}</p>
         <LineReveal
@@ -229,6 +231,9 @@ export function UniqueCellView({
         />
       ) : null}
       <FaqSchema faqs={cell.faqs} />
+      {islandId === 'bigisland' && cell.slug === 'three-course' ? (
+        <JsonLd data={sampleMenuJsonLd(islandId)} />
+      ) : null}
       <Hero src={photo.file} alt={photo.alt}>
         <p className="text-[13px] text-mute">
           {island.name} · {cell.name}
@@ -238,8 +243,31 @@ export function UniqueCellView({
           className="mt-3 font-display text-[clamp(2.75rem,7vw,4.5rem)] font-light leading-[1.05] tracking-[-0.02em] text-ink"
         />
         <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink">{cell.lede}</p>
-        <div className="mt-8">
+        {islandId === 'bigisland' && cell.slug === 'three-course' ? (
+          <ol className="mt-6 max-w-[46ch] space-y-3 text-ink">
+            {sampleMenus.bigisland.courses.map((course) => (
+              <li key={course.course}>
+                <p className="text-[12px] text-ink/70">{course.course}</p>
+                <p className="font-display text-[1.25rem] font-light leading-snug">{course.name}</p>
+              </li>
+            ))}
+          </ol>
+        ) : null}
+        <div className="mt-8 flex flex-wrap items-center gap-4">
           <QuoteCta island={islandId} variant="light" />
+          {islandId === 'bigisland' && cell.slug === 'three-course' ? (
+            <>
+              <HostLink island={islandId} path="/pricing" className="text-ink underline underline-offset-4">
+                Rate card
+              </HostLink>
+              <HostLink island={islandId} path="/quote?island=bigisland" className="text-ink underline underline-offset-4">
+                Inquiry
+              </HostLink>
+              <HostLink island={islandId} path="/kona" className="text-ink underline underline-offset-4">
+                Kona
+              </HostLink>
+            </>
+          ) : null}
         </div>
       </Hero>
 

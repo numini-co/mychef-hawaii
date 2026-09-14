@@ -166,7 +166,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/menus': {
     title: 'How menus are designed, by island | myCHEF Hawaii',
     description:
-      'Each island host explains how a table is designed. Distinct from nested /menus/:sku pages and from the island /menus process document.',
+      'Oʻahu, Maui, Kauaʻi and Hawaiʻi Island menus — designed per table, not a standing carte. Plated samples on each island host. Published USD prices in writing.',
   },
   '/help': {
     title: 'Help desks, by island | myCHEF Hawaii',
