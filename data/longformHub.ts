@@ -5,7 +5,7 @@ export const hubHomeSections: CopySection[] = [
     h2: 'Villa chef Hawaii',
     paras: [
       'A villa chef Hawaii booking is a cook in the house you rented — not a restaurant reservation with a nicer tablecloth. We design a menu for that kitchen, shop the same day, cook, serve, and leave the place clean. The table is yours. The guest list is yours. The night ends when you say it ends.',
-      'Statewide, that is the product: Oʻahu, Maui, Kauaʻi, and Hawaiʻi Island. Starting prices are published in USD. Signature dinner from $125 a guest on Oʻahu and $150 on Maui and Kauaʻi. Service 20% and Hawaiʻi GET up to 4.712% sit on their own lines on the written quote. The quote is the confirmed total — not a chat estimate.',
+      'Statewide, that is the product: Oʻahu, Maui, Kauaʻi, and Hawaiʻi Island. Starting prices are published in USD. Signature dinner from $125 a guest on Oʻahu and $150 on Maui, Kauaʻi, and Hawaiʻi Island. Service 20% and Hawaiʻi GET up to 4.712% sit on their own lines on the written quote. The quote is the confirmed total — not a chat estimate.',
       'We do not sell named-chef profiles. You book myCHEF Hawaii. We staff the crew to the size of the house. A dinner for six is not a reception for sixty. See how a booking is crewed on /about, and what a night costs on /pricing.',
     ],
   },
@@ -21,7 +21,7 @@ export const hubHomeSections: CopySection[] = [
     h2: 'Vacation rental chef',
     paras: [
       'A vacation rental chef is the honest name for most visitor bookings: Airbnb, VRBO, resort residence, estate week. The test is the kitchen. If there is a cooktop, a fridge, and a table, we can work. If there is not, we say no before you put a deposit down.',
-      'Stay Chef is the multi-day version — day rates from $850 on Oʻahu and $1,050 on Maui, groceries billed at cost with receipts. Arrival-night dinner plus a stocked fridge is the usual first move. Full-board days exist for houses that actually cook three times.',
+      'Stay Chef is the multi-day version — day rates from $850 on Oʻahu, $1,050 on Maui, and $950 on Hawaiʻi Island (inquiry), groceries billed at cost with receipts. Arrival-night dinner plus a stocked fridge is the usual first move. Full-board days exist for houses that actually cook three times.',
       'Neighborhood corridors live on the island hosts — /wailea on Maui, /waikiki on Oʻahu, /princeville on Kauaʻi, /kona on Hawaiʻi Island. They are not hub paths. Open the island site for the kitchen that matches the house. Request a quote statewide on /quote.',
     ],
   },
@@ -53,7 +53,7 @@ export const hubHomeSections: CopySection[] = [
 export const hubHomeFaqs: CopyFaq[] = [
   {
     q: 'Where is the line-by-line Hawaii chef card?',
-    a: 'Signature dinner from $125 a guest on Oʻahu, $150 on Maui and Kauaʻi. Stay Chef from $850 a day. Service 20% and GET up to 4.712% are added once on the written quote. The line-by-line card is on /pricing.',
+    a: 'Signature dinner from $125 a guest on Oʻahu, $150 on Maui, Kauaʻi and Hawaiʻi Island. Stay Chef from $850 Oʻahu / $1,050 Maui / $950 Hawaiʻi Island (inquiry). Service 20% and GET up to 4.712% are added once on the written quote. The line-by-line card is on /pricing.',
   },
   {
     q: 'Hotel rooms without a cooktop?',

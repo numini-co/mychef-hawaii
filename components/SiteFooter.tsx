@@ -166,7 +166,8 @@ export default function SiteFooter({
           <ContactCluster island={islandId} compact />
           <p className="mt-4 text-[13px] leading-relaxed text-on-ink">
             Published prices. Written quote. 20% service and Hawaiʻi GET are their own lines. Oʻahu Signature $125–$190 a
-            guest. Maui $150–$250.{' '}
+            guest. Maui and Kauaʻi $150–$250. Hawaiʻi Island $150–$225. Stay Chef from $850 Oʻahu / $1,050 Maui / $1,100
+            Kauaʻi / $950 Hawaiʻi Island (inquiry). See each island rate card.{' '}
             <a href={href('/legal')} className="underline underline-offset-2">
               Legal
             </a>

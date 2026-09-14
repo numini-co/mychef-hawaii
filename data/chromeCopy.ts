@@ -6,7 +6,7 @@ export const hubChrome = {
   h1: 'Private chefs & catering across all four Hawaiian islands.',
   lede: 'A private dinner, a Stay Chef or a staffed event in your villa on Oʻahu, Maui, Kauaʻi or Hawaiʻi Island. We shop, cook, serve and clean in a real kitchen.',
   price:
-    'Signature dinner from $125 a guest on Oʻahu and $150 on Maui and Kauaʻi. Stay Chef from $850 a day on Oʻahu.',
+    'Signature dinner from $125 a guest on Oʻahu, $150 on Maui, Kauaʻi and Hawaiʻi Island. Stay Chef from $850 Oʻahu / $1,050 Maui / $950 Hawaiʻi Island (inquiry).',
   oneIslandCta: 'I need one island',
   multiIslandCta: 'I need multiple islands',
   ctaHelper: 'Only visiting one island? Start on that island’s site for local menus and rate cards.',
@@ -17,9 +17,9 @@ export const hubChrome = {
   multiCta: 'Plan a multi-island itinerary',
   coresH2: 'A chef for the house, or catering for the event.',
   chefLine: 'One dinner in the villa. Shop, cook, serve, clean. Stay Chef weeks live on /vacation-chef.',
-  chefPrice: 'From $125 a guest on Oʻahu · $150 on Maui and Kauaʻi',
+  chefPrice: 'From $125 a guest on Oʻahu · $150 on Maui, Kauaʻi and Hawaiʻi Island',
   cateringLine: 'Staffed villa events of about 10–75. Buffet or plated. One-table dinners live on /private-chef.',
-  cateringPrice: 'From $125 a guest on Oʻahu · $150 on Maui and Kauaʻi',
+  cateringPrice: 'From $125 a guest on Oʻahu · $150 on Maui, Kauaʻi and Hawaiʻi Island',
   howH2: 'Tell us the table. We write the menu and cook it in the house.',
   closer: 'Island, date, guest count and kitchen. That is enough to start.',
   closerLine: 'Oʻahu and Maui receive a written quote. Kauaʻi and Hawaiʻi Island begin with an inquiry.',
@@ -70,13 +70,13 @@ export const islandChooserCopy: Record<
   kauai: {
     tagline: 'Garden-isle estates · Princeville to Poʻipū',
     line: 'Princeville and Hanalei to Poʻipū, for villa dinners and staffed events. Inquiry stage.',
-    price: 'Signature dinner from $150 a guest',
+    price: 'Signature dinner from $150 a guest · Stay Chef from $1,100 a day · Inquiry',
     alt: 'An estate table on Kauaʻi looking into a misted valley of fluted mountains at golden hour — myCHEF Kauaʻi private chef, inquiry stage.',
   },
   bigisland: {
     tagline: 'Volcanic minimalism · Kona–Kohala Coast',
     line: 'Kona and the Kohala Coast first, for villa dinners and staffed events. Inquiry stage.',
-    price: 'Signature dinner from $125 a guest · west side first',
+    price: 'Signature dinner from $150 a guest · Stay Chef from $950 a day · Inquiry',
     alt: 'A lava-coast terrace table on Hawaiʻi Island at sunset with fruit and wine glasses, Mauna Loa on the horizon — myCHEF Hawaiʻi Island private chef, inquiry stage.',
   },
 };

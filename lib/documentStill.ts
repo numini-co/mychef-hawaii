@@ -44,6 +44,7 @@ function fromKey(key: keyof typeof photos): DocumentStill {
  * Null for the island home (callers use the island hero) and unknown paths.
  */
 export function stillForPath(islandId: IslandId, localPath: string): DocumentStill | null {
+  localPath = localPath.split('?')[0] ?? localPath;
   if (localPath === '/') return null;
 
   const slug = /^\/([^/]+)$/.exec(localPath)?.[1];

@@ -90,6 +90,22 @@ export const sampleMenus: Record<IslandId, SampleMenu> = {
   },
 };
 
+/** Example dishes only — never a standing carte, never AggregateRating. */
+export function sampleMenuJsonLd(island: IslandId) {
+  const menu = sampleMenus[island];
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Menu',
+    name: menu.title,
+    description: `${menu.intro} Example dishes only — designed per table, not a standing carte.`,
+    hasMenuItem: menu.courses.map((course) => ({
+      '@type': 'MenuItem',
+      name: course.name,
+      description: `${course.course}. ${course.note}`,
+    })),
+  };
+}
+
 export const HOW_IT_WORKS = [
   { n: '01', title: 'Tell us the night', body: 'Island, dates, headcount, villa or house. Two minutes. WhatsApp or the quote form.' },
   { n: '02', title: 'Menu in 48 hours', body: 'One or two directions around your kitchen, kids, and allergies. You edit until it is yours.' },
