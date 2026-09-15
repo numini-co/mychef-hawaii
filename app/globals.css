@@ -66,6 +66,11 @@ body {
   padding-bottom: calc(var(--rate-bar-h, 0px) + 0.75rem);
 }
 
+/* Keep the last footer line above the sticky rate / convert bar. */
+footer {
+  padding-bottom: calc(var(--rate-bar-h, 0px) + 0.75rem);
+}
+
 h1,
 h2,
 h3 {
