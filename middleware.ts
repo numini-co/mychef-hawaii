@@ -85,6 +85,16 @@ export function middleware(request: NextRequest) {
       dest.pathname = `/${segs[0]}/weddings`;
       return NextResponse.redirect(dest, 301);
     }
+    if (segs.length === 1 && (segs[0] === 'reviews' || segs[0] === 'reviews-policy')) {
+      const dest = url.clone();
+      dest.pathname = '/trust';
+      return NextResponse.redirect(dest, 301);
+    }
+    if (segs.length === 2 && isIsland(segs[0]) && (segs[1] === 'reviews' || segs[1] === 'reviews-policy')) {
+      const dest = url.clone();
+      dest.pathname = `/${segs[0]}/trust`;
+      return NextResponse.redirect(dest, 301);
+    }
   }
 
   if (host === `www.${PRODUCTION_ROOT}`) {

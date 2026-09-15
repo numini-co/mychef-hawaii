@@ -20,7 +20,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       description:
         'No invented Oahu guest reviews, no fake licenses, no “now serving” language ahead of a staffed kitchen. Published prices and a written quote are the proof.',
       lede:
-        'Hawaii is launching. We will not invent stars, chef names, or an 808 number. The Gold Coast dinner is real. The Yelp page is not.',
+        'Hawaii is launching. We will not invent stars or chef names. The published line is (808) 468-7748. The Gold Coast dinner is real. The Yelp page is not.',
       photo: 'svcHonestyOahu',
       body: [
         `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) and private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) are measured searches. Those doors are /catering and /. This page is the honesty register so those titles stay clean.`,

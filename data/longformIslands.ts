@@ -267,7 +267,7 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
         h2: 'West-side prices, published',
         paras: [
           'ENTRY from $110 a guest is the open door. CORE $150–$225 is the usual villa night. PREMIUM sits above when the menu asks for it. Stay Chef from $950. Travel outside the Kona–Kohala corridor starts from a published $75 zone line; east side is never that line — east side is its own quote. Groceries are inside a signature dinner and at cost on multi-day days. Wine is yours to bring or a bartender line we write separately.',
-          'West-side staffed rooms price servers at $55 hourly and a sous at $75, each with a four-hour floor, never folded into the catch. A tip is optional and said so on the quote. There is no 808 number, no street office, no founding year, and no invented guest review on this island. Proof is the band, a sample Kona–Kohala menu, cleanup, and the written total on /pricing and /quote.',
+          'West-side staffed rooms price servers at $55 hourly and a sous at $75, each with a four-hour floor, never folded into the catch. A tip is optional and said so on the quote. There is no street office, no founding year, and no invented guest review on this island. The published line is (808) 468-7748. Proof is the band, a sample Kona–Kohala menu, cleanup, and the written total on /pricing and /quote.',
         ],
       },
       {
