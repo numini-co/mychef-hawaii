@@ -45,7 +45,7 @@ export const hubHomeSections: CopySection[] = [
     h2: 'What we will not claim',
     paras: [
       'We do not yet have Hawaiʻi guest reviews. We will not invent them, buy them, or write them in-house. Reviews publish after verified events. Until then the proof is published prices, sample menus, cleanup, and a written quote. That posture is on /trust.',
-      'We do not publish an 808 number, a street office, a founding year, or chef names. Contact is the quote form and WhatsApp. Typical reply in Hawaii business hours. We do not sell other-company markets on this site. Hawaii is the work.',
+      'We do not publish an 808 number, a street office, a founding year, or chef names. Contact is the quote form and WhatsApp. Typical reply in Hawaii business hours. Hawaii is the work on this site; other myCHEF destinations live on their own sites.',
     ],
   },
 ];
