@@ -156,7 +156,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/contact': {
     title: 'How to reach a desk, by island | myCHEF Hawaii',
     description:
-      'Each island department has its own desk hours and form. This hub page is the picker — not the Oahu desk, not the Maui desk.',
+      'Quote form, WhatsApp, (808) 468-7748, and quotes@mychef-hawaii.com — Hawaii Standard Time. Open the island desk that holds the house. Not a walk-in office.',
   },
   '/locations': {
     title: 'Live dinner doors, by island | myCHEF Hawaii',

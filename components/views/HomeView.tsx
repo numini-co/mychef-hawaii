@@ -12,6 +12,7 @@ import Reveal, { MaskReveal } from '@/components/Reveal';
 import { hubChrome, heroFocal, processSteps } from '@/data/chromeCopy';
 import { hubHomeFaqs, hubHomeSections } from '@/data/longformHub';
 import { photos } from '@/data/photos';
+import { DESK_EMAIL, DESK_PHONE_E164 } from '@/lib/contact';
 
 const hubFaqs = [
   {
@@ -49,8 +50,8 @@ export default function HomeView() {
             name: 'Private chef Hawaii — myCHEF',
             description: hubChrome.lede,
             url: 'https://mychef-hawaii.com/',
-            telephone: '+18084687748',
-            email: 'quotes@mychef-hawaii.com',
+            telephone: DESK_PHONE_E164,
+            email: DESK_EMAIL,
             priceRange: '$125–$250',
             serviceType: 'Private chef and catering',
             areaServed: [
@@ -62,8 +63,8 @@ export default function HomeView() {
             contactPoint: {
               '@type': 'ContactPoint',
               contactType: 'sales',
-              telephone: '+18084687748',
-              email: 'quotes@mychef-hawaii.com',
+              telephone: DESK_PHONE_E164,
+              email: DESK_EMAIL,
               areaServed: 'US-HI',
               availableLanguage: 'English',
             },

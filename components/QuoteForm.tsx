@@ -7,7 +7,9 @@ import HostLink from '@/components/HostLink';
 import TypePanel from '@/components/TypePanel';
 import { useIsland } from '@/components/IslandProvider';
 import { islandOrder, islands, type IslandId } from '@/data/islands';
+import { DESK_EMAIL, DESK_MAILTO, DESK_PHONE_DISPLAY, DESK_TEL, DESK_WHATSAPP_PREFILL } from '@/lib/contact';
 import { cn } from '@/lib/utils';
+import { whatsappHref } from '@/lib/whatsapp';
 
 const SERVICES = [
   { value: 'date-night', label: 'Date Night (2)' },
@@ -376,6 +378,12 @@ export default function QuoteForm({
                   className={inputClass(Boolean(errors.contact))}
                 />
                 {channelField.note ? <p className="mt-2 text-[12px] text-mute">{channelField.note}</p> : null}
+                {channel === 'whatsapp' ? (
+                  <p className="mt-2 text-[12px] text-mute">
+                    This is how we reply to you. To message the Hawaii desk now, use “Message us on
+                    WhatsApp” below.
+                  </p>
+                ) : null}
               </div>
             </Field>
 
@@ -388,8 +396,33 @@ export default function QuoteForm({
                 {sending ? 'Sending…' : inquiry ? 'Join the inquiry list' : 'Request my quote'}
               </button>
               <p className="mt-4 text-center text-[12px] text-mute">
-                No payment. No account. Response in Hawaii business hours.
+                No payment. No account. Response in Hawaii business hours. 20% service and Hawaiʻi
+                GET up to 4.712% appear on their own written-quote lines. 50% deposit only after you
+                accept that total.
               </p>
+              <div className="mt-6 border-t border-line pt-5 text-center">
+                <p className="text-[12px] text-mute">
+                  Prefer to reach the desk first? This is our Hawaii WhatsApp — not the reply-channel
+                  toggle above.
+                </p>
+                <a
+                  href={whatsappHref(island, DESK_WHATSAPP_PREFILL)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-flex h-11 items-center justify-center border border-ink px-5 text-[13px] font-medium text-ink rounded-[2px]"
+                >
+                  Message us on WhatsApp
+                </a>
+                <p className="mt-4 text-[13px] text-mute">
+                  <a className="text-ink underline underline-offset-4" href={DESK_TEL}>
+                    {DESK_PHONE_DISPLAY}
+                  </a>
+                  <span aria-hidden> · </span>
+                  <a className="text-ink underline underline-offset-4" href={DESK_MAILTO}>
+                    {DESK_EMAIL}
+                  </a>
+                </p>
+              </div>
             </div>
           </form>
         </div>

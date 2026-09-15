@@ -31,7 +31,7 @@ export const islandTrust: Record<IslandId, IslandTrustPage> = {
     body: [
       `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) stays on this host’s home. This register does not steal that title.`,
       'Hawaiʻi guest reviews: none yet on this island. They publish after verified events — never bought, never written in-house. Proof today is the rate card, the sample menu, cleanup, and a written quote.',
-      'Named Kahuku or Waimānalo farms print only after written verification — /blog/named-farms. We do not invent an 808 number or a street office to look established.',
+      'Named Kahuku or Waimānalo farms print only after written verification — /blog/named-farms. We do not invent a street office. The published line is (808) 468-7748.',
     ],
     faqs: [
       {
