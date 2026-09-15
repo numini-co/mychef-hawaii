@@ -142,15 +142,15 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'How to reach a desk, by island.',
     title: 'How to reach a desk, by island | myCHEF Hawaii',
     description:
-      'Each island department has its own desk hours and form. This hub page is the picker — not the Oahu desk, not the Maui desk.',
+      'Quote form, WhatsApp, (808) 468-7748, and quotes@mychef-hawaii.com — Hawaii Standard Time. Open the island desk that holds the house. Not a walk-in office.',
     lede:
-      'Quotes and inquiry replies run in Hawaii Standard Time on the island host. This page does not take the booking. Open the desk that holds the house — or write quotes@mychef-hawaii.com.',
+      'Quotes and inquiry replies run in Hawaii Standard Time. Use the island /quote form, WhatsApp, quotes@mychef-hawaii.com, or (808) 468-7748. This page does not take the booking — open the desk that holds the house.',
     kicker: 'Statewide · Contact',
     photo: 'hubContact',
     cardLabel: 'The desk',
     body: [
       `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) and private chef Maui (${SEARCH_VOLUMES['private chef maui']}) stay on those hosts. This directory is how to reach a coordinator, not a dinner title.`,
-      'Oʻahu and Maui take quotes. Kauaʻi and Hawaiʻi Island are inquiry. Reach us in that order: the quote form, WhatsApp (+971 55 174 4849), or quotes@mychef-hawaii.com. We do not publish an 808 number.',
+      'Oʻahu and Maui take quotes. Kauaʻi and Hawaiʻi Island are inquiry. Reach us in that order: the quote form, WhatsApp, quotes@mychef-hawaii.com, or (808) 468-7748. There is no street office and no walk-in.',
     ],
     faqs: [
       {

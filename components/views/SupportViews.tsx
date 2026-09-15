@@ -34,6 +34,8 @@ import { islandBlog } from '@/data/islandBlog';
 import { islandLocations } from '@/data/islandLocations';
 import { islandAreas } from '@/data/islandAreas';
 import { islandContact } from '@/data/islandContact';
+import { DESK_EMAIL, DESK_PHONE_E164 } from '@/lib/contact';
+import { canonicalUrl } from '@/lib/site';
 import { islandTrust } from '@/data/islandTrust';
 import { islandServiceIndex, SERVICE_INDEX_LINKS } from '@/data/islandServiceIndex';
 import { islandHelpIndex } from '@/data/islandHelpIndex';
@@ -1001,18 +1003,41 @@ export function AreasIndexView({ islandId }: { islandId: (typeof islandOrder)[nu
 export function ContactIndexView({ islandId }: { islandId: (typeof islandOrder)[number] }) {
   const copy = islandContact[islandId];
   const photo = photos[copy.photo];
+  const island = islands[islandId];
   return (
     <>
       <JsonLd
-        data={{
-          '@context': 'https://schema.org',
-          '@type': 'FAQPage',
-          mainEntity: copy.faqs.map((f) => ({
-            '@type': 'Question',
-            name: f.q,
-            acceptedAnswer: { '@type': 'Answer', text: f.a },
-          })),
-        }}
+        data={[
+          {
+            '@context': 'https://schema.org',
+            '@type': 'FoodService',
+            name: `myCHEF ${island.name}`,
+            description: copy.description,
+            url: canonicalUrl(islandId, '/contact'),
+            telephone: DESK_PHONE_E164,
+            email: DESK_EMAIL,
+            areaServed: { '@type': 'AdministrativeArea', name: island.name },
+            serviceType: 'Private chef',
+            contactPoint: {
+              '@type': 'ContactPoint',
+              contactType: 'sales',
+              telephone: DESK_PHONE_E164,
+              email: DESK_EMAIL,
+              areaServed: island.name,
+              availableLanguage: 'English',
+            },
+            parentOrganization: { '@type': 'Organization', name: 'myCHEF Hawaii' },
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: copy.faqs.map((f) => ({
+              '@type': 'Question',
+              name: f.q,
+              acceptedAnswer: { '@type': 'Answer', text: f.a },
+            })),
+          },
+        ]}
       />
       <Hero src={photo.file} alt={photo.alt}>
         <p className="text-[13px] text-mute">{copy.kicker}</p>
@@ -1041,7 +1066,7 @@ export function ContactIndexView({ islandId }: { islandId: (typeof islandOrder)[
           { path: '/faq', label: 'FAQ', detail: '/faq' },
         ]}
       />
-      <LongFaq items={copy.faqs} title="Before you look for a phone number." />
+      <LongFaq items={copy.faqs} title="Before you write the desk." />
     </>
   );
 }
