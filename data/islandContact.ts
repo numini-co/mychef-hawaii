@@ -1,7 +1,7 @@
 import type { IslandId } from './islands';
 import { SEARCH_VOLUMES } from './offers';
 import type { PhotoKey } from './photos';
-import { DESK_EMAIL, DESK_PHONE_DISPLAY } from '@/lib/contact';
+import { DESK_EMAIL, DESK_PHONE_DISPLAY, DESK_WHATSAPP } from '@/lib/contact';
 
 /**
  * Island /contact documents. Distinct from /quote (the form) and from
@@ -42,7 +42,7 @@ export const islandContact: Record<IslandId, IslandContactPage> = {
       },
       {
         q: 'Do you have an Honolulu office?',
-        a: `No walk-in and no street office. The published line is ${DESK_PHONE_DISPLAY} (tel:+18084687748), ${DESK_EMAIL}, WhatsApp, and /quote.`,
+        a: `No walk-in and no street office. The published line is ${DESK_PHONE_DISPLAY} (tel:+18084687748), ${DESK_EMAIL}, WhatsApp ${DESK_WHATSAPP}, and /quote.`,
       },
     ],
   },
@@ -67,7 +67,7 @@ export const islandContact: Record<IslandId, IslandContactPage> = {
       },
       {
         q: 'Do you have a Wailea office?',
-        a: `No walk-in and no street office in Wailea. The published line is ${DESK_PHONE_DISPLAY}, ${DESK_EMAIL}, WhatsApp, and /quote. Quotes are open.`,
+        a: `No walk-in and no street office in Wailea. The published line is ${DESK_PHONE_DISPLAY}, ${DESK_EMAIL}, WhatsApp ${DESK_WHATSAPP}, and /quote. Quotes are open.`,
       },
     ],
   },
@@ -92,7 +92,7 @@ export const islandContact: Record<IslandId, IslandContactPage> = {
       },
       {
         q: 'Can I visit a Princeville office?',
-        a: `There is none. Call ${DESK_PHONE_DISPLAY}, WhatsApp the desk, or send /quote. We write back when we can staff.`,
+        a: `There is none. Call ${DESK_PHONE_DISPLAY}, WhatsApp ${DESK_WHATSAPP}, or send /quote. We write back when we can staff.`,
       },
     ],
   },
@@ -117,7 +117,7 @@ export const islandContact: Record<IslandId, IslandContactPage> = {
       },
       {
         q: 'Can I call about Hilo from a Kona office?',
-        a: `There is no office. East side is a dedicated day — /east-side. Call ${DESK_PHONE_DISPLAY} or send /quote with the town.`,
+        a: `There is no office. East side is a dedicated day — /east-side. Call ${DESK_PHONE_DISPLAY}, WhatsApp ${DESK_WHATSAPP}, or send /quote with the town.`,
       },
     ],
   },

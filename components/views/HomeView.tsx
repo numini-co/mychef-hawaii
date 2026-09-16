@@ -25,7 +25,7 @@ const hubFaqs = [
   },
   {
     q: "What's included?",
-    a: 'Menu design, shopping, cooking in your villa, table service and a clean kitchen. Drinks BYO or quoted. Bartender add-on lives on /bar.',
+    a: 'Signature and per-guest dinners include menu design, same-day shopping, cooking in your villa, table service, and a clean kitchen — groceries sit inside that published band. Stay Chef days bill groceries at cost with receipts. The two models are never blended. Drinks BYO or quoted. Bartender add-on lives on /bar.',
   },
   {
     q: 'Do you have Hawaii guest reviews?',

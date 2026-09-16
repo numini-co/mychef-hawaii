@@ -155,7 +155,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     faqs: [
       {
         q: 'Can I quote from this page?',
-        a: 'Open the island desk. The form and HST hours live there. This page only points.',
+        a: 'Yes — use /quote?island=oahu, call (808) 468-7748, write quotes@mychef-hawaii.com, or WhatsApp https://wa.me/18084687748. Island desks also take the same five-field form. This page does not take a deposit.',
       },
       {
         q: 'Is this the honesty register?',

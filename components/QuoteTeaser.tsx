@@ -1,6 +1,6 @@
 import { QuoteCta, WhatsAppCta } from '@/components/Cta';
 import type { IslandId } from '@/data/islands';
-import { DESK_EMAIL, DESK_MAILTO } from '@/lib/contact';
+import { DESK_EMAIL, DESK_MAILTO, DESK_PHONE_DISPLAY, DESK_TEL } from '@/lib/contact';
 
 export default function QuoteTeaser({
   headline = 'Tell us where you’re dining.',
@@ -18,6 +18,12 @@ export default function QuoteTeaser({
         <div className="mt-10 flex flex-wrap items-center gap-3">
           <QuoteCta island={island} variant="light" />
           <WhatsAppCta island={island} variant="ghost" />
+          <a
+            href={DESK_TEL}
+            className="inline-flex min-h-12 items-center text-[14px] font-medium text-paper underline decoration-paper/50 underline-offset-[6px]"
+          >
+            {DESK_PHONE_DISPLAY}
+          </a>
           <a
             href={DESK_MAILTO}
             className="inline-flex min-h-12 items-center text-[14px] font-medium text-paper underline decoration-paper/50 underline-offset-[6px]"

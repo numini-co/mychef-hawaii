@@ -1,4 +1,3 @@
-import ContactCluster from '@/components/ContactCluster';
 import HubPhotoGrid from '@/components/HubPhotoGrid';
 import { HubDirectoryView } from '@/components/views/SupportViews';
 import { photos } from '@/data/photos';
@@ -11,31 +10,23 @@ export default function Page() {
     <HubDirectoryView
       id="contact"
       related={
-        <>
-        <ContactCluster />
         <HubPhotoGrid
           eyebrow="Beside this desk"
           heading="Open a related document."
-          intro="This page is the four-island picker for how to reach a coordinator. The form, first-booking notes, how a night runs, and the FAQ are their own URLs. Island desks stay on the island host."
+          intro="This page is the four-island picker for how to reach a coordinator. The form, the rate card, the FAQ, and the honesty register are their own URLs. Island desks stay on the island host."
           columns={2}
           items={[
             {
-              href: '/quote',
+              href: '/quote?island=oahu',
               title: 'The quote form',
               body: 'Five fields. A written total follows. Not a booking. Distinct from this desk picker.',
               still: photos.quoteHub,
             },
             {
-              href: '/help/getting-started',
-              title: 'Getting started',
-              body: 'The first-booking checklist. Distinct from the form and from this reachability page.',
-              still: photos.hubHelpStart,
-            },
-            {
-              href: '/how-it-works',
-              title: 'How it works',
-              body: 'Enquire, menu, written quote. Distinct from the FAQ picker.',
-              still: photos.hubHow,
+              href: '/pricing',
+              title: 'What a night costs',
+              body: 'The published rate card. Distinct from the fee-stack explainer.',
+              still: photos.hubPricing,
             },
             {
               href: '/faq',
@@ -43,9 +34,14 @@ export default function Page() {
               body: 'Booking questions live on the island host. This hub page is the picker.',
               still: photos.hubFaq,
             },
+            {
+              href: '/trust',
+              title: 'What we will not claim',
+              body: 'Reviews we will not invent. Proof is published prices and a written quote.',
+              still: photos.hubTrust,
+            },
           ]}
         />
-        </>
       }
     />
   );

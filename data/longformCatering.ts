@@ -233,7 +233,7 @@ const bigislandSections: CopySection[] = [
     h2: 'West-side service, east-side honesty',
     paras: [
       'A same-day Kona–Hilo round trip is a logistics fantasy. The east side is two and a half to three hours from the west-side base. Events in Hilo or Volcano are quoted with dedicated staffing and, often, an overnight model. We publish that instead of discovering it at your first course. Merrie Monarch week is exactly when that honesty matters — the island is already full, and the saddle is not a commute.',
-      'West-side load-in is ordinary: resort-residence rules, HOA quiet hours, a driveway that can take a van. We confirm those before the night. Reach us on the form and WhatsApp only. Contact is /quote in Hawaii business hours.',
+      'West-side load-in is ordinary: resort-residence rules, HOA quiet hours, a driveway that can take a van. We confirm those before the night. Reach us on /quote, WhatsApp, quotes@mychef-hawaii.com, or (808) 468-7748 — Hawaii business hours. No street office.',
       'Alcohol is BYO or licensed staffing on a separate line. Neighbor-island liquor-catering rules that still need counsel stay marked as such. We will not improvise a license we have not confirmed.',
     ],
   },

@@ -14,3 +14,6 @@ export const DESK_TEL = `tel:${DESK_PHONE_E164}`;
 
 export const DESK_HOURS = 'Hawaii Standard Time business hours';
 export const DESK_WHATSAPP_PREFILL = 'Hawaii villa dinner inquiry';
+
+/** Hawaii Business deep link — same E.164 as voice. Never +971. */
+export const DESK_WHATSAPP = `https://wa.me/${DESK_PHONE_DIGITS}`;

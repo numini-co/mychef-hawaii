@@ -14,7 +14,7 @@ export default function ContactCluster({
   island?: IslandId | null;
   compact?: boolean;
 }) {
-  const quoteHref = island ? `/quote?island=${island}` : '/quote';
+  const quoteHref = island ? `/quote?island=${island}` : '/quote?island=oahu';
 
   if (compact) {
     return (

@@ -89,6 +89,12 @@ export default function IslandHomeView({
           <CtaLink href={href('/pricing')} variant="ghost">
             What a night costs
           </CtaLink>
+          <CtaLink href={href('/faq')} variant="ghost">
+            FAQ
+          </CtaLink>
+          <CtaLink href={href('/trust')} variant="ghost">
+            Trust
+          </CtaLink>
         </div>
       </Hero>
 
