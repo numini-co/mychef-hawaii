@@ -6,7 +6,7 @@ export const hubChrome = {
   h1: 'Private chefs & catering across all four Hawaiian islands.',
   lede: 'A private dinner, a Stay Chef or a staffed event in your villa on Oʻahu, Maui, Kauaʻi or Hawaiʻi Island. We shop, cook, serve and clean in a real kitchen.',
   price:
-    'Signature dinner from $125 a guest on Oʻahu and $150 on Maui and Kauaʻi. Stay Chef from $850 a day on Oʻahu.',
+    'Signature dinner from $195 a guest on Oʻahu and $225 on Maui and Kauaʻi. Stay Chef from $1,250 a day on Oʻahu.',
   oneIslandCta: 'I need one island',
   multiIslandCta: 'I need multiple islands',
   ctaHelper: 'Only visiting one island? Start on that island’s site for local menus and rate cards.',
@@ -17,9 +17,9 @@ export const hubChrome = {
   multiCta: 'Plan a multi-island itinerary',
   coresH2: 'A chef for the house, or catering for the event.',
   chefLine: 'One dinner in the villa. Shop, cook, serve, clean. Stay Chef weeks live on /vacation-chef.',
-  chefPrice: 'From $125 a guest on Oʻahu · $150 on Maui and Kauaʻi',
+  chefPrice: 'From $195 a guest on Oʻahu · $225 on Maui and Kauaʻi',
   cateringLine: 'Staffed villa events of about 10–75. Buffet or plated. One-table dinners live on /private-chef.',
-  cateringPrice: 'From $125 a guest on Oʻahu · $150 on Maui and Kauaʻi',
+  cateringPrice: 'From $195 a guest on Oʻahu · $225 on Maui and Kauaʻi',
   howH2: 'Tell us the table. We write the menu and cook it in the house.',
   closer: 'Island, date, guest count and kitchen. That is enough to start.',
   closerLine: 'Oʻahu and Maui receive a written quote. Kauaʻi and Hawaiʻi Island begin with an inquiry.',
@@ -58,36 +58,36 @@ export const islandChooserCopy: Record<
   oahu: {
     tagline: 'Metropolitan luxury · Waikīkī to North Shore',
     line: 'Honolulu to Ko Olina, for villa dinners and staffed events. Quotes open now.',
-    price: 'Signature dinner from $125 a guest · Stay Chef from $850 a day',
+    price: 'Signature dinner from $195 a guest · Stay Chef from $1,250 a day',
     alt: 'A chef plating sesame ahi on an Oʻahu villa counter with Diamond Head and Waikīkī lights at twilight — myCHEF Oʻahu private chef.',
   },
   maui: {
     tagline: 'Resort-coast dining · Wailea to Kapalua',
     line: 'Wailea, Kīhei and West Maui, for villa dinners and staffed events. Quotes open now.',
-    price: 'Signature dinner from $150 a guest · Stay Chef from $1,050 a day',
+    price: 'Signature dinner from $225 a guest · Stay Chef from $1,550 a day',
     alt: 'A candlelit Maui villa terrace table at dusk with seared fish and heliconia against the west-side sunset — myCHEF Maui private chef.',
   },
   kauai: {
     tagline: 'Garden-isle estates · Princeville to Poʻipū',
     line: 'Princeville and Hanalei to Poʻipū, for villa dinners and staffed events. Inquiry stage.',
-    price: 'Signature dinner from $150 a guest',
+    price: 'Signature dinner from $225 a guest',
     alt: 'An estate table on Kauaʻi looking into a misted valley of fluted mountains at golden hour — myCHEF Kauaʻi private chef, inquiry stage.',
   },
   bigisland: {
     tagline: 'Volcanic minimalism · Kona–Kohala Coast',
     line: 'Kona and the Kohala Coast first, for villa dinners and staffed events. Inquiry stage.',
-    price: 'Signature dinner from $125 a guest · west side first',
+    price: 'Signature dinner from $195 a guest · west side first',
     alt: 'A lava-coast terrace table on Hawaiʻi Island at sunset with fruit and wine glasses, Mauna Loa on the horizon — myCHEF Hawaiʻi Island private chef, inquiry stage.',
   },
 };
 
 export const islandHeroLede: Record<IslandId, string> = {
   oahu:
-    'From Honolulu residences to Ko Olina villas, we cook only in a working kitchen. We shop, cook, serve and clean; Signature dinner starts at $125 a guest and Stay Chef at $850 a day.',
+    'From Honolulu residences to Ko Olina villas, we cook only in a working kitchen. We shop, cook, serve and clean; Signature dinner starts at $195 a guest and Stay Chef at $1,250 a day.',
   maui:
-    'Private chef service on Maui runs from Wailea and Kīhei to West Maui; the villa must have a real kitchen. Signature dinner starts at $150 a guest, Stay Chef at $1,050 a day.',
+    'Private chef service on Maui runs from Wailea and Kīhei to West Maui; the villa must have a real kitchen. Signature dinner starts at $225 a guest, Stay Chef at $1,550 a day.',
   kauai:
-    'Princeville and Hanalei to the north; Poʻipū to the south, always in a villa with a real kitchen. Kauaʻi is inquiry-stage, with Signature dinner from $150 a guest.',
+    'Princeville and Hanalei to the north; Poʻipū to the south, always in a villa with a real kitchen. Kauaʻi is inquiry-stage, with Signature dinner from $225 a guest.',
   bigisland:
     'Kona and the Kohala Coast come first, with west-side villas setting the route. Hawaiʻi Island is inquiry-stage, and every booking requires a real kitchen.',
 };

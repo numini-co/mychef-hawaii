@@ -7,8 +7,8 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
       {
         h2: 'What’s included in an Oʻahu villa night',
         paras: [
-          'A night in the house you actually have: menu design within forty-eight hours of the enquiry, same-day shopping at Honolulu markets, cooking on the cooktop that exists, paced table service, and a kitchen left cleaner than we found it. Groceries sit inside the CORE band on a signature dinner — $125–$190 USD a guest on Oʻahu. Alcohol is BYO or quoted. Rentals, venue fees, and a bartender are add-ons. Nothing named “hospitality” swallows those lines.',
-          'You book myCHEF Hawaii. We assign the crew to the size of a Kahala dining room or a Ko Olina villa, not a named-chef profile. A table for six is not a reception for sixty — that staffed room lives on /catering and a weekend stack lives on /weddings. Stay Chef from $850 a day, groceries at cost with receipts, lives on /vacation-chef when the house wants a cook for the week. Weekly household cooking for Honolulu residents is /personal-chef. The kamaʻāina frequency line is /kamaaina. This page is the visitor dinner.',
+          'A night in the house you actually have: menu design within forty-eight hours of the enquiry, same-day shopping at Honolulu markets, cooking on the cooktop that exists, paced table service, and a kitchen left cleaner than we found it. Groceries sit inside the CORE band on a signature dinner — $195–$290 USD a guest on Oʻahu. Alcohol is BYO or quoted. Rentals, venue fees, and a bartender are add-ons. Nothing named “hospitality” swallows those lines.',
+          'You book myCHEF Hawaii. We assign the crew to the size of a Kahala dining room or a Ko Olina villa, not a named-chef profile. A table for six is not a reception for sixty — that staffed room lives on /catering and a weekend stack lives on /weddings. Stay Chef from $1,250 a day, groceries at cost with receipts, lives on /vacation-chef when the house wants a cook for the week. Weekly household cooking for Honolulu residents is /personal-chef. The kamaʻāina frequency line is /kamaaina. This page is the visitor dinner.',
           'Service 20% and Hawaiʻi GET up to 4.712% appear once, as their own lines, on the written quote. Fifty percent locks the date. Gratuity is voluntary. Travel to the North Shore and Turtle Bay is a published surcharge; Kahala, Ko Olina, Kailua, and Waikīkī residences with kitchens are base. Hotel rooms without a cooktop are declined. We do not invent Hawaiʻi reviews or an 808 number. Proof is the published card on /pricing and the total you accept on /quote.',
         ],
       },
@@ -41,14 +41,14 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
         paras: [
           'Airbnb, VRBO, resort residence, household you already live in — the test is the kitchen. Cooktop, fridge, table. If those exist, we can work. If they do not, we say no before a deposit. Kailua and Lanikai are a thirty-day estate market; we do not sell a one-night tourist drop-in into a weekend rental the law no longer allows. A celebration dinner during a genuine month-long stay is a different product, and we will quote it that way.',
           'Property managers, building desks, and household staff belong on the first /quote message. Freight, COI, parking, quiet hours — those are Honolulu facts. We arrange them. We do not invent a street office or a chef name to look established. Typical reply in Hawaii business hours. WhatsApp is the same conversation. One follow-up, not a drip.',
-          'Siblings stay in their lanes. /catering is ten to seventy-five in a staffed room. /weddings is the Kahala–Ko Olina–Kailua weekend stack. /bar is the pour. /pricing is the USD card — CORE $125–$190 a guest. This supporting page is what is included, hour by hour, dietary, small kitchens, and the rental you actually booked. Send the address type on /quote.',
+          'Siblings stay in their lanes. /catering is ten to seventy-five in a staffed room. /weddings is the Kahala–Ko Olina–Kailua weekend stack. /bar is the pour. /pricing is the USD card — CORE $195–$290 a guest. This supporting page is what is included, hour by hour, dietary, small kitchens, and the rental you actually booked. Send the address type on /quote.',
         ],
       },
     ],
     faqs: [
       {
         q: 'What is included in an Oʻahu villa dinner?',
-        a: 'Menu design, same-day shopping, cooking, table service, and cleanup. Groceries inside the $125–$190 USD CORE band on a signature night. The 20% service line and GET up to 4.712% are added once, not folded into the fish. Alcohol, rentals, and venue fees are add-ons. Start on /quote.',
+        a: 'Menu design, same-day shopping, cooking, table service, and cleanup. Groceries inside the $195–$290 USD CORE band on a signature night. The 20% service line and GET up to 4.712% are added once, not folded into the fish. Alcohol, rentals, and venue fees are add-ons. Start on /quote.',
       },
       {
         q: 'Private chef at home — is that this page?',
@@ -81,8 +81,8 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
       {
         h2: 'What’s included in a Maui villa dinner',
         paras: [
-          'Menu designed with you, shopped the same day, cooked in the Wailea or Kapalua kitchen you rented, served at your pace, left clean. Groceries are inside the CORE band on a signature night — $150–$250 USD a guest on Maui. Stay Chef days from $1,050 bill groceries at cost with receipts. Alcohol is BYO or quoted. Rentals and venue fees are add-ons. Service 20% and GET up to 4.712% sit on their own lines. Fifty percent locks the date. Gratuity is voluntary.',
-          'You book myCHEF Hawaii. We staff the house. We do not sell a named-chef marketplace, a gender roster, or a communal resort chef’s table. Ours is private, in your villa. A dinner for two is a fixed-price product from $500+ USD. A reception of ten to seventy-five is /catering or /weddings — welcome through recovery brunch as separate lines. This page is the night at the table.',
+          'Menu designed with you, shopped the same day, cooked in the Wailea or Kapalua kitchen you rented, served at your pace, left clean. Groceries are inside the CORE band on a signature night — $225–$375 USD a guest on Maui. Stay Chef days from $1,550 bill groceries at cost with receipts. Alcohol is BYO or quoted. Rentals and venue fees are add-ons. Service 20% and GET up to 4.712% sit on their own lines. Fifty percent locks the date. Gratuity is voluntary.',
+          'You book myCHEF Hawaii. We staff the house. We do not sell a named-chef marketplace, a gender roster, or a communal resort chef’s table. Ours is private, in your villa. A dinner for two is a fixed-price product from $750+ USD. A reception of ten to seventy-five is /catering or /weddings — welcome through recovery brunch as separate lines. This page is the night at the table.',
           'Wailea, Kapalua, Kāʻanapali, Nāpili, and Makena are base zones. Upcountry is a published surcharge. Pāʻia and Haʻikū are quote-only with the menu. We market West Maui as those resort corridors. Proof today is the published card on /pricing and the written total on /quote. We do not invent Maui guest reviews. They publish after verified events.',
         ],
       },
@@ -99,7 +99,7 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
         paras: [
           'Vegan, gluten-free, dairy-free, nut-aware, pescatarian, and kids’ plates are routine on Maui tables — written into the menu, not substituted when the pass gets busy. Severe allergies are discussed with the crew before confirmation. Kids eat with the adults. Mixed restrictions get a plan so the Wailea kitchen does not improvise around a nut oil at seven-thirty.',
           'Sushi-forward is a direction we can arrange: nigiri, sashimi, hand rolls, cooked in the villa. It is not a separate brand and not a different URL. Catch depends on the morning. If the boat does not match the restriction, the menu draft changes before anyone shops. We do not print Upcountry farm names without written verification. Hawaiʻi still imports most of its food; the plate can be honest without theatre.',
-          'The sample three-course on the island menu pages is a starting conversation. Your written menu is for that list, that week, that cooktop. Send restrictions with the headcount on /quote. /pricing shows the $150–$250 USD CORE band and how Stay Chef groceries sit outside it. /bar if you want pairings poured by someone who is not also plating.',
+          'The sample three-course on the island menu pages is a starting conversation. Your written menu is for that list, that week, that cooktop. Send restrictions with the headcount on /quote. /pricing shows the $225–$375 USD CORE band and how Stay Chef groceries sit outside it. /bar if you want pairings poured by someone who is not also plating.',
         ],
       },
       {
@@ -122,7 +122,7 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
     faqs: [
       {
         q: 'What do I actually pay for a Maui villa dinner?',
-        a: 'CORE $150–$250 USD a guest on a signature night, groceries included in that band. Stay Chef groceries at cost with receipts. Maui quotes add 20% service and GET up to 4.712% as separate lines. Written quote on /quote. Line-by-line on /pricing.',
+        a: 'CORE $225–$375 USD a guest on a signature night, groceries included in that band. Stay Chef groceries at cost with receipts. Maui quotes add 20% service and GET up to 4.712% as separate lines. Written quote on /quote. Line-by-line on /pricing.',
       },
       {
         q: 'We’re outside Wailea and Kapalua — will you still come?',
@@ -147,8 +147,8 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
       {
         h2: 'What’s included in a Kauaʻi villa dinner',
         paras: [
-          'Menu within forty-eight hours, shopped the day of service, cooked in the Princeville, Hanalei, or Poʻipū kitchen you have, served, cleaned. CORE $150–$250 USD a guest — Maui-class, groceries inside that band on a signature night. Stay Chef from $1,100 a day, groceries at cost with receipts. Service 20% and GET up to 4.712% as their own lines. Fifty percent locks the date. Gratuity is voluntary. Alcohol is BYO or /bar.',
-          'You book myCHEF Hawaii. Kauaʻi books — not a waitlist. We assign the brigade. We do not sell chef names. A single estate dinner is this page. A staffed villa event is /catering. A wedding week — welcome through recovery brunch, from $175 a guest plus staffing — is /weddings. Do not expect this supporting page to own a catering head term. Estate formats live next door.',
+          'Menu within forty-eight hours, shopped the day of service, cooked in the Princeville, Hanalei, or Poʻipū kitchen you have, served, cleaned. CORE $225–$375 USD a guest — Maui-class, groceries inside that band on a signature night. Stay Chef from $1,650 a day, groceries at cost with receipts. Service 20% and GET up to 4.712% as their own lines. Fifty percent locks the date. Gratuity is voluntary. Alcohol is BYO or /bar.',
+          'You book myCHEF Hawaii. Kauaʻi books — not a waitlist. We assign the brigade. We do not sell chef names. A single estate dinner is this page. A staffed villa event is /catering. A wedding week — welcome through recovery brunch, from $260 a guest plus staffing — is /weddings. Do not expect this supporting page to own a catering head term. Estate formats live next door.',
           'Līhuʻe and Kapaʻa are base. Both shores are a published surcharge. Hāʻena and the far North are quote-only with seventy-two-hour notice and a Hanalei-bridge weather clause. Closures reschedule rather than forfeit. Proof is the published card on /pricing and the written total on /quote. We do not invent Kauaʻi reviews or an 808 number.',
         ],
       },
@@ -165,7 +165,7 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
         paras: [
           'Vegan, gluten-free, dairy-free, nut-aware, pescatarian, and kids’ plates are designed in — not swapped at a Hanalei pass when the mist turns to rain. Severe allergies are a conversation before confirmation. Catch is shopped the day of service; if it cannot meet a restriction, the draft changes. Kids eat with the house. Mixed tables get a written plan.',
           'North-shore and south-shore shops are not the same run. We do not assume a Līhuʻe fish counter at noon if the dinner is past the bridge at six. The sample estate menu is a direction. Your written menu is for that shore, that week, that list. We do not print farm names without written verification.',
-          'Send restrictions with the headcount on /quote. /pricing holds the $150–$250 USD band. If the table is two people, Date Night is $650–$950 as a fixed event — not a per-guest stack pretending six seats. /weddings if the dietary conversation is really a week of events, not one dinner.',
+          'Send restrictions with the headcount on /quote. /pricing holds the $225–$375 USD band. If the table is two people, Date Night is $975–$1,425 as a fixed event — not a per-guest stack pretending six seats. /weddings if the dietary conversation is really a week of events, not one dinner.',
         ],
       },
       {
@@ -188,7 +188,7 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
     faqs: [
       {
         q: 'What is included in a Kauaʻi villa dinner?',
-        a: 'Menu, same-day shopping, cooking, service, cleanup. CORE $150–$250 USD a guest on a signature night. Kauaʻi quotes add 20% service and GET as their own lines. Shores carry a published drive line. Start on /quote.',
+        a: 'Menu, same-day shopping, cooking, service, cleanup. CORE $225–$375 USD a guest on a signature night. Kauaʻi quotes add 20% service and GET as their own lines. Shores carry a published drive line. Start on /quote.',
       },
       {
         q: 'Princeville or Poʻipū — does the food band change?',
@@ -204,7 +204,7 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
       },
       {
         q: 'Villa dinner or a staffed event?',
-        a: 'One dinner is this page. Ten to seventy-five is /catering. Estate wedding weeks from $175 a guest plus staffing are /weddings.',
+        a: 'One dinner is this page. Ten to seventy-five is /catering. Estate wedding weeks from $260 a guest plus staffing are /weddings.',
       },
     ],
   },
@@ -213,8 +213,8 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
       {
         h2: 'What’s included in a Kohala villa dinner',
         paras: [
-          'Menu designed with you, shopped west-side the day of service, cooked in the Kohala or Kona kitchen you have, served, left clean. CORE $150–$225 USD a guest. ENTRY from $110 when the table and the kitchen are simpler. Stay Chef from $950 a day, groceries at cost with receipts. West-side quotes add 20% service and GET up to 4.712% once, never as a hospitality fold-in. Fifty percent locks the date. Gratuity is voluntary. Alcohol is BYO or /bar.',
-          'You book myCHEF Hawaii. We staff the house. West-side first: Kohala Coast, Waikoloa, the Mauna Kea belt, Kailua-Kona, Keauhou. We do not sell chef names or invent reviews. A single villa night is this page. A staffed event is /catering. A Kohala estate week — welcome through recovery brunch, from $150 a guest plus staffing — is /weddings. This supporting page does not borrow a statewide catering head term.',
+          'Menu designed with you, shopped west-side the day of service, cooked in the Kohala or Kona kitchen you have, served, left clean. CORE $210–$325 USD a guest. ENTRY from $165 when the table and the kitchen are simpler. Stay Chef from $1,450 a day, groceries at cost with receipts. West-side quotes add 20% service and GET up to 4.712% once, never as a hospitality fold-in. Fifty percent locks the date. Gratuity is voluntary. Alcohol is BYO or /bar.',
+          'You book myCHEF Hawaii. We staff the house. West-side first: Kohala Coast, Waikoloa, the Mauna Kea belt, Kailua-Kona, Keauhou. We do not sell chef names or invent reviews. A single villa night is this page. A staffed event is /catering. A Kohala estate week — welcome through recovery brunch, from $225 a guest plus staffing — is /weddings. This supporting page does not borrow a statewide catering head term.',
           'Hilo and Volcano are quote-only: two-and-a-half to three hours, dedicated staffing, never squeezed into a west-side day. Waimea and Hāmākua are a surcharge. Kaʻū and the south are an extended surcharge with notice. The zone line is on the quote. Proof is /pricing and the written total on /quote. No 808 number. No street office.',
         ],
       },
@@ -231,7 +231,7 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
         paras: [
           'Vegan, gluten-free, dairy-free, nut-aware, pescatarian, and kids’ plates are designed in. Severe allergies are a conversation before confirmation, not a surprise at a Kohala pass. Kids eat with the house. Catch, ranch beef, and produce are shopped west-side the day of service. If the shop cannot meet a restriction, the draft changes before anyone drives the corridor.',
           'Named farms and coffee origins print only with written verification. Kanpachi, Hāmākua mushrooms, two coffee belts — the plate can still sing while a producer line stays unlabeled. We do not invent a farm relationship for the menu. Coffee origin rules will tighten how cups are named; until then we do not guess.',
-          'Send restrictions with the headcount on /quote. /pricing holds the $150–$225 USD CORE band and ENTRY from $110. Elopements and dinners for two start from $550 as a fixed event. If the dietary conversation is really a week of events, open /weddings. If it is a staffed room without vows, open /catering.',
+          'Send restrictions with the headcount on /quote. /pricing holds the $210–$325 USD CORE band and ENTRY from $165. Elopements and dinners for two start from $825 as a fixed event. If the dietary conversation is really a week of events, open /weddings. If it is a staffed room without vows, open /catering.',
         ],
       },
       {
@@ -254,7 +254,7 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
     faqs: [
       {
         q: 'What is included in a Kohala or Kona villa dinner?',
-        a: 'Menu, west-side shopping, cooking, service, cleanup. CORE $150–$225 USD a guest. ENTRY from $110. The 20% service line and GET sit beside the food, not inside it. Start on /quote.',
+        a: 'Menu, west-side shopping, cooking, service, cleanup. CORE $210–$325 USD a guest. ENTRY from $165. The 20% service line and GET sit beside the food, not inside it. Start on /quote.',
       },
       {
         q: 'Can you cover Hilo from Kona?',

@@ -24,9 +24,9 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
     h1: 'What a night costs on Oahu.',
     title: 'What a night costs on Oahu | myCHEF',
     description:
-      'Oahu starting prices from the rate card: CORE $125–$190 a guest, Stay Chef from $850 a day, Date Night from $450. Service and GET print after the band. Distinct from /private-chef-cost.',
+      'Oahu starting prices from the rate card: CORE $195–$290 a guest, Stay Chef from $1,250 a day, Date Night from $675. Service and GET print after the band. Distinct from /private-chef-cost.',
     lede:
-      'USD. Line by line. CORE $125–$190 a guest. Stay Chef from $850 a day. The written quote is the confirmed total. How those lines stack: /private-chef-cost.',
+      'USD. Line by line. CORE $195–$290 a guest. Stay Chef from $1,250 a day. The written quote is the confirmed total. How those lines stack: /private-chef-cost.',
     kicker: 'Oʻahu · Rate card',
     photo: 'pricingOahu',
     body: [
@@ -41,7 +41,7 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
       },
       {
         q: 'Are groceries included?',
-        a: 'Two models, never blended. On a Signature or per-guest dinner ($125–$190 a guest on Oʻahu), food and grocery procurement sit inside the published band — there is no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking (from $850 a day), it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The fee stack is /private-chef-cost.',
+        a: 'Two models, never blended. On a Signature or per-guest dinner ($195–$290 a guest on Oʻahu), food and grocery procurement sit inside the published band — there is no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking (from $1,250 a day), it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The fee stack is /private-chef-cost.',
       },
       {
         q: 'Is North Shore inside CORE?',
@@ -53,9 +53,9 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
     h1: 'What a night costs on Maui.',
     title: 'What a night costs on Maui | myCHEF',
     description:
-      'Maui starting prices from the rate card: CORE $150–$250 a guest, Stay Chef from $1,050 a day. Upcountry and West Maui travel print as their own lines. Distinct from /private-chef-cost.',
+      'Maui starting prices from the rate card: CORE $225–$375 a guest, Stay Chef from $1,550 a day. Upcountry and West Maui travel print as their own lines. Distinct from /private-chef-cost.',
     lede:
-      'USD. Line by line. CORE $150–$250 a guest. Stay Chef from $1,050 a day. Saturday West Maui traffic is planned into arrival, not hidden in the band.',
+      'USD. Line by line. CORE $225–$375 a guest. Stay Chef from $1,550 a day. Saturday West Maui traffic is planned into arrival, not hidden in the band.',
     kicker: 'Maui · Rate card',
     photo: 'pricingMaui',
     body: [
@@ -70,7 +70,7 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
       },
       {
         q: 'Are groceries included?',
-        a: 'Two models, never blended. On a Signature or per-guest dinner ($150–$250 a guest on Maui), food and grocery procurement sit inside the published band — no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking (from $1,050 a day), it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. How each line prints: /private-chef-cost.',
+        a: 'Two models, never blended. On a Signature or per-guest dinner ($225–$375 a guest on Maui), food and grocery procurement sit inside the published band — no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking (from $1,550 a day), it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. How each line prints: /private-chef-cost.',
       },
       {
         q: 'Is Wailea cheaper than Kāʻanapali?',
@@ -82,9 +82,9 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
     h1: 'What a night costs on Kauaʻi.',
     title: 'What a night costs on Kauai | myCHEF',
     description:
-      'Kauai starting prices from the rate card at inquiry: CORE $150–$250 a guest, Stay Chef from $1,100 a day, Date Night $650–$950. Both-shore travel prints. Distinct from /private-chef-cost.',
+      'Kauai starting prices from the rate card at inquiry: CORE $225–$375 a guest, Stay Chef from $1,650 a day, Date Night $975–$1,425. Both-shore travel prints. Distinct from /private-chef-cost.',
     lede:
-      'USD. Line by line. CORE $150–$250 a guest — Maui-class. Stay Chef from $1,100 a day. Inquiry: a band is not a live Book-now button. Far-North inherits /hanalei-bridge.',
+      'USD. Line by line. CORE $225–$375 a guest — Maui-class. Stay Chef from $1,650 a day. Inquiry: a band is not a live Book-now button. Far-North inherits /hanalei-bridge.',
     kicker: 'Kauaʻi · Rate card',
     photo: 'pricingKauai',
     body: [
@@ -99,7 +99,7 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
       },
       {
         q: 'Are groceries included?',
-        a: 'Two models, never blended, even at inquiry. On a Signature or per-guest dinner ($150–$250 a guest on Kauaʻi), food and grocery procurement sit inside the published band — no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking (from $1,100 a day), it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The stack is /private-chef-cost.',
+        a: 'Two models, never blended, even at inquiry. On a Signature or per-guest dinner ($225–$375 a guest on Kauaʻi), food and grocery procurement sit inside the published band — no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking (from $1,650 a day), it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The stack is /private-chef-cost.',
       },
       {
         q: 'Does a closed bridge change the band?',
@@ -111,9 +111,9 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
     h1: 'What a night costs on the Big Island.',
     title: 'What a night costs on the Big Island | myCHEF',
     description:
-      'Hawaiʻi Island starting prices from the rate card: CORE $150–$225 a guest, Stay Chef from $950 a day, ENTRY from $110. West side first. East side is a dedicated day. Distinct from /private-chef-cost.',
+      'Hawaiʻi Island starting prices from the rate card: CORE $210–$325 a guest, Stay Chef from $1,450 a day, ENTRY from $165. West side first. East side is a dedicated day. Distinct from /private-chef-cost.',
     lede:
-      'USD. Line by line. CORE $150–$225 a guest. Stay Chef from $950 a day. West-side first. Hilo is not a west-side round trip.',
+      'USD. Line by line. CORE $210–$325 a guest. Stay Chef from $1,450 a day. West-side first. Hilo is not a west-side round trip.',
     kicker: 'Hawaiʻi Island · Rate card',
     photo: 'pricingBigisland',
     body: [
@@ -128,7 +128,7 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
       },
       {
         q: 'Are groceries included?',
-        a: 'Two models, never blended. On a Signature or per-guest dinner ($150–$225 a guest, Table from $110), food and grocery procurement sit inside the published band — no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking (from $950 a day), it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The fee stack is /private-chef-cost.',
+        a: 'Two models, never blended. On a Signature or per-guest dinner ($210–$325 a guest, Table from $165), food and grocery procurement sit inside the published band — no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking (from $1,450 a day), it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The fee stack is /private-chef-cost.',
       },
       {
         q: 'Is Hilo inside CORE?',

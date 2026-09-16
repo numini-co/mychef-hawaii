@@ -101,7 +101,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     h1: 'A private chef’s table — in your own Maui villa.',
     title: 'Private Chef Maui | In-Villa Dinners and Weeks | myCHEF',
     description:
-      'Private chef Maui from $150 a guest. In-villa dinners and weeks in Wailea, Kīhei and West Maui. Maui catering is the larger door on /catering. Request a quote.',
+      'Private chef Maui from $225 a guest. In-villa dinners and weeks in Wailea, Kīhei and West Maui. Maui catering is the larger door on /catering. Request a quote.',
     lede:
       'A chef in your Wailea, Kapalua or Kāʻanapali villa. Published prices and a written menu. Staffed receptions live on /catering.',
     fromPp: 150,
@@ -118,7 +118,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     faqs: [
       {
         q: 'How much does a private chef cost on Maui?',
-        a: 'Signature dinners start at $150–$250 per person (CORE). Date Night for two starts from $500+. Stay Chef day rate from $1,050. 20% service and Hawaiʻi GET up to 4.712% are added as their own lines — once, on the written quote.',
+        a: 'Signature dinners start at $225–$375 per person (CORE). Date Night for two starts from $750+. Stay Chef day rate from $1,550. 20% service and Hawaiʻi GET up to 4.712% are added as their own lines — once, on the written quote.',
       },
       {
         q: 'What is included?',
@@ -134,7 +134,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
       },
       {
         q: 'Private chef Maui cost — what do I actually pay?',
-        a: 'Per person: CORE $150–$250. Groceries for Stay Chef are billed at cost with receipts. Service 20% and Hawaiʻi GET up to 4.712% sit on their own lines — once. See /pricing.',
+        a: 'Per person: CORE $225–$375. Groceries for Stay Chef are billed at cost with receipts. Service 20% and Hawaiʻi GET up to 4.712% sit on their own lines — once. See /pricing.',
       },
       {
         q: 'Do you do a private sushi chef on Maui?',
@@ -152,9 +152,9 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     h1: 'Private Chef Oahu — in your villa, in your home.',
     title: 'Private Chef Oahu | Villa and Household Chefs | myCHEF',
     description:
-      'Private chef Oahu from $125 a guest. Named corridors — Honolulu, Waikīkī, Kahala, Kailua, Ko Olina, North Shore. Villa dinners and household chefs. Request a quote.',
+      'Private chef Oahu from $195 a guest. Named corridors — Honolulu, Waikīkī, Kahala, Kailua, Ko Olina, North Shore. Villa dinners and household chefs. Request a quote.',
     lede:
-      'Private chef Oahu and Honolulu — villa dinners from $125 a guest. Staffed events for a larger list live on /catering. Same team: we shop, cook, serve and clean.',
+      'Private chef Oahu and Honolulu — villa dinners from $195 a guest. Staffed events for a larger list live on /catering. Same team: we shop, cook, serve and clean.',
     fromPp: 125,
     dayFrom: 850,
     heroPhoto: 'oahuHero',
@@ -169,7 +169,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     faqs: [
       {
         q: 'How much is a private chef in Honolulu or on Oʻahu?',
-        a: 'CORE dinners start at $125–$190 per person. Personal chef / weekly meal prep from $300/week plus groceries at cost. Day rate from $850. Written quote before you commit.',
+        a: 'CORE dinners start at $195–$290 per person. Personal chef / weekly meal prep from $450/week plus groceries at cost. Day rate from $1,250. Written quote before you commit.',
       },
       {
         q: 'Our condo kitchen is small — does that work?',
@@ -195,9 +195,9 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     h1: 'Private chef Kauai — both shores, inquiry stage.',
     title: 'Private Chef Kauai | Both Shores — Inquiry | myCHEF',
     description:
-      'Private chef Kauai from $150 a guest. Princeville, Poʻipū and Hanalei named in coverage. Both shores, inquiry stage.',
+      'Private chef Kauai from $225 a guest. Princeville, Poʻipū and Hanalei named in coverage. Both shores, inquiry stage.',
     lede:
-      'Private chef Kauai on both shores — Princeville, Poʻipū and Hanalei. Villa dinners and staffed events, inquiry stage. From $150 a guest.',
+      'Private chef Kauai on both shores — Princeville, Poʻipū and Hanalei. Villa dinners and staffed events, inquiry stage. From $225 a guest.',
     fromPp: 150,
     dayFrom: 1100,
     heroPhoto: 'kauaiHero',
@@ -210,7 +210,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     faqs: [
       {
         q: 'How much does a private chef cost on Kauaʻi?',
-        a: 'Starting $150–$250 per person for a signature dinner — the same band as Maui. Date Night from $650. Stay Chef from $1,100/day. Quote in writing.',
+        a: 'Starting $225–$375 per person for a signature dinner — the same band as Maui. Date Night from $975. Stay Chef from $1,650/day. Quote in writing.',
       },
       {
         q: 'Do you actually book Kauaʻi, or is this a waitlist?',
@@ -222,11 +222,11 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
       },
       {
         q: 'Can you staff a small wedding?',
-        a: 'Yes — Kauai wedding catering for estate formats to about 75 guests. Welcome dinner, rehearsal, reception as separate lines. From $175/pp plus staffing. WhatsApp the week.',
+        a: 'Yes — Kauai wedding catering for estate formats to about 75 guests. Welcome dinner, rehearsal, reception as separate lines. From $260/pp plus staffing. WhatsApp the week.',
       },
       {
         q: 'Kauai catering prices — buffet or plated?',
-        a: 'Same Kauaʻi CORE band as a private-chef dinner: $150–$250 per person. Buffet is the volume format; plated (coursed seated) is the restaurant arc. Staffing is itemised. Full menu and fee stack on /catering and /pricing.',
+        a: 'Same Kauaʻi CORE band as a private-chef dinner: $225–$375 per person. Buffet is the volume format; plated (coursed seated) is the restaurant arc. Staffing is itemised. Full menu and fee stack on /catering and /pricing.',
       },
       {
         q: 'Do you publish a Kauai catering menu?',
@@ -240,7 +240,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     h1: 'Private chef Big Island — the Kohala Coast first.',
     title: 'Private Chef Big Island | Kona–Kohala Inquiry | myCHEF',
     description:
-      'Private chef Big Island from $125 a guest. Named corridors — Kona, Waikoloa, Waimea, Kohala Coast. Inquiry stage. Villa dinners on the west side first.',
+      'Private chef Big Island from $195 a guest. Named corridors — Kona, Waikoloa, Waimea, Kohala Coast. Inquiry stage. Villa dinners on the west side first.',
     lede:
       'Kona and the Kohala Coast first — seven resort communities in one west-side radius. Hilo and Volcano are quote-only; we will not fake a same-day round trip.',
     fromPp: 125,
@@ -255,7 +255,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     faqs: [
       {
         q: 'How much is a private chef in Kona or on the Big Island?',
-        a: 'CORE dinners start at $150–$225 per person. ENTRY from $110. Stay Chef from $950/day. Same fee stack as every myCHEF Hawaii quote.',
+        a: 'CORE dinners start at $210–$325 per person. ENTRY from $165. Stay Chef from $1,450/day. Same fee stack as every myCHEF Hawaii quote.',
       },
       {
         q: 'Can you cover Hilo from Kona?',
@@ -279,14 +279,14 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'wailea',
       name: 'Wailea',
       h1: 'Private chef Wailea Maui',
-      title: 'Private chef Wailea Maui — from $150/pp | myCHEF',
+      title: 'Private chef Wailea Maui — from $225/pp | myCHEF',
       description:
-        'Private chef Wailea Maui from $150/pp. Published prices and menus — villa dinners and wedding-week catering in resort residences. WhatsApp for a quote.',
+        'Private chef Wailea Maui from $225/pp. Published prices and menus — villa dinners and wedding-week catering in resort residences. WhatsApp for a quote.',
       lede:
-        'Private chef Wailea Maui is the search. Hotel-zoned residences with real kitchens, published $150–$250/pp CORE, a written menu — not a named-chef marketplace.',
+        'Private chef Wailea Maui is the search. Hotel-zoned residences with real kitchens, published $225–$375/pp CORE, a written menu — not a named-chef marketplace.',
       body: [
         'This is not a resort communal chef’s table. It is your villa, your guest list, a menu designed that week.',
-        'Starting CORE $150–$250 per person. Date Night, Family Feast and Wedding week sit on the same rate card. We shop in Kihei / Wailea the day of service.',
+        'Starting CORE $225–$375 per person. Date Night, Family Feast and Wedding week sit on the same rate card. We shop in Kihei / Wailea the day of service.',
       ],
       zone: 'Base zone — travel included',
       photo: 'wailea',
@@ -297,11 +297,11 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         },
         {
           q: 'Can you do a wedding week in Wailea?',
-          a: 'Yes — welcome dinner through recovery brunch. Starting from $150/pp plus staffing.',
+          a: 'Yes — welcome dinner through recovery brunch. Starting from $225/pp plus staffing.',
         },
         {
           q: 'Private chef Maui cost in Wailea?',
-          a: 'CORE $150–$250 per person. Groceries for Stay Chef at cost. 20% service and GET up to 4.712% as their own lines. See /pricing.',
+          a: 'CORE $225–$375 per person. Groceries for Stay Chef at cost. 20% service and GET up to 4.712% as their own lines. See /pricing.',
         },
       ],
     },
@@ -309,9 +309,9 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'kaanapali',
       name: 'Kāʻanapali',
       h1: 'Private chef in Kāʻanapali, Maui',
-      title: 'Private chef Kaanapali Maui — from $150/pp | myCHEF',
+      title: 'Private chef Kaanapali Maui — from $225/pp | myCHEF',
       description:
-        'Private chef in Kāʻanapali and West Maui from $150/pp. Villa dinners and wedding-week satellite events. WhatsApp to book.',
+        'Private chef in Kāʻanapali and West Maui from $225/pp. Villa dinners and wedding-week satellite events. WhatsApp to book.',
       lede:
         'West Maui, named honestly: Kāʻanapali, Nāpili, Kapalua. Same CORE band as Wailea. Traffic is planned into arrival, not discovered on the invoice.',
       body: [
@@ -330,13 +330,13 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'lahaina',
       name: 'Lahaina / West Maui',
       h1: 'Private chef Lahaina Maui',
-      title: 'Private chef Lahaina Maui — West Maui from $150/pp | myCHEF',
+      title: 'Private chef Lahaina Maui — West Maui from $225/pp | myCHEF',
       description:
-        'Private chef Lahaina Maui — we cook West Maui: Kāʻanapali, Nāpili and Kapalua villas from $150/pp. Honest geography, published prices and menus.',
+        'Private chef Lahaina Maui — we cook West Maui: Kāʻanapali, Nāpili and Kapalua villas from $225/pp. Honest geography, published prices and menus.',
       lede:
         'People search “private chef Lahaina Maui.” We answer with the kitchens we actually enter: Kāʻanapali, Nāpili, Kapalua. West Maui service, published Maui prices.',
       body: [
-        'We do not market a luxury-dining destination that the town is not. We do cook next door, in hotel-zoned residences, at the same $150–$250/pp CORE band.',
+        'We do not market a luxury-dining destination that the town is not. We do cook next door, in hotel-zoned residences, at the same $225–$375/pp CORE band.',
         'WhatsApp the address. If the kitchen works, we book it. If it does not, we say so before you put a deposit down.',
       ],
       zone: 'West Maui — Kāʻanapali / Nāpili / Kapalua',
@@ -356,11 +356,11 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'kihei',
       name: 'Kīhei',
       h1: 'Private chef Kihei Maui',
-      title: 'Private chef Kihei Maui — from $150/pp | myCHEF',
+      title: 'Private chef Kihei Maui — from $225/pp | myCHEF',
       description:
-        'Private chef Kihei Maui. Family dinners and multi-day villa chefs from $150/pp. South Maui kitchens, published prices.',
+        'Private chef Kihei Maui. Family dinners and multi-day villa chefs from $225/pp. South Maui kitchens, published prices.',
       lede:
-        'Private chef Kihei Maui is a related search we actually serve — condos and vacation homes with kitchens, not a Wailea clone page. Same $150–$250/pp CORE. Kids’ plates are normal here.',
+        'Private chef Kihei Maui is a related search we actually serve — condos and vacation homes with kitchens, not a Wailea clone page. Same $225–$375/pp CORE. Kids’ plates are normal here.',
       body: [
         'Family Feast is the usual order: 6–8 people, fresh catch, a clean kitchen. Stay Chef if you are in for the week.',
       ],
@@ -381,19 +381,19 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'kapalua',
       name: 'Kapalua',
       h1: 'Private chef in Kapalua, Maui',
-      title: 'Private chef Kapalua Maui — Date Night from $500+ | myCHEF',
-      description: 'Private chef in Kapalua — dinners for two, family tables and wedding-week satellite dinners. From $150/pp.',
-      lede: 'Northwest Maui estates. Date Night is the product this bay was built for. CORE dinners from $150/pp.',
+      title: 'Private chef Kapalua Maui — Date Night from $750+ | myCHEF',
+      description: 'Private chef in Kapalua — dinners for two, family tables and wedding-week satellite dinners. From $225/pp.',
+      lede: 'Northwest Maui estates. Date Night is the product this bay was built for. CORE dinners from $225/pp.',
       body: ['Wine is yours or quoted separately. Florals and photography are add-on lines, never buried.'],
       zone: 'Base zone',
       photo: 'kapaluaTwo',
-      faqs: [{ q: 'Dinner for two?', a: 'Yes — Date Night from $500+ on Maui, cooked in the villa.' }],
+      faqs: [{ q: 'Dinner for two?', a: 'Yes — Date Night from $750+ on Maui, cooked in the villa.' }],
     },
     {
       slug: 'makena',
       name: 'Makena',
       h1: 'Private chef in Makena, Maui',
-      title: 'Private chef Makena Maui — from $150/pp | myCHEF',
+      title: 'Private chef Makena Maui — from $225/pp | myCHEF',
       description: 'Private chef south of Wailea in Makena. Same Maui starting prices, quieter inventory, wet-weather backup.',
       lede: 'South of Wailea, still base zone. Same CORE band. Outdoor tables always have a covered backup.',
       body: ['Family weeks and celebration dinners. Not a surcharge corridor.'],
@@ -407,13 +407,13 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'honolulu',
       name: 'Honolulu',
       h1: 'Private chef in Honolulu, Oʻahu',
-      title: 'Private chef Honolulu — from $125/pp | myCHEF',
+      title: 'Private chef Honolulu — from $195/pp | myCHEF',
       description:
-        'Private chef Honolulu and personal chef Honolulu from $125/pp. In-residence dinners from Waikīkī to Kahala. Weekly household service for kamaʻāina.',
+        'Private chef Honolulu and personal chef Honolulu from $195/pp. In-residence dinners from Waikīkī to Kahala. Weekly household service for kamaʻāina.',
       lede:
         'Honolulu is the residence search: private chef and personal chef in the same city. We cook in residences with kitchens — Gold Coast, Waikīkī towers, town apartments.',
       body: [
-        'Visitors book celebration dinners. Residents book the weekly line from $300/week plus groceries at cost.',
+        'Visitors book celebration dinners. Residents book the weekly line from $450/week plus groceries at cost.',
         'Standard hotel rooms without kitchens are not a chef venue. Residences, yes.',
       ],
       zone: 'Base zone — town',
@@ -434,9 +434,9 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       name: 'Waikīkī',
       h1: 'Private chef in Waikīkī, Oʻahu',
       title: 'Private chef Waikiki — residences with kitchens | myCHEF',
-      description: 'Private chef in Waikīkī from $125/pp — resort residences and apartments with real kitchens, not hotel rooms.',
+      description: 'Private chef in Waikīkī from $195/pp — resort residences and apartments with real kitchens, not hotel rooms.',
       lede: 'Most Waikīkī hotel rooms cannot host a chef. We cook in residences with a cooktop and a table — and we say no when they do not.',
-      body: ['Freight elevators, loading docks and COIs are arranged with the building. CORE from $125/pp.'],
+      body: ['Freight elevators, loading docks and COIs are arranged with the building. CORE from $195/pp.'],
       zone: 'Base zone',
       photo: 'waikiki',
       faqs: [
@@ -450,8 +450,8 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'kailua',
       name: 'Kailua',
       h1: 'Private chef in Kailua, Oʻahu',
-      title: 'Private chef Kailua & Lanikai — from $125/pp | myCHEF',
-      description: 'Private chef in Kailua and Lanikai. Windward estate weeks and family dinners from $125/pp.',
+      title: 'Private chef Kailua & Lanikai — from $195/pp | myCHEF',
+      description: 'Private chef in Kailua and Lanikai. Windward estate weeks and family dinners from $195/pp.',
       lede: 'Windward stays run in weeks, not weekends. Multi-day Stay Chef is the honest product under the 30-day rental rule.',
       body: ['Family Feast for a celebration night inside a longer stay. Base zone from town.'],
       zone: 'Base zone — windward',
@@ -468,7 +468,7 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       name: 'North Shore',
       h1: 'Private chef in North Shore, Oʻahu',
       title: 'Private chef North Shore Oahu — Turtle Bay villas | myCHEF',
-      description: 'Private chef North Shore Oahu. Turtle Bay and North Shore villas — published drive surcharge, CORE from $125/pp.',
+      description: 'Private chef North Shore Oahu. Turtle Bay and North Shore villas — published drive surcharge, CORE from $195/pp.',
       lede: 'The drive is 60–90+ minutes. The surcharge is on the quote. Surf season books early.',
       body: ['Dedicated chef days — we do not stack a town dinner and a North Shore dinner on the same calendar.'],
       zone: 'Surcharge zone',
@@ -481,10 +481,10 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'kahala',
       name: 'Kahala',
       h1: 'Private chef in Kahala, Oʻahu',
-      title: 'Private chef Kahala & Gold Coast — from $125/pp | myCHEF',
-      description: 'Private chef in Kahala and the Gold Coast. Estate dinners and weekly household service from $125/pp.',
+      title: 'Private chef Kahala & Gold Coast — from $195/pp | myCHEF',
+      description: 'Private chef in Kahala and the Gold Coast. Estate dinners and weekly household service from $195/pp.',
       lede: 'Honolulu’s household-entertaining belt. Celebration dinners and the kamaʻāina weekly line overlap here.',
-      body: ['Real dining rooms. CORE $125–$190/pp. Weekly from $300 plus groceries at cost.'],
+      body: ['Real dining rooms. CORE $195–$290/pp. Weekly from $450 plus groceries at cost.'],
       zone: 'Base zone',
       photo: 'locKahala',
       faqs: [{ q: 'Weekly service?', a: 'Yes — this is the core of personal chef Honolulu.' }],
@@ -493,8 +493,8 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'ko-olina',
       name: 'Ko Olina',
       h1: 'Private chef in Ko Olina, Oʻahu',
-      title: 'Private chef Ko Olina — villa weeks from $850/day | myCHEF',
-      description: 'Private chef in Ko Olina. Legal short-stay villas, Stay Chef from $850/day, dinners from $125/pp.',
+      title: 'Private chef Ko Olina — villa weeks from $1,250/day | myCHEF',
+      description: 'Private chef in Ko Olina. Legal short-stay villas, Stay Chef from $1,250/day, dinners from $195/pp.',
       lede: 'The west-side villa week. Provisioning for the stay, arrival-night dinner, a stocked fridge.',
       body: ['Stay Chef is the lead. One-night dinners still book. Base zone with west-side shopping.'],
       zone: 'Base zone',
@@ -507,11 +507,11 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'princeville',
       name: 'Princeville',
       h1: 'Private chef Princeville Kauai',
-      title: 'Private chef Princeville Kauai — from $150/pp | myCHEF',
+      title: 'Private chef Princeville Kauai — from $225/pp | myCHEF',
       description:
-        'Private chef Princeville Kauai from $150/pp. North Shore estate dinners, villa weeks and Kauai catering. Inquiry stage.',
+        'Private chef Princeville Kauai from $225/pp. North Shore estate dinners, villa weeks and Kauai catering. Inquiry stage.',
       lede:
-        'Private chef Princeville is the North Shore search. Inquiry stage. CORE $150–$250/pp — Maui-class prices. Kauai catering for the same estates.',
+        'Private chef Princeville is the North Shore search. Inquiry stage. CORE $225–$375/pp — Maui-class prices. Kauai catering for the same estates.',
       body: [
         'Winter surf season: ask early. Far-North (Hāʻena) inherits the Hanalei-bridge weather clause — reschedule rather than forfeit.',
         'Need a reception, not a dinner? Kauai catering — buffet or plated, wedding week, published prices — is a peer door on this host.',
@@ -534,9 +534,9 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'poipu',
       name: 'Poʻipū',
       h1: 'Private chef Poipu Kauai',
-      title: 'Private chef Poipu Kauai — from $150/pp | myCHEF',
+      title: 'Private chef Poipu Kauai — from $225/pp | myCHEF',
       description:
-        'Private chef Poipu Kauai from $150/pp. South Shore arrival-night dinners, retreat weeks and Kauai catering in Poʻipū and Kōloa.',
+        'Private chef Poipu Kauai from $225/pp. South Shore arrival-night dinners, retreat weeks and Kauai catering in Poʻipū and Kōloa.',
       lede:
         'Private chef Poipu Kauai is a related search we book. Sunnier, steadier, closer to Līhuʻe. Arrival-night dinner plus Stay Chef — or Kauai catering for the house.',
       body: [
@@ -557,13 +557,13 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'hanalei',
       name: 'Hanalei',
       h1: 'Private chef Hanalei Kauai',
-      title: 'Private chef Hanalei Kauai — from $150/pp | myCHEF',
+      title: 'Private chef Hanalei Kauai — from $225/pp | myCHEF',
       description:
-        'Private chef Hanalei Kauai from $150/pp. North Shore dinners and Kauai catering. Weather and road honesty published up front.',
+        'Private chef Hanalei Kauai from $225/pp. North Shore dinners and Kauai catering. Weather and road honesty published up front.',
       lede:
-        'Private chef Hanalei is the valley search. The bridge is real. We plan around it instead of arguing with it. CORE from $150/pp.',
+        'Private chef Hanalei is the valley search. The bridge is real. We plan around it instead of arguing with it. CORE from $225/pp.',
       body: [
-        'Estate dinners and Kauai wedding catering when the guest list grows. 72-hour notice for far-North. CORE from $150/pp.',
+        'Estate dinners and Kauai wedding catering when the guest list grows. 72-hour notice for far-North. CORE from $225/pp.',
       ],
       zone: 'North Shore',
       photo: 'locHanalei',
@@ -579,8 +579,8 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'kapaa',
       name: 'Kapaʻa',
       h1: 'Private chef in Kapaʻa, Kauaʻi',
-      title: 'Private chef Kapaa Kauai — from $150/pp | myCHEF',
-      description: 'Private chef in Kapaʻa and the east side. Household dinners from $150/pp.',
+      title: 'Private chef Kapaa Kauai — from $225/pp | myCHEF',
+      description: 'Private chef in Kapaʻa and the east side. Household dinners from $225/pp.',
       lede: 'East-side town, closer to the Līhuʻe base than either shore villa belt. Honest, not the hero product — still a real booking.',
       body: ['Family Feast and weekly-style nights. Same Kauaʻi starting prices.'],
       zone: 'East side — included',
@@ -593,12 +593,12 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'kona',
       name: 'Kona',
       h1: 'Private chef in Kona, Hawaiʻi Island',
-      title: 'Private chef Kona Hawaii — from $125/pp | myCHEF',
+      title: 'Private chef Kona Hawaii — from $195/pp | myCHEF',
       description:
-        'Private chef Kona and Kailua-Kona from $125/pp. West-side villa dinners, Stay Chef weeks, Ironman-week honesty.',
+        'Private chef Kona and Kailua-Kona from $195/pp. West-side villa dinners, Stay Chef weeks, Ironman-week honesty.',
       lede: 'Private chef Kona is covered on this island — Kailua-Kona, Keauhou and the south end of the Kohala corridor.',
       body: [
-        'CORE $150–$225/pp. Event weeks (including Ironman) compress the calendar — flag dates on WhatsApp.',
+        'CORE $210–$325/pp. Event weeks (including Ironman) compress the calendar — flag dates on WhatsApp.',
         'Named Kona coffee follows origin-labeling rules. We do not invent farm names.',
       ],
       zone: 'West-side base',
@@ -623,8 +623,8 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'waikoloa',
       name: 'Waikoloa',
       h1: 'Private chef in Waikoloa, Hawaiʻi Island',
-      title: 'Private chef Waikoloa — Kohala Coast from $125/pp | myCHEF',
-      description: 'Private chef in Waikoloa and the Kohala resort corridor. Villa weeks and dinners from $125/pp.',
+      title: 'Private chef Waikoloa — Kohala Coast from $195/pp | myCHEF',
+      description: 'Private chef in Waikoloa and the Kohala resort corridor. Villa weeks and dinners from $195/pp.',
       lede: 'Inside the 30-minute west-side radius. Same Kona–Kohala team. Stay Chef for the villa week.',
       body: ['Seven resort communities share this corridor. We will not pretend to cover Hilo from here in an afternoon.'],
       zone: 'Base — Kohala corridor',
@@ -635,7 +635,7 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'kohala',
       name: 'Kohala Coast',
       h1: 'Private chef on the Kohala Coast',
-      title: 'Private chef Kohala Coast — from $125/pp | myCHEF',
+      title: 'Private chef Kohala Coast — from $195/pp | myCHEF',
       description: 'Private chef Kohala Coast. Waikoloa, Mauna Lani, Mauna Kea resort belt. Published starting prices.',
       lede: 'The opening move on Hawaiʻi Island: one 30-minute service radius, the island’s highest villa ADRs.',
       body: ['Sourcing-led dinners. Producer names only with written verification.'],

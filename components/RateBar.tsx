@@ -43,8 +43,8 @@ export default function RateBar() {
 
   let teaser: string;
   if (!islandId) {
-    teaser = 'Private chef from $125/guest · Stay Chef from $850/day';
-    const desktop = 'Statewide floors (Oʻahu) — Private chef from $125/guest · Stay Chef from $850/day';
+    teaser = 'Private chef from $195/guest · Stay Chef from $1,250/day';
+    const desktop = 'Statewide floors (Oʻahu) — Private chef from $195/guest · Stay Chef from $1,250/day';
     return (
       <Bar
         barRef={barRef}

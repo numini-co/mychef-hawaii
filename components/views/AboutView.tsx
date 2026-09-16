@@ -226,7 +226,7 @@ export default function AboutView() {
             ))}
           </ol>
           <p className="mt-10 max-w-[65ch] text-[17px] leading-[1.7] text-mute">
-            Signature dinner starts from $125 a guest on Oʻahu and $150 on Maui and Kauaʻi. Wedding-week and catering
+            Signature dinner starts from $195 a guest on Oʻahu and $225 on Maui and Kauaʻi. Wedding-week and catering
             formats add staffing by the hour. The confirmed total is the written quote.
           </p>
         </div>

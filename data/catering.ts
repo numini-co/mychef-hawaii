@@ -36,7 +36,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     h1: 'Oahu catering — staffed events from Honolulu to Ko Olina.',
     title: 'Oahu Catering | Honolulu to Ko Olina Events | myCHEF',
     description:
-      'Oahu catering from $125 a guest. Staffed events from Honolulu to Ko Olina. Buffet or plated. Request a quote.',
+      'Oahu catering from $195 a guest. Staffed events from Honolulu to Ko Olina. Buffet or plated. Request a quote.',
     lede:
       'Oahu catering is the staffed-event door: buffet or plated, villa, retreat, wedding. Published prices and a written menu. Honolulu to Ko Olina.',
     fromPp: 125,
@@ -46,7 +46,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     faqs: [
       {
         q: 'How much is Oahu catering?',
-        a: 'CORE food from $125–$190 per person. Wedding catering Oahu from $125/pp plus staffing ($55/hr server, $75/hr sous-chef, 4–5 hour minimums). 20% service and Hawaiʻi GET up to 4.712% on their own lines, once.',
+        a: 'CORE food from $195–$290 per person. Wedding catering Oahu from $195/pp plus staffing ($80/hr server, $105/hr sous-chef, 4–5 hour minimums). 20% service and Hawaiʻi GET up to 4.712% on their own lines, once.',
       },
       {
         q: 'Buffet vs plated?',
@@ -62,7 +62,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
       },
       {
         q: 'Cheap catering Oahu?',
-        a: 'Related search, not a coupon. Published CORE from $125 a guest plus staffing, service, and GET as their own lines. We will not invent a mystery low number. The written quote is the total.',
+        a: 'Related search, not a coupon. Published CORE from $195 a guest plus staffing, service, and GET as their own lines. We will not invent a mystery low number. The written quote is the total.',
       },
       {
         q: 'Wedding catering Oahu?',
@@ -76,9 +76,9 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     h1: 'Maui catering — staffed villa events, not drop-off.',
     title: 'Maui Catering | Villa Receptions and Events | myCHEF',
     description:
-      'Maui catering from $150 a guest. Staffed villa events, not drop-off. Buffet or plated. Request a quote.',
+      'Maui catering from $225 a guest. Staffed villa events, not drop-off. Buffet or plated. Request a quote.',
     lede:
-      'Maui catering is the staffed-room door on this island — not drop-off. Same team as a villa dinner. Buffet or plated. Published $150–$250 a guest.',
+      'Maui catering is the staffed-room door on this island — not drop-off. Same team as a villa dinner. Buffet or plated. Published $225–$375 a guest.',
     fromPp: 150,
     weddingFrom: 150,
     places: 'Wailea, Kāʻanapali, Lahaina / West Maui, Kīhei, Kapalua',
@@ -86,7 +86,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     faqs: [
       {
         q: 'How much is Maui catering?',
-        a: 'CORE $150–$250 per person. Wedding catering Maui from $150/pp plus staffing. Groceries at cost on multi-day. 20% service and GET up to 4.712% as their own lines.',
+        a: 'CORE $225–$375 per person. Wedding catering Maui from $225/pp plus staffing. Groceries at cost on multi-day. 20% service and GET up to 4.712% as their own lines.',
       },
       {
         q: 'Buffet vs plated on Maui?',
@@ -102,7 +102,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
       },
       {
         q: 'Affordable catering Maui?',
-        a: 'Related search, not a discount brand. Published CORE $150–$250 a guest plus staffing, service, and GET as their own lines. The written quote is the total. We do not invent a cheaper kitchen.',
+        a: 'Related search, not a discount brand. Published CORE $225–$375 a guest plus staffing, service, and GET as their own lines. The written quote is the total. We do not invent a cheaper kitchen.',
       },
     ],
   },
@@ -112,7 +112,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     h1: 'Kauai catering — both shores, inquiry stage.',
     title: 'Kauai Catering | Estate Events — Inquiry | myCHEF',
     description:
-      'Kauai catering from $150 a guest. Estate events on both shores. Inquiry stage. Buffet or plated.',
+      'Kauai catering from $225 a guest. Estate events on both shores. Inquiry stage. Buffet or plated.',
     lede:
       'Kauai catering is the staffed-event door on both shores — inquiry stage. Published prices, a sample menu, buffet or plated. Villa dinners live on the home.',
     fromPp: 150,
@@ -122,7 +122,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     faqs: [
       {
         q: 'How much is Kauai catering?',
-        a: 'CORE $150–$250 per person. Kauai wedding catering from $175/pp plus staffing. A local competitor publishes $200–$250/pp — we publish the band and a written quote, not a mystery total.',
+        a: 'CORE $225–$375 per person. Kauai wedding catering from $260/pp plus staffing. A local competitor publishes $200–$250/pp — we publish the band and a written quote, not a mystery total.',
       },
       {
         q: 'Buffet vs plated?',
@@ -142,9 +142,9 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     keyword: 'big island catering',
     volume: CATERING_VOLUMES['big island catering'],
     h1: 'Big Island catering',
-    title: 'Big Island catering — Kona & Kohala from $125/pp | myCHEF',
+    title: 'Big Island catering — Kona & Kohala from $195/pp | myCHEF',
     description:
-      'Catering on Hawaiʻi Island from $125/pp. Kohala Coast and Kona villa receptions, buffet or plated. WhatsApp for a written quote.',
+      'Catering on Hawaiʻi Island from $195/pp. Kohala Coast and Kona villa receptions, buffet or plated. WhatsApp for a written quote.',
     lede:
       'West-side first: Kohala and Kona estates. Buffet or plated. Published starting prices. Hilo is quote-only — we will not fake a same-day round trip.',
     fromPp: 125,
@@ -154,7 +154,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     faqs: [
       {
         q: 'How much is catering on the Big Island?',
-        a: 'CORE $150–$225 per person, ENTRY from $110. Wedding from $150/pp plus staffing. Same fee stack as every myCHEF Hawaii quote.',
+        a: 'CORE $210–$325 per person, ENTRY from $165. Wedding from $225/pp plus staffing. Same fee stack as every myCHEF Hawaii quote.',
       },
       {
         q: 'Hilo from Kona?',
@@ -176,7 +176,7 @@ export const HUB_CATERING = {
   faqs: [
     {
       q: 'How much is Hawaii catering?',
-      a: 'Signature food from $125 a guest on Oʻahu, $150 on Maui and Kauaʻi. Wedding catering from $125–$175 a guest plus staffing, depending on the island. 20% service and Hawaiʻi GET up to 4.712% sit on their own lines, once.',
+      a: 'Signature food from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi. Wedding catering from $190–$260 a guest plus staffing, depending on the island. 20% service and Hawaiʻi GET up to 4.712% sit on their own lines, once.',
     },
     {
       q: 'Buffet or plated?',

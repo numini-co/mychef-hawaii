@@ -23,10 +23,10 @@ const VAC: Record<
 > = {
   maui: {
     h1: 'A chef for your whole Maui stay.',
-    lede: 'Stay Chef day rates from $1,050. Groceries at cost. Arrival-night dinner, a stocked fridge, full-board days when the house actually cooks.',
+    lede: 'Stay Chef day rates from $1,550. Groceries at cost. Arrival-night dinner, a stocked fridge, full-board days when the house actually cooks.',
     photo: 'vacationMaui',
     body: [
-      'Stay Chef on Maui is the visitor week: arrival-night dinner, a stocked fridge, full-board days when the house actually cooks. Groceries billed at cost with receipts. From $1,050 a day.',
+      'Stay Chef on Maui is the visitor week: arrival-night dinner, a stocked fridge, full-board days when the house actually cooks. Groceries billed at cost with receipts. From $1,550 a day.',
       '/personal-chef is the resident household line. This URL is the villa week for Wailea, Kīhei, Kapalua, Kāʻanapali and Makena.',
       'The house must have a working kitchen. Hotel rooms without a cooktop are declined.',
     ],
@@ -38,10 +38,10 @@ const VAC: Record<
   },
   oahu: {
     h1: 'A chef for the Oʻahu villa week.',
-    lede: 'Stay Chef from $850 a day. Groceries at cost. Arrival-night dinner, a stocked fridge, full-board days when the house actually cooks. Weekly household cooking is /personal-chef.',
+    lede: 'Stay Chef from $1,250 a day. Groceries at cost. Arrival-night dinner, a stocked fridge, full-board days when the house actually cooks. Weekly household cooking is /personal-chef.',
     photo: 'vacationOahu',
     body: [
-      'Stay Chef on Oʻahu is the visitor week: arrival-night dinner, a stocked fridge, full-board days when the house actually cooks. Groceries billed at cost with receipts. From $850 a day.',
+      'Stay Chef on Oʻahu is the visitor week: arrival-night dinner, a stocked fridge, full-board days when the house actually cooks. Groceries billed at cost with receipts. From $1,250 a day.',
       'The kamaʻāina weekly line is a different document — /kamaaina and /personal-chef. Same crew, different rhythm. This URL is the villa week for guests.',
       'Kahala, Ko Olina, windward houses. A real cooktop is required. Hotel rooms without kitchens are declined.',
     ],
@@ -54,10 +54,10 @@ const VAC: Record<
   },
   kauai: {
     h1: 'A chef for your Kauaʻi week.',
-    lede: 'Stay Chef from $1,100 a day. Princeville, Poʻipū, Hanalei. Inquiry stage. Groceries billed at cost with receipts.',
+    lede: 'Stay Chef from $1,650 a day. Princeville, Poʻipū, Hanalei. Inquiry stage. Groceries billed at cost with receipts.',
     photo: 'vacationKauai',
     body: [
-      'Stay Chef on Kauaʻi is inquiry-stage. From $1,100 a day when we can staff Princeville, Poʻipū or Hanalei. Groceries billed at cost with receipts.',
+      'Stay Chef on Kauaʻi is inquiry-stage. From $1,650 a day when we can staff Princeville, Poʻipū or Hanalei. Groceries billed at cost with receipts.',
       'We do not hold a fake Book-now button. Inquiry first, then a written quote if the week can be staffed.',
       '/personal-chef is the resident line. This URL is the visitor week.',
     ],
@@ -69,10 +69,10 @@ const VAC: Record<
   },
   bigisland: {
     h1: 'A chef for the Kohala week.',
-    lede: 'Stay Chef from $950 a day. West-side first — Kona and the Kohala Coast. Inquiry stage.',
+    lede: 'Stay Chef from $1,450 a day. West-side first — Kona and the Kohala Coast. Inquiry stage.',
     photo: 'vacationBigisland',
     body: [
-      'Stay Chef on Hawaiʻi Island is west-side first — Kona and the Kohala Coast. From $950 a day. Inquiry stage.',
+      'Stay Chef on Hawaiʻi Island is west-side first — Kona and the Kohala Coast. From $1,450 a day. Inquiry stage.',
       'Hilo, Volcano and Kaʻū are quote-only dedicated days, not a same-day west-side round trip.',
       '/personal-chef is the resident line. This URL is the visitor week.',
     ],
@@ -90,14 +90,14 @@ export function HubOfferView({ kind }: { kind: 'private-chef' | 'vacation-chef' 
     kind === 'private-chef'
       ? {
           h1: 'Visitor dinners in Hawaii villas.',
-          lede: 'Open the island document. Oʻahu from $125 a guest, Maui and Kauaʻi from $150 a guest. Weekly household cooking lives on each island /personal-chef.',
+          lede: 'Open the island document. Oʻahu from $195 a guest, Maui and Kauaʻi from $225 a guest. Weekly household cooking lives on each island /personal-chef.',
           img: photos.hubChef,
           service: 'private-chef',
           path: '/private-chef' as const,
         }
       : {
           h1: 'Vacation chef — a chef for the villa week',
-          lede: 'Stay Chef day rates from $850 Oʻahu / $1,050 Maui / $1,100 Kauaʻi / $950 Hawaiʻi Island. Groceries at cost.',
+          lede: 'Stay Chef day rates from $1,250 Oʻahu / $1,550 Maui / $1,650 Kauaʻi / $1,450 Hawaiʻi Island. Groceries at cost.',
           img: photos.hubVacation,
           service: 'vacation-chef',
           path: '/vacation-chef' as const,

@@ -27,7 +27,7 @@ export const islands: Record<IslandId, IslandMeta> = {
     role: 'Oahu catering and private chef Oahu. Honolulu to Ko Olina.',
     basePath: '/oahu',
     selectorImage: '/photos/heroes/hero-oahu.png',
-    selectorCta: 'Private chef Oahu — from $125/pp',
+    selectorCta: 'Private chef Oahu — from $195/pp',
     stateLabel: 'Request a quote',
   },
   maui: {
@@ -39,7 +39,7 @@ export const islands: Record<IslandId, IslandMeta> = {
     role: 'Private chef Maui and Maui catering. Wailea to West Maui.',
     basePath: '/maui',
     selectorImage: '/photos/heroes/hero-maui.png',
-    selectorCta: 'Private chef Maui — from $150/pp',
+    selectorCta: 'Private chef Maui — from $225/pp',
     stateLabel: 'Request a quote',
   },
   kauai: {

@@ -290,7 +290,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       photo: 'cellKauaiNorth',
       body: [
         'Live corridors: /princeville, /hanalei. Hāʻena is quote-only with /hanalei-bridge. This page is the shore as a whole so those neighborhood titles stay specific.',
-        `Private chef Poipu Kauai is a related South Shore phrase. This URL is the North. Starting prices from $150 a guest — published, not invented.`,
+        `Private chef Poipu Kauai is a related South Shore phrase. This URL is the North. Starting prices from $225 a guest — published, not invented.`,
         'Inquiry stage. We staff the estate when a crew exists.',
       ],
       faqs: [
@@ -353,7 +353,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         `Kauai wedding catering is ${SEARCH_VOLUMES['kauai wedding catering']} monthly. /weddings holds that keyword. This page holds the week stack.`,
         'Welcome, rehearsal, reception as separate lines. Estate formats to about 75. Far-North weeks inherit /hanalei-bridge.',
-        'From $175 a guest plus staffing — published. Inquiry list with the shore and the dates.',
+        'From $260 a guest plus staffing — published. Inquiry list with the shore and the dates.',
       ],
       faqs: [
         {

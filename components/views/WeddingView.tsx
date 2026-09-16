@@ -67,7 +67,7 @@ const ISLAND_COPY: Record<
   kauai: {
     h1: 'Kauai wedding catering — both shores.',
     lede:
-      'Kauai wedding catering in Princeville, Hanalei and Poʻipū — formats to about 75 guests. Welcome dinner, rehearsal, reception as separate lines. From $175 a guest plus staffing. Inquiry stage.',
+      'Kauai wedding catering in Princeville, Hanalei and Poʻipū — formats to about 75 guests. Welcome dinner, rehearsal, reception as separate lines. From $260 a guest plus staffing. Inquiry stage.',
     eyebrow: 'myCHEF Kauaʻi — Estate weddings',
     hero: photos.weddingKauai,
   },

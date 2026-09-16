@@ -262,7 +262,7 @@ export const locations: LocationRecord[] = [
     faqs: [
       {
         q: 'Can you do a dinner-for-two here?',
-        a: 'Yes — it is a fixed-price intimacy product, from $500+ on Maui, published on the rate card. Quote confirmed in writing.',
+        a: 'Yes — it is a fixed-price intimacy product, from $750+ on Maui, published on the rate card. Quote confirmed in writing.',
       },
       {
         q: 'Do you handle wine?',

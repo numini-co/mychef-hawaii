@@ -78,7 +78,7 @@ export const islandAbout: Record<IslandId, IslandAboutCopy> = {
     },
     body: [
       'Kauaʻi is both shores, inquiry-stage. Live corridors on this host: /princeville, /poipu, /hanalei, /kapaa. Far-North inquiries inherit a written road clause instead of a shrug.',
-      'We do not pretend Līhuʻe and Hāʻena are the same afternoon. Menu bands match Maui: CORE $150–$250 a guest. The zone map is a map, not a surprise.',
+      'We do not pretend Līhuʻe and Hāʻena are the same afternoon. Menu bands match Maui: CORE $225–$375 a guest. The zone map is a map, not a surprise.',
       'Join the inquiry list with the shore and the dates. We do not invent Kauaʻi reviews or a Book-now button on a calendar we have not staffed yet.',
     ],
     faqs: [

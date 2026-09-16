@@ -71,7 +71,7 @@ export function HubCateringView() {
           className="mt-4 font-display text-[clamp(2.5rem,5vw,4rem)] font-light leading-[1.05] text-ink"
         />
         <p className="mt-5 max-w-[54ch] text-[17px] leading-[1.65] text-ink">{HUB_CATERING.lede}</p>
-        <p className="mt-4 text-[17px] text-ink">Ten to seventy-five guests. From $125 a guest on Oʻahu.</p>
+        <p className="mt-4 text-[17px] text-ink">Ten to seventy-five guests. From $195 a guest on Oʻahu.</p>
         <div className="mt-8">
           <QuoteCta service="catering" variant="light" />
         </div>
@@ -153,7 +153,7 @@ export function HubCateringView() {
       />
       <SiblingCluster current="catering" />
       <LongFaq items={[...HUB_CATERING.faqs, ...hubCateringFaqs]} />
-      <QuoteTeaser headline="Hawaii catering — from $125 a guest. Quote in writing." />
+      <QuoteTeaser headline="Hawaii catering — from $195 a guest. Quote in writing." />
     </>
   );
 }
@@ -308,17 +308,17 @@ function PricesHub() {
           <article className="border border-ink bg-paper p-7">
             <p className="text-[12px] text-mute">Food — CORE</p>
             <p className="mt-4 font-display text-4xl font-light tracking-tight text-ink">
-              $125–$250
+              $195–$375
               <span className="ml-2 font-sans text-base font-normal text-mute">per guest</span>
             </p>
             <p className="mt-3 text-sm text-mute">
-              Oʻahu $125–$190. Maui and Kauaʻi $150–$250. Big Island $150–$225.
+              Oʻahu $195–$290. Maui and Kauaʻi $225–$375. Big Island $210–$325.
             </p>
           </article>
           <article className="border border-line bg-paper p-7">
             <p className="text-[12px] text-mute">Wedding week</p>
             <p className="mt-4 font-display text-4xl font-light tracking-tight text-ink">
-              from $125
+              from $195
               <span className="ml-2 font-sans text-base font-normal text-mute">per guest + staffing</span>
             </p>
             <p className="mt-3 text-sm text-mute">Welcome dinner, rehearsal, reception, recovery brunch as separate lines.</p>

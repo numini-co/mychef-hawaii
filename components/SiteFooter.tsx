@@ -174,8 +174,8 @@ export default function SiteFooter({
         <div className="mt-12 border-t border-white/15 pt-6">
           <ContactCluster island={islandId} compact />
           <p className="mt-4 text-[13px] leading-relaxed text-on-ink">
-            Published prices. Written quote. 20% service and Hawaiʻi GET are their own lines. Oʻahu Signature $125–$190 a
-            guest. Maui $150–$250.{' '}
+            Published prices. Written quote. 20% service and Hawaiʻi GET are their own lines. Oʻahu Signature $195–$290 a
+            guest. Maui $225–$375.{' '}
             <a href={href('/legal')} className="underline underline-offset-2">
               Legal
             </a>

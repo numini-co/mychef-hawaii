@@ -82,7 +82,7 @@ export const eventOffers: Record<IslandId, EventOffer> = {
     faqs: [
       {
         q: 'Is this Maui catering?',
-        a: 'Maui catering is /catering — 480 monthly searches, published $150–$250 a guest. This page is the occasion cell so those titles do not collide.',
+        a: 'Maui catering is /catering — 480 monthly searches, published $225–$375 a guest. This page is the occasion cell so those titles do not collide.',
       },
       {
         q: 'Can you do a villa party in Lahaina?',
@@ -109,7 +109,7 @@ export const eventOffers: Record<IslandId, EventOffer> = {
       },
       {
         title: 'Wedding-adjacent nights',
-        text: 'Welcome dinner or rehearsal as its own line. The week is /weddings. From $175 a guest plus staffing.',
+        text: 'Welcome dinner or rehearsal as its own line. The week is /weddings. From $260 a guest plus staffing.',
       },
     ],
     faqs: [

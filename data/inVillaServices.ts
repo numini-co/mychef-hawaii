@@ -391,7 +391,7 @@ export const inVillaPages: InVillaPage[] = [
     faqs: [
       {
         q: 'How much does a private chef for a week in Hawaiʻi cost?',
-        a: 'The Stay Chef service is a published day rate for a chef and assistant (one meal a day, with shopping, cooking, service and cleanup), from $850/day on Oʻahu and island-adjusted on Maui, Kauaʻi and Hawaiʻi Island. Extra meals are quoted the same day. For multi-day stays there is also a published per-person, per-day vacation-chef band. Groceries are extra at cost with receipts.',
+        a: 'The Stay Chef service is a published day rate for a chef and assistant (one meal a day, with shopping, cooking, service and cleanup), from $1,250/day on Oʻahu and island-adjusted on Maui, Kauaʻi and Hawaiʻi Island. Extra meals are quoted the same day. For multi-day stays there is also a published per-person, per-day vacation-chef band. Groceries are extra at cost with receipts.',
       },
       {
         q: 'Are groceries included in the daily rate?',

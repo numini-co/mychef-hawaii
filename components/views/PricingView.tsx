@@ -41,7 +41,7 @@ const TIER_LABEL: Record<RateTier, string> = {
 const faqs = [
   {
     q: 'How much does a private chef cost in Hawaii?',
-    a: 'Oʻahu Signature $125–$190 a guest. Maui and Kauaʻi $150–$250. Hawaiʻi Island Signature $150–$225, Table from $110. Stay Chef day rates from $850 Oʻahu / $1,050 Maui / $1,100 Kauaʻi / $950 Hawaiʻi Island. Written quote before you commit.',
+    a: 'Oʻahu Signature $195–$290 a guest. Maui and Kauaʻi $225–$375. Hawaiʻi Island Signature $210–$325, Table from $165. Stay Chef day rates from $1,250 Oʻahu / $1,550 Maui / $1,650 Kauaʻi / $1,450 Hawaiʻi Island. Written quote before you commit.',
   },
   {
     q: 'Private chef Hawaii cost — what is actually on the quote?',

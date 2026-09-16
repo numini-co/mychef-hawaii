@@ -12,14 +12,14 @@ export interface PageMetaRecord {
 const DEFAULT: PageMetaRecord = {
   title: 'Private Chef Hawaii | Four Island Villa Chefs | myCHEF',
   description:
-    'Private chef Hawaii for villa dinner and in-home service. Oahu from $125 a guest. Maui, Kauaʻi, and the Big Island. Request a quote.',
+    'Private chef Hawaii for villa dinner and in-home service. Oahu from $195 a guest. Maui, Kauaʻi, and the Big Island. Request a quote.',
 };
 
 export const PAGE_META: Record<string, PageMetaRecord> = {
   '/': {
     title: 'Private Chef Hawaii — Four Islands, Published Prices | myCHEF',
     description:
-      'Private chef & catering across Oʻahu, Maui, Kauaʻi and the Big Island. From $125 a guest, published. Written quote is the total; 20% service and Hawaiʻi GET itemized.',
+      'Private chef & catering across Oʻahu, Maui, Kauaʻi and the Big Island. From $195 a guest, published. Written quote is the total; 20% service and Hawaiʻi GET itemized.',
   },
   '/islands': {
     title: 'Four island hosts | myCHEF Hawaii',
@@ -39,7 +39,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/private-chef': {
     title: 'Visitor dinners in Hawaii villas, by island | myCHEF',
     description:
-      'Open the island visitor-dinner document. Oʻahu from $125 a guest. Weekly household cooking lives on each island /personal-chef. Enquire on WhatsApp.',
+      'Open the island visitor-dinner document. Oʻahu from $195 a guest. Weekly household cooking lives on each island /personal-chef. Enquire on WhatsApp.',
   },
   '/catering': {
     title: 'Hawaii Catering | Staffed Villa Events 10–75 | myCHEF',
@@ -47,8 +47,8 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Hawaii catering for villa and estate events of 10–75 guests. Buffet or plated. Oahu, Maui, Kauaʻi, Big Island. Not ballrooms. Request a quote.',
   },
   '/vacation-chef': {
-    title: 'Vacation chef Hawaii — Stay Chef from $850/day | myCHEF',
-    description: 'A chef for the villa week. Day rates from $850 Oʻahu / $1,050 Maui. Groceries at cost.',
+    title: 'Vacation chef Hawaii — Stay Chef from $1,250/day | myCHEF',
+    description: 'A chef for the villa week. Day rates from $1,250 Oʻahu / $1,550 Maui. Groceries at cost.',
   },
   '/how-it-works': {
     title: 'How a booking works in Hawaii | myCHEF',
@@ -451,22 +451,22 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/oahu': {
     title: 'Private Chef Oahu | Villa and Household Chefs | myCHEF',
     description:
-      'Private chef Oahu from $125 a guest. Named corridors — Honolulu, Waikīkī, Kahala, Kailua, Ko Olina, North Shore. Villa dinners and household chefs. Request a quote.',
+      'Private chef Oahu from $195 a guest. Named corridors — Honolulu, Waikīkī, Kahala, Kailua, Ko Olina, North Shore. Villa dinners and household chefs. Request a quote.',
   },
   '/maui': {
     title: 'Private Chef Maui | In-Villa Dinners and Weeks | myCHEF',
     description:
-      'Private chef Maui from $150 a guest. In-villa dinners and weeks in Wailea, Kīhei and West Maui. Maui catering is the larger door on /catering. Request a quote.',
+      'Private chef Maui from $225 a guest. In-villa dinners and weeks in Wailea, Kīhei and West Maui. Maui catering is the larger door on /catering. Request a quote.',
   },
   '/kauai': {
     title: 'Private Chef Kauai | Both Shores — Inquiry | myCHEF',
     description:
-      'Private chef Kauai from $150 a guest. Princeville, Poʻipū, Hanalei named in coverage. Both shores, inquiry stage.',
+      'Private chef Kauai from $225 a guest. Princeville, Poʻipū, Hanalei named in coverage. Both shores, inquiry stage.',
   },
   '/bigisland': {
     title: 'Private Chef Big Island | Kona–Kohala Inquiry | myCHEF',
     description:
-      'Private chef Big Island from $125 a guest. Named corridors — Kona, Waikoloa, Waimea, Kohala Coast. Inquiry stage. WhatsApp the dates.',
+      'Private chef Big Island from $195 a guest. Named corridors — Kona, Waikoloa, Waimea, Kohala Coast. Inquiry stage. WhatsApp the dates.',
   },
   '/oahu/private-chef': {
     title: 'Visitor dinners in the Oahu house | myCHEF',
@@ -475,12 +475,12 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/oahu/vacation-chef': {
     title: 'Oʻahu vacation chef — Stay Chef villa weeks | myCHEF',
-    description: 'A chef for the Oʻahu villa week. Stay Chef from $850 a day, groceries at cost. Weekly household cooking is /personal-chef.',
+    description: 'A chef for the Oʻahu villa week. Stay Chef from $1,250 a day, groceries at cost. Weekly household cooking is /personal-chef.',
   },
   '/oahu/catering': {
     title: 'Oahu Catering | Honolulu to Ko Olina Events | myCHEF',
     description:
-      'Oahu catering from $125 a guest. Staffed events from Honolulu to Ko Olina. Buffet or plated. Request a quote.',
+      'Oahu catering from $195 a guest. Staffed events from Honolulu to Ko Olina. Buffet or plated. Request a quote.',
   },
   '/oahu/weddings': {
     title: 'Wedding Catering Oahu | Gold Coast Weekends | myCHEF',
@@ -579,7 +579,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/maui/pricing': {
     title: 'What a night costs on Maui | myCHEF',
     description:
-      'Maui starting prices: $150–$250 a guest CORE, groceries at cost on Stay Chef, 20% service, GET up to 4.712%. Published, line by line.',
+      'Maui starting prices: $225–$375 a guest CORE, groceries at cost on Stay Chef, 20% service, GET up to 4.712%. Published, line by line.',
   },
   '/maui/quote': {
     title: 'Maui quote form — shore, kitchen, written total | myCHEF',
@@ -617,7 +617,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/maui/catering': {
     title: 'Maui Catering | Villa Receptions and Events | myCHEF',
     description:
-      'Maui catering from $150 a guest. Staffed villa events, not drop-off. Buffet or plated. Request a quote.',
+      'Maui catering from $225 a guest. Staffed villa events, not drop-off. Buffet or plated. Request a quote.',
   },
   '/kauai/private-chef': {
     title: 'Visitor dinners on Kauai — both shores, inquiry | myCHEF',
@@ -625,7 +625,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'In-home visitor dinners on Kauai at inquiry. The household week is /personal-chef. Private chef Kauai stays on this host’s home.',
   },
   '/kauai/vacation-chef': {
-    title: 'Vacation chef Kauai — Stay Chef from $1,100/day | myCHEF',
+    title: 'Vacation chef Kauai — Stay Chef from $1,650/day | myCHEF',
     description: 'A chef for your Kauaʻi week. Arrival-night dinner, provisioning, retreat full-board. Inquiry stage.',
   },
   '/kauai/events': {
@@ -641,12 +641,12 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/kauai/catering': {
     title: 'Kauai Catering | Estate Events — Inquiry | myCHEF',
     description:
-      'Kauai catering from $150 a guest. Estate events on both shores. Inquiry stage. Buffet or plated.',
+      'Kauai catering from $225 a guest. Estate events on both shores. Inquiry stage. Buffet or plated.',
   },
   '/kauai/weddings': {
     title: 'Kauai wedding catering | both shores — inquiry | myCHEF',
     description:
-      'Kauai wedding catering from $175/pp plus staffing. Princeville, Hanalei and Poʻipū. Inquiry stage.',
+      'Kauai wedding catering from $260/pp plus staffing. Princeville, Hanalei and Poʻipū. Inquiry stage.',
   },
   '/kauai/bar': {
     title: 'Kauaʻi villa cocktails — Princeville and Poʻipū | myCHEF',
@@ -659,7 +659,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/kauai/pricing': {
     title: 'What a night costs on Kauai | myCHEF',
     description:
-      'Kauai starting prices $150–$250 a guest. Wedding from $175 a guest plus staffing. Groceries, 20% service, GET — published.',
+      'Kauai starting prices $225–$375 a guest. Wedding from $260 a guest plus staffing. Groceries, 20% service, GET — published.',
   },
   '/kauai/quote': {
     title: 'Kauai inquiry form — both shores, written reply | myCHEF',
@@ -701,13 +701,13 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'In-home visitor dinners on the west side at inquiry. The household week is /personal-chef. Private chef Kona stays a dinner door.',
   },
   '/bigisland/vacation-chef': {
-    title: 'Vacation chef Big Island — Stay Chef from $950/day | myCHEF',
+    title: 'Vacation chef Big Island — Stay Chef from $1,450/day | myCHEF',
     description: 'Multi-day chef residencies for Kohala and Waimea weeks. Groceries at cost. Inquiry stage.',
   },
   '/bigisland/catering': {
-    title: 'Big Island catering — Kona & Kohala from $125/pp | myCHEF',
+    title: 'Big Island catering — Kona & Kohala from $195/pp | myCHEF',
     description:
-      'Catering on Hawaiʻi Island from $125/pp. Kohala Coast and Kona villa receptions, buffet or plated. WhatsApp for a written quote.',
+      'Catering on Hawaiʻi Island from $195/pp. Kohala Coast and Kona villa receptions, buffet or plated. WhatsApp for a written quote.',
   },
   '/bigisland/weddings': {
     title: 'Wedding catering Big Island | myCHEF',

@@ -86,7 +86,7 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'What does a night cost?',
-        a: `Starting prices are on /pricing — CORE $150–$250 a guest on Maui. “Private chef Maui cost” is a related search we do not invent a volume for here; the written quote is the number.`,
+        a: `Starting prices are on /pricing — CORE $225–$375 a guest on Maui. “Private chef Maui cost” is a related search we do not invent a volume for here; the written quote is the number.`,
       },
       {
         q: 'Are groceries included?',
@@ -94,7 +94,7 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Do you have Maui guest reviews?',
-        a: 'Not yet — and we will not invent them. Reviews publish only after verified events, never bought or written in-house. What we can prove now is published starting prices from $150 a guest, sample menus, and a written quote. See /trust and /blog/no-fake-reviews.',
+        a: 'Not yet — and we will not invent them. Reviews publish only after verified events, never bought or written in-house. What we can prove now is published starting prices from $225 a guest, sample menus, and a written quote. See /trust and /blog/no-fake-reviews.',
       },
       {
         q: 'Wedding week vs a Tuesday dinner?',
@@ -135,7 +135,7 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Do you have Kauaʻi guest reviews?',
-        a: 'Not yet. We will not invent them. Proof is published starting prices from $150 a guest and a written quote.',
+        a: 'Not yet. We will not invent them. Proof is published starting prices from $225 a guest and a written quote.',
       },
     ],
   },
@@ -172,7 +172,7 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Do you have Hawaiʻi Island guest reviews?',
-        a: 'Not yet — and we will not invent them. West-side inquiry-stage means proof is published starting prices from $150 a guest, sample menus, and a written quote — not a five-star page. See /trust and /blog/no-fake-reviews.',
+        a: 'Not yet — and we will not invent them. West-side inquiry-stage means proof is published starting prices from $225 a guest, sample menus, and a written quote — not a five-star page. See /trust and /blog/no-fake-reviews.',
       },
       {
         q: 'Ironman week — are you available?',
@@ -347,7 +347,7 @@ export const islandHow: Record<IslandId, IslandSupportPage> = {
     photo: 'howMaui',
     body: [
       'A Wailea lawn reception is a different crew than Date Night for two in Kapalua. The quote writes that difference before the deposit.',
-      'Groceries at cost on Stay Chef days. CORE dinners $150–$250 a guest. Upcountry surcharge when the house sits in the mist.',
+      'Groceries at cost on Stay Chef days. CORE dinners $225–$375 a guest. Upcountry surcharge when the house sits in the mist.',
     ],
     steps: [
       {
@@ -409,7 +409,7 @@ export const islandHow: Record<IslandId, IslandSupportPage> = {
       {
         n: '03',
         title: 'Written quote.',
-        body: 'Starting prices $150–$250 a guest. Shore surcharge. Bridge clause in writing when the address is far-North.',
+        body: 'Starting prices $225–$375 a guest. Shore surcharge. Bridge clause in writing when the address is far-North.',
       },
       {
         n: '04',
@@ -455,7 +455,7 @@ export const islandHow: Record<IslandId, IslandSupportPage> = {
       {
         n: '03',
         title: 'Written quote.',
-        body: 'Starting prices from $125 a guest on this island. Zone fee. Dedicated east-side staffing if that is the night.',
+        body: 'Starting prices from $195 a guest on this island. Zone fee. Dedicated east-side staffing if that is the night.',
       },
       {
         n: '04',
