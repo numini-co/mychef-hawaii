@@ -1,8 +1,11 @@
 import CostEstimator from '@/components/CostEstimator';
+import Hero from '@/components/Hero';
 import JsonLd from '@/components/JsonLd';
 import LineReveal from '@/components/LineReveal';
+import { QuoteCta } from '@/components/Cta';
 import { DocumentCopy, LongFaq, SiblingCluster, type CopyFaq } from '@/components/Longform';
 import { feeStack, FEE_DISCLOSURE } from '@/data/rateCard';
+import { estimateStill } from '@/data/estimateStills';
 import { islands, type IslandId } from '@/data/islands';
 import { PRODUCTION_ROOT } from '@/lib/site';
 import { islandHref } from '@/lib/paths';
@@ -78,6 +81,7 @@ export default function EstimateView({
   hostMode: boolean;
 }) {
   const island = islandId ? islands[islandId] : null;
+  const still = estimateStill(islandId);
   const faqs = islandId ? islandFaqs(islandId) : HUB_FAQS;
   const base = origin(islandId);
   const href = (path: string) => islandHref(islandId, hostMode, path);
@@ -131,16 +135,17 @@ export default function EstimateView({
       <JsonLd data={faqJsonLd} />
       <JsonLd data={breadcrumb} />
 
-      <section className="border-b border-line bg-paper">
-        <div className="mx-auto w-full max-w-container px-5 pb-10 pt-28 lg:px-10 lg:pb-14 lg:pt-32">
-          <p className="text-[13px] text-mute">{kicker}</p>
-          <LineReveal
-            text={h1}
-            className="mt-4 max-w-[22ch] font-display text-[clamp(2.25rem,5.5vw,4rem)] font-light leading-[1.05] tracking-[-0.02em] text-ink"
-          />
-          <p className="mt-5 max-w-[52ch] text-[17px] leading-[1.6] text-ink">{lede}</p>
+      <Hero src={still.file} alt={still.alt} min="short">
+        <p className="text-[13px] text-mute">{kicker}</p>
+        <LineReveal
+          text={h1}
+          className="mt-4 max-w-[22ch] font-display text-[clamp(2.25rem,5.5vw,4rem)] font-light leading-[1.05] tracking-[-0.02em] text-ink"
+        />
+        <p className="mt-5 max-w-[52ch] text-[17px] leading-[1.6] text-ink">{lede}</p>
+        <div className="mt-8">
+          <QuoteCta island={islandId} variant="light" />
         </div>
-      </section>
+      </Hero>
 
       <section className="bg-paper">
         <CostEstimator islandId={islandId} hostMode={hostMode} />
