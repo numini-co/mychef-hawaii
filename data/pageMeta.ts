@@ -69,6 +69,51 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description:
       'Estimate a villa chef night across four islands from published starting prices. Groceries dual-model, 20% service and Hawaiʻi GET itemized. An estimate — the written quote is the total.',
   },
+  '/in-villa-services': {
+    title: 'In-Villa Services Hawaiʻi — Chefs, Butlers & Villa Teams | myCHEF',
+    description:
+      'In-villa services for your whole stay across four islands: villa chefs, lead hosts, servers, bartenders, baristas and provisioning. One coordinator, one written quote, groceries at cost with receipts.',
+  },
+  '/in-villa-services/villa-team': {
+    title: 'Complete Villa Team Hawaiʻi — One Coordinator, One Quote | myCHEF',
+    description:
+      'Tell us your stay — dates, guests, island, meals — and we build your complete villa team: chef, host, servers, barista and bar. Built from published rates, groceries at cost with receipts.',
+  },
+  '/in-villa-services/weekly-private-chef': {
+    title: 'Private Chef for Your Whole Stay in Hawaiʻi | myCHEF',
+    description:
+      'A chef and assistant at your villa every day of the stay — breakfast, lunch and dinner cooked in, groceries billed at cost with receipts. Published Stay Chef day rates across four islands.',
+  },
+  '/in-villa-services/butlers': {
+    title: 'Villa Butler & Lead Host Service in Hawaiʻi | myCHEF',
+    description:
+      'A dedicated lead host for table, meal and drinks service in your villa — by the day, shift, event or whole stay. Published service-staff rates; 20% service and Hawaiʻi GET itemized.',
+  },
+  '/in-villa-services/waiters': {
+    title: 'Villa Waiters & Service Staff in Hawaiʻi | myCHEF',
+    description:
+      'Uniformed servers for villa dinners, parties, weddings and multi-day stays across the islands. Published hourly rates, minimum-hours booking, written quote is the total.',
+  },
+  '/in-villa-services/bartenders': {
+    title: 'Villa Bartender & Bar Service in Hawaiʻi | myCHEF',
+    description:
+      'A private bartender and full bar in your villa — tools, glassware, ice and garnishes. Hourly or packaged four-hour bar, spirits at cost or BYO. Published rates across four islands.',
+  },
+  '/in-villa-services/barista': {
+    title: 'Villa Barista & Morning Coffee Service in Hawaiʻi | myCHEF',
+    description:
+      'A barista at your villa each morning — espresso machine, freshly ground beans, oat, almond and soy milks as standard. Quoted per session; a lower per-morning rate on weekly stays.',
+  },
+  '/in-villa-services/villa-provisioning': {
+    title: 'Villa Provisioning & Fridge Stocking in Hawaiʻi | myCHEF',
+    description:
+      'Your villa kitchen stocked before you arrive — fridge, pantry, breakfast and beverages. Groceries at cost with receipts; the service fee is confirmed in writing, free with a stay chef.',
+  },
+  '/in-villa-services/breakfast-service': {
+    title: 'Daily Villa Breakfast Service in Hawaiʻi | myCHEF',
+    description:
+      'A chef-cooked breakfast in your villa every morning of the stay — eggs, pancakes, island fruit, proper coffee, kitchen cleaned. Published one-meal Stay Chef rate; groceries at cost with receipts.',
+  },
   '/oahu/estimate': {
     title: 'Oʻahu chef cost estimator | myCHEF',
     description:
