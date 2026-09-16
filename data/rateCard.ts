@@ -40,28 +40,28 @@ const PUBLISHED: RateStatus = 'PUBLISHED';
 
 export const rateCard: RateCardEntry[] = [
   // Oʻahu (live) — signature in-villa dinner tiers
-  { island: 'oahu', offer: 'signature-dinner', tier: 'ENTRY', band: [95, 125], model: PER_PERSON, minimumParty: 8, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
-  { island: 'oahu', offer: 'signature-dinner', tier: 'CORE', band: [125, 190], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
-  { island: 'oahu', offer: 'signature-dinner', tier: 'PREMIUM', band: [190, 275], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
-  { island: 'oahu', offer: 'signature-dinner', tier: 'ULTRA', band: [275, 400], highPlus: true, model: "per guest · chef's-table halo, quoted manually", minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
+  { island: 'oahu', offer: 'signature-dinner', tier: 'ENTRY', band: [145, 195], model: PER_PERSON, minimumParty: 8, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
+  { island: 'oahu', offer: 'signature-dinner', tier: 'CORE', band: [195, 290], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
+  { island: 'oahu', offer: 'signature-dinner', tier: 'PREMIUM', band: [290, 425], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
+  { island: 'oahu', offer: 'signature-dinner', tier: 'ULTRA', band: [425, 550], highPlus: true, model: "per guest · chef's-table halo, quoted manually", minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
 
   // Maui (live)
-  { island: 'maui', offer: 'signature-dinner', tier: 'ENTRY', band: [125, 150], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
-  { island: 'maui', offer: 'signature-dinner', tier: 'CORE', band: [150, 250], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
-  { island: 'maui', offer: 'signature-dinner', tier: 'PREMIUM', band: [250, 350], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
-  { island: 'maui', offer: 'signature-dinner', tier: 'ULTRA', band: [300, 450], highPlus: true, model: "per guest · private chef's table", minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
+  { island: 'maui', offer: 'signature-dinner', tier: 'ENTRY', band: [190, 225], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
+  { island: 'maui', offer: 'signature-dinner', tier: 'CORE', band: [225, 375], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
+  { island: 'maui', offer: 'signature-dinner', tier: 'PREMIUM', band: [375, 525], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
+  { island: 'maui', offer: 'signature-dinner', tier: 'ULTRA', band: [475, 675], highPlus: true, model: "per guest · private chef's table", minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
 
-  // Hawaiʻi Island — west-side first; CORE already specified $150–$225
-  { island: 'bigisland', offer: 'signature-dinner', tier: 'ENTRY', band: [110, 140], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
-  { island: 'bigisland', offer: 'signature-dinner', tier: 'CORE', band: [150, 225], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
-  { island: 'bigisland', offer: 'signature-dinner', tier: 'PREMIUM', band: [225, 325], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
-  { island: 'bigisland', offer: 'signature-dinner', tier: 'ULTRA', band: [325, 325], highPlus: true, model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
+  // Hawaiʻi Island — west-side first; CORE specified $210–$325
+  { island: 'bigisland', offer: 'signature-dinner', tier: 'ENTRY', band: [165, 210], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
+  { island: 'bigisland', offer: 'signature-dinner', tier: 'CORE', band: [210, 325], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
+  { island: 'bigisland', offer: 'signature-dinner', tier: 'PREMIUM', band: [325, 475], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
+  { island: 'bigisland', offer: 'signature-dinner', tier: 'ULTRA', band: [475, 475], highPlus: true, model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
 
-  // Kauaʻi — Maui-class CORE ($150–$250). Not a waitlist island.
-  { island: 'kauai', offer: 'signature-dinner', tier: 'ENTRY', band: [125, 150], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
-  { island: 'kauai', offer: 'signature-dinner', tier: 'CORE', band: [150, 250], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
-  { island: 'kauai', offer: 'signature-dinner', tier: 'PREMIUM', band: [250, 350], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
-  { island: 'kauai', offer: 'signature-dinner', tier: 'ULTRA', band: [350, 350], highPlus: true, model: 'per guest · North Shore estate product', minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
+  // Kauaʻi — Maui-class CORE ($225–$375). Not a waitlist island.
+  { island: 'kauai', offer: 'signature-dinner', tier: 'ENTRY', band: [190, 225], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
+  { island: 'kauai', offer: 'signature-dinner', tier: 'CORE', band: [225, 375], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
+  { island: 'kauai', offer: 'signature-dinner', tier: 'PREMIUM', band: [375, 525], model: PER_PERSON, minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
+  { island: 'kauai', offer: 'signature-dinner', tier: 'ULTRA', band: [525, 525], highPlus: true, model: 'per guest · North Shore estate product', minimumParty: 6, minimumSpendNote: MIN_PARTY, status: PUBLISHED },
 ];
 
 /** Villa chef day rate — chef + assistant, one meal, groceries billed at cost. */
@@ -77,7 +77,7 @@ export interface DayRate {
 export const dayRates: DayRate[] = [
   {
     island: 'oahu',
-    from: 850,
+    from: 1250,
     meals: 1,
     model: 'chef + assistant · 1 meal · groceries at cost',
     includes: 'Menu design, shopping, cooking, service and cleanup. Extra meals quoted on the same day.',
@@ -85,7 +85,7 @@ export const dayRates: DayRate[] = [
   },
   {
     island: 'maui',
-    from: 1050,
+    from: 1550,
     meals: 1,
     model: 'chef + assistant · 1 meal · groceries at cost',
     includes: 'Menu design, shopping, cooking, service and cleanup. Extra meals quoted on the same day.',
@@ -93,7 +93,7 @@ export const dayRates: DayRate[] = [
   },
   {
     island: 'kauai',
-    from: 1100,
+    from: 1650,
     meals: 1,
     model: 'chef + assistant · 1 meal · groceries at cost',
     includes: 'Menu design, shopping, cooking, service and cleanup. Extra meals quoted on the same day.',
@@ -101,7 +101,7 @@ export const dayRates: DayRate[] = [
   },
   {
     island: 'bigisland',
-    from: 950,
+    from: 1450,
     meals: 1,
     model: 'chef + assistant · 1 meal · groceries at cost',
     includes: 'Menu design, shopping, cooking, service and cleanup. Extra meals quoted on the same day.',
@@ -124,40 +124,40 @@ export interface MobileBarRate {
 export const mobileBarRates: MobileBarRate[] = [
   {
     island: 'oahu',
-    perGuest: [85, 110],
-    packageFrom: 650,
+    perGuest: [125, 165],
+    packageFrom: 975,
     packageHours: 4,
-    packagePerGuest: 45,
+    packagePerGuest: 65,
     model: '4-hour villa bar · bartender + setup · spirits billed at cost or BYO',
     note: 'Stacks with a chef night or books as a terrace cocktail hour. Waikīkī, Kahala, Ko Olina, Kailua.',
     status: PUBLISHED,
   },
   {
     island: 'maui',
-    perGuest: [95, 125],
-    packageFrom: 800,
+    perGuest: [145, 185],
+    packageFrom: 1200,
     packageHours: 4,
-    packagePerGuest: 55,
+    packagePerGuest: 85,
     model: '4-hour villa bar · bartender + setup · spirits billed at cost or BYO',
     note: 'Wedding-week welcome pours and villa nights in Wailea, Kapalua, Kāʻanapali, Makena.',
     status: PUBLISHED,
   },
   {
     island: 'kauai',
-    perGuest: [100, 125],
-    packageFrom: 850,
+    perGuest: [150, 185],
+    packageFrom: 1275,
     packageHours: 4,
-    packagePerGuest: 60,
+    packagePerGuest: 90,
     model: '4-hour villa bar · bartender + setup · spirits billed at cost or BYO',
     note: 'Princeville, Hanalei and Poʻipū estates. Inquiry-stage until a staffed Kauaʻi team launches.',
     status: PUBLISHED,
   },
   {
     island: 'bigisland',
-    perGuest: [90, 120],
-    packageFrom: 725,
+    perGuest: [135, 180],
+    packageFrom: 1100,
     packageHours: 4,
-    packagePerGuest: 50,
+    packagePerGuest: 75,
     model: '4-hour villa bar · bartender + setup · spirits billed at cost or BYO',
     note: 'Kohala Coast and Kona first. Inquiry-stage until the west-side team launches.',
     status: PUBLISHED,
@@ -191,12 +191,12 @@ export const otherOffers: OtherOffer[] = [
     key: 'dinner-for-two',
     model: 'Fixed per event',
     byIsland: {
-      oahu: { from: 450, unit: 'per event' },
-      maui: { from: 500, highPlus: true, unit: 'per event' },
-      kauai: { from: 650, to: 950, unit: 'per event' },
-      bigisland: { from: 550, unit: 'per event' },
+      oahu: { from: 675, unit: 'per event' },
+      maui: { from: 750, highPlus: true, unit: 'per event' },
+      kauai: { from: 975, to: 1425, unit: 'per event' },
+      bigisland: { from: 825, unit: 'per event' },
     },
-    orientation: 'from $450 Oʻahu · from $500+ Maui · $650–$950 Kauaʻi · from $550 Hawaiʻi Island',
+    orientation: 'from $675 Oʻahu · from $750+ Maui · $975–$1,425 Kauaʻi · from $825 Hawaiʻi Island',
     status: PUBLISHED,
   },
   {
@@ -204,12 +204,12 @@ export const otherOffers: OtherOffer[] = [
     key: 'wedding',
     model: 'Per person + staffing',
     byIsland: {
-      oahu: { from: 125, unit: 'per person + staffing' },
-      maui: { from: 150, unit: 'per person + staffing' },
-      kauai: { from: 175, unit: 'per person + staffing' },
-      bigisland: { from: 150, unit: 'per person + staffing' },
+      oahu: { from: 190, unit: 'per person + staffing' },
+      maui: { from: 225, unit: 'per person + staffing' },
+      kauai: { from: 260, unit: 'per person + staffing' },
+      bigisland: { from: 225, unit: 'per person + staffing' },
     },
-    orientation: 'from $125 Oʻahu · from $150 Maui / Hawaiʻi Island · from $175 Kauaʻi · plus staffing',
+    orientation: 'from $190 Oʻahu · from $225 Maui / Hawaiʻi Island · from $260 Kauaʻi · plus staffing',
     status: PUBLISHED,
   },
   {
@@ -217,12 +217,12 @@ export const otherOffers: OtherOffer[] = [
     key: 'vacation-chef',
     model: 'Per person per day + groceries at cost',
     byIsland: {
-      oahu: { from: 179, to: 300, highPlus: true, unit: 'per person / day' },
-      maui: { from: 225, to: 300, highPlus: true, unit: 'per person / day' },
-      kauai: { from: 250, to: 300, highPlus: true, unit: 'per person / day' },
-      bigisland: { from: 199, to: 300, highPlus: true, unit: 'per person / day' },
+      oahu: { from: 275, to: 450, highPlus: true, unit: 'per person / day' },
+      maui: { from: 350, to: 450, highPlus: true, unit: 'per person / day' },
+      kauai: { from: 375, to: 450, highPlus: true, unit: 'per person / day' },
+      bigisland: { from: 300, to: 450, highPlus: true, unit: 'per person / day' },
     },
-    orientation: 'from $179 Oʻahu · from $225 Maui · from $250 Kauaʻi · from $199 Hawaiʻi Island / person / day',
+    orientation: 'from $275 Oʻahu · from $350 Maui · from $375 Kauaʻi · from $300 Hawaiʻi Island / person / day',
     status: PUBLISHED,
   },
   {
@@ -230,12 +230,12 @@ export const otherOffers: OtherOffer[] = [
     key: 'weekly-meal-prep',
     model: 'Fixed weekly + groceries at cost',
     byIsland: {
-      oahu: { from: 300, to: 1200, unit: 'per week' },
-      maui: { from: 450, to: 1200, unit: 'per week' },
-      kauai: { from: 550, to: 1200, unit: 'per week' },
-      bigisland: { from: 400, to: 1200, unit: 'per week' },
+      oahu: { from: 450, to: 1800, unit: 'per week' },
+      maui: { from: 675, to: 1800, unit: 'per week' },
+      kauai: { from: 825, to: 1800, unit: 'per week' },
+      bigisland: { from: 600, to: 1800, unit: 'per week' },
     },
-    orientation: 'from $300/week Oʻahu · island-adjusted on Maui, Kauaʻi and Hawaiʻi Island · groceries at cost',
+    orientation: 'from $450/week Oʻahu · island-adjusted on Maui, Kauaʻi and Hawaiʻi Island · groceries at cost',
     status: PUBLISHED,
   },
   {
@@ -243,12 +243,12 @@ export const otherOffers: OtherOffer[] = [
     key: 'event-staffing',
     model: 'Hourly, 4–5 hr minimums',
     byIsland: {
-      oahu: { from: 55, unit: 'per hour (server) · sous-chef $75/hr' },
-      maui: { from: 55, unit: 'per hour (server) · sous-chef $75/hr' },
-      kauai: { from: 55, unit: 'per hour (server) · sous-chef $75/hr' },
-      bigisland: { from: 55, unit: 'per hour (server) · sous-chef $75/hr' },
+      oahu: { from: 80, unit: 'per hour (server) · sous-chef $105/hr' },
+      maui: { from: 80, unit: 'per hour (server) · sous-chef $105/hr' },
+      kauai: { from: 80, unit: 'per hour (server) · sous-chef $105/hr' },
+      bigisland: { from: 80, unit: 'per hour (server) · sous-chef $105/hr' },
     },
-    orientation: '$55/hr server · $75/hr sous-chef · 4–5 hour minimums',
+    orientation: '$80/hr server · $105/hr sous-chef · 4–5 hour minimums',
     status: PUBLISHED,
   },
   {
@@ -267,8 +267,8 @@ export const otherOffers: OtherOffer[] = [
 ];
 
 export const STAFFING = {
-  serverHourly: 55,
-  sousHourly: 75,
+  serverHourly: 80,
+  sousHourly: 105,
   minimumHours: 4,
 } as const;
 

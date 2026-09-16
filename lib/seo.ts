@@ -205,11 +205,11 @@ function areaPlaces(islandId: IslandId | null) {
 function publishedPriceRange(islandId: IslandId | null): string {
   if (islandId) {
     const core = getTiers(islandId).find((t) => t.tier === 'CORE');
-    return core ? `$${core.band[0]}–$${core.band[1]}` : '$125–$250';
+    return core ? `$${core.band[0]}–$${core.band[1]}` : '$195–$375';
   }
   const oahu = getTiers('oahu').find((t) => t.tier === 'CORE');
   const maui = getTiers('maui').find((t) => t.tier === 'CORE');
-  return `$${oahu?.band[0] ?? 125}–$${maui?.band[1] ?? 250}`;
+  return `$${oahu?.band[0] ?? 195}–$${maui?.band[1] ?? 375}`;
 }
 
 /** LocalBusiness — service-area kitchen. No telephone. No streetAddress. FoodService lives on owner pages. */
