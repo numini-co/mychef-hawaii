@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Hero from '@/components/Hero';
 import JsonLd from '@/components/JsonLd';
 import LineReveal from '@/components/LineReveal';
 import { Longform, LongFaq } from '@/components/Longform';
@@ -29,6 +30,7 @@ import {
   type InVillaPage,
   type RateBlockKind,
 } from '@/data/inVillaServices';
+import { inVillaStill } from '@/data/inVillaStills';
 
 const ORIGIN = `https://${PRODUCTION_ROOT}`;
 
@@ -260,6 +262,7 @@ export default function InVillaServicesView({ id }: { id: InVillaId }) {
   const page = getInVillaPage(slug);
   if (!page) return null;
   const isHub = page.id === 'hub';
+  const still = inVillaStill(page.id);
   const canonical = `${ORIGIN}${page.path}`;
 
   const service = {
@@ -330,30 +333,30 @@ export default function InVillaServicesView({ id }: { id: InVillaId }) {
       <JsonLd data={breadcrumb} />
       {itemList ? <JsonLd data={itemList} /> : null}
 
-      <section className="border-b border-line bg-paper">
-        <div className="mx-auto w-full max-w-container px-5 pb-10 pt-28 lg:px-10 lg:pb-14 lg:pt-32">
-          <p className="text-[13px] text-mute">{page.kicker}</p>
-          <LineReveal
-            text={page.h1}
-            className="mt-4 max-w-[24ch] font-display text-[clamp(2.25rem,5.5vw,4rem)] font-light leading-[1.05] tracking-[-0.02em] text-ink"
-          />
-          <p className="mt-5 max-w-[58ch] text-[17px] leading-[1.6] text-ink">{page.lede}</p>
-          <div className="mt-8 flex flex-wrap items-center gap-3">
-            <QuoteCta service={page.quoteService}>{page.primaryCtaLabel}</QuoteCta>
-            <CtaLink href={whatsappHref(null, page.waIntent)} variant="secondary">
-              WhatsApp us your dates
-            </CtaLink>
-          </div>
-          <ul className="mt-8 flex flex-wrap gap-x-5 gap-y-2 text-[13px] text-mute">
-            {IN_VILLA_TRUST.map((chip) => (
-              <li key={chip} className="flex items-center gap-2">
-                <span aria-hidden className="inline-block h-1 w-1 rounded-full bg-mute" />
-                {chip}
-              </li>
-            ))}
-          </ul>
+      <Hero src={still.file} alt={still.alt} min={isHub ? 'hero' : 'short'}>
+        <p className="text-[13px] text-mute">{page.kicker}</p>
+        <LineReveal
+          text={page.h1}
+          className="mt-4 max-w-[24ch] font-display text-[clamp(2.25rem,5.5vw,4rem)] font-light leading-[1.05] tracking-[-0.02em] text-ink"
+        />
+        <p className="mt-5 max-w-[58ch] text-[17px] leading-[1.6] text-ink">{page.lede}</p>
+        <div className="mt-8 flex flex-wrap items-center gap-3">
+          <QuoteCta service={page.quoteService} variant="light">
+            {page.primaryCtaLabel}
+          </QuoteCta>
+          <CtaLink href={whatsappHref(null, page.waIntent)} variant="ghost">
+            WhatsApp us your dates
+          </CtaLink>
         </div>
-      </section>
+        <ul className="mt-8 flex flex-wrap gap-x-5 gap-y-2 text-[13px] text-mute">
+          {IN_VILLA_TRUST.map((chip) => (
+            <li key={chip} className="flex items-center gap-2">
+              <span aria-hidden className="inline-block h-1 w-1 rounded-full bg-mute" />
+              {chip}
+            </li>
+          ))}
+        </ul>
+      </Hero>
 
       <Longform sections={page.sections} />
 
