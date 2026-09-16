@@ -7,6 +7,7 @@ import {
   type IslandSitemapHost,
 } from '@/data/commercialGraph';
 import { HUB_ALL_PICKER_PATHS } from '@/data/hubDirectories';
+import { IN_VILLA_PATHS } from '@/data/inVillaServices';
 
 /** Key hub routes that must appear in the apex urlset. */
 export const HUB_REQUIRED_PATHS = [
@@ -150,6 +151,7 @@ function hubCoreRows(): SitemapRow[] {
       priority: path === '/' ? '1.0' : path === '/pricing' || path === '/quote' ? '0.9' : '0.8',
     })),
     ...HUB_ALL_PICKER_PATHS.map((path) => ({ host: 'hub' as const, path, priority: '0.55' })),
+    ...IN_VILLA_PATHS.map((path) => ({ host: 'hub' as const, path, priority: '0.6' })),
     ...ISLAND_SITEMAP_HOSTS.flatMap((host) =>
       ISLAND_REQUIRED_PATHS.map((path) => ({
         host,

@@ -17,6 +17,7 @@ import { feeStack } from '@/data/rateCard';
 import { proofRegister } from '@/data/proofRegister';
 import { MASTER_MAP, masterHostName } from '@/data/commercialGraph';
 import { HUB_ALL_PICKER_PATHS } from '@/data/hubDirectories';
+import { IN_VILLA_PATHS } from '@/data/inVillaServices';
 import { moneyNeighborhoods } from '@/data/offers';
 import { uniqueCells } from '@/data/uniqueCells';
 import { areas } from '@/data/areas';
@@ -871,6 +872,7 @@ export function HtmlSitemapView({ islandId }: { islandId?: (typeof islandOrder)[
     ...(islandId
       ? []
       : HUB_ALL_PICKER_PATHS.map((path) => ({ host: 'hub' as const, path }))),
+    ...(islandId ? [] : IN_VILLA_PATHS.map((path) => ({ host: 'hub' as const, path }))),
     ...hosts.flatMap((id) => [
       ...moneyNeighborhoods[id].map((hood) => ({ host: id, path: `/${hood.slug}` as const })),
       ...SUPPORT_PATHS.map((path) => ({ host: id, path })),

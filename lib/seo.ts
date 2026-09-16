@@ -43,6 +43,7 @@ import { eventOffers } from '@/data/events';
 import { islandAbout } from '@/data/islandAbout';
 import { lookupPageMeta, metaForPath } from '@/data/pageMeta';
 import { getHubDirectory, HUB_ALL_PICKER_PATHS } from '@/data/hubDirectories';
+import { IN_VILLA_PATHS } from '@/data/inVillaServices';
 import { photos } from '@/data/photos';
 import { stillForPath } from '@/lib/documentStill';
 import { formatBand, getDayRate, getMobileBar, getOtherOffer, getTiers } from '@/data/rateCard';
@@ -466,11 +467,18 @@ export function sitemapLocs(hostname: string): { loc: string; changefreq: string
   const master = fromHost ? MASTER_MAP.filter((r) => r.host === fromHost) : MASTER_MAP;
   const hubExtras = fromHost
     ? []
-    : HUB_ALL_PICKER_PATHS.map((path) => ({
-        loc: `https://${masterHostName('hub')}${path}`,
-        changefreq: 'monthly',
-        priority: '0.55',
-      }));
+    : [
+        ...HUB_ALL_PICKER_PATHS.map((path) => ({
+          loc: `https://${masterHostName('hub')}${path}`,
+          changefreq: 'monthly',
+          priority: '0.55',
+        })),
+        ...IN_VILLA_PATHS.map((path) => ({
+          loc: `https://${masterHostName('hub')}${path}`,
+          changefreq: 'monthly',
+          priority: '0.6',
+        })),
+      ];
   const extras = (fromHost ? [fromHost] : ISLAND_HOSTS).flatMap((island) => [
     ...moneyNeighborhoods[island].map((hood) => ({
       loc: `https://${masterHostName(island)}${`/${hood.slug}`}`,

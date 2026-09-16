@@ -556,6 +556,51 @@
     <priority>0.55</priority>
   </url>
   <url>
+    <loc>https://mychef-hawaii.com/in-villa-services</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mychef-hawaii.com/in-villa-services/villa-team</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mychef-hawaii.com/in-villa-services/weekly-private-chef</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mychef-hawaii.com/in-villa-services/butlers</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mychef-hawaii.com/in-villa-services/waiters</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mychef-hawaii.com/in-villa-services/bartenders</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mychef-hawaii.com/in-villa-services/barista</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mychef-hawaii.com/in-villa-services/villa-provisioning</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mychef-hawaii.com/in-villa-services/breakfast-service</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://oahu.mychef-hawaii.com/pricing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
