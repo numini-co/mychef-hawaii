@@ -11,9 +11,16 @@ import { MobileDisclosure, NavMenu, type NavTarget } from '@/components/NavMenu'
 import { useIsland } from '@/components/IslandProvider';
 import { islands } from '@/data/islands';
 import { moneyNeighborhoods } from '@/data/offers';
+import { inVillaPages } from '@/data/inVillaServices';
 import { DURATION, EASE_STANDARD } from '@/lib/motion';
 import { isHomePath, localPathFromPathname } from '@/lib/switchPath';
 import { cn } from '@/lib/utils';
+
+const IN_VILLA_NAV: NavTarget[] = inVillaPages.map((p) => ({
+  label: p.id === 'hub' ? 'All in-villa services' : p.breadcrumbName,
+  island: 'root',
+  path: p.path,
+}));
 
 const HUB_GUIDE_ITEMS: NavTarget[] = [
   { label: 'FAQ', island: 'root', path: '/faq' },
@@ -142,6 +149,7 @@ export default function SiteHeader() {
               <HostLink island="root" path="/mobile-bar" className={linkCls}>
                 Bar
               </HostLink>
+              <NavMenu label="Villa Services" items={IN_VILLA_NAV} />
               <NavMenu label="Guide" items={HUB_GUIDE_ITEMS} />
               <HostLink island="root" path="/pricing" className={linkCls}>
                 Pricing
@@ -266,6 +274,11 @@ export default function SiteHeader() {
                   >
                     Bar
                   </HostLink>
+                  <MobileDisclosure label="Villa Services">
+                    {IN_VILLA_NAV.map((item) => (
+                      <MobileLink key={item.path} item={item} onPick={() => setDrawerOpen(false)} />
+                    ))}
+                  </MobileDisclosure>
                   <MobileDisclosure label="Guide">
                     {HUB_GUIDE_ITEMS.map((item) => (
                       <MobileLink key={item.path} item={item} onPick={() => setDrawerOpen(false)} />

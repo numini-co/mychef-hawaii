@@ -138,6 +138,15 @@ export default function SiteFooter({
                       Villa occasions
                     </HostLink>
                   </li>
+                  <li>
+                    <HostLink
+                      island="root"
+                      path="/in-villa-services"
+                      className="text-base text-paper hover:underline underline-offset-4"
+                    >
+                      In-villa services
+                    </HostLink>
+                  </li>
                 </>
               )}
               <li>
