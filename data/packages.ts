@@ -19,7 +19,7 @@ export interface NamedPackage {
 }
 
 function coreFrom(island: IslandId): number {
-  return getTiers(island).find((t) => t.tier === 'CORE')?.band[0] ?? 125;
+  return getTiers(island).find((t) => t.tier === 'CORE')?.band[0] ?? 195;
 }
 
 export const namedPackages: NamedPackage[] = [

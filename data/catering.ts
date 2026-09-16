@@ -40,7 +40,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     lede:
       'Oahu catering is the staffed-event door: buffet or plated, villa, retreat, wedding. Published prices and a written menu. Honolulu to Ko Olina.',
     fromPp: 195,
-    weddingFrom: 125,
+    weddingFrom: 190,
     places: 'Honolulu, Waikīkī residences, Kahala, Kailua, Ko Olina',
     photo: 'cateringOahu',
     faqs: [
@@ -80,7 +80,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     lede:
       'Maui catering is the staffed-room door on this island — not drop-off. Same team as a villa dinner. Buffet or plated. Published $225–$375 a guest.',
     fromPp: 225,
-    weddingFrom: 150,
+    weddingFrom: 225,
     places: 'Wailea, Kāʻanapali, Lahaina / West Maui, Kīhei, Kapalua',
     photo: 'cateringMaui',
     faqs: [
@@ -116,7 +116,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     lede:
       'Kauai catering is the staffed-event door on both shores — inquiry stage. Published prices, a sample menu, buffet or plated. Villa dinners live on the home.',
     fromPp: 225,
-    weddingFrom: 175,
+    weddingFrom: 260,
     places: 'Princeville, Poʻipū, Hanalei, Kapaʻa',
     photo: 'cateringKauai',
     faqs: [
@@ -148,7 +148,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     lede:
       'West-side first: Kohala and Kona estates. Buffet or plated. Published starting prices. Hilo is quote-only — we will not fake a same-day round trip.',
     fromPp: 195,
-    weddingFrom: 150,
+    weddingFrom: 225,
     places: 'Kohala Coast, Waikoloa, Kailua-Kona',
     photo: 'cateringBigisland',
     faqs: [

@@ -91,7 +91,7 @@ export interface IslandOffer {
 }
 
 function coreLow(id: IslandId): number {
-  return getTiers(id).find((t) => t.tier === 'CORE')?.band[0] ?? 125;
+  return getTiers(id).find((t) => t.tier === 'CORE')?.band[0] ?? 195;
 }
 
 export const islandOffers: Record<IslandId, IslandOffer> = {
@@ -105,7 +105,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     lede:
       'A chef in your Wailea, Kapalua or Kāʻanapali villa. Published prices and a written menu. Staffed receptions live on /catering.',
     fromPp: 225,
-    dayFrom: 1050,
+    dayFrom: 1550,
     heroPhoto: 'mauiHero',
     neighborhoods: [
       { slug: 'wailea', name: 'Wailea' },
@@ -156,7 +156,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     lede:
       'Private chef Oahu and Honolulu — villa dinners from $195 a guest. Staffed events for a larger list live on /catering. Same team: we shop, cook, serve and clean.',
     fromPp: 195,
-    dayFrom: 850,
+    dayFrom: 1250,
     heroPhoto: 'oahuHero',
     neighborhoods: [
       { slug: 'honolulu', name: 'Honolulu' },
@@ -199,7 +199,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     lede:
       'Private chef Kauai on both shores — Princeville, Poʻipū and Hanalei. Villa dinners and staffed events, inquiry stage. From $225 a guest.',
     fromPp: 225,
-    dayFrom: 1100,
+    dayFrom: 1650,
     heroPhoto: 'kauaiHero',
     neighborhoods: [
       { slug: 'princeville', name: 'Princeville' },
@@ -244,7 +244,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     lede:
       'Kona and the Kohala Coast first — seven resort communities in one west-side radius. Hilo and Volcano are quote-only; we will not fake a same-day round trip.',
     fromPp: 195,
-    dayFrom: 950,
+    dayFrom: 1450,
     heroPhoto: 'bigislandHero',
     neighborhoods: [
       { slug: 'kona', name: 'Kona' },
