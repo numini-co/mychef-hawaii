@@ -104,7 +104,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
       'Private chef Maui from $225 a guest. In-villa dinners and weeks in Wailea, Kīhei and West Maui. Maui catering is the larger door on /catering. Request a quote.',
     lede:
       'A chef in your Wailea, Kapalua or Kāʻanapali villa. Published prices and a written menu. Staffed receptions live on /catering.',
-    fromPp: 150,
+    fromPp: 225,
     dayFrom: 1050,
     heroPhoto: 'mauiHero',
     neighborhoods: [
@@ -155,7 +155,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
       'Private chef Oahu from $195 a guest. Named corridors — Honolulu, Waikīkī, Kahala, Kailua, Ko Olina, North Shore. Villa dinners and household chefs. Request a quote.',
     lede:
       'Private chef Oahu and Honolulu — villa dinners from $195 a guest. Staffed events for a larger list live on /catering. Same team: we shop, cook, serve and clean.',
-    fromPp: 125,
+    fromPp: 195,
     dayFrom: 850,
     heroPhoto: 'oahuHero',
     neighborhoods: [
@@ -198,7 +198,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
       'Private chef Kauai from $225 a guest. Princeville, Poʻipū and Hanalei named in coverage. Both shores, inquiry stage.',
     lede:
       'Private chef Kauai on both shores — Princeville, Poʻipū and Hanalei. Villa dinners and staffed events, inquiry stage. From $225 a guest.',
-    fromPp: 150,
+    fromPp: 225,
     dayFrom: 1100,
     heroPhoto: 'kauaiHero',
     neighborhoods: [
@@ -243,7 +243,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
       'Private chef Big Island from $195 a guest. Named corridors — Kona, Waikoloa, Waimea, Kohala Coast. Inquiry stage. Villa dinners on the west side first.',
     lede:
       'Kona and the Kohala Coast first — seven resort communities in one west-side radius. Hilo and Volcano are quote-only; we will not fake a same-day round trip.',
-    fromPp: 125,
+    fromPp: 195,
     dayFrom: 950,
     heroPhoto: 'bigislandHero',
     neighborhoods: [

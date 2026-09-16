@@ -39,7 +39,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
       'Oahu catering from $195 a guest. Staffed events from Honolulu to Ko Olina. Buffet or plated. Request a quote.',
     lede:
       'Oahu catering is the staffed-event door: buffet or plated, villa, retreat, wedding. Published prices and a written menu. Honolulu to Ko Olina.',
-    fromPp: 125,
+    fromPp: 195,
     weddingFrom: 125,
     places: 'Honolulu, Waikīkī residences, Kahala, Kailua, Ko Olina',
     photo: 'cateringOahu',
@@ -79,7 +79,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
       'Maui catering from $225 a guest. Staffed villa events, not drop-off. Buffet or plated. Request a quote.',
     lede:
       'Maui catering is the staffed-room door on this island — not drop-off. Same team as a villa dinner. Buffet or plated. Published $225–$375 a guest.',
-    fromPp: 150,
+    fromPp: 225,
     weddingFrom: 150,
     places: 'Wailea, Kāʻanapali, Lahaina / West Maui, Kīhei, Kapalua',
     photo: 'cateringMaui',
@@ -115,7 +115,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
       'Kauai catering from $225 a guest. Estate events on both shores. Inquiry stage. Buffet or plated.',
     lede:
       'Kauai catering is the staffed-event door on both shores — inquiry stage. Published prices, a sample menu, buffet or plated. Villa dinners live on the home.',
-    fromPp: 150,
+    fromPp: 225,
     weddingFrom: 175,
     places: 'Princeville, Poʻipū, Hanalei, Kapaʻa',
     photo: 'cateringKauai',
@@ -147,7 +147,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
       'Catering on Hawaiʻi Island from $195/pp. Kohala Coast and Kona villa receptions, buffet or plated. WhatsApp for a written quote.',
     lede:
       'West-side first: Kohala and Kona estates. Buffet or plated. Published starting prices. Hilo is quote-only — we will not fake a same-day round trip.',
-    fromPp: 125,
+    fromPp: 195,
     weddingFrom: 150,
     places: 'Kohala Coast, Waikoloa, Kailua-Kona',
     photo: 'cateringBigisland',
