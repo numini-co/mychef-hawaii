@@ -180,6 +180,74 @@ function dupes(values, label) {
   return errors;
 }
 
+/** Island-name tokens only — used to catch “same sentence, swap {Island}” titles. */
+const ISLAND_TOKEN_RE =
+  /\b(oʻahu|oahu|maui|kauaʻi|kauai|hawaiʻi island|hawaii island|the big island|big island)\b/gi;
+
+function stripIslandTokens(value) {
+  return value
+    .toLowerCase()
+    .replace(ISLAND_TOKEN_RE, '')
+    .replace(/[^a-z0-9$]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function tokenOnlyVariants(values, label) {
+  const errors = [];
+  const seen = new Map();
+  for (const value of values) {
+    const key = stripIslandTokens(value);
+    if (!key) continue;
+    if (seen.has(key)) errors.push(`${label} island-token-only variant: “${value}” ~ “${seen.get(key)}”`);
+    else seen.set(key, value);
+  }
+  return errors;
+}
+
+function parseAngleBook(src, exportName) {
+  const start = src.indexOf(`export const ${exportName}`);
+  if (start < 0) throw new Error(`Missing export const ${exportName}`);
+  const nextFn = src.indexOf('\nexport function', start + 1);
+  const nextConst = src.indexOf('\nexport const ', start + `export const ${exportName}`.length);
+  const endCandidates = [nextFn, nextConst].filter((n) => n > start);
+  const end = endCandidates.length ? Math.min(...endCandidates) : src.length;
+  const block = src.slice(start, end);
+  const map = { oahu: {}, maui: {}, kauai: {}, bigisland: {} };
+  for (const island of ISLANDS) {
+    const at = block.search(new RegExp(`\\n  ${island}: \\{`));
+    if (at < 0) continue;
+    const rest = block.slice(at + 1);
+    const nxt = rest.search(/\n  (oahu|maui|kauai|bigisland): \{/);
+    const chunk = nxt < 0 ? block.slice(at) : block.slice(at, at + 1 + nxt);
+    const re = /'([^']+)':\s*\{\s*h1:\s*'([^']+)'\s*,\s*title:\s*'([^']+)'/g;
+    let m;
+    while ((m = re.exec(chunk))) map[island][m[1]] = { h1: m[2], title: m[3] };
+  }
+  return map;
+}
+
+function overlayEditorialAngles(pieces, anglesByIsland) {
+  const seen = {};
+  return pieces.map((row) => {
+    const hasAngle = ISLANDS.some((id) => anglesByIsland[id][row.slug]);
+    if (!hasAngle) return row;
+    seen[row.slug] = seen[row.slug] || 0;
+    const island = ISLANDS[seen[row.slug]];
+    seen[row.slug] += 1;
+    const angle = island ? anglesByIsland[island][row.slug] : null;
+    return angle ? { ...row, h1: angle.h1, title: angle.title } : row;
+  });
+}
+
+function estimateDocs(src) {
+  const items = [];
+  const re = /h1:\s*'([^']+)'[\s\S]*?title:\s*'([^']+)'/g;
+  let m;
+  while ((m = re.exec(src))) items.push({ h1: m[1], title: m[2] });
+  return items;
+}
+
 const offersSrc = read('data/offers.ts');
 const photosSrc = read('data/photos.ts');
 const cateringSrc = read('data/catering.ts');
@@ -216,6 +284,10 @@ const hubNestedSrc = read('data/hubNestedDirectories.ts');
 const hubEditorialSrc = read('data/hubEditorialDirectories.ts');
 const journalArticleSrc = read('data/journalArticles.ts') + '\n' + read('data/extraJournalNotes.ts');
 const blogArticleSrc = read('data/blogArticles.ts') + '\n' + read('data/extraBlogNotes.ts');
+const editorialAngleSrc = read('data/editorialTitleAngles.ts');
+const estimateSrc = read('data/islandEstimate.ts');
+const blogAngles = parseAngleBook(editorialAngleSrc, 'EXTRA_BLOG_ANGLES');
+const journalAngles = parseAngleBook(editorialAngleSrc, 'EXTRA_JOURNAL_ANGLES');
 const middlewareSrc = read('middleware.ts');
 const files = photoFiles(photosSrc);
 const hoods = neighborhoods(offersSrc);
@@ -257,8 +329,9 @@ const hubDirs = [
   ...supportBlocks(hubNestedSrc, 'hubNestedDirectories'),
   ...supportBlocks(hubEditorialSrc, 'hubEditorialDirectories'),
 ];
-const journalPieces = uniqueCellMeta(journalArticleSrc);
-const blogPieces = uniqueCellMeta(blogArticleSrc);
+const journalPieces = overlayEditorialAngles(uniqueCellMeta(journalArticleSrc), journalAngles);
+const blogPieces = overlayEditorialAngles(uniqueCellMeta(blogArticleSrc), blogAngles);
+const estimateDocsRows = estimateDocs(estimateSrc);
 
 const errors = [];
 
@@ -298,6 +371,43 @@ if (sitemapDocs.length !== 4) errors.push(`Expected 4 island sitemap pages, foun
 if (hubDirs.length !== 89) errors.push(`Expected 89 hub directories, found ${hubDirs.length}`);
 if (journalPieces.length !== 40) errors.push(`Expected 40 journal articles, found ${journalPieces.length}`);
 if (blogPieces.length !== 160) errors.push(`Expected 160 blog articles, found ${blogPieces.length}`);
+if (estimateDocsRows.length !== 4) errors.push(`Expected 4 island estimate pages, found ${estimateDocsRows.length}`);
+
+const extraBlogSlugs = Object.keys(blogAngles.oahu);
+if (extraBlogSlugs.length !== 11) errors.push(`Expected 11 extra-blog angle slugs, found ${extraBlogSlugs.length}`);
+for (const slug of extraBlogSlugs) {
+  const titles = ISLANDS.map((id) => blogAngles[id][slug]?.title).filter(Boolean);
+  const h1s = ISLANDS.map((id) => blogAngles[id][slug]?.h1).filter(Boolean);
+  if (titles.length !== 4) errors.push(`EXTRA_BLOG_ANGLES ${slug} missing an island title`);
+  if (h1s.length !== 4) errors.push(`EXTRA_BLOG_ANGLES ${slug} missing an island H1`);
+  errors.push(...tokenOnlyVariants(titles, `extra-blog ${slug} title`));
+  errors.push(...tokenOnlyVariants(h1s, `extra-blog ${slug} H1`));
+}
+const extraJournalSlugs = Object.keys(journalAngles.oahu);
+if (extraJournalSlugs.length !== 3) {
+  errors.push(`Expected 3 extra-journal angle slugs, found ${extraJournalSlugs.length}`);
+}
+for (const slug of extraJournalSlugs) {
+  const titles = ISLANDS.map((id) => journalAngles[id][slug]?.title).filter(Boolean);
+  const h1s = ISLANDS.map((id) => journalAngles[id][slug]?.h1).filter(Boolean);
+  if (titles.length !== 4) errors.push(`EXTRA_JOURNAL_ANGLES ${slug} missing an island title`);
+  if (h1s.length !== 4) errors.push(`EXTRA_JOURNAL_ANGLES ${slug} missing an island H1`);
+  errors.push(...tokenOnlyVariants(titles, `extra-journal ${slug} title`));
+  errors.push(...tokenOnlyVariants(h1s, `extra-journal ${slug} H1`));
+}
+
+const dropoffDocs = formats.filter((row) => row.slug === 'drop-off');
+if (dropoffDocs.length !== 4) errors.push(`Expected 4 drop-off format pages, found ${dropoffDocs.length}`);
+errors.push(...tokenOnlyVariants(pricingDocs.map((h) => h.title), 'pricing title'));
+errors.push(...tokenOnlyVariants(pricingDocs.map((h) => h.h1), 'pricing H1'));
+errors.push(...tokenOnlyVariants(trustDocs.map((h) => h.title), 'trust title'));
+errors.push(...tokenOnlyVariants(trustDocs.map((h) => h.h1), 'trust H1'));
+errors.push(...tokenOnlyVariants(fineIndexDocs.map((h) => h.title), 'fine-index title'));
+errors.push(...tokenOnlyVariants(fineIndexDocs.map((h) => h.h1), 'fine-index H1'));
+errors.push(...tokenOnlyVariants(dropoffDocs.map((h) => h.title), 'drop-off title'));
+errors.push(...tokenOnlyVariants(dropoffDocs.map((h) => h.h1), 'drop-off H1'));
+errors.push(...tokenOnlyVariants(estimateDocsRows.map((h) => h.title), 'estimate title'));
+errors.push(...tokenOnlyVariants(estimateDocsRows.map((h) => h.h1), 'estimate H1'));
 
 errors.push(...dupes(hoods.map((h) => h.title), 'neighborhood title'));
 errors.push(...dupes(hoods.map((h) => h.h1), 'neighborhood H1'));
@@ -444,6 +554,7 @@ const allTitles = [
   ...hubDirs.map((h) => h.title),
   ...journalPieces.map((h) => h.title),
   ...blogPieces.map((h) => h.title),
+  ...estimateDocsRows.map((h) => h.title),
 ];
 errors.push(...dupes(allTitles, 'cross-type title'));
 

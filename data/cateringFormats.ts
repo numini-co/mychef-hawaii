@@ -169,10 +169,10 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
     {
       slug: 'drop-off',
       name: 'Drop-off',
-      h1: 'Drop-off is not staffed service on Oahu.',
-      title: 'Drop-off is not staffed service on Oahu | myCHEF',
+      h1: 'Trays at a Honolulu door are not a staffed Kahala night.',
+      title: 'Honolulu drop-off trays are not a staffed Kahala night | myCHEF',
       description:
-        'Drop-off on Oahu is a different product from staffed catering. Inquiry only. We will not sell drop-off as if a chef stays.',
+        'Oʻahu drop-off is trays at the door, not a staffed Kahala brigade. Inquiry only. We will not sell drop-off as if a chef stays.',
       lede:
         'Trays at the door, no pass, no cleanup crew. If you want a chef in the house, that is /catering or /. This page is the refusal to blur them.',
       photo: 'fmtDropoffOahu',
@@ -351,10 +351,10 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
     {
       slug: 'drop-off',
       name: 'Drop-off',
-      h1: 'Drop-off is not staffed service on Maui.',
-      title: 'Drop-off is not staffed service on Maui | myCHEF',
+      h1: 'Wailea drop-off is not a villa brigade. Inquiry only.',
+      title: 'Wailea drop-off is not a villa brigade | myCHEF',
       description:
-        'Drop-off on Maui is a different product from staffed catering. Inquiry only. We will not sell drop-off as if a chef stays in Wailea.',
+        'Maui drop-off is trays at a villa door, not a Wailea brigade. Inquiry only. We will not sell drop-off as if a chef stays.',
       lede:
         'Trays at the villa door. No pass. No cleanup. If you want a chef, that is /catering or /. This page keeps the words honest.',
       photo: 'fmtDropoffMaui',
@@ -533,10 +533,10 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
     {
       slug: 'drop-off',
       name: 'Drop-off',
-      h1: 'Drop-off is not staffed service on Kauai.',
-      title: 'Drop-off is not staffed service on Kauai | myCHEF',
+      h1: 'Both-shore trays are inquiry — never sold as a staffed estate.',
+      title: 'Both-shore drop-off inquiry — not a staffed estate | myCHEF',
       description:
-        'Drop-off on Kauai is a different product from staffed catering. Inquiry only. We will not sell drop-off as if a chef stays.',
+        'Kauaʻi drop-off is inquiry-only trays, never sold as a staffed Princeville or Poʻipū estate. We will not blur it with /catering.',
       lede:
         'Trays at the estate door. No pass. Inquiry. If you want a chef, that is /catering. This page keeps the words honest.',
       photo: 'fmtDropoffKauai',
@@ -715,10 +715,10 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
     {
       slug: 'drop-off',
       name: 'Drop-off',
-      h1: 'Drop-off is not staffed service on Hawaiʻi Island.',
-      title: 'Drop-off is not staffed service on Hawaiʻi Island | myCHEF',
+      h1: 'West-side drop-off is not a Kona crew. Inquiry, and Hilo is another day.',
+      title: 'West-side drop-off inquiry — not a Kona crew | myCHEF',
       description:
-        'Drop-off on Hawaiʻi Island is a different product from staffed catering. Inquiry only. West-side first. We will not sell drop-off as if a chef stays.',
+        'West-side drop-off is inquiry-only trays, not a Kona crew. Hilo is another day. We will not sell drop-off as if a chef stays.',
       lede:
         'Trays at the villa door. No pass. Inquiry. If you want a chef, that is /catering. East side is still a different day.',
       photo: 'fmtDropoffBigisland',

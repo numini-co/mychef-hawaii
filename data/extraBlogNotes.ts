@@ -1,13 +1,15 @@
 import type { IslandId } from './islands';
 import { SEARCH_VOLUMES } from './offers';
 import type { UniqueCell } from './uniqueCells';
+import { EXTRA_BLOG_ANGLES, applyEditorialAngles } from './editorialTitleAngles';
 
 /**
  * Remaining extra-blog kitchen notes beside live SKUs.
  * Distinct from occasion, menu, staffing, and bar URLs. Titles must not use money keywords.
+ * Title / H1 / meta come from EXTRA_BLOG_ANGLES so each island×slug is a different structure.
  */
 
-export const EXTRA_BLOG_NOTES: Record<IslandId, UniqueCell[]> = {
+const RAW_EXTRA_BLOG_NOTES: Record<IslandId, UniqueCell[]> = {
   oahu: [
     {
       slug: 'anniversary-dinners',
@@ -1424,4 +1426,11 @@ export const EXTRA_BLOG_NOTES: Record<IslandId, UniqueCell[]> = {
       ],
     },
   ],
+};
+
+export const EXTRA_BLOG_NOTES: Record<IslandId, UniqueCell[]> = {
+  oahu: applyEditorialAngles('oahu', RAW_EXTRA_BLOG_NOTES.oahu, EXTRA_BLOG_ANGLES),
+  maui: applyEditorialAngles('maui', RAW_EXTRA_BLOG_NOTES.maui, EXTRA_BLOG_ANGLES),
+  kauai: applyEditorialAngles('kauai', RAW_EXTRA_BLOG_NOTES.kauai, EXTRA_BLOG_ANGLES),
+  bigisland: applyEditorialAngles('bigisland', RAW_EXTRA_BLOG_NOTES.bigisland, EXTRA_BLOG_ANGLES),
 };

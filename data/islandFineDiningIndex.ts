@@ -10,10 +10,10 @@ import type { IslandNestedIndexPage } from './islandHelpIndex';
 
 export const islandFineDiningIndex: Record<IslandId, IslandNestedIndexPage> = {
   oahu: {
-    h1: 'Oahu villa formats — romantic, tasting, chef’s table, celebration.',
-    title: 'Oahu in-villa formats — not a Michelin claim | myCHEF',
+    h1: 'Kahala rooms and Ko Olina villas — four formats, still a house.',
+    title: 'Kahala & Ko Olina formats — still a house, not a star | myCHEF',
     description:
-      'Oahu in-villa formats: romantic dinner, tasting menu, chef’s table evening, celebration dinner. Halo posture, not a star. Distinct from /honeymoon-dinners.',
+      'Oʻahu in-villa formats in Kahala rooms and Ko Olina villas: romantic dinner, tasting menu, chef’s table evening, celebration dinner. Halo posture, not a star. Distinct from /honeymoon-dinners.',
     lede:
       '/honeymoon-dinners is the published two-top SKU. /chefs-table is the villa table product. This page is the format list — still a house, still a written quote.',
     kicker: 'Oʻahu · Fine dining',
@@ -34,10 +34,10 @@ export const islandFineDiningIndex: Record<IslandId, IslandNestedIndexPage> = {
     ],
   },
   maui: {
-    h1: 'Maui villa formats — romantic, tasting, chef’s table, celebration.',
-    title: 'Maui in-villa formats — Wailea rooms, not a star | myCHEF',
+    h1: 'Wailea dining rooms and West Maui lanais — four formats, not a star.',
+    title: 'Wailea & West Maui formats — villa rooms, not a star | myCHEF',
     description:
-      'Maui in-villa formats: romantic dinner, tasting menu, chef’s table evening, celebration dinner. Halo posture, not a star. Distinct from /honeymoon-dinners.',
+      'Maui in-villa formats in Wailea dining rooms and West Maui lanais: romantic dinner, tasting menu, chef’s table evening, celebration dinner. Halo posture, not a star. Distinct from /honeymoon-dinners.',
     lede:
       '/honeymoon-dinners is the published two-top SKU. This page is the format list — Wailea rooms, West Maui lanais, still a written quote.',
     kicker: 'Maui · Fine dining',
@@ -58,10 +58,10 @@ export const islandFineDiningIndex: Record<IslandId, IslandNestedIndexPage> = {
     ],
   },
   kauai: {
-    h1: 'Kauai estate formats — romantic, tasting, chef’s table, at inquiry.',
-    title: 'Kauai in-villa formats — inquiry, not a star | myCHEF',
+    h1: 'Both-shore estate formats at inquiry — when we can staff.',
+    title: 'Both-shore estate formats — inquiry, not a star | myCHEF',
     description:
-      'Kauai in-villa formats at inquiry: romantic dinner, tasting menu, chef’s table evening, celebration dinner. Not a Michelin claim. Not a Book-now button.',
+      'Kauaʻi estate formats at inquiry on both shores: romantic dinner, tasting menu, chef’s table evening, celebration dinner. Not a Michelin claim. Not a Book-now button.',
     lede:
       '/honeymoon-dinners is the two-top SKU at inquiry. This page is the format list — both shores, when we can staff, not a fake roster.',
     kicker: 'Kauaʻi · Fine dining',
@@ -82,10 +82,10 @@ export const islandFineDiningIndex: Record<IslandId, IslandNestedIndexPage> = {
     ],
   },
   bigisland: {
-    h1: 'Kohala villa formats — romantic, tasting, chef’s table, at inquiry.',
-    title: 'West-side in-villa formats — inquiry, not a star | myCHEF',
+    h1: 'Kona-to-Kohala formats at inquiry — Hilo never on this list.',
+    title: 'Kona-to-Kohala formats — inquiry, Hilo not on this list | myCHEF',
     description:
-      'Hawaiʻi Island west-side in-villa formats at inquiry. Distinct from /honeymoon-dinners, /chefs-table, and /east-side. Not a Michelin claim.',
+      'West-side Hawaiʻi Island formats at inquiry, Kona to Kohala. Distinct from /honeymoon-dinners, /chefs-table, and /east-side. Not a Michelin claim. Hilo never on this list.',
     lede:
       '/honeymoon-dinners is the two-top SKU at inquiry. This page is the west-side format list — Kona to Kohala, Hilo never implied.',
     kicker: 'Hawaiʻi Island · Fine dining',
