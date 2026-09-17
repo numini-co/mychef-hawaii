@@ -1,6 +1,7 @@
 import HostLink from '@/components/HostLink';
 import ContactCluster from '@/components/ContactCluster';
-import { QuoteCta, WhatsAppCta } from '@/components/Cta';
+import { CtaLink, QuoteCta, WhatsAppCta } from '@/components/Cta';
+import DeskChannels from '@/components/DeskChannels';
 import Hero from '@/components/Hero';
 import JsonLd from '@/components/JsonLd';
 import LineReveal from '@/components/LineReveal';
@@ -35,6 +36,8 @@ import { islandBlog } from '@/data/islandBlog';
 import { islandLocations } from '@/data/islandLocations';
 import { islandAreas } from '@/data/islandAreas';
 import { islandContact } from '@/data/islandContact';
+import { DESK_EMAIL, DESK_MAILTO, DESK_PHONE_DISPLAY, DESK_PHONE_E164, DESK_TEL } from '@/lib/contact';
+import { canonicalUrl } from '@/lib/site';
 import { islandTrust } from '@/data/islandTrust';
 import { islandServiceIndex, SERVICE_INDEX_LINKS } from '@/data/islandServiceIndex';
 import { islandHelpIndex } from '@/data/islandHelpIndex';
@@ -642,10 +645,40 @@ export function HubDirectoryView({ id, related }: { id: string; related?: ReactN
           className="mt-4 font-display text-[clamp(2.5rem,6vw,4.25rem)] font-light leading-[1.05] tracking-[-0.02em] text-ink"
         />
         <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink">{copy.lede}</p>
-        <div className="mt-8">
+        <div className="mt-8 flex flex-wrap items-center gap-3">
           <QuoteCta variant="light" />
+          {copy.path === '/contact' ? <DeskChannels variant="secondary" /> : null}
         </div>
       </Hero>
+      {copy.path === '/contact' ? (
+        <JsonLd
+          data={{
+            '@context': 'https://schema.org',
+            '@type': 'FoodService',
+            name: 'myCHEF Hawaii',
+            description: copy.description,
+            url: 'https://mychef-hawaii.com/contact',
+            telephone: DESK_PHONE_E164,
+            email: DESK_EMAIL,
+            areaServed: [
+              { '@type': 'AdministrativeArea', name: 'Oʻahu' },
+              { '@type': 'AdministrativeArea', name: 'Maui' },
+              { '@type': 'AdministrativeArea', name: 'Kauaʻi' },
+              { '@type': 'AdministrativeArea', name: 'Hawaiʻi Island' },
+            ],
+            serviceType: 'Private chef',
+            contactPoint: {
+              '@type': 'ContactPoint',
+              contactType: 'sales',
+              telephone: DESK_PHONE_E164,
+              email: DESK_EMAIL,
+              areaServed: 'US-HI',
+              availableLanguage: 'English',
+            },
+            parentOrganization: { '@type': 'Organization', name: 'myCHEF' },
+          }}
+        />
+      ) : null}
       <Longform sections={[{ h2: copy.kicker, paras: copy.body }]} />
       {nested.length ? (
         <HubPhotoGrid
@@ -663,6 +696,11 @@ export function HubDirectoryView({ id, related }: { id: string; related?: ReactN
       <IslandPhotoPicker
         path={copy.path}
         heading="Open the island document."
+        intro={
+          copy.path === '/menus'
+            ? 'This hub page is the process picker. Plated sample courses and published prices live on each island /menus.'
+            : undefined
+        }
         detailOf={() => copy.cardLabel}
       />
       {related}
@@ -1003,18 +1041,41 @@ export function AreasIndexView({ islandId }: { islandId: (typeof islandOrder)[nu
 export function ContactIndexView({ islandId }: { islandId: (typeof islandOrder)[number] }) {
   const copy = islandContact[islandId];
   const photo = photos[copy.photo];
+  const island = islands[islandId];
   return (
     <>
       <JsonLd
-        data={{
-          '@context': 'https://schema.org',
-          '@type': 'FAQPage',
-          mainEntity: copy.faqs.map((f) => ({
-            '@type': 'Question',
-            name: f.q,
-            acceptedAnswer: { '@type': 'Answer', text: f.a },
-          })),
-        }}
+        data={[
+          {
+            '@context': 'https://schema.org',
+            '@type': 'FoodService',
+            name: `myCHEF ${island.name}`,
+            description: copy.description,
+            url: canonicalUrl(islandId, '/contact'),
+            telephone: DESK_PHONE_E164,
+            email: DESK_EMAIL,
+            areaServed: { '@type': 'AdministrativeArea', name: island.name },
+            serviceType: 'Private chef',
+            contactPoint: {
+              '@type': 'ContactPoint',
+              contactType: 'sales',
+              telephone: DESK_PHONE_E164,
+              email: DESK_EMAIL,
+              areaServed: island.name,
+              availableLanguage: 'English',
+            },
+            parentOrganization: { '@type': 'Organization', name: 'myCHEF Hawaii' },
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: copy.faqs.map((f) => ({
+              '@type': 'Question',
+              name: f.q,
+              acceptedAnswer: { '@type': 'Answer', text: f.a },
+            })),
+          },
+        ]}
       />
       <Hero src={photo.file} alt={photo.alt}>
         <p className="text-[13px] text-mute">{copy.kicker}</p>
@@ -1025,6 +1086,12 @@ export function ContactIndexView({ islandId }: { islandId: (typeof islandOrder)[
         <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink">{copy.lede}</p>
         <div className="mt-8 flex flex-wrap items-center gap-3">
           <QuoteCta island={islandId} variant="light" />
+          <CtaLink href={DESK_TEL} variant="secondary" aria-label={`Call ${DESK_PHONE_DISPLAY}`}>
+            {DESK_PHONE_DISPLAY}
+          </CtaLink>
+          <CtaLink href={DESK_MAILTO} variant="secondary" aria-label={`Email ${DESK_EMAIL}`}>
+            {DESK_EMAIL}
+          </CtaLink>
           <WhatsAppCta island={islandId} variant="secondary" />
         </div>
       </Hero>
@@ -1034,16 +1101,16 @@ export function ContactIndexView({ islandId }: { islandId: (typeof islandOrder)[
         islandId={islandId}
         eyebrow={`${islands[islandId].shortName} · Beside this desk`}
         heading="Open a related document."
-        intro="/quote is the form. Getting started, how a night runs, and the FAQ are their own URLs. This page stays how to reach the desk."
+        intro="/quote is the form. The rate card, FAQ, and honesty register are their own URLs. This page stays how to reach the desk."
         columns={2}
         items={[
           { path: '/quote', label: 'The quote form', detail: '/quote' },
-          { path: '/help/getting-started', label: 'Getting started', detail: '/help/getting-started' },
-          { path: '/how-it-works', label: 'How it works', detail: '/how-it-works' },
+          { path: '/pricing', label: 'What a night costs', detail: '/pricing' },
           { path: '/faq', label: 'FAQ', detail: '/faq' },
+          { path: '/trust', label: 'What we will not claim', detail: '/trust' },
         ]}
       />
-      <LongFaq items={copy.faqs} title="Before you look for a phone number." />
+      <LongFaq items={copy.faqs} title="Before you write the desk." />
     </>
   );
 }

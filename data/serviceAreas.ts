@@ -39,18 +39,21 @@ export const SERVICE_AREAS: Record<IslandId, IslandServiceArea> = {
   },
   kauai: {
     island: 'kauai',
-    line: 'North Shore (Princeville, Hanalei) and South Shore (Poipū); inquiry.',
+    line: 'North Shore (Princeville, Hanalei), South Shore (Poipū), and Kapaʻa / East; inquiry.',
     corridors: [
       { id: 'north-shore', name: 'North Shore — Princeville, Hanalei' },
       { id: 'south-shore', name: 'South Shore — Poipū' },
+      { id: 'kapaa', name: 'Kapaʻa / East side' },
     ],
   },
   bigisland: {
     island: 'bigisland',
-    line: 'Kona–Kohala first; east side quoted; inquiry.',
+    line: 'Kona–Kohala first, including Waimea and Waikoloa; east side quoted as a dedicated day, not same-day CORE.',
     corridors: [
       { id: 'kona-kohala', name: 'Kona–Kohala' },
-      { id: 'east-side', name: 'East side (quoted)' },
+      { id: 'waimea', name: 'Waimea' },
+      { id: 'waikoloa', name: 'Waikoloa' },
+      { id: 'east-side', name: 'East side — Hilo / Volcano (quoted, dedicated day — not same-day CORE)' },
     ],
   },
 };

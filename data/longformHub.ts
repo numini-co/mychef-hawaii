@@ -5,7 +5,7 @@ export const hubHomeSections: CopySection[] = [
     h2: 'Villa chef Hawaii',
     paras: [
       'A villa chef Hawaii booking is a cook in the house you rented — not a restaurant reservation with a nicer tablecloth. We design a menu for that kitchen, shop the same day, cook, serve, and leave the place clean. The table is yours. The guest list is yours. The night ends when you say it ends.',
-      'Statewide, that is the product: Oʻahu, Maui, Kauaʻi, and Hawaiʻi Island. Starting prices are published in USD. Signature dinner from $195 a guest on Oʻahu and $225 on Maui and Kauaʻi. Service 20% and Hawaiʻi GET up to 4.712% sit on their own lines on the written quote. The quote is the confirmed total — not a chat estimate.',
+      'Statewide, that is the product: Oʻahu, Maui, Kauaʻi, and Hawaiʻi Island. Starting prices are published in USD. Signature dinner from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island. Service 20% and Hawaiʻi GET up to 4.712% sit on their own lines on the written quote. The quote is the confirmed total — not a chat estimate.',
       'We do not sell named-chef profiles. You book myCHEF Hawaii. We staff the crew to the size of the house. A dinner for six is not a reception for sixty. See how a booking is crewed on /about, and what a night costs on /pricing.',
     ],
   },
@@ -21,7 +21,7 @@ export const hubHomeSections: CopySection[] = [
     h2: 'Vacation rental chef',
     paras: [
       'A vacation rental chef is the honest name for most visitor bookings: Airbnb, VRBO, resort residence, estate week. The test is the kitchen. If there is a cooktop, a fridge, and a table, we can work. If there is not, we say no before you put a deposit down.',
-      'Stay Chef is the multi-day version — day rates from $1,250 on Oʻahu and $1,550 on Maui, groceries billed at cost with receipts. Arrival-night dinner plus a stocked fridge is the usual first move. Full-board days exist for houses that actually cook three times.',
+      'Stay Chef is the multi-day version — day rates from $1,250 on Oʻahu, $1,550 on Maui, and $1,450 on Hawaiʻi Island (inquiry), groceries billed at cost with receipts. Arrival-night dinner plus a stocked fridge is the usual first move. Full-board days exist for houses that actually cook three times.',
       'Neighborhood corridors live on the island hosts — /wailea on Maui, /waikiki on Oʻahu, /princeville on Kauaʻi, /kona on Hawaiʻi Island. They are not hub paths. Open the island site for the kitchen that matches the house. Request a quote statewide on /quote.',
     ],
   },
@@ -45,7 +45,7 @@ export const hubHomeSections: CopySection[] = [
     h2: 'What we will not claim',
     paras: [
       'We do not yet have Hawaiʻi guest reviews. We will not invent them, buy them, or write them in-house. Reviews publish after verified events. Until then the proof is published prices, sample menus, cleanup, and a written quote. That posture is on /trust.',
-      'We do not publish an 808 number, a street office, a founding year, or chef names. Contact is the quote form and WhatsApp. Typical reply in Hawaii business hours. We do not sell other-company markets on this site. Hawaii is the work.',
+      'We do not invent Hawaiʻi reviews, chef names, or a street office. Contact is the quote form, WhatsApp (https://wa.me/18084687748), quotes@mychef-hawaii.com, and (808) 468-7748. Typical reply in Hawaii business hours. Hawaii is the work on this site; other myCHEF destinations live on their own sites.',
     ],
   },
 ];
@@ -53,7 +53,7 @@ export const hubHomeSections: CopySection[] = [
 export const hubHomeFaqs: CopyFaq[] = [
   {
     q: 'Where is the line-by-line Hawaii chef card?',
-    a: 'Signature dinner from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi. Stay Chef from $1,250 a day. Service 20% and GET up to 4.712% are added once on the written quote. The line-by-line card is on /pricing.',
+    a: 'Signature dinner from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island. Stay Chef from $1,250 Oʻahu / $1,550 Maui / $1,450 Hawaiʻi Island (inquiry). Service 20% and GET up to 4.712% are added once on the written quote. The line-by-line card is on /pricing.',
   },
   {
     q: 'Hotel rooms without a cooktop?',
@@ -115,7 +115,7 @@ export const hubCateringSections: CopySection[] = [
     h2: 'What we will not cater',
     paras: [
       'Hotel banquet rooms and citywide convention holds are a different industry. We cook in residences and estate kitchens. If the listing is a standard suite with a minibar, we decline before a deposit. If the lawn cannot hold the list, we say so in writing.',
-      'We do not invent venue exclusivity, an 808 number, or Hawaiʻi catering reviews. Proof is the published band, a sample estate menu, and a written total. Drinks stay BYO or /bar. Wet-weather plans are written before anyone pays. Neighbor-island liquor rules that still need counsel stay marked as such.',
+      'We do not invent venue exclusivity or Hawaiʻi catering reviews. The published line is (808) 468-7748. Proof is the published band, a sample estate menu, and a written total. Drinks stay BYO or /bar. Wet-weather plans are written before anyone pays. Neighbor-island liquor rules that still need counsel stay marked as such.',
     ],
   },
 ];
@@ -185,7 +185,7 @@ export const hubWeddingsSections: CopySection[] = [
     h2: 'Planners, houses, and what we will not invent',
     paras: [
       'We slot into a planner’s timeline. COIs, load-in windows, and quiet hours are arranged with the property before the first welcome pour. We do not claim venue exclusivity we do not have. If the estate cannot hold the list, we decline the headcount before we design a cake-cutting window.',
-      'Hawaii is launching. We do not invent wedding reviews, chef names, an 808 number, or a street office. Proof is published prices, a sample estate menu, cleanup, and a written week. Reviews publish after verified events — see /trust. Neighborhood corridors live on the island hosts, not on this statewide page. Oʻahu and Maui request a quote. Kauaʻi and Hawaiʻi Island join the inquiry list.',
+      'Hawaii is launching. We do not invent wedding reviews, chef names, or a street office. Call (808) 468-7748 or send /quote. Proof is published prices, a sample estate menu, cleanup, and a written week. Reviews publish after verified events — see /trust. Neighborhood corridors live on the island hosts, not on this statewide page. Oʻahu and Maui request a quote. Kauaʻi and Hawaiʻi Island join the inquiry list.',
     ],
   },
 ];
@@ -248,7 +248,7 @@ export const quoteTrustSections: CopySection[] = [
     paras: [
       'A coordinator in Hawaii Standard Time reads the five fields and replies in business hours — typically within one working day. You get a menu direction, a crew size, and a written price with service and GET on their own lines. No account. No payment to ask. One honest follow-up, not a drip campaign.',
       'Oʻahu and Maui receive a request-a-quote reply: menu direction, crew, written total. Kauaʻi and Hawaiʻi Island receive an inquiry-list reply: we log the shore and the dates and write back with what we can staff when a crew exists. The form is the same. The button is not “Book now.”',
-      'We do not invent Hawaiʻi reviews, chef names, or an 808 number to look established. Proof today is published starting prices, sample menus, and this form. Reviews publish after verified events — see /trust. If the kitchen cannot host a chef, we decline before a deposit, not after.',
+      'We do not invent Hawaiʻi reviews or chef names to look established. Proof today is published starting prices, sample menus, and this form. Reviews publish after verified events — see /trust. Reach the desk on WhatsApp, quotes@mychef-hawaii.com, or (808) 468-7748. Kauaʻi and Hawaiʻi Island selections are inquiry, not instant book. If the kitchen cannot host a chef, we decline before a deposit, not after.',
     ],
   },
   {
@@ -257,7 +257,7 @@ export const quoteTrustSections: CopySection[] = [
       'Island, dates, headcount, and service are enough to start. Property type helps: villa, condo, hotel residence, or no kitchen. Allergies and a bartender belong in the first reply thread, not as a surprise at the pass. 50% locks the date once you accept the written total.',
       'Name the island that matches the house. Honolulu is an Oʻahu corridor — /honolulu on that host — not a separate company. Kona is a Hawaiʻi Island corridor — /kona. Neighborhood corridors — /wailea, /kahala, /princeville, /waikoloa — live on the island hosts. Name the house on /quote so we price the drive.',
       'Oʻahu CORE dinners are $195–$290 a guest. Maui CORE is $225–$375. Those bands hold menu, shopping, cooking, service, and cleanup. Staffing for a ten-to-seventy-five room is hourly on top. The confirmed number is the written quote — never a chat estimate.',
-      'If dates are flexible, say so. Peak months move first on every island. One crew holds one heavy week. We will not invent a second brigade to look available. WhatsApp is the same conversation as this form — typical reply in Hawaii business hours. No street office. No 808 number. The form and WhatsApp are the doors. A 50% deposit is the only money that locks a date — after you accept the written total, never before. Oʻahu CORE is $195–$290 a guest. Maui CORE is $225–$375. Those numbers do not change because the form is short.',
+      'If dates are flexible, say so. Peak months move first on every island. One crew holds one heavy week. We will not invent a second brigade to look available. WhatsApp, (808) 468-7748, and this form are the same Hawaii desk — typical reply in Hawaii business hours. No street office. A 50% deposit is the only money that locks a date — after you accept the written total, never before. 20% service and Hawaiʻi GET up to 4.712% sit on their own written-quote lines. Oʻahu CORE is $195–$290 a guest. Maui CORE is $225–$375. Those numbers do not change because the form is short.',
     ],
   },
 ];

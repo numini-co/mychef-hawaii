@@ -201,7 +201,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/contact': {
     title: 'How to reach a desk, by island | myCHEF Hawaii',
     description:
-      'Each island department has its own desk hours and form. This hub page is the picker — not the Oahu desk, not the Maui desk.',
+      'Quote form, WhatsApp, (808) 468-7748, and quotes@mychef-hawaii.com — Hawaii Standard Time. Open the island desk that holds the house. Not a walk-in office.',
   },
   '/locations': {
     title: 'Live dinner doors, by island | myCHEF Hawaii',
@@ -211,7 +211,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/menus': {
     title: 'How menus are designed, by island | myCHEF Hawaii',
     description:
-      'Each island host explains how a table is designed. Distinct from nested /menus/:sku pages and from the island /menus process document.',
+      'Oʻahu, Maui, Kauaʻi and Hawaiʻi Island menus — designed per table, not a standing carte. Plated samples on each island host. Published USD prices in writing.',
   },
   '/help': {
     title: 'Help desks, by island | myCHEF Hawaii',

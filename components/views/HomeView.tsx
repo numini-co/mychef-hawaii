@@ -12,6 +12,7 @@ import Reveal, { MaskReveal } from '@/components/Reveal';
 import { hubChrome, heroFocal, processSteps } from '@/data/chromeCopy';
 import { hubHomeFaqs, hubHomeSections } from '@/data/longformHub';
 import { photos } from '@/data/photos';
+import { DESK_EMAIL, DESK_PHONE_E164 } from '@/lib/contact';
 
 const hubFaqs = [
   {
@@ -20,15 +21,15 @@ const hubFaqs = [
   },
   {
     q: 'How much does a private chef cost in Hawaii?',
-    a: 'Signature dinner from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi. Stay Chef day rates from $1,250. Service 20% and Hawaiʻi GET are added once on the written quote.',
+    a: 'Signature dinner from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island. Stay Chef from $1,250 Oʻahu / $1,550 Maui / $1,450 Hawaiʻi Island (inquiry). Service 20% and Hawaiʻi GET are added once on the written quote.',
   },
   {
     q: "What's included?",
-    a: 'Menu design, shopping, cooking in your villa, table service and a clean kitchen. Drinks BYO or quoted. Bartender add-on lives on /bar.',
+    a: 'Signature and per-guest dinners include menu design, same-day shopping, cooking in your villa, table service, and a clean kitchen — groceries sit inside that published band. Stay Chef days bill groceries at cost with receipts. The two models are never blended. Drinks BYO or quoted. Bartender add-on lives on /bar.',
   },
   {
     q: 'Do you have Hawaii guest reviews?',
-    a: 'Not yet — and we will not invent them. Proof here is published prices, sample menus, cleanup, and a written quote.',
+    a: 'Not yet — and we will not invent them. Proof here is published prices, sample menus, cleanup, and a written quote. See /trust.',
   },
   {
     q: 'Airbnb / vacation rental kitchens?',
@@ -49,8 +50,8 @@ export default function HomeView() {
             name: 'Private chef Hawaii — myCHEF',
             description: hubChrome.lede,
             url: 'https://mychef-hawaii.com/',
-            telephone: '+18084687748',
-            email: 'quotes@mychef-hawaii.com',
+            telephone: DESK_PHONE_E164,
+            email: DESK_EMAIL,
             priceRange: '$195–$375',
             serviceType: 'Private chef and catering',
             areaServed: [
@@ -62,8 +63,8 @@ export default function HomeView() {
             contactPoint: {
               '@type': 'ContactPoint',
               contactType: 'sales',
-              telephone: '+18084687748',
-              email: 'quotes@mychef-hawaii.com',
+              telephone: DESK_PHONE_E164,
+              email: DESK_EMAIL,
               areaServed: 'US-HI',
               availableLanguage: 'English',
             },
@@ -197,12 +198,12 @@ export default function HomeView() {
       <section className="bg-paper py-24 lg:py-32">
         <div className="mx-auto w-full max-w-spread px-5 lg:px-10">
           <Eyebrow>Published prices</Eyebrow>
-          <p className="mt-6 max-w-[24ch] font-display text-[clamp(2rem,4.2vw,3.5rem)] font-light leading-[1.08] text-ink">
-            Signature dinner from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi.
+          <p className="mt-6 max-w-[28ch] font-display text-[clamp(2rem,4.2vw,3.5rem)] font-light leading-[1.08] text-ink">
+            Signature dinner from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island.
           </p>
           <p className="mt-6 max-w-[52ch] text-[17px] leading-relaxed text-mute">
-            Stay Chef from $1,250 a day on Oʻahu and $1,550 on Maui. Service 20% and Hawaiʻi GET up to 4.712% appear as
-            separate lines on the written quote.
+            Stay Chef from $1,250 a day on Oʻahu, $1,550 on Maui, and $1,450 on Hawaiʻi Island (inquiry). Service 20% and
+            Hawaiʻi GET up to 4.712% appear as separate lines on the written quote.
           </p>
           <Link
             href="/pricing"

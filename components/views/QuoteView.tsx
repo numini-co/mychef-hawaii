@@ -64,8 +64,8 @@ export default function QuoteView({ islandId, hostMode }: { islandId: IslandId |
             items={[
               { path: '/contact', label: 'The desk', detail: '/contact' },
               { path: '/pricing', label: 'What a night costs', detail: '/pricing' },
-              { path: '/how-it-works', label: 'How it works', detail: '/how-it-works' },
-              { path: '/help/getting-started', label: 'Getting started', detail: '/help/getting-started' },
+              { path: '/faq', label: 'FAQ', detail: '/faq' },
+              { path: '/trust', label: 'What we will not claim', detail: '/trust' },
             ]}
           />
           <LongFaq items={copy.faqs} title="Before you send it." />
@@ -92,16 +92,16 @@ export default function QuoteView({ islandId, hostMode }: { islandId: IslandId |
                 still: photos.hubPricing,
               },
               {
-                href: '/how-it-works',
-                title: 'How a booking works',
-                body: 'One process on every island. Drive times live on the island host.',
-                still: photos.hubHow,
-              },
-              {
                 href: '/faq',
                 title: faq?.cardLabel ?? 'Questions',
                 body: faq?.lede ?? 'Booking questions live on the island host.',
                 still: faq ? photos[faq.photo] : photos.hubFaq,
+              },
+              {
+                href: '/trust',
+                title: 'What we will not claim',
+                body: 'Reviews we will not invent. Proof is published prices and a written quote.',
+                still: photos.hubTrust,
               },
             ]}
           />

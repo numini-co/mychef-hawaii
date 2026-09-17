@@ -52,7 +52,7 @@ export const islandAbout: Record<IslandId, IslandAboutCopy> = {
     body: [
       'Maui is Wailea, West Maui, Kīhei, Kapalua, Makena — named here as live corridors, not as decoration. Open /wailea, /kaanapali, /lahaina, /kihei, /kapalua, /makena. Catering is the larger search on this island.',
       'A reception on the lawn is a different crew than Date Night for two. We write that difference before the deposit. Upcountry is a published surcharge. Pāʻia is quote-only with the menu.',
-      'Hawaii is launching. We do not invent Maui guest reviews, chef names, or an 808 number. Proof is the published card on /pricing and the written total on /quote.',
+      'Hawaii is launching. We do not invent Maui guest reviews or chef names. The published line is (808) 468-7748. Proof is the published card on /pricing and the written total on /quote.',
     ],
     faqs: [
       {
@@ -106,7 +106,7 @@ export const islandAbout: Record<IslandId, IslandAboutCopy> = {
     body: [
       'Hawaiʻi Island is west-side first. Live corridors: /kona, /waikoloa, /waimea, /kohala. Kona is a search people type; it has its own page on this host.',
       'Hilo is a different day — 2.5–3 hours, dedicated staffing, never a same-day round trip. Ironman week compresses the calendar. Tell us the dates early. The crew size still follows the house.',
-      'Inquiry stage. Proof is published starting prices and a written quote. We do not invent Big Island reviews, farm names, or an 808 number.',
+      'Inquiry stage. Proof is published starting prices and a written quote. We do not invent Big Island reviews or farm names. Call (808) 468-7748 or send /quote.',
     ],
     faqs: [
       {

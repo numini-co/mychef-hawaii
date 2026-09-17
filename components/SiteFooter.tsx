@@ -3,6 +3,7 @@ import ContactCluster from '@/components/ContactCluster';
 import HostLink from '@/components/HostLink';
 import { EnquireCta } from '@/components/Cta';
 import { LocationsBlock } from '@/components/LocationsBlock';
+import { WORLD_DESTINATIONS } from '@/data/destinations';
 import { islandOrder, islands, type IslandId } from '@/data/islands';
 import { islandHref } from '@/lib/paths';
 
@@ -175,14 +176,50 @@ export default function SiteFooter({
           <ContactCluster island={islandId} compact />
           <p className="mt-4 text-[13px] leading-relaxed text-on-ink">
             Published prices. Written quote. 20% service and Hawaiʻi GET are their own lines. Oʻahu Signature $195–$290 a
-            guest. Maui $225–$375.{' '}
+            guest. Maui and Kauaʻi $225–$375. Hawaiʻi Island $210–$325. Stay Chef from $1,250 Oʻahu / $1,550 Maui / $1,650
+            Kauaʻi / $1,450 Hawaiʻi Island (inquiry). See each island rate card.{' '}
             <a href={href('/legal')} className="underline underline-offset-2">
               Legal
             </a>
             . © {year} myCHEF Hawaii.
           </p>
+          <DestinationsStrip />
         </div>
       </div>
     </footer>
+  );
+}
+
+function DestinationsStrip() {
+  return (
+    <nav aria-labelledby="world-destinations" className="mt-8 border-t border-white/15 pt-6">
+      <p id="world-destinations" className="text-[13px] text-on-ink">
+        myCHEF around the world
+      </p>
+      <ul className="mt-4 flex flex-wrap items-end gap-x-6 gap-y-5 sm:gap-x-0">
+        {WORLD_DESTINATIONS.map((destination, index) => (
+          <li key={destination.href} className="flex items-end">
+            <p className="flex flex-col">
+              <span className="text-[13px] leading-snug text-on-ink">{destination.label}</span>
+              <a
+                href={destination.href}
+                className="text-base text-paper underline underline-offset-4 hover:text-brass"
+                {...(destination.external
+                  ? { target: '_blank', rel: 'noopener noreferrer' }
+                  : {})}
+                aria-label={`${destination.label} — ${destination.domain}`}
+              >
+                {destination.domain}
+              </a>
+            </p>
+            {index < WORLD_DESTINATIONS.length - 1 ? (
+              <span aria-hidden className="mx-4 hidden self-end pb-1 text-white/30 sm:inline">
+                ·
+              </span>
+            ) : null}
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 }

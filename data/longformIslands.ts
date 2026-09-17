@@ -201,7 +201,7 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
         h2: 'How a Kauaʻi week is crewed',
         paras: [
           'One culinary conversation for the stay. You do not hire four vendors and hope they share a pass. Dinner, a staffed buffet or plated room, a welcome night, a recovery brunch — separate lines on one quote so you can cut a brunch without renegotiating a mystery package. On Kauaʻi, service staff is $80 hourly and a sous is $105, each with a four-hour floor, printed as its own row.',
-          'We do not publish cook names, an island street office, or a founding story. Contact is /quote and WhatsApp. A Hawaii-hours desk answers on working days — usually within one business day. Reviews on this island publish after verified events; we will not invent them to look established. Proof today is the published band, a sample estate menu, cleanup, and the written total.',
+          'We do not publish cook names, an island street office, or a founding story. Contact is /quote, WhatsApp (https://wa.me/18084687748), quotes@mychef-hawaii.com, and (808) 468-7748. A Hawaii-hours desk answers on working days — usually within one business day. Reviews on this island publish after verified events; we will not invent them to look established. See /trust. Proof today is the published band, a sample estate menu, cleanup, and the written total.',
         ],
       },
     ],
@@ -220,7 +220,7 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
       },
       {
         q: 'Do you actually book Kauaʻi?',
-        a: 'Kauaʻi is inquiry-stage. Join the inquiry list with the shore and the dates on /quote or WhatsApp.',
+        a: 'Kauaʻi is inquiry-stage. Join the inquiry list with the shore and the dates on /quote or WhatsApp. Reviews we will not invent live on /trust.',
       },
       {
         q: 'Vacation rental kitchens?',
@@ -267,7 +267,7 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
         h2: 'West-side prices, published',
         paras: [
           'ENTRY from $165 a guest is the open door. CORE $210–$325 is the usual villa night. PREMIUM sits above when the menu asks for it. Stay Chef from $1,450. Travel outside the Kona–Kohala corridor starts from a published $75 zone line; east side is never that line — east side is its own quote. Groceries are inside a signature dinner and at cost on multi-day days. Wine is yours to bring or a bartender line we write separately.',
-          'West-side staffed rooms price servers at $80 hourly and a sous at $105, each with a four-hour floor, never folded into the catch. A tip is optional and said so on the quote. There is no 808 number, no street office, no founding year, and no invented guest review on this island. Proof is the band, a sample Kona–Kohala menu, cleanup, and the written total on /pricing and /quote.',
+          'West-side staffed rooms price servers at $80 hourly and a sous at $105, each with a four-hour floor, never folded into the catch. A tip is optional and said so on the quote. There is no street office, no founding year, and no invented guest review on this island. The published line is (808) 468-7748. Proof is the band, a sample Kona–Kohala menu, cleanup, and the written total on /pricing and /quote.',
         ],
       },
       {
