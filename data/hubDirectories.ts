@@ -150,7 +150,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     cardLabel: 'The desk',
     body: [
       `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) and private chef Maui (${SEARCH_VOLUMES['private chef maui']}) stay on those hosts. This directory is how to reach a coordinator, not a dinner title.`,
-      'Oʻahu and Maui take quotes. Kauaʻi and Hawaiʻi Island are inquiry. Reach us in that order: the quote form, WhatsApp (https://wa.me/18084687748), quotes@mychef-hawaii.com, or (808) 468-7748. Those doors live on this hub page and on each island /contact — not a +971 line, and not a claim that WhatsApp only exists on an island host. There is no street office and no walk-in.',
+      'Oʻahu and Maui take quotes. Kauaʻi and Hawaiʻi Island are inquiry. Reach us in that order: the quote form, WhatsApp (https://wa.me/18084687748), quotes@mychef-hawaii.com, or (808) 468-7748. Those doors live on this hub page and on each island /contact — WhatsApp is not island-only. There is no street office and no walk-in.',
     ],
     faqs: [
       {
