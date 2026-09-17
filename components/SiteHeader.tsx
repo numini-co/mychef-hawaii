@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { usePathname } from 'next/navigation';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
 import BrandMark from '@/components/BrandMark';
@@ -9,11 +10,11 @@ import HostLink from '@/components/HostLink';
 import IslandSwitcher from '@/components/IslandSwitcher';
 import { MobileDisclosure, NavMenu, type NavTarget } from '@/components/NavMenu';
 import { useIsland } from '@/components/IslandProvider';
-import { islands } from '@/data/islands';
+import { islandOrder, islands, type IslandId } from '@/data/islands';
 import { moneyNeighborhoods } from '@/data/offers';
 import { inVillaPages } from '@/data/inVillaServices';
 import { DURATION, EASE_STANDARD } from '@/lib/motion';
-import { isHomePath, localPathFromPathname } from '@/lib/switchPath';
+import { hubSwitchPath, islandSwitchPath, isHomePath, localPathFromPathname } from '@/lib/switchPath';
 import { cn } from '@/lib/utils';
 
 const IN_VILLA_NAV: NavTarget[] = inVillaPages.map((p) => ({
@@ -56,6 +57,55 @@ function MobileLink({ item, onPick }: { item: NavTarget; onPick: () => void }) {
   );
 }
 
+function DrawerIslandSwitcher({
+  local,
+  islandId,
+  onPick,
+}: {
+  local: string;
+  islandId: IslandId | null;
+  onPick: () => void;
+}) {
+  const rowCls =
+    'flex min-h-12 items-center justify-between gap-4 rounded-sm border px-4 py-3 text-base text-ink';
+  return (
+    <div className="border-t border-line px-5 py-5">
+      <p className="pb-3 text-[12px] font-medium uppercase tracking-[0.16em] text-mute">
+        Change island
+      </p>
+      <div className="flex flex-col gap-2">
+        <HostLink
+          island="root"
+          path={hubSwitchPath(local)}
+          onClick={onPick}
+          className={cn(rowCls, !islandId ? 'border-brass bg-sand' : 'border-line')}
+        >
+          <span>All Islands</span>
+          {!islandId ? (
+            <span className="text-[11px] uppercase tracking-[0.14em] text-brass">Here</span>
+          ) : null}
+        </HostLink>
+        {islandOrder.map((id) => (
+          <HostLink
+            key={id}
+            island={id}
+            path={islandSwitchPath(local, id)}
+            onClick={onPick}
+            className={cn(rowCls, islandId === id ? 'border-brass bg-sand' : 'border-line')}
+          >
+            <span>{islands[id].name}</span>
+            {islandId === id ? (
+              <span className="text-[11px] uppercase tracking-[0.14em] text-brass">Here</span>
+            ) : islands[id].state === 'inquiry' ? (
+              <span className="text-[11px] uppercase tracking-[0.14em] text-mute">Inquiry</span>
+            ) : null}
+          </HostLink>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 const linkCls = 'text-base font-medium text-[var(--nav-fg)] hover:underline underline-offset-4';
 
 export default function SiteHeader() {
@@ -65,7 +115,12 @@ export default function SiteHeader() {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [onHero, setOnHero] = useState(isHomePath(local));
+  const [mounted, setMounted] = useState(false);
   const reduce = useReducedMotion();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     setDrawerOpen(false);
@@ -81,6 +136,15 @@ export default function SiteHeader() {
   useEffect(() => {
     setOnHero(Boolean(document.querySelector('.hero-bleed')));
   }, [pathname]);
+
+  useEffect(() => {
+    if (!drawerOpen) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = prev;
+    };
+  }, [drawerOpen]);
 
   const overlay = onHero && !scrolled && !drawerOpen;
 
@@ -179,16 +243,19 @@ export default function SiteHeader() {
         </div>
       </div>
 
-      <AnimatePresence>
-        {drawerOpen && (
-          <motion.div
-            initial={reduce ? false : { opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={reduce ? undefined : { opacity: 0 }}
-            transition={{ duration: DURATION.fast, ease: EASE_STANDARD }}
-            className="fixed inset-0 top-16 z-40 flex flex-col bg-paper lg:hidden"
-          >
-            <nav aria-label="Mobile" className="flex flex-1 flex-col overflow-y-auto px-5 py-4">
+      {mounted &&
+        createPortal(
+          <AnimatePresence>
+            {drawerOpen && (
+              <motion.div
+                initial={reduce ? false : { opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={reduce ? undefined : { opacity: 0 }}
+                transition={{ duration: DURATION.fast, ease: EASE_STANDARD }}
+                className="fixed inset-x-0 bottom-0 top-16 z-40 flex flex-col bg-paper lg:hidden"
+              >
+                <div className="flex flex-1 flex-col overflow-y-auto overscroll-contain">
+                  <nav aria-label="Mobile" className="flex flex-col px-5 py-4">
               {islandId ? (
                 <>
                   <HostLink
@@ -300,13 +367,21 @@ export default function SiteHeader() {
                   </HostLink>
                 </>
               )}
-            </nav>
-            <div className="border-t border-line p-5">
-              <EnquireCta island={islandId} />
-            </div>
-          </motion.div>
+                  </nav>
+                  <DrawerIslandSwitcher
+                    local={local}
+                    islandId={islandId}
+                    onPick={() => setDrawerOpen(false)}
+                  />
+                </div>
+                <div className="border-t border-line p-5">
+                  <EnquireCta island={islandId} />
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>,
+          document.body,
         )}
-      </AnimatePresence>
     </header>
   );
 }
