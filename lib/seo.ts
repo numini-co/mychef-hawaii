@@ -48,6 +48,7 @@ import { photos } from '@/data/photos';
 import { stillForPath } from '@/lib/documentStill';
 import { formatBand, getDayRate, getMobileBar, getOtherOffer, getTiers } from '@/data/rateCard';
 import { SERVICE_AREAS } from '@/data/serviceAreas';
+import { DESK_EMAIL, DESK_PHONE_E164 } from '@/lib/contact';
 
 export interface DocumentSeo {
   title: string;
@@ -192,8 +193,18 @@ function orgJsonLd(name: string, url: string) {
     '@type': 'Organization',
     name,
     url,
+    telephone: DESK_PHONE_E164,
+    email: DESK_EMAIL,
     parentOrganization: { '@type': 'Organization', name: 'myCHEF' },
     areaServed: 'Hawaiʻi',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'sales',
+      telephone: DESK_PHONE_E164,
+      email: DESK_EMAIL,
+      areaServed: 'US-HI',
+      availableLanguage: 'English',
+    },
   };
 }
 
@@ -212,16 +223,27 @@ function publishedPriceRange(islandId: IslandId | null): string {
   return `$${oahu?.band[0] ?? 195}–$${maui?.band[1] ?? 375}`;
 }
 
-/** LocalBusiness — service-area kitchen. No telephone. No streetAddress. FoodService lives on owner pages. */
+/** LocalBusiness — service-area kitchen. Published Hawaii telephone + email. No streetAddress. No AggregateRating. */
 export function localBusinessJsonLd(islandId: IslandId | null, origin: string) {
+  const areaName = islandId ? islands[islandId].name : 'US-HI';
   return {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: islandId ? `myCHEF ${islands[islandId].name}` : 'myCHEF Hawaii',
     url: origin,
+    telephone: DESK_PHONE_E164,
+    email: DESK_EMAIL,
     priceRange: publishedPriceRange(islandId),
     areaServed: areaPlaces(islandId),
     serviceType: 'Private chef',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'sales',
+      telephone: DESK_PHONE_E164,
+      email: DESK_EMAIL,
+      areaServed: areaName,
+      availableLanguage: 'English',
+    },
     parentOrganization: islandId
       ? { '@type': 'Organization', name: 'myCHEF Hawaii', url: `https://${PRODUCTION_ROOT}` }
       : { '@type': 'Organization', name: 'myCHEF' },

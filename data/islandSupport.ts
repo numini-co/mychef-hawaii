@@ -135,7 +135,7 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Do you have Kauaʻi guest reviews?',
-        a: 'Not yet. We will not invent them. Proof is published starting prices from $225 a guest and a written quote.',
+        a: 'Not yet. We will not invent them. Proof is published starting prices from $225 a guest and a written quote. See /trust.',
       },
     ],
   },

@@ -19,20 +19,23 @@ export function CtaLink({
   children,
   variant = 'primary',
   className,
+  'aria-label': ariaLabel,
 }: {
   href: string;
   children: React.ReactNode;
   variant?: keyof typeof variants;
   className?: string;
+  'aria-label'?: string;
 }) {
   const cls = cn(variants[variant], className);
-  const external = href.startsWith('http') || href.startsWith('mailto:');
+  const external = href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('tel:');
   if (external) {
     const remote = href.startsWith('http');
     return (
       <a
         href={href}
         className={cls}
+        aria-label={ariaLabel}
         {...(remote ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
       >
         {children}
@@ -40,7 +43,7 @@ export function CtaLink({
     );
   }
   return (
-    <Link href={href} className={cls}>
+    <Link href={href} className={cls} aria-label={ariaLabel}>
       {children}
     </Link>
   );

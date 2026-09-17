@@ -36,7 +36,7 @@ const faqs = [
     },
   {
     q: 'How do I reach you?',
-    a: 'The quote form — island, dates, guests. Typical reply in Hawaii business hours. We do not publish a street office or a local phone number.',
+    a: 'The quote form — island, dates, guests — plus WhatsApp, quotes@mychef-hawaii.com, and (808) 468-7748. Typical reply in Hawaii business hours. No street office.',
   },
 ];
 
@@ -147,8 +147,9 @@ export default function AboutView() {
                 up to 4.712%, each on its own line.
               </p>
               <p>
-                Hawaii is launching. We do not invent guest reviews, chef names, an 808 phone, a street office, or a
-                founding year to look older than the work. Proof today is published starting prices, sample menus, and a
+                Hawaii is launching. We do not invent guest reviews, chef names, a street office, or a
+                founding year to look older than the work. Reach the desk on WhatsApp, quotes@mychef-hawaii.com, or
+                (808) 468-7748. Proof today is published starting prices, sample menus, and a
                 written quote. Reviews publish after verified events. That posture lives on{' '}
                 <Link href="/trust" className="text-ink underline underline-offset-4">
                   /trust

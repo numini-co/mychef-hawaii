@@ -1,17 +1,22 @@
 import type { IslandId } from '@/data/islands';
-import { islands } from '@/data/islands';
+import { islands, isInquiryIsland } from '@/data/islands';
+import { DESK_PHONE_DIGITS, DESK_PHONE_DISPLAY, DESK_WHATSAPP_PREFILL } from '@/lib/contact';
 
 /**
- * myCHEF Hawaii WhatsApp.
- * Do not invent a Hawaiʻi 808 number — this is the live line
- * with a Hawaii-prefilled opener. Typical reply in business hours.
+ * myCHEF Hawaii WhatsApp — same published Hawaii line as voice.
+ * Never +971. Prefill is a short desk opener (island + inquiry), not a guest reply-channel.
  */
-export const WHATSAPP_NUMBER = '971551744849';
-export const WHATSAPP_DISPLAY = '+971 55 174 4849';
+export const WHATSAPP_NUMBER = DESK_PHONE_DIGITS;
+export const WHATSAPP_DISPLAY = DESK_PHONE_DISPLAY;
 
-export function whatsappHref(island?: IslandId | null, intent = 'a private chef'): string {
+export function whatsappHref(
+  island?: IslandId | null,
+  intent?: string,
+): string {
   const where = island ? islands[island].name : 'Hawaii';
-  const message = `Hi myCHEF — I'd like ${intent} in ${where}. Dates and guest count:`;
+  const stage = isInquiryIsland(island) ? 'inquiry' : 'quote';
+  const opener = intent?.trim() || DESK_WHATSAPP_PREFILL;
+  const message = `${opener} — ${where} ${stage}. Dates and guest count:`;
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
 

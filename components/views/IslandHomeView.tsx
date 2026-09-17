@@ -17,6 +17,7 @@ import { photos } from '@/data/photos';
 import { stillForPath } from '@/lib/documentStill';
 import { islandHref } from '@/lib/paths';
 import { canonicalUrl } from '@/lib/site';
+import { DESK_EMAIL, DESK_MAILTO, DESK_PHONE_DISPLAY, DESK_PHONE_E164, DESK_TEL } from '@/lib/contact';
 import { LocationsBlock } from '@/components/LocationsBlock';
 import PlacePriceBlock from '@/components/PlacePriceBlock';
 
@@ -43,15 +44,15 @@ export default function IslandHomeView({
             name: `${offer.title.split('|')[0].trim()} — myCHEF`,
             description: offer.description,
             url: canonicalUrl(islandId, '/'),
-            telephone: '+18084687748',
-            email: 'quotes@mychef-hawaii.com',
+            telephone: DESK_PHONE_E164,
+            email: DESK_EMAIL,
             areaServed: island.name,
             serviceType: 'Private chef',
             contactPoint: {
               '@type': 'ContactPoint',
               contactType: 'sales',
-              telephone: '+18084687748',
-              email: 'quotes@mychef-hawaii.com',
+              telephone: DESK_PHONE_E164,
+              email: DESK_EMAIL,
               areaServed: 'US-HI',
               availableLanguage: 'English',
             },
@@ -88,7 +89,39 @@ export default function IslandHomeView({
           <CtaLink href={href('/pricing')} variant="ghost">
             What a night costs
           </CtaLink>
+          {inquiry ? (
+            <>
+              <CtaLink href={DESK_TEL} variant="ghost" aria-label={`Call ${DESK_PHONE_DISPLAY}`}>
+                {DESK_PHONE_DISPLAY}
+              </CtaLink>
+              <CtaLink href={DESK_MAILTO} variant="ghost" aria-label={`Email ${DESK_EMAIL}`}>
+                {DESK_EMAIL}
+              </CtaLink>
+            </>
+          ) : null}
         </div>
+        {inquiry ? (
+          <p className="mt-5 max-w-[46ch] text-[14px] leading-relaxed text-paper/90">
+            Inquiry desk:{' '}
+            <a className="underline underline-offset-4" href={DESK_TEL}>
+              {DESK_PHONE_DISPLAY}
+            </a>
+            {' · '}
+            <a className="underline underline-offset-4" href={DESK_MAILTO}>
+              {DESK_EMAIL}
+            </a>
+            {' · '}
+            <a
+              className="underline underline-offset-4"
+              href="https://wa.me/18084687748"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WhatsApp
+            </a>
+            . Not a Book-now button.
+          </p>
+        ) : null}
       </Hero>
 
       <section className="bg-paper py-24 lg:py-32">

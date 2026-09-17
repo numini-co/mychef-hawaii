@@ -16,32 +16,32 @@ export default function Page() {
         <HubPhotoGrid
           eyebrow="Beside this desk"
           heading="Open a related document."
-          intro="This page is the four-island picker for how to reach a coordinator. The form, first-booking notes, how a night runs, and the FAQ are their own URLs. Island desks stay on the island host."
+          intro="This page is the four-island picker for how to reach a coordinator. The form, the rate card, the FAQ, and the honesty register are their own URLs. Island desks stay on the island host. WhatsApp, phone, and email are on this desk — not only on island /contact."
           columns={2}
           items={[
             {
               href: '/quote',
               title: 'The quote form',
-              body: 'Five fields. A written total follows. Not a booking. Distinct from this desk picker.',
+              body: 'Five fields. Kauaʻi and Hawaiʻi Island selections are inquiry, not instant book.',
               still: photos.quoteHub,
             },
             {
-              href: '/help/getting-started',
-              title: 'Getting started',
-              body: 'The first-booking checklist. Distinct from the form and from this reachability page.',
-              still: photos.hubHelpStart,
-            },
-            {
-              href: '/how-it-works',
-              title: 'How it works',
-              body: 'Enquire, menu, written quote. Distinct from the FAQ picker.',
-              still: photos.hubHow,
+              href: '/pricing',
+              title: 'What a night costs',
+              body: 'The published rate card. Distinct from the fee-stack explainer.',
+              still: photos.hubPricing,
             },
             {
               href: '/faq',
               title: 'FAQ',
               body: 'Booking questions live on the island host. This hub page is the picker.',
               still: photos.hubFaq,
+            },
+            {
+              href: '/trust',
+              title: 'What we will not claim',
+              body: 'Reviews we will not invent. Proof is published prices and a written quote.',
+              still: photos.hubTrust,
             },
           ]}
         />

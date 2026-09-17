@@ -45,7 +45,7 @@ export const hubHomeSections: CopySection[] = [
     h2: 'What we will not claim',
     paras: [
       'We do not yet have Hawaiʻi guest reviews. We will not invent them, buy them, or write them in-house. Reviews publish after verified events. Until then the proof is published prices, sample menus, cleanup, and a written quote. That posture is on /trust.',
-      'We do not publish an 808 number, a street office, a founding year, or chef names. Contact is the quote form and WhatsApp. Typical reply in Hawaii business hours. We do not sell other-company markets on this site. Hawaii is the work.',
+      'We do not invent Hawaiʻi reviews, chef names, or a street office. Contact is the quote form, WhatsApp (https://wa.me/18084687748), quotes@mychef-hawaii.com, and (808) 468-7748. Typical reply in Hawaii business hours. We do not sell other-company markets on this site. Hawaii is the work.',
     ],
   },
 ];
@@ -115,7 +115,7 @@ export const hubCateringSections: CopySection[] = [
     h2: 'What we will not cater',
     paras: [
       'Hotel banquet rooms and citywide convention holds are a different industry. We cook in residences and estate kitchens. If the listing is a standard suite with a minibar, we decline before a deposit. If the lawn cannot hold the list, we say so in writing.',
-      'We do not invent venue exclusivity, an 808 number, or Hawaiʻi catering reviews. Proof is the published band, a sample estate menu, and a written total. Drinks stay BYO or /bar. Wet-weather plans are written before anyone pays. Neighbor-island liquor rules that still need counsel stay marked as such.',
+      'We do not invent venue exclusivity or Hawaiʻi catering reviews. The published line is (808) 468-7748. Proof is the published band, a sample estate menu, and a written total. Drinks stay BYO or /bar. Wet-weather plans are written before anyone pays. Neighbor-island liquor rules that still need counsel stay marked as such.',
     ],
   },
 ];
@@ -185,7 +185,7 @@ export const hubWeddingsSections: CopySection[] = [
     h2: 'Planners, houses, and what we will not invent',
     paras: [
       'We slot into a planner’s timeline. COIs, load-in windows, and quiet hours are arranged with the property before the first welcome pour. We do not claim venue exclusivity we do not have. If the estate cannot hold the list, we decline the headcount before we design a cake-cutting window.',
-      'Hawaii is launching. We do not invent wedding reviews, chef names, an 808 number, or a street office. Proof is published prices, a sample estate menu, cleanup, and a written week. Reviews publish after verified events — see /trust. Neighborhood corridors live on the island hosts, not on this statewide page. Oʻahu and Maui request a quote. Kauaʻi and Hawaiʻi Island join the inquiry list.',
+      'Hawaii is launching. We do not invent wedding reviews, chef names, or a street office. Call (808) 468-7748 or send /quote. Proof is published prices, a sample estate menu, cleanup, and a written week. Reviews publish after verified events — see /trust. Neighborhood corridors live on the island hosts, not on this statewide page. Oʻahu and Maui request a quote. Kauaʻi and Hawaiʻi Island join the inquiry list.',
     ],
   },
 ];
@@ -248,7 +248,7 @@ export const quoteTrustSections: CopySection[] = [
     paras: [
       'A coordinator in Hawaii Standard Time reads the five fields and replies in business hours — typically within one working day. You get a menu direction, a crew size, and a written price with service and GET on their own lines. No account. No payment to ask. One honest follow-up, not a drip campaign.',
       'Oʻahu and Maui receive a request-a-quote reply: menu direction, crew, written total. Kauaʻi and Hawaiʻi Island receive an inquiry-list reply: we log the shore and the dates and write back with what we can staff when a crew exists. The form is the same. The button is not “Book now.”',
-      'We do not invent Hawaiʻi reviews, chef names, or an 808 number to look established. Proof today is published starting prices, sample menus, and this form. Reviews publish after verified events — see /trust. If the kitchen cannot host a chef, we decline before a deposit, not after.',
+      'We do not invent Hawaiʻi reviews or chef names to look established. Proof today is published starting prices, sample menus, and this form. Reviews publish after verified events — see /trust. Reach the desk on WhatsApp, quotes@mychef-hawaii.com, or (808) 468-7748. Kauaʻi and Hawaiʻi Island selections are inquiry, not instant book. If the kitchen cannot host a chef, we decline before a deposit, not after.',
     ],
   },
   {
@@ -257,7 +257,7 @@ export const quoteTrustSections: CopySection[] = [
       'Island, dates, headcount, and service are enough to start. Property type helps: villa, condo, hotel residence, or no kitchen. Allergies and a bartender belong in the first reply thread, not as a surprise at the pass. 50% locks the date once you accept the written total.',
       'Name the island that matches the house. Honolulu is an Oʻahu corridor — /honolulu on that host — not a separate company. Kona is a Hawaiʻi Island corridor — /kona. Neighborhood corridors — /wailea, /kahala, /princeville, /waikoloa — live on the island hosts. Name the house on /quote so we price the drive.',
       'Oʻahu CORE dinners are $195–$290 a guest. Maui CORE is $225–$375. Those bands hold menu, shopping, cooking, service, and cleanup. Staffing for a ten-to-seventy-five room is hourly on top. The confirmed number is the written quote — never a chat estimate.',
-      'If dates are flexible, say so. Peak months move first on every island. One crew holds one heavy week. We will not invent a second brigade to look available. WhatsApp is the same conversation as this form — typical reply in Hawaii business hours. No street office. No 808 number. The form and WhatsApp are the doors. A 50% deposit is the only money that locks a date — after you accept the written total, never before. Oʻahu CORE is $195–$290 a guest. Maui CORE is $225–$375. Those numbers do not change because the form is short.',
+      'If dates are flexible, say so. Peak months move first on every island. One crew holds one heavy week. We will not invent a second brigade to look available. WhatsApp, (808) 468-7748, and this form are the same Hawaii desk — typical reply in Hawaii business hours. No street office. A 50% deposit is the only money that locks a date — after you accept the written total, never before. 20% service and Hawaiʻi GET up to 4.712% sit on their own written-quote lines. Oʻahu CORE is $195–$290 a guest. Maui CORE is $225–$375. Those numbers do not change because the form is short.',
     ],
   },
 ];
