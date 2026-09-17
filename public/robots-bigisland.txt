@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-Sitemap: https://bigisland.mychef-hawaii.com/sitemap.xml

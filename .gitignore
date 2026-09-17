@@ -1,8 +1,11 @@
 node_modules
 dist
+.next
 .DS_Store
-.playwright-cli
-output
+*.local
 .env
 .env.*
+.vercel
+.env*
 !.env.example
+tsconfig.tsbuildinfo

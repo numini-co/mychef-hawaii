@@ -1,31 +1,9 @@
 User-agent: *
 Allow: /
+Allow: /quote
 Disallow: /quote?*
+Disallow: /thank-you
 
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
+Host: https://mychef-hawaii.com
 Sitemap: https://mychef-hawaii.com/sitemap-index.xml
-# Apex sitemap.xml lists hub URLs only; island hosts publish their own via the index.
 Sitemap: https://mychef-hawaii.com/sitemap.xml
-
-# www.* island hosts: DNS optional. When DNS exists, vercel.json 301s www.{island} → {island}.
-# Intentionally unsupported until A/CNAME records are added at the registrar.
