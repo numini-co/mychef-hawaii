@@ -20,12 +20,12 @@ export interface IslandTrustPage {
 
 export const islandTrust: Record<IslandId, IslandTrustPage> = {
   oahu: {
-    h1: 'Oahu proof — published prices and a written quote. Reviews after verified events.',
-    title: 'Oahu honesty register — published prices, no invented reviews | myCHEF',
+    h1: 'Quotes-open proof — published Kahala-to-Ko Olina prices. Zero invented Honolulu reviews.',
+    title: 'Oʻahu quotes-open register — prices on paper, no invented reviews | myCHEF',
     description:
-      'Oahu honesty register: published starting prices, written quotes, no invented Honolulu reviews. Distinct from /what-we-dont-do and hub /trust.',
+      'Oʻahu quotes-open register: published town and west prices, written quotes, no invented Honolulu reviews. Distinct from /what-we-dont-do and hub /trust.',
     lede:
-      '/what-we-dont-do is the claim list. Hub /trust is statewide. This page is Oahu proof — prices we publish, reviews we will not invent, farm names only after writing.',
+      '/what-we-dont-do is the claim list. Hub /trust is statewide. This page is quotes-open Oʻahu proof — prices we publish, reviews we will not invent, farm names only after writing.',
     kicker: 'Oʻahu · Trust',
     photo: 'trustOahu',
     body: [
@@ -45,12 +45,12 @@ export const islandTrust: Record<IslandId, IslandTrustPage> = {
     ],
   },
   maui: {
-    h1: 'Maui proof — published prices and a written quote. Reviews after verified events.',
-    title: 'Maui honesty register — published prices, no invented reviews | myCHEF',
+    h1: 'Wailea-to-Kapalua quotes stay open. Reviews wait for verified villa nights.',
+    title: 'Maui quotes-open proof — Wailea card, no invented reviews | myCHEF',
     description:
-      'Maui honesty register: published starting prices, written quotes, no invented Wailea reviews. Distinct from /what-we-dont-do and hub /trust.',
+      'Maui quotes-open proof: Wailea and West villa-week prices, written quotes, no invented Wailea reviews. Distinct from /what-we-dont-do and hub /trust.',
     lede:
-      '/what-we-dont-do is the claim list. Hub /trust is statewide. This page is Maui proof — prices we publish, reviews we will not invent, Upcountry farm names only after writing.',
+      '/what-we-dont-do is the claim list. Hub /trust is statewide. This page is quotes-open Maui proof — villa-week prices we publish, reviews we will not invent, Upcountry farm names only after writing.',
     kicker: 'Maui · Trust',
     photo: 'trustMaui',
     body: [
@@ -70,12 +70,12 @@ export const islandTrust: Record<IslandId, IslandTrustPage> = {
     ],
   },
   kauai: {
-    h1: 'Kauai proof at inquiry — published bands, no Book-now fiction, no invented reviews.',
-    title: 'Kauai honesty register — inquiry proof, no invented reviews | myCHEF',
+    h1: 'Inquiry proof on both shores — published bands, no Book-now, no invented Princeville reviews.',
+    title: 'Kauaʻi inquiry register — both-shore bands, no invented reviews | myCHEF',
     description:
-      'Kauai honesty register at inquiry: published bands, no Book-now button, no invented Princeville reviews. Distinct from /what-we-dont-do and hub /trust.',
+      'Kauaʻi inquiry register: both-shore published bands, no Book-now button, no invented Princeville reviews. Distinct from /what-we-dont-do and hub /trust.',
     lede:
-      '/what-we-dont-do is the claim list. Hub /trust is statewide. This page is Kauai proof at inquiry — bands we publish, a roster we will not fake, reviews we will not invent.',
+      '/what-we-dont-do is the claim list. Hub /trust is statewide. This page is both-shore inquiry proof — bands we publish, a roster we will not fake, reviews we will not invent.',
     kicker: 'Kauaʻi · Trust',
     photo: 'trustKauai',
     body: [
@@ -95,12 +95,12 @@ export const islandTrust: Record<IslandId, IslandTrustPage> = {
     ],
   },
   bigisland: {
-    h1: 'West-side proof at inquiry — published bands, Hilo not implied, no invented reviews.',
-    title: 'Hawaiʻi Island honesty register — west-side proof, no invented reviews | myCHEF',
+    h1: 'Kona–Kohala inquiry proof — west-side bands, Hilo never implied, no invented reviews.',
+    title: 'Kona–Kohala inquiry register — west-side proof, no invented reviews | myCHEF',
     description:
-      'Hawaiʻi Island honesty register at inquiry: west-side bands, Hilo not implied, no invented Kona reviews. Distinct from /what-we-dont-do, /coffee-act-198, and hub /trust.',
+      'Kona–Kohala inquiry register: west-side bands, Hilo never implied, no invented Kona reviews. Distinct from /what-we-dont-do, /coffee-act-198, and hub /trust.',
     lede:
-      '/what-we-dont-do is the claim list. /coffee-act-198 is the origin rule. This page is west-side proof at inquiry — bands we publish, an east-side day we will not pretend is Kona.',
+      '/what-we-dont-do is the claim list. /coffee-act-198 is the origin rule. This page is Kona–Kohala inquiry proof — bands we publish, an east-side day we will not pretend is Kona.',
     kicker: 'Hawaiʻi Island · Trust',
     photo: 'trustBigisland',
     body: [

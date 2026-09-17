@@ -115,24 +115,24 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'A chef-cooked breakfast in your villa every morning of the stay — eggs, pancakes, island fruit, proper coffee, kitchen cleaned. Published one-meal Stay Chef rate; groceries at cost with receipts.',
   },
   '/oahu/estimate': {
-    title: 'Oʻahu chef cost estimator | myCHEF',
+    title: 'Town & west cost range — Oʻahu estimator | myCHEF',
     description:
-      'Estimate an Oʻahu villa dinner, Stay Chef week or mobile bar from published bands. Groceries dual-model, 20% service and GET itemized. Not a quote — the written quote is the total.',
+      'Estimate an Oʻahu villa dinner or Stay Chef week from town and west CORE bands ($195–$290 a guest, Stay Chef from $1,250). Groceries dual-model, 20% service and GET itemized. Not a quote.',
   },
   '/maui/estimate': {
-    title: 'Maui chef cost estimator | myCHEF',
+    title: 'Villa-week cost range — Maui estimator | myCHEF',
     description:
-      'Estimate a Maui villa dinner, wedding or Stay Chef week from published bands. Groceries dual-model, 20% service and GET itemized. Not a quote — the written quote is the total.',
+      'Estimate a Maui villa-week dinner or Stay Chef stay from Wailea and West bands ($225–$375 a guest, Stay Chef from $1,550). Groceries dual-model, 20% service and GET itemized. Not a quote.',
   },
   '/kauai/estimate': {
-    title: 'Kauaʻi chef cost estimator | myCHEF',
+    title: 'Both-shore inquiry range — Kauaʻi estimator | myCHEF',
     description:
-      'Estimate a Kauaʻi villa dinner or week from published bands, both shores, inquiry stage. Groceries dual-model, 20% service and GET itemized. The written quote is the total.',
+      'Estimate a Kauaʻi inquiry dinner or week from both-shore bands ($225–$375 a guest, Stay Chef from $1,650). Inquiry stage. Groceries dual-model, 20% service and GET itemized. The written quote is the total.',
   },
   '/bigisland/estimate': {
-    title: 'Hawaiʻi Island chef cost estimator | myCHEF',
+    title: 'West-side inquiry range — Hawaiʻi Island estimator | myCHEF',
     description:
-      'Estimate a Hawaiʻi Island villa dinner or week from published bands, Kona–Kohala, inquiry stage. Groceries dual-model, 20% service and GET itemized. The written quote is the total.',
+      'Estimate a west-side Hawaiʻi Island dinner or week (CORE $210–$325 a guest, Stay Chef from $1,450). Inquiry. Hilo is not in this range. Groceries dual-model, 20% service and GET itemized.',
   },
   '/about': {
     title: 'About myCHEF Hawaii | Island Chef Teams',
@@ -507,8 +507,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'myCHEF Oahu staffs a brigade to the house: chef, sous, service, bar, shopper. Honolulu, Waikīkī residences, Kahala, Kailua, Ko Olina. Request a quote.',
   },
   '/oahu/pricing': {
-    title: 'What a night costs on Oahu | myCHEF',
-    description: 'Published starting prices for Oʻahu: villa chef day rate, signature dinners, mobile bar and weekly household service.',
+    title: 'Oʻahu town & west CORE bands — Stay Chef from $1,250 | myCHEF',
+    description:
+      'Oʻahu town and west CORE $195–$290 a guest. Stay Chef from $1,250 a day. Date Night from $675. Service and GET print after the band.',
   },
   '/oahu/quote': {
     title: 'Oahu quote form — corridor, kitchen, written total | myCHEF',
@@ -577,9 +578,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'myCHEF Maui staffs villa dinners and lawn receptions. Wailea, Kīhei, Kāʻanapali, Kapalua, Makena. Catering is the larger door. Request a quote.',
   },
   '/maui/pricing': {
-    title: 'What a night costs on Maui | myCHEF',
+    title: 'Maui villa-week bands — Wailea & West from $225 | myCHEF',
     description:
-      'Maui starting prices: $225–$375 a guest CORE, groceries at cost on Stay Chef, 20% service, GET up to 4.712%. Published, line by line.',
+      'Maui villa-week CORE $225–$375 a guest. Stay Chef from $1,550 a day. Upcountry and West Maui travel print as their own lines.',
   },
   '/maui/quote': {
     title: 'Maui quote form — shore, kitchen, written total | myCHEF',
@@ -657,9 +658,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'A four-hour cart for Princeville, Hanalei and Poʻipū. Starting prices published. Inquiry stage.',
   },
   '/kauai/pricing': {
-    title: 'What a night costs on Kauai | myCHEF',
+    title: 'Kauaʻi inquiry rate card — both shores, $225–$375 | myCHEF',
     description:
-      'Kauai starting prices $225–$375 a guest. Wedding from $260 a guest plus staffing. Groceries, 20% service, GET — published.',
+      'Kauaʻi inquiry CORE $225–$375 a guest. Stay Chef from $1,650 a day. Both-shore travel prints. A band is not a live Book-now.',
   },
   '/kauai/quote': {
     title: 'Kauai inquiry form — both shores, written reply | myCHEF',
@@ -732,8 +733,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'myCHEF Hawaiʻi Island is west-side first: Kona, Waikoloa, the Kohala Coast. Inquiry stage. Hilo is a different day.',
   },
   '/bigisland/pricing': {
-    title: 'What a night costs on the Big Island | myCHEF',
-    description: 'Published starting prices for Big Island villa chefs, dinners, bar and estate weddings. West side first.',
+    title: 'West-side rate card — Kona–Kohala CORE $210–$325 | myCHEF',
+    description:
+      'West-side Hawaiʻi Island CORE $210–$325 a guest. Stay Chef inquiry from $1,450 a day. Hilo is a dedicated day, never a Kona round trip.',
   },
   '/bigisland/quote': {
     title: 'Hawaiʻi Island inquiry form — west side, written reply | myCHEF',

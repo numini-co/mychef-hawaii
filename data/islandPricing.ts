@@ -5,7 +5,8 @@ import type { PhotoKey } from './photos';
 /**
  * Island /pricing documents — the rate card with unique stills and FAQs.
  * Distinct from /private-chef-cost (the fee-stack explainer).
- * Titles stay the published “What a night costs on …” set in pageMeta.
+ * Title + H1 are structurally different per island (corridor / stage / offer),
+ * not a “What a night costs on {Island}” token swap.
  */
 
 export interface IslandPricingPage {
@@ -21,10 +22,10 @@ export interface IslandPricingPage {
 
 export const islandPricing: Record<IslandId, IslandPricingPage> = {
   oahu: {
-    h1: 'What a night costs on Oahu.',
-    title: 'What a night costs on Oahu | myCHEF',
+    h1: 'Town and west CORE bands — $195–$290 a guest. Stay Chef from $1,250.',
+    title: 'Oʻahu town & west CORE bands — Stay Chef from $1,250 | myCHEF',
     description:
-      'Oahu starting prices from the rate card: CORE $195–$290 a guest, Stay Chef from $1,250 a day, Date Night from $675. Service and GET print after the band. Distinct from /private-chef-cost.',
+      'Oʻahu town and west CORE $195–$290 a guest. Stay Chef from $1,250 a day. Date Night from $675. Service and GET print after the band. Distinct from /private-chef-cost.',
     lede:
       'USD. Line by line. CORE $195–$290 a guest. Stay Chef from $1,250 a day. The written quote is the confirmed total. How those lines stack: /private-chef-cost.',
     kicker: 'Oʻahu · Rate card',
@@ -50,10 +51,10 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
     ],
   },
   maui: {
-    h1: 'What a night costs on Maui.',
-    title: 'What a night costs on Maui | myCHEF',
+    h1: 'Wailea and West Maui villa-week bands — $225–$375 a guest.',
+    title: 'Maui villa-week bands — Wailea & West from $225 | myCHEF',
     description:
-      'Maui starting prices from the rate card: CORE $225–$375 a guest, Stay Chef from $1,550 a day. Upcountry and West Maui travel print as their own lines. Distinct from /private-chef-cost.',
+      'Maui villa-week CORE $225–$375 a guest. Stay Chef from $1,550 a day. Upcountry and West Maui travel print as their own lines. Distinct from /private-chef-cost.',
     lede:
       'USD. Line by line. CORE $225–$375 a guest. Stay Chef from $1,550 a day. Saturday West Maui traffic is planned into arrival, not hidden in the band.',
     kicker: 'Maui · Rate card',
@@ -79,10 +80,10 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
     ],
   },
   kauai: {
-    h1: 'What a night costs on Kauaʻi.',
-    title: 'What a night costs on Kauai | myCHEF',
+    h1: 'Inquiry bands on both shores — $225–$375 a guest. Not a Book-now.',
+    title: 'Kauaʻi inquiry rate card — both shores, $225–$375 | myCHEF',
     description:
-      'Kauai starting prices from the rate card at inquiry: CORE $225–$375 a guest, Stay Chef from $1,650 a day, Date Night $975–$1,425. Both-shore travel prints. Distinct from /private-chef-cost.',
+      'Kauaʻi inquiry CORE $225–$375 a guest. Stay Chef from $1,650 a day. Date Night $975–$1,425. Both-shore travel prints. A band is not a live Book-now. Distinct from /private-chef-cost.',
     lede:
       'USD. Line by line. CORE $225–$375 a guest — Maui-class. Stay Chef from $1,650 a day. Inquiry: a band is not a live Book-now button. Far-North inherits /hanalei-bridge.',
     kicker: 'Kauaʻi · Rate card',
@@ -108,10 +109,10 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
     ],
   },
   bigisland: {
-    h1: 'What a night costs on the Big Island.',
-    title: 'What a night costs on the Big Island | myCHEF',
+    h1: 'West-side first: CORE $210–$325. Stay Chef inquiry from $1,450.',
+    title: 'West-side rate card — Kona–Kohala CORE $210–$325 | myCHEF',
     description:
-      'Hawaiʻi Island starting prices from the rate card: CORE $210–$325 a guest, Stay Chef from $1,450 a day, ENTRY from $165. West side first. East side is a dedicated day. Distinct from /private-chef-cost.',
+      'West-side Hawaiʻi Island CORE $210–$325 a guest. Stay Chef inquiry from $1,450 a day. ENTRY from $165. Hilo is a dedicated day, never a Kona round trip. Distinct from /private-chef-cost.',
     lede:
       'USD. Line by line. CORE $210–$325 a guest. Stay Chef from $1,450 a day. West-side first. Hilo is not a west-side round trip.',
     kicker: 'Hawaiʻi Island · Rate card',

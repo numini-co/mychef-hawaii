@@ -19,6 +19,7 @@ import { getMenuSkuPage, menuSkuPages } from '@/data/menuSkus';
 import { getHelpArticle, helpArticles } from '@/data/helpArticles';
 import { islandQuote } from '@/data/islandQuote';
 import { islandPricing } from '@/data/islandPricing';
+import { islandEstimate } from '@/data/islandEstimate';
 import { islandLegal } from '@/data/islandLegal';
 import { islandThanks } from '@/data/islandThanks';
 import { islandJournal } from '@/data/islandJournal';
@@ -314,6 +315,9 @@ export function resolveDocumentSeo(hostname: string, pathname: string): Document
     } else if (islandPricing[islandId] && localPath === '/pricing') {
       title = islandPricing[islandId].title;
       description = islandPricing[islandId].description;
+    } else if (islandEstimate[islandId] && localPath === '/estimate') {
+      title = islandEstimate[islandId].title;
+      description = islandEstimate[islandId].description;
     } else if (islandLegal[islandId] && localPath === '/legal') {
       title = islandLegal[islandId].title;
       description = islandLegal[islandId].description;

@@ -1,14 +1,16 @@
 import type { IslandId } from './islands';
 import { SEARCH_VOLUMES } from './offers';
 import type { UniqueCell } from './uniqueCells';
+import { EXTRA_JOURNAL_ANGLES, applyEditorialAngles } from './editorialTitleAngles';
 
 /**
  * Remaining journal kitchen notes beside live SKUs and unique cells.
  * Distinct from /weddings, Maui/Kauaʻi /wedding-week, /vacation-chef, and /coverage.
  * Titles must not use money keywords.
+ * Title / H1 / meta come from EXTRA_JOURNAL_ANGLES so each island×slug is a different structure.
  */
 
-export const EXTRA_JOURNAL_NOTES: Record<IslandId, UniqueCell[]> = {
+const RAW_EXTRA_JOURNAL_NOTES: Record<IslandId, UniqueCell[]> = {
   oahu: [
     {
       slug: 'wedding-week',
@@ -401,4 +403,11 @@ export const EXTRA_JOURNAL_NOTES: Record<IslandId, UniqueCell[]> = {
       ],
     },
   ],
+};
+
+export const EXTRA_JOURNAL_NOTES: Record<IslandId, UniqueCell[]> = {
+  oahu: applyEditorialAngles('oahu', RAW_EXTRA_JOURNAL_NOTES.oahu, EXTRA_JOURNAL_ANGLES),
+  maui: applyEditorialAngles('maui', RAW_EXTRA_JOURNAL_NOTES.maui, EXTRA_JOURNAL_ANGLES),
+  kauai: applyEditorialAngles('kauai', RAW_EXTRA_JOURNAL_NOTES.kauai, EXTRA_JOURNAL_ANGLES),
+  bigisland: applyEditorialAngles('bigisland', RAW_EXTRA_JOURNAL_NOTES.bigisland, EXTRA_JOURNAL_ANGLES),
 };

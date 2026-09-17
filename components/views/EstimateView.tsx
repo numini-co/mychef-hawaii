@@ -6,6 +6,7 @@ import { QuoteCta } from '@/components/Cta';
 import { DocumentCopy, LongFaq, SiblingCluster, type CopyFaq } from '@/components/Longform';
 import { feeStack, FEE_DISCLOSURE } from '@/data/rateCard';
 import { estimateStill } from '@/data/estimateStills';
+import { islandEstimate } from '@/data/islandEstimate';
 import { islands, type IslandId } from '@/data/islands';
 import { PRODUCTION_ROOT } from '@/lib/site';
 import { islandHref } from '@/lib/paths';
@@ -86,13 +87,12 @@ export default function EstimateView({
   const base = origin(islandId);
   const href = (path: string) => islandHref(islandId, hostMode, path);
 
-  const kicker = island ? `${island.shortName} · Cost estimator` : 'Four islands · Cost estimator';
-  const h1 = island
-    ? `${island.name} private chef cost estimator`
-    : 'Hawaiʻi private chef cost estimator';
-  const lede = island
-    ? `Slide the menu tier, guests and days for ${island.name} and watch a range built straight from our published rate card. It is an estimate — the written quote is the total.`
-    : 'Pick an island, a service and a guest count, and see a range built straight from our published rate card across Oʻahu, Maui, Kauaʻi and the Big Island. It is an estimate — the written quote is the total.';
+  const copy = islandId ? islandEstimate[islandId] : null;
+  const kicker = copy?.kicker ?? 'Four islands · Cost estimator';
+  const h1 = copy?.h1 ?? 'Hawaiʻi private chef cost estimator';
+  const lede =
+    copy?.lede ??
+    'Pick an island, a service and a guest count, and see a range built straight from our published rate card across Oʻahu, Maui, Kauaʻi and the Big Island. It is an estimate — the written quote is the total.';
 
   const webApp = {
     '@context': 'https://schema.org',

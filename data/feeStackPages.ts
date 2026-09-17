@@ -4,7 +4,7 @@ import type { UniqueCell } from './uniqueCells';
 
 /**
  * Catalog /private-chef-cost — fee-stack explainer, not the rate-card page.
- * Must not steal /pricing titles (“What a night costs on …”) or money keywords.
+ * Must not steal island /pricing titles (corridor / stage rate-card lines) or money keywords.
  */
 
 export const feeStackPages: Record<IslandId, UniqueCell> = {
