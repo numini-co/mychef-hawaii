@@ -194,20 +194,20 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'How menus are designed, by island.',
     title: 'How menus are designed, by island | myCHEF Hawaii',
     description:
-      'Each island host explains how a table is designed. Distinct from nested /menus/:sku pages and from the island /menus process document.',
+      'Oʻahu, Maui, Kauaʻi and Hawaiʻi Island menus — designed per table, not a standing carte. Plated samples on each island host. Published USD prices in writing.',
     lede:
-      'There is no standing statewide carte. Each island writes how fish, produce, and the draft work in that kitchen. This page is the picker.',
+      'This hub page is the process picker — how a table is designed, not a statewide carte. Plated sample courses live on each island /menus, with published starting prices on that host.',
     kicker: 'Statewide · Menus',
     photo: 'hubMenus',
     cardLabel: 'Menu design',
     body: [
-      `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on maui.mychef-hawaii.com/catering. This directory is how a menu is designed, not a catering title.`,
-      'Three-course, family-style, breakfast, and lunch SKUs live under each island /menus/:sku. Open the island process page first, then the SKU.',
+      'Open the island host for the kitchen you booked. Oʻahu, Maui, Kauaʻi, and Hawaiʻi Island each keep plated samples and SKUs — three-course, family-style-menu, breakfast, lunch — designed per table.',
+      `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on maui.mychef-hawaii.com/catering. This directory is how a menu is designed, not a catering title. Family-style as a menu SKU is /menus/family-style-menu, not a 404 path.`,
     ],
     faqs: [
       {
         q: 'Is this a sample menu?',
-        a: 'No. Sample courses live on island SKU pages. This is the four-island picker for the process documents.',
+        a: 'No. This hub page is the process picker. Plated sample courses live on each island /menus — Oʻahu, Maui, Kauaʻi, and Hawaiʻi Island hosts. Designed per table, not a standing carte. Published prices sit on each island rate card.',
       },
       {
         q: 'Same as /help/menu-guide?',

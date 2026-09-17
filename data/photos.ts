@@ -2005,7 +2005,7 @@ export const photos = {
   },
   hubMenus: {
     file: '/photos/hub-menus.png',
-    alt: `Unused ivory plates and unmarked papers on a koa pass, citrus, brass clip, no writing.`,
+    alt: `Example villa dinner already plated — citrus crudo, seared catch with greens, and a small lilikoi cheesecake on a koa table.`,
   },
   hubHelp: {
     file: '/photos/hub-help.png',
@@ -2161,19 +2161,19 @@ export const photos = {
   },
   hubMenuThree: {
     file: '/photos/hub-menu-three.png',
-    alt: `Three unused ivory plates stacked slightly offset on a koa dining table, brass clip.`,
+    alt: `Example three-course — citrus crudo, seared catch with mushrooms, and lilikoi cheesecake, already plated.`,
   },
   hubMenuFamily: {
     file: '/photos/hub-menu-family.png',
-    alt: `Unused empty shared platter in the center of a koa table with unused ivory plates.`,
+    alt: `Example family-style villa table — whole grilled fish, a green salad, and plated catch, already served.`,
   },
   hubMenuBreakfast: {
     file: '/photos/hub-menu-breakfast.png',
-    alt: `Unused coffee cup and unused ivory plate with whole fruit on a koa counter.`,
+    alt: `Example villa breakfast already plated — eggs, tropical fruit, grilled fish, and coffee in morning light.`,
   },
   hubMenuLunch: {
     file: '/photos/hub-menu-lunch.png',
-    alt: `Unused ivory plate with citrus and a brass clip on a koa table, empty glass.`,
+    alt: `Example villa lunch already plated — grilled catch, citrus salad, coconut rice, midday light.`,
   },
   hubHelpStart: {
     file: '/photos/hub-help-start.png',

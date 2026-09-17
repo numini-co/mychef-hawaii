@@ -696,6 +696,11 @@ export function HubDirectoryView({ id, related }: { id: string; related?: ReactN
       <IslandPhotoPicker
         path={copy.path}
         heading="Open the island document."
+        intro={
+          copy.path === '/menus'
+            ? 'This hub page is the process picker. Plated sample courses and published prices live on each island /menus.'
+            : undefined
+        }
         detailOf={() => copy.cardLabel}
       />
       {related}

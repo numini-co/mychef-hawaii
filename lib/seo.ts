@@ -151,6 +151,7 @@ function offerCatalogJsonLd(origin: string, islandId: IslandId | null) {
           minPrice: day.from,
           unitText: 'USD per day',
         },
+        description: `Stay Chef from $${day.from} a day on ${n}. Groceries at cost with receipts.`,
       },
       {
         '@type': 'Offer',

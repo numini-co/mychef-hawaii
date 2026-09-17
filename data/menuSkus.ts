@@ -407,9 +407,9 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
         },
       ],
       related: [
-        { path: '/menus', label: 'How menus are designed' },
-        { path: '/kohala-corridor', label: 'West-side radius' },
-        { path: '/coffee-act-198', label: 'Coffee origin' },
+        { path: '/pricing', label: 'Rate card' },
+        { path: '/quote?island=bigisland', label: 'Join the inquiry list' },
+        { path: '/kona', label: 'Kona' },
       ],
     },
     {
