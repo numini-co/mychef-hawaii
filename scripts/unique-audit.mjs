@@ -749,11 +749,15 @@ const hubChromeSrc = read('data/chromeCopy.ts');
 const hubHomeViewSrc = read('components/views/HomeView.tsx');
 const stayChefSkipKauai = /Stay Chef from \$1,250 Oʻahu \/ \$1,550 Maui \/ \$1,450 Hawaiʻi Island/;
 const stayChefHomeSkip = /Stay Chef from \$1,250 a day on Oʻahu, \$1,550 on Maui, and \$1,450 on Hawaiʻi Island/;
+const stayChefLongSkip = /day rates from \$1,250 on Oʻahu, \$1,550 on Maui, and \$1,450 on Hawaiʻi Island/;
 if (stayChefSkipKauai.test(hubChromeSrc) || stayChefSkipKauai.test(hubHomeViewSrc) || stayChefSkipKauai.test(longHubSrc)) {
   errors.push('hub Stay Chef strip still skips Kauaʻi $1,650');
 }
 if (stayChefHomeSkip.test(hubHomeViewSrc)) {
   errors.push('hub HomeView published-price strip still skips Kauaʻi $1,650');
+}
+if (stayChefLongSkip.test(longHubSrc)) {
+  errors.push('hub home longform Stay Chef strip still skips Kauaʻi $1,650');
 }
 if (!/Stay Chef from \$1,250 Oʻahu \/ \$1,550 Maui \/ \$1,650 Kauaʻi \/ \$1,450 Hawaiʻi Island/.test(hubChromeSrc)) {
   errors.push('hub chrome price strip must list all four Stay Chef floors including Kauaʻi $1,650');
