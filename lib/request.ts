@@ -27,6 +27,11 @@ export async function requestPathname(): Promise<string> {
   return raw.replace(/\/$/, '') || '/';
 }
 
+export async function requestSearch(): Promise<string> {
+  const h = await headers();
+  return h.get('x-search') || '';
+}
+
 export async function requestIsland(): Promise<IslandId | null> {
   const h = await headers();
   const flagged = h.get('x-island');
@@ -49,7 +54,8 @@ export async function requestHostMode(): Promise<boolean> {
 export async function resolveRequestSeo(): Promise<DocumentSeo> {
   const host = await requestHost();
   const path = await requestPathname();
-  return resolveDocumentSeo(host, path);
+  const search = await requestSearch();
+  return resolveDocumentSeo(host, path, search);
 }
 
 export async function pageMetadata(overrides?: Partial<Metadata>): Promise<Metadata> {

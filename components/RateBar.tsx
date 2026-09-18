@@ -4,16 +4,18 @@ import { useEffect, useRef, type RefObject } from 'react';
 import { usePathname } from 'next/navigation';
 import { CtaLink } from '@/components/Cta';
 import { useIsland } from '@/components/IslandProvider';
-import { formatBand, formatFrom, getDayRate, getTiers } from '@/data/rateCard';
+import { formatBand, formatFrom, getDayRate, getTiers, STAY_CHEF_FLOORS } from '@/data/rateCard';
 import { islandOffers } from '@/data/offers';
 import { isInquiryIsland, primaryCtaLabel } from '@/data/islands';
 import { DESK_MAILTO, DESK_TEL, DESK_WHATSAPP } from '@/lib/contact';
 import { whatsappHref } from '@/lib/whatsapp';
 import { localPathFromPathname } from '@/lib/switchPath';
+import { cn } from '@/lib/utils';
 
 /**
  * Sticky published-rate + convert bar (hub + every island shell).
- * Kauaʻi + Hawaiʻi Island: mobile inquiry CTA (not “Book now”), hidden on /quote.
+ * Kauaʻi + Hawaiʻi Island homes: mobile inquiry CTA (not “Book now”).
+ * `/quote` keeps a mobile inquiry/rate bar — primary stays on this form.
  */
 export default function RateBar() {
   const { islandId, hostMode, href } = useIsland();
@@ -22,13 +24,13 @@ export default function RateBar() {
   const onQuote = local === '/quote' || local.startsWith('/quote/');
   const barRef = useRef<HTMLDivElement>(null);
   const inquiry = isInquiryIsland(islandId);
+  const mobileOnly = onQuote || inquiry;
 
   useEffect(() => {
     const el = barRef.current;
     const sync = () => {
       const hidden =
-        onQuote ||
-        (inquiry && typeof window !== 'undefined' && window.matchMedia('(min-width: 768px)').matches);
+        mobileOnly && typeof window !== 'undefined' && window.matchMedia('(min-width: 768px)').matches;
       document.documentElement.style.setProperty(
         '--rate-bar-h',
         hidden || !el ? '0px' : `${el.offsetHeight}px`,
@@ -39,22 +41,28 @@ export default function RateBar() {
     const ro = new ResizeObserver(sync);
     ro.observe(el);
     const mq = window.matchMedia('(min-width: 768px)');
-    if (inquiry) mq.addEventListener('change', sync);
+    if (mobileOnly) mq.addEventListener('change', sync);
     return () => {
       ro.disconnect();
-      if (inquiry) mq.removeEventListener('change', sync);
+      if (mobileOnly) mq.removeEventListener('change', sync);
       document.documentElement.style.setProperty('--rate-bar-h', '0px');
     };
-  }, [onQuote, islandId, inquiry]);
+  }, [onQuote, islandId, inquiry, mobileOnly]);
 
-  if (onQuote) return null;
-
-  const quoteLabel = islandId ? (inquiry ? 'Inquiry' : primaryCtaLabel(islandId)) : 'Get a quote';
-  const quoteHref = islandId ? href(`/quote?island=${islandId}`) : href('/quote');
+  const quoteLabel = onQuote
+    ? inquiry
+      ? 'Send inquiry'
+      : 'Send this form'
+    : islandId
+      ? inquiry
+        ? 'Inquiry'
+        : primaryCtaLabel(islandId)
+      : 'Get a quote';
+  const quoteHref = onQuote ? '#quote' : islandId ? href(`/quote?island=${islandId}`) : href('/quote');
   const pricingHref = href('/pricing');
   const waHref = whatsappHref(islandId);
 
-  if (inquiry && islandId) {
+  if (inquiry && islandId && !onQuote) {
     const from = islandOffers[islandId].fromPp;
     return (
       <div
@@ -104,8 +112,8 @@ export default function RateBar() {
   let teaser: string;
   let desktopTeaser: string;
   if (!islandId) {
-    teaser = 'Private chef from $195/guest · Stay Chef from $1,250/day';
-    desktopTeaser = 'Statewide floors (Oʻahu) — Private chef from $195/guest · Stay Chef from $1,250/day';
+    teaser = `Private chef from $195/guest · ${STAY_CHEF_FLOORS}`;
+    desktopTeaser = `Statewide floors — Private chef from $195/guest · ${STAY_CHEF_FLOORS}`;
   } else {
     const core = getTiers(islandId).find((t) => t.tier === 'CORE');
     const day = getDayRate(islandId);
@@ -123,6 +131,8 @@ export default function RateBar() {
       quoteHref={quoteHref}
       waHref={waHref}
       pricingHref={pricingHref}
+      mobileOnly={mobileOnly}
+      onQuote={onQuote}
     />
   );
 }
@@ -135,6 +145,8 @@ function Bar({
   quoteHref,
   waHref,
   pricingHref,
+  mobileOnly,
+  onQuote,
 }: {
   barRef: RefObject<HTMLDivElement | null>;
   teaser: string;
@@ -143,11 +155,17 @@ function Bar({
   quoteHref: string;
   waHref: string;
   pricingHref: string;
+  mobileOnly: boolean;
+  onQuote: boolean;
 }) {
   return (
     <div
       ref={barRef}
-      className="rate-bar-site fixed inset-x-0 bottom-0 z-40 border-t border-line bg-paper"
+      data-rate-bar={onQuote ? 'sticky-mobile-quote' : 'sticky-mobile-inquiry'}
+      className={cn(
+        'rate-bar-site fixed inset-x-0 bottom-0 z-40 border-t border-line bg-paper',
+        mobileOnly && 'md:hidden',
+      )}
       style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}
     >
       <div className="mx-auto flex max-w-spread flex-col gap-2 px-4 py-2 sm:flex-row sm:items-center sm:justify-between sm:gap-4 sm:px-6 sm:py-2.5 lg:px-10">
@@ -165,7 +183,7 @@ function Bar({
           <CtaLink
             href={pricingHref}
             variant="secondary"
-            className="hidden min-h-11 px-4 text-[13px] sm:inline-flex"
+            className={cn('min-h-11 px-4 text-[13px]', onQuote ? 'inline-flex' : 'hidden sm:inline-flex')}
           >
             Rate card
           </CtaLink>
