@@ -21,6 +21,7 @@ const SERVICES = [
   { value: 'catering-events', label: 'Catering & events' },
   { value: 'mobile-bar', label: 'Mobile bar / cocktails' },
   { value: 'vacation-chef', label: 'Vacation chef (multi-day)' },
+  { value: 'multi-island', label: 'Multi-island itinerary' },
   { value: 'weekly-household', label: 'Weekly household service' },
   { value: 'something-else', label: 'Something else' },
 ] as const;
@@ -119,9 +120,13 @@ const inputClass = (invalid: boolean) =>
 export default function QuoteForm({
   hidePageHeading = false,
   asidePhoto,
+  prefIsland = null,
+  multiIsland = false,
 }: {
   hidePageHeading?: boolean;
   asidePhoto?: { file: string; alt: string };
+  prefIsland?: IslandId | null;
+  multiIsland?: boolean;
 } = {}) {
   const router = useRouter();
   const params = useSearchParams();
@@ -132,12 +137,15 @@ export default function QuoteForm({
   const paramChannel = params.get('channel');
   const paramShore = params.get('shore');
   const paramSource = params.get('source');
+  const paramItinerary = params.get('itinerary');
+  const multi = multiIsland || paramItinerary === 'multi';
 
   const initialIsland: IslandId =
     hostMode && islandId
       ? islandId
-      : (islandOrder.find((id) => id === paramIsland) ?? islandId ?? 'oahu');
-  const initialService = SERVICES.find((s) => s.value === paramService)?.value ?? '';
+      : (islandOrder.find((id) => id === paramIsland) ?? prefIsland ?? islandId ?? 'oahu');
+  const initialService =
+    SERVICES.find((s) => s.value === paramService)?.value ?? (multi ? 'multi-island' : '');
   const initialChannel: Channel = CHANNELS.find((c) => c.value === paramChannel)?.value ?? 'email';
 
   const [island, setIsland] = useState<IslandId>(initialIsland);
@@ -214,6 +222,15 @@ export default function QuoteForm({
           )}
           <p className="mt-3 text-[17px] leading-[1.65] text-mute">
             Starting prices are published. Your written quote is the confirmed total.
+          </p>
+          {multi ? (
+            <p data-itinerary="multi" className="mt-3 text-[15px] leading-relaxed text-ink">
+              One coordinator across islands. Name the first island you will dine on — we sequence the rest.
+            </p>
+          ) : null}
+          <p data-pref-island={initialIsland} className="sr-only">
+            Form aimed at {islands[initialIsland].name}
+            {multi ? ' as the first island in a multi-island itinerary' : ''}.
           </p>
           {(paramShore || paramSource) && (
             <p className="mt-3 text-sm text-mute">
@@ -447,7 +464,10 @@ export default function QuoteForm({
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={asidePhoto?.file ?? '/photos/quote-hub.png'}
-            alt={asidePhoto?.alt ?? 'A blank cream menu card on ivory linen beside a plated fish course.'}
+            alt={
+              asidePhoto?.alt ??
+              'Seared catch already plated on dark ceramic at a statewide villa lānai table at dusk.'
+            }
             className="absolute inset-0 h-full w-full object-cover"
           />
           <div className="relative p-8">

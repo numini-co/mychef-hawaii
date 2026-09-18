@@ -27,8 +27,8 @@ export function seoToMetadata(seo: DocumentSeo, extras?: Partial<Metadata>): Met
   };
 }
 
-export function hubMetadata(path: string): Metadata {
-  return seoToMetadata(resolveDocumentSeo('mychef-hawaii.com', path));
+export function hubMetadata(path: string, search = ''): Metadata {
+  return seoToMetadata(resolveDocumentSeo('mychef-hawaii.com', path, search));
 }
 
 export function islandMetadata(island: IslandId, path: string): Metadata {

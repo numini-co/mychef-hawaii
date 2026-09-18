@@ -745,6 +745,65 @@ if (/the mobile bar as its own line/.test(longHubSrc) || /the mobile bar on a se
   errors.push('hub longform still uses mobile bar as a product name');
 }
 
+const hubChromeSrc = read('data/chromeCopy.ts');
+const hubHomeViewSrc = read('components/views/HomeView.tsx');
+const stayChefSkipKauai = /Stay Chef from \$1,250 Oʻahu \/ \$1,550 Maui \/ \$1,450 Hawaiʻi Island/;
+const stayChefHomeSkip = /Stay Chef from \$1,250 a day on Oʻahu, \$1,550 on Maui, and \$1,450 on Hawaiʻi Island/;
+if (stayChefSkipKauai.test(hubChromeSrc) || stayChefSkipKauai.test(hubHomeViewSrc) || stayChefSkipKauai.test(longHubSrc)) {
+  errors.push('hub Stay Chef strip still skips Kauaʻi $1,650');
+}
+if (stayChefHomeSkip.test(hubHomeViewSrc)) {
+  errors.push('hub HomeView published-price strip still skips Kauaʻi $1,650');
+}
+if (!/Stay Chef from \$1,250 Oʻahu \/ \$1,550 Maui \/ \$1,650 Kauaʻi \/ \$1,450 Hawaiʻi Island/.test(hubChromeSrc)) {
+  errors.push('hub chrome price strip must list all four Stay Chef floors including Kauaʻi $1,650');
+}
+if (!/Stay Chef from \$1,250 a day on Oʻahu, \$1,550 on Maui, \$1,650 on Kauaʻi, and \$1,450 on Hawaiʻi Island/.test(hubHomeViewSrc)) {
+  errors.push('hub HomeView published-price strip must list Kauaʻi Stay Chef $1,650');
+}
+
+const hubQuoteSrc = read('data/hubQuote.ts');
+const hubQuoteTitles = [...hubQuoteSrc.matchAll(/title:\s*'([^']+)'/g)].map((m) => m[1]);
+const hubQuoteH1s = [...hubQuoteSrc.matchAll(/h1:\s*'([^']+)'/g)].map((m) => m[1]);
+if (hubQuoteTitles.length !== 6) errors.push(`Expected 6 hub quote variant titles, found ${hubQuoteTitles.length}`);
+if (hubQuoteH1s.length !== 6) errors.push(`Expected 6 hub quote variant H1s, found ${hubQuoteH1s.length}`);
+errors.push(...dupes(hubQuoteTitles, 'hub quote variant title'));
+errors.push(...dupes(hubQuoteH1s, 'hub quote variant H1'));
+for (const t of hubQuoteTitles) {
+  if (quoteDocs.some((q) => q.title === t)) errors.push(`hub quote variant title collides with island quote: ${t}`);
+  if (t !== 'Get a quote — myCHEF Hawaii' && allTitles.includes(t)) {
+    errors.push(`hub quote variant title collides cross-type: ${t}`);
+  }
+}
+for (const h of hubQuoteH1s) {
+  if (quoteDocs.some((q) => q.h1 === h)) errors.push(`hub quote variant H1 collides with island quote: ${h}`);
+}
+
+const quoteViewSrc = read('components/views/QuoteView.tsx');
+for (const host of ['oahu', 'maui', 'kauai', 'bigisland']) {
+  if (!quoteViewSrc.includes(`https://${host}.mychef-hawaii.com/quote`)) {
+    errors.push(`hub QuoteView missing ${host} island-desk quote link`);
+  }
+}
+
+const rateBarSrc = read('components/RateBar.tsx');
+if (/if \(onQuote\) return null/.test(rateBarSrc)) {
+  errors.push('RateBar still hides on /quote');
+}
+if (!/sticky-mobile-quote/.test(rateBarSrc) || !/#quote/.test(rateBarSrc)) {
+  errors.push('RateBar quote variant must keep a sticky bar and #quote CTA');
+}
+
+const quoteHubAlt = photosSrc.match(/quoteHub:\s*\{[\s\S]*?alt:\s*`([^`]+)`/);
+if (!quoteHubAlt) {
+  errors.push('quoteHub alt missing');
+} else if (/unused ivory plates/i.test(quoteHubAlt[1]) || /blank cream menu card/i.test(quoteHubAlt[1])) {
+  errors.push('hub quote hero alt is still unused plates / blank menu card');
+}
+if (/quoteHub:\s*\{[\s\S]*?file:\s*'\/photos\/quote-hub\.png'/.test(photosSrc)) {
+  errors.push('hub quote hero still uses abstract quote-hub.png');
+}
+
 const longWeddingSrc = read('data/longformWeddings.ts');
 if (/Mobile bar is a published add-on/.test(longWeddingSrc)) {
   errors.push('island wedding FAQs still sell Mobile bar as a product name');

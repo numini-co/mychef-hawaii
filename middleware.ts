@@ -166,6 +166,7 @@ export function middleware(request: NextRequest) {
   const requestHeaders = new Headers(request.headers);
   requestHeaders.set('x-request-host', host);
   requestHeaders.set('x-pathname', path);
+  if (url.search) requestHeaders.set('x-search', url.search);
 
   if (islandHost && isIsland(islandHost)) {
     requestHeaders.set('x-island', islandHost);

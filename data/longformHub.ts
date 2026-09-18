@@ -53,7 +53,7 @@ export const hubHomeSections: CopySection[] = [
 export const hubHomeFaqs: CopyFaq[] = [
   {
     q: 'Where is the line-by-line Hawaii chef card?',
-    a: 'Signature dinner from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island. Stay Chef from $1,250 Oʻahu / $1,550 Maui / $1,450 Hawaiʻi Island (inquiry). Service 20% and GET up to 4.712% are added once on the written quote. The line-by-line card is on /pricing.',
+    a: 'Signature dinner from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island. Stay Chef from $1,250 Oʻahu / $1,550 Maui / $1,650 Kauaʻi / $1,450 Hawaiʻi Island (inquiry). Service 20% and GET up to 4.712% are added once on the written quote. The line-by-line card is on /pricing.',
   },
   {
     q: 'Hotel rooms without a cooktop?',

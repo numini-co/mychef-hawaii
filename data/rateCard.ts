@@ -357,3 +357,7 @@ export function coreDinnerFrom(island: IslandId): string {
   const core = getTiers(island).find((t) => t.tier === 'CORE');
   return core ? `${formatFrom(core.band[0])} a guest` : '';
 }
+
+/** Four-island Stay Chef floors — never skip Kauaʻi $1,650. */
+export const STAY_CHEF_FLOORS =
+  'Stay Chef from $1,250 Oʻahu / $1,550 Maui / $1,650 Kauaʻi / $1,450 Hawaiʻi Island';

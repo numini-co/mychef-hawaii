@@ -50,6 +50,7 @@ import { stillForPath } from '@/lib/documentStill';
 import { formatBand, getDayRate, getMobileBar, getOtherOffer, getTiers } from '@/data/rateCard';
 import { SERVICE_AREAS } from '@/data/serviceAreas';
 import { DESK_EMAIL, DESK_PHONE_E164 } from '@/lib/contact';
+import { parseHubQuoteSearch } from '@/data/hubQuote';
 
 export interface DocumentSeo {
   title: string;
@@ -252,7 +253,7 @@ export function localBusinessJsonLd(islandId: IslandId | null, origin: string) {
   };
 }
 
-export function resolveDocumentSeo(hostname: string, pathname: string): DocumentSeo {
+export function resolveDocumentSeo(hostname: string, pathname: string, search = ''): DocumentSeo {
   const host = hostname.split(':')[0] ?? hostname;
   const path = cleanPath(pathname);
   const fromHost = detectIslandFromHost(host);
@@ -443,9 +444,20 @@ export function resolveDocumentSeo(hostname: string, pathname: string): Document
       title = mapped.title;
       description = mapped.description;
     }
+    if (localPath === '/quote') {
+      const variant = parseHubQuoteSearch(search);
+      title = variant.title;
+      description = variant.description;
+    }
   }
 
-  const canonical = islandId ? canonicalUrl(islandId, localPath, host) : canonicalUrl('root', path, host);
+  let canonical = islandId ? canonicalUrl(islandId, localPath, host) : canonicalUrl('root', path, host);
+  if (!islandId && localPath === '/quote') {
+    const variant = parseHubQuoteSearch(search);
+    if (variant.canonicalIsland !== 'root') {
+      canonical = canonicalUrl(variant.canonicalIsland, '/quote', host);
+    }
+  }
   const origin = islandId
     ? canonicalUrl(islandId, '/', host).replace(/\/$/, '')
     : canonicalUrl('root', '/', host).replace(/\/$/, '');

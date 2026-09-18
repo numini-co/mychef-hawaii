@@ -1792,8 +1792,8 @@ export const photos = {
     alt: `A whole unmarked silver fish on crushed ice on a Kohala lava-stone counter in hard sun, blank cream paper beside it.`,
   },
   quoteHub: {
-    file: '/photos/quote-hub.png',
-    alt: `A blank cream menu card on ivory linen beside a plated fish course at a statewide villa table at dusk.`,
+    file: '/photos/plated-fish-lanai-dusk.jpg',
+    alt: `Seared catch already plated on dark ceramic at a statewide villa lānai table at dusk — the dinner a written quote is for.`,
   },
   contactOahu: {
     file: '/photos/contact-oahu.png',

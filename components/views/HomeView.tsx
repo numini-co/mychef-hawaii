@@ -21,7 +21,7 @@ const hubFaqs = [
   },
   {
     q: 'How much does a private chef cost in Hawaii?',
-    a: 'Signature dinner from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island. Stay Chef from $1,250 Oʻahu / $1,550 Maui / $1,450 Hawaiʻi Island (inquiry). Service 20% and Hawaiʻi GET are added once on the written quote.',
+    a: 'Signature dinner from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island. Stay Chef from $1,250 Oʻahu / $1,550 Maui / $1,650 Kauaʻi / $1,450 Hawaiʻi Island (inquiry). Service 20% and Hawaiʻi GET are added once on the written quote.',
   },
   {
     q: "What's included?",
@@ -202,8 +202,8 @@ export default function HomeView() {
             Signature dinner from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island.
           </p>
           <p className="mt-6 max-w-[52ch] text-[17px] leading-relaxed text-mute">
-            Stay Chef from $1,250 a day on Oʻahu, $1,550 on Maui, and $1,450 on Hawaiʻi Island (inquiry). Service 20% and
-            Hawaiʻi GET up to 4.712% appear as separate lines on the written quote.
+            Stay Chef from $1,250 a day on Oʻahu, $1,550 on Maui, $1,650 on Kauaʻi, and $1,450 on Hawaiʻi Island
+            (inquiry). Service 20% and Hawaiʻi GET up to 4.712% appear as separate lines on the written quote.
           </p>
           <Link
             href="/pricing"
