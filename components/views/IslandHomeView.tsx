@@ -183,7 +183,20 @@ export default function IslandHomeView({
 
       <LocationsBlock id="locations" anchorsFor={islandId} scope={islandId} />
 
-      <LongFaq items={copy.faqs} title="Cost, cleanup, kitchens." />
+      <LongFaq
+        items={copy.faqs}
+        kicker={
+          islandId === 'oahu' ? 'Resident’s Island' : islandId === 'kauai' ? 'Garden Isle retreat' : undefined
+        }
+        title={
+          islandId === 'oahu'
+            ? 'Honolulu houses, Kahala weeks.'
+            : islandId === 'kauai'
+              ? 'Both shores, inquiry first.'
+              : 'Cost, cleanup, kitchens.'
+        }
+        contrast={islandId === 'oahu' || islandId === 'kauai' ? 'aa' : 'mute'}
+      />
       <QuoteTeaser
         headline={inquiry ? 'Join the inquiry list.' : 'Island, date, guest count and kitchen. That is enough to start.'}
         island={islandId}

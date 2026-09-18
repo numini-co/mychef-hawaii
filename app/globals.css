@@ -115,6 +115,16 @@ header[data-chrome='solid'] {
   color: inherit;
 }
 
+/* Oʻahu + Kauaʻi home FAQ chrome: ink on paper (≥4.5:1). Do not fade answers to mute. */
+.faq-chrome[data-faq-contrast='aa'] p,
+.faq-chrome[data-faq-contrast='aa'] span {
+  color: var(--color-ink);
+}
+
+.rate-bar-site[data-rate-contrast='aa'] {
+  border-top-color: var(--color-ink);
+}
+
 @utility text-balance {
   text-wrap: balance;
 }

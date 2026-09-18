@@ -25,6 +25,7 @@ export default function RateBar() {
   const barRef = useRef<HTMLDivElement>(null);
   const inquiry = isInquiryIsland(islandId);
   const mobileOnly = onQuote || inquiry;
+  const aaHome = islandId === 'oahu' || islandId === 'kauai';
 
   useEffect(() => {
     const el = barRef.current;
@@ -68,12 +69,18 @@ export default function RateBar() {
       <div
         ref={barRef}
         data-rate-bar="sticky-mobile-inquiry"
-        className="rate-bar-site fixed inset-x-0 bottom-0 z-40 border-t border-line bg-paper md:hidden"
+        data-rate-contrast={aaHome ? 'aa' : 'default'}
+        className={cn(
+          'rate-bar-site fixed inset-x-0 bottom-0 z-40 border-t bg-paper md:hidden',
+          aaHome ? 'border-ink' : 'border-line',
+        )}
         style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}
       >
         <div className="mx-auto flex max-w-spread items-center justify-between gap-2 px-3 py-2">
           <div className="min-w-0">
-            <p className="truncate text-[11px] leading-snug text-mute">From ${from}/guest</p>
+            <p className={cn('truncate text-[11px] leading-snug', aaHome ? 'text-ink' : 'text-mute')}>
+              From ${from}/guest
+            </p>
             <CtaLink href={quoteHref} variant="primary" className="mt-1 min-h-10 px-3 text-[13px]">
               Inquiry
             </CtaLink>
@@ -133,6 +140,7 @@ export default function RateBar() {
       pricingHref={pricingHref}
       mobileOnly={mobileOnly}
       onQuote={onQuote}
+      aaHome={aaHome}
     />
   );
 }
@@ -147,6 +155,7 @@ function Bar({
   pricingHref,
   mobileOnly,
   onQuote,
+  aaHome,
 }: {
   barRef: RefObject<HTMLDivElement | null>;
   teaser: string;
@@ -157,19 +166,27 @@ function Bar({
   pricingHref: string;
   mobileOnly: boolean;
   onQuote: boolean;
+  aaHome: boolean;
 }) {
   return (
     <div
       ref={barRef}
       data-rate-bar={onQuote ? 'sticky-mobile-quote' : 'sticky-mobile-inquiry'}
+      data-rate-contrast={aaHome ? 'aa' : 'default'}
       className={cn(
-        'rate-bar-site fixed inset-x-0 bottom-0 z-40 border-t border-line bg-paper',
+        'rate-bar-site fixed inset-x-0 bottom-0 z-40 border-t bg-paper',
+        aaHome ? 'border-ink' : 'border-line',
         mobileOnly && 'md:hidden',
       )}
       style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}
     >
       <div className="mx-auto flex max-w-spread flex-col gap-2 px-4 py-2 sm:flex-row sm:items-center sm:justify-between sm:gap-4 sm:px-6 sm:py-2.5 lg:px-10">
-        <p className="min-w-0 truncate text-[12px] leading-snug text-mute sm:text-[13px]">
+        <p
+          className={cn(
+            'min-w-0 truncate text-[12px] leading-snug sm:text-[13px]',
+            aaHome ? 'text-ink' : 'text-mute',
+          )}
+        >
           <span className="sm:hidden">{teaser}</span>
           <span className="hidden sm:inline">{desktopTeaser}</span>
         </p>
