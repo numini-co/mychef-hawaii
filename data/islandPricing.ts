@@ -48,6 +48,14 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
         q: 'Is North Shore inside CORE?',
         a: 'The food band holds. Travel is a published surcharge. See /coverage and /north-shore.',
       },
+      {
+        q: 'Does a Honolulu weekly cook use the Signature grocery model?',
+        a: 'No. Signature dinners ($195–$290 a guest) keep groceries inside the band. A Kahala or Honolulu weekly cook day is the chef fee plus groceries at cost, same dual-model as Stay Chef from $1,250 a day. We do not fold a household week into a visitor night. Resident door: /personal-chef. Stack: /private-chef-cost.',
+      },
+      {
+        q: 'Is a tower COI a surcharge on this Oʻahu card?',
+        a: 'No. Freight windows and building COIs are logistics, not a hidden food line. Town and west CORE stay $195–$290 a guest. North Shore remains the published drive surcharge on /coverage. 20% service and GET up to 4.712% still print after the band.',
+      },
     ],
   },
   maui: {
@@ -113,6 +121,14 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
       {
         q: 'Does a closed bridge change the band?',
         a: 'The food band holds. We reschedule. See /hanalei-bridge.',
+      },
+      {
+        q: 'Is this Kauaʻi band a live Book-now?',
+        a: 'No. CORE $225–$375 a guest and Stay Chef from $1,650 a day are inquiry floors. We staff the estate when a crew exists. A published band is not a confirmation. Send dates on /quote. Far-North inherits /hanalei-bridge. 20% service and GET up to 4.712% print after the food.',
+      },
+      {
+        q: 'Date Night $975–$1,425 or the Signature band on Kauaʻi?',
+        a: 'Two seats use Date Night as a fixed evening. A family list uses Signature $225–$375 a guest, groceries inside that band. Stay Chef from $1,650 a day bills groceries at cost. 20% service and Hawaiʻi GET up to 4.712% print after the food. They never blend.',
       },
     ],
   },

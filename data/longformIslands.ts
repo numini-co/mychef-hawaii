@@ -73,6 +73,22 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
         q: 'How do I start?',
         a: 'Five fields on /quote — island, dates, headcount, service, how to reach you — or WhatsApp. Coordinators answer in Hawaii Standard Time on working days. No account. Enquiry is free.',
       },
+      {
+        q: 'What does a weekly Honolulu–Kahala cook day look like?',
+        a: 'A standing weekday in a Kahala dining room or Honolulu household: shop that morning, cook the week’s plates, label leftovers, empty dishwasher. Groceries at cost with receipts. Kids’ plates designed in. Kamaʻāina from $450 a week plus groceries lives on /personal-chef. Visitor first nights stay on this home. 20% service and GET to 4.712% print separately.',
+      },
+      {
+        q: 'When do you book the freight elevator and the building COI?',
+        a: 'Before anyone shops. Honolulu and Kahala towers, Kakaʻako galleys, and Waikīkī residences need a freight window, a loading-dock plan, and a certificate of insurance with the building. Put the property type on /quote. We will not discover the dock on Kalākaua the night of service. Quiet hours go on the same written plan. See /honolulu and /kahala.',
+      },
+      {
+        q: 'Villa, condo galley, or hotel room — what do you decline?',
+        a: 'We cook when there is a real cooktop, cold storage, and seats for the list: Kahala houses, Ko Olina villas, Honolulu residences, a Waikīkī apartment with a range. A hotel room with a coffee maker is declined before a deposit. Compact condos get a bring-equipment menu. Tell us the address on /quote. Waikīkī residences: /waikiki.',
+      },
+      {
+        q: 'Stay Chef from $1,250 or Signature $195–$290 — which grocery model?',
+        a: 'They never blend. Signature is the Oʻahu dinner night: $195–$290 a guest, groceries inside that band. Stay Chef is the multi-day cook from $1,250 a day, groceries at cost with merchant receipts. Weekly household work sits on /personal-chef. 20% service and Hawaiʻi GET up to 4.712% print after the food. Tariff: /pricing.',
+      },
     ],
   },
   maui: {
@@ -245,6 +261,22 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
       {
         q: 'Where do staffed events and weddings live?',
         a: 'Staffed rooms on /catering. Estate wedding weeks on /weddings. Same team, separate lines, written quote.',
+      },
+      {
+        q: 'What does inquiry-stage mean on Kauaʻi?',
+        a: 'We crew the house properly or we do not take the night. A band is not a live Book-now. Send the shore and the dates on /quote. We write back when a Kauaʻi team can staff that week. We will not hold a fake roster. Proof is the published $225–$375 band, Stay Chef from $1,650, and a written total. See /pricing.',
+      },
+      {
+        q: 'North Shore dinner or South Shore dinner — what actually changes?',
+        a: 'Princeville and Hanalei cook North Shore estate tables: winter surf calendars, mist, and the bridge clause on /hanalei-bridge. Poʻipū and Kōloa cook arrival-night dinners closer to Līhuʻe. Food stays $225–$375 a guest on both shores. Drive time is a published zone line. Far-North Hāʻena is quote-only with 72-hour notice. Corridors: /princeville, /poipu.',
+      },
+      {
+        q: 'Date Night for two or a family feast — which Kauaʻi line?',
+        a: 'Date Night is a fixed evening at $975–$1,425 for two seats in a Princeville or Poʻipū house. A family feast uses Signature $225–$375 a guest for a longer list, kids’ plates designed in. Stay Chef from $1,650 a day if the week cooks more than once. They never blend. Send headcount on /quote.',
+      },
+      {
+        q: 'What if it rains on the lānai?',
+        a: 'We write a covered backup on every outdoor Kauaʻi table before a deposit. North Shore mist is a Tuesday, not a mood. If the Hanalei road closes, we reschedule rather than keep the night. That weather-and-road clause sits on the quote. We will not sell an uncovered lawn as the plan. See /hanalei-bridge.',
       },
     ],
   },

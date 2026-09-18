@@ -193,6 +193,14 @@ function stripIslandTokens(value) {
     .trim();
 }
 
+function islandChunkForFaq(src, island) {
+  const start = src.search(new RegExp(`\\n  ${island}: \\{`));
+  if (start < 0) return '';
+  const rest = src.slice(start + 1);
+  const nxt = rest.search(/\n  (oahu|maui|kauai|bigisland): \{/);
+  return nxt < 0 ? src.slice(start) : src.slice(start, start + 1 + nxt);
+}
+
 function tokenOnlyVariants(values, label) {
   const errors = [];
   const seen = new Map();
@@ -1531,6 +1539,73 @@ if (!/What is a Maui villa week\?/.test(longIslandSrc) || !/Why is Signature the
 }
 if (!/Is this villa-week band a competitor midpoint\?/.test(pricingDocSrc)) {
   errors.push('Maui /pricing FAQ still missing villa-week midpoint honesty item');
+}
+if (
+  !/What does a weekly Honolulu–Kahala cook day look like\?/.test(longIslandSrc) ||
+  !/When do you book the freight elevator and the building COI\?/.test(longIslandSrc) ||
+  !/Villa, condo galley, or hotel room/.test(longIslandSrc) ||
+  !/Stay Chef from \$1,250 or Signature \$195–\$290/.test(longIslandSrc)
+) {
+  errors.push('Oahu home FAQ still missing Resident Island accordion items');
+}
+if (
+  !/Does a Honolulu weekly cook use the Signature grocery model\?/.test(pricingDocSrc) ||
+  !/Is a tower COI a surcharge on this Oʻahu card\?/.test(pricingDocSrc)
+) {
+  errors.push('Oahu /pricing FAQ still missing Resident Island tariff items');
+}
+if (
+  !/What does inquiry-stage mean on Kauaʻi\?/.test(longIslandSrc) ||
+  !/North Shore dinner or South Shore dinner/.test(longIslandSrc) ||
+  !/Date Night for two or a family feast/.test(longIslandSrc) ||
+  !/What if it rains on the lānai\?/.test(longIslandSrc)
+) {
+  errors.push('Kauai home FAQ still missing Garden Isle inquiry accordion items');
+}
+if (
+  !/Is this Kauaʻi band a live Book-now\?/.test(pricingDocSrc) ||
+  !/Date Night \$975–\$1,425 or the Signature band on Kauaʻi\?/.test(pricingDocSrc)
+) {
+  errors.push('Kauai /pricing FAQ still missing Garden Isle inquiry tariff items');
+}
+if (/What is an Oʻahu villa week\?/.test(longIslandSrc) || /What is a Kauaʻi villa week\?/.test(longIslandSrc)) {
+  errors.push('Oahu/Kauai home FAQ copied Maui villa-week questions');
+}
+if (/Wailea and West Maui weeks are the product/.test(islandChunkForFaq(longIslandSrc, 'oahu'))) {
+  errors.push('Oahu home FAQ copied Maui villa-week answers');
+}
+if (/Wailea and West Maui weeks are the product/.test(islandChunkForFaq(longIslandSrc, 'kauai'))) {
+  errors.push('Kauai home FAQ copied Maui villa-week answers');
+}
+if (!/Resident’s Island/.test(islandHomeSrc) || !/Garden Isle retreat/.test(islandHomeSrc)) {
+  errors.push('Oahu/Kauai home FAQ chrome still generic Cost, cleanup, kitchens');
+}
+if (!/contrast=\{islandId === 'oahu' \|\| islandId === 'kauai' \? 'aa' : 'mute'\}/.test(islandHomeSrc)) {
+  errors.push('Oahu/Kauai home FAQ accordion still missing AA contrast');
+}
+if (!/islandId === 'oahu' \|\| islandId === 'kauai'/.test(rateBarSrc)) {
+  errors.push('RateBar still skips AA teaser contrast on Oahu/Kauai homes');
+}
+if (!/bg-ink text-paper/.test(read('components/Cta.tsx'))) {
+  errors.push('primary CTA lost ink-on-paper contrast');
+}
+if (/AggregateRating/.test(longIslandSrc) || /AggregateRating/.test(pricingDocSrc) || /AggregateRating/.test(islandHomeSrc)) {
+  errors.push('Oahu/Kauai FAQ work introduced AggregateRating');
+}
+if (/tel:\+971|\+971\d{7,}/.test(longIslandSrc + pricingDocSrc + read('lib/contact.ts'))) {
+  errors.push('FAQ/desk copy introduced +971');
+}
+
+{
+  const homeChunks = {
+    oahu: islandChunkForFaq(longIslandSrc, 'oahu'),
+    maui: islandChunkForFaq(longIslandSrc, 'maui'),
+    kauai: islandChunkForFaq(longIslandSrc, 'kauai'),
+  };
+  const homeAnswers = ['oahu', 'maui', 'kauai'].flatMap((id) =>
+    [...homeChunks[id].matchAll(/a:\s*'((?:\\'|[^'])*)'/g)].map((m) => m[1]),
+  );
+  errors.push(...tokenOnlyVariants(homeAnswers, 'oahu/maui/kauai home FAQ answer'));
 }
 
 {
