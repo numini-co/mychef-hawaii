@@ -338,7 +338,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       photo: 'occWelcomeBigisland',
       body: [
         'Kona town and Kohala resort residences. Stay Chef weeks: /vacation-chef. Event weeks: /ironman-weeks.',
-        'Inquiry stage. Published starting prices from $195 a guest.',
+        'Inquiry stage. Published starting prices from $210 a guest. ENTRY from $165.',
       ],
       faqs: [
         {

@@ -1511,6 +1511,88 @@ if (/href: '\/bar',\s*title: 'Bar'/.test(supportViewsSrc)) {
 if (/Private chef dinners from \$125 a guest, Stay Chef day rates, wedding catering/.test(supportViewsSrc)) {
   errors.push('hub /services hero still uses Private chef dinners / wedding catering');
 }
+if (/Private chef Big Island from \$195/.test(offersSrc) || /Private chef Big Island from \$195/.test(pageMetaSrc)) {
+  errors.push('Hawaiʻi Island home still publishes leftover Signature from $195');
+}
+if (/fromPp: 195/.test(sliceExport(offersSrc, 'islandOffers', 'export const moneyNeighborhoods').split('bigisland:')[1] || '')) {
+  errors.push('islandOffers.bigisland.fromPp is still leftover $195 — CORE starts at $210');
+}
+if (/Big Island catering — Kona & Kohala from \$195/.test(cateringSrc) || /Catering on Hawaiʻi Island from \$195/.test(cateringSrc)) {
+  errors.push('Hawaiʻi Island /catering still publishes leftover from $195');
+}
+if (/Private chef Kona Hawaii — from \$195/.test(offersSrc) || /Private chef Waikoloa — Kohala Coast from \$195/.test(offersSrc)) {
+  errors.push('Hawaiʻi Island corridors still publish leftover from $195');
+}
+if (/Starting prices from \$195 a guest on this island/.test(supportSrc)) {
+  errors.push('Hawaiʻi Island /how-it-works still publishes leftover from $195');
+}
+if (!/What is a Maui villa week\?/.test(longIslandSrc) || !/Why is Signature the hero night on a villa week\?/.test(longIslandSrc)) {
+  errors.push('Maui home FAQ still missing Villa Week accordion items');
+}
+if (!/Is this villa-week band a competitor midpoint\?/.test(pricingDocSrc)) {
+  errors.push('Maui /pricing FAQ still missing villa-week midpoint honesty item');
+}
+
+{
+  const keywordMapPath = 'data/keyword-map.json';
+  if (!existsSync(join(ROOT, keywordMapPath))) {
+    errors.push('missing data/keyword-map.json seed ownership map');
+  } else {
+    const raw = read(keywordMapPath).replace(/^\s*\/\/.*$/gm, '').trim();
+    let map;
+    try {
+      map = JSON.parse(raw);
+    } catch {
+      errors.push('data/keyword-map.json is not parseable JSONC');
+      map = { entries: [] };
+    }
+    const rows = Array.isArray(map.entries) ? map.entries : [];
+    if (rows.length < 30) errors.push(`keyword-map.json expected ≥30 seed rows, found ${rows.length}`);
+    const clusters = [];
+    const urls = [];
+    const required = [
+      ['hub', '/'],
+      ['hub', '/pricing'],
+      ['hub', '/quote'],
+      ['hub', '/menus'],
+      ['oahu', '/'],
+      ['oahu', '/pricing'],
+      ['oahu', '/quote'],
+      ['oahu', '/menus'],
+      ['oahu', '/waikiki'],
+      ['maui', '/'],
+      ['maui', '/pricing'],
+      ['maui', '/quote'],
+      ['maui', '/menus'],
+      ['maui', '/wailea'],
+      ['kauai', '/'],
+      ['kauai', '/pricing'],
+      ['kauai', '/quote'],
+      ['kauai', '/menus'],
+      ['kauai', '/princeville'],
+      ['bigisland', '/'],
+      ['bigisland', '/pricing'],
+      ['bigisland', '/quote'],
+      ['bigisland', '/menus'],
+      ['bigisland', '/kona'],
+    ];
+    for (const row of rows) {
+      if (!row.cluster || !row.primary || !row.host || !row.path || !row.url) {
+        errors.push('keyword-map.json row missing cluster/primary/host/path/url');
+        continue;
+      }
+      clusters.push(row.cluster);
+      urls.push(row.url);
+    }
+    errors.push(...dupes(clusters, 'keyword-map cluster'));
+    errors.push(...dupes(urls, 'keyword-map url'));
+    for (const [host, path] of required) {
+      if (!rows.some((row) => row.host === host && row.path === path)) {
+        errors.push(`keyword-map.json missing ${host}${path}`);
+      }
+    }
+  }
+}
 
 const headerSrc = read('components/SiteHeader.tsx');
 if (/path="\/private-chef"[\s\S]{0,240}Private chef/.test(headerSrc)) {

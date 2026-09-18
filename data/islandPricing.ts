@@ -77,6 +77,14 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
         q: 'Is Wailea cheaper than Kāʻanapali?',
         a: 'Same CORE band. The Saturday drive is planned into arrival. See /west-maui.',
       },
+      {
+        q: 'Is this villa-week band a competitor midpoint?',
+        a: 'No. Wailea and West Maui share CORE $225–$375 a guest. A midpoint that folds service into food is not this card. 20% service and Hawaiʻi GET up to 4.712% print after the band. We publish our premium; we do not rank other kitchens.',
+      },
+      {
+        q: 'Signature night or Stay Chef week — which line am I on?',
+        a: 'Signature is the hero per-guest night ($225–$375, groceries inside the band). Stay Chef from $1,550 a day is the multi-day cook with groceries at cost. They never blend. How each line prints: /private-chef-cost.',
+      },
     ],
   },
   kauai: {

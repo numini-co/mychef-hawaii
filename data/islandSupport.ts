@@ -455,7 +455,7 @@ export const islandHow: Record<IslandId, IslandSupportPage> = {
       {
         n: '03',
         title: 'Written quote.',
-        body: 'Starting prices from $195 a guest on this island. Zone fee. Dedicated east-side staffing if that is the night.',
+        body: 'Starting prices from $210 a guest on this island (ENTRY from $165). Zone fee. Dedicated east-side staffing if that is the night.',
       },
       {
         n: '04',

@@ -90,7 +90,7 @@ export function HubOfferView({ kind }: { kind: 'private-chef' | 'vacation-chef' 
     kind === 'private-chef'
       ? {
           h1: 'Visitor dinners in Hawaii villas.',
-          lede: 'Open the island document. Oʻahu from $195 a guest, Maui and Kauaʻi from $225 a guest. Weekly household cooking lives on each island /personal-chef.',
+          lede: 'Open the island document. Oʻahu from $195 a guest, Maui and Kauaʻi from $225 a guest, Hawaiʻi Island from $210 a guest (ENTRY from $165). Weekly household cooking lives on each island /personal-chef.',
           img: photos.hubChef,
           service: 'private-chef',
           path: '/private-chef' as const,

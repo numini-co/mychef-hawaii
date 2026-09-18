@@ -466,7 +466,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/bigisland': {
     title: 'Private Chef Big Island | Kona–Kohala Inquiry | myCHEF',
     description:
-      'Private chef Big Island from $195 a guest. Named corridors — Kona, Waikoloa, Waimea, Kohala Coast. Inquiry stage. WhatsApp the dates.',
+      'Private chef Big Island from $210 a guest. Named corridors — Kona, Waikoloa, Waimea, Kohala Coast. Inquiry stage. ENTRY from $165. WhatsApp the dates.',
   },
   '/oahu/private-chef': {
     title: 'Visitor dinners in the Oahu house | myCHEF',
@@ -706,9 +706,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'Multi-day chef residencies for Kohala and Waimea weeks. Groceries at cost. Inquiry stage.',
   },
   '/bigisland/catering': {
-    title: 'Big Island catering — Kona & Kohala from $195/pp | myCHEF',
+    title: 'Big Island catering — Kona & Kohala from $210/pp | myCHEF',
     description:
-      'Catering on Hawaiʻi Island from $195/pp. Kohala Coast and Kona villa receptions, buffet or plated. WhatsApp for a written quote.',
+      'Catering on Hawaiʻi Island from $210/pp. Kohala Coast and Kona villa receptions, buffet or plated. ENTRY from $165. WhatsApp for a written quote.',
   },
   '/bigisland/weddings': {
     title: 'Wedding catering Big Island | myCHEF',

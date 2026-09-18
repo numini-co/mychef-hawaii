@@ -157,6 +157,22 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
         q: 'How do I book Maui?',
         a: 'Open /quote with Maui selected, or WhatsApp. Five fields. A coordinator in Hawaii Standard Time writes back on a working day. You do not pay to ask.',
       },
+      {
+        q: 'What is a Maui villa week?',
+        a: 'Wailea and West Maui weeks are the product: a villa with a real kitchen, not a resort communal table. Signature is the hero night — $225–$375 a guest, groceries inside that band. Stay Chef is the multi-day cook from $1,550 a day, groceries at cost with receipts. 20% service and Hawaiʻi GET up to 4.712% print as their own lines. We do not invent guest reviews; proof is the published card and a written quote.',
+      },
+      {
+        q: 'Why is Signature the hero night on a villa week?',
+        a: 'Most Wailea and West Maui houses book one published dinner first. Signature is that night. Stay Chef is the week when the house actually cooks more than once. They never blend. The tariff is /pricing. The form is /quote.',
+      },
+      {
+        q: 'Why publish a premium band instead of a midpoint?',
+        a: 'The Maui CORE band is $225–$375 a guest — the villa-week card, not a chat midpoint that folds labor into food. Midpoints hide 20% service and Hawaiʻi GET up to 4.712%. We print those after the band. Other kitchens publish different numbers; we do not call them worse. We publish ours and write the quote.',
+      },
+      {
+        q: 'Do Maui villa weeks come with guest-review counts?',
+        a: 'No. The guest-review count is still zero. We will not invent stars, names, or a roster. Proof is published prices, a sample menu, and a written total. See /blog/no-fake-reviews and /trust.',
+      },
     ],
   },
   kauai: {

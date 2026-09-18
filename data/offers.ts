@@ -240,10 +240,10 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     h1: 'Private chef Big Island — the Kohala Coast first.',
     title: 'Private Chef Big Island | Kona–Kohala Inquiry | myCHEF',
     description:
-      'Private chef Big Island from $195 a guest. Named corridors — Kona, Waikoloa, Waimea, Kohala Coast. Inquiry stage. Villa dinners on the west side first.',
+      'Private chef Big Island from $210 a guest. Named corridors — Kona, Waikoloa, Waimea, Kohala Coast. Inquiry stage. Villa dinners on the west side first. ENTRY from $165.',
     lede:
       'Kona and the Kohala Coast first — seven resort communities in one west-side radius. Hilo and Volcano are quote-only; we will not fake a same-day round trip.',
-    fromPp: 195,
+    fromPp: 210,
     dayFrom: 1450,
     heroPhoto: 'bigislandHero',
     neighborhoods: [
@@ -593,9 +593,9 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'kona',
       name: 'Kona',
       h1: 'Private chef in Kona, Hawaiʻi Island',
-      title: 'Private chef Kona Hawaii — from $195/pp | myCHEF',
+      title: 'Private chef Kona Hawaii — from $210/pp | myCHEF',
       description:
-        'Private chef Kona and Kailua-Kona from $195/pp. West-side villa dinners, Stay Chef weeks, Ironman-week honesty.',
+        'Private chef Kona and Kailua-Kona from $210/pp. West-side villa dinners, Stay Chef weeks, Ironman-week honesty. ENTRY from $165.',
       lede: 'Private chef Kona is covered on this island — Kailua-Kona, Keauhou and the south end of the Kohala corridor.',
       body: [
         'CORE $210–$325/pp. Event weeks (including Ironman) compress the calendar — flag dates on WhatsApp.',
@@ -623,8 +623,8 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'waikoloa',
       name: 'Waikoloa',
       h1: 'Private chef in Waikoloa, Hawaiʻi Island',
-      title: 'Private chef Waikoloa — Kohala Coast from $195/pp | myCHEF',
-      description: 'Private chef in Waikoloa and the Kohala resort corridor. Villa weeks and dinners from $195/pp.',
+      title: 'Private chef Waikoloa — Kohala Coast from $210/pp | myCHEF',
+      description: 'Private chef in Waikoloa and the Kohala resort corridor. Villa weeks and dinners from $210/pp.',
       lede: 'Inside the 30-minute west-side radius. Same Kona–Kohala team. Stay Chef for the villa week.',
       body: ['Seven resort communities share this corridor. We will not pretend to cover Hilo from here in an afternoon.'],
       zone: 'Base — Kohala corridor',
@@ -635,7 +635,7 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'kohala',
       name: 'Kohala Coast',
       h1: 'Private chef on the Kohala Coast',
-      title: 'Private chef Kohala Coast — from $195/pp | myCHEF',
+      title: 'Private chef Kohala Coast — from $210/pp | myCHEF',
       description: 'Private chef Kohala Coast. Waikoloa, Mauna Lani, Mauna Kea resort belt. Published starting prices.',
       lede: 'The opening move on Hawaiʻi Island: one 30-minute service radius, the island’s highest villa ADRs.',
       body: ['Sourcing-led dinners. Producer names only with written verification.'],

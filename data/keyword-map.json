@@ -1,0 +1,275 @@
+// Seed keyword-ownership map. One primary cluster → exactly one owning URL.
+// Fields: cluster (slug), primary (phrase), host (hub|oahu|maui|kauai|bigisland), path, url.
+// One page = one primary cluster. Money titles stay on homes / catering / weddings / corridors.
+// /pricing, /quote, /menus own cost / quote / menu clusters — they do not steal money titles.
+// Do not invent search volumes. Measured phrases live in data/seo/keywordMap.ts.
+{
+  "entries": [
+    {
+      "cluster": "private-chef-hawaii",
+      "primary": "private chef hawaii",
+      "host": "hub",
+      "path": "/",
+      "url": "https://mychef-hawaii.com/"
+    },
+    {
+      "cluster": "hawaii-private-chef-cost",
+      "primary": "what a night costs in hawaii",
+      "host": "hub",
+      "path": "/pricing",
+      "url": "https://mychef-hawaii.com/pricing"
+    },
+    {
+      "cluster": "hawaii-private-chef-quote",
+      "primary": "hawaii private chef quote",
+      "host": "hub",
+      "path": "/quote",
+      "url": "https://mychef-hawaii.com/quote"
+    },
+    {
+      "cluster": "hawaii-private-chef-menus",
+      "primary": "hawaii private chef menus",
+      "host": "hub",
+      "path": "/menus",
+      "url": "https://mychef-hawaii.com/menus"
+    },
+    {
+      "cluster": "hawaii-catering",
+      "primary": "hawaii catering",
+      "host": "hub",
+      "path": "/catering",
+      "url": "https://mychef-hawaii.com/catering"
+    },
+    {
+      "cluster": "wedding-catering-hawaii",
+      "primary": "wedding catering hawaii",
+      "host": "hub",
+      "path": "/weddings",
+      "url": "https://mychef-hawaii.com/weddings"
+    },
+    {
+      "cluster": "mobile-bar-hawaii",
+      "primary": "mobile bar hawaii",
+      "host": "hub",
+      "path": "/mobile-bar",
+      "url": "https://mychef-hawaii.com/mobile-bar"
+    },
+    {
+      "cluster": "private-chef-oahu",
+      "primary": "private chef oahu",
+      "host": "oahu",
+      "path": "/",
+      "url": "https://oahu.mychef-hawaii.com/"
+    },
+    {
+      "cluster": "oahu-private-chef-cost",
+      "primary": "oahu town and west rate card",
+      "host": "oahu",
+      "path": "/pricing",
+      "url": "https://oahu.mychef-hawaii.com/pricing"
+    },
+    {
+      "cluster": "oahu-private-chef-quote",
+      "primary": "oahu private chef quote",
+      "host": "oahu",
+      "path": "/quote",
+      "url": "https://oahu.mychef-hawaii.com/quote"
+    },
+    {
+      "cluster": "oahu-private-chef-menus",
+      "primary": "oahu private chef menus",
+      "host": "oahu",
+      "path": "/menus",
+      "url": "https://oahu.mychef-hawaii.com/menus"
+    },
+    {
+      "cluster": "oahu-catering",
+      "primary": "oahu catering",
+      "host": "oahu",
+      "path": "/catering",
+      "url": "https://oahu.mychef-hawaii.com/catering"
+    },
+    {
+      "cluster": "wedding-catering-oahu",
+      "primary": "wedding catering oahu",
+      "host": "oahu",
+      "path": "/weddings",
+      "url": "https://oahu.mychef-hawaii.com/weddings"
+    },
+    {
+      "cluster": "private-chef-waikiki",
+      "primary": "private chef waikiki",
+      "host": "oahu",
+      "path": "/waikiki",
+      "url": "https://oahu.mychef-hawaii.com/waikiki"
+    },
+    {
+      "cluster": "private-chef-honolulu",
+      "primary": "private chef honolulu",
+      "host": "oahu",
+      "path": "/honolulu",
+      "url": "https://oahu.mychef-hawaii.com/honolulu"
+    },
+    {
+      "cluster": "personal-chef-honolulu",
+      "primary": "personal chef honolulu",
+      "host": "oahu",
+      "path": "/personal-chef",
+      "url": "https://oahu.mychef-hawaii.com/personal-chef"
+    },
+    {
+      "cluster": "private-chef-maui",
+      "primary": "private chef maui",
+      "host": "maui",
+      "path": "/",
+      "url": "https://maui.mychef-hawaii.com/"
+    },
+    {
+      "cluster": "maui-villa-week-rates",
+      "primary": "maui villa week rate card",
+      "host": "maui",
+      "path": "/pricing",
+      "url": "https://maui.mychef-hawaii.com/pricing"
+    },
+    {
+      "cluster": "maui-private-chef-quote",
+      "primary": "maui private chef quote",
+      "host": "maui",
+      "path": "/quote",
+      "url": "https://maui.mychef-hawaii.com/quote"
+    },
+    {
+      "cluster": "maui-private-chef-menus",
+      "primary": "maui villa menus",
+      "host": "maui",
+      "path": "/menus",
+      "url": "https://maui.mychef-hawaii.com/menus"
+    },
+    {
+      "cluster": "maui-catering",
+      "primary": "maui catering",
+      "host": "maui",
+      "path": "/catering",
+      "url": "https://maui.mychef-hawaii.com/catering"
+    },
+    {
+      "cluster": "wedding-catering-maui",
+      "primary": "wedding catering maui",
+      "host": "maui",
+      "path": "/weddings",
+      "url": "https://maui.mychef-hawaii.com/weddings"
+    },
+    {
+      "cluster": "private-chef-wailea",
+      "primary": "private chef wailea",
+      "host": "maui",
+      "path": "/wailea",
+      "url": "https://maui.mychef-hawaii.com/wailea"
+    },
+    {
+      "cluster": "private-chef-lahaina-maui",
+      "primary": "private chef lahaina maui",
+      "host": "maui",
+      "path": "/lahaina",
+      "url": "https://maui.mychef-hawaii.com/lahaina"
+    },
+    {
+      "cluster": "private-chef-kauai",
+      "primary": "private chef kauai",
+      "host": "kauai",
+      "path": "/",
+      "url": "https://kauai.mychef-hawaii.com/"
+    },
+    {
+      "cluster": "kauai-inquiry-rate-card",
+      "primary": "kauai inquiry rate card",
+      "host": "kauai",
+      "path": "/pricing",
+      "url": "https://kauai.mychef-hawaii.com/pricing"
+    },
+    {
+      "cluster": "kauai-private-chef-inquiry",
+      "primary": "kauai private chef inquiry",
+      "host": "kauai",
+      "path": "/quote",
+      "url": "https://kauai.mychef-hawaii.com/quote"
+    },
+    {
+      "cluster": "kauai-private-chef-menus",
+      "primary": "kauai estate menus",
+      "host": "kauai",
+      "path": "/menus",
+      "url": "https://kauai.mychef-hawaii.com/menus"
+    },
+    {
+      "cluster": "kauai-catering",
+      "primary": "kauai catering",
+      "host": "kauai",
+      "path": "/catering",
+      "url": "https://kauai.mychef-hawaii.com/catering"
+    },
+    {
+      "cluster": "kauai-wedding-catering",
+      "primary": "kauai wedding catering",
+      "host": "kauai",
+      "path": "/weddings",
+      "url": "https://kauai.mychef-hawaii.com/weddings"
+    },
+    {
+      "cluster": "private-chef-princeville",
+      "primary": "private chef princeville",
+      "host": "kauai",
+      "path": "/princeville",
+      "url": "https://kauai.mychef-hawaii.com/princeville"
+    },
+    {
+      "cluster": "private-chef-poipu-kauai",
+      "primary": "private chef poipu kauai",
+      "host": "kauai",
+      "path": "/poipu",
+      "url": "https://kauai.mychef-hawaii.com/poipu"
+    },
+    {
+      "cluster": "private-chef-big-island",
+      "primary": "private chef big island",
+      "host": "bigisland",
+      "path": "/",
+      "url": "https://bigisland.mychef-hawaii.com/"
+    },
+    {
+      "cluster": "west-side-rate-card",
+      "primary": "west-side hawaii island rate card",
+      "host": "bigisland",
+      "path": "/pricing",
+      "url": "https://bigisland.mychef-hawaii.com/pricing"
+    },
+    {
+      "cluster": "big-island-private-chef-inquiry",
+      "primary": "big island private chef inquiry",
+      "host": "bigisland",
+      "path": "/quote",
+      "url": "https://bigisland.mychef-hawaii.com/quote"
+    },
+    {
+      "cluster": "big-island-private-chef-menus",
+      "primary": "hawaii island villa menus",
+      "host": "bigisland",
+      "path": "/menus",
+      "url": "https://bigisland.mychef-hawaii.com/menus"
+    },
+    {
+      "cluster": "big-island-catering",
+      "primary": "big island catering",
+      "host": "bigisland",
+      "path": "/catering",
+      "url": "https://bigisland.mychef-hawaii.com/catering"
+    },
+    {
+      "cluster": "private-chef-kona",
+      "primary": "private chef kona",
+      "host": "bigisland",
+      "path": "/kona",
+      "url": "https://bigisland.mychef-hawaii.com/kona"
+    }
+  ]
+}

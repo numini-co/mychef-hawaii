@@ -78,7 +78,7 @@ export const hubCateringSections: CopySection[] = [
     h2: 'Staffed villa events',
     paras: [
       'Hawaii catering, here, means a staffed villa or estate — not a ballroom, not a drop-off tray, not a convention centre. Ten to seventy-five guests. We shop, cook, and serve in the house you actually have. Buffet, plated, family-style, or grazing. The food band is the island signature card. Staffing is itemised.',
-      'Statewide starting prices: from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi. Wedding-week formats add welcome dinner, rehearsal, reception, and recovery brunch as separate lines. The confirmed total is the written quote: food, staffing, 20% service, GET up to 4.712%, 50% deposit.',
+      'Statewide starting prices: from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island (ENTRY from $165). Wedding-week formats add welcome dinner, rehearsal, reception, and recovery brunch as separate lines. The confirmed total is the written quote: food, staffing, 20% service, GET up to 4.712%, 50% deposit.',
       'Pick the island for the kitchen that will cook. This page is the statewide door. The island pages carry the menus and the local drives.',
     ],
   },

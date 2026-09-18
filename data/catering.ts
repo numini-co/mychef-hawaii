@@ -142,12 +142,12 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     keyword: 'big island catering',
     volume: CATERING_VOLUMES['big island catering'],
     h1: 'Big Island catering',
-    title: 'Big Island catering — Kona & Kohala from $195/pp | myCHEF',
+    title: 'Big Island catering — Kona & Kohala from $210/pp | myCHEF',
     description:
-      'Catering on Hawaiʻi Island from $195/pp. Kohala Coast and Kona villa receptions, buffet or plated. WhatsApp for a written quote.',
+      'Catering on Hawaiʻi Island from $210/pp. Kohala Coast and Kona villa receptions, buffet or plated. ENTRY from $165. WhatsApp for a written quote.',
     lede:
       'West-side first: Kohala and Kona estates. Buffet or plated. Published starting prices. Hilo is quote-only — we will not fake a same-day round trip.',
-    fromPp: 195,
+    fromPp: 210,
     weddingFrom: 225,
     places: 'Kohala Coast, Waikoloa, Kailua-Kona',
     photo: 'cateringBigisland',
@@ -176,7 +176,7 @@ export const HUB_CATERING = {
   faqs: [
     {
       q: 'How much is Hawaii catering?',
-      a: 'Signature food from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi. Wedding catering from $190–$260 a guest plus staffing, depending on the island. 20% service and Hawaiʻi GET up to 4.712% sit on their own lines, once.',
+      a: 'Signature food from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island (ENTRY from $165). Wedding catering from $190–$260 a guest plus staffing, depending on the island. 20% service and Hawaiʻi GET up to 4.712% sit on their own lines, once.',
     },
     {
       q: 'Buffet or plated?',
