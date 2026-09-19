@@ -328,28 +328,44 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
     ],
     faqs: [
       {
-        q: 'How much is a private chef in Kona?',
-        a: 'CORE $210–$325 a guest. ENTRY from $165. Date Night from $825. Stay Chef from $1,450 a day. On Kona quotes, 20% service and GET to 4.712% print after the food. See /pricing.',
+        q: 'How much is a private chef on the Big Island?',
+        a: 'West-side CORE is $210–$325 a guest. ENTRY opens from $165. Date Night from $825. Stay Chef inquiry from $1,450 a day. 20% service and Hawaiʻi GET up to 4.712% print after the food, never inside it. East side is not that band — it is a dedicated day. Card: /pricing.',
       },
       {
-        q: 'Is there a separate Kona site?',
+        q: 'What is ENTRY versus CORE on this west-side card?',
+        a: 'ENTRY from $165 is the open door — a simpler west-side table when the list and the kitchen are modest. CORE $210–$325 is the usual Kona–Kohala villa night: menu, same-day west-side shop, cook, serve, empty dishwasher. They never blend. Stay Chef from $1,450 is a different day-rate. Tariff: /pricing.',
+      },
+      {
+        q: 'Why west-side first — Kona to Kohala?',
+        a: 'The shop, the villa pool, and the crew sit in a thirty-minute Kona–Kohala radius: Kailua-Kona, Keauhou, Waikoloa, Mauna Lani, the Mauna Kea belt. That is the expedition start. Hilo is two-and-a-half to three hours of saddle, not an afternoon add-on. We will not sell the island as one commute.',
+      },
+      {
+        q: 'Can you cook Hilo the same day as a Kona dinner?',
+        a: 'No. East side is a dedicated crew day — never stacked on a west-side service. Crossing is 2.5–3 hours. Say Hilo on /quote and we price that day. We will not invent a same-day Kona–Hilo round trip. Map: /east-side.',
+      },
+      {
+        q: 'Stay Chef on a Kohala estate — who pays for groceries?',
+        a: 'Stay Chef inquiry from $1,450 a day is the chef fee. Groceries bill at cost with merchant receipts and zero markup. A CORE dinner ($210–$325 a guest) keeps groceries inside that band. They never mix. 20% service and GET up to 4.712% still print after. See /pricing.',
+      },
+      {
+        q: 'What does inquiry-stage mean on this expedition?',
+        a: 'A published band is not a live Book-now. We crew a west-side house when a team exists for those dates. Send the Kona–Kohala address on /quote. We write back in Hawaii business hours when we can staff. We will not hold a fake roster. Proof is ENTRY from $165, CORE $210–$325, Stay Chef from $1,450, and a written total.',
+      },
+      {
+        q: 'What kitchen does a Waikoloa condo or Airbnb need?',
+        a: 'A real cooktop, cold storage, and seats for the list. Resort residences and west-side Airbnbs that actually cook are the default yes. A hotel room with a coffee maker is declined before a deposit. Tell us the property type on /quote. We shop Kona-side the day of service and leave the galley empty.',
+      },
+      {
+        q: 'Ironman week or a group villa — how early do you need dates?',
+        a: 'Flag Ironman and other west-side event weeks early — roads close and crew days fill. One crew holds one heavy week. We will not promise a Hilo lunch and a Waikoloa dinner on the same race Saturday. Group lists still use the published bands plus staffing on /catering. First message: dates and whether the villa sits in a closure zone. See /ironman-weeks.',
+      },
+      {
+        q: 'Is there a separate Kona hostname?',
         a: 'No. There is no separate Kona hostname. /kona is the west-side corridor on this Hawaiʻi Island host. This home still owns private chef Big Island. Put the west-side address on /quote.',
       },
       {
-        q: 'Can you cover Hilo from Kona in one day?',
-        a: 'No. East side is 2.5–3 hours. Dedicated staffing, quoted as its own day. West-side villas are the default.',
-      },
-      {
-        q: 'Do you take Ironman week?',
-        a: 'Yes, with compressed availability. Flag those dates early. We will not stack east-side and west-side work on the same race day.',
-      },
-      {
-        q: 'Big Island or Hawaiʻi Island?',
-        a: 'Both names. Related search “private chef big island hawaii” is this host — not a second path. Searchers also say Kona. The geography is Hawaiʻi Island. The chef team is the same.',
-      },
-      {
-        q: 'Airbnb on the Kohala Coast?',
-        a: 'Yes, when the kitchen works. We shop west-side the day of service and leave it clean. Hotel rooms without cooktops are declined.',
+        q: 'Does a Waimea ranch table share a Waikoloa crew day?',
+        a: 'Waimea / Kamuela sits above the resorts — cooler elevation, a published surcharge, estate and ranch tables. It is still west-of-saddle, not Hilo. We can sequence a ranch lunch and a Kohala dinner when the calendar and the drive allow; we will not stack an east-side crossing onto that day. Corridor: /waimea.',
       },
     ],
   },

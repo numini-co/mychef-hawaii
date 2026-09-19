@@ -798,6 +798,58 @@ for (const host of ['oahu', 'maui', 'kauai', 'bigisland']) {
   }
 }
 
+const quoteFormSrc = read('components/QuoteForm.tsx');
+if (/id="contact-name"[\s\S]{0,120}label="How should we reach you\?"/.test(quoteFormSrc)) {
+  errors.push('quote form still labels contact-name as How should we reach you');
+}
+if (!/id="contact-name"[\s\S]{0,80}label="Your name"/.test(quoteFormSrc)) {
+  errors.push('quote form contact-name must be labeled Your name');
+}
+if (!/<legend[^>]*>How should we reach you\?<\/legend>/.test(quoteFormSrc)) {
+  errors.push('quote form channel group must keep a visible How should we reach you? legend');
+}
+if (!/id="contact-name"[\s\S]{0,400}required/.test(quoteFormSrc) || !/id="contact-name"[\s\S]{0,400}aria-required/.test(quoteFormSrc)) {
+  errors.push('quote form contact-name missing required / aria-required');
+}
+if (!/id="contact-value"[\s\S]{0,400}required/.test(quoteFormSrc) || !/id="contact-value"[\s\S]{0,400}aria-required/.test(quoteFormSrc)) {
+  errors.push('quote form contact-value missing required / aria-required');
+}
+if (!/text: \{[\s\S]*?type: 'tel'/.test(quoteFormSrc) || !/callback: \{[\s\S]*?type: 'tel'/.test(quoteFormSrc) || !/whatsapp: \{[\s\S]*?type: 'tel'/.test(quoteFormSrc)) {
+  errors.push('quote form contact-value must switch to tel for Text / Callback / WhatsApp');
+}
+if (!/inputMode: 'tel'/.test(quoteFormSrc)) {
+  errors.push('quote form tel channels must set inputMode tel');
+}
+if (/tel:\+971|\+971\d{7,}/.test(quoteFormSrc)) {
+  errors.push('quote form introduced +971');
+}
+
+const multiFaqQs = [...hubQuoteSrc.matchAll(/q:\s*'([^']+)'/g)].map((m) => m[1]);
+if (multiFaqQs.length < 5) {
+  errors.push(`multi itinerary FAQ expected ≥5 questions, found ${multiFaqQs.length}`);
+}
+if (!/Why decline same-day inter-island cooking\?/.test(hubQuoteSrc)) {
+  errors.push('multi itinerary FAQ missing same-day inter-island honesty item');
+}
+if (!/Do per-island published bands still apply\?/.test(hubQuoteSrc) || !/Line-by-line: \/pricing/.test(hubQuoteSrc)) {
+  errors.push('multi itinerary FAQ must keep per-island bands and a /pricing link');
+}
+if (!/Kauaʻi or Hawaiʻi Island on the itinerary\?/.test(hubQuoteSrc)) {
+  errors.push('multi itinerary FAQ missing Kauaʻi / Hawaiʻi Island inquiry-stage item');
+}
+if (!/Hawaii Standard Time/.test(hubQuoteSrc) && !/Hawaii business hours/.test(hubQuoteSrc)) {
+  errors.push('multi itinerary FAQ missing Hawaii-hours reply item');
+}
+if (!/hubMultiQuoteFaqs/.test(quoteViewSrc) || !/multi \?[\s\S]{0,80}hubMultiQuoteFaqs/.test(quoteViewSrc)) {
+  errors.push('QuoteView multi itinerary must feed hubMultiQuoteFaqs into FAQPage');
+}
+if (!/multi \? \([\s\S]{0,80}<LongFaq[\s\S]{0,80}hubMultiQuoteFaqs/.test(quoteViewSrc)) {
+  errors.push('QuoteView multi itinerary must render the hubMultiQuoteFaqs accordion');
+}
+if (/AggregateRating/.test(hubQuoteSrc) || /AggregateRating/.test(quoteViewSrc) || /AggregateRating/.test(quoteFormSrc)) {
+  errors.push('quote / multi FAQ work introduced AggregateRating');
+}
+
 const rateBarSrc = read('components/RateBar.tsx');
 if (/if \(onQuote\) return null/.test(rateBarSrc)) {
   errors.push('RateBar still hides on /quote');
@@ -1568,8 +1620,31 @@ if (
 ) {
   errors.push('Kauai /pricing FAQ still missing Garden Isle inquiry tariff items');
 }
+if (
+  !/How much is a private chef on the Big Island\?/.test(longIslandSrc) ||
+  !/What is ENTRY versus CORE on this west-side card\?/.test(longIslandSrc) ||
+  !/Why west-side first — Kona to Kohala\?/.test(longIslandSrc) ||
+  !/What does inquiry-stage mean on this expedition\?/.test(longIslandSrc)
+) {
+  errors.push('Big Island home FAQ still missing Expedition accordion items');
+}
+{
+  const biHomeQs = [...islandChunkForFaq(longIslandSrc, 'bigisland').matchAll(/q:\s*'([^']+)'/g)];
+  if (biHomeQs.length < 8) {
+    errors.push(`Big Island home FAQ expected ≥8 questions, found ${biHomeQs.length}`);
+  }
+}
+if (
+  !/ENTRY from \$165 or CORE \$210–\$325 — which west-side line\?/.test(pricingDocSrc) ||
+  !/Does Ironman week change this west-side tariff\?/.test(pricingDocSrc)
+) {
+  errors.push('Big Island /pricing FAQ still missing Expedition tariff items');
+}
 if (/What is an Oʻahu villa week\?/.test(longIslandSrc) || /What is a Kauaʻi villa week\?/.test(longIslandSrc)) {
   errors.push('Oahu/Kauai home FAQ copied Maui villa-week questions');
+}
+if (/What is a Maui villa week\?/.test(islandChunkForFaq(longIslandSrc, 'bigisland'))) {
+  errors.push('Big Island home FAQ copied Maui villa-week questions');
 }
 if (/Wailea and West Maui weeks are the product/.test(islandChunkForFaq(longIslandSrc, 'oahu'))) {
   errors.push('Oahu home FAQ copied Maui villa-week answers');
@@ -1580,8 +1655,15 @@ if (/Wailea and West Maui weeks are the product/.test(islandChunkForFaq(longIsla
 if (!/Resident’s Island/.test(islandHomeSrc) || !/Garden Isle retreat/.test(islandHomeSrc)) {
   errors.push('Oahu/Kauai home FAQ chrome still generic Cost, cleanup, kitchens');
 }
-if (!/contrast=\{islandId === 'oahu' \|\| islandId === 'kauai' \? 'aa' : 'mute'\}/.test(islandHomeSrc)) {
-  errors.push('Oahu/Kauai home FAQ accordion still missing AA contrast');
+if (!/Big Island Expedition/.test(islandHomeSrc)) {
+  errors.push('Big Island home FAQ chrome still missing Expedition kicker');
+}
+if (
+  !/contrast=\{\s*islandId === 'oahu' \|\| islandId === 'kauai' \|\| islandId === 'bigisland' \? 'aa' : 'mute'\s*\}/.test(
+    islandHomeSrc,
+  )
+) {
+  errors.push('Oahu/Kauai/Big Island home FAQ accordion still missing AA contrast');
 }
 if (!/islandId === 'oahu' \|\| islandId === 'kauai'/.test(rateBarSrc)) {
   errors.push('RateBar still skips AA teaser contrast on Oahu/Kauai homes');
@@ -1592,7 +1674,7 @@ if (!/bg-ink text-paper/.test(read('components/Cta.tsx'))) {
 if (/AggregateRating/.test(longIslandSrc) || /AggregateRating/.test(pricingDocSrc) || /AggregateRating/.test(islandHomeSrc)) {
   errors.push('Oahu/Kauai FAQ work introduced AggregateRating');
 }
-if (/tel:\+971|\+971\d{7,}/.test(longIslandSrc + pricingDocSrc + read('lib/contact.ts'))) {
+if (/tel:\+971|\+971\d{7,}/.test(longIslandSrc + pricingDocSrc + hubQuoteSrc + read('lib/contact.ts'))) {
   errors.push('FAQ/desk copy introduced +971');
 }
 
@@ -1601,11 +1683,12 @@ if (/tel:\+971|\+971\d{7,}/.test(longIslandSrc + pricingDocSrc + read('lib/conta
     oahu: islandChunkForFaq(longIslandSrc, 'oahu'),
     maui: islandChunkForFaq(longIslandSrc, 'maui'),
     kauai: islandChunkForFaq(longIslandSrc, 'kauai'),
+    bigisland: islandChunkForFaq(longIslandSrc, 'bigisland'),
   };
-  const homeAnswers = ['oahu', 'maui', 'kauai'].flatMap((id) =>
+  const homeAnswers = ['oahu', 'maui', 'kauai', 'bigisland'].flatMap((id) =>
     [...homeChunks[id].matchAll(/a:\s*'((?:\\'|[^'])*)'/g)].map((m) => m[1]),
   );
-  errors.push(...tokenOnlyVariants(homeAnswers, 'oahu/maui/kauai home FAQ answer'));
+  errors.push(...tokenOnlyVariants(homeAnswers, 'oahu/maui/kauai/bigisland home FAQ answer'));
 }
 
 {

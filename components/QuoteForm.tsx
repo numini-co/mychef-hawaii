@@ -37,15 +37,46 @@ const CHANNELS = [
 ] as const;
 type Channel = (typeof CHANNELS)[number]['value'];
 
-const CHANNEL_FIELD: Record<Channel, { label: string; type: 'email' | 'tel'; placeholder: string; note?: string }> = {
-  email: { label: 'Email address', type: 'email', placeholder: 'you@example.com' },
-  text: { label: 'Mobile number for texts', type: 'tel', placeholder: 'Your mobile number' },
-  callback: { label: 'Best number for a callback', type: 'tel', placeholder: 'We call in HST business hours' },
+/** Preference buttons drive contact-value: Email → type=email; Text / Callback / WhatsApp → type=tel + inputMode=tel. */
+const CHANNEL_FIELD: Record<
+  Channel,
+  {
+    label: string;
+    type: 'email' | 'tel';
+    inputMode: 'email' | 'tel';
+    autoComplete: 'email' | 'tel';
+    placeholder: string;
+    note?: string;
+  }
+> = {
+  email: {
+    label: 'Email address',
+    type: 'email',
+    inputMode: 'email',
+    autoComplete: 'email',
+    placeholder: 'you@example.com',
+  },
+  text: {
+    label: 'Phone number',
+    type: 'tel',
+    inputMode: 'tel',
+    autoComplete: 'tel',
+    placeholder: '(808) 555-0100',
+  },
+  callback: {
+    label: 'Phone number',
+    type: 'tel',
+    inputMode: 'tel',
+    autoComplete: 'tel',
+    placeholder: '(808) 555-0100',
+  },
   whatsapp: {
     label: 'WhatsApp number',
     type: 'tel',
-    placeholder: 'Include your country code',
-    note: 'WhatsApp — visitors to Hawaiʻi',
+    inputMode: 'tel',
+    autoComplete: 'tel',
+    placeholder: '(808) 555-0100',
+    note: 'WhatsApp — visitors to Hawaiʻi. Include a country code if the number is not US.',
   },
 };
 
@@ -355,17 +386,14 @@ export default function QuoteForm({
               </select>
             </Field>
 
-            <Field
-              id="contact-name"
-              label="How should we reach you?"
-              reason="One channel, your choice."
-              error={errors.name || errors.contact}
-            >
+            <Field id="contact-name" label="Your name" reason="First name is enough." error={errors.name}>
               <input
                 id="contact-name"
                 type="text"
                 autoComplete="name"
                 placeholder="Your name"
+                required
+                aria-required="true"
                 value={name}
                 onChange={(e) => {
                   setName(e.target.value);
@@ -373,6 +401,11 @@ export default function QuoteForm({
                 }}
                 className={inputClass(Boolean(errors.name))}
               />
+            </Field>
+
+            <fieldset>
+              <legend className="text-[12px] font-medium text-ink">How should we reach you?</legend>
+              <p className="mt-1.5 text-[12px] leading-4 text-mute">One channel, your choice.</p>
               <div className="mt-3">
                 <ChoiceGroup<Channel>
                   options={CHANNELS}
@@ -385,21 +418,29 @@ export default function QuoteForm({
                 />
               </div>
               <div className="mt-3">
-                <label htmlFor="contact-value" className="sr-only">
+                <label htmlFor="contact-value" className="block text-[12px] font-medium text-ink">
                   {channelField.label}
                 </label>
                 <input
                   id="contact-value"
                   type={channelField.type}
-                  autoComplete={channel === 'email' ? 'email' : 'tel'}
+                  inputMode={channelField.inputMode}
+                  autoComplete={channelField.autoComplete}
                   placeholder={channelField.placeholder}
+                  required
+                  aria-required="true"
                   value={contact}
                   onChange={(e) => {
                     setContact(e.target.value);
                     setErrors((p) => ({ ...p, contact: '' }));
                   }}
-                  className={inputClass(Boolean(errors.contact))}
+                  className={cn(inputClass(Boolean(errors.contact)), 'mt-3')}
                 />
+                {errors.contact ? (
+                  <p role="alert" className="mt-2 text-[12px] text-ink">
+                    {errors.contact}
+                  </p>
+                ) : null}
                 {channelField.note ? <p className="mt-2 text-[12px] text-mute">{channelField.note}</p> : null}
                 {channel === 'whatsapp' ? (
                   <p className="mt-2 text-[12px] text-mute">
@@ -416,7 +457,7 @@ export default function QuoteForm({
                   </p>
                 ) : null}
               </div>
-            </Field>
+            </fieldset>
 
             <div>
               <button

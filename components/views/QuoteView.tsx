@@ -7,7 +7,7 @@ import JsonLd from '@/components/JsonLd';
 import LineReveal from '@/components/LineReveal';
 import { LongFaq, Longform, SiblingCluster } from '@/components/Longform';
 import { quoteTrustSections } from '@/data/longformHub';
-import { hubQuoteVariants, type HubQuoteCopy } from '@/data/hubQuote';
+import { hubMultiQuoteFaqs, hubQuoteVariants, type HubQuoteCopy } from '@/data/hubQuote';
 import { islandQuote } from '@/data/islandQuote';
 import { getHubDirectory } from '@/data/hubDirectories';
 import { photos } from '@/data/photos';
@@ -42,11 +42,13 @@ export default function QuoteView({
   const faq = getHubDirectory('/faq');
   const multi = variant.key === 'multi';
   const prefIsland = variant.key !== 'default' && variant.key !== 'multi' ? variant.key : null;
-  const hubFaqs = [
-    { q: quoteTrustSections[0].h2, a: quoteTrustSections[0].paras.join(' ') },
-    { q: quoteTrustSections[1].h2, a: quoteTrustSections[1].paras.join(' ') },
-    FIVE_FIELDS_FAQ,
-  ];
+  const hubFaqs = multi
+    ? hubMultiQuoteFaqs
+    : [
+        { q: quoteTrustSections[0].h2, a: quoteTrustSections[0].paras.join(' ') },
+        { q: quoteTrustSections[1].h2, a: quoteTrustSections[1].paras.join(' ') },
+        FIVE_FIELDS_FAQ,
+      ];
   const h1 = copy?.h1 ?? variant.h1;
   const lede = copy?.lede ?? variant.lede;
   const kicker = copy?.kicker ?? variant.kicker;
@@ -138,6 +140,14 @@ export default function QuoteView({
               },
             ]}
           />
+          {multi ? (
+            <LongFaq
+              items={hubMultiQuoteFaqs}
+              kicker="Multi-island itinerary"
+              title="One coordinator. Sequence the shores."
+              contrast="aa"
+            />
+          ) : null}
         </>
       )}
       <SiblingCluster island={islandId} current="quote" href={href} />

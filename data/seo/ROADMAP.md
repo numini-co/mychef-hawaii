@@ -1148,6 +1148,14 @@ Blueprint package extracted this run (`/tmp/master_chef/` — `VILLA-OPERATIONS-
 - **Schema:** `Service` (+ `OfferCatalog` of published rates only) + `FAQPage` + `BreadcrumbList` on every page; the hub adds an `ItemList` of children. Internal links follow the package link graph: children ↔ hub, stay bundle cross-links, and up-links to `/vacation-chef`, `/pricing`, `/mobile-bar`, `/weddings`, plus a disambiguation link to owner-side `/staffing`.
 - **Wiring:** primary-nav **Villa Services** dropdown in `SiteHeader` (desktop + mobile), hub `SiteFooter` link, hub URLs added to `lib/sitemapXml.ts` (`hubCoreRows`), `lib/seo.ts` `sitemapLocs`, and the HTML sitemap in `components/views/SupportViews.tsx`; static sitemaps regenerated. Hub-scoped (apex) this wave; per-island subdomain versions are a later wave. `seo:audit` unchanged and still green.
 
+## Wave 149 — Tier-1 quote contact block + multi / Big Island FAQ depth (this branch)
+
+Hawaii hub + island hosts only. No dollar amounts changed.
+
+- Shared `QuoteForm`: `contact-name` is **Your name**; channel framing lives on a `How should we reach you?` fieldset; Email keeps `type=email`; Text / Callback / WhatsApp switch `contact-value` to `type=tel` + `inputMode=tel`; both contact fields carry `required` + `aria-required`. Desk stays quotes@mychef-hawaii.com / +1 808 468 7748. No +971.
+- Hub `/quote?itinerary=multi`: 7-question accordion + matching FAQPage (coordinator total, same-day inter-island decline, shore listing, per-island bands → `/pricing`, Kauaʻi/BI inquiry-stage, Hawaii-hours reply). Multi title / H1 stay unique. Lede stays ≤60 words.
+- Big Island Expedition home FAQ 6 → 10 questions + matching FAQPage. `/pricing` FAQ 3 → 5. Inquiry posture intact. ENTRY from $165 / CORE $210–$325 / Stay Chef from $1,450. `seo:audit` fails if those lists drop or Maui villa-week copy returns.
+
 ## Keyword discipline (measured, not invented)
 
 Use these as title keywords. Null-volume neighborhood phrases stay in H1/FAQ, not in the `<title>`. `private chef maui cost` (10) stays in Maui `/private-chef-cost` and `/pricing` body copy — a support title containing that phrase would match `private chef maui`.

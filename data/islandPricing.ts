@@ -159,6 +159,14 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
         q: 'Is Hilo inside CORE?',
         a: 'No. East side is a dedicated day with its own travel line. See /east-side.',
       },
+      {
+        q: 'ENTRY from $165 or CORE $210–$325 — which west-side line?',
+        a: 'ENTRY from $165 is the open west-side table. CORE $210–$325 is the usual Kona–Kohala villa night. Stay Chef inquiry from $1,450 a day bills groceries at cost. They never blend. 20% service and Hawaiʻi GET up to 4.712% print after the food. A band is not a Book-now. Card: this page. Stack: /private-chef-cost.',
+      },
+      {
+        q: 'Does Ironman week change this west-side tariff?',
+        a: 'No. CORE stays $210–$325 a guest. Stay Chef stays from $1,450 a day. Ironman compresses lodging and crew days — it is not a hidden food line. Flag those dates on /quote. East side remains a dedicated day. See /ironman-weeks.',
+      },
     ],
   },
 };

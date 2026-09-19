@@ -80,11 +80,46 @@ export const hubQuoteVariants: Record<HubQuoteKey, HubQuoteCopy> = {
       'One coordinator across islands. Resident chefs cook on each island — no fly-in surcharge. Tell us the itinerary; we sequence the crews. Same five fields.',
     h1: 'One coordinator across islands.',
     lede:
-      'One coordinator, one master quote. Name the first island you will dine on — we sequence the rest. Oʻahu and Maui receive a written quote. Kauaʻi and Hawaiʻi Island stay inquiry.',
+      'One coordinator. One written total. Name the first island and each later shore. We will not cook two islands the same day. Oʻahu and Maui get a quote; Kauaʻi and Hawaiʻi Island stay inquiry. Bands: /pricing.',
     kicker: 'Hawaii desk · Multi-island',
     canonicalIsland: 'root',
   },
 };
+
+/**
+ * Hub `/quote?itinerary=multi` accordion + FAQPage.
+ * Island money keywords stay on island hosts. This URL owns the itinerary.
+ */
+export const hubMultiQuoteFaqs: { q: string; a: string }[] = [
+  {
+    q: 'One coordinator — one written total?',
+    a: 'Yes. One Hawaii desk sequences a resident crew on each island and sends one written total. We do not fly one chef island-to-island. Oʻahu and Maui get a quote now. Kauaʻi and Hawaiʻi Island stay on the inquiry list. 20% service and Hawaiʻi GET up to 4.712% print as their own lines.',
+  },
+  {
+    q: 'Why decline same-day inter-island cooking?',
+    a: 'A same-day hop skips a shop, a range, and a cleanup. A crew that cooks dinner on Oʻahu cannot land a Maui villa the same calendar. We sequence nights. We will not sell a same-day inter-island kitchen.',
+  },
+  {
+    q: 'How should dates and shores be listed?',
+    a: 'Name the first island you dine on, then each later shore and date — Wailea then Princeville, or Kahala then Kona. Put the house type. An ambiguous “Hawaii week” waits. Island desks: oahu.mychef-hawaii.com/quote, maui.mychef-hawaii.com/quote, kauai.mychef-hawaii.com/quote, bigisland.mychef-hawaii.com/quote.',
+  },
+  {
+    q: 'Do per-island published bands still apply?',
+    a: 'Yes. Each night uses that island’s published card — we do not invent a multi-island midpoint. Oʻahu $195–$290. Maui and Kauaʻi $225–$375. Hawaiʻi Island CORE $210–$325, ENTRY from $165. Stay Chef from: Oʻahu $1,250 / Maui $1,550 / Kauaʻi $1,650 / Hawaiʻi Island $1,450. Line-by-line: /pricing.',
+  },
+  {
+    q: 'Kauaʻi or Hawaiʻi Island on the itinerary?',
+    a: 'Those islands stay inquiry-stage even inside a multi-island week. We log the shore and dates and write back when a crew exists. Not a Book-now. Oʻahu and Maui nights on the same itinerary still get a written quote. Inquiry desks: kauai.mychef-hawaii.com/quote and bigisland.mychef-hawaii.com/quote.',
+  },
+  {
+    q: 'What happens after I submit?',
+    a: 'A coordinator in Hawaii Standard Time replies on a working day — typically within one business day. You get a sequence, a crew plan, and one written total with 20% service and GET up to 4.712% on their own lines. No account. No payment to ask.',
+  },
+  {
+    q: 'If the house is already chosen, which form?',
+    a: 'This hub form is the multi-island coordinator. When the villa is already on one island, open that host quote: oahu.mychef-hawaii.com/quote, maui.mychef-hawaii.com/quote, kauai.mychef-hawaii.com/quote, or bigisland.mychef-hawaii.com/quote. Those pages keep island keyword ownership. This URL keeps the itinerary.',
+  },
+];
 
 export function isIslandQuery(value: string | undefined | null): value is IslandId {
   return Boolean(value && (islandOrder as string[]).includes(value));
