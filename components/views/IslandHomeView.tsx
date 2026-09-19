@@ -186,16 +186,26 @@ export default function IslandHomeView({
       <LongFaq
         items={copy.faqs}
         kicker={
-          islandId === 'oahu' ? 'Resident’s Island' : islandId === 'kauai' ? 'Garden Isle retreat' : undefined
+          islandId === 'oahu'
+            ? 'Resident’s Island'
+            : islandId === 'kauai'
+              ? 'Garden Isle retreat'
+              : islandId === 'bigisland'
+                ? 'Big Island Expedition'
+                : undefined
         }
         title={
           islandId === 'oahu'
             ? 'Honolulu houses, Kahala weeks.'
             : islandId === 'kauai'
               ? 'Both shores, inquiry first.'
-              : 'Cost, cleanup, kitchens.'
+              : islandId === 'bigisland'
+                ? 'West-side first. East side another day.'
+                : 'Cost, cleanup, kitchens.'
         }
-        contrast={islandId === 'oahu' || islandId === 'kauai' ? 'aa' : 'mute'}
+        contrast={
+          islandId === 'oahu' || islandId === 'kauai' || islandId === 'bigisland' ? 'aa' : 'mute'
+        }
       />
       <QuoteTeaser
         headline={inquiry ? 'Join the inquiry list.' : 'Island, date, guest count and kitchen. That is enough to start.'}

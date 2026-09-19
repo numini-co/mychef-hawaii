@@ -25,7 +25,7 @@ export default function RateBar() {
   const barRef = useRef<HTMLDivElement>(null);
   const inquiry = isInquiryIsland(islandId);
   const mobileOnly = onQuote || inquiry;
-  const aaHome = islandId === 'oahu' || islandId === 'kauai';
+  const aaHome = islandId === 'oahu' || islandId === 'kauai' || islandId === 'bigisland';
 
   useEffect(() => {
     const el = barRef.current;
