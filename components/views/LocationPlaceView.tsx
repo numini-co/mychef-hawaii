@@ -7,9 +7,10 @@ import { DocumentCopy, LongFaq, SiblingCluster } from '@/components/Longform';
 import QuoteTeaser from '@/components/QuoteTeaser';
 import PlacePriceBlock from '@/components/PlacePriceBlock';
 import { islands, type IslandId } from '@/data/islands';
-import type { MoneyNeighborhood } from '@/data/offers';
+import { siblingCorridors, type MoneyNeighborhood } from '@/data/offers';
 import { photos } from '@/data/photos';
 import { islandHref } from '@/lib/paths';
+import Link from 'next/link';
 
 export function LocationPlaceView({
   islandId,
@@ -23,6 +24,16 @@ export function LocationPlaceView({
   const island = islands[islandId];
   const photo = photos[hood.photo];
   const href = (path: string) => islandHref(islandId, hostMode, path);
+  const siblings = siblingCorridors(islandId, hood.slug);
+  const inquiry = islandId === 'kauai' || islandId === 'bigisland';
+  const faqKicker =
+    islandId === 'maui'
+      ? 'Villa Week'
+      : islandId === 'oahu'
+        ? 'Resident’s Island'
+        : islandId === 'kauai'
+          ? 'Garden Isle retreat'
+          : undefined;
 
   return (
     <>
@@ -63,7 +74,7 @@ export function LocationPlaceView({
         </div>
       </Hero>
 
-      <DocumentCopy heading={`How a ${hood.name} booking runs.`} paras={hood.body} />
+      <DocumentCopy heading={inquiry ? `How a ${hood.name} inquiry runs.` : `How a ${hood.name} booking runs.`} paras={hood.body} />
 
       <PlacePriceBlock islandId={islandId} placeName={hood.name} href={href} />
 
@@ -82,7 +93,24 @@ export function LocationPlaceView({
       />
 
       <SiblingCluster island={islandId} href={href} />
-      <LongFaq items={hood.faqs} title={`Asked on ${hood.name} bookings.`} />
+      {siblings.length ? (
+        <nav aria-label={`${hood.name} sibling corridors`} className="border-t border-line bg-paper py-8">
+          <div className="mx-auto flex w-full max-w-container flex-wrap items-baseline gap-x-6 gap-y-2 px-5 text-sm lg:px-10">
+            <span className="text-mute">Other dinner doors</span>
+            {siblings.map((s) => (
+              <Link key={s.slug} href={href(`/${s.slug}`)} className="text-ink underline underline-offset-4">
+                {s.name}
+              </Link>
+            ))}
+          </div>
+        </nav>
+      ) : null}
+      <LongFaq
+        items={hood.faqs}
+        kicker={faqKicker}
+        contrast="aa"
+        title={inquiry ? `Asked on ${hood.name} inquiries.` : `Asked on ${hood.name} bookings.`}
+      />
       <QuoteTeaser headline={`Tell us the ${hood.name} address and the dates.`} island={islandId} />
     </>
   );
