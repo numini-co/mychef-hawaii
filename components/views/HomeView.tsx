@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { CtaLink } from '@/components/Cta';
 import Eyebrow from '@/components/Eyebrow';
 import Hero from '@/components/Hero';
+import HostLink from '@/components/HostLink';
 import IslandChooser from '@/components/IslandChooser';
 import JsonLd from '@/components/JsonLd';
 import LineReveal from '@/components/LineReveal';
@@ -107,18 +108,18 @@ export default function HomeView() {
         </Link>
       </Hero>
 
-      <section className="bg-paper py-24 lg:py-32">
+      <section className="bg-paper py-20 lg:py-24">
         <div className="mx-auto w-full max-w-spread px-5 lg:px-10">
           <Eyebrow>Private chef & catering</Eyebrow>
-          <h2 className="mt-4 max-w-[22ch] font-display text-[clamp(2rem,4vw,3.25rem)] font-light leading-[1.08] text-ink">
+          <h2 className="mt-3 max-w-[22ch] font-display text-[clamp(1.75rem,3.4vw,2.75rem)] font-light leading-[1.08] text-ink">
             {hubChrome.coresH2}
           </h2>
         </div>
-        <div className="mx-auto mt-16 grid w-full max-w-spread gap-10 px-5 lg:grid-cols-2 lg:gap-16 lg:px-10">
+        <div className="mx-auto mt-12 grid w-full max-w-spread gap-10 px-5 lg:grid-cols-2 lg:gap-14 lg:px-10">
           <Reveal>
             <Link href="/private-chef" className="group block">
               <MaskReveal>
-                <div className="relative min-h-[52vh] overflow-hidden lg:min-h-[64vh]">
+                <div className="relative min-h-[44vh] overflow-hidden lg:min-h-[52vh]">
                   <Photo
                     src={photos.hubChef.file}
                     alt={photos.hubChef.alt}
@@ -137,7 +138,7 @@ export default function HomeView() {
           <Reveal delay={0.08}>
             <Link href="/catering" className="group block">
               <MaskReveal>
-                <div className="relative min-h-[52vh] overflow-hidden lg:min-h-[64vh]">
+                <div className="relative min-h-[44vh] overflow-hidden lg:min-h-[52vh]">
                   <Photo
                     src={photos.cateringHero.file}
                     alt={photos.cateringHero.alt}
@@ -158,12 +159,12 @@ export default function HomeView() {
 
       <IslandChooser />
 
-      <section className="bg-paper pb-24 lg:pb-32">
+      <section className="bg-paper pb-20 lg:pb-24">
         <div className="mx-auto w-full max-w-spread px-5 lg:px-10">
-          <div className="border-t border-line pt-14 lg:grid lg:grid-cols-[1fr_auto] lg:items-end lg:gap-12">
+          <div className="border-t border-line pt-12 lg:grid lg:grid-cols-[1fr_auto] lg:items-end lg:gap-12">
             <div>
               <Eyebrow>Multi-island</Eyebrow>
-              <h2 className="mt-4 max-w-[20ch] font-display text-[clamp(1.75rem,3.5vw,2.75rem)] font-light leading-[1.1] text-ink">
+              <h2 className="mt-3 max-w-[20ch] font-display text-[clamp(1.625rem,3.2vw,2.5rem)] font-light leading-[1.1] text-ink">
                 {hubChrome.multiH2}
               </h2>
               <p className="mt-5 max-w-[52ch] text-[17px] leading-relaxed text-mute">{hubChrome.multiLine}</p>
@@ -177,13 +178,13 @@ export default function HomeView() {
         </div>
       </section>
 
-      <section className="bg-sand py-24 lg:py-32">
+      <section className="bg-sand py-20 lg:py-24">
         <div className="mx-auto w-full max-w-spread px-5 lg:px-10">
           <Eyebrow>How it works</Eyebrow>
-          <h2 className="mt-4 max-w-[20ch] font-display text-[clamp(2rem,4vw,3.25rem)] font-light leading-[1.08] text-ink">
+          <h2 className="mt-3 max-w-[20ch] font-display text-[clamp(1.75rem,3.4vw,2.75rem)] font-light leading-[1.08] text-ink">
             {hubChrome.howH2}
           </h2>
-          <ol className="mt-16 grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+          <ol className="mt-12 grid gap-10 md:grid-cols-2 lg:grid-cols-4">
             {processSteps.map((step) => (
               <li key={step.n}>
                 <p className="font-display text-[1.75rem] font-light text-brass">{step.n}</p>
@@ -195,22 +196,48 @@ export default function HomeView() {
         </div>
       </section>
 
-      <section className="bg-paper py-24 lg:py-32">
+      <section className="bg-paper py-20 lg:py-24">
         <div className="mx-auto w-full max-w-spread px-5 lg:px-10">
           <Eyebrow>Published prices</Eyebrow>
-          <p className="mt-6 max-w-[28ch] font-display text-[clamp(2rem,4.2vw,3.5rem)] font-light leading-[1.08] text-ink">
+          <p className="mt-5 max-w-[28ch] font-display text-[clamp(1.75rem,3.6vw,2.85rem)] font-light leading-[1.08] text-ink">
             Signature dinner from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island.
           </p>
-          <p className="mt-6 max-w-[52ch] text-[17px] leading-relaxed text-mute">
+          <p className="mt-5 max-w-[52ch] text-[17px] leading-relaxed text-mute">
             Stay Chef from $1,250 a day on Oʻahu, $1,550 on Maui, $1,650 on Kauaʻi, and $1,450 on Hawaiʻi Island
             (inquiry). Service 20% and Hawaiʻi GET up to 4.712% appear as separate lines on the written quote.
           </p>
-          <Link
-            href="/pricing"
-            className="mt-8 inline-block text-sm font-medium text-ink underline decoration-brass underline-offset-[6px]"
+          <nav
+            aria-label="Island hosts, tariff, and corridor doors"
+            className="mt-8 flex flex-wrap items-baseline gap-x-6 gap-y-2 text-sm"
           >
-            The line-by-line card
-          </Link>
+            <HostLink island="oahu" path="/" className="text-ink underline decoration-brass underline-offset-[6px]">
+              Oʻahu private chef
+            </HostLink>
+            <HostLink island="maui" path="/" className="text-ink underline decoration-brass underline-offset-[6px]">
+              Maui villa weeks
+            </HostLink>
+            <HostLink island="kauai" path="/" className="text-ink underline decoration-brass underline-offset-[6px]">
+              Kauaʻi inquiry
+            </HostLink>
+            <HostLink island="bigisland" path="/" className="text-ink underline decoration-brass underline-offset-[6px]">
+              Hawaiʻi Island inquiry
+            </HostLink>
+            <Link href="/pricing" className="font-medium text-ink underline decoration-brass underline-offset-[6px]">
+              The line-by-line card
+            </Link>
+            <Link href="/quote" className="text-ink underline decoration-brass underline-offset-[6px]">
+              Request a written quote
+            </Link>
+            <HostLink island="maui" path="/wailea" className="text-ink underline decoration-brass underline-offset-[6px]">
+              Wailea dinners
+            </HostLink>
+            <HostLink island="oahu" path="/kahala" className="text-ink underline decoration-brass underline-offset-[6px]">
+              Kahala dining rooms
+            </HostLink>
+            <HostLink island="bigisland" path="/kona" className="text-ink underline decoration-brass underline-offset-[6px]">
+              Kona west-side
+            </HostLink>
+          </nav>
         </div>
       </section>
 

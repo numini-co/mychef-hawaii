@@ -19,14 +19,14 @@ export default function IslandPhotoPicker({
   detailOf?: (id: IslandId) => string;
 }) {
   return (
-    <section className="bg-paper py-24 lg:py-32">
+    <section className="bg-paper py-20 lg:py-24">
       <div className="mx-auto w-full max-w-spread px-5 lg:px-10">
         <Eyebrow>{eyebrow}</Eyebrow>
-        <h2 className="mt-4 max-w-[18ch] font-display text-[clamp(2rem,4vw,3.25rem)] font-light leading-[1.08] text-ink">
+        <h2 className="mt-3 max-w-[18ch] font-display text-[clamp(1.75rem,3.4vw,2.75rem)] font-light leading-[1.08] text-ink">
           {heading}
         </h2>
-        {intro ? <p className="mt-5 max-w-[52ch] text-[17px] leading-relaxed text-mute">{intro}</p> : null}
-        <ul className="mt-14 grid gap-8 sm:grid-cols-2 xl:grid-cols-4">
+        {intro ? <p className="mt-4 max-w-[52ch] text-[17px] leading-relaxed text-mute">{intro}</p> : null}
+        <ul className="mt-10 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
           {islandOrder.map((id) => {
             const isl = islands[id];
             const chooser = islandChooserCopy[id];
@@ -34,7 +34,7 @@ export default function IslandPhotoPicker({
             return (
               <li key={id}>
                 <HostLink island={id} path={path} className="group block">
-                  <span className="relative block aspect-[3/4] overflow-hidden bg-sand">
+                  <span className="relative block aspect-[4/5] overflow-hidden bg-sand">
                     <Photo
                       src={isl.selectorImage}
                       alt={chooser.alt}

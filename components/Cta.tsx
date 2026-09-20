@@ -4,8 +4,13 @@ import { quotePath } from '@/lib/paths';
 import { primaryCtaLabel, type IslandId } from '@/data/islands';
 import { whatsappHref } from '@/lib/whatsapp';
 
+const sizes = {
+  default: 'h-12 px-6 text-[14px]',
+  compact: 'h-10 px-4 text-[13px]',
+} as const;
+
 const base =
-  'inline-flex h-12 items-center justify-center px-6 text-[14px] font-medium leading-none tracking-[0.01em] rounded-[2px] transition-transform duration-200 ease-[cubic-bezier(0.22,1,0.36,1)] hover:scale-[1.02] active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2';
+  'inline-flex items-center justify-center font-medium leading-none tracking-[0.01em] rounded-[2px] transition-transform duration-200 ease-[cubic-bezier(0.22,1,0.36,1)] hover:scale-[1.02] active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2';
 
 const variants = {
   primary: `${base} bg-ink text-paper focus-visible:outline-ink`,
@@ -18,16 +23,18 @@ export function CtaLink({
   href,
   children,
   variant = 'primary',
+  size = 'default',
   className,
   'aria-label': ariaLabel,
 }: {
   href: string;
   children: React.ReactNode;
   variant?: keyof typeof variants;
+  size?: keyof typeof sizes;
   className?: string;
   'aria-label'?: string;
 }) {
-  const cls = cn(variants[variant], className);
+  const cls = cn(variants[variant], sizes[size], className);
   const external = href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('tel:');
   if (external) {
     const remote = href.startsWith('http');
@@ -72,14 +79,16 @@ export function QuoteCta({
 export function EnquireCta({
   island,
   variant = 'primary',
+  size = 'default',
   className,
 }: {
   island?: IslandId | null;
   variant?: keyof typeof variants;
+  size?: keyof typeof sizes;
   className?: string;
 }) {
   return (
-    <CtaLink href={quotePath(island ?? undefined)} variant={variant} className={className}>
+    <CtaLink href={quotePath(island ?? undefined)} variant={variant} size={size} className={className}>
       {primaryCtaLabel(island)}
     </CtaLink>
   );

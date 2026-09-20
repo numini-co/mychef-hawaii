@@ -28,7 +28,9 @@ const HUB_GUIDE_ITEMS: NavTarget[] = [
   { label: 'How it works', island: 'root', path: '/how-it-works' },
   { label: 'Menus', island: 'root', path: '/menus' },
   { label: 'Coverage', island: 'root', path: '/coverage' },
+  { label: 'Pricing', island: 'root', path: '/pricing' },
   { label: 'Contact', island: 'root', path: '/contact' },
+  { label: 'About', island: 'root', path: '/about' },
 ];
 
 function areaItems(islandId: NonNullable<ReturnType<typeof useIsland>['islandId']>): NavTarget[] {
@@ -49,7 +51,7 @@ function MobileLink({ item, onPick }: { item: NavTarget; onPick: () => void }) {
       island={item.island}
       path={item.path ?? '/'}
       onClick={onPick}
-      className="flex min-h-12 items-baseline justify-between gap-3 py-2 text-base text-ink hover:underline"
+      className="flex min-h-11 items-baseline justify-between gap-3 py-2 text-sm text-ink hover:underline"
     >
       <span>{item.label}</span>
       {item.note ? <span className="text-[13px] text-mute">{item.note}</span> : null}
@@ -67,13 +69,13 @@ function DrawerIslandSwitcher({
   onPick: () => void;
 }) {
   const rowCls =
-    'flex min-h-12 items-center justify-between gap-4 rounded-sm border px-4 py-3 text-base text-ink';
+    'flex min-h-11 items-center justify-between gap-3 rounded-sm border px-3.5 py-2 text-sm text-ink';
   return (
-    <div className="border-t border-line px-5 py-5">
-      <p className="pb-3 text-[12px] font-medium uppercase tracking-[0.16em] text-mute">
+    <div className="border-t border-line px-5 py-4">
+      <p className="pb-2 text-[11px] font-medium uppercase tracking-[0.16em] text-mute">
         Change island
       </p>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-1.5">
         <HostLink
           island="root"
           path={hubSwitchPath(local)}
@@ -106,7 +108,9 @@ function DrawerIslandSwitcher({
   );
 }
 
-const linkCls = 'text-base font-medium text-[var(--nav-fg)] hover:underline underline-offset-4';
+const linkCls = 'text-sm font-medium text-[var(--nav-fg)] hover:underline underline-offset-4';
+const mobilePrimaryCls =
+  'flex min-h-11 items-center border-b border-line py-2.5 text-lg font-medium text-ink';
 
 export default function SiteHeader() {
   const { islandId, hostMode } = useIsland();
@@ -152,25 +156,25 @@ export default function SiteHeader() {
     <header
       data-chrome={overlay ? 'overlay' : 'solid'}
       className={cn(
-        'fixed inset-x-0 top-0 z-50 h-16 border-b transition-[background-color,border-color,color] duration-300',
+        'fixed inset-x-0 top-0 z-50 h-14 border-b transition-[background-color,border-color,color] duration-300',
         overlay ? 'border-transparent bg-transparent' : 'border-line bg-paper/92 backdrop-blur-md',
       )}
     >
-      <div className="mx-auto flex h-16 w-full max-w-spread items-center justify-between gap-4 px-5 lg:px-10">
-        <div className="flex min-w-0 items-center gap-5">
+      <div className="mx-auto flex h-14 w-full max-w-spread items-center justify-between gap-3 px-5 lg:px-8">
+        <div className="flex min-w-0 items-center gap-4">
           <HostLink
             island={islandId ?? 'root'}
             aria-label={islandId ? `myCHEF ${islands[islandId].name} home` : 'myCHEF Hawaii home'}
-            className="flex items-center gap-2.5 font-display text-[1.375rem] font-light tracking-tight text-[var(--nav-fg)]"
+            className="flex items-center gap-2 font-display text-[1.1875rem] font-light tracking-tight text-[var(--nav-fg)]"
           >
-            <BrandMark className="h-7 w-7" />
+            <BrandMark className="h-6 w-6" />
             <span>
               my<span className="text-brass">CHEF</span>
             </span>
           </HostLink>
         </div>
 
-        <nav aria-label="Primary" className="hidden items-center gap-6 lg:flex">
+        <nav aria-label="Primary" className="hidden items-center gap-4 lg:flex">
           {islandId ? (
             <>
               <HostLink island={islandId} path="/" className={linkCls}>
@@ -215,26 +219,20 @@ export default function SiteHeader() {
               </HostLink>
               <NavMenu label="Villa Services" items={IN_VILLA_NAV} />
               <NavMenu label="Guide" items={HUB_GUIDE_ITEMS} />
-              <HostLink island="root" path="/pricing" className={linkCls}>
-                Pricing
-              </HostLink>
-              <HostLink island="root" path="/about" className={linkCls}>
-                About
-              </HostLink>
             </>
           )}
         </nav>
 
-        <div className="hidden items-center gap-6 lg:flex">
+        <div className="hidden items-center gap-4 lg:flex">
           <IslandSwitcher />
-          <EnquireCta island={islandId} variant={overlay ? 'light' : 'primary'} />
+          <EnquireCta island={islandId} variant={overlay ? 'light' : 'primary'} size="compact" />
         </div>
 
-        <div className="flex items-center gap-3 lg:hidden">
+        <div className="flex items-center gap-2 lg:hidden">
           <IslandSwitcher />
           <button
             type="button"
-            className="inline-flex min-h-12 items-center justify-center px-2 text-base font-medium text-[var(--nav-fg)]"
+            className="inline-flex min-h-11 items-center justify-center px-2 text-sm font-medium text-[var(--nav-fg)]"
             aria-label={drawerOpen ? 'Close menu' : 'Open menu'}
             onClick={() => setDrawerOpen((v) => !v)}
           >
@@ -252,38 +250,22 @@ export default function SiteHeader() {
                 animate={{ opacity: 1 }}
                 exit={reduce ? undefined : { opacity: 0 }}
                 transition={{ duration: DURATION.fast, ease: EASE_STANDARD }}
-                className="fixed inset-x-0 bottom-0 top-16 z-40 flex flex-col bg-paper lg:hidden"
+                className="fixed inset-x-0 bottom-0 top-14 z-40 flex flex-col bg-paper lg:hidden"
               >
                 <div className="flex flex-1 flex-col overflow-y-auto overscroll-contain">
-                  <nav aria-label="Mobile" className="flex flex-col px-5 py-4">
+                  <nav aria-label="Mobile" className="flex flex-col px-5 py-3">
               {islandId ? (
                 <>
-                  <HostLink
-                    island={islandId}
-                    path="/"
-                    className="block border-b border-line py-4 font-display text-2xl font-light text-ink"
-                  >
+                  <HostLink island={islandId} path="/" className={mobilePrimaryCls}>
                     Private chef
                   </HostLink>
-                  <HostLink
-                    island={islandId}
-                    path="/catering"
-                    className="block border-b border-line py-4 font-display text-2xl font-light text-ink"
-                  >
+                  <HostLink island={islandId} path="/catering" className={mobilePrimaryCls}>
                     Catering
                   </HostLink>
-                  <HostLink
-                    island={islandId}
-                    path="/weddings"
-                    className="block border-b border-line py-4 font-display text-2xl font-light text-ink"
-                  >
+                  <HostLink island={islandId} path="/weddings" className={mobilePrimaryCls}>
                     Weddings
                   </HostLink>
-                  <HostLink
-                    island={islandId}
-                    path="/mobile-bar"
-                    className="block border-b border-line py-4 font-display text-2xl font-light text-ink"
-                  >
+                  <HostLink island={islandId} path="/mobile-bar" className={mobilePrimaryCls}>
                     Bar
                   </HostLink>
                   <MobileDisclosure label="Areas">
@@ -313,32 +295,16 @@ export default function SiteHeader() {
                 </>
               ) : (
                 <>
-                  <HostLink
-                    island="root"
-                    path="/"
-                    className="block border-b border-line py-4 font-display text-2xl font-light text-ink"
-                  >
+                  <HostLink island="root" path="/" className={mobilePrimaryCls}>
                     Private chef
                   </HostLink>
-                  <HostLink
-                    island="root"
-                    path="/catering"
-                    className="block border-b border-line py-4 font-display text-2xl font-light text-ink"
-                  >
+                  <HostLink island="root" path="/catering" className={mobilePrimaryCls}>
                     Catering
                   </HostLink>
-                  <HostLink
-                    island="root"
-                    path="/weddings"
-                    className="block border-b border-line py-4 font-display text-2xl font-light text-ink"
-                  >
+                  <HostLink island="root" path="/weddings" className={mobilePrimaryCls}>
                     Weddings
                   </HostLink>
-                  <HostLink
-                    island="root"
-                    path="/mobile-bar"
-                    className="block border-b border-line py-4 font-display text-2xl font-light text-ink"
-                  >
+                  <HostLink island="root" path="/mobile-bar" className={mobilePrimaryCls}>
                     Bar
                   </HostLink>
                   <MobileDisclosure label="Villa Services">
@@ -351,20 +317,6 @@ export default function SiteHeader() {
                       <MobileLink key={item.path} item={item} onPick={() => setDrawerOpen(false)} />
                     ))}
                   </MobileDisclosure>
-                  <HostLink
-                    island="root"
-                    path="/pricing"
-                    className="block border-b border-line py-4 font-display text-2xl font-light text-ink"
-                  >
-                    Pricing
-                  </HostLink>
-                  <HostLink
-                    island="root"
-                    path="/about"
-                    className="block border-b border-line py-4 font-display text-2xl font-light text-ink"
-                  >
-                    About
-                  </HostLink>
                 </>
               )}
                   </nav>
@@ -374,7 +326,7 @@ export default function SiteHeader() {
                     onPick={() => setDrawerOpen(false)}
                   />
                 </div>
-                <div className="border-t border-line p-5">
+                <div className="border-t border-line px-5 py-4">
                   <EnquireCta island={islandId} />
                 </div>
               </motion.div>
