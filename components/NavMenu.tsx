@@ -60,10 +60,10 @@ export function NavMenu({
         aria-controls={menuId}
         aria-haspopup="true"
         onClick={() => setOpen((v) => !v)}
-        className="inline-flex min-h-10 items-center gap-1.5 py-1 text-base font-medium text-[var(--nav-fg)] hover:underline underline-offset-4"
+        className="inline-flex min-h-8 items-center gap-1 py-1 text-sm font-medium text-[var(--nav-fg)] hover:underline underline-offset-4"
       >
         {label}
-        <span className="text-[13px] text-mute" aria-hidden>
+        <span className="text-[11px] text-mute" aria-hidden>
           {open ? '–' : '+'}
         </span>
       </button>
@@ -72,12 +72,12 @@ export function NavMenu({
           <motion.div
             id={menuId}
             role="menu"
-            initial={reduce ? false : { opacity: 0, y: 12 }}
+            initial={reduce ? false : { opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={reduce ? undefined : { opacity: 0, y: 12 }}
+            exit={reduce ? undefined : { opacity: 0, y: 8 }}
             transition={{ duration: DURATION.fast, ease: EASE_STANDARD }}
             className={cn(
-              'absolute top-full z-50 mt-2 min-w-[17rem] border border-line bg-paper py-2 text-ink shadow-[0_18px_40px_rgba(22,20,18,0.12)]',
+              'absolute top-full z-50 mt-1.5 min-w-[14rem] border border-line bg-paper py-1.5 text-ink shadow-[0_12px_28px_rgba(22,20,18,0.10)]',
               align === 'right' ? 'right-0' : 'left-0',
             )}
           >
@@ -86,10 +86,10 @@ export function NavMenu({
                 key={`${item.island}-${item.path ?? '/'}-${item.label}`}
                 island={item.island}
                 path={item.path ?? '/'}
-                className="flex min-h-12 items-baseline justify-between gap-4 px-4 py-3 text-left text-base text-ink hover:bg-sand hover:underline underline-offset-4"
+                className="flex min-h-9 items-baseline justify-between gap-3 px-3.5 py-2 text-left text-sm text-ink hover:bg-sand hover:underline underline-offset-4"
               >
                 <span>{item.label}</span>
-                {item.note ? <span className="text-[13px] text-mute">{item.note}</span> : null}
+                {item.note ? <span className="text-[12px] text-mute">{item.note}</span> : null}
               </HostLink>
             ))}
           </motion.div>
@@ -113,12 +113,12 @@ export function MobileDisclosure({
         type="button"
         aria-expanded={open}
         onClick={() => setOpen((v) => !v)}
-        className="flex min-h-14 w-full items-baseline justify-between gap-4 py-4 text-left"
+        className="flex min-h-11 w-full items-center justify-between gap-3 py-2.5 text-left"
       >
-        <span className="font-display text-2xl font-light text-ink">{label}</span>
-        <span className="text-base text-mute">{open ? '–' : '+'}</span>
+        <span className="text-lg font-medium text-ink">{label}</span>
+        <span className="text-sm text-mute">{open ? '–' : '+'}</span>
       </button>
-      {open ? <div className="flex flex-col pb-4">{children}</div> : null}
+      {open ? <div className="flex flex-col pb-2.5">{children}</div> : null}
     </div>
   );
 }

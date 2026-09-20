@@ -9,7 +9,9 @@ import PlacePriceBlock from '@/components/PlacePriceBlock';
 import { islands, type IslandId } from '@/data/islands';
 import { siblingCorridors, type MoneyNeighborhood } from '@/data/offers';
 import { photos } from '@/data/photos';
+import { DESK_EMAIL, DESK_PHONE_E164 } from '@/lib/contact';
 import { islandHref } from '@/lib/paths';
+import { canonicalUrl } from '@/lib/site';
 import Link from 'next/link';
 
 export function LocationPlaceView({
@@ -33,7 +35,9 @@ export function LocationPlaceView({
         ? 'Resident’s Island'
         : islandId === 'kauai'
           ? 'Garden Isle retreat'
-          : undefined;
+          : islandId === 'bigisland'
+            ? 'Big Island Expedition'
+            : undefined;
 
   return (
     <>
@@ -46,7 +50,18 @@ export function LocationPlaceView({
             description: hood.description,
             areaServed: `${hood.name}, ${island.name}`,
             serviceType: 'Villa dinner',
+            telephone: DESK_PHONE_E164,
+            email: DESK_EMAIL,
             parentOrganization: { '@type': 'Organization', name: `myCHEF ${island.name}` },
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: island.name, item: canonicalUrl(islandId, '/') },
+              { '@type': 'ListItem', position: 2, name: 'Locations', item: canonicalUrl(islandId, '/locations') },
+              { '@type': 'ListItem', position: 3, name: hood.name, item: canonicalUrl(islandId, `/${hood.slug}`) },
+            ],
           },
           {
             '@context': 'https://schema.org',

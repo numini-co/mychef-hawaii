@@ -1375,6 +1375,12 @@ if (!/PlacePriceBlock/.test(placeViewSrc)) {
 if (!/LocationPlaceView[\s\S]{0,2500}'FoodService'/.test(placeViewSrc)) {
   errors.push('corridor pages still missing FoodService JSON-LD');
 }
+if (!/telephone: DESK_PHONE_E164/.test(placeViewSrc) || !/email: DESK_EMAIL/.test(placeViewSrc)) {
+  errors.push('corridor FoodService still missing desk telephone/email');
+}
+if (!/'BreadcrumbList'/.test(placeViewSrc)) {
+  errors.push('corridor pages still missing BreadcrumbList');
+}
 if (!/cell\.slug === 'personal-chef'/.test(uniqueViewSrc) || !/UniqueCellView[\s\S]*'FoodService'/.test(uniqueViewSrc)) {
   errors.push('personal-chef owners still missing FoodService JSON-LD');
 }
@@ -1388,9 +1394,33 @@ if (!/PlacePriceBlock/.test(islandHomeSrc)) {
 if (!/IslandHomeView[\s\S]{0,2000}'FoodService'/.test(islandHomeSrc)) {
   errors.push('island homes still missing owner FoodService JSON-LD');
 }
+if (!/telephone: DESK_PHONE_E164/.test(islandHomeSrc) || !/email: DESK_EMAIL/.test(islandHomeSrc)) {
+  errors.push('island home FoodService lost desk telephone/email');
+}
 const homeViewSrc = read('components/views/HomeView.tsx');
 if (!/Private chef Hawaii — myCHEF/.test(homeViewSrc)) {
   errors.push('hub home still missing owner FoodService JSON-LD');
+}
+if (!/telephone: DESK_PHONE_E164/.test(homeViewSrc) || !/email: DESK_EMAIL/.test(homeViewSrc)) {
+  errors.push('hub home FoodService lost desk telephone/email');
+}
+if (
+  !/island="oahu" path="\/"/.test(homeViewSrc) ||
+  !/island="maui" path="\/"/.test(homeViewSrc) ||
+  !/island="kauai" path="\/"/.test(homeViewSrc) ||
+  !/island="bigisland" path="\/"/.test(homeViewSrc)
+) {
+  errors.push('hub home money section still missing island-host anchors');
+}
+if (!/href="\/pricing"/.test(homeViewSrc) || !/href="\/quote"/.test(homeViewSrc)) {
+  errors.push('hub home money section still missing /pricing or /quote');
+}
+if (
+  !/island="maui" path="\/wailea"/.test(homeViewSrc) ||
+  !/island="oahu" path="\/kahala"/.test(homeViewSrc) ||
+  !/island="bigisland" path="\/kona"/.test(homeViewSrc)
+) {
+  errors.push('hub home money section still missing corridor doors');
 }
 if (!/const homeFaqItems = \[\.\.\.hubFaqs, \.\.\.hubHomeFaqs\]/.test(homeViewSrc)) {
   errors.push('hub home FAQPage still omits visible hubHomeFaqs');
@@ -1723,13 +1753,18 @@ if (/tel:\+971|\+971\d{7,}/.test(longIslandSrc + pricingDocSrc + hubQuoteSrc + r
     ['maui', 'wailea'],
     ['maui', 'kaanapali'],
     ['maui', 'kapalua'],
+    ['maui', 'makena'],
     ['oahu', 'honolulu'],
     ['oahu', 'waikiki'],
     ['oahu', 'ko-olina'],
+    ['oahu', 'kahala'],
     ['kauai', 'princeville'],
     ['kauai', 'poipu'],
+    ['bigisland', 'kona'],
+    ['bigisland', 'waikoloa'],
+    ['bigisland', 'waimea'],
   ];
-  const byIsland = { maui: [], oahu: [], kauai: [] };
+  const byIsland = { maui: [], oahu: [], kauai: [], bigisland: [] };
   const allQs = [];
   for (const [island, slug] of TIER1_CORRIDORS) {
     const chunk = hoodFaqChunk(offersSrc, island, slug);
@@ -1762,20 +1797,30 @@ if (/tel:\+971|\+971\d{7,}/.test(longIslandSrc + pricingDocSrc + hubQuoteSrc + r
     if (island === 'kauai' && (!/\$225/.test(blob) || !/\$1,650/.test(blob))) {
       errors.push(`${island}/${slug} corridor FAQ dropped Kauaʻi Signature or Stay Chef band`);
     }
-    if (island === 'kauai' && !/inquiry/i.test(blob)) {
+    if (island === 'bigisland' && (!/\$210/.test(blob) || !/\$1,450/.test(blob))) {
+      errors.push(`${island}/${slug} corridor FAQ dropped Hawaiʻi Island Signature or Stay Chef band`);
+    }
+    if (island === 'bigisland' && slug === 'kona' && !/\$165/.test(blob)) {
+      errors.push(`${island}/${slug} corridor FAQ dropped ENTRY $165`);
+    }
+    if ((island === 'kauai' || island === 'bigisland') && !/inquiry/i.test(blob)) {
       errors.push(`${island}/${slug} corridor FAQ lost inquiry-stage honesty`);
     }
     if (island === 'kauai' && (/Can I book a date now\?/.test(chunk) || /This is not a waitlist island/.test(chunk))) {
       errors.push(`${island}/${slug} corridor FAQ still sells instant book`);
     }
-    if (island === 'kauai' && /Book now/i.test(chunk) && !/not a live Book-now|not an instant Book-now|not a live Book-now/.test(blob)) {
+    if (
+      (island === 'kauai' || island === 'bigisland') &&
+      /Book now/i.test(chunk) &&
+      !/not a live Book-now|not an instant Book-now|not a live Book-now/.test(blob)
+    ) {
       errors.push(`${island}/${slug} corridor FAQ used a Book-now CTA`);
     }
     allQs.push(...pairs.map((p) => p.q));
     byIsland[island].push({ slug, pairs });
   }
   errors.push(...dupes(allQs, 'tier-1 corridor FAQ question'));
-  for (const island of ['maui', 'oahu', 'kauai']) {
+  for (const island of ['maui', 'oahu', 'kauai', 'bigisland']) {
     const rows = byIsland[island];
     for (let i = 0; i < rows.length; i += 1) {
       for (let j = i + 1; j < rows.length; j += 1) {
@@ -1797,7 +1842,12 @@ if (/tel:\+971|\+971\d{7,}/.test(longIslandSrc + pricingDocSrc + hubQuoteSrc + r
 if (!/siblingCorridors/.test(placeViewSrc) || !/sibling corridors/.test(placeViewSrc)) {
   errors.push('corridor pages still missing sibling corridor links');
 }
-if (!/Villa Week/.test(placeViewSrc) || !/Resident.s Island/.test(placeViewSrc) || !/Garden Isle retreat/.test(placeViewSrc)) {
+if (
+  !/Villa Week/.test(placeViewSrc) ||
+  !/Resident.s Island/.test(placeViewSrc) ||
+  !/Garden Isle retreat/.test(placeViewSrc) ||
+  !/Big Island Expedition/.test(placeViewSrc)
+) {
   errors.push('corridor FAQ chrome still missing island concept kickers');
 }
 if (!/contrast="aa"/.test(placeViewSrc)) {
@@ -1885,6 +1935,16 @@ if (/Can I book a date now\?/.test(offersSrc) || /This is not a waitlist island/
 }
 
 const headerSrc = read('components/SiteHeader.tsx');
+const navMenuSrc = read('components/NavMenu.tsx');
+if (/font-display text-2xl/.test(headerSrc) || /font-display text-2xl/.test(navMenuSrc)) {
+  errors.push('mobile nav still uses giant display 2xl labels');
+}
+if (!/min-w-\[14rem\]/.test(navMenuSrc) || !/min-h-9/.test(navMenuSrc) || !/text-sm/.test(navMenuSrc)) {
+  errors.push('desktop NavMenu still missing compact dropdown density');
+}
+if (!/h-14/.test(headerSrc) || /h-16/.test(headerSrc)) {
+  errors.push('site header is still the taller h-16 bar');
+}
 if (/path="\/private-chef"[\s\S]{0,240}Private chef/.test(headerSrc)) {
   errors.push('site header still sends Private chef to /private-chef');
 }
