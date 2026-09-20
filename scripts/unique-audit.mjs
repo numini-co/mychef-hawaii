@@ -201,6 +201,46 @@ function islandChunkForFaq(src, island) {
   return nxt < 0 ? src.slice(start) : src.slice(start, start + 1 + nxt);
 }
 
+function hoodFaqChunk(src, island, slug) {
+  const root = sliceExport(src, 'moneyNeighborhoods', 'export function getMoneyNeighborhood');
+  const start = root.search(new RegExp(`\\n  ${island}: \\[`));
+  if (start < 0) return '';
+  const rest = root.slice(start + 1);
+  const nxt = rest.search(/\n  (oahu|maui|kauai|bigisland): \[/);
+  const block = nxt < 0 ? root.slice(start) : root.slice(start, start + 1 + nxt);
+  const slugAt = block.search(new RegExp(`slug:\\s*'${slug}'`));
+  if (slugAt < 0) return '';
+  const after = block.slice(slugAt + 1);
+  const nextSlug = after.search(/\n      slug:/);
+  return nextSlug < 0 ? block.slice(slugAt) : block.slice(slugAt, slugAt + 1 + nextSlug);
+}
+
+function faqPairs(chunk) {
+  const qs = [...chunk.matchAll(/q:\s*'([^']+)'/g)].map((m) => m[1]);
+  const as = [...chunk.matchAll(/a:\s*'((?:\\'|[^'])*)'/g)].map((m) => m[1]);
+  return qs.map((q, i) => ({ q, a: as[i] || '' }));
+}
+
+function faqTokenSet(value) {
+  return new Set(
+    value
+      .toLowerCase()
+      .replace(/20%\s*service|hawaiʻi get up to 4\.712%|50%\s*deposit|gratuity(?: is)? never required|quotes@mychef-hawaii\.com|\+1 808 468 7748/gi, ' ')
+      .replace(/[^a-z0-9$]+/g, ' ')
+      .split(/\s+/)
+      .filter((w) => w.length > 2),
+  );
+}
+
+function jaccardTokens(a, b) {
+  const A = faqTokenSet(a);
+  const B = faqTokenSet(b);
+  let inter = 0;
+  for (const t of A) if (B.has(t)) inter += 1;
+  const union = A.size + B.size - inter;
+  return union ? inter / union : 0;
+}
+
 function tokenOnlyVariants(values, label) {
   const errors = [];
   const seen = new Map();
@@ -1676,6 +1716,98 @@ if (/AggregateRating/.test(longIslandSrc) || /AggregateRating/.test(pricingDocSr
 }
 if (/tel:\+971|\+971\d{7,}/.test(longIslandSrc + pricingDocSrc + hubQuoteSrc + read('lib/contact.ts'))) {
   errors.push('FAQ/desk copy introduced +971');
+}
+
+{
+  const TIER1_CORRIDORS = [
+    ['maui', 'wailea'],
+    ['maui', 'kaanapali'],
+    ['maui', 'kapalua'],
+    ['oahu', 'honolulu'],
+    ['oahu', 'waikiki'],
+    ['oahu', 'ko-olina'],
+    ['kauai', 'princeville'],
+    ['kauai', 'poipu'],
+  ];
+  const byIsland = { maui: [], oahu: [], kauai: [] };
+  const allQs = [];
+  for (const [island, slug] of TIER1_CORRIDORS) {
+    const chunk = hoodFaqChunk(offersSrc, island, slug);
+    const pairs = faqPairs(chunk);
+    if (pairs.length < 6) {
+      errors.push(`${island}/${slug} corridor FAQ expected ≥6 questions, found ${pairs.length}`);
+    }
+    const blob = `${chunk}\n${pairs.map((p) => p.a).join('\n')}`;
+    if (/world-class|unforgettable|indulge|culinary journey/i.test(blob)) {
+      errors.push(`${island}/${slug} corridor FAQ used banned fluff`);
+    }
+    if (/tel:\+971|\+971\d{7,}/.test(blob)) {
+      errors.push(`${island}/${slug} corridor FAQ introduced +971`);
+    }
+    if (/AggregateRating/.test(blob)) {
+      errors.push(`${island}/${slug} corridor FAQ introduced AggregateRating`);
+    }
+    if (!/\/quote/.test(blob) || !/\/pricing/.test(blob)) {
+      errors.push(`${island}/${slug} corridor FAQ missing /quote or /pricing`);
+    }
+    if (!/20%/.test(blob) || !/4\.712%/.test(blob)) {
+      errors.push(`${island}/${slug} corridor FAQ missing fee-stack lines`);
+    }
+    if (island === 'maui' && (!/\$225/.test(blob) || !/\$1,550/.test(blob))) {
+      errors.push(`${island}/${slug} corridor FAQ dropped Maui Signature or Stay Chef band`);
+    }
+    if (island === 'oahu' && (!/\$195/.test(blob) || !/\$1,250/.test(blob))) {
+      errors.push(`${island}/${slug} corridor FAQ dropped Oʻahu Signature or Stay Chef band`);
+    }
+    if (island === 'kauai' && (!/\$225/.test(blob) || !/\$1,650/.test(blob))) {
+      errors.push(`${island}/${slug} corridor FAQ dropped Kauaʻi Signature or Stay Chef band`);
+    }
+    if (island === 'kauai' && !/inquiry/i.test(blob)) {
+      errors.push(`${island}/${slug} corridor FAQ lost inquiry-stage honesty`);
+    }
+    if (island === 'kauai' && (/Can I book a date now\?/.test(chunk) || /This is not a waitlist island/.test(chunk))) {
+      errors.push(`${island}/${slug} corridor FAQ still sells instant book`);
+    }
+    if (island === 'kauai' && /Book now/i.test(chunk) && !/not a live Book-now|not an instant Book-now|not a live Book-now/.test(blob)) {
+      errors.push(`${island}/${slug} corridor FAQ used a Book-now CTA`);
+    }
+    allQs.push(...pairs.map((p) => p.q));
+    byIsland[island].push({ slug, pairs });
+  }
+  errors.push(...dupes(allQs, 'tier-1 corridor FAQ question'));
+  for (const island of ['maui', 'oahu', 'kauai']) {
+    const rows = byIsland[island];
+    for (let i = 0; i < rows.length; i += 1) {
+      for (let j = i + 1; j < rows.length; j += 1) {
+        for (const left of rows[i].pairs) {
+          for (const right of rows[j].pairs) {
+            const score = jaccardTokens(`${left.q} ${left.a}`, `${right.q} ${right.a}`);
+            if (score > 0.6) {
+              errors.push(
+                `${island}/${rows[i].slug} ~ ${rows[j].slug} corridor FAQ sibling similarity ${(score * 100).toFixed(0)}% (“${left.q}” / “${right.q}”)`,
+              );
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+if (!/siblingCorridors/.test(placeViewSrc) || !/sibling corridors/.test(placeViewSrc)) {
+  errors.push('corridor pages still missing sibling corridor links');
+}
+if (!/Villa Week/.test(placeViewSrc) || !/Resident.s Island/.test(placeViewSrc) || !/Garden Isle retreat/.test(placeViewSrc)) {
+  errors.push('corridor FAQ chrome still missing island concept kickers');
+}
+if (!/contrast="aa"/.test(placeViewSrc)) {
+  errors.push('corridor FAQ accordion still missing AA contrast');
+}
+if (!/How a \$\{hood\.name\} inquiry runs/.test(placeViewSrc)) {
+  errors.push('inquiry-stage corridors still title every page as a booking');
+}
+if (/Can I book a date now\?/.test(offersSrc) || /This is not a waitlist island/.test(offersSrc)) {
+  errors.push('Princeville corridor still sells instant book / not-a-waitlist');
 }
 
 {
