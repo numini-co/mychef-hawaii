@@ -1258,6 +1258,26 @@ if (!hoodTitleBlob.includes('private chef honolulu')) {
 if (!hoodTitleBlob.includes('private chef lahaina maui')) {
   errors.push('/lahaina title no longer owns private chef lahaina maui');
 }
+if (!hoodTitleBlob.includes('private chef kailua oahu')) {
+  errors.push('/kailua title no longer owns private chef kailua oahu');
+}
+if (!hoodTitleBlob.includes('private chef kihei maui')) {
+  errors.push('/kihei title no longer owns private chef kihei maui');
+}
+{
+  const THIN_DEEP = [
+    ['oahu', 'kailua'],
+    ['maui', 'kihei'],
+    ['maui', 'lahaina'],
+  ];
+  for (const [island, slug] of THIN_DEEP) {
+    const chunk = hoodFaqChunk(offersSrc, island, slug);
+    const title = (chunk.match(/title:\s*'([^']+)'/) || [])[1] || '';
+    const desc = (chunk.match(/description:\s*'([^']+)'/) || [])[1] || '';
+    if (title.length > 60) errors.push(`/${slug} title is ${title.length} chars (max 60)`);
+    if (desc.length > 155) errors.push(`/${slug} description is ${desc.length} chars (max 155)`);
+  }
+}
 if (!hoodTitleBlob.includes('private chef kona')) errors.push('/kona title no longer owns private chef kona');
 if (!hoodTitleBlob.includes('private chef poipu kauai')) {
   errors.push('/poipu title no longer owns private chef poipu kauai');
@@ -1754,23 +1774,28 @@ if (/tel:\+971|\+971\d{7,}/.test(longIslandSrc + pricingDocSrc + hubQuoteSrc + r
     ['maui', 'kaanapali'],
     ['maui', 'kapalua'],
     ['maui', 'makena'],
+    ['maui', 'kihei'],
+    ['maui', 'lahaina'],
     ['oahu', 'honolulu'],
     ['oahu', 'waikiki'],
     ['oahu', 'ko-olina'],
     ['oahu', 'kahala'],
+    ['oahu', 'kailua'],
     ['kauai', 'princeville'],
     ['kauai', 'poipu'],
     ['bigisland', 'kona'],
     ['bigisland', 'waikoloa'],
     ['bigisland', 'waimea'],
   ];
+  const TIER1_DEEP_FAQ = new Set(['kailua', 'kihei', 'lahaina']);
   const byIsland = { maui: [], oahu: [], kauai: [], bigisland: [] };
   const allQs = [];
   for (const [island, slug] of TIER1_CORRIDORS) {
     const chunk = hoodFaqChunk(offersSrc, island, slug);
     const pairs = faqPairs(chunk);
-    if (pairs.length < 6) {
-      errors.push(`${island}/${slug} corridor FAQ expected ≥6 questions, found ${pairs.length}`);
+    const minFaqs = TIER1_DEEP_FAQ.has(slug) ? 8 : 6;
+    if (pairs.length < minFaqs) {
+      errors.push(`${island}/${slug} corridor FAQ expected ≥${minFaqs} questions, found ${pairs.length}`);
     }
     const blob = `${chunk}\n${pairs.map((p) => p.a).join('\n')}`;
     if (/world-class|unforgettable|indulge|culinary journey/i.test(blob)) {
