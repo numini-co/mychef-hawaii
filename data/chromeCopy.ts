@@ -83,13 +83,13 @@ export const islandChooserCopy: Record<
 
 export const islandHeroLede: Record<IslandId, string> = {
   oahu:
-    'From Honolulu residences to Ko Olina villas, we cook only in a working kitchen. We shop, cook, serve and clean; Signature dinner starts at $195 a guest and Stay Chef at $1,250 a day.',
+    'Resident villa and home chefs — Honolulu residences to Ko Olina — only in a working kitchen. We shop, cook, serve and clean; Signature dinner starts at $195 a guest and Stay Chef at $1,250 a day.',
   maui:
-    'Private chef service on Maui runs from Wailea and Kīhei to West Maui; the villa must have a real kitchen. Signature dinner starts at $225 a guest, Stay Chef at $1,550 a day.',
+    'A table in your own villa — Wailea, Kīhei, West Maui — when the kitchen is real. Signature dinner starts at $225 a guest, Stay Chef at $1,550 a day. Request a written quote.',
   kauai:
-    'Princeville and Hanalei to the north; Poʻipū to the south, always in a villa with a real kitchen. Kauaʻi is inquiry-stage, with Signature dinner from $225 a guest.',
+    'Garden Isle, both shores: Princeville and Hanalei to the north, Poʻipū to the south, always in a villa with a real kitchen. Inquiry-stage — Enquire, not Book-now. Signature dinner from $225 a guest.',
   bigisland:
-    'Kona and the Kohala Coast come first, with west-side villas setting the route. Hawaiʻi Island is inquiry-stage, and every booking requires a real kitchen.',
+    'Expedition starts on Kona and the Kohala Coast, with west-side villas setting the route. Inquiry-stage — Enquire dates. Every booking requires a real kitchen.',
 };
 
 export const heroFocal: Record<'hub' | IslandId, string> = {

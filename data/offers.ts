@@ -98,12 +98,12 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
   maui: {
     keyword: 'private chef maui',
     volume: 260,
-    h1: 'A private chef’s table — in your own Maui villa.',
-    title: 'Private Chef Maui | In-Villa Dinners and Weeks | myCHEF',
+    h1: 'Private Chef Maui — a table in your own villa.',
+    title: 'Private Chef Maui | In-Villa Week Dinners | myCHEF',
     description:
-      'Private chef Maui from $225 a guest. In-villa dinners and weeks in Wailea, Kīhei and West Maui. Maui catering is the larger door on /catering. Request a quote.',
+      'Private chef Maui from $225 a guest. Villa dinners and weeks in Wailea, Kīhei and West Maui. Larger staffed rooms on /catering. Request a written quote.',
     lede:
-      'A chef in your Wailea, Kapalua or Kāʻanapali villa. Published prices and a written menu. Staffed receptions live on /catering.',
+      'A chef at the table in your Wailea, Kapalua or Kāʻanapali villa for the week. Published prices and a written menu. Staffed receptions live on /catering.',
     fromPp: 225,
     dayFrom: 1550,
     heroPhoto: 'mauiHero',
@@ -122,11 +122,11 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
       },
       {
         q: 'What is included?',
-        a: 'Menu design, same-day shopping, cooking in your villa, table service and a clean kitchen. Groceries for multi-day stays are billed at cost. Drinks are BYO or quoted separately.',
+        a: 'Menu design, same-day shopping, cooking in your villa, table service and a clean kitchen. Signature groceries sit inside the $225–$375 band. Stay Chef groceries are billed at cost with receipts. Drinks are BYO or quoted separately. 20% service and GET up to 4.712% print after the food.',
       },
       {
         q: 'Do you cook in an Airbnb or vacation rental?',
-        a: 'Yes, when there is a real kitchen. Hotel rooms without kitchens are declined or redesigned. Tell us the property type on WhatsApp or the quote form.',
+        a: 'Yes, when there is a real kitchen — heat, cold storage, and seats for the list. Hotel rooms without a cooktop are declined or redesigned. Tell us the property type on WhatsApp or /quote?island=maui before a deposit.',
       },
       {
         q: 'Can you do kids’ plates and allergies?',
@@ -150,11 +150,11 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     keyword: 'private chef oahu',
     volume: 90,
     h1: 'Private Chef Oahu — in your villa, in your home.',
-    title: 'Private Chef Oahu | Villa and Household Chefs | myCHEF',
+    title: 'Private Chef Oahu | Resident Villa and Home Chefs | myCHEF',
     description:
-      'Private chef Oahu from $195 a guest. Named corridors — Honolulu, Waikīkī, Kahala, Kailua, Ko Olina, North Shore. Villa dinners and household chefs. Request a quote.',
+      'Private chef Oahu from $195 a guest — Honolulu, Waikīkī, Kahala, Kailua, Ko Olina corridors. Villa dinners and household weeks. Request a written quote.',
     lede:
-      'Private chef Oahu and Honolulu — villa dinners from $195 a guest. Staffed events for a larger list live on /catering. Same team: we shop, cook, serve and clean.',
+      'Private chef Oahu and Honolulu — resident villa dinners from $195 a guest. Household weeks sit beside. Staffed events for a larger list live on /catering.',
     fromPp: 195,
     dayFrom: 1250,
     heroPhoto: 'oahuHero',
@@ -169,23 +169,23 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     faqs: [
       {
         q: 'How much is a private chef in Honolulu or on Oʻahu?',
-        a: 'CORE dinners start at $195–$290 per person. Personal chef / weekly meal prep from $450/week plus groceries at cost. Day rate from $1,250. Written quote before you commit.',
+        a: 'Signature dinners start at $195–$290 a guest with groceries inside that band. Stay Chef is $1,250 a day with groceries at cost and receipts. Personal-chef / weekly meal prep from $450 a week plus groceries at cost. 20% service and Hawaiʻi GET up to 4.712% print as their own lines. A tip is never required. Request a written quote on /quote?island=oahu or WhatsApp.',
       },
       {
         q: 'Our condo kitchen is small — does that work?',
-        a: 'Yes. We design bring-equipment menus for Waikīkī and Kakaʻako galleys, and we handle freight elevators and building COIs before the night.',
+        a: 'Yes when the cooktop is real. We design bring-equipment menus for Waikīkī and Kakaʻako galleys, and we book the freight elevator and building COI before anyone shops. A hotel room without a cooktop is declined before a deposit.',
       },
       {
         q: 'Do you cook for residents, not just visitors?',
-        a: 'Yes. The kamaʻāina line is a standing weekly chef — frequency, not a tourist one-off.',
+        a: 'Yes. The kamaʻāina line is a standing weekly chef — frequency, not a tourist one-off. Visitor first nights stay on this home; weekly household cooking lives on /personal-chef.',
       },
       {
         q: 'North Shore — is travel extra?',
-        a: 'Turtle Bay and the North Shore are a published surcharge for the drive. It appears on the quote, never as a surprise on the bill.',
+        a: 'Turtle Bay and the North Shore are a published surcharge for the 60–90+ minute drive. It appears on the written quote as its own line, never as a surprise on the bill. We do not stack a town dinner on the same calendar.',
       },
       {
         q: 'Oahu catering or a private chef?',
-        a: 'A villa dinner for the house is private chef Oahu. Ten to seventy-five guests is the catering page — same team, buffet or plated. See /catering.',
+        a: 'A villa dinner for the house is private chef Oahu. Ten to seventy-five guests is the catering page — same team, buffet or plated. See /catering. Start on /quote?island=oahu.',
       },
     ],
   },
@@ -193,11 +193,11 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     keyword: 'private chef kauai',
     volume: 210,
     h1: 'Private chef Kauai — both shores, inquiry stage.',
-    title: 'Private Chef Kauai | Both Shores — Inquiry | myCHEF',
+    title: 'Private Chef Kauai | Garden Isle — Inquiry | myCHEF',
     description:
-      'Private chef Kauai from $225 a guest. Princeville, Poʻipū and Hanalei named in coverage. Both shores, inquiry stage.',
+      'Private chef Kauai from $225 a guest. Princeville, Poʻipū and Hanalei named. Garden Isle, both shores, inquiry stage — not Book-now. Enquire for dates.',
     lede:
-      'Private chef Kauai on both shores — Princeville, Poʻipū and Hanalei. Villa dinners and staffed events, inquiry stage. From $225 a guest.',
+      'Private chef Kauai on the Garden Isle — Princeville, Poʻipū and Hanalei. Both shores, inquiry stage. From $225 a guest. Enquire, do not Book-now.',
     fromPp: 225,
     dayFrom: 1650,
     heroPhoto: 'kauaiHero',
@@ -210,15 +210,15 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     faqs: [
       {
         q: 'How much does a private chef cost on Kauaʻi?',
-        a: 'Starting $225–$375 per person for a signature dinner — the same band as Maui. Date Night from $975. Stay Chef from $1,650/day. Quote in writing.',
+        a: 'Signature $225–$375 a guest — the same band as Maui, earned by a thinner supplier bench. Date Night is a fixed evening at $975–$1,425. Stay Chef from $1,650 a day with groceries at cost. 20% service and GET up to 4.712% print separately. A tip is never silent and never required. Enquire on /quote?island=kauai — not Book-now.',
       },
       {
         q: 'Do you actually book Kauaʻi, or is this a waitlist?',
-        a: 'Kauaʻi is inquiry-stage. Join the inquiry list with the shore and the dates. Far-North (Hāʻena) needs 72-hour notice and a weather/road clause — we publish that instead of pretending the Hanalei bridge never closes.',
+        a: 'Kauaʻi is inquiry-stage. Join the inquiry list with the shore and the dates on /quote?island=kauai. Far-North (Hāʻena) needs 72-hour notice and a weather/road clause — we publish that instead of pretending the Hanalei bridge never closes. We will not sell a Book-now button.',
       },
       {
         q: 'Princeville or Poʻipū — does the price change?',
-        a: 'Menu bands are the Kauaʻi card. Drive time is a published zone line, not a hidden markup on the fish.',
+        a: 'Menu bands are the Kauaʻi card. Drive time is a published zone line in a $50–$75 range, not a hidden markup on the fish. Far-North is quote-only.',
       },
       {
         q: 'Can you staff a small wedding?',
@@ -238,11 +238,11 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     keyword: 'private chef big island',
     volume: 70,
     h1: 'Private chef Big Island — the Kohala Coast first.',
-    title: 'Private Chef Big Island | Kona–Kohala Inquiry | myCHEF',
+    title: 'Private Chef Big Island | Expedition Inquiry | myCHEF',
     description:
-      'Private chef Big Island from $210 a guest. Named corridors — Kona, Waikoloa, Waimea, Kohala Coast. Inquiry stage. Villa dinners on the west side first. ENTRY from $165.',
+      'Private chef Big Island from $210 a guest. Kona, Waikoloa, Waimea, Kohala Coast. Inquiry stage. West-side villas first. ENTRY from $165. Enquire dates.',
     lede:
-      'Kona and the Kohala Coast first — seven resort communities in one west-side radius. Hilo and Volcano are quote-only; we will not fake a same-day round trip.',
+      'Expedition on Kona and the Kohala Coast first — seven resort communities in one west-side radius. Hilo and Volcano are quote-only; we will not fake a same-day round trip.',
     fromPp: 210,
     dayFrom: 1450,
     heroPhoto: 'bigislandHero',
@@ -255,19 +255,19 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     faqs: [
       {
         q: 'How much is a private chef in Kona or on the Big Island?',
-        a: 'CORE dinners start at $210–$325 per person. ENTRY from $165. Stay Chef from $1,450/day. Same fee stack as every myCHEF Hawaii quote.',
+        a: 'CORE dinners start at $210–$325 a guest. ENTRY opens from $165. Stay Chef from $1,450 a day with groceries at cost. 20% service and Hawaiʻi GET up to 4.712% print after the food. Join the inquiry list on /quote?island=bigisland — not Book-now.',
       },
       {
         q: 'Can you cover Hilo from Kona?',
-        a: 'Not in one day. East side is 2.5–3 hours — dedicated staffing, quoted honestly. West-side villas are the default.',
+        a: 'Not in one day. East side is 2.5–3 hours — dedicated staffing, quoted honestly. A same-day Kona–Hilo round trip is a logistics fantasy. West-side villas are the default.',
       },
       {
         q: 'Do you take Ironman week?',
-        a: 'Yes, with compressed availability. Flag those dates early.',
+        a: 'Yes, with compressed availability. Flag those dates early on /quote?island=bigisland or WhatsApp — not the week of the swim. One crew holds one heavy week. We will not promise a Hilo lunch and a Waikoloa dinner on the same race Saturday.',
       },
       {
         q: 'Is this Hawaiʻi Island or the Big Island?',
-        a: 'Both. Searchers say Big Island and Kona; the geography is Hawaiʻi Island. The chef is the same.',
+        a: 'Both. Searchers say Big Island and Kona; the geography is Hawaiʻi Island. There is no separate Kona hostname. The chef is the same. This home still owns private chef Big Island.',
       },
     ],
   },
