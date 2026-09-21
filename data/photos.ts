@@ -9,19 +9,19 @@ export const photos = {
   },
   oahuHero: {
     file: '/photos/heroes/hero-oahu.png',
-    alt: `A chef plating sesame ahi on an Oʻahu villa counter, Diamond Head and Waikīkī lights at twilight.`,
+    alt: `Private chef Oahu plating sesame ahi on a villa counter, Diamond Head and Waikīkī lights at twilight.`,
   },
   mauiHero: {
     file: '/photos/heroes/hero-maui.png',
-    alt: `A candlelit Maui villa terrace table at dusk — seared fish, heliconia, the west-side sunset.`,
+    alt: `Private chef Maui candlelit villa terrace at dusk — seared fish, heliconia, west-Maui sunset.`,
   },
   kauaiHero: {
     file: '/photos/heroes/hero-kauai.png',
-    alt: `An estate table on Kauaʻi looking into a misted valley of fluted mountains at golden hour.`,
+    alt: `Private chef Kauai estate table facing a misted valley of fluted mountains at golden hour.`,
   },
   bigislandHero: {
     file: '/photos/heroes/hero-bigisland.png',
-    alt: `A lava-coast terrace table on Hawaiʻi Island at sunset — fruit, wine glasses, Mauna Loa on the horizon.`,
+    alt: `Private chef Big Island lava-coast terrace at sunset — fruit, wine, Mauna Loa on the horizon.`,
   },
   cateringHero: {
     file: '/photos/heroes/hero-catering.png',

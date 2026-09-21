@@ -449,24 +449,24 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Each island hosts the after-quote help article. Distinct from /quote, /help/getting-started, and /help.',
   },
   '/oahu': {
-    title: 'Private Chef Oahu | Villa and Household Chefs | myCHEF',
+    title: 'Private Chef Oahu | Resident Villa and Home Chefs | myCHEF',
     description:
-      'Private chef Oahu from $195 a guest. Named corridors — Honolulu, Waikīkī, Kahala, Kailua, Ko Olina, North Shore. Villa dinners and household chefs. Request a quote.',
+      'Private chef Oahu from $195 a guest — Honolulu, Waikīkī, Kahala, Kailua, Ko Olina corridors. Villa dinners and household weeks. Request a written quote.',
   },
   '/maui': {
-    title: 'Private Chef Maui | In-Villa Dinners and Weeks | myCHEF',
+    title: 'Private Chef Maui | In-Villa Week Dinners | myCHEF',
     description:
-      'Private chef Maui from $225 a guest. In-villa dinners and weeks in Wailea, Kīhei and West Maui. Maui catering is the larger door on /catering. Request a quote.',
+      'Private chef Maui from $225 a guest. Villa dinners and weeks in Wailea, Kīhei and West Maui. Larger staffed rooms on /catering. Request a written quote.',
   },
   '/kauai': {
-    title: 'Private Chef Kauai | Both Shores — Inquiry | myCHEF',
+    title: 'Private Chef Kauai | Garden Isle — Inquiry | myCHEF',
     description:
-      'Private chef Kauai from $225 a guest. Princeville, Poʻipū, Hanalei named in coverage. Both shores, inquiry stage.',
+      'Private chef Kauai from $225 a guest. Princeville, Poʻipū and Hanalei named. Garden Isle, both shores, inquiry stage — not Book-now. Enquire for dates.',
   },
   '/bigisland': {
-    title: 'Private Chef Big Island | Kona–Kohala Inquiry | myCHEF',
+    title: 'Private Chef Big Island | Expedition Inquiry | myCHEF',
     description:
-      'Private chef Big Island from $210 a guest. Named corridors — Kona, Waikoloa, Waimea, Kohala Coast. Inquiry stage. ENTRY from $165. WhatsApp the dates.',
+      'Private chef Big Island from $210 a guest. Kona, Waikoloa, Waimea, Kohala Coast. Inquiry stage. West-side villas first. ENTRY from $165. Enquire dates.',
   },
   '/oahu/private-chef': {
     title: 'Visitor dinners in the Oahu house | myCHEF',
