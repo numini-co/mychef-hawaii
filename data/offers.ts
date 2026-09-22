@@ -974,14 +974,43 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         'Private chef Hanalei is the valley search. The bridge is real. We plan around it instead of arguing with it. CORE from $225/pp.',
       body: [
         'Estate dinners and Kauai wedding catering when the guest list grows. 72-hour notice for far-North. CORE from $225/pp.',
+        'The one-lane bridge is the logistics. A closed road moves the night; it does not eat the deposit. Clause: /hanalei-bridge. Bluff estates stay on /princeville. Hāʻena is quote-only. South Shore arrival nights: /poipu.',
+        'Signature groceries stay inside $225–$375 a guest. Stay Chef from $1,650 a day bills the shop at cost with receipts. They never blend. Hotel rooms without a cooktop are declined. Written inquiry: /quote?island=kauai. Tariff: /pricing.',
       ],
       zone: 'North Shore',
       photo: 'locHanalei',
       faqs: [
-        { q: 'Road closure?', a: 'We reschedule rather than forfeit. That is on the quote before any deposit.' },
         {
-          q: 'Can you cater a Hanalei wedding?',
-          a: 'Estate formats, quoted with staffing. Far-North inherits the weather clause. See Kauai catering.',
+          q: 'What does inquiry-stage mean for a Hanalei valley dinner?',
+          a: 'Garden Isle Retreat is an inquiry, not a live Book-now. Send the valley address, the dates, and the headcount on /quote?island=kauai. We write back when a Kauaʻi crew can staff that week. A published band is not a calendar. This URL stays the Hanalei town door. The island home at / still holds the Kauaʻi dinner title.',
+        },
+        {
+          q: 'If the Hanalei bridge closes, does the night forfeit?',
+          a: 'No. Valley and far-North nights inherit a written clause: 72-hour notice, reschedule rather than forfeit. The deposit is not eaten by a road closure. The clause lives on /hanalei-bridge and sits on the quote before anyone pays. Hāʻena, past the river, is quote-only. This page is the valley town.',
+        },
+        {
+          q: 'Are Hanalei Signature groceries inside $225–$375?',
+          a: 'Yes. A Signature night in the valley is $225–$375 a guest, and the shop is already inside that band. There is no second grocery invoice on that dinner. After the food, 20% service and Hawaiʻi GET up to 4.712% print as separate lines. A 50% deposit waits until a crew can staff the week. Gratuity is never required. The day-rate shop is a different model. Card: /pricing.',
+        },
+        {
+          q: 'Stay Chef from $1,650 in Hanalei — groceries at cost?',
+          a: 'A valley week that cooks more than once uses Stay Chef from $1,650 a day: chef and assistant, one meal in the day rate. Groceries bill at cost with merchant receipts and zero markup. A second meal that day is quoted, not absorbed. Signature $225–$375 does not fold into the day fee. If the address sits past the bridge, every meal inherits /hanalei-bridge, not only the welcome night. Form: /quote?island=kauai.',
+        },
+        {
+          q: 'Hanalei town, a Princeville estate, or Hāʻena — which quote?',
+          a: 'This page is Hanalei town and the valley houses. /princeville is the bluff estate inventory. Hāʻena is quote-only, with 72-hour notice, past the bridge. The Signature band is the same Kauaʻi card. The drive and the weather clause are not. South Shore arrival nights sit on /poipu. Island home: /.',
+        },
+        {
+          q: 'Can a Hanalei wedding or estate list be staffed?',
+          a: 'A house dinner is this corridor. When the list grows, the night is staffed and the total is written — not a chat estimate. Far-North weeks inherit /hanalei-bridge on every meal. Staffed rooms: /catering. The estate week: /weddings. Still inquiry. We will not hold a roster that does not exist.',
+        },
+        {
+          q: 'Will you cook a Hanalei hotel room with no cooktop?',
+          a: 'No. Rooms without a cooktop are declined. A lock-off that cannot take a chef day is declined. If the valley kitchen has heat, cold storage, and seats, we take the inquiry. If it does not, we say so before a deposit. Resort suites are not a hidden villa week.',
+        },
+        {
+          q: 'How do I enquire for Hanalei — dates, shore, and headcount?',
+          a: 'This is a paid inquiry for a written quote, not a free menu tutorial. Open /quote?island=kauai with dates, the North Shore address, and headcount. Or WhatsApp +1 808 468 7748 — https://wa.me/18084687748 — when the shore and the dates are ready to book. Desk: quotes@mychef-hawaii.com. Hawaii-hours reply when a crew can hold that week. Card: /pricing.',
         },
       ],
     },
