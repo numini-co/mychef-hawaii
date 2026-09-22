@@ -515,15 +515,41 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     body: [
       `Private chef Maui cost (${SEARCH_VOLUMES['private chef maui cost']}) is a measured long-tail. It does not live on this hub title. The explainer is on the island host.`,
       'Service 20% and GET are their own lines. Travel prints when it applies. The written quote is the confirmed total.',
+      'Two grocery models, never blended. A Signature dinner keeps the shop inside that island band. A Stay Chef day bills groceries at cost with merchant receipts. Oʻahu and Maui take written quotes. Kauaʻi and Hawaiʻi Island stay inquiry.',
+      'Island stacks, not this picker: oahu.mychef-hawaii.com/private-chef-cost, maui.mychef-hawaii.com/private-chef-cost, kauai.mychef-hawaii.com/private-chef-cost, bigisland.mychef-hawaii.com/private-chef-cost. Each host /pricing remains the card.',
     ],
     faqs: [
       {
-        q: 'Same as /pricing?',
-        a: 'Pricing is what a night costs. This page points at the fee-stack explainer beside it.',
+        q: 'How is this picker different from /pricing?',
+        a: '/pricing is the rate card: published bands, line by line, on the hub and again on each island host. This URL only points at the fee-stack explainer beside that card — service, GET, travel, deposit, and which grocery model applies. It does not replace an island tariff.',
       },
       {
-        q: 'Does this URL rank for private chef Maui?',
-        a: 'No. That title stays on the Maui host home.',
+        q: 'Can Signature groceries and Stay Chef groceries share one line?',
+        a: 'No. A Signature or per-guest dinner keeps the shop inside that island published band, with no separate grocery invoice. A Stay Chef day is the chef fee plus groceries at cost, merchant receipts, zero markup. Oʻahu Stay Chef from $1,250. Maui from $1,550. Kauaʻi from $1,650. Hawaiʻi Island from $1,450. The two models never blend. Bands: each host /pricing.',
+      },
+      {
+        q: 'Where do 20% service, GET, the deposit, and tip print?',
+        a: 'After the food, as separate lines: 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit locks a date the island can staff. Gratuity is never required and never hidden inside the band. Travel is its own line when the address sits outside the base zone. It is not folded into the dinner price.',
+      },
+      {
+        q: 'Why does this hub H1 avoid an island dinner title?',
+        a: 'Island homes own those dinner titles. This picker would compete with them if the H1 named an island. The measured Maui cost phrase stays on the Maui host, not in this title. Open the island stack instead: oahu.mychef-hawaii.com/private-chef-cost, maui.mychef-hawaii.com/private-chef-cost, kauai.mychef-hawaii.com/private-chef-cost, or bigisland.mychef-hawaii.com/private-chef-cost.',
+      },
+      {
+        q: 'Which islands take a quote, and which stay inquiry?',
+        a: 'Oʻahu and Maui are quote-open. Kauaʻi and Hawaiʻi Island are inquiry-stage — a band is not a Book-now. Fee stacks: oahu.mychef-hawaii.com/private-chef-cost and maui.mychef-hawaii.com/private-chef-cost for quotes; kauai.mychef-hawaii.com/private-chef-cost and bigisland.mychef-hawaii.com/private-chef-cost for inquiry. Each host /pricing is the card beside the stack.',
+      },
+      {
+        q: 'When does a travel line print, instead of hiding inside the band?',
+        a: 'Only outside the published base, and only as its own line. Oʻahu: North Shore is a surcharge; Kahala, Ko Olina, Kailua, and town residences with kitchens are base. Maui: Upcountry is a surcharge; West Maui timing is planned, not a mystery fee. Kauaʻi: Līhuʻe and Kapaʻa are included; both shores are a surcharge; far-North inherits the bridge clause. Hawaiʻi Island: Kona–Kohala is base; Waimea is a surcharge; Hilo is a dedicated day, never a west-side round trip. Maps: each host /coverage.',
+      },
+      {
+        q: 'Does this hub show Hawaiʻi star ratings or guest reviews?',
+        a: 'No. We do not publish star ratings or Hawaiʻi guest reviews on this picker. We do not have those reviews yet, and we will not invent them. What we can show is published starting prices and a written total. The honesty register is /trust.',
+      },
+      {
+        q: 'What is the next step if I want a written total?',
+        a: 'Open the island host /pricing for the card and /quote for a paid inquiry with dates, shore, and headcount. Use that host /private-chef-cost if you need the stack beside the card. Desk: quotes@mychef-hawaii.com, +1 808 468 7748, https://wa.me/18084687748. WhatsApp is for dates and shore ready to book, not a free walkthrough of the menu.',
       },
     ],
   },

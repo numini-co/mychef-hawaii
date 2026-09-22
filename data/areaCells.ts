@@ -496,17 +496,44 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       ],
       faqs: [
         {
-          q: 'Same as /poipu?',
-          a: 'That URL is the corridor. This page is Kōloa town — at inquiry.',
+          q: 'Is Kōloa town the same document as /poipu?',
+          a: '/poipu is the South Shore corridor — resort lawns and arrival houses. This URL is Kōloa town: retreat houses and small celebrations to about 75, on the same surcharge map, not a clone of that corridor. Both are inquiry. Shore cell: /south-shore. Kitchen note: /blog/dining-in-koloa.',
         },
         {
-          q: 'Are you live?',
-          a: 'Inquiry. We crew when we can staff. Open /quote.',
+          q: 'Is Kōloa live to book, or still an inquiry?',
+          a: 'Still an inquiry. A Kōloa retreat house does not get an instant confirm. Put the street, the headcount, and the week on /quote?island=kauai and wait for a written reply from a crew that can actually staff it. /poipu is the same stage for resort lawns. It does not turn this town into a second live calendar.',
+        },
+        {
+          q: 'Which grocery line applies in a Kōloa house — Signature or Stay Chef?',
+          a: 'They stay apart. A Signature night is $225–$375 a guest and the shop rides inside that band, with no separate grocery invoice. A Stay Chef day from $1,650 is the chef fee; the shop prints at cost with merchant receipts. Those lines do not fold together. After the food, 20% service and Hawaiʻi GET up to 4.712% print as separate lines. The deposit is 50% once a crew can hold the week. Gratuity is never required. Tariff: /pricing.',
+        },
+        {
+          q: 'Is an arrival-night dinner the usual first ask in Kōloa?',
+          a: 'Yes, on this South Shore. You land nearer Līhuʻe, the fridge is not the plan, and someone else is at the range that night. It is still an inquiry, not a button. Write the landing time and the town address on /quote?island=kauai. The corridor version of that ask lives on /poipu. This page stays the town house.',
+        },
+        {
+          q: 'Kōloa is closer to Līhuʻe than Princeville — does the food band drop?',
+          a: 'No. Kōloa sits on the South Shore surcharge with Poʻipū, outside the Līhuʻe and Kapaʻa base, and closer to the airport than /princeville. The shorter drive is a zone line on the quote. It is not a discount on the fish. Signature stays $225–$375 a guest on both shores. North Shore estates: /princeville. Shore map: /south-shore.',
+        },
+        {
+          q: 'What if the Kōloa room has no cooktop?',
+          a: 'We decline it. Hotel rooms and lock-offs without a cooktop are not a town-house dinner. If the kitchen has heat, cold storage, and seats for the list, send the address. If it does not, we say so before a deposit. The resort-belt version of that rule is /poipu. This page is the town.',
+        },
+        {
+          q: 'Date Night, a small retreat, or a wedding list in Kōloa?',
+          a: 'Two seats in a town house use Date Night at $975–$1,425, a fixed evening. A small retreat that cooks more than one night uses Stay Chef from $1,650, shop at cost. When the headcount grows toward an estate wedding, stop stacking nights in chat and open /catering for a staffed written total. The three lines never blend. Rhythm goes on /quote?island=kauai.',
+        },
+        {
+          q: 'How do I enquire for Kōloa with the shore and the dates?',
+          a: 'Paid inquiry, written quote. Open /quote?island=kauai with the South Shore address, dates, and headcount. Or WhatsApp +1 808 468 7748 — https://wa.me/18084687748 — when the shore and the dates are ready to book. Desk: quotes@mychef-hawaii.com. Hawaii-hours reply when a crew can hold that week. Card: /pricing. Corridor door if the house is actually Poʻipū: /poipu.',
         },
       ],
       related: [
         { path: '/poipu', label: 'Poʻipū corridor' },
         { path: '/south-shore', label: 'South Shore' },
+        { path: '/princeville', label: 'Princeville estates' },
+        { path: '/pricing', label: 'Rate card' },
+        { path: '/quote', label: 'Inquiry form' },
         { path: '/blog/dining-in-koloa', label: 'Kōloa kitchen notes' },
       ],
     },
