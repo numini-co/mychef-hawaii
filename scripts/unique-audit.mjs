@@ -1864,6 +1864,72 @@ if (/tel:\+971|\+971\d{7,}/.test(longIslandSrc + pricingDocSrc + hubQuoteSrc + r
   }
 }
 
+{
+  function slugChunk(src, slug) {
+    const at = src.search(new RegExp(`slug:\\s*'${slug}'`));
+    if (at < 0) return '';
+    const after = src.slice(at + 1);
+    const next = after.search(/\n      slug:/);
+    return next < 0 ? src.slice(at) : src.slice(at, at + 1 + next);
+  }
+  const kohalaPairs = faqPairs(hoodFaqChunk(offersSrc, 'bigisland', 'kohala'));
+  const hiloPairs = faqPairs(slugChunk(read('data/areaCells.ts'), 'hilo'));
+  const menusAt = hubDirSrc.indexOf('\n  menus: {');
+  const menusNext = hubDirSrc.indexOf('\n  help: {', menusAt);
+  const menusPairs = faqPairs(hubDirSrc.slice(menusAt, menusNext));
+  const deep = [
+    ['bigisland/kohala', kohalaPairs],
+    ['bigisland/hilo', hiloPairs],
+    ['hub/menus', menusPairs],
+  ];
+  for (const [label, pairs] of deep) {
+    if (pairs.length < 8) errors.push(`${label} FAQ expected ≥8 questions, found ${pairs.length}`);
+    const blob = pairs.map((p) => `${p.q} ${p.a}`).join('\n');
+    if (/tel:\+971|\+971\d{7,}/.test(blob)) errors.push(`${label} FAQ introduced +971`);
+    if (/AggregateRating"\s*:/.test(blob)) errors.push(`${label} FAQ introduced AggregateRating schema`);
+    if (!/quotes@mychef-hawaii\.com/.test(blob) || !/\+1 808 468 7748/.test(blob) || !/wa\.me\/18084687748/.test(blob)) {
+      errors.push(`${label} FAQ missing Hawaii desk`);
+    }
+    if (!/20%/.test(blob) || !/4\.712%/.test(blob) || !/50%/.test(blob) || !/gratuity/i.test(blob)) {
+      errors.push(`${label} FAQ missing 20% service, GET, 50% deposit, or gratuity line`);
+    }
+    if (!/\$210/.test(blob) || !/\$1,450/.test(blob) || !/\$165/.test(blob)) {
+      errors.push(`${label} FAQ dropped Hawaiʻi Island Signature, ENTRY, or Stay Chef`);
+    }
+  }
+  const kohalaBlob = kohalaPairs.map((p) => `${p.q} ${p.a}`).join('\n');
+  if (!/not a Book-now/i.test(kohalaBlob)) errors.push('bigisland/kohala FAQ lost inquiry-stage honesty');
+  for (const slug of ['kona', 'waikoloa', 'waimea']) {
+    const sibling = faqPairs(hoodFaqChunk(offersSrc, 'bigisland', slug));
+    for (const left of kohalaPairs) {
+      for (const right of sibling) {
+        const score = jaccardTokens(`${left.q} ${left.a}`, `${right.q} ${right.a}`);
+        if (score > 0.6) {
+          errors.push(
+            `bigisland/kohala ~ ${slug} FAQ similarity ${(score * 100).toFixed(0)}% (“${left.q}” / “${right.q}”)`,
+          );
+        }
+      }
+    }
+  }
+  const hiloNeighbors = [
+    ['east-side', slugChunk(read('data/uniqueCells.ts'), 'east-side')],
+    ['volcano', slugChunk(read('data/areaCells.ts'), 'volcano')],
+  ];
+  for (const [slug, chunk] of hiloNeighbors) {
+    for (const left of hiloPairs) {
+      for (const right of faqPairs(chunk)) {
+        const score = jaccardTokens(`${left.q} ${left.a}`, `${right.q} ${right.a}`);
+        if (score > 0.6) {
+          errors.push(
+            `bigisland/hilo ~ ${slug} FAQ similarity ${(score * 100).toFixed(0)}% (“${left.q}” / “${right.q}”)`,
+          );
+        }
+      }
+    }
+  }
+}
+
 if (!/siblingCorridors/.test(placeViewSrc) || !/sibling corridors/.test(placeViewSrc)) {
   errors.push('corridor pages still missing sibling corridor links');
 }

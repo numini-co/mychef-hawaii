@@ -1187,10 +1187,47 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       title: 'Private chef Kohala Coast — from $210/pp | myCHEF',
       description: 'Private chef Kohala Coast. Waikoloa, Mauna Lani, Mauna Kea resort belt. Published starting prices.',
       lede: 'The opening move on Hawaiʻi Island: one 30-minute service radius, the island’s highest villa ADRs.',
-      body: ['Sourcing-led dinners. Producer names only with written verification.'],
+      body: [
+        'West-side villa ADRs and resort-belt kitchens sit inside this radius. Signature $210–$325 a guest keeps groceries inside that band. Stay Chef from $1,450 a day bills the shop at cost with receipts. After either line: 20% service and Hawaiʻi GET up to 4.712%.',
+        'Producer names appear only with written verification. Hotel rooms without a cooktop are declined. Named corridors on the same map are not clones: /waikoloa for the resort corridor, /kona for town and Keauhou, /waimea for ranch elevation.',
+        'East-side Hilo is never the same unpaid day — see /east-side and /hilo. Island home still owns private chef Big Island. Tariff: /pricing. Inquiry: /quote.',
+      ],
       zone: 'Base zone',
       photo: 'kohalaTable',
-      faqs: [{ q: 'Big Island or Hawaiʻi Island?', a: 'Both names. Hostname is bigisland.mychef-hawaii.com.' }],
+      faqs: [
+        {
+          q: 'Why is this Kohala Coast radius still an inquiry, not a Book-now button?',
+          a: 'The radius page does not keep a live roster you can click. Put the coast address, the week, and the headcount on /quote?island=bigisland and wait for a written reply. /waikoloa is the named resort belt. /kona is town and Keauhou. A starting price here is a band for that map, not a calendar slot.',
+        },
+        {
+          q: 'Which door is Kohala, and which doors name the belts inside it?',
+          a: 'Use this URL when the house is on the Kohala Coast radius and you have not picked a community yet. /waikoloa names the resort belt. /kona names town and Keauhou at the south end of the run. Mauna Lani and Mauna Kea are residences on this belt — not a second company, and not the summit. /waimea is ranch elevation with its own zone line. Shared map. Separate pages.',
+        },
+        {
+          q: 'On this radius, what is inside Signature $210–$325 versus ENTRY from $165?',
+          a: 'The shop for a Signature dinner is already inside $210–$325 a guest. A Mauna Lani or Mauna Kea residence does not get a second grocery bill on that night. ENTRY from $165 is only the shorter list when the coast kitchen can hold it. Service at 20% and Hawaiʻi GET up to 4.712% print after the food. Gratuity is never required. The 50% deposit waits until a crew can hold the week. The card is /pricing.',
+        },
+        {
+          q: 'A Kohala villa week uses Stay Chef from $1,450 — where does the shop print?',
+          a: 'The day fee starts at $1,450 and covers the chef, an assistant, and one meal. The coast shop is a separate receipt stack, at cost, zero markup — not folded into that fee, and not the Signature invoice. A second meal the same day is written, not absorbed. Do not ask this page to turn four plated nights into one day rate. Villa weeks go on /quote?island=bigisland.',
+        },
+        {
+          q: 'Is Kohala inside the base ~30-minute radius — and can you add Hilo?',
+          a: 'Yes — Kohala Coast is the west-side base zone. East-side Hilo is 2.5–3 hours and never the same unpaid day as a Kohala dinner. Crossing rule: /east-side. Town door: /hilo. We will not sell that shortcut from a resort belt night.',
+        },
+        {
+          q: 'A Kohala resort lock-off or hotel room — will you still cook?',
+          a: 'Only when the residence has a real range, a fridge that can hold the shop, and a table for the list. A minibar room on this belt is a decline, said before any deposit. An outdoor-only setup with no indoor kitchen fails the same test. The named resort corridor keeps its own kitchen note on /waikoloa.',
+        },
+        {
+          q: 'Multi-gen estate or Family Feast versus a Date Night on this coast?',
+          a: 'Two seats stay a plated Signature table on this radius. A multi-gen estate or Family Feast still cooks here when the kitchen holds the list. Past a house dinner, the night is staffed and the total is written on /catering — not estimated in chat. Still inquiry. A heavy week does not grow a spare crew.',
+        },
+        {
+          q: 'Who takes a Kohala Coast inquiry — and what must be in it?',
+          a: 'The west-side desk, for a written total. File /quote?island=bigisland with the coast house, the nights, and how many seats. If the week is ready to hold, WhatsApp https://wa.me/18084687748 or call +1 808 468 7748. Mail is quotes@mychef-hawaii.com. Hawaii hours. Nothing here is a free tasting consult, and a Hilo date is a different day. Tariff: /pricing.',
+        },
+      ],
     },
   ],
 };
