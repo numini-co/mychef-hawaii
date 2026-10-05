@@ -203,15 +203,40 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     body: [
       'Open the island host for the kitchen you booked. Oʻahu, Maui, Kauaʻi, and Hawaiʻi Island each keep plated samples and SKUs — three-course, family-style-menu, breakfast, lunch — designed per table.',
       `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on maui.mychef-hawaii.com/catering. This directory is how a menu is designed, not a catering title. Family-style as a menu SKU is /menus/family-style-menu, not a 404 path.`,
+      'Plated samples: oahu.mychef-hawaii.com/menus, maui.mychef-hawaii.com/menus, kauai.mychef-hawaii.com/menus, bigisland.mychef-hawaii.com/menus. Rates attach on each host /pricing — this picker does not invent a statewide carte.',
     ],
     faqs: [
       {
-        q: 'Is this a sample menu?',
-        a: 'No. This hub page is the process picker. Plated sample courses live on each island /menus — Oʻahu, Maui, Kauaʻi, and Hawaiʻi Island hosts. Designed per table, not a standing carte. Published prices sit on each island rate card.',
+        q: 'How is this hub different from each island /menus?',
+        a: 'This page is the process picker. Plated sample courses and SKUs live on each island host /menus — oahu.mychef-hawaii.com/menus, maui.mychef-hawaii.com/menus, kauai.mychef-hawaii.com/menus, bigisland.mychef-hawaii.com/menus. Open the host for the kitchen you booked. This URL does not steal a private-chef island dinner title.',
       },
       {
-        q: 'Same as /help/menu-guide?',
-        a: 'The menu guide is a help article on the island host. This page points at each island’s /menus process page.',
+        q: 'Same as /help/menu-guide or /menus/family-style-menu?',
+        a: '/help/menu-guide is a help article on the island host. /menus/family-style-menu is a named SKU path for that format. This hub only points at the design process and the island lists. It is not the guide article and not the family-style SKU page.',
+      },
+      {
+        q: 'Is there a standing statewide carte here?',
+        a: 'No. Menus are designed per table. Samples on each island /menus show how a night can look. The written quote locks the courses for that house. We do not run one fixed statewide menu for every island.',
+      },
+      {
+        q: 'How do prices attach to a menu draft?',
+        a: 'Through the island rate card on each host /pricing. A Signature draft keeps the shop inside that island’s published band. A Stay Chef draft bills the shop at cost with receipts. The quote then adds 20% service and Hawaiʻi GET up to 4.712% as their own lines, a 50% deposit once that host can staff, and no required gratuity. This picker does not invent dollar bands. Hawaiʻi Island’s card, as an example only: ENTRY from $165, Signature $210–$325, Stay Chef from $1,450.',
+      },
+      {
+        q: 'Why does Maui catering stay off this URL?',
+        a: 'Catering is a staffed format, not menu design. Maui catering stays on maui.mychef-hawaii.com/catering. This hub /menus is how a table is designed. It does not rank for catering and does not replace that island path.',
+      },
+      {
+        q: 'When can I ask for a menu draft — quote-open vs inquiry?',
+        a: 'Oʻahu and Maui are quote-open: send dates and headcount on that host /quote and a draft can follow a written total path. Kauaʻi and Hawaiʻi Island stay inquiry — a band is not Book-now, and a menu draft waits until a crew can hold the week. Start on the island /menus, then /quote on that host.',
+      },
+      {
+        q: 'Will this menu picker carry guest stars or a review snippet?',
+        a: 'It will not. Sample courses on an island /menus are plates, not testimonials. This hub does not attach star markup, AggregateRating, or made-up Hawaiʻi guest quotes to a menu draft. What we can show is the sample and the written quote that follows it. The register that explains that choice is /trust.',
+      },
+      {
+        q: 'After this picker, which URL actually shows plates?',
+        a: 'Leave the hub and open the island /menus that matches the kitchen — Oʻahu, Maui, Kauaʻi, or Hawaiʻi Island. From that host, send dates, shore, and headcount on /quote. The desk is quotes@mychef-hawaii.com and +1 808 468 7748 (https://wa.me/18084687748). Message WhatsApp when the table is ready to price, not to tour every SKU for free.',
       },
     ],
   },

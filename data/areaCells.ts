@@ -866,12 +866,36 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       ],
       faqs: [
         {
-          q: 'Breakfast in Hilo and dinner in Waikoloa?',
-          a: 'Not as one unpaid day. Open /east-side.',
+          q: 'Hilo town versus the east-side crossing rule versus Volcano?',
+          a: '/east-side is the crossing rule. This page is Hilo town as a dinner door. /volcano is the lodge door at cooler elevation. Same east-side day class, different kitchens. We will not sell Hilo as a Volcano page or the reverse.',
         },
         {
-          q: 'Same as /east-side?',
-          a: 'That page is the crossing rule. This page is Hilo town.',
+          q: 'Why can’t a Kona or Waikoloa night absorb Hilo town?',
+          a: 'The saddle is the point. Hilo town is a separate crew day, about 2.5–3 hours from the resorts, with its own staffing quote. This page is that town door. /east-side is the rule that forbids the unpaid round trip. /kona stays the west-side town. We do not tuck a Hilo table onto a Kohala evening.',
+        },
+        {
+          q: 'Can I treat “Hilo” as live service on this host?',
+          a: 'No. Inquiry only. We will not print “now serving Hilo” until a crew exists for that side. East-side dates go on /quote?island=bigisland. The band on /pricing is not a Hilo calendar. A reply means someone can actually hold the week — not a placeholder roster.',
+        },
+        {
+          q: 'Does an east-side Hilo day use the same grocery models as the west-side card?',
+          a: 'The food lines are the Hawaiʻi Island card, and the staffing is not a west-side afternoon. Signature $210–$325 a guest already includes the shop. ENTRY from $165 is the shorter Hilo night when the town kitchen fits it. Stay Chef from $1,450 is the fee; Hilo groceries print at cost with receipts and never ride inside that fee. Crossing labor is its own day on the quote. Then 20% service, Hawaiʻi GET up to 4.712%, and a 50% deposit once a crew can hold the date. Gratuity is never required. Card: /pricing.',
+        },
+        {
+          q: 'Does Hilo rain change the cooktop rule?',
+          a: 'No. A wet town still needs a working range, cold storage, and seats. A hotel room or lock-off without heat is declined before a deposit, even when the lanai looks usable between showers. Outdoor fire is a separate weather plan. The kitchen test is not optional because the drive was long.',
+        },
+        {
+          q: 'How do you plan around Hilo rain?',
+          a: 'Honestly. Hilo is a wetter climate. Outdoor fire or a lawn table is a plan we can keep or we decline it. Covered backup is written when the table is outdoors. We would rather move the night than sell a dry lawn we cannot keep. Kitchen note: /blog/dining-in-hilo.',
+        },
+        {
+          q: 'Ironman or event weeks — can you stack Hilo and Waikoloa?',
+          a: 'Flag event weeks early. One crew, one heavy week. We will not sell a Hilo lunch and a Waikoloa dinner on the same Saturday as a free fantasy. Compressed calendars sit on /ironman-weeks when that week applies. Still inquiry.',
+        },
+        {
+          q: 'How do I send Hilo dates without treating them as a Kona add-on?',
+          a: 'Use /quote?island=bigisland and write the Hilo street, the east-side dates, and the headcount as their own day. WhatsApp https://wa.me/18084687748 (+1 808 468 7748) once that day is real. Email quotes@mychef-hawaii.com. A reply comes in Hawaii hours only if a crew can make the crossing. Tariff: /pricing. The rule stays on /east-side — do not file this as a Waikoloa afternoon.',
         },
       ],
       related: [
