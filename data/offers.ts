@@ -752,7 +752,38 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       zone: 'Surcharge zone',
       photo: 'northShore',
       faqs: [
-        { q: 'How much is the travel fee?', a: 'Published on your written quote as its own line. Ask on WhatsApp and we send the zone with the menu.' },
+        {
+          q: 'How much is the travel fee?',
+          a: 'Turtle Bay, Haleʻiwa, and Sunset Beach sit 60–90+ minutes from town. That drive prints as its own line on the written quote. It is not folded into the fish. Town residences stay on /honolulu. Windward base stays on /kailua. Tariff: /pricing.',
+        },
+        {
+          q: 'What does a Turtle Bay, Haleʻiwa, or Sunset Beach kitchen need?',
+          a: 'A working cooktop, a fridge that can hold the shop, and a table for the list. Hotel rooms without a kitchen are declined before any deposit. The same test covers a Sunset Beach rental and a Haleʻiwa house. Island home: /.',
+        },
+        {
+          q: 'What sits inside a North Shore Signature night at $195–$290?',
+          a: 'Menu, the shop, and service at your range — $195–$290 per guest, groceries already inside that band. Then 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit holds the date. Gratuity is voluntary. The drive line stays separate. Card: /pricing. Address: /quote?island=oahu.',
+        },
+        {
+          q: 'Stay Chef from $1,250 on a North Shore week — where do groceries print?',
+          a: 'The day starts at $1,250. Groceries bill at cost with receipts and never ride inside that fee. Signature keeps its shop inside $195–$290. The two models do not blend. A second meal that day is written, not assumed. Week form: /quote?island=oahu.',
+        },
+        {
+          q: 'Can a town dinner and a North Shore dinner share one chef evening?',
+          a: 'No. This shore is a dedicated chef day. Haleʻiwa after a town table, or Sunset Beach after a Waikīkī night, is a second drive we will not hide. One evening, one corridor. Town door: /honolulu.',
+        },
+        {
+          q: 'How early should a winter swell week on this shore be asked?',
+          a: 'Winter swell fills Turtle Bay and Sunset Beach first. Ask when the villa dates exist — weeks out, not the week of. A summer Tuesday is easier. The drive line does not shrink because the surf is small. Dates: /quote?island=oahu.',
+        },
+        {
+          q: 'Weekly rhythm for a North Shore resident versus one villa dinner?',
+          a: 'Residents and long stays want a standing cook day and leftovers, not seven copied villa dinners. That Resident’s Island rhythm bills groceries at cost. One celebration still uses Signature. Say which on /quote?island=oahu. Island home: /.',
+        },
+        {
+          q: 'What do I send for a written North Shore total?',
+          a: 'Open /quote?island=oahu with the North Shore address, the dates, and the headcount. Or WhatsApp https://wa.me/18084687748 — +1 808 468 7748. Desk: quotes@mychef-hawaii.com. Hawaii-hours reply. The written total carries the drive line. See /pricing.',
+        },
       ],
     },
     {
