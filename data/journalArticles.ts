@@ -36,22 +36,13 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'How an Oahu chef quote is built | myCHEF',
       description:
         'How an Oahu written quote is built: published dinner band, fee stack, North Shore travel if any.',
-      lede:
-        '/pricing is the tariff. /private-chef-cost is the stack. This journal piece is how those two become a Kahala or Ko Olina total.',
+      lede: 'How an Oahu written quote is built: published dinner band, fee stack, North Shore travel if any.',
       photo: 'jnlCostOahu',
       body: [
-        'CORE on this island is the published dinner band. Service 20% and GET up to 4.712% print as their own lines. North Shore is a surcharge day — /north-shore.',
-        'The written quote is the contract. Indicative bands on /pricing are starting prices, not a verbal range in a chat window.',
+        'CORE on this island is the published dinner band. Service 20% and GET up to 4.712% print as their own lines. North Shore is a surcharge day.',
+        'The written quote is the contract. Indicative bands on the pricing page are starting prices, not a verbal range in a chat window.',
       ],
       faqs: [
-        {
-          q: 'Same as /pricing?',
-          a: 'That page is the rate card. This piece is how the card, the stack, and the corridor become one total.',
-        },
-        {
-          q: 'Same as /private-chef-cost?',
-          a: 'That page is the stack. This piece is the journal note beside it.',
-        },
       ],
       related: [
         { path: '/pricing', label: 'Oahu rate card' },
@@ -66,25 +57,17 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'Hiring a chef on Oahu without a mystery invoice | myCHEF',
       description:
         'How to hire on Oahu: name the corridor, confirm the kitchen, send five fields.',
-      lede:
-        '/help/getting-started is the first-booking checklist. /quote is the form. This journal piece is why those two exist — so the total is written, not guessed.',
+      lede: 'How to hire on Oahu: name the corridor, confirm the kitchen, send five fields.',
       photo: 'jnlHireOahu',
       body: [
-        'Live corridors: /honolulu, /waikiki, /kailua, /north-shore, /kahala, /ko-olina. Hotel suites without a cooktop are declined.',
+        'We cook in Honolulu, Waikīkī, Kailua and Lanikai, the North Shore, Kahala and the Gold Coast, and Ko Olina. Hotel suites without a cooktop are declined.',
         'Five fields. No account. No payment to ask. Fifty percent locks the date only after you accept the written total.',
-        `This article is how a dinner in the house gets hired.`,
+        'When you are ready to book, the [private chef Oahu](/) page has the dinner prices and the Honolulu-to-Ko Olina coverage. Bigger parties with servers are [Oahu catering](/catering).',
       ],
       faqs: [
-        {
-          q: 'Same as /quote?',
-          a: 'That URL is the form. This piece is the journal note on why we will not take a verbal yes — Kahala kitchen.',
-        },
-        {
-          q: 'Same as /help/getting-started?',
-          a: 'That page is corridor and kitchen. This piece is the hire, in reading-list form.',
-        },
       ],
       related: [
+        { path: '/', label: 'Private chef Oahu' },
         { path: '/help/getting-started', label: 'First-booking checklist' },
         { path: '/quote', label: 'Quote form' },
         { path: '/locations', label: 'Corridor directory' },
@@ -97,22 +80,16 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'Oahu villa kitchens — Gold Coast cooktops, not hotel suites | myCHEF',
       description:
         'What an Oahu villa kitchen can hold: Kahala and Ko Olina cooktops, Waikīkī suites we decline.',
-      lede:
-        '/private-chef is what a night includes. /short-stay is the rental that still has to cook. This journal piece is the room itself — the constraint we write before anyone shops.',
+      lede: 'What an Oahu villa kitchen can hold: Kahala and Ko Olina cooktops, Waikīkī suites we decline.',
       photo: 'jnlKitchenOahu',
       body: [
-        'Hotel suites without a cooktop are declined. Gold Coast houses on /gold-coast and short-stay villas on /short-stay are the product. We design the menu around the range, not a brochure photo.',
-        `This article is why a Kahala cooktop and a Waikīkī suite are not the same night.`,
+        'Hotel suites without a cooktop are declined. Gold Coast houses on the Gold Coast page and short-stay villas on the Short-stay villas page are the product. We design the menu around the range, not a brochure photo.',
         'Freight elevators and COIs are handled in advance on towers. If the kitchen cannot support the draft, that is on the quote — not discovered at 4 p.m.',
       ],
       faqs: [
         {
-          q: 'Same as /private-chef?',
-          a: 'That page is what a night includes. This piece is the kitchen constraint that decides whether we even quote — Kahala kitchen.',
-        },
-        {
           q: 'Will you cook in a Waikīkī suite?',
-          a: 'Not without a functioning cooktop. Open /short-stay. We decline rooms that impersonate room service.',
+          a: 'Not without a functioning cooktop. We decline rooms that impersonate room service.',
         },
       ],
       related: [
@@ -128,21 +105,16 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'How allergies land on an Oahu menu draft | myCHEF',
       description:
         'How an Oahu allergy note becomes a written course, not an improvisation.',
-      lede:
-        '/dietary is the service document — designed in, not theatre. This journal piece is how that note actually lands on a Kahala or Kailua draft.',
+      lede: 'How an Oahu allergy note becomes a written course, not an improvisation.',
       photo: 'jnlDietOahu',
       body: [
         'Tell us in the five fields. The proposal names the constraint. We do not invent a “we can do anything” claim for a Gold Coast kitchen we have not seen.',
-        'Cross-contact limits are stated if the room cannot hold them. Kids’ plates sit on /kids-menus. The sample on /menus is an example, not a standing carte.',
+        'Cross-contact limits are stated if the room cannot hold them. The sample on the menus page is an example, not a standing carte.',
       ],
       faqs: [
         {
-          q: 'Same as /dietary?',
-          a: 'That URL is the service page. This piece is the journal note on how the allergy reaches the draft — Kahala kitchen.',
-        },
-        {
           q: 'Can you invent it on the night?',
-          a: 'No. Designed ahead, or we decline the seat. Open /dietary — Kahala kitchen.',
+          a: 'No. Designed ahead, or we decline the seat. Open the dietary page — Kahala kitchen.',
         },
       ],
       related: [
@@ -158,23 +130,13 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'What an Oahu night includes — and what prints as its own line | myCHEF',
       description:
         'Shop, cook, serve, clean on Oahu. Alcohol, rentals, and GET print as their own lines.',
-      lede:
-        '/private-chef is the inclusion page. /pricing is the tariff. This journal piece is the written split — what is in, and what never hides inside the band.',
+      lede: 'Shop, cook, serve, clean on Oahu. Alcohol, rentals, and GET print as their own lines.',
       photo: 'jnlInclOahu',
       body: [
         'Shopping, cooking, service, and cleanup are in. Alcohol, rentals, and venue fees are out — always their own lines on a Kahala or Ko Olina quote.',
-        'Service 20% and GET up to 4.712% print beside the dinner band. North Shore travel is a surcharge day — /north-shore — not a surprise in the stack.',
-        `This article is one dinner in the house, itemised.`,
+        'Service 20% and GET up to 4.712% print beside the dinner band. North Shore travel is a surcharge day — not a surprise in the stack.',
       ],
       faqs: [
-        {
-          q: 'Same as /private-chef?',
-          a: 'That page is the inclusion document. This piece is the journal note on why exclusions print as lines — Kahala kitchen.',
-        },
-        {
-          q: 'Same as /pricing?',
-          a: 'That page is the rate card. This piece is what the card does and does not swallow — Kahala kitchen.',
-        },
       ],
       related: [
         { path: '/private-chef', label: 'What’s included' },
@@ -189,22 +151,17 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'How far ahead to book an Oahu night | myCHEF',
       description:
         'Peak months and notice on Oahu: December–March, wedding peaks, convention-week access.',
-      lede:
-        '/coverage is the zone map. /quote is the form. This journal piece is when those two fill — so we would rather say the calendar now than invent a last-minute yes.',
+      lede: 'Peak months and notice on Oahu: December–March, wedding peaks, convention-week access.',
       photo: 'jnlBookOahu',
       body: [
-        'December–March and wedding peaks (September, October, May) move first on this island. January around the Sony Open week presses hospitality even when HCC citywides are closed — /conventions.',
-        'Gold Coast houses book earlier than a Kailua Tuesday. North Shore is a surcharge day with its own clock — /north-shore. We do not hold a date on a verbal yes.',
+        'December–March and wedding peaks (September, October, May) move first on this island. January around the Sony Open week presses hospitality even when HCC citywides are closed.',
+        'Gold Coast houses book earlier than a Kailua Tuesday. North Shore is a surcharge day with its own clock. We do not hold a date on a verbal yes.',
         'Five fields. Fifty percent locks the date only after you accept the written total. Far-notice is honesty, not a scarcity stunt.',
       ],
       faqs: [
         {
-          q: 'Same as /coverage?',
-          a: 'That page is where we cook. This piece is when those corridors fill.',
-        },
-        {
           q: 'Can you take next Saturday?',
-          a: 'Sometimes. Send the date on /quote. We will not invent a roster.',
+          a: 'Sometimes. Send the date on the quote form. We will not invent a roster.',
         },
       ],
       related: [
@@ -220,22 +177,16 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'Oahu chef versus a restaurant — the table is the house | myCHEF',
       description:
         'In-villa Oahu service compared with going out.',
-      lede:
-        '/private-chef is what a night includes. /honeymoon-dinners is two seats. This journal piece is the other product — a restaurant reservation — and why we will not pretend we are one.',
+      lede: 'Oahu chef versus a restaurant: practical notes from myCHEF Hawaii for a private chef night in your villa or vacation rental. Send your dates for a written quote.',
       photo: 'jnlVsOahu',
       body: [
         'A restaurant is a room you do not have. We cook in a Kahala or Ko Olina kitchen, then leave it cleaner than we found it. If you want a dining room we do not own, book a restaurant.',
-        'We do not hold restaurant tables. We do not walk a party into a hotel restaurant as a “chef night.” Open /what-we-dont-do.',
-        `This article is why the table stays in the house.`,
+        'We do not hold restaurant tables. We do not walk a party into a hotel restaurant as a “chef night.” Open the what-we-don’t-do list.',
       ],
       faqs: [
         {
-          q: 'Same as /private-chef?',
-          a: 'That page is the inclusion document. This piece is the journal note on why a restaurant is a different product — Kahala kitchen.',
-        },
-        {
           q: 'Can you book us a restaurant?',
-          a: 'No. We cook in the house. Open /quote — Kahala kitchen.',
+          a: 'No. We cook in the house. Open the quote form — Kahala kitchen.',
         },
       ],
       related: [
@@ -254,21 +205,16 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'How a Maui chef quote is built | myCHEF',
       description:
         'How a Maui written quote is built: published dinner band, fee stack, Upcountry travel if any.',
-      lede:
-        '/pricing is the tariff. /private-chef-cost is the stack. This journal piece is how those two become a Wailea or Kapalua total.',
+      lede: 'How a Maui written quote is built: published dinner band, fee stack, Upcountry travel if any.',
       photo: 'jnlCostMaui',
       body: [
-        'CORE on this island is the published dinner band. Saturday West Maui arrival is planned, not hidden — /west-maui. Service and GET print as their own lines.',
+        'CORE on this island is the published dinner band. Saturday West Maui arrival is planned, not hidden. Service and GET print as their own lines.',
         'The written quote is the contract. Moving from Wailea to Lahaina after a deposit can change the travel line.',
       ],
       faqs: [
         {
-          q: 'Same as /pricing?',
-          a: 'That page is the rate card. This piece is how shore, stack, and band become one total.',
-        },
-        {
           q: 'Is Saturday traffic a fee?',
-          a: 'It is a planned drive, not a surprise line. Open /west-maui.',
+          a: 'It is a planned drive, not a surprise line.',
         },
       ],
       related: [
@@ -284,25 +230,21 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'Hiring a chef on Maui without a mystery invoice | myCHEF',
       description:
         'How to hire on Maui: name the shore, confirm the kitchen, send five fields.',
-      lede:
-        '/help/getting-started is the first-booking checklist. /quote is the form. This journal piece is why the total is written before anyone shops Wailea.',
+      lede: 'How to hire on Maui: name the shore, confirm the kitchen, send five fields.',
       photo: 'jnlHireMaui',
       body: [
-        'Live corridors: /wailea, /kaanapali, /lahaina, /kihei, /kapalua, /makena. Name the shore. Name the kitchen.',
-        `This article is how a villa night gets hired.`,
+        'We cook in Wailea, Kāʻanapali, Lahaina and West Maui, Kīhei, Kapalua and Makena. Name the shore and describe the kitchen.',
         'Five fields. No payment to ask. Fifty percent locks the date only after you accept the written total.',
+        'When you are ready to book, the [private chef Maui](/) page has the villa-dinner prices and Wailea-to-Kapalua coverage. Staffed parties are [Maui catering](/catering).',
       ],
       faqs: [
         {
-          q: 'Same as /quote?',
-          a: 'That URL is the form. This piece is the journal note on why we will not take a verbal yes — Wailea kitchen.',
-        },
-        {
           q: 'Lahaina after a Wailea deposit?',
-          a: 'Write us. The travel line can change. Open /lahaina.',
+          a: 'Write us. The travel line can change.',
         },
       ],
       related: [
+        { path: '/', label: 'Private chef Maui' },
         { path: '/help/getting-started', label: 'First-booking checklist' },
         { path: '/quote', label: 'Quote form' },
         { path: '/locations', label: 'Corridor directory' },
@@ -315,19 +257,13 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'Maui villa kitchens — Wailea cooktops, not hotel suites | myCHEF',
       description:
         'What a Maui villa kitchen can hold: Wailea and Kapalua cooktops, walk-up suites we decline.',
-      lede:
-        '/private-chef is what a night includes. /west-maui is Saturday timing. This journal piece is the room itself — the range that decides the draft.',
+      lede: 'What a Maui villa kitchen can hold: Wailea and Kapalua cooktops, walk-up suites we decline.',
       photo: 'jnlKitchenMaui',
       body: [
-        'Hotel suites without a cooktop are declined. South Maui houses on /south-maui and West Maui estates on /west-maui are the product. We design around the range, not a listing photo.',
-        `This article is why a Wailea cooktop and a Kāʻanapali walk-up are not the same night.`,
+        'Hotel suites without a cooktop are declined. South Maui houses on the South Maui page and West Maui estates on the West Maui page are the product. We design around the range, not a listing photo.',
         'Moving from Wailea to Lahaina after a deposit can change the travel line. If the kitchen cannot support the draft, that is on the quote — not discovered at 4 p.m.',
       ],
       faqs: [
-        {
-          q: 'Same as /private-chef?',
-          a: 'That page is what a night includes. This piece is the kitchen constraint that decides whether we even quote — Wailea kitchen.',
-        },
         {
           q: 'Will you cook in a resort suite?',
           a: 'Not without a functioning cooktop. We decline rooms that impersonate room service.',
@@ -346,21 +282,16 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'How allergies land on a Maui menu draft | myCHEF',
       description:
         'How a Maui allergy note becomes a written course, not an improvisation.',
-      lede:
-        '/dietary is the service document — designed in Wailea and West Maui kitchens. This journal piece is how that note actually lands on the draft.',
+      lede: 'How a Maui allergy note becomes a written course, not an improvisation.',
       photo: 'jnlDietMaui',
       body: [
         'Tell us in the five fields. The proposal names the constraint. We do not invent a “we can do anything” claim for a Kapalua kitchen we have not seen.',
-        'Identical event plates can carry one dietary note on the quote. Cross-contact limits are stated if the room cannot hold them. Kids’ plates: /kids-menus.',
+        'Identical event plates can carry one dietary note on the quote. Cross-contact limits are stated if the room cannot hold them.',
       ],
       faqs: [
         {
-          q: 'Same as /dietary?',
-          a: 'That URL is the service page. This piece is the journal note on how the allergy reaches the draft — Wailea kitchen.',
-        },
-        {
           q: 'Can you invent it on the night?',
-          a: 'No. Designed ahead, or we decline the seat. Open /dietary — Wailea kitchen.',
+          a: 'No. Designed ahead, or we decline the seat. Open the dietary page — Wailea kitchen.',
         },
       ],
       related: [
@@ -376,23 +307,13 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'What a Maui night includes — and what prints as its own line | myCHEF',
       description:
         'Shop, cook, serve, clean on Maui. Alcohol, rentals, and GET print as their own lines.',
-      lede:
-        '/private-chef is the inclusion page. /pricing is the tariff. This journal piece is the written split — what is in, and what never hides inside the band.',
+      lede: 'Shop, cook, serve, clean on Maui. Alcohol, rentals, and GET print as their own lines.',
       photo: 'jnlInclMaui',
       body: [
         'Shopping, cooking, service, and cleanup are in. Alcohol, rentals, and venue fees are out — always their own lines on a Wailea or Kapalua quote.',
-        'Service and GET print beside the dinner band. Saturday West Maui arrival is planned, not hidden — /west-maui — not a surprise in the stack.',
-        `This article is one villa night, itemised.`,
+        'Service and GET print beside the dinner band. Saturday West Maui arrival is planned, not hidden — not a surprise in the stack.',
       ],
       faqs: [
-        {
-          q: 'Same as /private-chef?',
-          a: 'That page is the inclusion document. This piece is the journal note on why exclusions print as lines — Wailea kitchen.',
-        },
-        {
-          q: 'Same as /pricing?',
-          a: 'That page is the rate card. This piece is what the card does and does not swallow — Wailea kitchen.',
-        },
       ],
       related: [
         { path: '/private-chef', label: 'What’s included' },
@@ -407,22 +328,17 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'How far ahead to book a Maui night | myCHEF',
       description:
         'Peak months and notice on Maui: December–March, wedding-week houses, Saturday West Maui drives.',
-      lede:
-        '/coverage is the zone map. /quote is the form. This journal piece is when Wailea and West Maui fill — so we would rather say the calendar now.',
+      lede: 'Peak months and notice on Maui: December–March, wedding-week houses, Saturday West Maui drives.',
       photo: 'jnlBookMaui',
       body: [
-        'December–March and wedding peaks (September, October, May) move first. Wedding-week houses on /wedding-week are several nights, not one verbal yes.',
-        'Saturday West Maui arrival is a planned drive — /west-maui. Upcountry is a surcharge zone even when the draft looks simple. We do not hold a date on a chat window.',
+        'December–March and wedding peaks (September, October, May) move first. Wedding-week houses on the wedding week page are several nights, not one verbal yes.',
+        'Saturday West Maui arrival is a planned drive. Upcountry is a surcharge zone even when the draft looks simple. We do not hold a date on a chat window.',
         'Five fields. Fifty percent locks the date only after you accept the written total. Far-notice is honesty, not a scarcity stunt.',
       ],
       faqs: [
         {
-          q: 'Same as /coverage?',
-          a: 'That page is where we cook. This piece is when those shores fill.',
-        },
-        {
           q: 'Can you take next Saturday in Lahaina?',
-          a: 'Sometimes. Send the date on /quote. Saturday West Maui is planned, not assumed.',
+          a: 'Sometimes. Send the date on the quote form. Saturday West Maui is planned, not assumed.',
         },
       ],
       related: [
@@ -438,22 +354,16 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'Maui chef versus a restaurant — the table is the villa | myCHEF',
       description:
         'In-villa Maui service compared with going out.',
-      lede:
-        '/private-chef is what a night includes. /honeymoon-dinners is two seats. This journal piece is the other product — a restaurant reservation — and why we will not pretend we are one.',
+      lede: 'Maui chef versus a restaurant: practical notes from myCHEF Hawaii for a private chef night in your villa or vacation rental. Send your dates for a written quote.',
       photo: 'jnlVsMaui',
       body: [
         'A restaurant is a room you do not have. We cook in a Wailea or Kapalua kitchen, then leave it cleaner than we found it. If you want a dining room we do not own, book a restaurant.',
-        'We do not hold restaurant tables. We do not walk a party into a resort restaurant as a “chef night.” Open /what-we-dont-do.',
-        `This article is why the table stays in the house.`,
+        'We do not hold restaurant tables. We do not walk a party into a resort restaurant as a “chef night.” Open the what-we-don’t-do list.',
       ],
       faqs: [
         {
-          q: 'Same as /private-chef?',
-          a: 'That page is the inclusion document. This piece is the journal note on why a restaurant is a different product — Wailea kitchen.',
-        },
-        {
           q: 'Can you book us a restaurant?',
-          a: 'No. We cook in the house. Open /quote — Wailea kitchen.',
+          a: 'No. We cook in the house. Open the quote form — Wailea kitchen.',
         },
       ],
       related: [
@@ -472,22 +382,17 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'How a Kauai chef quote is built | myCHEF',
       description:
         'How a Kauai written quote is built at inquiry: published dinner band, both-shore travel, fee stack.',
-      lede:
-        '/pricing is the tariff. /private-chef-cost is the stack. This journal piece is how those two become a Princeville or Poʻipū inquiry total — when we can staff.',
+      lede: 'How a Kauai written quote is built at inquiry: published dinner band, both-shore travel, fee stack.',
       photo: 'jnlCostKauai',
       body: [
         `Inquiry stage.`,
-        'A band is not a Book-now button. When we can staff, the written quote itemises menu, staffing, shore travel, 20% service, GET.',
-        'Hanalei-bridge weather reschedules rather than forfeits — /hanalei-bridge.',
+        'A band is not an instant-booking button. When we can staff, the written quote itemises menu, staffing, shore travel, 20% service, GET.',
+        'Hanalei-bridge weather reschedules rather than forfeits.',
       ],
       faqs: [
         {
           q: 'Are you live?',
-          a: 'Inquiry. We crew when we can staff. The numbers on /pricing are still the published starting prices.',
-        },
-        {
-          q: 'Same as /pricing?',
-          a: 'That page is the rate card. This piece is how an inquiry total is written.',
+          a: 'Inquiry. We crew when we can staff. The numbers on the pricing page are still the published starting prices.',
         },
       ],
       related: [
@@ -503,25 +408,21 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'Hiring a chef on Kauai without a mystery invoice | myCHEF',
       description:
         'How to enquire on Kauai: name the shore, send five fields, wait for a written reply.',
-      lede:
-        '/help/getting-started is the first-booking checklist. /quote is the inquiry form. This journal piece is why we will not fake a live Book-now button.',
+      lede: 'How to enquire on Kauai: name the shore, send five fields, wait for a written reply.',
       photo: 'jnlHireKauai',
       body: [
-        'Live names: /princeville, /poipu, /hanalei, /kapaa. Both shores. Inquiry.',
-        `This article is how an estate night gets enquired.`,
+        'We cook on both shores — Princeville, Hanalei, Poʻipū and Kapaʻa. Bookings start as an inquiry.',
         'Five fields. We write back with what we can staff. A closed Hanalei bridge moves the night; it does not eat the deposit.',
+        'When you are ready to send dates, the [private chef Kauai](/) page has the both-shore prices and the Hanalei weather clause. Staffed parties of ten to seventy-five are [Kauai catering](/catering).',
       ],
       faqs: [
-        {
-          q: 'Same as /quote?',
-          a: 'That URL is the form. This piece is the journal note on inquiry posture.',
-        },
         {
           q: 'Do you staff every Saturday?',
           a: 'No. We will not hold a fake roster. Send the date.',
         },
       ],
       related: [
+        { path: '/', label: 'Private chef Kauai' },
         { path: '/help/getting-started', label: 'First-booking checklist' },
         { path: '/quote', label: 'Inquiry form' },
         { path: '/locations', label: 'Corridor directory' },
@@ -534,19 +435,13 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'Kauai estate kitchens — both shores, not hotel suites | myCHEF',
       description:
         'What a Kauai estate kitchen can hold at inquiry: Princeville and Poʻipū cooktops, hotel suites we decline.',
-      lede:
-        '/private-chef is what a night includes — when we can staff. /hanalei-bridge is weather. This journal piece is the room itself on either shore.',
+      lede: 'What a Kauai estate kitchen can hold at inquiry: Princeville and Poʻipū cooktops, hotel suites we decline.',
       photo: 'jnlKitchenKauai',
       body: [
-        'Hotel suites without a cooktop are declined. North Shore estates on /north-shore and south-shore houses on /south-shore are the product. Inquiry stage does not mean we impersonate room service.',
-        `This article is why a Princeville range and a hotel galley are not the same night.`,
-        'A closed Hanalei bridge can move the night — /hanalei-bridge. If the kitchen cannot support the draft, that is on the inquiry quote, not discovered at 4 p.m.',
+        'Hotel suites without a cooktop are declined. North Shore estates on the North Shore page and south-shore houses on the South Shore page are the product. Inquiry stage does not mean we impersonate room service.',
+        'A closed Hanalei bridge can move the night. If the kitchen cannot support the draft, that is on the inquiry quote, not discovered at 4 p.m.',
       ],
       faqs: [
-        {
-          q: 'Same as /private-chef?',
-          a: 'That page is what a night includes. This piece is the kitchen constraint that decides whether we even enquire a draft — Princeville kitchen at inquiry.',
-        },
         {
           q: 'Are you live on both shores?',
           a: 'Inquiry. We crew when we can staff. Send the address and the cooktop.',
@@ -565,21 +460,16 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'How allergies land on a Kauai inquiry draft | myCHEF',
       description:
         'How a Kauai allergy note becomes a written course at inquiry, not an improvisation.',
-      lede:
-        '/dietary is the service document — designed for the shore you are on. This journal piece is how that note lands on an inquiry draft.',
+      lede: 'How a Kauai allergy note becomes a written course at inquiry, not an improvisation.',
       photo: 'jnlDietKauai',
       body: [
         'Tell us in the five fields. When we can staff, the proposal names the constraint. Inquiry stage does not mean a fake dietary promise.',
-        'Far-North drafts still inherit /hanalei-bridge. Cross-contact limits are stated if the room cannot hold them. Kids’ plates: /kids-menus.',
+        'Far-North drafts still inherit the Hanalei bridge notes. Cross-contact limits are stated if the room cannot hold them.',
       ],
       faqs: [
         {
-          q: 'Same as /dietary?',
-          a: 'That URL is the service page. This piece is the journal note on how the allergy reaches an inquiry draft.',
-        },
-        {
           q: 'Can you invent it on the night?',
-          a: 'No. Designed ahead, or we decline the seat. Open /dietary — Princeville kitchen at inquiry.',
+          a: 'No. Designed ahead, or we decline the seat. Open the dietary page — Princeville kitchen at inquiry.',
         },
       ],
       related: [
@@ -595,22 +485,16 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'What a Kauai inquiry night includes — and what prints as its own line | myCHEF',
       description:
         'Shop, cook, serve, clean on Kauai when we can staff. Alcohol, rentals, shore travel, and GET print as their own lines.',
-      lede:
-        '/private-chef is the inclusion page. /pricing is the tariff. This journal piece is the written split on an inquiry quote — what is in, and what never hides inside the band.',
+      lede: 'Shop, cook, serve, clean on Kauai when we can staff. Alcohol, rentals, shore travel, and GET print as their own lines.',
       photo: 'jnlInclKauai',
       body: [
         'When we can staff: shopping, cooking, service, and cleanup are in. Alcohol, rentals, and venue fees are out — always their own lines on a Princeville or Poʻipū quote.',
-        'Both-shore travel, service, and GET print beside the dinner band. A band is not a Book-now button. Hanalei-bridge weather reschedules rather than forfeits.',
-        `This article is one estate night, itemised at inquiry.`,
+        'Both-shore travel, service, and GET print beside the dinner band. A band is not an instant-booking button. Hanalei-bridge weather reschedules rather than forfeits.',
       ],
       faqs: [
         {
-          q: 'Same as /private-chef?',
-          a: 'That page is the inclusion document. This piece is the journal note on why exclusions print as lines — even at inquiry.',
-        },
-        {
           q: 'Are the numbers live?',
-          a: 'The published starting prices on /pricing are live. Staffing a Saturday is not assumed. Send the date.',
+          a: 'The published starting prices on the pricing page are live. Staffing a Saturday is not assumed. Send the date.',
         },
       ],
       related: [
@@ -626,22 +510,17 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'How far ahead to enquire a Kauai night | myCHEF',
       description:
         'Peak months and notice on Kauai at inquiry: December–March, wedding peaks, Far-North weather.',
-      lede:
-        '/coverage is the zone map. /quote is the inquiry form. This journal piece is when both shores fill — and why we will not fake a last-minute roster.',
+      lede: 'Peak months and notice on Kauai at inquiry: December–March, wedding peaks, Far-North weather.',
       photo: 'jnlBookKauai',
       body: [
-        'December–March and wedding peaks (September, October, May) move first when we can staff. Far-North Kauaʻi carries a published 72-hour weather window — /hanalei-bridge.',
-        'Wedding-week houses on /wedding-week are several nights. We do not hold a fake Book-now button. Five fields. We write back with what we can staff.',
+        'December–March and wedding peaks (September, October, May) move first when we can staff. Far-North Kauaʻi carries a published 72-hour weather window.',
+        'Wedding-week houses on the wedding week page are several nights. We do not hold a fake instant-booking button. Five fields. We write back with what we can staff.',
         'A closed Hanalei bridge moves the night; it does not eat the deposit. Far-notice is honesty, not a scarcity stunt.',
       ],
       faqs: [
         {
-          q: 'Same as /coverage?',
-          a: 'That page is where we cook. This piece is when those shores fill — at inquiry.',
-        },
-        {
           q: 'Do you staff every Saturday?',
-          a: 'No. Send the date on /quote. We will not invent a roster.',
+          a: 'No. Send the date on the quote form. We will not invent a roster.',
         },
       ],
       related: [
@@ -657,22 +536,16 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'Kauai chef versus a restaurant — the table is the estate | myCHEF',
       description:
         'In-estate Kauai service at inquiry compared with going out.',
-      lede:
-        '/private-chef is what a night includes — when we can staff. /honeymoon-dinners is two seats. This journal piece is the other product — a restaurant reservation — and why an inquiry draft will not pretend we are one.',
+      lede: 'In-estate Kauai service at inquiry compared with going out.',
       photo: 'jnlVsKauai',
       body: [
         'A restaurant is a room you do not have. We cook in a Princeville or Poʻipū kitchen, then leave it cleaner than we found it — when we can staff. If you want a dining room we do not own, book a restaurant.',
-        'We do not hold restaurant tables. We do not walk a party into a resort restaurant as a “chef night.” Open /what-we-dont-do. A band is not a Book-now button.',
-        `This article is why the table stays in the house — at inquiry.`,
+        'We do not hold restaurant tables. We do not walk a party into a resort restaurant as a “chef night.” Open the what-we-don’t-do list. A band is not an instant-booking button.',
       ],
       faqs: [
         {
-          q: 'Same as /private-chef?',
-          a: 'That page is the inclusion document. This piece is the journal note on why a restaurant is a different product — Princeville kitchen at inquiry.',
-        },
-        {
           q: 'Can you book us a restaurant?',
-          a: 'No. We cook in the house, when we can staff. Open /quote — Princeville kitchen at inquiry.',
+          a: 'No. We cook in the house, when we can staff. Open the quote form — Princeville kitchen at inquiry.',
         },
       ],
       related: [
@@ -691,22 +564,17 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'How a Hawaiʻi Island chef quote is built | myCHEF',
       description:
         'How a west-side Hawaiʻi Island written quote is built at inquiry. East side is a different day.',
-      lede:
-        '/pricing is the tariff. /private-chef-cost is the stack. This journal piece is how those two become a Kona or Waikoloa inquiry total — when we can staff.',
+      lede: 'How a west-side Hawaiʻi Island written quote is built at inquiry. East side is a different day.',
       photo: 'jnlCostBigisland',
       body: [
         `Inquiry, west-side first.`,
-        'East side is a dedicated day — /east-side. Never a west-side round trip. Service and GET print as their own lines.',
-        'A band is not a Book-now button. When we can staff, the written quote is the contract.',
+        'East side is a dedicated day. Never a west-side round trip. Service and GET print as their own lines.',
+        'A band is not an instant-booking button. When we can staff, the written quote is the contract.',
       ],
       faqs: [
         {
           q: 'Can a Kona total cover Hilo?',
-          a: 'Not the same day. Open /east-side. We quote a dedicated crossing.',
-        },
-        {
-          q: 'Same as /pricing?',
-          a: 'That page is the rate card. This piece is how a west-side inquiry total is written.',
+          a: 'Not the same day. We quote a dedicated crossing.',
         },
       ],
       related: [
@@ -722,25 +590,21 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'Hiring a chef on Hawaiʻi Island without a mystery invoice | myCHEF',
       description:
         'How to enquire on Hawaiʻi Island: west-side address, five fields, written reply. East side is a different day.',
-      lede:
-        '/help/getting-started is the first-booking checklist. /quote is the inquiry form. This journal piece is why Hilo is not implied.',
+      lede: 'How to enquire on Hawaiʻi Island: west-side address, five fields, written reply. East side is a different day.',
       photo: 'jnlHireBigisland',
       body: [
-        'Live names: /kona, /waimea, /waikoloa, /kohala. West side first.',
-        `This article is how a west-side night gets enquired.`,
+        'We cook on the west side first — Kailua-Kona, Keauhou, Waimea, Waikoloa and the Kohala Coast.',
         'Five fields. We write back with what we can staff. Adding a Hilo lunch after a Kona dinner is a second day.',
+        'When you are ready to send dates, the [private chef Big Island](/) page has the Kona–Kohala prices and the ENTRY and CORE bands. Staffed parties are [Big Island catering](/catering).',
       ],
       faqs: [
         {
-          q: 'Same as /quote?',
-          a: 'That URL is the form. This piece is the journal note on west-side inquiry posture.',
-        },
-        {
-          q: 'Are you live on the west side?',
+          q: 'Are you are on the west side?',
           a: 'Inquiry. We crew when we can staff. Send the address.',
         },
       ],
       related: [
+        { path: '/', label: 'Private chef Big Island' },
         { path: '/help/getting-started', label: 'First-booking checklist' },
         { path: '/quote', label: 'Inquiry form' },
         { path: '/locations', label: 'Corridor directory' },
@@ -753,22 +617,17 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'Hawaiʻi Island villa kitchens — Kona cooktops, not hotel suites | myCHEF',
       description:
         'What a west-side villa kitchen can hold at inquiry: Kona and Waikoloa cooktops, hotel suites we decline. East side is a different day.',
-      lede:
-        '/private-chef is what a night includes — when we can staff. /east-side is a dedicated crossing. This journal piece is the west-side room itself.',
+      lede: 'What a west-side villa kitchen can hold at inquiry: Kona and Waikoloa cooktops, hotel suites we decline. East side is a different day.',
       photo: 'jnlKitchenBigisland',
       body: [
-        'Hotel suites without a cooktop are declined. Kohala houses on /kohala-corridor and Kona villas on /kona are the product. Inquiry stage does not mean we impersonate room service.',
-        `A Hilo kitchen is a different day — /east-side.`,
+        'Hotel suites without a cooktop are declined. Kohala houses on the Kona–Kohala corridor page and Kona villas on the Kailua-Kona / Keauhou page are the product. Inquiry stage does not mean we impersonate room service.',
+        `A Hilo kitchen is a different day.`,
         'If the kitchen cannot support the draft, that is on the inquiry quote — not discovered at 4 p.m. West-side first.',
       ],
       faqs: [
         {
-          q: 'Same as /private-chef?',
-          a: 'That page is what a night includes. This piece is the kitchen constraint that decides whether we even enquire a draft — Waikoloa kitchen. Hilo is never implied.',
-        },
-        {
           q: 'Can a Kona cooktop cover Hilo?',
-          a: 'Not the same day. Open /east-side. We quote a dedicated crossing.',
+          a: 'Not the same day. We quote a dedicated crossing.',
         },
       ],
       related: [
@@ -784,21 +643,16 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'How allergies land on a Hawaiʻi Island menu draft | myCHEF',
       description:
         'How a west-side allergy note becomes a written course at inquiry, not an improvisation. East side is a different day.',
-      lede:
-        '/dietary is the service document — designed west-side first. This journal piece is how that note lands on a Kona or Waikoloa inquiry draft.',
+      lede: 'How a west-side allergy note becomes a written course at inquiry, not an improvisation. East side is a different day.',
       photo: 'jnlDietBigisland',
       body: [
         'Tell us in the five fields. When we can staff, the proposal names the constraint. West-side provisioning for west-side nights.',
-        'East-side dietary is its own team day — /east-side. Coffee Act origin claims stay honest — /coffee-act-198. Kids’ plates: /kids-menus.',
+        'East-side dietary is its own team day. Coffee Act origin claims stay honest.',
       ],
       faqs: [
         {
-          q: 'Same as /dietary?',
-          a: 'That URL is the service page. This piece is the journal note on how the allergy reaches a west-side inquiry draft.',
-        },
-        {
           q: 'Can a Kona draft cover a Hilo allergy table?',
-          a: 'Not the same day. Open /east-side.',
+          a: 'Not the same day.',
         },
       ],
       related: [
@@ -814,22 +668,16 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'What a Hawaiʻi Island night includes — and what prints as its own line | myCHEF',
       description:
         'Shop, cook, serve, clean on the west side when we can staff. Alcohol, rentals, GET, and east-side days print as their own lines.',
-      lede:
-        '/private-chef is the inclusion page. /pricing is the tariff. This journal piece is the written split on a west-side inquiry quote — Hilo is never implied.',
+      lede: 'Shop, cook, serve, clean on the west side when we can staff. Alcohol, rentals, GET, and east-side days print as their own lines.',
       photo: 'jnlInclBigisland',
       body: [
         'When we can staff: shopping, cooking, service, and cleanup are in. Alcohol, rentals, and venue fees are out — always their own lines on a Kona or Waikoloa quote.',
-        'Service and GET print beside the dinner band. East side is a dedicated day — /east-side — never a west-side round trip hidden in the stack.',
-        `This article is one west-side night, itemised at inquiry.`,
+        'Service and GET print beside the dinner band. East side is a dedicated day — never a west-side round trip hidden in the stack.',
       ],
       faqs: [
         {
-          q: 'Same as /private-chef?',
-          a: 'That page is the inclusion document. This piece is the journal note on why exclusions — including Hilo — print as lines.',
-        },
-        {
           q: 'Does the CORE band cover the east side?',
-          a: 'No. Open /east-side. We quote a dedicated crossing.',
+          a: 'No. We quote a dedicated crossing.',
         },
       ],
       related: [
@@ -845,22 +693,17 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'How far ahead to enquire a Hawaiʻi Island night | myCHEF',
       description:
         'Peak months and notice on Hawaiʻi Island at inquiry: December–March, Ironman weeks, east-side dedicated days.',
-      lede:
-        '/coverage is the zone map. /quote is the inquiry form. This journal piece is when the west side fills — and why Hilo is never a same-day add-on.',
+      lede: 'Peak months and notice on Hawaiʻi Island at inquiry: December–March, Ironman weeks, east-side dedicated days.',
       photo: 'jnlBookBigisland',
       body: [
-        'December–March and wedding peaks (September, October, May) move first when we can staff. Ironman weeks change access — /ironman-weeks — not a marketing slogan.',
-        'East side is a dedicated day, not a same-day Kona–Hilo fantasy — /east-side. Five fields. We write back with what we can staff. We do not hold a fake Book-now button.',
+        'December–March and wedding peaks (September, October, May) move first when we can staff. Ironman weeks change access — not a marketing slogan.',
+        'East side is a dedicated day, not a same-day Kona–Hilo fantasy. Five fields. We write back with what we can staff. We do not hold a fake instant-booking button.',
         'Far-notice is honesty, not a scarcity stunt. Adding a Hilo lunch after a Kona dinner is a second day.',
       ],
       faqs: [
         {
-          q: 'Same as /coverage?',
-          a: 'That page is where we cook. This piece is when the west side fills — at inquiry.',
-        },
-        {
           q: 'Can you take next Saturday in Hilo after Kona?',
-          a: 'Not the same day. Open /east-side. Send both dates on /quote.',
+          a: 'Not the same day. Send both dates on the quote form.',
         },
       ],
       related: [
@@ -876,22 +719,16 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       title: 'Hawaiʻi Island chef versus a restaurant — the table is the west-side house | myCHEF',
       description:
         'West-side in-house service at inquiry compared with going out.',
-      lede:
-        '/private-chef is what a night includes — when we can staff. /honeymoon-dinners is two seats. This journal piece is the other product — a restaurant reservation — and why an inquiry draft will not pretend we are one.',
+      lede: 'West-side in-house service at inquiry compared with going out.',
       photo: 'jnlVsBigisland',
       body: [
-        'A restaurant is a room you do not have. We cook in a Kona or Waikoloa kitchen, then leave it cleaner than we found it — when we can staff. If you want a dining room we do not own, book a restaurant. East side is a dedicated day — /east-side.',
-        'We do not hold restaurant tables. We do not walk a party into a resort restaurant as a “chef night.” Open /what-we-dont-do. A band is not a Book-now button.',
-        `This article is why the table stays in the house — at inquiry.`,
+        'A restaurant is a room you do not have. We cook in a Kona or Waikoloa kitchen, then leave it cleaner than we found it — when we can staff. If you want a dining room we do not own, book a restaurant. East side is a dedicated day.',
+        'We do not hold restaurant tables. We do not walk a party into a resort restaurant as a “chef night.” Open the what-we-don’t-do list. A band is not an instant-booking button.',
       ],
       faqs: [
         {
-          q: 'Same as /private-chef?',
-          a: 'That page is the inclusion document. This piece is the journal note on why a restaurant is a different product — Waikoloa kitchen at inquiry. Hilo is never implied.',
-        },
-        {
           q: 'Can you book us a restaurant?',
-          a: 'No. We cook in the house, when we can staff. Open /quote — Waikoloa kitchen. Hilo is never implied.',
+          a: 'No. We cook in the house, when we can staff. Open the quote form — Waikoloa kitchen. Hilo is never implied.',
         },
       ],
       related: [

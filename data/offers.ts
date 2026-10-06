@@ -126,7 +126,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
       },
       {
         q: 'Do you cook in an Airbnb or vacation rental?',
-        a: 'Yes, when there is a real kitchen — heat, cold storage, and seats for the list. Hotel rooms without a cooktop are declined or redesigned. Tell us the property type on WhatsApp or /quote?island=maui before a deposit.',
+        a: 'Yes, when there is a real kitchen — heat, cold storage, and seats for the list. Hotel rooms without a cooktop are declined or redesigned. Tell us the property type on WhatsApp or the quote form before a deposit.',
       },
       {
         q: 'Can you do kids’ plates and allergies?',
@@ -134,7 +134,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
       },
       {
         q: 'Private chef Maui cost — what do I actually pay?',
-        a: 'Per person: CORE $225–$375. Groceries for Stay Chef are billed at cost with receipts. Service 20% and Hawaiʻi GET up to 4.712% sit on their own lines — once. See /pricing.',
+        a: 'Per person: CORE $225–$375. Groceries for Stay Chef are billed at cost with receipts. Service 20% and Hawaiʻi GET up to 4.712% sit on their own lines — once.',
       },
       {
         q: 'Do you do a private sushi chef on Maui?',
@@ -169,7 +169,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     faqs: [
       {
         q: 'How much is a private chef in Honolulu or on Oʻahu?',
-        a: 'Signature dinners start at $195–$290 a guest with groceries inside that band. Stay Chef is $1,250 a day with groceries at cost and receipts. Personal-chef / weekly meal prep from $450 a week plus groceries at cost. 20% service and Hawaiʻi GET up to 4.712% print as their own lines. A tip is never required. Request a written quote on /quote?island=oahu or WhatsApp.',
+        a: 'Signature dinners start at $195–$290 a guest with groceries inside that band. Stay Chef is $1,250 a day with groceries at cost and receipts. Personal-chef / weekly meal prep from $450 a week plus groceries at cost. 20% service and Hawaiʻi GET up to 4.712% print as their own lines. A tip is never required. Request a written quote on the quote form or WhatsApp.',
       },
       {
         q: 'Our condo kitchen is small — does that work?',
@@ -177,7 +177,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
       },
       {
         q: 'Do you cook for residents, not just visitors?',
-        a: 'Yes. The kamaʻāina line is a standing weekly chef — frequency, not a tourist one-off. Visitor first nights stay on this home; weekly household cooking lives on /personal-chef.',
+        a: 'Yes. The kamaʻāina line is a standing weekly chef — frequency, not a tourist one-off.',
       },
       {
         q: 'North Shore — is travel extra?',
@@ -185,19 +185,19 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
       },
       {
         q: 'Oahu catering or a private chef?',
-        a: 'A villa dinner for the house is private chef Oahu. Ten to seventy-five guests is the catering page — same team, buffet or plated. See /catering. Start on /quote?island=oahu.',
+        a: 'A villa dinner for the house is private chef Oahu. Ten to seventy-five guests is the catering page — same team, buffet or plated. Start on the quote form.',
       },
     ],
   },
   kauai: {
     keyword: 'private chef kauai',
     volume: 210,
-    h1: 'Private chef Kauai — both shores, inquiry stage.',
+    h1: 'Private chef Kauai — both shores, by inquiry.',
     title: 'Private Chef Kauai | Personal Chef, Both Shores | myCHEF',
     description:
-      'Private chef Kauai from $225 a guest — a personal chef for villa dinners in Princeville, Hanalei and Poʻipū. Inquiry stage: send dates and shore for a written reply.',
+      'Private chef Kauai from $225 a guest — a personal chef for villa dinners in Princeville, Hanalei and Poʻipū. By inquiry: send dates and shore for a written reply.',
     lede:
-      'Private chef Kauai on the Garden Isle — a personal chef for Princeville, Poʻipū and Hanalei villas. Both shores, inquiry stage, from $225 a guest. Send your dates.',
+      'Private chef Kauai on the Garden Isle — a personal chef for Princeville, Poʻipū and Hanalei villas. Both shores, by inquiry, from $225 a guest. Send your dates.',
     fromPp: 225,
     dayFrom: 1650,
     heroPhoto: 'kauaiHero',
@@ -210,11 +210,11 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     faqs: [
       {
         q: 'How much does a private chef cost on Kauaʻi?',
-        a: 'Signature $225–$375 a guest — the same band as Maui, earned by a thinner supplier bench. Date Night is a fixed evening at $975–$1,425. Stay Chef from $1,650 a day with groceries at cost. 20% service and GET up to 4.712% print separately. A tip is never silent and never required. Enquire on /quote?island=kauai — not Book-now.',
+        a: 'Signature $225–$375 a guest — the same band as Maui, earned by a thinner supplier bench. Date Night is a fixed evening at $975–$1,425. Stay Chef from $1,650 a day with groceries at cost. 20% service and GET up to 4.712% print separately. A tip is never silent and never required. Enquire on the quote form — not instant booking.',
       },
       {
         q: 'Do you actually book Kauaʻi, or is this a waitlist?',
-        a: 'Kauaʻi is inquiry-stage. Join the inquiry list with the shore and the dates on /quote?island=kauai. Far-North (Hāʻena) needs 72-hour notice and a weather/road clause — we publish that instead of pretending the Hanalei bridge never closes. We will not sell a Book-now button.',
+        a: 'Kauaʻi is by inquiry only. Join the inquiry list with the shore and the dates on the quote form. Far-North (Hāʻena) needs 72-hour notice and a weather/road clause — we publish that instead of pretending the Hanalei bridge never closes. We will not sell an instant-booking button.',
       },
       {
         q: 'Princeville or Poʻipū — does the price change?',
@@ -230,7 +230,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
       },
       {
         q: 'What about a bigger party or an estate event?',
-        a: 'Groups of roughly 10–75 with a staffed kitchen are quoted on our Kauai catering page, buffet or plated, with staffing itemised. This page is for dinners and chef-for-the-week stays in the house.',
+        a: 'Groups of roughly 10–75 with a staffed kitchen are quoted on our Kauai catering page, buffet or plated, with staffing itemised.',
       },
     ],
   },
@@ -240,7 +240,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     h1: 'Private chef Big Island — the Kohala Coast first.',
     title: 'Private Chef Big Island | Kona & Kohala Villas | myCHEF',
     description:
-      'Private chef Big Island from $210 a guest — in-villa dinners in Kona, Waikoloa, Waimea and the Kohala Coast. Inquiry stage: send your dates for a written reply.',
+      'Private chef Big Island from $210 a guest — in-villa dinners in Kona, Waikoloa, Waimea and the Kohala Coast. By inquiry: send your dates for a written reply.',
     lede:
       'Private chef dinners on Kona and the Kohala Coast first — seven resort communities in one west-side radius. Hilo and Volcano are quote-only; we will not fake a same-day round trip.',
     fromPp: 210,
@@ -255,7 +255,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     faqs: [
       {
         q: 'How much is a private chef in Kona or on the Big Island?',
-        a: 'CORE dinners start at $210–$325 a guest. ENTRY opens from $165. Stay Chef from $1,450 a day with groceries at cost. 20% service and Hawaiʻi GET up to 4.712% print after the food. Join the inquiry list on /quote?island=bigisland — not Book-now.',
+        a: 'CORE dinners start at $210–$325 a guest. ENTRY opens from $165. Stay Chef from $1,450 a day with groceries at cost. 20% service and Hawaiʻi GET up to 4.712% print after the food. Join the inquiry list on the quote form — not instant booking.',
       },
       {
         q: 'Can you cover Hilo from Kona?',
@@ -263,11 +263,11 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
       },
       {
         q: 'Do you take Ironman week?',
-        a: 'Yes, with compressed availability. Flag those dates early on /quote?island=bigisland or WhatsApp — not the week of the swim. One crew holds one heavy week. We will not promise a Hilo lunch and a Waikoloa dinner on the same race Saturday.',
+        a: 'Yes, with compressed availability. Flag those dates early on the quote form or WhatsApp — not the week of the swim. One crew holds one heavy week. We will not promise a Hilo lunch and a Waikoloa dinner on the same race Saturday.',
       },
       {
         q: 'Is this Hawaiʻi Island or the Big Island?',
-        a: 'Both. Searchers say Big Island and Kona; the geography is Hawaiʻi Island. There is no separate Kona hostname. The chef is the same. This home still owns private chef Big Island.',
+        a: 'Both. The chef is the same.',
       },
     ],
   },
@@ -283,31 +283,27 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       description:
         'Private chef Wailea Maui from $225/pp. Published prices and menus — villa dinners and wedding-week catering in resort residences. WhatsApp for a quote.',
       lede:
-        'Private chef Wailea Maui is the search. Hotel-zoned residences with real kitchens, published $225–$375/pp CORE, a written menu — not a named-chef marketplace.',
+        'Hotel-zoned residences with real kitchens, published $225–$375/pp CORE, a written menu — not a named-chef marketplace.',
       body: [
         'This is not a resort communal chef’s table. It is your villa, your guest list, a menu designed that week. Sunset on the lānai is the usual ask; we write a covered backup before a deposit because South Maui wind is a Tuesday, not a surprise.',
-        'Signature sits at $225–$375 a guest — groceries inside that band. Date Night from $750+, Family Feast, and wedding-week lines live on the same Maui card. Stay Chef is the villa-week cook from $1,550 a day with groceries at cost and receipts. They never blend.',
+        'Signature sits at $225–$375 a guest — groceries inside that band. Date Night from $750+, Family Feast, and wedding-week lines are on the same Maui card. Stay Chef is the villa-week cook from $1,550 a day with groceries at cost and receipts. They never blend.',
         'We stage out of South Maui and shop Kīhei / Wailea the day of service. You pick the catch; the plate follows the boat when the boat is real. Hotel rooms without a cooktop in the resort belt are declined.',
-        'West Maui and the northwest estates are their own dinner doors: /kaanapali, /kapalua. The island home still owns private chef Maui. Line-by-line numbers live on /pricing. Dates, headcount, and the kitchen type go on /quote.',
+        'Line-by-line numbers are on the pricing page. Dates, headcount, and the kitchen type go on the quote form.',
       ],
       zone: 'Base zone — travel included',
       photo: 'wailea',
       faqs: [
         {
           q: 'Which Wailea kitchens actually host a chef?',
-          a: 'Hotel-zoned villas and resort residences with a working range, cold storage, and seats for the list. A Wailea condo galley can work if the cooktop is real — we design a bring-equipment menu and state the constraint on the quote. A standard hotel room with a coffee maker is declined before a deposit. Put the property type on /quote.',
-        },
-        {
-          q: 'Is this the same as a Wailea resort chef’s table?',
-          a: 'No. Those seat you with strangers in a hotel dining room. Ours is private, in your kitchen, paced to your night. The guest list is yours. Cleanup is ours. Sibling West Maui doors: /kaanapali and /kapalua.',
+          a: 'Hotel-zoned villas and resort residences with a working range, cold storage, and seats for the list. A Wailea condo galley can work if the cooktop is real — we design a bring-equipment menu and state the constraint on the quote. A standard hotel room with a coffee maker is declined before a deposit. Put the property type on the quote form.',
         },
         {
           q: 'What does Signature $225–$375 include on a Wailea night?',
-          a: 'Menu design, a same-day South Maui shop, cooking on your range, paced service, and a kitchen we leave empty. Groceries ride inside that band on a Signature night. After the food: 20% service and Hawaiʻi GET up to 4.712% as their own lines. A 50% deposit holds the date. Gratuity is never required. Card: /pricing.',
+          a: 'Menu design, a same-day South Maui shop, cooking on your range, paced service, and a kitchen we leave empty. Groceries ride inside that band on a Signature night. After the food: 20% service and Hawaiʻi GET up to 4.712% as their own lines. A 50% deposit holds the date. Gratuity is never required.',
         },
         {
           q: 'Stay Chef from $1,550 — is food inside that Wailea day rate?',
-          a: 'No. Stay Chef is the villa-week cook: $1,550 a day from, chef plus assistant, one meal. Groceries bill at cost with merchant receipts. Extra meals that day are quoted, not assumed. Signature never folds into the day rate. Write the dates on /quote.',
+          a: 'No. Stay Chef is the villa-week cook: $1,550 a day from, chef plus assistant, one meal. Groceries bill at cost with merchant receipts. Extra meals that day are quoted, not assumed. Signature never folds into the day rate. Write the dates on the quote form.',
         },
         {
           q: 'Where do you stage and shop for a Wailea service?',
@@ -315,15 +311,15 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         },
         {
           q: 'Can the plate follow the same-day South Maui boat?',
-          a: 'When the boat is real, yes — you pick the catch and we plate what landed. Unverified fish is named as fish. We will not invent a Māʻalaea boat on a Tuesday that did not run. Say so on /quote if that is the night you want.',
+          a: 'When the boat is real, yes — you pick the catch and we plate what landed. Unverified fish is named as fish. We will not invent a Māʻalaea boat on a Tuesday that did not run. Say so on the quote form if that is the night you want.',
         },
         {
           q: 'Can you crew a wedding week from a Wailea residence?',
-          a: 'Welcome dinner through recovery brunch as separate lines, starting from $225 a guest plus staffing. The week stack lives on /weddings. This URL stays the villa dinner door. A lawn reception is a different crew than Date Night for two. West Maui satellite nights sit on /kaanapali.',
+          a: 'Welcome dinner through recovery brunch as separate lines, starting from $225 a guest plus staffing. The full wedding week is on the weddings page. A lawn reception is a different crew than Date Night for two. West Maui satellite nights sit on the Kāʻanapali page.',
         },
         {
           q: 'How do I get a written Wailea total?',
-          a: 'Five fields on /quote — Maui, dates, headcount, service, how to reach you — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. A Hawaii-hours desk writes back on a working day. The confirmed number is the written quote, not a chat range. See /pricing.',
+          a: 'Five fields on the quote form — Maui, dates, headcount, service, how to reach you — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. A Hawaii-hours desk writes back on a working day. The confirmed number is the written quote, not a chat range.',
         },
       ],
     },
@@ -340,26 +336,26 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         'Resort residences and hotel-zoned condos with kitchens — not a hotel-room impersonation and not a luxury-dining story about the town next door. People search Lahaina; we answer with the ranges we actually enter on this strip.',
         'Signature stays $225–$375 a guest. Family Feast for six to eight is the usual West Maui order: shared plates, kids’ plates on request, one team. Stay Chef from $1,550 a day, groceries at cost with receipts, fits Honokōwai and Nāpili weeks better than stacking halo nights.',
         'Honoapiʻilani traffic is planned into the chef day. We do not discover Black Rock congestion on your invoice. Condo galleys between Kāʻanapali and Kapalua are common; constraints print on the quote before anyone shops.',
-        'South Maui is /wailea. The northwest estates are /kapalua. The honest Lahaina naming page is /lahaina. Island home still owns private chef Maui. Tariff: /pricing. Dates and the kitchen type: /quote.',
+        'The honest Lahaina naming page is on the Lahaina / West Maui page.',
       ],
       zone: 'Base zone — West Maui',
       photo: 'kaanapali',
       faqs: [
         {
           q: 'Which West Maui kitchens in Kāʻanapali actually work?',
-          a: 'Hotel-zoned residences and condos with a cooktop, fridge, and a table that fits the list. Honokōwai galleys are normal; we say the limit in writing. A hotel room without a range is declined. Tell us the building on /quote before we shop.',
+          a: 'Hotel-zoned residences and condos with a cooktop, fridge, and a table that fits the list. Honokōwai galleys are normal; we say the limit in writing. A hotel room without a range is declined. Tell us the building on the quote form before we shop.',
         },
         {
           q: 'Do you serve a Lahaina address from this corridor?',
-          a: 'Lahaina searches land here. We cook in Kāʻanapali, Nāpili, and Kapalua residences — West Maui villas with kitchens. We do not market a luxury-dining destination the town is not. The naming page is /lahaina. Northwest estates: /kapalua.',
+          a: 'Lahaina searches land here. We cook in Kāʻanapali, Nāpili, and Kapalua residences — West Maui villas with kitchens. We do not market a luxury-dining destination the town is not. Northwest estates: Kapalua.',
         },
         {
           q: 'Same $225–$375 as Wailea — why isn’t West Maui cheaper?',
-          a: 'The Maui Signature band does not discount because you are on the west side. Groceries sit inside that band on a dinner night. After the food: 20% service and Hawaiʻi GET up to 4.712%, each as its own line. A 50% deposit holds the date. Tips are never required. South Maui door: /wailea. Card: /pricing.',
+          a: 'The Maui Signature band does not discount because you are on the west side. Groceries sit inside that band on a dinner night. After the food: 20% service and Hawaiʻi GET up to 4.712%, each as its own line. A 50% deposit holds the date. Tips are never required.',
         },
         {
           q: 'Stay Chef from $1,550 on the Kāʻanapali strip — how do groceries print?',
-          a: 'Day rate from $1,550. Groceries at cost with receipts. Extra meals that day are their own line. Signature $225–$375 never folds into the day fee. Honokōwai multi-day cooks often beat one halo night. Send the week on /quote.',
+          a: 'Day rate from $1,550. Groceries at cost with receipts. Extra meals that day are their own line. Signature $225–$375 never folds into the day fee. Honokōwai multi-day cooks often beat one halo night. Send the week on the quote form.',
         },
         {
           q: 'How do you time Honoapiʻilani traffic into a chef day?',
@@ -367,15 +363,15 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         },
         {
           q: 'Wedding-week satellite on this shore — or a full Wailea week?',
-          a: 'Welcome and rehearsal nights in a Kāʻanapali residence are common when the vows sit elsewhere. Those lines live on /weddings. This URL stays the West Maui dinner door. A lawn reception is a different crew than Family Feast for eight.',
+          a: 'Welcome and rehearsal nights in a Kāʻanapali residence are common when the vows sit elsewhere. A lawn reception is a different crew than Family Feast for eight.',
         },
         {
           q: 'What Kāʻanapali properties do you decline?',
-          a: 'Hotel rooms without a cooktop. Listings that cannot take a freight run or a quiet-hours plan. We will not pretend a minibar suite is a pass. If the kitchen works, we book it. If it does not, we say so before money moves. Form: /quote.',
+          a: 'Hotel rooms without a cooktop. Listings that cannot take a freight run or a quiet-hours plan. We will not pretend a minibar suite is a pass. If the kitchen works, we book it. If it does not, we say so before money moves.',
         },
         {
           q: 'How do I get a written Kāʻanapali total?',
-          a: 'Open /quote with Maui and the West Maui address, or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Five fields. Hawaii Standard Time on working days. The written quote is the total — not a chat midpoint. See /pricing.',
+          a: 'Open the quote form with Maui and the West Maui address, or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Five fields. Hawaii Standard Time on working days. The written quote is the total — not a chat midpoint.',
         },
       ],
     },
@@ -390,32 +386,31 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         'People search private chef Lahaina. We cook in villa and condo kitchens that still have a range. We do not sell a Front Street restaurant table or a luxury-dining story the town is not.',
       body: [
         'Lahaina is recovering. This page does not dress that as a dining destination. It names the houses that can still host on-site cooking: villas and condos with a working range, cold storage, and seats for the list. A rebuilt unit with a kitchen is a booking. A room with a coffee maker is not.',
-        'Signature stays $225–$375 a guest — groceries inside that band. Stay Chef from $1,550 a day bills groceries at cost with receipts. After either line: 20% service and Hawaiʻi GET up to 4.712% as their own rows. A 50% deposit holds the date. Tips are never required. The Maui card does not move because the search said Lahaina.',
+        'Signature stays $225–$375 a guest — groceries inside that band. Stay Chef from $1,550 a day bills groceries at cost with receipts. After either line: 20% service and Hawaiʻi GET up to 4.712% as their own rows. A 50% deposit holds the date. Tips are never required.',
         'We want the exact street and building before anyone shops. Access and parking can be tighter than a resort lot. Honoapiʻilani timing is planned into the chef day, not discovered on the invoice. Same-day asks usually wait. Hotel rooms without a cooktop are declined in writing.',
-        'The resort-strip dinner door is /kaanapali. Northwest estates sit on /kapalua. South Maui residences: /wailea. Island home still owns private chef Maui. Line-by-line numbers: /pricing. Address and dates: /quote.',
       ],
       zone: 'West Maui — villa and condo kitchens',
       photo: 'locLahaina',
       faqs: [
         {
           q: 'Will you cook at a Lahaina house while the town is rebuilding?',
-          a: 'When the unit has a working range, a fridge, and a table that fits the list — yes. We take the exact street, not a neighborhood nickname. Houses still standing with a kitchen are booked as houses. We will not market a luxury strip the town is not. Send the property on /quote.',
+          a: 'When the unit has a working range, a fridge, and a table that fits the list — yes. We take the exact street, not a neighborhood nickname. Houses still standing with a kitchen are booked as houses. We will not market a luxury strip the town is not. Send the property on the quote form.',
         },
         {
           q: 'Is private chef Lahaina a restaurant reservation?',
-          a: 'No. We do not take a Front Street table and call it a chef night. The product is on-site cooking in a villa or condo kitchen. If the listing is a hotel room without a range, we decline it before money moves. Resort-strip condos with kitchens sit on /kaanapali.',
+          a: 'No. We do not take a Front Street table and call it a chef night. The product is on-site cooking in a villa or condo kitchen. If the listing is a hotel room without a range, we decline it before money moves. Resort-strip condos with kitchens sit on the Kāʻanapali page.',
         },
         {
           q: 'Does a Lahaina search change the $225–$375 Maui band?',
-          a: 'No. Signature stays $225–$375 a guest, groceries inside that band. After the food: 20% service and Hawaiʻi GET up to 4.712%, each as its own line. A 50% deposit holds the date. Tips stay voluntary. South Maui numbers live on /wailea. Card: /pricing.',
+          a: 'No. Signature stays $225–$375 a guest, groceries inside that band. After the food: 20% service and Hawaiʻi GET up to 4.712%, each as its own line. A 50% deposit holds the date. Tips stay voluntary. South Maui numbers are on the Wailea page.',
         },
         {
           q: 'Stay Chef from $1,550 on a West Maui rebuild-week — how do groceries print?',
-          a: 'Day fee from $1,550. Merchant receipts for food. Extra plates that day are a second line. Signature $225–$375 never folds into the day fee. A week that cooks more than once should not be four dinner stacks in a chat. Write the stay on /quote.',
+          a: 'Day fee from $1,550. Merchant receipts for food. Extra plates that day are a second line. Signature $225–$375 never folds into the day fee. A week that cooks more than once should not be four dinner stacks in a chat. Write the stay on the quote form.',
         },
         {
-          q: 'Why keep /lahaina if /kaanapali already answers West Maui?',
-          a: 'Searchers type Lahaina. This URL answers that name with rebuild honesty and the houses that can still host a crew. /kaanapali is the resort-strip dinner door. /kapalua is the northwest estate door. They do not swap copy. Use the street, not the brand.',
+          q: 'Why keep the Lahaina / West Maui page if the Kāʻanapali page already answers West Maui?',
+          a: 'They do not swap copy. Use the street, not the brand.',
         },
         {
           q: 'Tighter access and Honoapiʻilani — what do you need before shopping?',
@@ -423,11 +418,11 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         },
         {
           q: 'Same-day Lahaina ask, or a room with no range?',
-          a: 'Same-day usually waits — we will not shop blind on a rebuild street. A room with no cooktop is a no. Outdoor-only setups with no indoor table are a no. If the kitchen works and the dates hold, we write the total. Form: /quote.',
+          a: 'Same-day usually waits — we will not shop blind on a rebuild street. A room with no cooktop is a no. Outdoor-only setups with no indoor table are a no. If the kitchen works and the dates hold, we write the total.',
         },
         {
           q: 'What turns a Lahaina note into a line-item sheet?',
-          a: 'Send the street, the nights, and the headcount on /quote. Voice or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Desk hours are Hawaii Standard Time. We write eligibility back; we do not price a rebuild block in chat. Band: /pricing.',
+          a: 'Send the street, the nights, and the headcount on the quote form. Voice or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Desk hours are Hawaii Standard Time. We write eligibility back; we do not price a rebuild block in chat.',
         },
       ],
     },
@@ -439,23 +434,23 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       description:
         'Private chef Kihei in South Maui condos and townhomes from $225/pp. Family villa weeks, Stay Chef from $1,550/day. Written quote.',
       lede:
-        'Private chef Kihei is the South Maui condo-and-townhome search — family villa weeks, ocean-side without Wailea resort gloss. Same $225–$375 Signature. Kids’ plates are normal.',
+        'Private chef Kihei covers South Maui condos and townhomes — family villa weeks, ocean-side without Wailea resort gloss. Same $225–$375 Signature. Kids’ plates are normal.',
       body: [
         'South Kīhei Road condos and two-story townhomes, not a hotel-zoned sunset stage. The usual ask is a family week: shared platters, kids eating with the adults, a kitchen that works even when the counters are short. We write the galley limit before anyone shops.',
         'Signature stays $225–$375 a guest — groceries inside that band. Stay Chef from $1,550 a day bills groceries at cost with receipts. After either line: 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit holds the date. Gratuity is never required. The Maui card does not shrink because the house is a condo.',
         'Load-in is a condo stall and an HOA quiet-hours note, not a porte-cochère. We shop Foodland, Azeka, and Piʻilani the morning of service. Compact townhome galleys get a bring-equipment menu when the cooktop is real. Hotel rooms without a range are declined.',
-        'Resort residences south of here: /wailea. Quieter lava-edge houses: /makena. West Maui naming: /lahaina. Island home still owns private chef Maui. Numbers: /pricing. Address and dates: /quote.',
+        'Every neighborhood here is part of our [private chef Maui](/) service. Nearby: resort residences in [Wailea](/wailea); quieter lava-edge houses in [Makena](/makena); [Lahaina and West Maui](/lahaina).',
       ],
       zone: 'South Maui — condo and townhome kitchens',
       photo: 'locKihei',
       faqs: [
         {
           q: 'South Kīhei Road condo — when is the cooktop enough?',
-          a: 'When it is a real range, the fridge holds the shop, and the table seats the list. Short counters are normal; we bring the tools and print the limit. A microwave suite is declined. Resort residences south of here live on /wailea. Put the building on /quote.',
+          a: 'When it is a real range, the fridge holds the shop, and the table seats the list. Short counters are normal; we bring the tools and print the limit. A microwave suite is declined. Resort residences south of here are on the Wailea page. Put the building on the quote form.',
         },
         {
           q: 'Condo geography — does Kīhei undercut the $225–$375 band?',
-          a: 'No. South Maui condos pay the Maui Signature band. Groceries sit inside $225–$375 on a dinner night. After the food: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Tips stay voluntary. There is no discount cove. Card: /pricing.',
+          a: 'No. South Maui condos pay the Maui Signature band. Groceries sit inside $225–$375 on a dinner night. After the food: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Tips stay voluntary. There is no discount cove.',
         },
         {
           q: 'What does a Kīhei Signature dinner actually buy?',
@@ -463,23 +458,23 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         },
         {
           q: 'Family villa week — how does Stay Chef from $1,550 print groceries?',
-          a: 'Day fee from $1,550. Food at cost with merchant receipts. Extra meals that day are quoted. Stacking four Signature nights in a chat is the wrong model for a townhome week. Kids’ plates ride on the same cook. Send the rhythm on /quote.',
+          a: 'Day fee from $1,550. Food at cost with merchant receipts. Extra meals that day are quoted. Stacking four Signature nights in a chat is the wrong model for a townhome week. Kids’ plates ride on the same cook. Send the rhythm on the quote form.',
         },
         {
           q: 'Six kids and two adults — is Family Feast the Kīhei default?',
-          a: 'Usually. Shared platters, kids eating with the adults, six to eight seats. Two-tops are rarer here than in Wailea. A longer list that needs servers is catering — /catering — not this dinner door. Headcount goes on /quote before we shop.',
+          a: 'Usually. Shared platters, kids eating with the adults, six to eight seats. Two-tops are rarer here than in Wailea. Headcount goes on the quote form before we shop.',
         },
         {
           q: 'Condo stall, elevator, HOA quiet hours — who books those?',
-          a: 'We confirm the stall, the elevator if there is one, and the building’s quiet hours before the shop. South Kīhei Road is a parking problem, not a distance problem. We will not discover a tow-away zone at 4 p.m. Lava-edge houses without HOA rules: /makena.',
+          a: 'We confirm the stall, the elevator if there is one, and the building’s quiet hours before the shop. South Kīhei Road is a parking problem, not a distance problem. We will not discover a tow-away zone at 4 p.m.',
         },
         {
           q: 'Tonight in a Kīhei hotel room with a microwave?',
-          a: 'No. Same-day hotel rooms without a cooktop are declined. We will not run a hallway cart. If the townhome range works and the dates hold, we write the total. Form: /quote.',
+          a: 'No. Same-day hotel rooms without a cooktop are declined. We will not run a hallway cart. If the townhome range works and the dates hold, we write the total.',
         },
         {
           q: 'How does a Kīhei week get a line-item total?',
-          a: 'Open /quote, name the South Maui building, the nights, and the guest list. WhatsApp +1 808 468 7748 if that is faster. quotes@mychef-hawaii.com. Coordinators answer in Hawaii Standard Time. Eligibility is the written sheet, not a chat range. Band: /pricing.',
+          a: 'Open the quote form, name the South Maui building, the nights, and the guest list. WhatsApp +1 808 468 7748 if that is faster. quotes@mychef-hawaii.com. Coordinators answer in Hawaii Standard Time. Eligibility is the written sheet, not a chat range.',
         },
       ],
     },
@@ -495,42 +490,42 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         'Ironwood, a quieter inventory, and a northwest drive that is already inside the Maui base zone. Dinners for two, family celebrations, and wedding-week satellite nights use the same kitchen standard as Wailea — different wind, same cleanup.',
         'Date Night from $750+ is a fixed evening. Larger tables use Signature $225–$375 a guest, groceries inside that band. Stay Chef from $1,550 a day bills groceries at cost with receipts. Wine is yours or quoted separately. Florals and photography are add-on lines, never buried.',
         'Outdoor tables on this bay always carry a covered backup in writing before a deposit. Hotel rooms without a cooktop at the resort are declined. We will not sell an uncovered lawn as the plan.',
-        'West Maui residences: /kaanapali. South Maui resort belt: /wailea. Island home still owns private chef Maui. Numbers: /pricing. Dates and the house: /quote.',
+        'Every neighborhood here is part of our [private chef Maui](/) service. Nearby: West Maui residences in [Kāʻanapali](/kaanapali); the South Maui resort belt in [Wailea](/wailea).',
       ],
       zone: 'Base zone',
       photo: 'kapaluaTwo',
       faqs: [
         {
           q: 'Estate kitchen or a Kapalua condo galley — what works?',
-          a: 'Northwest estates with a real range are the default. A Kapalua condo galley works when the cooktop and cold storage are real; we write the limit on the quote. A hotel room without a kitchen is declined. Send the property type on /quote.',
+          a: 'Northwest estates with a real range are the default. A Kapalua condo galley works when the cooktop and cold storage are real; we write the limit on the quote. A hotel room without a kitchen is declined. Send the property type on the quote form.',
         },
         {
           q: 'Date Night from $750+ — or the $225–$375 Signature band?',
-          a: 'Two seats use Date Night as a fixed Maui evening from $750+, cooked in the villa. A longer list uses Signature $225–$375 a guest with groceries inside that band. They never blend. After either line: 20% service and Hawaiʻi GET up to 4.712%. Card: /pricing.',
+          a: 'Two seats use Date Night as a fixed Maui evening from $750+, cooked in the villa. A longer list uses Signature $225–$375 a guest with groceries inside that band. They never blend. After either line: 20% service and Hawaiʻi GET up to 4.712%.',
         },
         {
           q: 'Stay Chef from $1,550 at the northwest end — groceries?',
-          a: 'Day rate from $1,550. Groceries at cost with receipts. Extra meals that day are quoted. A Kapalua week that cooks more than once should not be four Signature nights stacked in a chat. Write the stay on /quote.',
+          a: 'Day rate from $1,550. Groceries at cost with receipts. Extra meals that day are quoted. A Kapalua week that cooks more than once should not be four Signature nights stacked in a chat. Write the stay on the quote form.',
         },
         {
           q: 'Is the Kapalua drive inside the Maui base zone?',
-          a: 'Yes. The northwest drive is included. We do not add a surprise line for ironwood and the bay. Upcountry and Pāʻia are the exceptions, not Kapalua. We will not stack this night with a Wailea dinner on the same calendar. South Maui door: /wailea.',
+          a: 'Yes. The northwest drive is included. We do not add a surprise line for ironwood and the bay. Upcountry and Pāʻia are the exceptions, not Kapalua. We will not stack this night with a Wailea dinner on the same calendar.',
         },
         {
           q: 'Outdoor table on the ironwood — what if the wind comes up?',
-          a: 'We write a covered backup before a deposit. Outdoor is fine when the house has a real indoor table as plan B. We will not sell an uncovered lawn as the only plan. West Maui condos with tighter lanais: /kaanapali.',
+          a: 'We write a covered backup before a deposit. Outdoor is fine when the house has a real indoor table as plan B. We will not sell an uncovered lawn as the only plan.',
         },
         {
           q: 'Wedding-week satellite here versus a Wailea welcome?',
-          a: 'Kapalua often holds the quiet dinner for two or the family table while vows sit elsewhere. Those week lines live on /weddings. This URL stays the northwest dinner door. A reception crew is not a Date Night crew.',
+          a: 'Kapalua often holds the quiet dinner for two or the family table while vows sit elsewhere. Those week lines are on the weddings page. A reception crew is not a Date Night crew.',
         },
         {
           q: 'What Kapalua rooms do you turn down?',
-          a: 'Hotel rooms without a cooktop. Houses that cannot seat the list. Outdoor-only setups with no covered backup. We say no before a deposit. If the kitchen works, we cook. Form: /quote.',
+          a: 'Hotel rooms without a cooktop. Houses that cannot seat the list. Outdoor-only setups with no covered backup. We say no before a deposit. If the kitchen works, we cook.',
         },
         {
           q: 'How do I lock a written Kapalua total?',
-          a: '/quote with Maui, the Kapalua address, dates, and headcount — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Hawaii-hours desk. 50% deposit holds the date once you accept the written total. See /pricing.',
+          a: 'The quote form with Maui, the Kapalua address, dates, and headcount — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Hawaii-hours desk. 50% deposit holds the date once you accept the written total.',
         },
       ],
     },
@@ -545,43 +540,39 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       body: [
         'This is not a discount cove. Signature stays $225–$375 a guest, groceries inside that band. Family weeks and celebration dinners use the same South Maui shop as Wailea. Outdoor tables always carry a covered backup in writing; South Maui wind is a Tuesday, not a surprise.',
         'Stay Chef from $1,550 a day bills groceries at cost with receipts. After either line: 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit holds the date. Gratuity is never required. Hotel rooms without a cooktop are declined.',
-        'We stage out of South Maui. Drive time inside Makena is included. We will not stack a West Maui night onto this chef day. Resort residences sit one cove north: /wailea. Residential condos: /kihei.',
-        'Island home still owns private chef Maui. Line-by-line numbers live on /pricing. Dates, headcount, and the kitchen type go on /quote.',
+        'We stage out of South Maui. Drive time inside Makena is included. We will not stack a West Maui night onto this chef day. Residential condos: Kīhei.',
+        'Line-by-line numbers are on the pricing page. Dates, headcount, and the kitchen type go on the quote form.',
       ],
       zone: 'Base zone',
       photo: 'makena',
       faqs: [
         {
           q: 'South of Wailea — is Makena still the Maui base zone?',
-          a: 'Yes. Drive time inside Makena is included. The quieter inventory is the product, not a surcharge story. Upcountry and Pāʻia are the exceptions, not this cove. Resort residences one cove north: /wailea.',
+          a: 'Yes. Drive time inside Makena is included. The quieter inventory is the product, not a surcharge story. Upcountry and Pāʻia are the exceptions, not this cove.',
         },
         {
           q: 'Does a quieter Makena house pay less than Signature $225–$375?',
-          a: 'No. The Maui Signature band does not shrink because you are south of the resort belt. Groceries sit inside that band on a dinner night. After the food: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Tips never required. Card: /pricing.',
+          a: 'No. The Maui Signature band does not shrink because you are south of the resort belt. Groceries sit inside that band on a dinner night. After the food: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Tips never required.',
         },
         {
           q: 'Outdoor Makena table — what is the wet-weather rule?',
-          a: 'We write a covered backup before a deposit. Lava-edge lawns are fine when the house has a real indoor table as plan B. We will not sell an uncovered deck as the only plan. Residential Kīhei lanais: /kihei.',
+          a: 'We write a covered backup before a deposit. Lava-edge lawns are fine when the house has a real indoor table as plan B. We will not sell an uncovered deck as the only plan. Residential Kīhei lanais: Kīhei.',
         },
         {
           q: 'Family Feast week in Makena — day rate or stacked dinners?',
-          a: 'Kids’ plates and shared platters are the usual Makena order. Stay Chef from $1,550 a day, groceries at cost with receipts, fits a three-to-seven-day house better than four Signature nights in a chat. Extra meals that day are quoted. Send the rhythm on /quote.',
-        },
-        {
-          q: 'Makena dinner door or a Wailea resort residence?',
-          a: 'This URL is the quieter South Maui house. /wailea is the hotel-zoned resort belt. Same food band. Different inventory. We shop the same South Maui markets the morning of service. West Maui is a different door: /kaanapali.',
+          a: 'Kids’ plates and shared platters are the usual Makena order. Stay Chef from $1,550 a day, groceries at cost with receipts, fits a three-to-seven-day house better than four Signature nights in a chat. Extra meals that day are quoted. Send the rhythm on the quote form.',
         },
         {
           q: 'Lava-edge lawn only — will you still cook in Makena?',
-          a: 'Not as the only plan. A lava terrace needs a real indoor table written as backup before a deposit. A hotel room without a cooktop is declined. If the kitchen works, we cook. Form: /quote.',
+          a: 'Not as the only plan. A lava terrace needs a real indoor table written as backup before a deposit. A hotel room without a cooktop is declined. If the kitchen works, we cook.',
         },
         {
           q: 'Is a Makena house the wedding-week base or just dinner?',
-          a: 'This URL stays dinner. Family weeks live here. Welcome-through-brunch stacks sit on /weddings as their own lines from $225 a guest plus staffing. A reception crew is not Family Feast for eight.',
+          a: 'Family weeks live here. Welcome-through-brunch stacks sit on the weddings page as their own lines from $225 a guest plus staffing. A reception crew is not Family Feast for eight.',
         },
         {
           q: 'How do I get a written Makena total?',
-          a: 'Five fields on /quote — Maui, the Makena address, dates, headcount, how to reach you — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Hawaii-hours desk. The written quote is the total. See /pricing.',
+          a: 'Five fields on the quote form — Maui, the Makena address, dates, headcount, how to reach you — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Hawaii-hours desk. The written quote is the total.',
         },
       ],
     },
@@ -595,47 +586,39 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       description:
         'Private chef Honolulu and personal chef Honolulu from $195/pp. In-residence dinners from Waikīkī to Kahala. Weekly household service for kamaʻāina.',
       lede:
-        'Honolulu is the residence search: private chef and personal chef in the same city. We cook in residences with kitchens — Gold Coast, Waikīkī towers, town apartments.',
+        'Honolulu is about residences: private chef and personal chef in the same city. We cook in residences with kitchens — Gold Coast, Waikīkī towers, town apartments.',
       body: [
         'This is Resident’s Island, not a villa-week clone of Maui. Visitors book a celebration dinner in a town kitchen. Kamaʻāina book a standing weekly cook from $450 plus groceries at cost with receipts. Same team, different rhythm.',
         'Signature sits at $195–$290 a guest — groceries inside that band. Stay Chef from $1,250 a day bills groceries at cost. After either line: 20% service and Hawaiʻi GET up to 4.712% as their own rows. A 50% deposit holds the date. A tip is never required.',
         'Freight elevators, loading docks, quiet hours, and building COIs are arranged before anyone shops — not discovered on Kalākaua the night of service. Compact Kakaʻako and downtown galleys get bring-equipment menus. Standard hotel rooms without a cooktop are declined.',
-        'High-rise residences: /waikiki. West-side villa weeks: /ko-olina. Island home still owns private chef Oahu. Tariff: /pricing. Town address and dates: /quote.',
+        'Every neighborhood here is part of our [private chef Oahu](/) service. Nearby: high-rise residences in [Waikīkī](/waikiki); west-side villa weeks in [Ko Olina](/ko-olina).',
       ],
       zone: 'Base zone — town',
       photo: 'locHonolulu',
       faqs: [
         {
           q: 'Which Honolulu residences can actually host a chef?',
-          a: 'Gold Coast apartments, townhouses with a dining room, Kakaʻako and downtown units with a real cooktop, Kahala households. A hotel room near Ala Moana with a minibar is declined. Compact galleys get a bring-equipment menu. Put the building type on /quote.',
-        },
-        {
-          q: 'Private chef Honolulu or personal chef — which line is this URL?',
-          a: 'This corridor is the residence dinner. Private chef is the one-night town table. Personal chef is the weekly Honolulu household line on /personal-chef, from $450 a week plus groceries at cost. Same crew, different calendar. Say which on /quote.',
+          a: 'Gold Coast apartments, townhouses with a dining room, Kakaʻako and downtown units with a real cooktop, Kahala households. A hotel room near Ala Moana with a minibar is declined. Compact galleys get a bring-equipment menu. Put the building type on the quote form.',
         },
         {
           q: 'What does $195–$290 a guest include in town?',
-          a: 'Menu design, a Honolulu-market shop the morning of service, cooking on your range, paced plates, and an empty dishwasher. Groceries ride inside Signature. After the food: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required. Card: /pricing.',
+          a: 'Menu design, a Honolulu-market shop the morning of service, cooking on your range, paced plates, and an empty dishwasher. Groceries ride inside Signature. After the food: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required.',
         },
         {
           q: 'How do town towers handle load-in on a weeknight?',
-          a: 'We book the freight window, the dock, and the building COI before anyone shops. Quiet hours go on the same written plan. We will not discover a Kalākaua loading rule at 4 p.m. High-rise specifics live on /waikiki. This page stays town residences.',
+          a: 'We book the freight window, the dock, and the building COI before anyone shops. Quiet hours go on the same written plan. We will not discover a Kalākaua loading rule at 4 p.m. High-rise specifics are on the Waikīkī page.',
         },
         {
           q: 'Do kamaʻāina weekly cooks use the Signature grocery model?',
-          a: 'No. Weekly household work bills groceries at cost with receipts. Signature $195–$290 is the visitor or celebration night with food inside the band. Stay Chef from $1,250 a day is the multi-day cook, also groceries at cost. They never blend. Weekly door: /personal-chef.',
-        },
-        {
-          q: 'Honolulu catering — is that this page?',
-          a: 'No. Staffed rooms of about ten to seventy-five live on /catering — that URL owns Oahu catering. This page is the Honolulu residence dinner. Same team, different door. Wedding-week formats: /weddings.',
+          a: 'No. Weekly household work bills groceries at cost with receipts. Signature $195–$290 is the visitor or celebration night with food inside the band. Stay Chef from $1,250 a day is the multi-day cook, also groceries at cost. They never blend.',
         },
         {
           q: 'What Honolulu rooms do you decline?',
-          a: 'Standard hotel rooms without a cooktop. Units that cannot take a freight run or a COI. We will not pretend a coffee maker is a pass. If the kitchen works, we cook. If it does not, we say so before a deposit. Form: /quote.',
+          a: 'Standard hotel rooms without a cooktop. Units that cannot take a freight run or a COI. We will not pretend a coffee maker is a pass. If the kitchen works, we cook. If it does not, we say so before a deposit.',
         },
         {
           q: 'How do I get a written Honolulu total?',
-          a: 'Five fields on /quote — Oʻahu, dates, headcount, service, how to reach you — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Coordinators answer in Hawaii Standard Time on working days. See /pricing.',
+          a: 'Five fields on the quote form — Oʻahu, dates, headcount, service, how to reach you — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Coordinators answer in Hawaii Standard Time on working days.',
         },
       ],
     },
@@ -650,14 +633,14 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       body: [
         'High-rise load-in is the constraint, not distance. Freight elevators, loading docks, quiet hours, and building COIs are booked with the tower before anyone shops. A suite with only a coffee maker is declined before a deposit.',
         'Signature still starts at $195–$290 a guest, groceries inside that band, even when the galley is compact. Stay Chef from $1,250 a day — groceries at cost with receipts — often makes more sense than stacking single dinners across a long stay. After either line: 20% service and Hawaiʻi GET up to 4.712%.',
-        'Town residences and weekly households sit on /honolulu. West-side villa weeks sit on /ko-olina. This URL stays Waikīkī residences with kitchens. Island home still owns private chef Oahu. Card: /pricing. Address and dates: /quote.',
+        'Town residences and weekly households sit on the Honolulu page. West-side villa weeks sit on the Ko Olina page.',
       ],
       zone: 'Base zone',
       photo: 'waikiki',
       faqs: [
         {
           q: 'Can you cook in a Waikīkī hotel room?',
-          a: 'Only when it is a residence with a functioning cooktop, fridge, and a table that fits the list. A standard suite with a minibar is declined. Tell us the property type first on /quote. Town apartments that are not towers: /honolulu.',
+          a: 'Only when it is a residence with a functioning cooktop, fridge, and a table that fits the list. A standard suite with a minibar is declined. Tell us the property type first on the quote form.',
         },
         {
           q: 'Who books the freight elevator, dock, and tower COI?',
@@ -665,11 +648,11 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         },
         {
           q: 'Does a Waikīkī galley still use Signature $195–$290?',
-          a: 'Yes. The Oʻahu Signature band does not shrink because the kitchen is a galley. Groceries stay inside that band on a dinner night. After the food: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required. Card: /pricing.',
+          a: 'Yes. The Oʻahu Signature band does not shrink because the kitchen is a galley. Groceries stay inside that band on a dinner night. After the food: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required.',
         },
         {
           q: 'Stay Chef from $1,250 — does a tower week make sense?',
-          a: 'When you are in a residence for several nights and the range works, yes. Day rate from $1,250. Groceries at cost with receipts. Extra meals that day are quoted. Stacking four Signature nights in a chat is the wrong model. Send the stay on /quote.',
+          a: 'When you are in a residence for several nights and the range works, yes. Day rate from $1,250. Groceries at cost with receipts. Extra meals that day are quoted. Stacking four Signature nights in a chat is the wrong model. Send the stay on the quote form.',
         },
         {
           q: 'Celebration dinner in a suite without a range?',
@@ -677,15 +660,15 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         },
         {
           q: 'Is a Waikīkī residence the same product as a Honolulu household cook?',
-          a: 'No. This page is a high-rise with a cooktop — freight, dock, quiet hours. /honolulu is Gold Coast apartments and the weekly kamaʻāina line from $450 plus groceries at cost. West-side villa weeks stay on /ko-olina.',
+          a: 'No. West-side villa weeks stay on the Ko Olina page.',
         },
         {
           q: 'What Waikīkī rooms fail the kitchen test?',
-          a: 'Hotel rooms without a cooktop. Towers that will not issue a COI or a freight window. Outdoor-only setups with no indoor table. Declined before a deposit. Form: /quote.',
+          a: 'Hotel rooms without a cooktop. Towers that will not issue a COI or a freight window. Outdoor-only setups with no indoor table. Declined before a deposit.',
         },
         {
           q: 'How do I get a written Waikīkī residence total?',
-          a: '/quote with Oʻahu, the tower address, dates, and headcount — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Hawaii-hours desk on working days. See /pricing.',
+          a: 'The quote form with Oʻahu, the tower address, dates, and headcount — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Hawaii-hours desk on working days.',
         },
       ],
     },
@@ -700,44 +683,44 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         'Windward town kitchens — private chef Kailua for visitor weeks, personal chef Kailua Oahu for resident cooks. Parking, galley size, and the shop are planned, not guessed.',
       body: [
         'Kailua and Lanikai mix resident weekly cooks with visitor stays that last longer than a weekend. The 30-day rental rule is the filter: we cook in a genuine house with a working range, not an illegal two-night listing. Beach-house galleys are common; we write a bring-equipment menu when the cooktop is real and the counter is not.',
-        'Signature sits at $195–$290 a guest — groceries inside that band. Stay Chef from $1,250 a day bills groceries at cost with receipts. The standing kamaʻāina week from $450 plus groceries at cost lives on /personal-chef. After a dinner line: 20% service and Hawaiʻi GET up to 4.712% as their own rows. A 50% deposit holds the date. A tip is never required.',
+        'Signature sits at $195–$290 a guest — groceries inside that band. Stay Chef from $1,250 a day bills groceries at cost with receipts. The standing kamaʻāina week from $450 plus groceries at cost is on the personal chef page. After a dinner line: 20% service and Hawaiʻi GET up to 4.712% as their own rows. A 50% deposit holds the date. A tip is never required.',
         'Load-in is a Kailua street stall or a Lanikai driveway, not a Kalākaua freight window. We shop Kailua markets first; Town is a planned second stop when the list needs it, not a surprise line. The Pali or Likelike run is inside the windward base. Hotel rooms without a range are declined.',
-        'Town residences: /honolulu. Gold Coast dining rooms: /kahala. West-side villa weeks: /ko-olina. Island home still owns private chef Oahu. Tariff: /pricing. Windward address and dates: /quote.',
+        'Every neighborhood here is part of our [private chef Oahu](/) service. Nearby: town residences in [Honolulu](/honolulu); Gold Coast dining rooms in [Kahala and Gold Coast](/kahala); west-side villa weeks in [Ko Olina](/ko-olina).',
       ],
       zone: 'Base zone — windward town kitchens',
       photo: 'kailua',
       faqs: [
         {
           q: 'Beach-house galley or a real Kailua range — what hosts a cook?',
-          a: 'A working cooktop, cold storage, and seats for the list. Lanikai counters run short; we bring the tools and print the limit. A coffee-maker rental is declined. Town apartments that are not windward sit on /honolulu. Put the house type on /quote.',
+          a: 'A working cooktop, cold storage, and seats for the list. Lanikai counters run short; we bring the tools and print the limit. A coffee-maker rental is declined. Town apartments that are not windward sit on the Honolulu page. Put the house type on the quote form.',
         },
         {
           q: 'Weekend drop-in on the windward side — will you take it?',
-          a: 'Only inside a genuine stay with a kitchen. We will not force a chef into an illegal two-night listing. A celebration night inside a longer week is normal. Visitor weeks and resident cooks share this corridor; the calendar is different. Say which on /quote.',
+          a: 'Only inside a genuine stay with a kitchen. We will not force a chef into an illegal two-night listing. A celebration night inside a longer week is normal. Visitor weeks and resident cooks share this corridor; the calendar is different.',
         },
         {
           q: 'Signature $195–$290 on a Kailua night — what is inside the band?',
-          a: 'Menu, a windward shop, cooking on your range, paced plates, an empty sink. Groceries ride inside $195–$290. After the food: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Tips stay voluntary. Card: /pricing.',
+          a: 'Menu, a windward shop, cooking on your range, paced plates, an empty sink. Groceries ride inside $195–$290. After the food: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Tips stay voluntary.',
         },
         {
           q: 'Does a Kailua week use Stay Chef from $1,250 or the personal-chef line?',
-          a: 'Visitor multi-day cooks use Stay Chef from $1,250, food at cost with receipts. Resident standing weeks use /personal-chef from $450 plus groceries at cost. Signature $195–$290 is the one-night celebration with food inside the band. They never blend.',
+          a: 'Visitor multi-day cooks use Stay Chef from $1,250, food at cost with receipts. Resident standing weeks use the personal chef page from $450 plus groceries at cost. Signature $195–$290 is the one-night celebration with food inside the band. They never blend.',
         },
         {
           q: 'Kailua market run or a Town grocery loop — who decides?',
-          a: 'Kailua markets first. Town is a planned second stop when the list needs a cut we cannot get windward — written on the quote, not added at 4 p.m. We will not bill a surprise Honolulu loop. West-side provisioning is a different shop: /ko-olina.',
+          a: 'Kailua markets first. Town is a planned second stop when the list needs a cut we cannot get windward — written on the quote, not added at 4 p.m. We will not bill a surprise Honolulu loop.',
         },
         {
           q: 'Street parking and the Pali — how does a windward chef day start?',
-          a: 'A stall or a driveway, then the Pali or Likelike inside the base zone. We confirm parking before anyone shops. Beach-house streets fill early; that is a schedule, not a surcharge. Gold Coast driveways are a different load-in: /kahala.',
+          a: 'A stall or a driveway, then the Pali or Likelike inside the base zone. We confirm parking before anyone shops. Beach-house streets fill early; that is a schedule, not a surcharge.',
         },
         {
           q: 'Same-day Kailua dinner in a hotel room without a kitchen?',
-          a: 'No. Same-day rooms without a cooktop are declined. We will not impersonate a pass with a hallway cart. If the house has a range and the dates hold, we write the total. Form: /quote.',
+          a: 'No. Same-day rooms without a cooktop are declined. We will not impersonate a pass with a hallway cart. If the house has a range and the dates hold, we write the total.',
         },
         {
           q: 'What starts a written Kailua eligibility sheet?',
-          a: 'Name the windward street, the nights, and the count on /quote. WhatsApp +1 808 468 7748 if you already have the house. quotes@mychef-hawaii.com. Coordinators reply in Hawaii Standard Time. A chat midpoint is not a booking. Band: /pricing.',
+          a: 'Name the windward street, the nights, and the count on the quote form. WhatsApp +1 808 468 7748 if you already have the house. quotes@mychef-hawaii.com. Coordinators reply in Hawaii Standard Time. A chat midpoint is not a booking.',
         },
       ],
     },
@@ -754,7 +737,7 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       faqs: [
         {
           q: 'How much is the travel fee?',
-          a: 'Turtle Bay, Haleʻiwa, and Sunset Beach sit 60–90+ minutes from town. That drive prints as its own line on the written quote. It is not folded into the fish. Town residences stay on /honolulu. Windward base stays on /kailua. Tariff: /pricing.',
+          a: 'Turtle Bay, Haleʻiwa, and Sunset Beach sit 60–90+ minutes from town. That drive prints as its own line on the written quote. It is not folded into the fish.',
         },
         {
           q: 'What does a Turtle Bay, Haleʻiwa, or Sunset Beach kitchen need?',
@@ -762,27 +745,27 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         },
         {
           q: 'What sits inside a North Shore Signature night at $195–$290?',
-          a: 'Menu, the shop, and service at your range — $195–$290 per guest, groceries already inside that band. Then 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit holds the date. Gratuity is voluntary. The drive line stays separate. Card: /pricing. Address: /quote?island=oahu.',
+          a: 'Menu, the shop, and service at your range — $195–$290 per guest, groceries already inside that band. Then 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit holds the date. Gratuity is voluntary. The drive line stays separate.',
         },
         {
           q: 'Stay Chef from $1,250 on a North Shore week — where do groceries print?',
-          a: 'The day starts at $1,250. Groceries bill at cost with receipts and never ride inside that fee. Signature keeps its shop inside $195–$290. The two models do not blend. A second meal that day is written, not assumed. Week form: /quote?island=oahu.',
+          a: 'The day starts at $1,250. Groceries bill at cost with receipts and never ride inside that fee. Signature keeps its shop inside $195–$290. The two models do not blend. A second meal that day is written, not assumed.',
         },
         {
           q: 'Can a town dinner and a North Shore dinner share one chef evening?',
-          a: 'No. This shore is a dedicated chef day. Haleʻiwa after a town table, or Sunset Beach after a Waikīkī night, is a second drive we will not hide. One evening, one corridor. Town door: /honolulu.',
+          a: 'No. This shore is a dedicated chef day. Haleʻiwa after a town table, or Sunset Beach after a Waikīkī night, is a second drive we will not hide. One evening, one corridor.',
         },
         {
           q: 'How early should a winter swell week on this shore be asked?',
-          a: 'Winter swell fills Turtle Bay and Sunset Beach first. Ask when the villa dates exist — weeks out, not the week of. A summer Tuesday is easier. The drive line does not shrink because the surf is small. Dates: /quote?island=oahu.',
+          a: 'Winter swell fills Turtle Bay and Sunset Beach first. Ask when the villa dates exist — weeks out, not the week of. A summer Tuesday is easier. The drive line does not shrink because the surf is small.',
         },
         {
           q: 'Weekly rhythm for a North Shore resident versus one villa dinner?',
-          a: 'Residents and long stays want a standing cook day and leftovers, not seven copied villa dinners. That Resident’s Island rhythm bills groceries at cost. One celebration still uses Signature. Say which on /quote?island=oahu. Island home: /.',
+          a: 'Residents and long stays want a standing cook day and leftovers, not seven copied villa dinners. That Resident’s Island rhythm bills groceries at cost. One celebration still uses Signature. Say which on the quote form. Island home: /.',
         },
         {
           q: 'What do I send for a written North Shore total?',
-          a: 'Open /quote?island=oahu with the North Shore address, the dates, and the headcount. Or WhatsApp https://wa.me/18084687748 — +1 808 468 7748. Desk: quotes@mychef-hawaii.com. Hawaii-hours reply. The written total carries the drive line. See /pricing.',
+          a: 'Open the quote form with the North Shore address, the dates, and the headcount. Or WhatsApp https://wa.me/18084687748 — +1 808 468 7748. Desk: quotes@mychef-hawaii.com. Hawaii-hours reply. The written total carries the drive line.',
         },
       ],
     },
@@ -798,34 +781,30 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         'Kahala and the Gold Coast hold the dining rooms that can host a paced dinner. Visitors book a celebration night. Residents book a standing weekly cook from $450 plus groceries at cost with receipts. Same crew, different calendar.',
         'Signature sits at $195–$290 a guest — groceries inside that band. Stay Chef from $1,250 a day also bills groceries at cost. After either dinner line: 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit holds the date. A tip is never required.',
         'Estate driveways are the usual load-in, not a Kalākaua freight window. Compact galleys still get a bring-equipment menu when the cooktop is real. Hotel rooms without a range are declined.',
-        'Town residences: /honolulu. High-rise kitchens: /waikiki. West-side villa weeks: /ko-olina. Island home still owns private chef Oahu. Card: /pricing. Address and dates: /quote.',
+        'Every neighborhood here is part of our [private chef Oahu](/) service. Nearby: town residences in [Honolulu](/honolulu); high-rise kitchens in [Waikīkī](/waikiki); west-side villa weeks in [Ko Olina](/ko-olina).',
       ],
       zone: 'Base zone',
       photo: 'locKahala',
       faqs: [
         {
-          q: 'Is Kahala the Gold Coast dinner door or a Waikīkī tower?',
-          a: 'This URL is the estate belt — dining rooms from Kahala through Diamond Head-adjacent houses. /waikiki is a high-rise that needs a freight window. /honolulu is town residences and the weekly line as a city search. They do not swap.',
-        },
-        {
           q: 'Standing Kahala cook day — does the weekly line share Signature groceries?',
-          a: 'No. The kamaʻāina standing day bills food at cost with receipts, from $450 a week on /personal-chef. Signature $195–$290 keeps groceries inside the band for a one-night celebration. Kids’ plates designed in on the weekly rhythm. They never blend.',
+          a: 'No. The kamaʻāina standing day bills food at cost with receipts, from $450 a week on the personal chef page. Signature $195–$290 keeps groceries inside the band for a one-night celebration. Kids’ plates designed in on the weekly rhythm. They never blend.',
         },
         {
           q: 'How is a Kahala Signature night paced in the dining room?',
-          a: 'Courses at the table, not a hallway cart. Menu design, a Honolulu-market shop, cooking on your range, and the kitchen empty. Groceries ride inside $195–$290. After the food: 20% service and Hawaiʻi GET up to 4.712%. Card: /pricing.',
+          a: 'Courses at the table, not a hallway cart. Menu design, a Honolulu-market shop, cooking on your range, and the kitchen empty. Groceries ride inside $195–$290. After the food: 20% service and Hawaiʻi GET up to 4.712%.',
         },
         {
           q: 'Gold Coast houseguests for three nights — which Kahala line?',
-          a: 'Stay Chef from $1,250 when the dining room will cook more than once. Groceries at cost with receipts. Extra meals that day are quoted. A single celebration still uses Signature $195–$290. Write the guest list on /quote.',
+          a: 'Stay Chef from $1,250 when the dining room will cook more than once. Groceries at cost with receipts. Extra meals that day are quoted. A single celebration still uses Signature $195–$290. Write the guest list on the quote form.',
         },
         {
           q: 'Do Kahala estates still need a freight window?',
-          a: 'Usually a driveway and a written quiet-hours note, not a Kalākaua dock. We still confirm access before anyone shops. Tower freight is a Waikīkī problem: /waikiki. Town apartments that are not estates: /honolulu.',
+          a: 'Usually a driveway and a written quiet-hours note, not a Kalākaua dock. We still confirm access before anyone shops. Tower freight is a Waikīkī issue; town apartments are quoted like any Honolulu residence.',
         },
         {
           q: 'Kahala catering or a household celebration dinner?',
-          a: 'Dinner for the house is this corridor. Ten to seventy-five guests is Oahu catering — same team, staffed — on /catering. Wedding-week formats: /weddings. Say which on /quote.',
+          a: 'A dinner for the house is a private chef night. For ten to seventy-five guests with servers, see [Oahu catering](/catering) — same team, staffed.',
         },
         {
           q: 'What Kahala rooms do you decline?',
@@ -833,7 +812,7 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         },
         {
           q: 'How does a Kahala household reach the desk?',
-          a: 'Five fields on /quote: Oʻahu, the Kahala street, dates, headcount, how to reach you. WhatsApp +1 808 468 7748 or quotes@mychef-hawaii.com. Coordinators answer in Hawaii Standard Time. See /pricing.',
+          a: 'Five fields on the quote form: Oʻahu, the Kahala street, dates, headcount, how to reach you. WhatsApp +1 808 468 7748 or quotes@mychef-hawaii.com. Coordinators answer in Hawaii Standard Time.',
         },
       ],
     },
@@ -849,18 +828,18 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         'Ko Olina holds Oʻahu’s deepest legal short-stay villa pool. West-side provisioning is its own run: we shop for the week rather than making Honolulu round-trips. Villa kitchens here are usually designed for cooking, which is why a multi-day package leads.',
         'Stay Chef from $1,250 a day is the honest product for a three-to-seven-day week — groceries at cost with receipts. Signature $195–$290 a guest is the arrival-night or celebration dinner, groceries inside that band. After either line: 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit holds the date. Tips are never required.',
         'One-night dinners still book when the kitchen works. Landing-night service plus groceries already in the fridge is how most weeks open. ʻEwa and Kapolei households sit closer to this west-side shop than to Kalākaua; there is no town surcharge for that corridor.',
-        'Town residences: /honolulu. High-rise kitchens: /waikiki. Island home still owns private chef Oahu. Day-rate line: /pricing. Dates and the villa: /quote.',
+        'Every neighborhood here is part of our [private chef Oahu](/) service. Nearby: town residences in [Honolulu](/honolulu); high-rise kitchens in [Waikīkī](/waikiki).',
       ],
       zone: 'Base zone',
       photo: 'koolina',
       faqs: [
         {
           q: 'Why does a Ko Olina villa week lead instead of one dinner?',
-          a: 'The legal short-stay pool here is built for three-to-seven days, not a weekend drop-in. Kitchens are usually designed for cooking. Stay Chef from $1,250 a day is the lead. A one-off dinner still books when the range works. Town one-nights sit on /honolulu.',
+          a: 'The legal short-stay pool here is built for three-to-seven days, not a weekend drop-in. Kitchens are usually designed for cooking. Stay Chef from $1,250 a day is the lead. A one-off dinner still books when the range works. Town one-nights sit on the Honolulu page.',
         },
         {
           q: 'Stay Chef from $1,250 — groceries at cost or inside the day?',
-          a: 'At cost with merchant receipts. The day rate is chef plus assistant, one meal. Extra meals that day are quoted. Signature $195–$290 never folds into the day fee. They never blend. Card: /pricing.',
+          a: 'At cost with merchant receipts. The day rate is chef plus assistant, one meal. Extra meals that day are quoted. Signature $195–$290 never folds into the day fee. They never blend.',
         },
         {
           q: 'Signature $195–$290 for a Ko Olina arrival night?',
@@ -868,11 +847,11 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         },
         {
           q: 'West-side shop or a town round-trip from Honolulu?',
-          a: 'West-side shop. We provision Ko Olina from this corridor, not from a Kalākaua loop. ʻEwa and Kapolei sit on the same west-side run. We will not bill a town surcharge for a house that is already west. High-rise load-in is a different problem: /waikiki.',
+          a: 'West-side shop. We provision Ko Olina from this corridor, not from a Kalākaua loop. ʻEwa and Kapolei sit on the same west-side run. We will not bill a town surcharge for a house that is already west.',
         },
         {
           q: 'Can you stock the fridge before we land?',
-          a: 'Yes, when the stay includes provisioning and the villa access is real. Groceries for Stay Chef days bill at cost with receipts. Arrival-night Signature still includes its own shop inside $195–$290. Write landing time on /quote.',
+          a: 'Yes, when the stay includes provisioning and the villa access is real. Groceries for Stay Chef days bill at cost with receipts. Arrival-night Signature still includes its own shop inside $195–$290. Write landing time on the quote form.',
         },
         {
           q: 'What Ko Olina rooms fail the kitchen test?',
@@ -880,11 +859,11 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         },
         {
           q: 'Does Ko Olina share the town-tower load-in rules?',
-          a: 'No. Ko Olina is a legal short-stay villa week with a west-side shop. /waikiki is a tower that needs a freight window. /honolulu is town residences and weekly households. This URL stays the lagoon-side villa.',
+          a: 'No. Ko Olina is a legal short-stay villa week with a west-side shop.',
         },
         {
           q: 'How do I get a written Ko Olina week total?',
-          a: '/quote with Oʻahu, the villa address, dates, and headcount — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Hawaii-hours desk. See /pricing for the day-rate line.',
+          a: 'The quote form with Oʻahu, the villa address, dates, and headcount — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Hawaii-hours desk.',
         },
       ],
     },
@@ -898,47 +877,47 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       description:
         'Private chef Princeville Kauai from $225/pp. North Shore estate dinners, villa weeks and Kauai catering. Inquiry stage.',
       lede:
-        'Private chef Princeville is the North Shore search. Inquiry stage — send the shore and the dates, not an instant Book-now. CORE $225–$375/pp. Kauai catering for the same estates.',
+        'Private chef Princeville covers the North Shore estates. By inquiry — send the shore and the dates, not instant booking. CORE $225–$375/pp. Kauai catering for the same estates.',
       body: [
         'Garden Isle retreat, North Shore estate inventory. We crew the house properly or we do not take the night. A published band is not a live calendar. Winter surf season: send dates early. Far-North Hāʻena inherits the Hanalei-bridge weather clause — reschedule rather than forfeit.',
         'Signature sits at $225–$375 a guest — a Maui-class band earned by a thinner supplier bench, not by a waitlist story. Date Night is a fixed evening at $975–$1,425. Stay Chef from $1,650 a day, groceries at cost with receipts. After either line: 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit holds a date only after we can staff that week.',
         'Mist on the lānai is a Tuesday. Every outdoor Princeville table gets a covered backup in writing before anyone deposits. Romance tables and quieter retreat weeks sit in the same kitchen. Hotel rooms without a cooktop are declined.',
-        'South Shore arrival nights: /poipu. Valley weather clause: /hanalei. Island home still owns private chef Kauai. Tariff: /pricing. Shore and dates: /quote.',
+        'Every neighborhood here is part of our [private chef Kauai](/) service. Nearby: South Shore arrival nights in [Poʻipū](/poipu); valley weather clause in [Hanalei](/hanalei).',
       ],
       zone: 'North Shore — published zone',
       photo: 'kauaiNorth',
       faqs: [
         {
-          q: 'What does inquiry-stage mean for a Princeville estate?',
-          a: 'We crew the house properly or we do not take the night. Send the shore and the dates on /quote. We write back when a Kauaʻi team can staff that week. A band is not a live Book-now. We will not hold a fake roster. Proof is the published $225–$375 band and a written total. This URL stays the North Shore estate door; home holds private chef Kauai.',
+          q: 'What does booking by inquiry mean for a Princeville estate?',
+          a: 'We crew the house properly or we do not take the night. Send the shore and the dates on the quote form. We write back when a Kauaʻi team can staff that week. A published band is not instant booking. We will not hold a fake roster. Proof is the published $225–$375 band and a written total.',
         },
         {
           q: 'North Shore kitchen versus a Poʻipū arrival house — what changes?',
-          a: 'Princeville cooks estate tables: winter surf calendars, mist, and the bridge clause when the list sits past the river. Poʻipū cooks sunnier arrival nights closer to Līhuʻe. Food stays $225–$375 a guest on both shores. Drive time is a published zone line. South Shore door: /poipu.',
+          a: 'Princeville cooks estate tables: winter surf calendars, mist, and the bridge clause when the list sits past the river. Poʻipū cooks sunnier arrival nights closer to Līhuʻe. Food stays $225–$375 a guest on both shores. Drive time is a published zone line.',
         },
         {
           q: 'Why is Signature $225–$375 a Maui-class band on this shore?',
-          a: 'Thinner supplier bench, longer shop, early menu locks. Groceries ride inside Signature. After the food: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit only after we can staff the week. Gratuity never required. Card: /pricing.',
+          a: 'Thinner supplier bench, longer shop, early menu locks. Groceries ride inside Signature. After the food: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit only after we can staff the week. Gratuity never required.',
         },
         {
           q: 'Stay Chef from $1,650 — how do groceries print on the North Shore?',
-          a: 'Day rate from $1,650. Groceries at cost with receipts. Extra meals that day are their own line. Hanalei weeks inherit the bridge clause on every extra meal, not only the welcome night. Signature never folds into the day fee. Inquiry: /quote.',
+          a: 'Day rate from $1,650. Groceries at cost with receipts. Extra meals that day are their own line. Hanalei weeks inherit the bridge clause on every extra meal, not only the welcome night. Signature never folds into the day fee.',
         },
         {
           q: 'What if it rains on a Princeville lānai?',
-          a: 'We write a covered backup on every outdoor North Shore table before a deposit. Mist is weather, not a mood. If the Hanalei road closes, we reschedule rather than keep the night. That clause sits on the quote. Valley page: /hanalei.',
+          a: 'We write a covered backup on every outdoor North Shore table before a deposit. Mist is weather, not a mood. If the Hanalei road closes, we reschedule rather than keep the night. That clause sits on the quote.',
         },
         {
           q: 'Date Night $975–$1,425 or a family list in Princeville?',
-          a: 'Two seats use Date Night as a fixed evening. A family list uses Signature $225–$375 a guest, kids’ plates designed in. Stay Chef from $1,650 if the week cooks more than once. They never blend. Send headcount on /quote.',
+          a: 'Two seats use Date Night as a fixed evening. A family list uses Signature $225–$375 a guest, kids’ plates designed in. Stay Chef from $1,650 if the week cooks more than once. They never blend. Send headcount on the quote form.',
         },
         {
           q: 'Princeville catering or a private chef dinner?',
-          a: 'Dinner for the house is this corridor. Ten to seventy-five guests is Kauai catering — same team, staffed — on /catering. Estate wedding formats: /weddings. Inquiry list, not an instant book.',
+          a: 'Dinner for the house is this corridor. Ten to seventy-five guests is Kauai catering — same team, staffed — on the catering page. Inquiry list, not an instant book.',
         },
         {
-          q: 'How do I send a Princeville inquiry — not a Book-now?',
-          a: 'Five fields on /quote: Kauaʻi, shore, dates, headcount, how to reach you. Or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Hawaii-hours desk. We reply when a crew can hold that week. See /pricing.',
+          q: 'How do I send a Princeville inquiry — not instant booking?',
+          a: 'Five fields on the quote form: Kauaʻi, shore, dates, headcount, how to reach you. Or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Hawaii-hours desk. We reply when a crew can hold that week.',
         },
       ],
     },
@@ -950,39 +929,39 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       description:
         'Private chef Poipu Kauai from $225/pp. South Shore arrival-night dinners, retreat weeks and Kauai catering in Poʻipū and Kōloa.',
       lede:
-        'Private chef Poipu Kauai is a related search we take at inquiry. Sunnier, steadier, closer to Līhuʻe. Arrival-night dinner plus Stay Chef — or Kauai catering for the house. Not an instant Book-now.',
+        'Private chef Poʻipū dinners on Kauai start with an inquiry. Sunnier, steadier, closer to Līhuʻe. Arrival-night dinner plus Stay Chef — or Kauai catering for the house. Not instant booking.',
       body: [
         'Garden Isle retreat, South Shore. Poʻipū and Kōloa sit closer to Līhuʻe staging than Princeville. Arrival-night dinner is the usual first ask: you land, the fridge is not empty, someone else is at the range. A published band is still not a live calendar — send the shore and the dates.',
         'Signature stays $225–$375 a guest. Stay Chef from $1,650 a day, groceries at cost with receipts. Date Night $975–$1,425 for two seats. After the food: 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit holds a date only after we can staff that week. Gratuity is never required.',
         'Sunnier does not mean we skip a covered plan. Wood-grilled catch when the house has fire; a written indoor backup when it does not. Hotel rooms without a cooktop in the resort belt are declined. Retreat weeks and small estate celebrations sit in the same kitchen.',
-        'North Shore estates: /princeville. East-side town nights: /kapaa. Island home still owns private chef Kauai. Numbers: /pricing. Inquiry form: /quote.',
+        'Every neighborhood here is part of our [private chef Kauai](/) service. Nearby: North Shore estates in [Princeville](/princeville); east-side town nights in [Kapaʻa](/kapaa).',
       ],
       zone: 'South Shore',
       photo: 'kauaiSouth',
       faqs: [
         {
           q: 'South Shore kitchen — how is Poʻipū different from Princeville?',
-          a: 'Shorter drive from Līhuʻe. Sunnier, steadier inventory in Poʻipū and Kōloa. Arrival-night dinners lead here; North Shore estate weeks and winter surf calendars live on /princeville. Food stays $225–$375 a guest on both shores. Drive time is a published zone line, not a discount on the fish.',
+          a: 'Shorter drive from Līhuʻe. Sunnier, steadier inventory in Poʻipū and Kōloa. Arrival-night dinners lead here; North Shore estate weeks and winter surf calendars are on the Princeville page. Food stays $225–$375 a guest on both shores. Drive time is a published zone line, not a discount on the fish.',
         },
         {
-          q: 'Is an arrival-night dinner a live Book-now?',
-          a: 'No. Kauaʻi is inquiry-stage. Send the South Shore address and the dates on /quote. We write back when a crew can staff that landing night. A band is not a calendar. We crew properly or not at all.',
+          q: 'Can I book an arrival-night dinner instantly?',
+          a: 'No. Kauaʻi is by inquiry only. Send the South Shore address and the dates on the quote form. We write back when a crew can staff that landing night. A band is not a calendar. We crew properly or not at all.',
         },
         {
           q: 'Do $225–$375 and Stay Chef from $1,650 still apply in Poʻipū?',
-          a: 'Yes. Signature $225–$375 a guest, groceries inside that band. Stay Chef from $1,650 a day, groceries at cost with receipts. After either line: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit only after we can staff the week. Card: /pricing.',
+          a: 'Yes. Signature $225–$375 a guest, groceries inside that band. Stay Chef from $1,650 a day, groceries at cost with receipts. After either line: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit only after we can staff the week.',
         },
         {
           q: 'Closer to Līhuʻe — does the South Shore food band drop?',
-          a: 'No. Closer drive. Same Kauaʻi card. The zone line is shorter than Princeville; the per-guest band does not shrink. East-side Kapaʻa is closer still and still the same Signature numbers — /kapaa.',
+          a: 'No. Closer drive. Same Kauaʻi card. The zone line is shorter than Princeville; the per-guest band does not shrink. East-side Kapaʻa is closer still and still the same Signature numbers.',
         },
         {
           q: 'Sunnier Poʻipū — do you still write a rain plan?',
-          a: 'Yes. We write a covered backup on every outdoor South Shore table before a deposit. Wood fire when the house can take it. We will not sell an uncovered lawn as the only plan. North Shore mist is a different clause: /princeville.',
+          a: 'Yes. We write a covered backup on every outdoor South Shore table before a deposit. Wood fire when the house can take it. We will not sell an uncovered lawn as the only plan.',
         },
         {
           q: 'Retreat week or Date Night for two on this shore?',
-          a: 'Date Night is $975–$1,425 as a fixed evening for two seats. A retreat house that cooks more than once uses Stay Chef from $1,650. Full-board exists for houses that actually cook three times — dietary designed in, not promised as theatre. Staffed rooms and the sample estate menu live on /catering. They never blend. Send the rhythm on /quote.',
+          a: 'Date Night is $975–$1,425 as a fixed evening for two seats. A retreat house that cooks more than once uses Stay Chef from $1,650. Full-board exists for houses that actually cook three times — dietary designed in, not promised as theatre. Staffed rooms and the sample estate menu are on the catering page. They never blend. Send the rhythm on the quote form.',
         },
         {
           q: 'What South Shore rooms do you decline?',
@@ -990,7 +969,7 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         },
         {
           q: 'How do I join the Kauaʻi inquiry list from Poʻipū?',
-          a: '/quote with Kauaʻi, the South Shore address, dates, and headcount — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Hawaii-hours desk. We reply when a team can hold that week. See /pricing.',
+          a: 'The quote form with Kauaʻi, the South Shore address, dates, and headcount — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Hawaii-hours desk. We reply when a team can hold that week.',
         },
       ],
     },
@@ -1002,38 +981,38 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       description:
         'Private chef Hanalei Kauai from $225/pp. North Shore dinners and Kauai catering. Weather and road honesty published up front.',
       lede:
-        'Private chef Hanalei is the valley search. The bridge is real. We plan around it instead of arguing with it. CORE from $225/pp.',
+        'The bridge is real. We plan around it instead of arguing with it. CORE from $225/pp.',
       body: [
         'Estate dinners and Kauai wedding catering when the guest list grows. 72-hour notice for far-North. CORE from $225/pp.',
-        'The one-lane bridge is the logistics. A closed road moves the night; it does not eat the deposit. Clause: /hanalei-bridge. Bluff estates stay on /princeville. Hāʻena is quote-only. South Shore arrival nights: /poipu.',
-        'Signature groceries stay inside $225–$375 a guest. Stay Chef from $1,650 a day bills the shop at cost with receipts. They never blend. Hotel rooms without a cooktop are declined. Written inquiry: /quote?island=kauai. Tariff: /pricing.',
+        'The one-lane bridge is the logistics. A closed road moves the night; it does not eat the deposit. Hāʻena is quote-only.',
+        'Signature groceries stay inside $225–$375 a guest. Stay Chef from $1,650 a day bills the shop at cost with receipts. They never blend. Hotel rooms without a cooktop are declined.',
       ],
       zone: 'North Shore',
       photo: 'locHanalei',
       faqs: [
         {
-          q: 'What does inquiry-stage mean for a Hanalei valley dinner?',
-          a: 'Garden Isle Retreat is an inquiry, not a live Book-now. Send the valley address, the dates, and the headcount on /quote?island=kauai. We write back when a Kauaʻi crew can staff that week. A published band is not a calendar. This URL stays the Hanalei town door. The island home at / still holds the Kauaʻi dinner title.',
+          q: 'What does booking by inquiry mean for a Hanalei valley dinner?',
+          a: 'Garden Isle Retreat is an inquiry, not instant booking. Send the valley address, the dates, and the headcount on the quote form. We write back when a Kauaʻi crew can staff that week. A published band is not a calendar.',
         },
         {
           q: 'If the Hanalei bridge closes, does the night forfeit?',
-          a: 'No. Valley and far-North nights inherit a written clause: 72-hour notice, reschedule rather than forfeit. The deposit is not eaten by a road closure. The clause lives on /hanalei-bridge and sits on the quote before anyone pays. Hāʻena, past the river, is quote-only. This page is the valley town.',
+          a: 'No. Valley and far-North nights inherit a written clause: 72-hour notice, reschedule rather than forfeit. The deposit is not eaten by a road closure. The clause is on the Hanalei bridge notes and sits on the quote before anyone pays. Hāʻena, past the river, is quote-only.',
         },
         {
           q: 'Are Hanalei Signature groceries inside $225–$375?',
-          a: 'Yes. A Signature night in the valley is $225–$375 a guest, and the shop is already inside that band. There is no second grocery invoice on that dinner. After the food, 20% service and Hawaiʻi GET up to 4.712% print as separate lines. A 50% deposit waits until a crew can staff the week. Gratuity is never required. The day-rate shop is a different model. Card: /pricing.',
+          a: 'Yes. A Signature night in the valley is $225–$375 a guest, and the shop is already inside that band. There is no second grocery invoice on that dinner. After the food, 20% service and Hawaiʻi GET up to 4.712% print as separate lines. A 50% deposit waits until a crew can staff the week. Gratuity is never required. The day-rate shop is a different model.',
         },
         {
           q: 'Stay Chef from $1,650 in Hanalei — groceries at cost?',
-          a: 'A valley week that cooks more than once uses Stay Chef from $1,650 a day: chef and assistant, one meal in the day rate. Groceries bill at cost with merchant receipts and zero markup. A second meal that day is quoted, not absorbed. Signature $225–$375 does not fold into the day fee. If the address sits past the bridge, every meal inherits /hanalei-bridge, not only the welcome night. Form: /quote?island=kauai.',
+          a: 'A valley week that cooks more than once uses Stay Chef from $1,650 a day: chef and assistant, one meal in the day rate. Groceries bill at cost with merchant receipts and zero markup. A second meal that day is quoted, not absorbed. Signature $225–$375 does not fold into the day fee. If the address sits past the bridge, every meal inherits the Hanalei bridge notes, not only the welcome night.',
         },
         {
           q: 'Hanalei town, a Princeville estate, or Hāʻena — which quote?',
-          a: 'This page is Hanalei town and the valley houses. /princeville is the bluff estate inventory. Hāʻena is quote-only, with 72-hour notice, past the bridge. The Signature band is the same Kauaʻi card. The drive and the weather clause are not. South Shore arrival nights sit on /poipu. Island home: /.',
+          a: 'Hāʻena is quote-only, with 72-hour notice, past the bridge. The Signature band is the same Kauaʻi card. The drive and the weather clause are not. South Shore arrival nights sit on the Poʻipū page. Island home: /.',
         },
         {
           q: 'Can a Hanalei wedding or estate list be staffed?',
-          a: 'A house dinner is this corridor. When the list grows, the night is staffed and the total is written — not a chat estimate. Far-North weeks inherit /hanalei-bridge on every meal. Staffed rooms: /catering. The estate week: /weddings. Still inquiry. We will not hold a roster that does not exist.',
+          a: 'A house dinner is this corridor. When the list grows, the night is staffed and the total is written — not a chat estimate. Far-North weeks inherit the Hanalei bridge notes on every meal. Still inquiry. We will not hold a roster that does not exist.',
         },
         {
           q: 'Will you cook a Hanalei hotel room with no cooktop?',
@@ -1041,7 +1020,7 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         },
         {
           q: 'How do I enquire for Hanalei — dates, shore, and headcount?',
-          a: 'This is a paid inquiry for a written quote, not a free menu tutorial. Open /quote?island=kauai with dates, the North Shore address, and headcount. Or WhatsApp +1 808 468 7748 — https://wa.me/18084687748 — when the shore and the dates are ready to book. Desk: quotes@mychef-hawaii.com. Hawaii-hours reply when a crew can hold that week. Card: /pricing.',
+          a: 'This is a paid inquiry for a written quote, not a free menu tutorial. Open the quote form with dates, the North Shore address, and headcount. Or WhatsApp +1 808 468 7748 — https://wa.me/18084687748 — when the shore and the dates are ready to book. Desk: quotes@mychef-hawaii.com. Hawaii-hours reply when a crew can hold that week.',
         },
       ],
     },
@@ -1067,47 +1046,47 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       description:
         'Private chef Kona and Kailua-Kona from $210/pp. West-side villa dinners, Stay Chef weeks, Ironman-week honesty. ENTRY from $165.',
       lede:
-        'Private chef Kona is the west-side corridor — Kailua-Kona, Keauhou, and the south end of the Kohala run. Inquiry-stage: send the shore and the dates, not an instant Book-now.',
+        'Private chef Kona is the west-side corridor — Kailua-Kona, Keauhou, and the south end of the Kohala run. By inquiry: send the shore and the dates, not instant booking.',
       body: [
         'We crew the house properly or we do not take the night. A published band is not a live calendar. Signature sits at $210–$325 a guest — groceries inside that band. ENTRY from $165 when the kitchen and the list fit a shorter night. Stay Chef from $1,450 a day, groceries at cost with receipts.',
         'After either line: 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit holds a date only after we can staff that week. Gratuity is never required. Ironman and other event weeks compress the calendar — flag those dates on the inquiry.',
         'East side is a different day, never a same-afternoon add-on from town. Named Kona coffee follows origin-labeling rules; we do not invent farm names. Hotel rooms without a cooktop are declined.',
-        'Resort residences: /waikoloa. Ranch elevation: /waimea. Island home still owns private chef Big Island. Tariff: /pricing. Inquiry form: /quote.',
+        'Every neighborhood here is part of our [private chef Big Island](/) service. Nearby: resort residences in [Waikoloa](/waikoloa); ranch elevation in [Waimea](/waimea).',
       ],
       zone: 'West-side base',
       photo: 'konaKitchen',
       faqs: [
         {
-          q: 'What does inquiry-stage mean for a Kona villa?',
-          a: 'We crew the house properly or we do not take the night. Send the west-side address and the dates on /quote. We write back when a Hawaiʻi Island team can staff that week. A band is not a live Book-now. We will not hold a fake roster.',
+          q: 'What does booking by inquiry mean for a Kona villa?',
+          a: 'We crew the house properly or we do not take the night. Send the west-side address and the dates on the quote form. We write back when a Hawaiʻi Island team can staff that week. A published band is not instant booking. We will not hold a fake roster.',
         },
         {
           q: 'Hilo from a Kona chef day — same afternoon?',
-          a: 'No. East side is 2.5–3 hours — dedicated staffing, quoted as its own day. West-side villas are the default. We will not sell a same-day crossing. Crossing document: /east-side.',
+          a: 'No. East side is 2.5–3 hours — dedicated staffing, quoted as its own day. West-side villas are the default. We will not sell a same-day crossing.',
         },
         {
           q: 'Signature $210–$325 or ENTRY from $165 on this shore?',
-          a: 'Signature $210–$325 a guest, groceries inside that band, is the usual west-side dinner. ENTRY from $165 is the shorter night when the kitchen and the list fit it. After either line: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit only after we can staff. Card: /pricing.',
+          a: 'Signature $210–$325 a guest, groceries inside that band, is the usual west-side dinner. ENTRY from $165 is the shorter night when the kitchen and the list fit it. After either line: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit only after we can staff.',
         },
         {
           q: 'Stay Chef from $1,450 — how do Kona groceries print?',
-          a: 'Day rate from $1,450. Groceries at cost with receipts. Extra meals that day are their own line. Signature never folds into the day fee. A week that cooks more than once should not be four Signature nights stacked in a chat. Inquiry: /quote.',
+          a: 'Day rate from $1,450. Groceries at cost with receipts. Extra meals that day are their own line. Signature never folds into the day fee. A week that cooks more than once should not be four Signature nights stacked in a chat.',
         },
         {
           q: 'Ironman week — can you still take a west-side inquiry?',
-          a: 'Yes, with compressed availability. Flag those dates early on /quote or WhatsApp +1 808 468 7748. We will not invent a spare crew. Event weeks sit on /ironman-weeks. This URL stays the Kona dinner door.',
+          a: 'Yes, with compressed availability. Flag those dates early on the quote form or WhatsApp +1 808 468 7748. We will not invent a spare crew.',
         },
         {
           q: 'Named Kona coffee on the plate — farm names?',
-          a: 'Named coffee follows origin-labeling rules. We do not invent farm names. Ranch or farm credits appear only after we hold written verification. The coffee-labeling note is /coffee-act-198. This page stays the dinner door.',
+          a: 'Named coffee follows origin-labeling rules. We do not invent farm names. Ranch or farm credits appear only after we hold written verification. The coffee-labeling note is on the Kona coffee labeling notes.',
         },
         {
           q: 'Kona town versus a Waikoloa resort residence?',
-          a: 'This corridor is town, Keauhou, and the south end of the run. /waikoloa is the resort-residence belt inside the 30-minute radius. Same inquiry desk. Same $210–$325 food band. Different inventory. Ranch elevation: /waimea.',
+          a: 'This corridor is town, Keauhou, and the south end of the run. Same inquiry desk. Same $210–$325 food band. Different inventory.',
         },
         {
-          q: 'How do I send a Kona inquiry — not a Book-now?',
-          a: 'Five fields on /quote: Hawaiʻi Island, shore, dates, headcount, how to reach you. Or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Hawaii-hours desk. We reply when a crew can hold that week. See /pricing.',
+          q: 'How do I send a Kona inquiry — not instant booking?',
+          a: 'Five fields on the quote form: Hawaiʻi Island, shore, dates, headcount, how to reach you. Or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Hawaii-hours desk. We reply when a crew can hold that week.',
         },
       ],
     },
@@ -1122,42 +1101,34 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       body: [
         'Estate and ranch tables in Kamuela. Signature still sits at $210–$325 a guest — groceries inside that band. Stay Chef from $1,450 a day, groceries at cost with receipts. The Waimea / Hāmākua zone line prints as its own row. After the food: 20% service and Hawaiʻi GET up to 4.712%.',
         'A 50% deposit holds a date only after we can staff that week. Gratuity is never required. This is not the Kauaʻi west-side Waimea. Hotel rooms without a cooktop are declined. Cooler evenings still get a covered backup when the table is outdoors.',
-        'West-side town: /kona. Resort residences: /waikoloa. Island home still owns private chef Big Island. Tariff: /pricing. Inquiry form: /quote.',
+        'Every neighborhood here is part of our [private chef Big Island](/) service. Nearby: west-side town in [Kailua-Kona and Keauhou](/kona); resort residences in [Waikoloa](/waikoloa).',
       ],
       zone: 'Surcharge — Waimea / Hāmākua',
       photo: 'locWaimea',
       faqs: [
         {
           q: 'Why is Waimea a surcharge when Kona is base?',
-          a: 'The drive and the elevation. Ranch country sits above the Kohala resorts. The zone line prints on the quote — it is not folded into the fish. West-side town stays base: /kona. Resort belt: /waikoloa.',
+          a: 'The drive and the elevation. Ranch country sits above the Kohala resorts. The zone line prints on the quote — it is not folded into the fish.',
         },
         {
           q: 'Kamuela ranch house — same $210–$325 food band?',
-          a: 'Yes. Signature $210–$325 a guest, groceries inside that band. The surcharge is the zone line, not a new menu card. After the food: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit only after we can staff. Card: /pricing.',
+          a: 'Yes. Signature $210–$325 a guest, groceries inside that band. The surcharge is the zone line, not a new menu card. After the food: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit only after we can staff.',
         },
         {
           q: 'Stay Chef from $1,450 upcountry — groceries and the zone line?',
-          a: 'Day rate from $1,450. Groceries at cost with receipts. Extra meals that day are quoted. The Waimea zone line still prints once for the chef day. Signature never folds into the day fee. Send the week on /quote.',
-        },
-        {
-          q: 'Is this the same Waimea as Kauaʻi’s west side?',
-          a: 'No. This host is Kamuela / ranch country on Hawaiʻi Island. Kauaʻi Waimea is a different island, a different inquiry desk, and a different surcharge story. Do not treat the two URLs as one place.',
-        },
-        {
-          q: 'Ranch wedding on this elevation — dinner door or estate format?',
-          a: 'A ranch dinner for the house is this corridor. Estate formats with staffing live on /weddings and /catering — quoted, inquiry-stage. A reception crew is not a Signature crew. Headcount on /quote.',
+          a: 'Day rate from $1,450. Groceries at cost with receipts. Extra meals that day are quoted. The Waimea zone line still prints once for the chef day. Signature never folds into the day fee. Send the week on the quote form.',
         },
         {
           q: 'Cooler Waimea nights — outdoor table rules?',
-          a: 'We write a covered backup before a deposit. Elevation weather is a Tuesday. We will not sell an uncovered lawn as the only plan. Resort lanais sit below this grade: /waikoloa.',
+          a: 'We write a covered backup before a deposit. Elevation weather is a Tuesday. We will not sell an uncovered lawn as the only plan.',
         },
         {
           q: 'Gate codes and ranch access — when do you ask?',
-          a: 'On the inquiry, before anyone drives upcountry. We will not discover a locked gate at elevation the afternoon of service. Send access notes with the Kamuela address on /quote. A band is not a live Book-now.',
+          a: 'On the inquiry, before anyone drives upcountry. We will not discover a locked gate at elevation the afternoon of service. Send access notes with the Kamuela address on the quote form. A published band is not instant booking.',
         },
         {
           q: 'How do I put a Kamuela surcharge on the inquiry?',
-          a: 'Name the ranch address and the elevation on /quote so the Waimea zone line can print. WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. We reply when a crew can hold that week. See /pricing.',
+          a: 'Name the ranch address and the elevation on the quote form so the Waimea zone line can print. WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. We reply when a crew can hold that week.',
         },
       ],
     },
@@ -1172,34 +1143,34 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       body: [
         'Same Kona–Kohala team. Signature $210–$325 a guest, groceries inside that band. Stay Chef from $1,450 a day is the honest villa-week cook, groceries at cost with receipts. After either line: 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit holds a date only after we can staff that week.',
         'Mauna Lani and Mauna Kea resort residences sit on this same corridor — not a second island. We will not pretend to cover Hilo from here in an afternoon. Hotel rooms without a cooktop in the resort belt are declined.',
-        'Kona town and Keauhou: /kona. Ranch elevation: /waimea. The radius cell is /kohala-corridor. Island home still owns private chef Big Island. Numbers: /pricing. Inquiry: /quote.',
+        'Every neighborhood here is part of our [private chef Big Island](/) service. Nearby: Kona town in [Kailua-Kona and Keauhou](/kona); ranch elevation in [Waimea](/waimea).',
       ],
       zone: 'Base — Kohala corridor',
       photo: 'locWaikoloa',
       faqs: [
         {
           q: 'Which Waikoloa kitchens sit inside the 30-minute corridor?',
-          a: 'Resort residences with a working range, cold storage, and seats for the list. Seven communities share this radius. A hotel room with a minibar is declined. Put the property type on /quote. Town kitchens sit south: /kona.',
+          a: 'Resort residences with a working range, cold storage, and seats for the list. Seven communities share this radius. A hotel room with a minibar is declined. Put the property type on the quote form.',
         },
         {
-          q: 'Mauna Lani or Mauna Kea — a second island or this door?',
-          a: 'This door. Same west-side corridor, same inquiry desk, same $210–$325 food band. We will not market a second company for a neighboring resort. The radius map is /kohala. Ranch houses sit inland: /waimea.',
+          q: 'Mauna Lani or Mauna Kea — is that a separate trip?',
+          a: 'This door. Same west-side corridor, same inquiry desk, same $210–$325 food band. We will not market a second company for a neighboring resort.',
         },
         {
           q: 'Do $210–$325 and Stay Chef from $1,450 still apply in Waikoloa?',
-          a: 'Yes. Signature $210–$325 a guest, groceries inside that band. Stay Chef from $1,450 a day, groceries at cost with receipts. After either line: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit only after we can staff. Card: /pricing.',
+          a: 'Yes. Signature $210–$325 a guest, groceries inside that band. Stay Chef from $1,450 a day, groceries at cost with receipts. After either line: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit only after we can staff.',
         },
         {
           q: 'Can you cover Hilo from a Waikoloa chef day?',
-          a: 'No. East side is a dedicated crossing — 2.5–3 hours — never an afternoon add-on from the Kohala resorts. We will not sell that shortcut. Crossing document: /east-side.',
+          a: 'No. East side is a dedicated crossing — 2.5–3 hours — never an afternoon add-on from the Kohala resorts. We will not sell that shortcut.',
         },
         {
           q: 'Inquiry-stage on the Kohala resorts — what does that mean?',
-          a: 'We crew the house properly or we do not take the night. Send the resort address and the dates. A band is not a live Book-now. We will not hold a fake roster. Form: /quote.',
+          a: 'We crew the house properly or we do not take the night. Send the resort address and the dates. A published band is not instant booking. We will not hold a fake roster.',
         },
         {
           q: 'Villa week versus one Signature night in Waikoloa?',
-          a: 'Stay Chef from $1,450 is the villa-week cook. One celebration night uses Signature $210–$325. They never blend. Extra meals on a Stay Chef day are quoted. Write the rhythm on /quote.',
+          a: 'Stay Chef from $1,450 is the villa-week cook. One celebration night uses Signature $210–$325. They never blend. Extra meals on a Stay Chef day are quoted. Write the rhythm on the quote form.',
         },
         {
           q: 'What Waikoloa rooms fail the kitchen test?',
@@ -1207,7 +1178,7 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         },
         {
           q: 'How do I join the Hawaiʻi Island inquiry list from Waikoloa?',
-          a: '/quote with Hawaiʻi Island, the Waikoloa address, dates, and headcount — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Hawaii-hours desk. We reply when a team can hold that week. See /pricing.',
+          a: 'The quote form with Hawaiʻi Island, the Waikoloa address, dates, and headcount — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Hawaii-hours desk. We reply when a team can hold that week.',
         },
       ],
     },
@@ -1220,43 +1191,43 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       lede: 'The opening move on Hawaiʻi Island: one 30-minute service radius, the island’s highest villa ADRs.',
       body: [
         'West-side villa ADRs and resort-belt kitchens sit inside this radius. Signature $210–$325 a guest keeps groceries inside that band. Stay Chef from $1,450 a day bills the shop at cost with receipts. After either line: 20% service and Hawaiʻi GET up to 4.712%.',
-        'Producer names appear only with written verification. Hotel rooms without a cooktop are declined. Named corridors on the same map are not clones: /waikoloa for the resort corridor, /kona for town and Keauhou, /waimea for ranch elevation.',
-        'East-side Hilo is never the same unpaid day — see /east-side and /hilo. Island home still owns private chef Big Island. Tariff: /pricing. Inquiry: /quote.',
+        'Producer names appear only with written verification. Hotel rooms without a cooktop are declined. Named corridors on the same map are not clones: the Waikoloa page for the resort corridor, the Kailua-Kona / Keauhou page for town and Keauhou, the Waimea page for ranch elevation.',
+        'East-side Hilo is never the same unpaid day.',
       ],
       zone: 'Base zone',
       photo: 'kohalaTable',
       faqs: [
         {
-          q: 'Why is this Kohala Coast radius still an inquiry, not a Book-now button?',
-          a: 'The radius page does not keep a live roster you can click. Put the coast address, the week, and the headcount on /quote?island=bigisland and wait for a written reply. /waikoloa is the named resort belt. /kona is town and Keauhou. A starting price here is a band for that map, not a calendar slot.',
+          q: 'Why is this Kohala Coast radius still an inquiry, not an instant-booking button?',
+          a: 'The radius page does not keep a live roster you can click. Put the coast address, the week, and the headcount on the quote form and wait for a written reply. A starting price here is a band for that map, not a calendar slot.',
         },
         {
-          q: 'Which door is Kohala, and which doors name the belts inside it?',
-          a: 'Use this URL when the house is on the Kohala Coast radius and you have not picked a community yet. /waikoloa names the resort belt. /kona names town and Keauhou at the south end of the run. Mauna Lani and Mauna Kea are residences on this belt — not a second company, and not the summit. /waimea is ranch elevation with its own zone line. Shared map. Separate pages.',
+          q: 'Which Kohala Coast communities do you cook in?',
+          a: 'The Kohala Coast resort communities — Waikoloa, Mauna Lani, the Mauna Kea resort and Puakō — plus Kailua-Kona and Keauhou at the south end of the run. Mauna Kea here means the resort community on the coast, not the summit.',
         },
         {
           q: 'On this radius, what is inside Signature $210–$325 versus ENTRY from $165?',
-          a: 'The shop for a Signature dinner is already inside $210–$325 a guest. A Mauna Lani or Mauna Kea residence does not get a second grocery bill on that night. ENTRY from $165 is only the shorter list when the coast kitchen can hold it. Service at 20% and Hawaiʻi GET up to 4.712% print after the food. Gratuity is never required. The 50% deposit waits until a crew can hold the week. The card is /pricing.',
+          a: 'The shop for a Signature dinner is already inside $210–$325 a guest. A Mauna Lani or Mauna Kea residence does not get a second grocery bill on that night. ENTRY from $165 is only the shorter list when the coast kitchen can hold it. Service at 20% and Hawaiʻi GET up to 4.712% print after the food. Gratuity is never required. The 50% deposit waits until a crew can hold the week.',
         },
         {
           q: 'A Kohala villa week uses Stay Chef from $1,450 — where does the shop print?',
-          a: 'The day fee starts at $1,450 and covers the chef, an assistant, and one meal. The coast shop is a separate receipt stack, at cost, zero markup — not folded into that fee, and not the Signature invoice. A second meal the same day is written, not absorbed. Do not ask this page to turn four plated nights into one day rate. Villa weeks go on /quote?island=bigisland.',
+          a: 'The day fee starts at $1,450 and covers the chef, an assistant, and one meal. The coast shop is a separate receipt stack, at cost, zero markup — not folded into that fee, and not the Signature invoice. A second meal the same day is written, not absorbed. Do not ask this page to turn four plated nights into one day rate. Villa weeks go on the quote form.',
         },
         {
           q: 'Is Kohala inside the base ~30-minute radius — and can you add Hilo?',
-          a: 'Yes — Kohala Coast is the west-side base zone. East-side Hilo is 2.5–3 hours and never the same unpaid day as a Kohala dinner. Crossing rule: /east-side. Town door: /hilo. We will not sell that shortcut from a resort belt night.',
+          a: 'Yes — Kohala Coast is the west-side base zone. East-side Hilo is 2.5–3 hours and never the same unpaid day as a Kohala dinner. Town door: Hilo. We will not sell that shortcut from a resort belt night.',
         },
         {
           q: 'A Kohala resort lock-off or hotel room — will you still cook?',
-          a: 'Only when the residence has a real range, a fridge that can hold the shop, and a table for the list. A minibar room on this belt is a decline, said before any deposit. An outdoor-only setup with no indoor kitchen fails the same test. The named resort corridor keeps its own kitchen note on /waikoloa.',
+          a: 'Only when the residence has a real range, a fridge that can hold the shop, and a table for the list. A minibar room on this belt is a decline, said before any deposit. An outdoor-only setup with no indoor kitchen fails the same test. The named resort corridor keeps its own kitchen note on the Waikoloa page.',
         },
         {
           q: 'Multi-gen estate or Family Feast versus a Date Night on this coast?',
-          a: 'Two seats stay a plated Signature table on this radius. A multi-gen estate or Family Feast still cooks here when the kitchen holds the list. Past a house dinner, the night is staffed and the total is written on /catering — not estimated in chat. Still inquiry. A heavy week does not grow a spare crew.',
+          a: 'Two seats stay a plated Signature table on this radius. A multi-gen estate or Family Feast still cooks here when the kitchen holds the list. Past a house dinner, the night is staffed and the total is written on the catering page — not estimated in chat. Still inquiry. A heavy week does not grow a spare crew.',
         },
         {
           q: 'Who takes a Kohala Coast inquiry — and what must be in it?',
-          a: 'The west-side desk, for a written total. File /quote?island=bigisland with the coast house, the nights, and how many seats. If the week is ready to hold, WhatsApp https://wa.me/18084687748 or call +1 808 468 7748. Mail is quotes@mychef-hawaii.com. Hawaii hours. Nothing here is a free tasting consult, and a Hilo date is a different day. Tariff: /pricing.',
+          a: 'The west-side desk, for a written total. File the quote form with the coast house, the nights, and how many seats. If the week is ready to hold, WhatsApp https://wa.me/18084687748 or call +1 808 468 7748. Mail is quotes@mychef-hawaii.com. Hawaii hours. Nothing here is a free tasting consult, and a Hilo date is a different day.',
         },
       ],
     },

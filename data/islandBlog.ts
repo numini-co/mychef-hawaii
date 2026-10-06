@@ -24,11 +24,11 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     description:
       'Not a statewide feed.',
     lede:
-      'Short posts for people already looking at this island’s dinner doors. Not a statewide feed, and not the longer corridor notes on /journal.',
+      'Not a statewide feed, and not the longer corridor notes on the journal.',
     kicker: 'Oʻahu · Blog',
     photo: 'blogOahu',
     body: [
-      'If you want the longer corridor notes, read /journal. This page stays closer to booking questions.',
+      'If you want the longer corridor notes, read the journal.',
     ],
   },
   maui: {
@@ -41,8 +41,6 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     kicker: 'Maui · Blog',
     photo: 'blogMaui',
     body: [
-      `This page is the shorter companion.`,
-      'Wedding-week pacing and kitchen-constraint notes belong on /journal; this page stays closer to booking questions.',
     ],
   },
   kauai: {
@@ -55,7 +53,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     kicker: 'Kauaʻi · Blog',
     photo: 'blogKauai',
     body: [
-      'If you need the Hanalei-bridge weather note at length, /journal is the better page.',
+      'If you need the Hanalei-bridge weather note at length, the journal is the better page.',
     ],
   },
   bigisland: {
@@ -64,12 +62,12 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     description:
       'West side first. East side is a different day.',
     lede:
-      'Short posts beside west-side kitchens. East side is a different day — that sentence belongs here too.',
+      'Short posts from west-side kitchens on Hawaiʻi Island. East side is a different day.',
     kicker: 'Hawaiʻi Island · Blog',
     photo: 'blogBigisland',
     body: [
-      `This page is the shorter companion.`,
-      'West-side kitchens and Kohala travel show up in the shorter posts; /journal keeps the longer corridor notes.',
+      'West-side kitchens and Kohala travel show up in the shorter posts; the journal keeps the longer notes.',
+      'Looking to book rather than read? Dinner prices, the ENTRY and CORE bands and Stay Chef days are on the [private chef Big Island](/) page, and staffed villa parties for ten to seventy-five are [Big Island catering](/catering).',
     ],
   },
 };
