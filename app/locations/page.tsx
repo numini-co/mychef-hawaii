@@ -11,21 +11,21 @@ export default function Page() {
       id="locations"
       related={
         <HubPhotoGrid
-          eyebrow="Beside these dinner doors"
-          heading="Open a related document."
-          intro="This page is the four-island picker for live corridor URLs. Map notes, coverage maps, the form, and how a night runs are their own URLs."
+          eyebrow="Related pages"
+          heading="Related pages."
+          intro="Related pages to help you plan your dinner, event or stay."
           columns={2}
           items={[
             {
               href: '/areas',
-              title: 'Map notes',
-              body: 'Corridors plus the rest of the named places. Not the live dinner-door list.',
+              title: 'Area guide',
+              body: 'Corridors plus the rest of the named places.',
               still: photos.hubAreas,
             },
             {
               href: '/coverage',
               title: 'Coverage maps',
-              body: 'Each island publishes its own zone list. Distinct from this corridor picker.',
+              body: 'Each island publishes its own zone list.',
               still: photos.hubCoverage,
             },
             {
@@ -37,7 +37,7 @@ export default function Page() {
             {
               href: '/how-it-works',
               title: 'How it works',
-              body: 'Enquire, menu, written quote. Distinct from the FAQ picker.',
+              body: 'Enquire, menu, written quote.',
               still: photos.hubHow,
             },
           ]}

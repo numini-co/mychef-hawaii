@@ -51,7 +51,7 @@ function islandFaqs(islandId: IslandId): CopyFaq[] {
       q: `Is this ${island.name} estimate a quote?`,
       a: `No. It is a range from ${island.name} published starting prices. ${
         inquiry
-          ? `${island.name} is inquiry stage, so we confirm what we can staff — and the total — in writing.`
+          ? `${island.name} is by inquiry only, so we confirm what we can staff — and the total — in writing.`
           : `The ${island.name} team sends a written quote that is the confirmed total.`
       }`,
     },

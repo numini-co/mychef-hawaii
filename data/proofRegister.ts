@@ -46,9 +46,9 @@ export const proofRegister: ProofClaim[] = [
   },
   {
     claim:
-      'Groceries follow two published models — never blended. Signature dinners include food inside the published band. Stay Chef bills groceries at cost with merchant receipts. The line-by-line card is on /pricing.',
+      'Groceries follow two published models — never blended. Signature dinners include food inside the published band. Stay Chef bills groceries at cost with merchant receipts. The line-by-line card is on the pricing page.',
     status: 'VERIFIED',
-    label: 'PUBLISHED — /pricing',
+    label: 'PUBLISHED — the pricing page',
   },
 ];
 

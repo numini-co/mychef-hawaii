@@ -27,7 +27,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'kamaaina',
       name: 'Kamaʻāina line',
-      h1: 'Kamaʻāina household chefs — weekly, not a tourist SKU.',
+      h1: 'Kamaʻāina household chefs — weekly, not a tourist.',
       title: 'Kamaʻāina weekly household chefs — Oʻahu residents | myCHEF',
       description:
         'Weekly household service for Oʻahu residents. Frequency, not yield. Not a visitor dinner. Personal-chef weeks sit next to the villa line.',
@@ -35,15 +35,11 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         'Resident kitchens. School nights. A fridge that actually gets used. This is not a one-off villa dinner dressed up as local.',
       photo: 'cellKamaaina',
       body: [
-        `This page is the resident frequency line. Neither belongs in a tourist-dinner title.`,
-        'The dinner door for visitors is this host’s home and /private-chef. Stay Chef weeks are /vacation-chef. Kamaʻāina is frequency: the same household, the same corridors, a standing shop-and-cook rhythm.',
-        'Honolulu residences, Kailua households, town apartments with a real stove. We do not sell this as a yield product. If you are visiting, open / or /vacation-chef.',
+        `Neither belongs in a tourist-dinner title.`,
+        'Kamaʻāina is frequency: the same household, the same corridors, a standing shop-and-cook rhythm.',
+        'Honolulu residences, Kailua households, town apartments with a real stove. We do not sell this as a yield product. If you are visiting, open the private chef page or the Stay Chef page.',
       ],
       faqs: [
-        {
-          q: 'Is this private chef Oahu?',
-          a: `This page is weekly service for people who live here.`,
-        },
         {
           q: 'Do you need a 30-day estate?',
           a: 'Kailua weeks often are. Town apartments with a kitchen can be a standing Tuesday. Tell us the address.',
@@ -67,7 +63,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       photo: 'cellConventions',
       body: [
         'The Hawaiʻi Convention Center citywide calendar is closed through 2027. This department will not pretend to be a MICE play while that is true — or after, unless we staff that work for real.',
-        'Offsites that actually happen in houses — 10–75 guests, a kitchen, a lawn — are /events and /catering. Film and production crews in residences are the same staffed-room product, not a convention overlay.',
+        'Offsites that actually happen in houses — 10–75 guests, a kitchen, a lawn — are the occasions page and the catering page. Film and production crews in residences are the same staffed-room product, not a convention overlay.',
         'January around the Sony Open week presses hospitality on this island. We name the calendar. We do not claim an affiliation.',
       ],
       faqs: [
@@ -77,7 +73,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'What about a board dinner in Kahala during a conference?',
-          a: 'A house with a kitchen is our product. The conference across town is not. See /gold-coast.',
+          a: 'A house with a kitchen is our product. The conference across town is not.',
         },
       ],
       related: [
@@ -90,22 +86,18 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       slug: 'gold-coast',
       name: 'Gold Coast',
       h1: 'Gold Coast estate dining rooms — Kahala to Diamond Head.',
-      title: 'Gold Coast estate dining rooms — Kahala to Diamond Head | myCHEF',
+      title: 'Gold Coast private chef — Kahala to Diamond Head | myCHEF',
       description:
         'Kahala and Diamond Head residences with real dining rooms. Base zone on Oahu. Estate entertaining, not a hotel suite.',
       lede:
         'The dining room is the point. Brass, koa, a lawn that opens to one Diamond Head cone. This is estate entertaining on the Gold Coast.',
       photo: 'cellGoldCoast',
       body: [
-        'Kahala is a live corridor on /kahala. This cell is the estate belt as a whole — Gold Coast houses with dining rooms, not a Waikīkī kitchenette.',
-        'Base zone. No North Shore surcharge. Wedding-weekend kitchens on this coast are /weddings. A Tuesday for eight is / or /private-chef.',
+        'The estate belt as a whole — Gold Coast houses with dining rooms, not a Waikīkī kitchenette.',
+        'Base zone. No North Shore surcharge. Wedding-weekend kitchens on this coast are on the weddings page. A Tuesday for eight is the private chef page or the in-villa dinner page.',
         'We staff the night to the guest list: chef and shopping for two; chef, sous, service, bar for a seated reception.',
       ],
       faqs: [
-        {
-          q: 'Is this the same as /kahala?',
-          a: '/kahala is the neighborhood door. This page is the estate belt — Kahala through Diamond Head residences with dining rooms.',
-        },
         {
           q: 'Hotel nearby — can you cook there instead?',
           a: 'If the suite has a kitchen. Most do not. The Gold Coast product is the house.',
@@ -128,8 +120,8 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         'We say legal because the law does. Ko Olina is where visitor villas actually sit on this island. Town apartments are a different product.',
       photo: 'cellShortStay',
       body: [
-        'Ko Olina is a live corridor on /ko-olina. This cell is the legal short-stay fact: the west-side villa pool, not a wink at unpermitted town rentals.',
-        'Stay Chef weeks and arrival-night dinners are the usual stack. Groceries at cost on multi-day. See /vacation-chef.',
+        'The legal short-stay fact: the west-side villa pool, not a wink at unpermitted town rentals.',
+        'Stay Chef weeks and arrival-night dinners are the usual stack. Groceries at cost on multi-day.',
         'West-side provisioning. We are on-site before the rush the same way we are in town — the corridor is just different.',
       ],
       faqs: [
@@ -139,7 +131,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Is this a tourist dinner?',
-          a: 'It is a villa week for people staying legally on the west side. Resident weekly service is /kamaaina.',
+          a: 'It is a villa week for people staying legally on the west side.',
         },
       ],
       related: [
@@ -159,12 +151,12 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       description:
         'Three South Maui cells, three logistics stories, one team. Wailea resort residences, Makena lava terraces, Kīhei vacation homes.',
       lede:
-        'Same south shore. Not the same driveway. Wailea, Makena, and Kīhei each have a live URL. This page is the corridor that holds them.',
+        'Same south shore. Not the same driveway. Wailea, Makena, and Kīhei each have a live URL.',
       photo: 'cellSouthMaui',
       body: [
-        'Open /wailea, /makena, /kihei. Resort residences, lava terraces, residential vacation homes. One South Maui team shops and staffs all three.',
-        'Maui catering — the money search — lives on /catering. This page does not take that title. It names the south-shore drive.',
-        'Upcountry is not South Maui. Pāʻia is quote-only. See /coverage.',
+        'Resort residences, lava terraces, residential vacation homes. One South Maui team shops and staffs all three.',
+        ' This page does not take that title. It names the south-shore drive.',
+        'Upcountry is not South Maui. Pāʻia is quote-only.',
       ],
       faqs: [
         {
@@ -193,14 +185,13 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         'The channel, the headland, the deck at west sunset. Kāʻanapali to Kapalua. We do not sell this corridor as a Lahaina dining brand.',
       photo: 'cellWestMaui',
       body: [
-        'Live URLs: /kaanapali, /kapalua, /lahaina. /lahaina is how we name the geography honestly. This page is the west-side drive as a corridor.',
+        'Live URLs: Kāʻanapali, Kapalua, Lahaina / West Maui.',
         'Traffic is planned into arrival, not discovered on the invoice. A Saturday in West Maui is not a South Maui Saturday.',
-        `The address page is /lahaina.`,
       ],
       faqs: [
         {
           q: 'Do you cook “in Lahaina”?',
-          a: 'We cook West Maui houses with kitchens. Tell us the address. /lahaina explains the naming. We will not run a luxury-Lahaina ad.',
+          a: 'We cook West Maui houses with kitchens. Tell us the address. We will not run a luxury-Lahaina ad.',
         },
         {
           q: 'Kapalua vs Kāʻanapali?',
@@ -217,7 +208,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       slug: 'wedding-week',
       name: 'Wedding week',
       h1: 'Maui wedding week — four lines, one kitchen.',
-      title: 'Maui wedding week — welcome, rehearsal, reception, brunch | myCHEF',
+      title: 'Maui wedding week — welcome dinner to brunch | myCHEF',
       description:
         'Primary wedding island. Welcome dinner, rehearsal, reception, and recovery brunch as separate lines.',
       lede:
@@ -225,12 +216,12 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       photo: 'cellMauiWeddingWeek',
       body: [
         'Welcome dinner. Rehearsal. Reception. Recovery brunch. Written as four lines — or however many nights you actually want. Guest counts we staff: receptions about 10–75.',
-        'Wailea lawns, Kapalua houses, Makena terraces. Wet-weather backup is written for grass. See /south-maui and /west-maui for the drive.',
+        'Wailea lawns, Kapalua houses, Makena terraces. Wet-weather backup is written for grass.',
       ],
       faqs: [
         {
           q: 'Is this the wedding catering page?',
-          a: `No. /weddings owns wedding catering Maui. This page is the week: welcome, rehearsal, reception, brunch as separate lines.`,
+          a: `No.`,
         },
         {
           q: 'Can we skip the reception and only do welcome + brunch?',
@@ -259,7 +250,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         'Hāʻena and the far North are quote-only. Princeville and Hanalei already carry a shore surcharge. Past the bridge, weather and the one-lane road decide whether we arrive.',
         '72-hour notice. If the road closes, we reschedule rather than forfeit the food. The clause is on the quote.',
-        'This is not a North Shore postcard. It is logistics. The estate dinner itself is /hanalei or /north-shore.',
+        'This is not a North Shore postcard. It is logistics. The estate dinner itself is the Hanalei page or the North Shore page.',
       ],
       faqs: [
         {
@@ -288,15 +279,11 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         'Misted mountains, wet stone, a covered lānai plan. The North is not the South. Winters book early because the weather is the calendar.',
       photo: 'cellKauaiNorth',
       body: [
-        'Live corridors: /princeville, /hanalei. Hāʻena is quote-only with /hanalei-bridge. This page is the shore as a whole so those neighborhood titles stay specific.',
-        `Private chef Poipu Kauai is a related South Shore phrase. This URL is the North. Starting prices from $225 a guest — published, not invented.`,
+        'We cook in Princeville and Hanalei. Hāʻena is quote-only with the Hanalei bridge notes.',
+        `Private chef Poipu Kauai is a related South Shore phrase. Starting prices from $225 a guest — published, not invented.`,
         'Inquiry stage. We staff the estate when a crew exists.',
       ],
       faqs: [
-        {
-          q: 'Is this private chef Kauai?',
-          a: `This page is the North Shore map.`,
-        },
         {
           q: 'Winter swell — can you still cook?',
           a: 'In the kitchen and on a covered terrace, yes. Outdoor fire is a weather call. Far-North still inherits the bridge clause.',
@@ -319,7 +306,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         'Kiawe, red dirt, pale cliffs, a pool kitchen in the morning. The South is sun and fire. It is still a published shore surcharge.',
       photo: 'cellKauaiSouth',
       body: [
-        'Live corridor: /poipu. This cell is the South Shore as a whole — Poʻipū and Kōloa — so /poipu can stay the neighborhood door.',
+        'The South Shore as a whole — Poʻipū and Kōloa — with sun-side kitchens closer to Līhuʻe.',
         'Shorter drive from Līhuʻe than Princeville. Same starting prices. Wood-grilled catch when the kitchen can take fire.',
         `Related search “private chef poipu kauai” is a supporting phrase, not a second title. Home holds private chef Kauai.`,
       ],
@@ -330,7 +317,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'South Shore chef as a brand?',
-          a: 'No. Related search “south shore chef kauai” is this cell, not a second company. One Kauaʻi department, two shores. See /about.',
+          a: 'No. Related search “south shore chef kauai” is this cell, not a second company. One Kauaʻi department, two shores.',
         },
       ],
       related: [
@@ -350,14 +337,13 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         'Not a ballroom. An estate table looking into a valley, or a South Shore lawn. Inquiry stage. Each night is a line.',
       photo: 'cellKauaiWeddingWeek',
       body: [
-        `This page holds the week stack.`,
-        'Welcome, rehearsal, reception as separate lines. Estate formats to about 75. Far-North weeks inherit /hanalei-bridge.',
+        'Welcome, rehearsal, reception as separate lines. Estate formats to about 75.',
         'From $260 a guest plus staffing — published. Inquiry list with the shore and the dates.',
       ],
       faqs: [
         {
           q: 'Can I book the reception only?',
-          a: 'Yes. The week is optional. /weddings is the catering door; this page is how the nights stack.',
+          a: 'Yes. The week is optional.',
         },
         {
           q: 'Ballroom at a resort?',
@@ -384,14 +370,13 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         'Kailua-Kona, Keauhou, Waikoloa, Mauna Lani, the Mauna Kea resort belt, Kohala Coast houses. One radius. Hilo is a different day.',
       photo: 'cellKohalaCorridor',
       body: [
-        'Live corridors: /kona, /waikoloa, /kohala. This page is the radius that holds them. /coverage is the zone map including Waimea and the east.',
-        `Those titles live on / and /private-chef. This URL is the map.`,
+        'We cook in Kailua-Kona and Keauhou, Waikoloa and Kohala Coast.',
         'Hard sun, lava terraces, kitchens that range from a true pass to a galley. Inquiry stage.',
       ],
       faqs: [
         {
           q: 'Is Waimea in this radius?',
-          a: 'Waimea is a surcharge zone inland — ranch country, not this lava coast. See /waimea.',
+          a: 'Waimea is a surcharge zone inland — ranch country, not this lava coast.',
         },
         {
           q: 'How many “seven communities”?',
@@ -416,8 +401,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       photo: 'cellCoffeeAct',
       body: [
         'Act 198 tightens origin labeling for named Kona and Kaʻū coffee from 2027. We will not get ahead of it with decorative farm names.',
-        'Coffee-rubbed catch is a west-side menu. Unlabeled cherries on the board are produce, not a claim. See /menus.',
-        'This page exists so /kona can stay a place and not become a coffee-brand essay.',
+        'Coffee-rubbed catch is a west-side menu. Unlabeled cherries on the board are produce, not a claim.',
       ],
       faqs: [
         {
@@ -426,7 +410,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Do you tour farms?',
-          a: 'We cook dinners. Farm visits are not a SKU we sell.',
+          a: 'We cook dinners.',
         },
       ],
       related: [
@@ -447,7 +431,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       photo: 'cellIronman',
       body: [
         'World Championship week and other pier-town events pack Kailua-Kona. We do not print event logos or claim an affiliation. We print the calendar fact: availability compresses.',
-        'Flag those dates on the inquiry. A Waikoloa house is a different traffic story than a townhouse above Aliʻi — still west side, still /kohala-corridor.',
+        'Flag those dates on the inquiry. A Waikoloa house is a different traffic story than a townhouse above Aliʻi — still west side, still the Kona–Kohala corridor page.',
         'This is not a spectator-hospitality product. It is a warning so we do not oversell.',
       ],
       faqs: [
@@ -477,8 +461,8 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         'Rain, ʻōhiʻa, a different island climate. The east is not a Kohala add-on. If we staff it, it is its own team day.',
       photo: 'cellEastSide',
       body: [
-        'The west-side radius is /kohala-corridor. This page exists so we cannot quietly claim Hilo on a Waikoloa brochure.',
-        '2.5–3 hours. Dedicated staffing. Quoted with the menu. Inquiry stage — and more so than the west, because the bench has to exist on that side of the island.',
+        'The west-side radius is on the Kona–Kohala corridor page. This page exists so we cannot quietly claim Hilo on a Waikoloa brochure.',
+        '2.5–3 hours. Dedicated staffing. Quoted with the menu. By inquiry — and more so than the west, because the bench has to exist on that side of the island.',
         'Volcano weather is its own plan. We will not promise outdoor fire we cannot keep.',
       ],
       faqs: [

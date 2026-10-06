@@ -80,7 +80,7 @@ function rateBlockRows(kind: RateBlockKind): RateRow[] {
       return islandOrder.map((id) => ({
         label: islands[id].name,
         value: formatMobileBarPackage(id),
-        note: `${formatMobileBarGuest(id)} · ${islands[id].state === 'inquiry' ? 'inquiry-stage' : 'live'}`,
+        note: `${formatMobileBarGuest(id)} · ${islands[id].state === 'inquiry' ? 'by inquiry' : 'live'}`,
       }));
     case 'vacation-chef': {
       const offer = getOtherOffer('vacation-chef');

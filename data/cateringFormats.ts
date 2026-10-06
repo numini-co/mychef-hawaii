@@ -27,7 +27,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Whole fish on the grill, a lawn, the trade wind. Not a restaurant patio. Staffing still sits on the quote.',
       photo: 'fmtBbqOahu',
       body: [
-        'Drop-off is a different product — /catering/drop-off. Guest counts: /guest-counts. Wet-weather backup is written for lawns.',
+        'Drop-off is a different product. Wet-weather backup is written for lawns.',
       ],
       faqs: [
         {
@@ -56,8 +56,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Courses paced to the table. The Gold Coast dining room is the usual room. Staffing is a different line from the food band.',
       photo: 'fmtPlatedOahu',
       body: [
-        `This URL is plated service.`,
-        'Rehearsal dinners often run plated — /rehearsal-dinners. Family-style is /catering/family-style. Guest counts: /guest-counts.',
+        'Rehearsal dinners often run plated.',
       ],
       faqs: [
         {
@@ -66,7 +65,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
         {
           q: 'Can two of us sit plated?',
-          a: 'Yes. See /honeymoon-dinners — Kahala kitchen.',
+          a: 'Yes.',
         },
       ],
       related: [
@@ -83,19 +82,18 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       description:
         'Shared platters in Kahala dining rooms and Ko Olina villas. Usual estate night when the list is about 10–20.',
       lede:
-        'Platters, not a pass. Welcome dinners often run this way. The plated page is next door.',
+        'Platters, not a pass. Welcome dinners often run this way.',
       photo: 'fmtFamilyOahu',
       body: [
-        'Welcome dinners: /events/welcome-dinners. Villa parties: /events/villa-parties. This URL is the format.',
       ],
       faqs: [
         {
           q: 'Kids at a family-style table?',
-          a: 'Yes — /kids-menus. Same platters, simpler plates beside.',
+          a: 'Same platters, simpler plates beside.',
         },
         {
           q: 'Same as grazing?',
-          a: 'Grazing is boards and pūpū — /catering/grazing. This page is seated platters.',
+          a: 'Grazing is boards and pūpū.',
         },
       ],
       related: [
@@ -115,8 +113,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Guests move. Stations stay hot. A hundred-guest lawn is still quoted, not promised from a Tuesday dinner.',
       photo: 'fmtBuffetOahu',
       body: [
-        `This URL is buffet as a format.`,
-        'Retreat full-board: /retreat-catering. Guest counts: /guest-counts. Drop-off is not this product.',
+        'Drop-off is not this product.',
       ],
       faqs: [
         {
@@ -125,7 +122,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
         {
           q: 'Convention buffet?',
-          a: 'No. HCC citywides are closed through 2027. See /conventions.',
+          a: 'No. HCC citywides are closed through 2027.',
         },
       ],
       related: [
@@ -145,7 +142,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Boards, passed pieces, the room still landing. A seated dinner is a different format. Grazing tables are a market reference, labeled when we quote them.',
       photo: 'fmtGrazingOahu',
       body: [
-        'Welcome dinners often start here — /events/welcome-dinners. Family-style is seated platters. This URL is the board format.',
+        'Welcome dinners often start here. Family-style is seated platters.',
       ],
       faqs: [
         {
@@ -167,15 +164,15 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       slug: 'drop-off',
       name: 'Drop-off',
       h1: 'Trays at a Honolulu door are not a staffed Kahala night.',
-      title: 'Honolulu drop-off trays are not a staffed Kahala night | myCHEF',
+      title: 'Drop-off catering Honolulu vs staffed catering | myCHEF',
       description:
         'Oʻahu drop-off is trays at the door, not a staffed Kahala brigade. Inquiry only. We will not sell drop-off as if a chef stays.',
       lede:
-        'Trays at the door, no pass, no cleanup crew. If you want a chef in the house, that is /catering or /. This page is the refusal to blur them.',
+        'Trays at the door, no pass, no cleanup crew. If you want a chef in the house, that is the catering page or /.',
       photo: 'fmtDropoffOahu',
       body: [
-        'Staffed catering is /catering. Private chef dinner is this host’s home. Drop-off stays gated until we publish a real drop-off bench — we do not have one as a standing SKU.',
-        'If a night needs trays and no staff, ask. Do not expect the CORE dinner band. See /what-we-dont-do.',
+        'Private chef dinner is this site’s home.',
+        'If a night needs trays and no staff, ask. Do not expect the CORE dinner band.',
       ],
       faqs: [
         {
@@ -206,8 +203,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Grill, grass, identical plates. Saturday Honoapiʻilani traffic is planned into arrival. Not a hotel luau we do not run.',
       photo: 'fmtBbqMaui',
       body: [
-        `This URL is the grill format.`,
-        'West Maui: /west-maui. South Maui: /south-maui. Drop-off is /catering/drop-off — a different product.',
+        'Drop-off is the Drop-off catering format — a different product.',
       ],
       faqs: [
         {
@@ -216,7 +212,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
         {
           q: 'Rain?',
-          a: 'Backup is written. See /south-maui.',
+          a: 'Backup is written.',
         },
       ],
       related: [
@@ -236,8 +232,6 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'A restaurant arc, off-site, to the table. Rehearsal dinners often run this way. Staffing is a separate line.',
       photo: 'fmtPlatedMaui',
       body: [
-        `This URL is plated service.`,
-        'Rehearsal: /rehearsal-dinners. Family-style: /catering/family-style. Traffic: /west-maui.',
       ],
       faqs: [
         {
@@ -246,7 +240,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
         {
           q: 'Two of us?',
-          a: 'Yes. See /honeymoon-dinners — Wailea kitchen.',
+          a: 'Yes.',
         },
       ],
       related: [
@@ -263,19 +257,14 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       description:
         'Shared platters in Wailea, Kapalua and Kīhei. Usual villa night for about 10–20.',
       lede:
-        'Platters down the table. Welcome dinners often run this way. The plated page is next door.',
+        'Platters down the table. Welcome dinners often run this way.',
       photo: 'fmtFamilyMaui',
       body: [
-        'Welcome: /events/welcome-dinners. Villa parties: /events/villa-parties. This URL is the format.',
       ],
       faqs: [
         {
-          q: 'Kids?',
-          a: 'Yes — /kids-menus.',
-        },
-        {
           q: 'Same as grazing?',
-          a: 'Grazing is boards — /catering/grazing. This is seated platters in a Wailea villa.',
+          a: 'This is seated platters in a Wailea villa.',
         },
       ],
       related: [
@@ -295,8 +284,6 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Guests move. Stations stay hot. Wet-weather backup is written. Ballrooms are not the product.',
       photo: 'fmtBuffetMaui',
       body: [
-        `This URL is buffet as a format.`,
-        'Retreat kitchens: /retreat-catering. Guest counts: /guest-counts.',
       ],
       faqs: [
         {
@@ -325,7 +312,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Boards, travel clothes, the ice-breaker. A seated dinner is a different format.',
       photo: 'fmtGrazingMaui',
       body: [
-        'Welcome dinners often start here — /events/welcome-dinners. Family-style is seated. This URL is the board format.',
+        'Welcome dinners often start here. Family-style is seated.',
       ],
       faqs: [
         {
@@ -334,7 +321,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
         {
           q: 'West Maui arrival grazing after OGG?',
-          a: 'If we have the crew. Traffic is planned. See /west-maui.',
+          a: 'If we have the crew. Traffic is planned.',
         },
       ],
       related: [
@@ -351,11 +338,10 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       description:
         'Maui drop-off is trays at a villa door, not a Wailea brigade. Inquiry only. We will not sell drop-off as if a chef stays.',
       lede:
-        'Trays at the villa door. No pass. No cleanup. If you want a chef, that is /catering or /. This page keeps the words honest.',
+        'Trays at the villa door. No pass. No cleanup. If you want a chef, that is the catering page or /. This page keeps the words honest.',
       photo: 'fmtDropoffMaui',
       body: [
-        'Staffed catering is /catering. Stay Chef weeks are /vacation-chef. Drop-off is not a standing SKU and is not priced as the CORE dinner.',
-        'See /what-we-dont-do. We will not discount staffed service into drop-off language.',
+        'We will not discount staffed service into drop-off language.',
       ],
       faqs: [
         {
@@ -386,8 +372,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Grill, kiawe, pale cliffs or misted mountains. Inquiry. We do not sell a theatrical luau we do not staff.',
       photo: 'fmtBbqKauai',
       body: [
-        `This URL is the grill format.`,
-        'Far-North: /hanalei-bridge. Drop-off is a different product. Inquiry list with the shore.',
+        'Drop-off is a different product. Inquiry list with the shore.',
       ],
       faqs: [
         {
@@ -396,7 +381,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
         {
           q: 'Hanalei BBQ in surf season?',
-          a: 'Bridge clause still applies. See /hanalei-bridge.',
+          a: 'Bridge clause still applies.',
         },
       ],
       related: [
@@ -416,8 +401,6 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Courses on an estate table. North mist or South sun. Inquiry. Rehearsal dinners often run this way.',
       photo: 'fmtPlatedKauai',
       body: [
-        `This URL is plated service.`,
-        'Rehearsal: /rehearsal-dinners. Far-North still inherits /hanalei-bridge.',
       ],
       faqs: [
         {
@@ -426,7 +409,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
         {
           q: 'Two of us?',
-          a: 'Yes. See /honeymoon-dinners — Princeville kitchen at inquiry.',
+          a: 'Yes.',
         },
       ],
       related: [
@@ -446,12 +429,11 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Platters down the table. Welcome dinners often run this way. Inquiry.',
       photo: 'fmtFamilyKauai',
       body: [
-        'Welcome: /events/welcome-dinners. This URL is the format. Far-North: /hanalei-bridge.',
       ],
       faqs: [
         {
           q: 'Kids?',
-          a: 'Yes — /kids-menus. Weather still applies on the North.',
+          a: 'Weather still applies on the North.',
         },
         {
           q: 'Same as grazing?',
@@ -475,8 +457,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Guests move. Stations stay hot. Inquiry. Estate scale, not a ballroom.',
       photo: 'fmtBuffetKauai',
       body: [
-        `This URL is buffet as a format.`,
-        'Retreat kitchens: /retreat-catering. Guest counts: /guest-counts. Inquiry stage.',
+        'Inquiry stage.',
       ],
       faqs: [
         {
@@ -485,7 +466,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
         {
           q: 'Far-North buffet?',
-          a: 'Bridge clause still applies. See /hanalei-bridge.',
+          a: 'Bridge clause still applies.',
         },
       ],
       related: [
@@ -505,7 +486,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Boards after Līhuʻe. Family-style may follow. Inquiry.',
       photo: 'fmtGrazingKauai',
       body: [
-        'Welcome dinners often start here — /events/welcome-dinners. This URL is the board format.',
+        'Welcome dinners often start here.',
       ],
       faqs: [
         {
@@ -531,11 +512,10 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       description:
         'Kauaʻi drop-off is inquiry-only trays, never sold as a staffed Princeville or Poʻipū estate.',
       lede:
-        'Trays at the estate door. No pass. Inquiry. If you want a chef, that is /catering. This page keeps the words honest.',
+        'Trays at the estate door. No pass. Inquiry. If you want a chef, that is on the catering page. This page keeps the words honest.',
       photo: 'fmtDropoffKauai',
       body: [
-        'Staffed catering is /catering. Stay Chef is /vacation-chef. Drop-off is not a standing SKU while this department is inquiry.',
-        'Far-North still inherits /hanalei-bridge even for a conversation about trays. See /what-we-dont-do.',
+        'Far-North still inherits the Hanalei bridge notes even for a conversation about trays.',
       ],
       faqs: [
         {
@@ -566,8 +546,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Grill on lava, hard sun, kanpachi. Not a Hilo add-on. We do not sell a theatrical luau we do not staff.',
       photo: 'fmtBbqBigisland',
       body: [
-        `This URL is the grill format.`,
-        'West-side: /kohala-corridor. East side: /east-side. Ironman weeks: /ironman-weeks.',
+        'West-side: Kona–Kohala corridor.',
       ],
       faqs: [
         {
@@ -576,7 +555,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
         {
           q: 'Hilo BBQ?',
-          a: 'Quote-only dedicated staffing. See /east-side.',
+          a: 'Quote-only dedicated staffing.',
         },
       ],
       related: [
@@ -596,17 +575,15 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Courses on lava, Mauna Kea faint. Inquiry. Rehearsal dinners often run this way.',
       photo: 'fmtPlatedBigisland',
       body: [
-        `This URL is plated service.`,
-        'Rehearsal: /rehearsal-dinners. East side: /east-side.',
       ],
       faqs: [
         {
           q: 'Hilo plated?',
-          a: 'Quote-only dedicated day. See /east-side.',
+          a: 'Quote-only dedicated day.',
         },
         {
           q: 'Two of us?',
-          a: 'Yes. See /honeymoon-dinners — Waikoloa kitchen. Hilo is never implied.',
+          a: 'Yes. Hilo is never implied.',
         },
       ],
       related: [
@@ -626,16 +603,16 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Platters down the table. Welcome dinners often run this way. Hard sun still in the window.',
       photo: 'fmtFamilyBigisland',
       body: [
-        'Welcome: /events/welcome-dinners. This URL is the format. West-side: /kohala-corridor.',
+        'West-side: Kona–Kohala corridor.',
       ],
       faqs: [
         {
           q: 'Kids on lava at noon?',
-          a: 'Shade is the house. See /kids-menus.',
+          a: 'Shade is the house.',
         },
         {
           q: 'Hilo family-style?',
-          a: 'Quote-only east side. See /east-side.',
+          a: 'Quote-only east side.',
         },
       ],
       related: [
@@ -655,17 +632,15 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Guests move. Stations stay hot in hard sun. Inquiry. Not a Hilo add-on.',
       photo: 'fmtBuffetBigisland',
       body: [
-        `This URL is buffet as a format.`,
-        'Retreat kitchens: /retreat-catering. Ironman weeks pack town — /ironman-weeks. Guest counts: /guest-counts.',
       ],
       faqs: [
         {
           q: 'Ironman week buffet?',
-          a: 'Flag dates. Town compresses. See /ironman-weeks.',
+          a: 'Flag dates. Town compresses.',
         },
         {
           q: 'Hilo buffet?',
-          a: 'Quote-only dedicated staffing. See /east-side.',
+          a: 'Quote-only dedicated staffing.',
         },
       ],
       related: [
@@ -685,7 +660,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Boards, travel clothes, lava still hot. A seated dinner is a different format.',
       photo: 'fmtGrazingBigisland',
       body: [
-        'Welcome dinners often start here — /events/welcome-dinners. This URL is the board format.',
+        'Welcome dinners often start here.',
       ],
       faqs: [
         {
@@ -711,11 +686,10 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       description:
         'West-side drop-off is inquiry-only trays, not a Kona crew. Hilo is another day. We will not sell drop-off as if a chef stays.',
       lede:
-        'Trays at the villa door. No pass. Inquiry. If you want a chef, that is /catering. East side is still a different day.',
+        'Trays at the villa door. No pass. Inquiry. If you want a chef, that is on the catering page. East side is still a different day.',
       photo: 'fmtDropoffBigisland',
       body: [
-        'Staffed catering is /catering. Stay Chef is /vacation-chef. Drop-off is not a standing SKU while this department is inquiry.',
-        'East-side drop-off is not a west-side errand. See /east-side and /what-we-dont-do.',
+        'East-side drop-off is not a west-side errand.',
       ],
       faqs: [
         {

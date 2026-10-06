@@ -93,8 +93,8 @@ export function HowItWorksView() {
         </div>
       </section>
       <HubPhotoGrid
-        eyebrow="Beside this process"
-        heading="Open a related document."
+        eyebrow="Related pages"
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
@@ -119,14 +119,14 @@ export function HowItWorksView() {
           {
             href: '/pricing',
             title: 'What a night costs',
-            body: 'The published rate card. Distinct from the fee-stack explainer.',
+            body: 'The published rate card.',
             still: photos.hubPricing,
           },
         ]}
       />
       <IslandPhotoPicker
         path="/how-it-works"
-        heading="Open the island process document."
+        heading="Related pages."
         detailOf={() => 'How a night runs'}
       />
       <QuoteTeaser />
@@ -169,8 +169,8 @@ export function TrustView() {
         </div>
       </section>
       <HubPhotoGrid
-        eyebrow="Beside this register"
-        heading="Open a related document."
+        eyebrow="Related pages"
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
@@ -189,7 +189,7 @@ export function TrustView() {
           {
             href: '/legal',
             title: 'Legal notes',
-            body: 'GET, service charge, cancellation, and weather posture. Distinct from this register.',
+            body: 'GET, service charge, cancellation, and weather posture.',
             still: photos.hubLegal,
           },
           {
@@ -246,8 +246,8 @@ export function IslandTrustView({ islandId }: { islandId: (typeof islandOrder)[n
       </section>
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow={`${islands[islandId].shortName} · Beside this register`}
-        heading="Open a related document."
+        eyebrow={`${islands[islandId].shortName} · Related`}
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
@@ -369,8 +369,8 @@ export function LegalView({ islandId }: { islandId?: IslandId | null } = {}) {
       {islandId ? (
         <DocumentPhotoGrid
           islandId={islandId}
-          eyebrow={`${islands[islandId].shortName} · Beside these notes`}
-          heading="Open a related document."
+          eyebrow={`${islands[islandId].shortName} · Related`}
+          heading="Related pages."
           intro="Related pages to help you plan your dinner, event or stay."
           columns={2}
           items={[
@@ -382,8 +382,8 @@ export function LegalView({ islandId }: { islandId?: IslandId | null } = {}) {
         />
       ) : (
         <HubPhotoGrid
-          eyebrow="Beside these notes"
-          heading="Open a related document."
+          eyebrow="Related pages"
+          heading="Related pages."
           intro="Related pages to help you plan your dinner, event or stay."
           columns={2}
           items={[
@@ -396,7 +396,7 @@ export function LegalView({ islandId }: { islandId?: IslandId | null } = {}) {
             {
               href: '/pricing',
               title: 'What a night costs',
-              body: 'The published rate card. Distinct from the fee-stack explainer.',
+              body: 'The published rate card.',
               still: photos.hubPricing,
             },
             {
@@ -439,7 +439,7 @@ export function CorporateView({ kind = 'corporate' }: { kind?: 'corporate' | 'ga
     kind === 'gatherings' ? 'Private gatherings — the house, not the ballroom.' : 'Retreats, crews, private rooms — not citywides.';
   const lede =
     kind === 'gatherings'
-      ? 'Birthdays, reunions, and rehearsal dinners in villas. Staffed 10–75. Wedding-week stacks live on /weddings.'
+      ? 'Birthdays, reunions, and rehearsal dinners in villas. Staffed 10–75. Wedding-week formats are on the weddings page.'
       : 'Staffed chef catering for villa offsites and production crews of 10–75. HCC citywides are closed through 2027 — and they are not our product.';
   return (
     <>
@@ -456,7 +456,7 @@ export function CorporateView({ kind = 'corporate' }: { kind?: 'corporate' | 'ga
       </Hero>
       <HubPhotoGrid
         eyebrow={kind === 'gatherings' ? 'House gatherings' : 'Villa offsites'}
-        heading="Open a statewide document."
+        heading="Related pages."
         intro={
           kind === 'gatherings'
             ? 'Pick the page that fits your plans.'
@@ -474,12 +474,12 @@ export function CorporateView({ kind = 'corporate' }: { kind?: 'corporate' | 'ga
       />
       <IslandPhotoPicker
         path={kind === 'gatherings' ? '/gatherings' : '/corporate'}
-        heading={kind === 'gatherings' ? 'Open the island gatherings document.' : 'Open the island offsite document.'}
+        heading={kind === 'gatherings' ? 'Related pages.' : 'Related pages.'}
         detailOf={() => (kind === 'gatherings' ? 'House gatherings' : 'Villa offsites')}
       />
       <HubPhotoGrid
-        eyebrow={kind === 'gatherings' ? 'Beside these house gatherings' : 'Beside these villa offsites'}
-        heading="Open a related document."
+        eyebrow={kind === 'gatherings' ? 'Related pages' : 'Related pages'}
+        heading="Related pages."
         intro={
           kind === 'gatherings'
             ? 'Related pages to help you plan your event.'
@@ -492,13 +492,13 @@ export function CorporateView({ kind = 'corporate' }: { kind?: 'corporate' | 'ga
                 {
                   href: '/catering',
                   title: 'Villa catering',
-                  body: 'The larger staffed room. Distinct from a birthday or family villa week.',
+                  body: 'The larger staffed room.',
                   still: photos.cateringHero,
                 },
                 {
                   href: '/weddings',
                   title: 'Wedding week',
-                  body: 'Welcome dinner to recovery brunch. Distinct from a rehearsal dinner as its own line.',
+                  body: 'Welcome dinner to recovery brunch.',
                   still: photos.weddingHero,
                 },
                 {
@@ -518,7 +518,7 @@ export function CorporateView({ kind = 'corporate' }: { kind?: 'corporate' | 'ga
                 {
                   href: '/catering',
                   title: 'Villa catering',
-                  body: 'The larger staffed room. Distinct from a villa offsite or crew catering SKU.',
+                  body: 'The larger staffed room.',
                   still: photos.cateringHero,
                 },
                 {
@@ -530,7 +530,7 @@ export function CorporateView({ kind = 'corporate' }: { kind?: 'corporate' | 'ga
                 {
                   href: '/staffing',
                   title: 'Staffing add-ons',
-                  body: 'Hourly servers, bartenders, quoted butlers. Distinct from the offsite door.',
+                  body: 'Hourly servers, bartenders, quoted butlers.',
                   still: photos.hubStaff,
                 },
                 {
@@ -565,35 +565,35 @@ export function HubAreasView() {
       </Hero>
       <HubPhotoGrid
         eyebrow="Statewide geography"
-        heading="Open a geography document."
+        heading="Where we cook."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           {
             href: '/locations',
-            title: locations?.cardLabel ?? 'Live dinner doors',
+            title: locations?.cardLabel ?? 'Private chef by town',
             body: locations?.lede ?? 'The towns and neighborhoods we cook in.',
             still: locations ? photos[locations.photo] : still,
           },
           {
             href: '/islands',
-            title: 'Four island hosts',
+            title: 'Four islands',
             body: 'Each island is its own host — its own chefs, zones and pricing. This is not the map-notes page.',
             still: photos.hubIslands,
           },
         ]}
       />
-      <IslandPhotoPicker path="/areas" heading="Open the island map notes." detailOf={() => 'Map notes'} />
+      <IslandPhotoPicker path="/areas" heading="Open the island area guide." detailOf={() => 'Area guide'} />
       <HubPhotoGrid
-        eyebrow="Beside these map notes"
-        heading="Open a related document."
+        eyebrow="Related pages"
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           {
             href: '/coverage',
             title: 'Coverage maps',
-            body: 'Each island publishes its own zone list. Not the live dinner-door list.',
+            body: 'Each island publishes its own zone list.',
             still: photos.hubCoverage,
           },
           {
@@ -683,7 +683,7 @@ export function HubDirectoryView({ id, related }: { id: string; related?: ReactN
       {nested.length ? (
         <HubPhotoGrid
           eyebrow={copy.kicker}
-          heading="Open a nested document."
+          heading="Related pages."
           intro=""
           items={nested.map((row) => ({
             href: row.path,
@@ -695,7 +695,7 @@ export function HubDirectoryView({ id, related }: { id: string; related?: ReactN
       ) : null}
       <IslandPhotoPicker
         path={copy.path}
-        heading="Open the island document."
+        heading="Choose your island."
         intro={
           copy.path === '/menus'
             ? 'Plated sample courses and published prices are on each island’s menus page.'
@@ -723,9 +723,9 @@ function IslandBleedRows({ currentIsland }: { currentIsland?: IslandId } = {}) {
             <span aria-hidden className="absolute inset-0 hero-scrim-bottom" />
             <div className="hero-copy relative mx-auto flex min-h-[70svh] w-full max-w-spread items-end px-5 py-12 lg:px-10">
               <div className="hero-type-shadow max-w-[40rem] text-paper">
-                <Eyebrow tone="paper">{here ? 'This host' : isl.stateLabel}</Eyebrow>
+                <Eyebrow tone="paper">{here ? 'You are here' : isl.stateLabel}</Eyebrow>
                 <span className="mt-4 block font-display text-[clamp(2.5rem,6vw,4rem)] font-light leading-[1.05] text-paper">
-                  {here ? `${isl.name} — this host` : isl.name}
+                  {here ? `${isl.name} — you are here` : isl.name}
                 </span>
                 <span className="mt-4 block text-[17px] leading-[1.65] text-paper">{chooser.line}</span>
                 <span className="mt-4 block text-[15px] text-paper">
@@ -752,28 +752,27 @@ export function IslandsView() {
           className="mt-4 font-display text-[clamp(2.5rem,6vw,4.25rem)] font-light leading-[1.05] tracking-[-0.02em] text-ink"
         />
         <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink">
-          Four island departments. Each island is its own host — its own chefs, zones and pricing. Oʻahu and Maui take
-          quotes. Kauaʻi and Hawaiʻi Island are inquiry-stage. Each island host also keeps an other-islands list at
-          /islands.
+          Four islands, each with its own site — its own chefs, zones and pricing. Oʻahu and Maui take
+          quotes. Kauaʻi and Hawaiʻi Island are taking enquiries.
         </p>
       </Hero>
       <IslandBleedRows />
       <HubPhotoGrid
         eyebrow="Statewide geography"
-        heading="Open a geography document."
+        heading="Where we cook."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           {
             href: '/locations',
-            title: 'Live dinner doors',
+            title: 'Private chef by town',
             body: 'The towns and neighborhoods we cook in on each island.',
             still: photos.hubLocations,
           },
           {
             href: '/areas',
-            title: 'Map notes',
-            body: 'Corridors plus the rest of the named places. Not the live dinner-door list.',
+            title: 'Area guide',
+            body: 'Corridors plus the rest of the named places.',
             still: photos.hubAreas,
           },
         ]}
@@ -784,15 +783,15 @@ export function IslandsView() {
         detailOf={() => 'Other hosts'}
       />
       <HubPhotoGrid
-        eyebrow="Beside this host picker"
-        heading="Open a related document."
+        eyebrow="Related pages"
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           {
             href: '/coverage',
             title: 'Coverage maps',
-            body: 'Each island publishes its own zone list. Not the live dinner-door list.',
+            body: 'Each island publishes its own zone list.',
             still: photos.hubCoverage,
           },
           {
@@ -833,7 +832,7 @@ export function EditorialView({ kind }: { kind: 'journal' | 'blog' }) {
         />
         <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink">
           Each island department publishes its own {kind}. The hub does not rank for “private chef Maui” — that page
-          lives on the Maui host.
+
         </p>
       </Hero>
       <HubPhotoGrid
@@ -1003,7 +1002,7 @@ export function AreasIndexView({ islandId }: { islandId: (typeof islandOrder)[nu
       <Longform sections={[{ h2: copy.kicker, paras: copy.body }]} />
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow="Live dinner doors"
+        eyebrow="Private chef by town"
         heading="Open a place on this island."
         items={[
           ...hoods.map((hood) => ({ path: `/${hood.slug}`, label: hood.name, detail: `/${hood.slug}` })),
@@ -1013,7 +1012,7 @@ export function AreasIndexView({ islandId }: { islandId: (typeof islandOrder)[nu
       <DocumentPhotoGrid
         islandId={islandId}
         eyebrow="Kitchen notes"
-        heading="The dining-in notes beside those doors."
+        heading="Dining-in notes by town."
         items={notes.map((place) => ({
           path: `/blog/dining-in-${place.slug}`,
           label: place.name,
@@ -1022,12 +1021,12 @@ export function AreasIndexView({ islandId }: { islandId: (typeof islandOrder)[nu
       />
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow={`${islands[islandId].shortName} · Beside these map notes`}
-        heading="Open a related document."
+        eyebrow={`${islands[islandId].shortName} · Related`}
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
-          { path: '/locations', label: 'Live dinner doors', detail: '/locations' },
+          { path: '/locations', label: 'Private chef by town', detail: '/locations' },
           { path: '/coverage', label: 'Coverage map', detail: '/coverage' },
           { path: '/quote', label: 'The quote form', detail: '/quote' },
           { path: '/how-it-works', label: 'How it works', detail: '/how-it-works' },
@@ -1099,8 +1098,8 @@ export function ContactIndexView({ islandId }: { islandId: (typeof islandOrder)[
       <ContactCluster island={islandId} />
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow={`${islands[islandId].shortName} · Beside this desk`}
-        heading="Open a related document."
+        eyebrow={`${islands[islandId].shortName} · Related`}
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
@@ -1144,17 +1143,17 @@ export function LocationsIndexView({ islandId }: { islandId: (typeof islandOrder
       <DocumentPhotoGrid
         islandId={islandId}
         eyebrow={islands[islandId].name}
-        heading="Open a live dinner door."
+        heading="Private chef by town."
         items={hoods.map((hood) => ({ path: `/${hood.slug}`, label: hood.name, detail: `/${hood.slug}` }))}
       />
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow={`${islands[islandId].shortName} · Beside these dinner doors`}
-        heading="Open a related document."
+        eyebrow={`${islands[islandId].shortName} · Related pages`}
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
-          { path: '/areas', label: 'Map notes', detail: '/areas' },
+          { path: '/areas', label: 'Area guide', detail: '/areas' },
           { path: '/coverage', label: 'Coverage map', detail: '/coverage' },
           { path: '/quote', label: 'The quote form', detail: '/quote' },
           { path: '/how-it-works', label: 'How it works', detail: '/how-it-works' },
@@ -1193,10 +1192,10 @@ export function ServicesIndexView({ islandId }: { islandId: (typeof islandOrder)
       <DocumentPhotoGrid
         islandId={islandId}
         eyebrow={islands[islandId].name}
-        heading="Open a service on this host."
+        heading="Open a service on this site."
         items={SERVICE_INDEX_LINKS.map((row) => ({ path: row.path, label: row.label, detail: row.path }))}
       />
-      <LongFaq items={copy.faqs} title="Before you pick a door." />
+      <LongFaq items={copy.faqs} title="Before you choose." />
     </>
   );
 }
@@ -1238,7 +1237,7 @@ function NestedIndexView({
       <DocumentPhotoGrid
         islandId={islandId}
         eyebrow={islands[islandId].name}
-        heading="Open a document on this host."
+        heading="More on this island."
         items={links.map((row) => ({ path: row.path, label: row.label, detail: row.path }))}
       />
       <LongFaq items={copy.faqs} title={faqTitle} />
@@ -1252,7 +1251,7 @@ export function HelpIndexView({ islandId }: { islandId: (typeof islandOrder)[num
       islandId={islandId}
       copy={islandHelpIndex[islandId]}
       links={helpArticles[islandId].map((row) => ({ path: `/help/${row.slug}`, label: row.name }))}
-      faqTitle="Before you open a document."
+      faqTitle="Before you start."
     />
   );
 }
@@ -1333,19 +1332,19 @@ export function IslandsIndexView({ islandId }: { islandId: (typeof islandOrder)[
       <IslandBleedRows currentIsland={islandId} />
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow="On this host"
-        heading="Open a geography document."
-        intro="/locations is the live dinner-door list. /areas is the map — corridors plus the rest of the named places. Coverage stays the zone list."
+        eyebrow="Where we cook"
+        heading="Where we cook."
+        intro="Travel zones and the places we cook."
         columns={2}
         items={[
-          { path: '/locations', label: 'Live dinner doors', detail: '/locations' },
-          { path: '/areas', label: 'Map notes', detail: '/areas' },
+          { path: '/locations', label: 'Private chef by town', detail: '/locations' },
+          { path: '/areas', label: 'Area guide', detail: '/areas' },
         ]}
       />
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow={`${islands[islandId].shortName} · Beside these other hosts`}
-        heading="Open a related document."
+        eyebrow={`${islands[islandId].shortName} · Related`}
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
@@ -1355,7 +1354,7 @@ export function IslandsIndexView({ islandId }: { islandId: (typeof islandOrder)[
           { path: '/faq', label: 'FAQ', detail: '/faq' },
         ]}
       />
-      <LongFaq items={copy.faqs} title="Before you switch hosts." />
+      <LongFaq items={copy.faqs} title="Questions about the other islands." />
     </>
   );
 }
@@ -1380,7 +1379,7 @@ export function ServicesView() {
       </Hero>
       <HubPhotoGrid
         eyebrow="Four doors"
-        heading="Open a statewide document."
+        heading="Related pages."
         columns={4}
         items={[
           {
@@ -1411,27 +1410,27 @@ export function ServicesView() {
       />
       <IslandPhotoPicker path="/services" heading="Open the island service list." detailOf={() => 'Service list'} />
       <HubPhotoGrid
-        eyebrow="Beside these four doors"
-        heading="Open a related document."
+        eyebrow="Related pages"
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           {
             href: '/vacation-chef',
             title: 'Stay Chef week',
-            body: 'A chef for the villa week. Distinct from one dinner and from school-night households.',
+            body: 'A chef for the villa week.',
             still: photos.hubVacation,
           },
           {
             href: '/mobile-bar',
             title: 'The packaged cart',
-            body: 'The four-hour villa package. Distinct from the bartender add-on on /bar.',
+            body: 'The four-hour villa package.',
             still: photos.hubMobileBar,
           },
           {
             href: '/personal-chef',
             title: 'Household line',
-            body: 'Weekly cooking for residents. Distinct from visitor dinners and Stay Chef weeks.',
+            body: 'Weekly cooking for residents.',
             still: photos.hubPersonal,
           },
           {

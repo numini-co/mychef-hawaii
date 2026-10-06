@@ -13,8 +13,8 @@ export function PricingRelatedDoors({ islandId }: { islandId?: IslandId | null }
     return (
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow={`${islands[islandId].shortName} · Beside this rate card`}
-        heading="Open a related document."
+        eyebrow={`${islands[islandId].shortName} · Related`}
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
@@ -29,8 +29,8 @@ export function PricingRelatedDoors({ islandId }: { islandId?: IslandId | null }
 
   return (
     <HubPhotoGrid
-      eyebrow="Beside this rate card"
-      heading="Open a related document."
+      eyebrow="Related pages"
+      heading="Related pages."
       intro="Related pages to help you plan your dinner, event or stay."
       columns={2}
       items={[
@@ -43,13 +43,13 @@ export function PricingRelatedDoors({ islandId }: { islandId?: IslandId | null }
         {
           href: '/private-chef-cost',
           title: fee?.cardLabel ?? 'Fee stack',
-          body: fee?.lede ?? '/pricing is the rate card. This picker points at each island’s fee-stack explainer.',
+          body: fee?.lede ?? '',
           still: photos.hubFeeStack,
         },
         {
           href: '/legal',
           title: 'Booking notes',
-          body: 'Quotes, GET, deposits. Distinct from the rate card and the fee-stack explainer.',
+          body: 'Quotes, GET, deposits.',
           still: photos.hubLegal,
         },
         {

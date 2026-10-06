@@ -20,96 +20,66 @@ export interface IslandAreasPage {
 
 export const islandAreas: Record<IslandId, IslandAreasPage> = {
   oahu: {
-    h1: 'Oahu map notes — live corridors plus the rest of the named places.',
-    title: 'Oahu map notes — Honolulu plus the rest of the island | myCHEF',
-    description:
-      'Oahu map notes: live dinner doors plus kitchen notes for the rest of the named places. /locations is corridors only. /coverage is the zone map.',
-    lede:
-      '/locations is the live dinner-door list. /coverage is the zone map. This page is the rest of the geography — Honolulu through ʻEwa, corridors and kitchen notes together.',
+    h1: 'Oahu area guide — the places we cook and the rest of the island.',
+    title: 'Oahu area guide — Honolulu plus the rest of the island | myCHEF',
+    description: 'Oahu area guide: practical notes from myCHEF Hawaii for a private chef night in your villa or vacation rental. Send your dates for a written quote.',
+    lede: 'Oahu area guide: practical notes from myCHEF Hawaii for a private chef night in your villa or vacation rental. Send your dates for a written quote.',
     kicker: 'Oʻahu · Areas',
     photo: 'areasIndexOahu',
     body: [
-      'Corridors and supporting-area dinner doors are live URLs. Dining-in blogs stay the kitchen notes beside them. North Shore is still a surcharge day.',
+      'Dining-in blogs stay the kitchen notes beside them. North Shore is still a surcharge day.',
     ],
     faqs: [
-      {
-        q: 'Same as /locations?',
-        a: 'Locations lists money corridors. This page adds supporting-area dinner doors plus kitchen notes.',
-      },
-      {
-        q: 'Same as /coverage?',
-        a: 'Coverage is drive time and zone class. This page is the place list.',
-      },
     ],
   },
   maui: {
-    h1: 'Maui map notes — live corridors plus Upcountry and the rest.',
-    title: 'Maui map notes — Wailea plus Upcountry and the rest | myCHEF',
-    description:
-      'Maui map notes: live dinner doors plus kitchen notes for Upcountry, Pāʻia, and the rest. /locations is corridors only. /coverage is the zone map.',
-    lede:
-      '/locations is the live dinner-door list. /coverage is the zone map. This page is the rest of the island — Wailea through Kula, corridors and kitchen notes together.',
+    h1: 'Maui area guide — the places we cook, plus Upcountry.',
+    title: 'Maui area guide — Wailea plus Upcountry and the rest | myCHEF',
+    description: 'Maui area guide: practical notes from myCHEF Hawaii for a private chef night in your villa or vacation rental. Send your dates for a written quote.',
+    lede: 'Maui area guide: practical notes from myCHEF Hawaii for a private chef night in your villa or vacation rental. Send your dates for a written quote.',
     kicker: 'Maui · Areas',
     photo: 'areasIndexMaui',
     body: [
-      'Corridors and supporting-area dinner doors — Upcountry, Pāʻia, Makawao, and the rest — are live URLs. Dining-in blogs stay the kitchen notes. Saturday West Maui traffic still lives on /west-maui.',
+      'Dining-in blogs stay the kitchen notes. Saturday West Maui traffic still is on the West Maui page.',
     ],
     faqs: [
-      {
-        q: 'Same as /locations?',
-        a: 'Locations lists money corridors. This page adds Upcountry and the rest as dinner doors plus kitchen notes.',
-      },
-      {
-        q: 'Same as /south-maui or /west-maui?',
-        a: 'Those are corridor essays. This page is the island-wide place list.',
-      },
     ],
   },
   kauai: {
-    h1: 'Kauai map notes — both shores plus west-side towns, inquiry.',
-    title: 'Kauai map notes — both shores plus west-side towns, inquiry | myCHEF',
+    h1: 'Kauai area guide — both shores plus west-side towns, inquiry.',
+    title: 'Kauai area guide — both shores plus west-side towns, inquiry | myCHEF',
     description:
-      'Inquiry is not a Book-now button.',
-    lede:
-      '/locations is the live dinner-door list at inquiry. /coverage is the zone map. This page is the rest of the island — both shores plus Waimea, Hanapēpē, and the towns in between.',
+      'Inquiry is not an instant-booking button.',
+    lede: 'Kauai area guide: practical notes from myCHEF Hawaii for a private chef night in your villa or vacation rental. Send your dates for a written quote.',
     kicker: 'Kauaʻi · Areas',
     photo: 'areasIndexKauai',
     body: [
       `Inquiry stage.`,
-      'Princeville, Poʻipū, Hanalei, and Kapaʻa are corridor dinner doors at inquiry. West-side towns now have supporting dinner doors too. Dining-in blogs stay the kitchen notes. A named place is not a live roster.',
+      'Dining-in blogs stay the kitchen notes. A named place is not a live roster.',
     ],
     faqs: [
       {
-        q: 'Same as /locations?',
-        a: 'Locations lists money corridors. This page adds west-side towns as dinner doors plus kitchen notes.',
-      },
-      {
         q: 'Are you live on every town below?',
-        a: 'Inquiry. We crew when we can staff. Send the date on /quote.',
+        a: 'Inquiry. We crew when we can staff. Send the date on the quote form.',
       },
     ],
   },
   bigisland: {
-    h1: 'Hawaiʻi Island map notes — west side first, then the rest.',
-    title: 'Hawaiʻi Island map notes — west side first, then the rest | myCHEF',
+    h1: 'Hawaiʻi Island area guide — west side first, then the rest.',
+    title: 'Hawaiʻi Island area guide — west side first, then the rest | myCHEF',
     description:
       'Hilo is a different day.',
-    lede:
-      '/locations is the live west-side dinner-door list. /east-side is the Hilo crossing. This page is the rest of the geography — Kona through Kaʻū, corridors and kitchen notes together.',
+    lede: 'Hawaiʻi Island area guide: practical notes from myCHEF Hawaii for a private chef night in your villa or vacation rental. Send your dates for a written quote.',
     kicker: 'Hawaiʻi Island · Areas',
     photo: 'areasIndexBigisland',
     body: [
       `West side first.`,
-      'Kona, Waimea, Waikoloa, and Kohala are corridor dinner doors at inquiry. Hilo, Volcano, Kaʻū, and the rest are supporting dinner doors or a dedicated east-side day — never a same-day round trip. Dining-in blogs stay the kitchen notes.',
+      'Dining-in blogs stay the kitchen notes.',
     ],
     faqs: [
       {
-        q: 'Same as /locations?',
-        a: 'Locations lists only live west-side dinner doors. This page adds the rest of the named places.',
-      },
-      {
         q: 'Where is Hilo?',
-        a: 'On this list as a supporting dinner door, as kitchen notes, and as a dedicated day on /east-side. Not a Kona add-on.',
+        a: 'Not a Kona add-on.',
       },
     ],
   },

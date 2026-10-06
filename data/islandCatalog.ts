@@ -32,7 +32,7 @@ const SERVICE_PATHS: { path: string; label: string; lede: (n: string) => string 
   { path: '/rehearsal-dinners', label: 'Rehearsal dinners', lede: (n) => `Wedding-week SKU on ${n}: rehearsal, welcome, day-after as separate lines.` },
   { path: '/retreat-catering', label: 'Retreat catering', lede: (n) => `Full-board retreat days on ${n}. Dietary capability is table stakes, claimed only when true.` },
   { path: '/corporate-catering', label: 'Corporate catering', lede: (n) => `Offsites and executive dinners on ${n}. Not HCC citywides (closed through 2027).` },
-  { path: '/faq', label: 'FAQ', lede: (n) => `Island questions for ${n}. Statewide policy lives on the hub.` },
+  { path: '/faq', label: 'FAQ', lede: (n) => `Island questions for ${n}.` },
   { path: '/menus', label: 'Menus', lede: (n) => `Menus on ${n} are designed per table. This page explains the process, not a fake standing carte.` },
   { path: '/kids-menus', label: 'Kids at the table', lede: (n) => `Children’s plates on ${n} are planned with the adults’ menu, not an afterthought.` },
   { path: '/dietary', label: 'Dietary', lede: (n) => `Vegan, gluten-free, allergy-aware — designed in advance on ${n}.` },
@@ -67,14 +67,14 @@ function entry(island: IslandId, path: string, kind: CatalogKind, label: string,
       `${z.headline} ${z.honestyLine}`,
       `${n} is booking now. WhatsApp or the quote form — typical reply in Hawaii business hours. Travel fees are published.`,
       'Hawaiʻi guest reviews: none yet. We do not invent guest reviews or chef names.',
-      `Starting prices for private chef dinners, catering and the villa day rate are published on /pricing. Quote confirmed in writing.`,
+      `Starting prices for private chef dinners, catering and the villa day rate are published on the pricing page. Quote confirmed in writing.`,
     ],
   };
 }
 
 const UNIQUE: Record<IslandId, { path: string; label: string; lede: string }[]> = {
   oahu: [
-    { path: '/kamaaina', label: 'Kamaʻāina household line', lede: 'Frequency, not yield — weekly service for Oʻahu residents. Not a tourist SKU.' },
+    { path: '/kamaaina', label: 'Kamaʻāina household line', lede: 'Frequency, not yield — weekly service for Oʻahu residents.' },
     { path: '/conventions', label: 'Conventions and HCC', lede: 'Hawaiʻi Convention Center citywides are closed through 2027. This department is not a MICE play.' },
     { path: '/gold-coast', label: 'Gold Coast estates', lede: 'Kahala and Diamond Head residences with real dining rooms — base zone.' },
     { path: '/short-stay', label: 'Legal short-stay villas', lede: 'Ko Olina holds the deepest legal short-stay villa pool on Oʻahu. We say so because the law does.' },
@@ -86,7 +86,7 @@ const UNIQUE: Record<IslandId, { path: string; label: string; lede: string }[]> 
   ],
   kauai: [
     { path: '/hanalei-bridge', label: 'Hanalei bridge clause', lede: 'Far-North events inherit the weather/road clause. 72-hour notice. Reschedule rather than forfeit.' },
-    { path: '/north-shore', label: 'Kauaʻi North Shore', lede: 'Princeville, Hanalei, Hāʻena. Surf-season winters book early. Inquiry stage — quote in writing.' },
+    { path: '/north-shore', label: 'Kauaʻi North Shore', lede: 'Princeville, Hanalei, Hāʻena. Surf-season winters book early. By inquiry — quote in writing.' },
     { path: '/south-shore', label: 'Kauaʻi South Shore', lede: 'Poʻipū and Kōloa. Shorter drive from Līhuʻe than the North. Same Maui-class starting prices.' },
     { path: '/wedding-week', label: 'Kauaʻi wedding week', lede: 'Estate formats to about 75 guests. Welcome, rehearsal, reception as separate lines. Inquiry stage.' },
   ],

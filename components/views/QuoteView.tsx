@@ -91,8 +91,8 @@ export default function QuoteView({
           <Longform sections={[{ h2: copy.kicker, paras: copy.body }]} />
           <DocumentPhotoGrid
             islandId={islandId}
-            eyebrow={`${islands[islandId].shortName} · Beside this form`}
-            heading="Open a related document."
+            eyebrow={`${islands[islandId].shortName} · Related`}
+            heading="Related pages."
             intro="Related pages to help you plan your dinner, event or stay."
             columns={2}
             items={[
@@ -109,8 +109,8 @@ export default function QuoteView({
           <IslandDeskLinks selected={prefIsland} multi={multi} />
           <Longform sections={quoteTrustSections} />
           <HubPhotoGrid
-            eyebrow="Beside this form"
-            heading="Open a related document."
+            eyebrow="Related pages"
+            heading="Related pages."
             intro="Related pages to help you plan your dinner, event or stay."
             columns={2}
             items={[
@@ -123,7 +123,7 @@ export default function QuoteView({
               {
                 href: '/pricing',
                 title: 'What a night costs',
-                body: 'The published rate card. Distinct from the fee-stack explainer.',
+                body: 'The published rate card.',
                 still: photos.plated,
               },
               {
@@ -165,8 +165,8 @@ function IslandDeskLinks({ selected, multi }: { selected: IslandId | null; multi
         </h2>
         <p className="mt-4 max-w-[52ch] text-[17px] leading-relaxed text-mute">
           {multi
-            ? 'One coordinator across islands lives on this hub form. Each island host still keeps its own quote or inquiry page when the house is already chosen.'
-            : 'The Hawaii desk takes the same five fields. When you already know the island, the host form is the tighter document.'}
+            ? 'One coordinator across islands lives on this hub form.'
+            : 'The Hawaii desk takes the same five fields. When you already know the island, the island’s own quote form is quicker.'}
         </p>
         <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {ISLAND_QUOTE_DESKS.map(({ id, href: deskHref }) => {

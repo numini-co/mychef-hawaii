@@ -29,9 +29,9 @@ function journalSeeds(id: IslandId): Omit<Article, 'kind'>[] {
     .join(', ');
   const inquiry =
     isl.state === 'inquiry'
-      ? ` ${isl.name} is inquiry-stage — dated inquiries, not a booking button, until a staffed team exists.`
+      ? ` ${isl.name} is by inquiry only — dated inquiries, not a booking button, until a staffed team exists.`
       : '';
-  const live = isl.state === 'live' ? ' Booking now on this island.' : '';
+  const live = isl.state === 'live' ? 'Booking now on this island.' : '';
 
   return [
     {
@@ -41,7 +41,7 @@ function journalSeeds(id: IslandId): Omit<Article, 'kind'>[] {
       h1: `What a private chef costs on ${isl.name}.`,
       lede: `Published CORE band ${band}. Your written quote is itemised. We do not hide travel in the menu price.${inquiry}`,
       sections: [
-        { heading: 'The published band', body: `CORE on ${isl.name} sits at ${band}. ENTRY, PREMIUM and the villa day rate live on /private-chef-cost and /pricing. Quotes are confirmed in writing.` },
+        { heading: 'The published band', body: `CORE on ${isl.name} sits at ${band}. ENTRY, PREMIUM and the villa day rate are on the private chef cost page and the pricing page. Quotes are confirmed in writing.` },
         { heading: 'What is included', body: 'Menu design, shopping, cooking, table service, cleanup. Alcohol, rentals and venue fees are always separate lines.' },
         { heading: 'Zones', body: `${z.headline} ${z.honestyLine}` },
       ],
@@ -103,7 +103,7 @@ function journalSeeds(id: IslandId): Omit<Article, 'kind'>[] {
       description: z.honestyLine,
       h1: z.headline,
       lede: `${z.honestyLine} Areas: ${areaNames}.`,
-      sections: z.zones.map((zone) => ({ heading: zone.name, body: `${zone.note}${zone.driveTime ? ` Drive: ${zone.driveTime}.` : ''}` })),
+      sections: z.zones.map((zone) => ({ heading: zone.name, body: `${zone.note}${zone.driveTime ? `Drive: ${zone.driveTime}.` : ''}` })),
     },
     {
       slug: 'vacation-chef-week',
@@ -171,7 +171,7 @@ export function articlesFor(island: IslandId): Article[] {
     title: `${b.topic[0].toUpperCase()}${b.topic.slice(1)} on ${isl.name}`,
     description: `${b.topic} — ${isl.name} private chef and catering notes. Published operations, no fabricated events.`,
     h1: `${b.topic[0].toUpperCase()}${b.topic.slice(1)}.`,
-    lede: `On ${isl.name}, ${b.topic} is a real operational question, not a blog mood. ${isl.role} ${isl.state === 'inquiry' ? 'Inquiry-stage: dated inquiries only.' : 'Live island: written quotes.'}`,
+    lede: `On ${isl.name}, ${b.topic} is a real operational question, not a blog mood. ${isl.role} ${isl.state === 'inquiry' ? 'By inquiry: dated inquiries only.' : 'Live island: written quotes.'}`,
     sections: [
       { heading: 'How we handle it', body: `We put ${b.topic} on the quote as a line or a constraint. ${zoneMap[island].honestyLine}` },
       { heading: 'What we will not do', body: 'No fake local reviews, no invented partnerships, no “now serving” language ahead of a staffed team.' },

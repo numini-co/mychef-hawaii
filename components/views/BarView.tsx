@@ -17,15 +17,15 @@ import { islandHref } from '@/lib/paths';
 const hubMobileBarFaqs = [
   {
     q: 'What does mobile bar Hawaii include?',
-    a: 'A cart, a bartender, citrus, ice and glassware for four hours. Spirits billed at cost with receipts, or you supply your own. Island /mobile-bar pages publish the package price for that shore.',
+    a: 'A cart, a bartender, citrus, ice and glassware for four hours. Spirits billed at cost with receipts, or you supply your own. Island the mobile bar page pages publish the package price for that shore.',
   },
   {
-    q: 'How is this different from /bar?',
-    a: 'This URL owns the statewide four-hour package. /bar is the bartender add-on stacked with dinner. Open the island /mobile-bar document for that shore’s cart.',
+    q: 'How is this different from the villa bar page?',
+    a: 'Open the island the mobile bar page document for that shore’s cart.',
   },
   {
     q: 'Do you staff all four islands?',
-    a: 'Yes. Oʻahu and Maui take a written package quote now. Kauaʻi and Hawaiʻi Island are inquiry-stage — join the list with dates and shore. Starting prices are still published on every island page.',
+    a: 'Yes. Oʻahu and Maui take a written package quote now. Kauaʻi and Hawaiʻi Island are by inquiry only — join the list with dates and shore. Starting prices are still published on every island page.',
   },
   {
     q: 'Can we stack the cart with dinner or a wedding week?',
@@ -48,7 +48,7 @@ const COPY: Record<IslandId, { h1: string; lede: string; hero: { file: string; a
   },
   maui: {
     h1: 'Villa bartender add-on — Wailea and Kapalua terraces.',
-    lede: 'Welcome pours, rehearsal-night cocktails and a terrace hour in Wailea, Kapalua, Kāʻanapali and Makena. The four-hour packaged cart lives on /mobile-bar.',
+    lede: 'Welcome pours, rehearsal-night cocktails and a terrace hour in Wailea, Kapalua, Kāʻanapali and Makena. The four-hour packaged cart is on the mobile bar page.',
     hero: photos.barMaui,
   },
   kauai: {
@@ -58,7 +58,7 @@ const COPY: Record<IslandId, { h1: string; lede: string; hero: { file: string; a
   },
   bigisland: {
     h1: 'Sunset pours on the Kohala Coast.',
-    lede: 'Lava-coast terraces in the Kona–Kohala corridor. Bartender add-on; the four-hour packaged cart lives on /mobile-bar.',
+    lede: 'Lava-coast terraces in the Kona–Kohala corridor. Bartender add-on; the four-hour packaged cart is on the mobile bar page.',
     hero: photos.barBigisland,
   },
 };
@@ -128,7 +128,7 @@ export function HubBarView() {
       </Hero>
       <IslandBarPicker
         path="/bar"
-        heading="Open the island bar document."
+        heading="Related pages."
         stills={COPY}
         priceOf={(id) => {
           const bar = getMobileBar(id);
@@ -136,15 +136,15 @@ export function HubBarView() {
         }}
       />
       <HubPhotoGrid
-        eyebrow="Beside this bartender add-on"
-        heading="Open a related document."
+        eyebrow="Related pages"
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           {
             href: '/mobile-bar',
             title: 'The packaged cart',
-            body: 'Four hours, priced as a package. Distinct from this add-on hour. Hub /mobile-bar holds the statewide title.',
+            body: 'Four hours, priced as a package.',
             still: photos.hubMobileBar,
           },
           {
@@ -176,25 +176,25 @@ const PACKAGE: Record<IslandId, { h1: string; lede: string; hero: { file: string
   oahu: {
     h1: 'The 4-hour mobile bar package — Waikīkī to Ko Olina.',
     lede:
-      'A cart, ice, citrus, glassware and a bartender for four hours. Distinct from the cocktail-hour add-on on /bar. Stack it with dinner or book the package alone.',
+      'A cart, ice, citrus, glassware and a bartender for four hours. Stack it with dinner or book the package alone.',
     hero: photos.mobileBarOahu,
   },
   maui: {
     h1: 'A 4-hour mobile bar for Maui villa nights.',
     lede:
-      'The packaged cart for Wailea, Kapalua, Kāʻanapali and Makena. /bar is the bartender add-on. This page is the four-hour setup, priced as a package.',
+      'The packaged cart for Wailea, Kapalua, Kāʻanapali and Makena.',
     hero: photos.mobileBarMaui,
   },
   kauai: {
     h1: 'A 4-hour mobile bar on both Kauaʻi shores.',
     lede:
-      'Princeville, Hanalei and Poʻipū — a full cart on the terrace. Inquiry stage. Starting prices published. The add-on hour lives on /bar.',
+      'Princeville, Hanalei and Poʻipū — a full cart on the terrace. Inquiry stage. Starting prices published. The add-on hour is on the villa bar page.',
     hero: photos.mobileBarKauai,
   },
   bigisland: {
     h1: 'A 4-hour mobile bar on the Kohala Coast.',
     lede:
-      'Lava-coast package: ice, citrus, glassware, bartender. West-side first. /bar is the stacked hour; this page is the four-hour cart.',
+      'Lava-coast package: ice, citrus, glassware, bartender. West-side first.',
     hero: photos.mobileBarBigisland,
   },
 };
@@ -209,7 +209,7 @@ export function HubMobileBarView() {
             '@type': 'FoodService',
             name: 'Mobile bar Hawaii — myCHEF',
             description:
-              'A cart, a bartender, citrus and ice as a published package. The cocktail-hour add-on lives on /bar.',
+              'A cart, a bartender, citrus and ice as a published package. For a cocktail hour inside a dinner booking, add a villa bartender instead.',
             areaServed: 'Hawaiʻi',
             serviceType: 'Mobile bar',
             parentOrganization: { '@type': 'Organization', name: 'myCHEF Hawaii' },
@@ -232,7 +232,7 @@ export function HubMobileBarView() {
           className="mt-5 font-display text-[clamp(2.5rem,6vw,4rem)] font-light leading-[1.05] text-ink"
         />
         <p className="mt-6 max-w-[54ch] text-[17px] leading-[1.65] text-ink">
-          A cart, a bartender, citrus and ice as a published package. The cocktail-hour add-on lives on /bar.
+          A cart, a bartender, citrus and ice as a published package. For a cocktail hour inside a dinner booking, add a villa bartender instead.
         </p>
         <div className="mt-8">
           <QuoteCta service="mobile-bar" variant="light" />
@@ -240,20 +240,20 @@ export function HubMobileBarView() {
       </Hero>
       <IslandBarPicker
         path="/mobile-bar"
-        heading="Open the island package document."
+        heading="Related pages."
         stills={PACKAGE}
         priceOf={(id) => formatMobileBarPackage(id)}
       />
       <HubPhotoGrid
-        eyebrow="Beside this packaged cart"
-        heading="Open a related document."
+        eyebrow="Related pages"
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           {
             href: '/bar',
             title: 'Bartender add-on',
-            body: 'The terrace hour stacked with dinner. Distinct from this four-hour package.',
+            body: 'The terrace hour stacked with dinner.',
             still: photos.barHero,
           },
           {
@@ -288,8 +288,8 @@ export function IslandMobileBarView({ islandId, hostMode }: { islandId: IslandId
   const href = (path: string) => islandHref(islandId, hostMode, path);
   const faqs = [
     {
-      q: 'How is this different from /bar?',
-      a: `${islands[islandId].name} /bar is the bartender add-on stacked with dinner. This page is the four-hour mobile-bar package — cart, ice, citrus, glassware — priced as its own line.`,
+      q: 'How is this different from the villa bar page?',
+      a: `${islands[islandId].name} the villa bar page is the bartender add-on stacked with dinner. This page is the four-hour mobile-bar package — cart, ice, citrus, glassware — priced as its own line.`,
     },
     {
       q: 'What does the package include?',
@@ -341,15 +341,14 @@ export function IslandMobileBarView({ islandId, hostMode }: { islandId: IslandId
         heading={`How the packaged cart runs on ${islands[islandId].name}.`}
         paras={[
           copy.lede,
-          `/bar is the bartender add-on stacked with dinner. This URL is the four-hour mobile-bar package — cart, ice, citrus, glassware — priced as its own line.`,
           `${formatMobileBarPackage(islandId)}, or ${formatMobileBarGuest(islandId)}. ${FEE_DISCLOSURE}`,
         ]}
       />
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow={`${islands[islandId].name} · Beside the cart`}
-        heading="Open a related document."
-        intro="/bar is the add-on hour. /weddings is the week. /private-chef is one dinner."
+        eyebrow={`${islands[islandId].name} · Related`}
+        heading="Related pages."
+        intro="A bartender for one dinner, a full wedding week, or a single private chef night."
         items={[
           { path: '/bar', label: 'Bartender add-on', detail: '/bar' },
           { path: '/weddings', label: 'Wedding week', detail: '/weddings' },
@@ -368,12 +367,12 @@ export function IslandBarView({ islandId, hostMode }: { islandId: IslandId; host
   const href = (path: string) => islandHref(islandId, hostMode, path);
   const faqs = [
     {
-      q: 'How is this different from /mobile-bar?',
-      a: `${islands[islandId].name} /mobile-bar is the four-hour packaged cart. This page is the bartender add-on — stacked with dinner or booked as its own hour.`,
+      q: 'How is this different from the mobile bar page?',
+      a: `${islands[islandId].name} the mobile bar page is the four-hour packaged cart. This page is the bartender add-on — stacked with dinner or booked as its own hour.`,
     },
     {
       q: 'What does the add-on include?',
-      a: `A bartender, citrus, ice and glassware. Spirits are billed at cost with receipts, or you supply your own. The four-hour cart is a different line on /mobile-bar.`,
+      a: `A bartender, citrus, ice and glassware. Spirits are billed at cost with receipts, or you supply your own. The four-hour cart is a different line on the mobile bar page.`,
     },
     {
       q: 'Can we stack the bar with a chef or wedding week?',
@@ -414,14 +413,13 @@ export function IslandBarView({ islandId, hostMode }: { islandId: IslandId; host
         heading={`How the terrace bar runs on ${islands[islandId].name}.`}
         paras={[
           copy.lede,
-          `/mobile-bar is the four-hour packaged cart. This URL is the add-on hour — stacked with dinner or booked alone.`,
           `${formatMobileBarPackage(islandId)}, or ${formatMobileBarGuest(islandId)}. ${FEE_DISCLOSURE}`,
         ]}
       />
       <DocumentPhotoGrid
         islandId={islandId}
         eyebrow={`${islands[islandId].name} · Beside the add-on`}
-        heading="Open a related document."
+        heading="Related pages."
         intro="/mobile-bar is the four-hour cart. /weddings is the week. /private-chef is one dinner."
         items={[
           { path: '/mobile-bar', label: '4-hour package', detail: '/mobile-bar' },

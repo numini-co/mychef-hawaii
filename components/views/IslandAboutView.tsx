@@ -51,8 +51,8 @@ export function IslandAboutView({ islandId, hostMode }: { islandId: IslandId; ho
 
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow={`${island.shortName} · Beside this department`}
-        heading="Open a related document."
+        eyebrow={`${island.shortName} · Related`}
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[

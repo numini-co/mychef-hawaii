@@ -19,10 +19,10 @@ const H1: Record<IslandId, string> = {
 };
 
 const LEDE: Record<IslandId, string> = {
-  oahu: 'A visitor dinner in the house. Weekly household cooking is /personal-chef.',
-  maui: 'A visitor dinner in the villa. Weekly household cooking is /personal-chef.',
-  kauai: 'A visitor dinner on either shore — inquiry. Weekly household cooking is /personal-chef.',
-  bigisland: 'A visitor dinner on the west side — inquiry. Weekly household cooking is /personal-chef.',
+  oahu: 'A visitor dinner in the house.',
+  maui: 'A visitor dinner in the villa.',
+  kauai: 'A visitor dinner on either shore — inquiry.',
+  bigisland: 'A visitor dinner on the west side — inquiry.',
 };
 
 const HERO: Record<IslandId, { file: string; alt: string }> = {
@@ -67,8 +67,8 @@ export default function PrivateChefView({ islandId, hostMode }: { islandId: Isla
       <Longform sections={copy.sections} />
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow={`${islands[islandId].shortName} · Beside this visitor dinner`}
-        heading="Open a related document."
+        eyebrow={`${islands[islandId].shortName} · Related`}
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[

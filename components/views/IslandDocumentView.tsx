@@ -132,13 +132,13 @@ export function IslandSupportView({
       {showZones ? (
         <DocumentPhotoGrid
           islandId={islandId}
-          eyebrow={`${island.shortName} · Beside this coverage map`}
-          heading="Open a related document."
+          eyebrow={`${island.shortName} · Related`}
+          heading="Related pages."
           intro="Related pages to help you plan your dinner, event or stay."
           columns={2}
           items={[
-            { path: '/locations', label: 'Live dinner doors', detail: '/locations' },
-            { path: '/areas', label: 'Map notes', detail: '/areas' },
+            { path: '/locations', label: 'Private chef by town', detail: '/locations' },
+            { path: '/areas', label: 'Area guide', detail: '/areas' },
             { path: '/quote', label: 'The quote form', detail: '/quote' },
             { path: '/how-it-works', label: 'How it works', detail: '/how-it-works' },
           ]}
@@ -150,8 +150,8 @@ export function IslandSupportView({
       {showMenu ? (
         <DocumentPhotoGrid
           islandId={islandId}
-          eyebrow={`${island.shortName} · Menu documents`}
-          heading="Open a menu document."
+          eyebrow={`${island.shortName} · Sample menus`}
+          heading="Related pages."
           intro="Designed per table, not a standing carte."
           columns={2}
           items={menuSkuPages[islandId].map((sku) => ({
@@ -166,8 +166,8 @@ export function IslandSupportView({
         <DocumentPhotoGrid
           islandId={islandId}
           eyebrow={`${island.shortName} · Help`}
-          heading="Open a help document."
-          intro="Getting started, the menu guide, wedding and corporate notes, and the fee stack. Distinct from this process page."
+          heading="Related pages."
+          intro="Getting started, the menu guide, wedding and corporate notes, and the fee stack."
           items={[
             ...helpArticles[islandId].map((article) => ({
               path: `/help/${article.slug}`,
@@ -182,8 +182,8 @@ export function IslandSupportView({
       {!showZones && !showMenu && !showHelp ? (
         <DocumentPhotoGrid
           islandId={islandId}
-          eyebrow={`${island.shortName} · Beside these answers`}
-          heading="Open a related document."
+          eyebrow={`${island.shortName} · Related`}
+          heading="Related pages."
           intro="Related pages to help you plan your dinner, event or stay."
           columns={2}
           items={[
@@ -282,8 +282,8 @@ export function UniqueCellView({
       {cell.related.length ? (
         <DocumentPhotoGrid
           islandId={islandId}
-          eyebrow={`${island.shortName} · Beside this note`}
-          heading="Open a related document."
+          eyebrow={`${island.shortName} · Related`}
+          heading="Related pages."
           columns={cell.related.length <= 2 ? 2 : 3}
           items={cell.related.map((link) => ({
             path: link.path,

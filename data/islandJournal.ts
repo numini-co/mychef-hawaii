@@ -22,13 +22,13 @@ export const islandJournal: Record<IslandId, IslandJournalPage> = {
     h1: 'Oahu journal — corridor notes, not a statewide digest.',
     title: 'Oahu journal — corridor notes | myCHEF',
     description:
-      'Oahu host journal: Honolulu, Waikīkī, Kailua, North Shore, Kahala, Ko Olina. Not the hub digest.',
+      'Not the hub digest.',
     lede:
-      'Short notes from the live corridors. Statewide Hawaii catering is not this page. The hub journal on mychef-hawaii.com is a directory, not this list.',
+      'Short notes from the places we cook.',
     kicker: 'Oʻahu · Journal',
     photo: 'journalOahu',
     body: [
-      'Pieces stay close to the kitchen: Gold Coast counters, convention-week access, short-stay villas that still have to cook. /blog is the shorter companion.',
+      'Pieces stay close to the kitchen: Gold Coast counters, convention-week access, short-stay villas that still have to cook.',
     ],
   },
   maui: {
@@ -37,11 +37,11 @@ export const islandJournal: Record<IslandId, IslandJournalPage> = {
     description:
       'Not Oahu, Kauaʻi, or Hawaiʻi Island.',
     lede:
-      'Notes from South Maui, West Maui, and wedding-week houses. Private chef Maui is the money phrase on the home; this page is the reading list beside it.',
+      'Notes from South Maui, West Maui, and wedding-week houses.',
     kicker: 'Maui · Journal',
     photo: 'journalMaui',
     body: [
-      'Expect kitchen-constraint notes, wedding-week pacing, and why a Wailea villa is a different night from a Kāʻanapali walk-up. /blog is the shorter companion.',
+      'Expect kitchen-constraint notes, wedding-week pacing, and why a Wailea villa is a different night from a Kāʻanapali walk-up.',
     ],
   },
   kauai: {
@@ -55,7 +55,7 @@ export const islandJournal: Record<IslandId, IslandJournalPage> = {
     photo: 'journalKauai',
     body: [
       `This index is the reading list.`,
-      'Hanalei-bridge weather and south-shore kitchens show up here because they change whether we can even quote a date. /blog is the shorter companion.',
+      'Hanalei-bridge weather and south-shore kitchens show up here because they change whether we can even quote a date.',
     ],
   },
   bigisland: {
@@ -69,7 +69,7 @@ export const islandJournal: Record<IslandId, IslandJournalPage> = {
     photo: 'journalBigisland',
     body: [
       `This index is the reading list.`,
-      'Coffee Act 198 and Ironman weeks live here because they change access, not because they are marketing slogans. /blog is the shorter companion.',
+      'Coffee Act 198 and Ironman weeks live here because they change access, not because they are marketing slogans.',
     ],
   },
 };

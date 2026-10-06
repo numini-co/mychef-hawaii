@@ -152,15 +152,15 @@ export function HubWeddingsView() {
 
       <Longform sections={hubWeddingsSections} />
       <HubPhotoGrid
-        eyebrow="Beside this wedding week"
-        heading="Open a related document."
+        eyebrow="Related pages"
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           {
             href: '/catering',
             title: 'Villa catering',
-            body: 'The larger staffed room. Distinct from the wedding-week stack.',
+            body: 'The larger staffed room.',
             still: photos.cateringHero,
           },
           {
@@ -178,7 +178,7 @@ export function HubWeddingsView() {
           {
             href: '/mobile-bar',
             title: 'The packaged cart',
-            body: 'The four-hour villa package. Distinct from the bartender add-on on /bar. Hub /mobile-bar holds the statewide title.',
+            body: 'The four-hour villa package.',
             still: photos.hubMobileBar,
           },
         ]}
@@ -234,8 +234,8 @@ export function IslandWeddingView({ islandId, hostMode }: { islandId: IslandId; 
       <Longform sections={long.sections} />
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow={`${islands[islandId].shortName} · Beside this wedding week`}
-        heading="Open a related document."
+        eyebrow={`${islands[islandId].shortName} · Related`}
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[

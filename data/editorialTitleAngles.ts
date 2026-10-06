@@ -102,8 +102,8 @@ export const EXTRA_BLOG_ANGLES: Record<IslandId, Record<ExtraBlogSlug, Editorial
   },
   maui: {
     'anniversary-dinners': {
-      h1: 'Wailea anniversary — a villa two-top on the week, not the SKU.',
-      title: 'Wailea anniversary night — villa week, not the SKU | myCHEF',
+      h1: 'Wailea anniversary — a villa two-top on the week.',
+      title: 'Wailea anniversary night — villa week, not the menu | myCHEF',
       description:
         'Maui villa-week anniversary note on a Wailea lanai.',
     },
@@ -170,10 +170,10 @@ export const EXTRA_BLOG_ANGLES: Record<IslandId, Record<ExtraBlogSlug, Editorial
   },
   kauai: {
     'anniversary-dinners': {
-      h1: 'Both-shore anniversary inquiry — Princeville or Poʻipū, not a Book-now.',
+      h1: 'Both-shore anniversary inquiry — Princeville or Poʻipū, not instant booking.',
       title: 'Inquiry anniversary — both shores, when we can staff | myCHEF',
       description:
-        'Kauaʻi anniversary kitchen note at inquiry. Both shores. Not a live Book-now.',
+        'Kauaʻi anniversary kitchen note at inquiry. Both shores. Not live instant booking.',
     },
     'kids-at-the-table': {
       h1: 'Both-shore kids plates at inquiry — written with the adults.',
@@ -233,7 +233,7 @@ export const EXTRA_BLOG_ANGLES: Record<IslandId, Record<ExtraBlogSlug, Editorial
       h1: 'Inquiry retreat day — both shores, meals as lines.',
       title: 'Both-shore retreat inquiry — meals as inquiry lines | myCHEF',
       description:
-        'Kauaʻi retreat-day note at inquiry. A named shore is not a Book-now.',
+        'Kauaʻi retreat-day note at inquiry. A named shore is not instant booking.',
     },
   },
   bigisland: {
@@ -309,8 +309,8 @@ export const EXTRA_BLOG_ANGLES: Record<IslandId, Record<ExtraBlogSlug, Editorial
 export const EXTRA_JOURNAL_ANGLES: Record<IslandId, Record<ExtraJournalSlug, EditorialAngle>> = {
   oahu: {
     'wedding-week': {
-      h1: 'Kahala week stack — welcome through brunch as printed lines.',
-      title: 'Kahala week stack — welcome through brunch as lines | myCHEF',
+      h1: 'Kahala wedding week — welcome through brunch as printed lines.',
+      title: 'Kahala wedding week — welcome through brunch as lines | myCHEF',
       description:
         'Oʻahu wedding-week kitchen note.',
     },
@@ -329,10 +329,10 @@ export const EXTRA_JOURNAL_ANGLES: Record<IslandId, Record<ExtraJournalSlug, Edi
   },
   maui: {
     'wedding-week': {
-      h1: 'Villa-week notes beside the /wedding-week cell — Wailea nights as lines.',
+      h1: 'Maui villa-week notes — Wailea nights as separate lines.',
       title: 'Wailea villa-week notes beside the week cell | myCHEF',
       description:
-        'Maui wedding-week kitchen note beside /wedding-week.',
+        'Maui wedding-week kitchen note beside the wedding week page.',
     },
     'vacation-chef-week': {
       h1: 'Wailea Stay Chef week — villa days, groceries at cost with receipts.',
@@ -349,7 +349,7 @@ export const EXTRA_JOURNAL_ANGLES: Record<IslandId, Record<ExtraJournalSlug, Edi
   },
   kauai: {
     'wedding-week': {
-      h1: 'Inquiry wedding week — both shores, nights as lines, not a Book-now.',
+      h1: 'Inquiry wedding week — both shores, nights as lines, not instant booking.',
       title: 'Both-shore wedding-week inquiry — nights as lines | myCHEF',
       description:
         'Kauaʻi wedding-week kitchen note at inquiry.',

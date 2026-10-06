@@ -657,7 +657,7 @@ export const photos = {
   },
   svcMealprepOahu: {
     file: '/photos/svc-mealprep-oahu.png',
-    alt: `An unused Kahala prep kitchen — labeled containers, Diamond Head faint, no standing SKU.`,
+    alt: `An unused Kahala prep kitchen — labeled containers, Diamond Head faint, no standing.`,
   },
   svcMealprepMaui: {
     file: '/photos/svc-mealprep-maui.png',
@@ -1013,11 +1013,11 @@ export const photos = {
   },
   svcPersonalMaui: {
     file: '/photos/svc-personal-maui.png',
-    alt: `A Kīhei resident kitchen on a weekday — a used fridge, not a Wailea tourist SKU.`,
+    alt: `A Kīhei resident kitchen on a weekday — a used fridge, not a Wailea tourist.`,
   },
   svcPersonalKauai: {
     file: '/photos/svc-personal-kauai.png',
-    alt: `A Kapaʻa household kitchen on a weekday — residential street, inquiry-stage resident line.`,
+    alt: `A Kapaʻa household kitchen on a weekday — residential street, by inquiry resident line.`,
   },
   svcPersonalBigisland: {
     file: '/photos/svc-personal-bigisland.png',
@@ -1081,7 +1081,7 @@ export const photos = {
   },
   helpCorporateKauai: {
     file: '/photos/help-corporate-kauai.png',
-    alt: `An executive dinner on a Princeville estate table — plated fish, misted mountains, inquiry-stage house.`,
+    alt: `An executive dinner on a Princeville estate table — plated fish, misted mountains, by inquiry house.`,
   },
   helpCorporateBigisland: {
     file: '/photos/help-corporate-bigisland.png',

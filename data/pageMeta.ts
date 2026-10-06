@@ -17,24 +17,24 @@ const DEFAULT: PageMetaRecord = {
 
 export const PAGE_META: Record<string, PageMetaRecord> = {
   '/': {
-    title: 'Private Chef Hawaii | Four Islands, Published Prices | myCHEF',
+    title: 'Private Chef Hawaii | 4 Islands, Published Prices | myCHEF',
     description:
       'Private chefs and catering across Oʻahu, Maui, Kauaʻi and the Big Island. From $195 a guest, published. Written quote; 20% service and GET itemized.',
   },
   '/islands': {
-    title: 'Four island hosts | myCHEF Hawaii',
+    title: 'The Four Islands We Cook On | myCHEF Hawaii',
     description:
       'Each island is its own host — own chefs, zones and pricing. Oʻahu and Maui take quotes. Kauaʻi and Hawaiʻi Island are inquiry. Island money titles stay on those hosts.',
   },
   '/areas': {
-    title: 'Where we cook, by island — map notes | myCHEF',
+    title: 'Where we cook, by island | myCHEF',
     description:
-      'Map notes on every island host: live corridors plus the rest of the named places. Choose an island, then the geography.',
+      'Choose an island, then the geography.',
   },
   '/services': {
     title: 'Villa dinners, catering, weddings and bar — by island | myCHEF',
     description:
-      'Open the island document: in-villa dinner, staffed catering, wedding week, or the bartender add-on. WhatsApp for a quote.',
+      'Pick your island for in-villa dinners, staffed catering, wedding weeks or a bartender add-on. WhatsApp for a quote.',
   },
   '/private-chef': {
     title: 'Villa Chef Hawaii | In-Villa Dinners by Island | myCHEF',
@@ -70,12 +70,12 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Estimate a villa chef night across four islands from published starting prices. Groceries dual-model, 20% service and Hawaiʻi GET itemized. An estimate — the written quote is the total.',
   },
   '/in-villa-services': {
-    title: 'In-Villa Services Hawaiʻi — Chefs, Butlers & Villa Teams | myCHEF',
+    title: 'In-Villa Services Hawaii — Chefs, Butlers & Teams | myCHEF',
     description:
       'In-villa services for your whole stay across four islands: villa chefs, lead hosts, servers, bartenders, baristas and provisioning. One coordinator, one written quote, groceries at cost with receipts.',
   },
   '/in-villa-services/villa-team': {
-    title: 'Complete Villa Team Hawaiʻi — One Coordinator, One Quote | myCHEF',
+    title: 'Villa Team Hawaii — One Coordinator, One Quote | myCHEF',
     description:
       'Tell us your stay — dates, guests, island, meals — and we build your complete villa team: chef, host, servers, barista and bar. Built from published rates, groceries at cost with receipts.',
   },
@@ -167,7 +167,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/journal': {
     title: 'The journal, by island | myCHEF Hawaii',
     description:
-      'Each island department publishes its own journal. The hub does not rank for private chef Maui — that page lives on the Maui host.',
+      'Each island department publishes its own journal.',
   },
   '/blog': {
     title: 'Guides and notes, by island | myCHEF Hawaii',
@@ -190,13 +190,11 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/faq': {
     title: 'Questions, by island | myCHEF Hawaii',
-    description:
-      'Each island host keeps its own FAQ. This hub page is the picker — not Oahu questions, not Maui villa kitchens.',
+    description: 'Answers to common questions about booking a private chef or catering with myCHEF Hawaii on Oʻahu, Maui, Kauaʻi and the Big Island.',
   },
   '/coverage': {
     title: 'Coverage maps, by island | myCHEF Hawaii',
-    description:
-      'Each island host publishes its own coverage map.',
+    description: 'Where myCHEF Hawaii cooks on each island: base zones, published travel surcharges and the areas we quote case by case.',
   },
   '/contact': {
     title: 'How to reach a desk, by island | myCHEF Hawaii',
@@ -204,19 +202,17 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Quote form, WhatsApp, (808) 468-7748, and quotes@mychef-hawaii.com — Hawaii Standard Time. Open the island desk that holds the house. Not a walk-in office.',
   },
   '/locations': {
-    title: 'Live dinner doors, by island | myCHEF Hawaii',
-    description:
-      'Each island host lists its live corridor URLs.',
+    title: 'Private chef towns, by island | myCHEF Hawaii',
+    description: 'The towns and neighborhoods where myCHEF Hawaii private chefs cook on Oʻahu, Maui, Kauaʻi and the Big Island, with travel notes.',
   },
   '/menus': {
     title: 'How menus are designed, by island | myCHEF Hawaii',
     description:
-      'Oʻahu, Maui, Kauaʻi and Hawaiʻi Island menus — designed per table, not a standing carte. Plated samples on each island host. Published USD prices in writing.',
+      'Oʻahu, Maui, Kauaʻi and Hawaiʻi Island menus — designed per table, not a standing carte. Published USD prices in writing.',
   },
   '/help': {
     title: 'Help desks, by island | myCHEF Hawaii',
-    description:
-      'Each island host keeps a help desk: first booking, menu draft, after the quote.',
+    description: 'Help desks across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/fine-dining': {
     title: 'In-villa formats, by island | myCHEF Hawaii',
@@ -230,8 +226,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/events': {
     title: 'Villa occasions, by island | myCHEF Hawaii',
-    description:
-      'Each island host keeps its own events document.',
+    description: 'Villa occasions across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/what-we-dont-do': {
     title: 'What we will not claim, by island | myCHEF Hawaii',
@@ -250,13 +245,11 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/honeymoon-dinners': {
     title: 'Dinner for two, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts dinner-for-two as its own document.',
+    description: 'Dinner for two across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/chefs-table': {
     title: 'Chef’s table nights, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts chef’s table in the villa.',
+    description: 'Chef’s table nights across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/kids-menus': {
     title: 'Kids at the table, by island | myCHEF Hawaii',
@@ -285,8 +278,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/omakase-at-home': {
     title: 'Omakase-at-home notes, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts tasting-at-home with sourcing gates.',
+    description: 'Omakase-at-home notes across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/rehearsal-dinners': {
     title: 'Rehearsal dinners, by island | myCHEF Hawaii',
@@ -305,63 +297,52 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/events/birthdays': {
     title: 'Birthday dinners, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts birthday dinners in houses.',
+    description: 'Birthday dinners across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/events/welcome-dinners': {
     title: 'Arrival-night dinners, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts the first night of the villa week.',
+    description: 'Arrival-night dinners across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/events/retreats': {
     title: 'Retreat cooking notes, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts the retreat occasion essay.',
+    description: 'Retreat cooking notes across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/events/anniversaries': {
     title: 'Anniversary nights, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts anniversary dinners in houses.',
+    description: 'Anniversary nights across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/events/corporate-events': {
     title: 'House offsite nights, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts the offsite occasion.',
+    description: 'House offsite nights across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/events/villa-parties': {
     title: 'Villa parties, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts villa parties as their own occasion.',
+    description: 'Villa parties across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/events/brunch': {
     title: 'Day-after brunch, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts brunch in the house.',
+    description: 'Day-after brunch across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/catering/bbq': {
     title: 'Lawn BBQ service, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts BBQ as a format document.',
+    description: 'Lawn BBQ service across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/catering/plated': {
     title: 'Plated villa service, by island | myCHEF Hawaii',
     description:
-      'Each island hosts plated service as a format. Titles never use “{island} catering plated”.',
+      'Titles never use “{island} catering plated”.',
   },
   '/catering/family-style': {
     title: 'Family-style service, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts family-style service as a format.',
+    description: 'Family-style service across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/catering/buffet': {
     title: 'Buffet service, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts buffet as a format.',
+    description: 'Buffet service across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/catering/grazing': {
     title: 'Grazing boards, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts grazing as a format.',
+    description: 'Grazing boards across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/catering/drop-off': {
     title: 'Drop-off is not staffed, by island | myCHEF Hawaii',
@@ -370,23 +351,19 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/fine-dining/romantic-dinner': {
     title: 'Romantic villa dinners, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts a romantic-dinner format.',
+    description: 'Romantic villa dinners across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/fine-dining/tasting-menu': {
     title: 'Tasting menus, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts tasting-menu as a format.',
+    description: 'Tasting menus across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/fine-dining/chefs-table-evening': {
     title: 'Evening chef’s-table formats, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts chef’s-table evening as a format.',
+    description: 'Evening chef’s-table formats across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/fine-dining/celebration-dinner': {
     title: 'Celebration dinners, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts celebration-dinner as a format.',
+    description: 'Celebration dinners across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/staffing/servers': {
     title: 'Server add-ons, by island | myCHEF Hawaii',
@@ -405,13 +382,11 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/menus/three-course': {
     title: 'Three-course tables, by island | myCHEF Hawaii',
-    description:
-      'Each island designs a three-course SKU per table.',
+    description: 'Three-course tables across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/menus/family-style-menu': {
     title: 'Family-style menus, by island | myCHEF Hawaii',
-    description:
-      'Each island designs a family-style menu SKU.',
+    description: 'Family-style menus across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/menus/breakfast': {
     title: 'Breakfast in the house, by island | myCHEF Hawaii',
@@ -425,28 +400,23 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/help/getting-started': {
     title: 'First booking notes, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts the first-booking help article.',
+    description: 'First booking notes across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/help/menu-guide': {
     title: 'How to read a menu draft, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts the menu-guide help article.',
+    description: 'How to read a menu draft across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/help/wedding-guide': {
     title: 'Wedding-week planning notes, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts the wedding-week help article.',
+    description: 'Wedding-week planning notes across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/help/corporate-guide': {
     title: 'Offsite planning notes, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts the offsite help article.',
+    description: 'Offsite planning notes across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/help/managing-booking': {
     title: 'After the quote, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts the after-quote help article.',
+    description: 'What happens after your written quote: deposit, menu edits, changes and the night itself, for myCHEF Hawaii bookings on every island.',
   },
   '/oahu': {
     title: 'Private Chef Oahu | Resident Villa and Home Chefs | myCHEF',
@@ -461,12 +431,12 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/kauai': {
     title: 'Private Chef Kauai | Personal Chef, Both Shores | myCHEF',
     description:
-      'Private chef Kauai from $225 a guest — a personal chef for villa dinners in Princeville, Hanalei and Poʻipū. Inquiry stage: send dates and shore for a written reply.',
+      'Private chef Kauai from $225 a guest — a personal chef for villa dinners in Princeville, Hanalei and Poʻipū. By inquiry: send dates and shore for a written reply.',
   },
   '/bigisland': {
     title: 'Private Chef Big Island | Kona & Kohala Villas | myCHEF',
     description:
-      'Private chef Big Island from $210 a guest — in-villa dinners in Kona, Waikoloa, Waimea and the Kohala Coast. Inquiry stage: send your dates for a written reply.',
+      'Private chef Big Island from $210 a guest — in-villa dinners in Kona, Waikoloa, Waimea and the Kohala Coast. By inquiry: send your dates for a written reply.',
   },
   '/oahu/private-chef': {
     title: 'Visitor dinners in the Oahu house | myCHEF',
@@ -497,7 +467,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'A four-hour cart — ice, citrus, glassware, bartender — from Waikīkī to Ko Olina. Quote in writing.',
   },
   '/oahu/events': {
-    title: 'Oahu villa events — birthdays, retreats, welcome nights | myCHEF',
+    title: 'Oahu villa events — birthdays & retreats | myCHEF',
     description:
       'Staffed villa events on Oahu: birthdays, retreats and welcome nights from Honolulu to Ko Olina. Request a quote.',
   },
@@ -507,7 +477,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'myCHEF Oahu staffs a brigade to the house: chef, sous, service, bar, shopper. Honolulu, Waikīkī residences, Kahala, Kailua, Ko Olina. Request a quote.',
   },
   '/oahu/pricing': {
-    title: 'Oʻahu town & west CORE bands — Stay Chef from $1,250 | myCHEF',
+    title: 'Oahu Private Chef Prices — Stay Chef from $1,250 | myCHEF',
     description:
       'Oʻahu town and west CORE $195–$290 a guest. Stay Chef from $1,250 a day. Date Night from $675. Service and GET print after the band.',
   },
@@ -528,7 +498,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/oahu/journal': {
     title: 'Oahu journal — corridor notes | myCHEF',
     description:
-      'Oahu host journal: Honolulu, Waikīkī, Kailua, North Shore, Kahala, Ko Olina. Not the hub digest.',
+      'Not the hub digest.',
   },
   '/oahu/blog': {
     title: 'Oahu blog — Honolulu kitchens | myCHEF',
@@ -538,11 +508,11 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/oahu/locations': {
     title: 'Oahu corridors we cook — Honolulu to Ko Olina | myCHEF',
     description:
-      'Live Oahu corridor URLs: Honolulu, Waikīkī, Kailua, North Shore, Kahala, Ko Olina.',
+      'Every page on our Oahu site: Honolulu, Waikīkī, Kailua, North Shore, Kahala, Ko Olina, services and occasions.',
   },
   '/oahu/sitemap': {
-    title: 'Oahu HTML sitemap — live URLs on this host | myCHEF',
-    description: 'HTML sitemap for the Oahu host: corridors, services, occasions, and supporting documents.',
+    title: 'Oahu HTML sitemap — live URLs on this site | myCHEF',
+    description: 'Oahu sitemap: neighborhoods, services, occasions and guides.',
   },
   '/maui/private-chef': {
     title: 'Visitor dinners in the Maui villa | myCHEF',
@@ -568,14 +538,14 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'A four-hour cart for Wailea, Kapalua, Kāʻanapali and Makena. Starting prices published.',
   },
   '/maui/events': {
-    title: 'Maui villa events — Wailea lawns and West Maui houses | myCHEF',
+    title: 'Maui villa events — Wailea & West Maui | myCHEF',
     description:
       'Staffed villa events on Maui: birthdays, retreats and welcome nights in Wailea, Kīhei and West Maui.',
   },
   '/maui/about': {
     title: 'About myCHEF Maui — Wailea to West Maui crew | myCHEF',
     description:
-      'myCHEF Maui staffs villa dinners and lawn receptions. Wailea, Kīhei, Kāʻanapali, Kapalua, Makena. Catering is the larger door. Request a quote.',
+      'myCHEF Maui staffs villa dinners and lawn receptions. Wailea, Kīhei, Kāʻanapali, Kapalua, Makena. Staffed catering for bigger parties. Request a quote.',
   },
   '/maui/pricing': {
     title: 'Maui villa-week bands — Wailea & West from $225 | myCHEF',
@@ -609,11 +579,11 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/maui/locations': {
     title: 'Maui corridors we cook — Wailea to Kapalua | myCHEF',
     description:
-      'Live Maui corridor URLs: Wailea, Kāʻanapali, Lahaina, Kīhei, Kapalua, Makena.',
+      'Every page on our Maui site: Wailea, Kāʻanapali, Lahaina, Kīhei, Kapalua, Makena, services and occasions.',
   },
   '/maui/sitemap': {
-    title: 'Maui HTML sitemap — live URLs on this host | myCHEF',
-    description: 'HTML sitemap for the Maui host: corridors, services, occasions, and supporting documents.',
+    title: 'Maui HTML sitemap — live URLs on this site | myCHEF',
+    description: 'Maui sitemap: neighborhoods, services, occasions and guides.',
   },
   '/maui/catering': {
     title: 'Maui Catering | Villa Receptions and Events | myCHEF',
@@ -637,7 +607,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/kauai/about': {
     title: 'About myCHEF Kauai — both-shore inquiry crew | myCHEF',
     description:
-      'myCHEF Kauai is inquiry-stage on both shores: Princeville, Hanalei, Poʻipū. We staff the estate to the guest list when a crew exists.',
+      'myCHEF Kauai is by inquiry only on both shores: Princeville, Hanalei, Poʻipū. We staff the estate to the guest list when a crew exists.',
   },
   '/kauai/catering': {
     title: 'Kauai Catering | Princeville & Poipu Estate Events | myCHEF',
@@ -660,12 +630,12 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/kauai/pricing': {
     title: 'Kauaʻi inquiry rate card — both shores, $225–$375 | myCHEF',
     description:
-      'Kauaʻi inquiry CORE $225–$375 a guest. Stay Chef from $1,650 a day. Both-shore travel prints. A band is not a live Book-now.',
+      'Kauaʻi inquiry CORE $225–$375 a guest. Stay Chef from $1,650 a day. Both-shore travel prints. A published band is not instant booking.',
   },
   '/kauai/quote': {
     title: 'Kauai inquiry form — both shores, written reply | myCHEF',
     description:
-      'Inquiry form for Kauai estate dinners. Name the shore. Hanalei-bridge weather is a clause. We will not fake a live Book-now button.',
+      'Inquiry form for Kauai estate dinners. Name the shore. Hanalei-bridge weather is a clause. We will not fake a live instant-booking button.',
   },
   '/kauai/legal': {
     title: 'Kauai booking notes — quotes, GET, Hanalei-bridge weather | myCHEF',
@@ -689,12 +659,12 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/kauai/locations': {
     title: 'Kauai corridors we cook — both shores | myCHEF',
     description:
-      'Live Kauai corridor URLs: Princeville, Poʻipū, Hanalei, Kapaʻa. Inquiry.',
+      'Every page on our Kauai site: Princeville, Poʻipū, Hanalei, Kapaʻa, services and occasions.',
   },
   '/kauai/sitemap': {
-    title: 'Kauai HTML sitemap — live URLs on this host | myCHEF',
+    title: 'Kauai HTML sitemap — live URLs on this site | myCHEF',
     description:
-      'HTML sitemap for the Kauai host at inquiry: both shores, supporting documents, and the cells we will quote.',
+      'Kauai sitemap: both shores, services, occasions and guides.',
   },
   '/bigisland/private-chef': {
     title: 'Visitor dinners on Hawaiʻi Island — west side, inquiry | myCHEF',
@@ -702,7 +672,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'In-home visitor dinners on the west side at inquiry.',
   },
   '/bigisland/vacation-chef': {
-    title: 'Vacation chef Big Island — Stay Chef from $1,450/day | myCHEF',
+    title: 'Vacation chef Big Island — from $1,450/day | myCHEF',
     description: 'Multi-day chef residencies for Kohala and Waimea weeks. Groceries at cost. Inquiry stage.',
   },
   '/bigisland/catering': {
@@ -738,9 +708,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'West-side Hawaiʻi Island CORE $210–$325 a guest. Stay Chef inquiry from $1,450 a day. Hilo is a dedicated day, never a Kona round trip.',
   },
   '/bigisland/quote': {
-    title: 'Hawaiʻi Island inquiry form — west side, written reply | myCHEF',
+    title: 'Big Island chef inquiry — written reply | myCHEF',
     description:
-      'Inquiry form for west-side Hawaiʻi Island dinners. East side is a different day. We will not fake a live Book-now button.',
+      'Inquiry form for west-side Hawaiʻi Island dinners. East side is a different day. We will not fake a live instant-booking button.',
   },
   '/bigisland/legal': {
     title: 'Hawaiʻi Island booking notes — quotes, GET, east-side days | myCHEF',
@@ -764,12 +734,11 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/bigisland/locations': {
     title: 'Hawaiʻi Island corridors we cook — Kona to Kohala | myCHEF',
     description:
-      'Live Hawaiʻi Island corridor URLs: Kona, Waimea, Waikoloa, Kohala. West side first.',
+      'Every page on our Big Island site: Kona, Waimea, Waikoloa, Kohala, services and occasions.',
   },
   '/bigisland/sitemap': {
-    title: 'Hawaiʻi Island HTML sitemap — live URLs on this host | myCHEF',
-    description:
-      'HTML sitemap for the Hawaiʻi Island host: west-side corridors, supporting documents, and east-side as its own cell.',
+    title: 'Hawaiʻi Island HTML sitemap — live URLs on this site | myCHEF',
+    description: 'Hawaiʻi Island HTML sitemap: practical notes from myCHEF Hawaii for a private chef night in your villa or vacation rental. Send your dates for a written quote.',
   },
 };
 

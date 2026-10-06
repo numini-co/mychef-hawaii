@@ -24,16 +24,15 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       description:
         'Three-course menus in Kahala dining rooms and Ko Olina villas. Designed per table, not a standing carte.',
       lede:
-        'Crudo, a sear, a close. The sample on /menus is an example. This URL is the three-course as its own document so we do not pretend there is a printed carte.',
+        'Crudo, a sear, a close. The sample on the menus page is an example.',
       photo: 'menuThreeOahu',
       body: [
-        'How menus are designed: /menus. Plated service: /catering/plated. Tasting arcs: /fine-dining/tasting-menu.',
-        'Dietary is designed in — /dietary. We will not print a fake kids’ carte; see /kids-menus.',
+        'We will not print a fake kids’ carte; see the kids’ menus page.',
       ],
       faqs: [
         {
-          q: 'Is this the sample on /menus?',
-          a: 'That is an example. This page is the three-course as a SKU. Every table is still designed.',
+          q: 'Is this the sample on the menus page?',
+          a: 'That is an example. Every table is still designed.',
         },
         {
           q: 'Can it be four courses?',
@@ -54,20 +53,16 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       description:
         'Family-style menus in Kahala and Ko Olina houses. Designed per table.',
       lede:
-        'Platters down the table. /catering/family-style is how we staff the night. This URL is what is on the platters.',
+        'Platters down the table.',
       photo: 'menuFamilyOahu',
       body: [
-        'The service format is /catering/family-style. Welcome dinners often run this menu — /events/welcome-dinners.',
-        'Kids’ plates sit beside, not after — /kids-menus. Process: /menus.',
+        'Welcome dinners often run this menu.',
+        'Kids’ plates sit beside, not after.',
       ],
       faqs: [
         {
-          q: 'Same as /catering/family-style?',
-          a: 'That page is the service. This page is the menu — Kahala kitchen.',
-        },
-        {
           q: 'Same as grazing?',
-          a: 'Grazing is boards — /catering/grazing. This is seated platters in a Kahala dining room.',
+          a: 'This is seated platters in a Kahala dining room.',
         },
       ],
       related: [
@@ -84,21 +79,12 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       description:
         'Breakfast menus in Kahala houses and Ko Olina villas.',
       lede:
-        'Eggs, fruit, last night’s fish recast. /events/brunch is the occasion.',
+        'Eggs, fruit, last night’s fish recast.',
       photo: 'menuBreakfastOahu',
       body: [
-        'Brunch as an occasion: /events/brunch. Multi-day mornings: /vacation-chef. Retreat kitchens: /retreat-catering.',
-        'Process: /menus. We do not print a fake breakfast carte.',
+        'We do not print a fake breakfast carte.',
       ],
       faqs: [
-        {
-          q: 'Same as recovery brunch?',
-          a: 'That occasion is /events/brunch. This page is the breakfast menu — Kahala kitchen.',
-        },
-        {
-          q: 'Stay Chef breakfast every morning?',
-          a: 'Yes as part of /vacation-chef. This URL is the menu document.',
-        },
       ],
       related: [
         { path: '/events/brunch', label: 'Brunch occasion' },
@@ -109,21 +95,21 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
     {
       slug: 'lunch',
       name: 'Lunch',
-      h1: 'Lunch in an Oahu house — midday, not the dinner door.',
+      h1: 'Lunch in an Oahu house — a midday menu, cooked in your kitchen.',
       title: 'Lunch in an Oahu house | myCHEF',
       description:
         'Lunch menus in Kailua houses, Kahala dining rooms and Ko Olina villas. Midday food. Designed per table.',
       lede:
-        'Mokulua in the window if you are in Kailua. A shorter arc than dinner. This URL is lunch so / and /catering keep the evening.',
+        'Mokulua in the window if you are in Kailua. A shorter arc than dinner.',
       photo: 'menuLunchOahu',
       body: [
-        'Dinner is this host’s home and /catering. Stay Chef weeks include lunch when the day rate says so — /vacation-chef.',
-        'Process: /menus. Kailua: /kailua. Guest counts still apply — /guest-counts.',
+        'Dinner is this site’s home and the catering page. Stay Chef weeks include lunch when the day rate says so.',
+        'Kailua: Kailua / Lanikai.',
       ],
       faqs: [
         {
           q: 'Is lunch cheaper than dinner?',
-          a: 'Often a shorter arc. Still a written quote. See /pricing — Kahala kitchen.',
+          a: 'Often a shorter arc. Still a written quote.',
         },
         {
           q: 'Hotel-room lunch?',
@@ -146,20 +132,19 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       description:
         'Three-course menus in Wailea and Kapalua. Designed per table, not a standing carte.',
       lede:
-        'Crudo, a grill, a close. The sample on /menus is an example. This URL is the three-course as its own document.',
+        'Crudo, a grill, a close. The sample on the menus page is an example.',
       photo: 'menuThreeMaui',
       body: [
-        'Process: /menus. Plated: /catering/plated. Tasting: /fine-dining/tasting-menu. Dietary: /dietary.',
-        'We do not impersonate another Maui kitchen. See /what-we-dont-do.',
+        'We do not impersonate another Maui kitchen.',
       ],
       faqs: [
         {
-          q: 'Is this the sample on /menus?',
-          a: 'That is an example. This page is the three-course SKU. Every table is still designed.',
+          q: 'Is this the sample on the menus page?',
+          a: 'That is an example. Every table is still designed.',
         },
         {
           q: 'Upcountry three-course?',
-          a: 'Surcharge zone. Quoted with the menu. See /coverage.',
+          a: 'Surcharge zone. Quoted with the menu.',
         },
       ],
       related: [
@@ -176,20 +161,14 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       description:
         'Family-style menus in Wailea, Kīhei and West Maui. Designed per table.',
       lede:
-        'Platters on the lanai. The service format is next door. This URL is what is on the platters.',
+        'Platters on the lanai.',
       photo: 'menuFamilyMaui',
       body: [
-        'Service format: /catering/family-style. Welcome dinners: /events/welcome-dinners. Kids: /kids-menus.',
-        'South Maui: /south-maui. Process: /menus.',
       ],
       faqs: [
         {
-          q: 'Same as /catering/family-style?',
-          a: 'That page is the service. This page is the menu — Wailea kitchen.',
-        },
-        {
           q: 'Kids on the platters?',
-          a: 'Beside, not after. See /kids-menus.',
+          a: 'Beside, not after.',
         },
       ],
       related: [
@@ -206,20 +185,14 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       description:
         'Breakfast menus in Wailea and West Maui villas.',
       lede:
-        'Eggs, fruit, the pool still. /events/brunch is the occasion. This URL is the morning menu.',
+        'Eggs, fruit, the pool still.',
       photo: 'menuBreakfastMaui',
       body: [
-        'Brunch occasion: /events/brunch. Multi-day: /vacation-chef. Retreat kitchens: /retreat-catering.',
-        'West Maui arrival traffic: /west-maui. Process: /menus.',
       ],
       faqs: [
         {
-          q: 'Same as recovery brunch?',
-          a: 'That occasion is /events/brunch. This page is the breakfast menu — Wailea kitchen.',
-        },
-        {
           q: 'Stay Chef every morning?',
-          a: 'When the day rate says so — /vacation-chef.',
+          a: 'When the day rate says so.',
         },
       ],
       related: [
@@ -236,16 +209,15 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       description:
         'Lunch menus in Kīhei family houses and Wailea villas. Midday food. Designed per table.',
       lede:
-        'A shorter arc than dinner. South Maui light. This URL is lunch so /catering keeps the evening.',
+        'A shorter arc than dinner. South Maui light.',
       photo: 'menuLunchMaui',
       body: [
-        'Dinner is this host’s home and /catering. Stay Chef weeks: /vacation-chef. South Maui: /south-maui.',
-        'Process: /menus. Guest counts: /guest-counts.',
+        'Dinner is this site’s home and the catering page.',
       ],
       faqs: [
         {
           q: 'Cheaper than dinner?',
-          a: 'Often a shorter arc. Still a written quote. See /pricing — Wailea kitchen.',
+          a: 'Often a shorter arc. Still a written quote.',
         },
         {
           q: 'Beach-park lunch?',
@@ -268,11 +240,11 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       description:
         'Three-course menus in Princeville and Poʻipū. Inquiry stage. Designed per table.',
       lede:
-        'Crudo, a sear, a close. Inquiry. The sample on /menus is an example. This URL is the three-course as its own document.',
+        'Crudo, a sear, a close. Inquiry. The sample on the menus page is an example.',
       photo: 'menuThreeKauai',
       body: [
-        'Process: /menus. Plated: /catering/plated. Far-North: /hanalei-bridge. Inquiry list with the shore.',
-        'Dietary: /dietary. We will not print a fake standing carte.',
+        'Inquiry list with the shore.',
+        'We will not print a fake standing carte.',
       ],
       faqs: [
         {
@@ -280,8 +252,8 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
           a: 'Inquiry list with the shore.',
         },
         {
-          q: 'Is this the sample on /menus?',
-          a: 'That is an example. This page is the SKU. Every table is still designed — Princeville kitchen at inquiry.',
+          q: 'Is this the sample on the menus page?',
+          a: 'That is an example. Every table is still designed — Princeville kitchen at inquiry.',
         },
       ],
       related: [
@@ -298,20 +270,14 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       description:
         'Family-style menus in Princeville and Poʻipū. Inquiry stage. Designed per table.',
       lede:
-        'Platters down the estate table. The service format is next door. Inquiry.',
+        'Platters down the estate table. Inquiry.',
       photo: 'menuFamilyKauai',
       body: [
-        'Service format: /catering/family-style. Welcome dinners: /events/welcome-dinners. Far-North: /hanalei-bridge.',
-        'Process: /menus. Kids: /kids-menus.',
       ],
       faqs: [
         {
-          q: 'Same as /catering/family-style?',
-          a: 'That page is the service. This page is the menu — Princeville kitchen at inquiry.',
-        },
-        {
           q: 'North Shore platters in surf season?',
-          a: 'Bridge clause still applies. See /hanalei-bridge.',
+          a: 'Bridge clause still applies.',
         },
       ],
       related: [
@@ -328,17 +294,13 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       description:
         'Breakfast menus in Poʻipū and Princeville. Inquiry stage.',
       lede:
-        'Eggs, fruit, South sun or North mist. /events/brunch is the occasion. This URL is the morning menu.',
+        'Eggs, fruit, South sun or North mist.',
       photo: 'menuBreakfastKauai',
       body: [
-        'Brunch occasion: /events/brunch. Multi-day: /vacation-chef. Inquiry stage.',
-        'Far-North breakfast still inherits /hanalei-bridge. Process: /menus.',
+        'Inquiry stage.',
+        'Far-North breakfast still inherits the Hanalei bridge notes.',
       ],
       faqs: [
-        {
-          q: 'Same as estate brunch?',
-          a: 'That occasion is /events/brunch. This page is the breakfast menu — Princeville kitchen at inquiry.',
-        },
         {
           q: 'Can I book breakfast this month?',
           a: 'Inquiry list with the shore.',
@@ -358,20 +320,16 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       description:
         'Lunch menus in Kapaʻa houses and Princeville or Poʻipū estates. Inquiry stage. Midday food.',
       lede:
-        'A shorter arc. East-side Kapaʻa or an estate kitchen. Inquiry. This URL is lunch so /catering keeps the evening.',
+        'A shorter arc. East-side Kapaʻa or an estate kitchen. Inquiry.',
       photo: 'menuLunchKauai',
       body: [
-        'Dinner is this host’s home and /catering. Stay Chef: /vacation-chef. Kapaʻa: /kapaa. East-side is closer to base and still a real booking.',
-        'Process: /menus. Inquiry stage.',
+        'Dinner is this site’s home and the catering page. East-side is closer to base and still a real booking.',
+        'Inquiry stage.',
       ],
       faqs: [
         {
           q: 'Cheaper than dinner?',
-          a: 'Often a shorter arc. Still a written quote. See /pricing — Princeville kitchen at inquiry.',
-        },
-        {
-          q: 'Picnic lunch for a hike?',
-          a: 'Not a published packed-lunch SKU. Meal prep stays gated — /meal-prep.',
+          a: 'Often a shorter arc. Still a written quote.',
         },
       ],
       related: [
@@ -390,20 +348,19 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       description:
         'Three-course menus in Kona and Kohala houses. Inquiry stage. Designed per table. East side is a different day.',
       lede:
-        'Kanpachi crudo, a sear, a close. Inquiry. The sample on /menus is an example. This URL is the three-course as its own document.',
+        'Kanpachi crudo, a sear, a close. Inquiry. The sample on the menus page is an example.',
       photo: 'menuThreeBigisland',
       body: [
-        'Process: /menus. Plated: /catering/plated. Coffee origin: /coffee-act-198. East side: /east-side.',
-        'Dietary: /dietary. West-side: /kohala-corridor.',
+        'West-side: Kona–Kohala corridor.',
       ],
       faqs: [
         {
-          q: 'Is this the sample on /menus?',
-          a: 'That is an example. This page is the SKU. Every table is still designed — Waikoloa kitchen. Hilo is never implied.',
+          q: 'Is this the sample on the menus page?',
+          a: 'That is an example. Every table is still designed — Waikoloa kitchen. Hilo is never implied.',
         },
         {
           q: 'Hilo three-course?',
-          a: 'Quote-only dedicated day. See /east-side.',
+          a: 'Quote-only dedicated day.',
         },
       ],
       related: [
@@ -420,20 +377,15 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       description:
         'Family-style menus in Kona and Kohala. Inquiry stage. East side is a different day.',
       lede:
-        'Platters on lava. The service format is next door. Not a Hilo add-on.',
+        'Platters on lava. Not a Hilo add-on.',
       photo: 'menuFamilyBigisland',
       body: [
-        'Service format: /catering/family-style. Welcome dinners: /events/welcome-dinners. West-side: /kohala-corridor.',
-        'Kids: /kids-menus. Process: /menus. East side: /east-side.',
+        'West-side: Kona–Kohala corridor.',
       ],
       faqs: [
         {
-          q: 'Same as /catering/family-style?',
-          a: 'That page is the service. This page is the menu — Waikoloa kitchen. Hilo is never implied.',
-        },
-        {
           q: 'Kids on lava at noon?',
-          a: 'Shade is the house. See /kids-menus.',
+          a: 'Shade is the house.',
         },
       ],
       related: [
@@ -453,17 +405,15 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
         'Eggs, fruit, breakfast fish, hard sun. Coffee cherries on a side board if the house has them — origin labeled when the law requires it.',
       photo: 'menuBreakfastBigisland',
       body: [
-        'Brunch occasion: /events/brunch. Multi-day: /vacation-chef. Coffee origin: /coffee-act-198.',
-        'Ironman weeks pack town — /ironman-weeks. Process: /menus.',
       ],
       faqs: [
         {
           q: 'Same as west-side brunch?',
-          a: 'That occasion is /events/brunch. This page is the breakfast menu — Waikoloa kitchen. Hilo is never implied.',
+          a: 'Hilo is never implied.',
         },
         {
           q: 'Kona coffee tasting with breakfast?',
-          a: 'Coffee may be on the crust. A farm tour is not a SKU. See /coffee-act-198.',
+          a: 'Coffee may be on the crust.',
         },
       ],
       related: [
@@ -480,20 +430,19 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       description:
         'Lunch menus in Waikoloa and Kona houses. Inquiry stage. Midday food. East side is a different day.',
       lede:
-        'A shorter arc than dinner. Hard sun. This URL is lunch so /catering keeps the evening. Not a Hilo add-on.',
+        'A shorter arc than dinner. Hard sun. Not a Hilo add-on.',
       photo: 'menuLunchBigisland',
       body: [
-        'Dinner is this host’s home and /catering. Stay Chef: /vacation-chef. Waikoloa: /waikoloa. East side: /east-side.',
-        'Process: /menus. Ironman weeks: /ironman-weeks.',
+        'Dinner is this site’s home and the catering page.',
       ],
       faqs: [
         {
           q: 'Cheaper than dinner?',
-          a: 'Often a shorter arc. Still a written quote. See /pricing — Waikoloa kitchen. Hilo is never implied.',
+          a: 'Often a shorter arc. Still a written quote. Hilo is never implied.',
         },
         {
           q: 'Volcano picnic lunch from Waikoloa?',
-          a: 'Not a west-side errand. East side is dedicated staffing. See /east-side.',
+          a: 'Not a west-side errand. East side is dedicated staffing.',
         },
       ],
       related: [

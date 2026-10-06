@@ -81,11 +81,11 @@ export function HubCateringView() {
         <div className="mx-auto w-full max-w-spread px-5 lg:px-10">
           <Eyebrow>Where we cook</Eyebrow>
           <h2 className="mt-4 max-w-[18ch] font-display text-[clamp(2rem,4vw,3.25rem)] font-light leading-[1.08] text-ink">
-            Open the island catering document.
+            Choose your island.
           </h2>
           <p className="mt-5 max-w-[52ch] text-[17px] leading-relaxed text-mute">
             Open the island where the house is. Each island page publishes its own starting prices and a sample menu.
-            This page stays statewide.
+            
           </p>
           <ul className="mt-14 grid gap-8 sm:grid-cols-2 xl:grid-cols-4">
             {islandOrder.map((id) => {
@@ -120,15 +120,15 @@ export function HubCateringView() {
       <Sample />
       <Longform sections={hubCateringSections} />
       <HubPhotoGrid
-        eyebrow="Beside this catering document"
-        heading="Open a related document."
+        eyebrow="Related pages"
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           {
             href: '/weddings',
             title: 'Wedding week',
-            body: 'Welcome dinner to recovery brunch. Distinct from this catering document.',
+            body: 'Welcome dinner to recovery brunch.',
             still: photos.weddingHero,
           },
           {
@@ -248,8 +248,8 @@ export function IslandCateringView({ islandId, hostMode }: { islandId: IslandId;
       <Longform sections={long.sections} />
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow={`${island.shortName} · Beside this catering document`}
-        heading="Open a related document."
+        eyebrow={`${island.shortName} · Related`}
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
@@ -272,7 +272,7 @@ function Formats({ islandId }: { islandId?: IslandId }) {
       <DocumentPhotoGrid
         islandId={islandId}
         eyebrow={`${islands[islandId].name} · Formats`}
-        heading="Formats as their own documents."
+        heading="Catering formats."
         intro="Drop-off is not staffed service."
         items={cateringFormats[islandId].map((f) => ({
           path: `/catering/${f.slug}`,
@@ -286,7 +286,7 @@ function Formats({ islandId }: { islandId?: IslandId }) {
   return (
     <HubPhotoGrid
       eyebrow="Statewide · Formats"
-      heading="Open a format document."
+      heading="Catering formats."
       intro="The food band is the island CORE card. Staffing changes with the format."
       items={nestedHubDirectories('/catering').map((fmt) => ({
         href: fmt.path,

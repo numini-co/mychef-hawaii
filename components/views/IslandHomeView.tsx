@@ -119,7 +119,7 @@ export default function IslandHomeView({
             >
               WhatsApp
             </a>
-            . Not a Book-now button.
+            . Not an instant-booking button.
           </p>
         ) : null}
       </Hero>
@@ -172,7 +172,7 @@ export default function IslandHomeView({
         islandId={islandId}
         eyebrow={`Where we cook on ${island.shortName}`}
         heading="Named corridors"
-        intro="Each corridor is its own dinner door — unique title, H1, and still. Coverage stays the zone map."
+        intro="Travel zones and the places we cook."
         items={moneyNeighborhoods[islandId].map((hood) => ({
           path: `/${hood.slug}`,
           label: hood.name,

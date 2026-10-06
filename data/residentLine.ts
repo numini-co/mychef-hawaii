@@ -17,24 +17,15 @@ export const residentLine: Record<IslandId, UniqueCell> = {
     description:
       'Weekly household cooking for Honolulu and Kailua residents.',
     lede:
-      'A used fridge. School nights. /kamaaina is the resident frequency line. This URL is the Honolulu household phrasing so /private-chef keeps the visitor dinner.',
+      'A used fridge. School nights.',
     photo: 'svcPersonalOahu',
     body: [
       `Neither belongs in a tourist-dinner title.`,
-      'Kamaʻāina weekly service: /kamaaina. Stay Chef weeks for visitors: /vacation-chef.',
     ],
     faqs: [
       {
-        q: 'Same as /kamaaina?',
-        a: 'That page is the resident frequency product. This page is the Honolulu household phrasing. Visitors open / or /vacation-chef.',
-      },
-      {
-        q: 'Same as /private-chef?',
-        a: 'That door is the visitor dinner. This URL is weekly household cooking.',
-      },
-      {
         q: 'Personal chef to cook in my home?',
-        a: 'Related search. Yes, when you live here. Weekly Honolulu household cooking is this URL. “Hire a chef for home” is the same ask. A visitor dinner is /private-chef. Hotel rooms without a cooktop are declined.',
+        a: 'Related search. Yes, when you live here. “Hire a chef for home” is the same ask. Hotel rooms without a cooktop are declined.',
       },
     ],
     related: [
@@ -46,25 +37,20 @@ export const residentLine: Record<IslandId, UniqueCell> = {
   maui: {
     slug: 'personal-chef',
     name: 'Personal chef',
-    h1: 'Personal chef Maui — weekly, not a Wailea SKU.',
+    h1: 'Personal chef Maui — weekly, not a Wailea.',
     title: 'Personal chef Maui — weekly household cooking | myCHEF',
     description:
       'Weekly household cooking for Maui residents. Not a visitor dinner.',
     lede:
-      'A Kīhei fridge that actually gets used. Not a Wailea one-off dressed up as local. Visitors open / or /vacation-chef.',
+      'A Kīhei fridge that actually gets used. Not a Wailea one-off dressed up as local.',
     photo: 'svcPersonalMaui',
     body: [
-      `This URL is the resident line.`,
-      'Stay Chef weeks for visitors: /vacation-chef. South Maui logistics: /south-maui. We do not sell this as yield.',
+      'We do not sell this as yield.',
     ],
     faqs: [
       {
-        q: 'I am visiting Wailea for a week.',
-        a: 'Open / or /vacation-chef. This page is for Wailea-area residents.',
-      },
-      {
         q: 'Upcountry household?',
-        a: 'Surcharge zone even for dinners. See /coverage. Resident weekly is still quoted, not assumed.',
+        a: 'Surcharge zone even for dinners. Resident weekly is still quoted, not assumed.',
       },
     ],
     related: [
@@ -77,20 +63,20 @@ export const residentLine: Record<IslandId, UniqueCell> = {
     slug: 'personal-chef',
     name: 'Personal chef',
     h1: 'Kauai resident household cooking — inquiry, both shores.',
-    title: 'Kauai resident household cooking — inquiry, both shores | myCHEF',
+    title: 'Personal chef Kauai — households on both shores | myCHEF',
     description:
       'Weekly household cooking for Kauai residents. Inquiry stage. Not a visitor dinner.',
     lede:
-      'East-side Kapaʻa weeknights, or a South Shore household. Inquiry. Visitors open / or /vacation-chef. We will not fake a live resident roster.',
+      'East-side Kapaʻa weeknights, or a South Shore household. Inquiry. We will not fake a live resident roster.',
     photo: 'svcPersonalKauai',
     body: [
-      `This URL is the resident line. Inquiry stage.`,
-      'Stay Chef for visitors: /vacation-chef. Kapaʻa: /kapaa. Far-North households still inherit /hanalei-bridge.',
+      `Inquiry stage.`,
+      'Far-North households still inherit the Hanalei bridge notes.',
     ],
     faqs: [
       {
         q: 'I am visiting Princeville.',
-        a: 'Open / or /vacation-chef. This page is residents. Inquiry.',
+        a: 'Inquiry.',
       },
       {
         q: 'Can I start weekly service this month?',
@@ -107,24 +93,19 @@ export const residentLine: Record<IslandId, UniqueCell> = {
     slug: 'personal-chef',
     name: 'Personal chef',
     h1: 'Hawaiʻi Island resident household cooking — west side, inquiry.',
-    title: 'Hawaiʻi Island resident household cooking — west side | myCHEF',
+    title: 'Personal chef Big Island — west-side households | myCHEF',
     description:
-      'Weekly household cooking for Kona-side residents. Inquiry stage. Not a Waikoloa tourist SKU. East side is a different day.',
+      'Weekly household cooking for Kona-side residents. Inquiry stage. East side is a different day.',
     lede:
-      'A Kona town fridge. Weeknights. Not a resort villa one-off. Visitors open / or /vacation-chef. East side is not implied.',
+      'A Kona town fridge. Weeknights. Not a resort villa one-off. East side is not implied.',
     photo: 'svcPersonalBigisland',
     body: [
-      `This URL is the resident line.`,
-      'Stay Chef for visitors: /vacation-chef. West-side: /kohala-corridor. East side: /east-side. Inquiry stage.',
+      'West-side: Kona–Kohala corridor. Inquiry stage.',
     ],
     faqs: [
       {
-        q: 'I am visiting Waikoloa.',
-        a: 'Open / or /vacation-chef. This page is for west-side residents.',
-      },
-      {
         q: 'Hilo household weekly?',
-        a: 'Quote-only east side. See /east-side. Not a west-side round trip.',
+        a: 'Quote-only east side. Not a west-side round trip.',
       },
     ],
     related: [

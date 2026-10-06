@@ -27,7 +27,6 @@ const VAC: Record<
     photo: 'vacationMaui',
     body: [
       'Stay Chef on Maui is the visitor week: arrival-night dinner, a stocked fridge, full-board days when the house actually cooks. Groceries billed at cost with receipts. From $1,550 a day.',
-      '/personal-chef is the resident household line. This URL is the villa week for Wailea, Kīhei, Kapalua, Kāʻanapali and Makena.',
       'The house must have a working kitchen. Hotel rooms without a cooktop are declined.',
     ],
     related: [
@@ -38,11 +37,11 @@ const VAC: Record<
   },
   oahu: {
     h1: 'A chef for the Oʻahu villa week.',
-    lede: 'Stay Chef from $1,250 a day. Groceries at cost. Arrival-night dinner, a stocked fridge, full-board days when the house actually cooks. Weekly household cooking is /personal-chef.',
+    lede: 'Stay Chef from $1,250 a day. Groceries at cost. Arrival-night dinner, a stocked fridge, full-board days when the house actually cooks.',
     photo: 'vacationOahu',
     body: [
       'Stay Chef on Oʻahu is the visitor week: arrival-night dinner, a stocked fridge, full-board days when the house actually cooks. Groceries billed at cost with receipts. From $1,250 a day.',
-      'The kamaʻāina weekly line is a different document — /kamaaina and /personal-chef. Same crew, different rhythm. This URL is the villa week for guests.',
+      'The kamaʻāina weekly line is a separate service. Same crew, different rhythm.',
       'Kahala, Ko Olina, windward houses. A real cooktop is required. Hotel rooms without kitchens are declined.',
     ],
     related: [
@@ -57,9 +56,8 @@ const VAC: Record<
     lede: 'Stay Chef from $1,650 a day. Princeville, Poʻipū, Hanalei. Inquiry stage. Groceries billed at cost with receipts.',
     photo: 'vacationKauai',
     body: [
-      'Stay Chef on Kauaʻi is inquiry-stage. From $1,650 a day when we can staff Princeville, Poʻipū or Hanalei. Groceries billed at cost with receipts.',
-      'We do not hold a fake Book-now button. Inquiry first, then a written quote if the week can be staffed.',
-      '/personal-chef is the resident line. This URL is the visitor week.',
+      'Stay Chef on Kauaʻi is by inquiry only. From $1,650 a day when we can staff Princeville, Poʻipū or Hanalei. Groceries billed at cost with receipts.',
+      'We do not hold a fake instant-booking button. Inquiry first, then a written quote if the week can be staffed.',
     ],
     related: [
       { path: '/private-chef', label: 'What’s included' },
@@ -74,7 +72,6 @@ const VAC: Record<
     body: [
       'Stay Chef on Hawaiʻi Island is west-side first — Kona and the Kohala Coast. From $1,450 a day. Inquiry stage.',
       'Hilo, Volcano and Kaʻū are quote-only dedicated days, not a same-day west-side round trip.',
-      '/personal-chef is the resident line. This URL is the visitor week.',
     ],
     related: [
       { path: '/private-chef', label: 'What’s included' },
@@ -90,7 +87,7 @@ export function HubOfferView({ kind }: { kind: 'private-chef' | 'vacation-chef' 
     kind === 'private-chef'
       ? {
           h1: 'Visitor dinners in Hawaii villas.',
-          lede: 'Open the island document. Oʻahu from $195 a guest, Maui and Kauaʻi from $225 a guest, Hawaiʻi Island from $210 a guest (ENTRY from $165). Weekly household cooking lives on each island /personal-chef.',
+          lede: 'Choose your island. Oʻahu from $195 a guest, Maui and Kauaʻi from $225 a guest, Hawaiʻi Island from $210 a guest (ENTRY from $165). Weekly household cooking lives on each island the personal chef page.',
           img: photos.hubChef,
           service: 'private-chef',
           path: '/private-chef' as const,
@@ -120,7 +117,7 @@ export function HubOfferView({ kind }: { kind: 'private-chef' | 'vacation-chef' 
         <div className="mx-auto w-full max-w-spread px-5 lg:px-10">
           <Eyebrow>Where we cook</Eyebrow>
           <h2 className="mt-4 max-w-[18ch] font-display text-[clamp(2rem,4vw,3.25rem)] font-light leading-[1.08] text-ink">
-            Open the island document.
+            Choose your island.
           </h2>
           <ul className="mt-14 grid gap-8 sm:grid-cols-2 xl:grid-cols-4">
             {islandOrder.map((id) => {
@@ -151,21 +148,21 @@ export function HubOfferView({ kind }: { kind: 'private-chef' | 'vacation-chef' 
       </section>
       {kind === 'private-chef' ? (
         <HubPhotoGrid
-          eyebrow="Beside this visitor dinner"
-          heading="Open a related document."
+          eyebrow="Related pages"
+          heading="Related pages."
           intro="Related pages to help you plan your dinner, event or stay."
           columns={2}
           items={[
             {
               href: '/personal-chef',
               title: household?.cardLabel ?? 'Household week',
-              body: household?.lede ?? 'Weekly household cooking lives on each island /personal-chef.',
+              body: household?.lede ?? 'Weekly household cooking lives on each island the personal chef page.',
               still: photos.hubPersonal,
             },
             {
               href: '/vacation-chef',
               title: 'Stay Chef week',
-              body: 'A chef for the villa week. Groceries at cost. Distinct from one visitor dinner.',
+              body: 'A chef for the villa week. Groceries at cost.',
               still: photos.hubVacation,
             },
             {
@@ -177,28 +174,28 @@ export function HubOfferView({ kind }: { kind: 'private-chef' | 'vacation-chef' 
             {
               href: '/pricing',
               title: 'What a night costs',
-              body: 'The published rate card. Distinct from the fee-stack explainer.',
+              body: 'The published rate card.',
               still: photos.hubPricing,
             },
           ]}
         />
       ) : (
         <HubPhotoGrid
-          eyebrow="Beside this villa week"
-          heading="Open a related document."
+          eyebrow="Related pages"
+          heading="Related pages."
           intro="Related pages to help you plan your dinner, event or stay."
           columns={2}
           items={[
             {
               href: '/private-chef',
               title: 'Visitor dinner',
-              body: 'One night in the house. Distinct from the villa week.',
+              body: 'One night in the house.',
               still: photos.hubChef,
             },
             {
               href: '/personal-chef',
               title: household?.cardLabel ?? 'Household week',
-              body: household?.lede ?? 'Weekly household cooking lives on each island /personal-chef.',
+              body: household?.lede ?? 'Weekly household cooking lives on each island the personal chef page.',
               still: photos.hubPersonal,
             },
             {
@@ -210,7 +207,7 @@ export function HubOfferView({ kind }: { kind: 'private-chef' | 'vacation-chef' 
             {
               href: '/pricing',
               title: 'What a night costs',
-              body: 'The published rate card. Distinct from the fee-stack explainer.',
+              body: 'The published rate card.',
               still: photos.hubPricing,
             },
           ]}
@@ -243,9 +240,9 @@ export function IslandVacationView({ islandId, hostMode }: { islandId: IslandId;
       <DocumentCopy heading={`How a Stay Chef week runs on ${islands[islandId].name}.`} paras={copy.body} />
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow={`${islands[islandId].name} · Beside this week`}
-        heading="Open a related document."
-        intro="/personal-chef is the resident line. /private-chef is one dinner. The week notes sit in the journal."
+        eyebrow={`${islands[islandId].name} · Related`}
+        heading="Related pages."
+        intro="The week notes sit in the journal."
         items={copy.related.map((link) => ({
           path: link.path,
           label: link.label,

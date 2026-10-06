@@ -11,49 +11,37 @@ import type { IslandNestedIndexPage } from './islandHelpIndex';
 export const islandStaffingIndex: Record<IslandId, IslandNestedIndexPage> = {
   oahu: {
     h1: 'Oahu add-ons — servers, bartenders, butlers when a bench exists.',
-    title: 'Oahu staffing add-ons — servers, bartenders, quoted butlers | myCHEF',
+    title: 'Oahu event staffing — servers & bartenders | myCHEF',
     description:
       'Oahu staffing add-ons: servers, bartenders, butlers quoted only when a bench exists. Hourly lines, never buried in the plate.',
-    lede:
-      '/bar is the bartender product. /mobile-bar is the 4-hour package. This page is the hourly add-on list — written on the quote, never hidden in the catch.',
+    lede: 'Oahu staffing add-ons: servers, bartenders, butlers quoted only when a bench exists. Hourly lines, never buried in the plate.',
     kicker: 'Oʻahu · Staffing',
     photo: 'staffIndexOahu',
     body: [
-      `Staffing minimums live on /pricing.`,
-      'A plated twelve needs more hands than a family-style eight. Butlers stay honesty/quoted — only when a bench exists. Gold Coast dining rooms: /gold-coast.',
+      'A plated twelve needs more hands than a family-style eight. Butlers stay honesty/quoted — only when a bench exists. Gold Coast dining rooms: Gold Coast.',
     ],
     faqs: [
       {
-        q: 'Same as /bar?',
-        a: '/bar is the bartender product. /staffing/bartenders is the hourly line. This page lists both kinds of add-on — Gold Coast host.',
-      },
-      {
         q: 'Are butlers always available?',
-        a: 'No. /staffing/butlers says so. We quote only when a Gold Coast bench exists.',
+        a: 'No. We quote only when a Gold Coast bench exists.',
       },
     ],
   },
   maui: {
     h1: 'Maui add-ons — servers, lanai bartenders, butlers when a bench exists.',
-    title: 'Maui staffing add-ons — servers, lanai bartenders, quoted butlers | myCHEF',
+    title: 'Maui event staffing — servers & bartenders | myCHEF',
     description:
       'Maui staffing add-ons: servers, lanai bartenders, butlers quoted only when a bench exists. Hourly lines.',
-    lede:
-      '/bar is the bartender product. /mobile-bar is the 4-hour package. This page is the hourly add-on list — Wailea rooms, West Maui lanais.',
+    lede: 'Maui staffing add-ons: servers, lanai bartenders, butlers quoted only when a bench exists. Hourly lines.',
     kicker: 'Maui · Staffing',
     photo: 'staffIndexMaui',
     body: [
-      `Staffing minimums live on /pricing.`,
-      'Saturday West Maui traffic is planned on /west-maui. Butlers stay honesty/quoted — only when a bench exists.',
+      'Saturday West Maui traffic is planned on the West Maui page. Butlers stay honesty/quoted — only when a bench exists.',
     ],
     faqs: [
       {
-        q: 'Same as /bar?',
-        a: '/bar is the bartender product. /staffing/bartenders is the hourly line. This page lists both kinds of add-on — Wailea host.',
-      },
-      {
         q: 'Are butlers always available?',
-        a: 'No. /staffing/butlers says so. We quote only when a Wailea bench exists.',
+        a: 'No. We quote only when a Wailea bench exists.',
       },
     ],
   },
@@ -62,46 +50,36 @@ export const islandStaffingIndex: Record<IslandId, IslandNestedIndexPage> = {
     title: 'Kauai staffing add-ons — hourly lines at inquiry | myCHEF',
     description:
       'Kauai staffing add-ons at inquiry: servers, bartenders, butlers quoted only when a bench exists. Not a fake roster.',
-    lede:
-      '/bar is the bartender product at inquiry. This page is the hourly add-on list — both shores, when we can staff, not a Book-now button.',
+    lede: 'Kauai staffing add-ons at inquiry: servers, bartenders, butlers quoted only when a bench exists. Not a fake roster.',
     kicker: 'Kauaʻi · Staffing',
     photo: 'staffIndexKauai',
     body: [
       `Inquiry stage.`,
-      'A named shore is not a confirmation. Hanalei-bridge weather is a clause — /hanalei-bridge. Butlers stay honesty/quoted.',
+      'A named shore is not a confirmation. Hanalei-bridge weather is a clause. Butlers stay honesty/quoted.',
     ],
     faqs: [
       {
         q: 'Are you live?',
         a: 'Inquiry. Hourly lines exist when we can staff. They are not a fake roster.',
       },
-      {
-        q: 'Same as /bar?',
-        a: '/bar is the bartender product. /staffing/bartenders is the hourly line. This page lists both — both-shore inquiry.',
-      },
     ],
   },
   bigisland: {
     h1: 'West-side add-ons — hourly lines, inquiry. Hilo not implied.',
-    title: 'West-side staffing add-ons — hourly lines at inquiry | myCHEF',
+    title: 'Big Island event staffing — servers & bartenders | myCHEF',
     description:
       'Hawaiʻi Island west-side staffing add-ons at inquiry.',
-    lede:
-      '/bar is the bartender product at inquiry. This page is the west-side hourly add-on list — Kona to Kohala, Hilo never implied.',
+    lede: 'Hawaiʻi Island west-side staffing add-ons at inquiry.',
     kicker: 'Hawaiʻi Island · Staffing',
     photo: 'staffIndexBigisland',
     body: [
       `West side first.`,
-      'East side is a dedicated day — /east-side. Ironman weeks compress the calendar — /ironman-weeks. Butlers stay honesty/quoted.',
+      'East side is a dedicated day. Ironman weeks compress the calendar. Butlers stay honesty/quoted.',
     ],
     faqs: [
       {
         q: 'Does this cover Hilo?',
-        a: 'No. These are west-side hourly add-ons — Kona to Kohala. Hilo is a dedicated east-side day on /east-side.',
-      },
-      {
-        q: 'Same as /bar?',
-        a: '/bar is the bartender product. /staffing/bartenders is the hourly line. This page lists both — west-side host.',
+        a: 'No. These are west-side hourly add-ons — Kona to Kohala. Hilo is a dedicated east-side day on the east-side page.',
       },
     ],
   },

@@ -48,7 +48,7 @@ export function IslandEventsView({ islandId, hostMode }: { islandId: IslandId; h
       <DocumentPhotoGrid
         islandId={islandId}
         eyebrow={`${islands[islandId].name} · Occasions`}
-        heading="Open an occasion document."
+        heading="Occasions we cook for."
         items={occasionPages[islandId].map((page) => ({
           path: `/events/${page.slug}`,
           label: page.name,
@@ -57,8 +57,8 @@ export function IslandEventsView({ islandId, hostMode }: { islandId: IslandId; h
       />
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow={`${islands[islandId].name} · Beside these occasions`}
-        heading="Open a related document."
+        eyebrow={`${islands[islandId].name} · Related`}
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[

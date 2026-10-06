@@ -26,11 +26,11 @@ const hubFaqs = [
   },
   {
     q: "What's included?",
-    a: 'Signature and per-guest dinners include menu design, same-day shopping, cooking in your villa, table service, and a clean kitchen — groceries sit inside that published band. Stay Chef days bill groceries at cost with receipts. The two models are never blended. Drinks BYO or quoted. Bartender add-on lives on /bar.',
+    a: 'Signature and per-guest dinners include menu design, same-day shopping, cooking in your villa, table service, and a clean kitchen — groceries sit inside that published band. Stay Chef days bill groceries at cost with receipts. The two models are never blended. Drinks BYO or quoted. Bartender add-on is on the villa bar page.',
   },
   {
     q: 'Do you have Hawaii guest reviews?',
-    a: 'Not yet — and we will not invent them. Proof here is published prices, sample menus, cleanup, and a written quote. See /trust.',
+    a: 'Not yet — and we will not invent them. Proof here is published prices, sample menus, cleanup, and a written quote.',
   },
   {
     q: 'Airbnb / vacation rental kitchens?',
@@ -207,7 +207,7 @@ export default function HomeView() {
             (inquiry). Service 20% and Hawaiʻi GET up to 4.712% appear as separate lines on the written quote.
           </p>
           <nav
-            aria-label="Island hosts, tariff, and corridor doors"
+            aria-label="Islands, pricing and towns"
             className="mt-8 flex flex-wrap items-baseline gap-x-6 gap-y-2 text-sm"
           >
             <HostLink island="oahu" path="/" className="text-ink underline decoration-brass underline-offset-[6px]">

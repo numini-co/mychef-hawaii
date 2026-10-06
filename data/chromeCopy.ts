@@ -16,16 +16,16 @@ export const hubChrome = {
     'One coordinator, one master quote. Resident chefs cook on each island — no fly-in surcharge. Tell us the itinerary and we sequence the crews.',
   multiCta: 'Plan a multi-island itinerary',
   coresH2: 'A chef for the house, or catering for the event.',
-  chefLine: 'One dinner in the villa. Shop, cook, serve, clean. Stay Chef weeks live on /vacation-chef.',
+  chefLine: 'One dinner in the villa. Shop, cook, serve, clean. Stay Chef weeks are on the Stay Chef page.',
   chefPrice: 'From $195 a guest on Oʻahu · $225 on Maui and Kauaʻi · $210 on Hawaiʻi Island',
-  cateringLine: 'Staffed villa events of about 10–75. Buffet or plated. One-table dinners live on /private-chef.',
+  cateringLine: 'Staffed villa events of about 10–75. Buffet or plated. One-table dinners are on the in-villa dinner page.',
   cateringPrice: 'From $195 a guest on Oʻahu · $225 on Maui and Kauaʻi · $210 on Hawaiʻi Island',
   howH2: 'Tell us the table. We write the menu and cook it in the house.',
   closer: 'Island, date, guest count and kitchen. That is enough to start.',
   closerLine: 'Oʻahu and Maui receive a written quote. Kauaʻi and Hawaiʻi Island begin with an inquiry.',
   chooserH2: 'Choose where we cook.',
   chooserIntro:
-    'Oʻahu and Maui take quotes now; Kauaʻi and Hawaiʻi Island are at inquiry stage. Stay on one island — change it only when you mean to.',
+    'Oʻahu and Maui take quotes now; Kauaʻi and Hawaiʻi Island are by inquiry only. Stay on one island — change it only when you mean to.',
 };
 
 export const processSteps = [
@@ -71,13 +71,13 @@ export const islandChooserCopy: Record<
     tagline: 'Garden-isle estates · Princeville to Poʻipū',
     line: 'Princeville and Hanalei to Poʻipū, for villa dinners and staffed events. Inquiry stage.',
     price: 'Signature dinner from $225 a guest · Stay Chef from $1,650 a day · Inquiry',
-    alt: 'An estate table on Kauaʻi looking into a misted valley of fluted mountains at golden hour — myCHEF Kauaʻi private chef, inquiry stage.',
+    alt: 'An estate table on Kauaʻi looking into a misted valley of fluted mountains at golden hour — myCHEF Kauaʻi private chef, by inquiry.',
   },
   bigisland: {
     tagline: 'Volcanic minimalism · Kona–Kohala Coast',
     line: 'Kona and the Kohala Coast first, for villa dinners and staffed events. Inquiry stage.',
     price: 'Signature dinner from $210 a guest · Stay Chef from $1,450 a day · Inquiry',
-    alt: 'A lava-coast terrace table on Hawaiʻi Island at sunset with fruit and wine glasses, Mauna Loa on the horizon — myCHEF Hawaiʻi Island private chef, inquiry stage.',
+    alt: 'A lava-coast terrace table on Hawaiʻi Island at sunset with fruit and wine glasses, Mauna Loa on the horizon — myCHEF Hawaiʻi Island private chef, by inquiry.',
   },
 };
 
@@ -87,7 +87,7 @@ export const islandHeroLede: Record<IslandId, string> = {
   maui:
     'A table in your own villa — Wailea, Kīhei, West Maui — when the kitchen is real. Signature dinner starts at $225 a guest, Stay Chef at $1,550 a day. Request a written quote.',
   kauai:
-    'Garden Isle, both shores: Princeville and Hanalei to the north, Poʻipū to the south, always in a villa with a real kitchen. Inquiry-stage — Enquire, not Book-now. Signature dinner from $225 a guest.',
+    'Garden Isle, both shores: Princeville and Hanalei to the north, Poʻipū to the south, always in a villa with a real kitchen. By inquiry — not instant booking. Signature dinner from $225 a guest.',
   bigisland:
     'Expedition starts on Kona and the Kohala Coast, with west-side villas setting the route. Inquiry-stage — Enquire dates. Every booking requires a real kitchen.',
 };

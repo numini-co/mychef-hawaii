@@ -28,11 +28,11 @@ const faqs = [
   },
   {
     q: 'Do you have Hawaiʻi guest reviews yet?',
-    a: 'Not yet. We will not invent them. Reviews publish after verified events. Until then the proof is published prices, a sample menu, cleanup, and a written quote. See /trust.',
+    a: 'Not yet. We will not invent them. Reviews publish after verified events. Until then the proof is published prices, a sample menu, cleanup, and a written quote.',
   },
     {
       q: 'Which islands?',
-      a: 'Oʻahu, Maui, Kauaʻi, and Hawaiʻi Island. Each island host names its corridors as live URLs — Honolulu, Waikīkī, Wailea, Princeville, Kona, and the rest. Open the island site, then the corridor.',
+      a: 'Oʻahu, Maui, Kauaʻi, and Hawaiʻi Island. Open the island site, then the corridor.',
     },
   {
     q: 'How do I reach you?',
@@ -55,7 +55,7 @@ const roles = [
   },
   {
     name: 'Bar',
-    text: 'A bartender when the terrace is the first room. Stacked with dinner or booked on its own. Starting prices live on /bar.',
+    text: 'A bartender when the terrace is the first room. Stacked with dinner or booked on its own.',
   },
   {
     name: 'Shopper',
@@ -88,9 +88,9 @@ const islandPhotos: Record<(typeof islandOrder)[number], { src: string; position
 
 const islandCopy: Record<(typeof islandOrder)[number], string> = {
   oahu: `Oʻahu is town and the short-stay villa belt. Honolulu residences, Waikīkī apartments that actually have a kitchen, Kahala dining rooms, Kailua weeks, Ko Olina villa stays. A Gold Coast dinner and a North Shore surcharge day are not the same drive; the quote says which. Personal-chef weeks for households sit next to visitor dinners. The crew in the photograph is the point: this is not one person with a tote bag and a hope.`,
-  maui: `Maui is the villa dinner people picture when they say private chef — Wailea, West Maui, Kīhei, Kapalua, Makena, each with its own corridor page. Catering is the larger door on this island. The same team shops, cooks, and staffs the room. A reception on the lawn is a different crew than Date Night for two. We write that difference before the deposit.`,
-  kauai: `Kauaʻi is both shores, inquiry-stage: Princeville and Hanalei on the north, Poʻipū and Kōloa on the south. The bridge and the weather are real; far-North inquiries inherit a written road clause instead of a shrug. We staff the estate to the guest list when a crew exists. We do not pretend Līhuʻe and Hāʻena are the same afternoon.`,
-  bigisland: `Hawaiʻi Island is west-side first: Kona, Waikoloa, the Kohala Coast. Kona has its own page on this host. Hilo is a different day — we will not sell a same-day round trip. Ironman week compresses the calendar. Tell us the dates early. The crew size still follows the house.`,
+  maui: `Maui is the villa dinner people picture when they say private chef — Wailea, West Maui, Kīhei, Kapalua, Makena, each with its own page. Staffed catering is the bigger service on this island. The same team shops, cooks, and staffs the room. A reception on the lawn is a different crew than Date Night for two. We write that difference before the deposit.`,
+  kauai: `Kauaʻi is both shores, by inquiry: Princeville and Hanalei on the north, Poʻipū and Kōloa on the south. The bridge and the weather are real; far-North inquiries inherit a written road clause instead of a shrug. We staff the estate to the guest list when a crew exists. We do not pretend Līhuʻe and Hāʻena are the same afternoon.`,
+  bigisland: `Hawaiʻi Island is west-side first: Kona, Waikoloa, the Kohala Coast. Kona has its own page on this site. Hilo is a different day — we will not sell a same-day round trip. Ironman week compresses the calendar. Tell us the dates early. The crew size still follows the house.`,
 };
 
 export default function AboutView() {
@@ -150,9 +150,9 @@ export default function AboutView() {
                 Hawaii is launching. We do not invent guest reviews, chef names, a street office, or a
                 founding year to look older than the work. Reach the desk on WhatsApp, quotes@mychef-hawaii.com, or
                 (808) 468-7748. Proof today is published starting prices, sample menus, and a
-                written quote. Reviews publish after verified events. That posture lives on{' '}
+                written quote. Reviews publish after verified events — see{' '}
                 <Link href="/trust" className="text-ink underline underline-offset-4">
-                  /trust
+                  what we will and won’t claim
                 </Link>
                 .
               </p>
@@ -237,21 +237,21 @@ export default function AboutView() {
       <LocationsBlock id="locations" />
 
       <HubPhotoGrid
-        eyebrow="Beside this department"
-        heading="Open a related document."
+        eyebrow="Related pages"
+        heading="Related pages."
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           {
             href: '/trust',
             title: 'Honesty register',
-            body: 'What we will not invent. Reviews after verified events. Distinct from this department page.',
+            body: 'What we will not invent. Reviews after verified events.',
             still: photos.hubTrust,
           },
           {
             href: '/legal',
             title: 'Booking notes',
-            body: 'Quotes, GET, deposits. Distinct from the rate card and the fee-stack explainer.',
+            body: 'Quotes, GET, deposits.',
             still: photos.hubLegal,
           },
           {
