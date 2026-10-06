@@ -247,11 +247,35 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       faqs: [
         {
           q: 'Will you print a farm name?',
-          a: 'Only after written verification. Open /blog/sourcing-honesty.',
+          a: 'Named farms wait for written verification. Sitting in Kula mist does not earn a grower credit. The rule lives on /blog/sourcing-honesty. This door stays the elevation dinner, not a farm brochure.',
         },
         {
           q: 'Same as /wailea?',
-          a: 'That URL is South Maui. This page is the elevation drive as its own dinner door.',
+          a: 'No. /wailea is South Maui resort residences in the base zone. This page is the climb — Kula, Makawao, and Haʻikū — with the surcharge as its own quote line. They are not one night. Condos on the coast: /kihei.',
+        },
+        {
+          q: 'Where does the Kula, Makawao, or Haʻikū drive print?',
+          a: 'On its own line. Kula, Makawao, and Haʻikū estates sit above the coast, so the climb is a published surcharge on the written quote. It is not buried in the fish. South Maui resort doors stay /wailea. Tariff: /pricing.',
+        },
+        {
+          q: 'What is inside an Upcountry Signature night at $225–$375?',
+          a: 'On this slope the plated night is $225–$375 per guest, groceries included in the band. The elevation fee is a separate printed line, not a quieter coast number. Then 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit holds the date. Gratuity is voluntary. Card: /pricing. Dates: /quote?island=maui.',
+        },
+        {
+          q: 'Stay Chef from $1,550 on an estate week — groceries at cost?',
+          a: 'Retreat and estate weeks start at Stay Chef from $1,550 a day. The shop bills at cost with receipts. That is not Signature, where food is already inside $225–$375. Extra meals that day are quoted. Send the week on /quote?island=maui.',
+        },
+        {
+          q: 'What does a cooler Upcountry estate kitchen need?',
+          a: 'A cooktop, a fridge, and a table. Cooler evenings need both a lanai plan and an indoor plan, written before anyone shops. An uncovered lawn is not the only setup. Haʻikū wind belongs in that note. Island home: /.',
+        },
+        {
+          q: 'Can one night cover Upcountry and a South Maui villa?',
+          a: 'No. An elevation dinner beside a South or West Maui villa week is two dated quote lines, not one same-night double. /wailea stays the coast day. This slope is its own date. We will not hide the second drive. Kīhei weeks: /kihei.',
+        },
+        {
+          q: 'How do I enquire for an Upcountry estate?',
+          a: 'File the estate street, the nights, and the seats on /quote?island=maui. WhatsApp https://wa.me/18084687748 and +1 808 468 7748 reach the same desk, quotes@mychef-hawaii.com. Maui is quote-open. The elevation line is on the written total. See /pricing.',
         },
       ],
       related: [
@@ -922,11 +946,35 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       faqs: [
         {
           q: 'Same as /hilo?',
-          a: 'Same east-side day class. This page is Volcano lodges.',
+          a: 'No. /hilo is the town door — streets and a town range. This page is lodges and estates near the park: ferns, mist, a cooler kitchen. The crossing rule stays on /east-side. We do not paste the Hilo page up the slope.',
         },
         {
           q: 'Outdoor fire?',
-          a: 'Only if the weather plan holds. We decline rather than lie.',
+          a: 'Only when a weather plan holds. Mist and rain at this elevation move the table indoors. That indoor backup is written, or we decline the lawn. We will not promise a dry fern clearing.',
+        },
+        {
+          q: 'Why is a Volcano lodge a dedicated day from Kona?',
+          a: 'The drive is 2.5–3 hours from Kona. We quote it as its own east-side day and never squeeze it onto a west-side afternoon. The crossing rule is /east-side. Town kitchens stay /hilo. Lodge address: /quote?island=bigisland.',
+        },
+        {
+          q: 'What does inquiry stage mean for a park-side lodge?',
+          a: 'We crew the lodge properly or we decline. It is not a Book-now. A published band is not a live roster. Send the dates and wait for a written reply when an east-side crew can hold that week. Island home: /.',
+        },
+        {
+          q: 'Signature $210–$325 or ENTRY from $165 at a Volcano lodge?',
+          a: 'A park-lodge plated night is Signature $210–$325 per guest, with the shop already in the band. ENTRY from $165 is only a shorter cabin list when the range can hold it. Service is 20%. Tax prints up to 4.712%. Half, the 50%, waits until someone can staff the slope. Gratuity is never required. Read /pricing before you enquire.',
+        },
+        {
+          q: 'Stay Chef from $1,450 for a lodge week — who pays for the shop?',
+          a: 'A lodge week is Stay Chef from $1,450 a day — chef and one meal — while the Volcano shop is a receipt stack at cost, zero markup. Do not hide that shop inside the day fee, or inside Signature $210–$325. A second sitting is written. File the week on /quote?island=bigisland.',
+        },
+        {
+          q: 'What does a cold, wet Volcano cabin kitchen need?',
+          a: 'A working cooktop. Cold, wet evenings at elevation need an indoor plan in writing — not a lanai hope. Hotel rooms and lock-offs without heat are declined before a deposit. The kitchen note is /blog/dining-in-volcano. Town kitchens: /hilo.',
+        },
+        {
+          q: 'How do I enquire for a Volcano lodge — address and dates?',
+          a: 'Name the lodge, the nights, and the seats on /quote?island=bigisland. If the week is real, WhatsApp https://wa.me/18084687748 or call +1 808 468 7748. Mail quotes@mychef-hawaii.com. Hawaii hours, and only when a crew can cross. Tariff: /pricing.',
         },
       ],
       related: [

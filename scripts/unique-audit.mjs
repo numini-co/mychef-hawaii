@@ -1930,6 +1930,128 @@ if (/tel:\+971|\+971\d{7,}/.test(longIslandSrc + pricingDocSrc + hubQuoteSrc + r
   }
 }
 
+{
+  function cellChunk(src, slug) {
+    const at = src.search(new RegExp(`slug:\\s*'${slug}'`));
+    if (at < 0) return '';
+    const after = src.slice(at + 1);
+    const next = after.search(/\n      slug:/);
+    return next < 0 ? src.slice(at) : src.slice(at, at + 1 + next);
+  }
+  const northPairs = faqPairs(hoodFaqChunk(offersSrc, 'oahu', 'north-shore'));
+  const volcanoPairs = faqPairs(cellChunk(read('data/areaCells.ts'), 'volcano'));
+  const upcountryPairs = faqPairs(cellChunk(read('data/areaCells.ts'), 'upcountry'));
+  const corridorDeep = [
+    ['oahu/north-shore', northPairs, /\$195/, /\$1,250/],
+    ['bigisland/volcano', volcanoPairs, /\$210/, /\$1,450/],
+    ['maui/upcountry', upcountryPairs, /\$225/, /\$1,550/],
+  ];
+  const deepQuestions = [];
+  for (const [label, pairs, signature, stay] of corridorDeep) {
+    if (pairs.length < 8) errors.push(`${label} FAQ expected ≥8 questions, found ${pairs.length}`);
+    const blob = pairs.map((p) => `${p.q} ${p.a}`).join('\n');
+    if (/world-class|unforgettable|indulge|culinary journey|let's dive in/i.test(blob)) {
+      errors.push(`${label} FAQ used banned fluff`);
+    }
+    if (/tel:\+971|\+971\d{7,}/.test(blob)) errors.push(`${label} FAQ introduced +971`);
+    if (/AggregateRating/.test(blob)) errors.push(`${label} FAQ introduced AggregateRating`);
+    if (!/quotes@mychef-hawaii\.com/.test(blob) || !/\+1 808 468 7748/.test(blob) || !/wa\.me\/18084687748/.test(blob)) {
+      errors.push(`${label} FAQ missing Hawaii desk`);
+    }
+    if (!/20%/.test(blob) || !/4\.712%/.test(blob) || !/50%/.test(blob) || !/gratuity/i.test(blob)) {
+      errors.push(`${label} FAQ missing 20% service, GET, 50% deposit, or gratuity line`);
+    }
+    if (!signature.test(blob) || !stay.test(blob)) {
+      errors.push(`${label} FAQ dropped Signature or Stay Chef band`);
+    }
+    if (!/\/quote/.test(blob) || !/\/pricing/.test(blob)) {
+      errors.push(`${label} FAQ missing /quote or /pricing`);
+    }
+    for (const p of pairs) {
+      const words = p.a.trim().split(/\s+/).filter(Boolean).length;
+      if (words > 60) errors.push(`${label} FAQ answer over 60 words (${words}): “${p.q}”`);
+    }
+    deepQuestions.push(...pairs.map((p) => p.q));
+  }
+  errors.push(...dupes(deepQuestions, 'north-shore/volcano/upcountry FAQ question'));
+  if (!/\$165/.test(volcanoPairs.map((p) => p.a).join('\n'))) {
+    errors.push('bigisland/volcano FAQ dropped ENTRY $165');
+  }
+  if (!/not a Book-now/i.test(volcanoPairs.map((p) => `${p.q} ${p.a}`).join('\n'))) {
+    errors.push('bigisland/volcano FAQ lost inquiry-stage honesty');
+  }
+  const northNeighbors = [
+    ['honolulu', hoodFaqChunk(offersSrc, 'oahu', 'honolulu')],
+    ['kailua', hoodFaqChunk(offersSrc, 'oahu', 'kailua')],
+    ['ko-olina', hoodFaqChunk(offersSrc, 'oahu', 'ko-olina')],
+    ['kauai-north-shore', cellChunk(read('data/uniqueCells.ts'), 'north-shore')],
+    ['blog/dining-in-north-shore', cellChunk(read('data/blogArticles.ts'), 'dining-in-north-shore')],
+  ];
+  for (const [slug, chunk] of northNeighbors) {
+    for (const left of northPairs) {
+      for (const right of faqPairs(chunk)) {
+        const score = jaccardTokens(`${left.q} ${left.a}`, `${right.q} ${right.a}`);
+        if (score > 0.6) {
+          errors.push(
+            `oahu/north-shore ~ ${slug} FAQ similarity ${(score * 100).toFixed(0)}% (“${left.q}” / “${right.q}”)`,
+          );
+        }
+      }
+    }
+  }
+  const volcanoNeighbors = [
+    ['hilo', cellChunk(read('data/areaCells.ts'), 'hilo')],
+    ['east-side', cellChunk(read('data/uniqueCells.ts'), 'east-side')],
+    ['blog/dining-in-volcano', cellChunk(read('data/blogArticles.ts'), 'dining-in-volcano')],
+  ];
+  for (const [slug, chunk] of volcanoNeighbors) {
+    for (const left of volcanoPairs) {
+      for (const right of faqPairs(chunk)) {
+        const score = jaccardTokens(`${left.q} ${left.a}`, `${right.q} ${right.a}`);
+        if (score > 0.6) {
+          errors.push(
+            `bigisland/volcano ~ ${slug} FAQ similarity ${(score * 100).toFixed(0)}% (“${left.q}” / “${right.q}”)`,
+          );
+        }
+      }
+    }
+  }
+  const upcountryNeighbors = [
+    ['wailea', hoodFaqChunk(offersSrc, 'maui', 'wailea')],
+    ['kihei', hoodFaqChunk(offersSrc, 'maui', 'kihei')],
+    ['blog/dining-in-upcountry', cellChunk(read('data/blogArticles.ts'), 'dining-in-upcountry')],
+  ];
+  for (const [slug, chunk] of upcountryNeighbors) {
+    for (const left of upcountryPairs) {
+      for (const right of faqPairs(chunk)) {
+        const score = jaccardTokens(`${left.q} ${left.a}`, `${right.q} ${right.a}`);
+        if (score > 0.6) {
+          errors.push(
+            `maui/upcountry ~ ${slug} FAQ similarity ${(score * 100).toFixed(0)}% (“${left.q}” / “${right.q}”)`,
+          );
+        }
+      }
+    }
+  }
+  const cross = [
+    ['oahu/north-shore', northPairs, 'bigisland/volcano', volcanoPairs],
+    ['oahu/north-shore', northPairs, 'maui/upcountry', upcountryPairs],
+    ['bigisland/volcano', volcanoPairs, 'maui/upcountry', upcountryPairs],
+  ];
+  for (const [leftLabel, leftPairs, rightLabel, rightPairs] of cross) {
+    for (const left of leftPairs) {
+      for (const right of rightPairs) {
+        const score = jaccardTokens(`${left.q} ${left.a}`, `${right.q} ${right.a}`);
+        if (score > 0.6) {
+          errors.push(
+            `${leftLabel} ~ ${rightLabel} FAQ similarity ${(score * 100).toFixed(0)}% (“${left.q}” / “${right.q}”)`,
+          );
+        }
+      }
+    }
+  }
+}
+
 if (!/siblingCorridors/.test(placeViewSrc) || !/sibling corridors/.test(placeViewSrc)) {
   errors.push('corridor pages still missing sibling corridor links');
 }
