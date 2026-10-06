@@ -2,6 +2,11 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   trailingSlash: false,
+  // Render <title>, meta description, canonical and Open Graph tags in the
+  // initial <head> for every user agent. Next 15 streams metadata into <body>
+  // by default for most UAs (Googlebot included), where Google ignores
+  // rel=canonical and Lighthouse reports a missing meta description.
+  htmlLimitedBots: /.*/,
   allowedDevOrigins: ['*.localhost', 'localhost'],
   images: {
     formats: ['image/avif', 'image/webp'],
