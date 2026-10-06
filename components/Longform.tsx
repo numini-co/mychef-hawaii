@@ -1,5 +1,7 @@
 import * as Accordion from '@radix-ui/react-accordion';
 import HostLink from '@/components/HostLink';
+import InlineText from '@/components/InlineText';
+import { stripInlineLinks } from '@/lib/inlineLinks';
 import Link from 'next/link';
 import type { ReactNode } from 'react';
 import type { IslandId } from '@/data/islands';
@@ -25,7 +27,7 @@ export function Longform({ sections }: { sections: CopySection[] }) {
             </h2>
             {s.paras.map((p) => (
               <p key={p.slice(0, 48)} className="mt-5 text-[17px] leading-[1.7] text-mute">
-                {p}
+                <InlineText text={p} />
               </p>
             ))}
           </article>
@@ -56,7 +58,7 @@ export function DocumentCopy({
         <div className={heading ? 'mt-6 space-y-6' : 'space-y-6'}>
           {paras.map((p) => (
             <p key={p.slice(0, 48)} className="text-[17px] leading-[1.7] text-mute">
-              {p}
+              <InlineText text={p} />
             </p>
           ))}
         </div>
@@ -78,6 +80,7 @@ export function LongFaq({
   contrast?: 'mute' | 'aa';
 }) {
   const chrome = contrast === 'aa' ? 'text-ink' : 'text-mute';
+  if (items.length === 0) return null;
   return (
     <section
       className="faq-chrome border-t border-line bg-paper py-20"
@@ -99,13 +102,15 @@ export function LongFaq({
             <Accordion.Item key={f.q} value={`lf-${i}`} className="border-b border-line">
               <Accordion.Header>
                 <Accordion.Trigger className="group flex min-h-12 w-full items-center justify-between gap-4 py-5 text-left">
-                  <span className="font-display text-[1.25rem] font-light text-ink">{f.q}</span>
+                  <span className="font-display text-[1.25rem] font-light text-ink">{stripInlineLinks(f.q)}</span>
                   <span className={`text-[14px] ${chrome} group-data-[state=open]:hidden`}>+</span>
                   <span className={`hidden text-[14px] ${chrome} group-data-[state=open]:inline`}>–</span>
                 </Accordion.Trigger>
               </Accordion.Header>
               <Accordion.Content className="overflow-hidden data-[state=closed]:animate-none">
-                <p className={`pb-6 text-[17px] leading-relaxed ${chrome}`}>{f.a}</p>
+                <p className={`pb-6 text-[17px] leading-relaxed ${chrome}`}>
+                  <InlineText text={f.a} />
+                </p>
               </Accordion.Content>
             </Accordion.Item>
           ))}
