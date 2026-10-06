@@ -36,7 +36,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     h1: 'Oahu catering — staffed events from Honolulu to Ko Olina.',
     title: 'Oahu Catering | Honolulu to Ko Olina Events | myCHEF',
     description:
-      'Oahu catering from $195 a guest. Staffed events from Honolulu to Ko Olina. Buffet or plated. Request a quote.',
+      'Oahu catering from $195 a guest — staffed villa and estate events from Honolulu and Kahala to Ko Olina, 10–75 guests. Buffet or plated. Request a quote.',
     lede:
       'Oahu catering is the staffed-event door: buffet or plated, villa, retreat, wedding. Published prices and a written menu. Honolulu to Ko Olina.',
     fromPp: 195,
@@ -76,7 +76,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     h1: 'Maui catering — staffed villa events, not drop-off.',
     title: 'Maui Catering | Villa Receptions and Events | myCHEF',
     description:
-      'Maui catering from $225 a guest. Staffed villa events, not drop-off. Buffet or plated. Request a quote.',
+      'Maui catering from $225 a guest — staffed villa receptions and events in Wailea, Kāʻanapali and Kapalua, 10–75 guests. Buffet or plated. Request a quote.',
     lede:
       'Maui catering is the staffed-room door on this island — not drop-off. Same team as a villa dinner. Buffet or plated. Published $225–$375 a guest.',
     fromPp: 225,
@@ -110,9 +110,9 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     keyword: 'kauai catering',
     volume: SEARCH_VOLUMES['kauai catering'],
     h1: 'Kauai catering — both shores, inquiry stage.',
-    title: 'Kauai Catering | Estate Events — Inquiry | myCHEF',
+    title: 'Kauai Catering | Princeville & Poipu Estate Events | myCHEF',
     description:
-      'Kauai catering from $225 a guest. Estate events on both shores. Inquiry stage. Buffet or plated.',
+      'Kauai catering from $225 a guest — staffed estate and villa events in Princeville, Hanalei and Poʻipū, 10–75 guests. Buffet or plated. Inquiry stage.',
     lede:
       'Kauai catering is the staffed-event door on both shores — inquiry stage. Published prices, a sample menu, buffet or plated. Villa dinners live on the home.',
     fromPp: 225,
@@ -141,10 +141,10 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
   bigisland: {
     keyword: 'big island catering',
     volume: CATERING_VOLUMES['big island catering'],
-    h1: 'Big Island catering',
-    title: 'Big Island catering — Kona & Kohala from $210/pp | myCHEF',
+    h1: 'Big Island catering — Kona and Kohala Coast villa events.',
+    title: 'Big Island Catering | Kona & Kohala Villa Events | myCHEF',
     description:
-      'Catering on Hawaiʻi Island from $210/pp. Kohala Coast and Kona villa receptions, buffet or plated. ENTRY from $165. WhatsApp for a written quote.',
+      'Big Island catering from $210 a guest — staffed Kona and Kohala Coast villa receptions, buffet or plated. Inquiry stage; ask for a written quote.',
     lede:
       'West-side first: Kohala and Kona estates. Buffet or plated. Published starting prices. Hilo is quote-only — we will not fake a same-day round trip.',
     fromPp: 210,

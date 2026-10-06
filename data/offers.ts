@@ -101,9 +101,9 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     h1: 'Private Chef Maui — a table in your own villa.',
     title: 'Private Chef Maui | In-Villa Week Dinners | myCHEF',
     description:
-      'Private chef Maui from $225 a guest. Villa dinners and weeks in Wailea, Kīhei and West Maui. Larger staffed rooms on /catering. Request a written quote.',
+      'Private chef Maui from $225 a guest. In-villa dinners and chef-for-the-week stays in Wailea, Kīhei, Kāʻanapali and Kapalua. Published prices, written quote.',
     lede:
-      'A chef at the table in your Wailea, Kapalua or Kāʻanapali villa for the week. Published prices and a written menu. Staffed receptions live on /catering.',
+      'A chef at the table in your Wailea, Kapalua or Kāʻanapali villa for the week. Published prices and a written menu. Larger staffed receptions are on our Maui catering page.',
     fromPp: 225,
     dayFrom: 1550,
     heroPhoto: 'mauiHero',
@@ -154,7 +154,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     description:
       'Private chef Oahu from $195 a guest — Honolulu, Waikīkī, Kahala, Kailua, Ko Olina corridors. Villa dinners and household weeks. Request a written quote.',
     lede:
-      'Private chef Oahu and Honolulu — resident villa dinners from $195 a guest. Household weeks sit beside. Staffed events for a larger list live on /catering.',
+      'Private chef Oahu and Honolulu — resident villa dinners from $195 a guest, with household weeks beside them. Larger staffed events are on our Oahu catering page.',
     fromPp: 195,
     dayFrom: 1250,
     heroPhoto: 'oahuHero',
@@ -193,11 +193,11 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     keyword: 'private chef kauai',
     volume: 210,
     h1: 'Private chef Kauai — both shores, inquiry stage.',
-    title: 'Private Chef Kauai | Garden Isle — Inquiry | myCHEF',
+    title: 'Private Chef Kauai | Personal Chef, Both Shores | myCHEF',
     description:
-      'Private chef Kauai from $225 a guest. Princeville, Poʻipū and Hanalei named. Garden Isle, both shores, inquiry stage — not Book-now. Enquire for dates.',
+      'Private chef Kauai from $225 a guest — a personal chef for villa dinners in Princeville, Hanalei and Poʻipū. Inquiry stage: send dates and shore for a written reply.',
     lede:
-      'Private chef Kauai on the Garden Isle — Princeville, Poʻipū and Hanalei. Both shores, inquiry stage. From $225 a guest. Enquire, do not Book-now.',
+      'Private chef Kauai on the Garden Isle — a personal chef for Princeville, Poʻipū and Hanalei villas. Both shores, inquiry stage, from $225 a guest. Send your dates.',
     fromPp: 225,
     dayFrom: 1650,
     heroPhoto: 'kauaiHero',
@@ -225,12 +225,12 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
         a: 'Yes — Kauai wedding catering for estate formats to about 75 guests. Welcome dinner, rehearsal, reception as separate lines. From $260/pp plus staffing. WhatsApp the week.',
       },
       {
-        q: 'Kauai catering prices — buffet or plated?',
-        a: 'Same Kauaʻi CORE band as a private-chef dinner: $225–$375 per person. Buffet is the volume format; plated (coursed seated) is the restaurant arc. Staffing is itemised. Full menu and fee stack on /catering and /pricing.',
+        q: 'Can I hire a personal chef on Kauaʻi for the whole stay?',
+        a: 'Yes, at inquiry. A Stay Chef is a personal chef for your villa week — from $1,650 a day, with groceries billed at cost on original receipts. Arrival-night dinner, breakfasts and family suppers are planned around your dates and shore. Send the dates and the house on the inquiry form and we write back with what we can staff.',
       },
       {
-        q: 'Do you publish a Kauai catering menu?',
-        a: 'Yes — a sample estate menu on the Kauai catering page. Your written menu is designed for that house and that guest list. We do not laminate a fake carte.',
+        q: 'What about a bigger party or an estate event?',
+        a: 'Groups of roughly 10–75 with a staffed kitchen are quoted on our Kauai catering page, buffet or plated, with staffing itemised. This page is for dinners and chef-for-the-week stays in the house.',
       },
     ],
   },
@@ -238,11 +238,11 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     keyword: 'private chef big island',
     volume: 70,
     h1: 'Private chef Big Island — the Kohala Coast first.',
-    title: 'Private Chef Big Island | Expedition Inquiry | myCHEF',
+    title: 'Private Chef Big Island | Kona & Kohala Villas | myCHEF',
     description:
-      'Private chef Big Island from $210 a guest. Kona, Waikoloa, Waimea, Kohala Coast. Inquiry stage. West-side villas first. ENTRY from $165. Enquire dates.',
+      'Private chef Big Island from $210 a guest — in-villa dinners in Kona, Waikoloa, Waimea and the Kohala Coast. Inquiry stage: send your dates for a written reply.',
     lede:
-      'Expedition on Kona and the Kohala Coast first — seven resort communities in one west-side radius. Hilo and Volcano are quote-only; we will not fake a same-day round trip.',
+      'Private chef dinners on Kona and the Kohala Coast first — seven resort communities in one west-side radius. Hilo and Volcano are quote-only; we will not fake a same-day round trip.',
     fromPp: 210,
     dayFrom: 1450,
     heroPhoto: 'bigislandHero',
