@@ -101,15 +101,15 @@ export const hubMultiQuoteFaqs: { q: string; a: string }[] = [
   },
   {
     q: 'How should dates and shores be listed?',
-    a: 'Name the first island you dine on, then each later shore and date — Wailea then Princeville, or Kahala then Kona. Put the house type. An ambiguous “Hawaii week” waits. Island desks: oahu.mychef-hawaii.com/quote, maui.mychef-hawaii.com/quote, kauai.mychef-hawaii.com/quote, bigisland.mychef-hawaii.com/quote.',
+    a: 'Name the first island you dine on, then each later shore and date — Wailea then Princeville, or Kahala then Kona. Put the house type. An ambiguous “Hawaii week” waits. Island quote forms: [Oahu](oahu:/quote), [Maui](maui:/quote), [Kauai](kauai:/quote) and [Big Island](bigisland:/quote).',
   },
   {
     q: 'Do per-island published bands still apply?',
-    a: 'Yes. Each night uses that island’s published card — we do not invent a multi-island midpoint. Oʻahu $195–$290. Maui and Kauaʻi $225–$375. Hawaiʻi Island CORE $210–$325, ENTRY from $165. Stay Chef from: Oʻahu $1,250 / Maui $1,550 / Kauaʻi $1,650 / Hawaiʻi Island $1,450.',
+    a: 'Yes. Each night uses that island’s published card — we do not invent a multi-island midpoint. Oʻahu $195–$290. Maui and Kauaʻi $225–$375. Hawaiʻi Island CORE $210–$325, ENTRY from $165. Stay Chef from: Oʻahu $1,250 / Maui $1,550 / Kauaʻi $1,650 / Hawaiʻi Island $1,450. Line-by-line: [the pricing page](/pricing).',
   },
   {
     q: 'Kauaʻi or Hawaiʻi Island on the itinerary?',
-    a: 'Those islands stay by inquiry only even inside a multi-island week. We log the shore and dates and write back when a crew exists. Not instant booking. Oʻahu and Maui nights on the same itinerary still get a written quote. Inquiry desks: kauai.mychef-hawaii.com/quote and bigisland.mychef-hawaii.com/quote.',
+    a: 'Those islands stay by inquiry only even inside a multi-island week. We log the shore and dates and write back when a crew exists. Not instant booking. Oʻahu and Maui nights on the same itinerary still get a written quote. Inquiry forms: [Kauai](kauai:/quote) and [Big Island](bigisland:/quote).',
   },
   {
     q: 'What happens after I submit?',

@@ -237,6 +237,7 @@ export function localBusinessJsonLd(islandId: IslandId | null, origin: string, i
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     '@id': `${origin}/#business`,
+    serviceType: 'Private chef',
     name: islandId ? `myCHEF ${islands[islandId].name}` : 'myCHEF Hawaii',
     url: origin,
     ...(image ? { image } : {}),
@@ -244,7 +245,6 @@ export function localBusinessJsonLd(islandId: IslandId | null, origin: string, i
     email: DESK_EMAIL,
     priceRange: publishedPriceRange(islandId),
     areaServed: [...islandAreas, ...areaPlaces(islandId)],
-    serviceType: ['Private chef', 'Catering', 'Wedding catering', 'Bartending'],
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'sales',

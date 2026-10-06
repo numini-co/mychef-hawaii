@@ -198,12 +198,16 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       ],
       faqs: [
         {
+          q: 'Same as Wailea?',
+          a: 'No. [Wailea](/wailea) is South Maui resort residences in the base zone. Upcountry is the climb — Kula, Makawao and Haʻikū — with the surcharge as its own quote line. They are not one night.',
+        },
+        {
           q: 'Will you print a farm name?',
-          a: 'Named farms wait for written verification. Sitting in Kula mist does not earn a grower credit. This door stays the elevation dinner, not a farm brochure.',
+          a: 'Named farms wait for written verification. Sitting in Kula mist does not earn a grower credit. This page is about the elevation dinner, not a farm brochure.',
         },
         {
           q: 'Where does the Kula, Makawao, or Haʻikū drive print?',
-          a: 'On its own line. Kula, Makawao, and Haʻikū estates sit above the coast, so the climb is a published surcharge on the written quote. It is not buried in the fish. South Maui resort doors stay the Wailea page.',
+          a: 'On its own line. Kula, Makawao, and Haʻikū estates sit above the coast, so the climb is a published surcharge on the written quote. It is not buried in the fish. Full rates: [the pricing page](/pricing).',
         },
         {
           q: 'What is inside an Upcountry Signature night at $225–$375?',
@@ -211,15 +215,15 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Stay Chef from $1,550 on an estate week — groceries at cost?',
-          a: 'Retreat and estate weeks start at Stay Chef from $1,550 a day. The shop bills at cost with receipts. That is not Signature, where food is already inside $225–$375. Extra meals that day are quoted. Send the week on the quote form.',
+          a: 'Retreat and estate weeks start at Stay Chef from $1,550 a day. The shop bills at cost with receipts. That is not Signature, where food is already inside $225–$375. Extra meals that day are quoted. Send the week on [the quote form](/quote).',
         },
         {
           q: 'What does a cooler Upcountry estate kitchen need?',
-          a: 'A cooktop, a fridge, and a table. Cooler evenings need both a lanai plan and an indoor plan, written before anyone shops. An uncovered lawn is not the only setup. Haʻikū wind belongs in that note. Island home: /.',
+          a: 'A cooktop, a fridge, and a table. Cooler evenings need both a lanai plan and an indoor plan, written before anyone shops. An uncovered lawn is not the only setup. Haʻikū wind belongs in that note. Island overview: [private chef Maui](/).',
         },
         {
           q: 'Can one night cover Upcountry and a South Maui villa?',
-          a: 'No. An elevation dinner beside a South or West Maui villa week is two dated quote lines, not one same-night double. This slope is its own date. We will not hide the second drive. Kīhei weeks: Kīhei.',
+          a: 'No. An elevation dinner beside a South or West Maui villa week is two dated quote lines, not one same-night double. This slope is its own date. We will not hide the second drive.',
         },
         {
           q: 'How do I enquire for an Upcountry estate?',
@@ -830,6 +834,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       ],
       faqs: [
         {
+          q: 'Same as Hilo?',
+          a: 'No. [Hilo](/hilo) is the town — streets and a town range. Volcano is lodges and estates near the park: ferns, mist, a cooler kitchen. We do not paste the Hilo menu up the slope.',
+        },
+        {
           q: 'Outdoor fire?',
           a: 'Only when a weather plan holds. Mist and rain at this elevation move the table indoors. That indoor backup is written, or we decline the lawn. We will not promise a dry fern clearing.',
         },
@@ -839,7 +847,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'What does booking by inquiry mean for a park-side lodge?',
-          a: 'We crew the lodge properly or we decline. It is not instant booking. A published band is not a live roster. Send the dates and wait for a written reply when an east-side crew can hold that week. Island home: /.',
+          a: 'We crew the lodge properly or we decline. It is not instant booking. A published band is not a live roster. Send the dates and wait for a written reply when an east-side crew can hold that week. Island overview: [private chef Big Island](/).',
         },
         {
           q: 'Signature $210–$325 or ENTRY from $165 at a Volcano lodge?',
@@ -847,15 +855,15 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Stay Chef from $1,450 for a lodge week — who pays for the shop?',
-          a: 'A lodge week is Stay Chef from $1,450 a day — chef and one meal — while the Volcano shop is a receipt stack at cost, zero markup. Do not hide that shop inside the day fee, or inside Signature $210–$325. A second sitting is written. File the week on the quote form.',
+          a: 'A lodge week is Stay Chef from $1,450 a day — chef and one meal — while the Volcano shop is a receipt stack at cost, zero markup. Do not hide that shop inside the day fee, or inside Signature $210–$325. A second sitting is written. File the week on [the quote form](/quote).',
         },
         {
           q: 'What does a cold, wet Volcano cabin kitchen need?',
-          a: 'A working cooktop. Cold, wet evenings at elevation need an indoor plan in writing — not a lanai hope. Hotel rooms and lock-offs without heat are declined before a deposit. Town kitchens: Hilo.',
+          a: 'A working cooktop. Cold, wet evenings at elevation need an indoor plan in writing — not a lanai hope. Hotel rooms and lock-offs without heat are declined before a deposit. Town kitchens are on the [Hilo](/hilo) page.',
         },
         {
           q: 'How do I enquire for a Volcano lodge — address and dates?',
-          a: 'Name the lodge, the nights, and the seats on the quote form. If the week is real, WhatsApp https://wa.me/18084687748 or call +1 808 468 7748. Mail quotes@mychef-hawaii.com. Hawaii hours, and only when a crew can cross.',
+          a: 'Name the lodge, the nights, and the seats on the quote form. If the week is real, WhatsApp https://wa.me/18084687748 or call +1 808 468 7748. Mail quotes@mychef-hawaii.com. Hawaii hours, and only when a crew can cross. Full rates: [the pricing page](/pricing).',
         },
       ],
       related: [

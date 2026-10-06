@@ -110,7 +110,7 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
         a: 'The food band holds. We reschedule.',
       },
       {
-        q: 'Is this Kauaʻi band live instant booking?',
+        q: 'Can I book this Kauaʻi band instantly?',
         a: 'No. CORE $225–$375 a guest and Stay Chef from $1,650 a day are inquiry floors. We staff the estate when a crew exists. A published band is not a confirmation. Send dates on the quote form. 20% service and GET up to 4.712% print after the food.',
       },
       {

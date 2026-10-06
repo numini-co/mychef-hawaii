@@ -36,7 +36,7 @@ export const islandTrust: Record<IslandId, IslandTrustPage> = {
   },
   maui: {
     h1: 'Wailea-to-Kapalua quotes stay open. Reviews wait for verified villa nights.',
-    title: 'Maui trust — published prices, no fake reviews | myCHEF',
+    title: 'Maui proof — prices on paper, no star ratings | myCHEF',
     description:
       'Maui quotes-open proof: Wailea and West villa-week prices, written quotes, no invented Wailea reviews.',
     lede: 'Maui quotes-open proof: Wailea and West villa-week prices, written quotes, no invented Wailea reviews.',
@@ -51,7 +51,7 @@ export const islandTrust: Record<IslandId, IslandTrustPage> = {
   },
   kauai: {
     h1: 'Inquiry proof on both shores — published bands, no instant booking, no invented Princeville reviews.',
-    title: 'Kauai trust — published prices, no fake reviews | myCHEF',
+    title: 'Kauai trust — both-shore bands, no invented reviews | myCHEF',
     description:
       'Kauaʻi inquiry register: both-shore published bands, no instant booking button, no invented Princeville reviews.',
     lede: 'Kauaʻi inquiry register: both-shore published bands, no instant booking button, no invented Princeville reviews.',

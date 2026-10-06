@@ -193,7 +193,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       photo: 'helpMenuMaui',
       body: [
         'The sample on the menus page is an example. We do not print a fake luau menu. Upcountry is a surcharge zone even when the draft looks simple.',
-        'Wailea and Kapalua are the usual rooms. Kīhei houses: Kīhei.',
+        'Wailea and Kapalua are the usual rooms. More on [Kīhei](/kihei).',
       ],
       faqs: [
         {

@@ -182,8 +182,12 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     ],
     faqs: [
       {
-        q: 'How is this hub different from each island’s menus page?',
-        a: 'Open the host for the kitchen you booked.',
+        q: 'How is this page different from each island’s menus?',
+        a: 'This page explains how a menu is designed. Sample courses are on each island’s menus page: [Oahu menus](oahu:/menus), [Maui menus](maui:/menus), [Kauai menus](kauai:/menus) and [Big Island menus](bigisland:/menus). Open the island where you are staying.',
+      },
+      {
+        q: 'Is this the same as the menu guide or the family-style menu?',
+        a: 'No. The menu guide is a help article on each island site, and the family-style menu is a page for that one format. This page covers the design process and points you to the island menus.',
       },
       {
         q: 'Is there a standing statewide carte here?',
@@ -191,11 +195,23 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       },
       {
         q: 'How do prices attach to a menu draft?',
-        a: 'Through the island rate card on each island’s pricing page. A Signature draft keeps the shop inside that island’s published band. A Stay Chef draft bills the shop at cost with receipts. The quote then adds 20% service and Hawaiʻi GET up to 4.712% as their own lines, a 50% deposit once that host can staff, and no required gratuity. Hawaiʻi Island’s card, as an example only: ENTRY from $165, Signature $210–$325, Stay Chef from $1,450.',
+        a: 'Through each island’s rate card. A Signature draft keeps the shop inside that island’s published band; a Stay Chef draft bills the shop at cost with receipts. The quote then adds 20% service and Hawaiʻi GET up to 4.712%, a 50% deposit once we can staff, and no required gratuity. Big Island example: ENTRY from $165, Signature $210–$325, Stay Chef from $1,450. Line-by-line: [the pricing page](/pricing).',
       },
       {
-        q: 'When can I ask for a menu draft — quote-open vs inquiry?',
-        a: 'Oʻahu and Maui are quote-open: send dates and headcount on that island’s quote form and a draft can follow a written total path. Kauaʻi and Hawaiʻi Island stay inquiry — a band is not instant booking, and a menu draft waits until a crew can hold the week. Start on the island menus page, then that island’s quote form.',
+        q: 'Is catering designed on this page too?',
+        a: 'No. Catering is a staffed format, not menu design. Staffed events have their own pages on each island — for example [Oahu catering](oahu:/catering) or [Maui catering](maui:/catering).',
+      },
+      {
+        q: 'When can I ask for a menu draft?',
+        a: 'Oʻahu and Maui take quotes now: send dates and headcount on that island’s quote form and a draft follows the written total. Kauaʻi and Hawaiʻi Island start as an inquiry — a published band is not instant booking, and a menu draft waits until a crew can hold the week.',
+      },
+      {
+        q: 'Do menus come with guest stars or review snippets?',
+        a: 'No. Sample courses are plates, not testimonials. We do not attach star ratings or made-up guest quotes to a menu draft. What we can show is the sample and the written quote that follows it — see [how we handle reviews](/trust).',
+      },
+      {
+        q: 'Where do I see actual plates and send my dates?',
+        a: 'Open the island menus page that matches the kitchen — Oʻahu, Maui, Kauaʻi or Hawaiʻi Island — then send dates, shore and headcount on [the quote form](/quote). The desk is quotes@mychef-hawaii.com and +1 808 468 7748 (https://wa.me/18084687748). Message WhatsApp when the table is ready to price.',
       },
     ],
   },
