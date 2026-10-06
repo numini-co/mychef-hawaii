@@ -77,37 +77,31 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     path: '/faq',
     h1: 'Questions, by island.',
     title: 'Questions, by island | myCHEF Hawaii',
-    description:
-      'Each island host keeps its own FAQ. This hub page is the picker — not Oahu questions, not Maui villa kitchens.',
+    description: 'This page does not rank for private chef Maui or Oahu catering. Open the island that holds the house.',
     lede:
-      'Booking questions live on the island host. This page does not rank for private chef Maui or Oahu catering. Open the island that holds the house.',
+      'This page does not rank for private chef Maui or Oahu catering. Open the island that holds the house.',
     kicker: 'Statewide · FAQ',
     photo: 'hubFaq',
     cardLabel: 'Questions',
     body: [
-      `Private chef Maui (${SEARCH_VOLUMES['private chef maui']} monthly) stays on maui.mychef-hawaii.com. Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on oahu.mychef-hawaii.com/catering. This directory holds neither title.`,
       'Each island FAQ names kitchens, corridors, and what we will not claim. Kauaʻi and Hawaiʻi Island stay inquiry. The answers are not copied statewide.',
     ],
     faqs: [
       {
         q: 'Is this the Oahu FAQ?',
-        a: 'No. Oahu questions live on oahu.mychef-hawaii.com/faq. This page is the four-island picker.',
-      },
-      {
-        q: 'Does this page own a money keyword?',
-        a: 'No. Catering and private-chef titles stay on island hosts and on hub /catering. This is a directory.',
+        a: 'No. Oahu questions live on oahu.mychef-hawaii.com/faq.',
       },
       {
         q: 'Are groceries included?',
-        a: 'Two models, never blended. On a Signature or per-guest dinner, food and grocery procurement sit inside the published per-guest band — there is no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking, it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The line-by-line card is on /pricing; how each fee prints is on /private-chef-cost.',
+        a: 'Two models, never blended. On a Signature or per-guest dinner, food and grocery procurement sit inside the published per-guest band — there is no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking, it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The line-by-line card is on the pricing page; how each fee prints is on the private chef cost page.',
       },
       {
         q: 'Are your Hawaiʻi reviews real?',
-        a: 'We do not have Hawaiʻi guest reviews yet, and we will not invent them. They publish only after verified events — never bought, never written in-house. What we can prove today is published starting prices, sample menus, cleanup, and a written quote. The full posture is on /trust and /blog/no-fake-reviews.',
+        a: 'We do not have Hawaiʻi guest reviews yet, and we will not invent them. They publish only after verified events — never bought, never written in-house. What we can prove today is published starting prices, sample menus, cleanup, and a written quote. The full posture is on the trust page and our journal note on No fake reviews.',
       },
       {
         q: 'What is the difference between this hub and the island sites?',
-        a: 'mychef-hawaii.com is the four-island hub — statewide pickers that do not rank for a single island’s dinner title. Each island is its own host — oahu., maui., kauai. and bigisland.mychef-hawaii.com — with its own chefs, zones and pricing. Oʻahu and Maui take quotes; Kauaʻi and Hawaiʻi Island are inquiry-stage. Open the island host for the house that will actually be cooked in.',
+        a: 'Each island is its own host — oahu., maui., kauai. and bigisland.mychef-hawaii.com — with its own chefs, zones and pricing. Oʻahu and Maui take quotes; Kauaʻi and Hawaiʻi Island are by inquiry only. Open the island host for the house that will actually be cooked in.',
       },
     ],
   },
@@ -115,26 +109,15 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     path: '/coverage',
     h1: 'Coverage maps, by island.',
     title: 'Coverage maps, by island | myCHEF Hawaii',
-    description:
-      'Each island host publishes its own coverage map. Distinct from hub /areas (map notes) and from live dinner doors at /locations.',
-    lede:
-      'Drive times and surcharge days live on the island host. This page is the picker. /areas is map notes. /locations is the live dinner-door list.',
+    description: 'Where myCHEF Hawaii cooks on each island: base zones, published travel surcharges and the areas we quote case by case.',
+    lede: 'Where myCHEF Hawaii cooks on each island: base zones, published travel surcharges and the areas we quote case by case.',
     kicker: 'Statewide · Coverage',
     photo: 'hubCoverage',
     cardLabel: 'Coverage map',
     body: [
-      `Hawaii catering (${SEARCH_VOLUMES['hawaii catering']} monthly) stays on hub /catering. This directory does not steal that title.`,
       'Oahu names the North Shore surcharge. Maui names Upcountry. Kauaʻi names both shores and the bridge. Hawaiʻi Island is west side first — Hilo is a different day.',
     ],
     faqs: [
-      {
-        q: 'Same as /areas?',
-        a: 'No. Hub /areas is map notes. This page points at each island’s /coverage zone map.',
-      },
-      {
-        q: 'Same as /locations?',
-        a: 'Locations is the live corridor list. Coverage is the zone map and drive times.',
-      },
     ],
   },
   contact: {
@@ -144,48 +127,41 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     description:
       'Quote form, WhatsApp, (808) 468-7748, and quotes@mychef-hawaii.com — Hawaii Standard Time. Open the island desk that holds the house. Not a walk-in office.',
     lede:
-      'Quotes and inquiry replies run in Hawaii Standard Time. Use the island /quote form, WhatsApp, quotes@mychef-hawaii.com, or (808) 468-7748. This page does not take the booking — open the desk that holds the house. WhatsApp is on this hub desk, not only on an island /contact page.',
+      'Quotes and inquiry replies run in Hawaii Standard Time. Use the island the quote form form, WhatsApp, quotes@mychef-hawaii.com, or (808) 468-7748. This page does not take the booking — open the desk that holds the house. WhatsApp is on this hub desk, not only on an island the contact page page.',
     kicker: 'Statewide · Contact',
     photo: 'hubContact',
     cardLabel: 'The desk',
     body: [
-      `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) and private chef Maui (${SEARCH_VOLUMES['private chef maui']}) stay on those hosts. This directory is how to reach a coordinator, not a dinner title.`,
-      'Oʻahu and Maui take quotes. Kauaʻi and Hawaiʻi Island are inquiry. Reach us in that order: the quote form, WhatsApp (https://wa.me/18084687748), quotes@mychef-hawaii.com, or (808) 468-7748. Those doors live on this hub page and on each island /contact — WhatsApp is not island-only. There is no street office and no walk-in.',
+      'Oʻahu and Maui take quotes. Kauaʻi and Hawaiʻi Island are inquiry. Reach us in that order: the quote form, WhatsApp (https://wa.me/18084687748), quotes@mychef-hawaii.com, or (808) 468-7748. All four channels are on this page and on each island the contact page — WhatsApp is not island-only. There is no street office and no walk-in.',
     ],
     faqs: [
       {
         q: 'Can I quote from this page?',
-        a: 'Yes — use /quote, call (808) 468-7748, write quotes@mychef-hawaii.com, or WhatsApp https://wa.me/18084687748. Kauaʻi and Hawaiʻi Island selections are inquiry, not instant book. Island desks also take the same five-field form. This page does not take a deposit.',
+        a: 'Yes — use the quote form, call (808) 468-7748, write quotes@mychef-hawaii.com, or WhatsApp https://wa.me/18084687748. Kauaʻi and Hawaiʻi Island selections are inquiry, not instant book. Island desks also take the same five-field form. This page does not take a deposit.',
       },
       {
         q: 'Is this the honesty register?',
-        a: 'No. Reviews and what we will not claim live on each island /trust. This is reachability.',
+        a: 'No. Reviews and what we will not claim live on each island the trust page. This is reachability.',
       },
     ],
   },
   locations: {
     path: '/locations',
-    h1: 'Live dinner doors, by island.',
-    title: 'Live dinner doors, by island | myCHEF Hawaii',
-    description:
-      'Each island host lists its live corridor URLs. Distinct from hub /areas (map notes) and from each island /coverage zone map.',
-    lede:
-      'Named towns are live URLs on the island host — not a statewide blob. This page is the picker. /areas is map notes, not this list.',
+    h1: 'Private chef towns, by island.',
+    title: 'Private chef towns, by island | myCHEF Hawaii',
+    description: 'The towns and neighborhoods where myCHEF Hawaii private chefs cook on Oʻahu, Maui, Kauaʻi and the Big Island, with travel notes.',
+    lede: 'The towns and neighborhoods where myCHEF Hawaii private chefs cook on Oʻahu, Maui, Kauaʻi and the Big Island, with travel notes.',
     kicker: 'Statewide · Locations',
     photo: 'hubLocations',
-    cardLabel: 'Live dinner doors',
+    cardLabel: 'Private chef by town',
     body: [
-      `Private chef Honolulu (${SEARCH_VOLUMES['private chef honolulu']}) is a related phrase, not this title. Corridor pages live on the Oahu host. This directory does not flatten them.`,
+      ` This directory does not flatten them.`,
       'Oahu: Honolulu to Ko Olina. Maui: Wailea to Kapalua. Kauaʻi: both shores. Hawaiʻi Island: Kona to Kohala, west side first.',
     ],
     faqs: [
       {
-        q: 'Same as hub /areas?',
-        a: 'No. /areas is map notes. This page points at each island’s live dinner-door list.',
-      },
-      {
         q: 'Why not one Honolulu page on the hub?',
-        a: 'The live URL is oahu.mychef-hawaii.com/honolulu. The hub does not steal corridor titles.',
+        a: 'The live URL is oahu.mychef-hawaii.com/honolulu.',
       },
     ],
   },
@@ -194,49 +170,48 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'How menus are designed, by island.',
     title: 'How menus are designed, by island | myCHEF Hawaii',
     description:
-      'Oʻahu, Maui, Kauaʻi and Hawaiʻi Island menus — designed per table, not a standing carte. Plated samples on each island host. Published USD prices in writing.',
+      'Oʻahu, Maui, Kauaʻi and Hawaiʻi Island menus — designed per table, not a standing carte. Published USD prices in writing.',
     lede:
-      'This hub page is the process picker — how a table is designed, not a statewide carte. Plated sample courses live on each island /menus, with published starting prices on that host.',
+      'Plated sample courses live on each island’s menus page, with published starting prices.',
     kicker: 'Statewide · Menus',
     photo: 'hubMenus',
     cardLabel: 'Menu design',
     body: [
-      'Open the island host for the kitchen you booked. Oʻahu, Maui, Kauaʻi, and Hawaiʻi Island each keep plated samples and SKUs — three-course, family-style-menu, breakfast, lunch — designed per table.',
-      `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on maui.mychef-hawaii.com/catering. This directory is how a menu is designed, not a catering title. Family-style as a menu SKU is /menus/family-style-menu, not a 404 path.`,
-      'Plated samples: oahu.mychef-hawaii.com/menus, maui.mychef-hawaii.com/menus, kauai.mychef-hawaii.com/menus, bigisland.mychef-hawaii.com/menus. Rates attach on each host /pricing — this picker does not invent a statewide carte.',
+      'Open the island host for the kitchen you booked.',
+      'Plated samples: oahu.mychef-hawaii.com/menus, maui.mychef-hawaii.com/menus, kauai.mychef-hawaii.com/menus, bigisland.mychef-hawaii.com/menus.',
     ],
     faqs: [
       {
-        q: 'How is this hub different from each island /menus?',
-        a: 'This page is the process picker. Plated sample courses and SKUs live on each island host /menus — oahu.mychef-hawaii.com/menus, maui.mychef-hawaii.com/menus, kauai.mychef-hawaii.com/menus, bigisland.mychef-hawaii.com/menus. Open the host for the kitchen you booked. This URL does not steal a private-chef island dinner title.',
+        q: 'How is this page different from each island’s menus?',
+        a: 'This page explains how a menu is designed. Sample courses are on each island’s menus page: [Oahu menus](oahu:/menus), [Maui menus](maui:/menus), [Kauai menus](kauai:/menus) and [Big Island menus](bigisland:/menus). Open the island where you are staying.',
       },
       {
-        q: 'Same as /help/menu-guide or /menus/family-style-menu?',
-        a: '/help/menu-guide is a help article on the island host. /menus/family-style-menu is a named SKU path for that format. This hub only points at the design process and the island lists. It is not the guide article and not the family-style SKU page.',
+        q: 'Is this the same as the menu guide or the family-style menu?',
+        a: 'No. The menu guide is a help article on each island site, and the family-style menu is a page for that one format. This page covers the design process and points you to the island menus.',
       },
       {
         q: 'Is there a standing statewide carte here?',
-        a: 'No. Menus are designed per table. Samples on each island /menus show how a night can look. The written quote locks the courses for that house. We do not run one fixed statewide menu for every island.',
+        a: 'No. Menus are designed per table. Samples on each island’s menus page show how a night can look. The written quote locks the courses for that house. We do not run one fixed statewide menu for every island.',
       },
       {
         q: 'How do prices attach to a menu draft?',
-        a: 'Through the island rate card on each host /pricing. A Signature draft keeps the shop inside that island’s published band. A Stay Chef draft bills the shop at cost with receipts. The quote then adds 20% service and Hawaiʻi GET up to 4.712% as their own lines, a 50% deposit once that host can staff, and no required gratuity. This picker does not invent dollar bands. Hawaiʻi Island’s card, as an example only: ENTRY from $165, Signature $210–$325, Stay Chef from $1,450.',
+        a: 'Through each island’s rate card. A Signature draft keeps the shop inside that island’s published band; a Stay Chef draft bills the shop at cost with receipts. The quote then adds 20% service and Hawaiʻi GET up to 4.712%, a 50% deposit once we can staff, and no required gratuity. Big Island example: ENTRY from $165, Signature $210–$325, Stay Chef from $1,450. Line-by-line: [the pricing page](/pricing).',
       },
       {
-        q: 'Why does Maui catering stay off this URL?',
-        a: 'Catering is a staffed format, not menu design. Maui catering stays on maui.mychef-hawaii.com/catering. This hub /menus is how a table is designed. It does not rank for catering and does not replace that island path.',
+        q: 'Is catering designed on this page too?',
+        a: 'No. Catering is a staffed format, not menu design. Staffed events have their own pages on each island — for example [Oahu catering](oahu:/catering) or [Maui catering](maui:/catering).',
       },
       {
-        q: 'When can I ask for a menu draft — quote-open vs inquiry?',
-        a: 'Oʻahu and Maui are quote-open: send dates and headcount on that host /quote and a draft can follow a written total path. Kauaʻi and Hawaiʻi Island stay inquiry — a band is not Book-now, and a menu draft waits until a crew can hold the week. Start on the island /menus, then /quote on that host.',
+        q: 'When can I ask for a menu draft?',
+        a: 'Oʻahu and Maui take quotes now: send dates and headcount on that island’s quote form and a draft follows the written total. Kauaʻi and Hawaiʻi Island start as an inquiry — a published band is not instant booking, and a menu draft waits until a crew can hold the week.',
       },
       {
-        q: 'Will this menu picker carry guest stars or a review snippet?',
-        a: 'It will not. Sample courses on an island /menus are plates, not testimonials. This hub does not attach star markup, AggregateRating, or made-up Hawaiʻi guest quotes to a menu draft. What we can show is the sample and the written quote that follows it. The register that explains that choice is /trust.',
+        q: 'Do menus come with guest stars or review snippets?',
+        a: 'No. Sample courses are plates, not testimonials. We do not attach star ratings or made-up guest quotes to a menu draft. What we can show is the sample and the written quote that follows it — see [how we handle reviews](/trust).',
       },
       {
-        q: 'After this picker, which URL actually shows plates?',
-        a: 'Leave the hub and open the island /menus that matches the kitchen — Oʻahu, Maui, Kauaʻi, or Hawaiʻi Island. From that host, send dates, shore, and headcount on /quote. The desk is quotes@mychef-hawaii.com and +1 808 468 7748 (https://wa.me/18084687748). Message WhatsApp when the table is ready to price, not to tour every SKU for free.',
+        q: 'Where do I see actual plates and send my dates?',
+        a: 'Open the island menus page that matches the kitchen — Oʻahu, Maui, Kauaʻi or Hawaiʻi Island — then send dates, shore and headcount on [the quote form](/quote). The desk is quotes@mychef-hawaii.com and +1 808 468 7748 (https://wa.me/18084687748). Message WhatsApp when the table is ready to price.',
       },
     ],
   },
@@ -244,25 +219,19 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     path: '/help',
     h1: 'Help desks, by island.',
     title: 'Help desks, by island | myCHEF Hawaii',
-    description:
-      'Each island host keeps a help desk: first booking, menu draft, after the quote. Distinct from /faq and from nested /help/:slug articles.',
+    description: 'Planning guides for booking a private chef or catering with myCHEF Hawaii: getting started, menus, weddings, offsites and managing a booking.',
     lede:
-      '/faq is questions. /how-it-works is the night. /quote is the form. Each island /help is the list of first-booking documents. This page is the picker.',
+      'Planning guides for your first booking, on every island.',
     kicker: 'Statewide · Help',
     photo: 'hubHelp',
     cardLabel: 'Help desk',
     body: [
-      `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) stays on the Kauaʻi host. This directory does not steal that title.`,
-      'Getting started, menu guide, wedding guide, corporate guide, and managing a booking live under each island /help/:slug. Kauaʻi and Hawaiʻi Island stay inquiry.',
+      'Getting started, the menu guide, the wedding guide, the corporate guide and managing a booking — written for each island. Kauaʻi and Hawaiʻi Island are taking enquiries.',
     ],
     faqs: [
       {
-        q: 'Same as /faq?',
-        a: 'FAQ is the question list on the island host. Help is the first-booking document list. This page points at help desks.',
-      },
-      {
         q: 'Can I start a booking here?',
-        a: 'Open the island help desk, then /quote on that host. This page does not take the form.',
+        a: 'Open the island help desk, then that island’s quote form. This page does not take the form.',
       },
     ],
   },
@@ -271,24 +240,19 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'In-villa formats, by island.',
     title: 'In-villa formats, by island | myCHEF Hawaii',
     description:
-      'Each island lists in-villa formats — not a Michelin claim. Distinct from /honeymoon-dinners, /chefs-table, and nested /fine-dining/:course pages.',
+      'Each island lists in-villa formats — not a Michelin claim.',
     lede:
-      'Halo formats live on the island host. We do not claim a star. This page is the picker for those lists, not a tasting-menu SKU.',
+      'We do not claim a star.',
     kicker: 'Statewide · Fine dining',
     photo: 'hubFine',
     cardLabel: 'In-villa formats',
     body: [
-      `Wedding catering Hawaii (${SEARCH_VOLUMES['wedding catering hawaii']}) stays on hub /weddings. This directory is in-villa formats, not a wedding title.`,
-      'Romantic dinner, tasting menu, chef’s-table evening, and celebration dinner live under each island /fine-dining/:course. Open the island list first.',
+      'Romantic dinner, tasting menu, chef’s-table evening, and celebration dinner live under each island the Fine page-dining/:course. Open the island list first.',
     ],
     faqs: [
       {
         q: 'Is this a Michelin page?',
-        a: 'No. We do not claim a star. Island /fine-dining pages say that in the title. This is the picker.',
-      },
-      {
-        q: 'Same as /chefs-table?',
-        a: 'Chef’s table is a named SKU on the island host. This page points at the format list that includes it.',
+        a: 'No. We do not claim a star. Island the fine dining page pages say that in the title.',
       },
     ],
   },
@@ -297,51 +261,32 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Staffing add-ons, by island.',
     title: 'Staffing add-ons, by island | myCHEF Hawaii',
     description:
-      'Each island lists hourly add-ons: servers, bartenders, quoted butlers. Distinct from /bar, /mobile-bar, and nested /staffing/:role pages.',
+      'Each island lists hourly add-ons: servers, bartenders, quoted butlers.',
     lede:
-      '/bar is the bartender add-on door. /mobile-bar is the four-hour package. Each island /staffing is the list of hourly lines. This page is the picker.',
+      'Each island the staffing page is the list of hourly lines.',
     kicker: 'Statewide · Staffing',
     photo: 'hubStaff',
     cardLabel: 'Staffing add-ons',
     body: [
-      `Mobile bar Hawaii (${SEARCH_VOLUMES['mobile bar hawaii']} monthly) stays on hub /mobile-bar and island /mobile-bar. This directory is the staffing list, not that package.`,
-      'Servers, bartenders, and quoted butlers live under each island /staffing/:role. Kauaʻi and Hawaiʻi Island print those lines at inquiry.',
+      'Servers, bartenders and quoted butlers, priced for each island. Kauaʻi and Hawaiʻi Island print those lines at inquiry.',
     ],
     faqs: [
-      {
-        q: 'Same as /bar?',
-        a: 'Bar is the bartender add-on. This page points at the staffing directory that includes servers and quoted butlers.',
-      },
-      {
-        q: 'Do you send a butler from this URL?',
-        a: 'No. Butler is a quoted line on the island host. Open that island’s staffing list.',
-      },
     ],
   },
   events: {
     path: '/events',
     h1: 'Villa occasions, by island.',
     title: 'Villa occasions, by island | myCHEF Hawaii',
-    description:
-      'Each island host keeps its own events document. Distinct from hub /gatherings, /weddings, and nested /events/:occasion pages.',
+    description: 'Villa occasions across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
     lede:
-      'Birthdays, welcome nights, and retreats live on the island host. This page is the picker. Wedding-week stacks stay on /weddings.',
+      'Wedding-week formats stay on the weddings page.',
     kicker: 'Statewide · Events',
     photo: 'hubEvents',
     cardLabel: 'Occasions',
     body: [
-      `Wedding catering Hawaii (${SEARCH_VOLUMES['wedding catering hawaii']}) stays on hub /weddings. This directory is villa occasions, not a wedding title.`,
-      'Nested occasion URLs — birthdays, welcome dinners, retreats, brunch — live under each island /events/:occasion. Open the island document first.',
+      'Birthdays, welcome dinners, retreats and brunch — each island writes its own. Choose your island first.',
     ],
     faqs: [
-      {
-        q: 'Same as /gatherings?',
-        a: 'Hub /gatherings is the statewide house-gathering door. This page points at each island’s /events document.',
-      },
-      {
-        q: 'Same as /weddings?',
-        a: 'Weddings is the week stack. This page is other villa occasions.',
-      },
     ],
   },
   whatWeDontDo: {
@@ -349,21 +294,16 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'What we will not claim, by island.',
     title: 'What we will not claim, by island | myCHEF Hawaii',
     description:
-      'Each island publishes its own claim list. Distinct from /trust (honesty register) and from /blog/no-fake-reviews.',
+      'Each island publishes its own claim list.',
     lede:
-      'No invented reviews, no fake licenses, no “now serving” language ahead of a staffed kitchen. Each island writes that in its own words. This page is the picker.',
+      'No invented reviews, no fake licenses, no “now serving” language ahead of a staffed kitchen. Each island writes that in its own words.',
     kicker: 'Statewide · Honesty',
     photo: 'hubHonesty',
     cardLabel: 'Claim list',
     body: [
-      `Private chef Hawaii (${SEARCH_VOLUMES['private chef hawaii']}) stays on hub /. This directory does not steal that title.`,
-      'Reviews publish after verified events. /trust is the honesty register. /blog/no-fake-reviews is the longer note. This page points at each island’s claim list.',
+      'Reviews publish after verified events.',
     ],
     faqs: [
-      {
-        q: 'Same as /trust?',
-        a: 'Trust is the honesty register on the island host. This page points at the claim list beside it.',
-      },
       {
         q: 'Do you have statewide reviews here?',
         a: 'No. We do not invent them. Open the island page.',
@@ -375,15 +315,13 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Guest counts we staff, by island.',
     title: 'Guest counts we staff, by island | myCHEF Hawaii',
     description:
-      'Each island publishes dinners 2–15 and receptions about 10–75. Distinct from /events and from /honeymoon-dinners.',
+      'Each island publishes dinners 2–15 and receptions about 10–75.',
     lede:
-      'A dinner for two is a chef and the shopping. A seated twelve is a different crew. Headcount lives on the island host. This page is the picker.',
+      'A dinner for two is a chef and the shopping. A seated twelve is a different crew.',
     kicker: 'Statewide · Guest counts',
     photo: 'hubCounts',
     cardLabel: 'Headcount',
     body: [
-      `Hawaii catering (${SEARCH_VOLUMES['hawaii catering']}) stays on hub /catering. This directory is headcount, not a catering title.`,
-      'Larger than about seventy-five is quoted or declined on the island host — not stretched from a Tuesday dinner.',
     ],
     faqs: [
       {
@@ -392,7 +330,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       },
       {
         q: 'Is two too small?',
-        a: 'No. Dinner for two lives on each island /honeymoon-dinners.',
+        a: 'No. Dinner for two lives on each island the honeymoon dinners page.',
       },
     ],
   },
@@ -401,24 +339,19 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Dietary design, by island.',
     title: 'Dietary design, by island | myCHEF Hawaii',
     description:
-      'Each island designs vegan, gluten-free, and allergy plates in advance. Distinct from /menus and from /help/menu-guide.',
+      'Each island designs vegan, gluten-free, and allergy plates in advance.',
     lede:
-      'Dietary is designed in, not theatre. Each island writes how that works in that kitchen. This page is the picker.',
+      'Dietary is designed in, not theatre. Each island writes how that works in that kitchen.',
     kicker: 'Statewide · Dietary',
     photo: 'hubDietary',
     cardLabel: 'Dietary',
     body: [
-      `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on the Maui catering URL. This directory is how a restriction is designed, not a catering title.`,
       'Tell the island desk the restriction with the dates. The draft carries it. We do not invent a second menu brand statewide.',
     ],
     faqs: [
       {
         q: 'Is this a vegan restaurant page?',
-        a: 'No. We cook in the house. Open the island dietary document.',
-      },
-      {
-        q: 'Same as /menus?',
-        a: 'Menus is how a table is designed. This page points at the dietary constraint document.',
+        a: 'No. We cook in the house. Related pages.',
       },
     ],
   },
@@ -426,42 +359,28 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     path: '/honeymoon-dinners',
     h1: 'Dinner for two, by island.',
     title: 'Dinner for two, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts dinner-for-two as its own document. Distinct from /fine-dining, /chefs-table, and /weddings.',
+    description: 'Two seats, one kitchen. Not a full wedding week. Each island writes the room.',
     lede:
-      'Two seats, one kitchen. Not a wedding-week stack. Each island writes the room. This page is the picker.',
+      'Two seats, one kitchen. Not a full wedding week. Each island writes the room.',
     kicker: 'Statewide · Dinner for two',
     photo: 'hubHoneymoon',
     cardLabel: 'Two seats',
     body: [
-      `Wedding catering Maui (${SEARCH_VOLUMES['wedding catering maui']}) stays on maui.mychef-hawaii.com/weddings. This directory is dinner for two, not that week.`,
-      'Nested fine-dining courses live under /fine-dining/:course on the island host. This picker points at the honeymoon SKU.',
     ],
     faqs: [
-      {
-        q: 'Same as /weddings?',
-        a: 'No. Weddings is the week. This is two seats on an ordinary night.',
-      },
-      {
-        q: 'Same as /fine-dining?',
-        a: 'Fine dining is the format list. This page points at the dinner-for-two SKU.',
-      },
     ],
   },
   chefsTable: {
     path: '/chefs-table',
     h1: 'Chef’s table nights, by island.',
     title: 'Chef’s table nights, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts chef’s table in the villa. Distinct from /fine-dining/chefs-table-evening, /omakase-at-home, and /honeymoon-dinners.',
+    description: 'Not a resort communal table. The pass is in the house.',
     lede:
-      'Not a resort communal table. The pass is in the house. Each island writes that SKU. This page is the picker.',
+      'Not a resort communal table. The pass is in the house.',
     kicker: 'Statewide · Chef’s table',
     photo: 'hubChefsTable',
     cardLabel: 'Chef’s table',
     body: [
-      `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) stays on the Kauaʻi host home. This directory does not steal that title.`,
-      'The nested evening format is /fine-dining/chefs-table-evening on the island host. This page points at the named SKU beside it.',
     ],
     faqs: [
       {
@@ -470,7 +389,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       },
       {
         q: 'Same as omakase at home?',
-        a: 'Omakase is a tasting arc with launch gates. Chef’s table is the named villa SKU. Different URLs on the island host.',
+        a: 'Omakase is a tasting arc with launch gates.',
       },
     ],
   },
@@ -479,24 +398,22 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Kids at the table, by island.',
     title: 'Kids at the table, by island | myCHEF Hawaii',
     description:
-      'Each island plans children’s plates with the adults’ menu. Distinct from /menus/breakfast and from /guest-counts.',
+      'Each island plans children’s plates with the adults’ menu.',
     lede:
-      'Children’s plates are planned with the adults, not an afterthought. Each island writes how. This page is the picker.',
+      'Children’s plates are planned with the adults, not an afterthought. Each island writes how.',
     kicker: 'Statewide · Kids',
     photo: 'hubKids',
     cardLabel: 'Kids’ plates',
     body: [
-      `Personal chef Oahu (${SEARCH_VOLUMES['personal chef oahu']}) is a related household phrase, not this title. Kids’ plates live on the island host.`,
-      'Headcount still lives on /guest-counts. Breakfast SKUs live under /menus/breakfast. This picker is the children’s-plate document.',
     ],
     faqs: [
       {
         q: 'Do you have a statewide kids’ carte?',
-        a: 'No. Plates are designed per table on the island host.',
+        a: 'No.',
       },
       {
         q: 'Same as guest counts?',
-        a: 'Guest counts is headcount. This page is how children’s plates are planned.',
+        a: 'Guest counts is headcount.',
       },
     ],
   },
@@ -505,25 +422,17 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Household chef line, by island.',
     title: 'Household chef line, by island | myCHEF Hawaii',
     description:
-      'Each island keeps a resident household line. Distinct from hub /private-chef, from /vacation-chef, and from Oahu /kamaaina.',
+      'Each island keeps a resident household line.',
     lede:
-      'Weekly household cooking is not a tourist one-off. Each island writes that line. This page is the picker — not the statewide private-chef door.',
+      'Weekly household cooking is not a tourist one-off. Each island writes that line.',
     kicker: 'Statewide · Household line',
     photo: 'hubPersonal',
     cardLabel: 'Household line',
     body: [
-      `Personal chef Honolulu (${SEARCH_VOLUMES['personal chef honolulu']}) stays on oahu.mychef-hawaii.com/personal-chef. Private chef doors stay on island homes.`,
-      'Oahu also has /kamaaina. That is a resident frequency page, not this picker. Kauaʻi and Hawaiʻi Island stay inquiry.',
+      `Private chef doors stay on island homes.`,
+      'Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
-      {
-        q: 'Same as /private-chef?',
-        a: 'Hub /private-chef is the statewide villa-dinner door. This page points at each island’s household line.',
-      },
-      {
-        q: 'Same as /vacation-chef?',
-        a: 'Vacation chef is the villa week. This is resident household cooking.',
-      },
     ],
   },
   privateChefCost: {
@@ -531,26 +440,22 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Fee stack explainers, by island.',
     title: 'Fee stack explainers, by island | myCHEF Hawaii',
     description:
-      'Each island explains service, GET, and travel. Distinct from /pricing (what a night costs) and from island homes.',
+      'Each island explains service, GET, and travel.',
     lede:
-      '/pricing is the rate card. This picker points at each island’s fee-stack explainer. Titles never use “private chef {island}”.',
+      'Titles never use “private chef {island}”.',
     kicker: 'Statewide · Fee stack',
     photo: 'hubFeeStack',
     cardLabel: 'Fee stack',
     body: [
-      `Private chef Maui cost (${SEARCH_VOLUMES['private chef maui cost']}) is a measured long-tail. It does not live on this hub title. The explainer is on the island host.`,
+      `It does not live on this hub title.`,
       'Service 20% and GET are their own lines. Travel prints when it applies. The written quote is the confirmed total.',
       'Two grocery models, never blended. A Signature dinner keeps the shop inside that island band. A Stay Chef day bills groceries at cost with merchant receipts. Oʻahu and Maui take written quotes. Kauaʻi and Hawaiʻi Island stay inquiry.',
-      'Island stacks, not this picker: oahu.mychef-hawaii.com/private-chef-cost, maui.mychef-hawaii.com/private-chef-cost, kauai.mychef-hawaii.com/private-chef-cost, bigisland.mychef-hawaii.com/private-chef-cost. Each host /pricing remains the card.',
+      'Each island’s pricing page remains the card.',
     ],
     faqs: [
       {
-        q: 'How is this picker different from /pricing?',
-        a: '/pricing is the rate card: published bands, line by line, on the hub and again on each island host. This URL only points at the fee-stack explainer beside that card — service, GET, travel, deposit, and which grocery model applies. It does not replace an island tariff.',
-      },
-      {
         q: 'Can Signature groceries and Stay Chef groceries share one line?',
-        a: 'No. A Signature or per-guest dinner keeps the shop inside that island published band, with no separate grocery invoice. A Stay Chef day is the chef fee plus groceries at cost, merchant receipts, zero markup. Oʻahu Stay Chef from $1,250. Maui from $1,550. Kauaʻi from $1,650. Hawaiʻi Island from $1,450. The two models never blend. Bands: each host /pricing.',
+        a: 'No. A Signature or per-guest dinner keeps the shop inside that island published band, with no separate grocery invoice. A Stay Chef day is the chef fee plus groceries at cost, merchant receipts, zero markup. Oʻahu Stay Chef from $1,250. Maui from $1,550. Kauaʻi from $1,650. Hawaiʻi Island from $1,450. The two models never blend.',
       },
       {
         q: 'Where do 20% service, GET, the deposit, and tip print?',
@@ -558,23 +463,23 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       },
       {
         q: 'Why does this hub H1 avoid an island dinner title?',
-        a: 'Island homes own those dinner titles. This picker would compete with them if the H1 named an island. The measured Maui cost phrase stays on the Maui host, not in this title. Open the island stack instead: oahu.mychef-hawaii.com/private-chef-cost, maui.mychef-hawaii.com/private-chef-cost, kauai.mychef-hawaii.com/private-chef-cost, or bigisland.mychef-hawaii.com/private-chef-cost.',
+        a: 'Island homes own those dinner titles. The measured Maui cost phrase stays on the Maui host, not in this title. Open the island stack instead: oahu.mychef-hawaii.com/private-chef-cost, maui.mychef-hawaii.com/private-chef-cost, kauai.mychef-hawaii.com/private-chef-cost, or bigisland.mychef-hawaii.com/private-chef-cost.',
       },
       {
         q: 'Which islands take a quote, and which stay inquiry?',
-        a: 'Oʻahu and Maui are quote-open. Kauaʻi and Hawaiʻi Island are inquiry-stage — a band is not a Book-now. Fee stacks: oahu.mychef-hawaii.com/private-chef-cost and maui.mychef-hawaii.com/private-chef-cost for quotes; kauai.mychef-hawaii.com/private-chef-cost and bigisland.mychef-hawaii.com/private-chef-cost for inquiry. Each host /pricing is the card beside the stack.',
+        a: 'Oʻahu and Maui are quote-open. Kauaʻi and Hawaiʻi Island are by inquiry only — a band is not instant booking. Fee stacks: oahu.mychef-hawaii.com/private-chef-cost and maui.mychef-hawaii.com/private-chef-cost for quotes; kauai.mychef-hawaii.com/private-chef-cost and bigisland.mychef-hawaii.com/private-chef-cost for inquiry. Each island’s pricing page is the card beside the stack.',
       },
       {
         q: 'When does a travel line print, instead of hiding inside the band?',
-        a: 'Only outside the published base, and only as its own line. Oʻahu: North Shore is a surcharge; Kahala, Ko Olina, Kailua, and town residences with kitchens are base. Maui: Upcountry is a surcharge; West Maui timing is planned, not a mystery fee. Kauaʻi: Līhuʻe and Kapaʻa are included; both shores are a surcharge; far-North inherits the bridge clause. Hawaiʻi Island: Kona–Kohala is base; Waimea is a surcharge; Hilo is a dedicated day, never a west-side round trip. Maps: each host /coverage.',
+        a: 'Only outside the published base, and only as its own line. Oʻahu: North Shore is a surcharge; Kahala, Ko Olina, Kailua, and town residences with kitchens are base. Maui: Upcountry is a surcharge; West Maui timing is planned, not a mystery fee. Kauaʻi: Līhuʻe and Kapaʻa are included; both shores are a surcharge; far-North inherits the bridge clause. Hawaiʻi Island: Kona–Kohala is base; Waimea is a surcharge; Hilo is a dedicated day, never a west-side round trip.',
       },
       {
         q: 'Does this hub show Hawaiʻi star ratings or guest reviews?',
-        a: 'No. We do not publish star ratings or Hawaiʻi guest reviews on this picker. We do not have those reviews yet, and we will not invent them. What we can show is published starting prices and a written total. The honesty register is /trust.',
+        a: 'No. We do not have those reviews yet, and we will not invent them. What we can show is published starting prices and a written total.',
       },
       {
         q: 'What is the next step if I want a written total?',
-        a: 'Open the island host /pricing for the card and /quote for a paid inquiry with dates, shore, and headcount. Use that host /private-chef-cost if you need the stack beside the card. Desk: quotes@mychef-hawaii.com, +1 808 468 7748, https://wa.me/18084687748. WhatsApp is for dates and shore ready to book, not a free walkthrough of the menu.',
+        a: 'Open the island pricing page for the card and the quote form for a paid inquiry with dates, shore, and headcount. Use that island’s private chef cost page if you need the stack beside the card. Desk: quotes@mychef-hawaii.com, +1 808 468 7748, https://wa.me/18084687748. WhatsApp is for dates and shore ready to book, not a free walkthrough of the menu.',
       },
     ],
   },
@@ -583,15 +488,14 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Meal prep honesty, by island.',
     title: 'Meal prep honesty, by island | myCHEF Hawaii',
     description:
-      'Each island gates volume meal prep until utilization is proven. Distinct from /vacation-chef and from /menus/lunch.',
+      'Each island gates volume meal prep until utilization is proven.',
     lede:
-      'Meal prep is inquiry until proven. Each island says so. This page is the picker, not a standing fridge program.',
+      'Meal prep is inquiry until proven. Each island says so.',
     kicker: 'Statewide · Meal prep',
     photo: 'hubMealPrep',
     cardLabel: 'Meal prep',
     body: [
-      `Personal chef Maui (${SEARCH_VOLUMES['personal chef maui']}) stays in Maui household copy. This directory is the gated prep page, not a dinner title.`,
-      'A villa week of dinners is /vacation-chef. Packed fridge volume is this SKU — gated on every island until utilization is real.',
+      'A villa week of dinners is on the Stay Chef page.',
     ],
     faqs: [
       {
@@ -600,7 +504,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       },
       {
         q: 'Same as Stay Chef?',
-        a: 'Stay Chef is the villa day rate on /vacation-chef. Meal prep is a different, gated line.',
+        a: 'Stay Chef is the villa day rate on the Stay Chef page. Meal prep is a different, gated line.',
       },
     ],
   },
@@ -609,15 +513,14 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Cooking classes honesty, by island.',
     title: 'Cooking classes honesty, by island | myCHEF Hawaii',
     description:
-      'Each island keeps classes unpublished until a real instructor bench exists. Distinct from /menus and from /chefs-table.',
+      'Each island keeps classes unpublished until a real instructor bench exists.',
     lede:
-      'Experience product publishes only with a named bench. Each island says when that is not true. This page is the picker.',
+      'Experience product publishes only with a named bench. Each island says when that is not true.',
     kicker: 'Statewide · Classes',
     photo: 'hubClasses',
     cardLabel: 'Classes',
     body: [
-      `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on kauai.mychef-hawaii.com/catering. This directory is class honesty, not a catering title.`,
-      'We will not sell a class SKU ahead of an instructor. The island page says so in its own words.',
+      'The island page says so in its own words.',
     ],
     faqs: [
       {
@@ -626,7 +529,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       },
       {
         q: 'Same as chef’s table?',
-        a: 'Chef’s table is a dinner SKU. This is an experience product with a different gate.',
+        a: 'This is an experience product with a different gate.',
       },
     ],
   },
@@ -634,25 +537,18 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     path: '/omakase-at-home',
     h1: 'Omakase-at-home notes, by island.',
     title: 'Omakase-at-home notes, by island | myCHEF Hawaii',
-    description:
-      'Each island hosts tasting-at-home with sourcing gates. Distinct from /fine-dining/tasting-menu, /chefs-table, and /honeymoon-dinners.',
+    description: 'A tasting arc in the villa, not a restaurant omakase brand. Menu/IP and sourcing are launch gates.',
     lede:
-      'A tasting arc in the villa, not a restaurant omakase brand. Menu/IP and sourcing are launch gates. This page is the picker.',
+      'A tasting arc in the villa, not a restaurant omakase brand. Menu/IP and sourcing are launch gates.',
     kicker: 'Statewide · Omakase',
     photo: 'hubOmakase',
     cardLabel: 'Tasting at home',
     body: [
-      `Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) stays on the Hawaiʻi Island host. This directory does not steal that title.`,
-      'The nested tasting format is /fine-dining/tasting-menu on the island host. This picker points at the omakase SKU with its gates.',
     ],
     faqs: [
       {
         q: 'Is this a Michelin omakase?',
         a: 'No. We do not claim a star. Open the island page.',
-      },
-      {
-        q: 'Same as /chefs-table?',
-        a: 'Chef’s table is a named villa SKU. Omakase-at-home is a tasting arc with sourcing gates.',
       },
     ],
   },
@@ -661,25 +557,15 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Rehearsal dinners, by island.',
     title: 'Rehearsal dinners, by island | myCHEF Hawaii',
     description:
-      'Each island quotes the night before as its own line. Distinct from /weddings, /events, and hub /gatherings.',
+      'Each island quotes the night before as its own line.',
     lede:
-      'The night before is not swallowed by a reception quote. Each island writes that line. This page is the picker.',
+      'The night before is not swallowed by a reception quote. Each island writes that line.',
     kicker: 'Statewide · Rehearsal',
     photo: 'hubRehearsal',
     cardLabel: 'Rehearsal',
     body: [
-      `Wedding catering Oahu (${SEARCH_VOLUMES['wedding catering oahu']}) stays on oahu.mychef-hawaii.com/weddings. This directory is the night before, not that week title.`,
-      'Welcome dinners live under /events/welcome-dinners. The rehearsal SKU is its own URL on the island host.',
     ],
     faqs: [
-      {
-        q: 'Same as /weddings?',
-        a: 'Weddings is the week stack. This page points at the rehearsal line beside it.',
-      },
-      {
-        q: 'Same as /gatherings?',
-        a: 'Hub /gatherings is the statewide house-gathering door. Rehearsal is a named SKU on the island host.',
-      },
     ],
   },
   retreatCatering: {
@@ -687,25 +573,15 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Retreat full-board, by island.',
     title: 'Retreat full-board, by island | myCHEF Hawaii',
     description:
-      'Each island quotes full-board retreat days in houses. Distinct from /events/retreats, /corporate, and /corporate-catering.',
+      'Each island quotes full-board retreat days in houses.',
     lede:
-      'Food as its own line for days in the house — not a ballroom. Each island writes that SKU. This page is the picker.',
+      'Food as its own line for days in the house — not a ballroom.',
     kicker: 'Statewide · Retreat kitchens',
     photo: 'hubRetreat',
     cardLabel: 'Full-board',
     body: [
-      `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on the Hawaiʻi Island catering URL. This directory is retreat kitchens, not that title.`,
-      '/events/retreats is the occasion essay. /corporate is the offsite directory. This picker points at the full-board SKU.',
     ],
     faqs: [
-      {
-        q: 'Same as /events/retreats?',
-        a: 'That is the occasion document. This page points at the full-board catering SKU.',
-      },
-      {
-        q: 'Same as /corporate?',
-        a: 'Corporate is the offsite directory. Retreat catering is food as its own line for days in the house.',
-      },
     ],
   },
   corporateCatering: {
@@ -713,24 +589,18 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'House offsite catering, by island.',
     title: 'House offsite catering, by island | myCHEF Hawaii',
     description:
-      'Each island quotes executive dinners in houses. Distinct from hub /corporate, /events/corporate-events, and /help/corporate-guide.',
+      'Each island quotes executive dinners in houses.',
     lede:
-      'Not HCC citywides — those are closed through 2027 and are not our product. Each island writes the house-offsite SKU. This page is the picker.',
+      'Not HCC citywides — those are closed through 2027 and are not our product.',
     kicker: 'Statewide · Offsite catering',
     photo: 'hubCorpCater',
     cardLabel: 'House offsites',
     body: [
-      `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on oahu.mychef-hawaii.com/catering. This directory is the house-offsite SKU, not that money title.`,
-      'Hub /corporate is the statewide offsite door. /events/corporate-events is the occasion. This picker points at the catering SKU on each island.',
     ],
     faqs: [
       {
-        q: 'Same as hub /corporate?',
-        a: 'Hub /corporate is the statewide villa-offsite door. This page points at each island’s /corporate-catering SKU.',
-      },
-      {
         q: 'Do you staff HCC citywides?',
-        a: 'No. Citywides are closed through 2027 and are not the product. Oahu /conventions says so. Other islands say it on /what-we-dont-do.',
+        a: 'No. Citywides are closed through 2027 and are not the product. Other islands say it on the what-we-don’t-do list.',
       },
     ],
   },

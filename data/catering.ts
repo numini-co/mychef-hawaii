@@ -36,39 +36,14 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     h1: 'Oahu catering — staffed events from Honolulu to Ko Olina.',
     title: 'Oahu Catering | Honolulu to Ko Olina Events | myCHEF',
     description:
-      'Oahu catering from $195 a guest. Staffed events from Honolulu to Ko Olina. Buffet or plated. Request a quote.',
+      'Oahu catering from $195 a guest — staffed villa and estate events from Honolulu and Kahala to Ko Olina, 10–75 guests. Buffet or plated. Request a quote.',
     lede:
-      'Oahu catering is the staffed-event door: buffet or plated, villa, retreat, wedding. Published prices and a written menu. Honolulu to Ko Olina.',
+      'Staffed Oahu catering for villas, estates and residences — buffet, plated or family-style for 10–75 guests. Honolulu catering from Kahala to Ko Olina, with published prices and a written menu.',
     fromPp: 195,
     weddingFrom: 190,
     places: 'Honolulu, Waikīkī residences, Kahala, Kailua, Ko Olina',
     photo: 'cateringOahu',
-    faqs: [
-      {
-        q: 'How much is Oahu catering?',
-        a: 'CORE food from $195–$290 per person. Wedding catering Oahu from $195/pp plus staffing ($80/hr server, $105/hr sous-chef, 4–5 hour minimums). 20% service and Hawaiʻi GET up to 4.712% on their own lines, once.',
-      },
-      {
-        q: 'Buffet vs plated?',
-        a: 'Buffet is the volume format. Plated is the restaurant arc. Family-style sits between. The food band does not change; the staffing line does.',
-      },
-      {
-        q: 'Do you publish an Oahu catering menu?',
-        a: 'A sample estate menu is on this page. Your Kahala or Ko Olina written menu is designed for that house and that guest list — not a laminated carte.',
-      },
-      {
-        q: 'Best catering Oahu?',
-        a: 'Related search, not a trophy. Published starting prices, a sample estate menu, and a written quote are the proof. We do not invent Hawaiʻi reviews to look like a ranking.',
-      },
-      {
-        q: 'Cheap catering Oahu?',
-        a: 'Related search, not a coupon. Published CORE from $195 a guest plus staffing, service, and GET as their own lines. We will not invent a mystery low number. The written quote is the total.',
-      },
-      {
-        q: 'Wedding catering Oahu?',
-        a: 'Yes. Estate and residence formats to about 75 guests. Welcome dinner, rehearsal, reception as separate lines. See /weddings.',
-      },
-    ],
+    faqs: [],
   },
   maui: {
     keyword: 'maui catering',
@@ -76,91 +51,45 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     h1: 'Maui catering — staffed villa events, not drop-off.',
     title: 'Maui Catering | Villa Receptions and Events | myCHEF',
     description:
-      'Maui catering from $225 a guest. Staffed villa events, not drop-off. Buffet or plated. Request a quote.',
+      'Maui catering from $225 a guest — staffed villa receptions and events in Wailea, Kāʻanapali and Kapalua, 10–75 guests. Buffet or plated. Request a quote.',
     lede:
-      'Maui catering is the staffed-room door on this island — not drop-off. Same team as a villa dinner. Buffet or plated. Published $225–$375 a guest.',
+      'Staffed Maui catering for villa receptions, reunions and wedding weeks in Wailea, Kīhei and West Maui. Buffet or plated for 10–75 guests, from $225 a guest.',
     fromPp: 225,
     weddingFrom: 225,
     places: 'Wailea, Kāʻanapali, Lahaina / West Maui, Kīhei, Kapalua',
     photo: 'cateringMaui',
-    faqs: [
-      {
-        q: 'How much is Maui catering?',
-        a: 'CORE $225–$375 per person. Wedding catering Maui from $225/pp plus staffing. Groceries at cost on multi-day. 20% service and GET up to 4.712% as their own lines.',
-      },
-      {
-        q: 'Buffet vs plated on Maui?',
-        a: 'Buffet for a room that moves. Plated for a seated night. We will not upsell plated if a buffet feeds the house better.',
-      },
-      {
-        q: 'Wailea, Lahaina or Kīhei?',
-        a: 'Same Maui food band. We cater villa and estate kitchens — not hotel rooms without a cooktop. WhatsApp the address.',
-      },
-      {
-        q: 'Sushi-forward catering?',
-        a: 'We can arrange a sushi-forward menu as a direction — nigiri, sashimi, hand rolls. Not a separate brand.',
-      },
-      {
-        q: 'Affordable catering Maui?',
-        a: 'Related search, not a discount brand. Published CORE $225–$375 a guest plus staffing, service, and GET as their own lines. The written quote is the total. We do not invent a cheaper kitchen.',
-      },
-    ],
+    faqs: [],
   },
   kauai: {
     keyword: 'kauai catering',
     volume: SEARCH_VOLUMES['kauai catering'],
-    h1: 'Kauai catering — both shores, inquiry stage.',
-    title: 'Kauai Catering | Estate Events — Inquiry | myCHEF',
+    h1:
+      'Kauai catering — staffed estate events on both shores.',
+    title: 'Kauai Catering | Princeville & Poipu Estate Events | myCHEF',
     description:
-      'Kauai catering from $225 a guest. Estate events on both shores. Inquiry stage. Buffet or plated.',
+      'Kauai catering from $225 a guest — staffed estate and villa events in Princeville, Hanalei and Poʻipū, 10–75 guests. Buffet or plated. Inquiry stage.',
     lede:
-      'Kauai catering is the staffed-event door on both shores — inquiry stage. Published prices, a sample menu, buffet or plated. Villa dinners live on the home.',
+      'Staffed Kauai catering for estates and villas from Princeville to Poʻipū — buffet or plated for 10–75 guests, from $225 a guest. Send your dates for a written reply.',
     fromPp: 225,
     weddingFrom: 260,
     places: 'Princeville, Poʻipū, Hanalei, Kapaʻa',
     photo: 'cateringKauai',
-    faqs: [
-      {
-        q: 'How much is Kauai catering?',
-        a: 'CORE $225–$375 per person. Kauai wedding catering from $260/pp plus staffing. A local competitor publishes $200–$250/pp — we publish the band and a written quote, not a mystery total.',
-      },
-      {
-        q: 'Buffet vs plated?',
-        a: 'Buffet is volume. Plated is paced. Family-style for 10–20. Staffing is itemised.',
-      },
-      {
-        q: 'Kauai catering menu?',
-        a: 'Sample estate menu on this page. Your written menu is designed that week.',
-      },
-      {
-        q: 'Kauai wedding catering?',
-        a: 'Estate formats to about 75 guests. Welcome through recovery brunch as separate lines. Far-North inherits the Hanalei-bridge clause.',
-      },
-    ],
+    faqs: [],
   },
   bigisland: {
     keyword: 'big island catering',
     volume: CATERING_VOLUMES['big island catering'],
-    h1: 'Big Island catering',
-    title: 'Big Island catering — Kona & Kohala from $210/pp | myCHEF',
+    h1: 'Big Island catering — Kona and Kohala Coast villa events.',
+    title: 'Big Island Catering | Kona & Kohala Villa Events | myCHEF',
     description:
-      'Catering on Hawaiʻi Island from $210/pp. Kohala Coast and Kona villa receptions, buffet or plated. ENTRY from $165. WhatsApp for a written quote.',
+      'Big Island catering from $210 a guest — staffed Kona and Kohala Coast villa receptions, buffet or plated. Inquiry stage; ask for a written quote.',
     lede:
-      'West-side first: Kohala and Kona estates. Buffet or plated. Published starting prices. Hilo is quote-only — we will not fake a same-day round trip.',
+      'Big Island catering on the Kona–Kohala Coast: staffed villa events, buffet or plated, from $210 a guest. Kona catering included; Hilo is quoted as its own day.',
     fromPp: 210,
     weddingFrom: 225,
     places: 'Kohala Coast, Waikoloa, Kailua-Kona',
     photo: 'cateringBigisland',
-    faqs: [
-      {
-        q: 'How much is catering on the Big Island?',
-        a: 'CORE $210–$325 per person, ENTRY from $165. Wedding from $225/pp plus staffing. Same fee stack as every myCHEF Hawaii quote.',
-      },
-      {
-        q: 'Hilo from Kona?',
-        a: 'Not in one day. East side is dedicated staffing, quoted honestly.',
-      },
-    ],
+    faqs: [],
   },
 };
 
@@ -188,7 +117,7 @@ export const HUB_CATERING = {
     },
     {
       q: 'Do you publish a Hawaii catering menu?',
-      a: 'Each island host publishes a sample estate menu. The written menu is for that house and that guest list — not a statewide laminated carte.',
+      a: 'The written menu is for that house and that guest list — not a statewide laminated carte.',
     },
   ],
 } as const;

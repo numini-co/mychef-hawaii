@@ -48,7 +48,7 @@ export const islands: Record<IslandId, IslandMeta> = {
     shortName: 'Kauaʻi',
     state: 'inquiry',
     hue: '#4F5E52',
-    role: 'Private chef Kauai and Kauai catering. Both shores, inquiry stage.',
+    role: 'Private chef Kauai and Kauai catering. Both shores, by inquiry.',
     basePath: '/kauai',
     selectorImage: '/photos/heroes/hero-kauai.png',
     selectorCta: 'Private chef Kauai — inquiry',

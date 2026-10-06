@@ -73,6 +73,7 @@ export const locations: LocationRecord[] = [
     body: [
       'The kitchens here are usually the real thing — which is why this corridor supports both a one-night celebration and a standing weekly chef. Groceries for the kamaʻāina line are billed at cost; the weekly fee is a published starting price from the rate card.',
       'We do not claim named-house partnerships. If you have a property manager or a household we should coordinate with, put that on the quote form.',
+      'Kahala dinners are part of our [private chef Oahu](/) service — the same published Oʻahu dinner band, from $195 a guest, with no Gold Coast travel line. Bigger staffed gatherings on a Kahala lawn are [Oahu catering](/catering).',
     ],
     fit: 'Resident households, celebration dinners, 4-week minimum posture on weekly service.',
     logistics: 'Base zone. Corridor timing still applies — your chef is on-site before the evening rush.',
@@ -193,17 +194,13 @@ export const locations: LocationRecord[] = [
     lede:
       'Wailea is Maui’s signature corridor: hotel-zoned resort residences with kitchens, December peaks, and the dinner format we built the island around. We cook at your table, not at a communal resort chef’s table.',
     body: [
-      'The lead product is the signature in-villa dinner, with the chef’s-table tasting as the halo and dinners-for-two as the romance SKU. Multi-day packages sit underneath for villa weeks.',
+      'Multi-day packages sit underneath for villa weeks.',
       'We serve hotel-zoned resort residences and estates — venues with stable long-term status. We do not market apartment-zoned condo corridors as luxury inventory.',
     ],
     fit: 'Couples to 15 for dinners; villa weeks; wedding-week events nearby. Peak: December–March.',
     logistics: 'Base zone. December–March dates book early — enquire as soon as you have them.',
     quoteQuery: '/quote?island=maui&service=signature-dinner',
     faqs: [
-      {
-        q: 'Is this the same as a resort chef’s table?',
-        a: 'No. Resort communal tables are a different product. Ours is private, in your villa, with a menu designed for your table.',
-      },
       {
         q: 'How tight is December–March?',
         a: 'It is our peak on Maui. Early enquiries get the dates. We would rather say that now than apologise later.',
@@ -384,7 +381,7 @@ export const locations: LocationRecord[] = [
     faqs: [
       {
         q: 'Is the South Shore cheaper than the North?',
-        a: 'It is closer to the planned Līhuʻe base, which is why the zone map exists. Shore surcharges are published; Kauaʻi stays inquiry-stage until a staffed team launches.',
+        a: 'It is closer to the planned Līhuʻe base, which is why the zone map exists. Shore surcharges are published; Kauaʻi stays by inquiry only until a staffed team launches.',
       },
       {
         q: 'Can our concierge send guests?',
@@ -405,7 +402,7 @@ export const locations: LocationRecord[] = [
     heroAlt: 'A chef sears fish in a Kona villa kitchen looking over dry lava coast and coffee slopes',
     h1: 'Kona first — when the west-side team exists.',
     lede:
-      'Kailua-Kona and Keauhou sit at the south end of the planned base corridor. Hawaiʻi Island (the Big Island) is inquiry-stage: tell us your dates. There is no booking button, and no local-entity claim.',
+      'Kailua-Kona and Keauhou sit at the south end of the planned base corridor. Hawaiʻi Island (the Big Island) is by inquiry only: tell us your dates. There is no booking button, and no local-entity claim.',
     body: [
       'The island is 4,000 square miles. We will not pretend to cover all of it. Launch concentrates on the Kona–Kohala corridor — seven luxury resort communities within about 30 minutes of each other.',
       'Coffee origin labeling (Act 198, from 1 July 2027) will apply to how menus name Kona and Kaʻū coffee. Producer names publish only with written verification.',
@@ -446,7 +443,7 @@ export const locations: LocationRecord[] = [
     faqs: [
       {
         q: 'Is this the Big Island or Hawaiʻi Island?',
-        a: 'Both names are on the page. “Hawaiʻi Island” is the geographic name; “Big Island” is the search language. The hostname follows the family rule: bigisland.{root}.',
+        a: 'Both names are on the page. “Hawaiʻi Island” is the geographic name; “Big Island” is what most visitors call it. The hostname follows the family rule: bigisland.{root}.',
       },
       {
         q: 'Do you have a Google Business Profile here?',

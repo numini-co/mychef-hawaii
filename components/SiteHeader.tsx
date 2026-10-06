@@ -35,7 +35,7 @@ const HUB_GUIDE_ITEMS: NavTarget[] = [
 
 function areaItems(islandId: NonNullable<ReturnType<typeof useIsland>['islandId']>): NavTarget[] {
   return [
-    { label: 'Map notes', island: islandId, path: '/areas' },
+    { label: 'Area guide', island: islandId, path: '/areas' },
     { label: 'Live corridors', island: islandId, path: '/locations' },
     ...moneyNeighborhoods[islandId].map((hood) => ({
       label: hood.name,

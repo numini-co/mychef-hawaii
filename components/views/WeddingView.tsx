@@ -152,21 +152,21 @@ export function HubWeddingsView() {
 
       <Longform sections={hubWeddingsSections} />
       <HubPhotoGrid
-        eyebrow="Beside this wedding week"
-        heading="Open a related document."
-        intro="This page is the four-island picker for wedding weeks. Catering, occasions, the form, and the packaged cart are their own URLs."
+        eyebrow="Related pages"
+        heading="Related pages."
+        intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           {
             href: '/catering',
             title: 'Villa catering',
-            body: 'The larger staffed room. Distinct from the wedding-week stack.',
+            body: 'The larger staffed room.',
             still: photos.cateringHero,
           },
           {
             href: '/events',
             title: events?.cardLabel ?? 'Occasions',
-            body: events?.lede ?? 'Occasion documents live on the island host. This page is the picker.',
+            body: events?.lede ?? 'Occasions we cook for on each island.',
             still: photos.hubEvents,
           },
           {
@@ -178,7 +178,7 @@ export function HubWeddingsView() {
           {
             href: '/mobile-bar',
             title: 'The packaged cart',
-            body: 'The four-hour villa package. Distinct from the bartender add-on on /bar. Hub /mobile-bar holds the statewide title.',
+            body: 'The four-hour villa package.',
             still: photos.hubMobileBar,
           },
         ]}
@@ -234,9 +234,9 @@ export function IslandWeddingView({ islandId, hostMode }: { islandId: IslandId; 
       <Longform sections={long.sections} />
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow={`${islands[islandId].shortName} · Beside this wedding week`}
-        heading="Open a related document."
-        intro="This URL is the wedding-week stack. Catering, occasions, the form, and the packaged cart are their own URLs."
+        eyebrow={`${islands[islandId].shortName} · Related`}
+        heading="Related pages."
+        intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           { path: '/catering', label: 'Villa catering', detail: '/catering' },

@@ -11,21 +11,21 @@ export default function Page() {
       id="personalChef"
       related={
         <HubPhotoGrid
-          eyebrow="Beside this household line"
-          heading="Open a related document."
-          intro="This page is the four-island picker for weekly household cooking. Visitor dinners, Stay Chef weeks, the form, and the rate card are their own URLs."
+          eyebrow="Related pages"
+          heading="Related pages."
+          intro="Related pages to help you plan your dinner, event or stay."
           columns={2}
           items={[
             {
               href: '/private-chef',
               title: 'Visitor dinner',
-              body: 'One night in the house. Distinct from the resident household line.',
+              body: 'One night in the house.',
               still: photos.hubChef,
             },
             {
               href: '/vacation-chef',
               title: 'Stay Chef week',
-              body: 'A chef for the villa week. Distinct from school-night households.',
+              body: 'A chef for the villa week.',
               still: photos.hubVacation,
             },
             {
@@ -37,7 +37,7 @@ export default function Page() {
             {
               href: '/pricing',
               title: 'What a night costs',
-              body: 'The published rate card. Distinct from the fee-stack explainer.',
+              body: 'The published rate card.',
               still: photos.hubPricing,
             },
           ]}

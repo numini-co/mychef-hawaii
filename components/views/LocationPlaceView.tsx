@@ -96,8 +96,8 @@ export function LocationPlaceView({
       <DocumentPhotoGrid
         islandId={islandId}
         eyebrow={`${island.shortName} · Beside ${hood.name}`}
-        heading="Open a related document."
-        intro="This page is the dinner door for this corridor. What’s included, the staffed room, the form, and the coverage map are their own URLs."
+        heading="Related pages."
+        intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           { path: '/private-chef', label: 'What’s included', detail: '/private-chef' },
@@ -111,7 +111,7 @@ export function LocationPlaceView({
       {siblings.length ? (
         <nav aria-label={`${hood.name} sibling corridors`} className="border-t border-line bg-paper py-8">
           <div className="mx-auto flex w-full max-w-container flex-wrap items-baseline gap-x-6 gap-y-2 px-5 text-sm lg:px-10">
-            <span className="text-mute">Other dinner doors</span>
+            <span className="text-mute">Other towns</span>
             {siblings.map((s) => (
               <Link key={s.slug} href={href(`/${s.slug}`)} className="text-ink underline underline-offset-4">
                 {s.name}

@@ -33,7 +33,7 @@ export const zoneMap: Record<IslandId, IslandZones> = {
     zones: [
       { name: 'Waikīkī', class: 'base', code: 'A', note: 'Resort residences with kitchens — base zone; most hotel suites lack kitchens, we adapt.' },
       { name: 'Kahala / Gold Coast', class: 'base', code: 'A', note: 'Estate entertaining — base zone.' },
-      { name: 'Ko Olina', class: 'base', code: 'A', note: "The island's deepest legal short-stay villa pool — base zone, west-side provisioning." },
+      { name: 'Ko Olina', class: 'base', code: 'A', note: "The island’s deepest legal short-stay villa pool — base zone, west-side provisioning." },
       { name: 'Kailua / Lanikai', class: 'base', code: 'A', note: '30-day-estate market — built for multi-day packages, not one-off dinners.' },
       { name: 'North Shore / Turtle Bay', class: 'surcharge', code: 'B', note: 'Surcharge zone — 60–90+ min from town; surf-season dates book early.', driveTime: '60–90+ min', feeChip: 'PUBLISHED' },
     ],

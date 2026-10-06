@@ -194,7 +194,7 @@ export const inVillaPages: InVillaPage[] = [
       },
       {
         q: 'Are Kauaʻi and Hawaiʻi Island available?',
-        a: 'Oʻahu and Maui are live for written quotes. Kauaʻi and Hawaiʻi Island are inquiry-stage while the island teams build out — we confirm exactly what we can staff, and the total, in writing before you commit.',
+        a: 'Oʻahu and Maui are live for written quotes. Kauaʻi and Hawaiʻi Island are by inquiry only while the island teams build out — we confirm exactly what we can staff, and the total, in writing before you commit.',
       },
       {
         q: 'Villa owners looking for permanent staff — is this the right page?',
@@ -276,7 +276,7 @@ export const inVillaPages: InVillaPage[] = [
     rateBlocks: ['stay-chef', 'staffing', 'bar'],
     rateHeading: 'What your team is built from',
     rateIntro:
-      'Teams are assembled from these published roles; the tiers above show how they combine. Each role can also be booked on its own — this page is for when you want them combined, managed and run as one team.',
+      'Teams are assembled from these published roles; the tiers above show how they combine.',
     faqs: [
       {
         q: 'Can one company handle chef, breakfast, coffee, drinks and service staff for the whole stay?',
@@ -341,9 +341,9 @@ export const inVillaPages: InVillaPage[] = [
       {
         h2: 'The week you don’t cook, shop, or clean up after',
         paras: [
-          'Most private-chef bookings in Hawaiʻi are one dinner. This page is about the other way to do it: a chef and a dedicated assistant who come to your villa every day of your stay, cook flexible meals, do all the shopping, and leave the kitchen spotless after every service.',
+          'Most private-chef bookings in Hawaiʻi are one dinner.',
           'It is the difference between booking a restaurant meal at your villa once, and having the kitchen run properly for the whole trip. No supermarket runs in the heat. No arguments about where to eat with eight people. No breakfast panic before a sunrise hike. You tell us how your group eats; we build the week around it.',
-          'If you are looking for a single dinner, a party or a celebration meal, that is a different product — a one-night signature dinner or catering. This page is for stays of three days and longer, and it is priced for them: a chef and assistant by the day, groceries at cost.',
+          'If you are looking for a single dinner, a party or a celebration meal, that is a different product — a one-night signature dinner or catering.',
         ],
       },
       {
@@ -660,7 +660,7 @@ export const inVillaPages: InVillaPage[] = [
     rateBlocks: ['bar'],
     rateHeading: 'Published bar rates',
     rateIntro:
-      'The bar is published two ways per island: an hourly bartender-plus-setup rate (spirits BYO or at cost) and a four-hour packaged bar with a per-guest add-on. Kauaʻi and Hawaiʻi Island are inquiry-stage while the island teams build out.',
+      'The bar is published two ways per island: an hourly bartender-plus-setup rate (spirits BYO or at cost) and a four-hour packaged bar with a per-guest add-on. Kauaʻi and Hawaiʻi Island are by inquiry only while the island teams build out.',
     faqs: [
       {
         q: 'Do we supply the alcohol, or do you?',

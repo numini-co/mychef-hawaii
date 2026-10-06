@@ -27,17 +27,12 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         'A plated twelve needs more hands than a family-style eight. We write the hours. We do not hide them in the catch.',
       photo: 'staffServersOahu',
       body: [
-        'Staffing minimums live on /pricing. This URL is the server line so /catering/plated and /bar stay distinct.',
-        'Gold Coast dining rooms: /gold-coast. Guest counts: /guest-counts. The food band does not change because a server is on the quote.',
+        'Gold Coast dining rooms: Gold Coast. The food band does not change because a server is on the quote.',
       ],
       faqs: [
         {
           q: 'How many servers for twelve plated?',
           a: 'More than a buffet for the same headcount. We write it on the quote.',
-        },
-        {
-          q: 'Is this the bartender?',
-          a: 'Bartenders: /staffing/bartenders. Bar product: /bar. This page is floor service.',
         },
       ],
       related: [
@@ -52,19 +47,15 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       h1: 'Bartenders on Oahu — an hourly line, not the 4-hour package.',
       title: 'Bartenders on Oahu — an hourly line | myCHEF',
       description:
-        'Bartender add-ons for Oahu houses. Hourly, itemised. Distinct from /bar and the 4-hour /mobile-bar package. No theatrical tiki service.',
+        'Bartender add-ons for Oahu houses. Hourly, itemised. No theatrical tiki service.',
       lede:
-        'Citrus, glassware, the lanai. /bar is the product door. /mobile-bar is four hours. This URL is the hourly bartender so those titles do not collide.',
+        'Citrus, glassware, the lanai.',
       photo: 'staffBartendersOahu',
       body: [
-        'The bartender add-on product is /bar. The 4-hour package is /mobile-bar. This page is how we quote the person.',
-        'We do not sell a theatrical luau bar. Ko Olina and Kahala houses. Guest counts: /guest-counts.',
+        'The bartender add-on product is on the villa bar page.',
+        'We do not sell a theatrical luau bar. Ko Olina and Kahala houses.',
       ],
       faqs: [
-        {
-          q: 'Same as /bar?',
-          a: '/bar is the product. This page is the hourly line. /mobile-bar is the four-hour package.',
-        },
         {
           q: 'Tiki drinks?',
           a: 'We mix what the house wants. We do not staff a theatrical tiki bar we do not run.',
@@ -84,11 +75,10 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       description:
         'Butler add-ons for Oahu houses. Quoted as a line, never assumed. We will not sell a butler we cannot staff.',
       lede:
-        'Water poured, the table set, the pass left to the chef. If we do not have the person, this page stays a quote — not a fake roster.',
+        'Water poured, the table set, the pass left to the chef.',
       photo: 'staffButlersOahu',
       body: [
-        'Servers: /staffing/servers. This URL is butler service so we do not bury a hotel-style promise in a dinner price.',
-        'See /what-we-dont-do. Gold Coast houses with real dining rooms are the usual rooms — /gold-coast.',
+        'Gold Coast houses with real dining rooms are the usual rooms.',
       ],
       faqs: [
         {
@@ -119,17 +109,11 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         'A plated lawn needs more hands than family-style on the lanai. We write the hours. Saturday West Maui traffic is planned into arrival, not into a hidden fee.',
       photo: 'staffServersMaui',
       body: [
-        'Staffing minimums: /pricing. Plated: /catering/plated. Guest counts: /guest-counts. Traffic: /west-maui.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This URL is the server line.`,
       ],
       faqs: [
         {
           q: 'Servers on a wet Wailea lawn?',
           a: 'Backup is written. We still quote the hours.',
-        },
-        {
-          q: 'Bartender instead?',
-          a: '/staffing/bartenders and /bar. This page is floor service.',
         },
       ],
       related: [
@@ -144,22 +128,17 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       h1: 'Bartenders on Maui — hourly on the lanai, not the 4-hour package.',
       title: 'Bartenders on Maui — hourly on the lanai | myCHEF',
       description:
-        'Bartender add-ons for Wailea and West Maui. Hourly, itemised. Distinct from /bar and /mobile-bar. No theatrical tiki service.',
+        'Bartender add-ons for Wailea and West Maui. Hourly, itemised. No theatrical tiki service.',
       lede:
-        'Citrus, the Pacific, the lanai. /bar is the product. /mobile-bar is four hours. This URL is the hourly bartender.',
+        'Citrus, the Pacific, the lanai.',
       photo: 'staffBartendersMaui',
       body: [
-        'Product door: /bar. Four-hour package: /mobile-bar. This page is how the person is quoted.',
-        'We do not staff a luau bar we do not run. See /what-we-dont-do.',
+        'We do not staff a luau bar we do not run.',
       ],
       faqs: [
         {
-          q: 'Same as /mobile-bar?',
-          a: 'That is the four-hour package. This page is the hourly line.',
-        },
-        {
           q: 'West Maui Saturday bartender?',
-          a: 'Arrival is planned. See /west-maui.',
+          a: 'Arrival is planned.',
         },
       ],
       related: [
@@ -176,11 +155,10 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       description:
         'Butler add-ons for Maui houses. Quoted as a line, never assumed. We will not sell a butler we cannot staff in Wailea or West Maui.',
       lede:
-        'The table set, water poured, the chef left at the pass. If the person does not exist, this page stays a quote.',
+        'The table set, water poured, the chef left at the pass.',
       photo: 'staffButlersMaui',
       body: [
-        'Servers: /staffing/servers. This URL is butler service. We do not impersonate a resort butler department.',
-        'See /what-we-dont-do. South Maui houses: /south-maui.',
+        'We do not impersonate a resort butler department.',
       ],
       faqs: [
         {
@@ -211,8 +189,6 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         'An estate table needs hands. Inquiry. We write the hours when the crew exists. We will not fake a roster.',
       photo: 'staffServersKauai',
       body: [
-        'Staffing minimums: /pricing. Far-North: /hanalei-bridge. Guest counts: /guest-counts.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This URL is the server line.`,
       ],
       faqs: [
         {
@@ -221,7 +197,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         },
         {
           q: 'Hanalei in surf season?',
-          a: 'Bridge clause still applies. See /hanalei-bridge.',
+          a: 'Bridge clause still applies.',
         },
       ],
       related: [
@@ -236,22 +212,17 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       h1: 'Bartenders on Kauai — hourly, inquiry, not the 4-hour package.',
       title: 'Bartenders on Kauai — hourly, inquiry | myCHEF',
       description:
-        'Bartender add-ons for Kauai estates. Inquiry stage. Distinct from /bar and /mobile-bar. No theatrical tiki service.',
+        'Bartender add-ons for Kauai estates. Inquiry stage. No theatrical tiki service.',
       lede:
-        'Citrus on a wet terrace or a South Shore counter. Inquiry. /bar is the product. This URL is the hourly line.',
+        'Citrus on a wet terrace or a South Shore counter. Inquiry.',
       photo: 'staffBartendersKauai',
       body: [
-        'Product: /bar. Package: /mobile-bar. This page is the person. Inquiry stage.',
-        'Far-North still inherits /hanalei-bridge.',
+        'Inquiry stage.',
       ],
       faqs: [
         {
-          q: 'Same as /mobile-bar?',
-          a: 'That is four hours. This page is the hourly line. Inquiry.',
-        },
-        {
           q: 'Tiki bar on the North?',
-          a: 'We do not staff a theatrical tiki bar. See /what-we-dont-do.',
+          a: 'We do not staff a theatrical tiki bar.',
         },
       ],
       related: [
@@ -268,11 +239,11 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       description:
         'Butler add-ons for Kauai estates. Inquiry stage. Quoted as a line. We will not sell a butler we cannot staff.',
       lede:
-        'An empty Princeville table being set. If the person does not exist, this page stays a quote. Inquiry.',
+        'An empty Princeville table being set. Inquiry.',
       photo: 'staffButlersKauai',
       body: [
-        'Servers: /staffing/servers. Inquiry stage. We do not impersonate a resort butler department.',
-        'See /what-we-dont-do. Both shores. Far-North: /hanalei-bridge.',
+        'Inquiry stage. We do not impersonate a resort butler department.',
+        'Both shores.',
       ],
       faqs: [
         {
@@ -303,17 +274,16 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         'Lava, plated kanpachi, extra hands. Inquiry. We write the hours. We will not send a west-side crew to Hilo as an errand.',
       photo: 'staffServersBigisland',
       body: [
-        'Staffing minimums: /pricing. West-side: /kohala-corridor. East side: /east-side. Ironman weeks: /ironman-weeks.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This URL is the server line.`,
+        'West-side: Kona–Kohala corridor.',
       ],
       faqs: [
         {
           q: 'Hilo servers from Kona?',
-          a: 'No. East side is dedicated staffing. See /east-side.',
+          a: 'No. East side is dedicated staffing.',
         },
         {
           q: 'Ironman week?',
-          a: 'Flag dates. Town compresses. See /ironman-weeks.',
+          a: 'Flag dates. Town compresses.',
         },
       ],
       related: [
@@ -328,22 +298,18 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       h1: 'Bartenders on the Kohala Coast — hourly, west side, inquiry.',
       title: 'Bartenders on the Kohala Coast — hourly, inquiry | myCHEF',
       description:
-        'Bartender add-ons for Kona and Kohala. Inquiry stage. Distinct from /bar and /mobile-bar. East side is a different day. No theatrical tiki service.',
+        'Bartender add-ons for Kona and Kohala. Inquiry stage. East side is a different day. No theatrical tiki service.',
       lede:
-        'Citrus on lava, hard sun. /bar is the product. This URL is the hourly line. Not Hilo.',
+        'Citrus on lava, hard sun. Not Hilo.',
       photo: 'staffBartendersBigisland',
       body: [
-        'Product: /bar. Package: /mobile-bar. This page is the person. Inquiry stage. West-side first.',
-        'We do not staff a theatrical tiki bar. See /what-we-dont-do.',
+        'Inquiry stage. West-side first.',
+        'We do not staff a theatrical tiki bar.',
       ],
       faqs: [
         {
-          q: 'Same as /mobile-bar?',
-          a: 'That is four hours. This page is the hourly line.',
-        },
-        {
           q: 'Hilo bartender?',
-          a: 'Quote-only dedicated staffing. See /east-side.',
+          a: 'Quote-only dedicated staffing.',
         },
       ],
       related: [
@@ -356,14 +322,14 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       slug: 'butlers',
       name: 'Butlers',
       h1: 'Butlers on Hawaiʻi Island — quoted only when a bench exists.',
-      title: 'Butlers on Hawaiʻi Island — quoted only when a bench exists | myCHEF',
+      title: 'Butlers on the Big Island — quoted on request | myCHEF',
       description:
         'Butler add-ons for Kona and Kohala houses. Inquiry stage. Quoted as a line. East side is a different day. We will not sell a butler we cannot staff.',
       lede:
-        'A lava terrace table being set. If the person does not exist, this page stays a quote. Not a resort butler department.',
+        'A lava terrace table being set. Not a resort butler department.',
       photo: 'staffButlersBigisland',
       body: [
-        'Servers: /staffing/servers. West-side first. See /what-we-dont-do. East side: /east-side.',
+        'West-side first.',
         'Inquiry stage. We do not impersonate a hotel butler line.',
       ],
       faqs: [
@@ -373,7 +339,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         },
         {
           q: 'Hilo butler?',
-          a: 'Quote-only east side even for dinners. See /east-side.',
+          a: 'Quote-only east side even for dinners.',
         },
       ],
       related: [

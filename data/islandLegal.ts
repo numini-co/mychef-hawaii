@@ -31,14 +31,13 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
     kicker: 'Oʻahu · Booking notes',
     photo: 'legalOahu',
     body: [
-      `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) stays on this host’s home. This page does not steal that title. It is how a Kahala night is held in writing.`,
-      'Fee stack: /private-chef-cost. Tariff: /pricing. After you accept a total: /help/managing-booking.',
+      `It is how a Kahala night is held in writing.`,
     ],
     sections: [
       {
         num: '01',
         title: 'Quotes & booking',
-        body: 'Every Oahu booking is confirmed by an itemised written quote: menu price, staffing, North Shore travel if any, 20% service, GET. Indicative bands on /pricing are starting prices. The quote confirms the night. Kahala, Ko Olina, Kailua, and Waikīkī residences with kitchens are base.',
+        body: 'Every Oahu booking is confirmed by an itemised written quote: menu price, staffing, North Shore travel if any, 20% service, GET. Indicative bands on the pricing page are starting prices. The quote confirms the night. Kahala, Ko Olina, Kailua, and Waikīkī residences with kitchens are base.',
       },
       {
         num: '02',
@@ -48,7 +47,7 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
       {
         num: '03',
         title: 'Cancellation & weather',
-        body: 'Proposed tiers pending attorney review: 28+ days partial refund posture; 14–28 days deposit retained; under 7 days full balance posture. North Shore swell and road closures reschedule rather than forfeit, where safe. Hotel suites without a cooktop are declined before a deposit — /waikiki.',
+        body: 'Proposed tiers pending attorney review: 28+ days partial refund posture; 14–28 days deposit retained; under 7 days full balance posture. North Shore swell and road closures reschedule rather than forfeit, where safe. Hotel suites without a cooktop are declined before a deposit.',
       },
       {
         num: '04',
@@ -63,7 +62,7 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
       {
         num: '06',
         title: 'Licensing, insurance & food safety',
-        body: 'Operating structure, food-handler certification, and insurance certificates publish here when issued and verifiable. We do not display license numbers we do not hold. We do not invent Oahu guest reviews. See /what-we-dont-do.',
+        body: 'Operating structure, food-handler certification, and insurance certificates publish here when issued and verifiable. We do not display license numbers we do not hold. We do not invent Oahu guest reviews.',
       },
       {
         num: '07',
@@ -73,12 +72,8 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
     ],
     faqs: [
       {
-        q: 'Same as /private-chef-cost?',
-        a: 'That page is how the stack prints. This page is the booking notes around it — kitchens, deposits, North Shore weather.',
-      },
-      {
         q: 'Waikīkī suite without a stove?',
-        a: 'Declined before a deposit. See /waikiki.',
+        a: 'Declined before a deposit.',
       },
     ],
   },
@@ -92,8 +87,6 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
     kicker: 'Maui · Booking notes',
     photo: 'legalMaui',
     body: [
-      `Private chef Maui (${SEARCH_VOLUMES['private chef maui']}) stays on this host’s home. This page does not steal that title.`,
-      'West Maui: /west-maui. Lahaina: /lahaina. Fee stack: /private-chef-cost. Tariff: /pricing.',
     ],
     sections: [
       {
@@ -104,7 +97,7 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
       {
         num: '02',
         title: 'Deposits',
-        body: 'Fifty percent locks the date after you accept the written total. Moving from Wailea to Lahaina after the deposit can change the travel line — write us. /lahaina is a different town.',
+        body: 'Fifty percent locks the date after you accept the written total. Moving from Wailea to Lahaina after the deposit can change the travel line — write us.',
       },
       {
         num: '03',
@@ -124,7 +117,7 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
       {
         num: '06',
         title: 'Licensing, insurance & food safety',
-        body: 'Certificates publish when issued and verifiable. We do not invent Maui guest reviews. See /what-we-dont-do.',
+        body: 'Certificates publish when issued and verifiable. We do not invent Maui guest reviews.',
       },
       {
         num: '07',
@@ -135,11 +128,7 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
     faqs: [
       {
         q: 'Is Saturday West Maui a cancellation?',
-        a: 'No. We plan the drive. See /west-maui. Traffic is not force majeure.',
-      },
-      {
-        q: 'Same as /pricing?',
-        a: 'That page is the tariff. This page is the booking notes. The stack is /private-chef-cost.',
+        a: 'No. We plan the drive. Traffic is not force majeure.',
       },
     ],
   },
@@ -149,12 +138,11 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
     description:
       'Kauai booking notes at inquiry: written quote when we can staff, 50% deposit, GET up to 4.712%. Hanalei-bridge closures reschedule rather than forfeit. We will not fake a live roster.',
     lede:
-      'Statewide GET and service-charge law. Both shores and the Hanalei bridge are local. Inquiry: a band is not a Book-now button.',
+      'Statewide GET and service-charge law. Both shores and the Hanalei bridge are local. Inquiry: a band is not an instant-booking button.',
     kicker: 'Kauaʻi · Booking notes',
     photo: 'legalKauai',
     body: [
-      `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) stays on this host’s home. This page does not steal that title. Inquiry stage.`,
-      'Bridge: /hanalei-bridge. Fee stack: /private-chef-cost. Tariff: /pricing. Inquiry form: /quote.',
+      `Inquiry stage.`,
     ],
     sections: [
       {
@@ -170,7 +158,7 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
       {
         num: '03',
         title: 'Cancellation & weather',
-        body: 'Proposed tiers pending attorney review. Force-majeure includes Hanalei-bridge closures, flood advisories, and road closures — reschedule rather than forfeit, where safe. See /hanalei-bridge. Far-North events inherit 72-hour notice.',
+        body: 'Proposed tiers pending attorney review. Force-majeure includes Hanalei-bridge closures, flood advisories, and road closures — reschedule rather than forfeit, where safe. Far-North events inherit 72-hour notice.',
       },
       {
         num: '04',
@@ -185,7 +173,7 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
       {
         num: '06',
         title: 'Licensing, insurance & food safety',
-        body: 'Certificates publish when issued and verifiable. We do not invent Kauai guest reviews or a now-serving line. See /what-we-dont-do.',
+        body: 'Certificates publish when issued and verifiable. We do not invent Kauai guest reviews or a now-serving line.',
       },
       {
         num: '07',
@@ -196,11 +184,11 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
     faqs: [
       {
         q: 'Road closed the morning of?',
-        a: 'We reschedule. The deposit follows the night, not the calendar. See /hanalei-bridge.',
+        a: 'We reschedule. The deposit follows the night, not the calendar.',
       },
       {
         q: 'Are you live on Kauaʻi?',
-        a: 'Inquiry. We crew when we can staff. See /about.',
+        a: 'Inquiry. We crew when we can staff.',
       },
     ],
   },
@@ -210,18 +198,16 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
     description:
       'Hawaiʻi Island booking notes at inquiry: written quote when we can staff, 50% deposit, GET up to 4.712%. West side first. East side is a dedicated day, never a west-side round trip.',
     lede:
-      'Statewide GET and service-charge law. Kona–Kohala is base. Hilo is not implied. Inquiry: a band is not a Book-now button.',
+      'Statewide GET and service-charge law. Kona–Kohala is base. Hilo is not implied. Inquiry: a band is not an instant-booking button.',
     kicker: 'Hawaiʻi Island · Booking notes',
     photo: 'legalBigisland',
     body: [
-      `Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) and private chef Big Island (${SEARCH_VOLUMES['private chef big island']}) stay dinner doors. This page is the booking notes.`,
-      'East side: /east-side. Ironman weeks: /ironman-weeks. Fee stack: /private-chef-cost. Inquiry form: /quote.',
     ],
     sections: [
       {
         num: '01',
         title: 'Quotes & booking',
-        body: 'Hawaiʻi Island is inquiry, west-side first. When we can staff, the written quote itemises menu, staffing, Waimea travel if any, 20% service, GET. Kona, Waikoloa, and Kohala are base. East side is a dedicated day — /east-side.',
+        body: 'Hawaiʻi Island is inquiry, west-side first. When we can staff, the written quote itemises menu, staffing, Waimea travel if any, 20% service, GET. Kona, Waikoloa, and Kohala are base. East side is a dedicated day.',
       },
       {
         num: '02',
@@ -246,7 +232,7 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
       {
         num: '06',
         title: 'Licensing, insurance & food safety',
-        body: 'Certificates publish when issued and verifiable. We do not invent Kona guest reviews or a now-serving line. Coffee origin claims stay honest — /coffee-act-198. See /what-we-dont-do.',
+        body: 'Certificates publish when issued and verifiable. We do not invent Kona guest reviews or a now-serving line. Coffee origin claims stay honest.',
       },
       {
         num: '07',
@@ -257,11 +243,11 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
     faqs: [
       {
         q: 'Can a Kona deposit cover a Hilo add-on?',
-        a: 'Not the same day. See /east-side. We quote a dedicated crossing.',
+        a: 'Not the same day. We quote a dedicated crossing.',
       },
       {
-        q: 'Are you live on the west side?',
-        a: 'Inquiry. We crew when we can staff. See /about.',
+        q: 'Are you are on the west side?',
+        a: 'Inquiry. We crew when we can staff.',
       },
     ],
   },

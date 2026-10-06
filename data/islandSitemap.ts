@@ -18,42 +18,41 @@ export interface IslandSitemapPage {
 
 export const islandSitemap: Record<IslandId, IslandSitemapPage> = {
   oahu: {
-    h1: 'Every live Oahu URL on this host.',
-    title: 'Oahu HTML sitemap — live URLs on this host | myCHEF',
+    h1: 'Every page on our Oahu site.',
+    title: 'Oahu sitemap — every page | myCHEF',
     description:
-      'HTML sitemap for the Oahu host: corridors, services, occasions, and supporting documents. Not the hub sitemap.',
+      'Oahu sitemap: neighborhoods, services, occasions and guides.',
     lede:
-      'This is the Oahu host’s URL list. It is not Maui, Kauaʻi, or Hawaiʻi Island, and it is not the XML file at /sitemap.xml.',
+      'Every page on our Oahu site, grouped by type.',
     kicker: 'Oʻahu · Sitemap',
     photo: 'sitemapOahu',
   },
   maui: {
-    h1: 'Every live Maui URL on this host.',
-    title: 'Maui HTML sitemap — live URLs on this host | myCHEF',
+    h1: 'Every page on our Maui site.',
+    title: 'Maui sitemap — every page | myCHEF',
     description:
-      'HTML sitemap for the Maui host: corridors, services, occasions, and supporting documents. Not the hub sitemap.',
+      'Maui sitemap: neighborhoods, services, occasions and guides.',
     lede:
-      'This is the Maui host’s URL list. Wailea, West Maui, and wedding-week cells sit here as addresses, not as a statewide dump.',
+      'Every page on our Maui site — Wailea, West Maui, wedding weeks and more.',
     kicker: 'Maui · Sitemap',
     photo: 'sitemapMaui',
   },
   kauai: {
-    h1: 'Every live Kauai URL on this host.',
-    title: 'Kauai HTML sitemap — live URLs on this host | myCHEF',
+    h1: 'Every page on our Kauai site.',
+    title: 'Kauai sitemap — every page | myCHEF',
     description:
-      'HTML sitemap for the Kauai host at inquiry: both shores, supporting documents, and the cells we will quote.',
+      'Kauai sitemap: both shores, services, occasions and guides.',
     lede:
-      'This is the Kauaʻi host’s URL list. Inquiry stage. A listed URL is not a Book-now button.',
+      'Every page on our Kauai site, grouped by type.',
     kicker: 'Kauaʻi · Sitemap',
     photo: 'sitemapKauai',
   },
   bigisland: {
-    h1: 'Every live west-side URL on this host.',
-    title: 'Hawaiʻi Island HTML sitemap — live URLs on this host | myCHEF',
-    description:
-      'HTML sitemap for the Hawaiʻi Island host: west-side corridors, supporting documents, and east-side as its own cell.',
+    h1: 'Every page on our Big Island site.',
+    title: 'Hawaiʻi Island sitemap — every page | myCHEF',
+    description: 'Hawaiʻi Island HTML sitemap: practical notes from myCHEF Hawaii for a private chef night in your villa or vacation rental. Send your dates for a written quote.',
     lede:
-      'This is the Hawaiʻi Island host’s URL list. West side first. /east-side is on the list because it is a different day.',
+      'West side first.',
     kicker: 'Hawaiʻi Island · Sitemap',
     photo: 'sitemapBigisland',
   },

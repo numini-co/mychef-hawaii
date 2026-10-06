@@ -23,14 +23,13 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         'Hawaii is launching. We will not invent stars or chef names. The published line is (808) 468-7748. The Gold Coast dinner is real. The Yelp page is not.',
       photo: 'svcHonestyOahu',
       body: [
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) and private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) are measured searches. Those doors are /catering and /. This page is the honesty register so those titles stay clean.`,
-        'We do not invent guest reviews. We do not sell chef bios. HCC citywides are closed through 2027 and are not our product — see /conventions. Hotel suites without kitchens are not a kitchen.',
-        'Proof today: published starting prices on /pricing, a sample menu on /menus, cleanup, a written quote.',
+        'We do not invent guest reviews. We do not sell chef bios. HCC citywides are closed through 2027 and are not our product. Hotel suites without kitchens are not a kitchen.',
+        'Proof today: published starting prices on the pricing page, a sample menu on the menus page, cleanup, a written quote.',
       ],
       faqs: [
         {
           q: 'Do you have Oʻahu reviews?',
-          a: 'Not yet. They publish after verified events. Until then the proof is the card and the quote. See /trust.',
+          a: 'Not yet. They publish after verified events. Until then the proof is the card and the quote.',
         },
         {
           q: 'Will you cook a hotel room?',
@@ -38,7 +37,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Filipino catering Oahu, or bento and catering Oahu?',
-          a: 'Related searches, not a bento mill. We cook villa dinners and staffed estate events. We do not run a banquet hall. See /catering for the staffed room we actually staff.',
+          a: 'Related searches, not a bento mill. We cook villa dinners and staffed estate events. We do not run a banquet hall.',
         },
       ],
       related: [
@@ -59,7 +58,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       photo: 'svcCountsOahu',
       body: [
         'Dinners two to fifteen. Receptions about ten to seventy-five. A hundred-guest lawn is quoted as its own format or declined — not stretched from a Tuesday dinner.',
-        'Kahala dining rooms hold a seated table. Ko Olina villas hold a week. Waikīkī residences hold what the kitchen can hold. See /coverage.',
+        'Kahala dining rooms hold a seated table. Ko Olina villas hold a week. Waikīkī residences hold what the kitchen can hold.',
       ],
       faqs: [
         {
@@ -68,11 +67,11 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Is a dinner for two too small?',
-          a: 'No. Date night is a published band. See /honeymoon-dinners.',
+          a: 'No. Date night is a published band.',
         },
         {
           q: 'Small catering Honolulu?',
-          a: 'Related search. A house dinner for two to fifteen is /private-chef. About ten to seventy-five is /catering. This page names the headcount so those doors stay honest.',
+          a: 'Related search. A house dinner for two to fifteen is on the in-villa dinner page. About ten to seventy-five is on the catering page. This page names the headcount so those doors stay honest.',
         },
       ],
       related: [
@@ -93,7 +92,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       photo: 'svcDietaryOahu',
       body: [
         'Tell us allergies on the quote form. The designed menu in 48 hours names what we can hold. Compact condos change what we can fire.',
-        'This is not a dietary brand. It is the same per-table menu on /menus with the constraint written in.',
+        'This is not a dietary brand. It is the same per-table menu on the menus page with the constraint written in.',
       ],
       faqs: [
         {
@@ -102,7 +101,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Kids and allergies together?',
-          a: 'Yes — planned with /kids-menus, not as an afterthought plate from the freezer.',
+          a: 'Yes — planned with the kids’ menus page, not as an afterthought plate from the freezer.',
         },
       ],
       related: [
@@ -117,22 +116,22 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Honeymoon dinners on Oahu — two seats, one kitchen.',
       title: 'Honeymoon dinners on Oahu — two seats, one kitchen | myCHEF',
       description:
-        'Dinner-for-two in Kahala, Ko Olina and Kailua kitchens. Published starting prices. Not a wedding-week stack — that lives on /weddings.',
+        'Dinner-for-two in Kahala, Ko Olina and Kailua kitchens. Published starting prices.',
       lede:
         'Two plates. Brass candles. The rest of the house dark. This is Date Night, not a reception dressed as romance.',
       photo: 'svcHoneymoonOahu',
       body: [
-        `Wedding catering Oahu (${SEARCH_VOLUMES['wedding catering oahu']}) is /weddings. This page is two seats. The crew is smaller. The quote is a dinner band, not four lines.`,
-        'Gold Coast dining rooms and Ko Olina villas are the usual rooms. A welcome-night grazing for the arriving family is /events/welcome-dinners.',
+        `The crew is smaller. The quote is a dinner band, not four lines.`,
+        'Gold Coast dining rooms and Ko Olina villas are the usual rooms. A welcome-night grazing for the arriving family is on the Welcome dinners page.',
       ],
       faqs: [
         {
           q: 'Is this a wedding?',
-          a: 'No. /weddings is the week. This is Tuesday for two.',
+          a: 'No. This is Tuesday for two.',
         },
         {
           q: 'Can we add a bartender?',
-          a: 'Yes as a line. See /bar.',
+          a: 'Yes as a line.',
         },
       ],
       related: [
@@ -158,11 +157,11 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       faqs: [
         {
           q: 'How many at the counter?',
-          a: 'Usually two to six. Past that it becomes a seated dinner. See /guest-counts.',
+          a: 'Usually two to six. Past that it becomes a seated dinner.',
         },
         {
           q: 'Omakase?',
-          a: 'Sushi-forward is a menu direction on /menus — not a separate brand and not a claim we cannot source.',
+          a: 'Sushi-forward is a menu direction on the menus page — not a separate brand and not a claim we cannot source.',
         },
       ],
       related: [
@@ -182,17 +181,13 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         'The kids eat when the adults eat. Simpler plates, same kitchen, same night. Kailua family weeks are built for this.',
       photo: 'svcKidsOahu',
       body: [
-        'Kailua and Lanikai houses often hold multi-day packages. Town apartments can too if the stove is real. See /kamaaina for resident Tuesdays.',
-        'Dietary for kids is /dietary. We do not print a fake kids’ carte.',
+        'Kailua and Lanikai houses often hold multi-day packages. Town apartments can too if the stove is real.',
+        'We do not print a fake kids’ carte.',
       ],
       faqs: [
         {
           q: 'Separate kids’ sitting?',
           a: 'If the house wants it. Usually one service, two plate styles.',
-        },
-        {
-          q: 'Is this a tourist SKU?',
-          a: 'Visitor families go through / or /vacation-chef. Resident weekly is /kamaaina. Same kitchen standard.',
         },
       ],
       related: [
@@ -217,13 +212,12 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         'We cook villas. We do not staff ballrooms. We do not market West Maui as a Lahaina dining brand. Reviews publish after verified events.',
       photo: 'svcHonestyMaui',
       body: [
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) and private chef Maui (${SEARCH_VOLUMES['private chef maui']}) live on /catering and /. This page holds the refusals so those doors stay honest.`,
-        'No invented chef names. No implied hotel affiliation. Upcountry is a surcharge, not a surprise. See /lahaina for how we name West Maui.',
+        'No invented chef names. No implied hotel affiliation. Upcountry is a surcharge, not a surprise.',
       ],
       faqs: [
         {
           q: 'Lotus Chefs or elite Maui chef?',
-          a: 'Related searches “lotus chefs maui” and “elite maui chef” are other kitchens. We do not impersonate them. This page is the refusal list; / is private chef Maui.',
+          a: 'Related searches “lotus chefs maui” and “elite maui chef” are other kitchens. We do not impersonate them.',
         },
         {
           q: 'Do you have Maui reviews?',
@@ -247,8 +241,8 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         'A tasting for two in Kapalua is not a Wailea lawn. We write the headcount and the crew before the deposit.',
       photo: 'svcCountsMaui',
       body: [
-        'Hotel-zoned residences with kitchens. Identical event plates for a lawn. Date Night stays a dinner band. See /honeymoon-dinners.',
-        'West Maui Saturday traffic is planned into arrival. Headcount does not change the corridor. See /west-maui.',
+        'Hotel-zoned residences with kitchens. Identical event plates for a lawn. Date Night stays a dinner band.',
+        'West Maui Saturday traffic is planned into arrival. Headcount does not change the corridor.',
       ],
       faqs: [
         {
@@ -257,7 +251,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Same crew as catering?',
-          a: 'Same department. /catering is the staffed-room keyword. This page is the number.',
+          a: 'Same department.',
         },
       ],
       related: [
@@ -278,7 +272,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       photo: 'svcDietaryMaui',
       body: [
         'Tell us on the quote. The 48-hour menu names the constraint. Sushi-forward is a direction, not a separate allergen kitchen.',
-        'Kids’ plates with allergies sit on /kids-menus. Lawn identical plates still honor the list — or we do not take the night.',
+        'Kids’ plates with allergies sit on the kids’ menus page. Lawn identical plates still honor the list — or we do not take the night.',
       ],
       faqs: [
         {
@@ -302,22 +296,22 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Honeymoon dinners on Maui — two seats, Wailea or Kapalua.',
       title: 'Honeymoon dinners on Maui — two seats | myCHEF',
       description:
-        'Dinner-for-two in Wailea and Kapalua kitchens. Published starting prices. Wedding-week stacks live on /weddings and /wedding-week.',
+        'Dinner-for-two in Wailea and Kapalua kitchens. Published starting prices.',
       lede:
         'The picture people send. Two plates at blue hour. Not four wedding lines swallowed into one romantic blur.',
       photo: 'svcHoneymoonMaui',
       body: [
-        `Wedding catering Maui (${SEARCH_VOLUMES['wedding catering maui']}) is /weddings. This page is two seats. Welcome dinner for the arriving party is /events/welcome-dinners.`,
-        'Kapalua is often dinner for two. Wailea can be a tasting counter — see /chefs-table.',
+        `Welcome dinner for the arriving party is on the Welcome dinners page.`,
+        'Kapalua is often dinner for two. Wailea can be a tasting counter.',
       ],
       faqs: [
         {
           q: 'Can this start the wedding week?',
-          a: 'As its own line, yes. The week stack is /wedding-week.',
+          a: 'As its own line, yes.',
         },
         {
           q: 'West Maui two-top?',
-          a: 'Kāʻanapali and Kapalua houses with kitchens. Tell us the address. See /west-maui.',
+          a: 'Kāʻanapali and Kapalua houses with kitchens. Tell us the address.',
         },
       ],
       related: [
@@ -345,10 +339,6 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
           q: 'Sushi at the counter?',
           a: 'A menu direction we can arrange when sourcing holds. Not a separate brand.',
         },
-        {
-          q: 'Same as private chef Maui?',
-          a: `Private chef Maui (${SEARCH_VOLUMES['private chef maui']}) is the dinner door on /. This URL is the counter format.`,
-        },
       ],
       related: [
         { path: '/honeymoon-dinners', label: 'Dinner for two' },
@@ -367,13 +357,12 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         'South Maui family weeks are built for this. Adult catch, simpler plates beside. One service.',
       photo: 'svcKidsMaui',
       body: [
-        'Kīhei is often the family house. Wailea can be too. West Maui decks as well — see /south-maui and /west-maui.',
-        'Dietary for kids is /dietary. Multi-day is /vacation-chef.',
+        'Kīhei is often the family house. Wailea can be too. West Maui decks as well.',
       ],
       faqs: [
         {
           q: 'Kids on a lawn reception?',
-          a: 'Yes as plated or buffet lines designed in. Headcount still /guest-counts.',
+          a: 'Yes as plated or buffet lines designed in.',
         },
         {
           q: 'High chairs?',
@@ -402,8 +391,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         'Both shores. Inquiry. We staff the estate when a crew exists. We will not print “now serving Kauaʻi” ahead of that.',
       photo: 'svcHonestyKauai',
       body: [
-        `Private chef Kauai and Kauai catering share ${SEARCH_VOLUMES['private chef kauai']} monthly. Those titles live on / and /catering. This page is the refusal list.`,
-        'Far-North inherits /hanalei-bridge. We do not invent a flat driving fee that covers the island. Guest reviews: none yet.',
+        'We do not invent a flat driving fee that covers the island. Guest reviews: none yet.',
       ],
       faqs: [
         {
@@ -412,11 +400,11 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'South Shore chef as a brand?',
-          a: 'No. One department, two shores. See /south-shore.',
+          a: 'No. One department, two shores.',
         },
         {
           q: 'Farm cook Kauai?',
-          a: 'Related search, not us. We do not impersonate another kitchen or invent farm names. Inquiry-stage estate cooking on both shores is this department. See /about.',
+          a: 'Related search, not us. We do not impersonate another kitchen or invent farm names. Inquiry-stage estate cooking on both shores is this department.',
         },
       ],
       related: [
@@ -436,8 +424,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         'An estate table looking into a valley is not a ballroom. We staff to about seventy-five when a crew exists.',
       photo: 'svcCountsKauai',
       body: [
-        'Inquiry stage. Headcount is still written. Far-North weather can shrink the outdoor table — the clause is /hanalei-bridge.',
-        'Dinner for two is /honeymoon-dinners. The week stack is /wedding-week.',
+        'Inquiry stage. Headcount is still written. Far-North weather can shrink the outdoor table — the clause is on the Hanalei bridge notes.',
       ],
       faqs: [
         {
@@ -467,7 +454,6 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       photo: 'svcDietaryKauai',
       body: [
         'Inquiry stage does not mean a fake dietary promise. The 48-hour menu names the shore and the constraint.',
-        'Kids’ plates: /kids-menus. Menus process: /menus.',
       ],
       faqs: [
         {
@@ -476,7 +462,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Vegan retreat days?',
-          a: 'Full-board retreats are /events/retreats — dietary is table stakes, claimed only when true.',
+          a: 'Full-board retreats are the Retreats page — dietary is table stakes, claimed only when true.',
         },
       ],
       related: [
@@ -491,13 +477,13 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Honeymoon dinners on Kauai — two seats, both shores.',
       title: 'Honeymoon dinners on Kauai — two seats | myCHEF',
       description:
-        'Dinner-for-two on Princeville terraces or Poʻipū kitchens. Inquiry stage. Wedding-week stacks live on /weddings.',
+        'Dinner-for-two on Princeville terraces or Poʻipū kitchens. Inquiry stage.',
       lede:
         'Two plates, mist or sun. Not an estate reception. Far-North two-tops still inherit the bridge clause.',
       photo: 'svcHoneymoonKauai',
       body: [
-        `Kauai wedding catering (${SEARCH_VOLUMES['kauai wedding catering']}) is /weddings. This page is two seats. Inquiry list with the shore.`,
-        'Princeville and Poʻipū are the usual rooms. Hanalei far-North: /hanalei-bridge.',
+        `Inquiry list with the shore.`,
+        'Princeville and Poʻipū are the usual rooms.',
       ],
       faqs: [
         {
@@ -532,11 +518,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       faqs: [
         {
           q: 'How many at the counter?',
-          a: 'Two to six. Past that it is a seated dinner. See /guest-counts — Princeville kitchen at inquiry.',
-        },
-        {
-          q: 'Same as private chef Kauai?',
-          a: `The dinner door is /. This URL is the counter format.`,
+          a: 'Two to six. Past that it is a seated dinner.',
         },
       ],
       related: [
@@ -556,13 +538,12 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         'East-side town houses often hold families. The North and South do too. One service, two plate styles.',
       photo: 'svcKidsKauai',
       body: [
-        'Kapaʻa is a live corridor. Poʻipū pool kitchens and Princeville estates as well. Inquiry stage.',
-        'Dietary: /dietary. Multi-day: /vacation-chef.',
+        'We cook in Kapaʻa, Poʻipū pool kitchens and Princeville estates. Bookings start as an inquiry.',
       ],
       faqs: [
         {
           q: 'Kids and the bridge clause?',
-          a: 'Far-North still inherits weather. We move the night rather than forfeit. See /hanalei-bridge.',
+          a: 'Far-North still inherits weather. We move the night rather than forfeit.',
         },
         {
           q: 'Simple pasta?',
@@ -591,17 +572,16 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         'Four thousand square miles. We cook the west-side radius. Hilo is a different day. Coffee origin is labeled when the law requires it.',
       photo: 'svcHonestyBigisland',
       body: [
-        `Private chef Big Island and private chef Kona are ${SEARCH_VOLUMES['private chef big island']}. Big island catering is ${SEARCH_VOLUMES['big island catering']}. Those titles live on / and /catering. This page is the map of refusals.`,
-        'See /east-side, /coffee-act-198, /kohala-corridor. Event weeks compress the calendar: /ironman-weeks. Reviews: none yet.',
+        'Reviews: none yet.',
       ],
       faqs: [
         {
           q: 'Now serving Hilo?',
-          a: 'Quote-only with dedicated staffing. We will not publish that ahead of a crew. See /east-side.',
+          a: 'Quote-only with dedicated staffing. We will not publish that ahead of a crew.',
         },
         {
           q: 'Named Kona farm on the card?',
-          a: 'Only in writing. Act 198 from 2027. See /coffee-act-198.',
+          a: 'Only in writing. Act 198 from 2027.',
         },
       ],
       related: [
@@ -622,16 +602,15 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       photo: 'svcCountsBigisland',
       body: [
         'West-side first. Waikoloa, Mauna Lani, Kona town. East side is dedicated staffing — not added onto a Waikoloa count.',
-        'Dinner for two: /honeymoon-dinners. Retreat full-board: /events/retreats.',
       ],
       faqs: [
         {
           q: 'Ironman week larger lists?',
-          a: 'Town compresses. Flag dates early. Headcount still has a ceiling. See /ironman-weeks.',
+          a: 'Town compresses. Flag dates early. Headcount still has a ceiling.',
         },
         {
           q: 'Volcano dinner for twelve?',
-          a: 'Quote-only east side. See /east-side.',
+          a: 'Quote-only east side.',
         },
       ],
       related: [
@@ -644,15 +623,15 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       slug: 'dietary',
       name: 'Dietary',
       h1: 'Dietary on Hawaiʻi Island — designed west-side first.',
-      title: 'Dietary on Hawaiʻi Island — designed in, not theatre | myCHEF',
+      title: 'Dietary menus on the Big Island — designed in | myCHEF',
       description:
         'Vegan, gluten-free, allergy-aware Kona–Kohala menus designed in advance. Claimed only when the west-side kitchen can hold it. Inquiry stage.',
       lede:
         'Kanpachi can be dairy-free. Coffee on the crust is coffee, origin when documented. We design the constraint before we print it.',
       photo: 'svcDietaryBigisland',
       body: [
-        'West-side provisioning for west-side nights. East-side dietary is its own team day. See /menus and /coffee-act-198.',
-        'Kids: /kids-menus. Retreat full-board dietary is table stakes on /events/retreats — claimed only when true.',
+        'West-side provisioning for west-side nights. East-side dietary is its own team day.',
+        'Retreat full-board dietary is table stakes on the Retreats page — claimed only when true.',
       ],
       faqs: [
         {
@@ -676,22 +655,18 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Honeymoon dinners on Hawaiʻi Island — two seats, west-side lava.',
       title: 'Honeymoon dinners on Hawaiʻi Island — two seats | myCHEF',
       description:
-        'Dinner-for-two on Kona–Kohala terraces. Inquiry stage. Wedding-week stacks live on /weddings. Not a Hilo add-on.',
+        'Dinner-for-two on Kona–Kohala terraces. Inquiry stage. Not a Hilo add-on.',
       lede:
         'Two plates, hard sun or sunset, Mauna Kea faint. East side is a different day.',
       photo: 'svcHoneymoonBigisland',
       body: [
-        'West-side villas first. Waikoloa and the Kohala Coast are the usual rooms. The week stack is /weddings. Welcome night is /events/welcome-dinners.',
+        'West-side villas first. Waikoloa and the Kohala Coast are the usual rooms.',
         'Inquiry stage. Published starting prices from $210 a guest on this island. ENTRY from $165.',
       ],
       faqs: [
         {
           q: 'Volcano two-top?',
-          a: 'Quote-only east side with dedicated staffing. See /east-side.',
-        },
-        {
-          q: 'Same as private chef Kona?',
-          a: `Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) is the dinner door on /. This URL is two seats.`,
+          a: 'Quote-only east side with dedicated staffing.',
         },
       ],
       related: [
@@ -717,11 +692,11 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       faqs: [
         {
           q: 'How many at the counter?',
-          a: 'Two to six. Past that it is a seated dinner. See /guest-counts — Waikoloa kitchen. Hilo is never implied.',
+          a: 'Two to six. Past that it is a seated dinner. Hilo is never implied.',
         },
         {
           q: 'Coffee tasting with dinner?',
-          a: 'Coffee may be on the crust. A farm tour is not a SKU. See /coffee-act-198.',
+          a: 'Coffee may be on the crust.',
         },
       ],
       related: [
@@ -741,8 +716,8 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         'Waikoloa residences and Kona houses. Adult kanpachi, simpler plates beside. East side is a different day.',
       photo: 'svcKidsBigisland',
       body: [
-        'West-side first. Multi-day family weeks: /vacation-chef. Dietary: /dietary. Inquiry stage.',
-        'Ironman weeks pack town — flag those dates. See /ironman-weeks.',
+        'West-side first. Inquiry stage.',
+        'Ironman weeks pack town — flag those dates.',
       ],
       faqs: [
         {
@@ -751,7 +726,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Hilo family week?',
-          a: 'Quote-only east side. See /east-side.',
+          a: 'Quote-only east side.',
         },
       ],
       related: [

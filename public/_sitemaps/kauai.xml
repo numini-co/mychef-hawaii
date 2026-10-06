@@ -41,6 +41,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://kauai.mychef-hawaii.com/private-chef</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kauai.mychef-hawaii.com/bar</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://kauai.mychef-hawaii.com/princeville</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

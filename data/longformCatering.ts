@@ -1,276 +1,379 @@
 import type { CopyFaq, CopySection } from '@/components/Longform';
 import type { IslandId } from '@/data/islands';
 
+/*
+ * Island catering pages — long-form copy. Each island page owns "{island} catering"
+ * (Oʻahu also "Honolulu catering"; Hawaiʻi Island also "Kona catering").
+ * Small private dinners link to the island home; weddings link to /weddings.
+ * Facts only from the published rate card and existing site copy.
+ * Inline links use `[anchor](/path)` and render as in-text links.
+ */
+
 const oahuSections: CopySection[] = [
   {
-    h2: 'Oahu catering',
+    h2: 'Oahu catering, cooked in your kitchen',
     paras: [
-      'Oahu catering, here, is a staffed villa or residence — not a hotel banquet, not a convention hold, not a tray left on a counter. Honolulu high-rises with a real cooktop, Kahala dining rooms, Kailua estate weeks, and Ko Olina short-stay villas. We shop the same day, cook in the kitchen you actually have, serve the list, and leave the place clean. The guest list is yours. The night ends when you say it ends.',
-      'The lists we staff run about ten to seventy-five. A table of six is usually a private-chef dinner on / — one cook, one conversation, no reception crew. A room of forty is a different product: a pass, a sous, a floor. We will not pretend those are the same booking. Larger rooms exist as written exceptions. They are never implied as standard.',
-      'Food sits in a published band of $195–$290 a guest. That band covers menu design, same-day shopping, cooking, table service, and cleanup. Staffing is not inside it. A server is $80 an hour. A sous is $105. Minimums are four to five hours, printed as their own line. Service at 20% and Hawaiʻi GET up to 4.712% sit on their own lines too. The 50% deposit locks the date once you accept the written total.',
-      'You book myCHEF Hawaii, not a swipeable roster of bios. We assign the brigade to the size of the house. We do not invent chef names or a storefront. Contact is the form on /quote, WhatsApp, quotes@mychef-hawaii.com, and (808) 468-7748. Typical reply in Hawaii business hours. Hawaiʻi guest reviews do not exist yet; they go up after nights we can verify. Until then the proof is the published band, a sample menu, and a number you can read before you pay. A weekly kamaʻāina household line — groceries at cost, a standing cook day — is a different door on / if that is the actual need.',
+      'myCHEF Hawaii is an Oahu catering team for private events at home — villas, estates, residences and vacation rentals from Honolulu to Ko Olina. We plan the menu with you, shop the morning of the event, cook in the kitchen at the house, serve your guests and leave the kitchen clean. Most of our Oahu catering is for ten to seventy-five guests: milestone birthdays, welcome dinners, rehearsal dinners, retreats, family reunions and company dinners.',
+      'We are not a hotel banquet department and we don’t drop off trays. Every event is staffed, every menu is written for that house and that guest list, and you get a written quote with every line on it before you pay a deposit. For a smaller table of six to ten, a [private chef dinner on Oahu](/) is usually the better fit — one chef, one table, the same food.',
     ],
   },
   {
-    h2: 'Honolulu to Ko Olina',
+    h2: 'Honolulu catering: towers, Kahala homes and Waikīkī residences',
     paras: [
-      'Coverage on this island runs Honolulu to Ko Olina. That is a corridor, not a mood. Base zone includes Waikīkī residences that actually have kitchens, the Gold Coast and Kahala, Diamond Head dining rooms, Kakaʻako towers, downtown pied-à-terres, Kailua and Lanikai 30-day estates, and the west-side legal short-stay pool at Ko Olina. Hawaiʻi Kai and ʻEwa / Kapolei sit base-adjacent. North Shore and Turtle Bay are a published surcharge — sixty to ninety-plus minutes from town — named on the quote, never discovered on the invoice. Kāneʻohe is quieter than Kailua and still a published drive from town. We will not flatten those places into one Honolulu blob.',
-      'A hotel suite without a cooktop is declined. We will not treat a coffee maker as a pass. Tower and condo buildings run on freight elevators, quiet-hour windows, and certificates of insurance. Those are booked with management before the night, not negotiated in a driveway at three in the afternoon. Parking and loading are often the constraint in town, not distance.',
-      'Kailua and Lanikai are a 30-day-estate market. They fit multi-day packages and family weeks better than a one-night tourist drop-in. Ko Olina provisions from the west side; lemons do not make a town round-trip. Windward houses get the crew on-site before the evening Pali crush. We schedule around the corridor and aim to be in the kitchen about three hours before service.',
-      'If the house cannot hold the list, we say so before a deposit. A Waikīkī two-bedroom that seats six is a chef dinner, not a forty-guest reception. Tell us the property type on /quote. The form exists so we can decline a kitchen that cannot host us, rather than invent a workaround after you have paid.',
+      'A lot of our Honolulu catering happens in high-rise residences — Kakaʻako, downtown and Waikīkī apartments that have a real kitchen — and in the larger homes of Kahala, the Gold Coast, Diamond Head and Hawaiʻi Kai. Each comes with its own logistics. In a tower we book the freight elevator, work around quiet hours and send the building our certificate of insurance before the day. In Kahala the question is usually the dining room: how many people it seats and whether the night should be plated or served as a buffet.',
+      'In town, parking and loading are often a bigger constraint than distance, so we plan arrival around them and aim to be in the kitchen about three hours before service. A hotel suite with only a coffee maker can’t host a catered dinner. We’ll tell you that before you pay anything, rather than improvise on the night.',
     ],
   },
   {
-    h2: 'How an Oahu kitchen feeds a list',
+    h2: 'Kailua, Ko Olina and the rest of the island',
     paras: [
-      'Most Honolulu residences do not have a restaurant pass. Buffet on this island is the honest answer to that fact. Stations live on the island, along a dining table that only seats eight, or on a lānai rail that can take the heat. Guests walk the line. The crew keeps pans hot and the floor moving. Quiet hours still apply in a tower. This is how a twenty-to-fifty list eats in a high-rise without pretending the galley is a hotel kitchen. It starts to make sense around twenty guests. Below that, a stationed line is usually more theatre than need.',
-      'Plated service on Oahu belongs to houses that already have a table and a pass. Courses leave the kitchen paced, the way a dining room expects. Kahala and Gold Coast estates can hold that arc. A Kakaʻako one-bedroom cannot. Plated needs more hands on the floor for the same headcount, which is why the staffing line grows and the food band does not. We will not sell a coursed night into a room that cannot sit it.',
-      'Family-style is the long-table middle when a Kahala dining room already seats the inner circle — usually a dozen, sometimes eighteen — and nobody wants a stationed line in a house that has a real table. Shared platters. One conversation. Cocktail hour in a tower is boards on the island and passed bites down a short hall: grazing $750–$950 as a labeled market reference, pūpū $5–$7 a piece with twenty-piece minimums. A live-fire station on a Ko Olina lānai is cooking in front of the room, not a photograph we stage.',
-      'Pick the format after you pick the house. The food number stays inside $195–$290. The crew changes. That is the decision, and it is written before anyone shops.',
+      'Outside Honolulu, Kailua and Lanikai homes tend to book longer stays and family weeks, so a catered party there often sits alongside a few chef days. Ko Olina villas on the west side are built for entertaining, and we shop for them on the west side rather than making round trips to town. ʻEwa and Kapolei are close to base, and Kāneʻohe is a quieter windward drive.',
+      'The North Shore and Turtle Bay are sixty to ninety minutes or more from town. We cook there with a published travel surcharge that is printed on the quote, never added afterwards.',
     ],
   },
   {
-    h2: 'Wedding weekends, not a ballroom',
+    h2: 'Buffet, plated or family-style',
     paras: [
-      'A wedding on Oahu is often a weekend stack rather than a seven-day hold: welcome dinner Friday, a smaller rehearsal table Saturday, reception that night, recovery brunch Sunday. Kahala, Ko Olina, and windward estates are the rooms we staff for this — about ten to seventy-five at the reception. Two people who want a fixed-price elopement dinner are a different product, not a miniature banquet.',
-      'Reception food follows the same $195–$290 band, plus the hourly crew. Florals, photography, and the officiant are yours. Drinks are BYO or the packaged cart as its own line. We do not bury a bartender inside a hospitality fee. A wet-weather plan is written before the deposit: indoor backup, covered lānai, or the reschedule posture published on /legal. We do not invent venue exclusivity we do not have.',
-      'One crew holds one wedding weekend at a time. December through March presses the calendar. Ask as soon as the date is real. The full culinary week — and the island wedding page — live on /weddings.',
+      'Most Honolulu homes don’t have a restaurant kitchen, and that shapes the format. A buffet works well for twenty to fifty guests in a residence: stations along the kitchen island or a lānai rail, hot pans kept topped up, and guests eating at their own pace. Plated service suits houses with a proper dining table, where courses leave the kitchen in order — Kahala and Gold Coast estates do this well. Family-style, with shared platters down a long table, sits in between and is lovely for ten to twenty.',
+      'For the hour before dinner we can set grazing boards and passed pūpū. Styled grazing runs around $750–$950 as a market reference, and passed bites are $5–$7 a piece with a twenty-piece minimum. The format changes how many people we need on the floor, not the food price.',
     ],
   },
   {
-    h2: 'Retreats, crews, and rooms we decline',
+    h2: 'What an Oahu catering menu looks like',
     paras: [
-      'A retreat week is a culinary program, not a pile of one-off plates. Breakfast through dinner can hold to a dietary framework you set on day one. Groceries for those multi-day books are billed at cost with receipts. Day four should still taste like someone thought about it. The private-chef Stay Chef day rate on / is the smaller version of the same idea — a villa week with a kitchen that actually runs.',
-      'Film and photo crews book early call times and hot meals that still land when the call sheet slips. Board dinners and staff meals get itemised invoicing a finance team can read. We handle COIs and freight windows for tower and resort residences as ordinary logistics, not as a surprise add-on. January around the Sony Open week presses corporate hospitality — named as calendar awareness, not an affiliation. December holidays are the hardest dates on this island. Ask early; we confirm holds in writing.',
-      'We cook in residences and estate kitchens. Hotel banquet rooms and citywide convention holds are a different industry. We will not claim Honolulu convention work we do not do. If the house has a cooktop and a table that fits the list, we design to that. If it does not, the reply on /quote is a decline, not a charm offensive.',
+      'Every menu is written for the event, but a typical evening might open with ahi poke, local crudités and mango, move to kanpachi crudo or a chilled cucumber-crab first course, and land on wood-grilled catch with coconut rice and island greens — with a meat or vegetable main alongside, so the whole table isn’t eating fish. Lilikoi cheesecake or coconut haupia closes the night.',
+      'We buy fish the morning of the event and cook it that afternoon. Allergies and dietary needs — vegan, gluten-free, nut-aware, children’s plates — are planned into the menu from the start instead of being swapped at the last minute. You can edit the draft until it feels like yours.',
     ],
   },
   {
-    h2: 'What the written total includes',
+    h2: 'Oahu catering prices',
     paras: [
-      'The $195–$290 food band is a published start. Menu, date, kitchen, and headcount move the number inside it. Staffing, the 20% service charge, Hawaiʻi GET up to 4.712%, and any Turtle Bay zone line are added once, in the open. Tip is yours if you want it; it is not a required fourth fee. There is no silent hospitality fold-in. The line-by-line card for this island lives on /pricing.',
-      'Five fields start the work: island, dates, headcount, service, how to reach you. Property type and allergies belong in the first thread, not as a surprise at the pass. We reply in Hawaii business hours with a menu direction and a crew list. No account. Enquiry costs nothing. 50% locks the date after you accept the written total.',
-      'Hawaii is launching. We do not invent local awards, founding years, or guest names. Verified-event reviews will appear when they exist. Until then, read the band, read the sample menu, and send the date. A first-night chef dinner for the same house — if the list is a household, not a reception — starts on /.',
+      'Food is priced per guest at a published $195–$290 on Oahu. That covers menu design, same-day shopping, cooking, service and cleanup. Staff are listed separately: servers are $80 an hour and a sous-chef is $105 an hour, with four- to five-hour minimums. A 20% service charge and Hawaiʻi GET of up to 4.712% are added once, as their own lines. A 50% deposit holds the date once you accept the written total, and a tip is always up to you.',
+      'Drinks are yours to bring, or we can add a [mobile bar](/mobile-bar) or a [villa bartender](/bar) as a separate line. Every Oahu number sits on one page in our [Oahu pricing](/pricing).',
+    ],
+  },
+  {
+    h2: 'Wedding weekends and company events',
+    paras: [
+      'On Oahu a wedding is often a weekend: a welcome dinner on Friday, the reception on Saturday and a recovery brunch on Sunday, each priced as its own line so you can drop one without renegotiating the rest. Reception food starts from $190 a guest plus staff. Our [Oahu wedding catering](/weddings) page covers the full week.',
+      'For companies we cook board dinners, staff meals, film and photo crew meals with early call times, and retreat weeks where groceries for multi-day bookings are billed at cost with receipts. Invoices are itemised so a finance team can read them. January, around the Sony Open, and the December holidays are the busiest dates on the island, so ask early.',
+    ],
+  },
+  {
+    h2: 'How to book catering on Oahu',
+    paras: [
+      'Send five things on the [quote form](/quote): island, dates, guest count, the kind of event and how to reach you. Add the type of property and any allergies in the same message. We reply in Hawaii business hours with a menu direction, a staffing plan and a written quote. You can also call or WhatsApp (808) 468-7748, or email quotes@mychef-hawaii.com.',
+      'We’re new in Hawaii, so you won’t find guest reviews here yet — they will go up after events we can verify. Until then, judge us on the published prices, the sample menu and a written quote you can read line by line before you commit.',
     ],
   },
 ];
 
 const oahuFaqs: CopyFaq[] = [
   {
-    q: 'What’s on the written Oahu catering quote besides food?',
-    a: 'Servers $80 an hour, sous $105, four-to-five-hour minimums. Wedding receptions follow the same food band plus that crew. Service 20% and GET up to 4.712% are their own lines on the written quote.',
+    q: 'How much does catering cost on Oahu?',
+    a: 'Food is $195–$290 a guest, covering menu design, shopping, cooking, service and cleanup. Servers are $80 an hour and a sous-chef $105, with four- to five-hour minimums. A 20% service charge and GET up to 4.712% are added as their own lines on the written quote.',
   },
   {
-    q: 'Do you cater Honolulu towers and Ko Olina villas?',
-    a: 'Yes, when the kitchen is real. Freight elevators, quiet hours, and COIs are arranged before the night. Hotel rooms without cooktops are declined. North Shore / Turtle Bay is a published surcharge.',
+    q: 'Do you cater in Honolulu high-rises and condos?',
+    a: 'Yes, when the residence has a working kitchen. We book the freight elevator, work around quiet hours and send the building our certificate of insurance in advance. Hotel rooms without a cooktop are the one thing we decline.',
   },
   {
-    q: 'Buffet or plated in a condo?',
-    a: 'Buffet fits a compact Honolulu kitchen. Plated needs a table and a pass — Kahala and estate dining rooms, not a one-bedroom galley. Family-style for ten to twenty when the table matches the list.',
+    q: 'How many guests can you cater on Oahu?',
+    a: 'Usually ten to seventy-five. For six to ten guests, a [private chef dinner on Oahu](/) is the better fit. Larger events are possible as written exceptions.',
   },
   {
-    q: 'Where does a small dinner go?',
-    a: 'Tables under about ten usually belong on the private-chef door at /. Catering is the staffed room.',
+    q: 'Buffet or plated — which works better in a Honolulu home?',
+    a: 'A buffet suits most residences and twenty to fifty guests. Plated service needs a dining table that seats the list, as in many Kahala and Gold Coast homes. Family-style works for ten to twenty. The food price stays the same; the staffing changes.',
   },
   {
-    q: 'How do we start?',
-    a: 'Open /quote. Five fields. Or WhatsApp. Typical reply in Hawaii business hours.',
+    q: 'Do you cater on the North Shore?',
+    a: 'Yes. The North Shore and Turtle Bay are sixty to ninety minutes or more from town, so a published travel surcharge is added to the quote.',
+  },
+  {
+    q: 'Can you cater our wedding on Oahu?',
+    a: 'Yes — welcome dinner, reception and recovery brunch, each priced separately, with reception food from $190 a guest plus staff. See [Oahu wedding catering](/weddings) for the full week.',
+  },
+  {
+    q: 'Do you provide drinks or a bartender?',
+    a: 'Drinks are yours to bring, or we add a [villa bartender](/bar) or the [mobile bar](/mobile-bar) as a separate line.',
+  },
+  {
+    q: 'How far ahead should we book?',
+    a: 'As soon as the date is firm. The December holidays and January are the busiest weeks on Oahu, and one crew holds one wedding weekend at a time.',
   },
 ];
 
 const mauiSections: CopySection[] = [
   {
-    h2: 'Maui catering',
+    h2: 'Maui catering at your villa',
     paras: [
-      'Maui catering is a staffed villa night on this island — Wailea residences, West Maui estates, Kīhei houses with a working kitchen. We are not a hotel banquet team and we are not a marketplace of freelance names. myCHEF Hawaii assigns the crew. You get a written menu for that house and a written total before a deposit.',
-      'The Maui food start is $225–$375 a guest — the CORE dinner band, used for a staffed reception the same way it is used for a chef table. Shopping, cooking, service, and cleanup sit inside it. The people on the floor do not. Servers $80 an hour, sous $105, four-to-five-hour minimums, itemised. Twenty percent service and GET up to 4.712% are added once. Half the written total holds the date.',
-      'Guest counts we treat as standard: roughly a dozen up to about seventy-five. Two-to-eight is usually the villa-chef product on /, not a reception with stations. We will not pad a small table into a catering invoice so the page looks busy.',
-      'December through March books early in the resort corridors. September, October, and May press wedding weeks. We do not publish fabricated availability calendars. Ask with a date. The reply comes in Hawaii business hours from /quote.',
+      'myCHEF Hawaii caters private events in Maui villas, estates and vacation homes — Wailea and Makena, Kīhei, and West Maui from Kāʻanapali to Kapalua. Our Maui catering is staffed, not drop-off: we write the menu for your house, shop, cook in the villa kitchen, serve your guests and clean up. Most events are for about a dozen to seventy-five guests — family reunions, milestone birthdays, welcome dinners, rehearsal dinners and retreats.',
+      'You book myCHEF Hawaii as one team, not a list of freelance names, and you get a written menu and a written total before any deposit. If you’re planning dinner for two to eight people, a [private chef on Maui](/) is usually the better choice — same kitchen standard, no reception crew.',
     ],
   },
   {
-    h2: 'Wailea, West Maui, and Kīhei',
+    h2: 'Wailea, West Maui and Kīhei',
     paras: [
-      'Wailea is the signature resort-residence corridor — base zone, December through March the first dates to fill. Makena sits just south, quieter inventory, still base. Outdoor setups there always carry a written indoor or covered backup. The house is still a kitchen test: cooktop, fridge, a table that fits the list. A Wailea residence with a real pass can plate. A Wailea condo with a galley should not be sold a coursed night because the postcode is famous.',
-      'West Maui is named as West Maui. Kāʻanapali, Kapalua, Nāpili, Honokōwai. Traffic along that coast is planned into arrival, not treated as a surprise act of weather. We do not market this stretch as a Lahaina luxury dining brand. It is villa and estate work with a drive that is already in the base map.',
-      'Kīhei is service-led. Condos and vacation homes, kitchens that are often smaller than a Wailea great room. The food band does not change because the postcode is less photographed. Kitchen constraints are stated on the quote. If the galley cannot hold a twenty-top, we say so and point the night at a chef dinner or a different format. South Maui families who want three cook days and a fridge that actually runs should look at Stay Chef on / first; this page is for the night the cousins arrive.',
-      'Upcountry — Makawao, Kula, the Haleakalā slope — carries a published elevation surcharge. Pāʻia and Haʻikū are quote-only; the drive is extended and we will not stack a North Shore night onto a Wailea service day. Named farms appear on a menu only after written verification. Travel beyond base is a line, not a mood. The tariff for those lines is on /pricing.',
+      'Wailea is Maui’s resort-residence corridor and the first area to fill from December through March. Makena, just south, is quieter and still inside our base zone. Many Wailea great rooms can handle a plated dinner; a Wailea condo with a galley kitchen is better suited to a buffet, and we’ll say so.',
+      'West Maui — Kāʻanapali, Kapalua, Nāpili and Honokōwai — is villa and estate work with traffic planned into arrival. Kīhei is mostly condos and vacation homes with smaller kitchens; the food price doesn’t change, but the format might. If a kitchen can’t hold a twenty-person dinner, we’ll suggest a different format before you commit.',
+      'Upcountry — Makawao, Kula and the slopes of Haleakalā — carries a published travel surcharge, and Pāʻia and Haʻikū are quoted case by case because of the drive. Evenings Upcountry run cooler, so the station plan changes with the elevation.',
     ],
   },
   {
-    h2: 'Wind, heat, and how the room is served',
+    h2: 'Buffet, plated or family-style on Maui',
     paras: [
-      'Maui nights default outdoors. That changes the service question. A buffet on this island is a wind-and-heat problem before it is a status problem. Chafers have to stay hot when the trade comes through the sliders. Lids have to stay on the pan. Stations are set where the gust dies, not where the photograph wants them. This is the format for a Wailea great room that wants people standing, a family week that does not want a paced silence, a Kīhei house that can hold a line but cannot run courses out of a galley.',
-      'A plated Maui night is a seated architecture. The table is the room. Courses leave a villa pass on a count, not a hope. Rehearsal dinners and small celebrations in Kapalua or a Wailea dining room can hold that. It costs more in hands, not in food: the $225–$375 band stays; the server line grows. We will not talk you into courses because they sound like a restaurant if the house is a breeze-through lānai with ten feet of counter.',
-      'Family-style is the long outdoor table — the usual estate picture when teak already seats the welcome list and nobody needs a stationed line. Shared platters down the center, the trade in the napkins. The hour before anyone sits is boards and passed bites on the lānai: styled grazing in the $750–$950 market band (labeled as such), pieces at $5–$7 with a twenty-piece floor. Sushi-forward — nigiri, sashimi, hand rolls — is a menu direction we can cook in the villa, not a second brand.',
-      'Format is a staffing and weather decision. The wet-weather plan is on the quote before anyone shops. We would rather station an honest line than plate a fantasy. Upcountry evenings run cooler; chafers that work on a Wailea lānai can sit too quiet in Makawao, so the station plan changes with elevation, not just with guest count.',
+      'Most Maui events happen outdoors, and the trade winds shape the service. A buffet is set where the wind drops, with lids that stay on and pans that stay hot when the breeze comes through the sliders. It suits a Wailea great room full of people standing, or a family week that doesn’t want a long, paced dinner.',
+      'Plated dinners suit a dining room or a sheltered terrace — rehearsal dinners and celebrations in Kapalua or Wailea often go this way. Plated service needs more people on the floor for the same guest count, so the staffing line grows while the food price stays the same. Family-style, at a long outdoor table with platters down the middle, is the classic estate picture.',
+      'Before dinner, we set grazing boards (around $750–$950 as a market reference) and passed bites at $5–$7 a piece with a twenty-piece minimum. A sushi-forward menu — nigiri, sashimi and hand rolls — is also a direction we can cook in the villa.',
     ],
   },
   {
-    h2: 'Wedding week on this island',
+    h2: 'What’s on a Maui catering menu',
     paras: [
-      'Wedding catering on Maui is a week you can cut. Welcome dinner, rehearsal, reception, recovery brunch — each a separate line on one proposal, so a brunch can come off without renegotiating a mystery package. Receptions we staff: about ten to seventy-five, private estate, not a ballroom buyout. Food from $225 a guest plus the hourly crew. Two people who want a fixed-price dinner are not a miniature reception; that product starts around $750 on this island and lives with the chef table, not with a stationed line.',
-      'Wailea, Kapalua, Kāʻanapali, Makena, and the Upcountry houses that justify the drive. Peak pressure is September, October, and May. One crew holds one wedding week at a time. Florals and photography are yours. The bar is a first-class add-on. Indoor backup is written, not invented on the lawn at four in the afternoon. A West Maui reception the same weekend as a Wailea welcome dinner is two holds, not a clever drive we pretend is one.',
-      'The island wedding page is /weddings. Send the date on /quote as soon as it is real. We do not invent Maui wedding reviews. Proof is the published band and the written week stack.',
+      'A typical Maui evening might start with ahi poke and island crudités, move to kanpachi crudo, and serve wood-grilled catch with coconut rice and island greens alongside a meat or vegetable main. Lilikoi cheesecake or haupia finishes it. Farm names only appear on a menu after we have them confirmed in writing.',
+      'Dietary needs are designed into the menu from the first draft. Multi-day retreat shopping is billed at cost with the receipts, so you can see exactly what was bought.',
     ],
   },
   {
-    h2: 'Published Maui food and staffing',
+    h2: 'Maui catering prices',
     paras: [
-      '$225–$375 a guest is the published food start, not a chat range. Menu, kitchen, and date move you inside the band. Crew hours, the 20% service charge, GET up to 4.712%, and any Upcountry or Pāʻia drive line are printed once. Multi-day retreat shopping is receipted at cost — you see the store tape. Alcohol is BYO or quoted. Rentals are add-ons when you want them. A tip is not required on the quote.',
-      'A villa week that is really a chef week — arrival dinner, a stocked fridge, maybe a full-board day — belongs on the private-chef door at /. This page is the staffed room. Do not order a reception crew for eight people because the word catering appeared in a search. Day rates from $1,550 on Maui sit on that other door; they are not a discount catering package.',
-      'Five fields. No account. Asking does not require a card. Hawaii business hours. Call (808) 468-7748 or WhatsApp the desk — there is no street office. The confirmed total is the page you get back in writing. If the house is a Wailea residence with a cooktop, say so. If it is a hotel room, we will decline before anyone shops.',
+      'Food on Maui is published at $225–$375 a guest. That covers menu design, shopping, cooking, service and cleanup. Staff are separate and itemised: servers are $80 an hour and a sous-chef $105, with four- to five-hour minimums. A 20% service charge and GET of up to 4.712% are added once, and half the written total holds the date. Upcountry or Pāʻia travel, if any, is its own line. A tip is never required.',
+      'Drinks are yours to bring, or we can quote a [villa bartender](/bar) or the [mobile bar](/mobile-bar). Our [Maui pricing](/pricing) page lists every number in one place.',
+    ],
+  },
+  {
+    h2: 'Wedding weeks on Maui',
+    paras: [
+      'A Maui wedding is often a week of events: welcome dinner, rehearsal, reception and recovery brunch, each a separate line on one proposal. Receptions we cater run from about ten to seventy-five guests at private estates rather than ballrooms, with food from $225 a guest plus staff. September, October and May are the busiest wedding months, and one crew holds one wedding week at a time.',
+      'Every outdoor reception gets a written indoor or covered backup before the deposit. For the full picture, see [Maui wedding catering](/weddings).',
+    ],
+  },
+  {
+    h2: 'What happens on the day',
+    paras: [
+      'The crew arrives with the shopping done, sets up the kitchen and the stations, and cooks on site. Servers set and clear, keep a buffet topped up or pace the courses, and the kitchen is cleaned before we leave. Rentals such as extra tables or linens can be added when you want them.',
+      'Before we quote, we ask the same kitchen questions for every Maui house: is there a working cooktop, enough fridge space, and a table or lānai that fits the guest list? Photos of the kitchen help. If the answer is no, we’ll suggest a format that works rather than promise a dinner the house can’t serve.',
+    ],
+  },
+  {
+    h2: 'How to book catering on Maui',
+    paras: [
+      'Send your island, dates, guest count, type of event and contact details on the [quote form](/quote), and tell us whether the house is in Wailea, West Maui, Kīhei or Upcountry. We reply in Hawaii business hours with a menu direction and a written quote. You can also call or WhatsApp (808) 468-7748. There’s no street office — the team comes to you.',
+      'December through March fills first in the resort areas, so ask as soon as your dates are firm. If you’d rather have a chef for the whole stay than one big event, look at a [chef for the week on Maui](/vacation-chef), from $1,550 a day.',
     ],
   },
 ];
 
 const mauiFaqs: CopyFaq[] = [
   {
-    q: 'What’s on the written Maui catering quote besides food?',
-    a: 'Wedding receptions from $225 a guest plus staffing at $80 an hour for a server and $105 for a sous. Service 20% and GET up to 4.712% on their own lines. Groceries for multi-day days are billed at cost with receipts.',
+    q: 'How much does catering cost on Maui?',
+    a: 'Food is $225–$375 a guest. Servers are $80 an hour and a sous-chef $105, with four- to five-hour minimums. A 20% service charge and GET up to 4.712% are added once, as their own lines.',
   },
   {
-    q: 'Does Upcountry change the Maui catering band?',
-    a: 'The food start stays $225–$375. Kitchen quality changes the format, not the published start. Upcountry is a surcharge. Pāʻia / Haʻikū are quote-only.',
+    q: 'Which parts of Maui do you cater?',
+    a: 'Wailea, Makena, Kīhei and West Maui (Kāʻanapali, Kapalua, Nāpili, Honokōwai) are base zone. Upcountry has a published surcharge; Pāʻia and Haʻikū are quoted case by case.',
   },
   {
-    q: 'Can the night stay outside?',
-    a: 'Often. Trades and rain are why the wet-weather plan is written before the deposit. Buffet stations are placed for wind and heat, not for a photograph.',
+    q: 'Can the event stay outdoors?',
+    a: 'Usually, yes. Buffet stations are placed out of the wind, and every outdoor event gets a written wet-weather plan before the deposit.',
   },
   {
-    q: 'Where do I send the date?',
-    a: '/quote, or WhatsApp. Wedding-week shape is on /weddings. The tariff is on /pricing.',
+    q: 'How many guests can you cater on Maui?',
+    a: 'About a dozen to seventy-five. For two to eight guests, book a [private chef on Maui](/) instead.',
+  },
+  {
+    q: 'Do you cater weddings on Maui?',
+    a: 'Yes — welcome dinner through recovery brunch, with reception food from $225 a guest plus staff. See [Maui wedding catering](/weddings).',
+  },
+  {
+    q: 'Can you do a sushi-forward menu?',
+    a: 'Yes. Nigiri, sashimi and hand rolls are a menu direction we can cook in the villa.',
+  },
+  {
+    q: 'When should we book Maui catering?',
+    a: 'As early as you can. December through March fills first in Wailea and West Maui, and September, October and May are the busiest wedding months.',
   },
 ];
 
 const kauaiSections: CopySection[] = [
   {
-    h2: 'Kauai catering',
+    h2: 'Kauai catering on both shores',
     paras: [
-      'Kauai catering is estate and villa work on both shores — Princeville and Hanalei to the north, Poʻipū and Kōloa to the south, Kapaʻa and Līhuʻe in the middle. You book a crew, not a drop-off. We design a menu for that kitchen, shop, cook, serve, and pack out. The island is live. Dated enquiries are booked, not collected for a waitlist. A house that wants a cook for the week and a reception on Saturday should say so in the first note; those are two products on one quote, not a bundled mystery.',
-      'Kauaʻi food sits at $225–$375 a guest. A local incumbent prints a tighter $200–$250; we print the wider band and a written quote, not a mystery total that lands later. Staffing is separate: $80 an hour for a server, $105 for a sous, four-to-five-hour minimums. Wedding-week food on this island starts at $260 a guest plus that crew — higher than a celebration dinner because the week is a different hold.',
-      'Standard rooms: about ten to seventy-five. Smaller tables should use the private-chef door on /. Far-North houses past Hanalei inherit a weather-and-road clause you will see in writing. We would rather reschedule a closure than forfeit a deposit over a bridge you cannot cross.',
-      'Līhuʻe and Kapaʻa are the base zone. Princeville, Hanalei, and Poʻipū carry a published surcharge. Hāʻena and the far North are quote-only, with seventy-two-hour notice. Driving fees on this island are a map. They are not a flat surprise.',
+      'myCHEF Hawaii caters private events in Kauai villas and estates on both shores — Princeville and Hanalei on the North Shore, Poʻipū and Kōloa on the South Shore, and Kapaʻa and Līhuʻe in between. Kauai catering with us means a staffed event, not a drop-off: we write the menu for your house, shop, cook in the kitchen, serve and clean up. Most events are for about ten to seventy-five guests.',
+      'Send your dates and tell us which shore the house is on, and we’ll reply in writing with what we can staff. For a dinner of eight or fewer, a [private chef on Kauai](/) is usually the better fit — and if you want a cook for the week plus one bigger party, say so in your first note and we’ll quote both together.',
+      'The events we cater most often on Kauai are family reunions in a rented estate, welcome dinners for a wedding group, milestone birthdays, retreat weeks and rehearsal dinners. Each one gets the same approach: a menu written for the house, a staffing plan sized to the guest list and the shore, and a written total with every line on it before you pay a deposit.',
     ],
   },
   {
-    h2: 'Princeville, Poʻipū, and Hanalei',
+    h2: 'Princeville and Hanalei',
     paras: [
-      'Princeville is the North Shore estate inventory — great rooms, mist, winters that book early because the surf season fills houses. A crew stages from Līhuʻe and pays the published shore surcharge. Surf-season dates should be sent as soon as they are real. We do not hold a silent calendar.',
-      'Hanalei is the town below the bluff. Weather and the road are part of the booking, not local color. Far-North events inherit the Hanalei-bridge clause: closures reschedule rather than punish. If the second van cannot cross, a plated night that needed those hands cannot be improvised with a smile. That is a staffing conversation on the first reply, not at four o\'clock on the day.',
-      'Poʻipū and Kōloa are the South Shore: sunnier, a shorter drive from Līhuʻe, still a surcharge, still a kitchen test. Arrival-night dinners and retreat weeks fit this coast. Small weddings to about seventy-five fit when the house fits. Kalāheo and the west side — Waimea, Hanapēpē — are further again, quoted with advance notice.',
-      'Tell us which shore on /quote. The food band does not change when the mist does. The drive line and the wet plan do. A Saturday that tries to plate in Princeville and station in Poʻipū is two crews. We will say that before anyone shops, not after the second van is already late on the bypass.',
+      'Princeville holds most of the North Shore’s estate homes, and winter dates there book early. The North Shore is often misty, so outdoor events always come with a covered backup, and a buffet under a covered lānai is a common choice from November to March.',
+      'Hanalei and the far North are beautiful and more complicated. If the Hanalei bridge closes, we move the event rather than keep your deposit. Hāʻena and the far North need seventy-two hours’ notice and are quoted case by case. Princeville and Hanalei carry a published travel surcharge of $50–$75, printed on the quote.',
     ],
   },
   {
-    h2: 'Buffet or plated on two shores',
+    h2: 'Poʻipū, Kōloa and the South Shore',
     paras: [
-      'Kauaʻi has two climates and one food band. That is why buffet versus plated is a shore question, not a taste question. A Princeville great room in January often wants a stationed line under a covered lānai, pans that can wait while the rain passes, guests who can still eat if the lawn is closed. Buffet on the North Shore is how forty people eat when the pass is a residential kitchen and the sky is a stakeholder. The written wet plan is the other half of that sentence.',
-      'Poʻipū can hold a plated table on the grass more nights of the year. Courses make sense when the South Shore house has a dining room or a calm lawn and the list is already seated in the architecture. Plated still means more servers for the same count. If the far-North road is a maybe, we will not promise a coursed night that needs a second car of hands. We will offer a stationed line that one crew can actually run.',
-      'Family-style sits in the inner-circle band — a Hanalei or Kōloa table that already seats the rehearsal list, usually under twenty — when a stationed line would be louder than the house. Shared platters, one conversation, the rain on the tin if the North is doing what the North does. The hour people are still arriving from opposite coasts is boards and passed bites: market grazing $750–$950, labeled as a reference, pieces $5–$7 with a twenty-piece floor. Live fire belongs to South Shore kitchens that can take it; North Shore gets the covered plan instead of a stubborn grill in the rain.',
-      'We will not copy a mainland banquet flowchart onto this island. The format follows the road, the roof, and the count.',
+      'Poʻipū and Kōloa are sunnier and closer to our Līhuʻe staging, and many South Shore homes can host a plated dinner on the lawn on more nights of the year. Arrival dinners, retreat weeks and small weddings of up to about seventy-five guests fit well when the house fits. Poʻipū also carries the published $50–$75 travel line.',
+      'Kalāheo and the west side — Waimea and Hanapēpē — are farther again and quoted with advance notice. Līhuʻe and Kapaʻa are our base zone, with no travel surcharge.',
     ],
   },
   {
-    h2: 'A menu written for that week',
+    h2: 'Buffet or plated on Kauai',
     paras: [
-      'There is a sample estate menu on this page. It is not a laminated carte. Your written menu is designed that week around the kitchen, the shore, the kids, and the allergies. Ahi poke with kukui and sweet onion is a North Shore handshake. Wood-grilled catch, mango, coconut rice is a South Shore fire. You edit until it is yours. Named farms print only with written verification. We will not print a farm we have not confirmed in writing just because the sentence sounds local.',
-      'Dietary frameworks are designed in, not swapped at the pass. Severe allergies are a conversation before confirmation. A retreat week that wants breakfast through dinner is receipted shopping — you see every store tape — plus the crew hours. Drinks stay BYO or the bar as its own line. The private-chef sample on / is the smaller, seated version of the same kitchen standard: a Princeville dinner for eight, not a Poʻipū reception for forty.',
-      'Stay Chef on this island starts at $1,650 a day. That is a villa week, not a discount reception. Read the island tariff on /pricing if you want the band next to the day rate and the bar. Then send the week. We would rather write a menu that fits a galley than promise a banquet a Princeville kitchen cannot fire.',
+      'On Kauai the format often depends on the shore. A North Shore great room in January usually suits a buffet: pans can wait while the rain passes, and forty people can still eat well if the lawn is closed. On the South Shore, a plated dinner on the grass is realistic more often. Plated service needs more servers for the same number of guests, so the staffing line grows; the food price doesn’t.',
+      'Family-style suits rehearsal-sized tables of under twenty. Before dinner, grazing boards run around $750–$950 as a market reference and passed bites are $5–$7 a piece with a twenty-piece minimum. Live-fire cooking works best at South Shore homes; on the North Shore we plan a covered version instead.',
     ],
   },
   {
-    h2: 'Wedding as a related door',
+    h2: 'A Kauai catering menu',
     paras: [
-      'Kauai wedding catering is the same team with a higher food start: from $260 a guest plus staffing. Welcome dinner, rehearsal, reception, recovery brunch as separate lines. Estate formats on both shores, about ten to seventy-five at the reception. North Shore winters fill first. Far-North weeks inherit the bridge clause like any other night. A Poʻipū lawn in September is a different weather conversation than a Hanalei great room in January; the quote says which.',
-      'One crew, one week. Cut a brunch without reopening a package. Florals and photography stay yours. The dedicated page is /weddings. The date itself belongs on /quote. We do not invent Kauaʻi wedding reviews, a storefront, or a history we have not lived. Proof is the band, the shore map, and the written week.',
+      'The sample estate menu on this page is a starting point, not a fixed list. Ahi poke with kukui and sweet onion, wood-grilled catch with mango and coconut rice, and a lilikoi or haupia dessert are typical, and your menu is written that week around the kitchen, the shore, the kids and any allergies. Farm names only appear once we have them confirmed in writing.',
+      'Dietary needs are designed in from the first draft. Retreat weeks that need breakfast through dinner are shopped at cost with receipts, plus staff hours. Drinks are yours to bring, or a [villa bartender](/bar) can be added as its own line.',
+    ],
+  },
+  {
+    h2: 'Kauai catering prices',
+    paras: [
+      'Food on Kauai is published at $225–$375 a guest, covering menu design, shopping, cooking, service and cleanup. Staff are separate: servers are $80 an hour and a sous-chef $105, with four- to five-hour minimums. A 20% service charge and GET of up to 4.712% are added once, and a 50% deposit holds the date. Travel to Princeville, Hanalei or Poʻipū is a published $50–$75 line.',
+      'Wedding catering on Kauai starts at $260 a guest plus staff. Every island number is listed on our [Kauai pricing](/pricing) page.',
+    ],
+  },
+  {
+    h2: 'What to tell us about the house',
+    paras: [
+      'The most useful first message names the shore, the town and the kind of property. Tell us whether there’s a working cooktop, how much fridge space there is, and where people will eat — a dining room, a covered lānai or the lawn. Photos of the kitchen help. For far-North homes, tell us the exact address so we can check the road plan.',
+      'On the day, the crew arrives with the shopping done, sets the kitchen and the stations, cooks on site, serves and clears, and leaves the kitchen clean. Vacation rentals with a real kitchen are the norm; hotel rooms without a cooktop can’t host a catered event.',
+    ],
+  },
+  {
+    h2: 'Weddings and longer stays',
+    paras: [
+      'Kauai weddings run as a week of separate lines — welcome dinner, rehearsal, reception and recovery brunch — at estates on either shore, for about ten to seventy-five guests. North Shore winters fill first. See [Kauai wedding catering](/weddings) for how the week works.',
+      'If the stay is the real event, a chef for the week may suit you better than one large party: [Stay Chef on Kauai](/vacation-chef) starts at $1,650 a day, with groceries at cost. Send your dates, your shore and your guest count on the [inquiry form](/quote), call or WhatsApp (808) 468-7748, or email quotes@mychef-hawaii.com.',
     ],
   },
 ];
 
 const kauaiFaqs: CopyFaq[] = [
   {
-    q: 'What’s on the written Kauai catering quote besides food?',
-    a: 'Wedding formats from $260 a guest plus staffing. Servers $80 an hour, sous $105. Service 20% and GET up to 4.712% as their own lines. A local competitor prints $200–$250; we print the band and a written quote.',
+    q: 'How much does catering cost on Kauai?',
+    a: 'Food is $225–$375 a guest. Servers are $80 an hour and a sous-chef $105, with four- to five-hour minimums. A 20% service charge and GET up to 4.712% are added as their own lines, plus a $50–$75 travel line for Princeville, Hanalei or Poʻipū.',
   },
   {
-    q: 'Princeville or Poʻipū — is travel included?',
-    a: 'Līhuʻe and Kapaʻa are base. Both shores carry a published surcharge. Hāʻena and the far North are quote-only with seventy-two-hour notice and a Hanalei-bridge weather clause.',
+    q: 'Do you cater in Princeville and Poʻipū?',
+    a: 'Yes, both shores. Līhuʻe and Kapaʻa are base zone; Princeville, Hanalei and Poʻipū carry a published travel surcharge. Hāʻena and the far North need seventy-two hours’ notice.',
   },
   {
-    q: 'Does the North Shore change buffet versus plated?',
-    a: 'North Shore winters often want a covered stationed line. Poʻipū can hold a plated lawn more nights. Far-North plated nights are a staffing decision because of the road. Family-style for ten to twenty.',
+    q: 'What happens if the Hanalei bridge closes?',
+    a: 'We reschedule the event rather than keep your deposit. The weather-and-road clause is written into the quote for far-North events.',
   },
   {
-    q: 'Is the sample Kauai estate menu the one we eat?',
-    a: 'No. A sample estate menu is on this page. The menu you eat is written that week for that house.',
+    q: 'Buffet or plated on the North Shore?',
+    a: 'North Shore winters often suit a buffet under a covered lānai. Poʻipū lawns can host a plated dinner more often. Family-style works for groups under twenty.',
   },
   {
-    q: 'How does a wedding week start?',
-    a: 'From $260 a guest plus staffing. Shape the week on /weddings, send the date on /quote.',
+    q: 'How many guests can you cater on Kauai?',
+    a: 'About ten to seventy-five. For eight or fewer, book a [private chef on Kauai](/) instead.',
+  },
+  {
+    q: 'Do you cater weddings on Kauai?',
+    a: 'Yes, from $260 a guest plus staff, with each event of the week priced separately. See [Kauai wedding catering](/weddings).',
+  },
+  {
+    q: 'How do we start?',
+    a: 'Send your dates, shore and guest count on the [inquiry form](/quote), or WhatsApp (808) 468-7748. We reply in writing in Hawaii business hours.',
   },
 ];
 
 const bigislandSections: CopySection[] = [
   {
-    h2: 'Hawaiʻi Island catering',
+    h2: 'Big Island catering on the Kona–Kohala Coast',
     paras: [
-      'Hawaiʻi Island catering is west-side work first: the Kona–Kohala corridor, not a same-day island-wide promise. Kailua-Kona, Keauhou, Waikoloa, Mauna Lani, the Mauna Kea resort belt, Puakō, Hōlualoa mauka of town. We shop, cook, and serve in the villa or estate you actually booked. Hilo and Volcano are a different day, quoted with their own crew, never squeezed across the saddle after a Kohala lunch.',
-      'CORE food publishes at $210–$325 a guest. ENTRY dinners from $165 when the menu and the house fit that band. Staffing is the same hourly card as the other islands: $80 a server, $105 a sous, four-to-five-hour minimums. Wedding receptions from $225 a guest plus that crew. Service 20%, GET up to 4.712%, 50% to lock the date — each printed once.',
-      'This page is the west-side kitchen: Kohala estates, Kona residences, the ranch houses that justify a Waimea surcharge. Statewide catering lives on the main site. What you get here is the corridor we actually staff — local drives, published bands, no island-wide fiction. A same-week Hilo reception is a different booking, written that way.',
-      'Ironman week in October and the Kona Coffee Festival in November compress the corridor. Merrie Monarch in April presses the east side, which is already quote-only from Kona. Flag those dates early. Feasibility is confirmed in writing. We do not publish a fake open calendar. A Kohala Saturday in Ironman week is a capacity hold, not a vibe we sell through.',
+      'myCHEF Hawaii caters private events in villas and estates on the Big Island’s west side: Kailua-Kona and Keauhou, Hōlualoa above town, and the Kohala Coast resort communities of Waikoloa, Mauna Lani, the Mauna Kea resort and Puakō. Our Big Island catering is staffed — we write the menu for your house, shop on the Kona side, cook in the villa, serve your guests and clean up.',
+      'We focus on the west side because that’s where we can staff well. Hilo and Volcano are a different day, quoted separately with their own crew. For a dinner of six or so, a [private chef on the Big Island](/) is the simpler booking.',
+      'Most of our Big Island catering is for ten to seventy-five guests: family reunions in a Kohala Coast villa, welcome dinners for a wedding group, milestone birthdays, retreat weeks and company offsites. Every event gets a menu written for the house, a staffing plan sized to the guest list and a written total with every line on it before you pay a deposit.',
     ],
   },
   {
-    h2: 'Kohala estate events',
+    h2: 'Kona catering for villas and residences',
     paras: [
-      'Kohala estate events are long tables, lava-heat evenings, and kitchens that range from a true pass to a resort-residence galley. Mauna Lani, Waikoloa, the Mauna Kea resort community — named for the coast, not the summit — sit inside the thirty-minute west-side radius. Seven resort communities share that loop. A crew can run a night here without inventing a cross-island miracle. Puakō houses between Waikoloa and Mauna Lani sit on the same base map; they are not a separate island claim.',
-      'Waimea and Hāmākua are cooler, higher, and a published surcharge. Ranch houses and upcountry tables belong on that line, not on a silent invoice. A Waimea farm dinner is operational — the supply loop is real — not a theatre we invent for a caption. Kaʻū and the south are an extended surcharge with advance notice. Named Kaʻū coffee on a crust is coffee, origin-labeled when the law requires it. Named mushrooms from the Hāmākua coast print only after written verification.',
-      'Kailua-Kona town sits at the south end of the same corridor. Event weeks there are a capacity question. We would rather decline a second Saturday than staff a fantasy. The private-chef door on / is the smaller west-side dinner — six seats, one cook, no stationed line. A Kona table of six should not buy a Kohala reception crew.',
+      'Kona catering covers Kailua-Kona town, Keauhou at the south end of the corridor and the coffee-country homes of Hōlualoa. Villa and residence kitchens here range from a full chef’s kitchen to a compact galley, so we check the kitchen before we suggest a format. Load-in is usually simple — resort-residence rules, HOA quiet hours and a driveway that fits a van are confirmed before the day.',
+      'Evenings in Hōlualoa run cooler than on the coast and often call for a covered setup. Kona coffee on a dessert or a rub is labeled by origin when the rules require it.',
     ],
   },
   {
-    h2: 'West-side service, east-side honesty',
+    h2: 'Kohala Coast estate events',
     paras: [
-      'A same-day Kona–Hilo round trip is a logistics fantasy. The east side is two and a half to three hours from the west-side base. Events in Hilo or Volcano are quoted with dedicated staffing and, often, an overnight model. We publish that instead of discovering it at your first course. Merrie Monarch week is exactly when that honesty matters — the island is already full, and the saddle is not a commute.',
-      'West-side load-in is ordinary: resort-residence rules, HOA quiet hours, a driveway that can take a van. We confirm those before the night. Reach us on /quote, WhatsApp (https://wa.me/18084687748), quotes@mychef-hawaii.com, or (808) 468-7748 — Hawaii business hours. No street office. East side is a dedicated day, not same-day CORE.',
-      'Alcohol is BYO or licensed staffing on a separate line. Neighbor-island liquor-catering rules that still need counsel stay marked as such. We will not improvise a license we have not confirmed.',
+      'The Kohala Coast is seven resort communities within about a thirty-minute radius — Waikoloa, Mauna Lani, the Mauna Kea resort and Puakō among them. This is where most of our larger events happen: long tables on the lawn, warm evenings and kitchens that range from a true chef’s line to a resort-residence galley.',
+      'Waimea and the Hāmākua coast are higher and cooler and carry a published travel surcharge; ranch houses there are quoted on that line. Kaʻū and the south carry an extended surcharge with advance notice.',
     ],
   },
   {
-    h2: 'How a Kohala night is plated or stationed',
+    h2: 'Buffet, plated or family-style',
     paras: [
-      'A buffet on the lava coast is ranch-scale, not cafeteria. Stations have to survive a Kohala breeze and a heat that dries protein if you turn your back. Pans are chosen for the wind. The line is set where the wall cuts the gust. This is how a Waikoloa great room feeds thirty without asking a residential range to fire seventy plated mains at once. Reunion weeks and informal receptions live here.',
-      'Plated on this island is a terrace count. Twelve seats at Mauna Lani, a kitchen that is actually a kitchen, courses leaving a pass into still air behind a lanai screen. It is the format when the list is already a table and the house can pace. It is not the format we haul over the saddle to Hilo in one day. More servers, same food band. The $210–$325 start does not jump because the plate has a rim.',
-      'Family-style is the teak table down a Kohala lawn — an inner-circle count, platters in the middle, the evening still light. The hour people are still coming up from Kona is a board on the lava-rock wall and passed bites in the heat: grazing in the $750–$950 labeled market band, pieces $5–$7 once we clear a twenty-piece floor. Live fire belongs to estates that can take smoke and a grill; coffee-country evenings in Hōlualoa are cooler and often want the covered version of the same food.',
-      'Pick the format after you pick the coast. East-side plated is a dedicated-day quote. West-side buffet is a breeze-and-heat quote. Neither is a status upgrade.',
+      'On the Kohala Coast a buffet has to handle wind and heat: pans chosen for the breeze, stations set behind a wall, protein kept from drying out. It’s how a Waikoloa great room feeds thirty without asking a home range to fire thirty plated mains at once, and it suits reunions and relaxed receptions.',
+      'Plated dinners suit a terrace table of about twelve in still air, with a kitchen that can pace courses. They need more servers for the same guest count, but the food price stays the same. Family-style, with platters down a teak table on the lawn, sits in between. Before dinner, grazing boards run around $750–$950 as a market reference and passed bites are $5–$7 a piece with a twenty-piece minimum.',
     ],
   },
   {
-    h2: 'What we publish before a deposit',
+    h2: 'Big Island catering prices',
     paras: [
-      'Starting food $210–$325, ENTRY from $165 when it fits, wedding from $225 plus staffing. The island card — Stay Chef from $1,450 a day, bar, zone lines — is on /pricing. The week shape for vows is on /weddings. The five-field start is /quote. If you want a tip line printed, ask; it is not baked in.',
-      'A retreat week that cooks more than once is receipted shopping, not a folded grocery mystery. We do not invent Hawaiʻi Island reviews, chef names, or a founding year. Guest notes go up after verified nights, not before. What you can read today is the corridor map, the band, and the written total. If the house is a Kohala estate with a cooktop, send it. If it is a Hilo lodge you want staffed from Kona after lunch, we will write a dedicated day or we will decline.',
+      'Food on the Big Island is published at $210–$325 a guest, with a lighter menu from $165 a guest when the menu and the house fit. That covers menu design, shopping, cooking, service and cleanup. Servers are $80 an hour and a sous-chef $105, with four- to five-hour minimums. A 20% service charge and GET of up to 4.712% are added once, and a 50% deposit holds the date.',
+      'Travel outside the Kona–Kohala corridor starts from a published $75 line, and the east side is always its own quote. Drinks are yours to bring, or a [villa bartender](/bar) is added as a separate line. See every number on our [Big Island pricing](/pricing) page.',
+    ],
+  },
+  {
+    h2: 'Event weeks and the east side',
+    paras: [
+      'Ironman week in October and the Kona Coffee Festival in November fill the west side quickly, and Merrie Monarch in April fills the east side. Flag those dates early and we’ll confirm what’s possible in writing. One crew holds one heavy event week at a time.',
+      'Hilo is two and a half to three hours from the west side, so a same-day Kona–Hilo round trip isn’t realistic. Events in Hilo or Volcano get a dedicated day — often with an overnight — quoted honestly from the start.',
+    ],
+  },
+  {
+    h2: 'What to tell us about the villa',
+    paras: [
+      'The first question we ask is west side or east side, because that answer changes the crew, not just the drive. After that: the town or resort community, whether there’s a working cooktop, how much fridge space there is, and where guests will eat. Photos of the kitchen help, and outdoor tables on lava rock get a wet-weather plan before anyone pays a deposit.',
+      'On the day, the crew arrives with the shopping done, sets up, cooks on site, serves and clears, and leaves the kitchen clean. Multi-day retreat shopping is billed at cost with the receipts, so you can see every line.',
+    ],
+  },
+  {
+    h2: 'Weddings and how to book',
+    paras: [
+      'Big Island wedding receptions start from $225 a guest plus staff, with welcome dinners, rehearsals and brunches priced as separate lines. See [Big Island wedding catering](/weddings) for the full week.',
+      'To start, send your dates, guest count, type of event and the villa’s location on the [inquiry form](/quote), or call or WhatsApp (808) 468-7748. We reply in Hawaii business hours. If you’d rather have a chef for the whole stay, [Stay Chef on the Big Island](/vacation-chef) starts at $1,450 a day.',
     ],
   },
 ];
 
 const bigislandFaqs: CopyFaq[] = [
   {
-    q: 'What’s on the written Hawaiʻi Island catering quote besides food?',
-    a: 'Wedding from $225 a guest plus staffing at $80 / $105 an hour. Service 20% and GET up to 4.712% on their own lines. ENTRY from $165 when the menu and the house fit that band.',
+    q: 'How much does catering cost on the Big Island?',
+    a: 'Food is $210–$325 a guest, or from $165 for a lighter menu. Servers are $80 an hour and a sous-chef $105, with four- to five-hour minimums. A 20% service charge and GET up to 4.712% are added as their own lines.',
   },
   {
-    q: 'Is east-side catering a same-day add-on from Kona?',
-    a: 'No. East side is two and a half to three hours from the west-side base. Hilo and Volcano are dedicated staffing, quoted honestly.',
+    q: 'Do you offer catering in Kona?',
+    a: 'Yes. Kailua-Kona, Keauhou and Hōlualoa are part of our west-side base, along with the Kohala Coast resort communities.',
   },
   {
-    q: 'Where do you actually cook?',
-    a: 'Kohala and Kona first — Waikoloa, Mauna Lani, the Mauna Kea resort belt, Kailua-Kona, Keauhou. Waimea is a surcharge. Kaʻū is an extended surcharge.',
+    q: 'Which Kohala Coast communities do you cater?',
+    a: 'Waikoloa, Mauna Lani, the Mauna Kea resort and Puakō. Waimea carries a published surcharge; Kaʻū an extended one.',
+  },
+  {
+    q: 'Can you cater in Hilo?',
+    a: 'Yes, as a dedicated day. Hilo is two and a half to three hours from the west side, so it is quoted separately, often with an overnight.',
   },
   {
     q: 'What about Ironman week?',
-    a: 'October compresses the corridor. Coffee Festival in November does the same. Flag those dates on /quote; we confirm feasibility in writing.',
+    a: 'October fills the Kona side quickly, and the Kona Coffee Festival in November does the same. Tell us the dates early and we’ll confirm in writing.',
+  },
+  {
+    q: 'Do you cater weddings on the Big Island?',
+    a: 'Yes, with reception food from $225 a guest plus staff. See [Big Island wedding catering](/weddings).',
+  },
+  {
+    q: 'How many guests can you cater?',
+    a: 'About ten to seventy-five. For a smaller dinner, book a [private chef on the Big Island](/) instead.',
   },
 ];
 

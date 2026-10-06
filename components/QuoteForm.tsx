@@ -307,7 +307,7 @@ export default function QuoteForm({
               )}
               {inquiry ? (
                 <p className="mt-3 text-[13px] text-mute">
-                  {islands[island].name} is inquiry-stage. This form joins the inquiry list — it is not
+                  {islands[island].name} is by inquiry only. This form joins the inquiry list — it is not
                   an instant book and the button is not “Book now.” We write back when we can staff.
                 </p>
               ) : null}

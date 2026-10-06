@@ -3,6 +3,7 @@ import Eyebrow from '@/components/Eyebrow';
 import Photo from '@/components/Photo';
 import { islands, type IslandId } from '@/data/islands';
 import { stillForPath } from '@/lib/documentStill';
+import { isPathLike, pathBlurb } from '@/lib/pathBlurbs';
 
 /** Island-host document list as photography, not paper tiles. */
 export default function DocumentPhotoGrid({
@@ -50,7 +51,10 @@ export default function DocumentPhotoGrid({
                     />
                   </span>
                   <span className="mt-5 block font-display text-[1.5rem] font-light text-ink">{item.label}</span>
-                  <span className="mt-2 block text-[13px] text-mute">{item.detail ?? item.path}</span>
+                  {(() => {
+                    const detail = item.detail && !isPathLike(item.detail) ? item.detail : pathBlurb(item.path);
+                    return detail ? <span className="mt-2 block text-[13px] text-mute">{detail}</span> : null;
+                  })()}
                 </HostLink>
               </li>
             );

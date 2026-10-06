@@ -121,6 +121,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://mychef-hawaii.com/private-chef</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mychef-hawaii.com/bar</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://mychef-hawaii.com/coverage</loc>
     <changefreq>monthly</changefreq>
     <priority>0.55</priority>
@@ -626,6 +636,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://oahu.mychef-hawaii.com/private-chef</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://oahu.mychef-hawaii.com/bar</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://maui.mychef-hawaii.com/pricing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -647,6 +667,16 @@
   </url>
   <url>
     <loc>https://maui.mychef-hawaii.com/vacation-chef</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://maui.mychef-hawaii.com/private-chef</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://maui.mychef-hawaii.com/bar</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -676,6 +706,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://kauai.mychef-hawaii.com/private-chef</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kauai.mychef-hawaii.com/bar</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://bigisland.mychef-hawaii.com/pricing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -697,6 +737,16 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/vacation-chef</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bigisland.mychef-hawaii.com/private-chef</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bigisland.mychef-hawaii.com/bar</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

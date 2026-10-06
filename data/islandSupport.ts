@@ -24,20 +24,18 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
     h1: 'Oahu questions — kitchens, corridors, what we will not claim.',
     title: 'Oahu FAQ — kitchens, corridors, what we publish | myCHEF',
     description:
-      'Oahu booking questions: hotel kitchens vs residences, North Shore surcharge, published prices, reviews. Catering and private-chef doors stay on their own URLs.',
+      'Oahu booking questions: hotel kitchens vs residences, North Shore surcharge, published prices, reviews.',
     lede:
-      'This page answers the booking. The staffed-room keyword lives on /catering. The dinner door is this host’s home. We do not invent guest reviews.',
+      'This page answers the booking. We do not invent guest reviews.',
     kicker: 'Oʻahu FAQ',
     photo: 'faqOahu',
     body: [
-      `Oahu catering is the largest measured search on this network (${SEARCH_VOLUMES['oahu catering']} monthly, US, 4 Sep 2026). That URL is /catering. This FAQ does not compete with it.`,
-      `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) and private chef Honolulu (${SEARCH_VOLUMES['private chef honolulu']}) sit on / and /honolulu. Personal chef Honolulu is a smaller related phrase (${SEARCH_VOLUMES['personal chef honolulu']}) — household weeks on /personal-chef, not a second dinner title.`,
       'Waikīkī hotel suites often lack a kitchen. Residences with a real stove are the product. Kahala dining rooms, Ko Olina villas, Kailua weeks, and a North Shore surcharge day are not the same drive; the quote says which.',
     ],
     faqs: [
       {
         q: 'Is this the Oahu catering page?',
-        a: `No. /catering owns that keyword (${SEARCH_VOLUMES['oahu catering']} monthly searches). This page is booking questions: kitchens, corridors, what we publish.`,
+        a: `No.`,
       },
       {
         q: 'Do you cook in a Waikīkī hotel room?',
@@ -45,19 +43,19 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Is the North Shore extra?',
-        a: 'Yes. Turtle Bay and the North Shore are a published surcharge — 60–90+ minutes from town. Surf-season dates book early. See /north-shore and /coverage.',
+        a: 'Yes. Turtle Bay and the North Shore are a published surcharge — 60–90+ minutes from town. Surf-season dates book early.',
       },
       {
         q: 'Are groceries included?',
-        a: 'Two models, and we never blend them. On a Signature or per-guest dinner, food and grocery procurement sit inside the published per-guest band — there is no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking, it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The rate card is /pricing; the fee stack is /private-chef-cost.',
+        a: 'Two models, and we never blend them. On a Signature or per-guest dinner, food and grocery procurement sit inside the published per-guest band — there is no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking, it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The rate card is the pricing page; the fee stack is on the private chef cost page.',
       },
       {
         q: 'Do you have Oʻahu guest reviews?',
-        a: 'Not yet. We will not invent them. Reviews publish after verified events. Proof today is published starting prices and a written quote. See /trust.',
+        a: 'Not yet. We will not invent them. Reviews publish after verified events. Proof today is published starting prices and a written quote.',
       },
       {
         q: 'Wedding catering or a dinner?',
-        a: `Wedding catering Oahu is /weddings (${SEARCH_VOLUMES['wedding catering oahu']} monthly). A Tuesday dinner in Kahala is / or /private-chef. Pick the door that matches the night.`,
+        a: `A Tuesday dinner in Kahala is the private chef page or the in-villa dinner page. Pick the door that matches the night.`,
       },
     ],
   },
@@ -65,40 +63,35 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
     h1: 'Maui questions — villa kitchens, West Maui naming, prices.',
     title: 'Maui FAQ — villa kitchens, West Maui naming, prices | myCHEF',
     description:
-      'Maui booking questions: catering vs dinner, how we name Lahaina, Upcountry surcharge, published prices. Money keywords stay on /catering and /.',
+      'Maui booking questions: catering vs dinner, how we name Lahaina, Upcountry surcharge, published prices.',
     lede:
-      'Maui catering is the larger search. Private-chef dinners are the picture people send. This FAQ keeps those doors from colliding and says how we name West Maui.',
+      'Answers about Maui catering, private chef dinners, how we name West Maui, the Upcountry surcharge and published prices.',
     kicker: 'Maui FAQ',
     photo: 'faqMaui',
     body: [
-      `Maui catering is ${SEARCH_VOLUMES['maui catering']} monthly searches; private chef Maui is ${SEARCH_VOLUMES['private chef maui']}. /catering holds the first. This host’s home holds the second. This FAQ holds neither title.`,
-      'We cook West Maui residences with kitchens — Kāʻanapali, Nāpili, Kapalua. We do not market a Lahaina luxury-dining brand. The address page is /lahaina.',
+      'We cook West Maui residences with kitchens — Kāʻanapali, Nāpili, Kapalua. We do not market a Lahaina luxury-dining brand.',
       'Upcountry is a published surcharge. Pāʻia and Haiku are quote-only with the menu. Wailea, Makena, and Kīhei are base-zone South Maui — three logistics stories, one team.',
     ],
     faqs: [
       {
-        q: 'Should I open catering or this FAQ?',
-        a: `Open /catering for the staffed-room keyword (${SEARCH_VOLUMES['maui catering']}). Open / for private chef Maui (${SEARCH_VOLUMES['private chef maui']}). This page is questions.`,
-      },
-      {
         q: 'Do you do Lahaina luxury dining?',
-        a: 'No. We cook West Maui houses: Kāʻanapali, Nāpili, Kapalua. Tell us the address. /lahaina is how we name that geography.',
+        a: 'No. We cook West Maui houses: Kāʻanapali, Nāpili, Kapalua. Tell us the address.',
       },
       {
         q: 'What does a night cost?',
-        a: `Starting prices are on /pricing — CORE $225–$375 a guest on Maui. “Private chef Maui cost” is a related search we do not invent a volume for here; the written quote is the number.`,
+        a: `Starting prices are on the pricing page — CORE $225–$375 a guest on Maui.`,
       },
       {
         q: 'Are groceries included?',
-        a: 'Two models, never conflated. A Signature or per-guest dinner keeps food and grocery procurement inside the published band — no separate “+ groceries” line. A Stay Chef, multi-day or weekly-cook villa week is the chef fee plus groceries at cost, with original merchant receipts and zero markup. See /pricing and /private-chef-cost.',
+        a: 'Two models, never conflated. A Signature or per-guest dinner keeps food and grocery procurement inside the published band — no separate “+ groceries” line. A Stay Chef, multi-day or weekly-cook villa week is the chef fee plus groceries at cost, with original merchant receipts and zero markup.',
       },
       {
         q: 'Do you have Maui guest reviews?',
-        a: 'Not yet — and we will not invent them. Reviews publish only after verified events, never bought or written in-house. What we can prove now is published starting prices from $225 a guest, sample menus, and a written quote. See /trust and /blog/no-fake-reviews.',
+        a: 'Not yet — and we will not invent them. Reviews publish only after verified events, never bought or written in-house. What we can prove now is published starting prices from $225 a guest, sample menus, and a written quote.',
       },
       {
         q: 'Wedding week vs a Tuesday dinner?',
-        a: `Wedding catering Maui is /weddings (${SEARCH_VOLUMES['wedding catering maui']} monthly). Welcome, rehearsal, reception, and recovery brunch are separate lines on /wedding-week.`,
+        a: `Welcome, rehearsal, reception, and recovery brunch are separate lines on the wedding week page.`,
       },
     ],
   },
@@ -106,15 +99,15 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
     h1: 'Kauai questions — both shores, inquiry, the bridge.',
     title: 'Kauai FAQ — both shores, inquiry, the bridge | myCHEF',
     description:
-      'Kauai booking questions: inquiry stage, Princeville vs Poʻipū, Hanalei-bridge weather clause, published prices. Catering stays on /catering.',
+      'Kauai booking questions: by inquiry, Princeville vs Poʻipū, Hanalei-bridge weather clause, published prices.',
     lede:
       'Both shores. Inquiry stage. The bridge and the weather are real. We staff the estate when a crew exists — we do not dress a waitlist as live.',
     kicker: 'Kauaʻi FAQ',
     photo: 'faqKauai',
     body: [
-      `Private chef Kauai and Kauai catering share the same measured volume (${SEARCH_VOLUMES['private chef kauai']} monthly). Home holds the dinner door. /catering holds the staffed room. This FAQ holds the logistics.`,
-      'Princeville and Hanalei inherit weather and the Hanalei-bridge clause — 72-hour notice, reschedule rather than forfeit. Poʻipū is a shorter drive from Līhuʻe. See /hanalei-bridge, /north-shore, /south-shore.',
-      'Kauai wedding catering is a small measured phrase (10 monthly). The week stack is /weddings. Estate formats to about 75 guests.',
+      `This FAQ holds the logistics.`,
+      'Princeville and Hanalei inherit weather and the Hanalei-bridge clause — 72-hour notice, reschedule rather than forfeit. Poʻipū is a shorter drive from Līhuʻe.',
+      'Estate formats to about 75 guests.',
     ],
     faqs: [
       {
@@ -123,19 +116,19 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'North Shore or South Shore?',
-        a: 'Princeville and Hanalei are the North. Poʻipū and Kōloa are the South. Far-North events inherit the bridge clause. Coverage is /coverage.',
+        a: 'Princeville and Hanalei are the North. Poʻipū and Kōloa are the South. Far-North events inherit the bridge clause.',
       },
       {
         q: 'Is this Kauai catering?',
-        a: `No. /catering owns that keyword (${SEARCH_VOLUMES['kauai catering']}). This page is questions: inquiry, shores, weather.`,
+        a: `No.`,
       },
       {
         q: 'Are groceries included?',
-        a: 'Two models, kept separate even at inquiry. A Signature or per-guest dinner has food and grocery procurement inside the published band — no separate “+ groceries” line. A Stay Chef, multi-day or weekly-cook booking is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The card is /pricing; the stack is /private-chef-cost.',
+        a: 'Two models, kept separate even at inquiry. A Signature or per-guest dinner has food and grocery procurement inside the published band — no separate “+ groceries” line. A Stay Chef, multi-day or weekly-cook booking is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The card is the pricing page; the stack is on the private chef cost page.',
       },
       {
         q: 'Do you have Kauaʻi guest reviews?',
-        a: 'Not yet. We will not invent them. Proof is published starting prices from $225 a guest and a written quote. See /trust.',
+        a: 'Not yet. We will not invent them. Proof is published starting prices from $225 a guest and a written quote.',
       },
     ],
   },
@@ -143,24 +136,24 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
     h1: 'Hawaiʻi Island questions — west side first, Hilo honesty.',
     title: 'Hawaiʻi Island FAQ — west side first, Hilo honesty | myCHEF',
     description:
-      'Big Island booking questions: Kona–Kohala first, Hilo quote-only, Ironman-week calendar, coffee origin labeling. Catering stays on /catering.',
+      'Big Island booking questions: Kona–Kohala first, Hilo quote-only, Ironman-week calendar, coffee origin labeling.',
     lede:
       'The island is 4,000 square miles. We cook the Kona–Kohala corridor first. Hilo is a different day. We publish that instead of overselling.',
     kicker: 'Hawaiʻi Island FAQ',
     photo: 'faqBigisland',
     body: [
-      `Private chef Big Island and private chef Kona are both ${SEARCH_VOLUMES['private chef big island']} monthly. Big island catering is ${SEARCH_VOLUMES['big island catering']}. Those titles live on / and /catering. This FAQ is the map.`,
-      'Seven resort communities sit inside a 30-minute west-side radius. See /kohala-corridor. East side — Hilo and Volcano — is 2.5–3 hours and quote-only with dedicated staffing.',
-      'Event weeks in Kailua-Kona compress availability. Named Kona and Kaʻū coffee follow Act 198 from 2027; we do not invent farm names. See /ironman-weeks and /coffee-act-198.',
+      ` This FAQ is the map.`,
+      'Seven resort communities sit inside a 30-minute west-side radius. East side — Hilo and Volcano — is 2.5–3 hours and quote-only with dedicated staffing.',
+      'Event weeks in Kailua-Kona compress availability. Named Kona and Kaʻū coffee follow Act 198 from 2027; we do not invent farm names.',
     ],
     faqs: [
       {
         q: 'Do you cover the whole island?',
-        a: 'No. West side first: Kona, Waikoloa, the Kohala Coast, Waimea as a surcharge. Hilo and Volcano are quote-only. See /coverage and /east-side.',
+        a: 'No. West side first: Kona, Waikoloa, the Kohala Coast, Waimea as a surcharge. Hilo and Volcano are quote-only.',
       },
       {
         q: 'Same as Big Island catering?',
-        a: `No. /catering owns that keyword (${SEARCH_VOLUMES['big island catering']}). This page is questions.`,
+        a: `No.`,
       },
       {
         q: 'Can you do Hilo from Kona in one day?',
@@ -168,15 +161,15 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Are groceries included?',
-        a: 'Two models, never blended. A Signature or per-guest dinner keeps food and grocery procurement inside the published band — no separate “+ groceries” line. A Stay Chef, multi-day or weekly-cook west-side booking is the chef fee plus groceries at cost, with original merchant receipts and zero markup. See /pricing and /private-chef-cost.',
+        a: 'Two models, never blended. A Signature or per-guest dinner keeps food and grocery procurement inside the published band — no separate “+ groceries” line. A Stay Chef, multi-day or weekly-cook west-side booking is the chef fee plus groceries at cost, with original merchant receipts and zero markup.',
       },
       {
         q: 'Do you have Hawaiʻi Island guest reviews?',
-        a: 'Not yet — and we will not invent them. West-side inquiry-stage means proof is published starting prices from $225 a guest, sample menus, and a written quote — not a five-star page. See /trust and /blog/no-fake-reviews.',
+        a: 'Not yet — and we will not invent them. On the west side, booking by inquiry means proof is published starting prices from $225 a guest, sample menus, and a written quote — not a five-star page.',
       },
       {
         q: 'Ironman week — are you available?',
-        a: 'Flag those dates early. Town compresses. We publish the calendar pressure instead of overselling. See /ironman-weeks.',
+        a: 'Flag those dates early. Town compresses. We publish the calendar pressure instead of overselling.',
       },
     ],
   },
@@ -193,14 +186,14 @@ export const islandCoverage: Record<IslandId, IslandSupportPage> = {
     kicker: 'Oʻahu coverage',
     photo: 'coverageOahu',
     body: [
-      'Live neighborhood URLs on this host: /honolulu, /waikiki, /kahala, /kailua, /ko-olina, /north-shore. Gold Coast estates and legal short-stay villas have their own cells: /gold-coast, /short-stay.',
+      'Neighborhoods we cook in: Honolulu, Waikīkī, Kahala / Gold Coast, Kailua / Lanikai, Ko Olina, North Shore. Gold Coast estates and legal short-stay villas have their own pages: Gold Coast, Short-stay villas.',
       'Waikīkī residences with kitchens are base; most hotel suites are not a kitchen. Kahala dining rooms are estate entertaining. Ko Olina holds the deepest legal short-stay villa pool on this island. Kailua is built for multi-day packages. North Shore / Turtle Bay is 60–90+ minutes — published surcharge.',
-      'We do not claim every zip code. HCC citywides are closed through 2027; this department is not a MICE play. See /conventions.',
+      'We do not claim every zip code. HCC citywides are closed through 2027; this department is not a MICE play.',
     ],
     faqs: [
       {
         q: 'Is Honolulu a different department?',
-        a: 'No. Honolulu residences are /honolulu on this host. Private chef Honolulu is a search phrase, not a second company.',
+        a: 'No. Honolulu residences are the Honolulu page on this site. Private chef Honolulu is a search phrase, not a second company.',
       },
       {
         q: 'Do you drive to the North Shore for one dinner?',
@@ -208,7 +201,7 @@ export const islandCoverage: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Private chef near me?',
-        a: 'Related search. On this host, near you means the published corridors: Honolulu, Kahala, Waikīkī residences, Kailua, Ko Olina, and a North Shore surcharge. We do not claim every zip. See /locations.',
+        a: 'On Oahu, near you means the neighborhoods we cover: Honolulu, Kahala, Waikīkī residences, Kailua, Ko Olina, and a North Shore surcharge. We do not claim every zip.',
       },
     ],
   },
@@ -222,14 +215,14 @@ export const islandCoverage: Record<IslandId, IslandSupportPage> = {
     kicker: 'Maui coverage',
     photo: 'coverageMaui',
     body: [
-      'Live neighborhood URLs: /wailea, /kaanapali, /lahaina, /kihei, /kapalua, /makena. Corridor cells: /south-maui, /west-maui. We do not market Lahaina luxury dining; /lahaina says how we name West Maui.',
+      'Live neighborhood URLs: Wailea, Kāʻanapali, Lahaina / West Maui, Kīhei, Kapalua, Makena. Areas: South Maui, West Maui. We do not market Lahaina luxury dining; the Lahaina / West Maui page says how we name West Maui.',
       'Wailea, Makena, Kāʻanapali, Kapalua are base. Upcountry is elevation and drive time — published surcharge. Pāʻia / Haiku is quote-only with the menu.',
       'A South Maui Tuesday and a West Maui Saturday are not the same traffic. We plan arrival into the corridor.',
     ],
     faqs: [
       {
         q: 'Is Kīhei the same as Wailea?',
-        a: 'Same South Maui team, different logistics. Kīhei is residential vacation homes. Wailea is resort residences. See /south-maui.',
+        a: 'Same South Maui team, different logistics. Kīhei is residential vacation homes. Wailea is resort residences.',
       },
       {
         q: 'Do you cover Hana?',
@@ -247,7 +240,7 @@ export const islandCoverage: Record<IslandId, IslandSupportPage> = {
     kicker: 'Kauaʻi coverage',
     photo: 'coverageKauai',
     body: [
-      'Live neighborhood URLs: /princeville, /poipu, /hanalei, /kapaa. Shore cells: /north-shore, /south-shore. Far-North weather is /hanalei-bridge.',
+      'Live neighborhood URLs: Princeville, Poʻipū, Hanalei, Kapaʻa. Shores: North Shore, South Shore.',
       'Līhuʻe and Kapaʻa are included. Princeville, Hanalei, and Poʻipū carry a published surcharge. Hāʻena and the far North are quote-only with 72-hour notice — road closures reschedule rather than forfeit.',
       'Inquiry stage. We staff the estate when a crew exists. We will not pretend a flat $50 driving fee covers the island.',
     ],
@@ -258,7 +251,7 @@ export const islandCoverage: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'What if the bridge closes?',
-        a: 'Far-North events inherit a written clause: 72-hour notice, reschedule rather than forfeit. See /hanalei-bridge.',
+        a: 'Far-North events inherit a written clause: 72-hour notice, reschedule rather than forfeit.',
       },
     ],
   },
@@ -272,18 +265,18 @@ export const islandCoverage: Record<IslandId, IslandSupportPage> = {
     kicker: 'Hawaiʻi Island coverage',
     photo: 'coverageBigisland',
     body: [
-      'Live neighborhood URLs: /kona, /waimea, /waikoloa, /kohala. Corridor cells: /kohala-corridor, /east-side. Calendar pressure: /ironman-weeks.',
+      'Live neighborhood URLs: Kailua-Kona / Keauhou, Waimea, Waikoloa, Kohala Coast.',
       'Base is the Kona–Kohala corridor — Kailua-Kona, Keauhou, Kohala resorts, Waikoloa. Waimea / Hāmākua is a surcharge. Kaʻū / South is an extended surcharge with advance notice. Hilo / Volcano is 2.5–3 hours — dedicated staffing, never a west-side round trip.',
-      'Inquiry stage. Named coffee follows Act 198 from 2027. See /coffee-act-198.',
+      'Inquiry stage. Named coffee follows Act 198 from 2027.',
     ],
     faqs: [
       {
         q: 'Is Waimea oceanfront?',
-        a: 'No. Waimea is ranch country in the mist. The ocean dinner is Kona and Kohala. See /waimea.',
+        a: 'No. Waimea is ranch country in the mist. The ocean dinner is Kona and Kohala.',
       },
       {
         q: 'Can you add Volcano onto a Waikoloa wedding?',
-        a: 'Not as a same-day errand. East side is its own team day. See /east-side.',
+        a: 'Not as a same-day errand. East side is its own team day.',
       },
     ],
   },
@@ -330,15 +323,11 @@ export const islandHow: Record<IslandId, IslandSupportPage> = {
         q: 'How early do you arrive in town?',
         a: 'About three hours before service, scheduled around the corridor so we are not sitting in the Pali or H-1 at the wrong hour.',
       },
-      {
-        q: 'Is this the same as statewide how-it-works?',
-        a: 'The steps are the network. This page names Oahu drive times. Statewide copy lives on mychef-hawaii.com/how-it-works.',
-      },
     ],
   },
   maui: {
     h1: 'How a Maui night runs — Wailea to West Maui logistics.',
-    title: 'How a Maui night runs — Wailea to West Maui logistics | myCHEF',
+    title: 'How a Maui chef night runs | myCHEF',
     description:
       'Maui booking process: enquiry, 48-hour menu, written quote with corridor traffic planned in, we cook and leave it clean.',
     lede:
@@ -378,7 +367,7 @@ export const islandHow: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Can the same team do welcome dinner and reception?',
-        a: 'Yes as separate lines on a wedding week. See /wedding-week and /weddings.',
+        a: 'Yes as separate lines on a wedding week.',
       },
     ],
   },
@@ -414,7 +403,7 @@ export const islandHow: Record<IslandId, IslandSupportPage> = {
       {
         n: '04',
         title: 'The night, if the road is open.',
-        body: 'We cook and leave it clean. If the bridge closes, we reschedule. See /hanalei-bridge.',
+        body: 'We cook and leave it clean. If the bridge closes, we reschedule.',
       },
     ],
     faqs: [
@@ -470,7 +459,7 @@ export const islandHow: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Do you name the farm on the plate?',
-        a: 'Only when we have it in writing. Act 198 from 2027 governs named Kona and Kaʻū coffee. See /coffee-act-198.',
+        a: 'Only when we have it in writing. Act 198 from 2027 governs named Kona and Kaʻū coffee.',
       },
     ],
   },
@@ -479,7 +468,7 @@ export const islandHow: Record<IslandId, IslandSupportPage> = {
 export const islandMenus: Record<IslandId, IslandSupportPage> = {
   oahu: {
     h1: 'Oahu menus — designed per table, Honolulu fish market.',
-    title: 'Oahu menus — designed per table, Honolulu fish market | myCHEF',
+    title: 'Oahu chef menus — Honolulu fish market | myCHEF',
     description:
       'Oahu villa menus are designed per table, not a standing carte. Miso-glazed catch, poke tostada, compact-condo kitchens. Sample three-course on this page.',
     lede:
@@ -501,13 +490,13 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Honolulu catering menus with prices?',
-        a: 'Related search, not a PDF mill. This page is the per-table dinner plate. /catering is the staffed room. Both show a sample and a starting band. Your designed menu arrives after enquiry.',
+        a: 'Related search, not a PDF mill. Both show a sample and a starting band. Your designed menu arrives after enquiry.',
       },
     ],
   },
   maui: {
     h1: 'Maui menus — Wailea and Kapalua kitchens, not a carte.',
-    title: 'Maui menus — Wailea and Kapalua kitchens, not a carte | myCHEF',
+    title: 'Maui chef menus — Wailea to Kapalua | myCHEF',
     description:
       'Maui villa menus designed per table: ahi poke, macadamia-crusted catch, tasting plates. Not a laminated standing list.',
     lede:
@@ -516,12 +505,12 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
     photo: 'menusMaui',
     body: [
       'Ahi poke, inamona, ogo, lime — the table goes quiet. Macadamia-crusted fresh catch with whatever ran that morning — mahi, ono, or opakapaka.',
-      'Lawn receptions get identical event plates, not a dinner tasting stretched to seventy-five. That format lives on /catering.',
+      'Lawn receptions get identical event plates, not a dinner tasting stretched to seventy-five.',
     ],
     faqs: [
       {
         q: 'Is there a Maui catering menu PDF?',
-        a: 'Catering formats are /catering. This page is the per-table dinner. Both are designed; neither is a fake standing carte.',
+        a: 'Both are designed; neither is a fake standing carte.',
       },
       {
         q: 'Dietary?',
@@ -531,7 +520,7 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
   },
   kauai: {
     h1: 'Kauai menus — North Shore handshake, South Shore fire.',
-    title: 'Kauai menus — North Shore handshake, South Shore fire | myCHEF',
+    title: 'Kauai chef menus — North & South Shore | myCHEF',
     description:
       'Kauai estate menus designed per table: ahi poke, wood-grilled catch. North Shore covered lānai plan; South Shore fire. Inquiry stage.',
     lede:
@@ -549,13 +538,13 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Kauai catering menu?',
-        a: `Related search, not a PDF mill. /catering is the staffed room. This page is the dinner plate.`,
+        a: `Related search, not a PDF mill.`,
       },
     ],
   },
   bigisland: {
     h1: 'Hawaiʻi Island menus — kanpachi and coffee crust, origin-honest.',
-    title: 'Hawaiʻi Island menus — kanpachi and coffee crust, origin-honest | myCHEF',
+    title: 'Big Island chef menus — kanpachi, Kona coffee | myCHEF',
     description:
       'Kona–Kohala menus designed per table: kanpachi crudo, coffee-rubbed catch labeled honestly. Named farms only in writing. Inquiry stage.',
     lede:
@@ -564,7 +553,7 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
     photo: 'menusBigisland',
     body: [
       'Kanpachi crudo, citrus, chili oil — or ahi poke when the boat is in. Coffee-rubbed catch or ranch steak with Hāmākua mushrooms. Coffee on the crust is coffee; origin labeled when Act 198 requires it.',
-      'We do not invent farm names to decorate a tasting. See /coffee-act-198.',
+      'We do not invent farm names to decorate a tasting.',
     ],
     faqs: [
       {
@@ -573,7 +562,7 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'East-side menu?',
-        a: 'Hilo and Volcano are quote-only with dedicated staffing. The sample below is the west-side dinner. See /east-side.',
+        a: 'Hilo and Volcano are quote-only with dedicated staffing. The sample below is the west-side dinner.',
       },
     ],
   },

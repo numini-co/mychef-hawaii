@@ -14,9 +14,9 @@ export default function Page() {
         <>
         <ContactCluster />
         <HubPhotoGrid
-          eyebrow="Beside this desk"
-          heading="Open a related document."
-          intro="This page is the four-island picker for how to reach a coordinator. The form, the rate card, the FAQ, and the honesty register are their own URLs. Island desks stay on the island host. WhatsApp, phone, and email are on this desk — not only on island /contact."
+          eyebrow="Related pages"
+          heading="Related pages."
+          intro="WhatsApp, phone, and email are on this desk — not only on island the contact page."
           columns={2}
           items={[
             {
@@ -28,13 +28,13 @@ export default function Page() {
             {
               href: '/pricing',
               title: 'What a night costs',
-              body: 'The published rate card. Distinct from the fee-stack explainer.',
+              body: 'The published rate card.',
               still: photos.hubPricing,
             },
             {
               href: '/faq',
               title: 'FAQ',
-              body: 'Booking questions live on the island host. This hub page is the picker.',
+              body: 'Answers to common booking questions.',
               still: photos.hubFaq,
             },
             {

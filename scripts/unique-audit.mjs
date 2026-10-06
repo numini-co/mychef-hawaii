@@ -871,7 +871,7 @@ if (multiFaqQs.length < 5) {
 if (!/Why decline same-day inter-island cooking\?/.test(hubQuoteSrc)) {
   errors.push('multi itinerary FAQ missing same-day inter-island honesty item');
 }
-if (!/Do per-island published bands still apply\?/.test(hubQuoteSrc) || !/Line-by-line: \/pricing/.test(hubQuoteSrc)) {
+if (!/Do per-island published bands still apply\?/.test(hubQuoteSrc) || !/Line-by-line: (?:\/pricing|\[[^\]]+\]\(\/pricing\))/.test(hubQuoteSrc)) {
   errors.push('multi itinerary FAQ must keep per-island bands and a /pricing link');
 }
 if (!/Kauaʻi or Hawaiʻi Island on the itinerary\?/.test(hubQuoteSrc)) {
@@ -1697,7 +1697,7 @@ if (
   errors.push('Oahu /pricing FAQ still missing Resident Island tariff items');
 }
 if (
-  !/What does inquiry-stage mean on Kauaʻi\?/.test(longIslandSrc) ||
+  !/Why do Kauai bookings start as an inquiry\?/.test(longIslandSrc) ||
   !/North Shore dinner or South Shore dinner/.test(longIslandSrc) ||
   !/Date Night for two or a family feast/.test(longIslandSrc) ||
   !/What if it rains on the lānai\?/.test(longIslandSrc)
@@ -1705,16 +1705,16 @@ if (
   errors.push('Kauai home FAQ still missing Garden Isle inquiry accordion items');
 }
 if (
-  !/Is this Kauaʻi band a live Book-now\?/.test(pricingDocSrc) ||
+  !/Can I book this Kauaʻi band instantly\?/.test(pricingDocSrc) ||
   !/Date Night \$975–\$1,425 or the Signature band on Kauaʻi\?/.test(pricingDocSrc)
 ) {
   errors.push('Kauai /pricing FAQ still missing Garden Isle inquiry tariff items');
 }
 if (
   !/How much is a private chef on the Big Island\?/.test(longIslandSrc) ||
-  !/What is ENTRY versus CORE on this west-side card\?/.test(longIslandSrc) ||
+  !/What is ENTRY versus CORE on the Big Island\?/.test(longIslandSrc) ||
   !/Why west-side first — Kona to Kohala\?/.test(longIslandSrc) ||
-  !/What does inquiry-stage mean on this expedition\?/.test(longIslandSrc)
+  !/How does booking a private chef on the Big Island work\?/.test(longIslandSrc)
 ) {
   errors.push('Big Island home FAQ still missing Expedition accordion items');
 }
@@ -1837,7 +1837,7 @@ if (/tel:\+971|\+971\d{7,}/.test(longIslandSrc + pricingDocSrc + hubQuoteSrc + r
     if (
       (island === 'kauai' || island === 'bigisland') &&
       /Book now/i.test(chunk) &&
-      !/not a live Book-now|not an instant Book-now|not a live Book-now/.test(blob)
+      !/not a live Book-now|not an instant Book-now|not (?:a |an )?(?:live )?instant[- ]booking/.test(blob)
     ) {
       errors.push(`${island}/${slug} corridor FAQ used a Book-now CTA`);
     }
@@ -1898,7 +1898,7 @@ if (/tel:\+971|\+971\d{7,}/.test(longIslandSrc + pricingDocSrc + hubQuoteSrc + r
     }
   }
   const kohalaBlob = kohalaPairs.map((p) => `${p.q} ${p.a}`).join('\n');
-  if (!/not a Book-now/i.test(kohalaBlob)) errors.push('bigisland/kohala FAQ lost inquiry-stage honesty');
+  if (!/not a Book-now|not (?:a |an )?(?:live )?instant[- ]booking/i.test(kohalaBlob)) errors.push('bigisland/kohala FAQ lost inquiry-stage honesty');
   for (const slug of ['kona', 'waikoloa', 'waimea']) {
     const sibling = faqPairs(hoodFaqChunk(offersSrc, 'bigisland', slug));
     for (const left of kohalaPairs) {
@@ -1977,7 +1977,7 @@ if (/tel:\+971|\+971\d{7,}/.test(longIslandSrc + pricingDocSrc + hubQuoteSrc + r
   if (!/\$165/.test(volcanoPairs.map((p) => p.a).join('\n'))) {
     errors.push('bigisland/volcano FAQ dropped ENTRY $165');
   }
-  if (!/not a Book-now/i.test(volcanoPairs.map((p) => `${p.q} ${p.a}`).join('\n'))) {
+  if (!/not a Book-now|not (?:a |an )?(?:live )?instant[- ]booking/i.test(volcanoPairs.map((p) => `${p.q} ${p.a}`).join('\n'))) {
     errors.push('bigisland/volcano FAQ lost inquiry-stage honesty');
   }
   const northNeighbors = [

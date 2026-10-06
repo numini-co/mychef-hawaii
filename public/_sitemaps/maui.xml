@@ -41,6 +41,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://maui.mychef-hawaii.com/private-chef</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maui.mychef-hawaii.com/bar</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://maui.mychef-hawaii.com/wailea</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

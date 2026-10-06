@@ -91,9 +91,9 @@ export default function QuoteView({
           <Longform sections={[{ h2: copy.kicker, paras: copy.body }]} />
           <DocumentPhotoGrid
             islandId={islandId}
-            eyebrow={`${islands[islandId].shortName} · Beside this form`}
-            heading="Open a related document."
-            intro="The five fields stay on this page. The desk, the rate card, the process, and getting started are their own URLs."
+            eyebrow={`${islands[islandId].shortName} · Related`}
+            heading="Related pages."
+            intro="Related pages to help you plan your dinner, event or stay."
             columns={2}
             items={[
               { path: '/contact', label: 'The desk', detail: '/contact' },
@@ -109,27 +109,27 @@ export default function QuoteView({
           <IslandDeskLinks selected={prefIsland} multi={multi} />
           <Longform sections={quoteTrustSections} />
           <HubPhotoGrid
-            eyebrow="Beside this form"
-            heading="Open a related document."
-            intro="The five fields stay on this page. The desk, the rate card, the process, and the FAQ are their own URLs. Island forms stay on the island host."
+            eyebrow="Related pages"
+            heading="Related pages."
+            intro="Related pages to help you plan your dinner, event or stay."
             columns={2}
             items={[
               {
                 href: '/contact',
                 title: contact?.cardLabel ?? 'The desk',
-                body: contact?.lede ?? 'Quotes and inquiry replies run in Hawaii Standard Time on the island host.',
+                body: contact?.lede ?? 'Quotes and inquiry replies run in Hawaii Standard Time.',
                 still: photos.menu,
               },
               {
                 href: '/pricing',
                 title: 'What a night costs',
-                body: 'The published rate card. Distinct from the fee-stack explainer.',
+                body: 'The published rate card.',
                 still: photos.plated,
               },
               {
                 href: '/faq',
                 title: faq?.cardLabel ?? 'Questions',
-                body: faq?.lede ?? 'Booking questions live on the island host.',
+                body: faq?.lede ?? 'Answers to common booking questions.',
                 still: faq ? photos[faq.photo] : photos.hubFaq,
               },
               {
@@ -165,8 +165,8 @@ function IslandDeskLinks({ selected, multi }: { selected: IslandId | null; multi
         </h2>
         <p className="mt-4 max-w-[52ch] text-[17px] leading-relaxed text-mute">
           {multi
-            ? 'One coordinator across islands lives on this hub form. Each island host still keeps its own quote or inquiry page when the house is already chosen.'
-            : 'The Hawaii desk takes the same five fields. When you already know the island, the host form is the tighter document.'}
+            ? 'One coordinator across islands lives on this hub form.'
+            : 'The Hawaii desk takes the same five fields. When you already know the island, the island’s own quote form is quicker.'}
         </p>
         <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {ISLAND_QUOTE_DESKS.map(({ id, href: deskHref }) => {

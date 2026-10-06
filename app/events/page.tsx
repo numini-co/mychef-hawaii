@@ -11,21 +11,21 @@ export default function Page() {
       id="events"
       related={
         <HubPhotoGrid
-          eyebrow="Beside these occasions"
-          heading="Open a related document."
-          intro="This page is the four-island picker for villa occasions. Catering, wedding weeks, the form, and the packaged cart are their own URLs."
+          eyebrow="Related pages"
+          heading="Related pages."
+          intro="Related pages to help you plan your dinner, event or stay."
           columns={2}
           items={[
             {
               href: '/catering',
               title: 'Villa catering',
-              body: 'The larger staffed room. Distinct from occasion documents.',
+              body: 'The larger staffed room.',
               still: photos.cateringHero,
             },
             {
               href: '/weddings',
               title: 'Wedding week',
-              body: 'Welcome dinner to recovery brunch. Distinct from a birthday or retreat.',
+              body: 'Welcome dinner to recovery brunch.',
               still: photos.weddingHero,
             },
             {
@@ -37,7 +37,7 @@ export default function Page() {
             {
               href: '/mobile-bar',
               title: 'The packaged cart',
-              body: 'The four-hour villa package. Distinct from the bartender add-on on /bar.',
+              body: 'The four-hour villa package.',
               still: photos.hubMobileBar,
             },
           ]}

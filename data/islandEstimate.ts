@@ -33,12 +33,12 @@ export const islandEstimate: Record<IslandId, IslandEstimatePage> = {
     kicker: 'Maui · Cost estimator',
   },
   kauai: {
-    h1: 'Both-shore inquiry range — bands, not a Book-now.',
+    h1: 'Both-shore inquiry range — bands, not instant booking.',
     title: 'Both-shore inquiry range — Kauaʻi estimator | myCHEF',
     description:
       'Estimate a Kauaʻi inquiry dinner or week from both-shore bands ($225–$375 a guest, Stay Chef from $1,650). Inquiry stage. Groceries dual-model, 20% service and GET itemized. The written quote is the total.',
     lede:
-      'Both-shore CORE $225–$375 a guest — Maui-class. Stay Chef from $1,650 a day. Inquiry: a band is not a live Book-now. Hanalei-bridge weather is a clause.',
+      'Both-shore CORE $225–$375 a guest — Maui-class. Stay Chef from $1,650 a day. Inquiry: a band is not live instant booking. Hanalei-bridge weather is a clause.',
     kicker: 'Kauaʻi · Cost estimator',
   },
   bigisland: {

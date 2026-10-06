@@ -55,7 +55,7 @@ export const hubQuoteVariants: Record<HubQuoteKey, HubQuoteCopy> = {
     key: 'kauai',
     title: 'Hawaii desk — Kauaʻi inquiry, both shores | myCHEF',
     description:
-      'Statewide inquiry form aimed at Kauaʻi. Log the shore and dates. We write back when a crew exists. Not a Book-now button. Prefer the Kauaʻi desk when the house is already chosen.',
+      'Statewide inquiry form aimed at Kauaʻi. Log the shore and dates. We write back when a crew exists. Not an instant-booking button. Prefer the Kauaʻi desk when the house is already chosen.',
     h1: 'Kauaʻi inquiry — log the shore on the Hawaii form.',
     lede:
       'Inquiry, not instant book. Name Princeville, Poʻipū, Hanalei, or Kapaʻa. We log the shore and write back when we can staff. Open kauai.mychef-hawaii.com/quote for the island inquiry desk.',
@@ -66,7 +66,7 @@ export const hubQuoteVariants: Record<HubQuoteKey, HubQuoteCopy> = {
     key: 'bigisland',
     title: 'Hawaii desk — Hawaiʻi Island west-side inquiry | myCHEF',
     description:
-      'Statewide inquiry form aimed at west-side Hawaiʻi Island. Log Kona–Kohala dates. We write back when a crew exists. Not a Book-now button. Prefer the island desk when the house is already chosen.',
+      'Statewide inquiry form aimed at west-side Hawaiʻi Island. Log Kona–Kohala dates. We write back when a crew exists. Not an instant-booking button. Prefer the island desk when the house is already chosen.',
     h1: 'West-side inquiry — start on the Hawaii form.',
     lede:
       'Inquiry, not instant book. Name Kona, Waimea, Waikoloa, or Kohala. East side is a different day. Open bigisland.mychef-hawaii.com/quote for the west-side inquiry desk.',
@@ -80,7 +80,7 @@ export const hubQuoteVariants: Record<HubQuoteKey, HubQuoteCopy> = {
       'One coordinator across islands. Resident chefs cook on each island — no fly-in surcharge. Tell us the itinerary; we sequence the crews. Same five fields.',
     h1: 'One coordinator across islands.',
     lede:
-      'One coordinator. One written total. Name the first island and each later shore. We will not cook two islands the same day. Oʻahu and Maui get a quote; Kauaʻi and Hawaiʻi Island stay inquiry. Bands: /pricing.',
+      'One coordinator. One written total. Name the first island and each later shore. We will not cook two islands the same day. Oʻahu and Maui get a quote; Kauaʻi and Hawaiʻi Island stay inquiry.',
     kicker: 'Hawaii desk · Multi-island',
     canonicalIsland: 'root',
   },
@@ -101,15 +101,15 @@ export const hubMultiQuoteFaqs: { q: string; a: string }[] = [
   },
   {
     q: 'How should dates and shores be listed?',
-    a: 'Name the first island you dine on, then each later shore and date — Wailea then Princeville, or Kahala then Kona. Put the house type. An ambiguous “Hawaii week” waits. Island desks: oahu.mychef-hawaii.com/quote, maui.mychef-hawaii.com/quote, kauai.mychef-hawaii.com/quote, bigisland.mychef-hawaii.com/quote.',
+    a: 'Name the first island you dine on, then each later shore and date — Wailea then Princeville, or Kahala then Kona. Put the house type. An ambiguous “Hawaii week” waits. Island quote forms: [Oahu](oahu:/quote), [Maui](maui:/quote), [Kauai](kauai:/quote) and [Big Island](bigisland:/quote).',
   },
   {
     q: 'Do per-island published bands still apply?',
-    a: 'Yes. Each night uses that island’s published card — we do not invent a multi-island midpoint. Oʻahu $195–$290. Maui and Kauaʻi $225–$375. Hawaiʻi Island CORE $210–$325, ENTRY from $165. Stay Chef from: Oʻahu $1,250 / Maui $1,550 / Kauaʻi $1,650 / Hawaiʻi Island $1,450. Line-by-line: /pricing.',
+    a: 'Yes. Each night uses that island’s published card — we do not invent a multi-island midpoint. Oʻahu $195–$290. Maui and Kauaʻi $225–$375. Hawaiʻi Island CORE $210–$325, ENTRY from $165. Stay Chef from: Oʻahu $1,250 / Maui $1,550 / Kauaʻi $1,650 / Hawaiʻi Island $1,450. Line-by-line: [the pricing page](/pricing).',
   },
   {
     q: 'Kauaʻi or Hawaiʻi Island on the itinerary?',
-    a: 'Those islands stay inquiry-stage even inside a multi-island week. We log the shore and dates and write back when a crew exists. Not a Book-now. Oʻahu and Maui nights on the same itinerary still get a written quote. Inquiry desks: kauai.mychef-hawaii.com/quote and bigisland.mychef-hawaii.com/quote.',
+    a: 'Those islands stay by inquiry only even inside a multi-island week. We log the shore and dates and write back when a crew exists. Not instant booking. Oʻahu and Maui nights on the same itinerary still get a written quote. Inquiry forms: [Kauai](kauai:/quote) and [Big Island](bigisland:/quote).',
   },
   {
     q: 'What happens after I submit?',
@@ -117,7 +117,7 @@ export const hubMultiQuoteFaqs: { q: string; a: string }[] = [
   },
   {
     q: 'If the house is already chosen, which form?',
-    a: 'This hub form is the multi-island coordinator. When the villa is already on one island, open that host quote: oahu.mychef-hawaii.com/quote, maui.mychef-hawaii.com/quote, kauai.mychef-hawaii.com/quote, or bigisland.mychef-hawaii.com/quote. Those pages keep island keyword ownership. This URL keeps the itinerary.',
+    a: 'This hub form is the multi-island coordinator. When the villa is already on one island, open that host quote: oahu.mychef-hawaii.com/quote, maui.mychef-hawaii.com/quote, kauai.mychef-hawaii.com/quote, or bigisland.mychef-hawaii.com/quote.',
   },
 ];
 

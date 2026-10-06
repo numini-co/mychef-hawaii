@@ -81,11 +81,11 @@ export function HubCateringView() {
         <div className="mx-auto w-full max-w-spread px-5 lg:px-10">
           <Eyebrow>Where we cook</Eyebrow>
           <h2 className="mt-4 max-w-[18ch] font-display text-[clamp(2rem,4vw,3.25rem)] font-light leading-[1.08] text-ink">
-            Open the island catering document.
+            Choose your island.
           </h2>
           <p className="mt-5 max-w-[52ch] text-[17px] leading-relaxed text-mute">
             Open the island where the house is. Each island page publishes its own starting prices and a sample menu.
-            This page stays statewide.
+            
           </p>
           <ul className="mt-14 grid gap-8 sm:grid-cols-2 xl:grid-cols-4">
             {islandOrder.map((id) => {
@@ -120,21 +120,21 @@ export function HubCateringView() {
       <Sample />
       <Longform sections={hubCateringSections} />
       <HubPhotoGrid
-        eyebrow="Beside this catering document"
-        heading="Open a related document."
-        intro="Formats stay above. The wedding week, occasions, the form, and staffing are their own URLs. Island catering stays on the island host."
+        eyebrow="Related pages"
+        heading="Related pages."
+        intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           {
             href: '/weddings',
             title: 'Wedding week',
-            body: 'Welcome dinner to recovery brunch. Distinct from this catering document.',
+            body: 'Welcome dinner to recovery brunch.',
             still: photos.weddingHero,
           },
           {
             href: '/events',
             title: events?.cardLabel ?? 'Occasions',
-            body: events?.lede ?? 'Occasion documents live on the island host. This page is the picker.',
+            body: events?.lede ?? 'Occasions we cook for on each island.',
             still: photos.hubEvents,
           },
           {
@@ -146,7 +146,7 @@ export function HubCateringView() {
           {
             href: '/staffing',
             title: staffing?.cardLabel ?? 'Staffing',
-            body: staffing?.lede ?? 'Servers, bartenders, and butlers live on the island host.',
+            body: staffing?.lede ?? 'Servers, bartenders and butlers for your event.',
             still: photos.hubStaff,
           },
         ]}
@@ -248,9 +248,9 @@ export function IslandCateringView({ islandId, hostMode }: { islandId: IslandId;
       <Longform sections={long.sections} />
       <DocumentPhotoGrid
         islandId={islandId}
-        eyebrow={`${island.shortName} · Beside this catering document`}
-        heading="Open a related document."
-        intro="Formats stay above. The wedding week, occasions, the form, and staffing are their own URLs."
+        eyebrow={`${island.shortName} · Related`}
+        heading="Related pages."
+        intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           { path: '/weddings', label: 'Wedding week', detail: '/weddings' },
@@ -272,8 +272,8 @@ function Formats({ islandId }: { islandId?: IslandId }) {
       <DocumentPhotoGrid
         islandId={islandId}
         eyebrow={`${islands[islandId].name} · Formats`}
-        heading="Formats as their own documents."
-        intro="Each format is its own URL so it cannot steal the catering title. Drop-off is not staffed service."
+        heading="Catering formats."
+        intro="Drop-off is not staffed service."
         items={cateringFormats[islandId].map((f) => ({
           path: `/catering/${f.slug}`,
           label: f.name,
@@ -286,8 +286,8 @@ function Formats({ islandId }: { islandId?: IslandId }) {
   return (
     <HubPhotoGrid
       eyebrow="Statewide · Formats"
-      heading="Open a format document."
-      intro="The food band is the island CORE card. Staffing changes with the format. Each URL is a picker, not the catering money keyword."
+      heading="Catering formats."
+      intro="The food band is the island CORE card. Staffing changes with the format."
       items={nestedHubDirectories('/catering').map((fmt) => ({
         href: fmt.path,
         title: fmt.cardLabel,
