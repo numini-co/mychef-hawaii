@@ -4,8 +4,38 @@ import HostLink from '@/components/HostLink';
 import { EnquireCta } from '@/components/Cta';
 import { LocationsBlock } from '@/components/LocationsBlock';
 import { WORLD_DESTINATIONS } from '@/data/destinations';
-import { islandOrder, islands, type IslandId } from '@/data/islands';
+import { islandOrder, type IslandId } from '@/data/islands';
 import { islandHref } from '@/lib/paths';
+
+/** Plain-ASCII island names for descriptive internal anchors (matches how people search). */
+const PLAIN_ISLAND_NAME: Record<IslandId, string> = {
+  oahu: 'Oahu',
+  maui: 'Maui',
+  kauai: 'Kauai',
+  bigisland: 'Big Island',
+};
+
+function serviceLinks(islandId: IslandId | null): { path: string; label: string }[] {
+  if (!islandId) {
+    return [
+      { path: '/private-chef', label: 'In-villa chef' },
+      { path: '/catering', label: 'Hawaii catering' },
+      { path: '/weddings', label: 'Wedding catering Hawaii' },
+      { path: '/mobile-bar', label: 'Mobile bar Hawaii' },
+      { path: '/vacation-chef', label: 'Vacation chef' },
+      { path: '/quote', label: 'Request a quote' },
+    ];
+  }
+  const name = PLAIN_ISLAND_NAME[islandId];
+  return [
+    { path: '/', label: `Private chef ${name}` },
+    { path: '/catering', label: `${name} catering` },
+    { path: '/weddings', label: `Wedding catering ${name}` },
+    { path: '/bar', label: 'Villa bartender' },
+    { path: '/vacation-chef', label: 'Chef for the week' },
+    { path: '/quote', label: islandId === 'kauai' || islandId === 'bigisland' ? 'Join the inquiry list' : 'Request a quote' },
+  ];
+}
 
 export default function SiteFooter({
   islandId,
@@ -22,7 +52,7 @@ export default function SiteFooter({
       <LocationsBlock tone="ink" scope={islandId ?? 'all'} />
 
       <div className="mx-auto w-full max-w-container border-t border-white/10 px-5 py-14 lg:px-10">
-        <div className="grid gap-10 md:grid-cols-3">
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <HostLink
               island="root"
@@ -47,7 +77,7 @@ export default function SiteFooter({
               {islandOrder.map((id) => (
                 <li key={id}>
                   <HostLink island={id} className="text-base text-paper hover:underline underline-offset-4">
-                    {islands[id].name}
+                    Private chef {PLAIN_ISLAND_NAME[id]}
                   </HostLink>
                 </li>
               ))}
@@ -56,6 +86,23 @@ export default function SiteFooter({
                   All Hawaiʻi
                 </HostLink>
               </li>
+            </ul>
+          </nav>
+
+          <nav aria-label="Services">
+            <p className="text-[13px] text-on-ink">Services</p>
+            <ul className="mt-4 space-y-2">
+              {serviceLinks(islandId).map((link) => (
+                <li key={link.path}>
+                  <HostLink
+                    island={islandId ?? 'root'}
+                    path={link.path}
+                    className="text-base text-paper hover:underline underline-offset-4"
+                  >
+                    {link.label}
+                  </HostLink>
+                </li>
+              ))}
             </ul>
           </nav>
 
