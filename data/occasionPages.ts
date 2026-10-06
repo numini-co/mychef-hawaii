@@ -23,12 +23,11 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       h1: 'Birthday dinners in an Oahu house — not a restaurant buyout.',
       title: 'Birthday dinners in an Oahu house | myCHEF',
       description:
-        'Staffed birthday tables in Kahala dining rooms and Ko Olina villas. About 10–75 guests. The catering keyword stays on /catering.',
+        'Staffed birthday tables in Kahala dining rooms and Ko Olina villas. About 10–75 guests.',
       lede:
         'The house, a simple dessert, the guest list you actually have. Not a buyout downtown. /events is the occasion index; this page is the birthday.',
       photo: 'occBirthdayOahu',
       body: [
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) is /catering. This URL is the birthday so those titles do not collide.`,
         'Kahala dining rooms and Ko Olina villas are the usual rooms. Anniversaries run the same kitchen. Guest counts: /guest-counts.',
       ],
       faqs: [
@@ -53,7 +52,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       h1: 'Oahu welcome dinners — first night of the villa week.',
       title: 'Oahu welcome dinners — first night of the villa week | myCHEF',
       description:
-        'Arrival-night grazing or family-style in Ko Olina, Kahala and Kailua. Wedding-week stacks live on /weddings. Not the catering keyword.',
+        'Arrival-night grazing or family-style in Ko Olina, Kahala and Kailua.',
       lede:
         'Bags in the hall. The room still landing. Family-style fish, not a seated reception. The week itself is a different door.',
       photo: 'occWelcomeOahu',
@@ -116,12 +115,12 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       h1: 'Birthday gatherings on a Maui lawn — Wailea and West Maui houses.',
       title: 'Birthday gatherings on a Maui lawn | myCHEF',
       description:
-        'Staffed birthday tables in Wailea, Kīhei and West Maui. About 10–75. The catering keyword stays on /catering.',
+        'Staffed birthday tables in Wailea, Kīhei and West Maui. About 10–75.',
       lede:
         'Grass, identical plates, a simple dessert. Not a restaurant buyout. /events is the index; this page is the birthday.',
       photo: 'occBirthdayMaui',
       body: [
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) is /catering. This URL is the birthday night.`,
+        `This URL is the birthday night.`,
         'Wet-weather backup is written for lawns. Kīhei family houses and Wailea residences. See /south-maui.',
       ],
       faqs: [
@@ -146,7 +145,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       h1: 'Maui welcome dinners — first night in Wailea or West Maui.',
       title: 'Maui welcome dinners — first night of the villa week | myCHEF',
       description:
-        'Arrival-night grazing in Wailea, Kapalua and Kāʻanapali. Wedding-week stacks live on /wedding-week. Not the catering keyword.',
+        'Arrival-night grazing in Wailea, Kapalua and Kāʻanapali.',
       lede:
         'Travel clothes, family-style fish, the ice-breaker before the week. The reception is a different line.',
       photo: 'occWelcomeMaui',
@@ -209,12 +208,12 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       h1: 'Birthday dinners on a Kauai estate — both shores, inquiry.',
       title: 'Birthday dinners on a Kauai estate | myCHEF',
       description:
-        'Staffed birthday tables in Princeville, Hanalei and Poʻipū. About 10–75. Inquiry stage. Catering stays on /catering.',
+        'Staffed birthday tables in Princeville, Hanalei and Poʻipū. About 10–75. Inquiry stage.',
       lede:
         'An estate dessert course looking into a valley, or a South Shore table. Inquiry. The road may decide the North.',
       photo: 'occBirthdayKauai',
       body: [
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) is /catering. This URL is the birthday.`,
+        `This URL is the birthday.`,
         'Far-North inherits /hanalei-bridge. Guest counts: /guest-counts. Inquiry stage.',
       ],
       faqs: [
@@ -239,7 +238,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       h1: 'Kauai welcome dinners — first night, both shores.',
       title: 'Kauai welcome dinners — first night of the estate week | myCHEF',
       description:
-        'Arrival-night family-style in Poʻipū or Princeville. Inquiry stage. Wedding-week stacks live on /wedding-week.',
+        'Arrival-night family-style in Poʻipū or Princeville. Inquiry stage.',
       lede:
         'The first evening after Līhuʻe. Family-style fish. The week stack is optional.',
       photo: 'occWelcomeKauai',
@@ -302,12 +301,12 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       h1: 'Birthday dinners on the Kohala Coast — west side first.',
       title: 'Birthday dinners on the Kohala Coast | myCHEF',
       description:
-        'Staffed birthday tables on Kona–Kohala terraces. About 10–75. Inquiry stage. East side is a different day. Catering stays on /catering.',
+        'Staffed birthday tables on Kona–Kohala terraces. About 10–75. Inquiry stage. East side is a different day.',
       lede:
         'Eight to forty on lava, a simple dessert, Mauna Kea faint. Not a Hilo add-on.',
       photo: 'occBirthdayBigisland',
       body: [
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) is /catering. This URL is the birthday.`,
+        `This URL is the birthday.`,
         'West-side radius: /kohala-corridor. East side: /east-side. Inquiry stage.',
       ],
       faqs: [
@@ -332,7 +331,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       h1: 'Hawaiʻi Island welcome dinners — first night, west side.',
       title: 'Hawaiʻi Island welcome dinners — first night of the villa week | myCHEF',
       description:
-        'Arrival-night family-style in Kona and Kohala villas. Inquiry stage. Wedding-week stacks live on /weddings. Not a Hilo add-on.',
+        'Arrival-night family-style in Kona and Kohala villas. Inquiry stage. Not a Hilo add-on.',
       lede:
         'KOA to the villa. Family-style fish. Hard sun still in the window. East side is a different day.',
       photo: 'occWelcomeBigisland',

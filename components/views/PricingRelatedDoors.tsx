@@ -15,7 +15,7 @@ export function PricingRelatedDoors({ islandId }: { islandId?: IslandId | null }
         islandId={islandId}
         eyebrow={`${islands[islandId].shortName} · Beside this rate card`}
         heading="Open a related document."
-        intro="The published table stays on this page. The form, the fee stack, the booking notes, and the menus are their own URLs."
+        intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           { path: '/quote', label: 'The quote form', detail: '/quote' },
@@ -31,7 +31,7 @@ export function PricingRelatedDoors({ islandId }: { islandId?: IslandId | null }
     <HubPhotoGrid
       eyebrow="Beside this rate card"
       heading="Open a related document."
-      intro="The published table stays on this page. The form, the fee stack, the booking notes, and the menus are their own URLs. Island rate cards stay on the island host."
+      intro="Related pages to help you plan your dinner, event or stay."
       columns={2}
       items={[
         {
@@ -55,7 +55,7 @@ export function PricingRelatedDoors({ islandId }: { islandId?: IslandId | null }
         {
           href: '/menus',
           title: menus?.cardLabel ?? 'Menus',
-          body: menus?.lede ?? 'Sample SKUs live on the island host. This page is the picker.',
+          body: menus?.lede ?? 'Sample menus for each island.',
           still: photos.hubMenus,
         },
       ]}

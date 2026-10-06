@@ -29,13 +29,12 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'First Oahu booking — name the corridor, then the kitchen.',
       title: 'First Oahu booking — corridor, kitchen, written quote | myCHEF',
       description:
-        'How a first Oahu booking starts: Honolulu, Waikīkī, Kailua, North Shore, Kahala, or Ko Olina; a working kitchen; a written quote. Distinct from /how-it-works and /faq.',
+        'How a first Oahu booking starts: Honolulu, Waikīkī, Kailua, North Shore, Kahala, or Ko Olina; a working kitchen; a written quote.',
       lede:
         '/how-it-works is the night. This page is the first ask: which published corridor, whether the stove works, and what we need on /quote.',
       photo: 'helpStartOahu',
       body: [
         'Live corridors on this host: /honolulu, /waikiki, /kailua, /north-shore, /kahala, /ko-olina. Coverage map: /coverage. We do not invent a statewide Oahu kitchen.',
-        `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) and Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stay on / and /catering. This URL is the first-booking document so those titles stay clean.`,
         'Send dates, headcount, dietary, and the address type on /quote. Hotel suites without a cooktop are declined. Residences and villas are the product.',
       ],
       faqs: [
@@ -60,7 +59,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'How to read an Oahu menu draft — Honolulu fish, 48 hours.',
       title: 'How to read an Oahu menu draft | myCHEF',
       description:
-        'How an Oahu menu draft arrives: 48 hours, Honolulu fish market, designed per table. Distinct from /menus as a process page and from /menus/three-course as a SKU.',
+        'How an Oahu menu draft arrives: 48 hours, Honolulu fish market, designed per table.',
       lede:
         '/menus is how we design. /menus/three-course is the three-course as a SKU. This URL is how to read the draft that lands after you send the table.',
       photo: 'helpMenuOahu',
@@ -90,12 +89,12 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'Planning an Oahu wedding week — welcome through brunch as lines.',
       title: 'Planning an Oahu wedding week | myCHEF',
       description:
-        'Planner checklist for an Oahu wedding week: welcome, rehearsal, reception, recovery brunch as separate lines. Distinct from /weddings as the commercial door.',
+        'Planner checklist for an Oahu wedding week: welcome, rehearsal, reception, recovery brunch as separate lines.',
       lede:
         '/weddings holds the Gold Coast commercial door. This URL is the checklist so welcome, rehearsal, reception, and brunch do not collapse into one fake SKU.',
       photo: 'helpWeddingOahu',
       body: [
-        `Wedding catering Oahu (${SEARCH_VOLUMES['wedding catering oahu']}) lives on /weddings. This page does not steal that title. Welcome: /events/welcome-dinners. Rehearsal: /rehearsal-dinners. Brunch: /events/brunch.`,
+        `Welcome: /events/welcome-dinners. Rehearsal: /rehearsal-dinners. Brunch: /events/brunch.`,
         'Kahala dining rooms and Ko Olina villas. Guest counts: /guest-counts. We do not staff HCC citywides — /conventions.',
       ],
       faqs: [
@@ -120,7 +119,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'Planning an Oahu house offsite — not a convention floor.',
       title: 'Planning an Oahu house offsite | myCHEF',
       description:
-        'How to brief an Oahu executive dinner or house offsite. Not HCC citywides. Distinct from /corporate-catering and /events/corporate-events.',
+        'How to brief an Oahu executive dinner or house offsite. Not HCC citywides.',
       lede:
         '/corporate-catering is the SKU. /events/corporate-events is the occasion. This URL is what to send so we do not pretend a Kahala dining room is a ballroom.',
       photo: 'helpCorporateOahu',
@@ -150,7 +149,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'After the Oahu quote — deposit, date lock, changes in writing.',
       title: 'After the Oahu quote — deposit and date lock | myCHEF',
       description:
-        'How an Oahu booking is held: 50% deposit, written changes, GET and service as their own lines. Distinct from /quote as the form and /pricing as the card.',
+        'How an Oahu booking is held: 50% deposit, written changes, GET and service as their own lines.',
       lede:
         '/quote is the form. /pricing is the rate card. This URL is what happens after you accept the written total — and how we change a Kahala night without a chat window.',
       photo: 'helpBookingOahu',
@@ -182,13 +181,13 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'First Maui booking — name the shore, then the kitchen.',
       title: 'First Maui booking — shore, kitchen, written quote | myCHEF',
       description:
-        'How a first Maui booking starts: Wailea, Kāʻanapali, Lahaina, Kīhei, Kapalua, or Makena; a working kitchen; Saturday West Maui traffic planned in. Distinct from /how-it-works.',
+        'How a first Maui booking starts: Wailea, Kāʻanapali, Lahaina, Kīhei, Kapalua, or Makena; a working kitchen; Saturday West Maui traffic planned in.',
       lede:
         '/how-it-works is the night. This page is the first ask: South or West, whether the stove works, and that we write Lahaina as a town — not a second island.',
       photo: 'helpStartMaui',
       body: [
         'Live corridors: /wailea, /kaanapali, /lahaina, /kihei, /kapalua, /makena. West Maui traffic: /west-maui. South Maui logistics: /south-maui. Coverage: /coverage.',
-        `Private chef Maui (${SEARCH_VOLUMES['private chef maui']}) and Maui catering (${SEARCH_VOLUMES['maui catering']}) stay on / and /catering. This URL is the first-booking document.`,
+        `This URL is the first-booking document.`,
         'Lahaina is a named town on this host — /lahaina — not a find-and-replace of Wailea. Send the address type on /quote.',
       ],
       faqs: [
@@ -213,7 +212,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'How to read a Maui menu draft — Wailea kitchens, 48 hours.',
       title: 'How to read a Maui menu draft | myCHEF',
       description:
-        'How a Maui menu draft arrives: 48 hours, Wailea and Kapalua kitchens, designed per table. Distinct from /menus and from /menus/three-course.',
+        'How a Maui menu draft arrives: 48 hours, Wailea and Kapalua kitchens, designed per table.',
       lede:
         '/menus is how we design. This URL is how to read the draft — South Maui produce, West Maui timing, not a standing carte.',
       photo: 'helpMenuMaui',
@@ -243,12 +242,12 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'Planning a Maui wedding week — Wailea lawns and West Maui houses.',
       title: 'Planning a Maui wedding week | myCHEF',
       description:
-        'Planner checklist for a Maui wedding week: welcome, rehearsal, reception, recovery brunch as separate lines. Distinct from /weddings. Lahaina stays a town name, not a wedding SKU.',
+        'Planner checklist for a Maui wedding week: welcome, rehearsal, reception, recovery brunch as separate lines. Lahaina stays a town name, not a wedding SKU.',
       lede:
         '/weddings holds the commercial door. This URL is the checklist. West Maui Saturday traffic is a logistics line, not a surprise.',
       photo: 'helpWeddingMaui',
       body: [
-        `Wedding catering Maui (${SEARCH_VOLUMES['wedding catering maui']}) lives on /weddings. This page does not steal that title. Welcome: /events/welcome-dinners. Rehearsal: /rehearsal-dinners. Week stack: /wedding-week.`,
+        `Welcome: /events/welcome-dinners. Rehearsal: /rehearsal-dinners. Week stack: /wedding-week.`,
         'Lahaina naming stays on /lahaina. We do not sell a theatrical luau reception we do not run.',
       ],
       faqs: [
@@ -273,7 +272,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'Planning a Maui villa offsite — South and West houses, not a ballroom.',
       title: 'Planning a Maui villa offsite | myCHEF',
       description:
-        'How to brief a Maui executive dinner or villa offsite. Distinct from /corporate-catering and /events/corporate-events. Not a hotel ballroom.',
+        'How to brief a Maui executive dinner or villa offsite. Not a hotel ballroom.',
       lede:
         '/corporate-catering is the SKU. /events/corporate-events is the occasion. This URL is what to send so a Wailea dining room is not sold as a convention.',
       photo: 'helpCorporateMaui',
@@ -303,7 +302,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'After the Maui quote — deposit, date lock, West Maui changes in writing.',
       title: 'After the Maui quote — deposit and date lock | myCHEF',
       description:
-        'How a Maui booking is held: 50% deposit, written changes, GET and service as their own lines. Distinct from /quote and /pricing. West Maui traffic is planned, not hidden.',
+        'How a Maui booking is held: 50% deposit, written changes, GET and service as their own lines. West Maui traffic is planned, not hidden.',
       lede:
         '/quote is the form. /pricing is the rate card. This URL is what happens after you accept the written total — including a Saturday Kāʻanapali change.',
       photo: 'helpBookingMaui',
@@ -335,13 +334,13 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'First Kauai booking — name the shore, then ask if the road is open.',
       title: 'First Kauai booking — shore, inquiry, written quote | myCHEF',
       description:
-        'How a first Kauai booking starts: Princeville, Poʻipū, Hanalei, or Kapaʻa; inquiry stage; Hanalei-bridge weather. Distinct from /how-it-works and /faq.',
+        'How a first Kauai booking starts: Princeville, Poʻipū, Hanalei, or Kapaʻa; inquiry stage; Hanalei-bridge weather.',
       lede:
         '/how-it-works is the night. This page is the first ask: North or South, inquiry, and whether /hanalei-bridge applies before we pretend the night is live.',
       photo: 'helpStartKauai',
       body: [
         'Live corridors: /princeville, /poipu, /hanalei, /kapaa. Far-North weather: /hanalei-bridge. North Shore vs South Shore: /north-shore, /south-shore. Coverage: /coverage.',
-        `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) and Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stay on / and /catering. This host is inquiry. We will not fake a live roster.`,
+        `This host is inquiry. We will not fake a live roster.`,
         'Send the shore and the address type on /quote. Closures reschedule rather than forfeit.',
       ],
       faqs: [
@@ -366,7 +365,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'How to read a Kauai menu draft — both shores, inquiry, 48 hours.',
       title: 'How to read a Kauai menu draft | myCHEF',
       description:
-        'How a Kauai menu draft arrives: 48 hours, North Shore handshake or South Shore fire, inquiry stage. Distinct from /menus and from /menus/three-course.',
+        'How a Kauai menu draft arrives: 48 hours, North Shore handshake or South Shore fire, inquiry stage.',
       lede:
         '/menus is how we design. This URL is how to read the draft — Princeville mist or Poʻipū kiawe — without a fake standing carte.',
       photo: 'helpMenuKauai',
@@ -396,12 +395,12 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'Planning a Kauai wedding week — both shores, inquiry, the bridge.',
       title: 'Planning a Kauai wedding week | myCHEF',
       description:
-        'Planner checklist for a Kauai wedding week at inquiry: welcome, rehearsal, reception, brunch as separate lines. Distinct from /weddings. Hanalei-bridge weather is a clause.',
+        'Planner checklist for a Kauai wedding week at inquiry: welcome, rehearsal, reception, brunch as separate lines. Hanalei-bridge weather is a clause.',
       lede:
         '/weddings holds the commercial door. This URL is the checklist. Far-North weekends inherit /hanalei-bridge. We will not fake a live wedding roster.',
       photo: 'helpWeddingKauai',
       body: [
-        `Kauai wedding catering (${SEARCH_VOLUMES['kauai wedding catering']}) is a measured long-tail. The commercial door is /weddings. This page does not steal it. Week stack: /wedding-week.`,
+        `The commercial door is /weddings. Week stack: /wedding-week.`,
         'Princeville, Hanalei, Poʻipū. Welcome: /events/welcome-dinners. Rehearsal: /rehearsal-dinners. Inquiry stage.',
       ],
       faqs: [
@@ -426,7 +425,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'Planning a Kauai estate offsite — inquiry, not a convention.',
       title: 'Planning a Kauai estate offsite | myCHEF',
       description:
-        'How to brief a Kauai executive dinner or estate offsite at inquiry. Distinct from /corporate-catering and /events/corporate-events. Not a convention floor.',
+        'How to brief a Kauai executive dinner or estate offsite at inquiry. Not a convention floor.',
       lede:
         '/corporate-catering is the SKU. /events/corporate-events is the occasion. This URL is what to send so a Princeville dining room is not sold as a ballroom.',
       photo: 'helpCorporateKauai',
@@ -456,7 +455,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'After the Kauai quote — deposit, inquiry hold, bridge weather in writing.',
       title: 'After the Kauai quote — deposit and inquiry hold | myCHEF',
       description:
-        'How a Kauai booking is held at inquiry: 50% deposit when we can staff, written changes, GET and service as their own lines. Distinct from /quote and /pricing.',
+        'How a Kauai booking is held at inquiry: 50% deposit when we can staff, written changes, GET and service as their own lines.',
       lede:
         '/quote is the form. /pricing is the rate card. This URL is what happens after a written total — including a Hanalei-bridge closure that reschedules rather than forfeits.',
       photo: 'helpBookingKauai',
@@ -488,13 +487,13 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'First Hawaiʻi Island booking — west side first, then the kitchen.',
       title: 'First Hawaiʻi Island booking — west side, written quote | myCHEF',
       description:
-        'How a first Hawaiʻi Island booking starts: Kona, Waimea, Waikoloa, Kohala; west side first; east side is a different day. Inquiry. Distinct from /how-it-works.',
+        'How a first Hawaiʻi Island booking starts: Kona, Waimea, Waikoloa, Kohala; west side first; east side is a different day. Inquiry.',
       lede:
         '/how-it-works is the night. This page is the first ask: west-side address, whether the stove works, and that Hilo is not implied.',
       photo: 'helpStartBigisland',
       body: [
         'Live corridors: /kona, /waimea, /waikoloa, /kohala. West-side radius: /kohala-corridor. East side: /east-side. Ironman weeks: /ironman-weeks. Coverage: /coverage.',
-        `Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) and private chef Big Island (${SEARCH_VOLUMES['private chef big island']}) stay dinner doors. Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This URL is the first-booking document.`,
+        `This URL is the first-booking document.`,
         'Inquiry. Send the west-side address on /quote. East side is a dedicated day — not a west-side round trip.',
       ],
       faqs: [
@@ -519,7 +518,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'How to read a Hawaiʻi Island menu draft — kanpachi, west side, 48 hours.',
       title: 'How to read a Hawaiʻi Island menu draft | myCHEF',
       description:
-        'How a Hawaiʻi Island menu draft arrives: 48 hours, kanpachi and coffee crust, west-side kitchens. Distinct from /menus and from /menus/three-course. Origin-honest.',
+        'How a Hawaiʻi Island menu draft arrives: 48 hours, kanpachi and coffee crust, west-side kitchens. Origin-honest.',
       lede:
         '/menus is how we design. This URL is how to read the draft — Kona fire, Kohala lava terrace — without a fake standing carte or an east-side implication.',
       photo: 'helpMenuBigisland',
@@ -549,12 +548,12 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'Planning a Hawaiʻi Island wedding week — Kohala first, not a Hilo SKU.',
       title: 'Planning a Hawaiʻi Island wedding week | myCHEF',
       description:
-        'Planner checklist for a west-side wedding week at inquiry: welcome, rehearsal, reception, brunch as separate lines. Distinct from /weddings. East side is a different day.',
+        'Planner checklist for a west-side wedding week at inquiry: welcome, rehearsal, reception, brunch as separate lines. East side is a different day.',
       lede:
         '/weddings holds the commercial door. This URL is the checklist. Ironman weeks are a calendar, not a wedding SKU. Hilo is not implied.',
       photo: 'helpWeddingBigisland',
       body: [
-        `Wedding catering Hawaii (${SEARCH_VOLUMES['wedding catering hawaii']}) lives on /weddings. This page does not steal that title. Welcome: /events/welcome-dinners. Rehearsal: /rehearsal-dinners. Ironman: /ironman-weeks.`,
+        `Welcome: /events/welcome-dinners. Rehearsal: /rehearsal-dinners. Ironman: /ironman-weeks.`,
         'Kohala Coast and Kona. East side: /east-side. Inquiry. We will not fake a live wedding roster.',
       ],
       faqs: [
@@ -579,7 +578,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'Planning a west-side villa offsite — Kohala, not a Hilo convention.',
       title: 'Planning a west-side villa offsite | myCHEF',
       description:
-        'How to brief a Hawaiʻi Island executive dinner or villa offsite at inquiry. West side first. Distinct from /corporate-catering and /events/corporate-events.',
+        'How to brief a Hawaiʻi Island executive dinner or villa offsite at inquiry. West side first.',
       lede:
         '/corporate-catering is the SKU. /events/corporate-events is the occasion. This URL is what to send so a Waikoloa dining room is not sold as a Hilo ballroom.',
       photo: 'helpCorporateBigisland',

@@ -153,7 +153,7 @@ export function HubOfferView({ kind }: { kind: 'private-chef' | 'vacation-chef' 
         <HubPhotoGrid
           eyebrow="Beside this visitor dinner"
           heading="Open a related document."
-          intro="This page is the four-island picker for visitor dinners. Household weeks, Stay Chef weeks, the form, and the rate card are their own URLs."
+          intro="Related pages to help you plan your dinner, event or stay."
           columns={2}
           items={[
             {
@@ -186,7 +186,7 @@ export function HubOfferView({ kind }: { kind: 'private-chef' | 'vacation-chef' 
         <HubPhotoGrid
           eyebrow="Beside this villa week"
           heading="Open a related document."
-          intro="This page is the four-island picker for Stay Chef weeks. Visitor dinners, household weeks, the form, and the rate card are their own URLs."
+          intro="Related pages to help you plan your dinner, event or stay."
           columns={2}
           items={[
             {

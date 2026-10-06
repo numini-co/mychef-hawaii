@@ -134,7 +134,7 @@ export function IslandSupportView({
           islandId={islandId}
           eyebrow={`${island.shortName} · Beside this coverage map`}
           heading="Open a related document."
-          intro="The zone list stays on this page. Live dinner doors, map notes, the form, and how a night runs are their own URLs."
+          intro="Related pages to help you plan your dinner, event or stay."
           columns={2}
           items={[
             { path: '/locations', label: 'Live dinner doors', detail: '/locations' },
@@ -152,7 +152,7 @@ export function IslandSupportView({
           islandId={islandId}
           eyebrow={`${island.shortName} · Menu documents`}
           heading="Open a menu document."
-          intro="Each SKU is its own URL so it cannot steal this process page. Designed per table, not a standing carte."
+          intro="Designed per table, not a standing carte."
           columns={2}
           items={menuSkuPages[islandId].map((sku) => ({
             path: `/menus/${sku.slug}`,
@@ -184,7 +184,7 @@ export function IslandSupportView({
           islandId={islandId}
           eyebrow={`${island.shortName} · Beside these answers`}
           heading="Open a related document."
-          intro="The questions stay on this page. The form, the desk, the process, and coverage are their own URLs."
+          intro="Related pages to help you plan your dinner, event or stay."
           columns={2}
           items={[
             { path: '/quote', label: 'The quote form', detail: '/quote' },

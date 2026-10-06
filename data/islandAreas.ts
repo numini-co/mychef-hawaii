@@ -29,7 +29,6 @@ export const islandAreas: Record<IslandId, IslandAreasPage> = {
     kicker: 'Oʻahu · Areas',
     photo: 'areasIndexOahu',
     body: [
-      `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) stays on this host’s home. This directory does not steal that title.`,
       'Corridors and supporting-area dinner doors are live URLs. Dining-in blogs stay the kitchen notes beside them. North Shore is still a surcharge day.',
     ],
     faqs: [
@@ -53,7 +52,6 @@ export const islandAreas: Record<IslandId, IslandAreasPage> = {
     kicker: 'Maui · Areas',
     photo: 'areasIndexMaui',
     body: [
-      `Private chef Maui (${SEARCH_VOLUMES['private chef maui']}) stays on this host’s home. This directory does not steal that title.`,
       'Corridors and supporting-area dinner doors — Upcountry, Pāʻia, Makawao, and the rest — are live URLs. Dining-in blogs stay the kitchen notes. Saturday West Maui traffic still lives on /west-maui.',
     ],
     faqs: [
@@ -71,13 +69,13 @@ export const islandAreas: Record<IslandId, IslandAreasPage> = {
     h1: 'Kauai map notes — both shores plus west-side towns, inquiry.',
     title: 'Kauai map notes — both shores plus west-side towns, inquiry | myCHEF',
     description:
-      'Kauai map notes at inquiry: live dinner doors plus kitchen notes for west-side towns. /locations is corridors only. Inquiry is not a Book-now button.',
+      'Inquiry is not a Book-now button.',
     lede:
       '/locations is the live dinner-door list at inquiry. /coverage is the zone map. This page is the rest of the island — both shores plus Waimea, Hanapēpē, and the towns in between.',
     kicker: 'Kauaʻi · Areas',
     photo: 'areasIndexKauai',
     body: [
-      `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) stays on this host’s home. This directory does not steal that title. Inquiry stage.`,
+      `Inquiry stage.`,
       'Princeville, Poʻipū, Hanalei, and Kapaʻa are corridor dinner doors at inquiry. West-side towns now have supporting dinner doors too. Dining-in blogs stay the kitchen notes. A named place is not a live roster.',
     ],
     faqs: [
@@ -95,13 +93,13 @@ export const islandAreas: Record<IslandId, IslandAreasPage> = {
     h1: 'Hawaiʻi Island map notes — west side first, then the rest.',
     title: 'Hawaiʻi Island map notes — west side first, then the rest | myCHEF',
     description:
-      'Hawaiʻi Island map notes: west-side dinner doors plus kitchen notes for the rest of the island. Hilo is a different day. /locations is corridors only.',
+      'Hilo is a different day.',
     lede:
       '/locations is the live west-side dinner-door list. /east-side is the Hilo crossing. This page is the rest of the geography — Kona through Kaʻū, corridors and kitchen notes together.',
     kicker: 'Hawaiʻi Island · Areas',
     photo: 'areasIndexBigisland',
     body: [
-      `Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) stays a dinner door. This directory does not steal that title. West side first.`,
+      `West side first.`,
       'Kona, Waimea, Waikoloa, and Kohala are corridor dinner doors at inquiry. Hilo, Volcano, Kaʻū, and the rest are supporting dinner doors or a dedicated east-side day — never a same-day round trip. Dining-in blogs stay the kitchen notes.',
     ],
     faqs: [

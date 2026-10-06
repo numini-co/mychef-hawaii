@@ -23,13 +23,13 @@ export const islandQuote: Record<IslandId, IslandQuotePage> = {
     h1: 'Send the Oahu quote — corridor, kitchen, a written total.',
     title: 'Oahu quote form — corridor, kitchen, written total | myCHEF',
     description:
-      'Five fields for an Oahu villa dinner or staffed room. Name Honolulu, Waikīkī, Kailua, North Shore, Kahala, or Ko Olina. A written quote follows. Distinct from /help/getting-started.',
+      'Five fields for an Oahu villa dinner or staffed room. Name Honolulu, Waikīkī, Kailua, North Shore, Kahala, or Ko Olina. A written quote follows.',
     lede:
       '/help/getting-started is the first-booking checklist. This URL is the form. Live corridors, a working stove, dates. We reply in writing.',
     kicker: 'Oʻahu · Quote',
     photo: 'quoteOahu',
     body: [
-      `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) and Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stay on / and /catering. This page does not steal those titles. It is how a Kahala or Ko Olina night becomes a written total.`,
+      `It is how a Kahala or Ko Olina night becomes a written total.`,
       'Live corridors: /honolulu, /waikiki, /kailua, /north-shore, /kahala, /ko-olina. Hotel suites without a cooktop are declined. The fee stack after the band: /private-chef-cost. The tariff: /pricing.',
       'Five fields. No account. No payment to ask. Fifty percent locks the date only after you accept the written total — /help/managing-booking.',
     ],
@@ -48,13 +48,12 @@ export const islandQuote: Record<IslandId, IslandQuotePage> = {
     h1: 'Send the Maui quote — shore, kitchen, a written total.',
     title: 'Maui quote form — shore, kitchen, written total | myCHEF',
     description:
-      'Five fields for a Maui villa dinner or staffed room. Name Wailea, Kāʻanapali, Lahaina, Kīhei, Kapalua, or Makena. Saturday West Maui traffic is planned in. Distinct from /help/getting-started.',
+      'Five fields for a Maui villa dinner or staffed room. Name Wailea, Kāʻanapali, Lahaina, Kīhei, Kapalua, or Makena. Saturday West Maui traffic is planned in.',
     lede:
       '/help/getting-started is the first-booking checklist. This URL is the form. South or West, a working stove, dates. Lahaina is a town — not a second island.',
     kicker: 'Maui · Quote',
     photo: 'quoteMaui',
     body: [
-      `Private chef Maui (${SEARCH_VOLUMES['private chef maui']}) and Maui catering (${SEARCH_VOLUMES['maui catering']}) stay on / and /catering. This page does not steal those titles.`,
       'Live corridors: /wailea, /kaanapali, /lahaina, /kihei, /kapalua, /makena. West Maui timing: /west-maui. South Maui: /south-maui. The fee stack: /private-chef-cost. The tariff: /pricing.',
       'Five fields. No account. Saturday Kāʻanapali nights still need the same window. After you accept a total: /help/managing-booking.',
     ],
@@ -79,7 +78,7 @@ export const islandQuote: Record<IslandId, IslandQuotePage> = {
     kicker: 'Kauaʻi · Inquiry',
     photo: 'quoteKauai',
     body: [
-      `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) and Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stay on / and /catering. This host is inquiry. The form is the same five fields. The button is not Book now.`,
+      `This host is inquiry. The form is the same five fields. The button is not Book now.`,
       'Live corridors: /princeville, /poipu, /hanalei, /kapaa. Far-North: /hanalei-bridge. The fee stack: /private-chef-cost. The tariff: /pricing.',
       'We log the shore and the dates and write back with what we can staff. No fake roster. After a written total: /help/managing-booking.',
     ],
@@ -104,7 +103,7 @@ export const islandQuote: Record<IslandId, IslandQuotePage> = {
     kicker: 'Hawaiʻi Island · Inquiry',
     photo: 'quoteBigisland',
     body: [
-      `Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) and private chef Big Island (${SEARCH_VOLUMES['private chef big island']}) stay dinner doors. Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This host is inquiry.`,
+      `This host is inquiry.`,
       'Live corridors: /kona, /waimea, /waikoloa, /kohala. East side: /east-side. Ironman weeks: /ironman-weeks. The fee stack: /private-chef-cost. The tariff: /pricing.',
       'We log the west-side address and write back with what we can staff. Crossing the island is a dedicated day. After a written total: /help/managing-booking.',
     ],

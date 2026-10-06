@@ -22,12 +22,11 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'BBQ on an Oahu lawn — Ko Olina and Kahala.',
       title: 'BBQ on an Oahu lawn — Ko Olina and Kahala | myCHEF',
       description:
-        'Staffed BBQ in Ko Olina villas and Kahala gardens. Grill as a format, not a keyword clone. The catering door stays on /catering.',
+        'Staffed BBQ in Ko Olina villas and Kahala gardens.',
       lede:
         'Whole fish on the grill, a lawn, the trade wind. Not a restaurant patio. Staffing still sits on the quote.',
       photo: 'fmtBbqOahu',
       body: [
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) is /catering. This URL is the grill format so those titles do not collide.`,
         'Drop-off is a different product — /catering/drop-off. Guest counts: /guest-counts. Wet-weather backup is written for lawns.',
       ],
       faqs: [
@@ -52,12 +51,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Plated villa service on Oahu — a restaurant arc in the house.',
       title: 'Plated villa service on Oahu | myCHEF',
       description:
-        'Coursed seated service in Kahala dining rooms and Ko Olina villas. Needs more servers than a buffet. Not the catering money keyword.',
+        'Coursed seated service in Kahala dining rooms and Ko Olina villas. Needs more servers than a buffet.',
       lede:
         'Courses paced to the table. The Gold Coast dining room is the usual room. Staffing is a different line from the food band.',
       photo: 'fmtPlatedOahu',
       body: [
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This URL is plated service.`,
+        `This URL is plated service.`,
         'Rehearsal dinners often run plated — /rehearsal-dinners. Family-style is /catering/family-style. Guest counts: /guest-counts.',
       ],
       faqs: [
@@ -82,13 +81,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Family-style service in Oahu houses — platters down the table.',
       title: 'Family-style service in Oahu houses | myCHEF',
       description:
-        'Shared platters in Kahala dining rooms and Ko Olina villas. Usual estate night when the list is about 10–20. Not the catering keyword.',
+        'Shared platters in Kahala dining rooms and Ko Olina villas. Usual estate night when the list is about 10–20.',
       lede:
         'Platters, not a pass. Welcome dinners often run this way. The plated page is next door.',
       photo: 'fmtFamilyOahu',
       body: [
         'Welcome dinners: /events/welcome-dinners. Villa parties: /events/villa-parties. This URL is the format.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) remains /catering.`,
       ],
       faqs: [
         {
@@ -112,12 +110,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Buffet service in Oahu houses — stations that stay hot.',
       title: 'Buffet service in Oahu houses | myCHEF',
       description:
-        'Staffed buffet in Kahala and Ko Olina houses. Best from about 20 guests. Not a hotel banquet. Not the catering money keyword.',
+        'Staffed buffet in Kahala and Ko Olina houses. Best from about 20 guests. Not a hotel banquet.',
       lede:
         'Guests move. Stations stay hot. A hundred-guest lawn is still quoted, not promised from a Tuesday dinner.',
       photo: 'fmtBuffetOahu',
       body: [
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) is /catering. This URL is buffet as a format.`,
+        `This URL is buffet as a format.`,
         'Retreat full-board: /retreat-catering. Guest counts: /guest-counts. Drop-off is not this product.',
       ],
       faqs: [
@@ -142,13 +140,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Grazing boards in an Oahu villa — pūpū, not a seated dinner.',
       title: 'Grazing boards in an Oahu villa | myCHEF',
       description:
-        'Styled boards and passed small plates in Ko Olina and Kahala. Cocktail hour or terrace welcome. Not the catering money keyword.',
+        'Styled boards and passed small plates in Ko Olina and Kahala. Cocktail hour or terrace welcome.',
       lede:
         'Boards, passed pieces, the room still landing. A seated dinner is a different format. Grazing tables are a market reference, labeled when we quote them.',
       photo: 'fmtGrazingOahu',
       body: [
         'Welcome dinners often start here — /events/welcome-dinners. Family-style is seated platters. This URL is the board format.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) remains /catering.`,
       ],
       faqs: [
         {
@@ -204,12 +201,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'BBQ on a Maui lawn — Wailea and West Maui.',
       title: 'BBQ on a Maui lawn — Wailea and West Maui | myCHEF',
       description:
-        'Staffed BBQ in Wailea, Kīhei and West Maui houses. Grill as a format. Wet-weather backup written. The catering door stays on /catering.',
+        'Staffed BBQ in Wailea, Kīhei and West Maui houses. Grill as a format. Wet-weather backup written.',
       lede:
         'Grill, grass, identical plates. Saturday Honoapiʻilani traffic is planned into arrival. Not a hotel luau we do not run.',
       photo: 'fmtBbqMaui',
       body: [
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) is /catering. This URL is the grill format.`,
+        `This URL is the grill format.`,
         'West Maui: /west-maui. South Maui: /south-maui. Drop-off is /catering/drop-off — a different product.',
       ],
       faqs: [
@@ -234,12 +231,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Plated villa service on Maui — courses on a Wailea table.',
       title: 'Plated villa service on Maui | myCHEF',
       description:
-        'Coursed seated service in Wailea dining rooms and Kapalua lanais. Needs more servers than a buffet. Not the catering money keyword.',
+        'Coursed seated service in Wailea dining rooms and Kapalua lanais. Needs more servers than a buffet.',
       lede:
         'A restaurant arc, off-site, to the table. Rehearsal dinners often run this way. Staffing is a separate line.',
       photo: 'fmtPlatedMaui',
       body: [
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This URL is plated service.`,
+        `This URL is plated service.`,
         'Rehearsal: /rehearsal-dinners. Family-style: /catering/family-style. Traffic: /west-maui.',
       ],
       faqs: [
@@ -264,13 +261,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Family-style service in Maui villas — platters on the lanai.',
       title: 'Family-style service in Maui villas | myCHEF',
       description:
-        'Shared platters in Wailea, Kapalua and Kīhei. Usual villa night for about 10–20. Not the catering keyword.',
+        'Shared platters in Wailea, Kapalua and Kīhei. Usual villa night for about 10–20.',
       lede:
         'Platters down the table. Welcome dinners often run this way. The plated page is next door.',
       photo: 'fmtFamilyMaui',
       body: [
         'Welcome: /events/welcome-dinners. Villa parties: /events/villa-parties. This URL is the format.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) remains /catering.`,
       ],
       faqs: [
         {
@@ -294,12 +290,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Buffet service in Maui villas — stations on a South Maui lawn.',
       title: 'Buffet service in Maui villas | myCHEF',
       description:
-        'Staffed buffet in Wailea, Kīhei and West Maui houses. Best from about 20 guests. Not a hotel banquet. Not the catering money keyword.',
+        'Staffed buffet in Wailea, Kīhei and West Maui houses. Best from about 20 guests. Not a hotel banquet.',
       lede:
         'Guests move. Stations stay hot. Wet-weather backup is written. Ballrooms are not the product.',
       photo: 'fmtBuffetMaui',
       body: [
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) is /catering. This URL is buffet as a format.`,
+        `This URL is buffet as a format.`,
         'Retreat kitchens: /retreat-catering. Guest counts: /guest-counts.',
       ],
       faqs: [
@@ -324,13 +320,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Grazing boards in a Maui villa — first hour on the lanai.',
       title: 'Grazing boards in a Maui villa | myCHEF',
       description:
-        'Styled boards and passed small plates in Wailea and West Maui. Cocktail hour or arrival night. Not the catering money keyword.',
+        'Styled boards and passed small plates in Wailea and West Maui. Cocktail hour or arrival night.',
       lede:
         'Boards, travel clothes, the ice-breaker. A seated dinner is a different format.',
       photo: 'fmtGrazingMaui',
       body: [
         'Welcome dinners often start here — /events/welcome-dinners. Family-style is seated. This URL is the board format.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) remains /catering.`,
       ],
       faqs: [
         {
@@ -386,12 +381,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'BBQ on a Kauai estate lawn — inquiry, both shores.',
       title: 'BBQ on a Kauai estate lawn — inquiry | myCHEF',
       description:
-        'Staffed BBQ in Princeville, Hanalei and Poʻipū. Inquiry stage. Grill as a format. Far-North inherits the bridge clause. Not the catering keyword.',
+        'Staffed BBQ in Princeville, Hanalei and Poʻipū. Inquiry stage. Grill as a format. Far-North inherits the bridge clause.',
       lede:
         'Grill, kiawe, pale cliffs or misted mountains. Inquiry. We do not sell a theatrical luau we do not staff.',
       photo: 'fmtBbqKauai',
       body: [
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) is /catering. This URL is the grill format.`,
+        `This URL is the grill format.`,
         'Far-North: /hanalei-bridge. Drop-off is a different product. Inquiry list with the shore.',
       ],
       faqs: [
@@ -416,12 +411,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Plated estate service on Kauai — inquiry, both shores.',
       title: 'Plated estate service on Kauai — inquiry | myCHEF',
       description:
-        'Coursed seated service in Princeville and Poʻipū. Inquiry stage. Needs more servers than a buffet. Not the catering money keyword.',
+        'Coursed seated service in Princeville and Poʻipū. Inquiry stage. Needs more servers than a buffet.',
       lede:
         'Courses on an estate table. North mist or South sun. Inquiry. Rehearsal dinners often run this way.',
       photo: 'fmtPlatedKauai',
       body: [
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This URL is plated service.`,
+        `This URL is plated service.`,
         'Rehearsal: /rehearsal-dinners. Far-North still inherits /hanalei-bridge.',
       ],
       faqs: [
@@ -446,13 +441,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Family-style service on Kauai estates — platters, both shores.',
       title: 'Family-style service on Kauai estates | myCHEF',
       description:
-        'Shared platters in Princeville and Poʻipū. Inquiry stage. Usual estate night for about 10–20. Not the catering keyword.',
+        'Shared platters in Princeville and Poʻipū. Inquiry stage. Usual estate night for about 10–20.',
       lede:
         'Platters down the table. Welcome dinners often run this way. Inquiry.',
       photo: 'fmtFamilyKauai',
       body: [
         'Welcome: /events/welcome-dinners. This URL is the format. Far-North: /hanalei-bridge.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) remains /catering.`,
       ],
       faqs: [
         {
@@ -476,12 +470,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Buffet service on Kauai estates — inquiry, stations that stay hot.',
       title: 'Buffet service on Kauai estates — inquiry | myCHEF',
       description:
-        'Staffed buffet in Princeville and Poʻipū. Inquiry stage. Best from about 20 guests. Not a hotel banquet. Not the catering money keyword.',
+        'Staffed buffet in Princeville and Poʻipū. Inquiry stage. Best from about 20 guests. Not a hotel banquet.',
       lede:
         'Guests move. Stations stay hot. Inquiry. Estate scale, not a ballroom.',
       photo: 'fmtBuffetKauai',
       body: [
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) is /catering. This URL is buffet as a format.`,
+        `This URL is buffet as a format.`,
         'Retreat kitchens: /retreat-catering. Guest counts: /guest-counts. Inquiry stage.',
       ],
       faqs: [
@@ -506,13 +500,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Grazing boards on a Kauai estate — first hour, both shores.',
       title: 'Grazing boards on a Kauai estate | myCHEF',
       description:
-        'Styled boards and passed small plates in Poʻipū and Princeville. Inquiry stage. Arrival night or cocktail hour. Not the catering keyword.',
+        'Styled boards and passed small plates in Poʻipū and Princeville. Inquiry stage. Arrival night or cocktail hour.',
       lede:
         'Boards after Līhuʻe. Family-style may follow. Inquiry.',
       photo: 'fmtGrazingKauai',
       body: [
         'Welcome dinners often start here — /events/welcome-dinners. This URL is the board format.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) remains /catering.`,
       ],
       faqs: [
         {
@@ -536,7 +529,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Both-shore trays are inquiry — never sold as a staffed estate.',
       title: 'Both-shore drop-off inquiry — not a staffed estate | myCHEF',
       description:
-        'Kauaʻi drop-off is inquiry-only trays, never sold as a staffed Princeville or Poʻipū estate. We will not blur it with /catering.',
+        'Kauaʻi drop-off is inquiry-only trays, never sold as a staffed Princeville or Poʻipū estate.',
       lede:
         'Trays at the estate door. No pass. Inquiry. If you want a chef, that is /catering. This page keeps the words honest.',
       photo: 'fmtDropoffKauai',
@@ -568,12 +561,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'BBQ on a Kohala lava terrace — west side, inquiry.',
       title: 'BBQ on a Kohala lava terrace — west side | myCHEF',
       description:
-        'Staffed BBQ on Kona–Kohala terraces. Inquiry stage. Grill as a format. East side is a different day. Not the catering keyword.',
+        'Staffed BBQ on Kona–Kohala terraces. Inquiry stage. Grill as a format. East side is a different day.',
       lede:
         'Grill on lava, hard sun, kanpachi. Not a Hilo add-on. We do not sell a theatrical luau we do not staff.',
       photo: 'fmtBbqBigisland',
       body: [
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) is /catering. This URL is the grill format.`,
+        `This URL is the grill format.`,
         'West-side: /kohala-corridor. East side: /east-side. Ironman weeks: /ironman-weeks.',
       ],
       faqs: [
@@ -598,12 +591,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Plated villa service on the Kohala Coast — west-side courses.',
       title: 'Plated villa service on the Kohala Coast | myCHEF',
       description:
-        'Coursed seated service in Kona and Kohala houses. Inquiry stage. Needs more servers than a buffet. East side is a different day. Not the catering keyword.',
+        'Coursed seated service in Kona and Kohala houses. Inquiry stage. Needs more servers than a buffet. East side is a different day.',
       lede:
         'Courses on lava, Mauna Kea faint. Inquiry. Rehearsal dinners often run this way.',
       photo: 'fmtPlatedBigisland',
       body: [
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) is the dinner door. This URL is plated service.`,
+        `This URL is plated service.`,
         'Rehearsal: /rehearsal-dinners. East side: /east-side.',
       ],
       faqs: [
@@ -634,7 +627,6 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       photo: 'fmtFamilyBigisland',
       body: [
         'Welcome: /events/welcome-dinners. This URL is the format. West-side: /kohala-corridor.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) remains /catering.`,
       ],
       faqs: [
         {
@@ -658,12 +650,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Buffet service on the Kohala Coast — west-side stations.',
       title: 'Buffet service on the Kohala Coast | myCHEF',
       description:
-        'Staffed buffet in Kona and Kohala houses. Inquiry stage. Best from about 20 guests. East side is a different day. Not the catering money keyword.',
+        'Staffed buffet in Kona and Kohala houses. Inquiry stage. Best from about 20 guests. East side is a different day.',
       lede:
         'Guests move. Stations stay hot in hard sun. Inquiry. Not a Hilo add-on.',
       photo: 'fmtBuffetBigisland',
       body: [
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) is /catering. This URL is buffet as a format.`,
+        `This URL is buffet as a format.`,
         'Retreat kitchens: /retreat-catering. Ironman weeks pack town — /ironman-weeks. Guest counts: /guest-counts.',
       ],
       faqs: [
@@ -694,7 +686,6 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       photo: 'fmtGrazingBigisland',
       body: [
         'Welcome dinners often start here — /events/welcome-dinners. This URL is the board format.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) remains /catering.`,
       ],
       faqs: [
         {

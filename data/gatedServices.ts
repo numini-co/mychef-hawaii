@@ -15,12 +15,12 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Oahu rehearsal dinners — the night before, as its own line.',
       title: 'Oahu rehearsal dinners as their own line | myCHEF',
       description:
-        'Seated rehearsal dinners in Kahala dining rooms and Ko Olina villas. Not the reception. Wedding-week stacks live on /weddings. Not the catering keyword.',
+        'Seated rehearsal dinners in Kahala dining rooms and Ko Olina villas. Not the reception.',
       lede:
         'Twelve seats, plated fish, the night before. The lawn reception is a different door. We write this line separately so the quote is honest.',
       photo: 'svcRehearsalOahu',
       body: [
-        `Wedding catering Oahu (${SEARCH_VOLUMES['wedding catering oahu']}) lives on /weddings. Oahu catering (${SEARCH_VOLUMES['oahu catering']}) lives on /catering. This URL is the seated night before.`,
+        `This URL is the seated night before.`,
         'Kahala dining rooms hold a table. Ko Olina villas hold a week. Welcome dinners are /events/welcome-dinners. Guest counts: /guest-counts.',
       ],
       faqs: [
@@ -45,7 +45,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Oahu meal prep stays gated until utilization is proven.',
       title: 'Oahu meal prep is gated until proven | myCHEF',
       description:
-        'Volume meal prep on Oahu is not a standing SKU. Inquiry only until utilization is proven. Weekly resident cooking is /kamaaina.',
+        'Volume meal prep on Oahu is not a standing SKU. Inquiry only until utilization is proven.',
       lede:
         'Labeled containers are not a product we sell today. A fridge program needs a bench we will not invent. Ask; do not expect a rate card.',
       photo: 'svcMealprepOahu',
@@ -105,12 +105,11 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Omakase at home on Oahu — tasting in the villa, not a restaurant claim.',
       title: 'Omakase at home on Oahu — tasting in the villa | myCHEF',
       description:
-        'Premium tasting at home in Kahala and Ko Olina. Menu and sourcing verification are launch gates. Not a Michelin claim. Not the private-chef keyword.',
+        'Premium tasting at home in Kahala and Ko Olina. Menu and sourcing verification are launch gates. Not a Michelin claim.',
       lede:
         'A paced tasting at the kitchen island. We will not borrow a restaurant’s name. Sourcing is written on the menu or it is not claimed.',
       photo: 'svcOmakaseOahu',
       body: [
-        `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) is the dinner door on this host’s home. This URL is the tasting arc so those titles do not collide.`,
         'Chef’s table seating is /chefs-table. Honeymoon two-tops are /honeymoon-dinners. Sample process: /menus. Proof: a written quote.',
       ],
       faqs: [
@@ -135,12 +134,11 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Executive dinners in Oahu houses — not citywides.',
       title: 'Executive dinners in Oahu houses — not citywides | myCHEF',
       description:
-        'Offsites and executive dinners in Kahala and Ko Olina houses. HCC citywides are closed through 2027 and are not our product. Not the catering money keyword.',
+        'Offsites and executive dinners in Kahala and Ko Olina houses. HCC citywides are closed through 2027 and are not our product.',
       lede:
         'A house, a small offsite table, the guest list you actually have. Not the Hawaiʻi Convention Center. Not a MICE play while citywides are closed.',
       photo: 'svcCorpcatOahu',
       body: [
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This URL is the executive house dinner so those titles do not collide.`,
         'HCC citywides: /conventions. Occasion index: /events/corporate-events. Retreat cooking: /events/retreats. Full-board food as a line: /retreat-catering.',
       ],
       faqs: [
@@ -165,13 +163,13 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Oahu full-board retreat kitchens — food as its own line.',
       title: 'Oahu full-board retreat kitchens — food as its own line | myCHEF',
       description:
-        'Full-board retreat days in Oahu houses. Dietary designed in. Distinct from the occasion page /events/retreats. Not the catering money keyword.',
+        'Full-board retreat days in Oahu houses. Dietary designed in.',
       lede:
         'Breakfast through dinner as a food line. The occasion lives next door. We split them so a planner can buy the kitchen without buying the story.',
       photo: 'svcRetreatcatOahu',
       body: [
         'The occasion document is /events/retreats. This URL is the food: three meals, dietary as table stakes, claimed only when the Kahala or Ko Olina kitchen can hold it.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) remains /catering. Multi-day Stay Chef: /vacation-chef. Dietary: /dietary.`,
+        `Multi-day Stay Chef: /vacation-chef. Dietary: /dietary.`,
       ],
       faqs: [
         {
@@ -197,12 +195,12 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Maui rehearsal dinners — a seated night, not the reception.',
       title: 'Maui rehearsal dinners — a seated night | myCHEF',
       description:
-        'Seated rehearsal dinners in Wailea, Kapalua and Kāʻanapali houses. Not the lawn reception. Wedding-week stacks live on /wedding-week.',
+        'Seated rehearsal dinners in Wailea, Kapalua and Kāʻanapali houses. Not the lawn reception.',
       lede:
         'A table, paced courses, the night before. The reception is a different line on the week. West Maui Saturday traffic is planned into arrival.',
       photo: 'svcRehearsalMaui',
       body: [
-        `Wedding catering Maui (${SEARCH_VOLUMES['wedding catering maui']}) is small. The wedding-week door is /wedding-week. Maui catering (${SEARCH_VOLUMES['maui catering']}) is /catering. This URL is the seated rehearsal.`,
+        `The wedding-week door is /wedding-week. This URL is the seated rehearsal.`,
         'Kapalua lanais and Wailea dining rooms. Welcome nights: /events/welcome-dinners. Traffic: /west-maui.',
       ],
       faqs: [
@@ -227,13 +225,13 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Maui meal prep stays gated — inquiry, not a standing SKU.',
       title: 'Maui meal prep is gated until proven | myCHEF',
       description:
-        'Volume meal prep on Maui is not a standing SKU. Inquiry only until utilization is proven. Villa weeks are /vacation-chef.',
+        'Volume meal prep on Maui is not a standing SKU. Inquiry only until utilization is proven.',
       lede:
         'We will not sell a fridge program we cannot staff in Wailea or West Maui. Ask. Do not expect a published band.',
       photo: 'svcMealprepMaui',
       body: [
         'Stay Chef weeks cook in the house each day — /vacation-chef. That is not packed lunches. This page stays gated until utilization is proven.',
-        'Personal chef Maui is a measured phrase with low volume. It does not belong in a visitor-dinner title and it does not unlock a fake prep SKU.',
+        'It does not belong in a visitor-dinner title and it does not unlock a fake prep SKU.',
       ],
       faqs: [
         {
@@ -263,7 +261,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       photo: 'svcClassesMaui',
       body: [
         'A counter pass during dinner is /chefs-table. A class is an instructor product. Halo language stays labeled as posture.',
-        'Private chef Maui is the dinner door on this host’s home. This URL does not steal that title.',
+        'Private chef Maui is the dinner door on this host’s home.',
       ],
       faqs: [
         {
@@ -287,12 +285,11 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Omakase at home on Maui — a tasting arc in Wailea, not a Michelin claim.',
       title: 'Omakase at home on Maui — a tasting arc in Wailea | myCHEF',
       description:
-        'Premium tasting at home in Wailea and Kapalua. Sourcing verification is a launch gate. Not a star claim. Not the private-chef keyword.',
+        'Premium tasting at home in Wailea and Kapalua. Sourcing verification is a launch gate. Not a star claim.',
       lede:
         'Courses at the open-kitchen counter. Molokini in the window if the house has it. We will not borrow a restaurant’s name.',
       photo: 'svcOmakaseMaui',
       body: [
-        `Private chef Maui (${SEARCH_VOLUMES['private chef maui']}) is the dinner door. This URL is the tasting so those titles stay clean.`,
         'Chef’s table: /chefs-table. Two-tops: /honeymoon-dinners. Menus are designed per table: /menus.',
       ],
       faqs: [
@@ -317,12 +314,12 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Executive dinners in Maui villas — not a ballroom.',
       title: 'Executive dinners in Maui villas — not a ballroom | myCHEF',
       description:
-        'Offsites and executive dinners in Wailea, Kapalua and Kīhei houses. Not hotel ballrooms. Not the catering money keyword.',
+        'Offsites and executive dinners in Wailea, Kapalua and Kīhei houses. Not hotel ballrooms.',
       lede:
         'A villa kitchen, a small offsite list, South or West. We cook houses. We do not staff banquet rooms.',
       photo: 'svcCorpcatMaui',
       body: [
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This URL is the executive house dinner.`,
+        `This URL is the executive house dinner.`,
         'Occasion index: /events/corporate-events. Retreat cooking: /events/retreats. Full-board food line: /retreat-catering. Traffic: /west-maui.',
       ],
       faqs: [
@@ -347,13 +344,13 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Maui full-board retreat kitchens — South and West houses.',
       title: 'Maui full-board retreat kitchens — South and West houses | myCHEF',
       description:
-        'Full-board retreat days in Wailea, Kapalua and Kīhei. Distinct from /events/retreats. Dietary designed in. Not the catering money keyword.',
+        'Full-board retreat days in Wailea, Kapalua and Kīhei. Dietary designed in.',
       lede:
         'Three meals in the house. The occasion page is next door. This page is the kitchen so a planner can buy food without buying the story.',
       photo: 'svcRetreatcatMaui',
       body: [
         'The occasion is /events/retreats. This URL is breakfast through dinner. Dietary is table stakes — /dietary. Multi-day: /vacation-chef.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) remains /catering. Upcountry is a surcharge. See /coverage.`,
+        `Upcountry is a surcharge. See /coverage.`,
       ],
       faqs: [
         {
@@ -379,12 +376,12 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Kauai rehearsal dinners — estate table, inquiry.',
       title: 'Kauai rehearsal dinners — estate table, inquiry | myCHEF',
       description:
-        'Seated rehearsal dinners in Princeville, Hanalei and Poʻipū. Inquiry stage. Not the reception. Wedding-week stacks live on /wedding-week.',
+        'Seated rehearsal dinners in Princeville, Hanalei and Poʻipū. Inquiry stage. Not the reception.',
       lede:
         'An estate table looking into a valley, or a South Shore dining room. Inquiry. Far-North inherits the bridge clause.',
       photo: 'svcRehearsalKauai',
       body: [
-        `Kauai wedding catering (${SEARCH_VOLUMES['kauai wedding catering']}) is a thin measured phrase. The week door is /wedding-week. Kauai catering (${SEARCH_VOLUMES['kauai catering']}) is /catering. This URL is the seated rehearsal.`,
+        `The week door is /wedding-week. This URL is the seated rehearsal.`,
         'Far-North: /hanalei-bridge. Welcome: /events/welcome-dinners. Inquiry list with the shore.',
       ],
       faqs: [
@@ -409,7 +406,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Kauai meal prep stays gated — inquiry, not a standing SKU.',
       title: 'Kauai meal prep is gated until proven | myCHEF',
       description:
-        'Volume meal prep on Kauai is not a standing SKU. Inquiry only. Estate weeks are /vacation-chef.',
+        'Volume meal prep on Kauai is not a standing SKU. Inquiry only.',
       lede:
         'Unused containers in a Poʻipū kitchen. We will not invent a fridge program while this department is inquiry.',
       photo: 'svcMealprepKauai',
@@ -445,7 +442,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       photo: 'svcClassesKauai',
       body: [
         'A counter pass is /chefs-table. A class is an instructor product. Inquiry stage does not get a fake teacher name.',
-        'Private chef Kauai is the dinner door on this host’s home. This URL does not steal that title.',
+        'Private chef Kauai is the dinner door on this host’s home.',
       ],
       faqs: [
         {
@@ -474,7 +471,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
         'A paced tasting at the estate counter. South sun or North mist. We will not borrow a restaurant’s name while we are inquiry.',
       photo: 'svcOmakaseKauai',
       body: [
-        `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) is the dinner door. This URL is the tasting arc.`,
+        `This URL is the tasting arc.`,
         'Chef’s table: /chefs-table. Menus: /menus. Far-North still inherits /hanalei-bridge.',
       ],
       faqs: [
@@ -499,12 +496,12 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Executive dinners on Kauai estates — inquiry.',
       title: 'Executive dinners on Kauai estates — inquiry | myCHEF',
       description:
-        'Offsites and executive dinners in Princeville and Poʻipū houses. Inquiry stage. Not a convention play. Not the catering money keyword.',
+        'Offsites and executive dinners in Princeville and Poʻipū houses. Inquiry stage. Not a convention play.',
       lede:
         'A small estate table. Both shores. Inquiry. We do not pretend Kauaʻi is a MICE island.',
       photo: 'svcCorpcatKauai',
       body: [
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This URL is the executive house dinner.`,
+        `This URL is the executive house dinner.`,
         'Occasion: /events/corporate-events. Retreat cooking: /events/retreats. Full-board food: /retreat-catering. Inquiry stage.',
       ],
       faqs: [
@@ -529,13 +526,13 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Kauai full-board retreat kitchens — inquiry, both shores.',
       title: 'Kauai full-board retreat kitchens — inquiry, both shores | myCHEF',
       description:
-        'Full-board retreat days in Kauai houses. Inquiry stage. Distinct from /events/retreats. Dietary designed in. Not the catering money keyword.',
+        'Full-board retreat days in Kauai houses. Inquiry stage. Dietary designed in.',
       lede:
         'Breakfast through dinner in the house. The mist and the fire plan follow the shore. The occasion page is next door.',
       photo: 'svcRetreatcatKauai',
       body: [
         'Occasion: /events/retreats. This URL is the kitchen line. Dietary: /dietary. Far-North: /hanalei-bridge. Multi-day: /vacation-chef.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) remains /catering. Inquiry stage.`,
+        `Inquiry stage.`,
       ],
       faqs: [
         {
@@ -561,12 +558,12 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Kohala rehearsal dinners — west-side night before, inquiry.',
       title: 'Kohala rehearsal dinners — west-side night before | myCHEF',
       description:
-        'Seated rehearsal dinners on Kona–Kohala terraces. Inquiry stage. Not the reception. East side is a different day. Wedding stacks live on /weddings.',
+        'Seated rehearsal dinners on Kona–Kohala terraces. Inquiry stage. Not the reception. East side is a different day.',
       lede:
         'Eight seats on lava, plated kanpachi, Mauna Kea faint. The reception is a different line. East side is not an add-on.',
       photo: 'svcRehearsalBigisland',
       body: [
-        `Wedding catering Hawaii (${SEARCH_VOLUMES['wedding catering hawaii']}) is a thin phrase. Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) is the dinner door. This URL is the seated rehearsal.`,
+        `This URL is the seated rehearsal.`,
         'West-side radius: /kohala-corridor. East side: /east-side. Inquiry stage.',
       ],
       faqs: [
@@ -591,7 +588,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Hawaiʻi Island meal prep stays gated — west side, inquiry.',
       title: 'Hawaiʻi Island meal prep is gated until proven | myCHEF',
       description:
-        'Volume meal prep on Hawaiʻi Island is not a standing SKU. Inquiry only. West-side villa weeks are /vacation-chef. East side is a different day.',
+        'Volume meal prep on Hawaiʻi Island is not a standing SKU. Inquiry only. East side is a different day.',
       lede:
         'Unused containers in a Kona kitchen. Hard sun. We will not invent a fridge program while this department is inquiry.',
       photo: 'svcMealprepBigisland',
@@ -627,7 +624,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       photo: 'svcClassesBigisland',
       body: [
         'A counter pass is /chefs-table. A class is an instructor product. We will not invent a Kona coffee-class brand. See /coffee-act-198.',
-        'Private chef Big Island and private chef Kona are dinner doors. This URL does not steal those titles.',
+        'Private chef Big Island and private chef Kona are dinner doors.',
       ],
       faqs: [
         {
@@ -656,7 +653,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
         'Kanpachi in courses at the kitchen counter. Lava in the window. We will not borrow a restaurant’s name. East side is not implied.',
       photo: 'svcOmakaseBigisland',
       body: [
-        `Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) and private chef Big Island (${SEARCH_VOLUMES['private chef big island']}) are dinner doors. This URL is the tasting.`,
+        `This URL is the tasting.`,
         'Chef’s table: /chefs-table. Coffee on a crust follows /coffee-act-198. East side: /east-side.',
       ],
       faqs: [
@@ -681,12 +678,12 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Executive dinners on the Kohala Coast — inquiry.',
       title: 'Executive dinners on the Kohala Coast — inquiry | myCHEF',
       description:
-        'Offsites and executive dinners in Kona and Kohala houses. Inquiry stage. Not a Hilo add-on. Not the catering money keyword.',
+        'Offsites and executive dinners in Kona and Kohala houses. Inquiry stage. Not a Hilo add-on.',
       lede:
         'A west-side villa table. Hard sun. Not the whole island. Not a ballroom. Inquiry.',
       photo: 'svcCorpcatBigisland',
       body: [
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This URL is the executive house dinner.`,
+        `This URL is the executive house dinner.`,
         'Occasion: /events/corporate-events. Retreat cooking: /events/retreats. Full-board food: /retreat-catering. Ironman weeks: /ironman-weeks.',
       ],
       faqs: [
@@ -711,13 +708,13 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Hawaiʻi Island full-board retreat kitchens — west side.',
       title: 'Hawaiʻi Island full-board retreat kitchens — west side | myCHEF',
       description:
-        'Full-board retreat days in Kona–Kohala houses. Inquiry stage. Distinct from /events/retreats. East side is a different day. Not the catering money keyword.',
+        'Full-board retreat days in Kona–Kohala houses. Inquiry stage. East side is a different day.',
       lede:
         'Breakfast fish, a small offsite table, lava heat. The occasion page is next door. This page is the kitchen.',
       photo: 'svcRetreatcatBigisland',
       body: [
         'Occasion: /events/retreats. This URL is breakfast through dinner. Dietary: /dietary. Multi-day: /vacation-chef. West-side first.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) remains /catering. Hilo retreats are quote-only dedicated days — /east-side.`,
+        `Hilo retreats are quote-only dedicated days — /east-side.`,
       ],
       faqs: [
         {

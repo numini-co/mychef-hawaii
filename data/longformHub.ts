@@ -162,7 +162,7 @@ export const hubWeddingsSections: CopySection[] = [
     h2: 'Welcome dinner through recovery brunch',
     paras: [
       'The week we write is four culinary events you can cut. Welcome dinner is the ice-breaker — family-style or grazing, the room still arriving. Rehearsal is a coursed table for the inner circle. Reception is the staffed room of about ten to seventy-five: buffet if the list walks, plated if the dining room can take a restaurant pace. Recovery brunch is optional and gentle. Separate lines mean a Monday brunch can drop without reopening a mystery package.',
-      'Oʻahu weekends stack tighter — Friday through Sunday on the Gold Coast or at Ko Olina. Maui weeks run longer when the villa is the venue for the whole stay. Kauaʻi estate weeks are both-shore and inquiry-stage. Hawaiʻi Island weeks are Kohala and Kona first, also inquiry-stage. Open the island wedding page for the house. This statewide page does not steal those island head terms.',
+      'Oʻahu weekends stack tighter — Friday through Sunday on the Gold Coast or at Ko Olina. Maui weeks run longer when the villa is the venue for the whole stay. Kauaʻi estate weeks are both-shore and inquiry-stage. Hawaiʻi Island weeks are Kohala and Kona first, also inquiry-stage. Open the island wedding page for the house.',
       'Florals, photography, and officiants stay yours unless we quote them. The bar is a first-class sibling on /bar. A staffed villa event without vows lives on /catering. A single dinner lives on the island home or /private-chef. This page is the week.',
     ],
   },
@@ -237,7 +237,7 @@ export const hubPricingSections: CopySection[] = [
     h2: 'How to read the tariff',
     paras: [
       'Use the island tabs on this page for the card that matches the house. Then open /quote with that island selected. Typical reply in Hawaii business hours. No payment to enquire. No account.',
-      'If you need the Maui-only cost story, the Maui site’s /pricing and /private-chef-cost carry it. This statewide card is what a night costs, line by line. The fee-stack picker is /private-chef-cost.',
+      'This statewide card is what a night costs, line by line. Each island site also publishes its own rate card.',
     ],
   },
 ];

@@ -27,12 +27,12 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       h1: 'A romantic dinner in a Kahala dining room — two seats, not a restaurant.',
       title: 'A romantic dinner in a Kahala dining room | myCHEF',
       description:
-        'Two-seat romantic dinners in Kahala and Ko Olina houses. Distinct from the honeymoon SKU. Not a restaurant reservation. Not the private-chef keyword.',
+        'Two-seat romantic dinners in Kahala and Ko Olina houses. Distinct from the honeymoon SKU. Not a restaurant reservation.',
       lede:
         'Brass, two plates, Diamond Head faint. The honeymoon page is the published two-top SKU. This URL is the night as a fine-dining posture — still a house, still a written quote.',
       photo: 'fineRomanticOahu',
       body: [
-        `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) is this host’s home. Honeymoon two-tops are /honeymoon-dinners. This URL is the romantic night so those titles do not collide.`,
+        `Honeymoon two-tops are /honeymoon-dinners.`,
         'We do not claim stars we do not have. Sourcing is written on the menu or it is not claimed. Guest counts: /guest-counts.',
       ],
       faqs: [
@@ -57,7 +57,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       h1: 'A tasting menu in an Oahu villa — written courses, not a star claim.',
       title: 'A tasting menu in an Oahu villa | myCHEF',
       description:
-        'Written tasting arcs in Kahala and Ko Olina kitchens. Distinct from /omakase-at-home. Not a Michelin claim. Designed per table.',
+        'Written tasting arcs in Kahala and Ko Olina kitchens. Not a Michelin claim. Designed per table.',
       lede:
         'Courses on paper, then on the island. Omakase-at-home is the paced tasting SKU with sourcing gates. This URL is the written menu as a format.',
       photo: 'fineTastingOahu',
@@ -87,13 +87,12 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       h1: 'A chef’s table evening in an Oahu kitchen — the pass is the table.',
       title: 'A chef’s table evening in an Oahu kitchen | myCHEF',
       description:
-        'Evening seating at the Kahala or Ko Olina kitchen island. Distinct from /chefs-table as a product line. Not a restaurant pass. Not a star claim.',
+        'Evening seating at the Kahala or Ko Olina kitchen island. Not a restaurant pass. Not a star claim.',
       lede:
-        'Guests at the island. The sear in front of you. /chefs-table is the SKU. This URL is the evening as a fine-dining format so the titles stay clean.',
+        'Guests at the island. The sear in front of you. /chefs-table is the SKU.',
       photo: 'fineChefsEveOahu',
       body: [
         'The product line is /chefs-table. This page is the evening format. Tasting arcs: /fine-dining/tasting-menu. Omakase: /omakase-at-home.',
-        `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) remains the dinner door on this host’s home.`,
       ],
       faqs: [
         {
@@ -117,12 +116,12 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       h1: 'A celebration dinner in an Oahu dining room — plated, not a lawn party.',
       title: 'A celebration dinner in an Oahu dining room | myCHEF',
       description:
-        'Seated celebration dinners in Kahala dining rooms and Ko Olina villas. Distinct from /events/villa-parties and /events/birthdays. Not the catering keyword.',
+        'Seated celebration dinners in Kahala dining rooms and Ko Olina villas.',
       lede:
         'Eight plates, brass, a dining room. The villa party is a different door. This URL is the seated celebration as a fine-dining night.',
       photo: 'fineCelebrationOahu',
       body: [
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. Birthdays: /events/birthdays. Villa parties: /events/villa-parties. This page is the seated celebration.`,
+        `Birthdays: /events/birthdays. Villa parties: /events/villa-parties. This page is the seated celebration.`,
         'Plated service: /catering/plated. Guest counts: /guest-counts.',
       ],
       faqs: [
@@ -149,12 +148,12 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       h1: 'A romantic dinner on a Wailea lanai — two plates, Molokini faint.',
       title: 'A romantic dinner on a Wailea lanai | myCHEF',
       description:
-        'Two-seat romantic dinners in Wailea and Kapalua. Distinct from the honeymoon SKU. Not a restaurant reservation. Not the private-chef keyword.',
+        'Two-seat romantic dinners in Wailea and Kapalua. Distinct from the honeymoon SKU. Not a restaurant reservation.',
       lede:
         'Blue hour, two plated fish. The honeymoon page is the published two-top. This URL is the romantic night as a format.',
       photo: 'fineRomanticMaui',
       body: [
-        `Private chef Maui (${SEARCH_VOLUMES['private chef maui']}) is this host’s home. Honeymoon two-tops: /honeymoon-dinners. This URL keeps those titles clean.`,
+        `Honeymoon two-tops: /honeymoon-dinners. This URL keeps those titles clean.`,
         'West Maui houses: /west-maui. Wet-weather backup is written for lanais that do not hold.',
       ],
       faqs: [
@@ -179,7 +178,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       h1: 'A tasting menu in a Maui villa — written courses in Wailea.',
       title: 'A tasting menu in a Maui villa | myCHEF',
       description:
-        'Written tasting arcs in Wailea and Kapalua kitchens. Distinct from /omakase-at-home. Not a Michelin claim. Not a Lotus Chefs impersonation.',
+        'Written tasting arcs in Wailea and Kapalua kitchens. Not a Michelin claim. Not a Lotus Chefs impersonation.',
       lede:
         'Courses at the open-kitchen counter. Omakase-at-home is the paced SKU. This URL is the written tasting as a format.',
       photo: 'fineTastingMaui',
@@ -209,13 +208,12 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       h1: 'A chef’s table evening in a Maui kitchen — the counter is the table.',
       title: 'A chef’s table evening in a Maui kitchen | myCHEF',
       description:
-        'Evening seating at a Wailea or Kapalua kitchen counter. Distinct from /chefs-table. Not a restaurant pass. Not a star claim.',
+        'Evening seating at a Wailea or Kapalua kitchen counter. Not a restaurant pass. Not a star claim.',
       lede:
         'The sear in front of you. Molokini in the window if the house has it. /chefs-table is the SKU. This URL is the evening format.',
       photo: 'fineChefsEveMaui',
       body: [
         'The product line is /chefs-table. This page is the evening. Tasting: /fine-dining/tasting-menu.',
-        `Private chef Maui (${SEARCH_VOLUMES['private chef maui']}) remains the dinner door.`,
       ],
       faqs: [
         {
@@ -239,12 +237,12 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       h1: 'A celebration dinner in a Maui dining room — plated, not a lawn party.',
       title: 'A celebration dinner in a Maui dining room | myCHEF',
       description:
-        'Seated celebration dinners in Wailea and West Maui houses. Distinct from /events/villa-parties and /events/birthdays. Not the catering keyword.',
+        'Seated celebration dinners in Wailea and West Maui houses.',
       lede:
         'A dining room, identical plates, a small list. The lawn party is a different door. This URL is the seated celebration.',
       photo: 'fineCelebrationMaui',
       body: [
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. Birthdays: /events/birthdays. Villa parties: /events/villa-parties.`,
+        `Birthdays: /events/birthdays. Villa parties: /events/villa-parties.`,
         'Plated: /catering/plated. Wet-weather backup is written if you move to a lawn.',
       ],
       faqs: [
@@ -276,7 +274,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         'Wet North stone or South sun. Two plates. Inquiry. The honeymoon SKU is next door. Far-North inherits the bridge clause.',
       photo: 'fineRomanticKauai',
       body: [
-        `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) is this host’s home. Honeymoon: /honeymoon-dinners. Far-North: /hanalei-bridge.`,
+        `Honeymoon: /honeymoon-dinners. Far-North: /hanalei-bridge.`,
         'Inquiry list with the shore. We will not fake a live roster.',
       ],
       faqs: [
@@ -301,13 +299,12 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       h1: 'A tasting menu on a Kauai estate — written courses, inquiry.',
       title: 'A tasting menu on a Kauai estate | myCHEF',
       description:
-        'Written tasting arcs in Princeville and Poʻipū. Inquiry stage. Distinct from /omakase-at-home. Not a restaurant claim.',
+        'Written tasting arcs in Princeville and Poʻipū. Inquiry stage. Not a restaurant claim.',
       lede:
         'Courses at the estate counter. Inquiry. Omakase-at-home is the paced SKU. This URL is the written tasting.',
       photo: 'fineTastingKauai',
       body: [
         'Omakase: /omakase-at-home. Chef’s table: /chefs-table. Far-North still inherits /hanalei-bridge.',
-        `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) remains the dinner door.`,
       ],
       faqs: [
         {
@@ -331,7 +328,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       h1: 'A chef’s table evening on Kauai — the estate counter, inquiry.',
       title: 'A chef’s table evening on Kauai | myCHEF',
       description:
-        'Evening seating at a Princeville or Poʻipū kitchen counter. Inquiry stage. Distinct from /chefs-table. Not a restaurant pass.',
+        'Evening seating at a Princeville or Poʻipū kitchen counter. Inquiry stage. Not a restaurant pass.',
       lede:
         'The sear, the mist or the pool. /chefs-table is the SKU. This URL is the evening format. Inquiry.',
       photo: 'fineChefsEveKauai',
@@ -361,12 +358,12 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       h1: 'A celebration dinner on a Kauai estate — plated, inquiry, both shores.',
       title: 'A celebration dinner on a Kauai estate | myCHEF',
       description:
-        'Seated celebration dinners in Princeville and Poʻipū. Inquiry stage. Distinct from /events/villa-parties. Not the catering keyword.',
+        'Seated celebration dinners in Princeville and Poʻipū. Inquiry stage.',
       lede:
         'An estate table, plated fish, a small list. Inquiry. The estate party is a different door.',
       photo: 'fineCelebrationKauai',
       body: [
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. Birthdays: /events/birthdays. Estate parties: /events/villa-parties.`,
+        `Birthdays: /events/birthdays. Estate parties: /events/villa-parties.`,
         'Far-North celebrations inherit /hanalei-bridge. Inquiry list with the shore.',
       ],
       faqs: [
@@ -398,7 +395,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         'Two plates on lava, Mauna Kea faint. Not a Hilo add-on. The honeymoon SKU is next door.',
       photo: 'fineRomanticBigisland',
       body: [
-        `Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) is a dinner door. Honeymoon: /honeymoon-dinners. West-side: /kohala-corridor. East side: /east-side.`,
+        `Honeymoon: /honeymoon-dinners. West-side: /kohala-corridor. East side: /east-side.`,
         'Inquiry stage. We will not fake a live west-side roster.',
       ],
       faqs: [
@@ -423,13 +420,12 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       h1: 'A tasting menu on west-side Hawaiʻi Island — written courses, Kona.',
       title: 'A tasting menu on west-side Hawaiʻi Island | myCHEF',
       description:
-        'Written tasting arcs in Kona and Kohala kitchens. Inquiry stage. Distinct from /omakase-at-home. East side is a different day. Not a restaurant claim.',
+        'Written tasting arcs in Kona and Kohala kitchens. Inquiry stage. East side is a different day. Not a restaurant claim.',
       lede:
         'Kanpachi in courses at the counter. Lava in the window. Omakase-at-home is the paced SKU. This URL is the written tasting.',
       photo: 'fineTastingBigisland',
       body: [
         'Omakase: /omakase-at-home. Coffee origin on a crust: /coffee-act-198. East side: /east-side.',
-        `Private chef Big Island (${SEARCH_VOLUMES['private chef big island']}) remains a dinner door.`,
       ],
       faqs: [
         {
@@ -453,7 +449,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       h1: 'A chef’s table evening in a Kona kitchen — the counter is the table.',
       title: 'A chef’s table evening in a Kona kitchen | myCHEF',
       description:
-        'Evening seating at a Kona or Kohala kitchen counter. Inquiry stage. Distinct from /chefs-table. East side is a different day. Not a restaurant pass.',
+        'Evening seating at a Kona or Kohala kitchen counter. Inquiry stage. East side is a different day. Not a restaurant pass.',
       lede:
         'The sear, hard sun cooling. /chefs-table is the SKU. This URL is the evening format. Not Hilo.',
       photo: 'fineChefsEveBigisland',
@@ -483,12 +479,12 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       h1: 'A celebration dinner on the Kohala Coast — plated, west side.',
       title: 'A celebration dinner on the Kohala Coast | myCHEF',
       description:
-        'Seated celebration dinners in Kona and Kohala houses. Inquiry stage. Distinct from /events/villa-parties. East side is a different day. Not the catering keyword.',
+        'Seated celebration dinners in Kona and Kohala houses. Inquiry stage. East side is a different day.',
       lede:
         'Eight plates on lava, Mauna Kea faint. The villa party is a different door. Not a Hilo add-on.',
       photo: 'fineCelebrationBigisland',
       body: [
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. Birthdays: /events/birthdays. Villa parties: /events/villa-parties.`,
+        `Birthdays: /events/birthdays. Villa parties: /events/villa-parties.`,
         'West-side: /kohala-corridor. East side: /east-side. Ironman weeks: /ironman-weeks.',
       ],
       faqs: [

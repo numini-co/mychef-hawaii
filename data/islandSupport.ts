@@ -26,18 +26,17 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
     description:
       'Oahu booking questions: hotel kitchens vs residences, North Shore surcharge, published prices, reviews. Catering and private-chef doors stay on their own URLs.',
     lede:
-      'This page answers the booking. The staffed-room keyword lives on /catering. The dinner door is this host’s home. We do not invent guest reviews.',
+      'This page answers the booking. The dinner door is this host’s home. We do not invent guest reviews.',
     kicker: 'Oʻahu FAQ',
     photo: 'faqOahu',
     body: [
-      `Oahu catering is the largest measured search on this network (${SEARCH_VOLUMES['oahu catering']} monthly, US, 4 Sep 2026). That URL is /catering. This FAQ does not compete with it.`,
-      `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) and private chef Honolulu (${SEARCH_VOLUMES['private chef honolulu']}) sit on / and /honolulu. Personal chef Honolulu is a smaller related phrase (${SEARCH_VOLUMES['personal chef honolulu']}) — household weeks on /personal-chef, not a second dinner title.`,
+      `That URL is /catering.`,
       'Waikīkī hotel suites often lack a kitchen. Residences with a real stove are the product. Kahala dining rooms, Ko Olina villas, Kailua weeks, and a North Shore surcharge day are not the same drive; the quote says which.',
     ],
     faqs: [
       {
         q: 'Is this the Oahu catering page?',
-        a: `No. /catering owns that keyword (${SEARCH_VOLUMES['oahu catering']} monthly searches). This page is booking questions: kitchens, corridors, what we publish.`,
+        a: `No. This page is booking questions: kitchens, corridors, what we publish.`,
       },
       {
         q: 'Do you cook in a Waikīkī hotel room?',
@@ -57,7 +56,7 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Wedding catering or a dinner?',
-        a: `Wedding catering Oahu is /weddings (${SEARCH_VOLUMES['wedding catering oahu']} monthly). A Tuesday dinner in Kahala is / or /private-chef. Pick the door that matches the night.`,
+        a: `A Tuesday dinner in Kahala is / or /private-chef. Pick the door that matches the night.`,
       },
     ],
   },
@@ -65,20 +64,20 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
     h1: 'Maui questions — villa kitchens, West Maui naming, prices.',
     title: 'Maui FAQ — villa kitchens, West Maui naming, prices | myCHEF',
     description:
-      'Maui booking questions: catering vs dinner, how we name Lahaina, Upcountry surcharge, published prices. Money keywords stay on /catering and /.',
+      'Maui booking questions: catering vs dinner, how we name Lahaina, Upcountry surcharge, published prices.',
     lede:
       'Maui catering is the larger search. Private-chef dinners are the picture people send. This FAQ keeps those doors from colliding and says how we name West Maui.',
     kicker: 'Maui FAQ',
     photo: 'faqMaui',
     body: [
-      `Maui catering is ${SEARCH_VOLUMES['maui catering']} monthly searches; private chef Maui is ${SEARCH_VOLUMES['private chef maui']}. /catering holds the first. This host’s home holds the second. This FAQ holds neither title.`,
+      `/catering holds the first. This host’s home holds the second. This FAQ holds neither title.`,
       'We cook West Maui residences with kitchens — Kāʻanapali, Nāpili, Kapalua. We do not market a Lahaina luxury-dining brand. The address page is /lahaina.',
       'Upcountry is a published surcharge. Pāʻia and Haiku are quote-only with the menu. Wailea, Makena, and Kīhei are base-zone South Maui — three logistics stories, one team.',
     ],
     faqs: [
       {
         q: 'Should I open catering or this FAQ?',
-        a: `Open /catering for the staffed-room keyword (${SEARCH_VOLUMES['maui catering']}). Open / for private chef Maui (${SEARCH_VOLUMES['private chef maui']}). This page is questions.`,
+        a: `This page is questions.`,
       },
       {
         q: 'Do you do Lahaina luxury dining?',
@@ -98,7 +97,7 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Wedding week vs a Tuesday dinner?',
-        a: `Wedding catering Maui is /weddings (${SEARCH_VOLUMES['wedding catering maui']} monthly). Welcome, rehearsal, reception, and recovery brunch are separate lines on /wedding-week.`,
+        a: `Welcome, rehearsal, reception, and recovery brunch are separate lines on /wedding-week.`,
       },
     ],
   },
@@ -106,15 +105,15 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
     h1: 'Kauai questions — both shores, inquiry, the bridge.',
     title: 'Kauai FAQ — both shores, inquiry, the bridge | myCHEF',
     description:
-      'Kauai booking questions: inquiry stage, Princeville vs Poʻipū, Hanalei-bridge weather clause, published prices. Catering stays on /catering.',
+      'Kauai booking questions: inquiry stage, Princeville vs Poʻipū, Hanalei-bridge weather clause, published prices.',
     lede:
       'Both shores. Inquiry stage. The bridge and the weather are real. We staff the estate when a crew exists — we do not dress a waitlist as live.',
     kicker: 'Kauaʻi FAQ',
     photo: 'faqKauai',
     body: [
-      `Private chef Kauai and Kauai catering share the same measured volume (${SEARCH_VOLUMES['private chef kauai']} monthly). Home holds the dinner door. /catering holds the staffed room. This FAQ holds the logistics.`,
+      `Home holds the dinner door. /catering holds the staffed room. This FAQ holds the logistics.`,
       'Princeville and Hanalei inherit weather and the Hanalei-bridge clause — 72-hour notice, reschedule rather than forfeit. Poʻipū is a shorter drive from Līhuʻe. See /hanalei-bridge, /north-shore, /south-shore.',
-      'Kauai wedding catering is a small measured phrase (10 monthly). The week stack is /weddings. Estate formats to about 75 guests.',
+      'The week stack is /weddings. Estate formats to about 75 guests.',
     ],
     faqs: [
       {
@@ -127,7 +126,7 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Is this Kauai catering?',
-        a: `No. /catering owns that keyword (${SEARCH_VOLUMES['kauai catering']}). This page is questions: inquiry, shores, weather.`,
+        a: `No. This page is questions: inquiry, shores, weather.`,
       },
       {
         q: 'Are groceries included?',
@@ -143,13 +142,13 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
     h1: 'Hawaiʻi Island questions — west side first, Hilo honesty.',
     title: 'Hawaiʻi Island FAQ — west side first, Hilo honesty | myCHEF',
     description:
-      'Big Island booking questions: Kona–Kohala first, Hilo quote-only, Ironman-week calendar, coffee origin labeling. Catering stays on /catering.',
+      'Big Island booking questions: Kona–Kohala first, Hilo quote-only, Ironman-week calendar, coffee origin labeling.',
     lede:
       'The island is 4,000 square miles. We cook the Kona–Kohala corridor first. Hilo is a different day. We publish that instead of overselling.',
     kicker: 'Hawaiʻi Island FAQ',
     photo: 'faqBigisland',
     body: [
-      `Private chef Big Island and private chef Kona are both ${SEARCH_VOLUMES['private chef big island']} monthly. Big island catering is ${SEARCH_VOLUMES['big island catering']}. Those titles live on / and /catering. This FAQ is the map.`,
+      `Those titles live on / and /catering. This FAQ is the map.`,
       'Seven resort communities sit inside a 30-minute west-side radius. See /kohala-corridor. East side — Hilo and Volcano — is 2.5–3 hours and quote-only with dedicated staffing.',
       'Event weeks in Kailua-Kona compress availability. Named Kona and Kaʻū coffee follow Act 198 from 2027; we do not invent farm names. See /ironman-weeks and /coffee-act-198.',
     ],
@@ -160,7 +159,7 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Same as Big Island catering?',
-        a: `No. /catering owns that keyword (${SEARCH_VOLUMES['big island catering']}). This page is questions.`,
+        a: `No. This page is questions.`,
       },
       {
         q: 'Can you do Hilo from Kona in one day?',

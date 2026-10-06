@@ -35,14 +35,14 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         'Resident kitchens. School nights. A fridge that actually gets used. This is not a one-off villa dinner dressed up as local.',
       photo: 'cellKamaaina',
       body: [
-        `Personal chef Honolulu (${SEARCH_VOLUMES['personal chef honolulu']}) and personal chef Oahu (${SEARCH_VOLUMES['personal chef oahu']}) live on /personal-chef. This page is the resident frequency line. Neither belongs in a tourist-dinner title.`,
+        `This page is the resident frequency line. Neither belongs in a tourist-dinner title.`,
         'The dinner door for visitors is this host’s home and /private-chef. Stay Chef weeks are /vacation-chef. Kamaʻāina is frequency: the same household, the same corridors, a standing shop-and-cook rhythm.',
         'Honolulu residences, Kailua households, town apartments with a real stove. We do not sell this as a yield product. If you are visiting, open / or /vacation-chef.',
       ],
       faqs: [
         {
           q: 'Is this private chef Oahu?',
-          a: `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) is the visitor dinner door on /. This page is weekly service for people who live here.`,
+          a: `This page is weekly service for people who live here.`,
         },
         {
           q: 'Do you need a 30-day estate?',
@@ -195,7 +195,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         'Live URLs: /kaanapali, /kapalua, /lahaina. /lahaina is how we name the geography honestly. This page is the west-side drive as a corridor.',
         'Traffic is planned into arrival, not discovered on the invoice. A Saturday in West Maui is not a South Maui Saturday.',
-        `Private chef Lahaina Maui is a small related phrase (${SEARCH_VOLUMES['private chef lahaina maui']}). Neighborhood volume is not a title keyword. The address page is /lahaina.`,
+        `The address page is /lahaina.`,
       ],
       faqs: [
         {
@@ -219,12 +219,11 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       h1: 'Maui wedding week — four lines, one kitchen.',
       title: 'Maui wedding week — welcome, rehearsal, reception, brunch | myCHEF',
       description:
-        'Primary wedding island. Welcome dinner, rehearsal, reception, and recovery brunch as separate lines. The catering keyword stays on /weddings.',
+        'Primary wedding island. Welcome dinner, rehearsal, reception, and recovery brunch as separate lines.',
       lede:
         'The week is the product. Each night is its own line so the reception does not swallow the welcome dinner. One culinary team.',
       photo: 'cellMauiWeddingWeek',
       body: [
-        `Wedding catering Maui is a measured phrase (${SEARCH_VOLUMES['wedding catering maui']} monthly). /weddings holds that keyword. This page holds the week stack so those titles do not collide.`,
         'Welcome dinner. Rehearsal. Reception. Recovery brunch. Written as four lines — or however many nights you actually want. Guest counts we staff: receptions about 10–75.',
         'Wailea lawns, Kapalua houses, Makena terraces. Wet-weather backup is written for grass. See /south-maui and /west-maui for the drive.',
       ],
@@ -296,7 +295,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       faqs: [
         {
           q: 'Is this private chef Kauai?',
-          a: `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) is this host’s home. This page is the North Shore map.`,
+          a: `This page is the North Shore map.`,
         },
         {
           q: 'Winter swell — can you still cook?',
@@ -346,12 +345,12 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       h1: 'Kauaʻi wedding week — estate formats, inquiry.',
       title: 'Kauaʻi wedding week — estate formats, inquiry | myCHEF',
       description:
-        'Estate wedding weeks on both shores to about 75 guests. Welcome, rehearsal, reception as separate lines. Inquiry stage. /weddings holds the catering keyword.',
+        'Estate wedding weeks on both shores to about 75 guests. Welcome, rehearsal, reception as separate lines. Inquiry stage.',
       lede:
         'Not a ballroom. An estate table looking into a valley, or a South Shore lawn. Inquiry stage. Each night is a line.',
       photo: 'cellKauaiWeddingWeek',
       body: [
-        `Kauai wedding catering is ${SEARCH_VOLUMES['kauai wedding catering']} monthly. /weddings holds that keyword. This page holds the week stack.`,
+        `This page holds the week stack.`,
         'Welcome, rehearsal, reception as separate lines. Estate formats to about 75. Far-North weeks inherit /hanalei-bridge.',
         'From $260 a guest plus staffing — published. Inquiry list with the shore and the dates.',
       ],
@@ -386,7 +385,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       photo: 'cellKohalaCorridor',
       body: [
         'Live corridors: /kona, /waikoloa, /kohala. This page is the radius that holds them. /coverage is the zone map including Waimea and the east.',
-        `Private chef Kona and private chef Big Island are both ${SEARCH_VOLUMES['private chef kona']} monthly. Those titles live on / and /private-chef. This URL is the map.`,
+        `Those titles live on / and /private-chef. This URL is the map.`,
         'Hard sun, lava terraces, kitchens that range from a true pass to a galley. Inquiry stage.',
       ],
       faqs: [

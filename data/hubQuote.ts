@@ -117,7 +117,7 @@ export const hubMultiQuoteFaqs: { q: string; a: string }[] = [
   },
   {
     q: 'If the house is already chosen, which form?',
-    a: 'This hub form is the multi-island coordinator. When the villa is already on one island, open that host quote: oahu.mychef-hawaii.com/quote, maui.mychef-hawaii.com/quote, kauai.mychef-hawaii.com/quote, or bigisland.mychef-hawaii.com/quote. Those pages keep island keyword ownership. This URL keeps the itinerary.',
+    a: 'This hub form is the multi-island coordinator. When the villa is already on one island, open that host quote: oahu.mychef-hawaii.com/quote, maui.mychef-hawaii.com/quote, kauai.mychef-hawaii.com/quote, or bigisland.mychef-hawaii.com/quote. This URL keeps the itinerary.',
   },
 ];
 

@@ -93,7 +93,7 @@ export default function QuoteView({
             islandId={islandId}
             eyebrow={`${islands[islandId].shortName} · Beside this form`}
             heading="Open a related document."
-            intro="The five fields stay on this page. The desk, the rate card, the process, and getting started are their own URLs."
+            intro="Related pages to help you plan your dinner, event or stay."
             columns={2}
             items={[
               { path: '/contact', label: 'The desk', detail: '/contact' },
@@ -111,13 +111,13 @@ export default function QuoteView({
           <HubPhotoGrid
             eyebrow="Beside this form"
             heading="Open a related document."
-            intro="The five fields stay on this page. The desk, the rate card, the process, and the FAQ are their own URLs. Island forms stay on the island host."
+            intro="Related pages to help you plan your dinner, event or stay."
             columns={2}
             items={[
               {
                 href: '/contact',
                 title: contact?.cardLabel ?? 'The desk',
-                body: contact?.lede ?? 'Quotes and inquiry replies run in Hawaii Standard Time on the island host.',
+                body: contact?.lede ?? 'Quotes and inquiry replies run in Hawaii Standard Time.',
                 still: photos.menu,
               },
               {
@@ -129,7 +129,7 @@ export default function QuoteView({
               {
                 href: '/faq',
                 title: faq?.cardLabel ?? 'Questions',
-                body: faq?.lede ?? 'Booking questions live on the island host.',
+                body: faq?.lede ?? 'Answers to common booking questions.',
                 still: faq ? photos[faq.photo] : photos.hubFaq,
               },
               {

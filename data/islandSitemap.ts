@@ -21,7 +21,7 @@ export const islandSitemap: Record<IslandId, IslandSitemapPage> = {
     h1: 'Every live Oahu URL on this host.',
     title: 'Oahu HTML sitemap — live URLs on this host | myCHEF',
     description:
-      'HTML sitemap for the Oahu host: corridors, services, occasions, and supporting documents. Not the hub sitemap.',
+      'HTML sitemap for the Oahu host: corridors, services, occasions, and supporting documents.',
     lede:
       'This is the Oahu host’s URL list. It is not Maui, Kauaʻi, or Hawaiʻi Island, and it is not the XML file at /sitemap.xml.',
     kicker: 'Oʻahu · Sitemap',
@@ -31,7 +31,7 @@ export const islandSitemap: Record<IslandId, IslandSitemapPage> = {
     h1: 'Every live Maui URL on this host.',
     title: 'Maui HTML sitemap — live URLs on this host | myCHEF',
     description:
-      'HTML sitemap for the Maui host: corridors, services, occasions, and supporting documents. Not the hub sitemap.',
+      'HTML sitemap for the Maui host: corridors, services, occasions, and supporting documents.',
     lede:
       'This is the Maui host’s URL list. Wailea, West Maui, and wedding-week cells sit here as addresses, not as a statewide dump.',
     kicker: 'Maui · Sitemap',

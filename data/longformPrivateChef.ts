@@ -115,7 +115,7 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
         paras: [
           'The honest name for most visitor bookings is a vacation rental chef: Airbnb, VRBO, resort residence, estate week. The test is still the kitchen. No cooktop, no booking. Peak villa inventory — December through March — goes first. Wedding-adjacent houses in September, October, and May should ask early even if you only want one dinner; crews also hold weeks on /weddings.',
           'Property managers on Maui belong on the first WhatsApp. We coordinate. We do not invent a street office, chef names, or reviews. Typical reply in Hawaii business hours. WhatsApp or /quote — five fields, no account, no payment to enquire. One honest follow-up. The written quote is the confirmed total: food, any zone line, 20% service, GET, 50% to lock.',
-          'Siblings: /catering for a staffed villa event, /weddings for welcome through recovery brunch, /bar for the terrace, /pricing for the USD card. This supporting page does not fight the homepage for a head term. It is what is included, hour by hour, dietary, small kitchens, and the rental you actually have. Send the address on /quote.',
+          'Siblings: /catering for a staffed villa event, /weddings for welcome through recovery brunch, /bar for the terrace, /pricing for the USD card. It is what is included, hour by hour, dietary, small kitchens, and the rental you actually have. Send the address on /quote.',
         ],
       },
     ],
@@ -148,7 +148,7 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
         h2: 'What’s included in a Kauaʻi villa dinner',
         paras: [
           'Menu within forty-eight hours, shopped the day of service, cooked in the Princeville, Hanalei, or Poʻipū kitchen you have, served, cleaned. CORE $225–$375 USD a guest — Maui-class, groceries inside that band on a signature night. Stay Chef from $1,650 a day, groceries at cost with receipts. Service 20% and GET up to 4.712% as their own lines. Fifty percent locks the date. Gratuity is voluntary. Alcohol is BYO or /bar.',
-          'You book myCHEF Hawaii. Kauaʻi books — not a waitlist. We assign the brigade. We do not sell chef names. A single estate dinner is this page. A staffed villa event is /catering. A wedding week — welcome through recovery brunch, from $260 a guest plus staffing — is /weddings. Do not expect this supporting page to own a catering head term. Estate formats live next door.',
+          'You book myCHEF Hawaii. Kauaʻi books — not a waitlist. We assign the brigade. We do not sell chef names. A single estate dinner is this page. A staffed villa event is /catering. A wedding week — welcome through recovery brunch, from $260 a guest plus staffing — is /weddings. Estate formats live next door.',
           'Līhuʻe and Kapaʻa are base. Both shores are a published surcharge. Hāʻena and the far North are quote-only with seventy-two-hour notice and a Hanalei-bridge weather clause. Closures reschedule rather than forfeit. Proof is the published card on /pricing and the written total on /quote. We do not invent Kauaʻi reviews. Call (808) 468-7748 or send /quote.',
         ],
       },
@@ -180,7 +180,7 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
         h2: 'Vacation rental realities on Kauaʻi',
         paras: [
           'Most bookings are vacation rentals: Princeville estates, Hanalei houses, Poʻipū villas, Kapaʻa condos with real kitchens. The test does not change. Cooktop, fridge, table. No kitchen, no booking. Name the villa agency in the first /quote note. Referral terms are labeled, not handshake rates. Typical reply in Hawaii business hours. WhatsApp or /quote. No account. No payment to enquire.',
-          'North Shore winters book early. Far-North needs seventy-two hours. We publish the map instead of pretending the bridge never closes. One dinner and a wedding week are different products; if your rental is hosting vows, open /weddings. If it is ten to seventy-five without vows, open /catering. This page does not steal those doors.',
+          'North Shore winters book early. Far-North needs seventy-two hours. We publish the map instead of pretending the bridge never closes. One dinner and a wedding week are different products; if your rental is hosting vows, open /weddings. If it is ten to seventy-five without vows, open /catering.',
           'Siblings: /bar, /pricing, /quote. We do not invent reviews, chef names, or a street office. Proof is the published Kauaʻi card and the written total. Send the shore and the property type. We will tell you if the kitchen can hold the night.',
         ],
       },
@@ -214,7 +214,7 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
         h2: 'What’s included in a Kohala villa dinner',
         paras: [
           'Menu designed with you, shopped west-side the day of service, cooked in the Kohala or Kona kitchen you have, served, left clean. CORE $210–$325 USD a guest. ENTRY from $165 when the table and the kitchen are simpler. Stay Chef from $1,450 a day, groceries at cost with receipts. West-side quotes add 20% service and GET up to 4.712% once, never as a hospitality fold-in. Fifty percent locks the date. Gratuity is voluntary. Alcohol is BYO or /bar.',
-          'You book myCHEF Hawaii. We staff the house. West-side first: Kohala Coast, Waikoloa, the Mauna Kea belt, Kailua-Kona, Keauhou. We do not sell chef names or invent reviews. A single villa night is this page. A staffed event is /catering. A Kohala estate week — welcome through recovery brunch, from $225 a guest plus staffing — is /weddings. This supporting page does not borrow a statewide catering head term.',
+          'You book myCHEF Hawaii. We staff the house. West-side first: Kohala Coast, Waikoloa, the Mauna Kea belt, Kailua-Kona, Keauhou. We do not sell chef names or invent reviews. A single villa night is this page. A staffed event is /catering. A Kohala estate week — welcome through recovery brunch, from $225 a guest plus staffing — is /weddings.',
           'Hilo and Volcano are quote-only: two-and-a-half to three hours, dedicated staffing, never squeezed into a west-side day — not same-day CORE. Waimea and Hāmākua are a surcharge. Kaʻū and the south are an extended surcharge with notice. The zone line is on the quote. Proof is /pricing and the written total on /quote. Call (808) 468-7748. No street office.',
         ],
       },

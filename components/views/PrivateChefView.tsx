@@ -69,7 +69,7 @@ export default function PrivateChefView({ islandId, hostMode }: { islandId: Isla
         islandId={islandId}
         eyebrow={`${islands[islandId].shortName} · Beside this visitor dinner`}
         heading="Open a related document."
-        intro="This URL is one dinner. Weekly household cooking, the villa week, the form, and the rate card are their own URLs."
+        intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           { path: '/personal-chef', label: 'Household week', detail: '/personal-chef' },

@@ -42,13 +42,12 @@ export const islandServiceIndex: Record<IslandId, IslandServiceIndexPage> = {
     h1: 'Oahu services — villa dinners, Stay Chef weeks, staffed rooms.',
     title: 'Oahu service list — villa dinners, Stay Chef weeks, staffed rooms | myCHEF',
     description:
-      'Oahu service list: villa dinners, Stay Chef weeks, staffed catering, bar. Distinct from /, /catering, and hub /services.',
+      'Oahu service list: villa dinners, Stay Chef weeks, staffed catering, bar.',
     lede:
       '/ is the dinner door. /catering is the staffed-room door. This page is the list — Gold Coast dinners, Ko Olina weeks, and the add-ons beside them.',
     kicker: 'Oʻahu · Services',
     photo: 'svcIndexOahu',
     body: [
-      `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) stays on this host’s home. Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This directory does not steal those titles.`,
       'Each name below is a live URL on this host. Hotel suites without a cooktop are still declined. The honesty register is /trust. The claim list is /what-we-dont-do.',
     ],
     faqs: [
@@ -66,13 +65,12 @@ export const islandServiceIndex: Record<IslandId, IslandServiceIndexPage> = {
     h1: 'Maui services — Wailea dinners, villa weeks, staffed rooms.',
     title: 'Maui service list — Wailea dinners, villa weeks, staffed rooms | myCHEF',
     description:
-      'Maui service list: villa dinners, Stay Chef weeks, staffed catering, bar. Distinct from /, /catering, and hub /services.',
+      'Maui service list: villa dinners, Stay Chef weeks, staffed catering, bar.',
     lede:
       '/ is the dinner door. /catering is the staffed-room door. This page is the list — Wailea dinners, West Maui weeks, and the add-ons beside them.',
     kicker: 'Maui · Services',
     photo: 'svcIndexMaui',
     body: [
-      `Private chef Maui (${SEARCH_VOLUMES['private chef maui']}) stays on this host’s home. Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This directory does not steal those titles.`,
       'Each name below is a live URL on this host. Saturday West Maui traffic is planned on /west-maui. The honesty register is /trust.',
     ],
     faqs: [
@@ -90,13 +88,13 @@ export const islandServiceIndex: Record<IslandId, IslandServiceIndexPage> = {
     h1: 'Kauai services — both-shore inquiry dinners and staffed rooms.',
     title: 'Kauai service list — both-shore inquiry dinners and staffed rooms | myCHEF',
     description:
-      'Kauai service list at inquiry: dinners, weeks, staffed rooms, bar. Distinct from /, /catering, and hub /services. Not a Book-now button.',
+      'Kauai service list at inquiry: dinners, weeks, staffed rooms, bar. Not a Book-now button.',
     lede:
       '/ is the dinner door at inquiry. /catering is the staffed-room door. This page is the list — both shores, when we can staff, not a fake roster.',
     kicker: 'Kauaʻi · Services',
     photo: 'svcIndexKauai',
     body: [
-      `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) stays on this host’s home. Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This directory does not steal those titles. Inquiry stage.`,
+      `Inquiry stage.`,
       'Each name below is a live URL at inquiry. A named shore is not a Book-now button. Hanalei-bridge weather is a clause — /hanalei-bridge. The honesty register is /trust.',
     ],
     faqs: [
@@ -114,13 +112,13 @@ export const islandServiceIndex: Record<IslandId, IslandServiceIndexPage> = {
     h1: 'West-side services — inquiry dinners, weeks, staffed rooms. Hilo not implied.',
     title: 'West-side service list — inquiry dinners, weeks, staffed rooms | myCHEF',
     description:
-      'Hawaiʻi Island west-side service list at inquiry. Distinct from /, /catering, /east-side, and hub /services.',
+      'Hawaiʻi Island west-side service list at inquiry.',
     lede:
       '/ is the west-side dinner door at inquiry. /catering is the staffed-room door. This page is the list — Kona to Kohala, Hilo never implied.',
     kicker: 'Hawaiʻi Island · Services',
     photo: 'svcIndexBigisland',
     body: [
-      `Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) stays a dinner door. Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This directory does not steal those titles. West side first.`,
+      `West side first.`,
       'Each name below is a live URL at inquiry. East side is a dedicated day — /east-side. Ironman weeks compress the calendar — /ironman-weeks. The honesty register is /trust.',
     ],
     faqs: [

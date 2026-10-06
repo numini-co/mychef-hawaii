@@ -15,13 +15,13 @@ export const residentLine: Record<IslandId, UniqueCell> = {
     h1: 'Personal chef Honolulu — school nights, not a villa one-off.',
     title: 'Personal chef Honolulu — school-night households | myCHEF',
     description:
-      'Weekly household cooking for Honolulu and Kailua residents. Distinct from /kamaaina and from the tourist dinner door. Personal chef Honolulu is a measured phrase; it does not unlock a villa SKU.',
+      'Weekly household cooking for Honolulu and Kailua residents.',
     lede:
       'A used fridge. School nights. /kamaaina is the resident frequency line. This URL is the Honolulu household phrasing so /private-chef keeps the visitor dinner.',
     photo: 'svcPersonalOahu',
     body: [
-      `Personal chef Honolulu is measured (${SEARCH_VOLUMES['personal chef honolulu']} monthly). Personal chef Oahu is ${SEARCH_VOLUMES['personal chef oahu']}. Neither belongs in a tourist-dinner title. Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) stays on this host’s home.`,
-      'Kamaʻāina weekly service: /kamaaina. Stay Chef weeks for visitors: /vacation-chef. This page is the Honolulu household so those titles do not collide.',
+      `Neither belongs in a tourist-dinner title.`,
+      'Kamaʻāina weekly service: /kamaaina. Stay Chef weeks for visitors: /vacation-chef.',
     ],
     faqs: [
       {
@@ -49,12 +49,12 @@ export const residentLine: Record<IslandId, UniqueCell> = {
     h1: 'Personal chef Maui — weekly, not a Wailea SKU.',
     title: 'Personal chef Maui — weekly household cooking | myCHEF',
     description:
-      'Weekly household cooking for Maui residents. Not a visitor dinner. Personal chef Maui is a measured phrase with low volume; it does not steal the private-chef door.',
+      'Weekly household cooking for Maui residents. Not a visitor dinner.',
     lede:
       'A Kīhei fridge that actually gets used. Not a Wailea one-off dressed up as local. Visitors open / or /vacation-chef.',
     photo: 'svcPersonalMaui',
     body: [
-      `Personal chef Maui is measured (${SEARCH_VOLUMES['personal chef maui']} monthly). Private chef Maui (${SEARCH_VOLUMES['private chef maui']}) stays on this host’s home. This URL is the resident line.`,
+      `This URL is the resident line.`,
       'Stay Chef weeks for visitors: /vacation-chef. South Maui logistics: /south-maui. We do not sell this as yield.',
     ],
     faqs: [
@@ -79,12 +79,12 @@ export const residentLine: Record<IslandId, UniqueCell> = {
     h1: 'Kauai resident household cooking — inquiry, both shores.',
     title: 'Kauai resident household cooking — inquiry, both shores | myCHEF',
     description:
-      'Weekly household cooking for Kauai residents. Inquiry stage. Not a visitor dinner. Not the private-chef keyword.',
+      'Weekly household cooking for Kauai residents. Inquiry stage. Not a visitor dinner.',
     lede:
       'East-side Kapaʻa weeknights, or a South Shore household. Inquiry. Visitors open / or /vacation-chef. We will not fake a live resident roster.',
     photo: 'svcPersonalKauai',
     body: [
-      `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) stays on this host’s home. This URL is the resident line. Inquiry stage.`,
+      `This URL is the resident line. Inquiry stage.`,
       'Stay Chef for visitors: /vacation-chef. Kapaʻa: /kapaa. Far-North households still inherit /hanalei-bridge.',
     ],
     faqs: [
@@ -109,12 +109,12 @@ export const residentLine: Record<IslandId, UniqueCell> = {
     h1: 'Hawaiʻi Island resident household cooking — west side, inquiry.',
     title: 'Hawaiʻi Island resident household cooking — west side | myCHEF',
     description:
-      'Weekly household cooking for Kona-side residents. Inquiry stage. Not a Waikoloa tourist SKU. East side is a different day. Not the private-chef keyword.',
+      'Weekly household cooking for Kona-side residents. Inquiry stage. Not a Waikoloa tourist SKU. East side is a different day.',
     lede:
       'A Kona town fridge. Weeknights. Not a resort villa one-off. Visitors open / or /vacation-chef. East side is not implied.',
     photo: 'svcPersonalBigisland',
     body: [
-      `Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) and private chef Big Island (${SEARCH_VOLUMES['private chef big island']}) stay dinner doors. This URL is the resident line.`,
+      `This URL is the resident line.`,
       'Stay Chef for visitors: /vacation-chef. West-side: /kohala-corridor. East side: /east-side. Inquiry stage.',
     ],
     faqs: [

@@ -20,9 +20,9 @@ export const eventOffers: Record<IslandId, EventOffer> = {
     h1: 'Villa events on Oahu — birthdays, retreats, welcome nights.',
     title: 'Oahu villa events — birthdays, retreats, welcome nights | myCHEF',
     description:
-      'Staffed villa events on Oahu: birthdays, retreats and welcome nights from Honolulu to Ko Olina. The catering door is /catering. Request a quote.',
+      'Staffed villa events on Oahu: birthdays, retreats and welcome nights from Honolulu to Ko Olina. Request a quote.',
     lede:
-      'The occasion page, not the catering keyword. Birthdays, company offsites, welcome nights in residences with kitchens. Buffet or plated lives on /catering with published starting prices.',
+      'Birthdays, company offsites, welcome nights in residences with kitchens. Buffet or plated lives on /catering with published starting prices.',
     photo: 'eventsOahu',
     occasions: [
       {
@@ -41,7 +41,7 @@ export const eventOffers: Record<IslandId, EventOffer> = {
     faqs: [
       {
         q: 'Is this the same as Oahu catering?',
-        a: 'No. /catering owns the staffed-room keyword and the published CORE band. This page is the occasion: birthday, retreat, welcome night. Same team, different door.',
+        a: 'No. This page is the occasion: birthday, retreat, welcome night. Same team, different door.',
       },
       {
         q: 'How many guests?',
@@ -53,7 +53,7 @@ export const eventOffers: Record<IslandId, EventOffer> = {
       },
       {
         q: 'Party catering Oahu?',
-        a: 'Related search. The staffed-room keyword is /catering. This page names the occasion. A house dinner for a small list is /private-chef. We do not staff ballrooms.',
+        a: 'Related search. This page names the occasion. A house dinner for a small list is /private-chef. We do not staff ballrooms.',
       },
     ],
   },
@@ -61,7 +61,7 @@ export const eventOffers: Record<IslandId, EventOffer> = {
     h1: 'Villa events on Maui — Wailea lawns and West Maui houses.',
     title: 'Maui villa events — Wailea lawns and West Maui houses | myCHEF',
     description:
-      'Staffed villa events on Maui: birthdays, retreats and welcome nights in Wailea, Kīhei and West Maui. Catering is the larger door on /catering.',
+      'Staffed villa events on Maui: birthdays, retreats and welcome nights in Wailea, Kīhei and West Maui.',
     lede:
       'The lawn, the guest list, the occasion. Wailea, Kapalua, Kāʻanapali, Makena. Maui catering — the money search — lives on /catering. This page names the night.',
     photo: 'eventsMaui',
@@ -82,7 +82,7 @@ export const eventOffers: Record<IslandId, EventOffer> = {
     faqs: [
       {
         q: 'Is this Maui catering?',
-        a: 'Maui catering is /catering — 480 monthly searches, published $225–$375 a guest. This page is the occasion cell so those titles do not collide.',
+        a: 'Maui catering is /catering — 480 monthly searches, published $225–$375 a guest.',
       },
       {
         q: 'Can you do a villa party in Lahaina?',
@@ -94,9 +94,9 @@ export const eventOffers: Record<IslandId, EventOffer> = {
     h1: 'Estate events on Kauai — both shores, inquiry.',
     title: 'Kauai estate events — both shores, inquiry | myCHEF',
     description:
-      'Staffed estate events on Kauai: Princeville, Hanalei and Poʻipū. Inquiry stage. The catering door is /catering.',
+      'Staffed estate events on Kauai: Princeville, Hanalei and Poʻipū. Inquiry stage.',
     lede:
-      'Both shores. Inquiry stage. The bridge and the weather are real. Kauai catering holds the volume keyword; this page holds the occasion.',
+      'Both shores. Inquiry stage. The bridge and the weather are real.',
     photo: 'eventsKauai',
     occasions: [
       {
@@ -119,7 +119,7 @@ export const eventOffers: Record<IslandId, EventOffer> = {
       },
       {
         q: 'Kauai catering or an estate event?',
-        a: 'Same crew. /catering is the staffed-room keyword. This page is birthday, retreat, welcome night.',
+        a: 'Same crew. This page is birthday, retreat, welcome night.',
       },
     ],
   },
@@ -127,7 +127,7 @@ export const eventOffers: Record<IslandId, EventOffer> = {
     h1: 'Villa events on the Big Island — Kohala and Kona first.',
     title: 'Big Island villa events — Kohala and Kona | myCHEF',
     description:
-      'Staffed villa events on Hawaiʻi Island: Kohala Coast and Kona. Inquiry stage. East side is quote-only. Catering lives on /catering.',
+      'Staffed villa events on Hawaiʻi Island: Kohala Coast and Kona. Inquiry stage. East side is quote-only.',
     lede:
       'West-side first. Seven resort communities in one radius. Hilo is a different day. Big island catering is /catering; this page is the occasion.',
     photo: 'eventsBigisland',
@@ -148,7 +148,7 @@ export const eventOffers: Record<IslandId, EventOffer> = {
     faqs: [
       {
         q: 'Same as Big Island catering?',
-        a: 'No. /catering owns the staffed-room keyword (volume 50). This page names the occasion so the titles do not compete.',
+        a: 'No. This page names the occasion so the titles do not compete.',
       },
       {
         q: 'Can you cover Hilo from Kona?',

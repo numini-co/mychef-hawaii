@@ -53,7 +53,7 @@ export function IslandAboutView({ islandId, hostMode }: { islandId: IslandId; ho
         islandId={islandId}
         eyebrow={`${island.shortName} · Beside this department`}
         heading="Open a related document."
-        intro="This page is who cooks here. Honesty, booking notes, the desk, and how a night runs are their own URLs."
+        intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           { path: '/trust', label: 'Honesty register', detail: '/trust' },

@@ -22,7 +22,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'A three-course in an Oahu dining room — designed per table.',
       title: 'A three-course in an Oahu dining room | myCHEF',
       description:
-        'Three-course menus in Kahala dining rooms and Ko Olina villas. Designed per table, not a standing carte. Distinct from /menus as a process page.',
+        'Three-course menus in Kahala dining rooms and Ko Olina villas. Designed per table, not a standing carte.',
       lede:
         'Crudo, a sear, a close. The sample on /menus is an example. This URL is the three-course as its own document so we do not pretend there is a printed carte.',
       photo: 'menuThreeOahu',
@@ -37,7 +37,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
         },
         {
           q: 'Can it be four courses?',
-          a: 'Yes. We write it. This URL stays three-course so the titles stay clean.',
+          a: 'Yes. We write it.',
         },
       ],
       related: [
@@ -52,7 +52,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'A family-style menu in Oahu houses — platters, not the service format.',
       title: 'A family-style menu in Oahu houses | myCHEF',
       description:
-        'Family-style menus in Kahala and Ko Olina houses. Distinct from /catering/family-style (the service format). Designed per table.',
+        'Family-style menus in Kahala and Ko Olina houses. Designed per table.',
       lede:
         'Platters down the table. /catering/family-style is how we staff the night. This URL is what is on the platters.',
       photo: 'menuFamilyOahu',
@@ -82,9 +82,9 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'Breakfast in an Oahu house — morning food, not the brunch occasion.',
       title: 'Breakfast in an Oahu house | myCHEF',
       description:
-        'Breakfast menus in Kahala houses and Ko Olina villas. Distinct from /events/brunch (the occasion). Stay Chef mornings live on /vacation-chef.',
+        'Breakfast menus in Kahala houses and Ko Olina villas.',
       lede:
-        'Eggs, fruit, last night’s fish recast. /events/brunch is the occasion. This URL is the morning menu so those titles do not collide.',
+        'Eggs, fruit, last night’s fish recast. /events/brunch is the occasion.',
       photo: 'menuBreakfastOahu',
       body: [
         'Brunch as an occasion: /events/brunch. Multi-day mornings: /vacation-chef. Retreat kitchens: /retreat-catering.',
@@ -112,7 +112,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'Lunch in an Oahu house — midday, not the dinner door.',
       title: 'Lunch in an Oahu house | myCHEF',
       description:
-        'Lunch menus in Kailua houses, Kahala dining rooms and Ko Olina villas. Midday food. Not the dinner door. Designed per table.',
+        'Lunch menus in Kailua houses, Kahala dining rooms and Ko Olina villas. Midday food. Designed per table.',
       lede:
         'Mokulua in the window if you are in Kailua. A shorter arc than dinner. This URL is lunch so / and /catering keep the evening.',
       photo: 'menuLunchOahu',
@@ -144,7 +144,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'A three-course in a Maui dining room — designed per table.',
       title: 'A three-course in a Maui dining room | myCHEF',
       description:
-        'Three-course menus in Wailea and Kapalua. Designed per table, not a standing carte. Distinct from /menus as a process page.',
+        'Three-course menus in Wailea and Kapalua. Designed per table, not a standing carte.',
       lede:
         'Crudo, a grill, a close. The sample on /menus is an example. This URL is the three-course as its own document.',
       photo: 'menuThreeMaui',
@@ -174,7 +174,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'A family-style menu in Maui villas — platters, not the service format.',
       title: 'A family-style menu in Maui villas | myCHEF',
       description:
-        'Family-style menus in Wailea, Kīhei and West Maui. Distinct from /catering/family-style. Designed per table.',
+        'Family-style menus in Wailea, Kīhei and West Maui. Designed per table.',
       lede:
         'Platters on the lanai. The service format is next door. This URL is what is on the platters.',
       photo: 'menuFamilyMaui',
@@ -204,7 +204,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'Breakfast in a Maui villa — morning food, not the brunch occasion.',
       title: 'Breakfast in a Maui villa | myCHEF',
       description:
-        'Breakfast menus in Wailea and West Maui villas. Distinct from /events/brunch. Stay Chef mornings live on /vacation-chef.',
+        'Breakfast menus in Wailea and West Maui villas.',
       lede:
         'Eggs, fruit, the pool still. /events/brunch is the occasion. This URL is the morning menu.',
       photo: 'menuBreakfastMaui',
@@ -234,7 +234,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'Lunch in a Maui house — midday in Kīhei and Wailea.',
       title: 'Lunch in a Maui house | myCHEF',
       description:
-        'Lunch menus in Kīhei family houses and Wailea villas. Midday food. Not the dinner door. Designed per table.',
+        'Lunch menus in Kīhei family houses and Wailea villas. Midday food. Designed per table.',
       lede:
         'A shorter arc than dinner. South Maui light. This URL is lunch so /catering keeps the evening.',
       photo: 'menuLunchMaui',
@@ -266,7 +266,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'A three-course on a Kauai estate — designed per table, inquiry.',
       title: 'A three-course on a Kauai estate | myCHEF',
       description:
-        'Three-course menus in Princeville and Poʻipū. Inquiry stage. Designed per table. Distinct from /menus as a process page.',
+        'Three-course menus in Princeville and Poʻipū. Inquiry stage. Designed per table.',
       lede:
         'Crudo, a sear, a close. Inquiry. The sample on /menus is an example. This URL is the three-course as its own document.',
       photo: 'menuThreeKauai',
@@ -296,7 +296,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'A family-style menu on Kauai estates — platters, both shores.',
       title: 'A family-style menu on Kauai estates | myCHEF',
       description:
-        'Family-style menus in Princeville and Poʻipū. Inquiry stage. Distinct from /catering/family-style. Designed per table.',
+        'Family-style menus in Princeville and Poʻipū. Inquiry stage. Designed per table.',
       lede:
         'Platters down the estate table. The service format is next door. Inquiry.',
       photo: 'menuFamilyKauai',
@@ -326,7 +326,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'Breakfast on a Kauai estate — morning food, inquiry, both shores.',
       title: 'Breakfast on a Kauai estate | myCHEF',
       description:
-        'Breakfast menus in Poʻipū and Princeville. Inquiry stage. Distinct from /events/brunch. Stay Chef mornings live on /vacation-chef.',
+        'Breakfast menus in Poʻipū and Princeville. Inquiry stage.',
       lede:
         'Eggs, fruit, South sun or North mist. /events/brunch is the occasion. This URL is the morning menu.',
       photo: 'menuBreakfastKauai',
@@ -356,7 +356,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'Lunch on Kauai — midday in Kapaʻa and estate kitchens, inquiry.',
       title: 'Lunch on Kauai — midday, inquiry | myCHEF',
       description:
-        'Lunch menus in Kapaʻa houses and Princeville or Poʻipū estates. Inquiry stage. Midday food. Not the dinner door.',
+        'Lunch menus in Kapaʻa houses and Princeville or Poʻipū estates. Inquiry stage. Midday food.',
       lede:
         'A shorter arc. East-side Kapaʻa or an estate kitchen. Inquiry. This URL is lunch so /catering keeps the evening.',
       photo: 'menuLunchKauai',
@@ -418,7 +418,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'A family-style menu on west-side Hawaiʻi Island — platters on lava.',
       title: 'A family-style menu on west-side Hawaiʻi Island | myCHEF',
       description:
-        'Family-style menus in Kona and Kohala. Inquiry stage. Distinct from /catering/family-style. East side is a different day.',
+        'Family-style menus in Kona and Kohala. Inquiry stage. East side is a different day.',
       lede:
         'Platters on lava. The service format is next door. Not a Hilo add-on.',
       photo: 'menuFamilyBigisland',
@@ -448,7 +448,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'Breakfast on west-side Hawaiʻi Island — morning food, not brunch.',
       title: 'Breakfast on west-side Hawaiʻi Island | myCHEF',
       description:
-        'Breakfast menus in Kona and Kohala villas. Inquiry stage. Distinct from /events/brunch. Stay Chef mornings live on /vacation-chef. East side is a different day.',
+        'Breakfast menus in Kona and Kohala villas. Inquiry stage. East side is a different day.',
       lede:
         'Eggs, fruit, breakfast fish, hard sun. Coffee cherries on a side board if the house has them — origin labeled when the law requires it.',
       photo: 'menuBreakfastBigisland',
@@ -478,7 +478,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'Lunch in a Waikoloa house — midday, west side, inquiry.',
       title: 'Lunch in a Waikoloa house | myCHEF',
       description:
-        'Lunch menus in Waikoloa and Kona houses. Inquiry stage. Midday food. Not the dinner door. East side is a different day.',
+        'Lunch menus in Waikoloa and Kona houses. Inquiry stage. Midday food. East side is a different day.',
       lede:
         'A shorter arc than dinner. Hard sun. This URL is lunch so /catering keeps the evening. Not a Hilo add-on.',
       photo: 'menuLunchBigisland',

@@ -138,7 +138,7 @@ export function HubBarView() {
       <HubPhotoGrid
         eyebrow="Beside this bartender add-on"
         heading="Open a related document."
-        intro="This page is the four-island picker for the terrace hour. The packaged cart, wedding weeks, visitor dinners, and the form are their own URLs."
+        intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           {
@@ -247,7 +247,7 @@ export function HubMobileBarView() {
       <HubPhotoGrid
         eyebrow="Beside this packaged cart"
         heading="Open a related document."
-        intro="This page holds the statewide mobile-bar title. The bartender add-on, wedding weeks, visitor dinners, and the form are their own URLs."
+        intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           {

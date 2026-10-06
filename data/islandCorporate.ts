@@ -22,13 +22,13 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
     h1: 'Oahu offsites — Kahala dining rooms, not the convention centre.',
     title: 'Oahu villa offsites — houses, not HCC citywides | myCHEF',
     description:
-      'Oahu villa offsites: houses, not HCC citywides. Distinct from /corporate-catering, /events/corporate-events, and hub /corporate.',
+      'Oahu villa offsites: houses, not HCC citywides.',
     lede:
       '/corporate-catering is the kitchen SKU. /events/corporate-events is the occasion. Hub /corporate is statewide. This page is the Oahu offsite list — a Kahala dining room is still a house.',
     kicker: 'Oʻahu · Offsites',
     photo: 'corpIndexOahu',
     body: [
-      `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. These URLs do not steal that title. HCC citywides are closed through 2027 — /conventions.`,
+      `HCC citywides are closed through 2027 — /conventions.`,
       'Board dinners and house offsites sit in residences we can actually cook in. We do not staff a ballroom because a conference is in town.',
     ],
     faqs: [
@@ -46,13 +46,13 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
     h1: 'Maui offsites — Wailea houses, not a banquet floor.',
     title: 'Maui villa offsites — houses, not hotel ballrooms | myCHEF',
     description:
-      'Maui villa offsites: houses, not hotel ballrooms. Distinct from /corporate-catering, /events/corporate-events, and hub /corporate.',
+      'Maui villa offsites: houses, not hotel ballrooms.',
     lede:
       '/corporate-catering is the kitchen SKU. /events/corporate-events is the occasion. Hub /corporate is statewide. This page is the Maui offsite list — a Wailea dining room is still a house.',
     kicker: 'Maui · Offsites',
     photo: 'corpIndexMaui',
     body: [
-      `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. These URLs do not steal that title. Saturday West Maui traffic is planned on /west-maui.`,
+      `Saturday West Maui traffic is planned on /west-maui.`,
       'Villa offsites and crew meals sit in residences. We do not staff a resort banquet room because the group is already on property.',
     ],
     faqs: [
@@ -70,13 +70,13 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
     h1: 'Kauai offsites — estate tables at inquiry, not a convention product.',
     title: 'Kauai estate offsites — inquiry, not a MICE island | myCHEF',
     description:
-      'Kauai estate offsites at inquiry. Distinct from /corporate-catering, /events/corporate-events, and hub /corporate. Not a Book-now button.',
+      'Kauai estate offsites at inquiry. Not a Book-now button.',
     lede:
       '/corporate-catering is the kitchen SKU at inquiry. /events/corporate-events is the occasion. This page is the Kauai offsite list — both shores, when we can staff, not a fake roster.',
     kicker: 'Kauaʻi · Offsites',
     photo: 'corpIndexKauai',
     body: [
-      `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. These URLs do not steal that title. Inquiry stage. Kauaʻi is not a MICE island.`,
+      `Inquiry stage. Kauaʻi is not a MICE island.`,
       'A named shore is not a confirmation. Far-North offsites inherit /hanalei-bridge. Send dates on /quote.',
     ],
     faqs: [
@@ -94,13 +94,13 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
     h1: 'West-side offsites — Kona houses at inquiry. Hilo not implied.',
     title: 'West-side villa offsites — inquiry, not citywides | myCHEF',
     description:
-      'Hawaiʻi Island west-side villa offsites at inquiry. Distinct from /corporate-catering, /events/corporate-events, /east-side, and hub /corporate.',
+      'Hawaiʻi Island west-side villa offsites at inquiry.',
     lede:
       '/corporate-catering is the kitchen SKU at inquiry. This page is the west-side offsite list — Kona to Kohala, Hilo never implied.',
     kicker: 'Hawaiʻi Island · Offsites',
     photo: 'corpIndexBigisland',
     body: [
-      `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. These URLs do not steal that title. West side first.`,
+      `West side first.`,
       'East side is a dedicated day — /east-side. Ironman weeks compress lodging, not a fake kitchen promise — /ironman-weeks.',
     ],
     faqs: [

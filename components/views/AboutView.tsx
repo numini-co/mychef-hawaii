@@ -239,7 +239,7 @@ export default function AboutView() {
       <HubPhotoGrid
         eyebrow="Beside this department"
         heading="Open a related document."
-        intro="This page is who cooks. Honesty, booking notes, the desk, and how a night runs are their own URLs. Island departments stay on the island host."
+        intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           {
@@ -257,13 +257,13 @@ export default function AboutView() {
           {
             href: '/contact',
             title: contact?.cardLabel ?? 'The desk',
-            body: contact?.lede ?? 'Quotes and inquiry replies run in Hawaii Standard Time on the island host.',
+            body: contact?.lede ?? 'Quotes and inquiry replies run in Hawaii Standard Time.',
             still: contact ? photos[contact.photo] : photos.quoteHub,
           },
           {
             href: '/how-it-works',
             title: 'How a booking works',
-            body: 'One process on every island. Drive times live on the island host.',
+            body: 'One process on every island.',
             still: photos.hubHow,
           },
         ]}

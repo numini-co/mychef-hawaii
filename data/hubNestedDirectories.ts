@@ -71,14 +71,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Birthday dinners, by island.',
     title: 'Birthday dinners, by island | myCHEF Hawaii',
     description:
-      'Each island hosts birthday dinners in houses. Distinct from hub /events and from /gatherings.',
+      'Each island hosts birthday dinners in houses.',
     lede:
-      'A birthday in the house is not a catering keyword. Each island writes the room. This page is the picker.',
+      'Each island writes the room. This page is the picker.',
     kicker: 'Statewide · Birthdays',
     photo: 'hubOccBirthdays',
     cardLabel: 'Birthdays',
     body: [
-      `hawaii catering (${SEARCH_VOLUMES['hawaii catering']}) stays on hub /catering. Hub /events is the occasions directory. This picker points at the birthday SKU.`,
+      `Hub /events is the occasions directory. This picker points at the birthday SKU.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -97,14 +97,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Arrival-night dinners, by island.',
     title: 'Arrival-night dinners, by island | myCHEF Hawaii',
     description:
-      'Each island hosts the first night of the villa week. Distinct from /events, /honeymoon-dinners, and /rehearsal-dinners.',
+      'Each island hosts the first night of the villa week.',
     lede:
       'First night in the house. Not a wedding-week stack. Each island writes the arrival dinner. This page is the picker.',
     kicker: 'Statewide · Welcome nights',
     photo: 'hubOccWelcome',
     cardLabel: 'Welcome nights',
     body: [
-      `wedding catering hawaii (${SEARCH_VOLUMES['wedding catering hawaii']}) stays on hub /weddings. This directory is arrival night, not a wedding title.`,
+      `This directory is arrival night, not a wedding title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -123,14 +123,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Retreat cooking notes, by island.',
     title: 'Retreat cooking notes, by island | myCHEF Hawaii',
     description:
-      'Each island hosts the retreat occasion essay. Distinct from /retreat-catering (full-board SKU) and from /corporate.',
+      'Each island hosts the retreat occasion essay.',
     lede:
       'Days in the house, food as a constraint. The full-board SKU is /retreat-catering. This picker is the occasion note.',
     kicker: 'Statewide · Retreat notes',
     photo: 'hubOccRetreats',
     cardLabel: 'Retreat notes',
     body: [
-      `big island catering (${SEARCH_VOLUMES['big island catering']}) stays on the Hawaiʻi Island catering URL. This directory is the retreat occasion, not that title.`,
+      `This directory is the retreat occasion, not that title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -149,14 +149,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Anniversary nights, by island.',
     title: 'Anniversary nights, by island | myCHEF Hawaii',
     description:
-      'Each island hosts anniversary dinners in houses. Distinct from /honeymoon-dinners, /chefs-table, and /events.',
+      'Each island hosts anniversary dinners in houses.',
     lede:
       'A marked night in the dining room. Not a wedding week. Each island writes the table. This page is the picker.',
     kicker: 'Statewide · Anniversaries',
     photo: 'hubOccAnniversaries',
     cardLabel: 'Anniversaries',
     body: [
-      `personal chef maui (${SEARCH_VOLUMES['personal chef maui']}) stays on Maui household copy. This directory is an anniversary night, not a dinner title.`,
+      `This directory is an anniversary night, not a dinner title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -175,14 +175,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'House offsite nights, by island.',
     title: 'House offsite nights, by island | myCHEF Hawaii',
     description:
-      'Each island hosts the offsite occasion. Distinct from hub /corporate, /corporate-catering, and /help/corporate-guide.',
+      'Each island hosts the offsite occasion.',
     lede:
       'A night in a house, not HCC citywides. The catering SKU is /corporate-catering. This picker is the occasion.',
     kicker: 'Statewide · Offsite nights',
     photo: 'hubOccCorporate',
     cardLabel: 'Offsite nights',
     body: [
-      `oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on oahu.mychef-hawaii.com/catering. This directory is the offsite occasion, not that money title.`,
+      `This directory is the offsite occasion, not that money title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -201,14 +201,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Villa parties, by island.',
     title: 'Villa parties, by island | myCHEF Hawaii',
     description:
-      'Each island hosts villa parties as their own occasion. Distinct from /gatherings, /events, and /guest-counts.',
+      'Each island hosts villa parties as their own occasion.',
     lede:
       'Extra glasses in the house. Headcount still lives on /guest-counts. Each island writes the party. This page is the picker.',
     kicker: 'Statewide · Villa parties',
     photo: 'hubOccParties',
     cardLabel: 'Villa parties',
     body: [
-      `maui catering (${SEARCH_VOLUMES['maui catering']}) stays on maui.mychef-hawaii.com/catering. This directory is a villa party, not that title.`,
+      `This directory is a villa party, not that title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -227,14 +227,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Day-after brunch, by island.',
     title: 'Day-after brunch, by island | myCHEF Hawaii',
     description:
-      'Each island hosts brunch in the house. Distinct from /menus/breakfast, /menus/lunch, and /events.',
+      'Each island hosts brunch in the house.',
     lede:
       'Mid-morning in the villa, not a standing carte. Breakfast SKUs live under /menus/breakfast. This picker is the occasion.',
     kicker: 'Statewide · Brunch',
     photo: 'hubOccBrunch',
     cardLabel: 'Brunch',
     body: [
-      `personal chef oahu (${SEARCH_VOLUMES['personal chef oahu']}) stays on Oahu household copy. This directory is brunch as an occasion, not a dinner title.`,
+      `This directory is brunch as an occasion, not a dinner title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -253,14 +253,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Lawn BBQ service, by island.',
     title: 'Lawn BBQ service, by island | myCHEF Hawaii',
     description:
-      'Each island hosts BBQ as a format document. Distinct from hub /catering and from nested plated service.',
+      'Each island hosts BBQ as a format document.',
     lede:
-      'A lawn format, not the catering money keyword. Each island writes the grill. This page is the picker.',
+      'Each island writes the grill. This page is the picker.',
     kicker: 'Statewide · BBQ',
     photo: 'hubFmtBbq',
     cardLabel: 'BBQ',
     body: [
-      `hawaii catering (${SEARCH_VOLUMES['hawaii catering']}) stays on hub /catering. This directory is the BBQ format, not that title.`,
+      `This directory is the BBQ format, not that title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -279,14 +279,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Plated villa service, by island.',
     title: 'Plated villa service, by island | myCHEF Hawaii',
     description:
-      'Each island hosts plated service as a format. Titles never use “{island} catering plated”. Distinct from /fine-dining.',
+      'Each island hosts plated service as a format. Titles never use “{island} catering plated”.',
     lede:
-      'Identical courses in the house. The catering keyword stays on /catering. This page is the format picker.',
+      'Identical courses in the house. This page is the format picker.',
     kicker: 'Statewide · Plated',
     photo: 'hubFmtPlated',
     cardLabel: 'Plated',
     body: [
-      `oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on oahu.mychef-hawaii.com/catering. This directory is plated format, not that money title.`,
+      `This directory is plated format, not that money title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -305,14 +305,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Family-style service, by island.',
     title: 'Family-style service, by island | myCHEF Hawaii',
     description:
-      'Each island hosts family-style service as a format. Distinct from /menus/family-style-menu and from plated service.',
+      'Each island hosts family-style service as a format.',
     lede:
       'Shared platters, not a standing carte. The menu SKU is /menus/family-style-menu. This picker is the service format.',
     kicker: 'Statewide · Family-style',
     photo: 'hubFmtFamily',
     cardLabel: 'Family-style',
     body: [
-      `maui catering (${SEARCH_VOLUMES['maui catering']}) stays on the Maui catering URL. This directory is the service format, not that title.`,
+      `This directory is the service format, not that title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -331,14 +331,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Buffet service, by island.',
     title: 'Buffet service, by island | myCHEF Hawaii',
     description:
-      'Each island hosts buffet as a format. Distinct from /catering, /guest-counts, and drop-off.',
+      'Each island hosts buffet as a format.',
     lede:
       'A staffed buffet in the house, not a hotel ballroom. Each island writes the line. This page is the picker.',
     kicker: 'Statewide · Buffet',
     photo: 'hubFmtBuffet',
     cardLabel: 'Buffet',
     body: [
-      `kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on kauai.mychef-hawaii.com/catering. This directory is buffet format, not that title.`,
+      `This directory is buffet format, not that title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -357,14 +357,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Grazing boards, by island.',
     title: 'Grazing boards, by island | myCHEF Hawaii',
     description:
-      'Each island hosts grazing as a format. Distinct from /bar, /events/villa-parties, and plated service.',
+      'Each island hosts grazing as a format.',
     lede:
       'Boards, not a fake standing carte. Each island writes how. This page is the picker.',
     kicker: 'Statewide · Grazing',
     photo: 'hubFmtGrazing',
     cardLabel: 'Grazing',
     body: [
-      `mobile bar hawaii (${SEARCH_VOLUMES['mobile bar hawaii']}) stays on hub /mobile-bar. This directory is grazing boards, not that package.`,
+      `This directory is grazing boards, not that package.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -383,14 +383,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Drop-off is not staffed, by island.',
     title: 'Drop-off is not staffed, by island | myCHEF Hawaii',
     description:
-      'Each island says drop-off is not staffed service. Distinct from /catering, buffet, and /meal-prep.',
+      'Each island says drop-off is not staffed service.',
     lede:
       'Food left, crew gone. Not a staffed room. Each island writes that honesty. This page is the picker.',
     kicker: 'Statewide · Drop-off',
     photo: 'hubFmtDropoff',
     cardLabel: 'Drop-off',
     body: [
-      `hawaii catering (${SEARCH_VOLUMES['hawaii catering']}) stays on hub /catering. This directory is the drop-off honesty format, not that title.`,
+      `This directory is the drop-off honesty format, not that title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -409,14 +409,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Romantic villa dinners, by island.',
     title: 'Romantic villa dinners, by island | myCHEF Hawaii',
     description:
-      'Each island hosts a romantic-dinner format. Distinct from /honeymoon-dinners, /chefs-table, and /fine-dining.',
+      'Each island hosts a romantic-dinner format.',
     lede:
       'Two seats as a format, not a Michelin claim. The SKU /honeymoon-dinners is beside it. This picker is the format.',
     kicker: 'Statewide · Romantic dinner',
     photo: 'hubFineRomantic',
     cardLabel: 'Romantic dinner',
     body: [
-      `wedding catering maui (${SEARCH_VOLUMES['wedding catering maui']}) stays on maui.mychef-hawaii.com/weddings. This directory is a romantic format, not a wedding title.`,
+      `This directory is a romantic format, not a wedding title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -435,14 +435,13 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Tasting menus, by island.',
     title: 'Tasting menus, by island | myCHEF Hawaii',
     description:
-      'Each island hosts tasting-menu as a format. Distinct from /omakase-at-home, /menus/three-course, and /fine-dining.',
+      'Each island hosts tasting-menu as a format.',
     lede:
       'A tasting arc in the villa, not a restaurant omakase brand. Omakase-at-home has sourcing gates. This picker is the format.',
     kicker: 'Statewide · Tasting menu',
     photo: 'hubFineTasting',
     cardLabel: 'Tasting menu',
     body: [
-      `private chef kauai (${SEARCH_VOLUMES['private chef kauai']}) stays on the Kauaʻi host home. This directory does not steal that title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -461,14 +460,13 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Evening chef’s-table formats, by island.',
     title: 'Evening chef’s-table formats, by island | myCHEF Hawaii',
     description:
-      'Each island hosts chef’s-table evening as a format. Distinct from /chefs-table (the named SKU) and from /omakase-at-home.',
+      'Each island hosts chef’s-table evening as a format.',
     lede:
       'The evening format, not the named SKU. /chefs-table is the villa SKU. This picker is the nested format.',
     kicker: 'Statewide · Chef’s-table evening',
     photo: 'hubFineChefsev',
     cardLabel: 'Evening format',
     body: [
-      `private chef kona (${SEARCH_VOLUMES['private chef kona']}) stays on the Hawaiʻi Island host. This directory does not steal that title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -487,14 +485,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Celebration dinners, by island.',
     title: 'Celebration dinners, by island | myCHEF Hawaii',
     description:
-      'Each island hosts celebration-dinner as a format. Distinct from /events/anniversaries, /events/birthdays, and /fine-dining.',
+      'Each island hosts celebration-dinner as a format.',
     lede:
       'A marked night as a format, not an occasion URL. Birthdays and anniversaries stay under /events. This picker is the format.',
     kicker: 'Statewide · Celebration dinner',
     photo: 'hubFineCeleb',
     cardLabel: 'Celebration dinner',
     body: [
-      `wedding catering oahu (${SEARCH_VOLUMES['wedding catering oahu']}) stays on oahu.mychef-hawaii.com/weddings. This directory is a celebration format, not that week.`,
+      `This directory is a celebration format, not that week.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -513,14 +511,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Server add-ons, by island.',
     title: 'Server add-ons, by island | myCHEF Hawaii',
     description:
-      'Each island quotes servers hourly. Distinct from /staffing, /bar, and /guest-counts.',
+      'Each island quotes servers hourly.',
     lede:
       'An hourly line, not a hidden fee. Each island writes the rate band. This page is the picker.',
     kicker: 'Statewide · Servers',
     photo: 'hubStaffServers',
     cardLabel: 'Servers',
     body: [
-      `private chef hawaii (${SEARCH_VOLUMES['private chef hawaii']}) stays on hub /. This directory is the server add-on, not a dinner title.`,
+      `This directory is the server add-on, not a dinner title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -539,14 +537,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Bartender hourly lines, by island.',
     title: 'Bartender hourly lines, by island | myCHEF Hawaii',
     description:
-      'Each island quotes bartenders hourly. Distinct from /bar, /mobile-bar, and /staffing.',
+      'Each island quotes bartenders hourly.',
     lede:
       '/bar is the add-on door. /mobile-bar is the four-hour package. This picker is the nested hourly line.',
     kicker: 'Statewide · Bartenders',
     photo: 'hubStaffBartenders',
     cardLabel: 'Bartenders',
     body: [
-      `mobile bar hawaii (${SEARCH_VOLUMES['mobile bar hawaii']}) stays on hub /mobile-bar. This directory is the hourly bartender line, not that package.`,
+      `This directory is the hourly bartender line, not that package.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -565,14 +563,13 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Quoted butler lines, by island.',
     title: 'Quoted butler lines, by island | myCHEF Hawaii',
     description:
-      'Each island quotes butlers only when a bench exists. Distinct from /staffing and from /help.',
+      'Each island quotes butlers only when a bench exists.',
     lede:
       'Quoted, not promised. Each island says when the bench is not there. This page is the picker.',
     kicker: 'Statewide · Butlers',
     photo: 'hubStaffButlers',
     cardLabel: 'Butlers',
     body: [
-      `private chef maui (${SEARCH_VOLUMES['private chef maui']}) stays on the Maui host home. This directory does not steal that title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -591,14 +588,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Three-course tables, by island.',
     title: 'Three-course tables, by island | myCHEF Hawaii',
     description:
-      'Each island designs a three-course SKU per table. Distinct from /menus, /catering/plated, and /fine-dining/tasting-menu.',
+      'Each island designs a three-course SKU per table.',
     lede:
       'Designed per table, not a fake standing carte. /menus is the process. This picker is the SKU.',
     kicker: 'Statewide · Three-course',
     photo: 'hubMenuThree',
     cardLabel: 'Three-course',
     body: [
-      `private chef oahu (${SEARCH_VOLUMES['private chef oahu']}) stays on the Oahu host home. This directory is a menu SKU, not that title.`,
+      `This directory is a menu SKU, not that title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -617,14 +614,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Family-style menus, by island.',
     title: 'Family-style menus, by island | myCHEF Hawaii',
     description:
-      'Each island designs a family-style menu SKU. Distinct from /catering/family-style and from /menus.',
+      'Each island designs a family-style menu SKU.',
     lede:
       'The designed menu, not the service format. Family-style service is /catering/family-style. This picker is the SKU.',
     kicker: 'Statewide · Family-style menu',
     photo: 'hubMenuFamily',
     cardLabel: 'Family-style menu',
     body: [
-      `maui catering (${SEARCH_VOLUMES['maui catering']}) stays on the Maui catering URL. This directory is a menu SKU, not that title.`,
+      `This directory is a menu SKU, not that title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -643,14 +640,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Breakfast in the house, by island.',
     title: 'Breakfast in the house, by island | myCHEF Hawaii',
     description:
-      'Each island designs breakfast per table. Distinct from /events/brunch, /vacation-chef, and /menus.',
+      'Each island designs breakfast per table.',
     lede:
       'Morning in the villa, designed per table. Brunch as an occasion is /events/brunch. This picker is the breakfast SKU.',
     kicker: 'Statewide · Breakfast',
     photo: 'hubMenuBreakfast',
     cardLabel: 'Breakfast',
     body: [
-      `personal chef honolulu (${SEARCH_VOLUMES['personal chef honolulu']}) stays on Oahu household copy. This directory is breakfast as a SKU, not a dinner title.`,
+      `This directory is breakfast as a SKU, not a dinner title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -669,14 +666,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Lunch in the house, by island.',
     title: 'Lunch in the house, by island | myCHEF Hawaii',
     description:
-      'Each island designs lunch per table. Distinct from /menus/breakfast, /meal-prep, and /menus.',
+      'Each island designs lunch per table.',
     lede:
       'Midday in the house, designed per table. Meal prep is a gated fridge line. This picker is the lunch SKU.',
     kicker: 'Statewide · Lunch',
     photo: 'hubMenuLunch',
     cardLabel: 'Lunch',
     body: [
-      `personal chef maui (${SEARCH_VOLUMES['personal chef maui']}) stays on Maui household copy. This directory is lunch as a SKU, not a dinner title.`,
+      `This directory is lunch as a SKU, not a dinner title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -695,14 +692,13 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'First booking notes, by island.',
     title: 'First booking notes, by island | myCHEF Hawaii',
     description:
-      'Each island hosts the first-booking help article. Distinct from /help, /faq, /how-it-works, and /quote.',
+      'Each island hosts the first-booking help article.',
     lede:
       '/faq is questions. /how-it-works is the night. /quote is the form. This picker is the first-booking article.',
     kicker: 'Statewide · Getting started',
     photo: 'hubHelpStart',
     cardLabel: 'Getting started',
     body: [
-      `private chef kauai (${SEARCH_VOLUMES['private chef kauai']}) stays on the Kauaʻi host. This directory does not steal that title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -721,14 +717,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'How to read a menu draft, by island.',
     title: 'How to read a menu draft, by island | myCHEF Hawaii',
     description:
-      'Each island hosts the menu-guide help article. Distinct from /menus, /help, and nested menu SKUs.',
+      'Each island hosts the menu-guide help article.',
     lede:
       'How to read the draft, not a standing carte. /menus is the process. This picker is the help article.',
     kicker: 'Statewide · Menu guide',
     photo: 'hubHelpMenu',
     cardLabel: 'Menu guide',
     body: [
-      `hawaii catering (${SEARCH_VOLUMES['hawaii catering']}) stays on hub /catering. This directory is a help article, not that title.`,
+      `This directory is a help article, not that title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -747,14 +743,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Wedding-week planning notes, by island.',
     title: 'Wedding-week planning notes, by island | myCHEF Hawaii',
     description:
-      'Each island hosts the wedding-week help article. Distinct from /weddings, /rehearsal-dinners, and /help.',
+      'Each island hosts the wedding-week help article.',
     lede:
       'How the week is planned. The money door stays on /weddings. This picker is the help article.',
     kicker: 'Statewide · Wedding guide',
     photo: 'hubHelpWedding',
     cardLabel: 'Wedding guide',
     body: [
-      `wedding catering hawaii (${SEARCH_VOLUMES['wedding catering hawaii']}) stays on hub /weddings. This directory is the planning note, not that title.`,
+      `This directory is the planning note, not that title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -773,14 +769,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Offsite planning notes, by island.',
     title: 'Offsite planning notes, by island | myCHEF Hawaii',
     description:
-      'Each island hosts the offsite help article. Distinct from /corporate, /corporate-catering, /events/corporate-events, and /help.',
+      'Each island hosts the offsite help article.',
     lede:
       'How to plan a house offsite. Not HCC citywides. This picker is the help article.',
     kicker: 'Statewide · Offsite guide',
     photo: 'hubHelpCorp',
     cardLabel: 'Offsite guide',
     body: [
-      `oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on oahu.mychef-hawaii.com/catering. This directory is a help article, not that money title.`,
+      `This directory is a help article, not that money title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -799,14 +795,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'After the quote, by island.',
     title: 'After the quote, by island | myCHEF Hawaii',
     description:
-      'Each island hosts the after-quote help article. Distinct from /quote, /help/getting-started, and /help.',
+      'Each island hosts the after-quote help article.',
     lede:
       'Deposit and date lock live on the island host. /quote is the form. This picker is the after-quote article.',
     kicker: 'Statewide · After the quote',
     photo: 'hubHelpManage',
     cardLabel: 'After the quote',
     body: [
-      `private chef maui cost (${SEARCH_VOLUMES['private chef maui cost']}) stays on a measured long-tail on the Maui host. This directory does not use that title.`,
+      `This directory does not use that title.`,
       'Open the island document below. Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [

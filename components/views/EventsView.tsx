@@ -59,7 +59,7 @@ export function IslandEventsView({ islandId, hostMode }: { islandId: IslandId; h
         islandId={islandId}
         eyebrow={`${islands[islandId].name} · Beside these occasions`}
         heading="Open a related document."
-        intro="/catering is the staffed room. /weddings is the week. The form and the packaged cart are their own URLs."
+        intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           { path: '/catering', label: 'Villa catering', detail: '/catering' },
@@ -70,7 +70,7 @@ export function IslandEventsView({ islandId, hostMode }: { islandId: IslandId; h
       />
 
       <SiblingCluster island={islandId} current="catering" href={href} />
-      <LongFaq items={offer.faqs} title="Occasion, not the catering keyword." />
+      <LongFaq items={offer.faqs} title="Occasion questions" />
       <QuoteTeaser headline="Tell us the occasion, the dates, the headcount." island={islandId} />
     </>
   );

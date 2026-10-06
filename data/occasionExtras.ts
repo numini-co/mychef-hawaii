@@ -22,13 +22,13 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Anniversary dinners in a Kahala dining room — two seats or a small table.',
       title: 'Anniversary dinners in a Kahala dining room | myCHEF',
       description:
-        'Anniversary tables in Kahala dining rooms and Ko Olina villas. Two seats or a small list. Not a restaurant buyout. Not the catering keyword.',
+        'Anniversary tables in Kahala dining rooms and Ko Olina villas. Two seats or a small list. Not a restaurant buyout.',
       lede:
         'Two plates, brass, Diamond Head faint. Or a small family table. The birthday page is next door. This one is the year-mark.',
       photo: 'occAnniversaryOahu',
       body: [
         'Honeymoon two-tops: /honeymoon-dinners. Birthdays: /events/birthdays. This URL is the anniversary so those nights do not share a title.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. Guest counts: /guest-counts.`,
+        `Guest counts: /guest-counts.`,
       ],
       faqs: [
         {
@@ -52,7 +52,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Oahu house offsites — not HCC citywides.',
       title: 'Oahu house offsites — not HCC citywides | myCHEF',
       description:
-        'House offsites in Kahala and Ko Olina. HCC citywides are closed through 2027. Distinct from /corporate-catering. Not the catering keyword.',
+        'House offsites in Kahala and Ko Olina. HCC citywides are closed through 2027.',
       lede:
         'Laptops away from the pass. Breakfast in the house. Not the convention centre. The food line lives on /corporate-catering.',
       photo: 'occCorporateOahu',
@@ -82,12 +82,11 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Villa parties in Ko Olina and Kahala — the house is the venue.',
       title: 'Villa parties in Ko Olina and Kahala | myCHEF',
       description:
-        'Staffed villa parties in Ko Olina short-stay houses and Kahala dining rooms. About 10–75. Not a restaurant buyout. Not the catering keyword.',
+        'Staffed villa parties in Ko Olina short-stay houses and Kahala dining rooms. About 10–75. Not a restaurant buyout.',
       lede:
         'The house, family-style fish, the guest list you actually have. Legal short-stay fact lives on /short-stay. This page is the party.',
       photo: 'occVillaOahu',
       body: [
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) is /catering. This URL is the villa party so those titles do not collide.`,
         'Ko Olina legal short-stay: /short-stay. Gold Coast dining rooms: /gold-coast. Guest counts: /guest-counts.',
       ],
       faqs: [
@@ -112,7 +111,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Brunch in an Oahu house — recovery morning, not a restaurant.',
       title: 'Brunch in an Oahu house | myCHEF',
       description:
-        'Recovery brunch in Kahala houses and Ko Olina villas. Morning after the villa week or the wedding night. Not a restaurant brunch. Not the catering keyword.',
+        'Recovery brunch in Kahala houses and Ko Olina villas. Morning after the villa week or the wedding night. Not a restaurant brunch.',
       lede:
         'Fruit, eggs, last night’s fish recast. The house still waking. Wedding-week brunch is a line on /weddings; this page is the morning as its own product.',
       photo: 'occBrunchOahu',
@@ -144,13 +143,13 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Anniversary nights on a Wailea lanai — two plates, not a buyout.',
       title: 'Anniversary nights on a Wailea lanai | myCHEF',
       description:
-        'Anniversary tables in Wailea, Kapalua and Kīhei. Two seats or a small list. Not a restaurant buyout. Not the catering keyword.',
+        'Anniversary tables in Wailea, Kapalua and Kīhei. Two seats or a small list. Not a restaurant buyout.',
       lede:
         'Blue hour, two plated fish, Molokini faint. Or a small family table on the lawn. The birthday page is next door.',
       photo: 'occAnniversaryMaui',
       body: [
         'Honeymoon two-tops: /honeymoon-dinners. Birthdays: /events/birthdays. This URL is the year-mark.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. Wet-weather backup is written for lawns.`,
+        `Wet-weather backup is written for lawns.`,
       ],
       faqs: [
         {
@@ -174,7 +173,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Maui villa offsites — South and West houses, not a ballroom.',
       title: 'Maui villa offsites in South and West houses | myCHEF',
       description:
-        'Villa offsites in Wailea, Kapalua and Kīhei. Not hotel ballrooms. Distinct from /corporate-catering. Not the catering keyword.',
+        'Villa offsites in Wailea, Kapalua and Kīhei. Not hotel ballrooms.',
       lede:
         'A small offsite table, the lawn optional. We cook houses. We do not staff banquet rooms. The food line is /corporate-catering.',
       photo: 'occCorporateMaui',
@@ -204,12 +203,12 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Villa parties in Wailea and West Maui — lawn or dining room.',
       title: 'Villa parties in Wailea and West Maui | myCHEF',
       description:
-        'Staffed villa parties in Wailea, Kīhei, Kāʻanapali and Kapalua. About 10–75. Wet-weather backup written for lawns. Not the catering keyword.',
+        'Staffed villa parties in Wailea, Kīhei, Kāʻanapali and Kapalua. About 10–75. Wet-weather backup written for lawns.',
       lede:
         'Grass, identical plates, the guest list you actually have. Saturday West Maui traffic is planned into arrival, not discovered on the invoice.',
       photo: 'occVillaMaui',
       body: [
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) is /catering. This URL is the villa party.`,
+        `This URL is the villa party.`,
         'South Maui: /south-maui. West Maui: /west-maui. Lahaina naming: /lahaina. Guest counts: /guest-counts.',
       ],
       faqs: [
@@ -234,7 +233,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Maui recovery brunch — the morning after the villa week.',
       title: 'Maui recovery brunch in the villa | myCHEF',
       description:
-        'Recovery brunch in Wailea and West Maui villas. Morning after the week or the wedding night. Wedding-week brunch is a line on /wedding-week.',
+        'Recovery brunch in Wailea and West Maui villas. Morning after the week or the wedding night.',
       lede:
         'Coffee, fruit, grilled fish, the pool still. Wedding brunch stacks on /wedding-week; this page is the villa morning as its own product.',
       photo: 'occBrunchMaui',
@@ -266,12 +265,12 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Anniversary dinners on a Kauai estate — inquiry, both shores.',
       title: 'Anniversary dinners on a Kauai estate | myCHEF',
       description:
-        'Anniversary tables in Princeville, Hanalei and Poʻipū. Inquiry stage. Two seats or a small list. Not the catering keyword.',
+        'Anniversary tables in Princeville, Hanalei and Poʻipū. Inquiry stage. Two seats or a small list.',
       lede:
         'Two seats on wet North Shore stone, or a South Shore table. Inquiry. The road may decide the North.',
       photo: 'occAnniversaryKauai',
       body: [
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This URL is the anniversary.`,
+        `This URL is the anniversary.`,
         'Honeymoon two-tops: /honeymoon-dinners. Far-North: /hanalei-bridge. Inquiry list with the shore.',
       ],
       faqs: [
@@ -296,7 +295,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Kauai estate offsites — inquiry, not a convention play.',
       title: 'Kauai estate offsites — inquiry, not a convention | myCHEF',
       description:
-        'Estate offsites in Princeville and Poʻipū. Inquiry stage. Not a MICE island. Distinct from /corporate-catering.',
+        'Estate offsites in Princeville and Poʻipū. Inquiry stage. Not a MICE island.',
       lede:
         'A small estate table. Both shores. Inquiry. We do not pretend Kauaʻi is a convention product. The food line is /corporate-catering.',
       photo: 'occCorporateKauai',
@@ -326,12 +325,12 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Estate parties on Kauai — Princeville and Poipu houses, inquiry.',
       title: 'Estate parties on Kauai — both shores, inquiry | myCHEF',
       description:
-        'Staffed estate parties in Princeville, Hanalei and Poʻipū. About 10–75. Inquiry stage. Far-North inherits the bridge clause. Not the catering keyword.',
+        'Staffed estate parties in Princeville, Hanalei and Poʻipū. About 10–75. Inquiry stage. Far-North inherits the bridge clause.',
       lede:
         'An estate dessert course looking into a valley, or a South Shore table. Inquiry. The road may decide the North.',
       photo: 'occVillaKauai',
       body: [
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) is /catering. This URL is the estate party.`,
+        `This URL is the estate party.`,
         'Bridge clause: /hanalei-bridge. Guest counts: /guest-counts. Inquiry stage.',
       ],
       faqs: [
@@ -356,7 +355,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Kauai estate brunch — both shores, inquiry.',
       title: 'Kauai estate brunch — both shores, inquiry | myCHEF',
       description:
-        'Estate brunch in Poʻipū and Princeville. Inquiry stage. Wedding-week brunch is a line on /wedding-week. Not a restaurant brunch.',
+        'Estate brunch in Poʻipū and Princeville. Inquiry stage. Not a restaurant brunch.',
       lede:
         'Pool morning on the South, or misted North coffee. Inquiry. Wedding brunch stacks on /wedding-week; this page is the estate morning.',
       photo: 'occBrunchKauai',
@@ -388,12 +387,12 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Anniversary dinners on a Kohala lava terrace — west side first.',
       title: 'Anniversary dinners on a Kohala lava terrace | myCHEF',
       description:
-        'Anniversary tables on Kona–Kohala terraces. Inquiry stage. Two seats or a small list. East side is a different day. Not the catering keyword.',
+        'Anniversary tables on Kona–Kohala terraces. Inquiry stage. Two seats or a small list. East side is a different day.',
       lede:
         'Two plates on lava, Mauna Kea faint. Not a Hilo add-on. The birthday page is next door.',
       photo: 'occAnniversaryBigisland',
       body: [
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This URL is the anniversary.`,
+        `This URL is the anniversary.`,
         'Honeymoon two-tops: /honeymoon-dinners. West-side: /kohala-corridor. East side: /east-side.',
       ],
       faqs: [
@@ -418,7 +417,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'West-side villa offsites on Hawaiʻi Island — not a Hilo add-on.',
       title: 'West-side villa offsites on Hawaiʻi Island | myCHEF',
       description:
-        'Villa offsites in Kona and Kohala. Inquiry stage. East side is a different day. Distinct from /corporate-catering. Not the catering keyword.',
+        'Villa offsites in Kona and Kohala. Inquiry stage. East side is a different day.',
       lede:
         'A small west-side table, hard sun. Not the whole island. The food line is /corporate-catering. Ironman weeks compress town.',
       photo: 'occCorporateBigisland',
@@ -448,12 +447,12 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Villa parties on the Kohala Coast — lava terrace, west side.',
       title: 'Villa parties on the Kohala Coast | myCHEF',
       description:
-        'Staffed villa parties on Kona–Kohala terraces. About 10–75. Inquiry stage. East side is a different day. Not the catering keyword.',
+        'Staffed villa parties on Kona–Kohala terraces. About 10–75. Inquiry stage. East side is a different day.',
       lede:
         'Eight to forty on lava, plated kanpachi, Mauna Kea faint. Not a Hilo add-on. Hard sun is real.',
       photo: 'occVillaBigisland',
       body: [
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) is /catering. This URL is the villa party.`,
+        `This URL is the villa party.`,
         'West-side radius: /kohala-corridor. East side: /east-side. Ironman weeks: /ironman-weeks. Guest counts: /guest-counts.',
       ],
       faqs: [
@@ -478,7 +477,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'West-side brunch on Hawaiʻi Island — Kona and Kohala mornings.',
       title: 'West-side brunch on Hawaiʻi Island | myCHEF',
       description:
-        'West-side brunch in Kona and Kohala villas. Inquiry stage. Wedding brunch is a line on /weddings. East side is a different day.',
+        'West-side brunch in Kona and Kohala villas. Inquiry stage. East side is a different day.',
       lede:
         'Breakfast fish, fruit, hard sun. Coffee cherries on a side board if the house has them — origin labeled when the law requires it.',
       photo: 'occBrunchBigisland',

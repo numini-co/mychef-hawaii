@@ -13,13 +13,13 @@ export const islandFineDiningIndex: Record<IslandId, IslandNestedIndexPage> = {
     h1: 'Kahala rooms and Ko Olina villas — four formats, still a house.',
     title: 'Kahala & Ko Olina formats — still a house, not a star | myCHEF',
     description:
-      'Oʻahu in-villa formats in Kahala rooms and Ko Olina villas: romantic dinner, tasting menu, chef’s table evening, celebration dinner. Halo posture, not a star. Distinct from /honeymoon-dinners.',
+      'Oʻahu in-villa formats in Kahala rooms and Ko Olina villas: romantic dinner, tasting menu, chef’s table evening, celebration dinner. Halo posture, not a star.',
     lede:
       '/honeymoon-dinners is the published two-top SKU. /chefs-table is the villa table product. This page is the format list — still a house, still a written quote.',
     kicker: 'Oʻahu · Fine dining',
     photo: 'fineIndexOahu',
     body: [
-      `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) stays on this host’s home. These URLs are formats so that title stays clean. We do not claim stars we do not have.`,
+      `We do not claim stars we do not have.`,
       'Kahala dining rooms and Ko Olina villas are the usual rooms. Gold Coast houses: /gold-coast. Sourcing is written on the menu or it is not claimed.',
     ],
     faqs: [
@@ -37,13 +37,13 @@ export const islandFineDiningIndex: Record<IslandId, IslandNestedIndexPage> = {
     h1: 'Wailea dining rooms and West Maui lanais — four formats, not a star.',
     title: 'Wailea & West Maui formats — villa rooms, not a star | myCHEF',
     description:
-      'Maui in-villa formats in Wailea dining rooms and West Maui lanais: romantic dinner, tasting menu, chef’s table evening, celebration dinner. Halo posture, not a star. Distinct from /honeymoon-dinners.',
+      'Maui in-villa formats in Wailea dining rooms and West Maui lanais: romantic dinner, tasting menu, chef’s table evening, celebration dinner. Halo posture, not a star.',
     lede:
       '/honeymoon-dinners is the published two-top SKU. This page is the format list — Wailea rooms, West Maui lanais, still a written quote.',
     kicker: 'Maui · Fine dining',
     photo: 'fineIndexMaui',
     body: [
-      `Private chef Maui (${SEARCH_VOLUMES['private chef maui']}) stays on this host’s home. These URLs are formats so that title stays clean. We do not claim stars we do not have.`,
+      `We do not claim stars we do not have.`,
       'Wailea and Kapalua dining rooms are the usual rooms. South Maui corridor: /south-maui. Sourcing is written on the menu or it is not claimed.',
     ],
     faqs: [
@@ -67,7 +67,7 @@ export const islandFineDiningIndex: Record<IslandId, IslandNestedIndexPage> = {
     kicker: 'Kauaʻi · Fine dining',
     photo: 'fineIndexKauai',
     body: [
-      `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) stays on this host’s home. These URLs are formats so that title stays clean. Inquiry stage. We do not claim stars we do not have.`,
+      `Inquiry stage. We do not claim stars we do not have.`,
       'A named shore is not a confirmation. Hanalei-bridge weather is a clause — /hanalei-bridge. Send dates on /quote.',
     ],
     faqs: [
@@ -85,13 +85,13 @@ export const islandFineDiningIndex: Record<IslandId, IslandNestedIndexPage> = {
     h1: 'Kona-to-Kohala formats at inquiry — Hilo never on this list.',
     title: 'Kona-to-Kohala formats — inquiry, Hilo not on this list | myCHEF',
     description:
-      'West-side Hawaiʻi Island formats at inquiry, Kona to Kohala. Distinct from /honeymoon-dinners, /chefs-table, and /east-side. Not a Michelin claim. Hilo never on this list.',
+      'West-side Hawaiʻi Island formats at inquiry, Kona to Kohala. Not a Michelin claim. Hilo never on this list.',
     lede:
       '/honeymoon-dinners is the two-top SKU at inquiry. This page is the west-side format list — Kona to Kohala, Hilo never implied.',
     kicker: 'Hawaiʻi Island · Fine dining',
     photo: 'fineIndexBigisland',
     body: [
-      `Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) stays a dinner door. These URLs are formats so that title stays clean. West side first. We do not claim stars we do not have.`,
+      `West side first. We do not claim stars we do not have.`,
       'East side is a dedicated day — /east-side. Named Kaʻū and Kona coffee follow Act 198 — /coffee-act-198. Send dates on /quote.',
     ],
     faqs: [

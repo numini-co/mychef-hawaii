@@ -52,9 +52,9 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       h1: 'Bartenders on Oahu — an hourly line, not the 4-hour package.',
       title: 'Bartenders on Oahu — an hourly line | myCHEF',
       description:
-        'Bartender add-ons for Oahu houses. Hourly, itemised. Distinct from /bar and the 4-hour /mobile-bar package. No theatrical tiki service.',
+        'Bartender add-ons for Oahu houses. Hourly, itemised. No theatrical tiki service.',
       lede:
-        'Citrus, glassware, the lanai. /bar is the product door. /mobile-bar is four hours. This URL is the hourly bartender so those titles do not collide.',
+        'Citrus, glassware, the lanai. /bar is the product door. /mobile-bar is four hours.',
       photo: 'staffBartendersOahu',
       body: [
         'The bartender add-on product is /bar. The 4-hour package is /mobile-bar. This page is how we quote the person.',
@@ -120,7 +120,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       photo: 'staffServersMaui',
       body: [
         'Staffing minimums: /pricing. Plated: /catering/plated. Guest counts: /guest-counts. Traffic: /west-maui.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This URL is the server line.`,
+        `This URL is the server line.`,
       ],
       faqs: [
         {
@@ -144,7 +144,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       h1: 'Bartenders on Maui — hourly on the lanai, not the 4-hour package.',
       title: 'Bartenders on Maui — hourly on the lanai | myCHEF',
       description:
-        'Bartender add-ons for Wailea and West Maui. Hourly, itemised. Distinct from /bar and /mobile-bar. No theatrical tiki service.',
+        'Bartender add-ons for Wailea and West Maui. Hourly, itemised. No theatrical tiki service.',
       lede:
         'Citrus, the Pacific, the lanai. /bar is the product. /mobile-bar is four hours. This URL is the hourly bartender.',
       photo: 'staffBartendersMaui',
@@ -212,7 +212,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       photo: 'staffServersKauai',
       body: [
         'Staffing minimums: /pricing. Far-North: /hanalei-bridge. Guest counts: /guest-counts.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This URL is the server line.`,
+        `This URL is the server line.`,
       ],
       faqs: [
         {
@@ -236,7 +236,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       h1: 'Bartenders on Kauai — hourly, inquiry, not the 4-hour package.',
       title: 'Bartenders on Kauai — hourly, inquiry | myCHEF',
       description:
-        'Bartender add-ons for Kauai estates. Inquiry stage. Distinct from /bar and /mobile-bar. No theatrical tiki service.',
+        'Bartender add-ons for Kauai estates. Inquiry stage. No theatrical tiki service.',
       lede:
         'Citrus on a wet terrace or a South Shore counter. Inquiry. /bar is the product. This URL is the hourly line.',
       photo: 'staffBartendersKauai',
@@ -304,7 +304,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       photo: 'staffServersBigisland',
       body: [
         'Staffing minimums: /pricing. West-side: /kohala-corridor. East side: /east-side. Ironman weeks: /ironman-weeks.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This URL is the server line.`,
+        `This URL is the server line.`,
       ],
       faqs: [
         {
@@ -328,7 +328,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       h1: 'Bartenders on the Kohala Coast — hourly, west side, inquiry.',
       title: 'Bartenders on the Kohala Coast — hourly, inquiry | myCHEF',
       description:
-        'Bartender add-ons for Kona and Kohala. Inquiry stage. Distinct from /bar and /mobile-bar. East side is a different day. No theatrical tiki service.',
+        'Bartender add-ons for Kona and Kohala. Inquiry stage. East side is a different day. No theatrical tiki service.',
       lede:
         'Citrus on lava, hard sun. /bar is the product. This URL is the hourly line. Not Hilo.',
       photo: 'staffBartendersBigisland',

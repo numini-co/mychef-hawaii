@@ -23,13 +23,13 @@ export const islandGatherings: Record<IslandId, IslandNestedIndexPage> = {
     h1: 'Oahu gatherings — the house, not a Gold Coast ballroom.',
     title: 'Oahu house gatherings — birthdays and reunions in the room | myCHEF',
     description:
-      'Oahu house gatherings: birthdays and reunions in the room. Distinct from /events, /blog/family-reunions, and hub /gatherings.',
+      'Oahu house gatherings: birthdays and reunions in the room.',
     lede:
       '/events is the occasion index. /blog/family-reunions is the reunion note. Hub /gatherings is statewide. This page is the Oahu house-gathering list.',
     kicker: 'Oʻahu · Gatherings',
     photo: 'gatherIndexOahu',
     body: [
-      `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. Wedding-week stacks live on /weddings. These URLs do not steal those titles.`,
+      `Wedding-week stacks live on /weddings.`,
       'Birthdays, reunions, and rehearsal dinners sit in residences we can actually cook in. Guest counts we staff: dinners 2–15, receptions about 10–75 — /guest-counts.',
     ],
     faqs: [
@@ -47,13 +47,13 @@ export const islandGatherings: Record<IslandId, IslandNestedIndexPage> = {
     h1: 'Maui gatherings — the villa, not a Wailea banquet.',
     title: 'Maui house gatherings — birthdays and reunions in the villa | myCHEF',
     description:
-      'Maui house gatherings: birthdays and reunions in the villa. Distinct from /events, /blog/family-reunions, /wedding-week, and hub /gatherings.',
+      'Maui house gatherings: birthdays and reunions in the villa.',
     lede:
       '/events is the occasion index. /wedding-week is the SKU stack. This page is the Maui house-gathering list — a villa table, not a banquet.',
     kicker: 'Maui · Gatherings',
     photo: 'gatherIndexMaui',
     body: [
-      `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. Wedding-week stacks live on /weddings and /wedding-week. These URLs do not steal those titles.`,
+      `Wedding-week stacks live on /weddings and /wedding-week.`,
       'Birthdays, reunions, and rehearsal dinners sit in South Maui and West Maui houses. Guest counts we staff live on /guest-counts.',
     ],
     faqs: [
@@ -71,13 +71,13 @@ export const islandGatherings: Record<IslandId, IslandNestedIndexPage> = {
     h1: 'Kauai gatherings — the estate at inquiry, not a ballroom.',
     title: 'Kauai house gatherings — inquiry estates, not a ballroom | myCHEF',
     description:
-      'Kauai house gatherings at inquiry. Distinct from /events, /blog/family-reunions, and hub /gatherings. Not a Book-now button.',
+      'Kauai house gatherings at inquiry. Not a Book-now button.',
     lede:
       '/events is the occasion index at inquiry. This page is the Kauai house-gathering list — both shores, when we can staff, not a fake roster.',
     kicker: 'Kauaʻi · Gatherings',
     photo: 'gatherIndexKauai',
     body: [
-      `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. Wedding-week stacks live on /weddings and /wedding-week. Inquiry stage.`,
+      `Wedding-week stacks live on /weddings and /wedding-week. Inquiry stage.`,
       'A named shore is not a confirmation. Far-North gatherings inherit /hanalei-bridge. Guest counts we staff live on /guest-counts.',
     ],
     faqs: [
@@ -95,13 +95,13 @@ export const islandGatherings: Record<IslandId, IslandNestedIndexPage> = {
     h1: 'West-side gatherings — the house at inquiry. Hilo not implied.',
     title: 'West-side house gatherings — inquiry tables, Hilo not implied | myCHEF',
     description:
-      'Hawaiʻi Island west-side house gatherings at inquiry. Distinct from /events, /blog/family-reunions, /east-side, and hub /gatherings.',
+      'Hawaiʻi Island west-side house gatherings at inquiry.',
     lede:
       '/events is the occasion index at inquiry. This page is the west-side house-gathering list — Kona to Kohala, Hilo never implied.',
     kicker: 'Hawaiʻi Island · Gatherings',
     photo: 'gatherIndexBigisland',
     body: [
-      `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. West side first. East side is a dedicated day — /east-side.`,
+      `West side first. East side is a dedicated day — /east-side.`,
       'Birthdays and reunions sit in west-side houses we can actually staff. Ironman weeks compress the calendar — /ironman-weeks. Guest counts: /guest-counts.',
     ],
     faqs: [

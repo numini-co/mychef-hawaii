@@ -31,7 +31,7 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
     kicker: 'Oʻahu · Booking notes',
     photo: 'legalOahu',
     body: [
-      `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) stays on this host’s home. This page does not steal that title. It is how a Kahala night is held in writing.`,
+      `It is how a Kahala night is held in writing.`,
       'Fee stack: /private-chef-cost. Tariff: /pricing. After you accept a total: /help/managing-booking.',
     ],
     sections: [
@@ -92,7 +92,6 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
     kicker: 'Maui · Booking notes',
     photo: 'legalMaui',
     body: [
-      `Private chef Maui (${SEARCH_VOLUMES['private chef maui']}) stays on this host’s home. This page does not steal that title.`,
       'West Maui: /west-maui. Lahaina: /lahaina. Fee stack: /private-chef-cost. Tariff: /pricing.',
     ],
     sections: [
@@ -153,7 +152,7 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
     kicker: 'Kauaʻi · Booking notes',
     photo: 'legalKauai',
     body: [
-      `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) stays on this host’s home. This page does not steal that title. Inquiry stage.`,
+      `Inquiry stage.`,
       'Bridge: /hanalei-bridge. Fee stack: /private-chef-cost. Tariff: /pricing. Inquiry form: /quote.',
     ],
     sections: [
@@ -214,7 +213,7 @@ export const islandLegal: Record<IslandId, IslandLegalPage> = {
     kicker: 'Hawaiʻi Island · Booking notes',
     photo: 'legalBigisland',
     body: [
-      `Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) and private chef Big Island (${SEARCH_VOLUMES['private chef big island']}) stay dinner doors. This page is the booking notes.`,
+      `This page is the booking notes.`,
       'East side: /east-side. Ironman weeks: /ironman-weeks. Fee stack: /private-chef-cost. Inquiry form: /quote.',
     ],
     sections: [

@@ -154,7 +154,7 @@ export function HubWeddingsView() {
       <HubPhotoGrid
         eyebrow="Beside this wedding week"
         heading="Open a related document."
-        intro="This page is the four-island picker for wedding weeks. Catering, occasions, the form, and the packaged cart are their own URLs."
+        intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           {
@@ -166,7 +166,7 @@ export function HubWeddingsView() {
           {
             href: '/events',
             title: events?.cardLabel ?? 'Occasions',
-            body: events?.lede ?? 'Occasion documents live on the island host. This page is the picker.',
+            body: events?.lede ?? 'Occasions we cook for on each island.',
             still: photos.hubEvents,
           },
           {
@@ -236,7 +236,7 @@ export function IslandWeddingView({ islandId, hostMode }: { islandId: IslandId; 
         islandId={islandId}
         eyebrow={`${islands[islandId].shortName} · Beside this wedding week`}
         heading="Open a related document."
-        intro="This URL is the wedding-week stack. Catering, occasions, the form, and the packaged cart are their own URLs."
+        intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           { path: '/catering', label: 'Villa catering', detail: '/catering' },

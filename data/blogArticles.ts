@@ -21,12 +21,11 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'A Honolulu table — kitchen notes, not the dinner door.',
       title: 'Honolulu kitchen notes — a table, not the corridor page | myCHEF',
       description:
-        'Short Honolulu kitchen notes: town apartments and Gold Coast-adjacent houses. Distinct from /honolulu.',
+        'Short Honolulu kitchen notes: town apartments and Gold Coast-adjacent houses.',
       lede:
         '/honolulu is the dinner door. This blog note is the room — a cooktop in town, not a second corridor page.',
       photo: 'dinHonolulu',
       body: [
-        `Private chef Honolulu (${SEARCH_VOLUMES['private chef honolulu']}) stays on /honolulu. This article does not steal that title.`,
         'Town apartments with a real stove, and houses that actually cook. Hotel rooms without a cooktop are declined. Load-in and quiet hours go on the quote.',
         'The corridor directory is /locations. Send the address type on /quote.',
       ],
@@ -52,13 +51,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Waikiki notes — residences with a cooktop, not a hotel room.',
       title: 'Waikiki residence notes — cooktop required | myCHEF',
       description:
-        'Short Waikīkī notes: tower residences, freight elevators, cooktops. Distinct from /waikiki.',
+        'Short Waikīkī notes: tower residences, freight elevators, cooktops.',
       lede:
         '/waikiki is the dinner door. This blog note is why a tower residence and a hotel room are not the same night.',
       photo: 'dinWaikiki',
       body: [
         'Freight elevators, COIs, and quiet hours are handled in advance. Compact kitchens get a menu that fits the range — not a brochure photo.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This article is one residence table in the tower.`,
+        `This article is one residence table in the tower.`,
         'If there is no cooktop, we decline. Open /waikiki for the corridor page.',
       ],
       faqs: [
@@ -83,7 +82,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kailua notes — 30-day houses, not a weekend drop-in.',
       title: 'Kailua kitchen notes — 30-day houses, not a weekend drop-in | myCHEF',
       description:
-        'Short Kailua notes: windward 30-day estates, family weeks. Distinct from /kailua.',
+        'Short Kailua notes: windward 30-day estates, family weeks.',
       lede:
         '/kailua is the dinner door. This blog note is the 30-day house — equipment confirmed before anyone drives windward.',
       photo: 'dinKailua',
@@ -114,13 +113,12 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'North Shore notes — Turtle Bay drive, written on the quote.',
       title: 'North Shore kitchen notes — Turtle Bay drive, written | myCHEF',
       description:
-        'Short Oahu North Shore notes: surcharge drive, dedicated chef days. Distinct from /north-shore.',
+        'Short Oahu North Shore notes: surcharge drive, dedicated chef days.',
       lede:
         '/north-shore is the dinner door. This blog note is why the drive is a line, not a surprise at 4 p.m.',
       photo: 'dinNorthShore',
       body: [
         'Surcharge zone. Sixty to ninety minutes from town. Dedicated chef days — not stacked with a Kahala lunch.',
-        `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) stays on this host’s home. This article does not steal that title.`,
         'Surf season books early. We still need a cooktop. Open /north-shore for the corridor page.',
       ],
       faqs: [
@@ -145,14 +143,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kahala notes — Gold Coast dining rooms that actually cook.',
       title: 'Kahala kitchen notes — Gold Coast dining rooms | myCHEF',
       description:
-        'Short Kahala notes: Gold Coast dining rooms, resident and celebration tables. Distinct from /kahala and /gold-coast.',
+        'Short Kahala notes: Gold Coast dining rooms, resident and celebration tables.',
       lede:
         '/kahala is the dinner door. /gold-coast is the estate cell. This blog note is the dining room itself.',
       photo: 'dinKahala',
       body: [
         'Gold Coast houses with real dining rooms. Weekly kamaʻāina tables and celebration dinners of 4–15. Hotel suites without a cooktop stay declined.',
         'Load-in is confirmed in writing. The corridor page is /kahala. The estate cell is /gold-coast.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This article is one Gold Coast table.`,
+        `This article is one Gold Coast table.`,
       ],
       faqs: [
         {
@@ -176,7 +174,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Ko Olina notes — villa weeks, not a one-off tourist dinner.',
       title: 'Ko Olina kitchen notes — villa weeks, not a one-off | myCHEF',
       description:
-        'Short Ko Olina notes: legal short-stay villa weeks, west-side provisioning. Distinct from /ko-olina and /short-stay.',
+        'Short Ko Olina notes: legal short-stay villa weeks, west-side provisioning.',
       lede:
         '/ko-olina is the dinner door. /short-stay is the legal villa pool. This blog note is the week in the house.',
       photo: 'dinKoOlina',
@@ -207,13 +205,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Oahu grocery line — shopped the day of, billed at cost.',
       title: 'Oahu groceries billed at cost — receipts on the quote | myCHEF',
       description:
-        'Oahu groceries print at cost with receipts. Distinct from /pricing and /journal/what-is-included.',
+        'Oahu groceries print at cost with receipts.',
       lede:
         '/pricing is the tariff. /journal/what-is-included is the written split. This blog note is the grocery line — shopped that day, billed at cost, never a hidden markup.',
       photo: 'blogGroceryOahu',
       body: [
         'We shop the day of service. Groceries print at cost with receipts. They are not swallowed by the CORE band on a Kahala or Ko Olina night.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This article is one dinner’s shop, itemised.`,
+        `This article is one dinner’s shop, itemised.`,
         'Alcohol is a different line — /blog/wine-and-alcohol. The written quote is the contract.',
       ],
       faqs: [
@@ -238,14 +236,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Oahu wine and spirits — Kahala pours as their own line.',
       title: 'Oahu wine and spirits — Kahala pours as their own line | myCHEF',
       description:
-        'Oahu wine, beer, and spirits never hide inside the dinner band. Distinct from /bar and /private-chef.',
+        'Oahu wine, beer, and spirits never hide inside the dinner band.',
       lede:
         '/bar is the bartender add-on. /mobile-bar is the 4-hour package. This blog note is the bottle line — yours, or quoted separately.',
       photo: 'blogWineOahu',
       body: [
         'Bring your own, or we quote a separate pour. Wine, beer, and spirits never hide inside the CORE band on a Gold Coast night.',
         'A bartender is /staffing/bartenders or /bar. This piece is the alcohol line on the quote, not the person pouring it.',
-        `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) stays on this host’s home. This article does not steal that title.`,
       ],
       faqs: [
         {
@@ -269,7 +266,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Oahu lawn tables get a covered backup in writing.',
       title: 'Oahu lawn tables get a covered backup in writing | myCHEF',
       description:
-        'Oahu outdoor tables get a written wet-weather backup before the day. Distinct from /coverage and /legal.',
+        'Oahu outdoor tables get a written wet-weather backup before the day.',
       lede:
         '/coverage is the zone map. /legal holds the weather clause. This blog note is the covered room we name before anyone sets a Kahala lawn table.',
       photo: 'blogWeatherOahu',
@@ -300,14 +297,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Oahu sourcing — most food still arrives by ship. We say so.',
       title: 'Oahu sourcing honesty — most food still arrives by ship | myCHEF',
       description:
-        'Oahu sourcing honesty: Hawaiʻi still imports most of its food. Named farms only after written verification. Distinct from /what-we-dont-do.',
+        'Oahu sourcing honesty: Hawaiʻi still imports most of its food. Named farms only after written verification.',
       lede:
         '/what-we-dont-do is the claim list. /menus is the process. This blog note is why we will not print a farm name we have not verified.',
       photo: 'blogSourceOahu',
       body: [
         'Hawaiʻi still imports most of its food. We cook what the shop and the boat actually hold that day. We do not invent a “farm-to-table” brand.',
         'Named farms only after written verification. Fish is named as food, not décor. The sample on /menus is an example, not a standing carte.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This article is how an Oahu draft stays honest.`,
+        `This article is how an Oahu draft stays honest.`,
       ],
       faqs: [
         {
@@ -331,14 +328,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Oahu cleanup — Kahala kitchens left cleaner than we found them.',
       title: 'Oahu cleanup — Kahala kitchens left cleaner than we found them | myCHEF',
       description:
-        'Oahu cleanup standard: shop, cook, serve, leave the kitchen cleaner. Distinct from /private-chef and /journal/what-is-included.',
+        'Oahu cleanup standard: shop, cook, serve, leave the kitchen cleaner.',
       lede:
         '/private-chef is what a night includes. This blog note is the last hour — the Kahala sink, the Ko Olina island, left cleaner than we found them.',
       photo: 'blogCleanupOahu',
       body: [
         'Cleanup is in. We do not leave a Gold Coast kitchen as we found it. That is the standard, not an add-on.',
         'Rentals and venue fees still print as their own lines. Cleanup is not a rental. Open /journal/what-is-included for the split.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This article is one dinner’s last hour.`,
+        `This article is one dinner’s last hour.`,
       ],
       faqs: [
         {
@@ -362,7 +359,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Oahu condo load-in — freight elevators and quiet hours in writing.',
       title: 'Oahu condo load-in — freight elevators and quiet hours in writing | myCHEF',
       description:
-        'Oahu condo load-in: freight elevators, COIs, quiet hours. Distinct from /waikiki and /blog/dining-in-waikiki.',
+        'Oahu condo load-in: freight elevators, COIs, quiet hours.',
       lede:
         '/waikiki is the dinner door. /blog/dining-in-waikiki is the cooktop note. This blog note is the load-in — written before anyone rolls a kit through a tower.',
       photo: 'blogCondoOahu',
@@ -393,14 +390,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Oahu family reunions — Gold Coast houses, not a ballroom.',
       title: 'Oahu family reunions — Gold Coast houses, not a ballroom | myCHEF',
       description:
-        'Oahu family reunions in houses we actually staff. Distinct from /events, /guest-counts, and /conventions.',
+        'Oahu family reunions in houses we actually staff.',
       lede:
         '/events is the occasion door. /guest-counts is the honesty page. This blog note is a family week in a Kahala or Ko Olina house — not HCC, not a ballroom.',
       photo: 'blogReunionOahu',
       body: [
         'Dinners 2–15, receptions about 10–75. Larger formats are quoted, not promised. HCC citywides are closed and are not our product — /conventions.',
         'Kids’ plates are planned with the adults’ menu — /kids-menus. Multi-day weeks sit on /vacation-chef.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This article is one family table in the house.`,
+        `This article is one family table in the house.`,
       ],
       faqs: [
         {
@@ -424,14 +421,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Oahu production meals — residences, not a craft-service tent.',
       title: 'Oahu production meals — residences, not a craft-service tent | myCHEF',
       description:
-        'Oahu crew and production meals in residences with kitchens. Distinct from /catering and /conventions.',
+        'Oahu crew and production meals in residences with kitchens.',
       lede:
         '/catering is the staffed-room product. /conventions says HCC is closed. This blog note is crew meals in a house — identical plates, a kitchen, not a tent.',
       photo: 'blogShootOahu',
       body: [
         'Film and stills crews in residences are the same staffed-room product as a villa event. We do not staff craft-service tents or convention holds.',
         'Identical plates, one dietary note on the quote — /dietary. Guest counts we staff stay published — /guest-counts.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This article is production food in a Kahala kitchen.`,
+        `This article is production food in a Kahala kitchen.`,
       ],
       faqs: [
         {
@@ -455,14 +452,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Oahu proposal dinners — Kahala tables for two, not a restaurant hold.',
       title: 'Oahu proposal dinners — Kahala tables for two, not a restaurant hold | myCHEF',
       description:
-        'Oahu proposal dinners in a house kitchen. Distinct from /honeymoon-dinners and /fine-dining/romantic-dinner.',
+        'Oahu proposal dinners in a house kitchen.',
       lede:
         '/honeymoon-dinners is two seats after the wedding. /fine-dining/romantic-dinner is the course stack. This blog note is the ask — in a Kahala dining room, not a restaurant hold.',
       photo: 'blogProposalOahu',
       body: [
         'A proposal is two seats in a kitchen we can actually staff. We do not hold a restaurant table. We do not stage a public ask on a Waikīkī lawn.',
         'Honeymoon nights sit on /honeymoon-dinners. The romantic-dinner SKU is /fine-dining/romantic-dinner. This article is the shorter proposal note beside them.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This article is one table for two in the house.`,
+        `This article is one table for two in the house.`,
       ],
       faqs: [
         {
@@ -486,7 +483,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Oahu estate logistics — Gold Coast driveways, generators, and the gate.',
       title: 'Oahu estate logistics — Gold Coast driveways, generators, and the gate | myCHEF',
       description:
-        'Oahu estate logistics: driveways, generators, gates. Distinct from /blog/condo-load-in and /coverage.',
+        'Oahu estate logistics: driveways, generators, gates.',
       lede:
         '/blog/condo-load-in is the tower. /coverage is the zone map. This blog note is the house — the Gold Coast driveway, the generator, the gate code in writing.',
       photo: 'blogEstateOahu',
@@ -517,14 +514,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Oahu shoulder dates — April and November still need a written kitchen.',
       title: 'Oahu shoulder dates — April and November still need a written kitchen | myCHEF',
       description:
-        'Oahu shoulder dates are not automatic availability. Distinct from /journal/how-far-ahead-to-book.',
+        'Oahu shoulder dates are not automatic availability.',
       lede:
         '/journal/how-far-ahead-to-book is the peak calendar. This blog note is April and November — quieter months that still need a Gold Coast kitchen in writing, not a last-minute yes.',
       photo: 'blogShoulderOahu',
       body: [
         'Shoulder months are quieter, not empty. A Kahala house in April still needs a cooktop, a count, and a written quote. We do not invent a last-minute roster because the calendar looks open.',
         'Peak months stay on /journal/how-far-ahead-to-book. Convention weeks stay on /conventions. This article is the quieter window beside them.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This article is why a shoulder night is still a written kitchen.`,
+        `This article is why a shoulder night is still a written kitchen.`,
       ],
       faqs: [
         {
@@ -548,7 +545,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Lanikai notes — 30-day houses, quieter than Kailua.',
       title: 'Lanikai kitchen notes — 30-day houses, quieter than Kailua | myCHEF',
       description:
-        'Short Lanikai notes: quieter 30-day beach houses. Distinct from /lanikai, /kailua, and /blog/dining-in-kailua.',
+        'Short Lanikai notes: quieter 30-day beach houses.',
       lede:
         '/lanikai is the dinner door. /kailua is the windward corridor. This blog note is the Lanikai kitchen — the same 30-day rule, quieter inventory.',
       photo: 'dinLanikai',
@@ -580,14 +577,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Hawaiʻi Kai notes — east Honolulu households, not a villa SKU.',
       title: 'Hawaiʻi Kai kitchen notes — east Honolulu households | myCHEF',
       description:
-        'Short Hawaiʻi Kai notes: resident entertaining more than tourist villas. Distinct from /honolulu and /kamaaina.',
+        'Short Hawaiʻi Kai notes: resident entertaining more than tourist villas.',
       lede:
         '/honolulu is the town dinner door. /kamaaina is the resident line. This blog note is East Honolulu — traffic planned into the chef day, not a tourist villa SKU.',
       photo: 'dinHawaiiKai',
       body: [
         'East Honolulu households. Resident entertaining more than tourist villas. Traffic is planned into the chef day. A cooktop is still required.',
         'The dinner door is /hawaii-kai. This piece is the kitchen note. Town dinners stay on /honolulu. Weekly resident service stays on /kamaaina.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This article is one East Honolulu table.`,
+        `This article is one East Honolulu table.`,
       ],
       faqs: [
         {
@@ -612,7 +609,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Diamond Head notes — Gold Coast-adjacent rooms, not /gold-coast.',
       title: 'Diamond Head kitchen notes — Gold Coast-adjacent rooms | myCHEF',
       description:
-        'Short Diamond Head notes: adjacent estates with real dining rooms. Distinct from /kahala and /gold-coast.',
+        'Short Diamond Head notes: adjacent estates with real dining rooms.',
       lede:
         '/kahala is the dinner door. /gold-coast is the estate cell. This blog note is Diamond Head-adjacent houses — load-in in writing, not a second Gold Coast page.',
       photo: 'dinDiamondHead',
@@ -644,7 +641,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kakaʻako notes — compact tower ranges, not a rooftop we do not own.',
       title: 'Kakaʻako kitchen notes — compact tower ranges | myCHEF',
       description:
-        'Short Kakaʻako notes: tower residences, compact kitchens. Distinct from /honolulu and /blog/condo-load-in.',
+        'Short Kakaʻako notes: tower residences, compact kitchens.',
       lede:
         '/honolulu is the town dinner door. /blog/condo-load-in is the freight elevator. This blog note is the compact Kakaʻako range — not a rooftop we do not control.',
       photo: 'dinKakaako',
@@ -676,14 +673,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Downtown notes — pied-à-terre ranges, not an HCC takeover.',
       title: 'Downtown Honolulu kitchen notes — pied-à-terre ranges, not HCC | myCHEF',
       description:
-        'Short downtown Honolulu notes: compact kitchens, loading, not restaurant takeovers. Distinct from /honolulu and /conventions.',
+        'Short downtown Honolulu notes: compact kitchens, loading, not restaurant takeovers.',
       lede:
         '/honolulu is the town dinner door. /conventions says HCC citywides are closed. This blog note is the pied-à-terre range — parking and loading, not a restaurant we do not own.',
       photo: 'dinDowntown',
       body: [
         'Pied-à-terre kitchens and private dining rooms — not restaurant takeovers. Parking and loading are the constraint, not distance. Small celebrations and executive dinners off HCC.',
         'The dinner door is /downtown. This piece is the kitchen note. HCC citywides stay closed through 2027 — /conventions. A unit without a cooktop is declined.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This article is one downtown table in the house.`,
+        `This article is one downtown table in the house.`,
       ],
       faqs: [
         {
@@ -708,7 +705,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kāneʻohe notes — quieter windward town, published surcharge.',
       title: 'Kāneʻohe kitchen notes — quieter windward town, published surcharge | myCHEF',
       description:
-        'Short Kāneʻohe notes: quieter than Kailua, still a drive. Distinct from /kailua and /blog/dining-in-kailua.',
+        'Short Kāneʻohe notes: quieter than Kailua, still a drive.',
       lede:
         '/kailua is the windward dinner door. This blog note is Kāneʻohe — quieter town, published surcharge, not a second 30-day beach-house page.',
       photo: 'dinKaneohe',
@@ -740,14 +737,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'ʻEwa notes — leeward households, Ko Olina provisioning.',
       title: 'ʻEwa kitchen notes — leeward households, Ko Olina provisioning | myCHEF',
       description:
-        'Short ʻEwa / Kapolei notes: leeward residential, west-side base. Distinct from /ko-olina.',
+        'Short ʻEwa / Kapolei notes: leeward residential, west-side base.',
       lede:
         '/ko-olina is the villa dinner door. This blog note is ʻEwa and Kapolei — resident households and west-side overflow, not a resort-residence clone.',
       photo: 'dinEwa',
       body: [
         'Leeward residential. Closer to Ko Olina provisioning than to Waikīkī. West-side base. No town surcharge. Resident households and west-side villa overflow.',
         'The dinner door is /ewa. This piece is the kitchen note. /ko-olina stays the short-stay villa door. A cooktop is still required.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This article is one leeward household table.`,
+        `This article is one leeward household table.`,
       ],
       faqs: [
         {
@@ -772,13 +769,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Oahu farm names — Kahuku and Waimānalo only after written verification.',
       title: 'Oahu farm names — Kahuku and Waimānalo only after verification | myCHEF',
       description:
-        'Oahu farm names print on the invoice only after written verification. Distinct from /blog/sourcing-honesty and /what-we-dont-do.',
+        'Oahu farm names print on the invoice only after written verification.',
       lede:
         '/blog/sourcing-honesty is why most food still arrives by ship. This blog note is the farm-name rule — Kahuku and Waimānalo stay off the brochure until we have it in writing.',
       photo: 'blogFarmsOahu',
       body: [
         'A draft that names a farm without a paper trail is a brochure. We will not print Kahuku greens or a Waimānalo citrus grower until the producer is verified in writing.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This article is how a farm line lands on an Oahu invoice.`,
+        `This article is how a farm line lands on an Oahu invoice.`,
         'Fish is a different honesty note — /blog/fish-species. The claim list is /what-we-dont-do.',
       ],
       faqs: [
@@ -803,13 +800,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Oahu fish names — the species on the Honolulu invoice, not a guess.',
       title: 'Oahu fish names — the species on the Honolulu invoice | myCHEF',
       description:
-        'Oahu fish is named as the species on the invoice. Distinct from /blog/sourcing-honesty and /blog/named-farms.',
+        'Oahu fish is named as the species on the invoice.',
       lede:
         '/blog/sourcing-honesty is ship versus farm. /blog/named-farms is produce. This blog note is the fish line — the species we actually bought, not a brochure name.',
       photo: 'blogFishOahu',
       body: [
         'The Honolulu invoice names the fish we purchased that morning. We will not print a species we did not buy, and we will not dress a grocery-case fillet as a pier story.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This article is how a fish line lands on an Oahu invoice.`,
+        `This article is how a fish line lands on an Oahu invoice.`,
         'Produce names are a different note — /blog/named-farms. The claim list is /what-we-dont-do.',
       ],
       faqs: [
@@ -834,13 +831,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Oahu coffee names — Honolulu invoices still follow origin law.',
       title: 'Oahu coffee names — Honolulu invoices still follow origin law | myCHEF',
       description:
-        'Oahu coffee names on the invoice follow origin law even off-island. Distinct from /blog/named-farms and /blog/sourcing-honesty.',
+        'Oahu coffee names on the invoice follow origin law even off-island.',
       lede:
         '/blog/named-farms is produce. /blog/sourcing-honesty is ship versus farm. This blog note is the coffee line on a Honolulu invoice — a documented lot, not a Kona brochure.',
       photo: 'blogCoffeeOahu',
       body: [
         'A Kahala menu that prints a coffee name without a lot is a brochure. Act 198 still governs origin language even when we cook on Oahu. Unverified coffee is coffee.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This article is how a coffee line lands on an Oahu invoice.`,
+        `This article is how a coffee line lands on an Oahu invoice.`,
         'Produce names are /blog/named-farms. Peak months are a different note — /blog/peak-season.',
       ],
       faqs: [
@@ -865,13 +862,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Oahu peak months — Gold Coast and Ko Olina weeks fill first.',
       title: 'Oahu December through March — Gold Coast weeks fill first | myCHEF',
       description:
-        'Oahu December–March: Gold Coast and Ko Olina weeks fill first. Distinct from /journal/how-far-ahead-to-book and /blog/shoulder-season.',
+        'Oahu December–March: Gold Coast and Ko Olina weeks fill first.',
       lede:
         '/journal/how-far-ahead-to-book is the notice window. /blog/shoulder-season is April and November. This blog note is which Oahu weeks actually compress — Gold Coast and Ko Olina first.',
       photo: 'blogPeakOahu',
       body: [
         'December through March on this island is not a generic Hawaiʻi peak essay. Kahala and Ko Olina weeks move first. A Kailua Tuesday is a different clock. Convention-week access still lives on /conventions.',
-        `Oahu catering (${SEARCH_VOLUMES['oahu catering']}) stays on /catering. This article is the calendar, not a scarcity stunt.`,
+        `This article is the calendar, not a scarcity stunt.`,
         'How far ahead to send the form is /journal/how-far-ahead-to-book. April and November are /blog/shoulder-season.',
       ],
       faqs: [
@@ -896,13 +893,12 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Oahu has no star ratings yet. We will not invent them.',
       title: 'Why Oahu has no star ratings yet — zero guest reviews | myCHEF',
       description:
-        'Why Oahu has no Hawaiʻi guest reviews yet: they publish after verified events. Distinct from /trust and /what-we-dont-do.',
+        'Why Oahu has no Hawaiʻi guest reviews yet: they publish after verified events.',
       lede:
         '/what-we-dont-do is the claim list. /trust is the Oahu proof register. This blog note is why the review count is zero — not a five-star page we wrote in-house.',
       photo: 'blogReviewsOahu',
       body: [
         'Hawaiʻi guest reviews on this host: none yet. They go up after verified events — never bought, never written here. Proof today is the rate card, the sample menu, cleanup, and a written quote.',
-        `Private chef Oahu (${SEARCH_VOLUMES['private chef oahu']}) stays on this host’s home. This article does not steal that title.`,
         'The claim list is /what-we-dont-do. The register is /trust. This URL is the short why.',
       ],
       faqs: [
@@ -930,12 +926,11 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'A Wailea table — kitchen notes, not the corridor page.',
       title: 'Wailea kitchen notes — villa table, not the corridor page | myCHEF',
       description:
-        'Short Wailea kitchen notes: resort residences with real kitchens. Distinct from /wailea.',
+        'Short Wailea kitchen notes: resort residences with real kitchens.',
       lede:
         '/wailea is the dinner door. This blog note is the villa table — private, in the house, not a resort communal seating.',
       photo: 'dinWailea',
       body: [
-        `Private chef Maui (${SEARCH_VOLUMES['private chef maui']}) stays on this host’s home. This article does not steal that title.`,
         'Hotel-zoned residences with kitchens. December–March books early. We shop South Maui the day of service when the kitchen holds the draft.',
         'The corridor page is /wailea. The directory is /locations. Send the address on /quote.',
       ],
@@ -961,13 +956,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kaanapali notes — West Maui timing written before arrival.',
       title: 'Kaanapali kitchen notes — West Maui timing on paper | myCHEF',
       description:
-        'Short Kāʻanapali notes: West Maui traffic planned into arrival. Distinct from /kaanapali and /west-maui.',
+        'Short Kāʻanapali notes: West Maui traffic planned into arrival.',
       lede:
         '/kaanapali is the dinner door. /west-maui is Saturday timing. This blog note is why the drive is planned, not discovered.',
       photo: 'dinKaanapali',
       body: [
         'West Maui, named honestly. Same CORE band as Wailea. Traffic is planned into arrival — /west-maui — not a surprise line.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This article is one West Maui residence table.`,
+        `This article is one West Maui residence table.`,
         'Resort residences with kitchens. Family Feast and the bar add-on stack on the same quote when the room holds them.',
       ],
       faqs: [
@@ -992,7 +987,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Lahaina search notes — we cook next door, in kitchens that work.',
       title: 'Lahaina search notes — we cook next door | myCHEF',
       description:
-        'Short Lahaina-search notes: West Maui residences with kitchens. Distinct from /lahaina.',
+        'Short Lahaina-search notes: West Maui residences with kitchens.',
       lede:
         '/lahaina is the dinner door that tells the geography honestly. This blog note is the same sentence in short form.',
       photo: 'dinLahaina',
@@ -1023,14 +1018,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kihei notes — family tables, not a Wailea clone page.',
       title: 'Kihei kitchen notes — family tables, not a Wailea clone | myCHEF',
       description:
-        'Short Kīhei notes: condos and vacation homes with kitchens. Distinct from /kihei.',
+        'Short Kīhei notes: condos and vacation homes with kitchens.',
       lede:
         '/kihei is the dinner door. This blog note is why a Kīhei condo is not a Wailea estate copy.',
       photo: 'dinKihei',
       body: [
         'Service-led, not luxury-led. Condos and vacation homes with kitchens. Kids’ plates are normal here — /kids-menus.',
         'The menu band is the Maui rate card. There is no “discount geography.” Kitchen constraints are stated on the quote.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This article is one South Maui family table.`,
+        `This article is one South Maui family table.`,
       ],
       faqs: [
         {
@@ -1054,7 +1049,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kapalua notes — dinners for two in the house.',
       title: 'Kapalua kitchen notes — dinners for two in the house | myCHEF',
       description:
-        'Short Kapalua notes: northwest estates, dinners for two. Distinct from /kapalua.',
+        'Short Kapalua notes: northwest estates, dinners for two.',
       lede:
         '/kapalua is the dinner door. This blog note is the two-person table in the house — wine as its own line.',
       photo: 'dinKapalua',
@@ -1085,7 +1080,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Makena notes — quieter South Maui, wet-weather backup written.',
       title: 'Makena kitchen notes — quieter South Maui inventory | myCHEF',
       description:
-        'Short Makena notes: south of Wailea, still base zone, outdoor backup. Distinct from /makena.',
+        'Short Makena notes: south of Wailea, still base zone, outdoor backup.',
       lede:
         '/makena is the dinner door. This blog note is the quieter inventory — and the covered backup before anyone sets an outdoor table.',
       photo: 'dinMakena',
@@ -1116,13 +1111,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Maui grocery line — South Maui shop, billed at cost.',
       title: 'Maui groceries billed at cost — receipts on the quote | myCHEF',
       description:
-        'Maui groceries print at cost with receipts. Distinct from /pricing and /journal/what-is-included.',
+        'Maui groceries print at cost with receipts.',
       lede:
         '/pricing is the tariff. /journal/what-is-included is the written split. This blog note is the grocery line — shopped that day in Kihei or Wailea, billed at cost.',
       photo: 'blogGroceryMaui',
       body: [
         'We shop the day of service. Groceries print at cost with receipts. They are not swallowed by the CORE band on a Wailea or Kapalua night.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This article is one villa shop, itemised.`,
+        `This article is one villa shop, itemised.`,
         'Alcohol is a different line — /blog/wine-and-alcohol. Saturday West Maui arrival is planned, not hidden — /west-maui.',
       ],
       faqs: [
@@ -1147,14 +1142,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Maui wine and spirits — Wailea pours as their own line.',
       title: 'Maui wine and spirits — Wailea pours as their own line | myCHEF',
       description:
-        'Maui wine, beer, and spirits never hide inside the dinner band. Distinct from /bar and /private-chef.',
+        'Maui wine, beer, and spirits never hide inside the dinner band.',
       lede:
         '/bar is the bartender add-on. /mobile-bar is the 4-hour package. This blog note is the bottle line — yours, or quoted separately.',
       photo: 'blogWineMaui',
       body: [
         'Bring your own, or we quote a separate pour. Wine, beer, and spirits never hide inside the CORE band on a Wailea night.',
         'A bartender is /staffing/bartenders or /bar. This piece is the alcohol line on the quote, not the person pouring it.',
-        `Private chef Maui (${SEARCH_VOLUMES['private chef maui']}) stays on this host’s home. This article does not steal that title.`,
       ],
       faqs: [
         {
@@ -1178,7 +1172,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Maui lānai tables get a covered backup in writing.',
       title: 'Maui lānai tables get a covered backup in writing | myCHEF',
       description:
-        'Maui outdoor tables get a written wet-weather backup before the day. Distinct from /coverage and /makena.',
+        'Maui outdoor tables get a written wet-weather backup before the day.',
       lede:
         '/coverage is the zone map. /makena names the quieter inventory. This blog note is the covered room we write before anyone sets a Wailea lawn table.',
       photo: 'blogWeatherMaui',
@@ -1209,14 +1203,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Maui sourcing — most food still arrives by ship. We say so.',
       title: 'Maui sourcing honesty — most food still arrives by ship | myCHEF',
       description:
-        'Maui sourcing honesty: Hawaiʻi still imports most of its food. Named farms only after written verification. Distinct from /what-we-dont-do.',
+        'Maui sourcing honesty: Hawaiʻi still imports most of its food. Named farms only after written verification.',
       lede:
         '/what-we-dont-do is the claim list. /menus is the process. This blog note is why we will not print a Upcountry farm name we have not verified.',
       photo: 'blogSourceMaui',
       body: [
         'Hawaiʻi still imports most of its food. We cook what the shop and the boat actually hold that day. We do not invent a “farm-to-table” brand for Wailea.',
         'Named farms only after written verification. Fish is named as food, not décor. Upcountry is a surcharge zone even when the draft names a producer — /coverage.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This article is how a Maui draft stays honest.`,
+        `This article is how a Maui draft stays honest.`,
       ],
       faqs: [
         {
@@ -1240,14 +1234,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Maui cleanup — Wailea kitchens left cleaner than we found them.',
       title: 'Maui cleanup — Wailea kitchens left cleaner than we found them | myCHEF',
       description:
-        'Maui cleanup standard: shop, cook, serve, leave the kitchen cleaner. Distinct from /private-chef and /journal/what-is-included.',
+        'Maui cleanup standard: shop, cook, serve, leave the kitchen cleaner.',
       lede:
         '/private-chef is what a night includes. This blog note is the last hour — the Wailea island, the Kapalua galley, left cleaner than we found them.',
       photo: 'blogCleanupMaui',
       body: [
         'Cleanup is in. We do not leave a South Maui kitchen as we found it. That is the standard, not an add-on.',
         'Rentals and venue fees still print as their own lines. Cleanup is not a rental. Open /journal/what-is-included for the split.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This article is one dinner’s last hour.`,
+        `This article is one dinner’s last hour.`,
       ],
       faqs: [
         {
@@ -1271,7 +1265,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Maui condo load-in — South Maui quiet hours in writing.',
       title: 'Maui condo load-in — South Maui quiet hours in writing | myCHEF',
       description:
-        'Maui condo load-in: freight elevators, COIs, quiet hours. Distinct from /kihei, /wailea, and /blog/dining-in-kihei.',
+        'Maui condo load-in: freight elevators, COIs, quiet hours.',
       lede:
         '/kihei is the dinner door. /blog/dining-in-kihei is the cooktop note. This blog note is the load-in — written before anyone rolls a kit through a South Maui tower.',
       photo: 'blogCondoMaui',
@@ -1302,14 +1296,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Maui family reunions — South Maui houses, not a ballroom.',
       title: 'Maui family reunions — South Maui houses, not a ballroom | myCHEF',
       description:
-        'Maui family reunions in houses we actually staff. Distinct from /events, /guest-counts, and /south-maui.',
+        'Maui family reunions in houses we actually staff.',
       lede:
         '/events is the occasion door. /guest-counts is the honesty page. This blog note is a family week in a Wailea or Kīhei house — not a resort ballroom.',
       photo: 'blogReunionMaui',
       body: [
         'Dinners 2–15, receptions about 10–75. Larger formats are quoted, not promised. Resort ballrooms are not our product — /south-maui.',
         'Kids’ plates are planned with the adults’ menu — /kids-menus. Multi-day weeks sit on /vacation-chef.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This article is one family table in the house.`,
+        `This article is one family table in the house.`,
       ],
       faqs: [
         {
@@ -1333,14 +1327,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Maui production meals — villas, not a craft-service tent.',
       title: 'Maui production meals — villas, not a craft-service tent | myCHEF',
       description:
-        'Maui crew and production meals in villas with kitchens. Distinct from /catering and /south-maui.',
+        'Maui crew and production meals in villas with kitchens.',
       lede:
         '/catering is the staffed-room product. This blog note is crew meals in a Wailea villa — identical plates, a kitchen, not a tent on the lawn.',
       photo: 'blogShootMaui',
       body: [
         'Film and stills crews in villas are the same staffed-room product as a family event. We do not staff craft-service tents or resort holds.',
         'Identical plates, one dietary note on the quote — /dietary. Guest counts we staff stay published — /guest-counts.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This article is production food in a Wailea kitchen.`,
+        `This article is production food in a Wailea kitchen.`,
       ],
       faqs: [
         {
@@ -1364,14 +1358,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Maui proposal dinners — Wailea tables for two, not a restaurant hold.',
       title: 'Maui proposal dinners — Wailea tables for two, not a restaurant hold | myCHEF',
       description:
-        'Maui proposal dinners in a villa kitchen. Distinct from /honeymoon-dinners and /fine-dining/romantic-dinner.',
+        'Maui proposal dinners in a villa kitchen.',
       lede:
         '/honeymoon-dinners is two seats after the wedding. /fine-dining/romantic-dinner is the course stack. This blog note is the ask — on a Wailea lānai, not a restaurant hold.',
       photo: 'blogProposalMaui',
       body: [
         'A proposal is two seats in a kitchen we can actually staff. We do not hold a restaurant table. We do not stage a public ask on a resort lawn.',
         'Honeymoon nights sit on /honeymoon-dinners. The romantic-dinner SKU is /fine-dining/romantic-dinner. This article is the shorter proposal note beside them.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This article is one table for two in the house.`,
+        `This article is one table for two in the house.`,
       ],
       faqs: [
         {
@@ -1395,7 +1389,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Maui estate logistics — Wailea driveways, generators, and the gate.',
       title: 'Maui estate logistics — Wailea driveways, generators, and the gate | myCHEF',
       description:
-        'Maui estate logistics: driveways, generators, gates. Distinct from /blog/condo-load-in and /coverage.',
+        'Maui estate logistics: driveways, generators, gates.',
       lede:
         '/blog/condo-load-in is the tower. /coverage is the zone map. This blog note is the house — the Wailea driveway, the generator, the gate code in writing.',
       photo: 'blogEstateMaui',
@@ -1426,14 +1420,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Maui shoulder dates — April and November still need a written kitchen.',
       title: 'Maui shoulder dates — April and November still need a written kitchen | myCHEF',
       description:
-        'Maui shoulder dates are not automatic availability. Distinct from /journal/how-far-ahead-to-book.',
+        'Maui shoulder dates are not automatic availability.',
       lede:
         '/journal/how-far-ahead-to-book is the peak calendar. This blog note is April and November — quieter months that still need a Wailea kitchen in writing, not a last-minute yes.',
       photo: 'blogShoulderMaui',
       body: [
         'Shoulder months are quieter, not empty. A Wailea house in April still needs a cooktop, a count, and a written quote. We do not invent a last-minute roster because the calendar looks open.',
         'Peak months stay on /journal/how-far-ahead-to-book. Wedding-week houses stay on /wedding-week. This article is the quieter window beside them.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This article is why a shoulder night is still a written kitchen.`,
+        `This article is why a shoulder night is still a written kitchen.`,
       ],
       faqs: [
         {
@@ -1457,14 +1451,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Upcountry notes — elevation surcharge, farms only after verification.',
       title: 'Upcountry kitchen notes — elevation surcharge, verified farms | myCHEF',
       description:
-        'Short Upcountry Maui notes: published surcharge, named farms only after written verification. Distinct from /coverage and /blog/sourcing-honesty.',
+        'Short Upcountry Maui notes: published surcharge, named farms only after written verification.',
       lede:
         '/coverage is the zone map. /blog/sourcing-honesty is why we will not print a farm name we have not verified. This blog note is the elevation drive itself.',
       photo: 'dinUpcountry',
       body: [
         'Elevation and drive time. Published surcharge, quoted with the menu. Named farms only after written verification. Outdoor setups inherit a wet-weather backup.',
         'The dinner door is /upcountry. This piece is the kitchen note. Wailea stays the South Maui corridor — /wailea. This article is why the drive is a line.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This article is one Upcountry table that justifies the drive.`,
+        `This article is one Upcountry table that justifies the drive.`,
       ],
       faqs: [
         {
@@ -1489,14 +1483,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Nāpili notes — West Maui houses, never a Lahaina clone.',
       title: 'Nāpili kitchen notes — West Maui houses, never a Lahaina clone | myCHEF',
       description:
-        'Short Nāpili notes: West Maui with Kāʻanapali and Kapalua. Distinct from /lahaina, /kaanapali, and /west-maui.',
+        'Short Nāpili notes: West Maui with Kāʻanapali and Kapalua.',
       lede:
         '/kaanapali and /kapalua are the live West Maui dinner doors. /west-maui is the corridor cell. This blog note is Nāpili — never marketed as a Lahaina destination page.',
       photo: 'dinNapili',
       body: [
         'West Maui with Kāʻanapali and Kapalua — never a Lahaina destination page. Same West Maui timing rules. Villa weeks and small celebrations.',
         'The dinner door is /napili. This piece is the kitchen note. /lahaina stays its own corridor and is not copied here. Saturday West Maui arrival is planned, not assumed.',
-        `Private chef Maui (${SEARCH_VOLUMES['private chef maui']}) stays on this host’s home. This article does not steal that title.`,
       ],
       faqs: [
         {
@@ -1521,7 +1514,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Pāʻia notes — quote-only North Shore, not a doorway.',
       title: 'Pāʻia kitchen notes — quote-only North Shore, not a doorway | myCHEF',
       description:
-        'Short Pāʻia / Haiku notes: quote-only, extended drive. Distinct from /coverage and /wailea.',
+        'Short Pāʻia / Haiku notes: quote-only, extended drive.',
       lede:
         '/coverage is the zone map. /wailea is the South Maui dinner door. This blog note is Pāʻia and Haiku — quoted with the menu, not a doorway destination page.',
       photo: 'dinPaia',
@@ -1553,7 +1546,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Honokōwai notes — West Maui condos, not a Kapalua clone.',
       title: 'Honokōwai kitchen notes — West Maui condos, not a Kapalua clone | myCHEF',
       description:
-        'Short Honokōwai notes: residential strip, condo kitchens. Distinct from /kapalua, /kaanapali, and /blog/condo-load-in.',
+        'Short Honokōwai notes: residential strip, condo kitchens.',
       lede:
         '/kaanapali and /kapalua are the live dinner doors. /blog/condo-load-in is the freight elevator. This blog note is the Honokōwai strip — multi-day chef days more than one-off halos.',
       photo: 'dinHonokowai',
@@ -1585,14 +1578,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Makawao notes — Upcountry town, not the elevation cell.',
       title: 'Makawao kitchen notes — Upcountry town, not the elevation cell | myCHEF',
       description:
-        'Short Makawao notes: Upcountry town, elevation surcharge. Distinct from /blog/dining-in-upcountry.',
+        'Short Makawao notes: Upcountry town, elevation surcharge.',
       lede:
         '/blog/dining-in-upcountry is the elevation drive. This blog note is Makawao town — retreat houses and estate tables, weather that can turn on outdoor setups.',
       photo: 'dinMakawao',
       body: [
         'Upcountry town. Elevation surcharge applies. Weather can turn on outdoor setups. Retreat houses and estate tables that justify the drive.',
         'The dinner door is /makawao. This piece is the kitchen note. Named farms only after written verification. A cooktop is still required.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This article is one Makawao table.`,
+        `This article is one Makawao table.`,
       ],
       faqs: [
         {
@@ -1617,7 +1610,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Waikapū notes — central valley estates, not a resort corridor.',
       title: 'Waikapū kitchen notes — central valley estates, not a resort corridor | myCHEF',
       description:
-        'Short Waikapū notes: central valley, surcharge from Wailea/West. Distinct from /wailea.',
+        'Short Waikapū notes: central valley, surcharge from Wailea/West.',
       lede:
         '/wailea is the South Maui dinner door. This blog note is Waikapū — private estates, not visitor condos, drive time printed as a line.',
       photo: 'dinWaikapu',
@@ -1649,7 +1642,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Haleakalā notes — Kula elevation, temperature changes the chef day.',
       title: 'Haleakalā kitchen notes — Kula elevation, temperature changes the chef day | myCHEF',
       description:
-        'Short Haleakalā / Kula notes: high elevation, surcharge. Distinct from /blog/dining-in-upcountry.',
+        'Short Haleakalā / Kula notes: high elevation, surcharge.',
       lede:
         '/blog/dining-in-upcountry is the broader elevation cell. This blog note is Kula — temperature and drive both change the chef day, named farms only after verification.',
       photo: 'dinHaleakala',
@@ -1681,13 +1674,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Maui farm names — Kula and Hāna only after written verification.',
       title: 'Maui farm names — Kula and Hāna only after verification | myCHEF',
       description:
-        'Maui farm names print on the invoice only after written verification. Distinct from /blog/sourcing-honesty and /what-we-dont-do.',
+        'Maui farm names print on the invoice only after written verification.',
       lede:
         '/blog/sourcing-honesty is why most food still arrives by ship. This blog note is the farm-name rule — Kula and Hāna stay off the brochure until we have it in writing.',
       photo: 'blogFarmsMaui',
       body: [
         'A draft that names a farm without a paper trail is a brochure. We will not print a Kula grower or a Hāna citrus name until the producer is verified in writing.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This article is how a farm line lands on a Maui invoice.`,
+        `This article is how a farm line lands on a Maui invoice.`,
         'Fish is a different honesty note — /blog/fish-species. The claim list is /what-we-dont-do.',
       ],
       faqs: [
@@ -1712,13 +1705,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Maui fish names — the species on the Wailea invoice, not a guess.',
       title: 'Maui fish names — the species on the Wailea invoice | myCHEF',
       description:
-        'Maui fish is named as the species on the invoice. Distinct from /blog/sourcing-honesty and /blog/named-farms.',
+        'Maui fish is named as the species on the invoice.',
       lede:
         '/blog/sourcing-honesty is ship versus farm. /blog/named-farms is produce. This blog note is the fish line — the species we actually bought, not a brochure name.',
       photo: 'blogFishMaui',
       body: [
         'The Wailea invoice names the fish we purchased that morning. We will not print a species we did not buy, and we will not dress a grocery-case fillet as a pier story.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This article is how a fish line lands on a Maui invoice.`,
+        `This article is how a fish line lands on a Maui invoice.`,
         'Produce names are a different note — /blog/named-farms. The claim list is /what-we-dont-do.',
       ],
       faqs: [
@@ -1743,13 +1736,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Maui coffee names — Wailea invoices still follow origin law.',
       title: 'Maui coffee names — Wailea invoices still follow origin law | myCHEF',
       description:
-        'Maui coffee names on the invoice follow origin law even off-island. Distinct from /blog/named-farms and /blog/sourcing-honesty.',
+        'Maui coffee names on the invoice follow origin law even off-island.',
       lede:
         '/blog/named-farms is produce. /blog/sourcing-honesty is ship versus farm. This blog note is the coffee line on a Wailea invoice — a documented lot, not a Kona brochure.',
       photo: 'blogCoffeeMaui',
       body: [
         'A Wailea menu that prints a coffee name without a lot is a brochure. Origin law still governs even when we cook on Maui. Unverified coffee is coffee.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This article is how a coffee line lands on a Maui invoice.`,
+        `This article is how a coffee line lands on a Maui invoice.`,
         'Produce names are /blog/named-farms. Peak months are a different note — /blog/peak-season.',
       ],
       faqs: [
@@ -1774,13 +1767,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Maui peak months — Wailea and wedding-week houses fill first.',
       title: 'Maui December through March — Wailea weeks fill first | myCHEF',
       description:
-        'Maui December–March: Wailea and wedding-week houses fill first. Distinct from /journal/how-far-ahead-to-book, /wedding-week, and /blog/shoulder-season.',
+        'Maui December–March: Wailea and wedding-week houses fill first.',
       lede:
         '/journal/how-far-ahead-to-book is the notice window. /wedding-week is the SKU stack. /blog/shoulder-season is April and November. This blog note is which Maui weeks actually compress.',
       photo: 'blogPeakMaui',
       body: [
         'December through March on this island is not a generic Hawaiʻi peak essay. Wailea weeks move first. Saturday West Maui traffic still lives on /west-maui. Wedding-week houses are a different SKU — /wedding-week.',
-        `Maui catering (${SEARCH_VOLUMES['maui catering']}) stays on /catering. This article is the calendar, not a scarcity stunt.`,
+        `This article is the calendar, not a scarcity stunt.`,
         'How far ahead to send the form is /journal/how-far-ahead-to-book. April and November are /blog/shoulder-season.',
       ],
       faqs: [
@@ -1805,13 +1798,12 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Maui has no star ratings yet. We will not invent them.',
       title: 'Why Maui has no star ratings yet — zero guest reviews | myCHEF',
       description:
-        'Why Maui has no Hawaiʻi guest reviews yet: they publish after verified events. Distinct from /trust and /what-we-dont-do.',
+        'Why Maui has no Hawaiʻi guest reviews yet: they publish after verified events.',
       lede:
         '/what-we-dont-do is the claim list. /trust is the Maui proof register. This blog note is why the review count is zero — not a Wailea five-star page we wrote in-house.',
       photo: 'blogReviewsMaui',
       body: [
         'Hawaiʻi guest reviews on this host: none yet. They go up after verified events — never bought, never written here. Proof today is the rate card, the sample menu, cleanup, and a written quote.',
-        `Private chef Maui (${SEARCH_VOLUMES['private chef maui']}) stays on this host’s home. This article does not steal that title.`,
         'The claim list is /what-we-dont-do. The register is /trust. This URL is the short why.',
       ],
       faqs: [
@@ -1839,12 +1831,12 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Princeville notes — inquiry, North Shore estates, cooktop required.',
       title: 'Princeville kitchen notes — inquiry, North Shore estates | myCHEF',
       description:
-        'Short Princeville notes at inquiry: North Shore estates, cooktops. Distinct from /princeville.',
+        'Short Princeville notes at inquiry: North Shore estates, cooktops.',
       lede:
         '/princeville is the dinner door at inquiry. This blog note is the estate kitchen — when we can staff, not a fake roster.',
       photo: 'dinPrinceville',
       body: [
-        `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) stays on this host’s home. This article does not steal that title. Inquiry stage.`,
+        `Inquiry stage.`,
         'North Shore estate inventory. Surf-season winters book early. Hotel suites without a cooktop are declined even at inquiry.',
         'A band is not a Book-now button. Send the address on /quote. We write back with what we can staff.',
       ],
@@ -1870,12 +1862,12 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Poipu notes — South Shore inquiry tables, shorter drive.',
       title: 'Poipu kitchen notes — South Shore inquiry tables | myCHEF',
       description:
-        'Short Poʻipū notes at inquiry: South Shore kitchens, shorter drive from Līhuʻe. Distinct from /poipu.',
+        'Short Poʻipū notes at inquiry: South Shore kitchens, shorter drive from Līhuʻe.',
       lede:
         '/poipu is the dinner door at inquiry. This blog note is the South Shore kitchen — sunnier, closer to staging, still not a Book-now button.',
       photo: 'dinPoipu',
       body: [
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is one South Shore inquiry table.`,
+        `This article is one South Shore inquiry table.`,
         'Sunnier than the North. Shorter drive from Līhuʻe. Same honesty: a cooktop, a written draft, inquiry until we can staff.',
         'Open /poipu for the corridor page. Open /south-shore for the corridor cell.',
       ],
@@ -1901,13 +1893,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Hanalei notes — bridge weather on the draft, not the night.',
       title: 'Hanalei kitchen notes — bridge weather on the draft | myCHEF',
       description:
-        'Short Hanalei notes at inquiry: bridge weather, 72-hour window. Distinct from /hanalei and /hanalei-bridge.',
+        'Short Hanalei notes at inquiry: bridge weather, 72-hour window.',
       lede:
         '/hanalei is the dinner door. /hanalei-bridge is the weather clause. This blog note is why that clause is on the draft before anyone shops.',
       photo: 'dinHanalei',
       body: [
         'North Shore town. Weather and road reality published up front. Far-North events inherit the bridge clause — 72-hour notice. Reschedule rather than forfeit.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is one Hanalei inquiry table.`,
+        `This article is one Hanalei inquiry table.`,
         'A closed bridge moves the night; it does not eat the deposit. Open /hanalei-bridge for the full clause.',
       ],
       faqs: [
@@ -1932,7 +1924,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kapaa notes — east-side inquiry tables, not a shore clone.',
       title: 'Kapaa kitchen notes — east-side inquiry tables | myCHEF',
       description:
-        'Short Kapaʻa notes at inquiry: east-side households, lower priority than the two shores. Distinct from /kapaa.',
+        'Short Kapaʻa notes at inquiry: east-side households, lower priority than the two shores.',
       lede:
         '/kapaa is the dinner door at inquiry. This blog note is the east-side house — not a Princeville copy, not a Poʻipū copy.',
       photo: 'dinKapaa',
@@ -1963,13 +1955,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai grocery line — both shores, billed at cost when we staff.',
       title: 'Kauai groceries billed at cost — inquiry receipts | myCHEF',
       description:
-        'Kauai groceries print at cost with receipts when we can staff. Distinct from /pricing and /journal/what-is-included.',
+        'Kauai groceries print at cost with receipts when we can staff.',
       lede:
         '/pricing is the tariff. /journal/what-is-included is the written split. This blog note is the grocery line on an inquiry quote — billed at cost, never a hidden markup.',
       photo: 'blogGroceryKauai',
       body: [
         'When we can staff, we shop the day of service. Groceries print at cost with receipts. They are not swallowed by the band on a Princeville or Poʻipū night.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is one inquiry shop, itemised.`,
+        `This article is one inquiry shop, itemised.`,
         'A closed Hanalei bridge can move the shop as well as the night — /hanalei-bridge. Alcohol is a different line — /blog/wine-and-alcohol.',
       ],
       faqs: [
@@ -1994,14 +1986,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai wine and spirits — inquiry pours as their own line.',
       title: 'Kauai wine and spirits — inquiry pours as their own line | myCHEF',
       description:
-        'Kauai wine, beer, and spirits never hide inside the dinner band. Distinct from /bar and /private-chef.',
+        'Kauai wine, beer, and spirits never hide inside the dinner band.',
       lede:
         '/bar is the bartender add-on. /mobile-bar is the 4-hour package. This blog note is the bottle line on an inquiry quote.',
       photo: 'blogWineKauai',
       body: [
         'Bring your own, or we quote a separate pour when we can staff. Wine, beer, and spirits never hide inside the band on a Princeville night.',
         'A bartender is /staffing/bartenders or /bar. This piece is the alcohol line, not the person pouring it. Inquiry stage.',
-        `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) stays on this host’s home. This article does not steal that title.`,
       ],
       faqs: [
         {
@@ -2025,7 +2016,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai outdoor tables get a covered backup — and the bridge clause.',
       title: 'Kauai outdoor tables get a covered backup in writing | myCHEF',
       description:
-        'Kauai outdoor tables get a written wet-weather backup. Far-North inherits the bridge clause. Distinct from /hanalei-bridge and /coverage.',
+        'Kauai outdoor tables get a written wet-weather backup. Far-North inherits the bridge clause.',
       lede:
         '/coverage is the zone map. /hanalei-bridge is the 72-hour clause. This blog note is the covered room we name before anyone sets an estate table.',
       photo: 'blogWeatherKauai',
@@ -2056,14 +2047,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai sourcing — most food still arrives by ship. We say so.',
       title: 'Kauai sourcing honesty — most food still arrives by ship | myCHEF',
       description:
-        'Kauai sourcing honesty at inquiry: Hawaiʻi still imports most of its food. Named farms only after written verification. Distinct from /what-we-dont-do.',
+        'Kauai sourcing honesty at inquiry: Hawaiʻi still imports most of its food. Named farms only after written verification.',
       lede:
         '/what-we-dont-do is the claim list. /menus is the process. This blog note is why an inquiry draft will not print a farm name we have not verified.',
       photo: 'blogSourceKauai',
       body: [
         'Hawaiʻi still imports most of its food. We cook what the shop and the boat actually hold that day — when we can staff. We do not invent a “farm-to-table” brand for Princeville.',
         'Named farms only after written verification. Fish is named as food, not décor. A theatrical luau menu is declined.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is how a Kauai inquiry draft stays honest.`,
+        `This article is how a Kauai inquiry draft stays honest.`,
       ],
       faqs: [
         {
@@ -2087,14 +2078,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai cleanup — inquiry kitchens left cleaner than we found them.',
       title: 'Kauai cleanup — inquiry kitchens left cleaner than we found them | myCHEF',
       description:
-        'Kauai cleanup standard at inquiry: shop, cook, serve, leave the kitchen cleaner. Distinct from /private-chef and /journal/what-is-included.',
+        'Kauai cleanup standard at inquiry: shop, cook, serve, leave the kitchen cleaner.',
       lede:
         '/private-chef is what a night includes — when we can staff. This blog note is the last hour in a Princeville or Poʻipū kitchen, left cleaner than we found it.',
       photo: 'blogCleanupKauai',
       body: [
         'Cleanup is in. We do not leave an inquiry kitchen as we found it. That is the standard, not an add-on. Inquiry until we can staff.',
         'Rentals and venue fees still print as their own lines. Cleanup is not a rental. Open /journal/what-is-included for the split.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is one dinner’s last hour — at inquiry.`,
+        `This article is one dinner’s last hour — at inquiry.`,
       ],
       faqs: [
         {
@@ -2118,7 +2109,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai condo load-in — inquiry towers, quiet hours in writing.',
       title: 'Kauai condo load-in — inquiry towers, quiet hours in writing | myCHEF',
       description:
-        'Kauai condo load-in at inquiry: freight elevators, COIs, quiet hours. Distinct from /poipu and /blog/dining-in-poipu.',
+        'Kauai condo load-in at inquiry: freight elevators, COIs, quiet hours.',
       lede:
         '/poipu is the dinner door at inquiry. /blog/dining-in-poipu is the cooktop note. This blog note is the load-in — written before anyone rolls a kit through a South Shore tower.',
       photo: 'blogCondoKauai',
@@ -2149,14 +2140,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai family reunions — inquiry estates, not a ballroom.',
       title: 'Kauai family reunions — inquiry estates, not a ballroom | myCHEF',
       description:
-        'Kauai family reunions in estates we can actually staff. Distinct from /events, /guest-counts, and /wedding-week.',
+        'Kauai family reunions in estates we can actually staff.',
       lede:
         '/events is the occasion door at inquiry. /guest-counts is the honesty page. This blog note is a family week in a Princeville or Poʻipū house — not a resort ballroom.',
       photo: 'blogReunionKauai',
       body: [
         'Dinners 2–15, receptions about 10–75. Larger formats are quoted, not promised. Inquiry until we can staff. Resort ballrooms are not our product.',
         'Kids’ plates are planned with the adults’ menu — /kids-menus. Multi-day weeks sit on /vacation-chef. Far-North weeks inherit /hanalei-bridge.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is one family table in the house — at inquiry.`,
+        `This article is one family table in the house — at inquiry.`,
       ],
       faqs: [
         {
@@ -2180,14 +2171,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai production meals — inquiry estates, not a craft-service tent.',
       title: 'Kauai production meals — inquiry estates, not a craft-service tent | myCHEF',
       description:
-        'Kauai crew and production meals in estates with kitchens, at inquiry. Distinct from /catering.',
+        'Kauai crew and production meals in estates with kitchens, at inquiry.',
       lede:
         '/catering is the staffed-room product at inquiry. This blog note is crew meals in a Princeville estate — identical plates, a kitchen, not a tent.',
       photo: 'blogShootKauai',
       body: [
         'Film and stills crews in estates are the same staffed-room product as a family event — when we can staff. We do not staff craft-service tents.',
         'Identical plates, one dietary note on the quote — /dietary. Guest counts we staff stay published — /guest-counts. A band is not a Book-now button.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is production food in an inquiry kitchen.`,
+        `This article is production food in an inquiry kitchen.`,
       ],
       faqs: [
         {
@@ -2211,14 +2202,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai proposal dinners — inquiry tables for two, not a restaurant hold.',
       title: 'Kauai proposal dinners — inquiry tables for two, not a restaurant hold | myCHEF',
       description:
-        'Kauai proposal dinners in an estate kitchen, at inquiry. Distinct from /honeymoon-dinners and /fine-dining/romantic-dinner.',
+        'Kauai proposal dinners in an estate kitchen, at inquiry.',
       lede:
         '/honeymoon-dinners is two seats after the wedding — when we can staff. /fine-dining/romantic-dinner is the course stack. This blog note is the ask — on a Princeville terrace, not a restaurant hold.',
       photo: 'blogProposalKauai',
       body: [
         'A proposal is two seats in a kitchen we can actually staff. Inquiry until we can. We do not hold a restaurant table. We do not stage a public ask on a resort lawn.',
         'Honeymoon nights sit on /honeymoon-dinners. The romantic-dinner SKU is /fine-dining/romantic-dinner. This article is the shorter proposal note beside them — at inquiry.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is one table for two in the house — when we can staff.`,
+        `This article is one table for two in the house — when we can staff.`,
       ],
       faqs: [
         {
@@ -2242,7 +2233,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai estate logistics — inquiry gates, generators, and the driveway.',
       title: 'Kauai estate logistics — inquiry gates, generators, and the driveway | myCHEF',
       description:
-        'Kauai estate logistics at inquiry: driveways, generators, gates. Distinct from /blog/condo-load-in and /coverage.',
+        'Kauai estate logistics at inquiry: driveways, generators, gates.',
       lede:
         '/blog/condo-load-in is the tower. /coverage is the zone map. This blog note is the house — the Princeville driveway, the generator, the gate code in the inquiry reply.',
       photo: 'blogEstateKauai',
@@ -2273,14 +2264,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai shoulder dates — inquiry months still need a written kitchen.',
       title: 'Kauai shoulder dates — inquiry months still need a written kitchen | myCHEF',
       description:
-        'Kauai shoulder dates are not automatic availability. Distinct from /journal/how-far-ahead-to-book.',
+        'Kauai shoulder dates are not automatic availability.',
       lede:
         '/journal/how-far-ahead-to-book is the peak calendar at inquiry. This blog note is the quieter months — they still need a Princeville kitchen in writing, not a last-minute yes.',
       photo: 'blogShoulderKauai',
       body: [
         'Shoulder months are quieter, not empty. A Princeville house in April still needs a cooktop, a count, and an inquiry reply. We do not invent a last-minute roster because the calendar looks open.',
         'Peak months stay on /journal/how-far-ahead-to-book. Far-North weather stays on /hanalei-bridge. This article is the quieter window beside them — at inquiry.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is why a shoulder night is still a written kitchen.`,
+        `This article is why a shoulder night is still a written kitchen.`,
       ],
       faqs: [
         {
@@ -2304,14 +2295,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Hāʻena notes — Far-North inquiry, 72-hour road clause.',
       title: 'Hāʻena kitchen notes — Far-North inquiry, 72-hour road clause | myCHEF',
       description:
-        'Short Hāʻena notes at inquiry: quote-only Far North, 72-hour notice. Distinct from /hanalei and /hanalei-bridge.',
+        'Short Hāʻena notes at inquiry: quote-only Far North, 72-hour notice.',
       lede:
         '/hanalei is the nearest live dinner door at inquiry. /hanalei-bridge is the weather clause. This blog note is Hāʻena — planned events only, never same-day.',
       photo: 'dinHaena',
       body: [
         'Far North. Quote-only. Seventy-two-hour notice. Road closures reschedule rather than forfeit. Inquiry until we can staff.',
         'The dinner door is /haena. This piece is the kitchen note. A closed bridge moves the night; it does not eat the deposit. Open /hanalei-bridge for the full clause.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is one Far-North inquiry table.`,
+        `This article is one Far-North inquiry table.`,
       ],
       faqs: [
         {
@@ -2336,7 +2327,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kōloa notes — South Shore town, inquiry, not a Poʻipū clone.',
       title: 'Kōloa kitchen notes — South Shore town, inquiry, not a Poʻipū clone | myCHEF',
       description:
-        'Short Kōloa notes at inquiry: South Shore town adjacent to Poʻipū. Distinct from /poipu and /blog/dining-in-poipu.',
+        'Short Kōloa notes at inquiry: South Shore town adjacent to Poʻipū.',
       lede:
         '/poipu is the dinner door at inquiry. This blog note is Kōloa town — retreat houses and small weddings to about 75, not a Poʻipū copy.',
       photo: 'dinKoloa',
@@ -2368,7 +2359,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Līhuʻe notes — staging town, not the villa product.',
       title: 'Līhuʻe kitchen notes — staging town, not the villa product | myCHEF',
       description:
-        'Short Līhuʻe notes at inquiry: airport-adjacent households, not villa inventory. Distinct from /coverage.',
+        'Short Līhuʻe notes at inquiry: airport-adjacent households, not villa inventory.',
       lede:
         '/coverage is the zone map at inquiry. This blog note is Līhuʻe — the planned base, in-town households and staging, not the hero villa product.',
       photo: 'dinLihue',
@@ -2400,14 +2391,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kalāheo notes — south-west houses, inquiry.',
       title: 'Kalāheo kitchen notes — south-west houses, inquiry | myCHEF',
       description:
-        'Short Kalāheo notes at inquiry: south-west residential tables. Distinct from /poipu.',
+        'Short Kalāheo notes at inquiry: south-west residential tables.',
       lede:
         '/poipu is the South Shore dinner door at inquiry. This blog note is Kalāheo — between Līhuʻe and the South Shore villas, quoted with the menu.',
       photo: 'dinKalaheo',
       body: [
         'South-west residential. Between Līhuʻe and the South Shore villas. Surcharge, quoted with the menu. Inquiry until we can staff.',
         'The dinner door is /kalaheo. This piece is the kitchen note. Residential tables, not visitor-villa inventory. A cooktop is still required.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is one south-west inquiry table.`,
+        `This article is one south-west inquiry table.`,
       ],
       faqs: [
         {
@@ -2432,14 +2423,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai Waimea notes — west-side distance from Līhuʻe, inquiry.',
       title: 'Kauai Waimea kitchen notes — west-side distance from Līhuʻe, inquiry | myCHEF',
       description:
-        'Short Kauai Waimea notes at inquiry: west-side distance, extended surcharge. Distinct from Hawaiʻi Island /blog/dining-in-waimea.',
+        'Short Kauai Waimea notes at inquiry: west-side distance, extended surcharge.',
       lede:
         '/coverage is the zone map at inquiry. This blog note is west Kauaʻi Waimea — distance from Līhuʻe is the story, not Kamuela ranch country.',
       photo: 'dinKauaiWaimea',
       body: [
         'West side. Distance from Līhuʻe is the story. Extended surcharge. Advance notice. West-side estates. Inquiry until we can staff.',
         'The dinner door is /waimea on this host. This piece is the kitchen note. This is not the Hawaiʻi Island ranch note. A cooktop is still required.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is one west-side inquiry table.`,
+        `This article is one west-side inquiry table.`,
       ],
       faqs: [
         {
@@ -2464,7 +2455,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Hanapēpē notes — west-side town houses, inquiry.',
       title: 'Hanapēpē kitchen notes — west-side town houses, inquiry | myCHEF',
       description:
-        'Short Hanapēpē notes at inquiry: west-side town, not a visitor-villa cluster. Distinct from /blog/dining-in-waimea on this host.',
+        'Short Hanapēpē notes at inquiry: west-side town, not a visitor-villa cluster.',
       lede:
         'This blog note is Hanapēpē — a west-side town, private houses, quoted surcharge. Not a visitor-villa cluster. Inquiry until we can staff.',
       photo: 'dinHanapepe',
@@ -2496,14 +2487,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Anahola notes — east-north coast, quieter than Kapaʻa.',
       title: 'Anahola kitchen notes — east-north coast, quieter than Kapaʻa | myCHEF',
       description:
-        'Short Anahola notes at inquiry: quieter than Kapaʻa, still a drive. Distinct from /kapaa.',
+        'Short Anahola notes at inquiry: quieter than Kapaʻa, still a drive.',
       lede:
         '/kapaa is the east-side dinner door at inquiry. This blog note is Anahola — quieter coast, surcharge, household dinners when we can staff.',
       photo: 'dinAnahola',
       body: [
         'East-north coast. Quieter than Kapaʻa, still a drive from Līhuʻe staging. Surcharge at launch, quoted with the menu. Household dinners. Inquiry until we can staff.',
         'The dinner door is /anahola. This piece is the kitchen note. /kapaa stays the east-side corridor. A cooktop is still required.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is one east-north inquiry table.`,
+        `This article is one east-north inquiry table.`,
       ],
       faqs: [
         {
@@ -2528,7 +2519,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'ʻEleʻele notes — between Kalāheo and the west side, inquiry.',
       title: 'ʻEleʻele kitchen notes — between Kalāheo and the west side, inquiry | myCHEF',
       description:
-        'Short ʻEleʻele notes at inquiry: south-west residential. Distinct from /blog/dining-in-kalaheo.',
+        'Short ʻEleʻele notes at inquiry: south-west residential.',
       lede:
         '/blog/dining-in-kalaheo is the south-west town note. This blog note is ʻEleʻele — further toward the west side, surcharge, advance notice.',
       photo: 'dinEleele',
@@ -2560,13 +2551,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai farm names — Kīlauea and Kōloa only after written verification.',
       title: 'Kauai farm names — Kīlauea and Kōloa only after verification | myCHEF',
       description:
-        'Kauai farm names print on an inquiry invoice only after written verification. Distinct from /blog/sourcing-honesty and /what-we-dont-do.',
+        'Kauai farm names print on an inquiry invoice only after written verification.',
       lede:
         '/blog/sourcing-honesty is why most food still arrives by ship. This blog note is the farm-name rule at inquiry — Kīlauea and Kōloa stay off the brochure until we have it in writing.',
       photo: 'blogFarmsKauai',
       body: [
         'A draft that names a farm without a paper trail is a brochure. We will not print a Kīlauea grower or a Kōloa citrus name until the producer is verified in writing. Inquiry until we can staff.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is how a farm line lands on a Kauai inquiry invoice.`,
+        `This article is how a farm line lands on a Kauai inquiry invoice.`,
         'Fish is a different honesty note — /blog/fish-species. The claim list is /what-we-dont-do.',
       ],
       faqs: [
@@ -2591,13 +2582,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai fish names — the species on the inquiry invoice, not a guess.',
       title: 'Kauai fish names — the species on the inquiry invoice | myCHEF',
       description:
-        'Kauai fish is named as the species on the inquiry invoice. Distinct from /blog/sourcing-honesty and /blog/named-farms.',
+        'Kauai fish is named as the species on the inquiry invoice.',
       lede:
         '/blog/sourcing-honesty is ship versus farm. /blog/named-farms is produce. This blog note is the fish line at inquiry — the species we actually bought, not a brochure name.',
       photo: 'blogFishKauai',
       body: [
         'The inquiry invoice names the fish we purchased that morning when we can staff. We will not print a species we did not buy, and we will not dress a grocery-case fillet as a pier story.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is how a fish line lands on a Kauai inquiry invoice.`,
+        `This article is how a fish line lands on a Kauai inquiry invoice.`,
         'Produce names are a different note — /blog/named-farms. The claim list is /what-we-dont-do.',
       ],
       faqs: [
@@ -2622,13 +2613,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai coffee names — inquiry invoices still follow origin law.',
       title: 'Kauai coffee names — inquiry invoices still follow origin law | myCHEF',
       description:
-        'Kauai coffee names on an inquiry invoice follow origin law. Distinct from /blog/named-farms and /blog/sourcing-honesty.',
+        'Kauai coffee names on an inquiry invoice follow origin law.',
       lede:
         '/blog/named-farms is produce. /blog/sourcing-honesty is ship versus farm. This blog note is the coffee line on a Kauai inquiry invoice — a documented lot, not a Kona brochure.',
       photo: 'blogCoffeeKauai',
       body: [
         'A Princeville draft that prints a coffee name without a lot is a brochure. Origin law still governs at inquiry. Unverified coffee is coffee. Inquiry until we can staff.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is how a coffee line lands on a Kauai inquiry invoice.`,
+        `This article is how a coffee line lands on a Kauai inquiry invoice.`,
         'Produce names are /blog/named-farms. Peak months are a different note — /blog/peak-season.',
       ],
       faqs: [
@@ -2653,13 +2644,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai peak months — both shores fill at inquiry, not a Book-now calendar.',
       title: 'Kauai December through March — both shores fill at inquiry | myCHEF',
       description:
-        'Kauai December–March at inquiry: both shores fill. Distinct from /journal/how-far-ahead-to-book, /hanalei-bridge, and /blog/shoulder-season.',
+        'Kauai December–March at inquiry: both shores fill.',
       lede:
         '/journal/how-far-ahead-to-book is the notice window. /hanalei-bridge is weather. /blog/shoulder-season is the quieter months. This blog note is which Kauai weeks compress at inquiry.',
       photo: 'blogPeakKauai',
       body: [
         'December through March on this island is not a live Book-now calendar. Both shores fill at inquiry. Far-North weather is a clause — /hanalei-bridge — not a reason to invent a roster.',
-        `Kauai catering (${SEARCH_VOLUMES['kauai catering']}) stays on /catering. This article is the calendar, not a scarcity stunt.`,
+        `This article is the calendar, not a scarcity stunt.`,
         'How far ahead to enquire is /journal/how-far-ahead-to-book. Quieter months are /blog/shoulder-season.',
       ],
       faqs: [
@@ -2684,13 +2675,12 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kauai has no star ratings yet. Inquiry is not a five-star page.',
       title: 'Why Kauai has no star ratings yet — inquiry, zero reviews | myCHEF',
       description:
-        'Why Kauai has no Hawaiʻi guest reviews yet at inquiry. Distinct from /trust and /what-we-dont-do. Not a Book-now rating.',
+        'Why Kauai has no Hawaiʻi guest reviews yet at inquiry. Not a Book-now rating.',
       lede:
         '/what-we-dont-do is the claim list. /trust is the Kauai proof register at inquiry. This blog note is why the review count is zero — not a Princeville five-star page we invented.',
       photo: 'blogReviewsKauai',
       body: [
         'Hawaiʻi guest reviews on this host: none yet. Inquiry stage is not a reason to invent stars. They go up after verified events — never bought, never written here.',
-        `Private chef Kauai (${SEARCH_VOLUMES['private chef kauai']}) stays on this host’s home. This article does not steal that title.`,
         'The claim list is /what-we-dont-do. The register is /trust. A named shore is not a Book-now button.',
       ],
       faqs: [
@@ -2718,12 +2708,12 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kona notes — west-side inquiry tables, Hilo not implied.',
       title: 'Kona kitchen notes — west-side inquiry tables | myCHEF',
       description:
-        'Short Kona notes at inquiry: west-side kitchens, Ironman weeks. Distinct from /kona. East side is a different day.',
+        'Short Kona notes at inquiry: west-side kitchens, Ironman weeks. East side is a different day.',
       lede:
         '/kona is the dinner door at inquiry. This blog note is the west-side room — Hilo is never a same-day add-on.',
       photo: 'dinKona',
       body: [
-        `Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) stays a dinner door. This article does not steal that title. Inquiry, west-side first.`,
+        `Inquiry, west-side first.`,
         'Event weeks compress availability — /ironman-weeks. A cooktop is still required. A band is not a Book-now button.',
         'East side is a dedicated day — /east-side. Open /kona for the corridor page.',
       ],
@@ -2749,7 +2739,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Waimea notes — ranch elevation, still west-side first.',
       title: 'Waimea kitchen notes — ranch elevation, west-side first | myCHEF',
       description:
-        'Short Waimea / Kamuela notes at inquiry: cooler elevation, ranch houses. Distinct from /waimea.',
+        'Short Waimea / Kamuela notes at inquiry: cooler elevation, ranch houses.',
       lede:
         '/waimea is the dinner door at inquiry. This blog note is the ranch kitchen — cooler elevation, still not a Hilo day.',
       photo: 'dinWaimea',
@@ -2780,13 +2770,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Waikoloa notes — Kohala corridor inquiry, 30-minute radius.',
       title: 'Waikoloa kitchen notes — Kohala corridor inquiry | myCHEF',
       description:
-        'Short Waikoloa notes at inquiry: Kohala resort residences inside the west-side radius. Distinct from /waikoloa.',
+        'Short Waikoloa notes at inquiry: Kohala resort residences inside the west-side radius.',
       lede:
         '/waikoloa is the dinner door at inquiry. This blog note is the resort-residence kitchen inside the 30-minute corridor.',
       photo: 'dinWaikoloa',
       body: [
         'Kohala resort community. Seven resort communities share this radius — /kohala-corridor. We will not pretend the island is 4,000 square miles of same-day coverage.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This article is one Waikoloa inquiry table.`,
+        `This article is one Waikoloa inquiry table.`,
         'Villa weeks when we can staff. A cooktop is required. Open /waikoloa for the corridor page.',
       ],
       faqs: [
@@ -2811,7 +2801,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kohala notes — 30-minute west-side radius, not the mountain.',
       title: 'Kohala kitchen notes — 30-minute west-side radius | myCHEF',
       description:
-        'Short Kohala Coast notes at inquiry: west-side radius, not the summit. Distinct from /kohala and /kohala-corridor.',
+        'Short Kohala Coast notes at inquiry: west-side radius, not the summit.',
       lede:
         '/kohala is the dinner door at inquiry. This blog note is the coast kitchen — named for the corridor, not the mountain.',
       photo: 'dinKohala',
@@ -2842,13 +2832,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'West-side grocery line — Kona shop, billed at cost.',
       title: 'Hawaiʻi Island groceries billed at cost — west-side receipts | myCHEF',
       description:
-        'West-side groceries print at cost with receipts when we can staff. East side is a different day. Distinct from /pricing.',
+        'West-side groceries print at cost with receipts when we can staff. East side is a different day.',
       lede:
         '/pricing is the tariff. /journal/what-is-included is the written split. This blog note is the grocery line on a west-side inquiry quote — Hilo is never implied.',
       photo: 'blogGroceryBigisland',
       body: [
         'When we can staff, we shop the day of service on the west side. Groceries print at cost with receipts. They are not swallowed by the band on a Kona or Waikoloa night.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This article is one west-side shop, itemised.`,
+        `This article is one west-side shop, itemised.`,
         'East-side provisioning is a dedicated day — /east-side. Alcohol is a different line — /blog/wine-and-alcohol.',
       ],
       faqs: [
@@ -2873,14 +2863,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'West-side wine and spirits — Kona pours as their own line.',
       title: 'Hawaiʻi Island wine and spirits — west-side pours as their own line | myCHEF',
       description:
-        'West-side wine, beer, and spirits never hide inside the dinner band. Distinct from /bar and /private-chef.',
+        'West-side wine, beer, and spirits never hide inside the dinner band.',
       lede:
         '/bar is the bartender add-on. /mobile-bar is the 4-hour package. This blog note is the bottle line on a west-side inquiry quote.',
       photo: 'blogWineBigisland',
       body: [
         'Bring your own, or we quote a separate pour when we can staff. Wine, beer, and spirits never hide inside the band on a Kona night.',
         'A bartender is /staffing/bartenders or /bar. This piece is the alcohol line, not the person pouring it. Inquiry, west-side first.',
-        `Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) stays a dinner door. This article does not steal that title.`,
       ],
       faqs: [
         {
@@ -2904,7 +2893,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'West-side outdoor tables get a covered backup in writing.',
       title: 'Hawaiʻi Island outdoor tables get a covered backup in writing | myCHEF',
       description:
-        'West-side outdoor tables get a written wind and sun backup. East side is a different day. Distinct from /coverage.',
+        'West-side outdoor tables get a written wind and sun backup. East side is a different day.',
       lede:
         '/coverage is the zone map. /east-side is a dedicated crossing. This blog note is the covered room we name before anyone sets a Kohala lava-terrace table.',
       photo: 'blogWeatherBigisland',
@@ -2935,14 +2924,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'West-side sourcing — most food still arrives by ship. We say so.',
       title: 'Hawaiʻi Island sourcing honesty — most food still arrives by ship | myCHEF',
       description:
-        'West-side sourcing honesty: Hawaiʻi still imports most of its food. Named Kona coffee follows Act 198. Distinct from /coffee-act-198.',
+        'West-side sourcing honesty: Hawaiʻi still imports most of its food. Named Kona coffee follows Act 198.',
       lede:
         '/what-we-dont-do is the claim list. /coffee-act-198 is the origin rule. This blog note is why an inquiry draft will not print a farm name we have not verified.',
       photo: 'blogSourceBigisland',
       body: [
         'Hawaiʻi still imports most of its food. We cook what the west-side shop actually holds that day — when we can staff. We do not invent a “farm-to-table” brand for Waikoloa.',
         'Named Kona and Kaʻū coffee follow Act 198 from 2027 — /coffee-act-198. Fish is named as food, not décor.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This article is how a west-side inquiry draft stays honest.`,
+        `This article is how a west-side inquiry draft stays honest.`,
       ],
       faqs: [
         {
@@ -2966,14 +2955,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Hawaiʻi Island cleanup — west-side kitchens left cleaner than we found them.',
       title: 'Hawaiʻi Island cleanup — west-side kitchens left cleaner than we found them | myCHEF',
       description:
-        'West-side cleanup standard at inquiry: shop, cook, serve, leave the kitchen cleaner. Distinct from /private-chef and /journal/what-is-included.',
+        'West-side cleanup standard at inquiry: shop, cook, serve, leave the kitchen cleaner.',
       lede:
         '/private-chef is what a night includes — when we can staff. This blog note is the last hour in a Kona or Waikoloa kitchen, left cleaner than we found it.',
       photo: 'blogCleanupBigisland',
       body: [
         'Cleanup is in. We do not leave a west-side kitchen as we found it. That is the standard, not an add-on. Inquiry until we can staff.',
         'Rentals and venue fees still print as their own lines. Cleanup is not a rental. Open /journal/what-is-included for the split. East side is a different day — /east-side.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This article is one dinner’s last hour — at inquiry.`,
+        `This article is one dinner’s last hour — at inquiry.`,
       ],
       faqs: [
         {
@@ -2997,7 +2986,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Hawaiʻi Island condo load-in — west-side towers, quiet hours in writing.',
       title: 'Hawaiʻi Island condo load-in — west-side towers, quiet hours in writing | myCHEF',
       description:
-        'West-side condo load-in at inquiry: freight elevators, COIs, quiet hours. Distinct from /waikoloa and /blog/dining-in-waikoloa.',
+        'West-side condo load-in at inquiry: freight elevators, COIs, quiet hours.',
       lede:
         '/waikoloa is the dinner door at inquiry. /blog/dining-in-waikoloa is the cooktop note. This blog note is the load-in — written before anyone rolls a kit through a west-side tower.',
       photo: 'blogCondoBigisland',
@@ -3028,14 +3017,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Hawaiʻi Island family reunions — west-side houses, not a ballroom.',
       title: 'Hawaiʻi Island family reunions — west-side houses, not a ballroom | myCHEF',
       description:
-        'West-side family reunions in houses we can actually staff. Distinct from /events, /guest-counts, and /east-side.',
+        'West-side family reunions in houses we can actually staff.',
       lede:
         '/events is the occasion door at inquiry. /guest-counts is the honesty page. This blog note is a family week in a Kona or Waikoloa house — not a resort ballroom, not a same-day Hilo add-on.',
       photo: 'blogReunionBigisland',
       body: [
         'Dinners 2–15, receptions about 10–75. Larger formats are quoted, not promised. Inquiry until we can staff. Resort ballrooms are not our product.',
         'Kids’ plates are planned with the adults’ menu — /kids-menus. Multi-day weeks sit on /vacation-chef. Event weeks compress availability — /ironman-weeks.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This article is one family table in the house — at inquiry.`,
+        `This article is one family table in the house — at inquiry.`,
       ],
       faqs: [
         {
@@ -3059,14 +3048,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Hawaiʻi Island production meals — west-side houses, not a craft-service tent.',
       title: 'Hawaiʻi Island production meals — west-side houses, not a craft-service tent | myCHEF',
       description:
-        'West-side crew and production meals in houses with kitchens, at inquiry. Distinct from /catering and /east-side.',
+        'West-side crew and production meals in houses with kitchens, at inquiry.',
       lede:
         '/catering is the staffed-room product at inquiry. This blog note is crew meals in a Kona house — identical plates, a kitchen, not a tent on lava.',
       photo: 'blogShootBigisland',
       body: [
         'Film and stills crews in west-side houses are the same staffed-room product as a family event — when we can staff. We do not staff craft-service tents.',
         'Identical plates, one dietary note on the quote — /dietary. Guest counts we staff stay published — /guest-counts. East side is a dedicated day — /east-side.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This article is production food in a west-side kitchen — at inquiry.`,
+        `This article is production food in a west-side kitchen — at inquiry.`,
       ],
       faqs: [
         {
@@ -3090,14 +3079,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Hawaiʻi Island proposal dinners — west-side tables for two, not a restaurant hold.',
       title: 'Hawaiʻi Island proposal dinners — west-side tables for two, not a restaurant hold | myCHEF',
       description:
-        'West-side proposal dinners in a house kitchen, at inquiry. Distinct from /honeymoon-dinners and /fine-dining/romantic-dinner.',
+        'West-side proposal dinners in a house kitchen, at inquiry.',
       lede:
         '/honeymoon-dinners is two seats after the wedding — when we can staff. /fine-dining/romantic-dinner is the course stack. This blog note is the ask — on a Kohala lava terrace, not a restaurant hold.',
       photo: 'blogProposalBigisland',
       body: [
         'A proposal is two seats in a kitchen we can actually staff. Inquiry until we can. We do not hold a restaurant table. East side is a dedicated day — /east-side.',
         'Honeymoon nights sit on /honeymoon-dinners. The romantic-dinner SKU is /fine-dining/romantic-dinner. This article is the shorter proposal note beside them — at inquiry.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This article is one table for two in a west-side house — when we can staff.`,
+        `This article is one table for two in a west-side house — when we can staff.`,
       ],
       faqs: [
         {
@@ -3121,7 +3110,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Hawaiʻi Island estate logistics — west-side gates, generators, and the driveway.',
       title: 'Hawaiʻi Island estate logistics — west-side gates, generators, and the driveway | myCHEF',
       description:
-        'West-side estate logistics at inquiry: driveways, generators, gates. Distinct from /blog/condo-load-in and /coverage.',
+        'West-side estate logistics at inquiry: driveways, generators, gates.',
       lede:
         '/blog/condo-load-in is the tower. /coverage is the zone map. This blog note is the house — the Kona driveway, the generator, the gate code in the inquiry reply.',
       photo: 'blogEstateBigisland',
@@ -3152,14 +3141,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Hawaiʻi Island shoulder dates — west-side months still need a written kitchen.',
       title: 'Hawaiʻi Island shoulder dates — west-side months still need a written kitchen | myCHEF',
       description:
-        'West-side shoulder dates are not automatic availability. Distinct from /journal/how-far-ahead-to-book.',
+        'West-side shoulder dates are not automatic availability.',
       lede:
         '/journal/how-far-ahead-to-book is the peak calendar at inquiry. This blog note is the quieter months — they still need a Kona kitchen in writing, not a last-minute yes.',
       photo: 'blogShoulderBigisland',
       body: [
         'Shoulder months are quieter, not empty. A Kona house in April still needs a cooktop, a count, and an inquiry reply. We do not invent a last-minute roster because the calendar looks open.',
         'Peak months stay on /journal/how-far-ahead-to-book. Ironman weeks stay on /ironman-weeks. East side stays a dedicated day — /east-side.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This article is why a shoulder night is still a written kitchen.`,
+        `This article is why a shoulder night is still a written kitchen.`,
       ],
       faqs: [
         {
@@ -3183,14 +3172,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Hilo notes — east-side dedicated day, not a Kona add-on.',
       title: 'Hilo kitchen notes — east-side dedicated day, not a Kona add-on | myCHEF',
       description:
-        'Short Hilo notes at inquiry: quote-only east side, dedicated staffing. Distinct from /kona and /east-side.',
+        'Short Hilo notes at inquiry: quote-only east side, dedicated staffing.',
       lede:
         '/east-side is the crossing document. /kona is the west-side dinner door at inquiry. This blog note is Hilo — 2.5–3 hours from Kona, never a same-day round trip.',
       photo: 'dinHilo',
       body: [
         'East side. Quote-only. Dedicated staffing. Two and a half to three hours from Kona. Inquiry until we can staff. Never squeezed into a west-side day.',
         'The dinner door is /hilo. This piece is the kitchen note. /east-side stays the crossing rule. A cooktop is still required.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This article is one Hilo inquiry table with its own team day.`,
+        `This article is one Hilo inquiry table with its own team day.`,
       ],
       faqs: [
         {
@@ -3215,7 +3204,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Volcano notes — east-side lodges, dedicated staffing.',
       title: 'Volcano kitchen notes — east-side lodges, dedicated staffing | myCHEF',
       description:
-        'Short Volcano notes at inquiry: quote-only with Hilo, dedicated staffing. Distinct from /east-side.',
+        'Short Volcano notes at inquiry: quote-only with Hilo, dedicated staffing.',
       lede:
         '/east-side is the crossing document. This blog note is Volcano — lodge and estate dinners with their own team day, never squeezed into a Kona morning.',
       photo: 'dinVolcano',
@@ -3247,7 +3236,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Keauhou notes — south of town, still the west-side corridor.',
       title: 'Keauhou kitchen notes — south of town, still the west-side corridor | myCHEF',
       description:
-        'Short Keauhou notes at inquiry: south of Kailua-Kona, still the corridor. Distinct from /kona.',
+        'Short Keauhou notes at inquiry: south of Kailua-Kona, still the corridor.',
       lede:
         '/kona is the dinner door at inquiry. This blog note is Keauhou — south of town, still the Kona–Kohala corridor, not a Hilo add-on.',
       photo: 'dinKeauhou',
@@ -3279,14 +3268,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Hōlualoa notes — mauka of Kona, named coffee only with origin.',
       title: 'Hōlualoa kitchen notes — mauka of Kona, named coffee only with origin | myCHEF',
       description:
-        'Short Hōlualoa notes at inquiry: coffee-country elevation. Distinct from /kona and /coffee-act-198.',
+        'Short Hōlualoa notes at inquiry: coffee-country elevation.',
       lede:
         '/kona is the dinner door at inquiry. /coffee-act-198 is the origin rule. This blog note is Hōlualoa — mauka, cooler evenings, named coffee only with origin labeling.',
       photo: 'dinHolualoa',
       body: [
         'Mauka of Kailua-Kona. Coffee-country elevation, still the west-side corridor. Cooler evenings. Named coffee only with origin labeling. Inquiry until we can staff.',
         'The dinner door is /holualoa. This piece is the kitchen note. Act 198 from 2027 stays on /coffee-act-198. We do not invent a farm brand for the hillside.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This article is one mauka inquiry table.`,
+        `This article is one mauka inquiry table.`,
       ],
       faqs: [
         {
@@ -3311,7 +3300,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kailua-Kona notes — town at the south end of the corridor, inquiry.',
       title: 'Kailua-Kona kitchen notes — town at the south end of the corridor | myCHEF',
       description:
-        'Short Kailua-Kona town notes at inquiry. Distinct from /kona and /blog/dining-in-kona.',
+        'Short Kailua-Kona town notes at inquiry.',
       lede:
         '/kona is the dinner door at inquiry. /blog/dining-in-kona is the west-side room. This blog note is town itself — south end of the planned corridor, Ironman weeks compress availability.',
       photo: 'dinKailuaKona',
@@ -3343,14 +3332,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Mauna Lani notes — Kohala community, not a second island.',
       title: 'Mauna Lani kitchen notes — Kohala community, not a second island | myCHEF',
       description:
-        'Short Mauna Lani notes at inquiry: same corridor, not a separate island claim. Distinct from /waikoloa and /blog/dining-in-kohala.',
+        'Short Mauna Lani notes at inquiry: same corridor, not a separate island claim.',
       lede:
         '/waikoloa is a live dinner door at inquiry. /blog/dining-in-kohala is the 30-minute radius. This blog note is Mauna Lani — same west-side corridor, not a second island.',
       photo: 'dinMaunaLani',
       body: [
         'Kohala resort community. Same corridor, not a separate island claim. Base zone. Estate and resort-residence dinners. Inquiry until we can staff.',
         'The dinner door is /mauna-lani. This piece is the kitchen note. /kohala stays the named corridor. East side stays /east-side.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This article is one Mauna Lani inquiry table.`,
+        `This article is one Mauna Lani inquiry table.`,
       ],
       faqs: [
         {
@@ -3375,7 +3364,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Mauna Kea resort notes — the belt, not the summit.',
       title: 'Mauna Kea resort kitchen notes — the belt, not the summit | myCHEF',
       description:
-        'Short Mauna Kea resort notes at inquiry: North Kohala belt, not the mountain. Distinct from /kohala.',
+        'Short Mauna Kea resort notes at inquiry: North Kohala belt, not the mountain.',
       lede:
         '/kohala is the dinner door at inquiry. This blog note is the Mauna Kea resort community — named for the belt, not the summit. We do not cook at the peak.',
       photo: 'dinMaunaKea',
@@ -3407,14 +3396,14 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Kaʻū notes — south-side estates, named coffee follows Act 198.',
       title: 'Kaʻū kitchen notes — south-side estates, named coffee follows Act 198 | myCHEF',
       description:
-        'Short Kaʻū / South notes at inquiry: extended surcharge. Distinct from /coffee-act-198 and /blog/dining-in-holualoa.',
+        'Short Kaʻū / South notes at inquiry: extended surcharge.',
       lede:
         '/coffee-act-198 is the origin rule. /blog/dining-in-holualoa is mauka of Kona. This blog note is Kaʻū — south point direction, named coffee only with origin labeling.',
       photo: 'dinKau',
       body: [
         'South point direction. Extended surcharge, advance notice. South-side estates. Named Kaʻū coffee follows Act 198 from 2027. Inquiry until we can staff.',
         'The dinner door is /kau. This piece is the kitchen note. We do not invent a farm brand for the south. Open /coffee-act-198 for the rule.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This article is one south-side inquiry table.`,
+        `This article is one south-side inquiry table.`,
       ],
       faqs: [
         {
@@ -3439,7 +3428,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Honokaʻa notes — Hāmākua coast, named producers only after verification.',
       title: 'Honokaʻa kitchen notes — Hāmākua coast, verified producers only | myCHEF',
       description:
-        'Short Honokaʻa / Hāmākua notes at inquiry: surcharge, named producers only after verification. Distinct from /east-side.',
+        'Short Honokaʻa / Hāmākua notes at inquiry: surcharge, named producers only after verification.',
       lede:
         '/east-side is the Hilo crossing. This blog note is Honokaʻa — Hāmākua coast, surcharge, mushrooms as a sourcing story not a farm claim without verification.',
       photo: 'dinHonokaa',
@@ -3471,7 +3460,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'Puakō notes — between Waikoloa and Mauna Lani, inquiry.',
       title: 'Puakō kitchen notes — between Waikoloa and Mauna Lani, inquiry | myCHEF',
       description:
-        'Short Puakō notes at inquiry: Kohala coast residential. Distinct from /waikoloa and /blog/dining-in-mauna-lani.',
+        'Short Puakō notes at inquiry: Kohala coast residential.',
       lede:
         '/waikoloa is a live dinner door at inquiry. This blog note is Puakō — residential between Waikoloa and Mauna Lani, still inside the 30-minute corridor.',
       photo: 'dinPuako',
@@ -3503,13 +3492,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'West-side farm names — produce on the invoice, coffee follows Act 198.',
       title: 'Hawaiʻi Island farm names — produce on the invoice, coffee follows Act 198 | myCHEF',
       description:
-        'West-side farm names print on the invoice only after written verification. Named coffee follows Act 198. Distinct from /blog/sourcing-honesty and /coffee-act-198.',
+        'West-side farm names print on the invoice only after written verification. Named coffee follows Act 198.',
       lede:
         '/blog/sourcing-honesty is why most food still arrives by ship. /coffee-act-198 is the origin rule. This blog note is the farm-name rule for produce on a west-side inquiry invoice.',
       photo: 'blogFarmsBigisland',
       body: [
         'A draft that names a farm without a paper trail is a brochure. Produce prints as food until the producer is verified in writing. Named coffee follows Act 198 — that rule lives on /coffee-act-198.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This article is how a farm line lands on a west-side inquiry invoice.`,
+        `This article is how a farm line lands on a west-side inquiry invoice.`,
         'Fish is a different honesty note — /blog/fish-species. East side is a dedicated day — /east-side.',
       ],
       faqs: [
@@ -3534,13 +3523,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'West-side fish names — the species on the Kona invoice, not a guess.',
       title: 'Hawaiʻi Island fish names — the species on the west-side invoice | myCHEF',
       description:
-        'West-side fish is named as the species on the inquiry invoice. Distinct from /blog/sourcing-honesty and /blog/named-farms.',
+        'West-side fish is named as the species on the inquiry invoice.',
       lede:
         '/blog/sourcing-honesty is ship versus farm. /blog/named-farms is produce. This blog note is the fish line on a west-side inquiry invoice — the species we actually bought, not a brochure name.',
       photo: 'blogFishBigisland',
       body: [
         'The west-side invoice names the fish we purchased that morning when we can staff. We will not print a species we did not buy, and we will not dress a grocery-case fillet as a pier story.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This article is how a fish line lands on a west-side inquiry invoice.`,
+        `This article is how a fish line lands on a west-side inquiry invoice.`,
         'Produce names are a different note — /blog/named-farms. East side is a dedicated day — /east-side.',
       ],
       faqs: [
@@ -3565,13 +3554,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'West-side coffee lots — the bag we bought, not a second origin essay.',
       title: 'West-side coffee lots — the bag we bought, not a second origin essay | myCHEF',
       description:
-        'West-side coffee on the invoice is a documented lot. Distinct from /coffee-act-198 (origin rule) and /blog/named-farms (produce).',
+        'West-side coffee on the invoice is a documented lot.',
       lede:
         '/coffee-act-198 is the origin rule for named Kona and Kaʻū coffee. /blog/named-farms is produce. This blog note is the coffee line on a west-side inquiry invoice — the bag we bought, not a farm brochure.',
       photo: 'blogCoffeeBigisland',
       body: [
         'The origin rule lives on /coffee-act-198. This note is the invoice line: a documented lot, or the word coffee. We will not print a farm we do not have in writing. Inquiry until we can staff.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This article is how a coffee line lands on a west-side inquiry invoice.`,
+        `This article is how a coffee line lands on a west-side inquiry invoice.`,
         'Produce names are /blog/named-farms. Peak months are a different note — /blog/peak-season. East side is a dedicated day — /east-side.',
       ],
       faqs: [
@@ -3596,13 +3585,13 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'West-side peak months — Ironman sits on the same December–March calendar.',
       title: 'West-side December through March — Ironman sits on the same calendar | myCHEF',
       description:
-        'West-side December–March at inquiry, with Ironman on the same calendar. Distinct from /ironman-weeks, /journal/how-far-ahead-to-book, and /blog/shoulder-season.',
+        'West-side December–March at inquiry, with Ironman on the same calendar.',
       lede:
         '/ironman-weeks is the event-week essay. /journal/how-far-ahead-to-book is the notice window. This blog note is which west-side weeks compress — peak months and Ironman on one calendar, Hilo never implied.',
       photo: 'blogPeakBigisland',
       body: [
         'December through March on the west side is not a generic Hawaiʻi peak essay. Ironman week sits on the same calendar — /ironman-weeks. East side is a dedicated day — /east-side — not a Kona add-on.',
-        `Big island catering (${SEARCH_VOLUMES['big island catering']}) stays on /catering. This article is the calendar at inquiry, not a Book-now button.`,
+        `This article is the calendar at inquiry, not a Book-now button.`,
         'How far ahead to enquire is /journal/how-far-ahead-to-book. Quieter months are /blog/shoulder-season.',
       ],
       faqs: [
@@ -3627,13 +3616,12 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       h1: 'West side has no star ratings yet. We will not invent them.',
       title: 'Why the west side has no star ratings yet — zero guest reviews | myCHEF',
       description:
-        'Why west-side Hawaiʻi Island has no guest reviews yet at inquiry. Distinct from /trust, /what-we-dont-do, and /east-side.',
+        'Why west-side Hawaiʻi Island has no guest reviews yet at inquiry.',
       lede:
         '/what-we-dont-do is the claim list. /trust is the west-side proof register. This blog note is why the review count is zero — Hilo never implied, stars never invented.',
       photo: 'blogReviewsBigisland',
       body: [
         'Hawaiʻi guest reviews on this host: none yet. Inquiry stage is not a reason to invent stars. They go up after verified events — never bought, never written here. West side first.',
-        `Private chef Kona (${SEARCH_VOLUMES['private chef kona']}) stays a dinner door. This article does not steal that title.`,
         'The claim list is /what-we-dont-do. The register is /trust. East side is a dedicated day — /east-side.',
       ],
       faqs: [

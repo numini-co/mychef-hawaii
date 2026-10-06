@@ -97,7 +97,7 @@ export function LocationPlaceView({
         islandId={islandId}
         eyebrow={`${island.shortName} · Beside ${hood.name}`}
         heading="Open a related document."
-        intro="This page is the dinner door for this corridor. What’s included, the staffed room, the form, and the coverage map are their own URLs."
+        intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
           { path: '/private-chef', label: 'What’s included', detail: '/private-chef' },
