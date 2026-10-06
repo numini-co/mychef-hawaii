@@ -227,18 +227,24 @@ function publishedPriceRange(islandId: IslandId | null): string {
 }
 
 /** LocalBusiness — service-area kitchen. Published Hawaii telephone + email. No streetAddress. No AggregateRating. */
-export function localBusinessJsonLd(islandId: IslandId | null, origin: string) {
+export function localBusinessJsonLd(islandId: IslandId | null, origin: string, image?: string) {
   const areaName = islandId ? islands[islandId].name : 'US-HI';
+  const islandAreas = (islandId ? [islandId] : islandOrder).map((id) => ({
+    '@type': 'AdministrativeArea',
+    name: `${islands[id].name}, Hawaii`,
+  }));
   return {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
+    '@id': `${origin}/#business`,
     name: islandId ? `myCHEF ${islands[islandId].name}` : 'myCHEF Hawaii',
     url: origin,
+    ...(image ? { image } : {}),
     telephone: DESK_PHONE_E164,
     email: DESK_EMAIL,
     priceRange: publishedPriceRange(islandId),
-    areaServed: areaPlaces(islandId),
-    serviceType: 'Private chef',
+    areaServed: [...islandAreas, ...areaPlaces(islandId)],
+    serviceType: ['Private chef', 'Catering', 'Wedding catering', 'Bartending'],
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'sales',
@@ -250,6 +256,52 @@ export function localBusinessJsonLd(islandId: IslandId | null, origin: string) {
     parentOrganization: islandId
       ? { '@type': 'Organization', name: 'myCHEF Hawaii', url: `https://${PRODUCTION_ROOT}` }
       : { '@type': 'Organization', name: 'myCHEF' },
+  };
+}
+
+/**
+ * Paths whose views already emit their own BreadcrumbList (FAQ pages, corridor
+ * pages, estimator, in-villa services). Skip the generic one there.
+ */
+function hasOwnBreadcrumb(islandId: IslandId | null, localPath: string): boolean {
+  if (localPath === '/faq' || localPath === '/estimate') return true;
+  if (!islandId && localPath.startsWith('/in-villa-services')) return true;
+  if (islandId) {
+    const slug = /^\/([^/]+)$/.exec(localPath)?.[1];
+    if (slug && getMoneyNeighborhood(islandId, slug)) return true;
+  }
+  return false;
+}
+
+/** Short page label for breadcrumbs: the title before the first separator. */
+function crumbLabel(title: string): string {
+  return title.split(/\s[|—–-]\s/)[0]?.trim() || title;
+}
+
+/** BreadcrumbList with absolute `item` URLs: Hawaii hub → island host → page. */
+function breadcrumbJsonLd(
+  islandId: IslandId | null,
+  localPath: string,
+  title: string,
+  canonical: string,
+  host: string,
+): Record<string, unknown> | null {
+  if (hasOwnBreadcrumb(islandId, localPath)) return null;
+  if (!islandId && localPath === '/') return null;
+  const items: { name: string; item: string }[] = [
+    { name: 'myCHEF Hawaii', item: canonicalUrl('root', '/', host) },
+  ];
+  if (islandId) items.push({ name: islands[islandId].name, item: canonicalUrl(islandId, '/', host) });
+  if (localPath !== '/') items.push({ name: crumbLabel(title), item: canonical });
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((row, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: row.name,
+      item: row.item,
+    })),
   };
 }
 
@@ -473,11 +525,20 @@ export function resolveDocumentSeo(hostname: string, pathname: string, search = 
     },
   ];
 
+  const crumbs = breadcrumbJsonLd(islandId, localPath, title, canonical, host);
+  if (crumbs) jsonLd.push(crumbs);
+
   // Hub homepage emits a richer FoodService node in HomeView; skip the generic
   // LocalBusiness there to avoid a duplicate/conflicting LocalBusiness block.
   const skipHubHomeLocalBusiness = islandId === null && localPath === '/';
   if (LOCAL_BUSINESS_JSONLD.has(localPath) && !skipHubHomeLocalBusiness) {
-    jsonLd.push(localBusinessJsonLd(islandId, origin || `https://${PRODUCTION_ROOT}`));
+    jsonLd.push(
+      localBusinessJsonLd(
+        islandId,
+        origin || `https://${PRODUCTION_ROOT}`,
+        ogImageFor(islandId, origin || `https://${PRODUCTION_ROOT}`, '/'),
+      ),
+    );
   }
 
   const priced = islandId ? ISLAND_RATE_JSONLD.has(localPath) : HUB_RATE_JSONLD.has(path);
