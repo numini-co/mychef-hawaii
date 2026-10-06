@@ -1,8 +1,9 @@
 /**
  * Locked master map — island money URLs plus hub /about.
  * Neighborhood corridors are live on each island host and listed in XML
- * sitemaps (see moneyNeighborhoods). Supporting /private-chef /bar /pricing
- * /quote stay live, unadvertised. Island /vacation-chef is advertised at
+ * sitemaps (see moneyNeighborhoods). Supporting /private-chef and /bar are
+ * listed in XML sitemaps (Oct 2026: indexable service pages must be
+ * discoverable); their titles still must not compete with island homes. Island /vacation-chef is advertised at
  * support priority beside /personal-chef; hub /vacation-chef stays a picker.
  */
 
@@ -39,7 +40,7 @@ export const MASTER_MAP: readonly MasterLoc[] = [
   { host: 'bigisland', path: '/weddings' },
 ] as const;
 
-/** Supporting paths — live, not in XML sitemap, titles must not compete. */
+/** Supporting paths — titles must not compete with money URLs. */
 export const SUPPORTING_PATHS = ['/private-chef', '/bar', '/pricing', '/quote'] as const;
 
 export function masterHostName(host: MasterHost): string {

@@ -22,6 +22,8 @@ export const HUB_REQUIRED_PATHS = [
   '/private-chef-cost',
   '/vacation-chef',
   '/islands',
+  '/private-chef',
+  '/bar',
 ] as const;
 
 /** Key island routes that must appear on every island host (and on the hub urlset). */
@@ -34,6 +36,8 @@ export const ISLAND_REQUIRED_PATHS = [
   '/catering',
   '/weddings',
   '/vacation-chef',
+  '/private-chef',
+  '/bar',
 ] as const;
 
 type SitemapRow = { host: MasterHost; path: string; priority?: string };
