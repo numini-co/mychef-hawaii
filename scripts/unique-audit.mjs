@@ -2181,6 +2181,98 @@ if (!/island=\{islandId \?\? 'root'\}[\s\S]{0,80}path="\/pricing"/.test(footerSr
 if (!/island=\{islandId \?\? 'root'\}[\s\S]{0,80}path="\/legal"/.test(footerSrc)) {
   errors.push('island footer Legal must stay on the current host');
 }
+if (/Live dinner doors/.test(footerSrc)) {
+  errors.push('hub footer still says Live dinner doors');
+}
+if (!/Book a dinner by island/.test(footerSrc)) {
+  errors.push('hub footer lost the buyer label Book a dinner by island');
+}
+if (/hub H1|this hub title/.test(hubDirSrc)) {
+  errors.push('hub directories still leak hub H1 or hub-title jargon');
+}
+
+{
+  const costAt = hubDirSrc.indexOf('\n  privateChefCost: {');
+  const costNext = hubDirSrc.indexOf('\n  mealPrep: {', costAt);
+  const costChunk = costAt < 0 ? '' : hubDirSrc.slice(costAt, costNext);
+  const costPairs = faqPairs(costChunk);
+  if (costPairs.length < 8) {
+    errors.push(`hub/private-chef-cost FAQ expected ≥8 questions, found ${costPairs.length}`);
+  }
+  if (new Set(costPairs.map((p) => p.q)).size !== costPairs.length) {
+    errors.push('hub/private-chef-cost FAQ questions are not unique');
+  }
+  const costBlob = costPairs.map((p) => `${p.q} ${p.a}`).join('\n');
+  if (/hub H1|this hub title|this hub show/.test(costBlob)) {
+    errors.push('hub/private-chef-cost FAQ still leaks site-internal jargon');
+  }
+  if (!/Do you show star ratings or guest reviews\?/.test(costBlob)) {
+    errors.push('hub/private-chef-cost FAQ lost the buyer reviews question');
+  }
+  if (/AggregateRating|world-class|unforgettable|indulge|culinary journey/i.test(costBlob)) {
+    errors.push('hub/private-chef-cost FAQ used banned schema or fluff');
+  }
+  if (/tel:\+971|\+971/.test(costBlob)) errors.push('hub/private-chef-cost FAQ introduced +971');
+  if (!/quotes@mychef-hawaii\.com/.test(costBlob) || !/\+1 808 468 7748/.test(costBlob) || !/wa\.me\/18084687748/.test(costBlob)) {
+    errors.push('hub/private-chef-cost FAQ missing Hawaii desk');
+  }
+  if (!/20%/.test(costBlob) || !/4\.712%/.test(costBlob) || !/50%/.test(costBlob) || !/gratuity/i.test(costBlob)) {
+    errors.push('hub/private-chef-cost FAQ missing 20% service, GET, 50% deposit, or gratuity');
+  }
+  const costDesc = (costChunk.match(/description:\s*\n\s*'([^']+)'/) || [])[1] || '';
+  if (costDesc.length < 120 || costDesc.length > 155) {
+    errors.push(`hub/private-chef-cost meta description is ${costDesc.length} chars (need 120–155)`);
+  }
+}
+
+{
+  function cateringFaqChunk(src, name, nextName) {
+    const at = src.indexOf(`const ${name}`);
+    const next = src.indexOf(`const ${nextName}`, at + 1);
+    return at < 0 || next < 0 ? '' : src.slice(at, next);
+  }
+  const mauiCaterPairs = faqPairs(cateringFaqChunk(longCateringSrc, 'mauiFaqs', 'kauaiSections'));
+  const kauaiCaterPairs = faqPairs(cateringFaqChunk(longCateringSrc, 'kauaiFaqs', 'bigislandSections'));
+  if (mauiCaterPairs.length < 8) {
+    errors.push(`maui/catering FAQ expected ≥8 questions, found ${mauiCaterPairs.length}`);
+  }
+  if (kauaiCaterPairs.length < 8) {
+    errors.push(`kauai/catering FAQ expected ≥8 questions, found ${kauaiCaterPairs.length}`);
+  }
+  const mauiMenu = mauiCaterPairs.find((p) => p.q === 'What’s on a Maui catering menu?');
+  if (!mauiMenu) errors.push('maui/catering missing What’s on a Maui catering menu?');
+  else if (!/root:\/menus/.test(mauiMenu.a) || !/\/pricing/.test(mauiMenu.a)) {
+    errors.push('maui/catering menu FAQ must link to hub menus and Maui pricing');
+  }
+  const kauaiRoute = kauaiCaterPairs.find((p) => /Dinner for 2–12/.test(p.q));
+  if (!kauaiRoute) errors.push('kauai/catering missing the 2–12 versus catering FAQ');
+  else if (!/private chef on Kauaʻi/.test(kauaiRoute.a) || !/\/quote/.test(kauaiRoute.a)) {
+    errors.push('kauai/catering small-dinner FAQ must link up to private chef on Kauaʻi and the inquiry form');
+  }
+  const mauiOffer = cateringSrc.slice(cateringSrc.indexOf('\n  maui: {'), cateringSrc.indexOf('\n  kauai: {'));
+  const mauiTitle = (mauiOffer.match(/title:\s*'([^']+)'/) || [])[1] || '';
+  const mauiDescription = (mauiOffer.match(/description:\s*\n\s*'([^']+)'/) || [])[1] || '';
+  if (mauiTitle.length > 60) errors.push(`Maui /catering title is ${mauiTitle.length} chars (max 60)`);
+  if (!/menu/i.test(mauiTitle)) errors.push('Maui /catering title dropped Menu');
+  if (!/maui catering/i.test(mauiTitle)) errors.push('Maui /catering title no longer owns maui catering');
+  if (mauiDescription.length > 155) {
+    errors.push(`Maui /catering description is ${mauiDescription.length} chars (max 155)`);
+  }
+  if (!/maui catering menu/i.test(mauiDescription) || !/buffet/i.test(mauiDescription) || !/plated/i.test(mauiDescription)) {
+    errors.push('Maui /catering description dropped menus, buffet, or plated');
+  }
+  if (!/10–75/.test(mauiDescription)) errors.push('Maui /catering description dropped 10–75 guests');
+  const kauaiOffer = cateringSrc.slice(cateringSrc.indexOf('\n  kauai: {'), cateringSrc.indexOf('\n  bigisland: {'));
+  const kauaiTitle = (kauaiOffer.match(/title:\s*'([^']+)'/) || [])[1] || '';
+  const kauaiH1 = (kauaiOffer.match(/h1:\s*\n?\s*'([^']+)'/) || [])[1] || '';
+  const kauaiDescription = (kauaiOffer.match(/description:\s*\n\s*'([^']+)'/) || [])[1] || '';
+  if (/private chef/i.test(`${kauaiTitle}\n${kauaiH1}\n${kauaiDescription}`)) {
+    errors.push('Kauai /catering title, H1, or meta contains private chef');
+  }
+}
+if (!/Oʻahu catering menus/.test(cateringSrc) || !/Maui catering menus/.test(cateringSrc) || !/Kauaʻi catering menus/.test(cateringSrc) || !/Big Island catering menus/.test(cateringSrc)) {
+  errors.push('hub catering menu FAQ lost descriptive island anchors');
+}
 
 for (const key of [
   'vacationOahu',

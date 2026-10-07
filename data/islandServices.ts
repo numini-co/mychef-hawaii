@@ -71,7 +71,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Small catering Honolulu?',
-          a: 'Related search. A house dinner for two to fifteen is on the in-villa dinner page. About ten to seventy-five is on the catering page. This page names the headcount so those doors stay honest.',
+          a: 'A house dinner for two to fifteen is on the in-villa dinner page. About ten to seventy-five is on the catering page. This page names the headcount so those pages stay distinct.',
         },
       ],
       related: [

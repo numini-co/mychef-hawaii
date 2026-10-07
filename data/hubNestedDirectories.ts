@@ -203,7 +203,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Plated villa service, by island.',
     title: 'Plated villa service, by island | myCHEF Hawaii',
     description:
-      'Titles never use “{island} catering plated”.',
+      'Plated villa service across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
     lede:
       'Identical courses in the house.',
     kicker: 'Statewide · Plated',

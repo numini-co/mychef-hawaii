@@ -123,7 +123,7 @@ export const hubCateringFaqs: CopyFaq[] = [
   },
   {
     q: 'What guest counts do you staff?',
-    a: 'About ten to seventy-five for a reception. Smaller dinners sit on the private-chef door. Larger rooms are quoted as exceptions, never implied as standard.',
+    a: 'About ten to seventy-five for a reception. Smaller dinners are a private chef at the house, not a staffed event. Larger rooms are quoted as exceptions, never implied as standard.',
   },
   {
     q: 'Oʻahu and Maui versus Kauaʻi and the Big Island?',

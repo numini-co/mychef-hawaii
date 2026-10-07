@@ -108,7 +108,7 @@ const mauiSections: CopySection[] = [
     h2: 'Maui catering at your villa',
     paras: [
       'myCHEF Hawaii caters private events in Maui villas, estates and vacation homes — Wailea and Makena, Kīhei, and West Maui from Kāʻanapali to Kapalua. Our Maui catering is staffed, not drop-off: we write the menu for your house, shop, cook in the villa kitchen, serve your guests and clean up. Most events are for about a dozen to seventy-five guests — family reunions, milestone birthdays, welcome dinners, rehearsal dinners and retreats.',
-      'You book myCHEF Hawaii as one team, not a list of freelance names, and you get a written menu and a written total before any deposit. If you’re planning dinner for two to eight people, a [private chef on Maui](/) is usually the better choice — same kitchen standard, no reception crew.',
+      'You book myCHEF Hawaii as one team, and you get a written menu and a written total before any deposit. A smaller villa gathering is private or personal catering: the same crew, without a reception floor. For two to eight guests, a [private chef on Maui](/) is usually the better fit.',
     ],
   },
   {
@@ -192,6 +192,10 @@ const mauiFaqs: CopyFaq[] = [
   {
     q: 'When should we book Maui catering?',
     a: 'As early as you can. December through March fills first in Wailea and West Maui, and September, October and May are the busiest wedding months.',
+  },
+  {
+    q: 'What’s on a Maui catering menu?',
+    a: 'Buffet, plated, or family-style — stations or courses for that villa, not a fixed carte. A sample night might be ahi poke, kanpachi crudo, wood-grilled catch with coconut rice, and lilikoi cheesecake. The final menu is written for the house and the guest list. See [how our menus are designed](root:/menus) and [Maui pricing](/pricing).',
   },
 ];
 
@@ -283,6 +287,10 @@ const kauaiFaqs: CopyFaq[] = [
   {
     q: 'How do we start?',
     a: 'Send your dates, shore and guest count on the [inquiry form](/quote), or WhatsApp (808) 468-7748. We reply in writing in Hawaii business hours.',
+  },
+  {
+    q: 'Dinner for 2–12 or a catered event — which do I need?',
+    a: 'A small villa dinner for 2–12 is a [private chef on Kauaʻi](/): one kitchen, inquiry only, and we crew it properly or we decline. Catering on this page is a staffed event for about 10–75 guests. Send the shore and the dates on the [inquiry form](/quote).',
   },
 ];
 
