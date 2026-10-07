@@ -264,7 +264,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/private-chef-cost': {
     title: 'Fee stack explainers, by island | myCHEF Hawaii',
     description:
-      'Each island explains service, GET, and travel.',
+      'What a private chef costs in Hawaii: the per-guest band, 20% service, GET up to 4.712%, and a 50% deposit. Each island writes the total before you pay.',
   },
   '/meal-prep': {
     title: 'Meal prep honesty, by island | myCHEF Hawaii',
@@ -330,7 +330,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/catering/plated': {
     title: 'Plated villa service, by island | myCHEF Hawaii',
     description:
-      'Titles never use “{island} catering plated”.',
+      'Plated villa service across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/catering/family-style': {
     title: 'Family-style service, by island | myCHEF Hawaii',
@@ -586,9 +586,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'Maui sitemap: neighborhoods, services, occasions and guides.',
   },
   '/maui/catering': {
-    title: 'Maui Catering | Villa Receptions and Events | myCHEF',
+    title: 'Maui Catering Menus | Villa Receptions & Events | myCHEF',
     description:
-      'Maui catering from $225 a guest — staffed villa receptions and events in Wailea, Kāʻanapali and Kapalua, 10–75 guests. Buffet or plated. Request a quote.',
+      'Sample Maui catering menus for villa events of 10–75 guests — buffet, plated, or family-style in Wailea and West Maui. The menu is written for that house.',
   },
   '/kauai/private-chef': {
     title: 'Visitor dinners on Kauai — both shores, inquiry | myCHEF',

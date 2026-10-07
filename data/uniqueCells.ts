@@ -308,7 +308,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         'The South Shore as a whole — Poʻipū and Kōloa — with sun-side kitchens closer to Līhuʻe.',
         'Shorter drive from Līhuʻe than Princeville. Same starting prices. Wood-grilled catch when the kitchen can take fire.',
-        `Related search “private chef poipu kauai” is a supporting phrase, not a second title. Home holds private chef Kauai.`,
+        'Poʻipū and Kōloa use the same Kauaʻi team and the same published prices. This page is the South Shore, not a separate company.',
       ],
       faqs: [
         {
@@ -317,7 +317,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'South Shore chef as a brand?',
-          a: 'No. Related search “south shore chef kauai” is this cell, not a second company. One Kauaʻi department, two shores.',
+          a: 'No. South Shore cooking is the same Kauaʻi team, not a second company. One department, two shores.',
         },
       ],
       related: [

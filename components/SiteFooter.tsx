@@ -168,7 +168,7 @@ export default function SiteFooter({
                   </li>
                   <li>
                     <HostLink island="root" path="/locations" className="text-base text-paper hover:underline underline-offset-4">
-                      Live dinner doors
+                      Book a dinner by island
                     </HostLink>
                   </li>
                   <li>

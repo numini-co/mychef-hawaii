@@ -831,7 +831,7 @@ export function EditorialView({ kind }: { kind: 'journal' | 'blog' }) {
           className="mt-4 font-display text-[clamp(2.5rem,6vw,4.25rem)] font-light leading-[1.05] tracking-[-0.02em] text-ink"
         />
         <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink">
-          Each island department publishes its own {kind}. The hub does not rank for “private chef Maui” — that page
+          Each island publishes its own {kind}. Open the island where the house is.
 
         </p>
       </Hero>

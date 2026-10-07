@@ -77,9 +77,10 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     path: '/faq',
     h1: 'Questions, by island.',
     title: 'Questions, by island | myCHEF Hawaii',
-    description: 'This page does not rank for private chef Maui or Oahu catering. Open the island that holds the house.',
+    description:
+      'Booking questions, with each island’s own answers for kitchens, prices, and what we will not claim. Open the island where the house is.',
     lede:
-      'This page does not rank for private chef Maui or Oahu catering. Open the island that holds the house.',
+      'Booking questions, with each island’s own answers for kitchens, prices, and what we will not claim. Open the island where the house is.',
     kicker: 'Statewide · FAQ',
     photo: 'hubFaq',
     cardLabel: 'Questions',
@@ -100,7 +101,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
         a: 'We do not have Hawaiʻi guest reviews yet, and we will not invent them. They publish only after verified events — never bought, never written in-house. What we can prove today is published starting prices, sample menus, cleanup, and a written quote. The full posture is on the trust page and our journal note on No fake reviews.',
       },
       {
-        q: 'What is the difference between this hub and the island sites?',
+        q: 'What is the difference between this site and the island sites?',
         a: 'Each island is its own host — oahu., maui., kauai. and bigisland.mychef-hawaii.com — with its own chefs, zones and pricing. Oʻahu and Maui take quotes; Kauaʻi and Hawaiʻi Island are by inquiry only. Open the island host for the house that will actually be cooked in.',
       },
     ],
@@ -127,7 +128,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     description:
       'Quote form, WhatsApp, (808) 468-7748, and quotes@mychef-hawaii.com — Hawaii Standard Time. Open the island desk that holds the house. Not a walk-in office.',
     lede:
-      'Quotes and inquiry replies run in Hawaii Standard Time. Use the island the quote form form, WhatsApp, quotes@mychef-hawaii.com, or (808) 468-7748. This page does not take the booking — open the desk that holds the house. WhatsApp is on this hub desk, not only on an island the contact page page.',
+      'Quotes and inquiry replies run in Hawaii Standard Time. Use the quote form, WhatsApp, quotes@mychef-hawaii.com, or (808) 468-7748. This page does not take the booking — open the island where the house is. WhatsApp is on this page and on each island contact page.',
     kicker: 'Statewide · Contact',
     photo: 'hubContact',
     cardLabel: 'The desk',
@@ -155,13 +156,13 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     photo: 'hubLocations',
     cardLabel: 'Private chef by town',
     body: [
-      ` This directory does not flatten them.`,
+      'Each town keeps its own page on that island’s site.',
       'Oahu: Honolulu to Ko Olina. Maui: Wailea to Kapalua. Kauaʻi: both shores. Hawaiʻi Island: Kona to Kohala, west side first.',
     ],
     faqs: [
       {
-        q: 'Why not one Honolulu page on the hub?',
-        a: 'The live URL is oahu.mychef-hawaii.com/honolulu.',
+        q: 'Where is the Honolulu page?',
+        a: 'On the Oʻahu site: oahu.mychef-hawaii.com/honolulu.',
       },
     ],
   },
@@ -429,7 +430,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     photo: 'hubPersonal',
     cardLabel: 'Household line',
     body: [
-      `Private chef doors stay on island homes.`,
+      'Private chef dinners are booked on each island’s home page.',
       'Kauaʻi and Hawaiʻi Island stay inquiry.',
     ],
     faqs: [
@@ -440,14 +441,14 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Fee stack explainers, by island.',
     title: 'Fee stack explainers, by island | myCHEF Hawaii',
     description:
-      'Each island explains service, GET, and travel.',
+      'What a private chef costs in Hawaii: the per-guest band, 20% service, GET up to 4.712%, and a 50% deposit. Each island writes the total before you pay.',
     lede:
-      'Titles never use “private chef {island}”.',
+      'A private chef in Hawaii is priced as a published band plus separate fee lines. Open the island where the house is for that written total.',
     kicker: 'Statewide · Fee stack',
     photo: 'hubFeeStack',
     cardLabel: 'Fee stack',
     body: [
-      `It does not live on this hub title.`,
+      'Open the island where the house is. That page shows the band, the travel rules, and how a quote is stacked before you pay a deposit.',
       'Service 20% and GET are their own lines. Travel prints when it applies. The written quote is the confirmed total.',
       'Two grocery models, never blended. A Signature dinner keeps the shop inside that island band. A Stay Chef day bills groceries at cost with merchant receipts. Oʻahu and Maui take written quotes. Kauaʻi and Hawaiʻi Island stay inquiry.',
       'Each island’s pricing page remains the card.',
@@ -462,8 +463,8 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
         a: 'After the food, as separate lines: 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit locks a date the island can staff. Gratuity is never required and never hidden inside the band. Travel is its own line when the address sits outside the base zone. It is not folded into the dinner price.',
       },
       {
-        q: 'Why does this hub H1 avoid an island dinner title?',
-        a: 'Island homes own those dinner titles. The measured Maui cost phrase stays on the Maui host, not in this title. Open the island stack instead: oahu.mychef-hawaii.com/private-chef-cost, maui.mychef-hawaii.com/private-chef-cost, kauai.mychef-hawaii.com/private-chef-cost, or bigisland.mychef-hawaii.com/private-chef-cost.',
+        q: 'What does a dinner for eight include on the bill?',
+        a: 'The island per-guest band times the headcount, with Signature groceries inside that band: Oʻahu $195–$290, Maui and Kauaʻi $225–$375, Hawaiʻi Island $210–$325, entry from $165. Then 20% service and Hawaiʻi GET up to 4.712% as their own lines. A 50% deposit locks the date. Gratuity is never required. The written quote is the total.',
       },
       {
         q: 'Which islands take a quote, and which stay inquiry?',
@@ -474,8 +475,12 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
         a: 'Only outside the published base, and only as its own line. Oʻahu: North Shore is a surcharge; Kahala, Ko Olina, Kailua, and town residences with kitchens are base. Maui: Upcountry is a surcharge; West Maui timing is planned, not a mystery fee. Kauaʻi: Līhuʻe and Kapaʻa are included; both shores are a surcharge; far-North inherits the bridge clause. Hawaiʻi Island: Kona–Kohala is base; Waimea is a surcharge; Hilo is a dedicated day, never a west-side round trip.',
       },
       {
-        q: 'Does this hub show Hawaiʻi star ratings or guest reviews?',
-        a: 'No. We do not have those reviews yet, and we will not invent them. What we can show is published starting prices and a written total.',
+        q: 'Do you show star ratings or guest reviews?',
+        a: 'No. There are no star ratings or guest testimonials here yet. We will publish them only after verified events. Until then, the proof is published starting prices and a written total.',
+      },
+      {
+        q: 'What does the 50% deposit actually lock?',
+        a: 'A date the island can staff, and only after you accept the written total. The other half is the balance of that same quote. Service at 20% and GET up to 4.712% are already separate lines. Gratuity is never required and is not part of the deposit.',
       },
       {
         q: 'What is the next step if I want a written total?',

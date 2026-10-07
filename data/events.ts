@@ -78,7 +78,7 @@ export const eventOffers: Record<IslandId, EventOffer> = {
     faqs: [
       {
         q: 'Is this Maui catering?',
-        a: 'Maui catering is the catering page — 480 monthly searches, published $225–$375 a guest.',
+        a: 'Staffed Maui events from $225–$375 a guest are on the catering page. This page names the occasion.',
       },
       {
         q: 'Can you do a villa party in Lahaina?',

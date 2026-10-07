@@ -57,7 +57,7 @@ export const islandAbout: Record<IslandId, IslandAboutCopy> = {
     faqs: [
       {
         q: 'Is catering bigger than private chef on Maui?',
-        a: 'Yes in search. Maui catering is 480 monthly searches; private chef Maui is 260. Both doors are live.',
+        a: 'A larger room is catering. A villa table is a private chef. Both are live, with published prices on the pricing page.',
       },
       {
         q: 'Do you market Lahaina luxury dining?',
