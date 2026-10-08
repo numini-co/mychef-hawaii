@@ -7,7 +7,7 @@ import QuoteTeaser from '@/components/QuoteTeaser';
 import DocumentPhotoGrid from '@/components/DocumentPhotoGrid';
 import { eventOffers } from '@/data/events';
 import { occasionPages } from '@/data/occasionPages';
-import { islands, type IslandId } from '@/data/islands';
+import { islandSearchName, islands, type IslandId } from '@/data/islands';
 import { photos } from '@/data/photos';
 import { islandHref } from '@/lib/paths';
 
@@ -62,7 +62,7 @@ export function IslandEventsView({ islandId, hostMode }: { islandId: IslandId; h
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
-          { path: '/catering', label: 'Villa catering', detail: '/catering' },
+          { path: '/catering', label: `${islandSearchName[islandId]} catering`, detail: 'Staffed villa events, 10–75 guests' },
           { path: '/weddings', label: 'Wedding week', detail: '/weddings' },
           { path: '/quote', label: 'The quote form', detail: '/quote' },
           { path: '/mobile-bar', label: 'The packaged cart', detail: '/mobile-bar' },

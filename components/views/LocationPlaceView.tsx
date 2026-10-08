@@ -6,7 +6,9 @@ import LineReveal from '@/components/LineReveal';
 import { DocumentCopy, LongFaq, SiblingCluster } from '@/components/Longform';
 import QuoteTeaser from '@/components/QuoteTeaser';
 import PlacePriceBlock from '@/components/PlacePriceBlock';
-import { islands, type IslandId } from '@/data/islands';
+import { islandSearchName, islands, type IslandId } from '@/data/islands';
+
+const HONOLULU_TOWNS = new Set(['honolulu', 'waikiki', 'kahala', 'hawaii-kai', 'downtown', 'kakaako', 'diamond-head']);
 import { siblingCorridors, type MoneyNeighborhood } from '@/data/offers';
 import { photos } from '@/data/photos';
 import { DESK_EMAIL, DESK_PHONE_E164 } from '@/lib/contact';
@@ -28,6 +30,9 @@ export function LocationPlaceView({
   const href = (path: string) => islandHref(islandId, hostMode, path);
   const siblings = siblingCorridors(islandId, hood.slug);
   const inquiry = islandId === 'kauai' || islandId === 'bigisland';
+  // Honolulu-area towns point to Oʻahu catering with the Honolulu phrasing people search.
+  const cateringAnchor =
+    islandId === 'oahu' && HONOLULU_TOWNS.has(hood.slug) ? 'Honolulu catering' : `${islandSearchName[islandId]} catering`;
   const faqKicker =
     islandId === 'maui'
       ? 'Villa Week'
@@ -101,7 +106,7 @@ export function LocationPlaceView({
         columns={2}
         items={[
           { path: '/private-chef', label: 'What’s included', detail: '/private-chef' },
-          { path: '/catering', label: 'Villa catering', detail: '/catering' },
+          { path: '/catering', label: cateringAnchor, detail: 'Staffed villa events, 10–75 guests' },
           { path: '/quote', label: 'The quote form', detail: '/quote' },
           { path: '/coverage', label: 'Coverage map', detail: '/coverage' },
         ]}

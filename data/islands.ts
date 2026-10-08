@@ -77,3 +77,16 @@ export function isInquiryIsland(id?: IslandId | null): boolean {
 export function primaryCtaLabel(id?: IslandId | null): string {
   return isInquiryIsland(id) ? 'Join the inquiry list' : 'Request a quote';
 }
+
+/**
+ * Island names as people type them into Google (no ʻokina / kahakō), used for
+ * descriptive internal-link anchors that match each page's locked keyword:
+ * island home = "private chef {name}", island /catering = "{name} catering",
+ * island /weddings = "wedding catering {name}".
+ */
+export const islandSearchName: Record<IslandId, string> = {
+  oahu: 'Oahu',
+  maui: 'Maui',
+  kauai: 'Kauai',
+  bigisland: 'Big Island',
+};
