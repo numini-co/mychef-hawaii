@@ -171,8 +171,8 @@ export default function IslandHomeView({
       <DocumentPhotoGrid
         islandId={islandId}
         eyebrow={`Where we cook on ${island.shortName}`}
-        heading="Named corridors"
-        intro="Travel zones and the places we cook."
+        heading="Towns and resort areas"
+        intro="Pick your town for travel zones, kitchens and local notes."
         items={moneyNeighborhoods[islandId].map((hood) => ({
           path: `/${hood.slug}`,
           label: hood.name,

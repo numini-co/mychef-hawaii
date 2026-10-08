@@ -70,7 +70,7 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
         { path: '/', label: 'Private chef Oahu' },
         { path: '/help/getting-started', label: 'First-booking checklist' },
         { path: '/quote', label: 'Quote form' },
-        { path: '/locations', label: 'Corridor directory' },
+        { path: '/locations', label: 'Towns we cook in' },
       ],
     },
     {
@@ -247,7 +247,7 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
         { path: '/', label: 'Private chef Maui' },
         { path: '/help/getting-started', label: 'First-booking checklist' },
         { path: '/quote', label: 'Quote form' },
-        { path: '/locations', label: 'Corridor directory' },
+        { path: '/locations', label: 'Towns we cook in' },
       ],
     },
     {
@@ -425,7 +425,7 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
         { path: '/', label: 'Private chef Kauai' },
         { path: '/help/getting-started', label: 'First-booking checklist' },
         { path: '/quote', label: 'Inquiry form' },
-        { path: '/locations', label: 'Corridor directory' },
+        { path: '/locations', label: 'Towns we cook in' },
       ],
     },
     {
@@ -607,7 +607,7 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
         { path: '/', label: 'Private chef Big Island' },
         { path: '/help/getting-started', label: 'First-booking checklist' },
         { path: '/quote', label: 'Inquiry form' },
-        { path: '/locations', label: 'Corridor directory' },
+        { path: '/locations', label: 'Towns we cook in' },
       ],
     },
     {

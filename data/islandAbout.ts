@@ -23,7 +23,7 @@ export const islandAbout: Record<IslandId, IslandAboutCopy> = {
       alt: 'A villa-deck crew on Oʻahu at dusk — chefs and service around a long set table, ocean beyond.',
     },
     body: [
-      'Oʻahu is Honolulu residences, Waikīkī apartments that actually have a kitchen, Kahala dining rooms, Kailua weeks, Ko Olina villa stays. Named corridors on this site: Honolulu, Waikīkī, Kahala / Gold Coast, Kailua / Lanikai, Ko Olina, North Shore.',
+      'Oʻahu is Honolulu residences, Waikīkī apartments that actually have a kitchen, Kahala dining rooms, Kailua weeks, Ko Olina villa stays. The towns we cook in most: Honolulu, Waikīkī, Kahala and the Gold Coast, Kailua and Lanikai, Ko Olina and the North Shore.',
       'A Gold Coast dinner and a North Shore surcharge day are not the same drive; the quote says which. Personal-chef weeks for households sit next to visitor dinners. The crew in the photograph is the point: this is not one person with a tote bag and a hope.',
       'You book myCHEF Hawaii. We assign the brigade. We do not sell chef names, bios, or a swipeable roster. Proof today is published starting prices, a sample menu, cleanup, and a written quote. Reviews publish after verified events.',
     ],

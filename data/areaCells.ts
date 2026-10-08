@@ -43,7 +43,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       photo: 'cellHawaiiKai',
       body: [
         'Traffic is a timing problem, not a surprise invoice.',
-        'Weekly resident service stays on the kamaʻāina page. A cooktop is still required.',
+        'Weekly service for residents is on our kamaʻāina page. A cooktop is still required.',
       ],
       faqs: [
       ],

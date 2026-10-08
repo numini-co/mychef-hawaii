@@ -22,22 +22,22 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     h1: 'Oahu blog — Honolulu kitchens in plain language.',
     title: 'Oahu blog — Honolulu kitchens | myCHEF',
     description:
-      'Not a statewide feed.',
+      'Short, plain-language posts on Oʻahu home and villa dinners — Honolulu kitchens, timing, cleanup and what goes on the written quote.',
     lede:
-      'Not a statewide feed, and not the longer corridor notes on the journal.',
+      'Short posts in plain language. Longer notes from the island are in the Oahu journal.',
     kicker: 'Oʻahu · Blog',
     photo: 'blogOahu',
     body: [
-      'If you want the longer corridor notes, read the journal.',
+      'For the longer notes — Gold Coast counters, convention weeks, short-stay villas — read the journal.',
     ],
   },
   maui: {
-    h1: 'Maui blog — villa nights without a statewide feed.',
+    h1: 'Maui blog — short notes on villa nights.',
     title: 'Maui blog — villa nights | myCHEF',
     description:
-      'Not a statewide feed.',
+      'Short posts on Maui villa dinners in Wailea and Kāʻanapali — timing, kitchens, cleanup and what goes on the written quote.',
     lede:
-      'Short posts beside villa nights on this island. Wailea and Kāʻanapali stay named; statewide Hawaii catering does not live here.',
+      'Short posts beside villa nights on Maui. Wailea and Kāʻanapali come up most.',
     kicker: 'Maui · Blog',
     photo: 'blogMaui',
     body: [
@@ -47,9 +47,9 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     h1: 'Kauai blog — inquiry notes, not a staffed calendar.',
     title: 'Kauai blog — inquiry notes | myCHEF',
     description:
-      'Princeville and Poʻipū named. Not a live roster.',
+      'Short posts for Kauaʻi villa dinners in Princeville and Poʻipū — how inquiry dates work, kitchens, and what the written quote includes.',
     lede:
-      'Short posts for readers who still need to know we quote before we staff. Princeville and Poʻipū are named; we do not invent volume.',
+      'Short posts for guests planning a Kauaʻi dinner. Every date is quoted before a chef is confirmed; Princeville and Poʻipū come up most.',
     kicker: 'Kauaʻi · Blog',
     photo: 'blogKauai',
     body: [
@@ -60,7 +60,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     h1: 'Hawaiʻi Island blog — Kona first, Hilo later.',
     title: 'Hawaiʻi Island blog — Kona first | myCHEF',
     description:
-      'West side first. East side is a different day.',
+      'Short posts from Hawaiʻi Island west-side kitchens in Kona and Kohala. East-side Hilo dinners are quoted as a separate day.',
     lede:
       'Short posts from west-side kitchens on Hawaiʻi Island. East side is a different day.',
     kicker: 'Hawaiʻi Island · Blog',

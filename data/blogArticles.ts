@@ -36,7 +36,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       ],
       related: [
         { path: '/honolulu', label: 'Private chef Honolulu' },
-        { path: '/locations', label: 'Corridor directory' },
+        { path: '/locations', label: 'Towns we cook in' },
         { path: '/quote', label: 'Quote form' },
       ],
     },
@@ -461,7 +461,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       photo: 'dinHawaiiKai',
       body: [
         'East Honolulu households. Resident entertaining more than tourist villas. Traffic is planned into the chef day. A cooktop is still required.',
-        'This piece is the kitchen note. Weekly resident service stays on the kamaʻāina page.',
+        'This is the kitchen note; weekly service for residents is on our kamaʻāina page.',
       ],
       faqs: [
       ],
@@ -1522,7 +1522,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       ],
       related: [
         { path: '/kapaa', label: 'Private chef Kapaʻa' },
-        { path: '/locations', label: 'Corridor directory' },
+        { path: '/locations', label: 'Towns we cook in' },
         { path: '/quote', label: 'Inquiry form' },
       ],
     },
@@ -1781,7 +1781,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       photo: 'blogShoulderKauai',
       body: [
         'Shoulder months are quieter, not empty. A Princeville house in April still needs a cooktop, a count, and an inquiry reply. We do not invent a last-minute roster because the calendar looks open.',
-        'Far-North weather stays on the Hanalei bridge notes. This article is the quieter window beside them — at inquiry.',
+        'For North Shore weather and the Hanalei bridge, read the Hanalei notes. This post covers the quieter shoulder window — by inquiry.',
       ],
       faqs: [
         {

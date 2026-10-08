@@ -2317,6 +2317,31 @@ for (const island of ISLANDS) {
   }
 }
 
+// Wave 2026-10-07 — sitemap <lastmod> from content hashes, and no internal jargon in visible labels.
+{
+  const lastmodSrc = read('lib/sitemapXml.ts');
+  if (!/sitemap-lastmod\.json/.test(lastmodSrc) || !/<lastmod>/.test(lastmodSrc)) {
+    errors.push('sitemap XML no longer emits <lastmod> from data/sitemap-lastmod.json');
+  }
+  const hubXml = read('public/_sitemaps/hub.xml');
+  const locs = (hubXml.match(/<loc>/g) || []).length;
+  const mods = (hubXml.match(/<lastmod>/g) || []).length;
+  if (locs && mods < locs) errors.push(`hub sitemap has ${locs - mods} URLs without <lastmod> — run scripts/update-lastmod.mjs`);
+  const visible = {
+    'components/SiteFooter.tsx': [/Live dinner doors/],
+    'components/views/IslandHomeView.tsx': [/heading="Named corridors"/],
+    'components/views/BarView.tsx': [/intro="\/mobile-bar is/],
+    'data/islandJournal.ts': [/Not the hub digest/, /corridor notes \|/],
+    'data/islandBlog.ts': [/'Not a statewide feed\.'/],
+    'data/journalArticles.ts': [/Corridor directory/],
+    'data/blogArticles.ts': [/Corridor directory/, /stays on the (kamaʻāina|Hanalei)/],
+  };
+  for (const [file, pats] of Object.entries(visible)) {
+    const src = read(file);
+    for (const re of pats) if (re.test(src)) errors.push(`${file}: internal jargon back in visible copy (${re})`);
+  }
+}
+
 if (errors.length) {
   console.error(`seo:audit failed (${errors.length})\n${errors.map((e) => ` - ${e}`).join('\n')}`);
   process.exit(1);
