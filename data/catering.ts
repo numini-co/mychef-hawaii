@@ -84,7 +84,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     description:
       'Big Island catering from $210 a guest — staffed Kona and Kohala Coast villa receptions, buffet or plated. Inquiry stage; ask for a written quote.',
     lede:
-      'Big Island catering on the Kona–Kohala Coast: staffed villa events, buffet or plated, from $210 a guest. Kona catering included; Hilo is quoted as its own day.',
+      'Big Island catering on Hawaiʻi Island (the Big Island): staffed villa events on the Kona–Kohala Coast, buffet or plated, from $210 a guest. Kona catering included; Hilo is quoted as its own day.',
     fromPp: 210,
     weddingFrom: 225,
     places: 'Kohala Coast, Waikoloa, Kailua-Kona',

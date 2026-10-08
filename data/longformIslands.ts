@@ -150,7 +150,7 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
       {
         h2: 'Vacation-rental kitchen test',
         paras: [
-          'Most Maui bookings are a hotel-zoned villa or a vacation rental: resort residence, Airbnb, VRBO, estate week. The test is the kitchen. If the house has heat, cold storage, and seats for the list, we cook. A hotel room without those — we will not. Tell us the property type on the quote form before you put money down.',
+          'Most Maui bookings are a hotel-zoned villa or a vacation rental: resort residence, Airbnb, VRBO, estate week. The test is the kitchen. If the house has heat, cold storage, and seats for the list, we cook. A hotel room without those — we will not. A chef for hire is that one night in a Maui villa or condo. Tell us the property type on the quote form before you put money down.',
           'Stay Chef is the multi-day version of that test: one team, groceries at cost, second and third meals priced on that same calendar day. First night at the table plus a fridge we filled before you landed is how most Wailea weeks start. Full-board days exist for houses that actually cook three times. The week of a wedding sits on the weddings page.',
         ],
       },
@@ -193,8 +193,12 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
         a: 'Most Wailea and West Maui houses book one published dinner first. Signature is that night. Stay Chef is the week when the house actually cooks more than once. They never blend.',
       },
       {
-        q: 'Why publish a premium band instead of a midpoint?',
-        a: 'The Maui CORE band is $225–$375 a guest — the villa-week card, not a chat midpoint that folds labor into food. Midpoints hide 20% service and Hawaiʻi GET up to 4.712%. We print those after the band. Other kitchens publish different numbers; we do not call them worse. We publish ours and write the quote.',
+        q: 'Can I hire a chef for a single night in a Maui villa or condo?',
+        a: 'Yes. One night uses the Maui band, $225–$375 a guest, with groceries inside that band. Two people can use Date Night from $750+ instead of a per-guest stack. Signature has a 6-guest minimum; a shorter list is still quoted to that minimum. The kitchen needs a working cooktop, a fridge, and seats for the list. A condo galley is fine when the range is real. A room with only a coffee maker is declined. After the food: 20% service, Hawaiʻi GET up to 4.712%, and a 50% deposit. Gratuity is never required. See [Maui private chef prices](/pricing), then send the address on [the quote form](/quote).',
+      },
+      {
+        q: 'Personal chef or private chef in Maui — which do I need?',
+        a: 'A private chef is one dinner in the villa. A Maui personal chef is the stay: Stay Chef from $1,550 a day, groceries at cost with receipts. Those grocery models never blend. 20% service and Hawaiʻi GET up to 4.712% print after either line. A 50% deposit holds the date. Gratuity is never required. Say villa week or single night on [the quote form](/quote). The lines are on [Maui private chef prices](/pricing). Desk: quotes@mychef-hawaii.com, +1 808 468 7748, WhatsApp https://wa.me/18084687748.',
       },
       {
         q: 'Do Maui villa weeks come with guest-review counts?',
