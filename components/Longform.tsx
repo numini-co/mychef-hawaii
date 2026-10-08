@@ -4,7 +4,7 @@ import InlineText from '@/components/InlineText';
 import { stripInlineLinks } from '@/lib/inlineLinks';
 import Link from 'next/link';
 import type { ReactNode } from 'react';
-import type { IslandId } from '@/data/islands';
+import { islandSearchName, type IslandId } from '@/data/islands';
 
 export interface CopySection {
   h2: string;
@@ -140,10 +140,10 @@ export function SiblingCluster({
   const prefix = href ?? ((p: string) => p);
   const rows = island
     ? [
-        { key: 'home' as const, to: prefix('/'), label: 'Private chef' },
+        { key: 'home' as const, to: prefix('/'), label: `Private chef ${islandSearchName[island]}` },
         { key: 'chef' as const, to: prefix('/private-chef'), label: 'What’s included' },
-        { key: 'catering' as const, to: prefix('/catering'), label: 'Catering' },
-        { key: 'weddings' as const, to: prefix('/weddings'), label: 'Weddings' },
+        { key: 'catering' as const, to: prefix('/catering'), label: `${islandSearchName[island]} catering` },
+        { key: 'weddings' as const, to: prefix('/weddings'), label: `Wedding catering ${islandSearchName[island]}` },
         { key: 'pricing' as const, to: prefix('/pricing'), label: 'Pricing' },
         { key: 'quote' as const, to: prefix('/quote'), label: 'Quote' },
       ]
