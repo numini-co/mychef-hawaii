@@ -19,10 +19,10 @@ export interface IslandJournalPage {
 
 export const islandJournal: Record<IslandId, IslandJournalPage> = {
   oahu: {
-    h1: 'Oahu journal — corridor notes, not a statewide digest.',
-    title: 'Oahu journal — corridor notes | myCHEF',
+    h1: 'Oahu journal — notes from the kitchens we cook in.',
+    title: 'Oahu journal — villa kitchen notes | myCHEF',
     description:
-      'Not the hub digest.',
+      'Notes from Oʻahu villa and home kitchens — Kahala and Gold Coast counters, Waikīkī apartments, Ko Olina villas — and how a written quote is built.',
     lede:
       'Short notes from the places we cook.',
     kicker: 'Oʻahu · Journal',
@@ -35,7 +35,7 @@ export const islandJournal: Record<IslandId, IslandJournalPage> = {
     h1: 'Maui journal — Wailea, Kāʻanapali, and the week between.',
     title: 'Maui journal — South and West | myCHEF',
     description:
-      'Not Oahu, Kauaʻi, or Hawaiʻi Island.',
+      'Notes from Maui villa kitchens in Wailea and Kāʻanapali — kitchen limits, wedding-week pacing and how a written quote is built.',
     lede:
       'Notes from South Maui, West Maui, and wedding-week houses.',
     kicker: 'Maui · Journal',
@@ -48,9 +48,9 @@ export const islandJournal: Record<IslandId, IslandJournalPage> = {
     h1: 'Kauai journal — North Shore weather and South Shore kitchens.',
     title: 'Kauai journal — both shores | myCHEF',
     description:
-      'Not a staffed calendar.',
+      'Notes from Kauaʻi kitchens on both shores — Hanalei-bridge weather in the north, Poʻipū villa kitchens in the south, and how inquiry dates are confirmed.',
     lede:
-      'Inquiry-first notes from both shores. Private chef Kauai is measured; this page does not pretend we staff every night.',
+      'Inquiry-first notes from both shores. Every date is quoted in writing before a chef is confirmed.',
     kicker: 'Kauaʻi · Journal',
     photo: 'journalKauai',
     body: [
@@ -62,7 +62,7 @@ export const islandJournal: Record<IslandId, IslandJournalPage> = {
     h1: 'Hawaiʻi Island journal — west side first, east side another day.',
     title: 'Hawaiʻi Island journal — west side first | myCHEF',
     description:
-      'West side first. Hilo is a different day.',
+      'Notes from Hawaiʻi Island west-side kitchens in Kona and Kohala — Ironman weeks, Kona coffee labeling, and why Hilo is quoted as its own day.',
     lede:
       'Notes from the west side.',
     kicker: 'Hawaiʻi Island · Journal',

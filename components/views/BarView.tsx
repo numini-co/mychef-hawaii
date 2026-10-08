@@ -420,11 +420,11 @@ export function IslandBarView({ islandId, hostMode }: { islandId: IslandId; host
         islandId={islandId}
         eyebrow={`${islands[islandId].name} · Beside the add-on`}
         heading="Related pages."
-        intro="/mobile-bar is the four-hour cart. /weddings is the week. /private-chef is one dinner."
+        intro="The four-hour bar package, the wedding week and a single in-villa dinner each have their own page."
         items={[
-          { path: '/mobile-bar', label: '4-hour package', detail: '/mobile-bar' },
-          { path: '/weddings', label: 'Wedding week', detail: '/weddings' },
-          { path: '/private-chef', label: 'What’s included', detail: '/private-chef' },
+          { path: '/mobile-bar', label: '4-hour package', detail: 'The bar cart, start to finish' },
+          { path: '/weddings', label: 'Wedding week', detail: 'Rehearsal to farewell brunch' },
+          { path: '/private-chef', label: 'What’s included', detail: 'One dinner in the villa' },
         ]}
       />
       <LongFaq items={faqs} />

@@ -421,7 +421,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/oahu': {
     title: 'Private Chef Oahu | Resident Villa and Home Chefs | myCHEF',
     description:
-      'Private chef Oahu from $195 a guest — Honolulu, Waikīkī, Kahala, Kailua, Ko Olina corridors. Villa dinners and household weeks. Request a written quote.',
+      'Private chef Oahu from $195 a guest — Honolulu, Waikīkī, Kahala, Kailua and Ko Olina. Villa dinners and household weeks. Request a written quote.',
   },
   '/maui': {
     title: 'Private Chef Maui | In-Villa Week Dinners | myCHEF',
@@ -496,17 +496,17 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'The Oahu coordinator has the corridor, the kitchen note, and the dates. Reply in Hawaii business hours.',
   },
   '/oahu/journal': {
-    title: 'Oahu journal — corridor notes | myCHEF',
+    title: 'Oahu journal — villa kitchen notes | myCHEF',
     description:
-      'Not the hub digest.',
+      'Notes from Oʻahu villa and home kitchens — Kahala and Gold Coast counters, Waikīkī apartments, Ko Olina villas — and how a written quote is built.',
   },
   '/oahu/blog': {
     title: 'Oahu blog — Honolulu kitchens | myCHEF',
     description:
-      'Not a statewide feed.',
+      'Short, plain-language posts on Oʻahu home and villa dinners — Honolulu kitchens, timing, cleanup and what goes on the written quote.',
   },
   '/oahu/locations': {
-    title: 'Oahu corridors we cook — Honolulu to Ko Olina | myCHEF',
+    title: 'Oahu towns we cook in — Honolulu to Ko Olina | myCHEF',
     description:
       'Every page on our Oahu site: Honolulu, Waikīkī, Kailua, North Shore, Kahala, Ko Olina, services and occasions.',
   },
@@ -569,15 +569,15 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/maui/journal': {
     title: 'Maui journal — South and West | myCHEF',
     description:
-      'Not Oahu, Kauaʻi, or Hawaiʻi Island.',
+      'Notes from Maui villa kitchens in Wailea and Kāʻanapali — kitchen limits, wedding-week pacing and how a written quote is built.',
   },
   '/maui/blog': {
     title: 'Maui blog — villa nights | myCHEF',
     description:
-      'Not a statewide feed.',
+      'Short posts on Maui villa dinners in Wailea and Kāʻanapali — timing, kitchens, cleanup and what goes on the written quote.',
   },
   '/maui/locations': {
-    title: 'Maui corridors we cook — Wailea to Kapalua | myCHEF',
+    title: 'Maui towns we cook in — Wailea to Kapalua | myCHEF',
     description:
       'Every page on our Maui site: Wailea, Kāʻanapali, Lahaina, Kīhei, Kapalua, Makena, services and occasions.',
   },
@@ -649,15 +649,15 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/kauai/journal': {
     title: 'Kauai journal — both shores | myCHEF',
     description:
-      'Not a staffed calendar.',
+      'Notes from Kauaʻi kitchens on both shores — Hanalei-bridge weather in the north, Poʻipū villa kitchens in the south, and how inquiry dates are confirmed.',
   },
   '/kauai/blog': {
     title: 'Kauai blog — inquiry notes | myCHEF',
     description:
-      'Princeville and Poʻipū named. Not a live roster.',
+      'Short posts for Kauaʻi villa dinners in Princeville and Poʻipū — how inquiry dates work, kitchens, and what the written quote includes.',
   },
   '/kauai/locations': {
-    title: 'Kauai corridors we cook — both shores | myCHEF',
+    title: 'Kauai towns we cook in — both shores | myCHEF',
     description:
       'Every page on our Kauai site: Princeville, Poʻipū, Hanalei, Kapaʻa, services and occasions.',
   },
@@ -724,15 +724,15 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/bigisland/journal': {
     title: 'Hawaiʻi Island journal — west side first | myCHEF',
     description:
-      'West side first. Hilo is a different day.',
+      'Notes from Hawaiʻi Island west-side kitchens in Kona and Kohala — Ironman weeks, Kona coffee labeling, and why Hilo is quoted as its own day.',
   },
   '/bigisland/blog': {
     title: 'Hawaiʻi Island blog — Kona first | myCHEF',
     description:
-      'West side first. East side is a different day.',
+      'Short posts from Hawaiʻi Island west-side kitchens in Kona and Kohala. East-side Hilo dinners are quoted as a separate day.',
   },
   '/bigisland/locations': {
-    title: 'Hawaiʻi Island corridors we cook — Kona to Kohala | myCHEF',
+    title: 'Hawaiʻi Island towns we cook in — Kona to Kohala | myCHEF',
     description:
       'Every page on our Big Island site: Kona, Waimea, Waikoloa, Kohala, services and occasions.',
   },

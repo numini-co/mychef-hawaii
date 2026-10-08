@@ -22,7 +22,7 @@ export interface IslandLocationsPage {
 export const islandLocations: Record<IslandId, IslandLocationsPage> = {
   oahu: {
     h1: 'Where we cook on Oahu — Honolulu to Ko Olina.',
-    title: 'Oahu corridors we cook — Honolulu to Ko Olina | myCHEF',
+    title: 'Oahu towns we cook in — Honolulu to Ko Olina | myCHEF',
     description:
       'The Oahu neighborhoods we cook in: Honolulu, Waikīkī, Kahala and the Gold Coast, Kailua and Lanikai, Ko Olina and the North Shore.',
     lede: 'Honolulu, Waikīkī, Kahala and the Gold Coast, Kailua and Lanikai, Ko Olina and the North Shore — each with its own page, kitchens and travel notes.',
@@ -36,7 +36,7 @@ export const islandLocations: Record<IslandId, IslandLocationsPage> = {
   },
   maui: {
     h1: 'Where we cook on Maui — South Shore, West Maui and the towns between.',
-    title: 'Maui corridors we cook — Wailea to Kapalua | myCHEF',
+    title: 'Maui towns we cook in — Wailea to Kapalua | myCHEF',
     description:
       'The Maui neighborhoods we cook in: Wailea, Makena, Kīhei, Kāʻanapali, Lahaina and Kapalua, with travel printed as its own line.',
     lede:
@@ -55,7 +55,7 @@ export const islandLocations: Record<IslandId, IslandLocationsPage> = {
   },
   kauai: {
     h1: 'Where we cook on Kauai — North Shore and South Shore.',
-    title: 'Kauai corridors we cook — both shores | myCHEF',
+    title: 'Kauai towns we cook in — both shores | myCHEF',
     description:
       'The Kauai neighborhoods we cook in: Princeville, Hanalei, Kapaʻa and Poʻipū. Bookings start as an inquiry.',
     lede:
@@ -74,7 +74,7 @@ export const islandLocations: Record<IslandId, IslandLocationsPage> = {
   },
   bigisland: {
     h1: 'Where we cook on the Big Island — Kona to Kohala.',
-    title: 'Hawaiʻi Island corridors we cook — Kona to Kohala | myCHEF',
+    title: 'Hawaiʻi Island towns we cook in — Kona to Kohala | myCHEF',
     description:
       'The Big Island neighborhoods we cook in: Kailua-Kona, Keauhou, Waikoloa, the Kohala Coast and Waimea. West side first.',
     lede:

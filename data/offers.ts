@@ -152,7 +152,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     h1: 'Private Chef Oahu — in your villa, in your home.',
     title: 'Private Chef Oahu | Resident Villa and Home Chefs | myCHEF',
     description:
-      'Private chef Oahu from $195 a guest — Honolulu, Waikīkī, Kahala, Kailua, Ko Olina corridors. Villa dinners and household weeks. Request a written quote.',
+      'Private chef Oahu from $195 a guest — Honolulu, Waikīkī, Kahala, Kailua and Ko Olina. Villa dinners and household weeks. Request a written quote.',
     lede:
       'Private chef Oahu and Honolulu — resident villa dinners from $195 a guest, with household weeks beside them. Larger staffed events are on our Oahu catering page.',
     fromPp: 195,
@@ -1206,7 +1206,7 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       lede: 'The opening move on Hawaiʻi Island: one 30-minute service radius, the island’s highest villa ADRs.',
       body: [
         'West-side villa ADRs and resort-belt kitchens sit inside this radius. Signature $210–$325 a guest keeps groceries inside that band. Stay Chef from $1,450 a day bills the shop at cost with receipts. After either line: 20% service and Hawaiʻi GET up to 4.712%.',
-        'Producer names appear only with written verification. Hotel rooms without a cooktop are declined. Named corridors on the same map are not clones: the Waikoloa page for the resort corridor, the Kailua-Kona / Keauhou page for town and Keauhou, the Waimea page for ranch elevation.',
+        'Producer names appear only with written verification. Hotel rooms without a cooktop are declined. Each nearby town has its own page: Waikoloa for the resort area, Kailua-Kona and Keauhou for town, Waimea for ranch elevation.',
         'East-side Hilo is never the same unpaid day.',
         'Full Hawaiʻi Island rates are on [the pricing page](/pricing); send your dates on [the quote form](/quote).',
       ],

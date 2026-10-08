@@ -8,6 +8,13 @@ import {
 } from '@/data/commercialGraph';
 import { HUB_ALL_PICKER_PATHS } from '@/data/hubDirectories';
 import { IN_VILLA_PATHS } from '@/data/inVillaServices';
+import LASTMOD from '@/data/sitemap-lastmod.json';
+
+/**
+ * Per-URL content-change dates, written by scripts/update-lastmod.mjs from a
+ * real build. A URL only gets a new date when its rendered content changes.
+ */
+const LASTMOD_BY_URL = LASTMOD as Record<string, { hash: string; lastmod: string | null }>;
 
 /** Key hub routes that must appear in the apex urlset. */
 export const HUB_REQUIRED_PATHS = [
@@ -63,8 +70,10 @@ function urlset(rows: SitemapRow[]): string {
       r.priority ??
       (r.path === '/' ? (r.host === 'hub' ? '1.0' : '0.9') : r.path === '/pricing' || r.path === '/quote' ? '0.8' : r.path === '/about' ? '0.6' : '0.7');
     const changefreq = r.path === '/' ? 'weekly' : 'monthly';
+    const lastmod = LASTMOD_BY_URL[href]?.lastmod;
     entries.push(`  <url>
-    <loc>${xmlEscape(href)}</loc>
+    <loc>${xmlEscape(href)}</loc>${lastmod ? `
+    <lastmod>${lastmod}</lastmod>` : ''}
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>
   </url>`);
