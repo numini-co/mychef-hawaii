@@ -383,6 +383,10 @@ const bigislandFaqs: CopyFaq[] = [
     q: 'How many guests can you cater?',
     a: 'About ten to seventy-five. For a smaller dinner, book a [private chef on the Big Island](/) instead.',
   },
+  {
+    q: 'What does the Big Island catering price include, and how is the total built?',
+    a: 'The food line is the published card: $210–$325 a guest, or a lighter menu from $165. Groceries for that menu sit inside the band. Staffing is next, at the published hourly rates — a server is $80/hr and a sous chef is $105/hr, each call at least four hours. Then 20% service and Hawaiʻi GET up to 4.712% print once. A 50% deposit holds the date. Gratuity is never required. Rentals and venue fees stay off the total unless we quote them. This is a written quote at inquiry, not instant booking. Send the west-side villa on the [inquiry form](/quote). The lines are on [Big Island pricing](/pricing). A household dinner is a [private chef on the Big Island](/). Desk: quotes@mychef-hawaii.com, +1 808 468 7748, WhatsApp https://wa.me/18084687748.',
+  },
 ];
 
 export const cateringLongform: Record<IslandId, { sections: CopySection[]; faqs: CopyFaq[] }> = {

@@ -321,6 +321,10 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
           q: 'How do I get a written Wailea total?',
           a: 'Five fields on the quote form — Maui, dates, headcount, service, how to reach you — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. A Hawaii-hours desk writes back on a working day. The confirmed number is the written quote, not a chat range.',
         },
+        {
+          q: 'How far ahead should a Wailea villa request a quote in whale season?',
+          a: 'December through March is Wailea’s busiest stretch for resort-residence kitchens, and holiday weeks inside it fill first. Request a written quote when the house is on hold — weeks out, not the Friday you land. Name the kitchen on [the quote form](/quote): a resort range, a condo galley, or a hotel room we will turn down. If no chef is free for that Wailea kitchen, we decline. We do not overbook a second residence onto the same crew. Signature stays $225–$375 a guest, groceries inside the band. A longer stay is Stay Chef from $1,550 a day, groceries at cost with receipts. Then 20% service, Hawaiʻi GET up to 4.712%, and a 50% deposit. Gratuity is never required. Read [Wailea pricing](/pricing). The villa week is on [private chef Maui](/). Desk: quotes@mychef-hawaii.com, +1 808 468 7748, WhatsApp https://wa.me/18084687748.',
+        },
       ],
     },
     {
