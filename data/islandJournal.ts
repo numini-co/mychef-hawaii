@@ -29,6 +29,7 @@ export const islandJournal: Record<IslandId, IslandJournalPage> = {
     photo: 'journalOahu',
     body: [
       'Pieces stay close to the kitchen: Gold Coast counters, convention-week access, short-stay villas that still have to cook.',
+      'Start with the practical ones: how to hire a chef on Oʻahu, what a night includes, what an Oʻahu chef night costs line by line, and how far ahead to book in the December–March and wedding peaks. Each note links to the page that actually quotes the night, so reading never replaces a written total.',
     ],
   },
   maui: {
@@ -42,6 +43,7 @@ export const islandJournal: Record<IslandId, IslandJournalPage> = {
     photo: 'journalMaui',
     body: [
       'Expect kitchen-constraint notes, wedding-week pacing, and why a Wailea villa is a different night from a Kāʻanapali walk-up.',
+      'The price guide walks a Maui dinner from the $225–$375 a guest band to the final total, including Upcountry travel and the Saturday West Maui drive. The hiring and booking notes cover what to send so the menu draft fits the villa you rented.',
     ],
   },
   kauai: {
@@ -56,6 +58,7 @@ export const islandJournal: Record<IslandId, IslandJournalPage> = {
     body: [
       `This index is the reading list.`,
       'Hanalei-bridge weather and south-shore kitchens show up here because they change whether we can even quote a date.',
+      'If you are planning rather than browsing, read three notes first: how to hire a chef on Kauaʻi (name the shore, then the house), what a Kauaʻi dinner costs with shore travel, and how far ahead to enquire for Far-North dates that need 72 hours’ notice.',
     ],
   },
   bigisland: {
@@ -70,6 +73,7 @@ export const islandJournal: Record<IslandId, IslandJournalPage> = {
     body: [
       `This index is the reading list.`,
       'Coffee Act 198 and Ironman weeks live here because they change access, not because they are marketing slogans.',
+      'Planning a stay on the Kona side? The cost guide shows ENTRY from $165 and CORE $210–$325 a guest how the Waimea surcharge works and why Hilo is quoted as its own day. The hiring note covers the address, the kitchen and the five fields; the booking note covers Ironman weeks and east-side days.',
     ],
   },
 };
