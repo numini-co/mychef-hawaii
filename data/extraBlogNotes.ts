@@ -97,8 +97,19 @@ const RAW_EXTRA_BLOG_NOTES: Record<IslandId, UniqueCell[]> = {
       body: [
         'Midday service is a chef day. We will not hide a Kahala lunch under a Ko Olina dinner. Write both, or pick one.',
         'This piece is the stacking honesty.',
+        'What a villa lunch looks like on Oʻahu: a plated or family-style midday table for the house, cooked in your kitchen, served, and cleared before the afternoon. It suits a pool day in Ko Olina, a Kahala family gathering, or a working lunch in a Honolulu residence. Menus are designed per table, with dietary needs written in from the start.',
+        'How it is priced: a lunch is quoted on its own menu draft, or as one of the meals inside a Stay Chef day (from $1,250 a day, groceries at cost with receipts). 20% service and Hawaiʻi GET up to 4.712% print once, as their own lines. We do not tuck a lunch under a dinner as if it were free.',
+        'How to ask: send the five fields on the quote form and write “lunch” in the service. For dinners in your Honolulu house, see [private chef Honolulu](/private-chef); every published band is on [private chef Oahu cost](/pricing).',
       ],
       faqs: [
+        {
+          q: 'Can a private chef cook lunch in our Oahu villa?',
+          a: 'Yes. Lunch is quoted as its own menu, or as a meal inside a Stay Chef day. Send the date and headcount on the quote form.',
+        },
+        {
+          q: 'Can we book lunch and dinner on the same day?',
+          a: 'Yes, as two written lines or as a Stay Chef day. We will not hide one inside the other.',
+        },
         {
           q: 'Lunch and dinner as one unpaid day?',
           a: 'No. Both nights print. Open the quote form — Kahala kitchen.',

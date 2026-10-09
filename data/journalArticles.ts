@@ -78,8 +78,24 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
         'We cook in Honolulu, Waikīkī, Kailua and Lanikai, the North Shore, Kahala and the Gold Coast, and Ko Olina. Hotel suites without a cooktop are declined.',
         'Five fields. No account. No payment to ask. Fifty percent locks the date only after you accept the written total.',
         'When you are ready to book, the [private chef Oahu](/) page has the dinner prices and the Honolulu-to-Ko Olina coverage. Bigger parties with servers are [Oahu catering](/catering).',
+        'Step one is the kitchen, not the menu. Tell us whether the house is a Kahala or Gold Coast home, a Ko Olina villa, a Kailua beach house or a Waikīkī residence, and whether there is a real cooktop, a fridge and a table for the list. A compact galley changes the menu and the crew size. A hotel room with a coffee maker is a no before anyone asks for a deposit.',
+        'Step two is the five fields on the quote form: island, dates, headcount, the service you want, and how to reach you. A menu draft follows within forty-eight hours, designed for that list and that cooktop. Allergies and kids’ plates go in now, not at the pass.',
+        'Step three is the written total. A signature dinner on Oʻahu runs $195–$290 a guest with groceries inside the band; 20% service and Hawaiʻi GET up to 4.712% print once, as their own lines; North Shore travel is a published surcharge. Nothing is booked until you accept that total and fifty percent locks the date.',
+        'Questions in between go to the same desk on WhatsApp or by email. Replies come in Hawaii business hours. For what a Honolulu dinner in your own house looks like hour by hour, see [private chef Honolulu](/private-chef).',
       ],
       faqs: [
+        {
+          q: 'How do I hire a private chef on Oahu?',
+          a: 'Send five fields on the quote form: island, dates, headcount, service and how to reach you. Name the kitchen. You get a menu draft and a written total; fifty percent locks the date once you accept it.',
+        },
+        {
+          q: 'How much notice do you need on Oahu?',
+          a: 'Weeks, not days, in December–March and the September, October and May wedding peaks. A quiet weeknight can sometimes work on shorter notice. Send the date and we answer honestly.',
+        },
+        {
+          q: 'Do I need to pay to get a quote?',
+          a: 'No. The quote is free and written. Payment starts with the deposit, after you accept the total.',
+        },
       ],
       related: [
         { path: '/', label: 'Private chef Oahu' },
@@ -150,8 +166,23 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       body: [
         'Shopping, cooking, service, and cleanup are in. Alcohol, rentals, and venue fees are out — always their own lines on a Kahala or Ko Olina quote.',
         'Service 20% and GET up to 4.712% print beside the dinner band. North Shore travel is a surcharge day — not a surprise in the stack.',
+        'In the price of a signature dinner: menu design for your list, same-day shopping at Honolulu markets, cooking on the cooktop you have, paced table service, and a kitchen left cleaner than we found it. Groceries for that menu sit inside the $195–$290 a guest band; there is no separate grocery line on a dinner.',
+        'Printed as their own lines: alcohol (BYO or quoted), rentals, venue fees, a bartender, North Shore travel, 20% service and Hawaiʻi GET up to 4.712%. Gratuity is voluntary. Freight elevators and building COIs in Waikīkī and Kakaʻako are logistics we arrange, not hidden fees.',
+        'On a Stay Chef week (from $1,250 a day) the model changes: chef fee plus groceries at cost with the original receipts. See [private chef Honolulu](/private-chef) for a dinner hour by hour, or [private chef Oahu cost](/pricing) for every line.',
       ],
       faqs: [
+        {
+          q: 'Are groceries included in an Oahu private chef dinner?',
+          a: 'Yes on a signature dinner — they sit inside the $195–$290 a guest band. On Stay Chef weeks groceries are billed at cost with receipts.',
+        },
+        {
+          q: 'Is cleanup included?',
+          a: 'Yes. The crew leaves the kitchen cleaner than they found it.',
+        },
+        {
+          q: 'Is alcohol included?',
+          a: 'No. It is BYO or quoted as its own line.',
+        },
       ],
       related: [
         { path: '/private-chef', label: 'What’s included' },
@@ -172,8 +203,15 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
         'December–March and wedding peaks (September, October, May) move first on this island. January around the Sony Open week presses hospitality even when HCC citywides are closed.',
         'Gold Coast houses book earlier than a Kailua Tuesday. North Shore is a surcharge day with its own clock. We do not hold a date on a verbal yes.',
         'Five fields. Fifty percent locks the date only after you accept the written total. Far-notice is honesty, not a scarcity stunt.',
+        'A practical rule: request a written quote as soon as the house is on hold. For December–March and the September, October and May wedding peaks, that usually means weeks ahead. Holiday weeks inside the winter peak go first. A Tuesday in Kailua in a quiet month can sometimes be turned around faster.',
+        'What slows a booking down is rarely the chef. It is the building: freight elevator windows and certificates of insurance for Waikīkī and Kakaʻako towers need lead time, so name the property type on the quote form. North Shore and Turtle Bay dinners carry their own drive and their own clock.',
+        'Once you accept the written total, fifty percent locks the date. For a dinner in your Honolulu house, start at [private chef Honolulu](/private-chef); the full card is on [private chef Oahu cost](/pricing).',
       ],
       faqs: [
+        {
+          q: 'How far in advance should I book a private chef on Oahu?',
+          a: 'As soon as the house is on hold — weeks ahead for December–March and the wedding peaks. Quieter weeknights can sometimes work on shorter notice.',
+        },
         {
           q: 'Can you take next Saturday?',
           a: 'Sometimes. Send the date on the quote form. We will not invent a roster.',
@@ -450,8 +488,24 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
         'We cook on both shores — Princeville, Hanalei, Poʻipū and Kapaʻa. Bookings start as an inquiry.',
         'Five fields. We write back with what we can staff. A closed Hanalei bridge moves the night; it does not eat the deposit.',
         'When you are ready to send dates, the [private chef Kauai](/) page has the both-shore prices and the Hanalei weather clause. Staffed parties of ten to seventy-five are [Kauai catering](/catering).',
+        'Kauaʻi starts as an inquiry, so the order matters. First name the shore: Princeville and Hanalei on the north, Poʻipū on the south, or Kapaʻa on the east side. Shore travel is a published zone line off the Līhuʻe base, in a $50–$75 range, and Hāʻena is quote-only with 72-hour notice and a weather and road clause.',
+        'Then tell us the house. A villa or estate with a working range, cold storage and a table for the list is what we cook in. Vacation rentals are fine when the kitchen is real. Hotel rooms without a cooktop are declined.',
+        'Then send the five fields on the inquiry form: island, dates, headcount, service and how to reach you. We write back with what we can staff, not with a fake calendar. When we can staff, the written quote shows a signature dinner at $225–$375 a guest, groceries inside the band, or Date Night for two at a fixed $975–$1,425, plus 20% service and GET up to 4.712% as their own lines.',
+        'For a personal chef at your villa, see [personal chef Kauai](/private-chef). For both shores, prices and the Hanalei weather clause in one place, see [private chef Kauai](/).',
       ],
       faqs: [
+        {
+          q: 'How do I hire a private chef on Kauai?',
+          a: 'Name the shore and the house, then send five fields on the inquiry form. We reply in writing with what we can staff and a written total. Fifty percent locks the date once you accept it.',
+        },
+        {
+          q: 'Is a Kauai private chef bookable instantly?',
+          a: 'No. Kauaʻi is by inquiry. A published band is a starting price, not an instant confirmation.',
+        },
+        {
+          q: 'What happens if the Hanalei bridge closes?',
+          a: 'The night is rescheduled rather than forfeited. The clause is on the quote before you deposit.',
+        },
         {
           q: 'Do you staff every Saturday?',
           a: 'No. We will not hold a fake roster. Send the date.',
@@ -552,8 +606,15 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
         'December–March and wedding peaks (September, October, May) move first when we can staff. Far-North Kauaʻi carries a published 72-hour weather window.',
         'Wedding-week houses on the wedding week page are several nights. We do not hold a fake instant-booking button. Five fields. We write back with what we can staff.',
         'A closed Hanalei bridge moves the night; it does not eat the deposit. Far-notice is honesty, not a scarcity stunt.',
+        'Because Kauaʻi is by inquiry, earlier is better: it gives us time to staff the shore you are on. Send dates as soon as the villa is on hold, especially for December–March and the September, October and May wedding peaks.',
+        'Far-North dinners toward Hāʻena need at least 72 hours’ notice and carry a weather and road clause. Wedding weeks with several nights should come in as one inquiry so the crew is planned across the week.',
+        'For the prices and the Hanalei clause in one place, see [private chef Kauai](/); every line is on [private chef Kauai cost](/pricing).',
       ],
       faqs: [
+        {
+          q: 'How far ahead should I enquire for a Kauai private chef?',
+          a: 'As soon as the villa is on hold. Far-North dinners need at least 72 hours’ notice; peak months and wedding weeks need more.',
+        },
         {
           q: 'Do you staff every Saturday?',
           a: 'No. Send the date on the quote form. We will not invent a roster.',
@@ -642,8 +703,20 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
         'We cook on the west side first — Kailua-Kona, Keauhou, Waimea, Waikoloa and the Kohala Coast.',
         'Five fields. We write back with what we can staff. Adding a Hilo lunch after a Kona dinner is a second day.',
         'When you are ready to send dates, the [private chef Big Island](/) page has the Kona–Kohala prices and the ENTRY and CORE bands. Staffed parties are [Big Island catering](/catering).',
+        'Start with the address. Kona, Keauhou, Waikoloa and the Kohala Coast are the base zone. Waimea and Hāmākua carry a published surcharge. Hilo and the east side are a dedicated day with their own travel line, never folded into a Kona night.',
+        'Then the kitchen: a working range, cold storage and a table for the list. Waikoloa condos and Airbnb kitchens are fine when they actually cook. Hotel rooms without a cooktop are declined before a deposit.',
+        'Then the five fields on the inquiry form: island, dates, headcount, service and how to reach you. When we can staff, the written quote shows CORE $210–$325 a guest or ENTRY from $165, groceries inside the band, with 20% service and Hawaiʻi GET up to 4.712% printed once. Ironman weeks are possible with compressed availability; flag those dates early.',
+        'For a villa dinner in Kona or on the Kohala Coast, see [private chef Kona](/private-chef). The full card is on [private chef Big Island cost](/pricing).',
       ],
       faqs: [
+        {
+          q: 'How do I hire a private chef on the Big Island?',
+          a: 'Send the west-side address and five fields on the inquiry form. We reply in writing with what we can staff and a total; fifty percent locks the date once you accept it.',
+        },
+        {
+          q: 'Can one chef cover Kona and Hilo on the same day?',
+          a: 'No. The east side is 2.5–3 hours away and is quoted as a dedicated day.',
+        },
         {
           q: 'Are you are on the west side?',
           a: 'Inquiry. We crew when we can staff. Send the address.',
@@ -745,8 +818,15 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
         'December–March and wedding peaks (September, October, May) move first when we can staff. Ironman weeks change access — not a marketing slogan.',
         'East side is a dedicated day, not a same-day Kona–Hilo fantasy. Five fields. We write back with what we can staff. We do not hold a fake instant-booking button.',
         'Far-notice is honesty, not a scarcity stunt. Adding a Hilo lunch after a Kona dinner is a second day.',
+        'Send dates as soon as the villa is on hold. December–March, the September, October and May wedding peaks, and Ironman weeks in Kona compress crew days first. Ironman is possible with compressed availability; flag those dates early rather than the week of the race.',
+        'If the stay crosses to Hilo or the east side, send both dates in one inquiry. The east side is a dedicated day with its own travel line, so it needs its own slot on the calendar.',
+        'For Kona and Kohala villa dinners, see [private chef Kona](/private-chef); every line is on [private chef Big Island cost](/pricing).',
       ],
       faqs: [
+        {
+          q: 'How early should I book for Ironman week in Kona?',
+          a: 'As early as you can. We take Ironman week with compressed availability; flag the dates on the inquiry form when the villa is on hold.',
+        },
         {
           q: 'Can you take next Saturday in Hilo after Kona?',
           a: 'Not the same day. Send both dates on the quote form.',
@@ -770,8 +850,19 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       body: [
         'A restaurant is a room you do not have. We cook in a Kona or Waikoloa kitchen, then leave it cleaner than we found it — when we can staff. If you want a dining room we do not own, book a restaurant. East side is a dedicated day.',
         'We do not hold restaurant tables. We do not walk a party into a resort restaurant as a “chef night.” Open the what-we-don’t-do list. A band is not an instant-booking button.',
+        'The honest comparison is the evening, not the plate. In the house there is no drive back along Queen Kaʻahumanu Highway after dinner, no split checks, and kids can leave the table when they are done. Dietary needs are designed into the menu before the night instead of negotiated with a server.',
+        'The price compares differently too. A west-side villa dinner runs CORE $210–$325 a guest, groceries inside the band, with 20% service and Hawaiʻi GET up to 4.712% on their own lines. That number covers shopping, cooking, service and cleanup in your kitchen. Alcohol is BYO or quoted, so the wine list is yours.',
+        'A restaurant still wins when you want a room, a view you do not have, or a last-minute table. A chef in the house wins for a group, a celebration or a week of dinners. For a villa dinner in Kona or Kohala, see [private chef Kona](/private-chef); every line is on [private chef Big Island cost](/pricing).',
       ],
       faqs: [
+        {
+          q: 'Is a private chef more expensive than a restaurant on the Big Island?',
+          a: 'It depends on the group. CORE is $210–$325 a guest including groceries, cooking, service and cleanup in your villa; service and GET are added once. Alcohol is BYO, which often closes the gap.',
+        },
+        {
+          q: 'Can a private chef handle allergies better than a restaurant?',
+          a: 'Allergies and dietary needs are designed into the menu before the night, with the crew, not swapped at the pass.',
+        },
         {
           q: 'Can you book us a restaurant?',
           a: 'No. We cook in the house, when we can staff. Open the quote form — Waikoloa kitchen. Hilo is never implied.',
