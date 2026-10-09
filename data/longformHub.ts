@@ -129,6 +129,10 @@ export const hubCateringFaqs: CopyFaq[] = [
     q: 'Oʻahu and Maui versus Kauaʻi and the Big Island?',
     a: 'Oʻahu and Maui take a written quote now. Kauaʻi and Hawaiʻi Island are by inquiry only — join the list with dates and shore. Starting prices are still published on every island.',
   },
+  {
+    q: 'Where do I find island catering menus?',
+    a: 'Staffing rules and the quote process stay on this page. Plated menus do not. [Maui Catering Menus](maui:/catering) owns Wailea, Kīhei, and West Maui. [Oʻahu catering](oahu:/catering) owns Honolulu through Ko Olina. [Kauaʻi catering](kauai:/catering) owns staffed events in Princeville, Hanalei, and Poʻipū. A Kauaʻi dinner under about ten guests starts on [private chef Kauaʻi](kauai:/), not as catering. [Big Island catering](bigisland:/catering) owns Kona and Kohala menus. Send dates on the [quote form](/quote) or WhatsApp https://wa.me/18084687748.',
+  },
 ];
 
 export const hubWeddingsSections: CopySection[] = [
@@ -210,6 +214,14 @@ export const hubWeddingsFaqs: CopyFaq[] = [
   {
     q: 'Is this a hotel banquet kitchen?',
     a: 'No. Wedding catering Hawaii here is a villa or estate week. Ballrooms and convention holds are a different industry.',
+  },
+  {
+    q: 'Wedding-week Stay Chef or one reception — which do we book?',
+    a: 'Book one reception on the island wedding page when that is the only meal: [Maui weddings](maui:/weddings), [Oʻahu weddings](oahu:/weddings), [Kauaʻi weddings](kauai:/weddings), or [Big Island weddings](bigisland:/weddings). Stay Chef is the villa kitchen on the other days — from $1,250 a day on Oʻahu, $1,550 on Maui, $1,650 on Kauaʻi, $1,450 on Hawaiʻi Island — groceries at cost with receipts, not a second reception. 20% service and Hawaiʻi GET up to 4.712% are separate lines either way. Send the dates on the [quote form](/quote) or WhatsApp https://wa.me/18084687748.',
+  },
+  {
+    q: 'Can wedding guests move islands the same day, and what locks the date?',
+    a: 'Guests can fly. The crew cannot cook two islands on the same day — no same-day inter-island kitchen. Each reception stays on that island’s wedding page. A menu preview, if you want one, is its own quoted dinner, not a free tasting inside the reception. The date locks after you accept the written total and pay the 50% deposit. That total lists food, servers at $80 an hour, a sous-chef at $105, 20% service, and Hawaiʻi GET up to 4.712%. Gratuity is never required. Start on the [quote form](/quote).',
   },
 ];
 

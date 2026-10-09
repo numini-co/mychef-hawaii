@@ -7,6 +7,7 @@ import { QuoteCta } from '@/components/Cta';
 import Eyebrow from '@/components/Eyebrow';
 import Hero from '@/components/Hero';
 import HostLink from '@/components/HostLink';
+import InlineText from '@/components/InlineText';
 import JsonLd from '@/components/JsonLd';
 import LineReveal from '@/components/LineReveal';
 import { Longform, SiblingCluster } from '@/components/Longform';
@@ -41,7 +42,7 @@ const TIER_LABEL: Record<RateTier, string> = {
 const faqs = [
   {
     q: 'How much does a private chef cost in Hawaii?',
-    a: 'Oʻahu Signature $195–$290 a guest. Maui and Kauaʻi $225–$375. Hawaiʻi Island Signature $210–$325, Table from $165. Stay Chef day rates from $1,250 Oʻahu / $1,550 Maui / $1,650 Kauaʻi / $1,450 Hawaiʻi Island. Written quote before you commit.',
+    a: 'Oʻahu Signature $195–$290 a guest. Maui and Kauaʻi $225–$375. Hawaiʻi Island Signature $210–$325, Table from $165. Stay Chef day rates from $1,250 Oʻahu / $1,550 Maui / $1,650 Kauaʻi / $1,450 Hawaiʻi Island. 20% service and Hawaiʻi GET up to 4.712% print after the band. The written quote is the total before you commit.',
   },
   {
     q: 'Private chef Hawaii cost — what is actually on the quote?',
@@ -58,6 +59,18 @@ const faqs = [
   {
     q: 'What is added on the quote?',
     a: 'A 20% service charge and Hawaiʻi GET up to 4.712% are added as their own lines. A 50% deposit locks the date. Gratuity is always voluntary.',
+  },
+  {
+    q: 'Which island pricing page has the band for my house?',
+    a: 'Open the island where the house is. [Oʻahu pricing](oahu:/pricing): Signature $195–$290 a guest, Stay Chef from $1,250. [Maui pricing](maui:/pricing): $225–$375, Stay Chef from $1,550. [Kauaʻi pricing](kauai:/pricing): $225–$375, Stay Chef from $1,650, by inquiry. [Hawaiʻi Island pricing](bigisland:/pricing): Signature $210–$325, Table from $165, Stay Chef from $1,450, by inquiry. 20% service and Hawaiʻi GET up to 4.712% print after each band.',
+  },
+  {
+    q: 'What is included in Signature, and what is a Stay Chef day?',
+    a: 'Signature is one dinner: menu, same-day shopping, cooking, table service, and a clean kitchen. Grocery procurement sits inside the per-guest band — Oʻahu $195–$290, Maui and Kauaʻi $225–$375, Hawaiʻi Island $210–$325, Table from $165. It is not priced as groceries at cost. Stay Chef is the daily chef fee — from $1,250 on Oʻahu, $1,550 on Maui, $1,650 on Kauaʻi, $1,450 on Hawaiʻi Island — plus groceries at cost with receipts. Both add 20% service and Hawaiʻi GET up to 4.712% as separate lines.',
+  },
+  {
+    q: 'When should I use the quote form instead of the published band?',
+    a: 'When the island, the dates, and the headcount are real. The band is the published start. The written quote is the number you accept: food, then 20% service and Hawaiʻi GET up to 4.712% on their own lines, then a 50% deposit to lock the date. Gratuity is never required. Kauaʻi and Hawaiʻi Island stay inquiry. Use the [quote form](/quote), quotes@mychef-hawaii.com, or WhatsApp https://wa.me/18084687748. No payment to ask.',
   },
 ];
 
@@ -258,7 +271,9 @@ export default function PricingView({ related }: { related?: ReactNode } = {}) {
                   </Accordion.Trigger>
                 </Accordion.Header>
                 <Accordion.Content>
-                  <p className="pb-6 text-[17px] leading-relaxed text-mute">{f.a}</p>
+                  <p className="pb-6 text-[17px] leading-relaxed text-mute">
+                    <InlineText text={f.a} />
+                  </p>
                 </Accordion.Content>
               </Accordion.Item>
             ))}

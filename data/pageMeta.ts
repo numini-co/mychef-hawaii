@@ -58,7 +58,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/pricing': {
     title: 'Private Chef & Catering Prices in Hawaii | myCHEF',
     description:
-      'Published starting prices, line by line: per guest, what’s included, groceries at cost, 20% service, GET. Quote in writing.',
+      'Chef prices by island in USD. Oʻahu $195–$290 a guest. Maui and Kauaʻi $225–$375. Hawaiʻi Island $210–$325. 20% service and GET up to 4.712%.',
   },
   '/quote': {
     title: 'Get a quote — myCHEF Hawaii',
