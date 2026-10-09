@@ -195,7 +195,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     h1: 'Private chef Kauai — both shores, by inquiry.',
     title: 'Private Chef Kauai | Villa Chefs on Both Shores | myCHEF',
     description:
-      'Private chef Kauai from $225 a guest — a personal chef for villa dinners in Princeville, Hanalei and Poʻipū. By inquiry: send dates and shore for a written reply.',
+      'Private chef Kauai from $225 a guest: villa dinners in Princeville, Hanalei and Poʻipū, shopping and cleanup included. By inquiry, with a written reply.',
     lede:
       'Private chef Kauai on the Garden Isle — a personal chef for Princeville, Poʻipū and Hanalei villas. Both shores, by inquiry, from $225 a guest. Send your dates.',
     fromPp: 225,

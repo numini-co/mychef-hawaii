@@ -431,7 +431,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/kauai': {
     title: 'Private Chef Kauai | Villa Chefs on Both Shores | myCHEF',
     description:
-      'Private chef Kauai from $225 a guest — a personal chef for villa dinners in Princeville, Hanalei and Poʻipū. By inquiry: send dates and shore for a written reply.',
+      'Private chef Kauai from $225 a guest: villa dinners in Princeville, Hanalei and Poʻipū, shopping and cleanup included. By inquiry, with a written reply.',
   },
   '/bigisland': {
     title: 'Private Chef Big Island | Kona & Kohala Villas | myCHEF',
