@@ -38,6 +38,7 @@ import { islandAreas } from '@/data/islandAreas';
 import { islandContact } from '@/data/islandContact';
 import { DESK_EMAIL, DESK_MAILTO, DESK_PHONE_DISPLAY, DESK_PHONE_E164, DESK_TEL } from '@/lib/contact';
 import { canonicalUrl } from '@/lib/site';
+import { cateringAnchor, costAnchor, homeAnchor, ISLAND_PLAIN, PRIVATE_CHEF_PAGE_ANCHOR } from '@/lib/ownerAnchors';
 import { islandTrust } from '@/data/islandTrust';
 import { islandServiceIndex, SERVICE_INDEX_LINKS } from '@/data/islandServiceIndex';
 import { islandHelpIndex } from '@/data/islandHelpIndex';
@@ -878,6 +879,22 @@ export function IslandEditorialView({
         <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink">{copy.lede}</p>
       </Hero>
       <Longform sections={[{ h2: copy.kicker, paras: copy.body }]} />
+      <nav aria-label={`Plan a ${ISLAND_PLAIN[islandId]} dinner`} className="border-t border-line bg-paper py-10">
+        <div className="mx-auto flex w-full max-w-container flex-wrap items-baseline gap-x-6 gap-y-2 px-5 text-[15px] lg:px-10">
+          <span className="text-mute">Ready to plan?</span>
+          {[
+            { path: '/', label: homeAnchor(islandId) },
+            { path: '/private-chef', label: PRIVATE_CHEF_PAGE_ANCHOR[islandId] },
+            { path: '/pricing', label: costAnchor(islandId) },
+            { path: '/catering', label: islandId === 'oahu' ? 'Oahu and Honolulu catering' : cateringAnchor(islandId) },
+            { path: '/weddings', label: `Wedding catering ${ISLAND_PLAIN[islandId]}` },
+          ].map((l) => (
+            <HostLink key={l.path} island={islandId} path={l.path} className="text-ink underline underline-offset-4">
+              {l.label}
+            </HostLink>
+          ))}
+        </div>
+      </nav>
       <DocumentPhotoGrid
         islandId={islandId}
         eyebrow={islands[islandId].name}

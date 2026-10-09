@@ -41,6 +41,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     kicker: 'Maui · Blog',
     photo: 'blogMaui',
     body: [
+      'Short posts from Wailea, Kīhei and West Maui kitchens: breakfast and lunch in the villa, cleanup, groceries at cost, and what goes on the written quote. The longer notes, including the Maui price guide, live in the journal.',
     ],
   },
   kauai: {
