@@ -75,7 +75,7 @@ export const hubCateringSections: CopySection[] = [
     paras: [
       'Hawaii catering, here, means a staffed villa or estate — not a ballroom, not a drop-off tray, not a convention centre. Ten to seventy-five guests. We shop, cook, and serve in the house you actually have. Buffet, plated, family-style, or grazing. The food band is the island signature card. Staffing is itemised.',
       'Statewide starting prices: from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island (ENTRY from $165). Wedding-week formats add welcome dinner, rehearsal, reception, and recovery brunch as separate lines. The confirmed total is the written quote: food, staffing, 20% service, GET up to 4.712%, 50% deposit.',
-      'Pick the island where the house is — each island page carries its own menus, prices and local drives: [Oahu catering](oahu:/catering) for Honolulu, Kahala and Ko Olina; [Maui catering](maui:/catering) for Wailea, Kīhei and West Maui; [Kauai catering](kauai:/catering) for Princeville, Hanalei and Poʻipū; and [Big Island catering](bigisland:/catering) for Kona and the Kohala Coast.',
+      'Pick the island where the house is — each island page carries its own menus, prices and local drives: [Oahu catering](oahu:/catering) (including Honolulu catering) for Kahala and Ko Olina; [Maui catering](maui:/catering) for Wailea, Kīhei and West Maui; [Kauai catering](kauai:/catering) for Princeville, Hanalei and Poʻipū; and [Big Island catering](bigisland:/catering) for Kona and the Kohala Coast.',
     ],
   },
   {

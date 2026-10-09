@@ -450,7 +450,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/oahu/catering': {
     title: 'Oahu Catering | Honolulu to Ko Olina Events | myCHEF',
     description:
-      'Oahu catering from $195 a guest — staffed villa and estate events from Honolulu and Kahala to Ko Olina, 10–75 guests. Buffet or plated. Request a quote.',
+      'Oahu catering and Honolulu catering from $195 a guest — staffed villa and estate events from Honolulu and Kahala to Ko Olina, 10–75 guests. Buffet or plated. Request a quote.',
   },
   '/oahu/weddings': {
     title: 'Wedding Catering Oahu | Gold Coast Weekends | myCHEF',
