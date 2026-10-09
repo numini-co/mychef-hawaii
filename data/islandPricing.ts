@@ -22,10 +22,10 @@ export interface IslandPricingPage {
 
 export const islandPricing: Record<IslandId, IslandPricingPage> = {
   oahu: {
-    h1: 'Town and west CORE bands — $195–$290 a guest. Stay Chef from $1,250.',
-    title: 'Oahu Private Chef Prices — Stay Chef from $1,250 | myCHEF',
+    h1: 'Oahu private chef cost — CORE $195–$290 a guest, Stay Chef from $1,250.',
+    title: 'Oahu Private Chef Cost | $195–$290 a Guest | myCHEF',
     description:
-      'Oʻahu town and west CORE $195–$290 a guest. Stay Chef from $1,250 a day. Date Night from $675. Service and GET print after the band.',
+      'What a private chef costs on Oahu: $195–$290 a guest with groceries inside, Date Night from $675, Stay Chef from $1,250 a day. Service and GET itemized.',
     lede:
       'USD. Line by line. CORE $195–$290 a guest. Stay Chef from $1,250 a day. The written quote is the confirmed total.',
     kicker: 'Oʻahu · Rate card',
@@ -55,10 +55,10 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
     ],
   },
   maui: {
-    h1: 'Wailea and West Maui villa-week bands — $225–$375 a guest.',
-    title: 'Maui villa-week bands — Wailea & West from $225 | myCHEF',
+    h1: 'Maui private chef cost — Wailea and West Maui, $225–$375 a guest.',
+    title: 'Maui Private Chef Cost | Wailea & West Maui Rates | myCHEF',
     description:
-      'Maui villa-week CORE $225–$375 a guest. Stay Chef from $1,550 a day. Upcountry and West Maui travel print as their own lines.',
+      'What a private chef costs on Maui: $225–$375 a guest with groceries inside, Stay Chef from $1,550 a day. 20% service and GET print as their own lines.',
     lede:
       'USD. Line by line. CORE $225–$375 a guest. Stay Chef from $1,550 a day. Saturday West Maui traffic is planned into arrival, not hidden in the band.',
     kicker: 'Maui · Rate card',
@@ -87,10 +87,10 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
     ],
   },
   kauai: {
-    h1: 'Inquiry bands on both shores — $225–$375 a guest. Not instant booking.',
-    title: 'Kauaʻi inquiry rate card — both shores, $225–$375 | myCHEF',
+    h1: 'Kauai private chef cost — $225–$375 a guest on both shores, by inquiry.',
+    title: 'Kauai Private Chef Cost | Both-Shore Rate Card | myCHEF',
     description:
-      'Kauaʻi inquiry CORE $225–$375 a guest. Stay Chef from $1,650 a day. Date Night $975–$1,425. Both-shore travel prints. A published band is not instant booking.',
+      'What a private chef costs on Kauaʻi: $225–$375 a guest, Date Night $975–$1,425, Stay Chef from $1,650 a day. By inquiry, with every fee itemized.',
     lede:
       'USD. Line by line. CORE $225–$375 a guest — Maui-class. Stay Chef from $1,650 a day. Inquiry: a band is not a live instant-booking button.',
     kicker: 'Kauaʻi · Rate card',
@@ -120,10 +120,10 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
     ],
   },
   bigisland: {
-    h1: 'West-side first: CORE $210–$325. Stay Chef inquiry from $1,450.',
-    title: 'West-side rate card — Kona–Kohala CORE $210–$325 | myCHEF',
+    h1: 'Big Island private chef cost — Kona–Kohala CORE $210–$325 a guest.',
+    title: 'Big Island Private Chef Cost | Kona–Kohala Rates | myCHEF',
     description:
-      'West-side Hawaiʻi Island CORE $210–$325 a guest. Stay Chef inquiry from $1,450 a day. ENTRY from $165. Hilo is a dedicated day, never a Kona round trip.',
+      'What a private chef costs on the Big Island: ENTRY from $165, CORE $210–$325 a guest, Stay Chef from $1,450 a day. Hilo is quoted as its own day.',
     lede:
       'USD. Line by line. CORE $210–$325 a guest. Stay Chef from $1,450 a day. West-side first. Hilo is not a west-side round trip.',
     kicker: 'Hawaiʻi Island · Rate card',

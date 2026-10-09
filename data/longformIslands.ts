@@ -58,7 +58,7 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
     faqs: [
       {
         q: 'How much is a private chef in Honolulu?',
-        a: 'Signature $195–$290 a guest, groceries inside that band. Date Night from $675. Stay Chef from $1,250 a day, groceries at cost with receipts. Weekly personal-chef service from $450 plus groceries at cost. On Oʻahu the add-ons are 20% service and GET to 4.712%, each as its own line. A tip is never required. Request a written quote on the quote form.',
+        a: 'Signature $195–$290 a guest, groceries inside that band. Date Night from $675. Stay Chef from $1,250 a day, groceries at cost with receipts. Weekly personal-chef service from $450 plus groceries at cost. On Oʻahu the add-ons are 20% service and GET to 4.712%, each as its own line. A tip is never required. Request a written quote on the quote form. The full card is on [private chef Oahu cost](/pricing); a dinner in your Honolulu house is [private chef Honolulu](/private-chef).',
       },
       {
         q: 'Private chef or personal chef on Oahu — which do I need?',
@@ -158,7 +158,7 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
     faqs: [
       {
         q: 'What do I actually pay for a Maui villa chef?',
-        a: 'The Maui signature band is $225–$375 a guest, groceries inside that band. Date Night from $750+. Stay Chef from $1,550 a day, groceries at cost with receipts. Service 20% and GET to 4.712% print separately. Upcountry surcharge from $75. Peak Dec–Mar books first. Request a written quote on the quote form.',
+        a: 'The Maui signature band is $225–$375 a guest, groceries inside that band. Date Night from $750+. Stay Chef from $1,550 a day, groceries at cost with receipts. Service 20% and GET to 4.712% print separately. Upcountry surcharge from $75. Peak Dec–Mar books first. Request a written quote on the quote form. Every line is on [private chef Maui cost](/pricing).',
       },
       {
         q: 'Do you cook in a vacation rental?',
@@ -198,7 +198,7 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
       },
       {
         q: 'Personal chef or private chef in Maui — which do I need?',
-        a: 'A private chef is one dinner in the villa. A Maui personal chef is the stay: Stay Chef from $1,550 a day, groceries at cost with receipts. Those grocery models never blend. 20% service and Hawaiʻi GET up to 4.712% print after either line. A 50% deposit holds the date. Gratuity is never required. Say villa week or single night on [the quote form](/quote). The lines are on [Maui private chef prices](/pricing). Desk: quotes@mychef-hawaii.com, +1 808 468 7748, WhatsApp https://wa.me/18084687748.',
+        a: 'A private chef is one dinner in the villa. A Maui personal chef is the stay: Stay Chef from $1,550 a day, groceries at cost with receipts. Those grocery models never blend. 20% service and Hawaiʻi GET up to 4.712% print after either line. A 50% deposit holds the date. Gratuity is never required. Say villa week or single night on [the quote form](/quote). The lines are on [Maui private chef prices](/pricing). Desk: quotes@mychef-hawaii.com, +1 808 468 7748, WhatsApp https://wa.me/18084687748. The villa-dinner page is [personal chef Maui](/private-chef).',
       },
       {
         q: 'Do Maui villa weeks come with guest-review counts?',
@@ -255,7 +255,7 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
     faqs: [
       {
         q: 'How much does a private chef on Kauai cost?',
-        a: 'The Kauaʻi signature band is $225–$375 a guest. Date Night $975–$1,425. Stay Chef from $1,650 a day with groceries at cost. Wedding formats from $260 a guest plus staffing. Service 20% and GET to 4.712% after the food. A tip is never silent and never required.',
+        a: 'The Kauaʻi signature band is $225–$375 a guest. Date Night $975–$1,425. Stay Chef from $1,650 a day with groceries at cost. Wedding formats from $260 a guest plus staffing. Service 20% and GET to 4.712% after the food. A tip is never silent and never required. Every line is on [private chef Kauai cost](/pricing).',
       },
       {
         q: 'Princeville or Poʻipū — is the food band different?',
@@ -344,7 +344,7 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
     faqs: [
       {
         q: 'How much is a private chef on the Big Island?',
-        a: 'West-side CORE is $210–$325 a guest. ENTRY opens from $165. Date Night from $825. Stay Chef inquiry from $1,450 a day. 20% service and Hawaiʻi GET up to 4.712% print after the food, never inside it. East side is not that band — it is a dedicated day.',
+        a: 'West-side CORE is $210–$325 a guest. ENTRY opens from $165. Date Night from $825. Stay Chef inquiry from $1,450 a day. 20% service and Hawaiʻi GET up to 4.712% print after the food, never inside it. East side is not that band — it is a dedicated day. Every line is on [private chef Big Island cost](/pricing); Kona villa dinners are on [private chef Kona](/private-chef).',
       },
       {
         q: 'What is ENTRY versus CORE on the Big Island?',

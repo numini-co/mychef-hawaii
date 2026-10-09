@@ -47,6 +47,14 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
     ],
     faqs: [
       {
+        q: 'How much does a private chef in Honolulu cost?',
+        a: 'A signature dinner in a Honolulu, Waikīkī or Kahala kitchen runs $195–$290 USD a guest, groceries inside that band. Date Night for two is from $675. Stay Chef for the week is from $1,250 a day with groceries at cost. 20% service and Hawaiʻi GET up to 4.712% print once, as their own lines. The full card is on [private chef Oahu cost](/pricing); island-wide towns are on [private chef Oahu](/).',
+      },
+      {
+        q: 'Is a personal chef in Honolulu the same as a private chef?',
+        a: 'For a dinner in your house, yes: one crew designs the menu, shops the same day, cooks, serves and cleans. A standing weekly cook for Honolulu residents is a different line, on the personal chef page. Staffed parties of ten to seventy-five are [Honolulu catering](/catering).',
+      },
+      {
         q: 'What is included in an Oʻahu villa dinner?',
         a: 'Menu design, same-day shopping, cooking, table service, and cleanup. Groceries inside the $195–$290 USD CORE band on a signature night. The 20% service line and GET up to 4.712% are added once, not folded into the fish. Alcohol, rentals, and venue fees are add-ons. Start on the quote form.',
       },
@@ -117,6 +125,10 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
     ],
     faqs: [
       {
+        q: 'How much does a personal chef on Maui cost?',
+        a: 'A signature villa dinner on Maui runs $225–$375 USD a guest, with groceries inside the band. A personal chef for the whole stay is Stay Chef, from $1,550 a day with groceries at cost on receipts. 20% service and GET up to 4.712% print as their own lines. The full card is on [private chef Maui cost](/pricing); towns from Wailea to Kapalua are on [private chef Maui](/).',
+      },
+      {
         q: 'What do I actually pay for a Maui villa dinner?',
         a: 'CORE $225–$375 USD a guest on a signature night, groceries included in that band. Stay Chef groceries at cost with receipts. Maui quotes add 20% service and GET up to 4.712% as separate lines.',
       },
@@ -183,6 +195,10 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
     ],
     faqs: [
       {
+        q: 'How much is a personal chef on Kauai?',
+        a: 'Kauaʻi is by inquiry. Signature dinners are $225–$375 USD a guest, Date Night for two is a fixed $975–$1,425, and Stay Chef for the week is from $1,650 a day with groceries at cost. Shore travel, 20% service and GET print as separate lines. See [private chef Kauai cost](/pricing) for the card and [private chef Kauai](/) for both shores.',
+      },
+      {
         q: 'What is included in a Kauaʻi villa dinner?',
         a: 'Menu, same-day shopping, cooking, service, cleanup. CORE $225–$375 USD a guest on a signature night. Kauaʻi quotes add 20% service and GET as their own lines. Shores carry a published drive line. Start on the quote form.',
       },
@@ -248,6 +264,10 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
       },
     ],
     faqs: [
+      {
+        q: 'How much does a private chef in Kona cost?',
+        a: 'West-side dinners in Kona, Waikoloa and on the Kohala Coast run CORE $210–$325 USD a guest, ENTRY from $165. Stay Chef is from $1,450 a day with groceries at cost. 20% service and Hawaiʻi GET up to 4.712% print after the food. By inquiry. The card is on [private chef Big Island cost](/pricing); the whole island is on [private chef Big Island](/).',
+      },
       {
         q: 'What is included in a Kohala or Kona villa dinner?',
         a: 'Menu, west-side shopping, cooking, service, cleanup. CORE $210–$325 USD a guest. ENTRY from $165. The 20% service line and GET sit beside the food, not inside it. Start on the quote form.',

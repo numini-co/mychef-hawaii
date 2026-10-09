@@ -48,7 +48,7 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
   maui: {
     keyword: 'maui catering',
     volume: CATERING_VOLUMES['maui catering'],
-    h1: 'Maui catering — staffed villa events, not drop-off.',
+    h1: 'Maui catering menus — staffed villa events, not drop-off.',
     title: 'Maui Catering Menus | Villa Receptions & Events | myCHEF',
     description:
       'Sample Maui catering menus for villa events of 10–75 guests — buffet, plated, or family-style in Wailea and West Maui. The menu is written for that house.',
@@ -80,9 +80,9 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     keyword: 'big island catering',
     volume: CATERING_VOLUMES['big island catering'],
     h1: 'Big Island catering — Kona and Kohala Coast villa events.',
-    title: 'Big Island Catering | Kona & Kohala Villa Events | myCHEF',
+    title: 'Big Island Catering | Hawaii Island, Kona & Kohala | myCHEF',
     description:
-      'Big Island catering from $210 a guest — staffed Kona and Kohala Coast villa receptions, buffet or plated. Inquiry stage; ask for a written quote.',
+      'Big Island catering from $210 a guest: staffed Hawaiʻi Island villa and estate events in Kona and on the Kohala Coast, 10–75 guests, buffet or plated.',
     lede:
       'Big Island catering on Hawaiʻi Island (the Big Island): staffed villa events on the Kona–Kohala Coast, buffet or plated, from $210 a guest. Kona catering included; Hilo is quoted as its own day.',
     fromPp: 210,
