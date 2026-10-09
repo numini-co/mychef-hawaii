@@ -2274,6 +2274,135 @@ if (!/Oʻahu catering menus/.test(cateringSrc) || !/Maui catering menus/.test(ca
   errors.push('hub catering menu FAQ lost descriptive island anchors');
 }
 
+{
+  function exportChunk(src, name) {
+    const at = src.indexOf(`export const ${name}`);
+    if (at < 0) return '';
+    const rest = src.slice(at + 1);
+    const next = rest.search(/\nexport const /);
+    return next < 0 ? src.slice(at) : src.slice(at, at + 1 + next);
+  }
+  const hubCaterPairs = [
+    ...faqPairs(cateringSrc.slice(cateringSrc.indexOf('export const HUB_CATERING'))),
+    ...faqPairs(exportChunk(longHubSrc, 'hubCateringFaqs')),
+  ];
+  if (hubCaterPairs.length < 8) {
+    errors.push(`hub/catering FAQ expected ≥8 questions, found ${hubCaterPairs.length}`);
+  }
+  if (new Set(hubCaterPairs.map((p) => p.q)).size !== hubCaterPairs.length) {
+    errors.push('hub/catering FAQ questions are not unique');
+  }
+  const menuRoute = hubCaterPairs.find((p) => p.q === 'Where do I find island catering menus?');
+  if (!menuRoute) {
+    errors.push('hub/catering missing Where do I find island catering menus?');
+  } else {
+    const need = ['maui:/catering', 'oahu:/catering', 'kauai:/catering', 'bigisland:/catering', 'kauai:/)', '/quote', 'wa.me/18084687748', 'Maui Catering Menus'];
+    for (const bit of need) {
+      if (!menuRoute.a.includes(bit)) errors.push(`hub/catering island-menu FAQ missing ${bit}`);
+    }
+    if (/ahi poke|kanpachi|haupia/i.test(menuRoute.a)) {
+      errors.push('hub/catering island-menu FAQ reprints a plated menu');
+    }
+  }
+  const caterBlob = hubCaterPairs.map((p) => `${p.q} ${p.a}`).join('\n');
+  if (/tel:\+971|\+971/.test(caterBlob)) errors.push('hub/catering FAQ introduced +971');
+  if (/AggregateRating|hub H1|Live dinner doors|\bcorridor\b/.test(caterBlob)) {
+    errors.push('hub/catering FAQ used banned schema or jargon');
+  }
+
+  const hubWeddingPairs = faqPairs(exportChunk(longHubSrc, 'hubWeddingsFaqs'));
+  if (hubWeddingPairs.length < 8) {
+    errors.push(`hub/weddings FAQ expected ≥8 questions, found ${hubWeddingPairs.length}`);
+  }
+  if (new Set(hubWeddingPairs.map((p) => p.q)).size !== hubWeddingPairs.length) {
+    errors.push('hub/weddings FAQ questions are not unique');
+  }
+  const weddingBlob = hubWeddingPairs.map((p) => `${p.q} ${p.a}`).join('\n');
+  for (const bit of ['maui:/weddings', 'oahu:/weddings', 'kauai:/weddings', 'bigisland:/weddings', '/quote', 'wa.me/18084687748']) {
+    if (!weddingBlob.includes(bit)) errors.push(`hub/weddings FAQ missing ${bit}`);
+  }
+  if (!/no same-day inter-island/i.test(weddingBlob)) {
+    errors.push('hub/weddings FAQ lost same-day inter-island honesty');
+  }
+  if (!/\$1,250/.test(weddingBlob) || !/\$1,550/.test(weddingBlob) || !/\$1,650/.test(weddingBlob) || !/\$1,450/.test(weddingBlob)) {
+    errors.push('hub/weddings FAQ dropped Stay Chef day rates');
+  }
+  if (!/\$80/.test(weddingBlob) || !/\$105/.test(weddingBlob)) {
+    errors.push('hub/weddings FAQ dropped catering staffing rates');
+  }
+  if (/tel:\+971|\+971/.test(weddingBlob)) errors.push('hub/weddings FAQ introduced +971');
+  if (/AggregateRating|hub H1|Live dinner doors|\bcorridor\b/.test(weddingBlob)) {
+    errors.push('hub/weddings FAQ used banned schema or jargon');
+  }
+  for (const p of hubWeddingPairs) {
+    if (/\$/.test(p.a) && (!/20%/.test(p.a) || !/4\.712%/.test(p.a))) {
+      errors.push(`hub/weddings price FAQ missing 20% service or GET: “${p.q}”`);
+    }
+  }
+  const islandWeddingPairs = faqPairs(read('data/longformWeddings.ts'));
+  const multiPairs = faqPairs(read('data/hubQuote.ts').slice(read('data/hubQuote.ts').indexOf('export const hubMultiQuoteFaqs')));
+  for (const left of hubWeddingPairs.slice(-2)) {
+    for (const right of [...islandWeddingPairs, ...multiPairs, ...hubWeddingPairs.filter((p) => p !== left)]) {
+      const score = jaccardTokens(`${left.q} ${left.a}`, `${right.q} ${right.a}`);
+      if (score > 0.6) {
+        errors.push(`hub/weddings FAQ similarity ${(score * 100).toFixed(0)}% (“${left.q}” / “${right.q}”)`);
+      }
+    }
+  }
+
+  const pricingFaqSrc = pricingViewSrc.slice(
+    pricingViewSrc.indexOf('const faqs = ['),
+    pricingViewSrc.indexOf('function HubIslandFromQuery'),
+  );
+  const hubPricingPairs = faqPairs(pricingFaqSrc);
+  if (hubPricingPairs.length < 8) {
+    errors.push(`hub/pricing FAQ expected ≥8 questions, found ${hubPricingPairs.length}`);
+  }
+  if (new Set(hubPricingPairs.map((p) => p.q)).size !== hubPricingPairs.length) {
+    errors.push('hub/pricing FAQ questions are not unique');
+  }
+  const pricingBlob = hubPricingPairs.map((p) => `${p.q} ${p.a}`).join('\n');
+  for (const bit of ['oahu:/pricing', 'maui:/pricing', 'kauai:/pricing', 'bigisland:/pricing', '/quote', 'wa.me/18084687748', 'quotes@mychef-hawaii.com']) {
+    if (!pricingBlob.includes(bit)) errors.push(`hub/pricing FAQ missing ${bit}`);
+  }
+  if (!/not priced as groceries at cost/.test(pricingBlob)) {
+    errors.push('hub/pricing FAQ still labels Signature as groceries at cost');
+  }
+  if (!/50%/.test(pricingBlob) || !/gratuity/i.test(pricingBlob)) {
+    errors.push('hub/pricing FAQ missing deposit or gratuity');
+  }
+  for (const p of hubPricingPairs) {
+    if (/\$/.test(p.a) && (!/20%/.test(p.a) || !/4\.712%/.test(p.a))) {
+      errors.push(`hub/pricing price FAQ missing 20% service or GET: “${p.q}”`);
+    }
+  }
+  if (/tel:\+971|\+971/.test(pricingBlob)) errors.push('hub/pricing FAQ introduced +971');
+  if (/AggregateRating|hub H1|Live dinner doors|\bcorridor\b/.test(pricingBlob)) {
+    errors.push('hub/pricing FAQ used banned schema or jargon');
+  }
+  const costAt = hubDirSrc.indexOf('\n  privateChefCost: {');
+  const costNext = hubDirSrc.indexOf('\n  mealPrep: {', costAt);
+  const costPairs = faqPairs(hubDirSrc.slice(costAt, costNext));
+  const islandPricePairs = faqPairs(read('data/islandPricing.ts'));
+  for (const left of hubPricingPairs.slice(-3)) {
+    for (const right of [...costPairs, ...islandPricePairs, ...hubPricingPairs.filter((p) => p !== left)]) {
+      const score = jaccardTokens(`${left.q} ${left.a}`, `${right.q} ${right.a}`);
+      if (score > 0.6) {
+        errors.push(`hub/pricing FAQ similarity ${(score * 100).toFixed(0)}% (“${left.q}” / “${right.q}”)`);
+      }
+    }
+  }
+  const pricingTitle = pageMetaKeyTitle(pageMetaSrc, '/pricing');
+  const pricingDesc = (pageMetaSrc.match(/'\/pricing':\s*\{[\s\S]*?description:\s*\n\s*'([^']+)'/) || [])[1] || '';
+  if (pricingTitle.length > 60) errors.push(`hub/pricing title is ${pricingTitle.length} chars (max 60)`);
+  if (pricingDesc.length < 120 || pricingDesc.length > 155) {
+    errors.push(`hub/pricing meta description is ${pricingDesc.length} chars (need 120–155)`);
+  }
+  if (/groceries at cost/.test(pricingDesc)) {
+    errors.push('hub/pricing meta still labels the card as groceries at cost');
+  }
+}
+
 for (const key of [
   'vacationOahu',
   'vacationMaui',
