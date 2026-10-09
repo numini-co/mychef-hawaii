@@ -13,7 +13,7 @@ const oahuSections: CopySection[] = [
   {
     h2: 'Oahu catering, cooked in your kitchen',
     paras: [
-      'myCHEF Hawaii is an Oahu catering team for private events at home — villas, estates, residences and vacation rentals from Honolulu to Ko Olina. We plan the menu with you, shop the morning of the event, cook in the kitchen at the house, serve your guests and leave the kitchen clean. Most of our Oahu catering is for ten to seventy-five guests: milestone birthdays, welcome dinners, rehearsal dinners, retreats, family reunions and company dinners.',
+      'myCHEF Hawaii is an Oahu catering and Honolulu catering team for private events at home — villas, estates, residences and vacation rentals from Honolulu to Ko Olina. We plan the menu with you, shop the morning of the event, cook in the kitchen at the house, serve your guests and leave the kitchen clean. Most of our Oahu catering is for ten to seventy-five guests: milestone birthdays, welcome dinners, rehearsal dinners, retreats, family reunions and company dinners.',
       'We are not a hotel banquet department and we don’t drop off trays. Every event is staffed, every menu is written for that house and that guest list, and you get a written quote with every line on it before you pay a deposit. For a smaller table of six to ten, a [private chef dinner on Oahu](/) is usually the better fit — one chef, one table, the same food.',
     ],
   },
@@ -100,6 +100,14 @@ const oahuFaqs: CopyFaq[] = [
   {
     q: 'How far ahead should we book?',
     a: 'As soon as the date is firm. The December holidays and January are the busiest weeks on Oahu, and one crew holds one wedding weekend at a time.',
+  },
+  {
+    q: 'How much does Honolulu catering cost?',
+    a: 'Honolulu catering uses the same Oahu catering rates: food $195–$290 a guest, servers $80 an hour and a sous-chef $105, with four- to five-hour minimums. A 20% service charge and GET up to 4.712% are itemised on the written quote. See [Oahu pricing](/pricing).',
+  },
+  {
+    q: 'Is Honolulu catering covered on this page?',
+    a: 'Yes. This Oahu catering page is the home for Honolulu catering — high-rises in Kakaʻako, downtown and Waikīkī with a real kitchen, plus Kahala, Gold Coast, Diamond Head and Hawaiʻi Kai homes. Smaller tables of six to ten are better as a [private chef dinner on Oahu](/).',
   },
 ];
 
