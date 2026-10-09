@@ -429,7 +429,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Private chef Maui from $225 a guest. In-villa dinners and chef-for-the-week stays in Wailea, Kīhei, Kāʻanapali and Kapalua. Published prices, written quote.',
   },
   '/kauai': {
-    title: 'Private Chef Kauai | Personal Chef, Both Shores | myCHEF',
+    title: 'Private Chef Kauai | Villa Chefs on Both Shores | myCHEF',
     description:
       'Private chef Kauai from $225 a guest — a personal chef for villa dinners in Princeville, Hanalei and Poʻipū. By inquiry: send dates and shore for a written reply.',
   },
@@ -439,9 +439,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Private chef Big Island from $210 a guest — in-villa dinners in Kona, Waikoloa, Waimea and the Kohala Coast. By inquiry: send your dates for a written reply.',
   },
   '/oahu/private-chef': {
-    title: 'Visitor dinners in the Oahu house | myCHEF',
+    title: 'Private Chef Honolulu | Waikiki, Kahala & Ko Olina | myCHEF',
     description:
-      'In-home visitor dinners on Oahu. WhatsApp for a quote.',
+      'Private chef Honolulu from $195 a guest: a personal chef shops, cooks, serves and cleans up in your Waikīkī, Kahala or Ko Olina kitchen. Written quote.',
   },
   '/oahu/vacation-chef': {
     title: 'Oʻahu vacation chef — Stay Chef villa weeks | myCHEF',
@@ -477,9 +477,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'myCHEF Oahu staffs a brigade to the house: chef, sous, service, bar, shopper. Honolulu, Waikīkī residences, Kahala, Kailua, Ko Olina. Request a quote.',
   },
   '/oahu/pricing': {
-    title: 'Oahu Private Chef Prices — Stay Chef from $1,250 | myCHEF',
+    title: 'Oahu Private Chef Cost | $195–$290 a Guest | myCHEF',
     description:
-      'Oʻahu town and west CORE $195–$290 a guest. Stay Chef from $1,250 a day. Date Night from $675. Service and GET print after the band.',
+      'What a private chef costs on Oahu: $195–$290 a guest with groceries inside, Date Night from $675, Stay Chef from $1,250 a day. Service and GET itemized.',
   },
   '/oahu/quote': {
     title: 'Oahu quote form — corridor, kitchen, written total | myCHEF',
@@ -515,9 +515,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'Oahu sitemap: neighborhoods, services, occasions and guides.',
   },
   '/maui/private-chef': {
-    title: 'Visitor dinners in the Maui villa | myCHEF',
+    title: 'Personal Chef Maui | Wailea & Kapalua Villa Dinners | myCHEF',
     description:
-      'In-home visitor dinners on Maui. WhatsApp for a quote.',
+      'Personal chef Maui from $225 a guest: menu, same-day shopping, cooking, service and cleanup in your Wailea, Kāʻanapali or Kapalua villa. Written quote.',
   },
   '/maui/vacation-chef': {
     title: 'Maui vacation chef — Multi-day villa service | myCHEF',
@@ -548,9 +548,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'myCHEF Maui staffs villa dinners and lawn receptions. Wailea, Kīhei, Kāʻanapali, Kapalua, Makena. Staffed catering for bigger parties. Request a quote.',
   },
   '/maui/pricing': {
-    title: 'Maui villa-week bands — Wailea & West from $225 | myCHEF',
+    title: 'Maui Private Chef Cost | Wailea & West Maui Rates | myCHEF',
     description:
-      'Maui villa-week CORE $225–$375 a guest. Stay Chef from $1,550 a day. Upcountry and West Maui travel print as their own lines.',
+      'What a private chef costs on Maui: $225–$375 a guest with groceries inside, Stay Chef from $1,550 a day. 20% service and GET print as their own lines.',
   },
   '/maui/quote': {
     title: 'Maui quote form — shore, kitchen, written total | myCHEF',
@@ -591,9 +591,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Sample Maui catering menus for villa events of 10–75 guests — buffet, plated, or family-style in Wailea and West Maui. The menu is written for that house.',
   },
   '/kauai/private-chef': {
-    title: 'Visitor dinners on Kauai — both shores, inquiry | myCHEF',
+    title: 'Personal Chef Kauai | Princeville & Poipu Dinners | myCHEF',
     description:
-      'In-home visitor dinners on Kauai at inquiry.',
+      'Personal chef Kauai from $225 a guest: villa dinners in Princeville, Hanalei and Poʻipū with shopping, service and cleanup. By inquiry, written reply.',
   },
   '/kauai/vacation-chef': {
     title: 'Vacation chef Kauai — Stay Chef from $1,650/day | myCHEF',
@@ -628,9 +628,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'A four-hour cart for Princeville, Hanalei and Poʻipū. Starting prices published. Inquiry stage.',
   },
   '/kauai/pricing': {
-    title: 'Kauaʻi inquiry rate card — both shores, $225–$375 | myCHEF',
+    title: 'Kauai Private Chef Cost | Both-Shore Rate Card | myCHEF',
     description:
-      'Kauaʻi inquiry CORE $225–$375 a guest. Stay Chef from $1,650 a day. Both-shore travel prints. A published band is not instant booking.',
+      'What a private chef costs on Kauaʻi: $225–$375 a guest, Date Night $975–$1,425, Stay Chef from $1,650 a day. By inquiry, with every fee itemized.',
   },
   '/kauai/quote': {
     title: 'Kauai inquiry form — both shores, written reply | myCHEF',
@@ -667,18 +667,18 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Kauai sitemap: both shores, services, occasions and guides.',
   },
   '/bigisland/private-chef': {
-    title: 'Visitor dinners on Hawaiʻi Island — west side, inquiry | myCHEF',
+    title: 'Private Chef Kona | Kohala Coast Villa Dinners | myCHEF',
     description:
-      'In-home visitor dinners on the west side at inquiry.',
+      'Private chef Kona from $210 a guest: dinners in your Kailua-Kona, Waikoloa or Kohala Coast villa, with shopping, service and cleanup. By inquiry.',
   },
   '/bigisland/vacation-chef': {
     title: 'Vacation chef Big Island — from $1,450/day | myCHEF',
     description: 'Multi-day chef residencies for Kohala and Waimea weeks. Groceries at cost. Inquiry stage.',
   },
   '/bigisland/catering': {
-    title: 'Big Island Catering | Kona & Kohala Villa Events | myCHEF',
+    title: 'Big Island Catering | Hawaii Island, Kona & Kohala | myCHEF',
     description:
-      'Big Island catering from $210 a guest — staffed Kona and Kohala Coast villa receptions, buffet or plated. Inquiry stage; ask for a written quote.',
+      'Big Island catering from $210 a guest: staffed Hawaiʻi Island villa and estate events in Kona and on the Kohala Coast, 10–75 guests, buffet or plated.',
   },
   '/bigisland/weddings': {
     title: 'Wedding Catering Big Island | Kohala & Kona Weeks | myCHEF',
@@ -703,9 +703,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'myCHEF Hawaiʻi Island is west-side first: Kona, Waikoloa, the Kohala Coast. Inquiry stage. Hilo is a different day.',
   },
   '/bigisland/pricing': {
-    title: 'West-side rate card — Kona–Kohala CORE $210–$325 | myCHEF',
+    title: 'Big Island Private Chef Cost | Kona–Kohala Rates | myCHEF',
     description:
-      'West-side Hawaiʻi Island CORE $210–$325 a guest. Stay Chef inquiry from $1,450 a day. Hilo is a dedicated day, never a Kona round trip.',
+      'What a private chef costs on the Big Island: ENTRY from $165, CORE $210–$325 a guest, Stay Chef from $1,450 a day. Hilo is quoted as its own day.',
   },
   '/bigisland/quote': {
     title: 'Big Island chef inquiry — written reply | myCHEF',

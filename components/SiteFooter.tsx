@@ -6,6 +6,7 @@ import { LocationsBlock } from '@/components/LocationsBlock';
 import { WORLD_DESTINATIONS } from '@/data/destinations';
 import { islandOrder, type IslandId } from '@/data/islands';
 import { islandHref } from '@/lib/paths';
+import { PRIVATE_CHEF_PAGE_ANCHOR } from '@/lib/ownerAnchors';
 
 /** Plain-ASCII island names for descriptive internal anchors (matches how people search). */
 const PLAIN_ISLAND_NAME: Record<IslandId, string> = {
@@ -18,7 +19,8 @@ const PLAIN_ISLAND_NAME: Record<IslandId, string> = {
 function serviceLinks(islandId: IslandId | null): { path: string; label: string }[] {
   if (!islandId) {
     return [
-      { path: '/private-chef', label: 'In-villa chef' },
+      { path: '/private-chef', label: 'In-villa private chef' },
+      { path: '/pricing', label: 'Private chef prices, all islands' },
       { path: '/catering', label: 'Hawaii catering' },
       { path: '/weddings', label: 'Wedding catering Hawaii' },
       { path: '/mobile-bar', label: 'Mobile bar Hawaii' },
@@ -29,7 +31,9 @@ function serviceLinks(islandId: IslandId | null): { path: string; label: string 
   const name = PLAIN_ISLAND_NAME[islandId];
   return [
     { path: '/', label: `Private chef ${name}` },
-    { path: '/catering', label: `${name} catering` },
+    { path: '/private-chef', label: PRIVATE_CHEF_PAGE_ANCHOR[islandId] },
+    { path: '/pricing', label: `Private chef ${name} cost` },
+    { path: '/catering', label: islandId === 'maui' ? 'Maui catering menus' : `${name} catering` },
     { path: '/weddings', label: `Wedding catering ${name}` },
     { path: '/bar', label: 'Villa bartender' },
     { path: '/vacation-chef', label: 'Chef for the week' },

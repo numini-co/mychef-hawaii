@@ -10,19 +10,20 @@ import { islands, type IslandId } from '@/data/islands';
 import { photos } from '@/data/photos';
 import { formatBand, getTiers } from '@/data/rateCard';
 import { islandHref } from '@/lib/paths';
+import { costAnchor, homeAnchor } from '@/lib/ownerAnchors';
 
 const H1: Record<IslandId, string> = {
-  maui: 'Visitor dinners in the villa — Wailea to West Maui.',
-  oahu: 'Visitor dinners in the house — Gold Coast to Ko Olina.',
-  kauai: 'Visitor dinners on both shores — inquiry.',
-  bigisland: 'Visitor dinners on the west side — inquiry.',
+  maui: 'Personal chef Maui — dinners in the villa, Wailea to West Maui.',
+  oahu: 'Private chef Honolulu — dinners in your house, Gold Coast to Ko Olina.',
+  kauai: 'Personal chef Kauai — villa dinners on both shores, by inquiry.',
+  bigisland: 'Private chef Kona — villa dinners on the Kona–Kohala coast, by inquiry.',
 };
 
 const LEDE: Record<IslandId, string> = {
-  oahu: 'A visitor dinner in the house.',
-  maui: 'A visitor dinner in the villa.',
-  kauai: 'A visitor dinner on either shore — inquiry.',
-  bigisland: 'A visitor dinner on the west side — inquiry.',
+  oahu: 'A private chef in your Honolulu house or Oʻahu villa: menu, same-day shopping, cooking, service and a clean kitchen.',
+  maui: 'A personal chef in your Maui villa: menu, same-day shopping, cooking, service and a clean kitchen.',
+  kauai: 'A personal chef for your Kauaʻi villa, north shore or south: menu, shopping, cooking, service and cleanup, by inquiry.',
+  bigisland: 'A private chef for your Kona or Kohala Coast villa: menu, west-side shopping, cooking, service and cleanup, by inquiry.',
 };
 
 const HERO: Record<IslandId, { file: string; alt: string }> = {
@@ -75,7 +76,8 @@ export default function PrivateChefView({ islandId, hostMode }: { islandId: Isla
           { path: '/personal-chef', label: 'Household week', detail: '/personal-chef' },
           { path: '/vacation-chef', label: 'Stay Chef week', detail: '/vacation-chef' },
           { path: '/quote', label: 'The quote form', detail: '/quote' },
-          { path: '/pricing', label: 'What a night costs', detail: '/pricing' },
+          { path: '/pricing', label: costAnchor(islandId), detail: 'Published rate card' },
+          { path: '/', label: homeAnchor(islandId), detail: 'Every town on the island' },
         ]}
       />
       <SiblingCluster island={islandId} current="chef" href={href} />

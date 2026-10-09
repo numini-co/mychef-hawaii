@@ -32,17 +32,32 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
     {
       slug: 'how-much-does-a-private-chef-cost',
       name: 'How a quote is built',
-      h1: 'How an Oahu quote is built — band, stack, corridor.',
-      title: 'How an Oahu chef quote is built | myCHEF',
+      h1: 'What an Oahu chef night costs — band, fee stack, travel.',
+      title: 'How Much an Oahu Chef Night Costs, Line by Line | myCHEF',
       description:
-        'How an Oahu written quote is built: published dinner band, fee stack, North Shore travel if any.',
-      lede: 'How an Oahu written quote is built: published dinner band, fee stack, North Shore travel if any.',
+        'An Oahu chef dinner runs $195–$290 a guest with groceries inside, Date Night from $675, Stay Chef from $1,250 a day. See how service, GET and travel stack.',
+      lede: 'An Oahu chef dinner runs $195–$290 a guest with groceries inside, Date Night from $675, Stay Chef from $1,250 a day. See how service, GET and travel stack.',
       photo: 'jnlCostOahu',
       body: [
-        'CORE on this island is the published dinner band. Service 20% and GET up to 4.712% print as their own lines. North Shore is a surcharge day.',
-        'The written quote is the contract. Indicative bands on the pricing page are starting prices, not a verbal range in a chat window.',
+        'Start with the published band. A signature dinner in an Oʻahu house runs $195–$290 USD a guest, and the groceries for that menu sit inside the band. There is no separate “+ groceries” line on a dinner. Date Night for two is from $675.',
+        'A chef for the week is a different model. Stay Chef is from $1,250 a day, and groceries are billed at cost with the original receipts, no markup. A standing weekly cook for Honolulu residents is from $450 a week plus groceries at cost. The two models never blend on one quote.',
+        'After the food come two lines, printed once each: 20% service and Hawaiʻi GET up to 4.712%. Fifty percent locks the date. Gratuity is voluntary and never silent.',
+        'Travel is the last variable. Kahala, Ko Olina, Kailua and Waikīkī residences with a working kitchen are base. The North Shore and Turtle Bay carry a published drive surcharge that appears on the quote, not on the night.',
+        'The written quote is the contract. Bands on [private chef Oahu cost](/pricing) are starting prices, not a range read out in a chat. For a dinner in your Honolulu house, start at [private chef Honolulu](/private-chef); for the island overview, see [private chef Oahu](/).',
       ],
       faqs: [
+        {
+          q: 'Are groceries included in an Oahu chef dinner?',
+          a: 'Yes on a signature dinner: the $195–$290 a guest band includes the groceries for that menu. On a Stay Chef week (from $1,250 a day) groceries are billed at cost with receipts.',
+        },
+        {
+          q: 'What gets added on top of the band?',
+          a: '20% service and Hawaiʻi GET up to 4.712%, each printed once. North Shore travel is a published surcharge when it applies. Alcohol is BYO or quoted.',
+        },
+        {
+          q: 'Is there a deposit?',
+          a: 'Fifty percent locks the date. The balance follows the written quote you accepted.',
+        },
       ],
       related: [
         { path: '/pricing', label: 'Oahu rate card' },
@@ -201,20 +216,31 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
     {
       slug: 'how-much-does-a-private-chef-cost',
       name: 'How a quote is built',
-      h1: 'How a Maui quote is built — band, stack, shore.',
-      title: 'How a Maui chef quote is built | myCHEF',
+      h1: 'What a Maui chef dinner costs — band, fee stack, shore.',
+      title: 'Maui Chef Dinner Price Guide — Band to Final Total | myCHEF',
       description:
-        'How a Maui written quote is built: published dinner band, fee stack, Upcountry travel if any.',
-      lede: 'How a Maui written quote is built: published dinner band, fee stack, Upcountry travel if any.',
+        'A Maui villa chef dinner runs $225–$375 a guest with groceries inside; Stay Chef is from $1,550 a day. How service, GET and Upcountry travel reach the total.',
+      lede: 'A Maui villa chef dinner runs $225–$375 a guest with groceries inside; Stay Chef is from $1,550 a day. How service, GET and Upcountry travel reach the total.',
       photo: 'jnlCostMaui',
       body: [
-        'CORE on this island is the published dinner band. Saturday West Maui arrival is planned, not hidden. Service and GET print as their own lines.',
-        'The written quote is the contract. Moving from Wailea to Lahaina after a deposit can change the travel line.',
+        'The Maui band comes first. A signature villa dinner runs $225–$375 USD a guest in Wailea, Kāʻanapali, Kapalua or Makena, and the groceries for that menu sit inside the band. Date Night for two starts from $750.',
+        'A chef for the whole stay is Stay Chef, from $1,550 a day. Groceries on a Stay Chef week are billed at cost with merchant receipts, no markup. Signature and Stay Chef never fold into each other on one quote.',
+        'After the food: 20% service and Hawaiʻi GET up to 4.712% as their own lines. Fifty percent locks the date. Gratuity is voluntary.',
+        'Travel: Wailea, Kāʻanapali, Nāpili and Makena are base zones. Upcountry is a published surcharge. Saturday West Maui traffic is planned into the arrival time, not billed as a surprise.',
+        'The written quote is the contract. The full card is on [private chef Maui cost](/pricing). A villa dinner is [personal chef Maui](/private-chef); the island overview is [private chef Maui](/).',
       ],
       faqs: [
         {
           q: 'Is Saturday traffic a fee?',
-          a: 'It is a planned drive, not a surprise line.',
+          a: 'No. It is a planned drive, not a surprise line.',
+        },
+        {
+          q: 'Does Wailea cost more than West Maui?',
+          a: 'No. Both sit in the same $225–$375 a guest band. Upcountry is the published travel surcharge.',
+        },
+        {
+          q: 'Are groceries extra on a Maui dinner?',
+          a: 'Not on a signature dinner — they sit inside the band. On Stay Chef (from $1,550 a day) groceries are billed at cost with receipts.',
         },
       ],
       related: [
@@ -378,21 +404,31 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
     {
       slug: 'how-much-does-a-private-chef-cost',
       name: 'How a quote is built',
-      h1: 'How a Kauai inquiry quote is built — band, stack, shore.',
-      title: 'How a Kauai chef quote is built | myCHEF',
+      h1: 'What a Kauai chef dinner costs — band, shore, fee stack.',
+      title: 'Kauai Chef Dinner Costs: Bands, Shore Travel, Fees | myCHEF',
       description:
-        'How a Kauai written quote is built at inquiry: published dinner band, both-shore travel, fee stack.',
-      lede: 'How a Kauai written quote is built at inquiry: published dinner band, both-shore travel, fee stack.',
+        'Kauaʻi chef dinners run $225–$375 a guest, Date Night $975–$1,425, Stay Chef from $1,650 a day. How shore travel, service and GET reach the written total.',
+      lede: 'Kauaʻi chef dinners run $225–$375 a guest, Date Night $975–$1,425, Stay Chef from $1,650 a day. How shore travel, service and GET reach the written total.',
       photo: 'jnlCostKauai',
       body: [
-        `Inquiry stage.`,
-        'A band is not an instant-booking button. When we can staff, the written quote itemises menu, staffing, shore travel, 20% service, GET.',
-        'Hanalei-bridge weather reschedules rather than forfeits.',
+        'Kauaʻi is by inquiry, but the numbers are published. A signature villa dinner runs $225–$375 USD a guest, groceries inside the band. Date Night for two is a fixed evening at $975–$1,425.',
+        'Stay Chef, a chef for the week, is from $1,650 a day with groceries billed at cost on original receipts. The two models never blend.',
+        'Shore travel is a published zone line off the Līhuʻe base, in a $50–$75 range, for Princeville, Hanalei and Poʻipū. Hāʻena is quote-only with 72-hour notice and a weather and road clause.',
+        'After the food: 20% service and GET up to 4.712%. A band is not an instant-booking button. When we can staff, the written quote itemises menu, staffing, shore travel, service and GET, and it is the contract. Hanalei-bridge weather reschedules rather than forfeits.',
+        'The card is on [private chef Kauai cost](/pricing). A villa dinner is [personal chef Kauai](/private-chef); both shores are on [private chef Kauai](/).',
       ],
       faqs: [
         {
-          q: 'Are you live?',
+          q: 'Are you live on Kauai?',
           a: 'Inquiry. We crew when we can staff. The numbers on the pricing page are still the published starting prices.',
+        },
+        {
+          q: 'Does Princeville cost more than Poʻipū?',
+          a: 'The food band is the same. Drive time is a published zone line in a $50–$75 range.',
+        },
+        {
+          q: 'What if the Hanalei bridge closes?',
+          a: 'The night is rescheduled rather than forfeited. The clause is on the quote before you deposit.',
         },
       ],
       related: [
@@ -560,21 +596,31 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
     {
       slug: 'how-much-does-a-private-chef-cost',
       name: 'How a quote is built',
-      h1: 'How a west-side quote is built — band, stack, Kona–Kohala.',
-      title: 'How a Hawaiʻi Island chef quote is built | myCHEF',
+      h1: 'What a Big Island chef dinner costs — band, stack, Kona–Kohala.',
+      title: 'What a Big Island Chef Dinner Costs — Quote Guide | myCHEF',
       description:
-        'How a west-side Hawaiʻi Island written quote is built at inquiry. East side is a different day.',
-      lede: 'How a west-side Hawaiʻi Island written quote is built at inquiry. East side is a different day.',
+        'Big Island chef dinners: ENTRY from $165, CORE $210–$325 a guest, Stay Chef from $1,450 a day. How service, GET and Waimea or Hilo travel reach the total.',
+      lede: 'Big Island chef dinners: ENTRY from $165, CORE $210–$325 a guest, Stay Chef from $1,450 a day. How service, GET and Waimea or Hilo travel reach the total.',
       photo: 'jnlCostBigisland',
       body: [
-        `Inquiry, west-side first.`,
-        'East side is a dedicated day. Never a west-side round trip. Service and GET print as their own lines.',
-        'A band is not an instant-booking button. When we can staff, the written quote is the contract.',
+        'West side first, published bands. A Kona or Kohala Coast villa dinner runs CORE $210–$325 USD a guest, groceries inside the band. ENTRY, the open west-side table, is from $165 a guest.',
+        'A chef for the week is Stay Chef, from $1,450 a day, with groceries billed at cost on original receipts. Signature dinners and Stay Chef never blend on one quote.',
+        'Kona–Kohala is the base zone. Waimea and Hāmākua carry a published surcharge. The east side is a dedicated day with its own travel line, never a west-side round trip. Ironman weeks change lodging and crew days, not the food band.',
+        'After the food: 20% service and Hawaiʻi GET up to 4.712%, each printed once. A band is not an instant-booking button. When we can staff, the written quote is the contract.',
+        'The card is on [private chef Big Island cost](/pricing). A Kona villa dinner is [private chef Kona](/private-chef); the island overview is [private chef Big Island](/).',
       ],
       faqs: [
         {
           q: 'Can a Kona total cover Hilo?',
           a: 'Not the same day. We quote a dedicated crossing.',
+        },
+        {
+          q: 'What is ENTRY versus CORE?',
+          a: 'ENTRY from $165 a guest is the open west-side table. CORE $210–$325 a guest is the usual Kona–Kohala villa night.',
+        },
+        {
+          q: 'Does Ironman week change the price?',
+          a: 'No. CORE stays $210–$325 a guest. Ironman compresses crew days; flag those dates early.',
         },
       ],
       related: [

@@ -134,7 +134,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
       },
       {
         q: 'Private chef Maui cost — what do I actually pay?',
-        a: 'Per person: CORE $225–$375. Groceries for Stay Chef are billed at cost with receipts. Service 20% and Hawaiʻi GET up to 4.712% sit on their own lines — once.',
+        a: 'Per person: CORE $225–$375. Groceries for Stay Chef are billed at cost with receipts. Service 20% and Hawaiʻi GET up to 4.712% sit on their own lines — once. The full card is on [private chef Maui cost](/pricing).',
       },
       {
         q: 'Do you do a private sushi chef on Maui?',
@@ -169,7 +169,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     faqs: [
       {
         q: 'How much is a private chef in Honolulu or on Oʻahu?',
-        a: 'Signature dinners start at $195–$290 a guest with groceries inside that band. Stay Chef is $1,250 a day with groceries at cost and receipts. Personal-chef / weekly meal prep from $450 a week plus groceries at cost. 20% service and Hawaiʻi GET up to 4.712% print as their own lines. A tip is never required. Request a written quote on the quote form or WhatsApp.',
+        a: 'Signature dinners start at $195–$290 a guest with groceries inside that band. Stay Chef is $1,250 a day with groceries at cost and receipts. Personal-chef / weekly meal prep from $450 a week plus groceries at cost. 20% service and Hawaiʻi GET up to 4.712% print as their own lines. A tip is never required. Request a written quote on the quote form or WhatsApp. The full card is on [private chef Oahu cost](/pricing).',
       },
       {
         q: 'Our condo kitchen is small — does that work?',
@@ -193,7 +193,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     keyword: 'private chef kauai',
     volume: 210,
     h1: 'Private chef Kauai — both shores, by inquiry.',
-    title: 'Private Chef Kauai | Personal Chef, Both Shores | myCHEF',
+    title: 'Private Chef Kauai | Villa Chefs on Both Shores | myCHEF',
     description:
       'Private chef Kauai from $225 a guest — a personal chef for villa dinners in Princeville, Hanalei and Poʻipū. By inquiry: send dates and shore for a written reply.',
     lede:
@@ -210,7 +210,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     faqs: [
       {
         q: 'How much does a private chef cost on Kauaʻi?',
-        a: 'Signature $225–$375 a guest — the same band as Maui, earned by a thinner supplier bench. Date Night is a fixed evening at $975–$1,425. Stay Chef from $1,650 a day with groceries at cost. 20% service and GET up to 4.712% print separately. A tip is never silent and never required. Enquire on the quote form — not instant booking.',
+        a: 'Signature $225–$375 a guest — the same band as Maui, earned by a thinner supplier bench. Date Night is a fixed evening at $975–$1,425. Stay Chef from $1,650 a day with groceries at cost. 20% service and GET up to 4.712% print separately. A tip is never silent and never required. Enquire on the quote form — not instant booking. The full card is on [private chef Kauai cost](/pricing).',
       },
       {
         q: 'Do you actually book Kauaʻi, or is this a waitlist?',
@@ -255,7 +255,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     faqs: [
       {
         q: 'How much is a private chef in Kona or on the Big Island?',
-        a: 'CORE dinners start at $210–$325 a guest. ENTRY opens from $165. Stay Chef from $1,450 a day with groceries at cost. 20% service and Hawaiʻi GET up to 4.712% print after the food. Join the inquiry list on the quote form — not instant booking.',
+        a: 'CORE dinners start at $210–$325 a guest. ENTRY opens from $165. Stay Chef from $1,450 a day with groceries at cost. 20% service and Hawaiʻi GET up to 4.712% print after the food. Join the inquiry list on the quote form — not instant booking. The full card is on [private chef Big Island cost](/pricing).',
       },
       {
         q: 'Can you cover Hilo from Kona?',

@@ -20,6 +20,7 @@ import { canonicalUrl } from '@/lib/site';
 import { DESK_EMAIL, DESK_MAILTO, DESK_PHONE_DISPLAY, DESK_PHONE_E164, DESK_TEL } from '@/lib/contact';
 import { LocationsBlock } from '@/components/LocationsBlock';
 import PlacePriceBlock from '@/components/PlacePriceBlock';
+import { cateringAnchor, costAnchor, PRIVATE_CHEF_PAGE_ANCHOR } from '@/lib/ownerAnchors';
 
 export default function IslandHomeView({
   islandId,
@@ -87,7 +88,7 @@ export default function IslandHomeView({
         <div className="mt-9 flex flex-wrap items-center gap-4">
           <QuoteCta island={islandId} variant="light" />
           <CtaLink href={href('/pricing')} variant="ghost">
-            What a night costs
+            {costAnchor(islandId)}
           </CtaLink>
           {inquiry ? (
             <>
@@ -131,16 +132,16 @@ export default function IslandHomeView({
               {
                 n: '01',
                 path: '/private-chef',
-                title: 'What’s included',
-                body: `In the kitchen of this house. From $${offer.fromPp} a guest.`,
+                title: PRIVATE_CHEF_PAGE_ANCHOR[islandId],
+                body: `What’s included, in the kitchen of this house. From $${offer.fromPp} a guest.`,
               },
               {
                 n: '02',
                 path: '/catering',
-                title: 'Staffed events',
-                body: `Buffet or plated, from $${offer.fromPp} a guest. About ten to seventy-five.`,
+                title: cateringAnchor(islandId),
+                body: `Staffed events, buffet or plated, from $${offer.fromPp} a guest. About ten to seventy-five.`,
               },
-            ] as const
+            ]
           ).map((door) => {
             const still = stillForPath(islandId, door.path);
             return (

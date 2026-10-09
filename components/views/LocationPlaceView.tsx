@@ -13,6 +13,7 @@ import { siblingCorridors, type MoneyNeighborhood } from '@/data/offers';
 import { photos } from '@/data/photos';
 import { DESK_EMAIL, DESK_PHONE_E164 } from '@/lib/contact';
 import { islandHref } from '@/lib/paths';
+import { costAnchor, homeAnchor, PRIVATE_CHEF_PAGE_ANCHOR } from '@/lib/ownerAnchors';
 import { canonicalUrl } from '@/lib/site';
 import Link from 'next/link';
 
@@ -105,10 +106,10 @@ export function LocationPlaceView({
         intro="Related pages to help you plan your dinner, event or stay."
         columns={2}
         items={[
-          { path: '/private-chef', label: 'What’s included', detail: '/private-chef' },
+          { path: '/', label: homeAnchor(islandId), detail: `Every town on ${island.shortName}` },
+          { path: '/private-chef', label: PRIVATE_CHEF_PAGE_ANCHOR[islandId], detail: 'What’s included in a villa dinner' },
           { path: '/catering', label: cateringAnchor, detail: 'Staffed villa events, 10–75 guests' },
-          { path: '/quote', label: 'The quote form', detail: '/quote' },
-          { path: '/coverage', label: 'Coverage map', detail: '/coverage' },
+          { path: '/pricing', label: costAnchor(islandId), detail: 'Published rate card' },
         ]}
       />
 
