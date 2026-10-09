@@ -260,7 +260,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       slug: 'cleanup-standard',
       name: 'Cleanup standard',
       h1: 'Oahu cleanup — Kahala kitchens left cleaner than we found them.',
-      title: 'Oahu cleanup — Kahala kitchens left cleaner than we found them | myCHEF',
+      title: 'Oahu cleanup — Kahala kitchens left cleaner than found | myCHEF',
       description:
         'Oahu cleanup standard: shop, cook, serve, leave the kitchen cleaner.',
       lede: 'Oahu cleanup standard: shop, cook, serve, leave the kitchen cleaner.',
@@ -967,7 +967,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       slug: 'cleanup-standard',
       name: 'Cleanup standard',
       h1: 'Maui cleanup — Wailea kitchens left cleaner than we found them.',
-      title: 'Maui cleanup — Wailea kitchens left cleaner than we found them | myCHEF',
+      title: 'Maui cleanup — Wailea kitchens left spotless, every night | myCHEF',
       description:
         'Maui cleanup standard: shop, cook, serve, leave the kitchen cleaner.',
       lede: 'Maui cleanup standard: shop, cook, serve, leave the kitchen cleaner.',
@@ -1627,7 +1627,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       slug: 'cleanup-standard',
       name: 'Cleanup standard',
       h1: 'Kauai cleanup — inquiry kitchens left cleaner than we found them.',
-      title: 'Kauai cleanup — inquiry kitchens left cleaner than we found them | myCHEF',
+      title: 'Kauai cleanup — villa kitchens handed back cleaner | myCHEF',
       description:
         'Kauai cleanup standard at inquiry: shop, cook, serve, leave the kitchen cleaner.',
       lede: 'Kauai cleanup standard at inquiry: shop, cook, serve, leave the kitchen cleaner.',
@@ -2277,7 +2277,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       slug: 'weather-backup',
       name: 'Wet-weather backup',
       h1: 'West-side outdoor tables get a covered backup in writing.',
-      title: 'Hawaiʻi Island outdoor tables get a covered backup in writing | myCHEF',
+      title: 'Big Island outdoor tables — a covered backup in writing | myCHEF',
       description:
         'West-side outdoor tables get a written wind and sun backup. East side is a different day.',
       lede: 'West-side outdoor tables get a written wind and sun backup. East side is a different day.',

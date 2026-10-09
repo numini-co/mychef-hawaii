@@ -51,6 +51,7 @@ import { formatBand, getDayRate, getMobileBar, getOtherOffer, getTiers } from '@
 import { SERVICE_AREAS } from '@/data/serviceAreas';
 import { DESK_EMAIL, DESK_PHONE_E164 } from '@/lib/contact';
 import { parseHubQuoteSearch } from '@/data/hubQuote';
+import { fitDescription, fitTitle } from '@/lib/metaFit';
 
 export interface DocumentSeo {
   title: string;
@@ -502,6 +503,9 @@ export function resolveDocumentSeo(hostname: string, pathname: string, search = 
       description = variant.description;
     }
   }
+
+  title = fitTitle(title);
+  description = fitDescription(description, islandId, localPath);
 
   let canonical = islandId ? canonicalUrl(islandId, localPath, host) : canonicalUrl('root', path, host);
   if (!islandId && localPath === '/quote') {
