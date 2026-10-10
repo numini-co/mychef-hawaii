@@ -629,6 +629,14 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
           q: 'How do I get a written Honolulu total?',
           a: 'Five fields on the quote form — Oʻahu, dates, headcount, service, how to reach you — or WhatsApp +1 808 468 7748. quotes@mychef-hawaii.com. Coordinators answer in Hawaii Standard Time on working days.',
         },
+        {
+          q: 'Downtown high-rise kitchen or a Kakaʻako condo galley — what changes?',
+          a: 'Both need a real cooktop and a fridge. Downtown towers need a booked freight window before the shop. Kakaʻako galleys often need tools we carry, and Signature stays $195–$290 with groceries inside. Part of [private chef Oahu](/). 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required. Name the building on [the quote form](/quote).',
+        },
+        {
+          q: 'Where does a Honolulu condo load groceries — dock, garage, or the curb?',
+          a: 'A tower uses the booked dock, not a street stop. A downtown garage stall is confirmed before the shop. Curb loading is not the plan, and it does not change $195–$290. This town service is part of [private chef Oahu](/). Send the building on [the quote form](/quote). 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required.',
+        },
       ],
     },
     {
@@ -825,6 +833,10 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         {
           q: 'How does a Kahala household reach the desk?',
           a: 'Five fields on the quote form: Oʻahu, the Kahala street, dates, headcount, how to reach you. WhatsApp +1 808 468 7748 or quotes@mychef-hawaii.com. Coordinators answer in Hawaii Standard Time.',
+        },
+        {
+          q: 'What does a Gold Coast estate kitchen need for weekly household service?',
+          a: 'A working range, a fridge that holds the week, and a table for the household. The standing week is from $450 plus groceries at cost. A one-night celebration stays Signature $195–$290, shop inside the band. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required. Part of [private chef Oahu](/). The street goes on [the quote form](/quote).',
         },
       ],
     },

@@ -52,6 +52,22 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
         q: 'Is a tower COI a surcharge on this Oʻahu card?',
         a: 'No. Freight windows and building COIs are logistics, not a hidden food line. Town and west CORE stay $195–$290 a guest. North Shore remains the published drive surcharge on the coverage map. 20% service and GET up to 4.712% still print after the band.',
       },
+      {
+        q: 'Does a Honolulu dinner share a travel line with Ko Olina or the North Shore?',
+        a: 'Town residences and Ko Olina villas are base, so no drive fee. North Shore and Turtle Bay add a published surcharge from $75 beside Signature $195–$290. A Ko Olina week is Stay Chef from $1,250 a day, groceries at cost. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required.',
+      },
+      {
+        q: 'Weekly household service or one visitor night — which Oʻahu line is that?',
+        a: 'Residents book a standing week from $450, groceries at cost, with leftovers labeled. A visitor night is Signature $195–$290, shop inside that band. Several visitor days are Stay Chef from $1,250 a day, groceries at cost. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required.',
+      },
+      {
+        q: 'Does a Ko Olina week use the same shop run as a Honolulu dinner?',
+        a: 'No. A Ko Olina Stay Chef week from $1,250 a day is provisioned on the west side, not by a Honolulu grocery loop. A town Signature night at $195–$290 shops for that dinner only, groceries inside the band. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required.',
+      },
+      {
+        q: 'How does someone start a hire from this Oʻahu pricing page?',
+        a: 'Open [private chef Oahu](/), then send the street, dates, and headcount on [the quote form](/quote). Signature $195–$290 a guest. Stay Chef from $1,250 a day. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required. Desk: quotes@mychef-hawaii.com or +1 808 468 7748.',
+      },
     ],
   },
   maui: {
@@ -83,6 +99,22 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
       {
         q: 'Signature night or Stay Chef week — which line am I on?',
         a: 'Signature is the hero per-guest night ($225–$375, groceries inside the band). Stay Chef from $1,550 a day is the multi-day cook with groceries at cost. They never blend.',
+      },
+      {
+        q: 'Why is a villa week priced as a day, not four Wailea dinners?',
+        a: 'A three-to-seven-day house uses Stay Chef from $1,550 a day: chef and assistant, one meal, groceries at cost with receipts. Four Signature nights at $225–$375 a guest are a different bill. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required. Put the dates on [the quote form](/quote).',
+      },
+      {
+        q: 'Why does the Maui guest band sit above the Oʻahu card?',
+        a: 'Maui Signature is $225–$375 a guest for Wailea and West Maui villa weeks. Oʻahu Signature is $195–$290. That gap is the published Maui card, not a silent add-on. Groceries stay inside the Maui dinner. Stay Chef from $1,550 a day. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required.',
+      },
+      {
+        q: 'Is an Upcountry night the same travel line as West Maui?',
+        a: 'No. Wailea, Kāʻanapali, Kapalua, and Makena are base. Saturday West Maui traffic is planned into arrival, not billed. Upcountry, including Kula and Pāʻia, adds a surcharge from $75. Food stays $225–$375. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required.',
+      },
+      {
+        q: 'Does whale season raise what a Maui hire costs?',
+        a: 'No. December through March fills Wailea and West Maui kitchens sooner. Signature stays $225–$375 a guest. Stay Chef stays from $1,550 a day. Ask when the house is held, via [private chef Maui](/) and [the quote form](/quote). 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required.',
       },
     ],
   },
@@ -117,6 +149,22 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
         q: 'Date Night $975–$1,425 or the Signature band on Kauaʻi?',
         a: 'Two seats use Date Night as a fixed evening. A family list uses Signature $225–$375 a guest, groceries inside that band. Stay Chef from $1,650 a day bills groceries at cost. 20% service and Hawaiʻi GET up to 4.712% print after the food. They never blend.',
       },
+      {
+        q: 'Can the 50% deposit land before Kauaʻi confirms a crew?',
+        a: 'No. A 50% deposit locks a date only after you accept a written total, and only when a crew exists. CORE $225–$375 and Stay Chef from $1,650 stay starting prices until then, not a hold. 20% service and Hawaiʻi GET up to 4.712% print on that total. Gratuity never required. Ask on [the quote form](/quote).',
+      },
+      {
+        q: 'North Shore Hanalei or South Shore Poʻipū — what travel line prints?',
+        a: 'Both shores add $50–$75 off the Līhuʻe and Kapaʻa base. The dinner stays $225–$375. Hanalei also carries the bridge clause: weather reschedules the night and does not forfeit a deposit. Poʻipū has no bridge. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required.',
+      },
+      {
+        q: 'Does Date Night $975–$1,425 include the Hanalei drive?',
+        a: 'No. That figure is a fixed evening for two, groceries inside it. Hanalei, Princeville, and Poʻipū still add the shore line, $50–$75. A retreat list uses Signature $225–$375 a guest instead. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required.',
+      },
+      {
+        q: 'How is a multi-day Kauaʻi retreat stay written?',
+        a: 'As Stay Chef from $1,650 a day, groceries at cost with receipts, plus the shore line of $50–$75. It is not a stack of Date Night invoices. We confirm only when a crew exists. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required. Send dates on [the quote form](/quote). Overview: [Kauai private chef](/).',
+      },
     ],
   },
   bigisland: {
@@ -148,6 +196,22 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
       {
         q: 'Does Ironman week change this west-side tariff?',
         a: 'No. CORE stays $210–$325 a guest. Stay Chef stays from $1,450 a day. Ironman compresses lodging and crew days — it is not a hidden food line. Flag those dates on the quote form. East side remains a dedicated day.',
+      },
+      {
+        q: 'Is ENTRY from $165 the right line for a Kohala estate?',
+        a: 'Usually no. ENTRY from $165 is the open west-side table. A Kohala estate dinner is CORE $210–$325 a guest, groceries inside that band. Servers, when the list needs them, are $80 an hour. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required. Inquiry, not instant booking.',
+      },
+      {
+        q: 'Why does Big Island pricing start in Kona and Kohala, not Hilo?',
+        a: 'The base day is the west side, Kona through the Kohala Coast, at CORE $210–$325. Waimea and Hāmākua add a surcharge from $75. A Hilo address is not a stop on that same west-side day. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required.',
+      },
+      {
+        q: 'How is an east-side Hilo day quoted when it is outside CORE?',
+        a: 'As its own day, with travel on its own line. A Kona-to-Hilo round trip is not folded into CORE $210–$325. A multi-day east-side stay can use Stay Chef from $1,450, groceries at cost. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required. Still by inquiry.',
+      },
+      {
+        q: 'What changes when a Kona dinner becomes a group?',
+        a: 'A larger list leaves ENTRY from $165 for CORE $210–$325 a guest, groceries inside. A sous chef is $105 an hour when the kitchen needs one. Multi-day groups use Stay Chef from $1,450 a day. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required. Send the count on [the quote form](/quote). See [private chef Big Island](/).',
       },
     ],
   },

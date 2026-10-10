@@ -40,7 +40,7 @@ export const feeStackPages: Record<IslandId, UniqueCell> = {
     h1: 'Maui fee stack — what prints after the Wailea dinner band.',
     title: 'Maui fee stack — service, GET, West Maui travel | myCHEF',
     description:
-      'How a Maui quote is stacked: CORE $225–$375 a guest, Stay Chef from $1,550 a day, 20% service, GET up to 4.712%, Upcountry and West Maui travel as their own lines.',
+      'How a Maui quote is stacked: CORE $225–$375 a guest, Stay Chef from $1,550 a day, 20% service, GET up to 4.712%, Upcountry and West Maui travel separate.',
     lede:
       'Wailea, Kapalua, Kāʻanapali, and Makena are base. Upcountry is a published surcharge. Saturday West Maui traffic is planned, not hidden.',
     photo: 'svcCostMaui',

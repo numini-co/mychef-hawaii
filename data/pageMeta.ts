@@ -92,7 +92,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/in-villa-services/waiters': {
     title: 'Villa Waiters & Service Staff in Hawaiʻi | myCHEF',
     description:
-      'Uniformed servers for villa dinners, parties, weddings and multi-day stays across the islands. Published hourly rates, minimum-hours booking, written quote is the total.',
+      'Uniformed servers for villa dinners, parties, weddings and multi-day stays. Published hourly rates, minimum-hours booking, written quote is the total.',
   },
   '/in-villa-services/bartenders': {
     title: 'Villa Bartender & Bar Service in Hawaiʻi | myCHEF',
