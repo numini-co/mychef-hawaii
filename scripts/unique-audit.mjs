@@ -1590,8 +1590,15 @@ if (/jsonLd\.push\(localBusinessJsonLd/.test(seoSrc) && !/LOCAL_BUSINESS_JSONLD\
 if (/ISLAND_RATE_JSONLD[\s\S]{0,400}'\/wedding-catering'/.test(seoSrc)) {
   errors.push('JSON-LD OfferCatalog still treats /wedding-catering as a live product URL');
 }
-if (!/segs\[0\] === 'wedding-catering'/.test(middlewareSrc) || !/pathname = '\/weddings'/.test(middlewareSrc)) {
-  errors.push('/wedding-catering must 301 to /weddings');
+if (
+  !/segs\[0\] === 'wedding-catering'\) return \['weddings'\]/.test(middlewareSrc) ||
+  !/function aliasIslandPath[\s\S]{0,200}'wedding-catering'\) return \['weddings'\]/.test(middlewareSrc) ||
+  !/function aliasHubPath[\s\S]{0,200}'wedding-catering'\) return \['weddings'\]/.test(middlewareSrc)
+) {
+  errors.push('/wedding-catering must 301 to /weddings (hub and island aliases)');
+}
+if (!/segs\[0\] === hostLabel\)[\s\S]{0,80}rest = segs\.slice\(1\)/.test(middlewareSrc)) {
+  errors.push('island host must 301 /{island}/... legacy prefix to the clean path');
 }
 if (existsSync(join(ROOT, 'app/[island]/wedding-catering/page.tsx'))) {
   errors.push('/wedding-catering still ships as a live island page');
