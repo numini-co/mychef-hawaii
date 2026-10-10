@@ -16,11 +16,6 @@ function firstLabel(hostname: string): string {
   return hostname.split(':')[0]?.split('.')[0]?.toLowerCase() ?? '';
 }
 
-function isApexNetwork(hostname: string): boolean {
-  const h = hostname.split(':')[0]?.toLowerCase() ?? '';
-  return h === PRODUCTION_ROOT || h === `www.${PRODUCTION_ROOT}` || h.endsWith(`.${PRODUCTION_ROOT}`);
-}
-
 function isIsland(value: string): value is (typeof ISLANDS)[number] {
   return (ISLANDS as readonly string[]).includes(value);
 }
@@ -55,6 +50,22 @@ function sitemapStaticPath(host: string, path: string): string | null {
   return null;
 }
 
+/** Old island-host aliases. Returns the same array instance when nothing changes. */
+function aliasIslandPath(segs: string[], island: (typeof ISLANDS)[number]): string[] {
+  if (segs.length === 1 && segs[0] === 'wedding-catering') return ['weddings'];
+  if (segs.length === 1 && (segs[0] === 'reviews' || segs[0] === 'reviews-policy')) return ['trust'];
+  if (segs[0] === 'locations' && segs[1]) return CORRIDORS[island].includes(segs[1]) ? [segs[1]] : [];
+  if (segs[0] === 'private-chef' && segs.length > 1) return ['private-chef'];
+  return segs;
+}
+
+/** Old hub aliases. Returns the same array instance when nothing changes. */
+function aliasHubPath(segs: string[]): string[] {
+  if (segs.length === 1 && segs[0] === 'wedding-catering') return ['weddings'];
+  if (segs.length === 1 && (segs[0] === 'reviews' || segs[0] === 'reviews-policy')) return ['trust'];
+  return segs;
+}
+
 export function middleware(request: NextRequest) {
   const url = request.nextUrl;
   const host = (request.headers.get('x-forwarded-host') || request.headers.get('host') || '')
@@ -73,26 +84,41 @@ export function middleware(request: NextRequest) {
 
   if (isStaticAsset(path)) return NextResponse.next();
 
+  // Legacy addresses resolve in ONE hop to the clean canonical URL:
+  //   island host  /{same-island}/...  -> same host, prefix stripped
+  //   hub (apex/www) /{island}/...      -> https://{island}.mychef-hawaii.com/...
+  // then the old aliases (wedding-catering, reviews, locations/<slug>, private-chef/<x>)
+  // are applied to the stripped path so prefix + alias never chain.
   {
     const segs = path.split('/').filter(Boolean);
-    if (segs.length === 1 && segs[0] === 'wedding-catering') {
-      const dest = url.clone();
-      dest.pathname = '/weddings';
-      return NextResponse.redirect(dest, 301);
+    const hostLabel = firstLabel(host);
+    const onIslandHost =
+      isIsland(hostLabel) && (host.endsWith(`.${PRODUCTION_ROOT}`) || host.endsWith('.localhost'));
+    const onHub = host === PRODUCTION_ROOT || host === `www.${PRODUCTION_ROOT}`;
+    let target: (typeof ISLANDS)[number] | null = null;
+    let rest = segs;
+    let moved = false;
+    if (onIslandHost && isIsland(hostLabel)) {
+      target = hostLabel;
+      if (segs[0] === hostLabel) {
+        rest = segs.slice(1);
+        moved = true;
+      }
+    } else if (onHub && segs[0] && isIsland(segs[0])) {
+      target = segs[0];
+      rest = segs.slice(1);
+      moved = true;
     }
-    if (segs.length === 2 && isIsland(segs[0]) && segs[1] === 'wedding-catering') {
+    const aliased = target ? aliasIslandPath(rest, target) : aliasHubPath(rest);
+    if (moved || aliased !== rest) {
+      const cleanPath = `/${aliased.join('/')}`;
+      if (target && onHub) {
+        const dest = new URL(cleanPath, `https://${target}.${PRODUCTION_ROOT}`);
+        dest.search = url.search;
+        return NextResponse.redirect(dest, 301);
+      }
       const dest = url.clone();
-      dest.pathname = `/${segs[0]}/weddings`;
-      return NextResponse.redirect(dest, 301);
-    }
-    if (segs.length === 1 && (segs[0] === 'reviews' || segs[0] === 'reviews-policy')) {
-      const dest = url.clone();
-      dest.pathname = '/trust';
-      return NextResponse.redirect(dest, 301);
-    }
-    if (segs.length === 2 && isIsland(segs[0]) && (segs[1] === 'reviews' || segs[1] === 'reviews-policy')) {
-      const dest = url.clone();
-      dest.pathname = `/${segs[0]}/trust`;
+      dest.pathname = cleanPath;
       return NextResponse.redirect(dest, 301);
     }
   }
@@ -109,16 +135,6 @@ export function middleware(request: NextRequest) {
   if (host.endsWith(`.${PRODUCTION_ROOT}`) && host !== `www.${PRODUCTION_ROOT}`) {
     if (!isIsland(label)) {
       return new NextResponse('Unknown island department', { status: 404 });
-    }
-  }
-
-  if (isApexNetwork(host) && (host === PRODUCTION_ROOT || host === `www.${PRODUCTION_ROOT}`)) {
-    const seg = path.split('/').filter(Boolean)[0];
-    if (seg && isIsland(seg)) {
-      const rest = path.slice(seg.length + 1) || '/';
-      const dest = new URL(rest.startsWith('/') ? rest : `/${rest}`, `https://${seg}.${PRODUCTION_ROOT}`);
-      dest.search = url.search;
-      return NextResponse.redirect(dest, 301);
     }
   }
 
@@ -143,25 +159,6 @@ export function middleware(request: NextRequest) {
 
   const islandHost =
     isIsland(label) && (host.endsWith(`.${PRODUCTION_ROOT}`) || host.endsWith('.localhost')) ? label : null;
-
-  if (islandHost && isIsland(islandHost)) {
-    const segs = path.split('/').filter(Boolean);
-    const first = segs[0] ?? '';
-    const corridors = CORRIDORS[islandHost];
-    if (first === 'locations') {
-      const slug = segs[1] ?? '';
-      if (slug) {
-        const dest = url.clone();
-        dest.pathname = corridors.includes(slug) ? `/${slug}` : '/';
-        return NextResponse.redirect(dest, 301);
-      }
-    }
-    if (first === 'private-chef' && segs.length > 1) {
-      const dest = url.clone();
-      dest.pathname = '/private-chef';
-      return NextResponse.redirect(dest, 301);
-    }
-  }
 
   const requestHeaders = new Headers(request.headers);
   requestHeaders.set('x-request-host', host);
