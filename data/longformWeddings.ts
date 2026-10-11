@@ -47,20 +47,28 @@ export const weddingLongform: Record<IslandId, { sections: CopySection[]; faqs: 
         a: 'Kahala and the Gold Coast, Ko Olina, and Kailua estates first. Waikīkī residences when there is a real kitchen. North Shore and Turtle Bay carry a published surcharge and a dedicated day. Hotel rooms without cooktops are declined.',
       },
       {
-        q: 'How many guests?',
-        a: 'Private-estate receptions about ten to seventy-five. Elopements from $675 USD. Larger rooms are exceptions, never implied as standard.',
+        q: 'How many guests can a Kahala or Ko Olina reception hold?',
+        a: 'Resident’s Island receptions we staff run about ten to seventy-five in a house that can actually seat them. A Gold Coast dinner for the inner circle is often two to fifteen. An elopement or dinner for two is a fixed evening from $675, not a per-guest price pretending the room is full. If the lawn cannot hold the list, that is a written no, not a squeeze. Larger rooms are exceptions we do not imply.',
       },
       {
-        q: 'Can we add a bar?',
-        a: 'Yes. The four-hour packaged cart for a Kahala or Ko Olina weekend is on the mobile bar page. The terrace add-on is on the villa bar page. We do not bury a bartender inside a hospitality fee.',
+        q: 'Can a Kahala or Ko Olina weekend add a bartender?',
+        a: 'Yes. The four-hour packaged cart for that Gold Coast or Ko Olina weekend lives on the mobile bar page, and the terrace add-on lives on the villa bar page. Alcohol is BYO or that cart. We do not fold a bartender into a hospitality fee. Say so on the quote form with the headcount.',
       },
       {
-        q: 'When should we ask?',
-        a: 'As soon as you have a date. December through March press the calendar. One crew holds one wedding weekend at a time. Typical reply in Hawaii business hours.',
+        q: 'How early should an Oʻahu wedding weekend be requested?',
+        a: 'As soon as the date exists, even if the Kahala or Ko Olina house is not signed yet. December through March press the Resident’s Island calendar, and one crew holds one weekend. Surf-season North Shore dates move first. A typical reply is in Hawaii business hours. We would rather pencil a Saturday than invent a second crew in January.',
       },
       {
         q: 'Affordable wedding catering Oahu?',
         a: 'Related search, not a coupon. Wedding catering Oahu from $195 a guest plus staffing, with service and GET as their own lines. Elopements from $675. The written quote is the total — we will not invent a mystery low number.',
+      },
+      {
+        q: 'Can a Kahala welcome night and a Ko Olina rehearsal be separate lines?',
+        a: 'Yes. Resident’s Island weekends are stacked that way on purpose. Friday can be family-style on a Gold Coast lānai for the people who flew in. Saturday’s rehearsal stays a coursed table for the smaller list that needs to hear a toast. Each is its own line, so a Sunday brunch can come off without reopening the whole weekend. Reception food still starts from $195 a guest. Half the written total holds the dates after you accept it. Send both houses on the quote form if the weekend moves.',
+      },
+      {
+        q: 'What kitchen access does a Gold Coast or Ko Olina wedding house need?',
+        a: 'A working range, a fridge, and a table that seats the dinner list. Kahala estates and Ko Olina villas built to cook are the usual yes. A Waikīkī hotel room with a minibar is declined before a deposit. Freight elevators, a loading dock, and the building’s certificate of insurance are arranged with the property, not discovered in a driveway at four. If the room cannot hold ten to seventy-five, you hear that in writing. Kailua only when the stay is a genuine month. North Shore and Turtle Bay remain a published surcharge and a dedicated chef day.',
       },
     ],
   },
@@ -109,8 +117,8 @@ export const weddingLongform: Record<IslandId, { sections: CopySection[]; faqs: 
         a: 'Wailea, Kapalua, Kāʻanapali, Nāpili, and Makena are base zones. Upcountry is a published surcharge. Pāʻia and Haʻikū are quote-only. We cook in villa and estate kitchens — not hotel rooms without a cooktop.',
       },
       {
-        q: 'How many guests?',
-        a: 'Receptions about ten to seventy-five. Elopements from $750+ USD. Larger rooms are exceptions.',
+        q: 'What guest counts does a Maui villa-week reception cover?',
+        a: 'Wailea and Kapalua houses we staff sit around ten to seventy-five for the reception, and two to fifteen when the night is just the family table. Elopements start from $750+. A galley that cannot hold sixty is declined before a deposit, even if the lawn looks wide in the photos. We do not stretch a villa week into a ballroom.',
       },
       {
         q: 'When should we book?',
@@ -119,6 +127,18 @@ export const weddingLongform: Record<IslandId, { sections: CopySection[]; faqs: 
       {
         q: 'Can the week span Wailea and Kapalua?',
         a: 'Yes, as separately zoned days with travel planned. We do not pretend south Maui and northwest Maui are one neighbourhood.',
+      },
+      {
+        q: 'How is a Wailea welcome dinner different from the Kapalua rehearsal?',
+        a: 'The welcome is the ice-breaker: grazing or shared platters, paced for people who landed that afternoon. The rehearsal is a coursed night for the inner circle, not the full reception list. On a villa week they are separate lines, and a Wailea night plus a Kapalua night are separately driven days. You can cut Monday’s recovery brunch without rebuilding a package. Receptions start from $225 a guest in USD. Put both addresses on the quote form.',
+      },
+      {
+        q: 'Will you cook a wedding in a Wailea or Kapalua resort kitchen?',
+        a: 'When the residence has a real range. A galley that cannot hold the menu is bring-equipment or a decline, said before anyone pays. Hotel rooms without a cooktop are not a venue. Outdoor lawns get a written rain plan — covered lānai, an indoor reset, or the reschedule posture on the booking terms — confirmed before the day. Resort rules are settled with the property, not at the gate. If the house cannot hold seventy-five, we say so.',
+      },
+      {
+        q: 'Who is in the room for a Maui reception, and what holds the week?',
+        a: 'Servers from $80 an hour and a sous-chef from $105, each with a four-to-five-hour minimum. Choosing buffet, plated, or family-style changes the crew size, not the food band. A bartender stays on the villa bar page, never inside a hospitality fee. After you accept the written total, 50% holds the dates. Service is 20% and GET is up to 4.712%, each on its own line. A tip is optional. September, October, and May move first, so ask while the house is still a maybe. A menu preview, if you want one, is its own priced dinner, not a sample plate on Saturday.',
       },
     ],
   },
@@ -167,8 +187,8 @@ export const weddingLongform: Record<IslandId, { sections: CopySection[]; faqs: 
         a: 'The food band is the Kauaʻi card. Both shores are a published surcharge off the Līhuʻe base. Drive time is a zone line, not a silent markup. Hāʻena is quote-only with 72-hour notice.',
       },
       {
-        q: 'How many guests?',
-        a: 'Estate formats to about seventy-five. Elopements $975–$1,425 USD. Larger rooms are exceptions.',
+        q: 'How large can a Princeville or Poʻipū wedding be?',
+        a: 'Garden Isle estate formats go to about seventy-five when the house can hold them, and the welcome or rehearsal is often smaller than the reception. Elopements are a fixed $975–$1,425, not a headcount fiction. If a Hanalei lawn cannot take the list, the inquiry says so. We will not invent a second crew to make a larger Saturday look available.',
       },
       {
         q: 'Is Kauaʻi a waitlist?',
@@ -177,6 +197,18 @@ export const weddingLongform: Record<IslandId, { sections: CopySection[]; faqs: 
       {
         q: 'Can we book both shores in one weekend?',
         a: 'Only if the travel is written as separate chef days. A Princeville Saturday and a Poʻipū Sunday are not one commute. Say so on the quote form and we will tell you which days can share a crew.',
+      },
+      {
+        q: 'Can a Princeville welcome and a Poʻipū rehearsal sit on one Garden Isle inquiry?',
+        a: 'They can, if the inquiry names both shores and both dates. They are not one commute. A north-shore welcome and a south-shore rehearsal are written as separate chef days, with Līhuʻe between them. Food still starts from $260 a guest plus staffing. Kauaʻi is by inquiry only. We will not show an instant-booking button. Hāʻena, past the Hanalei bridge, adds seventy-two-hour notice and a weather clause. Closures reschedule rather than forfeit.',
+      },
+      {
+        q: 'What must a Hanalei or Poʻipū estate kitchen have before you will cook the wedding?',
+        a: 'A real range, cold storage, and a table large enough for the list. We plan from the cooktop we confirm, not from listing photos. An uncovered north-shore grill gets an indoor backup in the reply, because winter mist is a planning fact. Hotel rooms without a range are declined. If the estate cannot hold about seventy-five, that limit is in the inquiry answer, before any deposit. Estate rules and parking are settled ahead of the first pour.',
+      },
+      {
+        q: 'How early should a Kauaʻi wedding week be inquired, and is a tasting included?',
+        a: 'North Shore winters fill first, and one crew cannot hold two overlapping estate weeks. Send the shore while the house is still a maybe. There is no complimentary tasting. If you want to eat the menu before the week, that sitting is quoted as its own dinner. When a crew exists, the written total lists food, hourly servers, 20% service, and GET up to 4.712%. Half is due to lock the week. A tip is never required. Call (808) 468-7748 or use the quote form.',
       },
     ],
   },
@@ -229,12 +261,24 @@ export const weddingLongform: Record<IslandId, { sections: CopySection[]; faqs: 
         a: 'Yes, with compressed availability. Flag those dates early. We will not hold two west-side wedding weeks that overlap an Ironman Saturday.',
       },
       {
-        q: 'How many guests?',
-        a: 'Estate receptions about ten to seventy-five. Elopements from $825 USD. Larger rooms are exceptions.',
+        q: 'What headcount works for a Kohala or Kona estate week?',
+        a: 'West-side receptions we inquire on are about ten to seventy-five. Dinners for the inner circle run two to fifteen. Elopements are a fixed evening from $825. A lava-coast lawn that cannot seat the list is a no, said before anyone shops. Hilo is not a way to add more seats onto a Kona day. Larger rooms stay exceptions.',
       },
       {
         q: 'Is the Big Island bookable now?',
         a: 'Hawaiʻi Island is by inquiry only. Join the inquiry list with west-side dates. We will not sell an instant-booking button or a same-day Hilo add-on.',
+      },
+      {
+        q: 'How do a Kohala welcome and a Kona rehearsal fit one expedition week?',
+        a: 'They fit when both houses are on the west side — Kailua-Kona, Keauhou, Waikoloa, the Mauna Kea belt, or the Kohala Coast — and the drive is written. Welcome is the first-night table. The rehearsal is the smaller toast list. A Volcano or Hilo brunch is not part of that week. It is a separate quoted staffing day, two-and-a-half to three hours across the saddle. Reception food follows the island card from $225 a guest. Join the inquiry list and name both west-side addresses. We will not pretend the island is one neighbourhood.',
+      },
+      {
+        q: 'What kitchen access do Kohala and Kona wedding houses need?',
+        a: 'A range the crew can use, a fridge, and either a dining room or a lawn with an indoor backup. Resort residences often cook well and still have vendor rules. Those are arranged before the first welcome pour, not discovered at a gate. Wind on a lava-coast terrace is planned into the setup. Hotel rooms without a cooktop are declined. If the lawn cannot hold ten to seventy-five, we say so. Elopements are a fixed evening from $825, not a per-guest stack for two people.',
+      },
+      {
+        q: 'When is a Big Island wedding menu set, and what locks the date?',
+        a: 'Menu direction and a crew list come back in Hawaii business hours after the inquiry. A tasting is not free. If you want a preview dinner, it is scheduled and priced on its own night. Flag Ironman and other west-side event weeks as soon as the dates exist — lodging and grocery windows compress. Once you accept the written total, 50% holds the week. Service at 20% and GET up to 4.712% are itemised. Gratuity is voluntary. This island is inquiry only. We will not sell instant booking.',
       },
     ],
   },

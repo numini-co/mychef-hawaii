@@ -288,6 +288,14 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
         q: 'Villa dinner or an estate week?',
         a: 'Kohala and Kona wedding weeks are on the weddings page. Staffed events without vows are on the catering page.',
       },
+      {
+        q: 'Do you cover Kona and Kohala Coast rentals?',
+        a: 'Vacation rentals are the usual one-night hire along Kailua-Kona, Keauhou, and the Kohala resort communities, as long as the kitchen has a range, refrigeration, and a table. A lock-off that only offers a coffee maker is turned down before any deposit. Send the listing in the first note so the menu is designed to that stove, not to a photo. Signature dinners stay $210–$325 a guest, and the groceries are already inside that band. A multi-day cook is a different page: Stay Chef from $1,450, shop at cost with receipts. This page is the single west-side dinner.',
+      },
+      {
+        q: 'Will you travel to Volcano or Hilo if that is the hire?',
+        a: 'Yes, as its own expedition day. Volcano and Hilo are quoted with a crew that is not also cooking a Kona sunset dinner. The saddle crossing is two-and-a-half to three hours, so the shop, the call time, and the drive are planned for the east side alone. A Kohala terrace and a Volcano dinner do not share a vehicle. Put the east-side property in the opening message. Ironman road closures do not shrink that drive. West-side rentals remain the default ask. Join the inquiry list — a published band is not a live calendar.',
+      },
     ],
   },
 };
