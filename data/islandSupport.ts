@@ -510,7 +510,19 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
     faqs: [
       {
         q: 'Is there a Maui catering menu PDF?',
-        a: 'Both are designed; neither is a fake standing carte.',
+        a: 'No standing PDF. You see a sample three-course on this page, and a menu written for your house and guest count after you send the dates. Private dinners and catered events are both designed per table, never copied from a fixed list.',
+      },
+      {
+        q: 'Do you cook a Hawaiian catering menu on Maui?',
+        a: 'Yes. Island flavours lead: ahi poke with inamona and ogo, macadamia-crusted fresh catch (mahi, ono or opakapaka, whatever ran that morning), and local fruit at dessert. For a staffed event of about 10–75 guests, the Maui catering page sets out buffet, plated and family-style formats from $225 a guest.',
+      },
+      {
+        q: 'Private chef dinner or catering menu — which one fits?',
+        a: 'A villa dinner for a small group is a private chef menu: courses plated in your kitchen. A reception, reunion or wedding-week party of roughly ten to seventy-five is a catering menu, with identical event plates and a staffed service line.',
+      },
+      {
+        q: 'Where on Maui do these menus run?',
+        a: 'Wailea, Kīhei, Kāʻanapali, Kapalua and West Maui villas. Tell us the kitchen you have, and the menu is written to fit its burners, oven and lānai.',
       },
       {
         q: 'Dietary?',
@@ -537,8 +549,20 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
         a: 'Same standard, different fire and weather plan. The designed menu says which shore.',
       },
       {
-        q: 'Kauai catering menu?',
-        a: `Related search, not a PDF mill.`,
+        q: 'Is there a Kauai catering menu?',
+        a: 'There is no standing PDF. Catered estate events of about 10–75 guests get a menu written for that house, buffet or plated, with food from $225–$375 a guest. Staffing, the 20% service charge and GET are separate lines on the quote.',
+      },
+      {
+        q: 'What does a Kauai private chef menu look like?',
+        a: 'Ahi poke with kukui and sweet onion on the North Shore; wood-grilled catch with mango salsa and coconut rice when a South Shore kitchen can take fire. The sample three-course on this page shows the shape; your own menu follows your dates and guests.',
+      },
+      {
+        q: 'Can the menu handle dietary needs?',
+        a: 'Yes — vegan, gluten-free and allergy-aware menus are designed in advance, and we only promise what the kitchen can deliver that night.',
+      },
+      {
+        q: 'Which towns do you cook in on Kauai?',
+        a: 'Princeville, Hanalei, Poʻipū and Kapaʻa. Līhuʻe and Kapaʻa are base zone; Princeville, Hanalei and Poʻipū carry a published travel line.',
       },
     ],
   },
