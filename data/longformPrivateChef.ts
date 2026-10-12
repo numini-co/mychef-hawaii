@@ -148,6 +148,14 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
         q: 'Villa dinner or a wedding week?',
         a: 'Welcome through recovery brunch is on the weddings page. Ten to seventy-five without vows is on the catering page.',
       },
+      {
+        q: 'How far ahead should I book a Maui villa-week dinner?',
+        a: 'Book when the villa contract is signed. Wailea, Kāʻanapali, Kapalua, and Kīhei weeks in December through March, and wedding weeks in September, October, and May, go first. A single dinner inside a longer stay should be requested with the rest of the week so the crew is not split across two houses. The written menu follows within 48 hours of the dates.',
+      },
+      {
+        q: 'What does a Maui dinner for two to eight include, and what does the quote show?',
+        a: 'A table of two is a fixed dinner from $750+, groceries included, not six empty seats of the per-guest price. From six to eight guests the dinner is $225–$375 a guest, shopping inside that price. Either night covers the menu, cooking in the villa, service, and a clean kitchen. The quote lists the food, then 20% service and GET up to 4.712% once each, plus Upcountry travel if the house is up the hill. A 50% deposit holds the date after you accept. Gratuity is never required. A chef through the villa week is Stay Chef from $1,550 a day, groceries at cost with receipts, written as the week.',
+      },
     ],
   },
   kauai: {
@@ -217,6 +225,14 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
       {
         q: 'Villa dinner or a staffed event?',
         a: 'Ten to seventy-five is on the catering page. Estate wedding weeks from $260 a guest plus staffing are on the weddings page.',
+      },
+      {
+        q: 'How far ahead should I enquire for a dinner on Kauai?',
+        a: 'Enquire as soon as the house is held. Kauaʻi is by inquiry on both shores: Princeville and Hanalei on the North, Poʻipū on the South. December through March and the wedding peaks need time to staff that shore, and a far-North night also carries 72-hour notice if the weather turns. This page is what the night includes; the island overview is [Kauai private chef](/).',
+      },
+      {
+        q: 'What does a Kauai dinner for two to eight include, and what is on the quote?',
+        a: 'Two guests are Date Night, a fixed evening at $975–$1,425 with the shopping inside it. From six to eight guests the dinner is $225–$375 a guest. Groups between those sizes are quoted in writing to the published minimum, not discounted on the spot. The night covers a menu, shopping on the shore of the house, cooking, service, and cleanup. The quote then shows shore travel where it applies, 20% service, and GET up to 4.712%, each once. Half the accepted total is the deposit. A tip is never required. We confirm only when a crew can take that Princeville, Hanalei, or Poʻipū night.',
       },
     ],
   },

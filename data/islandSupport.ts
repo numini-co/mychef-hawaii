@@ -492,6 +492,26 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
         q: 'Honolulu catering menus with prices?',
         a: 'Related search, not a PDF mill. Both show a sample and a starting band. Your designed menu arrives after enquiry.',
       },
+      {
+        q: 'Is an Oahu menu written for the house?',
+        a: 'A Kahala dining room, a Ko Olina villa, and a Kailua family kitchen do not share a carte. We look at the burners, the fridge, and who is sitting down, then write that night. The Honolulu fish market sets the main the morning we cook.',
+      },
+      {
+        q: 'What is on the Oahu sample three-course?',
+        a: 'The sample on this page opens with a poke tostada, moves to miso-glazed catch with bok choy and rice, and closes with a light dessert. It shows the length of a resident dinner. Your own draft can change the fish or lean sushi-forward if that is the direction you asked for.',
+      },
+      {
+        q: 'Can a Honolulu kitchen handle dietary needs?',
+        a: 'Vegan, gluten-free, and allergy notes are written in before the fish-market run. We only stand behind a restriction that kitchen can keep. A two-burner condo gets a shorter menu, not a promise that a missing oven will turn up.',
+      },
+      {
+        q: 'Which Oahu towns do these menus cover?',
+        a: 'Honolulu houses, Kahala and the Gold Coast, Ko Olina villas, Kailua, and a Waikīkī residence with a working stove. North Shore and Turtle Bay add a longer drive and a published travel line. A hotel room without a cooktop is not a menu we will draft.',
+      },
+      {
+        q: 'How is the food bought, and how much notice does an Oahu menu need?',
+        a: 'On a private dinner the shopping sits inside $195–$290 a guest, bought the day we cook. A staffed party of about ten to seventy-five is a different menu — matching plates, same $195–$290 food range — with staffing, a 20% service charge, and GET up to 4.712% written apart from the food. Send the date when the house is held; December through March needs weeks. The designed menu comes back within 48 hours of the enquiry. A multi-day Stay Chef, from $1,250 a day, is the only booking that bills groceries at cost with receipts.',
+      },
     ],
   },
   maui: {
@@ -527,6 +547,18 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
       {
         q: 'Dietary?',
         a: 'Vegan, gluten-free, allergy-aware — designed in advance. Claimed only when the kitchen can do it that night.',
+      },
+      {
+        q: 'What does the Maui sample three-course show?',
+        a: 'Three beats for a villa week: a cold first plate, a catch main that waits on that morning boat, and a fruit-led dessert. It is on this page so you can see how long the night runs. The menu we actually cook is drafted after you name the kitchen — a Wailea resort range and a Kīhei condo galley are not given the same number of pans.',
+      },
+      {
+        q: 'How is food shopped for a Maui villa menu?',
+        a: 'A private dinner includes the groceries inside $225–$375 a guest. We shop the day of service, and that shop does not return as a second invoice. A reception menu uses the same guest range for the food, then lists staff, a 20% service charge, and GET up to 4.712% on their own. Groceries at cost, with the store receipts, happen only on Stay Chef, from $1,550 a day, when the chef stays for the villa week.',
+      },
+      {
+        q: 'How far ahead should a Wailea, Kāʻanapali, Kapalua, or Kīhei menu be requested?',
+        a: 'Request it when the villa is on hold. December through March, and wedding weeks in September, October, and May, need weeks because those houses go first. A quieter weeknight can sometimes move sooner. Once dates, headcount, and the kitchen are in, the designed menu is back within 48 hours for you to edit.',
       },
     ],
   },
@@ -564,6 +596,18 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
         q: 'Which towns do you cook in on Kauai?',
         a: 'Princeville, Hanalei, Poʻipū and Kapaʻa. Līhuʻe and Kapaʻa are base zone; Princeville, Hanalei and Poʻipū carry a published travel line.',
       },
+      {
+        q: 'Is a Kauai menu written for that house?',
+        a: 'Yes, at inquiry, for one shore and one kitchen. A Princeville estate under a covered lānai and a Poʻipū house that can hold a grill are planned as different fires, and Hanalei adds the bridge. We do not pass over a standing list and pretend the island is a printed carte.',
+      },
+      {
+        q: 'How does food shopping work for a Princeville or Poipu menu?',
+        a: 'Shopping for a private dinner is inside $225–$375 a guest. We buy the day of service, on the shore where the house sits, and there is no second grocery bill. A retreat week is the exception: Stay Chef from $1,650 a day, groceries at cost, original receipts attached. That week is not priced as one dinner repeated.',
+      },
+      {
+        q: 'How much notice does a Kauai menu need?',
+        a: 'Send it when the rental is held. Kauaʻi is by inquiry, so December through March and the September, October, and May peaks should arrive early enough for us to staff North Shore or South Shore. Houses past Hanalei also carry a 72-hour weather window. The menu draft itself returns within 48 hours of a complete note — dates, guest count, and Princeville, Hanalei, or Poʻipū.',
+      },
     ],
   },
   bigisland: {
@@ -587,6 +631,30 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
       {
         q: 'East-side menu?',
         a: 'Hilo and Volcano are quote-only with dedicated staffing. The sample below is the west-side dinner.',
+      },
+      {
+        q: 'Is a Big Island menu written for the house?',
+        a: 'Yes, and only after we know which side the house is on. A Keauhou villa and a Kohala Coast residence can share a west-side shop. A Waimea ranch kitchen changes the produce. Hilo is not a third stop on that draft — it is its own day. This is inquiry, not a live calendar.',
+      },
+      {
+        q: 'What does the Big Island sample three-course show?',
+        a: 'A west-side dinner in three moves: kanpachi crudo with citrus and chili to start, coffee-rubbed catch or ranch steak beside Hāmākua mushrooms, then a short dessert. It shows length and ingredients. The draft waits on the boat that morning and on whether the kitchen is in Kona, Waikoloa, or up in Waimea.',
+      },
+      {
+        q: 'Can dietary needs be designed into a west-side menu?',
+        a: 'They can, when they arrive with the inquiry. Gluten-free, vegan, and allergy plates are set before the west-side shop, not swapped at the pass. If the morning fish or the Waimea produce cannot meet the note, the draft changes before the drive. We will not promise a restriction a Kohala kitchen cannot keep.',
+      },
+      {
+        q: 'Which towns do Big Island menus cover?',
+        a: 'Kailua-Kona, Keauhou, Waikoloa, Mauna Lani, and the Kohala Coast are the usual west-side dinners. Waimea is in range with its own travel line, and produce from that side of the saddle often lands on the plate. Hilo and Volcano get a dedicated day and their own menu plan.',
+      },
+      {
+        q: 'Is a private dinner menu the same as a catering menu on the Big Island?',
+        a: 'No. A private dinner is courses for the people in the house, usually $210–$325 a guest, or a simpler table from $165. A catering menu is matching plates for a staffed gathering of about ten to seventy-five, with the service line written separately. Say which night it is and the draft follows, at inquiry.',
+      },
+      {
+        q: 'How does Big Island food shopping work, and how much notice is required?',
+        a: 'On a one-night dinner the shopping is inside the guest price, from $165 on a simpler table or inside $210–$325 for most villa dinners. We provision the west side the day of service. Stay Chef, from $1,450 a day, is the stretch that bills groceries at cost and keeps the receipts. Send dates when the villa is held, especially December through March and Ironman week. The written menu returns within 48 hours. Hilo still needs its own day on the calendar.',
       },
     ],
   },

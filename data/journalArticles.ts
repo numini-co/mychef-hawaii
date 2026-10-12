@@ -658,16 +658,19 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       slug: 'how-much-does-a-private-chef-cost',
       name: 'How a quote is built',
       h1: 'What a Big Island chef dinner costs — band, stack, Kona–Kohala.',
-      title: 'What a Big Island Chef Dinner Costs — Quote Guide | myCHEF',
+      title: 'How Much Does a Private Chef Cost on the Big Island',
       description:
-        'Big Island chef dinners: ENTRY from $165, CORE $210–$325 a guest, Stay Chef from $1,450 a day. How service, GET and Waimea or Hilo travel reach the total.',
-      lede: 'Big Island chef dinners: ENTRY from $165, CORE $210–$325 a guest, Stay Chef from $1,450 a day. How service, GET and Waimea or Hilo travel reach the total.',
+        'A Big Island private chef costs from $165 a guest, most dinners $210–$325. A six-guest quote shows food, 20% service, tax, and Waimea or Hilo travel.',
+      lede: 'A Big Island private chef costs from $165 a guest, most dinners $210–$325. A six-guest quote shows food, 20% service, tax, and Waimea or Hilo travel.',
       photo: 'jnlCostBigisland',
       body: [
-        'West side first, published bands. A Kona or Kohala Coast villa dinner runs CORE $210–$325 USD a guest, groceries inside the band. ENTRY, the open west-side table, is from $165 a guest.',
-        'A chef for the week is Stay Chef, from $1,450 a day, with groceries billed at cost on original receipts. Signature dinners and Stay Chef never blend on one quote.',
-        'Kona–Kohala is the base zone. Waimea and Hāmākua carry a published surcharge. The east side is a dedicated day with its own travel line, never a west-side round trip. Ironman weeks change lodging and crew days, not the food band.',
-        'After the food: 20% service and Hawaiʻi GET up to 4.712%, each printed once. A band is not an instant-booking button. When we can staff, the written quote is the contract.',
+        'West side first. A Kona or Kohala Coast villa dinner is usually $210–$325 a guest, and the groceries for that menu already sit inside the price. A simpler open table starts from $165 a guest. Neither dinner adds a second grocery bill.',
+        'A chef for the week is Stay Chef, from $1,450 a day, with groceries billed at cost on original receipts. A one-night dinner and a Stay Chef week never share one quote.',
+        'Kona–Kohala is the base zone. Waimea and Hāmākua carry a published surcharge from $75. The east side is a dedicated day with its own travel line, never a west-side round trip. Ironman weeks change lodging and crew days, not the food price.',
+        'After the food: 20% service and Hawaiʻi GET up to 4.712%, each printed once. A published range is not an instant-booking button. When we can staff, the written quote is the contract. Half of that total, a 50% deposit, holds the date. Gratuity is never required.',
+        'Here is the same stack with six guests at the start of a usual Kona or Kohala dinner, $210 a guest. The food line is $1,260. That figure already pays for the shopping: kanpachi when the boat is in, ranch steak with Hāmākua mushrooms, Waimea produce, and Kona coffee only when it is actually on the crust. You will not see a line that treats groceries as extra. If the menu sits higher in the $210–$325 range, multiply the guest price by six. Six times $325 is $1,950 of food, still with the shopping inside it.',
+        'The 20% service charge is worked out on that food line and printed once. On the $1,260 example it is $252. Hawaiʻi general excise tax, up to 4.712%, is then worked out on the food plus the service charge, about $71 on this six-guest example. The same order holds at $1,950 of food: service is 20% of the food, then tax up to 4.712% of food plus service. Those two lines are never folded back into the per-guest price, so the menu price you were shown stays the menu price.',
+        'Travel prints only when the house leaves the Kona–Kohala base. A Waimea or Hāmākua dinner adds a surcharge from $75 on its own line. Hilo is not that $75. Hilo and Volcano are a dedicated day, two and a half to three hours from the west side, and the travel for that day is quoted by itself. A Kona sunset and a Hilo lunch do not share a vehicle or a total. Once you accept the written quote, a 50% deposit holds the date. Gratuity is never required, and it is not slipped into the bill.',
         'The card is on [private chef Big Island cost](/pricing). A Kona villa dinner is [private chef Kona](/private-chef); the island overview is [private chef Big Island](/).',
       ],
       faqs: [
@@ -676,12 +679,32 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
           a: 'Not the same day. We quote a dedicated crossing.',
         },
         {
-          q: 'What is ENTRY versus CORE?',
-          a: 'ENTRY from $165 a guest is the open west-side table. CORE $210–$325 a guest is the usual Kona–Kohala villa night.',
+          q: 'What is the $165 table versus a $210–$325 dinner?',
+          a: 'From $165 a guest is the simpler west-side table. Most villa dinners in Kona and along the Kohala Coast are $210–$325 a guest. Groceries for either dinner stay inside that guest price. A multi-day cook is a different product: Stay Chef from $1,450 a day, groceries at cost with the store receipts. They are not combined.',
         },
         {
           q: 'Does Ironman week change the price?',
-          a: 'No. CORE stays $210–$325 a guest. Ironman compresses crew days; flag those dates early.',
+          a: 'No. The usual dinner stays $210–$325 a guest. Ironman compresses crew days; flag those dates early.',
+        },
+        {
+          q: 'What does a six-guest Kona quote look like?',
+          a: 'At $210 a guest, six people is $1,260 for the food, shopping included. The 20% service charge on that food is $252. Tax up to 4.712% applies to the food and the service charge together, about $71 here. A higher menu inside $210–$325 scales the same way, up to $1,950 of food at $325. This is a west-side inquiry quote, not a button that holds the night.',
+        },
+        {
+          q: 'Is the 20% service charge a tip?',
+          a: 'No. The 20% is a service charge on the food, shown once. It is not a gratuity. A tip is never required and is never hidden in the bill.',
+        },
+        {
+          q: 'What does the 4.712% line cover?',
+          a: 'Hawaiʻi general excise tax, up to 4.712%, including the county surcharge. On a dinner it is figured from the food plus the 20% service charge, and it appears as its own line. It is not a resort fee.',
+        },
+        {
+          q: 'What travel line prints for Waimea or Hilo?',
+          a: 'Waimea and Hāmākua add a published surcharge from $75, separate from the food. Hilo and Volcano are a different day: the drive is 2.5–3 hours, and travel is quoted for that east-side day alone. A Kona total does not absorb a Hilo stop.',
+        },
+        {
+          q: 'How much is due to hold the date, and is a tip expected?',
+          a: 'Fifty percent of the written total is the deposit, and it locks the date only after you accept the quote. The balance follows that same quote. Gratuity is never required.',
         },
       ],
       related: [
