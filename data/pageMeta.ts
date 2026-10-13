@@ -37,9 +37,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Pick your island for in-villa dinners, staffed catering, wedding weeks or a bartender add-on. WhatsApp for a quote.',
   },
   '/private-chef': {
-    title: 'Villa Chef Hawaii | In-Villa Dinners by Island | myCHEF',
+    title: 'Villa dinners in Hawaii — choose your island | myCHEF',
     description:
-      'An in-villa chef for your Hawaii stay: dinners cooked and served in your villa or vacation rental on Oʻahu, Maui, Kauaʻi or the Big Island. From $195 a guest.',
+      'Choose the island for a villa dinner. Oʻahu $195–$290 a guest. Maui and Kauaʻi $225–$375. Big Island $210–$325, from $165. Quote or inquiry by island.',
   },
   '/catering': {
     title: 'Hawaii Catering | Staffed Villa Events 10–75 | myCHEF',

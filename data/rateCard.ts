@@ -358,6 +358,33 @@ export function coreDinnerFrom(island: IslandId): string {
   return core ? `${formatFrom(core.band[0])} a guest` : '';
 }
 
+/** Signature dinner band as guests should read it: "$195–$290". Groceries sit inside that band. */
+const SIGNATURE_LOW: Record<IslandId, number> = {
+  oahu: 195,
+  maui: 225,
+  kauai: 225,
+  bigisland: 210,
+};
+
+export function signatureGuestBand(island: IslandId): string {
+  const low = SIGNATURE_LOW[island];
+  const row = getTiers(island).find((t) => t.band[0] === low);
+  if (!row) throw new Error(`signature band missing for ${island}`);
+  return formatBand(row);
+}
+
+/** Stay Chef daily floor as "$1,250". Groceries are not inside this fee. */
+export function stayChefUsd(island: IslandId): string {
+  return `$${getDayRate(island).from.toLocaleString('en-US')}`;
+}
+
+/** Big Island only: simpler open table, low end of the published dinner card. */
+export function bigIslandSimplerDinner(): string {
+  const row = getTiers('bigisland').find((t) => t.band[0] === 165);
+  if (!row) throw new Error('simpler Big Island dinner missing');
+  return `$${row.band[0]}`;
+}
+
 /** Four-island Stay Chef floors — never skip Kauaʻi $1,650. */
 export const STAY_CHEF_FLOORS =
   'Stay Chef from $1,250 Oʻahu / $1,550 Maui / $1,650 Kauaʻi / $1,450 Hawaiʻi Island';

@@ -15,6 +15,7 @@ import { islandOrder, islands, type IslandId } from '@/data/islands';
 import { islandOffers } from '@/data/offers';
 import type { PhotoKey } from '@/data/photos';
 import { photos } from '@/data/photos';
+import { hubPrivateChef } from '@/data/hubPrivateChef';
 import { formatDayRate, getDayRate } from '@/data/rateCard';
 import { islandHref } from '@/lib/paths';
 
@@ -227,8 +228,8 @@ export function HubOfferView({ kind }: { kind: 'private-chef' | 'vacation-chef' 
   const copy =
     kind === 'private-chef'
       ? {
-          h1: 'Visitor dinners in Hawaii villas.',
-          lede: 'Choose your island. Oʻahu from $195 a guest, Maui and Kauaʻi from $225 a guest, Hawaiʻi Island from $210 a guest (ENTRY from $165). Weekly household cooking lives on each island the personal chef page.',
+          h1: hubPrivateChef.h1,
+          lede: hubPrivateChef.lede,
           img: photos.hubChef,
           service: 'private-chef',
           path: '/private-chef' as const,
@@ -243,6 +244,19 @@ export function HubOfferView({ kind }: { kind: 'private-chef' | 'vacation-chef' 
 
   return (
     <>
+      {kind === 'private-chef' ? (
+        <JsonLd
+          data={{
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: hubPrivateChef.faqs.map((f) => ({
+              '@type': 'Question',
+              name: f.q,
+              acceptedAnswer: { '@type': 'Answer', text: f.a },
+            })),
+          }}
+        />
+      ) : null}
       <Hero src={copy.img.file} alt={copy.img.alt}>
         <Eyebrow tone="paper">myCHEF Hawaii</Eyebrow>
         <LineReveal
@@ -287,6 +301,12 @@ export function HubOfferView({ kind }: { kind: 'private-chef' | 'vacation-chef' 
           </ul>
         </div>
       </section>
+      {kind === 'private-chef' ? (
+        <>
+          <DocumentCopy heading={hubPrivateChef.heading} paras={hubPrivateChef.body} />
+          <LongFaq items={hubPrivateChef.faqs} title={hubPrivateChef.faqTitle} kicker="Statewide" />
+        </>
+      ) : null}
       {kind === 'private-chef' ? (
         <HubPhotoGrid
           eyebrow="Related pages"
