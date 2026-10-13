@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-09T19:42:56Z</lastmod>
+    <lastmod>2026-10-14T00:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -602,7 +602,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/dining-in-princeville</loc>
-    <lastmod>2026-10-09T19:32:00Z</lastmod>
+    <lastmod>2026-10-14T00:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -614,7 +614,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/dining-in-hanalei</loc>
-    <lastmod>2026-10-09T19:32:00Z</lastmod>
+    <lastmod>2026-10-14T00:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -831,6 +831,12 @@
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/retreat-full-board</loc>
     <lastmod>2026-10-09T19:32:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://kauai.mychef-hawaii.com/blog/north-shore-kauai-dining-guide</loc>
+    <lastmod>2026-10-14T00:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>

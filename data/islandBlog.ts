@@ -29,6 +29,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogOahu',
     body: [
       'For the longer notes — Gold Coast counters, convention weeks, short-stay villas — read the journal.',
+      'New this month: [planning a private luau on Oʻahu at your own house](/blog/private-luau-oahu) — menu, imu vs grill, staff and rain plans, with links to [Oahu catering](/catering) for 10 to 75 guests.',
     ],
   },
   maui: {
@@ -42,6 +43,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogMaui',
     body: [
       'Short posts from Wailea, Kīhei and West Maui kitchens: breakfast and lunch in the villa, cleanup, groceries at cost, and what goes on the written quote. The longer notes, including the Maui price guide, live in the journal.',
+      'New this month: [a chef’s guide to Maui farmers markets for a villa week](/blog/maui-farmers-market-villa-week), and how market shopping turns into dinner with a [personal chef Maui](/private-chef) night.',
     ],
   },
   kauai: {
@@ -55,6 +57,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogKauai',
     body: [
       'If you need the Hanalei-bridge weather note at length, the journal is the better page.',
+      'New this month: [the North Shore Kauaʻi dining guide](/blog/north-shore-kauai-dining-guide) — restaurant hours, reservations, the Hanalei bridge and when a [private chef Kauai](/) night at the villa is the better plan.',
     ],
   },
   bigisland: {
@@ -68,6 +71,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogBigisland',
     body: [
       'West-side kitchens and Kohala travel show up in the shorter posts; the journal keeps the longer notes.',
+      'New this month: [planning beach party catering on the Kona side](/blog/kona-beach-party-catering-guide) — sun, wind, permits and a villa backup, with [Big Island catering](/catering) for 10 to 75 guests.',
       'Looking to book rather than read? Dinner prices, the ENTRY and CORE bands and Stay Chef days are on the [private chef Big Island](/) page, and staffed villa parties for ten to seventy-five are [Big Island catering](/catering).',
     ],
   },
