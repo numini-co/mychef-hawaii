@@ -658,10 +658,10 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       slug: 'how-much-does-a-private-chef-cost',
       name: 'How a quote is built',
       h1: 'What a Big Island chef dinner costs — band, stack, Kona–Kohala.',
-      title: 'How Much Does a Private Chef Cost on the Big Island',
+      title: 'What a Big Island Chef Dinner Costs — From $165 | myCHEF',
       description:
-        'A Big Island private chef costs from $165 a guest, most dinners $210–$325. A six-guest quote shows food, 20% service, tax, and Waimea or Hilo travel.',
-      lede: 'A Big Island private chef costs from $165 a guest, most dinners $210–$325. A six-guest quote shows food, 20% service, tax, and Waimea or Hilo travel.',
+        'Big Island chef dinners from $165 a guest; most $210–$325. Six guests at $210 → $1,260 food + 20% service + GET. Kona–Kohala first; Hilo is its own day.',
+      lede: 'Big Island chef dinners from $165 a guest; most $210–$325. Six guests at $210 → $1,260 food + 20% service + GET. Kona–Kohala first; Hilo is its own day.',
       photo: 'jnlCostBigisland',
       body: [
         'West side first. A Kona or Kohala Coast villa dinner is usually $210–$325 a guest, and the groceries for that menu already sit inside the price. A simpler open table starts from $165 a guest. Neither dinner adds a second grocery bill.',

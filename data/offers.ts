@@ -1003,17 +1003,17 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
     {
       slug: 'hanalei',
       name: 'Hanalei',
-      h1: 'Private chef Hanalei Kauai',
-      title: 'Private chef Hanalei Kauai — from $225/pp | myCHEF',
+      h1: 'Hanalei private chef — North Shore Kauai, bridge honesty.',
+      title: 'Hanalei Private Chef | North Shore Kauai | myCHEF',
       description:
-        'Private chef Hanalei Kauai from $225/pp. North Shore dinners and Kauai catering. Weather and road honesty published up front.',
+        'Hanalei and North Shore Kauai villa dinners from $225 a guest. Bridge weather clause published. For island-wide private chef Kauai, open the Kauai home page.',
       lede:
-        'The bridge is real. We plan around it instead of arguing with it. CORE from $225/pp.',
+        'Hanalei is one North Shore corridor of [private chef Kauai](/). The bridge is real — we plan around it. CORE from $225 a guest.',
       body: [
-        'Estate dinners and Kauai wedding catering when the guest list grows. 72-hour notice for far-North. CORE from $225/pp.',
+        'Valley and North Shore estate dinners sit under the island [private chef Kauai](/) card; this page is the Hanalei corridor note. CORE from $225 a guest. 72-hour notice for far-North.',
         'The one-lane bridge is the logistics. A closed road moves the night; it does not eat the deposit. Hāʻena is quote-only.',
         'Signature groceries stay inside $225–$375 a guest. Stay Chef from $1,650 a day bills the shop at cost with receipts. They never blend. Hotel rooms without a cooktop are declined.',
-        'Full Kauaʻi rates are on [the pricing page](/pricing); send your dates on [the quote form](/quote).',
+        'Island overview: [private chef Kauai](/). Full rates on [the pricing page](/pricing); send your dates on [the quote form](/quote).',
       ],
       zone: 'North Shore',
       photo: 'locHanalei',
