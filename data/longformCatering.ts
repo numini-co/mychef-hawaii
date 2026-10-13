@@ -269,6 +269,10 @@ const kauaiSections: CopySection[] = [
 
 const kauaiFaqs: CopyFaq[] = [
   {
+    q: 'Is Kauai private chef the same as Kauai catering?',
+    a: 'No. [Private chef Kauai](/) is a villa dinner for a small list — usually under about twelve — cooked in your kitchen on either shore. Kauai catering on this page is a staffed estate event for about 10–75 guests. Same island, different product; open the home page for private chef Kauai.',
+  },
+  {
     q: 'How much does catering cost on Kauai?',
     a: 'Food is $225–$375 a guest. Servers are $80 an hour and a sous-chef $105, with four- to five-hour minimums. A 20% service charge and GET up to 4.712% are added as their own lines, plus a $50–$75 travel line for Princeville, Hanalei or Poʻipū.',
   },
