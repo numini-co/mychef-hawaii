@@ -48,7 +48,7 @@ export const SERVICE_AREAS: Record<IslandId, IslandServiceArea> = {
   },
   bigisland: {
     island: 'bigisland',
-    line: 'Kona–Kohala first, including Waimea and Waikoloa; east side quoted as a dedicated day, not same-day CORE.',
+    line: 'Kona–Kohala first, including Waimea and Waikoloa; the east side is quoted as its own day, not a same-day west-side trip.',
     corridors: [
       { id: 'kona-kohala', name: 'Kona–Kohala' },
       { id: 'waimea', name: 'Waimea' },
