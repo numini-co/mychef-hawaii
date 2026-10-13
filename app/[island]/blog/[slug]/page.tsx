@@ -1,6 +1,8 @@
 import { notFound } from 'next/navigation';
 import { UniqueCellView } from '@/components/views/IslandDocumentView';
 import { blogArticles, getBlogArticle } from '@/data/blogArticles';
+import { getFeaturePost } from '@/data/islandFeaturePosts';
+import { FeaturePostView } from '@/components/views/FeaturePostView';
 import type { IslandId } from '@/data/islands';
 import { islandMetadata } from '@/lib/pageSeo';
 import { requestHostMode } from '@/lib/request';
@@ -30,6 +32,8 @@ export default async function BlogArticlePage({
   const { island, slug } = await params;
   if (!(ISLAND_HOSTS as readonly string[]).includes(island)) notFound();
   const islandId = island as IslandId;
+  const feature = getFeaturePost(islandId, slug);
+  if (feature) return <FeaturePostView islandId={islandId} post={feature} />;
   const page = getBlogArticle(islandId, slug);
   if (!page) notFound();
   const hostMode = await requestHostMode();

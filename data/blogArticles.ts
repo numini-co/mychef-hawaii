@@ -2,6 +2,7 @@ import type { IslandId } from './islands';
 import { SEARCH_VOLUMES } from './offers';
 import type { UniqueCell } from './uniqueCells';
 import { EXTRA_BLOG_NOTES } from './extraBlogNotes';
+import { islandFeaturePosts } from './islandFeaturePosts';
 
 /**
  * Live blog article URLs. First slice: dining-in notes for money corridors.
@@ -327,6 +328,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/private-luau-oahu', label: 'Backyard luau guide' },
         { path: '/events', label: 'Events' },
         { path: '/guest-counts', label: 'Guest counts' },
         { path: '/quote', label: 'Quote form' },
@@ -715,6 +717,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       ],
     },
     ...EXTRA_BLOG_NOTES.oahu,
+    ...islandFeaturePosts.oahu,
   ],
   maui: [
     {
@@ -886,6 +889,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-farmers-market-villa-week', label: 'Maui farmers markets guide' },
         { path: '/pricing', label: 'Maui rate card' },
         { path: '/journal/what-is-included', label: 'What prints as a line' },
         { path: '/quote', label: 'Quote form' },
@@ -1426,6 +1430,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       ],
     },
     ...EXTRA_BLOG_NOTES.maui,
+    ...islandFeaturePosts.maui,
   ],
   kauai: [
     {
@@ -1449,6 +1454,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/north-shore-kauai-dining-guide', label: 'North Shore dining guide' },
         { path: '/princeville', label: 'Private chef Princeville' },
         { path: '/north-shore', label: 'Kauaʻi North Shore' },
         { path: '/quote', label: 'Inquiry form' },
@@ -1495,6 +1501,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       faqs: [
       ],
       related: [
+        { path: '/blog/north-shore-kauai-dining-guide', label: 'North Shore dining guide' },
         { path: '/hanalei', label: 'Private chef Hanalei' },
         { path: '/hanalei-bridge', label: 'Hanalei bridge' },
         { path: '/quote', label: 'Inquiry form' },
@@ -2122,6 +2129,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       ],
     },
     ...EXTRA_BLOG_NOTES.kauai,
+    ...islandFeaturePosts.kauai,
   ],
   bigisland: [
     {
@@ -2294,6 +2302,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/kona-beach-party-catering-guide', label: 'Kona beach party guide' },
         { path: '/coverage', label: 'Coverage' },
         { path: '/east-side', label: 'East side' },
         { path: '/quote', label: 'Inquiry form' },
@@ -2857,6 +2866,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       ],
     },
     ...EXTRA_BLOG_NOTES.bigisland,
+    ...islandFeaturePosts.bigisland,
   ],
 };
 
