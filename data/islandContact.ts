@@ -95,13 +95,13 @@ export const islandContact: Record<IslandId, IslandContactPage> = {
     photo: 'contactBigisland',
     body: [
       `Inquiry, west side first.`,
-      `Use the quote form — five fields. Typical reply in Hawaii business hours when we can staff. Or message us on WhatsApp (https://wa.me/18084687748), write ${DESK_EMAIL}, or call ${DESK_PHONE_DISPLAY}. Hilo is a dedicated day — not a same-day Kona call and not same-day CORE. There is no street office.`,
+      `Use the quote form — five fields. Typical reply in Hawaii business hours when we can staff. Or message us on WhatsApp (https://wa.me/18084687748), write ${DESK_EMAIL}, or call ${DESK_PHONE_DISPLAY}. Hilo is a dedicated day — not a same-day Kona call and not a same-day signature dinner. There is no street office.`,
       'Live corridors at inquiry: Kailua-Kona / Keauhou, Waimea, Waikoloa, Kohala Coast. Waimea and Waikoloa are named on this desk. Ironman weeks compress the calendar.',
     ],
     faqs: [
       {
         q: 'Can I call about Hilo from a Kona office?',
-        a: `There is no office. East side is a dedicated day — quoted, not same-day CORE. Call ${DESK_PHONE_DISPLAY}, WhatsApp ${DESK_WHATSAPP}, or send the quote form with the town.`,
+        a: `There is no office. East side is a dedicated day — quoted, not a same-day signature dinner. Call ${DESK_PHONE_DISPLAY}, WhatsApp ${DESK_WHATSAPP}, or send the quote form with the town.`,
       },
     ],
   },

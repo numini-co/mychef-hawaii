@@ -170,7 +170,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       lede: 'Oahu groceries billed at cost: practical notes from myCHEF Hawaii for a private chef night in your villa or vacation rental. Send your dates for a written quote.',
       photo: 'blogGroceryOahu',
       body: [
-        'We shop the day of service. Groceries print at cost with receipts. They are not swallowed by the CORE band on a Kahala or Ko Olina night.',
+        'We shop the day of service. Groceries print at cost with receipts. They are not swallowed by the signature band on a Kahala or Ko Olina night.',
         'Alcohol is a different line. The written quote is the contract.',
       ],
       faqs: [
@@ -195,7 +195,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       lede: 'Oahu wine, beer, and spirits never hide inside the dinner band.',
       photo: 'blogWineOahu',
       body: [
-        'Bring your own, or we quote a separate pour. Wine, beer, and spirits never hide inside the CORE band on a Gold Coast night.',
+        'Bring your own, or we quote a separate pour. Wine, beer, and spirits never hide inside the signature band on a Gold Coast night.',
         'This piece is the alcohol line on the quote, not the person pouring it.',
       ],
       faqs: [
@@ -755,7 +755,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       lede: 'Short Kāʻanapali notes: West Maui traffic planned into arrival.',
       photo: 'dinKaanapali',
       body: [
-        'West Maui, named honestly. Same CORE band as Wailea. Traffic is planned into arrival — not a surprise line.',
+        'West Maui, named honestly. Same signature band as Wailea. Traffic is planned into arrival — not a surprise line.',
         'Resort residences with kitchens. Family Feast and the bar add-on stack on the same quote when the room holds them.',
       ],
       faqs: [
@@ -853,7 +853,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       lede: 'Short Makena notes: south of Wailea, still base zone, outdoor backup.',
       photo: 'dinMakena',
       body: [
-        'South of Wailea, still base zone. Same CORE band. Outdoor tables always have a written wet-weather plan.',
+        'South of Wailea, still base zone. Same signature band. Outdoor tables always have a written wet-weather plan.',
         'Family weeks and celebration dinners. Not a surcharge corridor. Not a Wailea clone.',
         'Open the Makena page for the corridor page. Open the South Maui page.',
       ],
@@ -879,7 +879,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       lede: 'Maui groceries billed at cost: practical notes from myCHEF Hawaii for a private chef night in your villa or vacation rental. Send your dates for a written quote.',
       photo: 'blogGroceryMaui',
       body: [
-        'We shop the day of service. Groceries print at cost with receipts. They are not swallowed by the CORE band on a Wailea or Kapalua night.',
+        'We shop the day of service. Groceries print at cost with receipts. They are not swallowed by the signature band on a Wailea or Kapalua night.',
         'Alcohol is a different line. Saturday West Maui arrival is planned, not hidden.',
       ],
       faqs: [
@@ -905,7 +905,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       lede: 'Maui wine, beer, and spirits never hide inside the dinner band.',
       photo: 'blogWineMaui',
       body: [
-        'Bring your own, or we quote a separate pour. Wine, beer, and spirits never hide inside the CORE band on a Wailea night.',
+        'Bring your own, or we quote a separate pour. Wine, beer, and spirits never hide inside the signature band on a Wailea night.',
         'This piece is the alcohol line on the quote, not the person pouring it.',
       ],
       faqs: [

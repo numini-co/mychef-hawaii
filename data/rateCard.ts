@@ -35,7 +35,7 @@ export interface RateCardEntry {
 }
 
 const PER_PERSON = 'per guest · groceries included in the dinner band';
-const MIN_PARTY = 'Minimum party 6 · neighbor-island ENTRY 8+';
+const MIN_PARTY = 'Minimum party 6 · neighbor-island shorter menu 8+';
 const PUBLISHED: RateStatus = 'PUBLISHED';
 
 export const rateCard: RateCardEntry[] = [

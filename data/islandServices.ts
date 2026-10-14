@@ -661,7 +661,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       photo: 'svcHoneymoonBigisland',
       body: [
         'West-side villas first. Waikoloa and the Kohala Coast are the usual rooms.',
-        'Inquiry stage. Published starting prices from $210 a guest on this island. ENTRY from $165.',
+        'Inquiry stage. Published starting prices from $210 a guest on this island. Dinners from $165 a guest.',
       ],
       faqs: [
         {

@@ -39,9 +39,9 @@ function journalSeeds(id: IslandId): Omit<Article, 'kind'>[] {
       title: `How much does a private chef cost on ${isl.name}?`,
       description: `Published private chef prices on ${isl.name} — dinner bands, villa day rate and catering starting prices.`,
       h1: `What a private chef costs on ${isl.name}.`,
-      lede: `Published CORE band ${band}. Your written quote is itemised. We do not hide travel in the menu price.${inquiry}`,
+      lede: `Published signature band ${band}. Your written quote is itemised. We do not hide travel in the menu price.${inquiry}`,
       sections: [
-        { heading: 'The published band', body: `CORE on ${isl.name} sits at ${band}. ENTRY, PREMIUM and the villa day rate are on the private chef cost page and the pricing page. Quotes are confirmed in writing.` },
+        { heading: 'The published band', body: `Signature dinners on ${isl.name} sit at ${band}. Larger custom menus are quoted in writing. The villa day rate is on the private chef cost page and the pricing page. Quotes are confirmed in writing.` },
         { heading: 'What is included', body: 'Menu design, shopping, cooking, table service, cleanup. Alcohol, rentals and venue fees are always separate lines.' },
         { heading: 'Zones', body: `${z.headline} ${z.honestyLine}` },
       ],

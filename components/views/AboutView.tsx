@@ -38,6 +38,14 @@ const faqs = [
     q: 'How do I reach you?',
     a: 'The quote form — island, dates, guests — plus WhatsApp, quotes@mychef-hawaii.com, and (808) 468-7748. Typical reply in Hawaii business hours. No street office.',
   },
+  {
+    q: 'How does a written quote become a booked date?',
+    a: 'You accept the written total. A 50% deposit then locks that date. The balance is the rest of the same quote. Gratuity is never required and is not part of the deposit. Service at 20% and Hawaiʻi GET up to 4.712% are already separate lines on that quote.',
+  },
+  {
+    q: 'How is a chef team assigned, and what will you not take?',
+    a: 'We assign the crew to the house and the island. You do not pick a named chef. Hotel rooms without a kitchen are declined. One crew does not cross islands the same day. Kauaʻi and Hawaiʻi Island stay inquiry until a crew exists.',
+  },
 ];
 
 const roles = [
@@ -228,7 +236,7 @@ export default function AboutView() {
           </ol>
           <p className="mt-10 max-w-[65ch] text-[17px] leading-[1.7] text-mute">
             Signature dinner starts from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island
-            (ENTRY from $165). Wedding-week and catering formats add staffing by the hour. 20% service and Hawaiʻi GET
+            (dinners from $165 a guest). Wedding-week and catering formats add staffing by the hour. 20% service and Hawaiʻi GET
             up to 4.712% print as their own lines. The confirmed total is the written quote.
           </p>
         </div>

@@ -301,14 +301,14 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
         h2: 'Private chef Big Island — Kona and the west side',
         paras: [
           'A private chef on the Big Island starts on the west side: Kailua-Kona, Keauhou and Hōlualoa mauka of town — one team, not a separate company. We cook in villas and resort residences that have a real kitchen. We shop Kona-side the day of service. Named coffee on a crust is coffee; origin is labeled when the plate requires it. Ranch or farm credits appear only after we hold written verification — no invented Big Island producers.',
-          'CORE dinners are $210–$325 a guest. ENTRY starts from $165. Date Night from $825 as a fixed evening. Stay Chef from $1,450 a day, groceries at cost with receipts. West-side quotes add 20% service and GET (capped at 4.712%) after the food, never inside it. A 50% deposit holds the date. The confirmed total is the written quote from the quote form — west-side first, always.',
+          'Signature dinners are $210–$325 a guest. Dinners start from $165 a guest. Date Night from $825 as a fixed evening. Stay Chef from $1,450 a day, groceries at cost with receipts. West-side quotes add 20% service and GET (capped at 4.712%) after the food, never inside it. A 50% deposit holds the date. The confirmed total is the written quote from the quote form — west-side first, always.',
           'The booking is myCHEF Hawaii. We staff to the house when a crew is free for those dates — we will not hold a fake roster. A kanpachi crudo and a coffee-rubbed catch for six at a Kona villa is not a Kohala reception. Staffed west-side parties are [Big Island catering](/catering). Wedding-week formats from $225 a guest plus staffing are on [Big Island wedding catering](/weddings), and the full card is on [Big Island private chef prices](/pricing). Keauhou sits on the same west-side shop as town; we do not treat it as a second island.',
         ],
       },
       {
         h2: 'Kohala Coast and Waikoloa',
         paras: [
-          'The Kohala Coast is the opening move: Waikoloa, Mauna Lani, the Mauna Kea resort belt, Puakō between them — seven resort communities inside a roughly thirty-minute west-side radius. Highest villa rates on the island. Same team as Kona town. Same CORE band. Stay Chef for the villa week. We will not pretend this radius covers the east side in an afternoon. A Waikoloa Saturday and a Hilo lunch are two different crew days, always.',
+          'The Kohala Coast is the opening move: Waikoloa, Mauna Lani, the Mauna Kea resort belt, Puakō between them — seven resort communities inside a roughly thirty-minute west-side radius. Highest villa rates on the island. Same team as Kona town. Same signature band. Stay Chef for the villa week. We will not pretend this radius covers the east side in an afternoon. A Waikoloa Saturday and a Hilo lunch are two different crew days, always.',
           'Sourcing-led plates. Producer names only after written verification. Hāmākua mushrooms when we have them in writing; otherwise the plate still sings without a fake farm story. Outdoor tables on lava get a wet-weather plan before anyone deposits. The chef is the same.',
         ],
       },
@@ -329,7 +329,7 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
       {
         h2: 'West-side prices, published',
         paras: [
-          'ENTRY from $165 a guest is the starting point. CORE $210–$325 is the usual villa night. They never blend. PREMIUM sits above when the menu asks for it. Stay Chef from $1,450. Travel outside the Kona–Kohala corridor starts from a published $75 zone line; east side is never that line — east side is its own quote. Groceries are inside a signature dinner and at cost on multi-day days. Wine is yours to bring or a bartender line we write separately.',
+          'Dinners from $165 a guest are the starting point. Signature dinners at $210–$325 are the usual villa night. They never blend. Larger custom menus are quoted in writing. Stay Chef from $1,450. Travel outside the Kona–Kohala corridor starts from a published $75 zone line; east side is never that line — east side is its own quote. Groceries are inside a signature dinner and at cost on multi-day days. Wine is yours to bring or a bartender line we write separately.',
           'West-side staffed rooms price servers at $80 hourly and a sous at $105, each with a four-hour floor, never folded into the catch. A tip is optional and said so on the quote. There is no street office, no founding year, and no invented guest review on this island. The published line is (808) 468-7748. Send your dates for a written reply. Proof is the band, a sample Kona–Kohala menu, cleanup, and the written total on the pricing page and the quote form.',
         ],
       },
@@ -344,11 +344,11 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
     faqs: [
       {
         q: 'How much is a private chef on the Big Island?',
-        a: 'West-side CORE is $210–$325 a guest. ENTRY opens from $165. Date Night from $825. Stay Chef inquiry from $1,450 a day. 20% service and Hawaiʻi GET up to 4.712% print after the food, never inside it. East side is not that band — it is a dedicated day. Every line is on [private chef Big Island cost](/pricing); Kona villa dinners are on [private chef Kona](/private-chef).',
+        a: 'West-side signature dinners are $210–$325 a guest. Dinners from $165 a guest are the shorter table. Date Night from $825. Stay Chef inquiry from $1,450 a day. 20% service and Hawaiʻi GET up to 4.712% print after the food, never inside it. East side is not that band — it is a dedicated day. Every line is on [private chef Big Island cost](/pricing); Kona villa dinners are on [private chef Kona](/private-chef).',
       },
       {
-        q: 'What is ENTRY versus CORE on the Big Island?',
-        a: 'ENTRY from $165 is the simpler starting point — a simpler west-side table when the list and the kitchen are modest. CORE $210–$325 is the usual Kona–Kohala villa night: menu, same-day west-side shop, cook, serve, empty dishwasher. They never blend. Stay Chef from $1,450 is a different day-rate.',
+        q: 'What is a from-$165 dinner versus a signature dinner on the Big Island?',
+        a: 'The from-$165 dinner is the simpler starting point — a simpler west-side table when the list and the kitchen are modest. Signature dinners at $210–$325 are the usual Kona–Kohala villa night: menu, same-day west-side shop, cook, serve, empty dishwasher. They never blend. Stay Chef from $1,450 is a different day-rate.',
       },
       {
         q: 'Why west-side first — Kona to Kohala?',
@@ -360,11 +360,11 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
       },
       {
         q: 'Stay Chef on a Kohala estate — who pays for groceries?',
-        a: 'Stay Chef inquiry from $1,450 a day is the chef fee. Groceries bill at cost with merchant receipts and zero markup. A CORE dinner ($210–$325 a guest) keeps groceries inside that band. They never mix. 20% service and GET up to 4.712% still print after.',
+        a: 'Stay Chef inquiry from $1,450 a day is the chef fee. Groceries bill at cost with merchant receipts and zero markup. A signature dinner ($210–$325 a guest) keeps groceries inside that band. They never mix. 20% service and GET up to 4.712% still print after.',
       },
       {
         q: 'How does booking a private chef on the Big Island work?',
-        a: 'A published band is not instant booking. We crew a west-side house when a team is free for those dates. Send the Kona–Kohala address on the quote form and we write back in Hawaii business hours. We will not hold a fake roster. Proof is ENTRY from $165, CORE $210–$325, Stay Chef from $1,450, and a written total.',
+        a: 'A published band is not instant booking. We crew a west-side house when a team is free for those dates. Send the Kona–Kohala address on the quote form and we write back in Hawaii business hours. We will not hold a fake roster. Proof is the from-$165 dinner, signature dinners $210–$325, Stay Chef from $1,450, and a written total.',
       },
       {
         q: 'What kitchen does a Waikoloa condo or Airbnb need?',

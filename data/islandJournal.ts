@@ -73,7 +73,7 @@ export const islandJournal: Record<IslandId, IslandJournalPage> = {
     body: [
       `This index is the reading list.`,
       'Coffee Act 198 and Ironman weeks live here because they change access, not because they are marketing slogans.',
-      'Planning a stay on the Kona side? The cost guide shows ENTRY from $165 and CORE $210–$325 a guest how the Waimea surcharge works and why Hilo is quoted as its own day. The hiring note covers the address, the kitchen and the five fields; the booking note covers Ironman weeks and east-side days.',
+      'Planning a stay on the Kona side? The cost guide shows the from-$165 dinner and signature dinners at $210–$325 a guest, how the Waimea surcharge works, and why Hilo is quoted as its own day. The hiring note covers the address, the kitchen and the five fields; the booking note covers Ironman weeks and east-side days.',
     ],
   },
 };

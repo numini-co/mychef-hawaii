@@ -37,7 +37,7 @@ export const hubHomeSections: CopySection[] = [
     h2: 'What a night includes',
     paras: [
       'A signature dinner includes menu design, same-day shopping, cooking in that kitchen, table service, and cleanup. Groceries sit inside the per-guest band on a dinner night. Stay Chef days bill groceries at cost with receipts. Alcohol is BYO or the packaged cart as its own line. Rentals and venue fees are add-ons when you want them — never a silent hospitality fold-in.',
-      'Oʻahu CORE is $195–$290 a guest. Maui CORE is $225–$375. Kauaʻi matches the Maui band. Hawaiʻi Island CORE is $210–$325, with an ENTRY tier from $165. Service 20% and Hawaiʻi GET up to 4.712% print after the food. A 50% deposit locks the date once you accept the written total. A tip is never required and never hidden.',
+      'Oʻahu signature dinners are $195–$290 a guest. Maui signature dinners are $225–$375. Kauaʻi matches the Maui band. Hawaiʻi Island signature dinners are $210–$325, with dinners from $165 a guest. Service 20% and Hawaiʻi GET up to 4.712% print after the food. A 50% deposit locks the date once you accept the written total. A tip is never required and never hidden.',
       'Small tables under about six are often a fixed night, not a per-head stack. Date Night for two has its own starting prices on each island card. Staffed rooms of about ten to seventy-five are on the catering page. The line-by-line tariff is on the pricing page. Start on the quote form.',
     ],
   },
@@ -74,7 +74,7 @@ export const hubCateringSections: CopySection[] = [
     h2: 'Staffed villa events',
     paras: [
       'Hawaii catering, here, means a staffed villa or estate — not a ballroom, not a drop-off tray, not a convention centre. Ten to seventy-five guests. We shop, cook, and serve in the house you actually have. Buffet, plated, family-style, or grazing. The food band is the island signature card. Staffing is itemised.',
-      'Statewide starting prices: from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island (ENTRY from $165). Wedding-week formats add welcome dinner, rehearsal, reception, and recovery brunch as separate lines. The confirmed total is the written quote: food, staffing, 20% service, GET up to 4.712%, 50% deposit.',
+      'Statewide starting prices: from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island (dinners from $165 a guest). Wedding-week formats add welcome dinner, rehearsal, reception, and recovery brunch as separate lines. The confirmed total is the written quote: food, staffing, 20% service, GET up to 4.712%, 50% deposit.',
       'Pick the island where the house is — each island page carries its own menus, prices and local drives: [Oahu catering](oahu:/catering) (including Honolulu catering) for Kahala and Ko Olina; [Maui catering](maui:/catering) for Wailea, Kīhei and West Maui staffed menus; [Kauai catering](kauai:/catering) for Princeville, Hanalei and Poʻipū; and [Big Island catering](bigisland:/catering) for Kona and the Kohala Coast.',
     ],
   },
@@ -264,8 +264,8 @@ export const quoteTrustSections: CopySection[] = [
     paras: [
       'Island, dates, headcount, and service are enough to start. Property type helps: villa, condo, hotel residence, or no kitchen. Allergies and a bartender belong in the first reply thread, not as a surprise at the pass. 50% locks the date once you accept the written total.',
       'Name the island that matches the house. Honolulu is part of Oʻahu, not a separate company. Kona is a Hawaiʻi Island corridor. Name the house on the quote form so we price the drive.',
-      'Oʻahu CORE dinners are $195–$290 a guest. Maui CORE is $225–$375. Those bands hold menu, shopping, cooking, service, and cleanup. Staffing for a ten-to-seventy-five room is hourly on top. The confirmed number is the written quote — never a chat estimate.',
-      'If dates are flexible, say so. Peak months move first on every island. One crew holds one heavy week. We will not invent a second brigade to look available. WhatsApp, (808) 468-7748, and this form are the same Hawaii desk — typical reply in Hawaii business hours. No street office. A 50% deposit is the only money that locks a date — after you accept the written total, never before. 20% service and Hawaiʻi GET up to 4.712% sit on their own written-quote lines. Oʻahu CORE is $195–$290 a guest. Maui CORE is $225–$375. Those numbers do not change because the form is short.',
+      'Oʻahu signature dinners are $195–$290 a guest. Maui signature dinners are $225–$375. Those bands hold menu, shopping, cooking, service, and cleanup. Staffing for a ten-to-seventy-five room is hourly on top. The confirmed number is the written quote — never a chat estimate.',
+      'If dates are flexible, say so. Peak months move first on every island. One crew holds one heavy week. We will not invent a second brigade to look available. WhatsApp, (808) 468-7748, and this form are the same Hawaii desk — typical reply in Hawaii business hours. No street office. A 50% deposit is the only money that locks a date — after you accept the written total, never before. 20% service and Hawaiʻi GET up to 4.712% sit on their own written-quote lines. Oʻahu signature dinners are $195–$290 a guest. Maui signature dinners are $225–$375. Those numbers do not change because the form is short.',
     ],
   },
 ];

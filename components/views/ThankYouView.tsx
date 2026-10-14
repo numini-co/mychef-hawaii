@@ -24,7 +24,7 @@ const SERVICE_LABELS: Record<string, string> = {
 
 const OCCASIONS = ['Celebration', 'Wedding week', 'Just dinner', 'Retreat', 'Other'];
 const HEAR_ABOUT = ['Google', 'Concierge or villa agency', 'Wedding planner', 'Friend', 'Other'];
-const BUDGET_POSTURES = ['Entry', 'Core', 'Premium', 'Guide me'];
+const BUDGET_POSTURES = ['Shorter menu', 'Signature dinner', 'Larger custom', 'Guide me'];
 
 export default function ThankYouView() {
   const params = useSearchParams();

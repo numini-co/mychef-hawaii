@@ -35,7 +35,7 @@ import { cn } from '@/lib/utils';
 const TIER_LABEL: Record<RateTier, string> = {
   ENTRY: 'Table',
   CORE: 'Signature',
-  PREMIUM: 'Premium',
+  PREMIUM: 'Larger custom',
   ULTRA: 'Chef’s table',
 };
 

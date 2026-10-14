@@ -72,7 +72,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     body: [
       'West-side kitchens and Kohala travel show up in the shorter posts; the journal keeps the longer notes.',
       'New this month: [planning beach party catering on the Kona side](/blog/kona-beach-party-catering-guide) — sun, wind, permits and a villa backup, with [Big Island catering](/catering) for 10 to 75 guests.',
-      'Looking to book rather than read? Dinner prices, the ENTRY and CORE bands and Stay Chef days are on the [private chef Big Island](/) page, and staffed villa parties for ten to seventy-five are [Big Island catering](/catering).',
+      'Looking to book rather than read? Dinner prices, dinners from $165 a guest and signature dinners and Stay Chef days are on the [private chef Big Island](/) page, and staffed villa parties for ten to seventy-five are [Big Island catering](/catering).',
     ],
   },
 };

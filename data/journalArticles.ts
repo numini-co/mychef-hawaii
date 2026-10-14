@@ -725,10 +725,10 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       body: [
         'We cook on the west side first — Kailua-Kona, Keauhou, Waimea, Waikoloa and the Kohala Coast.',
         'Five fields. We write back with what we can staff. Adding a Hilo lunch after a Kona dinner is a second day.',
-        'When you are ready to send dates, the [private chef Big Island](/) page has the Kona–Kohala prices and the ENTRY and CORE bands. Staffed parties are [Big Island catering](/catering).',
+        'When you are ready to send dates, the [private chef Big Island](/) page has the Kona–Kohala prices and dinners from $165 a guest and signature dinners. Staffed parties are [Big Island catering](/catering).',
         'Start with the address. Kona, Keauhou, Waikoloa and the Kohala Coast are the base zone. Waimea and Hāmākua carry a published surcharge. Hilo and the east side are a dedicated day with their own travel line, never folded into a Kona night.',
         'Then the kitchen: a working range, cold storage and a table for the list. Waikoloa condos and Airbnb kitchens are fine when they actually cook. Hotel rooms without a cooktop are declined before a deposit.',
-        'Then the five fields on the inquiry form: island, dates, headcount, service and how to reach you. When we can staff, the written quote shows CORE $210–$325 a guest or ENTRY from $165, groceries inside the band, with 20% service and Hawaiʻi GET up to 4.712% printed once. Ironman weeks are possible with compressed availability; flag those dates early.',
+        'Then the five fields on the inquiry form: island, dates, headcount, service and how to reach you. When we can staff, the written quote shows signature dinners $210–$325 a guest or the from-$165 dinner, groceries inside the band, with 20% service and Hawaiʻi GET up to 4.712% printed once. Ironman weeks are possible with compressed availability; flag those dates early.',
         'For a villa dinner in Kona or on the Kohala Coast, see [private chef Kona](/private-chef). The full card is on [private chef Big Island cost](/pricing).',
       ],
       faqs: [
@@ -818,7 +818,7 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       ],
       faqs: [
         {
-          q: 'Does the CORE band cover the east side?',
+          q: 'Does the signature band cover the east side?',
           a: 'No. We quote a dedicated crossing.',
         },
       ],
@@ -874,13 +874,13 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
         'A restaurant is a room you do not have. We cook in a Kona or Waikoloa kitchen, then leave it cleaner than we found it — when we can staff. If you want a dining room we do not own, book a restaurant. East side is a dedicated day.',
         'We do not hold restaurant tables. We do not walk a party into a resort restaurant as a “chef night.” Open the what-we-don’t-do list. A band is not an instant-booking button.',
         'The honest comparison is the evening, not the plate. In the house there is no drive back along Queen Kaʻahumanu Highway after dinner, no split checks, and kids can leave the table when they are done. Dietary needs are designed into the menu before the night instead of negotiated with a server.',
-        'The price compares differently too. A west-side villa dinner runs CORE $210–$325 a guest, groceries inside the band, with 20% service and Hawaiʻi GET up to 4.712% on their own lines. That number covers shopping, cooking, service and cleanup in your kitchen. Alcohol is BYO or quoted, so the wine list is yours.',
+        'The price compares differently too. A west-side villa dinner runs signature dinners $210–$325 a guest, groceries inside the band, with 20% service and Hawaiʻi GET up to 4.712% on their own lines. That number covers shopping, cooking, service and cleanup in your kitchen. Alcohol is BYO or quoted, so the wine list is yours.',
         'A restaurant still wins when you want a room, a view you do not have, or a last-minute table. A chef in the house wins for a group, a celebration or a week of dinners. For a villa dinner in Kona or Kohala, see [private chef Kona](/private-chef); every line is on [private chef Big Island cost](/pricing).',
       ],
       faqs: [
         {
           q: 'Is a private chef more expensive than a restaurant on the Big Island?',
-          a: 'It depends on the group. CORE is $210–$325 a guest including groceries, cooking, service and cleanup in your villa; service and GET are added once. Alcohol is BYO, which often closes the gap.',
+          a: 'It depends on the group. Signature dinners are $210–$325 a guest including groceries, cooking, service and cleanup in your villa; service and GET are added once. Alcohol is BYO, which often closes the gap.',
         },
         {
           q: 'Can a private chef handle allergies better than a restaurant?',

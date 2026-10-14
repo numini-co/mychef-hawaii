@@ -16,6 +16,7 @@ import { islandOffers } from '@/data/offers';
 import type { PhotoKey } from '@/data/photos';
 import { photos } from '@/data/photos';
 import { hubPrivateChef } from '@/data/hubPrivateChef';
+import { hubVacationChef } from '@/data/hubVacationChef';
 import { formatDayRate, getDayRate } from '@/data/rateCard';
 import { islandHref } from '@/lib/paths';
 
@@ -256,7 +257,19 @@ export function HubOfferView({ kind }: { kind: 'private-chef' | 'vacation-chef' 
             })),
           }}
         />
-      ) : null}
+      ) : (
+        <JsonLd
+          data={{
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: hubVacationChef.faqs.map((f) => ({
+              '@type': 'Question',
+              name: f.q,
+              acceptedAnswer: { '@type': 'Answer', text: f.a },
+            })),
+          }}
+        />
+      )}
       <Hero src={copy.img.file} alt={copy.img.alt}>
         <Eyebrow tone="paper">myCHEF Hawaii</Eyebrow>
         <LineReveal
@@ -306,7 +319,12 @@ export function HubOfferView({ kind }: { kind: 'private-chef' | 'vacation-chef' 
           <DocumentCopy heading={hubPrivateChef.heading} paras={hubPrivateChef.body} />
           <LongFaq items={hubPrivateChef.faqs} title={hubPrivateChef.faqTitle} kicker="Statewide" />
         </>
-      ) : null}
+      ) : (
+        <>
+          <DocumentCopy heading={hubVacationChef.heading} paras={hubVacationChef.body} />
+          <LongFaq items={hubVacationChef.faqs} title={hubVacationChef.faqTitle} kicker="Statewide" />
+        </>
+      )}
       {kind === 'private-chef' ? (
         <HubPhotoGrid
           eyebrow="Related pages"

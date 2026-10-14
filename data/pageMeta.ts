@@ -48,7 +48,8 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/vacation-chef': {
     title: 'Vacation chef Hawaii — Stay Chef from $1,250/day | myCHEF',
-    description: 'A chef for the villa week. Day rates from $1,250 Oʻahu / $1,550 Maui. Groceries at cost.',
+    description:
+      'Stay Chef villa weeks from $1,250 Oʻahu, $1,550 Maui, $1,650 Kauaʻi, $1,450 Hawaiʻi Island a day, plus groceries at cost. 20% service and GET extra.',
   },
   '/how-it-works': {
     title: 'How a booking works in Hawaii | myCHEF',
@@ -259,7 +260,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/personal-chef': {
     title: 'Household chef line, by island | myCHEF Hawaii',
     description:
-      'Each island keeps a resident household line.',
+      'Household chef by island: daily cooking and meal prep for one home. Oʻahu and Maui quote. Kauaʻi and Hawaiʻi Island: request availability.',
   },
   '/private-chef-cost': {
     title: 'Fee stack explainers, by island | myCHEF Hawaii',
@@ -705,7 +706,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/bigisland/pricing': {
     title: 'Big Island Private Chef Cost | Kona–Kohala Rates | myCHEF',
     description:
-      'What a private chef costs on the Big Island: ENTRY from $165, CORE $210–$325 a guest, Stay Chef from $1,450 a day. Hilo is quoted as its own day.',
+      'What a private chef costs on the Big Island: dinners from $165, signature $210–$325 a guest, Stay Chef from $1,450 a day. Hilo quoted separately.',
   },
   '/bigisland/quote': {
     title: 'Big Island chef inquiry — written reply | myCHEF',

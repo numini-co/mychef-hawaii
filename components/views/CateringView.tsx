@@ -213,7 +213,7 @@ export function IslandCateringView({ islandId, hostMode }: { islandId: IslandId;
           <p className="mt-4 max-w-[65ch] text-mute">{FEE_DISCLOSURE}</p>
           <div className="mt-12 grid gap-6 lg:grid-cols-3">
             <article className="border border-ink bg-paper p-7">
-              <p className="text-[12px] text-mute">Food — CORE</p>
+              <p className="text-[12px] text-mute">Signature dinners</p>
               <p className="mt-4 font-display text-4xl font-light tracking-tight text-ink">
                 {core ? `$${core.band[0]}–$${core.band[1]}` : `from $${offer.fromPp}`}
                 <span className="ml-2 font-sans text-base font-normal text-mute">per guest</span>
@@ -287,7 +287,7 @@ function Formats({ islandId }: { islandId?: IslandId }) {
     <HubPhotoGrid
       eyebrow="Statewide · Formats"
       heading="Catering formats."
-      intro="The food band is the island CORE card. Staffing changes with the format."
+      intro="The food band is the island signature card. Staffing changes with the format."
       items={nestedHubDirectories('/catering').map((fmt) => ({
         href: fmt.path,
         title: fmt.cardLabel,
@@ -306,7 +306,7 @@ function PricesHub() {
         <p className="mt-4 max-w-[65ch] text-mute">{FEE_DISCLOSURE}</p>
         <div className="mt-12 grid gap-6 lg:grid-cols-3">
           <article className="border border-ink bg-paper p-7">
-            <p className="text-[12px] text-mute">Food — CORE</p>
+            <p className="text-[12px] text-mute">Signature dinners</p>
             <p className="mt-4 font-display text-4xl font-light tracking-tight text-ink">
               $195–$375
               <span className="ml-2 font-sans text-base font-normal text-mute">per guest</span>

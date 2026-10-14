@@ -105,11 +105,11 @@ export const HUB_CATERING = {
   faqs: [
     {
       q: 'How much is Hawaii catering?',
-      a: 'Signature food from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island (ENTRY from $165). Wedding catering from $190–$260 a guest plus staffing, depending on the island. 20% service and Hawaiʻi GET up to 4.712% sit on their own lines, once.',
+      a: 'Signature food from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island (dinners from $165 a guest). Wedding catering from $190–$260 a guest plus staffing, depending on the island. 20% service and Hawaiʻi GET up to 4.712% sit on their own lines, once.',
     },
     {
       q: 'Buffet or plated?',
-      a: 'Buffet is the volume format. Plated is the restaurant arc. Family-style sits between. The food band is the island CORE card; staffing is itemised.',
+      a: 'Buffet is the volume format. Plated is the restaurant arc. Family-style sits between. The food band is the island signature card; staffing is itemised.',
     },
     {
       q: 'Which island should I open?',

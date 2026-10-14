@@ -105,7 +105,7 @@ export const hubMultiQuoteFaqs: { q: string; a: string }[] = [
   },
   {
     q: 'Do per-island published bands still apply?',
-    a: 'Yes. Each night uses that island’s published card — we do not invent a multi-island midpoint. Oʻahu $195–$290. Maui and Kauaʻi $225–$375. Hawaiʻi Island CORE $210–$325, ENTRY from $165. Stay Chef from: Oʻahu $1,250 / Maui $1,550 / Kauaʻi $1,650 / Hawaiʻi Island $1,450. Line-by-line: [the pricing page](/pricing).',
+    a: 'Yes. Each night uses that island’s published card — we do not invent a multi-island midpoint. Oʻahu $195–$290. Maui and Kauaʻi $225–$375. Hawaiʻi Island signature dinners $210–$325, the from-$165 dinner. Stay Chef from: Oʻahu $1,250 / Maui $1,550 / Kauaʻi $1,650 / Hawaiʻi Island $1,450. Line-by-line: [the pricing page](/pricing).',
   },
   {
     q: 'Kauaʻi or Hawaiʻi Island on the itinerary?',

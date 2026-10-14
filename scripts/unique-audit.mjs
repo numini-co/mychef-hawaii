@@ -1719,7 +1719,7 @@ if (
 }
 if (
   !/How much is a private chef on the Big Island\?/.test(longIslandSrc) ||
-  !/What is ENTRY versus CORE on the Big Island\?/.test(longIslandSrc) ||
+  !/What is a from-\$165 dinner versus a signature dinner on the Big Island\?/.test(longIslandSrc) ||
   !/Why west-side first — Kona to Kohala\?/.test(longIslandSrc) ||
   !/How does booking a private chef on the Big Island work\?/.test(longIslandSrc)
 ) {
@@ -1732,7 +1732,7 @@ if (
   }
 }
 if (
-  !/ENTRY from \$165 or CORE \$210–\$325 — which west-side line\?/.test(pricingDocSrc) ||
+  !/Should I book the from-\$165 dinner or a signature dinner on the west side\?/.test(pricingDocSrc) ||
   !/Does Ironman week change this west-side tariff\?/.test(pricingDocSrc)
 ) {
   errors.push('Big Island /pricing FAQ still missing Expedition tariff items');

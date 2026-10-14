@@ -79,7 +79,7 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'What does a night cost?',
-        a: `Starting prices are on the pricing page — CORE $225–$375 a guest on Maui.`,
+        a: `Starting prices are on the pricing page — signature dinners $225–$375 a guest on Maui.`,
       },
       {
         q: 'Are groceries included?',
@@ -336,7 +336,7 @@ export const islandHow: Record<IslandId, IslandSupportPage> = {
     photo: 'howMaui',
     body: [
       'A Wailea lawn reception is a different crew than Date Night for two in Kapalua. The quote writes that difference before the deposit.',
-      'Groceries at cost on Stay Chef days. CORE dinners $225–$375 a guest. Upcountry surcharge when the house sits in the mist.',
+      'Groceries at cost on Stay Chef days. Signature dinners $225–$375 a guest. Upcountry surcharge when the house sits in the mist.',
     ],
     steps: [
       {
@@ -444,7 +444,7 @@ export const islandHow: Record<IslandId, IslandSupportPage> = {
       {
         n: '03',
         title: 'Written quote.',
-        body: 'Starting prices from $210 a guest on this island (ENTRY from $165). Zone fee. Dedicated east-side staffing if that is the night.',
+        body: 'Starting prices from $210 a guest on this island (dinners from $165 a guest). Zone fee. Dedicated east-side staffing if that is the night.',
       },
       {
         n: '04',

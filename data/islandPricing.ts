@@ -22,12 +22,12 @@ export interface IslandPricingPage {
 
 export const islandPricing: Record<IslandId, IslandPricingPage> = {
   oahu: {
-    h1: 'Oahu private chef cost — CORE $195–$290 a guest, Stay Chef from $1,250.',
+    h1: 'Oahu private chef cost — signature dinners $195–$290 a guest, Stay Chef from $1,250.',
     title: 'Oahu Private Chef Cost | $195–$290 a Guest | myCHEF',
     description:
       'What a private chef costs on Oahu: $195–$290 a guest with groceries inside, Date Night from $675, Stay Chef from $1,250 a day. Service and GET itemized.',
     lede:
-      'USD. Line by line. CORE $195–$290 a guest. Stay Chef from $1,250 a day. The written quote is the confirmed total.',
+      'USD. Line by line. Signature dinners $195–$290 a guest. Stay Chef from $1,250 a day. The written quote is the confirmed total.',
     kicker: 'Oʻahu · Rate card',
     photo: 'pricingOahu',
     body: [
@@ -41,7 +41,7 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
         a: 'Two models, never blended. On a Signature or per-guest dinner ($195–$290 a guest on Oʻahu), food and grocery procurement sit inside the published band — there is no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking (from $1,250 a day), it is the chef fee plus groceries at cost, with original merchant receipts and zero markup.',
       },
       {
-        q: 'Is North Shore inside CORE?',
+        q: 'Is a North Shore dinner priced like a town one?',
         a: 'The food band holds. Travel is a published surcharge.',
       },
       {
@@ -50,7 +50,7 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
       },
       {
         q: 'Is a tower COI a surcharge on this Oʻahu card?',
-        a: 'No. Freight windows and building COIs are logistics, not a hidden food line. Town and west CORE stay $195–$290 a guest. North Shore remains the published drive surcharge on the coverage map. 20% service and GET up to 4.712% still print after the band.',
+        a: 'No. Freight windows and building COIs are logistics, not a hidden food line. Town and west signature dinners stay $195–$290 a guest. North Shore remains the published drive surcharge on the coverage map. 20% service and GET up to 4.712% still print after the band.',
       },
       {
         q: 'Does a Honolulu dinner share a travel line with Ko Olina or the North Shore?',
@@ -76,7 +76,7 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
     description:
       'What a private chef costs on Maui: $225–$375 a guest with groceries inside, Stay Chef from $1,550 a day. 20% service and GET print as their own lines.',
     lede:
-      'USD. Line by line. CORE $225–$375 a guest. Stay Chef from $1,550 a day. Saturday West Maui traffic is planned into arrival, not hidden in the band.',
+      'USD. Line by line. Signature dinners $225–$375 a guest. Stay Chef from $1,550 a day. Saturday West Maui traffic is planned into arrival, not hidden in the band.',
     kicker: 'Maui · Rate card',
     photo: 'pricingMaui',
     body: [
@@ -90,11 +90,11 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
       },
       {
         q: 'Is Wailea cheaper than Kāʻanapali?',
-        a: 'Same CORE band. The Saturday drive is planned into arrival.',
+        a: 'Same signature band. The Saturday drive is planned into arrival.',
       },
       {
         q: 'Is this villa-week band a competitor midpoint?',
-        a: 'No. Wailea and West Maui share CORE $225–$375 a guest. A midpoint that folds service into food is not this card. 20% service and Hawaiʻi GET up to 4.712% print after the band. We publish our premium; we do not rank other kitchens.',
+        a: 'No. Wailea and West Maui share signature dinners at $225–$375 a guest. A midpoint that folds service into food is not this card. 20% service and Hawaiʻi GET up to 4.712% print after the band. We publish our premium; we do not rank other kitchens.',
       },
       {
         q: 'Signature night or Stay Chef week — which line am I on?',
@@ -124,7 +124,7 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
     description:
       'What a private chef costs on Kauaʻi: $225–$375 a guest, Date Night $975–$1,425, Stay Chef from $1,650 a day. By inquiry, with every fee itemized.',
     lede:
-      'USD. Line by line. CORE $225–$375 a guest — Maui-class. Stay Chef from $1,650 a day. Inquiry: a band is not a live instant-booking button.',
+      'USD. Line by line. Signature dinners $225–$375 a guest — Maui-class. Stay Chef from $1,650 a day. Inquiry: a band is not a live instant-booking button.',
     kicker: 'Kauaʻi · Rate card',
     photo: 'pricingKauai',
     body: [
@@ -143,7 +143,7 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
       },
       {
         q: 'Can I book this Kauaʻi band instantly?',
-        a: 'No. CORE $225–$375 a guest and Stay Chef from $1,650 a day are inquiry floors. We staff the estate when a crew exists. A published band is not a confirmation. Send dates on the quote form. 20% service and GET up to 4.712% print after the food.',
+        a: 'No. Signature dinners $225–$375 a guest and Stay Chef from $1,650 a day are inquiry floors. We staff the estate when a crew exists. A published band is not a confirmation. Send dates on the quote form. 20% service and GET up to 4.712% print after the food.',
       },
       {
         q: 'Date Night $975–$1,425 or the Signature band on Kauaʻi?',
@@ -151,7 +151,7 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
       },
       {
         q: 'Can the 50% deposit land before Kauaʻi confirms a crew?',
-        a: 'No. A 50% deposit locks a date only after you accept a written total, and only when a crew exists. CORE $225–$375 and Stay Chef from $1,650 stay starting prices until then, not a hold. 20% service and Hawaiʻi GET up to 4.712% print on that total. Gratuity never required. Ask on [the quote form](/quote).',
+        a: 'No. A 50% deposit locks a date only after you accept a written total, and only when a crew exists. Signature dinners $225–$375 and Stay Chef from $1,650 stay starting prices until then, not a hold. 20% service and Hawaiʻi GET up to 4.712% print on that total. Gratuity never required. Ask on [the quote form](/quote).',
       },
       {
         q: 'North Shore Hanalei or South Shore Poʻipū — what travel line prints?',
@@ -168,12 +168,12 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
     ],
   },
   bigisland: {
-    h1: 'Big Island private chef cost — Kona–Kohala CORE $210–$325 a guest.',
+    h1: 'Big Island private chef cost — Kona–Kohala signature dinners $210–$325 a guest.',
     title: 'Big Island Private Chef Cost | Kona–Kohala Rates | myCHEF',
     description:
-      'What a private chef costs on the Big Island: ENTRY from $165, CORE $210–$325 a guest, Stay Chef from $1,450 a day. Hilo is quoted as its own day.',
+      'What a private chef costs on the Big Island: dinners from $165, signature $210–$325 a guest, Stay Chef from $1,450 a day. Hilo quoted separately.',
     lede:
-      'USD. Line by line. CORE $210–$325 a guest. Stay Chef from $1,450 a day. West-side first. Hilo is not a west-side round trip.',
+      'USD. Line by line. Signature dinners $210–$325 a guest. Stay Chef from $1,450 a day. West-side first. Hilo is not a west-side round trip.',
     kicker: 'Hawaiʻi Island · Rate card',
     photo: 'pricingBigisland',
     body: [
@@ -186,32 +186,32 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
         a: 'Two models, never blended. On a Signature or per-guest dinner ($210–$325 a guest, Table from $165), food and grocery procurement sit inside the published band — no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking (from $1,450 a day), it is the chef fee plus groceries at cost, with original merchant receipts and zero markup.',
       },
       {
-        q: 'Is Hilo inside CORE?',
+        q: 'Is a Hilo dinner priced like a Kona one?',
         a: 'No. East side is a dedicated day with its own travel line.',
       },
       {
-        q: 'ENTRY from $165 or CORE $210–$325 — which west-side line?',
-        a: 'ENTRY from $165 is the open west-side table. CORE $210–$325 is the usual Kona–Kohala villa night. Stay Chef inquiry from $1,450 a day bills groceries at cost. They never blend. 20% service and Hawaiʻi GET up to 4.712% print after the food. A band is not instant booking. Card: this page.',
+        q: 'Should I book the from-$165 dinner or a signature dinner on the west side?',
+        a: 'The from-$165 dinner is the open west-side table. Signature dinners at $210–$325 are the usual Kona–Kohala villa night. Stay Chef inquiry from $1,450 a day bills groceries at cost. They never blend. 20% service and Hawaiʻi GET up to 4.712% print after the food. A band is not instant booking. Card: this page.',
       },
       {
         q: 'Does Ironman week change this west-side tariff?',
-        a: 'No. CORE stays $210–$325 a guest. Stay Chef stays from $1,450 a day. Ironman compresses lodging and crew days — it is not a hidden food line. Flag those dates on the quote form. East side remains a dedicated day.',
+        a: 'No. Signature dinners stay $210–$325 a guest. Stay Chef stays from $1,450 a day. Ironman compresses lodging and crew days — it is not a hidden food line. Flag those dates on the quote form. East side remains a dedicated day.',
       },
       {
-        q: 'Is ENTRY from $165 the right line for a Kohala estate?',
-        a: 'Usually no. ENTRY from $165 is the open west-side table. A Kohala estate dinner is CORE $210–$325 a guest, groceries inside that band. Servers, when the list needs them, are $80 an hour. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required. Inquiry, not instant booking.',
+        q: 'Should I book the from-$165 dinner or a signature dinner for a Kohala estate?',
+        a: 'Usually no. The from-$165 dinner is the open west-side table. A Kohala estate dinner is a signature dinner at $210–$325 a guest, groceries inside that band. Servers, when the list needs them, are $80 an hour. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required. Inquiry, not instant booking.',
       },
       {
         q: 'Why does Big Island pricing start in Kona and Kohala, not Hilo?',
-        a: 'The base day is the west side, Kona through the Kohala Coast, at CORE $210–$325. Waimea and Hāmākua add a surcharge from $75. A Hilo address is not a stop on that same west-side day. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required.',
+        a: 'The base day is the west side, Kona through the Kohala Coast, signature dinners at $210–$325 a guest. Waimea and Hāmākua add a surcharge from $75. A Hilo address is not a stop on that same west-side day. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required.',
       },
       {
-        q: 'How is an east-side Hilo day quoted when it is outside CORE?',
-        a: 'As its own day, with travel on its own line. A Kona-to-Hilo round trip is not folded into CORE $210–$325. A multi-day east-side stay can use Stay Chef from $1,450, groceries at cost. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required. Still by inquiry.',
+        q: 'How is an east-side Hilo day quoted apart from a Kona dinner?',
+        a: 'As its own day, with travel on its own line. A Kona-to-Hilo round trip is not folded into signature dinners at $210–$325. A multi-day east-side stay can use Stay Chef from $1,450, groceries at cost. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required. Still by inquiry.',
       },
       {
         q: 'What changes when a Kona dinner becomes a group?',
-        a: 'A larger list leaves ENTRY from $165 for CORE $210–$325 a guest, groceries inside. A sous chef is $105 an hour when the kitchen needs one. Multi-day groups use Stay Chef from $1,450 a day. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required. Send the count on [the quote form](/quote). See [private chef Big Island](/).',
+        a: 'A larger list leaves the from-$165 dinner for signature dinners at $210–$325 a guest, groceries inside. A sous chef is $105 an hour when the kitchen needs one. Multi-day groups use Stay Chef from $1,450 a day. 20% service and Hawaiʻi GET up to 4.712%. 50% deposit. Gratuity never required. Send the count on [the quote form](/quote). See [private chef Big Island](/).',
       },
     ],
   },

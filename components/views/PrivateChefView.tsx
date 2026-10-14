@@ -59,7 +59,7 @@ export default function PrivateChefView({ islandId, hostMode }: { islandId: Isla
           className="mt-4 font-display text-[clamp(2.5rem,6vw,4rem)] font-light leading-[1.05] text-ink"
         />
         <p className="mt-5 max-w-[48ch] text-[17px] leading-[1.65] text-ink">
-          {LEDE[islandId]} {core ? `${formatBand(core)} a guest CORE.` : ''}
+          {LEDE[islandId]} {core ? `Signature dinners ${formatBand(core)} a guest.` : ''}
         </p>
         <div className="mt-8">
           <QuoteCta island={islandId} service="private-chef" variant="light" />

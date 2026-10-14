@@ -118,7 +118,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     faqs: [
       {
         q: 'How much does a private chef cost on Maui?',
-        a: 'Signature dinners start at $225–$375 per person (CORE). Date Night for two starts from $750+. Stay Chef day rate from $1,550. 20% service and Hawaiʻi GET up to 4.712% are added as their own lines — once, on the written quote.',
+        a: 'Signature dinners start at $225–$375 per person, the signature band. Date Night for two starts from $750+. Stay Chef day rate from $1,550. 20% service and Hawaiʻi GET up to 4.712% are added as their own lines — once, on the written quote.',
       },
       {
         q: 'What is included?',
@@ -134,7 +134,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
       },
       {
         q: 'Private chef Maui cost — what do I actually pay?',
-        a: 'Per person: CORE $225–$375. Groceries for Stay Chef are billed at cost with receipts. Service 20% and Hawaiʻi GET up to 4.712% sit on their own lines — once. The full card is on [private chef Maui cost](/pricing).',
+        a: 'Per person: signature dinners $225–$375. Groceries for Stay Chef are billed at cost with receipts. Service 20% and Hawaiʻi GET up to 4.712% sit on their own lines — once. The full card is on [private chef Maui cost](/pricing).',
       },
       {
         q: 'Do you do a private sushi chef on Maui?',
@@ -255,7 +255,7 @@ export const islandOffers: Record<IslandId, IslandOffer> = {
     faqs: [
       {
         q: 'How much is a private chef in Kona or on the Big Island?',
-        a: 'CORE dinners start at $210–$325 a guest. ENTRY opens from $165. Stay Chef from $1,450 a day with groceries at cost. 20% service and Hawaiʻi GET up to 4.712% print after the food. Join the inquiry list on the quote form — not instant booking. The full card is on [private chef Big Island cost](/pricing).',
+        a: 'Signature dinners start at $210–$325 a guest. dinners from $165 a guest. Stay Chef from $1,450 a day with groceries at cost. 20% service and Hawaiʻi GET up to 4.712% print after the food. Join the inquiry list on the quote form — not instant booking. The full card is on [private chef Big Island cost](/pricing).',
       },
       {
         q: 'Can you cover Hilo from Kona?',
@@ -283,7 +283,7 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       description:
         'Private chef Wailea Maui from $225/pp. Published prices and menus — villa dinners and wedding-week catering in resort residences. WhatsApp for a quote.',
       lede:
-        'Hotel-zoned residences with real kitchens, published $225–$375/pp CORE, a written menu — not a named-chef marketplace.',
+        'Hotel-zoned residences with real kitchens, published signature dinners at $225–$375 a guest, a written menu — not a named-chef marketplace.',
       body: [
         'This is not a resort communal chef’s table. It is your villa, your guest list, a menu designed that week. Sunset on the lānai is the usual ask; we write a covered backup before a deposit because South Maui wind is a Tuesday, not a surprise.',
         'Signature sits at $225–$375 a guest — groceries inside that band. Date Night from $750+, Family Feast, and wedding-week lines are on the same Maui card. Stay Chef is the villa-week cook from $1,550 a day with groceries at cost and receipts. They never blend.',
@@ -335,7 +335,7 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       description:
         'Private chef in Kāʻanapali and West Maui from $225/pp. Villa dinners and wedding-week satellite events. WhatsApp to book.',
       lede:
-        'West Maui, named honestly: Kāʻanapali, Nāpili, Kapalua. Same CORE band as Wailea. Traffic is planned into arrival, not discovered on the invoice.',
+        'West Maui, named honestly: Kāʻanapali, Nāpili, Kapalua. Same signature band as Wailea. Traffic is planned into arrival, not discovered on the invoice.',
       body: [
         'Resort residences and hotel-zoned condos with kitchens — not a hotel-room impersonation and not a luxury-dining story about the town next door. People search Lahaina; we answer with the ranges we actually enter on this strip.',
         'Signature stays $225–$375 a guest. Family Feast for six to eight is the usual West Maui order: shared plates, kids’ plates on request, one team. Stay Chef from $1,550 a day, groceries at cost with receipts, fits Honokōwai and Nāpili weeks better than stacking halo nights.',
@@ -492,7 +492,7 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       title: 'Private chef Kapalua Maui — Date Night from $750+ | myCHEF',
       description: 'Private chef in Kapalua — dinners for two, family tables and wedding-week satellite dinners. From $225/pp.',
       lede:
-        'Northwest Maui estates. Date Night is the product this bay was built for — a fixed evening from $750+, not a per-guest stack that punishes two seats. CORE dinners from $225/pp.',
+        'Northwest Maui estates. Date Night is the product this bay was built for — a fixed evening from $750+, not a per-guest stack that punishes two seats. Signature dinners from $225/pp.',
       body: [
         'Ironwood, a quieter inventory, and a northwest drive that is already inside the Maui base zone. Dinners for two, family celebrations, and wedding-week satellite nights use the same kitchen standard as Wailea — different wind, same cleanup.',
         'Date Night from $750+ is a fixed evening. Larger tables use Signature $225–$375 a guest, groceries inside that band. Stay Chef from $1,550 a day bills groceries at cost with receipts. Wine is yours or quoted separately. Florals and photography are add-on lines, never buried.',
@@ -748,7 +748,7 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       name: 'North Shore',
       h1: 'Private chef in North Shore, Oʻahu',
       title: 'Private chef North Shore Oahu — Turtle Bay villas | myCHEF',
-      description: 'Private chef North Shore Oahu. Turtle Bay and North Shore villas — published drive surcharge, CORE from $195/pp.',
+      description: 'Private chef North Shore Oahu. Turtle Bay and North Shore villas — published drive surcharge, signature dinners from $195 a guest.',
       lede: 'The drive is 60–90+ minutes. The surcharge is on the quote. Surf season books early.',
       body: ['Dedicated chef days — we do not stack a town dinner and a North Shore dinner on the same calendar.', 'Full Oʻahu rates are on [the pricing page](/pricing); send your dates on [the quote form](/quote).'],
       zone: 'Surcharge zone',
@@ -902,7 +902,7 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       description:
         'Private chef Princeville Kauai from $225/pp. North Shore estate dinners, villa weeks and Kauai catering. Inquiry stage.',
       lede:
-        'Private chef Princeville covers the North Shore estates. By inquiry — send the shore and the dates, not instant booking. CORE $225–$375/pp. Kauai catering for the same estates.',
+        'Private chef Princeville covers the North Shore estates. By inquiry — send the shore and the dates, not instant booking. Signature dinners $225–$375/pp. Kauai catering for the same estates.',
       body: [
         'Garden Isle retreat, North Shore estate inventory. We crew the house properly or we do not take the night. A published band is not a live calendar. Winter surf season: send dates early. Far-North Hāʻena inherits the Hanalei-bridge weather clause — reschedule rather than forfeit.',
         'Signature sits at $225–$375 a guest — a Maui-class band earned by a thinner supplier bench, not by a waitlist story. Date Night is a fixed evening at $975–$1,425. Stay Chef from $1,650 a day, groceries at cost with receipts. After either line: 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit holds a date only after we can staff that week.',
@@ -1072,11 +1072,11 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       h1: 'Private chef in Kona, Hawaiʻi Island',
       title: 'Private chef Kona Hawaii — from $210/pp | myCHEF',
       description:
-        'Private chef Kona and Kailua-Kona from $210/pp. West-side villa dinners, Stay Chef weeks, Ironman-week honesty. ENTRY from $165.',
+        'Private chef Kona and Kailua-Kona from $210/pp. West-side villa dinners, Stay Chef weeks, Ironman-week honesty. Dinners from $165 a guest.',
       lede:
         'Private chef Kona is the west-side corridor — Kailua-Kona, Keauhou, and the south end of the Kohala run. By inquiry: send the shore and the dates, not instant booking.',
       body: [
-        'We crew the house properly or we do not take the night. A published band is not a live calendar. Signature sits at $210–$325 a guest — groceries inside that band. ENTRY from $165 when the kitchen and the list fit a shorter night. Stay Chef from $1,450 a day, groceries at cost with receipts.',
+        'We crew the house properly or we do not take the night. A published band is not a live calendar. Signature sits at $210–$325 a guest — groceries inside that band. Dinners from $165 a guest fit when the kitchen and the list are a shorter night. Stay Chef from $1,450 a day, groceries at cost with receipts.',
         'After either line: 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit holds a date only after we can staff that week. Gratuity is never required. Ironman and other event weeks compress the calendar — flag those dates on the inquiry.',
         'East side is a different day, never a same-afternoon add-on from town. Named Kona coffee follows origin-labeling rules; we do not invent farm names. Hotel rooms without a cooktop are declined.',
         'Every neighborhood here is part of our [private chef Big Island](/) service. Nearby: resort residences in [Waikoloa](/waikoloa); ranch elevation in [Waimea](/waimea).',
@@ -1094,8 +1094,8 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
           a: 'No. East side is 2.5–3 hours — dedicated staffing, quoted as its own day. West-side villas are the default. We will not sell a same-day crossing.',
         },
         {
-          q: 'Signature $210–$325 or ENTRY from $165 on this shore?',
-          a: 'Signature $210–$325 a guest, groceries inside that band, is the usual west-side dinner. ENTRY from $165 is the shorter night when the kitchen and the list fit it. After either line: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit only after we can staff.',
+          q: 'Signature $210–$325 or a from-$165 dinner on this shore?',
+          a: 'Signature $210–$325 a guest, groceries inside that band, is the usual west-side dinner. The from-$165 dinner is the shorter night when the kitchen and the list fit it. After either line: 20% service and Hawaiʻi GET up to 4.712%. 50% deposit only after we can staff.',
         },
         {
           q: 'Stay Chef from $1,450 — how do Kona groceries print?',
@@ -1238,8 +1238,8 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
           a: 'The Kohala Coast resort communities — Waikoloa, Mauna Lani, the Mauna Kea resort and Puakō — plus Kailua-Kona and Keauhou at the south end of the run. Mauna Kea here means the resort community on the coast, not the summit.',
         },
         {
-          q: 'On this radius, what is inside Signature $210–$325 versus ENTRY from $165?',
-          a: 'The shop for a Signature dinner is already inside $210–$325 a guest. A Mauna Lani or Mauna Kea residence does not get a second grocery bill on that night. ENTRY from $165 is only the shorter list when the coast kitchen can hold it. Service at 20% and Hawaiʻi GET up to 4.712% print after the food. Gratuity is never required. The 50% deposit waits until a crew can hold the week.',
+          q: 'On this radius, what is inside a signature dinner at $210–$325 versus a from-$165 dinner?',
+          a: 'The shop for a Signature dinner is already inside $210–$325 a guest. A Mauna Lani or Mauna Kea residence does not get a second grocery bill on that night. The from-$165 dinner is only the shorter list when the coast kitchen can hold it. Service at 20% and Hawaiʻi GET up to 4.712% print after the food. Gratuity is never required. The 50% deposit waits until a crew can hold the week.',
         },
         {
           q: 'A Kohala villa week uses Stay Chef from $1,450 — where does the shop print?',

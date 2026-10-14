@@ -53,7 +53,7 @@ export const SERVICE_AREAS: Record<IslandId, IslandServiceArea> = {
       { id: 'kona-kohala', name: 'Kona–Kohala' },
       { id: 'waimea', name: 'Waimea' },
       { id: 'waikoloa', name: 'Waikoloa' },
-      { id: 'east-side', name: 'East side — Hilo / Volcano (quoted, dedicated day — not same-day CORE)' },
+      { id: 'east-side', name: 'East side — Hilo / Volcano (quoted, dedicated day — not a same-day signature dinner)' },
     ],
   },
 };

@@ -793,7 +793,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Does an east-side Hilo day use the same grocery models as the west-side card?',
-          a: 'The food lines are the Hawaiʻi Island card, and the staffing is not a west-side afternoon. Signature $210–$325 a guest already includes the shop. ENTRY from $165 is the shorter Hilo night when the town kitchen fits it. Stay Chef from $1,450 is the fee; Hilo groceries print at cost with receipts and never ride inside that fee. Crossing labor is its own day on the quote. Then 20% service, Hawaiʻi GET up to 4.712%, and a 50% deposit once a crew can hold the date. Gratuity is never required.',
+          a: 'The food lines are the Hawaiʻi Island card, and the staffing is not a west-side afternoon. Signature $210–$325 a guest already includes the shop. The from-$165 dinner is the shorter Hilo night when the town kitchen fits it. Stay Chef from $1,450 is the fee; Hilo groceries print at cost with receipts and never ride inside that fee. Crossing labor is its own day on the quote. Then 20% service, Hawaiʻi GET up to 4.712%, and a 50% deposit once a crew can hold the date. Gratuity is never required.',
         },
         {
           q: 'Does Hilo rain change the cooktop rule?',
@@ -850,8 +850,8 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
           a: 'We crew the lodge properly or we decline. It is not instant booking. A published band is not a live roster. Send the dates and wait for a written reply when an east-side crew can hold that week. Island overview: [private chef Big Island](/).',
         },
         {
-          q: 'Signature $210–$325 or ENTRY from $165 at a Volcano lodge?',
-          a: 'A park-lodge plated night is Signature $210–$325 per guest, with the shop already in the band. ENTRY from $165 is only a shorter cabin list when the range can hold it. Service is 20%. Tax prints up to 4.712%. Half, the 50%, waits until someone can staff the slope. Gratuity is never required. Read the pricing page before you enquire.',
+          q: 'Signature $210–$325 or a from-$165 dinner at a Volcano lodge?',
+          a: 'A park-lodge plated night is Signature $210–$325 per guest, with the shop already in the band. The from-$165 dinner is only a shorter cabin list when the range can hold it. Service is 20%. Tax prints up to 4.712%. Half, the 50%, waits until someone can staff the slope. Gratuity is never required. Read the pricing page before you enquire.',
         },
         {
           q: 'Stay Chef from $1,450 for a lodge week — who pays for the shop?',

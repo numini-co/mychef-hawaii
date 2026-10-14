@@ -32,7 +32,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       faqs: [
         {
           q: 'Is this cheaper than plated?',
-          a: 'Food band is still the island CORE card. Staffing changes. Quote in writing.',
+          a: 'Food band is still the island signature card. Staffing changes. Quote in writing.',
         },
         {
           q: 'Hotel grill?',
@@ -118,7 +118,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       faqs: [
         {
           q: 'Is buffet cheaper?',
-          a: 'Food band is the CORE card. Staffing is usually lighter than plated. Quote in writing.',
+          a: 'Food band is the signature card. Staffing is usually lighter than plated. Quote in writing.',
         },
         {
           q: 'Convention buffet?',
@@ -172,7 +172,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       photo: 'fmtDropoffOahu',
       body: [
         'Private chef dinner is this site’s home.',
-        'If a night needs trays and no staff, ask. Do not expect the CORE dinner band.',
+        'If a night needs trays and no staff, ask. Do not expect the signature dinner band.',
       ],
       faqs: [
         {
@@ -292,7 +292,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
         {
           q: 'Cheaper than plated?',
-          a: 'Food band is CORE. Staffing is usually lighter. Quote in writing.',
+          a: 'Food band is the signature card. Staffing is usually lighter. Quote in writing.',
         },
       ],
       related: [

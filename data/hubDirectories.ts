@@ -2,6 +2,17 @@ import { SEARCH_VOLUMES } from './offers';
 import type { PhotoKey } from './photos';
 import { hubNestedDirectories, HUB_NESTED_PATHS } from './hubNestedDirectories';
 import { hubEditorialDirectories, HUB_EDITORIAL_PATHS } from './hubEditorialDirectories';
+import { bigIslandSimplerDinner, signatureGuestBand, stayChefUsd } from './rateCard';
+
+const oahuSig = signatureGuestBand('oahu');
+const mauiSig = signatureGuestBand('maui');
+const kauaiSig = signatureGuestBand('kauai');
+const biSig = signatureGuestBand('bigisland');
+const biSimple = bigIslandSimplerDinner();
+const oahuStay = stayChefUsd('oahu');
+const mauiStay = stayChefUsd('maui');
+const kauaiStay = stayChefUsd('kauai');
+const biStay = stayChefUsd('bigisland');
 
 /**
  * Hub-only pickers for support paths that already live on every island host.
@@ -196,7 +207,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       },
       {
         q: 'How do prices attach to a menu draft?',
-        a: 'Through each island’s rate card. A Signature draft keeps the shop inside that island’s published band; a Stay Chef draft bills the shop at cost with receipts. The quote then adds 20% service and Hawaiʻi GET up to 4.712%, a 50% deposit once we can staff, and no required gratuity. Big Island example: ENTRY from $165, Signature $210–$325, Stay Chef from $1,450. Line-by-line: [the pricing page](/pricing).',
+        a: 'Through each island’s rate card. A Signature draft keeps the shop inside that island’s published band; a Stay Chef draft bills the shop at cost with receipts. The quote then adds 20% service and Hawaiʻi GET up to 4.712%, a 50% deposit once we can staff, and no required gratuity. Big Island example: the from-$165 dinner, Signature $210–$325, Stay Chef from $1,450. Line-by-line: [the pricing page](/pricing).',
       },
       {
         q: 'Is catering designed on this page too?',
@@ -423,17 +434,50 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Household chef line, by island.',
     title: 'Household chef line, by island | myCHEF Hawaii',
     description:
-      'Each island keeps a resident household line.',
+      'Household chef by island: daily cooking and meal prep for one home. Oʻahu and Maui quote. Kauaʻi and Hawaiʻi Island: request availability.',
     lede:
-      'Weekly household cooking is not a tourist one-off. Each island writes that line.',
+      'Weekly household cooking is not a tourist one-off. Each island writes that line. Open the island where the home is.',
     kicker: 'Statewide · Household line',
     photo: 'hubPersonal',
     cardLabel: 'Household line',
     body: [
-      'Private chef dinners are booked on each island’s home page.',
-      'Kauaʻi and Hawaiʻi Island stay inquiry.',
+      'A household chef cooks for one home on a repeating calendar: the nights you name, in the kitchen that household already uses. Meal prep is portions for that home. Dietary limits are written before the shop. This page is not a one-night private-chef dinner, and it is not a visitor Stay Chef week.',
+      'Open the island where the house is. [Oʻahu household cooking](oahu:/personal-chef) and [Maui household cooking](maui:/personal-chef) take a written quote. [Kauaʻi household cooking](kauai:/personal-chef) and [Hawaiʻi Island household cooking](bigisland:/personal-chef) are request availability: a published fee does not hold a crew. A one-night dinner is that island’s private-chef page. A rental week is [Stay Chef](/vacation-chef). The card is [pricing](/pricing). The form is [the quote](/quote).',
+      `Signature dinners keep the shop inside the guest price: Oʻahu ${oahuSig}, Maui ${mauiSig}, Kauaʻi ${kauaiSig}, Hawaiʻi Island ${biSig}, and Big Island dinners from ${biSimple} a guest. A resident who wants a cook most days is quoted on the Stay Chef daily fee plus groceries at cost with receipts: from ${oahuStay} on Oʻahu, ${mauiStay} on Maui, ${kauaiStay} on Kauaʻi, and ${biStay} on Hawaiʻi Island. After that fee, 20% service and Hawaiʻi GET up to 4.712% print as their own lines. A 50% deposit locks dates you accept. Gratuity is never required.`,
     ],
     faqs: [
+      {
+        q: 'Which link is the household cook for the island where the home is?',
+        a: 'Open the host that matches the house. [Oʻahu](oahu:/personal-chef) and [Maui](maui:/personal-chef) take a written quote. [Kauaʻi](kauai:/personal-chef) and [Hawaiʻi Island](bigisland:/personal-chef) are request availability. A one-night dinner is that island’s private-chef page, not this line. The card is [pricing](/pricing).',
+      },
+      {
+        q: 'How is household cooking different from a one-night private-chef dinner?',
+        a: 'The household line repeats for one home. A signature dinner is one table, and the groceries sit inside the guest price. They are not the same invoice. Send a celebration night to that island’s private-chef page.',
+      },
+      {
+        q: 'How is a household cook different from Stay Chef for a rental week?',
+        a: 'Stay Chef is a visitor week: a daily chef fee plus groceries at cost with receipts. Household cooking is for people who live in the house. Same crew shape, different calendar. The rental week is [Stay Chef](/vacation-chef).',
+      },
+      {
+        q: 'What does a daily household cook cost, and what is added after?',
+        a: `Published daily floors are ${oahuStay} on Oʻahu, ${mauiStay} on Maui, ${kauaiStay} on Kauaʻi, and ${biStay} on Hawaiʻi Island, plus groceries at cost with receipts. Then 20% service and Hawaiʻi GET up to 4.712% as their own lines. A 50% deposit locks dates you accept. Gratuity is never required.`,
+      },
+      {
+        q: 'Can one home book several cook days without stacking signature dinners?',
+        a: `Yes. Repeating days use the daily fee, from ${oahuStay} on Oʻahu and the matching floor on the other islands, plus groceries at cost. They are not a row of signature dinners. 20% service and Hawaiʻi GET up to 4.712% still print after the fee.`,
+      },
+      {
+        q: 'How do dietary limits and meal-prep portions get onto the quote?',
+        a: 'Send them with the address and the nights, before anyone shops. Gluten-free, dairy-free, nut-aware, vegan, and children’s plates can be designed in. Meal prep on this line feeds that one household. It is not a drop-off route across a city.',
+      },
+      {
+        q: 'Which islands take a household quote, and which only take a request?',
+        a: 'Oʻahu and Maui take a written quote. Kauaʻi and Hawaiʻi Island stay request-availability until a crew exists. A published daily fee does not hold a week. Desk: quotes@mychef-hawaii.com, +1 (808) 468-7748, https://wa.me/18084687748.',
+      },
+      {
+        q: 'Will you cook in a hotel room, or on two islands the same day?',
+        a: 'No. A room without a cooktop is declined. One crew does not cook on two islands the same day. Name one island and one kitchen on [the quote form](/quote). If the house has no range, we say so before a deposit.',
+      },
     ],
   },
   privateChefCost: {
@@ -464,7 +508,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       },
       {
         q: 'What does a dinner for eight include on the bill?',
-        a: 'The island per-guest band times the headcount, with Signature groceries inside that band: Oʻahu $195–$290, Maui and Kauaʻi $225–$375, Hawaiʻi Island $210–$325, entry from $165. Then 20% service and Hawaiʻi GET up to 4.712% as their own lines. A 50% deposit locks the date. Gratuity is never required. The written quote is the total.',
+        a: 'The island per-guest band times the headcount, with Signature groceries inside that band: Oʻahu $195–$290, Maui and Kauaʻi $225–$375, Hawaiʻi Island $210–$325, dinners from $165. Then 20% service and Hawaiʻi GET up to 4.712% as their own lines. A 50% deposit locks the date. Gratuity is never required. The written quote is the total.',
       },
       {
         q: 'Which islands take a quote, and which stay inquiry?',
