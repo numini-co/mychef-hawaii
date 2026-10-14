@@ -49,11 +49,11 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     keyword: 'maui catering',
     volume: CATERING_VOLUMES['maui catering'],
     h1: 'Maui catering menus — staffed villa events, not drop-off.',
-    title: 'Maui Catering Menus | Villa Receptions & Events | myCHEF',
+    title: 'Maui Catering Menus | Hawaiian Villa Menus | myCHEF',
     description:
-      'Sample Maui catering menus for villa events of 10–75 guests — buffet, plated, or family-style in Wailea and West Maui. The menu is written for that house.',
+      'Maui catering menus and Hawaiian catering menus for villas of 10–75 guests — buffet, plated, or family-style in Wailea and West Maui. From $225 a guest.',
     lede:
-      'Staffed Maui catering for villa receptions, reunions and wedding weeks in Wailea, Kīhei and West Maui. Buffet or plated for 10–75 guests, from $225 a guest.',
+      'Staffed Maui catering for villa receptions, reunions and wedding weeks in Wailea, Kīhei and West Maui. Buffet or plated for 10–75 guests, from $225 a guest. Hawaiian catering menus are written for that house — not a statewide carte.',
     fromPp: 225,
     weddingFrom: 225,
     places: 'Wailea, Kāʻanapali, Lahaina / West Maui, Kīhei, Kapalua',
@@ -80,9 +80,9 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     keyword: 'big island catering',
     volume: CATERING_VOLUMES['big island catering'],
     h1: 'Big Island catering — Kona and Kohala Coast villa events.',
-    title: 'Big Island Catering | Hawaii Island, Kona & Kohala | myCHEF',
+    title: 'Big Island Catering | Official Hawaii Island Site | myCHEF',
     description:
-      'Big Island catering from $210 a guest: staffed Hawaiʻi Island villa and estate events in Kona and on the Kohala Coast, 10–75 guests, buffet or plated.',
+      'Official Big Island catering for Hawaiʻi Island villas — staffed Kona and Kohala Coast events, 10–75 guests, from $210 a guest. Buffet or plated. Request a written quote.',
     lede:
       'Big Island catering on Hawaiʻi Island (the Big Island): staffed villa events on the Kona–Kohala Coast, buffet or plated, from $210 a guest. Kona catering included; Hilo is quoted as its own day.',
     fromPp: 210,

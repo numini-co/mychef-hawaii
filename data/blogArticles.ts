@@ -36,7 +36,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
-        { path: '/honolulu', label: 'Private chef Honolulu' },
+        { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/locations', label: 'Towns we cook in' },
         { path: '/quote', label: 'Quote form' },
       ],
@@ -469,7 +469,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       ],
       related: [
         { path: '/hawaii-kai', label: 'Private chef Hawaiʻi Kai' },
-        { path: '/honolulu', label: 'Private chef Honolulu' },
+        { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/kamaaina', label: 'Kamaʻāina line' },
         { path: '/quote', label: 'Quote form' },
       ],
@@ -519,7 +519,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       ],
       related: [
         { path: '/kakaako', label: 'Private chef Kakaʻako' },
-        { path: '/honolulu', label: 'Private chef Honolulu' },
+        { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/blog/condo-load-in', label: 'Condo load-in' },
         { path: '/quote', label: 'Quote form' },
       ],
@@ -546,7 +546,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       ],
       related: [
         { path: '/downtown', label: 'Private chef Downtown' },
-        { path: '/honolulu', label: 'Private chef Honolulu' },
+        { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/conventions', label: 'Conventions' },
         { path: '/quote', label: 'Quote form' },
       ],
@@ -2153,7 +2153,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
-        { path: '/kona', label: 'Private chef Kona' },
+        { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/east-side', label: 'East side' },
         { path: '/quote', label: 'Inquiry form' },
       ],
@@ -2527,7 +2527,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       related: [
         { path: '/hilo', label: 'Private chef Hilo' },
         { path: '/east-side', label: 'East side' },
-        { path: '/kona', label: 'Private chef Kona' },
+        { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/quote', label: 'Inquiry form' },
       ],
     },
@@ -2576,7 +2576,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       ],
       related: [
         { path: '/keauhou', label: 'Private chef Keauhou' },
-        { path: '/kona', label: 'Private chef Kona' },
+        { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/ironman-weeks', label: 'Ironman weeks' },
         { path: '/quote', label: 'Inquiry form' },
       ],
@@ -2598,7 +2598,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       ],
       related: [
         { path: '/holualoa', label: 'Private chef Hōlualoa' },
-        { path: '/kona', label: 'Private chef Kona' },
+        { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/coffee-act-198', label: 'Coffee Act 198' },
         { path: '/quote', label: 'Inquiry form' },
       ],
@@ -2621,7 +2621,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       ],
       related: [
         { path: '/kailua-kona', label: 'Private chef Kailua-Kona' },
-        { path: '/kona', label: 'Private chef Kona' },
+        { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/ironman-weeks', label: 'Ironman weeks' },
         { path: '/quote', label: 'Inquiry form' },
       ],
