@@ -586,9 +586,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'Maui sitemap: neighborhoods, services, occasions and guides.',
   },
   '/maui/catering': {
-    title: 'Maui Catering Menus | Villa Receptions & Events | myCHEF',
+    title: 'Maui Catering Menus | Hawaiian Villa Menus | myCHEF',
     description:
-      'Sample Maui catering menus for villa events of 10–75 guests — buffet, plated, or family-style in Wailea and West Maui. The menu is written for that house.',
+      'Maui catering menus and Hawaiian catering menus for villas of 10–75 guests — buffet, plated, or family-style in Wailea and West Maui. From $225 a guest.',
   },
   '/kauai/private-chef': {
     title: 'Personal Chef Kauai | Princeville & Poipu Dinners | myCHEF',
@@ -676,9 +676,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'Multi-day chef residencies for Kohala and Waimea weeks. Groceries at cost. Inquiry stage.',
   },
   '/bigisland/catering': {
-    title: 'Big Island Catering | Hawaii Island, Kona & Kohala | myCHEF',
+    title: 'Big Island Catering | Official Hawaii Island Site | myCHEF',
     description:
-      'Big Island catering from $210 a guest: staffed Hawaiʻi Island villa and estate events in Kona and on the Kohala Coast, 10–75 guests, buffet or plated.',
+      'Official Big Island catering for Hawaiʻi Island villas — staffed Kona and Kohala Coast events, 10–75 guests, from $210 a guest. Buffet or plated. Request a written quote.',
   },
   '/bigisland/weddings': {
     title: 'Wedding Catering Big Island | Kohala & Kona Weeks | myCHEF',

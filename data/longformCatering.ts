@@ -205,6 +205,10 @@ const mauiFaqs: CopyFaq[] = [
     q: 'What’s on a Maui catering menu?',
     a: 'Buffet, plated, or family-style — stations or courses for that villa, not a fixed carte. A sample night might be ahi poke, kanpachi crudo, wood-grilled catch with coconut rice, and lilikoi cheesecake. The final menu is written for the house and the guest list. See [how our menus are designed](root:/menus) and [Maui pricing](/pricing).',
   },
+  {
+    q: 'Do you publish Hawaiian catering menus for Maui?',
+    a: 'Yes — this page owns Maui catering menus (sometimes searched as Hawaiian catering menus for Maui). Sample formats are buffet, plated, or family-style for Wailea and West Maui villas. The written menu is for that house and guest list, not a statewide drop-off carte. Food from $225 a guest; staffing is itemised on the quote.',
+  },
 ];
 
 const kauaiSections: CopySection[] = [
@@ -310,7 +314,7 @@ const bigislandSections: CopySection[] = [
   {
     h2: 'Big Island catering on the Kona–Kohala Coast',
     paras: [
-      'myCHEF Hawaii caters private events in villas and estates on the Big Island’s west side: Kailua-Kona and Keauhou, Hōlualoa above town, and the Kohala Coast resort communities of Waikoloa, Mauna Lani, the Mauna Kea resort and Puakō. Our Big Island catering is staffed — we write the menu for your house, shop on the Kona side, cook in the villa, serve your guests and clean up.',
+      'myCHEF Hawaii’s official Big Island catering covers private events in villas and estates on Hawaiʻi Island’s west side: Kailua-Kona and Keauhou, Hōlualoa above town, and the Kohala Coast resort communities of Waikoloa, Mauna Lani, the Mauna Kea resort and Puakō. Our Big Island catering is staffed — we write the menu for your house, shop on the Kona side, cook in the villa, serve your guests and clean up.',
       'We focus on the west side because that’s where we can staff well. Hilo and Volcano are a different day, quoted separately with their own crew. For a dinner of six or so, a [private chef on the Big Island](/) is the simpler booking.',
       'Most of our Big Island catering is for ten to seventy-five guests: family reunions in a Kohala Coast villa, welcome dinners for a wedding group, milestone birthdays, retreat weeks and company offsites. Every event gets a menu written for the house, a staffing plan sized to the guest list and a written total with every line on it before you pay a deposit.',
     ],
@@ -398,6 +402,10 @@ const bigislandFaqs: CopyFaq[] = [
   {
     q: 'What does the Big Island catering price include, and how is the total built?',
     a: 'The food line is the published card: $210–$325 a guest, or a lighter menu from $165. Groceries for that menu sit inside the band. Staffing is next, at the published hourly rates — a server is $80/hr and a sous chef is $105/hr, each call at least four hours. Then 20% service and Hawaiʻi GET up to 4.712% print once. A 50% deposit holds the date. Gratuity is never required. Rentals and venue fees stay off the total unless we quote them. This is a written quote at inquiry, not instant booking. Send the west-side villa on the [inquiry form](/quote). The lines are on [Big Island pricing](/pricing). A household dinner is a [private chef on the Big Island](/). Desk: quotes@mychef-hawaii.com, +1 808 468 7748, WhatsApp https://wa.me/18084687748.',
+  },
+  {
+    q: 'Is this the official Big Island catering page for myCHEF Hawaii?',
+    a: 'Yes. This is the official Hawaiʻi Island (Big Island) catering page for myCHEF Hawaii — staffed villa and estate events on the Kona–Kohala Coast for about 10–75 guests. Statewide Hawaii catering lives on the hub; island menus and prices for this shore live here. Send west-side dates on the [inquiry form](/quote).',
   },
 ];
 
