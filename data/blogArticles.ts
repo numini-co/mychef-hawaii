@@ -180,6 +180,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/oahu-farmers-market-villa-week', label: 'Oahu farmers markets guide' },
         { path: '/pricing', label: 'Oahu rate card' },
         { path: '/journal/what-is-included', label: 'What prints as a line' },
         { path: '/quote', label: 'Quote form' },
@@ -740,6 +741,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/wailea-restaurants-dining-guide', label: 'Wailea restaurants guide' },
         { path: '/wailea', label: 'Private chef Wailea' },
         { path: '/south-maui', label: 'South Maui' },
         { path: '/quote', label: 'Quote form' },
@@ -1480,6 +1482,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-farmers-market-villa-week', label: 'Kauai farmers markets guide' },
         { path: '/poipu', label: 'Private chef Poʻipū' },
         { path: '/south-shore', label: 'South Shore kitchens' },
         { path: '/quote', label: 'Inquiry form' },
@@ -1553,6 +1556,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-farmers-market-villa-week', label: 'Kauai farmers markets guide' },
         { path: '/pricing', label: 'Kauai rate card' },
         { path: '/hanalei-bridge', label: 'Hanalei bridge' },
         { path: '/quote', label: 'Inquiry form' },
@@ -2251,6 +2255,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/kona-catering-planning-guide', label: 'Kona catering guide' },
         { path: '/pricing', label: 'West-side rate card' },
         { path: '/east-side', label: 'East side' },
         { path: '/quote', label: 'Inquiry form' },
@@ -2302,6 +2307,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/kona-catering-planning-guide', label: 'Kona catering guide' },
         { path: '/blog/kona-beach-party-catering-guide', label: 'Kona beach party guide' },
         { path: '/coverage', label: 'Coverage' },
         { path: '/east-side', label: 'East side' },

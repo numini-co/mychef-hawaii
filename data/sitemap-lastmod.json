@@ -17,7 +17,7 @@
  },
  "https://bigisland.mychef-hawaii.com/blog": {
   "hash": "",
-  "lastmod": "2026-10-14T00:00:00Z"
+  "lastmod": "2026-10-15T00:00:00Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "18b65786d79a96ee43b7",
@@ -597,7 +597,7 @@
  },
  "https://kauai.mychef-hawaii.com/blog": {
   "hash": "",
-  "lastmod": "2026-10-14T00:00:00Z"
+  "lastmod": "2026-10-15T00:00:00Z"
  },
  "https://kauai.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "f9a746e66138ee636653",
@@ -1153,7 +1153,7 @@
  },
  "https://maui.mychef-hawaii.com/blog": {
   "hash": "",
-  "lastmod": "2026-10-14T00:00:00Z"
+  "lastmod": "2026-10-15T00:00:00Z"
  },
  "https://maui.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "6e470c1a4566cd6b5491",
@@ -2157,7 +2157,7 @@
  },
  "https://oahu.mychef-hawaii.com/blog": {
   "hash": "",
-  "lastmod": "2026-10-14T00:00:00Z"
+  "lastmod": "2026-10-15T00:00:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "1141bca6e525af9aaf4e",
@@ -2706,5 +2706,21 @@
  "https://oahu.mychef-hawaii.com/what-we-dont-do": {
   "hash": "9a77bcef77ad9c5ff60a",
   "lastmod": "2026-10-06T13:07:31Z"
+ },
+ "https://oahu.mychef-hawaii.com/blog/oahu-farmers-market-villa-week": {
+  "hash": "",
+  "lastmod": "2026-10-15T00:00:00Z"
+ },
+ "https://maui.mychef-hawaii.com/blog/wailea-restaurants-dining-guide": {
+  "hash": "",
+  "lastmod": "2026-10-15T00:00:00Z"
+ },
+ "https://kauai.mychef-hawaii.com/blog/kauai-farmers-market-villa-week": {
+  "hash": "",
+  "lastmod": "2026-10-15T00:00:00Z"
+ },
+ "https://bigisland.mychef-hawaii.com/blog/kona-catering-planning-guide": {
+  "hash": "",
+  "lastmod": "2026-10-15T00:00:00Z"
  }
 }
