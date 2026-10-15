@@ -155,6 +155,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       faqs: [
       ],
       related: [
+        { path: '/blog/ko-olina-restaurants-dining-guide', label: 'Ko Olina restaurants guide' },
         { path: '/ko-olina', label: 'Private chef Ko Olina' },
         { path: '/short-stay', label: 'Short-stay villas' },
         { path: '/vacation-chef', label: 'Vacation chef weeks' },
@@ -814,6 +815,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/kihei-restaurants-dining-guide', label: 'Kīhei restaurants guide' },
         { path: '/kihei', label: 'Private chef Kīhei' },
         { path: '/south-maui', label: 'South Maui' },
         { path: '/quote', label: 'Quote form' },
@@ -1482,6 +1484,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/poipu-restaurants-dining-guide', label: 'Poʻipū restaurants guide' },
         { path: '/blog/kauai-farmers-market-villa-week', label: 'Kauai farmers markets guide' },
         { path: '/poipu', label: 'Private chef Poʻipū' },
         { path: '/south-shore', label: 'South Shore kitchens' },
@@ -2255,6 +2258,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/kona-farmers-market-villa-week', label: 'Kona farmers markets guide' },
         { path: '/blog/kona-catering-planning-guide', label: 'Kona catering guide' },
         { path: '/pricing', label: 'West-side rate card' },
         { path: '/east-side', label: 'East side' },

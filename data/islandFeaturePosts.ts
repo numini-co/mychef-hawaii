@@ -243,6 +243,115 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/blog/grocery-at-cost', label: 'Groceries at cost' },
       ],
     },
+    {
+      feature: true,
+      slug: 'ko-olina-restaurants-dining-guide',
+      keyword: 'ko olina restaurants',
+      datePublished: '2026-10-16',
+      name: 'Ko Olina restaurants dining guide',
+      h1: 'Ko Olina restaurants — resort tables, marina nights and when to cook at the villa.',
+      title: 'Ko Olina Restaurants — Dining Guide for Villa Weeks | myCHEF',
+      description:
+        'Ko Olina restaurants for a villa week: resort rooms, marina tables, reservations and when a private chef night at the house is the better plan.',
+      lede:
+        'Ko Olina restaurants sit inside a compact west-side resort pocket: hotel dining rooms, marina-facing tables and a short loop of walkable options. This guide is for villa and condo guests who want to know when to book a table and when dinner at the house makes more sense.',
+      photo: 'dinKoOlina',
+      body: [],
+      sections: [
+        {
+          heading: 'What “Ko Olina restaurants” usually means',
+          paras: [
+            'Search for Ko Olina restaurants and you mostly get resort dining: rooms inside the hotels, a few marina and shopping-village tables, and the occasional poolside or casual spot. That is a different kind of dining map from Honolulu’s Chinatown or Waikīkī. Distances are short on foot or by resort shuttle, but the calendar fills early in winter and over holiday weeks.',
+            'Most of our guests are not collecting restaurant stamps. They are hosting family in a villa or a multi-bedroom condo, juggling kids’ bedtimes, mixed diets and a desire to watch the west-side sunset from their own lānai. The restaurants still matter for date nights and special occasions. The house kitchen matters for the rest of the week.',
+          ],
+        },
+        {
+          heading: 'Resort rooms, marina tables and the walkable loop',
+          paras: [
+            'Inside the resort pocket you will find sit-down rooms with ocean or lagoon views, casual spots for lunch after the beach, and a small set of marina-facing tables where the evening feels like a night out without a long drive. Menus lean seafood, steaks and island produce; dress codes are usually smart casual rather than black tie.',
+            'We do not invent ratings, chef names or “best of” lists. Book the room that fits your night: celebration, quiet dinner for two, or a bigger family table. Call ahead for high chairs, dietary notes and ocean-view seating. Peak season (roughly mid-December through March) and long weekends fill first.',
+          ],
+        },
+        {
+          heading: 'Reservations, timing and the Honolulu drive',
+          paras: [
+            'For sit-down Ko Olina restaurants, reserve as soon as your villa dates are firm. Same-week tables still appear, but sunset slots and weekend dinners go first. If you are flying in the same day, plan a lighter first night at the house and save the reservation for a rested evening.',
+            'Going into town for Honolulu restaurants is a real choice, not a quick hop. Afternoon traffic on H-1 westbound on the return can stretch a dinner downtown into a late night for kids. Many villa weeks keep weeknights at Ko Olina and treat Honolulu as a planned day trip with lunch, not a last-minute dinner run.',
+          ],
+        },
+        {
+          heading: 'When a private chef night beats going out',
+          paras: [
+            'A private chef night wins when the guest list is larger than a standard restaurant table, when someone in the group needs a quiet house after a long flight, or when you want one menu that covers allergies, kids and a celebration cake without splitting across three restaurants. Our [private chef Oahu](/) service covers dinner-sized groups in the villa kitchen, with the published CORE band on [Oahu private chef cost](/pricing).',
+            'For parties of about ten and up — reunions, welcome dinners, rehearsal weeks — you are into staffed events. That is [Oahu catering](/catering): a lead chef, cooks and servers, with load-in planned around the resort’s parking and quiet hours. The written quote lists chef hours, staff, rentals, groceries and any drive line separately.',
+          ],
+        },
+        {
+          heading: 'Building a Ko Olina villa week that mixes both',
+          paras: [
+            'A practical pattern for a seven-night stay: two reserved restaurant nights (one celebration, one quieter), three chef or Stay Chef dinners at the house, and the remaining evenings left flexible for leftovers, takeout inside the resort, or a spontaneous table if one opens. Market and grocery runs feed the house nights; the chef can shop for those dinners or work from a list you already bought.',
+            'If the house is a weekly cook rather than a single dinner, Stay Chef days start from $1,250 a day with groceries at cost and receipts. Signature dinners sit in the published Oʻahu band of $195–$290 a guest with groceries inside that band. Town and Ko Olina are base coverage on the rate card; North Shore adds a published drive surcharge. Details stay on the pricing page, not invented here.',
+            'West-side logistics are simpler than they look once the address is on the quote. Lagoon villas and multi-unit buildings differ on freight elevators, loading docks and association quiet hours. We confirm those with the host before the team arrives. If you want the Honolulu in-house dinner model explained side by side, the [private chef Honolulu](/private-chef) page covers how town evenings run from Waikīkī to Kahala.',
+          ],
+        },
+        {
+          heading: 'Kids, dietary notes and the condo kitchen reality',
+          paras: [
+            'Ko Olina weeks often mix ages. Restaurant kids’ menus help for one night; they do not solve a week of early bedtimes. A house dinner lets the chef plate a simpler pasta or grilled fish for the children while the adults get a longer menu at the same table. High chairs, strollers and quiet hours are easier to manage when nobody is waiting on a pager in a lobby.',
+            'Dietary notes belong in the quote brief: shellfish allergy, vegetarian guests, no pork, gluten-free bread. We plan those into the shop list. We do not invent a “farm-to-table” claim for a product we cannot verify at the market or the store. Fish is named as the species on the ticket that day.',
+            'Condo kitchens vary. Some lagoon villas have full ranges and outdoor grills; some stacked units have a cooktop and a small fridge. Tell us what is in the kitchen when you send the address. If the kitchen cannot support a plated dinner for twelve, we say so and quote catering with extra gear instead of forcing a Signature night into the wrong room.',
+          ],
+        },
+        {
+          heading: 'A sample evening timeline at a Ko Olina villa',
+          paras: [
+            'For a Signature dinner of eight to ten, the chef typically arrives in the afternoon, confirms the fridge space and the outdoor table, and starts mise en place away from the living room. Guests can still use the pool. Passed bites go out as people gather; the main courses follow as the light softens over the lagoons.',
+            'Cleanup is part of the evening: dishes washed, counters wiped, trash tied for the building’s schedule. Leftovers are labelled in the fridge if you want them for lunch. The written quote sets arrival and finish windows so the association’s quiet hours are respected.',
+            'For a staffed catering night of thirty, the timeline stretches: earlier load-in, a separate prep zone, servers for the buffet or family-style pass, and a longer breakdown. That is why catering and Signature dinners are different products on [Oahu catering](/catering) and [private chef Oahu](/), not a single blended package.',
+          ],
+        },
+        {
+          heading: 'How to get a real number for a Ko Olina week',
+          paras: [
+            'Send the villa or condo address, the dates, the guest count and which nights you want cooked versus reserved at restaurants. We reply with a written quote — Signature dinner, Stay Chef day or staffed catering — never a blended guess. Use the quote form on the site; contact stays there until you have a confirmed booking thread.',
+            'If you are still comparing options, start with [private chef Oahu](/) for the overview, then [Oahu catering](/catering) if the headcount is already past a single dining table. Pricing bands and what prints as its own line live on [Oahu private chef cost](/pricing).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Do I need reservations at Ko Olina restaurants?',
+          a: 'For sit-down and sunset rooms, yes — especially in winter and over holidays. Casual spots are more flexible, but a villa week still plans better with at least one or two tables held.',
+        },
+        {
+          q: 'Are Ko Olina restaurants only for hotel guests?',
+          a: 'Many rooms welcome outside reservations. Policies vary by property, so book directly and ask about dress code, parking and kids’ menus when you hold the table.',
+        },
+        {
+          q: 'When is a private chef better than going out in Ko Olina?',
+          a: 'For larger groups, mixed diets, early bedtimes, or any night you want everyone at one villa table without a shuttle or a dress code. Signature dinners and Stay Chef days are quoted on the pricing page.',
+        },
+        {
+          q: 'Can you cater a welcome dinner at a Ko Olina villa?',
+          a: 'Yes. Staffed events from about 10 to 75 guests are quoted as catering, with load-in and quiet hours agreed with the host first.',
+        },
+        {
+          q: 'How far is Honolulu dining from Ko Olina?',
+          a: 'It is a real drive, longer at rush hour. Most villa weeks keep dinners on the west side and treat Honolulu as a planned day trip.',
+        },
+        {
+          q: 'What does a Ko Olina villa chef dinner cost?',
+          a: 'The published Oʻahu CORE band is $195–$290 a guest with groceries included. Stay Chef days start from $1,250 a day. Full details are on the pricing page.',
+        },
+      ],
+      related: [
+        { path: '/', label: 'Private chef Oahu' },
+        { path: '/private-chef', label: 'Private chef Honolulu' },
+        { path: '/catering', label: 'Oahu catering' },
+        { path: '/pricing', label: 'Oahu private chef cost' },
+        { path: '/blog/dining-in-ko-olina', label: 'Ko Olina kitchen notes' },
+      ],
+    },
   ],
   maui: [
     {
@@ -467,6 +576,116 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/blog/dining-in-wailea', label: 'Wailea kitchen notes' },
       ],
     },
+    {
+      feature: true,
+      slug: 'kihei-restaurants-dining-guide',
+      keyword: 'kihei restaurants',
+      datePublished: '2026-10-16',
+      name: 'Kīhei restaurants dining guide',
+      h1: 'Kīhei restaurants — South Maui tables, condo weeks and when to cook at home.',
+      title: 'Kihei Restaurants — South Maui Dining Guide | myCHEF',
+      description:
+        'Kihei restaurants for a South Maui condo week: casual strips, Wailea drives and when a private chef night at the house is the smarter plan.',
+      lede:
+        'Kīhei restaurants cover a long South Maui strip of casual plates, fresh-fish counters and family-friendly rooms. This guide is for condo and vacation-home guests who want to know when to book a table and when dinner in the kitchen is the calmer plan.',
+      photo: 'dinKihei',
+      body: [],
+      sections: [
+        {
+          heading: 'What people mean by “Kīhei restaurants”',
+          paras: [
+            'Kīhei is South Maui’s residential and condo corridor: a stretch of ocean-facing roads, shopping centers and walkable dinner options that feel more local-week than resort-lobby. Searches for Kīhei restaurants usually return casual seafood, pizza and plate-lunch spots, a few sit-down rooms with ocean views, and plenty of takeout that travels well back to a condo kitchen.',
+            'Guests who stay here are often multi-generational: grandparents, kids, and a few friends sharing two or three linked units. Restaurant tables for eight or twelve are hard to hold on a Saturday in peak season. That is why many weeks mix a couple of reserved nights with house dinners cooked in the condo kitchen.',
+          ],
+        },
+        {
+          heading: 'Casual strips, ocean-view rooms and takeout',
+          paras: [
+            'Along South Kihei Road and the nearby centers you will find counter-service fish, family booths and a smaller set of reservation rooms. Lunch is often easier than dinner. Sunset ocean-view seats book out first in winter. We do not invent restaurant rankings or claim farm partnerships we cannot verify — book the room that fits the night and ask directly about high chairs, gluten-free options and parking.',
+            'Takeout is part of the Kīhei rhythm. Poke bowls, grilled fish and salads travel back to a lanai table without drama. Keep a cooler bag in the car if you are shopping the strip before an afternoon beach run. For a longer stay, one grocery stock-up plus two chef nights usually beats seven restaurant bills for a family of eight.',
+          ],
+        },
+        {
+          heading: 'Wailea, Mākena and the short South Maui drive',
+          paras: [
+            'Wailea is a short drive south: resort dining rooms, the Shops at Wailea and a different dress-code feel. Many Kīhei weeks keep weeknights local and save one Wailea reservation for a celebration. Our longer [Wailea restaurants](/blog/wailea-restaurants-dining-guide) guide covers resort tables and when a villa chef night is the better call on that side of the coast.',
+            'West Maui is a longer commitment from Kīhei. Sunset traffic toward Kāʻanapali can turn a dinner reservation into a late return for kids. If the villa is in South Maui, plan West Maui as a day trip with lunch, not a same-evening round trip, unless the celebration truly requires it.',
+            'North toward Mākena and the state park, dinner options thin out. Plan those evenings at the house or back in Kīhei rather than hunting a last-minute table after a long beach day. Saturday traffic on Piʻilani Highway and South Kihei Road still matters — leave early for any reserved time.',
+          ],
+        },
+        {
+          heading: 'When a private chef night is the better plan',
+          paras: [
+            'Choose a chef night when the group is bigger than a standard booth, when someone needs an early dinner after snorkeling, or when dietary needs would force three different restaurant stops. Our [private chef Maui](/) service covers dinner-sized groups in the condo or villa kitchen. The published Maui CORE band is on [Maui private chef cost](/pricing): $225–$375 a guest with groceries inside the band.',
+            'For reunions, welcome dinners and wedding-week feeds past about ten guests, use [Maui catering](/catering). Staff, rentals and a weather backup print as their own lines on the quote. Load-in for condo buildings needs freight and quiet-hour notes from the host — we confirm those before the team arrives.',
+          ],
+        },
+        {
+          heading: 'A practical Kīhei week that mixes restaurants and the house',
+          paras: [
+            'A workable seven-night pattern: two reserved restaurant nights (one casual Kīhei, one Wailea celebration if you want it), three Signature or Stay Chef dinners at the house, and flexible evenings for leftovers or takeout. Stay Chef days on Maui start from $1,550 a day with groceries at cost and receipts. Signature dinners stay in the $225–$375 guest band.',
+            'South Maui coverage treats Wailea and the Kīhei corridor as the everyday base for villa weeks. West Maui is a different drive and a different traffic story — save Kāʻanapali or Lahaina for a planned day if the house is in Kīhei, rather than a same-evening round trip. For how in-house dinners are framed on this island, see [personal chef Maui](/private-chef).',
+            'Send dates and the exact condo or villa address on the quote form. We reply with Signature, Stay Chef or catering — never a blended guess — and keep contact on that form until the booking thread is open.',
+          ],
+        },
+        {
+          heading: 'Condo kitchens, parking and association rules',
+          paras: [
+            'South Maui condo kitchens range from full residential setups to compact cooktops. Before we quote a Signature dinner, we need to know whether there is a real oven, outdoor grill access and enough counter space for plating. If the unit cannot support the headcount, we say so and move the night to catering with rented gear rather than overselling the kitchen.',
+            'Parking and load-in matter more than guests expect. Many complexes limit vendor parking and have quiet hours after a set evening time. Freight elevators, if they exist, need a reservation with the front desk. Those details go on the quote once the host shares the house rules — we do not invent building policies.',
+            'Grocery runs for a condo week usually combine a big-box stop with a smaller market shop for fish and produce. Our [Maui farmers markets](/blog/maui-farmers-market-villa-week) guide covers the market side; Signature dinners keep that shop inside the guest band, and Stay Chef days show receipts at cost.',
+          ],
+        },
+        {
+          heading: 'A sample Kīhei evening that stays at the house',
+          paras: [
+            'Late afternoon: the chef arrives, checks the fridge and the lanai table, and starts cold starters. Guests can still rinse off from the beach. As the trade wind picks up, grilled fish and a vegetable main come off the stove family-style. Kids eat first if that is the house rhythm; adults linger.',
+            'After dessert the kitchen is reset: dishes done, surfaces wiped, trash sorted for the complex’s pickup rules. Leftovers are packed for beach lunches the next day. That cleanup standard is part of every dinner we publish — it is not an optional add-on invented for this post.',
+            'Scale that to a reunion of forty and you need servers, a buffet line under cover and a longer load-out. That evening lives on [Maui catering](/catering), with the same honesty about weather backup and quiet hours. The [personal chef Maui](/private-chef) page is the right starting point when the list is still dinner-sized.',
+          ],
+        },
+        {
+          heading: 'How to get a written number',
+          paras: [
+            'Put the street address, dates, headcount and which nights you want cooked versus reserved. Start with [private chef Maui](/) for the overview, [Maui catering](/catering) if the list is already past a single table, and [Maui private chef cost](/pricing) for the published bands. The quote is the confirmed total; the blog never invents a package price.',
+            'If you already hold a Wailea restaurant reservation for one night, say so on the form. We will plan the chef nights around it so the week has a clear rhythm instead of three competing dinners on the same evening.',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Do I need reservations at Kīhei restaurants?',
+          a: 'For sit-down and ocean-view rooms in peak season, yes. Casual counters are more flexible. Large groups should plan house dinners for most nights.',
+        },
+        {
+          q: 'Are Kīhei restaurants good for big family tables?',
+          a: 'Some rooms can take six to eight with notice; twelve-plus is usually a stretch. That is when a condo chef night or staffed catering is the calmer option.',
+        },
+        {
+          q: 'When is a private chef better than going out in Kīhei?',
+          a: 'Mixed diets, early bedtimes, celebration cakes, or any night you want one table on your own lanai without hunting parking on South Kihei Road.',
+        },
+        {
+          q: 'Can you cater a reunion at a Kīhei condo?',
+          a: 'Yes, when the building allows load-in. Staffed events from about 10 to 75 guests are quoted as Maui catering, with quiet hours confirmed first.',
+        },
+        {
+          q: 'How far is Wailea dining from Kīhei?',
+          a: 'A short South Maui drive in light traffic; longer at sunset rush. Many weeks keep weeknights in Kīhei and save one Wailea table for a celebration.',
+        },
+        {
+          q: 'What does a Kīhei condo chef dinner cost?',
+          a: 'The published Maui CORE band is $225–$375 a guest with groceries included. Stay Chef days start from $1,550 a day. Details are on the pricing page.',
+        },
+      ],
+      related: [
+        { path: '/', label: 'Private chef Maui' },
+        { path: '/private-chef', label: 'Personal chef Maui' },
+        { path: '/catering', label: 'Maui catering' },
+        { path: '/pricing', label: 'Maui private chef cost' },
+        { path: '/blog/dining-in-kihei', label: 'Kīhei kitchen notes' },
+      ],
+    },
   ],
   kauai: [
     {
@@ -689,6 +908,118 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/catering', label: 'Kauai catering' },
         { path: '/pricing', label: 'Kauai private chef cost' },
         { path: '/blog/grocery-at-cost', label: 'Groceries at cost' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'poipu-restaurants-dining-guide',
+      keyword: 'poipu restaurants',
+      datePublished: '2026-10-16',
+      name: 'Poʻipū restaurants dining guide',
+      h1: 'Poʻipū restaurants — South Shore tables, resort nights and when to cook at the villa.',
+      title: 'Poipu Restaurants — South Shore Dining Guide | myCHEF',
+      description:
+        'Poipu restaurants for a Kauaʻi South Shore villa week: resort rooms, reservations and when a private chef night at the house is better.',
+      lede:
+        'Poʻipū restaurants cluster along Kauaʻi’s sunny South Shore: resort dining rooms, ocean-view decks and a walkable strip near the beaches. This guide helps villa guests decide when to book a table and when dinner at the house is the wiser plan.',
+      photo: 'dinPoipu',
+      body: [],
+      sections: [
+        {
+          heading: 'What “Poʻipū restaurants” covers on the South Shore',
+          paras: [
+            'Poʻipū is the South Shore’s main dining pocket: hotel rooms with sunset decks, casual spots near the beaches, and a short drive to Old Kōloa Town for a different pace. Searches for Poʻipū restaurants mix resort fine dining with family-friendly plates. Peak winter weeks and wedding weekends fill first.',
+            'Most of our South Shore guests are in vacation rentals or multi-bedroom villas, not collecting every resort restaurant. They want one or two special nights out and a quiet house for the rest — especially with kids, elders or a wedding party that already has a long daytime schedule.',
+          ],
+        },
+        {
+          heading: 'Resort decks, Kōloa town and the walkable strip',
+          paras: [
+            'Inside the Poʻipū resort pocket you will find sit-down rooms with ocean or garden views, poolside casual options and a few spots that take walk-ins earlier in the evening. Dress codes are usually resort casual. We do not invent chef names, ratings or partner restaurants — book directly, ask about dietary notes and hold sunset seats early.',
+            'Beach days shape the dinner clock. After a long morning at Poʻipū Beach Park, many groups want an early house dinner more than a late resort seating. Hold the restaurant for a rested night mid-week, and let the villa kitchen cover the sandy, sun-tired evenings.',
+            'Old Kōloa Town adds bakeries, casual dinners and a short historic-street stroll. It is close enough for a planned evening without a North Shore commitment. Parking and wait times grow on weekend nights; a reservation still beats hope.',
+          ],
+        },
+        {
+          heading: 'North Shore drives and why South Shore weeks stay south',
+          paras: [
+            'Hanalei and Princeville are a real cross-island drive, longer when the Wailua corridor is slow or when you are aiming for a sunset table. Our [North Shore Kauaʻi dining](/blog/north-shore-kauai-dining-guide) guide covers that side of the island. For a Poʻipū-based week, treat the North Shore as a day trip with lunch, not a same-evening dinner round trip with tired kids in the car.',
+            'Līhuʻe airport runs and grocery stops fit the South Shore loop more cleanly than a North Shore dinner dash. If half the group wants a Hanalei day, keep dinner that night at the Poʻipū villa so nobody is driving the byway in the dark after a long meal.',
+            'South Shore weather is often drier, but trade showers still pass. Covered lānai space and a weather backup matter as much for a house dinner as for an outdoor restaurant deck.',
+          ],
+        },
+        {
+          heading: 'When a private chef night beats a restaurant table',
+          paras: [
+            'Book a chef night when the guest list will not fit a standard reservation, when the wedding week already has enough logistics, or when you want one menu that covers shellfish allergies and kids’ plates without three stops. Our [private chef Kauai](/) service covers dinner-sized villa groups. Published bands live on [Kauai private chef cost](/pricing): Signature dinners $225–$375 a guest with groceries inside the band; Stay Chef from $1,650 a day with groceries at cost.',
+            'Past about ten guests — welcome dinners, rehearsal feeds, family reunions — use [Kauai catering](/catering). Staff, rentals and travel print as separate lines. South Shore and North Shore add their own shore notes on the rate card; the written quote is the confirmed total. For how in-house dinners are framed on this island, see [personal chef Kauai](/private-chef).',
+          ],
+        },
+        {
+          heading: 'A South Shore week that mixes restaurants and the villa',
+          paras: [
+            'A practical pattern: two reserved restaurant nights (one resort sunset, one Kōloa casual), three chef or Stay Chef dinners at the villa, and flexible evenings for leftovers or a last-minute walk-in. Inquiry staffing on Kauaʻi means we confirm crew before we lock the date — a published band is not an instant-booking button.',
+            'Market shopping on the South Shore feeds the house nights. If you want the market-to-dinner path spelled out, our [Kauai farmers markets](/blog/kauai-farmers-market-villa-week) guide covers Poʻipū-area shopping that turns into a chef night. Groceries for Signature dinners stay inside the guest band; Stay Chef days show receipts at cost.',
+            'Send the villa address, dates and headcount on the quote form. We reply with Signature, Stay Chef or catering. Contact stays on that form until the booking thread is open.',
+            'If you already know the house has a weak kitchen, say so up front. We would rather quote catering gear for a Poʻipū address than discover on arrival that the cooktop cannot feed twelve.',
+          ],
+        },
+        {
+          heading: 'Wedding weeks, welcome dinners and the South Shore calendar',
+          paras: [
+            'Poʻipū and the wider South Shore host many wedding weeks. The reception may be elsewhere; the welcome dinner and day-after brunch often land at the villa. Those nights are separate lines on the quote, not a single “wedding package” invented for the blog. See [wedding catering](/weddings) when the reception itself is the question.',
+            'Inquiry staffing on Kauaʻi means we confirm a crew before we lock the date. Peak winter and holiday weeks book out. If your dates are firm, send them early even if the menu is still open. A published Signature band of $225–$375 a guest is a floor for planning, not a live instant-booking button.',
+            'Quiet hours and neighbor distance matter on residential streets behind the resort strip. Amplified music is a separate booking with performers who know County rules. We cook and serve; we do not invent entertainment partners in this guide.',
+          ],
+        },
+        {
+          heading: 'A sample Poʻipū villa dinner timeline',
+          paras: [
+            'Mid-afternoon arrival for a Signature dinner: confirm grill access, fridge space and where guests will sit when the wind picks up. Cold starters first. Fish and a second main as the light goes. Dessert on the lānai if the evening stays dry; indoors if a shower band arrives.',
+            'Cleanup finishes before quiet hours. Leftovers labelled. The team leaves the kitchen the way they found it. For a staffed catering night the same address gets an earlier load-in, more hands and a written weather backup — that product is [Kauai catering](/catering), not a stretched Signature dinner.',
+            'If the group is still deciding between a resort restaurant and the villa for the celebration night, hold the restaurant table if you can cancel, and send us the headcount for a parallel chef quote. You can release whichever option loses once the RSVPs settle.',
+          ],
+        },
+        {
+          heading: 'How to get a real quote for Poʻipū',
+          paras: [
+            'Start with [private chef Kauai](/) for the overview, [Kauai catering](/catering) if the list is already a party, and [Kauai private chef cost](/pricing) for the published floors. Put shore, dates and guest count on the form so the shore line and staffing reality show up before anyone packs a knife roll.',
+            'Mention whether the house is Poʻipū, Kōloa or farther west toward Kalaheo. Shore lines and drive notes print honestly on the quote; we do not bury them inside a fake package price.',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Do I need reservations at Poʻipū restaurants?',
+          a: 'For sunset and sit-down resort rooms, yes — especially in winter and over wedding weekends. Casual spots are more flexible earlier in the evening.',
+        },
+        {
+          q: 'Are Poʻipū restaurants only inside the hotels?',
+          a: 'Many well-known rooms are in the resorts; others sit nearby or in Old Kōloa Town. Book directly and ask about parking and dress code.',
+        },
+        {
+          q: 'When is a private chef better than going out in Poʻipū?',
+          a: 'Large groups, mixed diets, early bedtimes, or any night you want everyone on your own lānai without a drive after a beach day.',
+        },
+        {
+          q: 'Can you cater a wedding-week dinner in Poʻipū?',
+          a: 'Yes, when staffing is confirmed. Events from about 10 to 75 guests are quoted as Kauai catering, with quiet hours and load-in agreed first.',
+        },
+        {
+          q: 'How far is the North Shore from Poʻipū for dinner?',
+          a: 'It is a cross-island drive. Most South Shore weeks keep dinners south and save Hanalei or Princeville for a planned day trip.',
+        },
+        {
+          q: 'What does a Poʻipū villa chef dinner cost?',
+          a: 'Signature dinners are $225–$375 a guest with groceries included. Stay Chef days start from $1,650 a day. Full details are on the pricing page; Kauaʻi is by inquiry.',
+        },
+      ],
+      related: [
+        { path: '/', label: 'Private chef Kauai' },
+        { path: '/private-chef', label: 'Personal chef Kauai' },
+        { path: '/catering', label: 'Kauai catering' },
+        { path: '/pricing', label: 'Kauai private chef cost' },
+        { path: '/blog/dining-in-poipu', label: 'Poʻipū kitchen notes' },
       ],
     },
   ],
@@ -917,6 +1248,116 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/pricing', label: 'Big Island private chef cost' },
         { path: '/blog/kona-beach-party-catering-guide', label: 'Kona beach party guide' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'kona-farmers-market-villa-week',
+      keyword: 'kona farmers market',
+      datePublished: '2026-10-16',
+      name: 'Kona farmers markets for a villa week',
+      h1: 'Kona farmers markets — shopping for a west-side villa week, the chef’s way.',
+      title: 'Kona Farmers Market — Shopping for a Villa Week | myCHEF',
+      description:
+        'A chef’s guide to Kona farmers markets for a villa week: what to buy, timing, west-side logistics and how market shopping turns into a private chef dinner.',
+      lede:
+        'A Kona farmers market run is how many west-side villa weeks start: fruit, greens, coffee and the catch of the morning, then dinner planned around what actually showed up — not a menu written months ahead.',
+      photo: 'blogFarmsBigisland',
+      body: [],
+      sections: [
+        {
+          heading: 'Why Kona farmers markets matter for a villa kitchen',
+          paras: [
+            'Search for a Kona farmers market and you will find weekend and midweek gatherings along the west side where growers, bakers and fish vendors set up under tents. For a vacation rental, that market is not a sightseeing stop only. It is the fastest way to cook island food without pretending every ingredient is “estate grown” when you cannot verify the farm.',
+            'We shop for what we will cook that day or the next. Fruit that ripens on the counter, sturdy greens, tomatoes, herbs, and fish when the cooler is honest about the morning’s catch. We name species as what they are. We do not invent farm partnerships or claim a label we cannot show on a receipt.',
+          ],
+        },
+        {
+          heading: 'Timing, cash and what travels well back to the villa',
+          paras: [
+            'Go early. The best fish and greens move first, and parking near popular west-side markets fills before mid-morning on weekends. Bring reusable bags, a small cooler for seafood and cash plus a card — vendor preferences vary. Ask before you photograph a stall; many growers are working, not posing.',
+            'If you are staying in Waikoloa or Mauna Lani, build the market into a morning loop with a single iced cooler and a plan to be back at the villa before the midday heat. Do not leave seafood in a hot trunk while you add three more errands. The chef would rather start with a shorter, colder haul than a long list that spoiled on the highway.',
+            'What travels well: citrus, avocados that will ripen in a day or two, sturdy lettuce, cucumbers, sweet potato, bananas, and baked goods for breakfast. What needs a plan: delicate herbs in the heat of a parked car, and any seafood that must stay iced until it hits the villa fridge. If the house is in Waikoloa or farther up the Kohala Coast, pack the cooler before you leave the market lot.',
+          ],
+        },
+        {
+          heading: 'West-side markets versus a Hilo day',
+          paras: [
+            'West-side villa weeks usually shop Kona-side. Hilo’s markets are excellent and well known, but they are not a casual add-on to a Kailua-Kona dinner the same evening. The Saddle Road or the longer coastal loop makes Hilo a dedicated day. Our east-side dinners are quoted as a separate day on the rate card for exactly that reason.',
+            'If your itinerary already includes Volcano or Hilo, shop there for that day’s picnic or lodge kitchen and keep the west-side villa stocked from Kona markets and west-side grocery runs. Do not plan a round trip for a single bag of greens.',
+          ],
+        },
+        {
+          heading: 'Turning market bags into a private chef dinner',
+          paras: [
+            'A Signature dinner on the west side starts with what the market and the fish counter actually offered. The chef builds a short menu around that: a raw or seared starter, a grilled or pan-roasted fish, a pork or vegetable main if the group wants one, bright salads and fruit for dessert. Our [private chef Big Island](/) page covers dinner-sized groups; [private chef Kona](/private-chef) explains how west-side in-house evenings run.',
+            'Published bands live on [Big Island private chef cost](/pricing): Signature dinners $210–$325 a guest with groceries inside the band, table dinners from $165, and Stay Chef from $1,450 a day with groceries at cost and receipts. Market produce for a Signature night sits inside that guest band. On a Stay Chef week, market and grocery receipts print at cost with zero markup.',
+          ],
+        },
+        {
+          heading: 'When the market run becomes catering instead',
+          paras: [
+            'Past about ten guests — beach birthdays, welcome dinners, reunion weeks — you need staff, not only a shopping list. That is [Big Island catering](/catering): a lead chef, cooks and servers, with a weather backup for west-side outdoor tables. The market still feeds the menu; the quote adds staff hours and rentals as their own lines.',
+            'For beach-adjacent parties, read our [beach party catering](/blog/kona-beach-party-catering-guide) notes on permits, wind and cleanup. For a full planning pass on guest counts and west-side staffing, see the [Kona catering](/blog/kona-catering-planning-guide) guide. Neither post invents venue partners; both point back to the catering and pricing pages for real numbers.',
+          ],
+        },
+        {
+          heading: 'Coffee, fruit and what not to overbuy',
+          paras: [
+            'West-side markets are strong on tropical fruit, greens and baked goods. Coffee is easy to romanticize; buy what you will brew that week, not a suitcase of bags you will not finish. Ask vendors how ripe the fruit is today versus tomorrow so the villa counter is not a science experiment by Wednesday.',
+            'Fish is the item that punishes a slow drive. If you buy seafood at the market, iced cooler first, villa fridge second, cook plan the same day when you can. We would rather adjust a menu after seeing the cooler than promise a species that never made it into the bag.',
+            'Do not overbuy herbs and delicate greens on a hot morning if the villa is an hour up the coast. Shop the sturdy items first, then make one last pass for herbs when the car is ready to leave. That habit matters as much as any recipe.',
+          ],
+        },
+        {
+          heading: 'A sample west-side day built around the market',
+          paras: [
+            'Early morning: market run with a cooler. Midday: beach or a rest at the villa while produce settles in the fridge. Late afternoon: chef arrival for a Signature dinner built around the day’s fish and greens. Evening: dinner on the lānai, cleanup, leftovers labelled for tomorrow’s lunch.',
+            'On a Stay Chef day the same market haul can feed breakfast prep and a dinner later, with receipts at cost. That is a different product from a single Signature night — see [Big Island private chef cost](/pricing) so the models stay unblended. Multi-day groups often alternate a chef night with a simple leftover lunch rather than cooking every meal.',
+            'If the headcount jumps because cousins arrive mid-week, say so early. Crossing from a dinner-sized group into catering territory changes staff and gear. Our [Kona catering](/blog/kona-catering-planning-guide) guide walks through guest counts; [Big Island catering](/catering) is the booking page when you are already there.',
+          ],
+        },
+        {
+          heading: 'How to brief a chef after a market morning',
+          paras: [
+            'Send the villa address, dates, headcount and any allergies on the quote form before the trip when you can. If you already shopped, a photo of the counter haul helps the chef plan around what is in the fridge. We still confirm species and quantities before cooking — a bag of mangoes is not a menu by itself.',
+            'Start with [private chef Big Island](/) for the overview, [Big Island catering](/catering) if the list is already a party, and [Big Island private chef cost](/pricing) for the published bands. Contact stays on the quote form until the booking thread is open.',
+            'If your week mixes west-side villa nights with a Hilo or Volcano day, keep the market shopping tied to the kitchen you will cook in that evening. We will not invent a same-day cross-island grocery loop.',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Which day should I go to a Kona farmers market?',
+          a: 'Weekend mornings are the busiest and often the fullest. Midweek markets exist on the west side too — check current hours locally before you drive, and go early either way.',
+        },
+        {
+          q: 'Can a private chef shop the market for us?',
+          a: 'Yes. On Signature dinners, shopping sits inside the guest band. On Stay Chef days, market and grocery receipts print at cost. Tell us dietary needs before the run.',
+        },
+        {
+          q: 'Should I shop Hilo markets on a Kona villa week?',
+          a: 'Only if Hilo is already on the day’s itinerary. It is not a same-evening round trip from a west-side villa dinner.',
+        },
+        {
+          q: 'What should I buy if I shop myself?',
+          a: 'Fruit that will ripen, sturdy greens, herbs, and fish only if you have a cooler and a fridge ready. Leave the menu flexible until you see what is on the tables.',
+        },
+        {
+          q: 'Can market produce feed a catered villa party?',
+          a: 'Yes. For roughly 10 to 75 guests we quote Big Island catering, with staff and rentals as separate lines and a weather backup for outdoor service.',
+        },
+        {
+          q: 'What does a west-side chef dinner cost after a market run?',
+          a: 'Signature dinners are $210–$325 a guest with groceries included. Stay Chef days start from $1,450 a day. Full details are on the pricing page.',
+        },
+      ],
+      related: [
+        { path: '/', label: 'Private chef Big Island' },
+        { path: '/private-chef', label: 'Private chef Kona' },
+        { path: '/catering', label: 'Big Island catering' },
+        { path: '/pricing', label: 'Big Island private chef cost' },
+        { path: '/blog/grocery-at-cost', label: 'Groceries at cost' },
       ],
     },
   ],
