@@ -29,7 +29,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogOahu',
     body: [
       'For the longer notes — Gold Coast counters, convention weeks, short-stay villas — read the journal.',
-      'New this month: [an Oahu farmers market guide for a villa week](/blog/oahu-farmers-market-villa-week) — Kailua, Kakaʻako, KCC and North Shore shopping that turns into dinner with a [private chef Honolulu](/private-chef) night — plus [planning a private luau on Oʻahu](/blog/private-luau-oahu).',
+      'New this month: [the Ko Olina restaurants dining guide](/blog/ko-olina-restaurants-dining-guide) — resort tables, marina nights and when a [private chef Honolulu](/private-chef) evening at the villa is the better plan — plus [Oahu farmers markets](/blog/oahu-farmers-market-villa-week).',
     ],
   },
   maui: {
@@ -43,7 +43,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogMaui',
     body: [
       'Short posts from Wailea, Kīhei and West Maui kitchens: breakfast and lunch in the villa, cleanup, groceries at cost, and what goes on the written quote. The longer notes, including the Maui price guide, live in the journal.',
-      'New this month: [the Wailea restaurants dining guide](/blog/wailea-restaurants-dining-guide) — resort tables, reservations and when a [personal chef Maui](/private-chef) night at the villa is the better plan — plus [Maui farmers markets](/blog/maui-farmers-market-villa-week).',
+      'New this month: [the Kīhei restaurants dining guide](/blog/kihei-restaurants-dining-guide) — South Maui tables, condo weeks and when a [personal chef Maui](/private-chef) night at the house is smarter — plus [Wailea restaurants](/blog/wailea-restaurants-dining-guide).',
     ],
   },
   kauai: {
@@ -57,7 +57,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogKauai',
     body: [
       'If you need the Hanalei-bridge weather note at length, the journal is the better page.',
-      'New this month: [a Kauai farmers market guide for a villa week](/blog/kauai-farmers-market-villa-week) — Poʻipū, Kapaʻa and North Shore shopping that turns into dinner — plus [the North Shore dining guide](/blog/north-shore-kauai-dining-guide).',
+      'New this month: [the Poʻipū restaurants dining guide](/blog/poipu-restaurants-dining-guide) — South Shore tables, resort nights and when a [personal chef Kauai](/private-chef) evening at the villa is the better plan — plus [Kauai farmers markets](/blog/kauai-farmers-market-villa-week).',
     ],
   },
   bigisland: {
@@ -71,7 +71,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogBigisland',
     body: [
       'West-side kitchens and Kohala travel show up in the shorter posts; the journal keeps the longer notes.',
-      'New this month: [planning Kona catering for a villa event](/blog/kona-catering-planning-guide) — guest counts, menus and west-side staffing, with [Big Island catering](/catering) for 10 to 75 guests — plus [beach party catering](/blog/kona-beach-party-catering-guide).',
+      'New this month: [a Kona farmers market guide for a villa week](/blog/kona-farmers-market-villa-week) — west-side shopping that turns into dinner with a [private chef Kona](/private-chef) night — plus [Kona catering planning](/blog/kona-catering-planning-guide).',
       'Looking to book rather than read? Dinner prices, dinners from $165 a guest and signature dinners and Stay Chef days are on the [private chef Big Island](/) page, and staffed villa parties for ten to seventy-five are [Big Island catering](/catering).',
     ],
   },

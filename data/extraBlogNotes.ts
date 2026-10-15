@@ -185,7 +185,7 @@ const RAW_EXTRA_BLOG_NOTES: Record<IslandId, UniqueCell[]> = {
         },
       ],
       related: [
-        { path: '/blog/oahu-farmers-market-villa-week', label: 'Oahu farmers markets guide' },
+        { path: '/blog/ko-olina-restaurants-dining-guide', label: 'Ko Olina restaurants guide' },
         { path: '/events/welcome-dinners', label: 'Welcome' },
         { path: '/weddings', label: 'Wedding week' },
         { path: '/rehearsal-dinners', label: 'Rehearsal' },
@@ -445,7 +445,7 @@ const RAW_EXTRA_BLOG_NOTES: Record<IslandId, UniqueCell[]> = {
         },
       ],
       related: [
-        { path: '/blog/wailea-restaurants-dining-guide', label: 'Wailea restaurants guide' },
+        { path: '/blog/kihei-restaurants-dining-guide', label: 'Kīhei restaurants guide' },
         { path: '/events/welcome-dinners', label: 'Welcome' },
         { path: '/weddings', label: 'Wedding week' },
         { path: '/rehearsal-dinners', label: 'Rehearsal' },
@@ -705,7 +705,7 @@ const RAW_EXTRA_BLOG_NOTES: Record<IslandId, UniqueCell[]> = {
         },
       ],
       related: [
-        { path: '/blog/kauai-farmers-market-villa-week', label: 'Kauai farmers markets guide' },
+        { path: '/blog/poipu-restaurants-dining-guide', label: 'Poʻipū restaurants guide' },
         { path: '/events/welcome-dinners', label: 'Welcome' },
         { path: '/weddings', label: 'Wedding week' },
         { path: '/rehearsal-dinners', label: 'Rehearsal' },
@@ -965,7 +965,7 @@ const RAW_EXTRA_BLOG_NOTES: Record<IslandId, UniqueCell[]> = {
         },
       ],
       related: [
-        { path: '/blog/kona-catering-planning-guide', label: 'Kona catering guide' },
+        { path: '/blog/kona-farmers-market-villa-week', label: 'Kona farmers markets guide' },
         { path: '/events/welcome-dinners', label: 'Welcome' },
         { path: '/weddings', label: 'Wedding week' },
         { path: '/rehearsal-dinners', label: 'Rehearsal' },
