@@ -551,7 +551,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/maui/pricing': {
     title: 'Maui Private Chef Cost | Wailea & West Maui Rates | myCHEF',
     description:
-      'What a private chef costs on Maui: $225–$375 a guest with groceries inside, Stay Chef from $1,550 a day. 20% service and GET print as their own lines.',
+      'Private chef Maui cost: $225–$375 a guest with groceries inside the band, Stay Chef from $1,550 a day. 20% service and GET print as their own lines.',
   },
   '/maui/quote': {
     title: 'Maui quote form — shore, kitchen, written total | myCHEF',
