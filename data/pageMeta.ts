@@ -223,7 +223,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/staffing': {
     title: 'Staffing add-ons, by island | myCHEF Hawaii',
     description:
-      'Each island lists hourly add-ons: servers, bartenders, quoted butlers.',
+      'Choose an island for servers at $80/hr and a separate sous-chef line. Bartenders and butlers are quoted in writing. Kauaʻi and the Big Island stay inquiry.',
   },
   '/events': {
     title: 'Villa occasions, by island | myCHEF Hawaii',
@@ -369,12 +369,12 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/staffing/servers': {
     title: 'Server add-ons, by island | myCHEF Hawaii',
     description:
-      'Each island quotes servers hourly.',
+      'Server add-ons by island at $80/hr on the written quote, plus 20% service and GET. The full guide is the statewide waiters page, then your island.',
   },
   '/staffing/bartenders': {
     title: 'Bartender hourly lines, by island | myCHEF Hawaii',
     description:
-      'Each island quotes bartenders hourly.',
+      'Bartender add-ons by island are quoted in writing. No hourly rate is published. The full guide is the statewide bartenders page, then your island.',
   },
   '/staffing/butlers': {
     title: 'Quoted butler lines, by island | myCHEF Hawaii',

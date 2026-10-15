@@ -27,7 +27,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         'A plated twelve needs more hands than a family-style eight. We write the hours. We do not hide them in the catch.',
       photo: 'staffServersOahu',
       body: [
-        'Gold Coast dining rooms: Gold Coast. The food band does not change because a server is on the quote.',
+        'Gold Coast dining rooms in Honolulu and Kahala are where plated dinners sit. The food band does not change because a server is on the quote.',
       ],
       faqs: [
         {
