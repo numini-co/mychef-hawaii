@@ -2,7 +2,8 @@ import { SEARCH_VOLUMES } from './offers';
 import type { PhotoKey } from './photos';
 import { hubNestedDirectories, HUB_NESTED_PATHS } from './hubNestedDirectories';
 import { hubEditorialDirectories, HUB_EDITORIAL_PATHS } from './hubEditorialDirectories';
-import { bigIslandSimplerDinner, signatureGuestBand, stayChefUsd } from './rateCard';
+import { bigIslandSimplerDinner, signatureGuestBand, stayChefUsd, STAFFING } from './rateCard';
+import { DESK_EMAIL, DESK_PHONE_DISPLAY, DESK_TEL, DESK_WHATSAPP } from '@/lib/contact';
 
 const oahuSig = signatureGuestBand('oahu');
 const mauiSig = signatureGuestBand('maui');
@@ -13,6 +14,10 @@ const oahuStay = stayChefUsd('oahu');
 const mauiStay = stayChefUsd('maui');
 const kauaiStay = stayChefUsd('kauai');
 const biStay = stayChefUsd('bigisland');
+const serverHr = STAFFING.serverHourly;
+const sousHr = STAFFING.sousHourly;
+const minHours = STAFFING.minimumHours;
+const desk = `${DESK_EMAIL}, +1 ${DESK_PHONE_DISPLAY} (${DESK_TEL}), WhatsApp ${DESK_WHATSAPP}`;
 
 /**
  * Hub-only pickers for support paths that already live on every island host.
@@ -272,17 +277,49 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     path: '/staffing',
     h1: 'Staffing add-ons, by island.',
     title: 'Staffing add-ons, by island | myCHEF Hawaii',
-    description:
-      'Each island lists hourly add-ons: servers, bartenders, quoted butlers.',
+    description: `Choose an island for servers at $${serverHr}/hr and a separate sous-chef line. Bartenders and butlers are quoted in writing. Kauaʻi and the Big Island stay inquiry.`,
     lede:
-      'Each island the staffing page is the list of hourly lines.',
+      'Pick the island, then the line. The long guides for waiters, bartenders, and butlers are statewide. This page only routes you.',
     kicker: 'Statewide · Staffing',
     photo: 'hubStaff',
     cardLabel: 'Staffing add-ons',
     body: [
-      'Servers, bartenders and quoted butlers, priced for each island. Kauaʻi and Hawaiʻi Island print those lines at inquiry.',
+      `Read the detailed pages first: [waiters](/in-villa-services/waiters), [bartenders](/in-villa-services/bartenders), and [butlers](/in-villa-services/butlers). Then open the island that has the house: [Oʻahu staffing](oahu:/staffing), [Maui staffing](maui:/staffing), [Kauaʻi staffing](kauai:/staffing), or [Big Island staffing](bigisland:/staffing). Oʻahu and Maui take a written quote. Kauaʻi and the Big Island take a request for availability.`,
+      `A server is $${serverHr}/hr and a sous chef is $${sousHr}/hr, each on its own line, ${minHours} hours minimum. 20% service and Hawaiʻi GET up to 4.712% follow, each alone. A 50% deposit holds dates after you accept the total. Gratuity is never required. Bartenders and butlers are quoted in writing. No hourly figure for either is on the card. One quote can carry the chef and the floor staff. It cannot move a crew between islands on the same day. Desk: ${desk}.`,
     ],
     faqs: [
+      {
+        q: 'Which islands list a server hour, and which only take an inquiry?',
+        a: `All four list servers at $${serverHr}/hr and a sous chef at $${sousHr}/hr, plus 20% service and GET up to 4.712%. Oʻahu and Maui quotes are open. Kauaʻi and the Big Island are request availability. The hour is not a held crew.`,
+      },
+      {
+        q: 'How does staffing show on the written quote next to the chef?',
+        a: `As its own lines. Food or the day fee first. Then server hours, sous-chef hours, and any bartender or butler quoted in writing. 20% service and Hawaiʻi GET up to 4.712% print after those lines. A 50% deposit follows acceptance. Gratuity is never required.`,
+      },
+      {
+        q: 'Can one quote cover the chef and the floor staff together?',
+        a: `Yes. Say chef plus server, or chef plus a bartender quoted in writing, in the same note. The lines stay separate. You do not need two forms. You do need one island.`,
+      },
+      {
+        q: 'What does inquiry mean for a Kauaʻi staffing line?',
+        a: `Join the inquiry list and request availability. A Princeville or Poʻipū server is not confirmed because the rate is printed. Hanalei-bridge weather can move the night. We reply when a crew exists.`,
+      },
+      {
+        q: 'Why does a Big Island staffing request start on the west side?',
+        a: `Kona, Waikoloa, and the Kohala Coast are the first geography. Hilo is not included in that request and is not a same-day add-on. Ask for availability on the west side, or send Hilo as its own day.`,
+      },
+      {
+        q: 'Can the same crew work Oʻahu on Friday and Maui on Saturday?',
+        a: `No. Each island staffs its own houses. A quote does not ferry a server across the channel. Book the Friday on [Oʻahu](oahu:/staffing) and the Saturday on [Maui](maui:/staffing) as two inquiries.`,
+      },
+      {
+        q: 'Where is the full waiter guide, as opposed to an island server page?',
+        a: `The statewide guide is [waiters](/in-villa-services/waiters). Island hours and booking posture are on [servers by island](/staffing/servers), then the island staffing page. This chooser does not repeat the guide.`,
+      },
+      {
+        q: 'Where do bartender and butler details live if this page only routes?',
+        a: `[Bartenders](/in-villa-services/bartenders) and [butlers](/in-villa-services/butlers) are the statewide guides. Both are quoted in writing. No hourly rate is published. Then open the island. Desk: ${desk}.`,
+      },
     ],
   },
   events: {

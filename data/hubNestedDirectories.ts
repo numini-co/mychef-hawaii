@@ -1,5 +1,12 @@
 import { SEARCH_VOLUMES } from './offers';
 import type { HubDirectory } from './hubDirectories';
+import { STAFFING } from './rateCard';
+import { DESK_EMAIL, DESK_PHONE_DISPLAY, DESK_TEL, DESK_WHATSAPP } from '@/lib/contact';
+
+const serverHr = STAFFING.serverHourly;
+const sousHr = STAFFING.sousHourly;
+const minHours = STAFFING.minimumHours;
+const desk = `${DESK_EMAIL}, +1 ${DESK_PHONE_DISPLAY} (${DESK_TEL}), WhatsApp ${DESK_WHATSAPP}`;
 
 /** Nested hub pickers for island-only occasion, format, fine-dining, staffing, menu, and help URLs. */
 export const HUB_NESTED_PATHS = [
@@ -371,17 +378,31 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     path: '/staffing/servers',
     h1: 'Server add-ons, by island.',
     title: 'Server add-ons, by island | myCHEF Hawaii',
-    description:
-      'Each island quotes servers hourly.',
-    lede:
-      'An hourly line, not a hidden fee. Each island writes the rate band.',
+    description: `Server add-ons by island at $${serverHr}/hr on the written quote, plus 20% service and GET. The full guide is the statewide waiters page, then your island.`,
+    lede: `Servers are an hourly line on the written quote: $${serverHr}/hr, minimum ${minHours} hours, with 20% service and Hawaiʻi GET up to 4.712% on their own lines. A sous chef is a separate $${sousHr}/hr line. The full guide for a villa dinner, a week, or a party is [waiters](/in-villa-services/waiters). Use this page only to pick the island. Oʻahu and Maui quotes are open. Kauaʻi and the Big Island are request availability.`,
     kicker: 'Statewide · Servers',
     photo: 'hubStaffServers',
     cardLabel: 'Servers',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      `Open [Oʻahu servers](oahu:/staffing/servers), [Maui servers](maui:/staffing/servers), [Kauaʻi servers](kauai:/staffing/servers), or [Big Island servers](bigisland:/staffing/servers) after the statewide guide. The hour is the same figure. The booking posture is not. A 50% deposit follows a written yes. Gratuity is never required. Desk: ${desk}.`,
     ],
     faqs: [
+      {
+        q: 'Which page do I open for a Honolulu or Kahala server?',
+        a: `[Oʻahu servers](oahu:/staffing/servers). The line is $${serverHr}/hr with a ${minHours}-hour minimum, plus 20% service and GET up to 4.712%. Quotes are open. The how-to is [waiters](/in-villa-services/waiters), not this chooser.`,
+      },
+      {
+        q: 'Where do Maui lanai server hours get written?',
+        a: `On [Maui servers](maui:/staffing/servers), as $${serverHr}/hr, separate from the food and from the $${sousHr}/hr sous chef. 20% service and GET up to 4.712% follow. Wailea and West Maui quotes are open.`,
+      },
+      {
+        q: 'How do I request a Kauaʻi server while the shore is still an inquiry?',
+        a: `Join the inquiry list on [Kauaʻi servers](kauai:/staffing/servers). Request availability and name the shore. $${serverHr}/hr plus 20% service and GET up to 4.712% is the line when a crew exists. It is not a confirmation.`,
+      },
+      {
+        q: 'Does the Big Island server line cover Hilo?',
+        a: `No. [Big Island servers](bigisland:/staffing/servers) are Kona to Kohala, by request for availability, at $${serverHr}/hr plus 20% service and GET up to 4.712%. Hilo is a different day. Do not add it to a west-side server ask.`,
+      },
     ],
   },
   staffBartenders: {
@@ -389,15 +410,31 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'Bartender hourly lines, by island.',
     title: 'Bartender hourly lines, by island | myCHEF Hawaii',
     description:
-      'Each island quotes bartenders hourly.',
-    lede: 'Bartender hourly lines across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+      'Bartender add-ons by island are quoted in writing. No hourly rate is published. The full guide is the statewide bartenders page, then your island.',
+    lede: `Bartenders are quoted in writing. No hourly bartender rate is published on the card or on this page. The full guide — a villa bar, glassware, and how a night is scoped — is [bartenders](/in-villa-services/bartenders). This page only routes you to an island. Oʻahu and Maui take a written quote. Kauaʻi and the Big Island are request availability, not a confirmed pour.`,
     kicker: 'Statewide · Bartenders',
     photo: 'hubStaffBartenders',
     cardLabel: 'Bartenders',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      `Open [Oʻahu bartenders](oahu:/staffing/bartenders), [Maui bartenders](maui:/staffing/bartenders), [Kauaʻi bartenders](kauai:/staffing/bartenders), or [Big Island bartenders](bigisland:/staffing/bartenders). A 50% deposit applies only after you accept the written total. 20% service and Hawaiʻi GET up to 4.712% are their own lines on that total. Gratuity is never required. Desk: ${desk}.`,
     ],
     faqs: [
+      {
+        q: 'Which island do I open if the bar is in Wailea or West Maui?',
+        a: `[Maui bartenders](maui:/staffing/bartenders). The line is quoted in writing. No hourly rate is published. Quotes are open. Scope and setup live on [bartenders](/in-villa-services/bartenders), not on this chooser.`,
+      },
+      {
+        q: 'Why is there no bartender hour on the Oʻahu card?',
+        a: `Because none is published. [Oʻahu bartenders](oahu:/staffing/bartenders) are a written quote. The only published staffing hours are the server at $${serverHr}/hr and the sous chef at $${sousHr}/hr, plus 20% service and GET up to 4.712%.`,
+      },
+      {
+        q: 'How do I request a Kauaʻi bartender without treating inquiry as a confirmation?',
+        a: `Request availability on [Kauaʻi bartenders](kauai:/staffing/bartenders) and name the shore. A reply is not a held pour. Hanalei-bridge weather can move a North Shore night. The amount is quoted in writing.`,
+      },
+      {
+        q: 'Does a Big Island bartender request include Hilo?',
+        a: `No. [Big Island bartenders](bigisland:/staffing/bartenders) are Kona to Kohala, quoted in writing, and only by request for availability. Hilo is not implied. Send it as its own east-side day if that is the house.`,
+      },
     ],
   },
   staffButlers: {
