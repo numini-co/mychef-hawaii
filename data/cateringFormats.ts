@@ -216,7 +216,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
       ],
       related: [
-        { path: '/catering', label: 'Staffed catering' },
+        { path: '/catering', label: 'Maui catering' },
         { path: '/south-maui', label: 'South Maui' },
         { path: '/west-maui', label: 'West Maui' },
       ],
@@ -244,8 +244,8 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
       ],
       related: [
+        { path: '/catering', label: 'Maui catering' },
         { path: '/rehearsal-dinners', label: 'Rehearsal dinners' },
-        { path: '/wailea', label: 'Wailea' },
         { path: '/catering/family-style', label: 'Family-style' },
       ],
     },
@@ -255,22 +255,33 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Family-style service in Maui villas — platters on the lanai.',
       title: 'Family-style service in Maui villas | myCHEF',
       description:
-        'Shared platters in Wailea, Kapalua and Kīhei. Usual villa night for about 10–20.',
+        'Shared platters in Wailea, Kapalua and Kīhei. Usual villa night for about 10–20 under Maui catering.',
       lede:
-        'Platters down the table. Welcome dinners often run this way.',
+        'Platters down the table on a Wailea or West Maui lānai. Welcome dinners and reunion nights often run this way under staffed Maui catering.',
       photo: 'fmtFamilyMaui',
       body: [
+        'Family-style on Maui is a seated format: whole fish, salads and sides travel down the table, and guests serve themselves. It sits between a plated restaurant arc and a buffet station line. Most Wailea and Kīhei lists of about 10–20 prefer it for welcome nights because conversation stays at the table and service can stay lighter than a full plated pass.',
+        'West Maui houses in Kāʻanapali and Kapalua use the same format when the deck table holds the guest list. Saturday Honoapiʻilani traffic is planned into crew arrival, not into a silent fee. Wind and spray on an open ocean deck get a written indoor or covered backup — the same clause we use for other Maui catering formats.',
+        'This page is the format note. Headcount, staffing hours and the food band live on the island [Maui catering](/catering) page, with published starting prices from $225 a guest for staffed villa events of about 10–75. For eight or fewer, open [private chef Maui](/) instead of a catering format.',
       ],
       faqs: [
         {
           q: 'Same as grazing?',
-          a: 'This is seated platters in a Wailea villa.',
+          a: 'No. Grazing is boards and passed pūpū while people still stand. Family-style is seated platters on a Wailea or Kapalua table.',
+        },
+        {
+          q: 'How many guests suit family-style on Maui?',
+          a: 'About 10–20 at one long table is the usual sweet spot. Larger lawn lists often move to buffet. Under about eight, book a villa dinner on [private chef Maui](/).',
+        },
+        {
+          q: 'Does family-style cost less than plated Maui catering?',
+          a: 'The food band is still the Maui signature card from $225 a guest. Staffing is usually lighter than a full plated pass. Exact hours print on the written quote from [Maui catering](/catering).',
         },
       ],
       related: [
+        { path: '/catering', label: 'Maui catering' },
         { path: '/events/welcome-dinners', label: 'Welcome dinners' },
         { path: '/catering/grazing', label: 'Grazing' },
-        { path: '/south-maui', label: 'South Maui' },
       ],
     },
     {
@@ -296,9 +307,9 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
       ],
       related: [
+        { path: '/catering', label: 'Maui catering' },
         { path: '/guest-counts', label: 'Guest counts' },
         { path: '/retreat-catering', label: 'Retreat kitchens' },
-        { path: '/south-maui', label: 'South Maui' },
       ],
     },
     {
@@ -325,9 +336,9 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
       ],
       related: [
+        { path: '/catering', label: 'Maui catering' },
         { path: '/events/welcome-dinners', label: 'Welcome dinners' },
         { path: '/bar', label: 'Bar add-on' },
-        { path: '/west-maui', label: 'West Maui' },
       ],
     },
     {
@@ -354,7 +365,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
       ],
       related: [
-        { path: '/catering', label: 'Staffed catering' },
+        { path: '/catering', label: 'Maui catering' },
         { path: '/what-we-dont-do', label: 'What we will not claim' },
         { path: '/vacation-chef', label: 'Vacation chef' },
       ],

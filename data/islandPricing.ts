@@ -74,7 +74,7 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
     h1: 'Maui private chef cost — Wailea and West Maui, $225–$375 a guest.',
     title: 'Maui Private Chef Cost | Wailea & West Maui Rates | myCHEF',
     description:
-      'What a private chef costs on Maui: $225–$375 a guest with groceries inside, Stay Chef from $1,550 a day. 20% service and GET print as their own lines.',
+      'Private chef Maui cost: $225–$375 a guest with groceries inside the band, Stay Chef from $1,550 a day. 20% service and GET print as their own lines.',
     lede:
       'USD. Line by line. Signature dinners $225–$375 a guest. Stay Chef from $1,550 a day. Saturday West Maui traffic is planned into arrival, not hidden in the band.',
     kicker: 'Maui · Rate card',
@@ -84,6 +84,10 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
       'After the band: 20% service, GET up to 4.712%, 50% deposit.',
     ],
     faqs: [
+      {
+        q: 'Private chef Maui cost — what is the published band?',
+        a: 'Signature villa dinners are $225–$375 a guest with groceries inside that band. Stay Chef weeks start from $1,550 a day with groceries at cost and receipts. Then 20% service and Hawaiʻi GET up to 4.712% print once. Request a written quote on [the quote form](/quote); the island overview is [private chef Maui](/).',
+      },
       {
         q: 'Are groceries included?',
         a: 'Two models, never blended. On a Signature or per-guest dinner ($225–$375 a guest on Maui), food and grocery procurement sit inside the published band — no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking (from $1,550 a day), it is the chef fee plus groceries at cost, with original merchant receipts and zero markup.',

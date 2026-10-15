@@ -273,8 +273,8 @@ const kauaiSections: CopySection[] = [
 
 const kauaiFaqs: CopyFaq[] = [
   {
-    q: 'Is Kauai private chef the same as Kauai catering?',
-    a: 'No. [Private chef Kauai](/) is a villa dinner for a small list — usually under about twelve — cooked in your kitchen on either shore. Kauai catering on this page is a staffed estate event for about 10–75 guests. Same island, different product; open the home page for private chef Kauai.',
+    q: 'Is a villa dinner the same as Kauai catering?',
+    a: 'No. A small villa dinner for under about twelve is [Private chef Kauai](/) — cooked in your kitchen on either shore. Kauai catering on this page is a staffed estate event for about 10–75 guests. Same island, different product; open the home page for the villa-dinner line.',
   },
   {
     q: 'How much does catering cost on Kauai?',
