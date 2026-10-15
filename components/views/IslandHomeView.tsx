@@ -17,7 +17,7 @@ import { photos } from '@/data/photos';
 import { stillForPath } from '@/lib/documentStill';
 import { islandHref } from '@/lib/paths';
 import { canonicalUrl } from '@/lib/site';
-import { DESK_EMAIL, DESK_MAILTO, DESK_PHONE_DISPLAY, DESK_PHONE_E164, DESK_TEL } from '@/lib/contact';
+import { DESK_EMAIL, DESK_MAILTO, DESK_PHONE_DISPLAY, DESK_PHONE_E164, DESK_TEL, postalAddressJsonLd } from '@/lib/contact';
 import { LocationsBlock } from '@/components/LocationsBlock';
 import PlacePriceBlock from '@/components/PlacePriceBlock';
 import { cateringAnchor, costAnchor, PRIVATE_CHEF_PAGE_ANCHOR } from '@/lib/ownerAnchors';
@@ -47,6 +47,7 @@ export default function IslandHomeView({
             url: canonicalUrl(islandId, '/'),
             telephone: DESK_PHONE_E164,
             email: DESK_EMAIL,
+            address: postalAddressJsonLd(islandId),
             areaServed: island.name,
             serviceType: 'Private chef',
             contactPoint: {

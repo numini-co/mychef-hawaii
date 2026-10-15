@@ -45,7 +45,7 @@ export const hubHomeSections: CopySection[] = [
     h2: 'What we will not claim',
     paras: [
       'We do not yet have Hawaiʻi guest reviews. We will not invent them, buy them, or write them in-house. Reviews publish after verified events. Until then the proof is published prices, sample menus, cleanup, and a written quote.',
-      'We do not invent Hawaiʻi reviews, chef names, or a street office. Contact is the quote form, WhatsApp (https://wa.me/18084687748), quotes@mychef-hawaii.com, and (808) 468-7748. Typical reply in Hawaii business hours.',
+      'We do not invent Hawaiʻi reviews, or chef names. Contact is the quote form, WhatsApp (https://wa.me/18084687748), quotes@mychef-hawaii.com, and (808) 468-7748. Typical reply in Hawaii business hours.',
     ],
   },
 ];
@@ -185,7 +185,7 @@ export const hubWeddingsSections: CopySection[] = [
     h2: 'Planners, houses, and what we will not invent',
     paras: [
       'We slot into a planner’s timeline. COIs, load-in windows, and quiet hours are arranged with the property before the first welcome pour. We do not claim venue exclusivity we do not have. If the estate cannot hold the list, we decline the headcount before we design a cake-cutting window.',
-      'Hawaii is launching. We do not invent wedding reviews, chef names, or a street office. Call (808) 468-7748 or send the quote form. Proof is published prices, a sample estate menu, cleanup, and a written week. Reviews publish after verified events. Oʻahu and Maui request a quote. Kauaʻi and Hawaiʻi Island join the inquiry list.',
+      'Hawaii is launching. We do not invent wedding reviews, or chef names. Call (808) 468-7748 or send the quote form. Proof is published prices, a sample estate menu, cleanup, and a written week. Reviews publish after verified events. Oʻahu and Maui request a quote. Kauaʻi and Hawaiʻi Island join the inquiry list.',
     ],
   },
 ];
@@ -265,7 +265,7 @@ export const quoteTrustSections: CopySection[] = [
       'Island, dates, headcount, and service are enough to start. Property type helps: villa, condo, hotel residence, or no kitchen. Allergies and a bartender belong in the first reply thread, not as a surprise at the pass. 50% locks the date once you accept the written total.',
       'Name the island that matches the house. Honolulu is part of Oʻahu, not a separate company. Kona is a Hawaiʻi Island corridor. Name the house on the quote form so we price the drive.',
       'Oʻahu signature dinners are $195–$290 a guest. Maui signature dinners are $225–$375. Those bands hold menu, shopping, cooking, service, and cleanup. Staffing for a ten-to-seventy-five room is hourly on top. The confirmed number is the written quote — never a chat estimate.',
-      'If dates are flexible, say so. Peak months move first on every island. One crew holds one heavy week. We will not invent a second brigade to look available. WhatsApp, (808) 468-7748, and this form are the same Hawaii desk — typical reply in Hawaii business hours. No street office. A 50% deposit is the only money that locks a date — after you accept the written total, never before. 20% service and Hawaiʻi GET up to 4.712% sit on their own written-quote lines. Oʻahu signature dinners are $195–$290 a guest. Maui signature dinners are $225–$375. Those numbers do not change because the form is short.',
+      'If dates are flexible, say so. Peak months move first on every island. One crew holds one heavy week. We will not invent a second brigade to look available. WhatsApp, (808) 468-7748, and this form are the same Hawaii desk — typical reply in Hawaii business hours. A 50% deposit is the only money that locks a date — after you accept the written total, never before. 20% service and Hawaiʻi GET up to 4.712% sit on their own written-quote lines. Oʻahu signature dinners are $195–$290 a guest. Maui signature dinners are $225–$375. Those numbers do not change because the form is short.',
     ],
   },
 ];

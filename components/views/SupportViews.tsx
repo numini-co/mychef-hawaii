@@ -36,7 +36,7 @@ import { islandBlog } from '@/data/islandBlog';
 import { islandLocations } from '@/data/islandLocations';
 import { islandAreas } from '@/data/islandAreas';
 import { islandContact } from '@/data/islandContact';
-import { DESK_EMAIL, DESK_MAILTO, DESK_PHONE_DISPLAY, DESK_PHONE_E164, DESK_TEL } from '@/lib/contact';
+import { DESK_EMAIL, DESK_MAILTO, DESK_PHONE_DISPLAY, DESK_PHONE_E164, DESK_TEL, postalAddressJsonLd, islandDepartmentsJsonLd } from '@/lib/contact';
 import { canonicalUrl } from '@/lib/site';
 import { cateringAnchor, costAnchor, homeAnchor, ISLAND_PLAIN, PRIVATE_CHEF_PAGE_ANCHOR } from '@/lib/ownerAnchors';
 import { islandTrust } from '@/data/islandTrust';
@@ -661,6 +661,7 @@ export function HubDirectoryView({ id, related }: { id: string; related?: ReactN
             url: 'https://mychef-hawaii.com/contact',
             telephone: DESK_PHONE_E164,
             email: DESK_EMAIL,
+            department: islandDepartmentsJsonLd(),
             areaServed: [
               { '@type': 'AdministrativeArea', name: 'Oʻahu' },
               { '@type': 'AdministrativeArea', name: 'Maui' },
@@ -1070,6 +1071,7 @@ export function ContactIndexView({ islandId }: { islandId: (typeof islandOrder)[
             url: canonicalUrl(islandId, '/contact'),
             telephone: DESK_PHONE_E164,
             email: DESK_EMAIL,
+            address: postalAddressJsonLd(islandId),
             areaServed: { '@type': 'AdministrativeArea', name: island.name },
             serviceType: 'Private chef',
             contactPoint: {

@@ -3,7 +3,7 @@ import { DESK_EMAIL, DESK_MAILTO, DESK_PHONE_DISPLAY, DESK_TEL, DESK_WHATSAPP } 
 
 /**
  * Visible Hawaii desk doors: tel + mailto + wa.me.
- * Matches schema E.164. No street office.
+ * Matches schema E.164. Island address shown in the footer.
  */
 export default function DeskChannels({
   variant = 'secondary',
