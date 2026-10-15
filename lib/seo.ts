@@ -49,7 +49,7 @@ import { photos } from '@/data/photos';
 import { stillForPath } from '@/lib/documentStill';
 import { formatBand, getDayRate, getMobileBar, getOtherOffer, getTiers } from '@/data/rateCard';
 import { SERVICE_AREAS } from '@/data/serviceAreas';
-import { DESK_EMAIL, DESK_PHONE_E164 } from '@/lib/contact';
+import { DESK_EMAIL, DESK_PHONE_E164, postalAddressJsonLd, islandDepartmentsJsonLd } from '@/lib/contact';
 import { parseHubQuoteSearch } from '@/data/hubQuote';
 import { fitDescription, fitTitle } from '@/lib/metaFit';
 
@@ -227,7 +227,7 @@ function publishedPriceRange(islandId: IslandId | null): string {
   return `$${oahu?.band[0] ?? 195}–$${maui?.band[1] ?? 375}`;
 }
 
-/** LocalBusiness — service-area kitchen. Published Hawaii telephone + email. No streetAddress. No AggregateRating. */
+/** LocalBusiness — service-area kitchen. Published Hawaii telephone + email. Island PostalAddress (hub lists islands as departments). No AggregateRating. */
 export function localBusinessJsonLd(islandId: IslandId | null, origin: string, image?: string) {
   const areaName = islandId ? islands[islandId].name : 'US-HI';
   const islandAreas = (islandId ? [islandId] : islandOrder).map((id) => ({
@@ -245,6 +245,7 @@ export function localBusinessJsonLd(islandId: IslandId | null, origin: string, i
     telephone: DESK_PHONE_E164,
     email: DESK_EMAIL,
     priceRange: publishedPriceRange(islandId),
+    ...(islandId ? { address: postalAddressJsonLd(islandId) } : { department: islandDepartmentsJsonLd() }),
     areaServed: [...islandAreas, ...areaPlaces(islandId)],
     contactPoint: {
       '@type': 'ContactPoint',

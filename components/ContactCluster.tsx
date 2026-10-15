@@ -2,10 +2,11 @@ import { CtaLink, EnquireCta, WhatsAppCta } from '@/components/Cta';
 import { DESK_EMAIL, DESK_MAILTO, DESK_PHONE_DISPLAY, DESK_TEL } from '@/lib/contact';
 import { WHATSAPP_DISPLAY, whatsappHref } from '@/lib/whatsapp';
 import type { IslandId } from '@/data/islands';
+import IslandAddress from '@/components/IslandAddress';
 
 /**
  * Hawaii-facing contact order: Get a quote → WhatsApp → phone → desk email.
- * Same E.164 as schema. No street office.
+ * Same E.164 as schema. Island address(es) shown with the desk.
  */
 export default function ContactCluster({
   island,
@@ -18,6 +19,7 @@ export default function ContactCluster({
 
   if (compact) {
     return (
+      <>
       <p className="text-sm leading-relaxed text-on-ink">
         <a className="underline underline-offset-4" href={quoteHref}>
           Get a quote
@@ -46,6 +48,8 @@ export default function ContactCluster({
           WhatsApp {WHATSAPP_DISPLAY}
         </a>
       </p>
+      <IslandAddress island={island} tone="ink" />
+      </>
     );
   }
 
@@ -63,8 +67,9 @@ export default function ContactCluster({
           <a className="text-ink underline underline-offset-4" href={DESK_MAILTO}>
             {DESK_EMAIL}
           </a>
-          . Hawaii Standard Time. No street office and no walk-in.
+          . Hawaii Standard Time. Bookings are by quote, not walk-in.
         </p>
+        <IslandAddress island={island} tone="paper" />
         <div className="flex flex-wrap items-center gap-3">
           <EnquireCta island={island} />
           <WhatsAppCta island={island}>Message us on WhatsApp</WhatsAppCta>

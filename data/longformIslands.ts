@@ -248,7 +248,7 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
         h2: 'How a Kauaʻi week is crewed',
         paras: [
           'One culinary conversation for the stay. You do not hire four vendors and hope they share a pass. Dinner, a staffed buffet or plated room, a welcome night, a recovery brunch — separate lines on one quote so you can cut a brunch without renegotiating a mystery package. On Kauaʻi, service staff is $80 hourly and a sous is $105, each with a four-hour floor, printed as its own row.',
-          'We do not publish cook names, an island street office, or a founding story. Contact is on the quote form, WhatsApp (https://wa.me/18084687748), quotes@mychef-hawaii.com, and (808) 468-7748. Send your dates for a written reply. A Hawaii-hours desk answers on working days — usually within one business day. Reviews on this island publish after verified events; we will not invent them to look established. Proof today is the published band, a sample estate menu, cleanup, and the written total.',
+          'We do not publish cook names or a founding story. Contact is on the quote form, WhatsApp (https://wa.me/18084687748), quotes@mychef-hawaii.com, and (808) 468-7748. Send your dates for a written reply. A Hawaii-hours desk answers on working days — usually within one business day. Reviews on this island publish after verified events; we will not invent them to look established. Proof today is the published band, a sample estate menu, cleanup, and the written total.',
         ],
       },
     ],
@@ -330,7 +330,7 @@ export const islandHomeLongform: Record<IslandId, { sections: CopySection[]; faq
         h2: 'West-side prices, published',
         paras: [
           'Dinners from $165 a guest are the starting point. Signature dinners at $210–$325 are the usual villa night. They never blend. Larger custom menus are quoted in writing. Stay Chef from $1,450. Travel outside the Kona–Kohala corridor starts from a published $75 zone line; east side is never that line — east side is its own quote. Groceries are inside a signature dinner and at cost on multi-day days. Wine is yours to bring or a bartender line we write separately.',
-          'West-side staffed rooms price servers at $80 hourly and a sous at $105, each with a four-hour floor, never folded into the catch. A tip is optional and said so on the quote. There is no street office, no founding year, and no invented guest review on this island. The published line is (808) 468-7748. Send your dates for a written reply. Proof is the band, a sample Kona–Kohala menu, cleanup, and the written total on the pricing page and the quote form.',
+          'West-side staffed rooms price servers at $80 hourly and a sous at $105, each with a four-hour floor, never folded into the catch. A tip is optional and said so on the quote. There is no founding year and no invented guest review on this island. The published line is (808) 468-7748. Send your dates for a written reply. Proof is the band, a sample Kona–Kohala menu, cleanup, and the written total on the pricing page and the quote form.',
         ],
       },
       {
