@@ -5,6 +5,7 @@ import { stripInlineLinks } from '@/lib/inlineLinks';
 import Link from 'next/link';
 import type { ReactNode } from 'react';
 import { islandSearchName, type IslandId } from '@/data/islands';
+import { PRIVATE_CHEF_PAGE_ANCHOR } from '@/lib/ownerAnchors';
 
 export interface CopySection {
   h2: string;
@@ -141,7 +142,7 @@ export function SiblingCluster({
   const rows = island
     ? [
         { key: 'home' as const, to: prefix('/'), label: `Private chef ${islandSearchName[island]}` },
-        { key: 'chef' as const, to: prefix('/private-chef'), label: 'What’s included' },
+        { key: 'chef' as const, to: prefix('/private-chef'), label: PRIVATE_CHEF_PAGE_ANCHOR[island] },
         { key: 'catering' as const, to: prefix('/catering'), label: `${islandSearchName[island]} catering` },
         { key: 'weddings' as const, to: prefix('/weddings'), label: `Wedding catering ${islandSearchName[island]}` },
         { key: 'pricing' as const, to: prefix('/pricing'), label: 'Pricing' },

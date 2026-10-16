@@ -945,7 +945,7 @@ if (/spin Kona out as its own path/.test(longIslandSrc)) {
   errors.push('Hawaiʻi Island FAQ still claims Kona is not its own path');
 }
 if (/h2: 'Private chef Kona'/.test(longIslandSrc)) {
-  errors.push('Hawaiʻi Island home H2 still steals private chef kona from /kona');
+  errors.push('Hawaiʻi Island home H2 still steals private chef kona from /private-chef');
 }
 if (/h2: 'Private chef Honolulu'/.test(longIslandSrc)) {
   errors.push('Oahu home H2 still steals private chef honolulu from /honolulu');
@@ -1252,8 +1252,12 @@ if (!cateringTitleBlob.includes('kauai catering')) errors.push('Kauai /catering 
 if (!cateringTitleBlob.includes('big island catering')) {
   errors.push('Hawaiʻi Island /catering title no longer owns big island catering');
 }
-if (!hoodTitleBlob.includes('private chef honolulu')) {
-  errors.push('/honolulu title no longer owns private chef honolulu');
+// Keyword lock (Oct 2026): city/synonym modifiers ride on island /private-chef, not on /honolulu, /kona or /personal-chef.
+if (!pageMetaKeyTitle(pageMetaSrc, '/oahu/private-chef').toLowerCase().includes('private chef honolulu')) {
+  errors.push('Oahu /private-chef title no longer owns private chef honolulu');
+}
+if (/private chef honolulu/.test(neighborhoodTitle(sliceExport(offersSrc, 'moneyNeighborhoods', 'export function getMoneyNeighborhood'), 'oahu', 'honolulu').toLowerCase())) {
+  errors.push('/honolulu title still competes with /private-chef for private chef honolulu');
 }
 if (!hoodTitleBlob.includes('private chef lahaina maui')) {
   errors.push('/lahaina title no longer owns private chef lahaina maui');
@@ -1278,7 +1282,12 @@ if (!hoodTitleBlob.includes('private chef kihei maui')) {
     if (desc.length > 155) errors.push(`/${slug} description is ${desc.length} chars (max 155)`);
   }
 }
-if (!hoodTitleBlob.includes('private chef kona')) errors.push('/kona title no longer owns private chef kona');
+if (!pageMetaKeyTitle(pageMetaSrc, '/bigisland/private-chef').toLowerCase().includes('private chef kona')) {
+  errors.push('Hawaiʻi Island /private-chef title no longer owns private chef kona');
+}
+if (/private chef kona/.test(neighborhoodTitle(sliceExport(offersSrc, 'moneyNeighborhoods', 'export function getMoneyNeighborhood'), 'bigisland', 'kona').toLowerCase())) {
+  errors.push('/kona title still competes with /private-chef for private chef kona');
+}
 if (!hoodTitleBlob.includes('private chef poipu kauai')) {
   errors.push('/poipu title no longer owns private chef poipu kauai');
 }
@@ -1288,8 +1297,13 @@ if (!hoodTitleBlob.includes('private chef north shore oahu')) {
 if (!/personal chef honolulu/.test(residentSrc)) {
   errors.push('Oahu /personal-chef title no longer owns personal chef honolulu');
 }
-if (!/personal chef maui/.test(residentSrc)) {
-  errors.push('Maui /personal-chef title no longer owns personal chef maui');
+if (!pageMetaKeyTitle(pageMetaSrc, '/maui/private-chef').toLowerCase().includes('personal chef maui')) {
+  errors.push('Maui /private-chef title no longer owns personal chef maui');
+}
+for (const island of ['maui', 'kauai']) {
+  if (/personal chef/.test(islandRecordTitle(read('data/residentLine.ts'), island).toLowerCase())) {
+    errors.push(`${island} /personal-chef title still competes with /private-chef for personal chef ${island}`);
+  }
 }
 if (!/wedding catering oahu/.test(pageMetaSrc.toLowerCase())) {
   errors.push('Oahu /weddings title no longer owns wedding catering oahu');
@@ -1340,6 +1354,8 @@ for (const [, host, path, keyword] of keywordRows) {
     title = pageMetaKeyTitle(pageMetaSrc, `/${host}${path}`);
   } else if (path === '/personal-chef') {
     title = islandRecordTitle(residentLineSrc, host);
+  } else if (path === '/private-chef') {
+    title = pageMetaKeyTitle(pageMetaSrc, `/${host}${path}`);
   } else {
     title = neighborhoodTitle(hoodTitleBlock, host, path.slice(1));
   }

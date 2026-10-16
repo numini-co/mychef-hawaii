@@ -59,13 +59,13 @@ export const islandServiceIndex: Record<IslandId, IslandServiceIndexPage> = {
     kicker: 'Oʻahu · Services',
     photo: 'svcIndexOahu',
     body: [
-      `One villa dinner in Honolulu, Kahala, or Ko Olina is [what’s included](/private-chef): ${oahuBand} a guest, groceries inside that band. A visitor week, with a chef on the days the house cooks, is [Stay Chef](/vacation-chef) from ${oahuStay} a day, groceries at cost with receipts. A home you live in is the [household chef](/personal-chef), not that visitor week. A seated party of about ten to seventy-five is [staffed catering](/catering). A pour beside the dinner is the [bar add-on](/bar), quoted in writing, with no bartender hour on the card.`,
+      `One villa dinner in Honolulu, Kahala, or Ko Olina is [private chef Honolulu](/private-chef): ${oahuBand} a guest, groceries inside that band. A visitor week, with a chef on the days the house cooks, is [Stay Chef](/vacation-chef) from ${oahuStay} a day, groceries at cost with receipts. A home you live in is the [household chef](/personal-chef), not that visitor week. A seated party of about ten to seventy-five is [staffed catering](/catering). A pour beside the dinner is the [bar add-on](/bar), quoted in writing, with no bartender hour on the card.`,
       `20% service and Hawaiʻi GET up to 4.712% are their own lines on every one of these. A 50% deposit follows the written total. Gratuity is never required. The list under this note is every live service URL on this island. If you are unsure, name dinner, week, household, catering, or bar on [the quote form](/quote). Desk: ${desk}.`,
     ],
     faqs: [
       {
         q: 'We want one dinner in Honolulu. Which Oʻahu service is that?',
-        a: `The villa dinner on [what’s included](/private-chef). That is one night, not a week and not a lawn party. Kahala and Ko Olina use the same door. Quotes are open.`,
+        a: `The villa dinner on [private chef Honolulu](/private-chef). That is one night, not a week and not a lawn party. Kahala and Ko Olina use the same door. Quotes are open.`,
       },
       {
         q: 'The house is ours all year. Is that a villa week or the household line?',
@@ -106,13 +106,13 @@ export const islandServiceIndex: Record<IslandId, IslandServiceIndexPage> = {
     kicker: 'Maui · Services',
     photo: 'svcIndexMaui',
     body: [
-      `A single arrival dinner in Wailea, or on a West Maui lanai, is [what’s included](/private-chef): ${mauiBand} a guest, shop inside the band. Cooking on the days you are in the house is a Villa Week, [Stay Chef](/vacation-chef) from ${mauiStay} a day, groceries at cost with receipts. If you live on Maui, the [household chef](/personal-chef) is a different door from that visitor week. A lawn of about ten to seventy-five is [staffed catering](/catering), not a stretched dinner. Cocktails before the meal are the [bar add-on](/bar), quoted in writing. No bartender hour is published.`,
+      `A single arrival dinner in Wailea, or on a West Maui lanai, is [personal chef Maui](/private-chef): ${mauiBand} a guest, shop inside the band. Cooking on the days you are in the house is a Villa Week, [Stay Chef](/vacation-chef) from ${mauiStay} a day, groceries at cost with receipts. If you live on Maui, the [household chef](/personal-chef) is a different door from that visitor week. A lawn of about ten to seventy-five is [staffed catering](/catering), not a stretched dinner. Cocktails before the meal are the [bar add-on](/bar), quoted in writing. No bartender hour is published.`,
       `20% service and GET up to 4.712% follow each of these as separate lines. Half is due as a deposit after you accept. A tip is never required. Every name in the list below is a live URL. Saturday traffic changes the call time, not which service you picked. Say the shore on [the quote form](/quote). Desk: ${desk}.`,
     ],
     faqs: [
       {
         q: 'One arrival dinner in Wailea — which Maui service do I open?',
-        a: `The villa dinner, [what’s included](/private-chef). One table, one night. A week of cooking is a different page. Quotes are open for Wailea and for West Maui.`,
+        a: `The villa dinner, [personal chef Maui](/private-chef). One table, one night. A week of cooking is a different page. Quotes are open for Wailea and for West Maui.`,
       },
       {
         q: 'A seven-day Kapalua stay with a chef on the days we cook. Is that catering?',
@@ -153,13 +153,13 @@ export const islandServiceIndex: Record<IslandId, IslandServiceIndexPage> = {
     kicker: 'Kauaʻi · Services',
     photo: 'svcIndexKauai',
     body: [
-      `A single dinner on either shore is [what’s included](/private-chef): ${kauaiBand} a guest, groceries inside the band. A retreat with a cook on the days you are in the house is [Stay Chef](/vacation-chef) from ${kauaiStay} a day, groceries at cost with receipts. If you live on Kauaʻi, household cooking is the [personal chef](/personal-chef) line, not that guest week. A lawn or great room of about ten to seventy-five is [staffed catering](/catering). A bar with the supper is the [bar add-on](/bar), quoted in writing, with no bartender hour published.`,
+      `A single dinner on either shore is [personal chef Kauai](/private-chef): ${kauaiBand} a guest, groceries inside the band. A retreat with a cook on the days you are in the house is [Stay Chef](/vacation-chef) from ${kauaiStay} a day, groceries at cost with receipts. If you live on Kauaʻi, household cooking is the [household chef](/personal-chef) line, not that guest week. A lawn or great room of about ten to seventy-five is [staffed catering](/catering). A bar with the supper is the [bar add-on](/bar), quoted in writing, with no bartender hour published.`,
       `20% service and Hawaiʻi GET up to 4.712% are separate lines after whichever service you pick. A 50% deposit waits for a written yes. Gratuity is never required. Hanalei-bridge weather can move a North Shore date. It does not switch you to another service. The names below are live URLs at inquiry. Join the inquiry list on [the quote form](/quote) and request availability. Desk: ${desk}.`,
     ],
     faqs: [
       {
         q: 'A single Princeville dinner versus a week on the island — which inquiry do I start?',
-        a: `One night starts on [what’s included](/private-chef). A retreat week starts on [Stay Chef](/vacation-chef). Both are requests for availability. Name the shore or the reply cannot tell them apart.`,
+        a: `One night starts on [personal chef Kauai](/private-chef). A retreat week starts on [Stay Chef](/vacation-chef). Both are requests for availability. Name the shore or the reply cannot tell them apart.`,
       },
       {
         q: 'We live on Kauaʻi. Is household cooking the same request as a guest retreat?',
@@ -200,13 +200,13 @@ export const islandServiceIndex: Record<IslandId, IslandServiceIndexPage> = {
     kicker: 'Hawaiʻi Island · Services',
     photo: 'svcIndexBigisland',
     body: [
-      `A Kona or Kohala villa dinner is [what’s included](/private-chef): ${biBand} a guest, or from ${biSimple} on the simpler table, groceries inside either band. Several days of cooking on that west-side stay is [Stay Chef](/vacation-chef) from ${biStay} a day, groceries at cost with receipts. If you live in Kona or Waikoloa, the [household chef](/personal-chef) is not that guest expedition. A lawn of about ten to seventy-five is [staffed catering](/catering). A bar with the dinner is the [bar add-on](/bar), quoted in writing. No bartender hour is published. Hilo is not any of these doors.`,
+      `A Kona or Kohala villa dinner is [private chef Kona](/private-chef): ${biBand} a guest, or from ${biSimple} on the simpler table, groceries inside either band. Several days of cooking on that west-side stay is [Stay Chef](/vacation-chef) from ${biStay} a day, groceries at cost with receipts. If you live in Kona or Waikoloa, the [household chef](/personal-chef) is not that guest expedition. A lawn of about ten to seventy-five is [staffed catering](/catering). A bar with the dinner is the [bar add-on](/bar), quoted in writing. No bartender hour is published. Hilo is not any of these doors.`,
       `20% service and Hawaiʻi GET up to 4.712% are their own lines. A 50% deposit applies only after a written yes. Gratuity is never required. Ironman weeks need the date named early. The list below is west-side URLs at inquiry. Join the inquiry list on [the quote form](/quote) and request availability. Desk: ${desk}.`,
     ],
     faqs: [
       {
         q: 'A Kona villa dinner for eight — which west-side service is the match?',
-        a: `The villa dinner on [what’s included](/private-chef). Eight at a Kona or Kohala table is not catering and not a week. Request availability. Do not add Hilo to the same note.`,
+        a: `The villa dinner on [private chef Kona](/private-chef). Eight at a Kona or Kohala table is not catering and not a week. Request availability. Do not add Hilo to the same note.`,
       },
       {
         q: 'Kohala for five days of cooking. Stay Chef, or a row of dinners?',

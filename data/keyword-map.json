@@ -104,8 +104,8 @@
       "url": "https://oahu.mychef-hawaii.com/waikiki"
     },
     {
-      "cluster": "private-chef-honolulu",
-      "primary": "private chef honolulu",
+      "cluster": "honolulu-residence-dinners",
+      "primary": "honolulu residence dinners",
       "host": "oahu",
       "path": "/honolulu",
       "url": "https://oahu.mychef-hawaii.com/honolulu"
@@ -265,11 +265,53 @@
       "url": "https://bigisland.mychef-hawaii.com/catering"
     },
     {
-      "cluster": "private-chef-kona",
-      "primary": "private chef kona",
+      "cluster": "kailua-kona-villa-dinners",
+      "primary": "kailua-kona villa dinners",
       "host": "bigisland",
       "path": "/kona",
       "url": "https://bigisland.mychef-hawaii.com/kona"
+    },
+    {
+      "cluster": "private-chef-honolulu",
+      "primary": "private chef honolulu",
+      "host": "oahu",
+      "path": "/private-chef",
+      "url": "https://oahu.mychef-hawaii.com/private-chef"
+    },
+    {
+      "cluster": "personal-chef-maui",
+      "primary": "personal chef maui",
+      "host": "maui",
+      "path": "/private-chef",
+      "url": "https://maui.mychef-hawaii.com/private-chef"
+    },
+    {
+      "cluster": "personal-chef-kauai",
+      "primary": "personal chef kauai",
+      "host": "kauai",
+      "path": "/private-chef",
+      "url": "https://kauai.mychef-hawaii.com/private-chef"
+    },
+    {
+      "cluster": "private-chef-kona",
+      "primary": "private chef kona",
+      "host": "bigisland",
+      "path": "/private-chef",
+      "url": "https://bigisland.mychef-hawaii.com/private-chef"
+    },
+    {
+      "cluster": "household-chef-maui",
+      "primary": "household chef maui",
+      "host": "maui",
+      "path": "/personal-chef",
+      "url": "https://maui.mychef-hawaii.com/personal-chef"
+    },
+    {
+      "cluster": "household-chef-kauai",
+      "primary": "household chef kauai",
+      "host": "kauai",
+      "path": "/personal-chef",
+      "url": "https://kauai.mychef-hawaii.com/personal-chef"
     }
   ]
 }

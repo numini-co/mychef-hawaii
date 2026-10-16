@@ -203,7 +203,9 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Grill, grass, identical plates. Saturday Honoapiʻilani traffic is planned into arrival. Not a hotel luau we do not run.',
       photo: 'fmtBbqMaui',
       body: [
-        'Drop-off is the Drop-off catering format — a different product.',
+        'A Maui BBQ is a staffed grill night on the lawn or lānai of the house: wood-grilled catch, a ranch or vegetable plate so the table is not one fish, coconut rice, island greens, and a crew that keeps the fire, plates and clears. It suits a reunion lawn in Kīhei, a Wailea pool deck, or a Kāʻanapali estate where people would rather stand near the grill than sit through courses.',
+        'Wind shapes the plan. The grill is set where the trade winds drop, pans stay lidded, and an indoor or covered table is written into the quote before a deposit. Saturday Honoapiʻilani traffic is built into crew arrival for West Maui houses, and Upcountry addresses carry their published travel line.',
+        'This page is the format note. Guest counts of about 10–75, the $225–$375 food band and the staffing lines live on the island [Maui catering](/catering) page. Trays left at the door are a different product — see Drop-off. For eight or fewer around one grill, a villa dinner on [private chef Maui](/) is usually the better fit.',
       ],
       faqs: [
         {
@@ -213,6 +215,14 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         {
           q: 'Rain?',
           a: 'Backup is written.',
+        },
+        {
+          q: 'What does a Maui BBQ cost?',
+          a: 'Food follows the Maui signature card, $225–$375 a guest, with servers at $80 an hour and a sous-chef at $105 on four- to five-hour minimums. 20% service and GET up to 4.712% are added once. The written total comes from [Maui catering](/catering).',
+        },
+        {
+          q: 'Can a Kīhei condo host a BBQ?',
+          a: 'Only if the building allows a grill and there is a real place to plate. Many Kīhei condos suit a buffet or family-style night better, and we will say so before you commit.',
         },
       ],
       related: [
@@ -232,6 +242,9 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'A restaurant arc, off-site, to the table. Rehearsal dinners often run this way. Staffing is a separate line.',
       photo: 'fmtPlatedMaui',
       body: [
+        'Plated Maui catering is a coursed, seated dinner served to each guest: a first course such as kanpachi crudo, a main of wood-grilled catch or a ranch plate, and a lilikoi or haupia close. It suits Wailea dining rooms, sheltered Kapalua terraces and rehearsal dinners where the toasts need the table to stay seated.',
+        'Plated needs more people on the floor than a buffet for the same guest list, so the staffing line grows while the food band stays the same. Servers are $80 an hour and a sous-chef $105, on four- to five-hour minimums. A Wailea condo with a galley kitchen can be the wrong room for twenty plated covers — we will suggest family-style or a buffet before you pay a deposit.',
+        'Guest counts, the $225–$375 food band and the written quote live on the island [Maui catering](/catering) page. A plated dinner for two to eight in the villa is booked as a private dinner on [private chef Maui](/), not as catering.',
       ],
       faqs: [
         {
@@ -240,7 +253,11 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
         {
           q: 'Two of us?',
-          a: 'Yes.',
+          a: 'Yes — but a dinner for two is a private chef night, not catering. Open [private chef Maui](/).',
+        },
+        {
+          q: 'How many guests can a plated Maui dinner seat?',
+          a: 'As many as the dining room or terrace and the kitchen can hold, within the usual 10–75 range for staffed events. The staffing plan is sized to the covers and printed on the quote from [Maui catering](/catering).',
         },
       ],
       related: [
@@ -295,6 +312,9 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Guests move. Stations stay hot. Wet-weather backup is written. Ballrooms are not the product.',
       photo: 'fmtBuffetMaui',
       body: [
+        'A Maui buffet is stations in the house, staffed: hot pans that stay hot when the breeze comes through the sliders, a carving or grill station when the menu wants one, and a crew that refills, clears and runs the kitchen. It is the usual choice for a Wailea great room full of people standing, a reunion week on a South Maui lawn, or a West Maui party of about twenty and up.',
+        'We set stations where the wind drops and keep lids on. Outdoor buffets get a written covered or indoor backup before a deposit. Kīhei condos with smaller kitchens often run better as a buffet than a plated dinner; the food price does not change, only the format and the staffing plan.',
+        'The $225–$375 food band, the 10–75 guest range and staffing at $80 an hour per server are on the island [Maui catering](/catering) page. Ballroom banquets in hotels are not the product — this is catering in residences and villas.',
       ],
       faqs: [
         {
@@ -304,6 +324,10 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         {
           q: 'Cheaper than plated?',
           a: 'Food band is the signature card. Staffing is usually lighter. Quote in writing.',
+        },
+        {
+          q: 'From how many guests does a Maui buffet make sense?',
+          a: 'Usually from about twenty. Below that, a family-style table often feels better and needs a similar crew. The quote from [Maui catering](/catering) names the format that fits the house.',
         },
       ],
       related: [
@@ -323,7 +347,9 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Boards, travel clothes, the ice-breaker. A seated dinner is a different format.',
       photo: 'fmtGrazingMaui',
       body: [
-        'Welcome dinners often start here. Family-style is seated.',
+        'Grazing on Maui is the first hour: styled boards with ahi poke, local crudités and fruit, plus passed small plates while people are still in travel clothes. Welcome dinners often start here, and family-style is the seated course that may follow.',
+        'Boards run around $750–$950 as a market reference, and passed bites are $5–$7 a piece with a twenty-piece minimum. On an open Wailea or Kapalua lānai, boards are set out of the wind and refreshed rather than left to sit in the sun.',
+        'Tell us on the brief whether grazing is the hour or the whole evening, and we write the quantities to match. Full staffed events — headcount, staffing and the written total — sit on the island [Maui catering](/catering) page.',
       ],
       faqs: [
         {
@@ -333,6 +359,10 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         {
           q: 'West Maui arrival grazing after OGG?',
           a: 'If we have the crew. Traffic is planned.',
+        },
+        {
+          q: 'Can grazing be added to a Maui catering dinner?',
+          a: 'Yes. It prints as its own line on the same written quote from [Maui catering](/catering), before the seated or buffet course.',
         },
       ],
       related: [
@@ -353,6 +383,8 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       photo: 'fmtDropoffMaui',
       body: [
         'We will not discount staffed service into drop-off language.',
+        'Drop-off means food delivered to the villa door and no crew staying behind: nobody at the pass, nobody clearing, no cleanup. On Maui it is inquiry only, because the staffed format is what we actually run. If you ask, we will tell you in writing whether trays are possible for that date and address.',
+        'If you want a chef in the kitchen and service at the table, that is staffed [Maui catering](/catering) for about 10–75 guests from $225 a guest, or a villa dinner on [private chef Maui](/) for a smaller table.',
       ],
       faqs: [
         {
@@ -396,7 +428,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
       ],
       related: [
-        { path: '/catering', label: 'Staffed catering' },
+        { path: '/catering', label: 'Kauai catering' },
         { path: '/hanalei-bridge', label: 'Bridge clause' },
         { path: '/south-shore', label: 'South Shore' },
       ],
@@ -424,6 +456,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
       ],
       related: [
+        { path: '/catering', label: 'Kauai catering' },
         { path: '/rehearsal-dinners', label: 'Rehearsal dinners' },
         { path: '/princeville', label: 'Princeville' },
         { path: '/catering/family-style', label: 'Family-style' },
@@ -440,18 +473,30 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Platters down the table. Welcome dinners often run this way. Inquiry.',
       photo: 'fmtFamilyKauai',
       body: [
+        'Family-style on Kauaʻi is a seated estate dinner with platters down the middle of one long table: wood-grilled catch with mango and coconut rice, island greens, a ranch or vegetable main, and a lilikoi or haupia close. Guests pass and serve themselves, so conversation stays at the table and the crew stays lighter than a full plated pass.',
+        'It suits rehearsal-sized tables of under about twenty — a welcome dinner for a wedding group in Poʻipū, a reunion night in a Princeville estate, a retreat week’s last supper. On the North Shore the long table gets a covered lānai backup from November to March; South Shore lawns can usually stay outdoors on more nights of the year.',
+        'Kauaʻi is by inquiry. Name the shore and the town on the first note. Princeville, Hanalei and Poʻipū carry the published $50–$75 travel line, and the Hanalei bridge clause applies to the far North. Guest counts, the $225–$375 food band and staffing live on the island [Kauai catering](/catering) page; a table of eight or fewer is a villa dinner on [private chef Kauai](/).',
       ],
       faqs: [
         {
           q: 'Kids?',
-          a: 'Weather still applies on the North.',
+          a: 'Yes — kids’ plates go on the same platters plan. Weather still applies on the North.',
         },
         {
           q: 'Same as grazing?',
           a: 'Grazing is boards. This is seated platters.',
         },
+        {
+          q: 'How many guests suit family-style on Kauaʻi?',
+          a: 'Usually ten to about twenty at one table. Bigger lists often move to a buffet under cover on the North Shore or a plated lawn dinner on the South Shore. The written reply comes from [Kauai catering](/catering).',
+        },
+        {
+          q: 'What does family-style cost on Kauaʻi?',
+          a: 'The food band is the Kauaʻi signature card, $225–$375 a guest. Servers are $80 an hour and a sous-chef $105, on four- to five-hour minimums. 20% service and GET up to 4.712% are added once; a 50% deposit holds the date when a crew is confirmed.',
+        },
       ],
       related: [
+        { path: '/catering', label: 'Kauai catering' },
         { path: '/events/welcome-dinners', label: 'Welcome dinners' },
         { path: '/poipu', label: 'Poʻipū' },
         { path: '/catering/grazing', label: 'Grazing' },
@@ -481,6 +526,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
       ],
       related: [
+        { path: '/catering', label: 'Kauai catering' },
         { path: '/guest-counts', label: 'Guest counts' },
         { path: '/retreat-catering', label: 'Retreat kitchens' },
         { path: '/north-shore', label: 'North Shore' },
@@ -510,6 +556,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
       ],
       related: [
+        { path: '/catering', label: 'Kauai catering' },
         { path: '/events/welcome-dinners', label: 'Welcome dinners' },
         { path: '/bar', label: 'Bar add-on' },
         { path: '/south-shore', label: 'South Shore' },
@@ -539,7 +586,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
       ],
       related: [
-        { path: '/catering', label: 'Staffed catering' },
+        { path: '/catering', label: 'Kauai catering' },
         { path: '/what-we-dont-do', label: 'What we will not claim' },
         { path: '/vacation-chef', label: 'Vacation chef' },
       ],
