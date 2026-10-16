@@ -12,7 +12,7 @@ import { LongFaq, Longform } from '@/components/Longform';
 import IslandPhotoPicker from '@/components/IslandPhotoPicker';
 import DocumentPhotoGrid from '@/components/DocumentPhotoGrid';
 import HubPhotoGrid from '@/components/HubPhotoGrid';
-import { islandChooserCopy } from '@/data/chromeCopy';
+import { hubIslandsPage, islandChooserCopy } from '@/data/chromeCopy';
 import { islandOrder, islands, type IslandId } from '@/data/islands';
 import { feeStack } from '@/data/rateCard';
 import { proofRegister } from '@/data/proofRegister';
@@ -718,6 +718,7 @@ function IslandBleedRows({ currentIsland }: { currentIsland?: IslandId } = {}) {
         const isl = islands[id];
         const chooser = islandChooserCopy[id];
         const here = currentIsland === id;
+        const priceAlreadySaysInquiry = /inquiry/i.test(chooser.price);
         return (
           <HostLink key={id} island={id} className="group relative block min-h-[70svh] overflow-hidden">
             <Photo src={isl.selectorImage} alt={isl.name} fill sizes="100vw" />
@@ -732,7 +733,7 @@ function IslandBleedRows({ currentIsland }: { currentIsland?: IslandId } = {}) {
                 <span className="mt-4 block text-[17px] leading-[1.65] text-paper">{chooser.line}</span>
                 <span className="mt-4 block text-[15px] text-paper">
                   {chooser.price}
-                  {isl.state === 'inquiry' ? ' · Inquiry' : ''}
+                  {isl.state === 'inquiry' && !priceAlreadySaysInquiry ? ' · Inquiry' : ''}
                 </span>
               </div>
             </div>
@@ -747,6 +748,17 @@ export function IslandsView() {
   const still = photos.hubIslands;
   return (
     <>
+      <JsonLd
+        data={{
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: hubIslandsPage.faqs.map((f) => ({
+            '@type': 'Question',
+            name: f.q,
+            acceptedAnswer: { '@type': 'Answer', text: f.a },
+          })),
+        }}
+      />
       <Hero src={still.file} alt={still.alt}>
         <p className="text-[13px] text-mute">Four Islands</p>
         <LineReveal
@@ -758,7 +770,11 @@ export function IslandsView() {
           quotes. Kauaʻi and Hawaiʻi Island are taking enquiries.
         </p>
       </Hero>
+      <Longform sections={[{ h2: hubIslandsPage.guideHeading, paras: hubIslandsPage.paras }]} />
       <IslandBleedRows />
+      <p className="bg-paper px-5 pb-8 text-[15px] leading-relaxed text-mute lg:px-10">
+        {hubIslandsPage.feeNote}
+      </p>
       <HubPhotoGrid
         eyebrow="Statewide geography"
         heading="Where we cook."
@@ -816,6 +832,7 @@ export function IslandsView() {
           },
         ]}
       />
+      <LongFaq items={hubIslandsPage.faqs} title="Before you open a host." />
     </>
   );
 }

@@ -81,7 +81,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
         'The house, family-style fish, the guest list you actually have. Legal short-stay fact is on the Short-stay villas page.',
       photo: 'occVillaOahu',
       body: [
-        'Ko Olina legal short-stay: Short-stay villas. Gold Coast dining rooms: Gold Coast.',
+        'Ko Olina legal short-stay villas and Kahala Gold Coast dining rooms are the usual rooms. A villa week at Ko Olina and an estate table on the Gold Coast are both written quotes, not a restaurant buyout.',
       ],
       faqs: [
         {

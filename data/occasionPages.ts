@@ -54,7 +54,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       photo: 'occWelcomeOahu',
       body: [
         'Ko Olina short-stay weeks often start here. Kahala houses too.',
-        'Legal short-stay fact: Short-stay villas.',
+        'Legal short-stay rules for those Ko Olina villas are written on the short-stay page.',
       ],
       faqs: [
         {

@@ -1,4 +1,5 @@
 import type { IslandId } from './islands';
+import { DESK_EMAIL, DESK_PHONE_DISPLAY, DESK_TEL, DESK_WHATSAPP } from '@/lib/contact';
 
 /** Homepage chrome copy — unique H1s stay locked in islandOffers / HomeView. */
 export const hubChrome = {
@@ -79,6 +80,51 @@ export const islandChooserCopy: Record<
     price: 'Signature dinner from $210 a guest · Stay Chef from $1,450 a day · Inquiry',
     alt: 'A lava-coast terrace table on Hawaiʻi Island at sunset with fruit and wine glasses, Mauna Loa on the horizon — myCHEF Hawaiʻi Island private chef, by inquiry.',
   },
+};
+
+/** Hub /islands only — statewide routing. Island sites keep their own /islands copy. */
+export const hubIslandsPage = {
+  guideHeading: 'How the four hosts differ.',
+  paras: [
+    'Four hosts, four crews. Oʻahu and Maui take a written quote. Kauaʻi is request availability. Hawaiʻi Island is join the inquiry list, and only the west side is in that request. Hilo, on the east side, is a dedicated day on the Hawaiʻi Island site. It is not another island, and it is not a same-afternoon add-on.',
+    `One booking cannot cover two islands. Each island is quoted alone because the kitchen, the drive, and the people are not shared. There is no same-day crossing. A hotel room without a real cooktop is declined on every host. The cards below open the site that has the house. Start on [the quote form](/quote) and name one island. Desk: ${DESK_EMAIL}, +1 ${DESK_PHONE_DISPLAY} (${DESK_TEL}), WhatsApp ${DESK_WHATSAPP}.`,
+  ],
+  feeNote:
+    'Before 20% service and Hawaiʻi GET up to 4.712%, shown as separate lines; 50% deposit.',
+  faqs: [
+    {
+      q: 'How do the four island sites differ?',
+      a: 'Each host has its own chefs, zones, and booking posture. Oʻahu and Maui issue a written quote. Kauaʻi asks you to request availability. Hawaiʻi Island asks you to join the inquiry list. This page does not retell the towns.',
+    },
+    {
+      q: 'Which islands take a written quote, and which take an inquiry?',
+      a: 'Oʻahu and Maui take a written quote. Kauaʻi is request availability. Hawaiʻi Island is join the inquiry list. A card on this page is not a held date on the inquiry islands.',
+    },
+    {
+      q: 'Can one booking span two islands?',
+      a: 'No. A stay that moves islands is two bookings. One coordinator can keep the thread. The crews, the kitchens, and the totals stay separate. Name one island per night.',
+    },
+    {
+      q: 'Why is each island quoted on its own?',
+      a: 'The drive, the kitchen, and the crew do not transfer. A rate on one host is not a rate on the next. Open the card for the house you actually have, then that host’s quote.',
+    },
+    {
+      q: 'Can a crew cross between islands the same day?',
+      a: 'No. There is no same-day inter-island crossing. Guests may fly. The kitchen stays where it is. Book the next island as its own day.',
+    },
+    {
+      q: 'Is Hilo included when I open the Hawaiʻi Island card?',
+      a: 'No. That card is west side first: Kona, Waikoloa, and the Kohala Coast. Hilo is a dedicated day on the Hawaiʻi Island site. It is not implied, and it is not a same-day add-on.',
+    },
+    {
+      q: 'What if the room is a hotel room without a kitchen?',
+      a: 'We decline it, on every island, before a deposit. The product is a cooktop, a fridge, and a table. A coffee maker or a minibar is not a kitchen. Say what the room has when you write.',
+    },
+    {
+      q: 'How do I start from this page?',
+      a: `Open the card for one island, or send that island on [the quote form](/quote). Oʻahu and Maui get a written quote. Kauaʻi is request availability. Hawaiʻi Island is join the inquiry list. Desk: ${DESK_EMAIL}, +1 ${DESK_PHONE_DISPLAY} (${DESK_TEL}), WhatsApp ${DESK_WHATSAPP}.`,
+    },
+  ],
 };
 
 export const islandHeroLede: Record<IslandId, string> = {

@@ -19,7 +19,7 @@ export const islandFineDiningIndex: Record<IslandId, IslandNestedIndexPage> = {
     photo: 'fineIndexOahu',
     body: [
       `We do not claim stars we do not have.`,
-      'Kahala dining rooms and Ko Olina villas are the usual rooms. Gold Coast houses: Gold Coast. Sourcing is written on the menu or it is not claimed.',
+      'Kahala dining rooms and Ko Olina villas are the usual rooms. A Gold Coast house is a dining room with a cooktop, not a hotel suite. Sourcing is written on the menu or it is not claimed.',
     ],
     faqs: [
       {

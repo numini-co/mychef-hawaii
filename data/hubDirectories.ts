@@ -333,9 +333,42 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     photo: 'hubEvents',
     cardLabel: 'Occasions',
     body: [
-      'Birthdays, welcome dinners, retreats and brunch — each island writes its own. Choose your island first.',
+      'Start with the night, then the island. A birthday, a welcome dinner, a villa party, an anniversary, brunch, a retreat, and a house offsite each live on the island site. This page only routes. A dinner for the people already in the house stays an occasion. When the room needs a staffed service, open [Hawaii catering](/catering). When the dates are a wedding week — welcome, rehearsal, reception, and brunch — open [wedding week](/weddings). Do not file a wedding under a birthday URL.',
+      `One coordinator can hold several nights on the same island. Each night stays its own line. Oʻahu and Maui take a written quote. Kauaʻi is request availability. Hawaiʻi Island is join the inquiry list, west side first. A crew does not cross islands the same day. Open the host that has the house: [Oʻahu occasions](oahu:/events), [Maui occasions](maui:/events), [Kauaʻi occasions](kauai:/events), [Hawaiʻi Island occasions](bigisland:/events). Send one island, the occasion, and the dates on [the quote form](/quote). Desk: ${desk}.`,
     ],
     faqs: [
+      {
+        q: 'Which page is a birthday, and which is a welcome dinner?',
+        a: 'A birthday is the birthday page on the island that has the house. A welcome dinner is the first night of a stay. They are different lines. Open that island’s events list, then the night. This hub does not blend them.',
+      },
+      {
+        q: 'When do a villa party and an anniversary stay on the occasion list?',
+        a: 'A villa party is the larger house gathering. An anniversary is the small table, often two seats. Both stay on the island occasion pages until the room needs a staffed service. Then open [Hawaii catering](/catering).',
+      },
+      {
+        q: 'Where do brunch, a retreat, and a house offsite each go?',
+        a: 'Brunch is a morning in the house, often the day after. A retreat is full-board days in that house. A house offsite is a company night, not a convention floor. The island events page routes all three. This page does not cook them.',
+      },
+      {
+        q: 'When does an occasion become catering?',
+        a: 'When the house needs a staffed service for the list, not one table. Open [Hawaii catering](/catering) for that format. The occasion page still names the night. Catering names the staffed room. Use both links, not one URL for two jobs.',
+      },
+      {
+        q: 'When should the dates move to the wedding week?',
+        a: 'When you are booking welcome, rehearsal, reception, and brunch as one week. That is [wedding week](/weddings), with separate lines. An occasion page is one night. Do not fold a wedding week into a birthday URL.',
+      },
+      {
+        q: 'Can one coordinator quote several nights on one island?',
+        a: 'Yes. Name every night in one note. Each night is its own line. One coordinator holds the thread. The note still names a single island. Two islands are two quotes.',
+      },
+      {
+        q: 'Do Kauaʻi and Hawaiʻi Island occasions take a quote or an inquiry?',
+        a: 'Kauaʻi is request availability. Hawaiʻi Island is join the inquiry list, west side first. Oʻahu and Maui take a written quote. A printed occasion page is not a held date on the inquiry islands.',
+      },
+      {
+        q: 'Can the same crew cook an occasion on two islands in one day?',
+        a: `No. There is no same-day inter-island crossing. Book each night on that island’s events page. Desk: ${desk}.`,
+      },
     ],
   },
   whatWeDontDo: {
@@ -682,11 +715,33 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     photo: 'hubCorpCater',
     cardLabel: 'House offsites',
     body: [
+      'This page routes a house offsite. It does not cook it. Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry, west side first, and Hilo is not inside that request. A multi-island offsite is quoted per island: one coordinator, separate crews, no same-day crossing.',
+      `Open the island that has the house: [Oʻahu offsites](oahu:/corporate), [Maui offsites](maui:/corporate), [Kauaʻi offsites](kauai:/corporate), [Hawaiʻi Island offsites](bigisland:/corporate). Each of those pages chooses the format — one executive dinner, a house offsite night, or a full-board retreat — and points at the planning brief. Desk: ${desk}.`,
     ],
     faqs: [
       {
         q: 'Do you staff HCC citywides?',
         a: 'No. Citywides are closed through 2027 and are not the product. Other islands say it on the what-we-don’t-do list.',
+      },
+      {
+        q: 'Which islands take an offsite quote, and which take an inquiry?',
+        a: 'Oʻahu and Maui take a written quote. Kauaʻi is request availability. Hawaiʻi Island is join the inquiry list, west side first. The hub does not hold a date for any of them.',
+      },
+      {
+        q: 'How is a multi-island offsite quoted?',
+        a: 'Per island. Each house gets its own lines, its own crew, and its own total. One coordinator can hold the thread. The totals are not blended into a statewide package.',
+      },
+      {
+        q: 'Can one coordinator cover two islands without moving one crew?',
+        a: 'Yes. The coordinator sequences the asks. The cooks stay on their island. A Friday on Oʻahu and a Saturday on Maui are two quotes, even in one email thread.',
+      },
+      {
+        q: 'Why open an island corporate page instead of staying here?',
+        a: 'This page only routes. The island page chooses one executive dinner, a house offsite night, or a full-board retreat, then the planning brief. Format decisions live on that host.',
+      },
+      {
+        q: 'How do I start a statewide offsite without naming two islands as one job?',
+        a: `Name one island per night on [the quote form](/quote), or open that island’s corporate page first. Desk: ${desk}.`,
       },
     ],
   },

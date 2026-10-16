@@ -696,7 +696,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/bigisland/events': {
     title: 'Big Island villa events — Kohala and Kona | myCHEF',
     description:
-      'Staffed villa events on Hawaiʻi Island: Kohala Coast and Kona. Inquiry stage. East side is quote-only.',
+      'Staffed villa events on Hawaiʻi Island: Kohala Coast and Kona first, by inquiry. East side is a dedicated day, never a same-day add-on.',
   },
   '/bigisland/about': {
     title: 'About myCHEF Big Island — Kona–Kohala crew | myCHEF',
