@@ -1,23 +1,23 @@
 {
  "https://bigisland.mychef-hawaii.com/": {
-  "hash": "24efe4281725751dd6f2",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "33dd97b7ec0e7bbb5a82",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/about": {
-  "hash": "166d632583cd58deb888",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "e367d07c050dab5ff75e",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/areas": {
   "hash": "6a796eec00e03195e4dd",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/bar": {
-  "hash": "dcbca86eaf6c7ef4d1f4",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "a58566abb0941cc2519c",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/blog": {
-  "hash": "",
-  "lastmod": "2026-10-16T00:00:00Z"
+  "hash": "5a1abc306aa800d43b75",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "18b65786d79a96ee43b7",
@@ -52,36 +52,36 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/dining-in-hilo": {
-  "hash": "dd04b8096874ccc5c953",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "b73c2fef2d11fa3eb455",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/dining-in-holualoa": {
-  "hash": "454be630e2f33d7f2ede",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "9be1344aff2e87454c99",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/dining-in-honokaa": {
   "hash": "d604d833ec8d48f6008b",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/dining-in-kailua-kona": {
-  "hash": "d5e030dfd23173700449",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "770d1420b613111d8d50",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/dining-in-kau": {
   "hash": "185d5b7eae59df710f75",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/dining-in-keauhou": {
-  "hash": "ee4a60e8e17b1b018cf0",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "9144dfb2d49d6b6ac017",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/dining-in-kohala": {
   "hash": "81cf1ffa49e6d2cf8e58",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/dining-in-kona": {
-  "hash": "898f46c471ad65e7d129",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "315587985e7888bf5dbc",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/dining-in-mauna-kea": {
   "hash": "344b2f5eb9b930fc8a4e",
@@ -120,16 +120,24 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/grocery-at-cost": {
-  "hash": "abe690a1ff0b06954725",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "99e354673801d5e541e0",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/kids-at-the-table": {
   "hash": "5a74595ee62ee7914c0e",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/kona-beach-party-catering-guide": {
-  "hash": "",
-  "lastmod": "2026-10-14T00:00:00Z"
+  "hash": "55e90be2bf7ee0e5c88a",
+  "lastmod": "2026-10-16T01:02:12Z"
+ },
+ "https://bigisland.mychef-hawaii.com/blog/kona-catering-planning-guide": {
+  "hash": "e9bc2b52330f7a84d5a6",
+  "lastmod": "2026-10-16T01:02:12Z"
+ },
+ "https://bigisland.mychef-hawaii.com/blog/kona-farmers-market-villa-week": {
+  "hash": "dd8d934475af305c022c",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/lunch-service": {
   "hash": "dc8d89353d39a80fb065",
@@ -176,20 +184,20 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/weather-backup": {
-  "hash": "",
-  "lastmod": "2026-10-14T00:00:00Z"
+  "hash": "de646a60cbb4e7159e71",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/welcome-dinner": {
-  "hash": "b5669c89ae0812bb00a0",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "2b730534e1ffe07ebef3",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/wine-and-alcohol": {
   "hash": "008074aba39290fa6516",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/catering": {
-  "hash": "d340a5017082a3d89307",
-  "lastmod": "2026-10-14T00:45:00Z"
+  "hash": "74193a692f5de2132329",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/catering/bbq": {
   "hash": "4871bd407c349caecb2d",
@@ -224,8 +232,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/contact": {
-  "hash": "818339c9c1a26ef82557",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "fc7ed24faf2bce56de23",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/cooking-classes": {
   "hash": "bc9dc892075454c12457",
@@ -240,8 +248,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/coverage": {
-  "hash": "4b46dba0cb5a9d4c250d",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "d5bdaa9d46580a568c70",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/dietary": {
   "hash": "6a1e089962fb32672333",
@@ -252,12 +260,12 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/estimate": {
-  "hash": "703c1ebe77f1eda1e3e8",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "848ffbff03bb10325748",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/events": {
-  "hash": "aecb620084229462f884",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "79e5fa7666bafdd67440",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/events/anniversaries": {
   "hash": "7bda324861ff2fac229d",
@@ -284,12 +292,12 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/events/welcome-dinners": {
-  "hash": "2dd2032717f46542e3a8",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "56518e48e17b48d76436",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/faq": {
-  "hash": "26c91ca495efeb0073ba",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "4b537a98293eb9cc4d56",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/fine-dining": {
   "hash": "c9873ab92e34ffe9b05b",
@@ -352,16 +360,16 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/honeymoon-dinners": {
-  "hash": "d5276d78d18f838558b4",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "482db36a97a37d13a2e5",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/honokaa": {
   "hash": "61d825834aac08d9b0e9",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/how-it-works": {
-  "hash": "ba1cf26a34a42cdcfc44",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "4cd56f3fe4f6fd823d24",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/ironman-weeks": {
   "hash": "1d9bea7b2aa57d4d3f0f",
@@ -372,8 +380,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/journal": {
-  "hash": "a48a6e1ad62368b59af8",
-  "lastmod": "2026-10-09T19:42:56Z"
+  "hash": "3592885c457191cc797f",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/journal/dietary-needs": {
   "hash": "cacc72342261c4369a70",
@@ -384,16 +392,16 @@
   "lastmod": "2026-10-09T19:36:00Z"
  },
  "https://bigisland.mychef-hawaii.com/journal/how-much-does-a-private-chef-cost": {
-  "hash": "003396bb5ee0d10510cd",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "54d80ae750065a4739dd",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/journal/how-to-hire-a-private-chef": {
-  "hash": "7c6f3c8f4761f770fecf",
-  "lastmod": "2026-10-09T19:36:00Z"
+  "hash": "b446005db1d4a5ec1ff7",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/journal/private-chef-vs-restaurant": {
-  "hash": "b6816f707cba327c03d5",
-  "lastmod": "2026-10-09T19:36:00Z"
+  "hash": "a52508a228718349b1e7",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/journal/travel-zones": {
   "hash": "0706168f7e7ebdabb77f",
@@ -412,8 +420,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/journal/what-is-included": {
-  "hash": "ac0bc893d7f21bb67ac2",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "7b614b6b0b3bb22d2925",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/kailua-kona": {
   "hash": "597f056c3445f56168e6",
@@ -432,16 +440,16 @@
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://bigisland.mychef-hawaii.com/kohala": {
-  "hash": "e66ae7dfd6426f69460c",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "9c2440dcdf004f0f7cbb",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/kohala-corridor": {
   "hash": "eba1e6f6f3cf20bab130",
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://bigisland.mychef-hawaii.com/kona": {
-  "hash": "c0dbb5950b122369feb8",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "f2ae7b00bc11be89b3cc",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/legal": {
   "hash": "2b8bffdc5f72dad79765",
@@ -464,8 +472,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/menus": {
-  "hash": "55e7bdff518e8f25c425",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "af2f641d8c9878519fe3",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/menus/breakfast": {
   "hash": "6cbb0c6002f424cf54bd",
@@ -484,36 +492,36 @@
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://bigisland.mychef-hawaii.com/mobile-bar": {
-  "hash": "feddda3ddd705b969b1b",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "5d8ae7336ddb96f40116",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/omakase-at-home": {
   "hash": "11fa0ddb937bdbbccd3c",
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://bigisland.mychef-hawaii.com/personal-chef": {
-  "hash": "e81232f5ee20d9cd70f7",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "05ea59460028e3f06d25",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/pricing": {
-  "hash": "3396e916073807f24fe7",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "0cdc14aaf9ae6f33cb48",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/private-chef": {
-  "hash": "a4854aeffc6365b7429c",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "ab164a3cdc9928be20b1",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/private-chef-cost": {
-  "hash": "91a8235ab34a355b4658",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "9aadbe18b5b412ec3e28",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/puako": {
   "hash": "5bdbf9b2aab93d5b2d71",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/quote": {
-  "hash": "ac41b5b6b78cd5f36194",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "268a4a9fa33dc9ed8068",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/rehearsal-dinners": {
   "hash": "bda85254f53dc9367a3b",
@@ -524,16 +532,16 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/services": {
-  "hash": "2f1001b90a3ce5d5470d",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "e17ed260fbb43c8460ea",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/sitemap": {
-  "hash": "697270c4222236360c65",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "68229b6569183581176c",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/staffing": {
-  "hash": "47eb664755fa6c7b3295",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "8e83cb42df06c76fca03",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/staffing/bartenders": {
   "hash": "e2ea38ea13d9201d127c",
@@ -552,36 +560,36 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/vacation-chef": {
-  "hash": "6168c978a2edcb9a3354",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "9f3443a8ae6a95314685",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/volcano": {
-  "hash": "76dc217c76993a720b30",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "21176154b5fdd4b7ae1e",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/waikoloa": {
-  "hash": "1b81303a9882d906c349",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "e2b85a67cba01c0f528f",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/waimea": {
-  "hash": "e01aa1710ebcd135494a",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "881a58c9c752cb4715b2",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/weddings": {
-  "hash": "5da2881aa95ce8605364",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "8df34c8ad73307ec1124",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/what-we-dont-do": {
   "hash": "d122cbfe2fbe1bfb9e75",
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://kauai.mychef-hawaii.com/": {
-  "hash": "515121a919593bfd1f14",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "b733e1df5816e86a7017",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/about": {
-  "hash": "355b13f2bfb1cb698330",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "9ba3948e08968e9829e0",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/anahola": {
   "hash": "bca89d1b5a9dae766f81",
@@ -592,12 +600,12 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/bar": {
-  "hash": "a5b652ce5f6620768370",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "458c3371a9a988998337",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/blog": {
-  "hash": "",
-  "lastmod": "2026-10-16T00:00:00Z"
+  "hash": "610bed57f2a71a0c0263",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "f9a746e66138ee636653",
@@ -644,8 +652,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/blog/dining-in-hanalei": {
-  "hash": "",
-  "lastmod": "2026-10-14T00:00:00Z"
+  "hash": "ba0f49f59a5254b6fa55",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/blog/dining-in-hanapepe": {
   "hash": "595439a9fa7403a84ab5",
@@ -668,12 +676,12 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/blog/dining-in-poipu": {
-  "hash": "99f2044139df69035384",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "d5e0fb8995f63615e0e6",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/blog/dining-in-princeville": {
-  "hash": "",
-  "lastmod": "2026-10-14T00:00:00Z"
+  "hash": "a006c192246591ba2af0",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/blog/dining-in-waimea": {
   "hash": "620e0dac0d0f8fbb5b29",
@@ -692,8 +700,12 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/blog/grocery-at-cost": {
-  "hash": "6786f20834dfd993e2c4",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "e7ede144c80e54194bc1",
+  "lastmod": "2026-10-16T01:02:12Z"
+ },
+ "https://kauai.mychef-hawaii.com/blog/kauai-farmers-market-villa-week": {
+  "hash": "0f0fab70555b76986958",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/blog/kids-at-the-table": {
   "hash": "ea8b6a8177867473a2f9",
@@ -712,8 +724,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/blog/north-shore-kauai-dining-guide": {
-  "hash": "",
-  "lastmod": "2026-10-14T00:00:00Z"
+  "hash": "95fe85f1e59f18daee24",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/blog/peak-season": {
   "hash": "da9339330125bbe22868",
@@ -722,6 +734,10 @@
  "https://kauai.mychef-hawaii.com/blog/photoshoot-catering": {
   "hash": "6fd5a26308c75f536808",
   "lastmod": "2026-10-09T19:32:00Z"
+ },
+ "https://kauai.mychef-hawaii.com/blog/poipu-restaurants-dining-guide": {
+  "hash": "a1b00776f87f60193f86",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/blog/proposal-dinners": {
   "hash": "7d94bb58374490a2aa02",
@@ -752,48 +768,48 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/blog/welcome-dinner": {
-  "hash": "eb1919a186566cbc953f",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "28b630e3f32a824eb6b9",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/blog/wine-and-alcohol": {
   "hash": "5ac8fc76f3e0934f1e0d",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/catering": {
-  "hash": "5262c04733257479df56",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "f118affd4329e53d47c6",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/catering/bbq": {
-  "hash": "66b90b1f394dd5ca64fd",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "696c123a0fb73d0c60b3",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/catering/buffet": {
-  "hash": "dd99831c94f4d9a437df",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "22a0b8a0b00306dcd8fa",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/catering/drop-off": {
-  "hash": "bd9a091d2a6cba1edfff",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "04d29c38f453a6cb2acf",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/catering/family-style": {
-  "hash": "ba928a0eaa34bc10d844",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "d42213fd20fd38475c20",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/catering/grazing": {
-  "hash": "061f3af4640cd864711b",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "deb150fa61a1d4ccc2a2",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/catering/plated": {
-  "hash": "d9f1c1548d2ef593269e",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "e8a602096604b943bb74",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/chefs-table": {
   "hash": "065f6df9c5a6fdb4d474",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/contact": {
-  "hash": "e75194cdcfb3b9590133",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "4ec48d984e3a0f8299a6",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/cooking-classes": {
   "hash": "5156d9448be170ba5604",
@@ -808,8 +824,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/coverage": {
-  "hash": "6905c202106da65aba07",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "87955259d5bf38421a12",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/dietary": {
   "hash": "d032dbdce7955b715f12",
@@ -820,12 +836,12 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/estimate": {
-  "hash": "1d9a8866ecdb3c79644b",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "079d7c712e05c05e9f44",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/events": {
-  "hash": "23f96553903bb8cc9e19",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "ed33845bdfb1ec6f1aba",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/events/anniversaries": {
   "hash": "011480da4138419b2f7e",
@@ -856,8 +872,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/faq": {
-  "hash": "cb1af6310b939e7629b4",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "fdcd248fa4ffefd58650",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/fine-dining": {
   "hash": "7c64ab148a70ce9138c2",
@@ -892,8 +908,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/hanalei": {
-  "hash": "2fa54692f0946b9bae21",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "283d4a823121abe2e6d9",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/hanalei-bridge": {
   "hash": "d3ff268018a608de4cd5",
@@ -932,8 +948,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/how-it-works": {
-  "hash": "b5a5c89f7176eec93827",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "e6d1c9c09225e7922534",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/islands": {
   "hash": "df8f2400c32d54ced2f2",
@@ -988,8 +1004,8 @@
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://kauai.mychef-hawaii.com/kapaa": {
-  "hash": "873714e6f75c712f6ba2",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "bc04244586e6c73f10c5",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/kids-menus": {
   "hash": "fa4f81b31ec9a1353f8a",
@@ -1016,8 +1032,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/menus": {
-  "hash": "30d0e0c8546f55f5186f",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "07351ed8ace1accde201",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/menus/breakfast": {
   "hash": "ed0c32047ecd18c7eaaa",
@@ -1036,8 +1052,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/mobile-bar": {
-  "hash": "7537d7d7a28450bc3cc5",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "dcc379bc089dcf04eb9e",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/north-shore": {
   "hash": "47c3dc3d9eb473b85fca",
@@ -1048,32 +1064,32 @@
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://kauai.mychef-hawaii.com/personal-chef": {
-  "hash": "4e19b6bcfb8bce4fea16",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "49081f33e002a148d80a",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/poipu": {
-  "hash": "b230377ecb8c7a0615d1",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "4b530da22ee6366d2d51",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/pricing": {
-  "hash": "10172a55d7373ae2c5f0",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "aadeeb676d3eb6cbc42d",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/princeville": {
-  "hash": "0f91a9de99987afaa9b3",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "f4d3c91110bdb7e5762d",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/private-chef": {
-  "hash": "ba7eb2ff4e42ca19809c",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "16260fa3ef9f6100eeb3",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/private-chef-cost": {
-  "hash": "2e874e7759cc53e8d021",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "a045a7e6e4d857b5d39f",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/quote": {
-  "hash": "479d5bb9c8a4730bf80d",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "52b1a51a3f403b46b684",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/rehearsal-dinners": {
   "hash": "8e209b89f151e442f412",
@@ -1084,20 +1100,20 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/services": {
-  "hash": "8fcd29794ddf21cb7361",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "78f67db19d63e63c7f39",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/sitemap": {
-  "hash": "ca3ca4d45634368c29a6",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "bbac51d7025ca4711cdb",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/south-shore": {
   "hash": "1fd2659afd306b9146ad",
   "lastmod": "2026-10-08T01:00:00Z"
  },
  "https://kauai.mychef-hawaii.com/staffing": {
-  "hash": "86c12890d2d9ce4e3a6f",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "df2846f211849a5adee5",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/staffing/bartenders": {
   "hash": "3e0c3709733b7cd03690",
@@ -1116,8 +1132,8 @@
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://kauai.mychef-hawaii.com/vacation-chef": {
-  "hash": "5634e56e23b29ca32131",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "08533c12dfa99e57e449",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/waimea": {
   "hash": "f35d9596016101736864",
@@ -1128,8 +1144,8 @@
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://kauai.mychef-hawaii.com/weddings": {
-  "hash": "5128b3c9d86765fa54b4",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "83cec41e10e9eed8d6a0",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/what-we-dont-do": {
   "hash": "0cf6050262b2e9c8dfcb",
@@ -1140,20 +1156,20 @@
   "lastmod": "2026-10-09T19:27:00Z"
  },
  "https://maui.mychef-hawaii.com/about": {
-  "hash": "f993c1f4093ac24ff54d",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "01ba28e49654b1136cbf",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/areas": {
   "hash": "f7b9a010fbda4374fb7b",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/bar": {
-  "hash": "62429727713af729d131",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "c8e5ed01016565d8b800",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/blog": {
-  "hash": "",
-  "lastmod": "2026-10-16T00:00:00Z"
+  "hash": "9895c7e0d0e86cdf3457",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "6e470c1a4566cd6b5491",
@@ -1196,16 +1212,16 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/blog/dining-in-kaanapali": {
-  "hash": "334ce7897dedd8f9b6e1",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "d846ab738e18197cc00b",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/blog/dining-in-kapalua": {
   "hash": "dc8c1c66de3a69b49ea0",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/blog/dining-in-kihei": {
-  "hash": "58e5bc50f68c01475035",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "0527d8a6d4be88512f95",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/blog/dining-in-lahaina": {
   "hash": "701cdd10f0bc9f2c2158",
@@ -1216,8 +1232,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/blog/dining-in-makena": {
-  "hash": "61c7a5d93bbc6e8aa179",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "a0768d150b87f0dd8db3",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/blog/dining-in-napili": {
   "hash": "4eee651fc7b8150079a3",
@@ -1236,8 +1252,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/blog/dining-in-wailea": {
-  "hash": "60b975d9358db45341df",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "68d9593e7a7f5894b482",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/blog/estate-logistics": {
   "hash": "2facbc456fc99f1e58a4",
@@ -1252,20 +1268,24 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/blog/grocery-at-cost": {
-  "hash": "",
-  "lastmod": "2026-10-14T00:00:00Z"
+  "hash": "96619d017f4eb7997039",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/blog/kids-at-the-table": {
   "hash": "f7e492dff776ea788185",
   "lastmod": "2026-10-09T19:32:00Z"
+ },
+ "https://maui.mychef-hawaii.com/blog/kihei-restaurants-dining-guide": {
+  "hash": "cec7cf934e59bae1d4a9",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/blog/lunch-service": {
   "hash": "add94022f59b4bf37bf1",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/blog/maui-farmers-market-villa-week": {
-  "hash": "",
-  "lastmod": "2026-10-14T00:00:00Z"
+  "hash": "bd5983713b3bfa337ef8",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/blog/named-farms": {
   "hash": "3f04ec090a0b04ccfffc",
@@ -1307,53 +1327,57 @@
   "hash": "fa50dce5ffc08aacb739",
   "lastmod": "2026-10-09T19:32:00Z"
  },
+ "https://maui.mychef-hawaii.com/blog/wailea-restaurants-dining-guide": {
+  "hash": "d08d90aca4e8d1a92440",
+  "lastmod": "2026-10-16T01:02:12Z"
+ },
  "https://maui.mychef-hawaii.com/blog/weather-backup": {
   "hash": "14597b40d2a61d1bee93",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/blog/welcome-dinner": {
-  "hash": "dcb34019113b97b84947",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "d81f8cd329c97c722a98",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/blog/wine-and-alcohol": {
-  "hash": "9975c2cec3c46f37cece",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "55fa321f092bdd20c9ad",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/catering": {
-  "hash": "b2b2dcf4508f562ec9c8",
-  "lastmod": "2026-10-14T00:45:00Z"
+  "hash": "b6afc41ca9b61e1dc5e6",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/catering/bbq": {
-  "hash": "501823e0fde73e0773b3",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "32011ad7adecdf36a78b",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/catering/buffet": {
-  "hash": "2f84a195386054fcb59e",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "0dbaf5faf7f31764df48",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/catering/drop-off": {
-  "hash": "b93d3f1b70964c5d8a78",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "d2d2f4b600304f90d9b9",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/catering/family-style": {
-  "hash": "b67e62fcaa52d95a046a",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "2ba26ad85efcf9b96d91",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/catering/grazing": {
-  "hash": "f7a127421199ca9ad316",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "f5e1f2d0ee4d617aea16",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/catering/plated": {
-  "hash": "9dd827201658baec5e9e",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "88bf9043a361741cbd10",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/chefs-table": {
   "hash": "127cab8460ff2bb7f1da",
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://maui.mychef-hawaii.com/contact": {
-  "hash": "e21c390cc352e8d25e65",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "40e6e16070da20838ece",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/cooking-classes": {
   "hash": "c3f5628e05098d9de40d",
@@ -1368,20 +1392,20 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/coverage": {
-  "hash": "ed32890e0b80bd3251b6",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "480af81e9d733406cb38",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/dietary": {
   "hash": "51c9039f0f6e57b15cc7",
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://maui.mychef-hawaii.com/estimate": {
-  "hash": "b438f4db27348d5b2bbc",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "8dacef04ecc9df5b0490",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/events": {
-  "hash": "44f984aade2af5d3ef79",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "62df32e644c8cb7c9462",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/events/anniversaries": {
   "hash": "cfdca1cac00d77750650",
@@ -1412,8 +1436,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/faq": {
-  "hash": "14e2670134fb3daee011",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "a58bc20191bfaeaaa49c",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/fine-dining": {
   "hash": "a7935213e7291087f110",
@@ -1480,8 +1504,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/how-it-works": {
-  "hash": "c9e3828ca3065f635cad",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "3d628832d41cf3ca84a3",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/islands": {
   "hash": "6a252f7063c7824172a4",
@@ -1532,24 +1556,24 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/kaanapali": {
-  "hash": "90c1f3f2f654f804038e",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "7968481fcce294083258",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/kapalua": {
-  "hash": "ac9dc4bb4181b12eb5d5",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "ec44d7db4cefe883b0a1",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/kids-menus": {
   "hash": "c796f3d0007585302f29",
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://maui.mychef-hawaii.com/kihei": {
-  "hash": "785565cdb76bae7b2c2a",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "0bb61613d74ed0d95103",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/lahaina": {
-  "hash": "d374e046bbd4272de7cf",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "93566dc187bb476eb4b6",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/legal": {
   "hash": "4272623a284b8640abd4",
@@ -1564,16 +1588,16 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/makena": {
-  "hash": "6e180274f04475983bfd",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "f2c3d2eed3f93d3408e6",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/meal-prep": {
   "hash": "23523c2505148fe3709b",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/menus": {
-  "hash": "cdb79c383df46adb2e31",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "86287569d5c67a1f9a0d",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/menus/breakfast": {
   "hash": "ed19c1a10166c26c4d5e",
@@ -1592,8 +1616,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/mobile-bar": {
-  "hash": "138dea63510f38fd1569",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "bff7ad5ec39d8ae35891",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/napili": {
   "hash": "23d686eef5109b4bf580",
@@ -1608,24 +1632,24 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/personal-chef": {
-  "hash": "c3dbf32f2e21721d19bb",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "78b2a8ba6342d9a7eaf5",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/pricing": {
-  "hash": "1fd212a4be2f063e3c33",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "fa8a4957265f60a5b9e2",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/private-chef": {
-  "hash": "b9e0e2f57321dc73811d",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "951d813dbf81907f66ba",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/private-chef-cost": {
-  "hash": "45b52c3038895d68c35b",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "ba90307123b42455ef69",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/quote": {
-  "hash": "b192c773d291139771c1",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "e15afeb1a3503a5dc383",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/rehearsal-dinners": {
   "hash": "0bc0346709655dc56301",
@@ -1636,20 +1660,20 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/services": {
-  "hash": "06b38a33c263f6b79126",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "6d6ff185608307929eed",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/sitemap": {
-  "hash": "6979d428cb697334c7b7",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "4567747b5c65ed447abb",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/south-maui": {
   "hash": "66a5116fda368897fa19",
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://maui.mychef-hawaii.com/staffing": {
-  "hash": "3ece9af36c46426c322f",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "f26ef76e8770150b99e9",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/staffing/bartenders": {
   "hash": "7fb6324474a47b1c39c4",
@@ -1672,24 +1696,24 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/vacation-chef": {
-  "hash": "449760305da8b60459c5",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "b169e505d9039de549cd",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/waikapu": {
   "hash": "bdc57a63fbf0753e819a",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/wailea": {
-  "hash": "7fb81b60735c35f0abf9",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "2fbe1e1a5837bc7ca3d7",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/wedding-week": {
   "hash": "375dac3d4fb94a2c173f",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/weddings": {
-  "hash": "f6de455c8a4f3e2f4926",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "3bfbda24d8d3be0ba2db",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/west-maui": {
   "hash": "d81ab8a248ee5298f172",
@@ -1700,12 +1724,12 @@
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://mychef-hawaii.com/": {
-  "hash": "8d467cc9f8ebb4cb7d59",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "443f3004cb62616bea65",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://mychef-hawaii.com/about": {
-  "hash": "0935fc1eddc18a812671",
-  "lastmod": "2026-10-08T01:00:00Z"
+  "hash": "96d810b942376ee6d845",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://mychef-hawaii.com/bar": {
   "hash": "795e1d2688a0575643d2",
@@ -1820,8 +1844,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://mychef-hawaii.com/catering": {
-  "hash": "6d9469b1167f8d47c689",
-  "lastmod": "2026-10-14T00:45:00Z"
+  "hash": "e7ed4318ed7957f49f20",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://mychef-hawaii.com/catering/bbq": {
   "hash": "32d0d29e870fe7df5616",
@@ -1852,8 +1876,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://mychef-hawaii.com/contact": {
-  "hash": "53751e56232ccea34850",
-  "lastmod": "2026-10-08T01:00:00Z"
+  "hash": "0e89010d68c7b2156e73",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://mychef-hawaii.com/cooking-classes": {
   "hash": "d6bb210815b22079183a",
@@ -1988,8 +2012,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://mychef-hawaii.com/in-villa-services/waiters": {
-  "hash": "2919780a865b67fc766a",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "2a0bd587b7ed9cf73fd9",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://mychef-hawaii.com/in-villa-services/weekly-private-chef": {
   "hash": "188fec0e96191469c34d",
@@ -2080,24 +2104,24 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://mychef-hawaii.com/personal-chef": {
-  "hash": "8b6d61ad63aed5129cde",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "c859a8cf7ff0ad5065c2",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://mychef-hawaii.com/pricing": {
   "hash": "371eef019a202715200d",
   "lastmod": "2026-10-09T02:30:00Z"
  },
  "https://mychef-hawaii.com/private-chef": {
-  "hash": "52d036cadbb84b6b82c5",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "b3de6eae0f6531dc49c8",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://mychef-hawaii.com/private-chef-cost": {
   "hash": "734697344373b677bd82",
   "lastmod": "2026-10-08T01:00:00Z"
  },
  "https://mychef-hawaii.com/quote": {
-  "hash": "94d9ae8935feb4226fa9",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "1014383f0c5baaa5aec2",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://mychef-hawaii.com/rehearsal-dinners": {
   "hash": "4daf5085f9e6ead130ac",
@@ -2108,32 +2132,32 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://mychef-hawaii.com/staffing": {
-  "hash": "3b7323ec236c4792b17d",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "0f918448a5142be3ae8e",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://mychef-hawaii.com/staffing/bartenders": {
-  "hash": "a3fbfa2fe5492a9ad796",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "bff2b51f1b218b1446ab",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://mychef-hawaii.com/staffing/butlers": {
   "hash": "7470617f0952aa79ba6d",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://mychef-hawaii.com/staffing/servers": {
-  "hash": "1a490ba13bdc88cbdcce",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "c533c410d8a469398fd0",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://mychef-hawaii.com/trust": {
   "hash": "cb434ea162039ca36aca",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://mychef-hawaii.com/vacation-chef": {
-  "hash": "dc4763299790ac3ee6d7",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "9ad19d3a26a1ddfaa293",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://mychef-hawaii.com/weddings": {
-  "hash": "caaf11d0b11dd89f67bd",
-  "lastmod": "2026-10-09T02:30:00Z"
+  "hash": "671ac608f0c28fe1c1df",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://mychef-hawaii.com/what-we-dont-do": {
   "hash": "b6026afd0d8ca106ffde",
@@ -2144,20 +2168,20 @@
   "lastmod": "2026-10-09T19:27:00Z"
  },
  "https://oahu.mychef-hawaii.com/about": {
-  "hash": "f83b25481fc4472bdf78",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "191f0aa6e0e2a4cb562b",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/areas": {
   "hash": "80201bd05f165e07291e",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/bar": {
-  "hash": "fa3ff9118aafa90afd39",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "a8007b73ff87bb154ee2",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/blog": {
-  "hash": "",
-  "lastmod": "2026-10-16T00:00:00Z"
+  "hash": "742fb373017c8e0d2f44",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "1141bca6e525af9aaf4e",
@@ -2196,20 +2220,20 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/dining-in-downtown": {
-  "hash": "ebaa94b2d1b4f06d3472",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "babea5cef5f014a1d517",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/blog/dining-in-ewa": {
   "hash": "17f3e2c10e86a5540b62",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/dining-in-hawaii-kai": {
-  "hash": "06962850e15efab370b3",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "c89e32fe487ca956c79c",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/blog/dining-in-honolulu": {
-  "hash": "f3de8ccee1fdafdd2946",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "e64703dd16f2ffc75bd6",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/blog/dining-in-kahala": {
   "hash": "da39870f08dd79db0a4a",
@@ -2220,16 +2244,16 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/dining-in-kakaako": {
-  "hash": "e06185578d7749738ff6",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "065fc2102ba3a76889e2",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/blog/dining-in-kaneohe": {
   "hash": "b0c12d2ee753bd971a2b",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/dining-in-ko-olina": {
-  "hash": "cc60d67ce47ac0e2d2b6",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "3db0f33c8fe600ebdaca",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/blog/dining-in-lanikai": {
   "hash": "e47676c155e4cfd51560",
@@ -2248,20 +2272,24 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/family-reunions": {
-  "hash": "",
-  "lastmod": "2026-10-14T00:00:00Z"
+  "hash": "4f65f26d6fa23341e369",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/blog/fish-species": {
   "hash": "ff5d14e9e024268d7e94",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/grocery-at-cost": {
-  "hash": "e0eb9c6dc11825d0785c",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "c861b0a3f35dd41290c6",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/blog/kids-at-the-table": {
   "hash": "0dd252dbc8d716c06845",
   "lastmod": "2026-10-09T19:32:00Z"
+ },
+ "https://oahu.mychef-hawaii.com/blog/ko-olina-restaurants-dining-guide": {
+  "hash": "56f0fab5ec56e67d45a1",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/blog/lunch-service": {
   "hash": "7caedd1125b75da20ce3",
@@ -2275,6 +2303,10 @@
   "hash": "b1aa7ce4d866edb4c24e",
   "lastmod": "2026-10-09T19:32:00Z"
  },
+ "https://oahu.mychef-hawaii.com/blog/oahu-farmers-market-villa-week": {
+  "hash": "106bac819701b6bd8c5a",
+  "lastmod": "2026-10-16T01:02:12Z"
+ },
  "https://oahu.mychef-hawaii.com/blog/peak-season": {
   "hash": "02268fdffc5c01951c11",
   "lastmod": "2026-10-09T19:32:00Z"
@@ -2284,8 +2316,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/private-luau-oahu": {
-  "hash": "",
-  "lastmod": "2026-10-14T00:00:00Z"
+  "hash": "c7d9324afb63e9d55311",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/blog/proposal-dinners": {
   "hash": "43c562eca56c98d14696",
@@ -2316,16 +2348,16 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/welcome-dinner": {
-  "hash": "be004f76818e316c4002",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "9acb464b6ca148a6f037",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/blog/wine-and-alcohol": {
-  "hash": "5259217ea542f2f8c6be",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "4d9efafd22ced309e4bf",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/catering": {
-  "hash": "eaff8ef57d7e82b18ff5",
-  "lastmod": "2026-10-09T02:00:00Z"
+  "hash": "351d4c431ee84bb08be0",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/catering/bbq": {
   "hash": "3094c783bf1870fb0a5b",
@@ -2336,8 +2368,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/catering/drop-off": {
-  "hash": "41d6885098f6714eb1b0",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "ed7ec8343a84da495e6b",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/catering/family-style": {
   "hash": "8a983a0e152522ef51a6",
@@ -2356,8 +2388,8 @@
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://oahu.mychef-hawaii.com/contact": {
-  "hash": "1d7597977de8f5b64e3d",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "a2194083eeab1330d9b4",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/conventions": {
   "hash": "7e6090b1a61621bb1e05",
@@ -2376,8 +2408,8 @@
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://oahu.mychef-hawaii.com/coverage": {
-  "hash": "6415f754832bfc089309",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "2432dd41dec15c3b8786",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/diamond-head": {
   "hash": "a69e42bf6b3a2a2f0272",
@@ -2392,12 +2424,12 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/estimate": {
-  "hash": "c6d1c53d7021465dc95b",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "7ea069dc8d51ebdfa890",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/events": {
-  "hash": "d0dd3838fdad692a5674",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "5dcbf3e3e79982d83966",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/events/anniversaries": {
   "hash": "c4c64cace8dee1ba91d0",
@@ -2432,8 +2464,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/faq": {
-  "hash": "8f8f81afe756230b444a",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "eda80d6f81b01ec2bab5",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/fine-dining": {
   "hash": "3cdbef6f9e040f95526f",
@@ -2500,12 +2532,12 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/honolulu": {
-  "hash": "6ef95a82d16bc2512097",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "72ca739ed290301683ad",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/how-it-works": {
-  "hash": "fe0575a0c15433da0fa7",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "940b2f877ad32f69699d",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/islands": {
   "hash": "60585518c860426ad256",
@@ -2556,12 +2588,12 @@
   "lastmod": "2026-10-09T19:36:00Z"
  },
  "https://oahu.mychef-hawaii.com/kahala": {
-  "hash": "9ed019176f51435286c7",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "49e480d5a42d33353731",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/kailua": {
-  "hash": "4aaa37deff50eebbe94d",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "53ff8f20af866176128c",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/kakaako": {
   "hash": "59681a5602585aa74711",
@@ -2580,8 +2612,8 @@
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://oahu.mychef-hawaii.com/ko-olina": {
-  "hash": "a133e0944b589c59a28b",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "f21c47f05fa07b3bb9e8",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/lanikai": {
   "hash": "2cba8ec540ab5fdb0b30",
@@ -2600,8 +2632,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/menus": {
-  "hash": "42b9bacebd941fdfe367",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "e50bb0de52bdb4d3b2c5",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/menus/breakfast": {
   "hash": "8dd4f233ad69e5813292",
@@ -2620,36 +2652,36 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/mobile-bar": {
-  "hash": "283940446dcf12ab72ac",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "8ee701ceedfeddb16641",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/north-shore": {
-  "hash": "91847d665df0c67b4f99",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "af0c8c8236e7f57f2b87",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/omakase-at-home": {
   "hash": "c5d8edd8b447e0be6cc1",
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://oahu.mychef-hawaii.com/personal-chef": {
-  "hash": "b606833200f77a286bb1",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "2129cd12bf070d8b00c3",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/pricing": {
-  "hash": "1ffeb08e9c2f6406811e",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "9c18ad05b4906d89a141",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/private-chef": {
-  "hash": "bf1f818a021d0061bac8",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "fa55178202af9c18f425",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/private-chef-cost": {
-  "hash": "cf8b144da9130afcd204",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "9661d37fe66fffd29e20",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/quote": {
-  "hash": "8d552bcb69ff4586a7d8",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "2df78092bc4f193051f9",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/rehearsal-dinners": {
   "hash": "d23f8428bad428bbc0b0",
@@ -2660,20 +2692,20 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/services": {
-  "hash": "6e34291bad4741fdc146",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "9915c7d0b32f2d0dc276",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/short-stay": {
   "hash": "550e9c02c1ec0af5992a",
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://oahu.mychef-hawaii.com/sitemap": {
-  "hash": "306a7dc592ef5c99570f",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "6290daf3e87989897780",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/staffing": {
-  "hash": "8fcd6f17f2fc18e75544",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "5332a28c114445d8d205",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/staffing/bartenders": {
   "hash": "d9f56b75a1006d13a5e4",
@@ -2684,59 +2716,27 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/staffing/servers": {
-  "hash": "144b8044c67cec14cf61",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "24fc94e5b35781cecea2",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/trust": {
   "hash": "5338010af843a0d4153b",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/vacation-chef": {
-  "hash": "83c07d99f81e6d16be98",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "94cd775799c0366bc694",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/waikiki": {
-  "hash": "d166dc7a3e064089dcad",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "2a90b67129255fcc12ab",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/weddings": {
-  "hash": "784155edcd7fcc61df42",
-  "lastmod": "2026-10-08T01:15:00Z"
+  "hash": "54d680f48c5703e7cc29",
+  "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/what-we-dont-do": {
   "hash": "9a77bcef77ad9c5ff60a",
   "lastmod": "2026-10-06T13:07:31Z"
- },
- "https://oahu.mychef-hawaii.com/blog/oahu-farmers-market-villa-week": {
-  "hash": "",
-  "lastmod": "2026-10-15T00:00:00Z"
- },
- "https://maui.mychef-hawaii.com/blog/wailea-restaurants-dining-guide": {
-  "hash": "",
-  "lastmod": "2026-10-15T00:00:00Z"
- },
- "https://kauai.mychef-hawaii.com/blog/kauai-farmers-market-villa-week": {
-  "hash": "",
-  "lastmod": "2026-10-15T00:00:00Z"
- },
- "https://bigisland.mychef-hawaii.com/blog/kona-catering-planning-guide": {
-  "hash": "",
-  "lastmod": "2026-10-15T00:00:00Z"
- },
- "https://oahu.mychef-hawaii.com/blog/ko-olina-restaurants-dining-guide": {
-  "hash": "",
-  "lastmod": "2026-10-16T00:00:00Z"
- },
- "https://maui.mychef-hawaii.com/blog/kihei-restaurants-dining-guide": {
-  "hash": "",
-  "lastmod": "2026-10-16T00:00:00Z"
- },
- "https://kauai.mychef-hawaii.com/blog/poipu-restaurants-dining-guide": {
-  "hash": "",
-  "lastmod": "2026-10-16T00:00:00Z"
- },
- "https://bigisland.mychef-hawaii.com/blog/kona-farmers-market-villa-week": {
-  "hash": "",
-  "lastmod": "2026-10-16T00:00:00Z"
  }
 }

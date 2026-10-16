@@ -589,16 +589,17 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
     {
       slug: 'honolulu',
       name: 'Honolulu',
-      h1: 'Private chef in Honolulu, Oʻahu',
-      title: 'Private chef Honolulu — from $195/pp | myCHEF',
+      h1: 'Honolulu residences — dinners in town kitchens, Oʻahu',
+      title: 'Honolulu Residence Dinners | Towers, Kakaʻako & Kahala | myCHEF',
       description:
-        'Private chef Honolulu and personal chef Honolulu from $195/pp. In-residence dinners from Waikīkī to Kahala. Weekly household service for kamaʻāina.',
+        'Dinners in Honolulu residences from $195/pp — Waikīkī towers, Kakaʻako galleys, Gold Coast homes. Freight windows and kitchens checked before the shop.',
       lede:
-        'Honolulu is about residences: private chef and personal chef in the same city. We cook in residences with kitchens — Gold Coast, Waikīkī towers, town apartments.',
+        'Honolulu is about residences. We cook in homes with real kitchens — Gold Coast, Waikīkī towers, town apartments.',
       body: [
         'This is Resident’s Island, not a villa-week clone of Maui. Visitors book a celebration dinner in a town kitchen. Kamaʻāina book a standing weekly cook from $450 plus groceries at cost with receipts. Same team, different rhythm.',
         'Signature sits at $195–$290 a guest — groceries inside that band. Stay Chef from $1,250 a day bills groceries at cost. After either line: 20% service and Hawaiʻi GET up to 4.712% as their own rows. A 50% deposit holds the date. A tip is never required.',
         'Freight elevators, loading docks, quiet hours, and building COIs are arranged before anyone shops — not discovered on Kalākaua the night of service. Compact Kakaʻako and downtown galleys get bring-equipment menus. Standard hotel rooms without a cooktop are declined.',
+        'The town dinner itself books on [private chef Honolulu](/private-chef) — menu, same-day shopping, cooking, service and a clean kitchen. This page is the building-and-kitchen notes for town.',
         'Every neighborhood here is part of our [private chef Oahu](/) service. Nearby: high-rise residences in [Waikīkī](/waikiki); west-side villa weeks in [Ko Olina](/ko-olina).',
         'Full Oʻahu rates are on [the pricing page](/pricing); send your dates on [the quote form](/quote).',
       ],
@@ -1069,16 +1070,17 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
     {
       slug: 'kona',
       name: 'Kona',
-      h1: 'Private chef in Kona, Hawaiʻi Island',
-      title: 'Private chef Kona Hawaii — from $210/pp | myCHEF',
+      h1: 'Kailua-Kona and Keauhou — west-side villa notes, Hawaiʻi Island',
+      title: 'Kailua-Kona & Keauhou Villa Dinners | West Side | myCHEF',
       description:
-        'Private chef Kona and Kailua-Kona from $210/pp. West-side villa dinners, Stay Chef weeks, Ironman-week honesty. Dinners from $165 a guest.',
+        'Kailua-Kona and Keauhou villa dinners from $210/pp, by inquiry. Stay Chef weeks, Ironman-week honesty, dinners from $165 a guest on the simpler table.',
       lede:
-        'Private chef Kona is the west-side corridor — Kailua-Kona, Keauhou, and the south end of the Kohala run. By inquiry: send the shore and the dates, not instant booking.',
+        'Kona town is the west-side corridor — Kailua-Kona, Keauhou, and the south end of the Kohala run. By inquiry: send the shore and the dates, not instant booking.',
       body: [
         'We crew the house properly or we do not take the night. A published band is not a live calendar. Signature sits at $210–$325 a guest — groceries inside that band. Dinners from $165 a guest fit when the kitchen and the list are a shorter night. Stay Chef from $1,450 a day, groceries at cost with receipts.',
         'After either line: 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit holds a date only after we can staff that week. Gratuity is never required. Ironman and other event weeks compress the calendar — flag those dates on the inquiry.',
         'East side is a different day, never a same-afternoon add-on from town. Named Kona coffee follows origin-labeling rules; we do not invent farm names. Hotel rooms without a cooktop are declined.',
+        'The villa dinner itself books on [private chef Kona](/private-chef) — menu, west-side shopping, cooking, service and cleanup, by inquiry. This page is the town-and-corridor notes.',
         'Every neighborhood here is part of our [private chef Big Island](/) service. Nearby: resort residences in [Waikoloa](/waikoloa); ranch elevation in [Waimea](/waimea).',
         'Full Hawaiʻi Island rates are on [the pricing page](/pricing); send your dates on [the quote form](/quote).',
       ],

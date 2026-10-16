@@ -33,13 +33,13 @@ export const residentLine: Record<IslandId, UniqueCell> = {
     photo: 'svcPersonalOahu',
     body: [
       `A personal chef on Oʻahu is recurring or daily cooking for one household. The same kitchen, the same people, dinners through the week or a cook on the days you name. Meal prep means portions for that home, cooked on that stove, packed so the next day still has lunch. It is not a drop-off route across town and not a staffed party. Gluten-free, dairy-free, nut-aware, vegan, and children’s plates are written into the standing menu before the shop, not swapped when the pans are hot.`,
-      `A one-night private chef dinner is different paperwork. Signature dinners are ${oahuSig} a guest, and the groceries for that menu sit inside the band. When the ask is a visitor table in Kahala, Waikīkī, or Ko Olina, open [private chef Oʻahu](/private-chef) or the island home, [private chef Oahu](/). Stay Chef is the villa week: from ${oahuStay} a day for a chef and an assistant and one meal, groceries at cost with receipts. A resident who wants the cook in the house on a daily basis is quoted on that daily-fee shape, for the household, not as a pile of signature dinners.`,
+      `A one-night private chef dinner is different paperwork. Signature dinners are ${oahuSig} a guest, and the groceries for that menu sit inside the band. When the ask is a visitor table in Kahala, Waikīkī, or Ko Olina, open [private chef Honolulu](/private-chef) or the island home, [private chef Oahu](/). Stay Chef is the villa week: from ${oahuStay} a day for a chef and an assistant and one meal, groceries at cost with receipts. A resident who wants the cook in the house on a daily basis is quoted on that daily-fee shape, for the household, not as a pile of signature dinners.`,
       `Oʻahu household dates are bookable. Send the street, the nights, and the restrictions on [the quote form](/quote). A hotel room without a cooktop is declined. After the fee, 20% service and Hawaiʻi GET up to 4.712% print as their own lines. A 50% deposit locks dates you accept. Gratuity is never required. ${DESK}`,
     ],
     faqs: [
       {
         q: 'Who is a Honolulu personal chef actually cooking for?',
-        a: `A household that lives on Resident’s Island — school nights, a used fridge, one address in Honolulu, Kailua, or a town kitchen with a real stove. Visitors who want a single celebration should use [private chef Oʻahu](/private-chef) instead.`,
+        a: `A household that lives on Resident’s Island — school nights, a used fridge, one address in Honolulu, Kailua, or a town kitchen with a real stove. Visitors who want a single celebration should use [private chef Honolulu](/private-chef) instead.`,
       },
       {
         q: 'How is a school-night cook unlike a one-night Kahala dinner?',
@@ -67,7 +67,7 @@ export const residentLine: Record<IslandId, UniqueCell> = {
       },
       {
         q: 'Where should I go if I actually want one private-chef dinner?',
-        a: `Leave this page. The primary dinner is [private chef Oʻahu](/private-chef), and the island overview is [private chef Oahu](/). Signature dinners are ${oahuSig} a guest, groceries included. ${DESK}`,
+        a: `Leave this page. The primary dinner is [private chef Honolulu](/private-chef), and the island overview is [private chef Oahu](/). Signature dinners are ${oahuSig} a guest, groceries included. ${DESK}`,
       },
     ],
     related: [
@@ -80,15 +80,15 @@ export const residentLine: Record<IslandId, UniqueCell> = {
     slug: 'personal-chef',
     name: 'Maui household',
     h1: 'The Maui house you live in — weekly cooking, not a Wailea night.',
-    title: 'Personal chef Maui — the house you live in | myCHEF',
+    title: 'Household Chef Maui | Weekly Cooking for Residents | myCHEF',
     description:
-      'Personal chef Maui for one resident household: daily cooking, dietary menus, and meal prep. A Wailea one-night dinner is booked on the private chef page.',
+      'Household chef for one Maui resident home: weekly cooking, dietary menus and meal prep. A Wailea one-night dinner is booked on the personal chef Maui page.',
     lede:
       'Villa Week is the visitor stay. This page is the opposite: a Kīhei fridge, an Upcountry kitchen, a household that is still here on Thursday.',
     photo: 'svcPersonalMaui',
     body: [
-      `A Maui personal chef cooks for one household on a repeating calendar. Daily dinners, or a few named days, in the kitchen you actually live in. Meal prep is trays and containers for that home, not a resort breakfast buffet and not a staffed lawn. Dietary work — gluten-free, dairy-free, nut-aware, vegan, children’s plates — is written before the shop so the week does not depend on improvising at six.`,
-      `Do not use this page for a single arrival dinner. That night is a signature dinner at ${mauiSig} a guest, groceries inside the band, on [private chef Maui](/private-chef). The island overview is [private chef Maui](/). Stay Chef, from ${mauiStay} a day, is how a villa week is priced: crew and one meal, groceries at cost with receipts. A resident who wants the same cook back through the week is quoted on that daily fee for their own house. Upcountry still carries its travel line. A Wailea one-off is not “local” because the calendar says Tuesday.`,
+      `A Maui household chef cooks for one household on a repeating calendar. Daily dinners, or a few named days, in the kitchen you actually live in. Meal prep is trays and containers for that home, not a resort breakfast buffet and not a staffed lawn. Dietary work — gluten-free, dairy-free, nut-aware, vegan, children’s plates — is written before the shop so the week does not depend on improvising at six.`,
+      `Do not use this page for a single arrival dinner. That night is a signature dinner at ${mauiSig} a guest, groceries inside the band, on [personal chef Maui](/private-chef). The island overview is [private chef Maui](/). Stay Chef, from ${mauiStay} a day, is how a villa week is priced: crew and one meal, groceries at cost with receipts. A resident who wants the same cook back through the week is quoted on that daily fee for their own house. Upcountry still carries its travel line. A Wailea one-off is not “local” because the calendar says Tuesday.`,
       `Maui household service is bookable. Put the town — Kīhei, Kahului, Upcountry, Pāʻia — on [the quote form](/quote) with the nights and the restrictions. Hotel rooms without a range are declined. 20% service and Hawaiʻi GET up to 4.712% stay separate. A 50% deposit holds dates you accept. Gratuity is never required. ${DESK}`,
     ],
     faqs: [
@@ -122,7 +122,7 @@ export const residentLine: Record<IslandId, UniqueCell> = {
       },
       {
         q: 'Where is the one-night private chef if that is the real Maui ask?',
-        a: `On [private chef Maui](/private-chef), with the island home at [private chef Maui](/). Signature dinners are ${mauiSig} a guest, groceries included. ${DESK}`,
+        a: `On [personal chef Maui](/private-chef), with the island home at [private chef Maui](/). Signature dinners are ${mauiSig} a guest, groceries included. ${DESK}`,
       },
     ],
     related: [
@@ -135,15 +135,15 @@ export const residentLine: Record<IslandId, UniqueCell> = {
     slug: 'personal-chef',
     name: 'Kauaʻi household',
     h1: 'Kapaʻa and South Shore households — inquiry, not a visitor roster.',
-    title: 'Personal chef Kauai — ask before a roster | myCHEF',
+    title: 'Household Chef Kauai | Resident Kitchens by Inquiry | myCHEF',
     description:
-      'Personal chef for a Kauaʻi household, by inquiry: recurring cooking on both shores, dietary menus, and meal prep for one home. Not a visitor dinner.',
+      'Household chef for a Kauaʻi resident home, by inquiry: recurring cooking on both shores, dietary menus and meal prep. Visitor dinners book on personal chef Kauai.',
     lede:
       'Garden Isle retreat visitors have their own page. This one is a resident kitchen — east-side Kapaʻa weeknights or a South Shore household — and it stays an inquiry.',
     photo: 'svcPersonalKauai',
     body: [
       `Household cooking on Kauaʻi means one home, repeating days, food for the people who live there. An east-side weeknight in Kapaʻa is a different drive from a South Shore house, and both can be asked. Daily cooking and meal prep stay inside that household: served dinners or packed portions, dietary plates written ahead. We do not pretend a live resident roster exists, and we do not turn a Princeville vacation into a “local weekly” because the guest asked.`,
-      `A one-night private chef dinner is the visitor product. Signature dinners are ${kauaiSig} a guest, groceries inside the band, by inquiry, on [private chef Kauaʻi](/private-chef). The island home is [private chef Kauai](/). Stay Chef, from ${kauaiStay} a day, is the retreat week: crew and one meal, groceries at cost with receipts, still only when a crew can take the shore. A resident who wants a cook back through the week is quoted on that daily fee for their own house, not as a stack of signature dinners. Far-North households still inherit the Hanalei bridge: weather moves the day, it does not forfeit it.`,
+      `A one-night private chef dinner is the visitor product. Signature dinners are ${kauaiSig} a guest, groceries inside the band, by inquiry, on [personal chef Kauai](/private-chef). The island home is [private chef Kauai](/). Stay Chef, from ${kauaiStay} a day, is the retreat week: crew and one meal, groceries at cost with receipts, still only when a crew can take the shore. A resident who wants a cook back through the week is quoted on that daily fee for their own house, not as a stack of signature dinners. Far-North households still inherit the Hanalei bridge: weather moves the day, it does not forfeit it.`,
       `Kauaʻi household service is inquiry only. There is no booking button. Name the shore and the nights on [the quote form](/quote). 20% service and Hawaiʻi GET up to 4.712% print as separate lines when a quote exists. A 50% deposit waits until a crew is real and you accept the writing. Gratuity is never required. ${DESK}`,
     ],
     faqs: [
@@ -153,7 +153,7 @@ export const residentLine: Record<IslandId, UniqueCell> = {
       },
       {
         q: 'How is a Kapaʻa weeknight different from a Princeville dinner?',
-        a: `Kapaʻa weeknights are the resident ask on this page. A Princeville dinner is usually one visitor night at ${kauaiSig} a guest, shopping included, and it lives on [private chef Kauaʻi](/private-chef). The drives are not the same, and neither is instant.`,
+        a: `Kapaʻa weeknights are the resident ask on this page. A Princeville dinner is usually one visitor night at ${kauaiSig} a guest, shopping included, and it lives on [personal chef Kauai](/private-chef). The drives are not the same, and neither is instant.`,
       },
       {
         q: 'Can a Kauaʻi resident request daily cooking, or only guests?',
@@ -177,7 +177,7 @@ export const residentLine: Record<IslandId, UniqueCell> = {
       },
       {
         q: 'Where should a visitor go for one Kauaʻi private-chef dinner?',
-        a: `To [private chef Kauaʻi](/private-chef), or the island home at [private chef Kauai](/). Signature dinners are ${kauaiSig} a guest. This household page will not take that booking. ${DESK}`,
+        a: `To [personal chef Kauai](/private-chef), or the island home at [private chef Kauai](/). Signature dinners are ${kauaiSig} a guest. This household page will not take that booking. ${DESK}`,
       },
     ],
     related: [
@@ -198,7 +198,7 @@ export const residentLine: Record<IslandId, UniqueCell> = {
     photo: 'svcPersonalBigisland',
     body: [
       `Personal-chef cooking on Hawaiʻi Island is for one west-side household. Kona town, Keauhou, Waikoloa, or a Kohala house someone actually lives in. The work is recurring: daily dinners or named weeknights, plus meal prep that stays in that fridge. Dietary plates — gluten-free, dairy-free, nut-aware, vegan, children — are written before a Kona-side shop. Hilo, Volcano, and Kaʻū are not a Tuesday add-on to a Kona household day.`,
-      `A one-night private chef dinner is the visitor ask. Usual west-side dinners are ${biSig} a guest, groceries inside the band. A simpler table starts from ${biSimple} a guest. Both sit on [private chef Big Island](/private-chef). The island overview is [private chef Big Island](/). Stay Chef, from ${biStay} a day, prices a multi-day cook: crew and one meal, groceries at cost with receipts. A resident who wants that cook on repeating days is quoted on the daily fee for their own kitchen, not as a row of signature dinners. Both stay inquiry. A published rate is not a crew.`,
+      `A one-night private chef dinner is the visitor ask. Usual west-side dinners are ${biSig} a guest, groceries inside the band. A simpler table starts from ${biSimple} a guest. Both sit on [private chef Kona](/private-chef). The island overview is [private chef Big Island](/). Stay Chef, from ${biStay} a day, prices a multi-day cook: crew and one meal, groceries at cost with receipts. A resident who wants that cook on repeating days is quoted on the daily fee for their own kitchen, not as a row of signature dinners. Both stay inquiry. A published rate is not a crew.`,
       `Join the west-side household inquiry on [the quote form](/quote). Say the town, the nights, and the restrictions. 20% service and Hawaiʻi GET up to 4.712% print separately when we can write a total. A 50% deposit waits until a crew exists and you accept it. Gratuity is never required. ${DESK}`,
     ],
     faqs: [
@@ -208,7 +208,7 @@ export const residentLine: Record<IslandId, UniqueCell> = {
       },
       {
         q: 'How is a Kona weeknight unlike a one-night Kohala dinner?',
-        a: `The weeknight comes back to the same fridge. The Kohala dinner is a single visitor night, usually ${biSig} a guest with the shopping included, on [private chef Big Island](/private-chef). Expedition guests and Kona residents are not booked on the same form.`,
+        a: `The weeknight comes back to the same fridge. The Kohala dinner is a single visitor night, usually ${biSig} a guest with the shopping included, on [private chef Kona](/private-chef). Expedition guests and Kona residents are not booked on the same form.`,
       },
       {
         q: 'Can one household ask for daily cooking during a west-side week?',
@@ -232,7 +232,7 @@ export const residentLine: Record<IslandId, UniqueCell> = {
       },
       {
         q: 'Where do I go for a one-night private chef instead of household cooking?',
-        a: `Open [private chef Big Island](/private-chef) or the island home, [private chef Big Island](/). Usual dinners are ${biSig} a guest, groceries included. This page will not take that one-night booking. ${DESK}`,
+        a: `Open [private chef Kona](/private-chef) or the island home, [private chef Big Island](/). Usual dinners are ${biSig} a guest, groceries included. This page will not take that one-night booking. ${DESK}`,
       },
     ],
     related: [

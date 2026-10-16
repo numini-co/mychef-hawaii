@@ -41,7 +41,7 @@ export const feeStackPages: Record<IslandId, UniqueCell> = {
     photo: 'svcCostOahu',
     body: [
       `A signature dinner on Resident’s Island is ${oahuSig} a guest. That figure already pays for the menu, the Honolulu shop, the cooking, the service, and leaving the kitchen clean. Groceries are inside the band. Do not look for a second line that says the shopping is extra.`,
-      `Stay Chef is the other shape: from ${oahuStay} a day for the crew and one meal, then groceries at cost with the store receipts and no markup. A Gold Coast celebration and a week in the house never share one grocery rule. The dinner itself is on [private chef Oʻahu](/private-chef). The card is [Oʻahu pricing](/pricing).`,
+      `Stay Chef is the other shape: from ${oahuStay} a day for the crew and one meal, then groceries at cost with the store receipts and no markup. A Gold Coast celebration and a week in the house never share one grocery rule. The dinner itself is on [private chef Honolulu](/private-chef). The card is [Oʻahu pricing](/pricing).`,
       `After the food, every written quote adds a 20% service charge and Hawaiʻi GET up to 4.712%, each once. A 50% deposit locks the date only after you accept that total. Gratuity is never required and is not tucked into the guest price. North Shore and Turtle Bay travel prints on its own line. Kahala, Ko Olina, Kailua, and Waikīkī residences with a real cooktop do not get that drive line.`,
       `Oʻahu takes a written quote. Send the street on [the quote form](/quote). ${DESK}`,
     ],
@@ -76,7 +76,7 @@ export const feeStackPages: Record<IslandId, UniqueCell> = {
       },
       {
         q: 'Where do I send a Honolulu or Ko Olina address for the written total?',
-        a: `On [the quote form](/quote), with the street, the date, and the headcount. The dinner page is [private chef Oʻahu](/private-chef). ${DESK} Nothing is charged to ask.`,
+        a: `On [the quote form](/quote), with the street, the date, and the headcount. The dinner page is [private chef Honolulu](/private-chef). ${DESK} Nothing is charged to ask.`,
       },
     ],
     related: [
@@ -97,7 +97,7 @@ export const feeStackPages: Record<IslandId, UniqueCell> = {
     photo: 'svcCostMaui',
     body: [
       `A Villa Week signature dinner is ${mauiSig} a guest. Shopping for that menu is inside the price: the fish, the produce, the cooking in the rental kitchen, service, and a clean pass. There is no extra grocery line on that night.`,
-      `A chef for the whole stay is Stay Chef, from ${mauiStay} a day, and that day bills groceries at cost with merchant receipts. Four Wailea dinners are not the same invoice as one daily fee. Read the night on [private chef Maui](/private-chef) and the card on [Maui pricing](/pricing).`,
+      `A chef for the whole stay is Stay Chef, from ${mauiStay} a day, and that day bills groceries at cost with merchant receipts. Four Wailea dinners are not the same invoice as one daily fee. Read the night on [personal chef Maui](/private-chef) and the card on [Maui pricing](/pricing).`,
       `The quote then lists 20% service and Hawaiʻi GET up to 4.712% separately. Fifty percent is due when you accept the writing, and that deposit locks the date. A tip is never required. Upcountry — Kula, Makawao, the climb — takes a published travel line. Kāʻanapali, Lahaina, and Kapalua do not; the long Saturday drive is scheduled, not surcharged.`,
       `Maui quotes are open. Name the shore on [the quote form](/quote). ${DESK}`,
     ],
@@ -132,7 +132,7 @@ export const feeStackPages: Record<IslandId, UniqueCell> = {
       },
       {
         q: 'How do I ask for the written total for Wailea, Kapalua, or Kāʻanapali?',
-        a: `Use [the quote form](/quote) and name the shore in the first line. The dinner page is [private chef Maui](/private-chef). ${DESK} Asking is free.`,
+        a: `Use [the quote form](/quote) and name the shore in the first line. The dinner page is [personal chef Maui](/private-chef). ${DESK} Asking is free.`,
       },
     ],
     related: [
@@ -153,7 +153,7 @@ export const feeStackPages: Record<IslandId, UniqueCell> = {
     photo: 'svcCostKauai',
     body: [
       `When a crew can take the shore, a signature dinner is ${kauaiSig} a guest. The shopping for that menu is inside the price. A Princeville estate and a Poʻipū house use the same dinner band. What changes is the drive, written on its own line, not stirred into the food.`,
-      `Stay Chef for a retreat week starts at ${kauaiStay} a day. That fee is the crew. Groceries on those days are at cost, with receipts. Do not ask a one-night menu to be rewritten as a day rate plus a grocery bill. The night is [private chef Kauaʻi](/private-chef). The card is [Kauaʻi pricing](/pricing).`,
+      `Stay Chef for a retreat week starts at ${kauaiStay} a day. That fee is the crew. Groceries on those days are at cost, with receipts. Do not ask a one-night menu to be rewritten as a day rate plus a grocery bill. The night is [personal chef Kauai](/private-chef). The card is [Kauaʻi pricing](/pricing).`,
       `An inquiry quote still itemizes 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit applies only after a crew exists and you accept the total. Gratuity is never required. Far-North houses past the Hanalei bridge need the weather clause: a closure reschedules the day. We will not hold a fake roster or an instant-book calendar.`,
       `Join the inquiry on [the quote form](/quote) with the shore named. ${DESK}`,
     ],
@@ -209,7 +209,7 @@ export const feeStackPages: Record<IslandId, UniqueCell> = {
     photo: 'svcCostBigisland',
     body: [
       `Most west-side villa dinners are ${biSig} a guest, and the groceries for that menu already sit inside it. A shorter, simpler table starts from ${biSimple} a guest, and that price includes its own shopping too. Neither dinner is labeled “plus groceries at cost.”`,
-      `Stay Chef is the multi-day expedition: from ${biStay} a day for the crew and one meal, groceries at cost with receipts and no markup. A Kohala terrace night and a week in the house are not one invoice. The dinner page is [private chef Big Island](/private-chef). The card is [Big Island pricing](/pricing). The island home is [private chef Big Island](/).`,
+      `Stay Chef is the multi-day expedition: from ${biStay} a day for the crew and one meal, groceries at cost with receipts and no markup. A Kohala terrace night and a week in the house are not one invoice. The dinner page is [private chef Kona](/private-chef). The card is [Big Island pricing](/pricing). The island home is [private chef Big Island](/).`,
       `After the food, a west-side inquiry shows 20% service and Hawaiʻi GET up to 4.712% once each. A 50% deposit locks a date only after a crew can hold it and you accept the writing. Gratuity is never required. Kona through the Kohala Coast is the base. Waimea and Hāmākua take a travel line of their own. Hilo and Volcano are a dedicated day — two-and-a-half to three hours — never a west-side round trip hidden in the guest price.`,
       `This island is inquiry only. A published range is not a calendar. ${DESK}`,
     ],
@@ -244,7 +244,7 @@ export const feeStackPages: Record<IslandId, UniqueCell> = {
       },
       {
         q: 'Where do I send a Kona or Kohala address for the written inquiry?',
-        a: `On [the quote form](/quote). Say west side or east side in the first line. The dinner is [private chef Big Island](/private-chef); the overview is [the island home](/). ${DESK} Nothing is charged to ask.`,
+        a: `On [the quote form](/quote). Say west side or east side in the first line. The dinner is [private chef Kona](/private-chef); the overview is [the island home](/). ${DESK} Nothing is charged to ask.`,
       },
     ],
     related: [
