@@ -59,7 +59,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       photo: 'helpMenuOahu',
       body: [
         'The sample on the menus page is an example, not a standing carte. We do not print farm names we have not verified.',
-        'Kahala dining rooms and Ko Olina villas are the usual rooms. Gold Coast houses: Gold Coast. The draft names the catch and the fire, not a theatrical luau.',
+        'Kahala dining rooms and Ko Olina villas are the usual rooms. A Gold Coast house needs a real dining table before the draft names plated courses. The draft names the catch and the fire, not a theatrical luau.',
       ],
       faqs: [
         {
@@ -137,7 +137,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       photo: 'helpBookingOahu',
       body: [
         'Fifty percent locks the date. Service 20% and GET up to 4.712% print as their own lines. Gratuity is voluntary.',
-        'Headcount and dietary changes go in writing. Gold Coast houses: Gold Coast. Short-stay villas: Short-stay villas. We do not hold a date on a verbal yes.',
+        'Headcount and dietary changes go in writing. A Gold Coast house and a Ko Olina short-stay villa each keep their own quote. We do not hold a date on a verbal yes.',
       ],
       faqs: [
         {

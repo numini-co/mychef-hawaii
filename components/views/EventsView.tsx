@@ -2,7 +2,7 @@ import { QuoteCta } from '@/components/Cta';
 import Hero from '@/components/Hero';
 import JsonLd from '@/components/JsonLd';
 import LineReveal from '@/components/LineReveal';
-import { LongFaq, SiblingCluster } from '@/components/Longform';
+import { LongFaq, Longform, SiblingCluster } from '@/components/Longform';
 import QuoteTeaser from '@/components/QuoteTeaser';
 import DocumentPhotoGrid from '@/components/DocumentPhotoGrid';
 import { eventOffers } from '@/data/events';
@@ -44,6 +44,8 @@ export function IslandEventsView({ islandId, hostMode }: { islandId: IslandId; h
           <QuoteCta island={islandId} service="catering-events" variant="light" />
         </div>
       </Hero>
+
+      <Longform sections={[{ h2: offer.guideHeading, paras: offer.body }]} />
 
       <DocumentPhotoGrid
         islandId={islandId}
