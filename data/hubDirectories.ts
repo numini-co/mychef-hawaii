@@ -342,7 +342,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
         a: 'A birthday is the birthday page on the island that has the house. A welcome dinner is the first night of a stay. They are different lines. Open that island’s events list, then the night. This hub does not blend them.',
       },
       {
-        q: 'When do a villa party and an anniversary stay on the occasion list?',
+        q: 'When should a villa party and an anniversary stay on the occasion pages?',
         a: 'A villa party is the larger house gathering. An anniversary is the small table, often two seats. Both stay on the island occasion pages until the room needs a staffed service. Then open [Hawaii catering](/catering).',
       },
       {
@@ -736,11 +736,11 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
         a: 'Yes. The coordinator sequences the asks. The cooks stay on their island. A Friday on Oʻahu and a Saturday on Maui are two quotes, even in one email thread.',
       },
       {
-        q: 'Why open an island corporate page instead of staying here?',
+        q: 'Why should I open the island’s offsite page instead of staying on this one?',
         a: 'This page only routes. The island page chooses one executive dinner, a house offsite night, or a full-board retreat, then the planning brief. Format decisions live on that host.',
       },
       {
-        q: 'How do I start a statewide offsite without naming two islands as one job?',
+        q: 'How do I start an offsite on more than one island without treating them as one booking?',
         a: `Name one island per night on [the quote form](/quote), or open that island’s corporate page first. Desk: ${desk}.`,
       },
     ],

@@ -1,11 +1,14 @@
 import type { IslandId } from './islands';
 import { SEARCH_VOLUMES } from './offers';
 import type { UniqueCell } from './uniqueCells';
+import { DESK_EMAIL, DESK_PHONE_DISPLAY, DESK_TEL, DESK_WHATSAPP } from '@/lib/contact';
 
 /**
  * Catalog service cells that stay off the money-keyword doors.
  * Meal prep / classes / omakase are honesty pages until a bench exists.
  */
+
+const desk = `${DESK_EMAIL}, +1 ${DESK_PHONE_DISPLAY} (${DESK_TEL}), WhatsApp ${DESK_WHATSAPP}`;
 
 export const gatedServices: Record<IslandId, UniqueCell[]> = {
   oahu: [
@@ -137,12 +140,28 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       ],
       faqs: [
         {
-          q: 'Can you staff a convention lunch?',
-          a: 'No. Citywides are closed through 2027 and are not our product.',
+          q: 'Will you staff a convention lunch at the Hawaiʻi Convention Center?',
+          a: 'No. Citywides are closed through 2027 and are not our product. This page is one executive dinner in a Kahala or Ko Olina house, not a downtown ballroom.',
         },
         {
-          q: 'Production crew in a house?',
-          a: 'Call-time breakfasts in a residence, yes. A stage downtown, no.',
+          q: 'Can a production crew eat in a Kahala house or a Ko Olina villa?',
+          a: 'Call-time breakfasts in a residence, yes. A stage downtown, no. Send the house address, not a venue name, on [the quote form](/quote).',
+        },
+        {
+          q: 'What does the menu for one Honolulu executive dinner actually contain?',
+          a: 'A menu written for that table, not a standing carte. Say whether the board wants plated courses or shared platters, plus seats and the dietary list. Food bands sit on [pricing](/pricing).',
+        },
+        {
+          q: 'When does the crew reach a Kahala board dinner?',
+          a: 'About three hours before service, and only after a tower freight window is booked. A Ko Olina villa can sit later because the house itself is the venue. The quote states that window.',
+        },
+        {
+          q: 'Who else is in the dining room besides the chef?',
+          a: 'Ask for a server and a sous chef when the board table needs a floor. Their hours are separate from the food. See [staffing](/staffing). A bartender is quoted in writing, with no hourly figure. Then 20% service and Hawaiʻi GET up to 4.712% print alone, and a 50% deposit after you accept. Gratuity is never required.',
+        },
+        {
+          q: 'What must the Honolulu kitchen have before that dinner is accepted?',
+          a: `A cooktop, a fridge, and a table the board can use. A hotel suite with a coffee maker is declined. Send kitchen photos with the address on [the quote form](/quote). Quotes are open. Desk: ${desk}.`,
         },
       ],
       related: [
@@ -306,12 +325,28 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       ],
       faqs: [
         {
-          q: 'Hotel conference lunch?',
-          a: 'No. Residences and villas. Ballrooms are not the product.',
+          q: 'Will you serve a hotel conference lunch in Wailea or Kāʻanapali?',
+          a: 'No. Residences and villas. Ballrooms are not the product. This page is one executive dinner in the rental kitchen. A resort name does not add a banquet floor.',
         },
         {
-          q: 'Production in a South Maui house?',
-          a: 'Call-time breakfasts in a residence, yes.',
+          q: 'Can a film or photo crew take breakfast in a South Maui house?',
+          a: 'Call-time breakfasts in a residence, yes. We still need a cooktop in that house. Being on hotel property is not a kitchen. Name the rental on [the quote form](/quote).',
+        },
+        {
+          q: 'How is one Wailea leadership menu different from cooking the whole week?',
+          a: 'One designed dinner, plated on the lanai or shared down the table. A week of meals is a retreat, not this page. Put the shore and the seats on the quote. Bands are on [pricing](/pricing). Quotes are open.',
+        },
+        {
+          q: 'What time does a West Maui executive dinner actually begin?',
+          a: 'The cook is in the rental about three hours before the first plate. A Saturday drive from Wailea toward Kapalua is planned into that arrival. We will not discover Honoapiʻilani after you have accepted.',
+        },
+        {
+          q: 'Who stands with the chef on a Kapalua leadership night?',
+          a: 'A server and a sous chef if the lanai needs a floor, with hours apart from the food. Open [staffing](/staffing). A bartender is quoted in writing. 20% service and GET up to 4.712% follow, each alone. A 50% deposit comes after you accept. Gratuity is never required.',
+        },
+        {
+          q: 'What does the Wailea villa kitchen need for that single dinner?',
+          a: `A cooktop, a fridge, and a lanai or dining table the group can use. If trade winds close the lawn, the backup is the dining room, written before you accept. Send photos of both. Desk: ${desk}.`,
         },
       ],
       related: [
@@ -478,8 +513,28 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       ],
       faqs: [
         {
-          q: 'Can you staff a Līhuʻe conference?',
-          a: 'No. Estates and villas. Not a convention product.',
+          q: 'Can you staff a conference in Līhuʻe?',
+          a: 'No. Estates and villas. Not a convention product. Request availability for a house with a kitchen, and name the shore. A meeting room in town is a decline.',
+        },
+        {
+          q: 'Can a production crew eat at a Princeville estate or in a Poʻipū house?',
+          a: 'Call-time meals in an estate, yes, if a crew can take that shore. Request availability. A named house is not a confirmed team. South and north are different drives.',
+        },
+        {
+          q: 'What does one Garden Isle executive dinner include?',
+          a: 'One table, one shore, and a menu written for that kitchen. North mist and south sun are not interchangeable. Request availability on [the quote form](/quote). There is no instant confirm.',
+        },
+        {
+          q: 'How do rain and the Hanalei bridge change the clock on a north-shore dinner?',
+          a: 'We build the call around the road. A bridge closure moves the night. It does not forfeit the night, and it does not quietly become Poʻipū. The south shore does not inherit that clause. Name the shore before anyone shops.',
+        },
+        {
+          q: 'How do I ask for servers at a Poʻipū executive dinner while Kauaʻi is still an inquiry?',
+          a: 'Name them in the availability request. Server and sous-chef hours sit apart from the menu. See [staffing](/staffing). A bartender is quoted in writing. 20% service and GET up to 4.712% print alone. A 50% deposit waits for a written yes. Gratuity is never required.',
+        },
+        {
+          q: 'What must a kitchen on either shore have before an executive dinner is considered?',
+          a: `A cooktop, a fridge, and seats, shown in photos. The north also needs a covered backup. Poʻipū is the shorter drive from Līhuʻe and still needs a wet-weather note. Request availability. Desk: ${desk}.`,
         },
       ],
       related: [
@@ -646,12 +701,28 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       ],
       faqs: [
         {
-          q: 'Can you add a Hilo day onto a Waikoloa offsite?',
-          a: 'As its own dedicated team day, quoted. Not as an unpaid errand.',
+          q: 'Can a Hilo day be added onto a Waikoloa executive dinner?',
+          a: 'As its own dedicated day, with its own crew. Not as an unpaid errand, and not the same afternoon. Join the inquiry list for the west side, or send Hilo alone. We will not imply both.',
         },
         {
-          q: 'Ironman week offsite?',
-          a: 'Flag dates early. Town compresses.',
+          q: 'What should we flag when an executive dinner falls in Ironman week?',
+          a: 'Flag the dates on the inquiry. Kona roads and the grocery window compress. The kitchen does not grow. Join the inquiry list early. A published page is not a held crew.',
+        },
+        {
+          q: 'What does one west-side executive dinner include, and what is left out?',
+          a: 'One leadership table in Kona, Waikoloa, or along the Kohala Coast, with a menu for that house. Hilo is not inside it. Join the inquiry list on [the quote form](/quote) and give the west-side address.',
+        },
+        {
+          q: 'How does the drive between Kona town and Kohala set the timing of a single dinner?',
+          a: 'The cook is on site with time to set the kitchen before service. A Waikoloa night and a Kona town night are not stacked on one clock. We do not start that drive after a same-day stop in Hilo.',
+        },
+        {
+          q: 'How do I request a server and a sous chef for a Kohala executive dinner?',
+          a: 'Name them on the inquiry. Their hours are separate from the food. See [staffing](/staffing). A bartender is quoted in writing, with no hourly figure. 20% service and Hawaiʻi GET up to 4.712% follow, each alone. A 50% deposit applies after a written yes. Gratuity is never required.',
+        },
+        {
+          q: 'Which Waikoloa rooms can hold the leadership dinner, and which are turned down?',
+          a: `We need a cooktop, a fridge, and a table the group can use. A hotel room with a minibar is declined. Say terrace or great room. We confirm the room in the reply, before any deposit. Join the inquiry list. Desk: ${desk}.`,
         },
       ],
       related: [

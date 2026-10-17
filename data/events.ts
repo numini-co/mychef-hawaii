@@ -51,7 +51,7 @@ export const eventOffers: Record<IslandId, EventOffer> = {
     ],
     faqs: [
       {
-        q: 'Which headcount stays a Kahala occasion, and which should leave this list?',
+        q: 'How many guests can stay a Kahala occasion, and when should we book catering instead?',
         a: 'If the dining room seats the list, stay on the occasion page that names the night. If the house needs stations and a floor, open [Oahu catering](/catering). We will not stretch a Gold Coast dining room past the chairs. Put the seat count on [the quote form](/quote).',
       },
       {
@@ -75,11 +75,11 @@ export const eventOffers: Record<IslandId, EventOffer> = {
         a: 'One coordinator, one thread, a line for each night. A welcome dinner and a later birthday do not blend into one total. A wedding week belongs on [wedding week](/weddings). Service at 20% and Hawaiʻi GET up to 4.712% print as their own lines. A 50% deposit follows acceptance. Gratuity is never required.',
       },
       {
-        q: 'Does a Ko Olina villa party share a line with a Honolulu anniversary?',
+        q: 'Does a Ko Olina villa party share one total with a Honolulu anniversary?',
         a: 'No. [Villa parties](/events/villa-parties) are the larger house list. [Anniversaries](/events/anniversaries) are the small table. They can share a coordinator across a week. They do not share a line. Town freight and a villa arrival are different notes.',
       },
       {
-        q: 'Does a town tower occasion need anything beyond the five fields?',
+        q: 'Does a town-tower occasion need more than the usual quote details?',
         a: `Yes. Name the freight window and whether the table is a dining room or a lānai. Those notes make a Honolulu night real. Quotes are open. Desk: ${desk}.`,
       },
     ],
@@ -141,7 +141,7 @@ export const eventOffers: Record<IslandId, EventOffer> = {
         a: 'Yes, when there are no vows. [Brunch](/events/brunch) and [birthdays](/events/birthdays) are two lines with one coordinator. Welcome, rehearsal, reception, and brunch as a wedding belong on [wedding week](/weddings). 20% service and GET up to 4.712% stay separate lines. Gratuity is never required.',
       },
       {
-        q: 'Why does a Saturday Kapalua occasion need the shore in the first line?',
+        q: 'Why does a Saturday Kapalua occasion need the shore named first?',
         a: `The drive from Wailea changes the call time, and a west-side gust is not a south-shore lawn. Put the shore on [the quote form](/quote) with the occasion. Quotes are open. Desk: ${desk}.`,
       },
     ],
@@ -203,7 +203,7 @@ export const eventOffers: Record<IslandId, EventOffer> = {
         a: 'Yes, as two lines and one coordinator, if a crew can hold both shores. They are not one blended night. A wedding week belongs on [wedding week](/weddings). 20% service and GET up to 4.712% print alone. A 50% deposit waits for a written yes. Gratuity is never required.',
       },
       {
-        q: 'How do I request availability for an occasion without treating this page as booked?',
+        q: 'How do I request availability for an occasion when this page is not a confirmed booking?',
         a: `Name the shore, the dates, the seats, and the occasion. Request availability on [the quote form](/quote). There is no instant-booking button. Desk: ${desk}.`,
       },
     ],
@@ -237,7 +237,7 @@ export const eventOffers: Record<IslandId, EventOffer> = {
     ],
     faqs: [
       {
-        q: 'Which west-side list stays on an occasion page?',
+        q: 'Which west-side guest count should stay on an occasion page?',
         a: 'A table the house can seat, on the Kona–Kohala side, stays on the occasion that names the night. When the villa needs a staffed room, open [Big Island catering](/catering). Join the inquiry list with the address. A published page is not a held crew.',
       },
       {
@@ -245,11 +245,11 @@ export const eventOffers: Record<IslandId, EventOffer> = {
         a: 'Arrival night in Kona or Keauhou is [welcome dinners](/events/welcome-dinners). A later terrace list in Waikoloa or along the Kohala Coast is [villa parties](/events/villa-parties). They can share a coordinator. They are not one line, and neither includes Hilo.',
       },
       {
-        q: 'What should the quote record if the terrace is plated and the great room is family-style?',
+        q: 'If the terrace would be plated and the great room family-style, which room should the quote use?',
         a: 'The service style of the room you will actually use. Plated needs a clear path from the pass to each seat. Family-style puts platters on one table. Write which room. Do not leave it for the crew to guess on the day.',
       },
       {
-        q: 'How does a west-side occasion night run when the Kona–Kohala drive is the clock?',
+        q: 'How does a west-side occasion night run when the drive between Kona and Kohala sets the timing?',
         a: 'The cook is on site with time to set the kitchen before service. A Waikoloa night and a Kona town night are not stacked on one clock. The inquiry states the resort or the town. We do not start the drive after a same-day Hilo stop.',
       },
       {
@@ -257,7 +257,7 @@ export const eventOffers: Record<IslandId, EventOffer> = {
         a: 'A cooktop, a fridge, and a table or terrace that seats the list. A hotel room with a minibar is declined. Tell us if the night is indoors or on the lava terrace. We confirm that in writing before any deposit.',
       },
       {
-        q: 'If wind shuts the lava terrace, where is the backup written?',
+        q: 'If wind shuts the lava terrace, where do we move dinner?',
         a: 'In the inquiry, as the great room or a covered edge of the same house. We do not add a tent after you have accepted. If those indoor seats cannot hold the list, the reply says so. The terrace is not assumed.',
       },
       {
