@@ -1,12 +1,15 @@
 import type { IslandId } from './islands';
 import { SEARCH_VOLUMES } from './offers';
 import type { UniqueCell } from './uniqueCells';
+import { DESK_EMAIL, DESK_PHONE_DISPLAY, DESK_TEL, DESK_WHATSAPP } from '@/lib/contact';
 
 /**
  * Catalog HELP_SLUGS — first-booking documents, not money-keyword doors.
  * Distinct from /faq, /how-it-works, /weddings, /corporate-catering,
  * /events/corporate-events, and /quote.
  */
+
+const desk = `${DESK_EMAIL}, +1 ${DESK_PHONE_DISPLAY} (${DESK_TEL}), WhatsApp ${DESK_WHATSAPP}`;
 
 export const HELP_SLUGS = [
   'getting-started',
@@ -116,8 +119,28 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       ],
       faqs: [
         {
-          q: 'Can you cater a citywide?',
-          a: 'No. Residences and villas only.',
+          q: 'If the brief is a citywide at the convention centre, will you take it?',
+          a: 'No. Residences and villas only. Send a house address in Kahala, Ko Olina, or town. A conference title is not a brief we can cook from.',
+        },
+        {
+          q: 'What do I put in an Oʻahu offsite brief?',
+          a: 'Dates, headcount, the house address, kitchen photos, the dietary list, and the person who can approve the total. A tower also needs the freight window. Use [the quote form](/quote). We do not draft a menu from a ballroom name.',
+        },
+        {
+          q: 'When should that brief go in, and when does a written quote come back?',
+          a: 'Send it once the house and the dates are held. We reply in Hawaii business hours. The menu draft follows about 48 hours after a complete request. A 50% deposit holds the date after you accept. A verbal yes does not.',
+        },
+        {
+          q: 'What do you check in the house before an Oʻahu quote is accepted?',
+          a: 'A cooktop, a fridge, and a table, judged from the photos rather than the listing headline. A hotel room with a coffee maker is declined before any deposit. Kahala dining rooms and Ko Olina villas are the usual yes.',
+        },
+        {
+          q: 'How do we sign off the menu and lock the final headcount?',
+          a: 'Approve the draft in writing. Headcount and dietary changes go in writing after that. The quote is the contract, not the chat. If the seats change, the total is rewritten before the deposit.',
+        },
+        {
+          q: 'Who is allowed to accept the Honolulu total?',
+          a: `The person who can say yes to the written quote. A coordinator may send the photos. The approval still has to be in writing. Quotes are open. Desk: ${desk}.`,
         },
       ],
       related: [
@@ -251,8 +274,28 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       ],
       faqs: [
         {
-          q: 'Can you do a hotel ballroom?',
-          a: 'No. Residences and villas.',
+          q: 'Will you cook a hotel ballroom if the brief only names the resort?',
+          a: 'No. Residences and villas. A resort name is not a kitchen. Put the rental address, not the banquet office, in the brief.',
+        },
+        {
+          q: 'What belongs in a Maui offsite brief before any dishes are discussed?',
+          a: 'The shore, dates, headcount, house address, kitchen photos, dietary list, and who approves. Say whether Saturday crosses from Wailea toward Kapalua. That drive changes the call time. Send it on [the quote form](/quote).',
+        },
+        {
+          q: 'When do I send a Wailea brief, and when is the date actually held?',
+          a: 'Send it when the villa contract is signed. We reply in Hawaii business hours. The menu draft follows about 48 hours after a complete request. A 50% deposit holds the date after you accept. A verbal yes does not hold it.',
+        },
+        {
+          q: 'What do you look at in a West Maui rental before writing the quote?',
+          a: 'Cooktop, fridge, and whether dinner is the lawn or the dining room. Photos of both. A minibar room is declined. The wind backup is written before you accept, not discovered when the grass is wet.',
+        },
+        {
+          q: 'How does menu sign-off work on a Villa Week offsite?',
+          a: 'You approve the draft in writing. Final headcount and dietary edits stay in writing. If the Saturday drive changes the shore, say so before you accept. A new seat count rewrites the total.',
+        },
+        {
+          q: 'If a planner and the host are both on the email, who accepts the Kapalua total?',
+          a: `Name one decision-maker who can accept it. The planner can gather the photos and the dietary list. Quotes are open. Desk: ${desk}.`,
         },
       ],
       related: [
@@ -391,8 +434,28 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       ],
       faqs: [
         {
-          q: 'Are corporate nights live?',
-          a: 'Inquiry. We crew when we can staff.',
+          q: 'Are Kauaʻi corporate nights already confirmed, or do I request availability?',
+          a: 'Request availability. We crew a shore only when we can staff it. A printed guide is not a held date. Send the shore and the dates. There is no instant-booking button.',
+        },
+        {
+          q: 'What must a Garden Isle offsite brief include?',
+          a: 'The shore, dates, headcount, estate address, kitchen photos, dietary list, and who can approve. If the house is past the Hanalei bridge, say so. We do not staff from a conference title. Request availability on [the quote form](/quote). Extra hands are [staffing](/staffing).',
+        },
+        {
+          q: 'When should a Kauaʻi brief be sent, and what comes back?',
+          a: 'Send it as soon as the house is held. We reply in Hawaii business hours if a crew can take that shore. The menu draft follows about 48 hours after a complete request. A 50% deposit holds a staffed date after a written yes. We will not hold a fake roster.',
+        },
+        {
+          q: 'How do kitchen checks differ for a Hanalei brief and a Poʻipū brief?',
+          a: 'Both need photos of a cooktop, a fridge, and the seats. Hanalei also needs a covered backup and the bridge note. Poʻipū is the shorter drive from Līhuʻe and still needs a wet-weather note. A room without a stove is declined on either shore.',
+        },
+        {
+          q: 'How do we approve a menu while the shore is still only an inquiry?',
+          a: 'Only after we write that a crew can take the night. You approve the draft in writing. The final headcount follows in writing. A bridge closure moves a north-shore night. It does not silently become Poʻipū.',
+        },
+        {
+          q: 'Who should be named as the approver on a Princeville availability request?',
+          a: `The person who can accept the written total. A planner may send the photos. Request availability with that name on the note. Desk: ${desk}.`,
         },
       ],
       related: [
@@ -530,8 +593,28 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       ],
       faqs: [
         {
-          q: 'Hilo offsite same week as Waikoloa?',
-          a: 'Different days.',
+          q: 'Can one brief cover a Hilo offsite and a Waikoloa offsite in the same week?',
+          a: 'They are different days. Put the west-side address in one note. Send Hilo, if you need it, as its own dedicated day. Do not imply both in one dinner. Join the inquiry list for the west side.',
+        },
+        {
+          q: 'What goes into a west-side offsite brief before a menu exists?',
+          a: 'The Kona, Waikoloa, or Kohala address, the dates, headcount, kitchen photos, dietary list, and who approves. Flag Ironman if the week touches the race. Do not leave the side unstated. Use [the quote form](/quote).',
+        },
+        {
+          q: 'When do I send that brief, and when does an inquiry answer arrive?',
+          a: 'Send it once the west-side house is held. We reply in Hawaii business hours if a crew can staff the day. The menu draft follows about 48 hours after a complete request. A 50% deposit holds a staffed date after a written yes. There is no instant-booking button.',
+        },
+        {
+          q: 'What do you inspect in a Waikoloa kitchen before drafting?',
+          a: 'The cooktop, the fridge, and whether the night is the lava terrace or the great room. We trust the photos, not the listing headline. A minibar room is declined. The room is confirmed in the reply, before any deposit.',
+        },
+        {
+          q: 'How are the draft menu and the final headcount locked while we are still on the inquiry list?',
+          a: 'You approve the draft in writing after we say a crew can take the day. Seat changes go in writing. If Ironman week tightens the grocery window, the draft may narrow. The deposit follows that written yes.',
+        },
+        {
+          q: 'Does the person who approves the total have to be on Hawaiʻi Island?',
+          a: `No. Name whoever can accept the total. Join the inquiry list with the west-side address only. Hilo stays its own dedicated day. Desk: ${desk}.`,
         },
       ],
       related: [

@@ -593,6 +593,30 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
       'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
     ],
     faqs: [
+      {
+        q: 'Do I send one offsite brief for the whole state, or one brief per island?',
+        a: 'One brief per island. Each house is planned on its own host. Open the guide where the house sits: [Oʻahu](oahu:/help/corporate-guide), [Maui](maui:/help/corporate-guide), [Kauaʻi](kauai:/help/corporate-guide), or [Hawaiʻi Island](bigisland:/help/corporate-guide).',
+      },
+      {
+        q: 'Which islands answer a brief with a written quote, and which answer with availability?',
+        a: 'Oʻahu and Maui answer with a written quote. Kauaʻi answers a request for availability. Hawaiʻi Island answers from the inquiry list, west side first. This page does not hold a date.',
+      },
+      {
+        q: 'What must every offsite brief contain, whichever island the house is on?',
+        a: 'Dates, headcount, the house address, kitchen photos, the dietary list, and the person who can approve. Leave resort slogans out. The island guide adds whatever that host still needs. Start on [the quote form](/quote).',
+      },
+      {
+        q: 'How far ahead should the brief be sent?',
+        a: 'Once the house and the dates are held. We reply in Hawaii business hours. A menu draft follows about 48 hours after a complete brief. A 50% deposit holds the date only after that island accepts in writing.',
+      },
+      {
+        q: 'Why is each island planned and quoted separately?',
+        a: 'The kitchen, the drive, and the crew do not transfer. One coordinator can keep the thread. The totals stay separate. There is no same-day crossing and no blended statewide package.',
+      },
+      {
+        q: 'Where do I send the brief?',
+        a: `On [the quote form](/quote), one island per note, or through the island guide linked above. Desk: ${desk}.`,
+      },
     ],
   },
   helpManage: {
