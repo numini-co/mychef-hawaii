@@ -17,7 +17,7 @@
  },
  "https://bigisland.mychef-hawaii.com/blog": {
   "hash": "5a1abc306aa800d43b75",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "lastmod": "2026-10-19T00:00:00Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "18b65786d79a96ee43b7",
@@ -605,7 +605,7 @@
  },
  "https://kauai.mychef-hawaii.com/blog": {
   "hash": "610bed57f2a71a0c0263",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "lastmod": "2026-10-19T00:00:00Z"
  },
  "https://kauai.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "f9a746e66138ee636653",
@@ -1169,7 +1169,7 @@
  },
  "https://maui.mychef-hawaii.com/blog": {
   "hash": "9895c7e0d0e86cdf3457",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "lastmod": "2026-10-19T00:00:00Z"
  },
  "https://maui.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "6e470c1a4566cd6b5491",
@@ -2181,7 +2181,7 @@
  },
  "https://oahu.mychef-hawaii.com/blog": {
   "hash": "742fb373017c8e0d2f44",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "lastmod": "2026-10-19T00:00:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "1141bca6e525af9aaf4e",
@@ -2738,5 +2738,21 @@
  "https://oahu.mychef-hawaii.com/what-we-dont-do": {
   "hash": "9a77bcef77ad9c5ff60a",
   "lastmod": "2026-10-06T13:07:31Z"
+ },
+ "https://oahu.mychef-hawaii.com/blog/thanksgiving-dinner-oahu": {
+  "hash": "",
+  "lastmod": "2026-10-19T00:00:00Z"
+ },
+ "https://maui.mychef-hawaii.com/blog/thanksgiving-dinner-maui": {
+  "hash": "",
+  "lastmod": "2026-10-19T00:00:00Z"
+ },
+ "https://kauai.mychef-hawaii.com/blog/kauai-elopement-dinner-guide": {
+  "hash": "",
+  "lastmod": "2026-10-19T00:00:00Z"
+ },
+ "https://bigisland.mychef-hawaii.com/blog/big-island-elopement-guide": {
+  "hash": "",
+  "lastmod": "2026-10-19T00:00:00Z"
  }
 }

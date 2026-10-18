@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-16T01:02:12Z</lastmod>
+    <lastmod>2026-10-19T00:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -849,6 +849,12 @@
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/poipu-restaurants-dining-guide</loc>
     <lastmod>2026-10-16T01:02:12Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://kauai.mychef-hawaii.com/blog/kauai-elopement-dinner-guide</loc>
+    <lastmod>2026-10-19T00:00:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
