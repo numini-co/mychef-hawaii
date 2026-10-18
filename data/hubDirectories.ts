@@ -342,7 +342,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
         a: 'A birthday is the birthday page on the island that has the house. A welcome dinner is the first night of a stay. They are different lines. Open that island’s events list, then the night. This hub does not blend them.',
       },
       {
-        q: 'When should a villa party and an anniversary stay on the occasion pages?',
+        q: 'How do I tell a villa party from an anniversary, and when does either need catering?',
         a: 'A villa party is the larger house gathering. An anniversary is the small table, often two seats. Both stay on the island occasion pages until the room needs a staffed service. Then open [Hawaii catering](/catering).',
       },
       {

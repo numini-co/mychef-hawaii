@@ -48,7 +48,7 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
         a: 'The house, the dates, the seats, and the dietary limits, on [how to brief an offsite](/help/corporate-guide). A tower also needs the freight window. We do not draft a menu from a conference name.',
       },
       {
-        q: 'How do server and sous-chef hours show on an Oʻahu offsite quote?',
+        q: 'How are server and sous-chef hours added to an Oʻahu offsite quote?',
         a: 'As their own lines, beside the food, not inside it. Open [staffing](/staffing) for the roles. 20% service and Hawaiʻi GET up to 4.712% follow those lines, each alone. A 50% deposit comes after you accept. Gratuity is never required.',
       },
       {
@@ -56,7 +56,7 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
         a: 'A bartender is quoted in writing. There is no bartender hour on the card. Say you want the pour on [the quote form](/quote). If no one is free, the quote says so before a deposit.',
       },
       {
-        q: 'Can one coordinator hold a Kahala dinner and a later Ko Olina retreat day?',
+        q: 'Can one coordinator arrange a Kahala dinner and a later Ko Olina retreat day?',
         a: 'Yes, on one thread, as separate lines. The dinner is [executive dinners](/corporate-catering). The days are [retreats](/events/retreats). Town freight and a villa arrival stay different notes. Quotes are open.',
       },
       {
@@ -64,7 +64,7 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
         a: 'Kahala is often a dining room and, in town, a freight window. Ko Olina is a villa kitchen with a longer evening because the house is the venue. Both need a cooktop. A hotel suite is declined either way.',
       },
       {
-        q: 'What extra detail does a Honolulu tower need once the dinner or the offsite is chosen?',
+        q: 'What else should a Honolulu tower quote include for a dinner or an offsite?',
         a: `The freight window, written next to the format. A Kahala dining room and a Ko Olina villa do not share that slot. Send the building note on [the quote form](/quote). Quotes are open. Desk: ${desk}.`,
       },
     ],
@@ -93,15 +93,15 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
         a: 'When the group eats across the days of the rental, not for a single evening. Open [retreats](/events/retreats). Saturday traffic between the shores changes the call time. It does not change the format.',
       },
       {
-        q: 'What must the Maui brief name before anyone writes dishes?',
+        q: 'What should a Maui brief include before anyone writes dishes?',
         a: 'The shore, the dates, the seats, dietary limits, and whether Saturday crosses West Maui. That note is [how to brief an offsite](/help/corporate-guide). A resort name is not a kitchen.',
       },
       {
-        q: 'How do server and sous-chef hours appear next to a Villa Week offsite menu?',
+        q: 'How are server and sous-chef hours charged on a Villa Week offsite?',
         a: 'Server hours and sous-chef hours are separate from the food. A lanai bartender is a written line, not an hourly figure. See [staffing](/staffing). 20% service and GET up to 4.712% print after. A 50% deposit follows acceptance. Gratuity is never required.',
       },
       {
-        q: 'Can the same Maui thread hold an executive dinner and a retreat day?',
+        q: 'Can one Maui request cover an executive dinner and a retreat day?',
         a: 'Yes. One coordinator, two lines. The dinner stays on [executive dinners](/corporate-catering). The days stay on [retreats](/events/retreats). Quotes are open. Do not ask the banquet office to blend them.',
       },
       {
@@ -162,7 +162,7 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
         a: 'A cooktop, a fridge, and seats. The north adds the covered backup and the bridge. The south is the shorter drive from Līhuʻe and still needs a wet-weather line. Neither shore is an instant confirm.',
       },
       {
-        q: 'What else has to be on a north-shore availability request besides the kind of meal?',
+        q: 'Besides the meal, what should a north-shore availability request mention?',
         a: `The Hanalei-bridge clause, when the house is past the bridge. A closure moves that night. It does not cancel a Poʻipū line, and it does not confirm a crew. Request availability with the shore named. Desk: ${desk}.`,
       },
     ],
@@ -211,7 +211,7 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
         a: 'Hilo is a dedicated east-side day. It is not a format here and not a same-day add-on to Kona or Kohala. Join the inquiry list for the west side, or send the east side as its own day. We will not imply both.',
       },
       {
-        q: 'Once we name the west-side dinner, what must the inquiry leave out?',
+        q: 'If I ask for a Kona or Kohala dinner, should Hilo be in that same request?',
         a: `Hilo. A Kona or Kohala format does not include the east side. Join the inquiry list with the west-side address only, or send Hilo as its own day. There is no instant-booking button. Desk: ${desk}.`,
       },
     ],

@@ -84,25 +84,57 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     photo: 'hubOccBirthdays',
     cardLabel: 'Birthdays',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'Choose your island below. Kauaʻi and the Big Island are taking inquiries.',
     ],
     faqs: [
+      {
+        q: 'Which island birthday page should I open?',
+        a: 'Open the birthday page on the island that has the house: [Oʻahu](oahu:/events/birthdays), [Maui](maui:/events/birthdays), [Kauaʻi](kauai:/events/birthdays), or [Hawaiʻi Island](bigisland:/events/birthdays). This page only routes.',
+      },
+      {
+        q: 'If the birthday is on Kauaʻi, do I still get a written quote from this page?',
+        a: 'No. This page does not answer. Kauaʻi sends an availability reply from its birthday page. Hawaiʻi Island uses the inquiry list and starts on the west side. Only Oʻahu and Maui birthdays come back as a written quote.',
+      },
+      {
+        q: 'What does a birthday request need before any island prices it?',
+        a: 'The dinner date, which island and area, how many people including children, the house kitchen, and dietary limits. One island only. Use [the quote form](/quote).',
+      },
+      {
+        q: 'Why are birthdays on two islands two separate requests?',
+        a: `A crew does not cross islands the same day. Each house is its own quote or request, even if one person keeps both emails. Name one island per night. Desk: ${desk}.`,
+      },
     ],
   },
   occWelcome: {
     path: '/events/welcome-dinners',
     h1: 'Arrival-night dinners, by island.',
     title: 'Arrival-night dinners, by island | myCHEF Hawaii',
-    description: 'First night in the house. Not a full wedding week. Each island writes the arrival dinner.',
+    description: 'First night in the house. Not a full wedding week. Each island writes arrival dinner.',
     lede:
       'First night in the house. Not a full wedding week. Each island writes the arrival dinner.',
     kicker: 'Statewide · Welcome nights',
     photo: 'hubOccWelcome',
     cardLabel: 'Welcome nights',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'Choose your island below. Kauaʻi and the Big Island are taking inquiries.',
     ],
     faqs: [
+      {
+        q: 'Which island page is the first night in the house?',
+        a: 'The welcome page where you land: [Oʻahu](oahu:/events/welcome-dinners), [Maui](maui:/events/welcome-dinners), [Kauaʻi](kauai:/events/welcome-dinners), or [Hawaiʻi Island](bigisland:/events/welcome-dinners). This hub page does not cook that night.',
+      },
+      {
+        q: 'How does an arrival-night reply differ on Kauaʻi and Hawaiʻi Island?',
+        a: 'Kauaʻi replies when you request availability. Hawaiʻi Island replies from the inquiry list, west side first. Oʻahu and Maui send a written quote. None of those replies is a held crew until that island says so.',
+      },
+      {
+        q: 'What belongs in an arrival-night note?',
+        a: 'The landing date, the island and area, how many seats, the house and its kitchen, and dietary limits. Send one island on [the quote form](/quote).',
+      },
+      {
+        q: 'If the welcome dinner is only the first night, where does the rest of a wedding week go?',
+        a: `Not on this page. This route is the arrival night alone. Open that island’s welcome page, then send one island on [the quote form](/quote). Two islands are still two requests. Desk: ${desk}.`,
+      },
     ],
   },
   occRetreats: {
@@ -116,9 +148,25 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     photo: 'hubOccRetreats',
     cardLabel: 'Retreat notes',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'Choose your island below. Kauaʻi and the Big Island are taking inquiries.',
     ],
     faqs: [
+      {
+        q: 'Which island page covers full-board days in the house?',
+        a: 'The retreat page where the group stays: [Oʻahu](oahu:/events/retreats), [Maui](maui:/events/retreats), [Kauaʻi](kauai:/events/retreats), or [Hawaiʻi Island](bigisland:/events/retreats). Days of cooking are not set from this hub.',
+      },
+      {
+        q: 'If the retreat runs several days, which islands still will not send a quote?',
+        a: 'Kauaʻi will not. Request availability there, even for a full week. Hawaiʻi Island will not either. Join the inquiry list, west side first. Oʻahu and Maui are the hosts that write the quote. This directory does not.',
+      },
+      {
+        q: 'Which facts does a retreat request need that a single dinner does not?',
+        a: 'The span of days, which meals repeat, the island and area, headcount, the house kitchen, and dietary limits. One island on [the quote form](/quote). A single supper is a different page.',
+      },
+      {
+        q: 'Is a retreat the same ask as one executive dinner?',
+        a: `No. Full-board days stay on the island retreat page. One leadership dinner is [house offsite catering](/corporate-catering). Each island is still its own request, with no same-day crossing. Desk: ${desk}.`,
+      },
     ],
   },
   occAnniversaries: {
@@ -132,9 +180,25 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     photo: 'hubOccAnniversaries',
     cardLabel: 'Anniversaries',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'Choose your island below. Kauaʻi and the Big Island are taking inquiries.',
     ],
     faqs: [
+      {
+        q: 'Where do I open a small anniversary table?',
+        a: 'On the anniversary page for that island: [Oʻahu](oahu:/events/anniversaries), [Maui](maui:/events/anniversaries), [Kauaʻi](kauai:/events/anniversaries), or [Hawaiʻi Island](bigisland:/events/anniversaries). Two seats stay on that host.',
+      },
+      {
+        q: 'Will an anniversary on Kauaʻi come back as a written quote?',
+        a: 'No. Kauaʻi comes back as an availability reply. Hawaiʻi Island comes back from the inquiry list, west side first. Oʻahu and Maui come back as a written quote. This page does not blend those replies.',
+      },
+      {
+        q: 'What should an anniversary note contain?',
+        a: 'The date, the island and area, two seats or a small table, the house and kitchen, and any dietary limits. Send one island on [the quote form](/quote).',
+      },
+      {
+        q: 'Why can’t an anniversary on one island share a total with dinner on another island?',
+        a: `Each island is a separate request. Crews do not cross the same day. One person can watch both emails. The totals stay apart. Desk: ${desk}.`,
+      },
     ],
   },
   occCorporate: {
@@ -148,9 +212,25 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     photo: 'hubOccCorporate',
     cardLabel: 'Offsite nights',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'Choose your island below. Kauaʻi and the Big Island are taking inquiries.',
     ],
     faqs: [
+      {
+        q: 'Which island page is a company night for the whole team in the house?',
+        a: 'The house-offsite page on that island: [Oʻahu](oahu:/events/corporate-events), [Maui](maui:/events/corporate-events), [Kauaʻi](kauai:/events/corporate-events), or [Hawaiʻi Island](bigisland:/events/corporate-events). This hub page does not plan the night.',
+      },
+      {
+        q: 'Does a company night on Maui get the same kind of answer as one on Kauaʻi?',
+        a: 'No. Maui, like Oʻahu, gets a written quote. Kauaʻi gets an availability reply. Hawaiʻi Island gets an inquiry-list reply, west side first. Open the matching host before you write the menu.',
+      },
+      {
+        q: 'What do I put in a company-night request?',
+        a: 'Dates, island and area, headcount, the house and kitchen, and dietary limits. One island per note. Use [the quote form](/quote).',
+      },
+      {
+        q: 'Where is the planning brief if this page only routes the night?',
+        a: `The brief is [how to brief an offsite](/help/corporate-guide), one island at a time. Two islands remain two requests, with no same-day crossing. Desk: ${desk}.`,
+      },
     ],
   },
   occParties: {
@@ -164,9 +244,25 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     photo: 'hubOccParties',
     cardLabel: 'Villa parties',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'Choose your island below. Kauaʻi and the Big Island are taking inquiries.',
     ],
     faqs: [
+      {
+        q: 'Which island writes the villa party?',
+        a: 'The party page for the house: [Oʻahu](oahu:/events/villa-parties), [Maui](maui:/events/villa-parties), [Kauaʻi](kauai:/events/villa-parties), or [Hawaiʻi Island](bigisland:/events/villa-parties). Pick the host before the menu.',
+      },
+      {
+        q: 'Who sends a written quote for a house party, and who sends an availability reply?',
+        a: 'Oʻahu and Maui send a written quote. Kauaʻi sends an availability reply. Hawaiʻi Island uses the inquiry list, west side first. This page does not choose among them.',
+      },
+      {
+        q: 'What do I include when I ask about a villa party?',
+        a: 'Dates, island and area, headcount, the house and kitchen, and dietary limits. One island only. Use [the quote form](/quote).',
+      },
+      {
+        q: 'Can one party request cover a Friday on Maui and a Saturday on Oʻahu?',
+        a: `No. Two islands are two requests. There is no same-day crossing, and the next day is still a second crew. Desk: ${desk}.`,
+      },
     ],
   },
   occBrunch: {
@@ -180,9 +276,25 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     photo: 'hubOccBrunch',
     cardLabel: 'Brunch',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'Choose your island below. Kauaʻi and the Big Island are taking inquiries.',
     ],
     faqs: [
+      {
+        q: 'Which island page is the morning in the villa?',
+        a: 'The brunch page on that host: [Oʻahu](oahu:/events/brunch), [Maui](maui:/events/brunch), [Kauaʻi](kauai:/events/brunch), or [Hawaiʻi Island](bigisland:/events/brunch). This directory only points.',
+      },
+      {
+        q: 'Is a brunch on Hawaiʻi Island booked the same way as a brunch on Maui?',
+        a: 'No. Maui sends a written quote, and so does Oʻahu. Hawaiʻi Island asks you to join the inquiry list, west side first. Kauaʻi asks you to request availability. Open the brunch page on the host that has the kitchen.',
+      },
+      {
+        q: 'What do I send for a house brunch?',
+        a: 'The morning’s date, the island and area, headcount, the kitchen, and dietary limits. One island. Start on [the quote form](/quote).',
+      },
+      {
+        q: 'If brunch is the morning after a wedding, where does that week live?',
+        a: `The wedding week is planned on [wedding week](/weddings). This page routes a villa morning that is not that week. Open the island brunch page for the house. Desk: ${desk}.`,
+      },
     ],
   },
   fmtBbq: {

@@ -240,8 +240,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/corporate": {
-  "hash": "7bff48e31d8b5204457e",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "41123b4da8d51b14bcb3",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://bigisland.mychef-hawaii.com/corporate-catering": {
   "hash": "9522b550df67a54d13d6",
@@ -264,28 +264,28 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/events": {
-  "hash": "79e5fa7666bafdd67440",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "12ea576ea317e1a113e0",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://bigisland.mychef-hawaii.com/events/anniversaries": {
   "hash": "7bda324861ff2fac229d",
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://bigisland.mychef-hawaii.com/events/birthdays": {
-  "hash": "7b90641bde64db4d7c46",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "caac8c145d915d448b0e",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://bigisland.mychef-hawaii.com/events/brunch": {
-  "hash": "2896adc4c243ad54e628",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "554a872abf8b6876233e",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://bigisland.mychef-hawaii.com/events/corporate-events": {
-  "hash": "f3ce9111b8b05d680b07",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "ffa30b08ed29fd8e2bfe",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://bigisland.mychef-hawaii.com/events/retreats": {
-  "hash": "8b7f423a2fc051928387",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "5494b9ab7efefa4ad406",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://bigisland.mychef-hawaii.com/events/villa-parties": {
   "hash": "258b72950d65ae42bb94",
@@ -816,8 +816,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/corporate": {
-  "hash": "73687fa182d1956a499c",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "83c43e59e74d4e14963f",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://kauai.mychef-hawaii.com/corporate-catering": {
   "hash": "79b389bc6f0f2f7c55ed",
@@ -840,36 +840,36 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/events": {
-  "hash": "ed33845bdfb1ec6f1aba",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "dfd387f6c6d35f04f7ef",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://kauai.mychef-hawaii.com/events/anniversaries": {
   "hash": "011480da4138419b2f7e",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/events/birthdays": {
-  "hash": "9926cf76f689948990fa",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "7d041d2408ef5687a5f8",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://kauai.mychef-hawaii.com/events/brunch": {
-  "hash": "686f7d5273236ef3afcf",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "3474dc63e06b0e526dd0",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://kauai.mychef-hawaii.com/events/corporate-events": {
-  "hash": "c48c3aa35310afbda33b",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "0ef0469f78891b99a8fe",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://kauai.mychef-hawaii.com/events/retreats": {
-  "hash": "dafe5a15f1e2534d139c",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "b115912b548e01263e1f",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://kauai.mychef-hawaii.com/events/villa-parties": {
   "hash": "2cb0bc1957a6cbdbab01",
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://kauai.mychef-hawaii.com/events/welcome-dinners": {
-  "hash": "5dc010ee141633fa50d6",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "4536acf3a7a49f80df90",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://kauai.mychef-hawaii.com/faq": {
   "hash": "fdcd248fa4ffefd58650",
@@ -1384,8 +1384,8 @@
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://maui.mychef-hawaii.com/corporate": {
-  "hash": "361350fc2e70787d909e",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "e3053572c4449d594d28",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://maui.mychef-hawaii.com/corporate-catering": {
   "hash": "7daa44d647f5bf8697bc",
@@ -1404,28 +1404,28 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/events": {
-  "hash": "62df32e644c8cb7c9462",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "91813825bba4bc764dfe",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://maui.mychef-hawaii.com/events/anniversaries": {
   "hash": "cfdca1cac00d77750650",
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/events/birthdays": {
-  "hash": "6a858b3233ff387ef767",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "b91f0d0a06e35c06fb11",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://maui.mychef-hawaii.com/events/brunch": {
-  "hash": "9693289a87cdd770036b",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "da4fe059febf1f12db5a",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://maui.mychef-hawaii.com/events/corporate-events": {
-  "hash": "978be98891179626872b",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "bf79aaf4f8d838733af8",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://maui.mychef-hawaii.com/events/retreats": {
-  "hash": "48c3376e71e232b3cc13",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "93364b21f85d87b0b77e",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://maui.mychef-hawaii.com/events/villa-parties": {
   "hash": "e7c63069f1c9b2cac680",
@@ -1896,36 +1896,36 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://mychef-hawaii.com/events": {
-  "hash": "f642f6d1444fa8085595",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "162f52838525a5496b7a",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://mychef-hawaii.com/events/anniversaries": {
-  "hash": "7d1d5d14d2d033933afb",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "4d0cf2174bae2be4a456",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://mychef-hawaii.com/events/birthdays": {
-  "hash": "2caa85acac47bb48757d",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "3fae5ccac494647b1fc8",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://mychef-hawaii.com/events/brunch": {
-  "hash": "ef0699a41ff1fd9d2064",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "1ab039d0e999836dfc18",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://mychef-hawaii.com/events/corporate-events": {
-  "hash": "ee6f4980475d743d1d63",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "9be0159a0e2d00cfabd6",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://mychef-hawaii.com/events/retreats": {
-  "hash": "184ca20e63e023106114",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "01d6e4cf75158e4d3cf4",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://mychef-hawaii.com/events/villa-parties": {
-  "hash": "c2c0aef32e1f3f1b6b54",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "4f298104121e98ae4ecc",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://mychef-hawaii.com/events/welcome-dinners": {
-  "hash": "fc91550193b92e9cd19b",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "1b74a043d190ba7b7368",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://mychef-hawaii.com/faq": {
   "hash": "bee6c88ada7c615966b0",
@@ -2400,8 +2400,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/corporate": {
-  "hash": "d5278b3041287af3735a",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "fe44edaf08794f663b43",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://oahu.mychef-hawaii.com/corporate-catering": {
   "hash": "69aba07774ee87f7fd19",
@@ -2428,28 +2428,28 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/events": {
-  "hash": "5dcbf3e3e79982d83966",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "49530ec1404da22823d9",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://oahu.mychef-hawaii.com/events/anniversaries": {
   "hash": "c4c64cace8dee1ba91d0",
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://oahu.mychef-hawaii.com/events/birthdays": {
-  "hash": "70beeb7f940b6fc5f36b",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "ea48d2a2ad70f5008c1f",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://oahu.mychef-hawaii.com/events/brunch": {
-  "hash": "430695d69f40e6ee766d",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "0c994325b15d01991605",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://oahu.mychef-hawaii.com/events/corporate-events": {
-  "hash": "344d3ee93dcd5e3f6e7e",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "c7736fdd57ae37fe1715",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://oahu.mychef-hawaii.com/events/retreats": {
-  "hash": "d10caab3a70ee28122a2",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "67b0ad545d665e1d78fb",
+  "lastmod": "2026-10-18T09:18:00Z"
  },
  "https://oahu.mychef-hawaii.com/events/villa-parties": {
   "hash": "51b3957d867e59e20931",
