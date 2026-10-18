@@ -77,11 +77,32 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       body: [
         'The kitchen line for executive dinners is on the corporate catering page.',
         'Production crews in residences are this product. A stage downtown is not.',
+        'This page is one night in the house for the whole team. People can stand with plates or sit. Say which. The cook sets the Kahala or Ko Olina kitchen, sends the food, and clears before leaving. A town tower still needs its freight window first. Rain moves an outdoor setup indoors or onto a covered lānai, written before you accept. Server and sous-chef hours are separate from the food. A bartender is quoted in writing. See [staffing](/staffing). The quote shows 20% service and Hawaiʻi GET up to 4.712% on their own and a 50% deposit after you accept. Gratuity is never required. Days of meals are [retreats](/events/retreats). Bands are on [pricing](/pricing). Send the building on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Sony Open week?',
-          a: 'Calendar awareness, not an affiliation. Ask early.',
+          q: 'Is a Kahala company night standing plates or a seated table?',
+          a: 'Either. Standing plates suit a room where people move. A seated table suits the dining room. Pick one on the quote. This is the whole team, not a single board sitting. Quotes are open.',
+        },
+        {
+          q: 'Who else is in a Ko Olina team night besides the chef?',
+          a: 'A server and a sous chef if the floor needs them, with hours separate from the food. See [staffing](/staffing). A bartender is quoted in writing, with no hourly figure. If no one is free, the quote says so before a deposit.',
+        },
+        {
+          q: 'Does a standing team night in a tower end sooner than a seated one?',
+          a: 'The freight window still closes the night. Standing plates can move in a shorter pass. A seated table needs the dining room clear before that slot ends. Ko Olina is not on that clock, because the house is the venue. The quote states which.',
+        },
+        {
+          q: 'Can a standing Gold Coast team night stay on the lawn once rain starts?',
+          a: 'No. The indoor room or covered lānai is chosen before you accept. We do not add a tent after guests are outside. If those seats cannot hold people who planned to stand, the quote says so. See [all occasions](/events).',
+        },
+        {
+          q: 'What does the quote for a Ko Olina team night list besides food?',
+          a: 'Server and sous-chef hours if you asked, and a bartender only as a written figure. 20% service and Hawaiʻi GET up to 4.712% are separate. A 50% deposit follows acceptance. Gratuity is never required. See [pricing](/pricing).',
+        },
+        {
+          q: 'What should I send for a house night that is the whole team, not one board table?',
+          a: `The building, the date, the headcount, standing or seated, and dietary limits. Quotes are open on [the quote form](/quote). One leadership table is [executive dinners](/corporate-catering). Desk: ${desk}.`,
         },
       ],
       related: [
@@ -148,11 +169,32 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       photo: 'occBrunchOahu',
       body: [
         'Wedding recovery brunch stacks on the weddings page as its own line.',
+        'A villa-week brunch starts in the morning, after any Honolulu freight window. Eggs and last night’s fish are cooked then. Fruit and a pot of coffee are set out. We finish before the afternoon so the kitchen is yours again. Rain keeps a Gold Coast table in the dining room or on a covered lānai, written on the quote before you accept, with 20% service and Hawaiʻi GET up to 4.712% on their own and a 50% deposit after you accept. Gratuity is never required. The wedding-week morning lives on [weddings](/weddings). Other nights are on [all occasions](/events). Bands are on [pricing](/pricing). Send the house on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Same as the wedding brunch?',
-          a: 'Same kitchen. Wedding brunch is a line on the weddings page.',
+          q: 'How is a villa-week brunch different from the wedding-week brunch on Oʻahu?',
+          a: 'Same kitchen. The wedding brunch is its own note on [weddings](/weddings). This page is the morning after a villa week, vows or not. Do not blend the two into one total. Quotes are open.',
+        },
+        {
+          q: 'What is cooked that morning in a Kahala house, and what is already set out?',
+          a: 'Eggs and fish are cooked then. Fruit and coffee are set out. We do not run a restaurant carte. Say dietary limits on the quote so the shop matches the house.',
+        },
+        {
+          q: 'What time do you arrive for a Ko Olina brunch, and when do you leave?',
+          a: 'In the morning, with time to cook before people sit. A town tower still waits on its freight window. We clear and leave before the afternoon. The quote states that clock.',
+        },
+        {
+          q: 'If the Gold Coast is wet, is brunch still outside?',
+          a: 'No. It moves to the dining room or a covered lānai, written before you accept. We do not add a tent for a morning. See [all occasions](/events).',
+        },
+        {
+          q: 'What does an Oʻahu brunch quote include besides the food?',
+          a: 'The morning, then a server only if you asked. See [staffing](/staffing). 20% service and Hawaiʻi GET up to 4.712% are separate. A 50% deposit follows acceptance. Gratuity is never required. See [pricing](/pricing).',
+        },
+        {
+          q: 'What should I send to quote a Honolulu recovery morning?',
+          a: `The house, the morning, the seats, and dietary limits. Quotes are open on [the quote form](/quote). If this morning belongs to a wedding week, start on [weddings](/weddings). Desk: ${desk}.`,
         },
       ],
       related: [
@@ -221,11 +263,32 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       photo: 'occCorporateMaui',
       body: [
         'Production crews in residences are this product. Convention citywides are not.',
+        'This page is one night in the rental for the whole team. The lawn can hold standing plates, or the dining room can seat them. Say which. The cook works the kitchen you hand over, serves, and clears. Saturday traffic toward Kapalua is already in the call time. Trade wind moves the night under the lanai roof, written before you accept. Server and sous-chef hours sit apart from the food. A lanai bartender is quoted in writing. See [staffing](/staffing). The quote lists 20% service and GET up to 4.712% each alone and a 50% deposit after you accept. Gratuity is never required. Days of cooking are [retreats](/events/retreats). Numbers are on [pricing](/pricing). Name the shore on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Hotel conference?',
-          a: 'No. Residences and villas.',
+          q: 'Will you move a Maui team night into a hotel conference room?',
+          a: 'No. Residences and villas. This page is one night for the group in the house, not a banquet floor. If the listing has no cooktop, we decline. Quotes are open.',
+        },
+        {
+          q: 'Should a Wailea team night be standing plates on the lawn or a seated table?',
+          a: 'Standing plates suit the lawn. A seated table suits the dining room. Pick one. The wind backup is written with that choice. This is the wider group, not a two-person supper.',
+        },
+        {
+          q: 'Who stands with the chef at a Kapalua night for the whole team?',
+          a: 'A server and a sous chef if you ask, hours apart from the food. See [staffing](/staffing). A lanai bartender is quoted in writing, with no hourly figure. 20% service and GET up to 4.712% follow. Gratuity is never required.',
+        },
+        {
+          q: 'How does Saturday traffic change the start of a West Maui team night?',
+          a: 'The call time includes the drive up from the south. We do not discover it on the evening. The cook is in the kitchen before guests reach the lawn. The quote states that clock.',
+        },
+        {
+          q: 'If the trade winds close the lawn, do we still keep the same team night?',
+          a: 'Yes. The night stays in the house, under the lanai or in the dining room, written before you accept. We do not switch you into a ballroom. See [all occasions](/events).',
+        },
+        {
+          q: 'Which shore details does a West Maui team night need that a Wailea night does not?',
+          a: `The Saturday drive, and whether the lawn or the dining room is the room. Headcount and dietary limits still belong in the note. Quotes are open on [the quote form](/quote). One leadership dinner is [executive dinners](/corporate-catering). Desk: ${desk}.`,
         },
       ],
       related: [
@@ -291,11 +354,32 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       photo: 'occBrunchMaui',
       body: [
         'Wedding-week brunch is a separate line on the wedding week page.',
+        'A villa brunch on Maui starts in the morning, with the Saturday drive already in the call if the house is in Kapalua. Grilled fish is cooked then. Fruit and coffee are set on the counter. We finish before the afternoon so the pool kitchen is free. Trade wind that closes an open lanai moves the table under cover or into the dining room, written before you accept. The quote is that morning, then 20% service and GET up to 4.712% each alone, and a 50% deposit after you accept. Gratuity is never required. The wedding-week morning is [wedding week](/weddings). Other nights are on [all occasions](/events). Numbers are on [pricing](/pricing). Name the shore on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Same as wedding brunch?',
-          a: 'Same kitchen.',
+          q: 'Where does the morning after vows live if this page is only the villa brunch?',
+          a: 'On [wedding week](/weddings), as its own note. This page is the morning after a villa stay that is not that week. Same kitchen, separate notes. Quotes are open. Do not fold them together.',
+        },
+        {
+          q: 'What is grilled fresh at a Wailea brunch, and what is simply set out?',
+          a: 'Fish is grilled that morning. Fruit and coffee are set out. We do not run a standing restaurant carte. Put dietary limits on the quote before the shop.',
+        },
+        {
+          q: 'How early is a Kapalua brunch if Saturday traffic is already on the road?',
+          a: 'Early enough to cook before people sit, with the drive from the south in the call time. We clear before the afternoon. The quote states that clock. A minibar room is declined.',
+        },
+        {
+          q: 'If the trade wind closes the lanai, where is West Maui brunch served?',
+          a: 'Under the roof or in the dining room, written before you accept. We do not invent a tent for a morning. A south-shore breeze is a different note. See [all occasions](/events).',
+        },
+        {
+          q: 'Are server hours part of a Kapalua brunch, or only the food?',
+          a: 'Food first. A server only if you ask, and those hours are separate. See [staffing](/staffing). 20% service and GET up to 4.712% follow on their own. A 50% deposit comes after you accept. Gratuity is never required. The drive from Wailea is in the call time. See [pricing](/pricing).',
+        },
+        {
+          q: 'Which facts does a Kīhei brunch need before it is accepted?',
+          a: `The villa, the shore, the morning, the seats, and dietary limits. Quotes are open on [the quote form](/quote). A wedding-week morning belongs on [wedding week](/weddings). Desk: ${desk}.`,
         },
       ],
       related: [
@@ -358,17 +442,38 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Kauai estate offsites — inquiry, not a convention play.',
       title: 'Kauai estate offsites — inquiry, not a convention | myCHEF',
       description:
-        'Estate offsites in Princeville and Poʻipū. Inquiry stage. Not a MICE island.',
+        'Estate offsites in Princeville and Poʻipū. Inquiry. Not a MICE island.',
       lede:
         'A small estate table. Both shores. Inquiry. We do not pretend Kauaʻi is a convention product.',
       photo: 'occCorporateKauai',
       body: [
         'Inquiry stage. Published starting prices for dinners still apply when we cook.',
+        'Request availability for one night in the estate, for the whole team. Standing plates on a terrace, or seats in the dining room: say which. The cook sets the kitchen, serves, and clears. Rain on the north moves the night under a covered lanai when the road is open. A Hanalei bridge closure moves that night. It does not become Poʻipū. Server and sous-chef hours are separate from the menu. A bartender is quoted in writing. See [staffing](/staffing). The note shows 20% service and GET up to 4.712% each alone, and a 50% deposit only after a written yes. Gratuity is never required. Full-board days are [retreats](/events/retreats). The card is [pricing](/pricing). Request availability on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Līhuʻe conference?',
-          a: 'No. Estates and villas. Not a convention product.',
+          q: 'Is a Līhuʻe conference the right room for this estate team night?',
+          a: 'No. Estates and villas, not a convention product. Request availability with the shore and a house kitchen. A meeting floor is declined. There is no instant-booking button.',
+        },
+        {
+          q: 'Can a Princeville team night be standing plates instead of a seated table?',
+          a: 'Yes. Say terrace plates or dining-room seats. Weather on the north still applies. A covered backup is written before anyone travels. Request availability for that shore only.',
+        },
+        {
+          q: 'How do I ask for people beyond the chef at a Poʻipū team night?',
+          a: 'Ask for server hours and sous-chef hours apart from the food. A bartender is quoted in writing, with no hourly figure. Open [staffing](/staffing). Request availability. A printed page is not a crew.',
+        },
+        {
+          q: 'What does rain do to a north-shore team night when the bridge is open?',
+          a: 'The night moves under a covered lanai or indoors, written in the request. A closure of the Hanalei bridge moves the whole night. It does not hand the group to the south shore. See [all occasions](/events).',
+        },
+        {
+          q: 'If a crew can take the estate night, what charges should I expect?',
+          a: 'Food for the group, then the hours you asked for. 20% service and GET up to 4.712% are separate. A 50% deposit waits for a written yes. Gratuity is never required. The card is [pricing](/pricing).',
+        },
+        {
+          q: 'What do I put in an availability request for a Garden Isle team night?',
+          a: `Shore, date, seats, the house, standing or seated, and dietary limits. Request availability on [the quote form](/quote). One executive table is [executive dinners](/corporate-catering). Desk: ${desk}.`,
         },
       ],
       related: [
@@ -435,12 +540,33 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       photo: 'occBrunchKauai',
       body: [
         'Wedding-week brunch is on the wedding week page.',
-        'Far-North brunch still inherits the Hanalei bridge notes. Inquiry list with the shore.',
+        'Far-North brunch still inherits the Hanalei bridge notes. Request availability with the shore.',
+        'Request availability before a brunch morning is treated as held. On the south, the cook sets a Poʻipū kitchen, cooks eggs and fish then, and sets fruit and coffee out. We finish before the afternoon. Rain needs the indoor table named ahead. On the north, mist and a covered lanai are the wet plan when the road is open. A Hanalei bridge closure moves the morning. It does not send it south. The note shows the morning, any server hours, 20% service and GET up to 4.712% each alone, and a 50% deposit only after a written yes. Gratuity is never required. The wedding-week morning is [wedding week](/weddings). Request availability on [the quote form](/quote). The card is [pricing](/pricing).',
       ],
       faqs: [
         {
-          q: 'Same as wedding brunch?',
-          a: 'Same kitchen. Wedding brunch is a line on the wedding week page.',
+          q: 'Is a Garden Isle villa brunch the same morning as the wedding-week brunch?',
+          a: 'Same kitchen. Wedding brunch is its own note on [wedding week](/weddings). This page is a house morning that is not that week. Request availability. Do not blend them.',
+        },
+        {
+          q: 'What is cooked at a Poʻipū pool brunch, and what is set on the counter?',
+          a: 'Eggs and fish are cooked that morning. Fruit and coffee are set out. We finish before the afternoon. Request availability with dietary limits so the shop matches the house.',
+        },
+        {
+          q: 'Can a Princeville brunch still happen if the morning is wet?',
+          a: 'Yes, under a covered lanai or indoors, when the road is open. That backup is written before anyone travels. A Hanalei bridge closure moves the morning. It does not relocate it to Poʻipū.',
+        },
+        {
+          q: 'Does a far-north brunch inherit the bridge even if the menu is only coffee and eggs?',
+          a: 'Yes, if the house is past the bridge. The menu does not cancel the road. Request availability for that shore only. See [all occasions](/events). The south shore does not inherit the clause.',
+        },
+        {
+          q: 'If a crew can take the morning, how are brunch charges written?',
+          a: 'The food, then server hours only if you asked. See [staffing](/staffing). 20% service and GET up to 4.712% are separate. A 50% deposit waits for a written yes. Gratuity is never required. The card is [pricing](/pricing).',
+        },
+        {
+          q: 'What do I send when I request availability for an estate brunch?',
+          a: `The shore, the morning, the seats, the house, and dietary limits. Request availability on [the quote form](/quote). A wedding-week morning stays on [wedding week](/weddings). Desk: ${desk}.`,
         },
       ],
       related: [
@@ -509,11 +635,32 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       photo: 'occCorporateBigisland',
       body: [
         'Inquiry stage. We will not pretend a Waikoloa offsite covers Hilo.',
+        'Join the inquiry list for one night in a Kona or Kohala house, for the whole team. Standing plates on the terrace, or seats in the great room: say which. The cook sets the kitchen, serves, and clears. Wind moves the night indoors in that same house, written before a yes. Hilo is a dedicated day and is never implied. Server and sous-chef hours are separate asks. A bartender is quoted in writing. See [staffing](/staffing). The inquiry shows 20% service and Hawaiʻi GET up to 4.712% each alone and a 50% deposit after a written yes. Gratuity is never required. Full-board days are [retreats](/events/retreats). The card is [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Can you add Volcano onto a Waikoloa week?',
-          a: 'As its own dedicated team day, quoted. Not as an unpaid errand.',
+          q: 'What does the evening look like for a whole team in a Waikoloa house?',
+          a: 'One night. The cook sets the kitchen, food goes to the terrace or the great room you named, and we clear. It is not breakfast through dinner. Join the inquiry list. A hotel room with a minibar is declined.',
+        },
+        {
+          q: 'Can the Kohala team stand with plates, or should everyone sit?',
+          a: 'Say terrace plates or great-room seats. Hard sun and wind decide whether the terrace holds. The backup is written before a yes. Join the inquiry list. We will not guess the room.',
+        },
+        {
+          q: 'How do I ask for servers at a Kona team night while we are still on the inquiry list?',
+          a: 'As a separate ask: server, sous chef, and a bartender only if you want one quoted in writing. See [staffing](/staffing). There is no hourly bartender figure. A published page is not a crew.',
+        },
+        {
+          q: 'If the wind shuts a lava terrace, where does the team night move?',
+          a: 'Into the great room of the same house, written in the inquiry before a yes. We do not add a tent after that yes. If those seats cannot hold the group, the reply says so. See [all occasions](/events).',
+        },
+        {
+          q: 'Can the team stop in Hilo for lunch on the way to a Waikoloa night?',
+          a: 'No. Hilo is a dedicated east-side day, never a stop on the way. Join the inquiry list for the west-side night, or send Hilo alone. We will not imply both in one drive.',
+        },
+        {
+          q: 'What belongs on the inquiry when the whole team eats in Kona or Kohala for one night?',
+          a: `The address, the date, headcount, standing or seated, and dietary limits. Flag Ironman if town will be tight. Join the inquiry list on [the quote form](/quote). There is no instant-booking button. Desk: ${desk}.`,
         },
       ],
       related: [
@@ -579,16 +726,33 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
         'Breakfast fish, fruit, hard sun. Coffee cherries on a side board if the house has them — origin labeled when the law requires it.',
       photo: 'occBrunchBigisland',
       body: [
-        'East-side brunch is quote-only dedicated staffing.',
+        'An east-side brunch is its own dedicated day. It is not implied by a Kona morning.',
+        'Join the inquiry list for a west-side morning in Kona or along the Kohala Coast. Fish is cooked then. Fruit is set out. Coffee may be in the cup or on the crust, and a farm name is printed only when the lot is documented. We finish before the afternoon heat. Wind moves the table into the great room, written before a yes. Hilo is a dedicated day and is never implied. The inquiry shows 20% service and Hawaiʻi GET up to 4.712% each alone, and a 50% deposit after a written yes. Gratuity is never required. See [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Same as wedding brunch?',
-          a: 'Same kitchen. Wedding brunch is a line on the weddings page.',
+          q: 'How is a west-side villa brunch different from the brunch on a wedding week?',
+          a: 'Same kitchen. Wedding brunch is its own note on [weddings](/weddings). This page is a Kona or Kohala morning that is not that week. Join the inquiry list. Do not blend them.',
         },
         {
-          q: 'Kona coffee tasting with brunch?',
-          a: 'Coffee may be on the crust.',
+          q: 'Can brunch include a Kona coffee tasting, or is coffee just with the food?',
+          a: 'Coffee may be on the crust or in the cup. We print a farm name only when the lot is documented. Otherwise it is coffee. We cook the morning. We do not run a farm visit. Join the inquiry list.',
+        },
+        {
+          q: 'What is cooked fresh at a Waikoloa brunch, and what is set out?',
+          a: 'Fish is cooked that morning. Fruit is set out. We finish before the hard afternoon sun. Say terrace or great room, and dietary limits, when you join the inquiry list.',
+        },
+        {
+          q: 'Does a Hilo morning belong on this west-side brunch page?',
+          a: 'No. Hilo is a dedicated east-side day, never implied by Kona or Kohala. Send it as its own inquiry. This page is the west-side morning only. See [all occasions](/events).',
+        },
+        {
+          q: 'If wind shuts a Kohala terrace, where is brunch served?',
+          a: 'In the great room of the same house, written in the inquiry before a yes. We do not add a tent for a morning. The open terrace is not assumed.',
+        },
+        {
+          q: 'How do I join the inquiry list for a Kona brunch?',
+          a: `West-side address, the morning, seats, and dietary limits. Join the inquiry list on [the quote form](/quote). 20% service and Hawaiʻi GET up to 4.712% are separate. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing). Desk: ${desk}.`,
         },
       ],
       related: [
