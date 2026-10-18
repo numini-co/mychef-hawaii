@@ -352,6 +352,123 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/blog/dining-in-ko-olina', label: 'Ko Olina kitchen notes' },
       ],
     },
+
+    {
+      feature: true,
+      slug: 'thanksgiving-dinner-oahu',
+      keyword: 'thanksgiving dinner oahu',
+      datePublished: '2026-10-19',
+      name: 'Thanksgiving dinner on Oʻahu',
+      h1: 'Thanksgiving dinner on Oahu — the holiday table, cooked at your house.',
+      title: 'Thanksgiving Dinner Oahu — a Chef at Your House | myCHEF',
+      description:
+        'Planning Thanksgiving dinner on Oahu? Restaurant buffet or a chef at the house, turkey and oven limits, island sides, timing and the published prices.',
+      lede:
+        'Thanksgiving 2026 falls on Thursday 26 November. If your family is spending it in an Oʻahu house rather than a hotel room, this is how to plan the dinner so nobody spends the holiday in the kitchen.',
+      photo: 'kailua',
+      body: [],
+      sections: [
+        {
+          heading: 'Thanksgiving week on Oʻahu: why the planning starts in October',
+          paras: [
+            'Every November the same questions come up on travel forums: which restaurants are open on Thanksgiving, which Waikīkī rooms still have a holiday table, and where to buy a pre-cooked meal. That tells you two things. Plenty of families fly in for the long weekend, and the good restaurant and resort tables go early. If you wait until the week itself, you are choosing from what is left.',
+            'There are really three ways to do the meal. You can reserve a holiday menu or buffet in town, you can pick up a cooked meal and reheat it, or you can have the dinner cooked in the house you are staying in. Each one suits a different group, so it is worth deciding early which one is yours.',
+          ],
+        },
+        {
+          heading: 'Restaurant buffet or dinner at the house?',
+          paras: [
+            'A restaurant makes sense for a couple or a small group staying in a Waikīkī hotel without a real kitchen. Someone else handles everything, and you walk back to the room afterwards. The trade-off is a fixed seating time, a set menu, and no leftovers, which for many families are half the point of the day.',
+            'A dinner at the house suits bigger groups: grandparents, small children, two or three families sharing a Kahala, Kailua or Ko Olina rental. Nobody has to drive home after the wine, the kids can leave the table when they are done, and you choose the hour. That is the evening a [private chef Honolulu](/private-chef) night is built for, whether the house is in town or out on the Gold Coast.',
+            'The pick-up option sits in between. It can work well, but someone still has to reheat several dishes in an unfamiliar oven at the same time, carve, serve and clean up. If that someone is you, it is not really a day off.',
+          ],
+        },
+        {
+          heading: 'What a chef-cooked Thanksgiving at the house includes',
+          paras: [
+            'On our published Oʻahu dinners, the chef plans the menu with you, does the shopping, cooks in your kitchen, serves the meal and leaves the kitchen clean. Groceries sit inside the per-guest band on a Signature dinner, so you are not handed a separate supermarket bill at the end of the night.',
+            'For Thanksgiving that also means the unglamorous parts: thawing or brining the bird, making stock for the gravy the day before if the menu needs it, and packing the leftovers into labelled containers so Friday lunch is already done. If you want to see how a normal villa night runs on the island, start with [private chef Oahu](/).',
+          ],
+        },
+        {
+          heading: 'Turkey on an island: ordering, oven size and timing',
+          paras: [
+            'The bird is the part that catches visitors out. Whole turkeys get scarce close to the holiday, so we order as soon as the date is confirmed rather than hoping the shelf is full on Wednesday. If a frozen bird is the only option, it needs days in the fridge to thaw safely, which is another reason the shopping cannot wait until you land.',
+            'Then there is the oven. Many rental and condo ovens are standard home size, and some are smaller. A very large turkey plus stuffing, sweet potatoes and pie all competing for one oven is a recipe for a late dinner. A chef will often roast two smaller birds, split the turkey so it cooks faster, or roast breast and legs separately and use the stovetop and grill for sides. Our [condo load-in notes](/blog/condo-load-in) cover the practical side of cooking in a high-rise kitchen.',
+            'Tell us what the kitchen has when you send the brief: oven size, number of burners, a grill on the lānai, and how many plates and serving dishes the house provides. A photo of the kitchen is genuinely helpful.',
+          ],
+        },
+        {
+          heading: 'An Oʻahu Thanksgiving menu that still tastes like home',
+          paras: [
+            'Most families want the classics on the table: roast turkey, gravy, stuffing, mashed potatoes, cranberry sauce, green beans and pumpkin pie. We cook those properly, and we do not swap them out to make the menu look more exotic.',
+            'Where Oʻahu comes in is around the edges. Plenty of local tables put rice next to the stuffing, and purple Okinawan sweet potato is a common island side. Poke or a fish crudo makes an easy pūpū while the turkey rests, slow-cooked pork can sit beside the bird for the guests who want it, and a coconut haupia dessert can share the table with the pumpkin pie. We name fish as what it is on the day and do not invent farm names; our [fish species notes](/blog/fish-species) explain how we handle that.',
+            'Dietary needs belong in the first message. A gluten-free stuffing, a vegetarian main and a nut-free dessert are easy to plan in advance and hard to improvise on the afternoon.',
+          ],
+        },
+        {
+          heading: 'Group size: a chef dinner or staffed catering',
+          paras: [
+            'For a family table of six to about a dozen, one chef cooking and serving family-style is usually right. Platters go down the middle, people help themselves, and the chef keeps the kitchen moving.',
+            'Past that, or when two or three families combine, it becomes a staffed event. Our [Oahu catering](/catering) page covers 10 to 75 guests, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, listed as their own lines. For a big Thanksgiving crowd a [buffet](/catering/buffet) or [family-style](/catering/family-style) service usually works better than plated courses, because people want seconds.',
+          ],
+        },
+        {
+          heading: 'Timing the day around traffic and the house',
+          paras: [
+            'Decide the dinner hour first and work backwards. A Thanksgiving dinner served at four in the afternoon needs the chef in the kitchen from late morning, with the turkey in the oven early. An evening dinner gives the family a beach afternoon and moves the kitchen work later.',
+            'Location matters on Oʻahu. A house in Kahala or Hawaiʻi Kai is a short drive from the Honolulu shops, while a North Shore or Turtle Bay rental is a longer haul, and the published travel line for that zone starts from $75. Ko Olina and Kailua sit in between. We plan the shopping and arrival around the address, which is why the address goes on the quote form first.',
+          ],
+        },
+        {
+          heading: 'What Thanksgiving dinner on Oʻahu costs with us',
+          paras: [
+            'Signature dinners on Oʻahu are published at $195–$290 a guest with groceries included, for a minimum party of six. A simpler table runs $145–$195 a guest for eight or more. If you would rather have a chef and an assistant for the day, Stay Chef starts from $1,250 a day for one meal, with groceries billed at cost and receipts handed over.',
+            'A 20% service charge and Hawaiʻi GET are added as their own lines, a 50% deposit locks the date, and gratuity is voluntary. The full rate card is on [Oahu private chef cost](/pricing). The written quote is the confirmed total for your date, so there is nothing to guess.',
+          ],
+        },
+        {
+          heading: 'How to get Thanksgiving on the calendar',
+          paras: [
+            'Send the house address, the date, the number of adults and children, any allergies and the dinner time you have in mind. Two lines about the family helps too: whether it is a quiet table for eight or a loud one for thirty. You can use the quote form or message us on WhatsApp at +1 808-468-7748.',
+            'If you are still choosing between a dinner at the house and a staffed party, start with the guest count. Up to about a dozen is a chef dinner, and beyond that we quote it as catering. Either way, the sooner the date is in, the easier the turkey is to find.',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'When is Thanksgiving in 2026?',
+          a: 'Thanksgiving 2026 is Thursday 26 November. Send your date and guest count as early as you can, because holiday dates fill first.',
+        },
+        {
+          q: 'Can a private chef cook Thanksgiving dinner at our Oʻahu rental?',
+          a: 'Yes. The chef plans the menu, shops, cooks in the house kitchen, serves and cleans up. Leftovers are packed and labelled if you want them.',
+        },
+        {
+          q: 'Will a whole turkey fit in a vacation-rental oven?',
+          a: 'Sometimes not with all the sides. The chef may roast two smaller birds or cook breast and legs separately and use the stovetop and grill. Tell us the oven size in the brief.',
+        },
+        {
+          q: 'How much does a chef-cooked Thanksgiving on Oʻahu cost?',
+          a: 'Signature dinners are $195–$290 a guest with groceries included, minimum six. Stay Chef starts from $1,250 a day with groceries at cost. Service charge and GET are separate lines.',
+        },
+        {
+          q: 'Can you add island dishes such as poke or Okinawan sweet potato?',
+          a: 'Yes. We cook the classic menu and add island sides or pūpū you want, with fish named honestly on the day.',
+        },
+        {
+          q: 'We have 30 people. Is that still a chef dinner?',
+          a: 'No. From about 10 to 75 guests we quote it as Oahu catering, with servers and a sous-chef as separate hourly lines and a buffet or family-style service.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Private chef Honolulu' },
+        { path: '/catering', label: 'Oahu catering' },
+        { path: '/', label: 'Private chef Oahu' },
+        { path: '/pricing', label: 'Oahu private chef cost' },
+        { path: '/blog/family-reunions', label: 'Family reunions' },
+      ],
+    },
   ],
   maui: [
     {
@@ -684,6 +801,123 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/catering', label: 'Maui catering' },
         { path: '/pricing', label: 'Maui private chef cost' },
         { path: '/blog/dining-in-kihei', label: 'Kīhei kitchen notes' },
+      ],
+    },
+
+    {
+      feature: true,
+      slug: 'thanksgiving-dinner-maui',
+      keyword: 'thanksgiving dinner maui',
+      datePublished: '2026-10-19',
+      name: 'Thanksgiving dinner on Maui',
+      h1: 'Thanksgiving dinner on Maui — cooked in your villa, not a buffet line.',
+      title: 'Thanksgiving Dinner Maui — Cooked at Your Villa | myCHEF',
+      description:
+        'Thanksgiving dinner on Maui: resort buffet, pick-up meal or a chef in your villa. Wailea, Kīhei and West Maui logistics, menus, timing and real prices.',
+      lede:
+        'Thanksgiving 2026 is Thursday 26 November. If your family has a Maui villa or condo for the week, here is how to get a proper holiday dinner on the table without anyone giving up the beach to cook it.',
+      photo: 'kaanapali',
+      body: [],
+      sections: [
+        {
+          heading: 'What people planning Thanksgiving on Maui actually ask',
+          paras: [
+            'Search for Thanksgiving dinner on Maui and the results are mostly the same few threads: which places are open on the day, which resorts run a buffet, and whether anyone sells a pre-prepared meal you can collect. Those are good questions, and the answers change every year. The common thread is that holiday tables on Maui fill early, and visitors who leave it until they land often end up eating late or eating somewhere they did not choose.',
+            'If you are staying in a house with a real kitchen, there is a fourth option that rarely shows up in those threads: having the dinner cooked where you are staying. That is what we do, so this guide is honest about when it is the right call and when a restaurant is simpler.',
+          ],
+        },
+        {
+          heading: 'Three ways to do the meal on Maui',
+          paras: [
+            'A resort or restaurant holiday menu is easiest for couples and small groups, especially if you are staying in Kāʻanapali or Wailea and can walk to dinner. You get a fixed seating and a set menu, and there are no leftovers to take home.',
+            'A pick-up meal works if somebody in the group enjoys reheating and serving. Bear in mind that the house oven has to warm several trays at once, and someone still carves, plates and washes up.',
+            'A chef at the villa suits larger family groups, multi-generation trips and anyone who would rather not drive after dinner. On Maui that last point matters: the roads between South Maui and West Maui are long after dark, and a holiday evening is not the night to be on them. A [personal chef Maui](/private-chef) dinner keeps everyone at the table for as long as they like.',
+          ],
+        },
+        {
+          heading: 'Where you are staying changes the plan',
+          paras: [
+            'Wailea and Mākena villas usually have generous kitchens, outdoor space and room for a long table, which makes them the easiest houses to cook a full Thanksgiving in. Kīhei is more often condos and vacation homes, where the kitchen is smaller and the menu needs to be planned around one oven. Our [Kīhei restaurants guide](/blog/kihei-restaurants-dining-guide) covers that part of the coast if you are splitting the week between eating out and eating in.',
+            'West Maui houses in Kāʻanapali, Nāpili and Kapalua are further from the larger grocery stores in central Maui, so the shopping is planned a day ahead rather than on the morning. Upcountry houses carry a published travel line from $75. None of this is a problem; it just means the address shapes the schedule, which is why we ask for it first.',
+          ],
+        },
+        {
+          heading: 'A Maui Thanksgiving menu',
+          paras: [
+            'Start with what the family expects: roast turkey, gravy, stuffing, mashed potatoes, cranberry, a green vegetable and pie. Those dishes are the reason people book a Thanksgiving dinner, and we cook them straight.',
+            'Maui adds a lot around them. Upcountry greens and herbs make a better salad than anything flown in, sweet onions grown on the slopes of Haleakalā are a natural fit for stuffing and gravy, and a crudo or poke made with fish landed that week is an easy starter while the bird rests. If you plan to visit a market during the week, our [Maui farmers market guide](/blog/maui-farmers-market-villa-week) explains how a chef uses what you bring back, and the markets are worth checking the days before the holiday because hours can change.',
+            'Tell us about dietary needs in the first message. A vegetarian main that is more than a plate of sides, gluten-free gravy and a nut-free dessert are easy when they are planned, and difficult to improvise on Thursday afternoon.',
+          ],
+        },
+        {
+          heading: 'The bird, the oven and the kitchen kit',
+          paras: [
+            'Whole turkeys get harder to find the closer you get to the holiday, so we order once the date is confirmed. A frozen bird needs several days to thaw in a fridge, which is one more reason to send the date before you fly.',
+            'Rental ovens vary from generous to small. If the oven cannot hold a large bird and the sides together, the chef will roast two smaller turkeys, split the bird so it cooks faster, or move sides to the stovetop and the grill. Let us know what the house has: oven size, burners, a lānai grill, and enough plates and platters for the group. A quick photo of the kitchen saves a lot of questions.',
+          ],
+        },
+        {
+          heading: 'Family-style at the table, or a staffed party',
+          paras: [
+            'For six to about a dozen people, one chef cooking and serving family-style is the classic Thanksgiving: platters down the middle, second helpings, nobody standing in a line.',
+            'When the group is bigger, or two families are combining in one house, we quote it as [Maui catering](/catering) for roughly 10 to 75 guests. Food is published from $225 a guest, and servers at $80 an hour and a sous-chef at $105 an hour are listed separately on four- to five-hour minimums, so you can see what the staff cost.',
+          ],
+        },
+        {
+          heading: 'A sample Thanksgiving day at a Wailea villa',
+          paras: [
+            'Morning: the family heads to the beach. The chef has already shopped the day before, the turkey has been brining overnight, and stock for the gravy is in the fridge.',
+            'Late morning to mid-afternoon: the chef arrives, the bird goes in, and the sides are prepped in order so the oven is never fighting itself. Pūpū go out on the lānai as people come back sandy and hungry.',
+            'Late afternoon: dinner is carved and served family-style as the light drops toward the west. Pie comes out after a break. The kitchen is cleaned, leftovers are packed and labelled, and Friday is free. If the family wants a slow morning after the big meal, our [day-after brunch notes](/blog/day-after-brunch) cover that one too.',
+          ],
+        },
+        {
+          heading: 'What Thanksgiving dinner on Maui costs with us',
+          paras: [
+            'Signature dinners on Maui are published at $225–$375 a guest with groceries included, for a minimum party of six. A simpler table runs $190–$225 a guest. If you would rather have a chef and an assistant for the day, Stay Chef starts from $1,550 a day for one meal, with groceries billed at cost.',
+            'A 20% service charge and Hawaiʻi GET are their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Maui private chef cost](/pricing), and the written quote is the confirmed total for your date.',
+          ],
+        },
+        {
+          heading: 'How to book Thanksgiving on Maui',
+          paras: [
+            'Send the villa address, the date, the number of adults and children, allergies and the dinner time you want. If you are not sure yet whether it is a chef dinner or a catered party, tell us the guest count and we will say which it is. Use the quote form, or message us on WhatsApp at +1 808-468-7748.',
+            'For the overview of how a villa night works on the island, start with [private chef Maui](/). For Thanksgiving, the main thing is simple: the earlier the date is in, the more choice you have.',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Is it hard to find Thanksgiving dinner on Maui?',
+          a: 'Popular restaurant and resort holiday tables fill early, so plan ahead. If your villa has a kitchen, a chef-cooked dinner at the house is another option.',
+        },
+        {
+          q: 'Can a chef cook Thanksgiving dinner in our Maui condo?',
+          a: 'Usually, yes. Condo kitchens are smaller, so the chef plans the menu around one oven, the stovetop and a grill if there is one. Tell us what the kitchen has.',
+        },
+        {
+          q: 'Do you include island dishes in a Maui Thanksgiving?',
+          a: 'If you want them. We cook the classic menu and can add Upcountry greens, sweet Maui onions in the stuffing, or a fish crudo as a starter.',
+        },
+        {
+          q: 'How much does Thanksgiving dinner with a Maui chef cost?',
+          a: 'Signature dinners are $225–$375 a guest with groceries included, minimum six. Stay Chef starts from $1,550 a day with groceries at cost. Service charge and GET are separate.',
+        },
+        {
+          q: 'What if 25 people are coming?',
+          a: 'That is a staffed event. We quote it as Maui catering, from $225 a guest plus servers and a sous-chef as separate hourly lines.',
+        },
+        {
+          q: 'Do you travel to West Maui and Upcountry on Thanksgiving?',
+          a: 'Yes. West Maui shopping is planned a day ahead, and Upcountry carries a published travel line from $75 on the quote.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Personal chef Maui' },
+        { path: '/catering', label: 'Maui catering' },
+        { path: '/', label: 'Private chef Maui' },
+        { path: '/pricing', label: 'Maui private chef cost' },
+        { path: '/blog/day-after-brunch', label: 'Day-after brunch' },
       ],
     },
   ],
@@ -1022,6 +1256,121 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/blog/dining-in-poipu', label: 'Poʻipū kitchen notes' },
       ],
     },
+
+    {
+      feature: true,
+      slug: 'kauai-elopement-dinner-guide',
+      keyword: 'kauai elopement',
+      datePublished: '2026-10-19',
+      name: 'Kauaʻi elopement planning',
+      h1: 'Kauai elopement — planning the day, the permits and the dinner after.',
+      title: 'Kauai Elopement — Planning the Day and the Dinner | myCHEF',
+      description:
+        'Planning a Kauai elopement? License and officiant rules, beach permits, North or South Shore, rain plans, and the private dinner after the vows.',
+      lede:
+        'Most Kauaʻi elopement guides stop when the photographer packs up. This one covers the whole day, including the part nobody puts in the package: where and what you eat afterwards.',
+      photo: 'svcHoneymoonKauai',
+      body: [],
+      sections: [
+        {
+          heading: 'What a Kauaʻi elopement package covers, and what it leaves out',
+          paras: [
+            'A typical Kauaʻi elopement package is built around the ceremony. An officiant, a photographer, the beach permit and sometimes flowers or a lei, all scheduled into a short window at a beach, a garden or a lookout. That is the right focus. The ceremony is the reason you came.',
+            'What packages rarely include is the evening. After two hours of vows and photos, you are hungry, possibly sandy, and often a long drive from a restaurant that still has a table. On a holiday week the good dining rooms on both shores fill early. That is the gap a private dinner at your rental fills, and it is the part of the day we cook.',
+          ],
+        },
+        {
+          heading: 'The legal part: license and officiant',
+          paras: [
+            'Hawaiʻi marriage licenses come from the state Department of Health. You apply online, then both of you meet a licensing agent together, in person, with government photo ID, no more than 30 days before the ceremony. There is no waiting period once the license is issued, it is valid for 30 days and only in Hawaiʻi, and there is no residency or blood-test requirement. The fee at the time of writing is $65. Check the Department of Health site before you fly, because procedures can change.',
+            'Your officiant must hold a current Hawaiʻi license to perform marriages. Professional Kauaʻi officiants already do; if a friend is marrying you, they need to apply to the state in advance, and the Department of Health asks for at least two weeks.',
+          ],
+        },
+        {
+          heading: 'Beach, garden or the house: where to say the words',
+          paras: [
+            'Sandy beaches on Kauaʻi are generally state shoreline, even when a county park sits behind them. A paid ceremony there needs a right-of-entry permit from the Department of Land and Natural Resources, normally obtained by your officiant, planner or photographer. The conditions are strict: no alcohol in the permit area, no tables, tents, arches or amplified sound, chairs only where needed for elderly or disabled guests, and set-up, ceremony and clean-up within two hours. State parks need their own special use permit, requested at least 45 days ahead.',
+            'Those rules are a good reason to split the day. Keep the beach for the vows and the photographs, and move the champagne, the food and the long table to the house. A private rental lawn or terrace needs only your host’s permission, and that is where a chef can actually set a table.',
+          ],
+        },
+        {
+          heading: 'North Shore or South Shore',
+          paras: [
+            'The North Shore around Hanalei and Princeville is the dramatic, green Kauaʻi of the postcards: fluted mountains, waterfalls after rain, and soft light. It is also wetter, especially in the winter months, and heavy rain can close the Hanalei bridge. If you elope there, plan an indoor or covered backup and keep the dinner close to where you are staying. Our [North Shore Kauai dining guide](/blog/north-shore-kauai-dining-guide) covers the restaurant side of that coast.',
+            'The South Shore around Poʻipū and Kōloa is usually sunnier and drier, with easier access and more rentals with outdoor dining space. Many couples who want a sure sunset choose it for that reason. The [Poʻipū restaurants guide](/blog/poipu-restaurants-dining-guide) is useful if you are deciding between a dinner out and a dinner at the house.',
+            'Whichever shore you choose, the weather plan belongs in the first conversation with every vendor, not the night before.',
+          ],
+        },
+        {
+          heading: 'Timing the day: ceremony, photos, then dinner',
+          paras: [
+            'Most photographers will steer you toward late afternoon for the softest light, with portraits running into sunset. Work backwards from that. Hair and make-up in the early afternoon, ceremony an hour or so before sunset, photos until the light goes, then back to the house.',
+            'While you are at the ceremony, the chef is at the house: shopping done, the kitchen set up, the table laid on the terrace. When you walk in, there is something cold to drink and a first bite ready, and dinner follows when you are ready, not when a reservation says so. A [personal chef Kauai](/private-chef) dinner is built for exactly that kind of evening on either shore.',
+          ],
+        },
+        {
+          heading: 'The elopement dinner: two seats or a small table',
+          paras: [
+            'For the two of you, we publish dinner for two and elopement dinners on Kauaʻi as a fixed event at $975–$1,425. That covers a chef cooking and serving a menu planned with you in the house kitchen, then leaving it clean. Fish is whatever is good that week, named honestly, and dessert can be the chef’s or a small cake you have ordered from a bakery you like, plated on the night.',
+            'If parents or a few friends have flown in, it becomes a small dinner party. Signature dinners on Kauaʻi are $225–$375 a guest with groceries included, for six or more. Either way, tell us about allergies and anything you do not eat when you first get in touch.',
+          ],
+        },
+        {
+          heading: 'When the guest list grows past a dinner',
+          paras: [
+            'Some elopements quietly turn into small weddings. Once you are past about ten guests, the evening needs servers and a planned service, and we quote it as [Kauai catering](/catering) for roughly 10 to 75 guests, with staff as separate hourly lines.',
+            'If there is a welcome dinner, a reception and a recovery brunch across the week, that is a wedding week, and [Kauai wedding catering](/weddings) covers it from $260 a guest plus staffing, with each event as its own line so you can cut one without renegotiating the rest.',
+          ],
+        },
+        {
+          heading: 'Prices and how inquiry works on Kauaʻi',
+          paras: [
+            'Kauaʻi is an inquiry island for us. You send the details, we confirm in writing whether a chef is available for your date and shore, and only then is it booked. A published band is not an instant-booking button, and we would rather tell you early than promise a date we cannot cover.',
+            'On every quote, a 20% service charge and Hawaiʻi GET are their own lines, a 50% deposit locks the date and gratuity is voluntary. A Princeville or Poʻipū travel line runs $50–$75 where it applies. The full rate card is on [Kauai private chef cost](/pricing), and the island overview is [private chef Kauai](/).',
+          ],
+        },
+        {
+          heading: 'A short Kauaʻi elopement checklist',
+          paras: [
+            'Choose the shore and the house first, then the date. Book the officiant and photographer, and confirm who holds the beach permit. Apply for the license online, and plan the in-person agent meeting inside the 30-day window. Agree a rain plan with everyone.',
+            'Then send us the address, the date, the number of people at dinner and two lines about the evening you want. Use the inquiry form or WhatsApp at +1 808-468-7748, and we will come back with a written answer.',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Do we need a permit to elope on a Kauaʻi beach?',
+          a: 'For a paid ceremony on state shoreline, yes. Your vendor usually holds a right-of-entry permit from the Department of Land and Natural Resources, with rules on alcohol, furniture and a two-hour limit.',
+        },
+        {
+          q: 'How do we get a marriage license for Kauaʻi?',
+          a: 'Apply online with the state Department of Health, then meet a licensing agent together in person within 30 days of the ceremony. There is no waiting period or residency requirement.',
+        },
+        {
+          q: 'Can we drink champagne at a beach ceremony?',
+          a: 'Not in a permitted beach area, because alcohol is not allowed there. Most couples toast at the house afterwards, where a chef dinner can be waiting.',
+        },
+        {
+          q: 'How much does a private elopement dinner on Kauaʻi cost?',
+          a: 'Dinner for two or an elopement dinner is published at $975–$1,425 as a fixed event. Service charge and GET are separate lines, and Kauaʻi bookings are confirmed by inquiry.',
+        },
+        {
+          q: 'Is the North Shore or the South Shore better for an elopement?',
+          a: 'The North Shore is greener and more dramatic but wetter, especially in winter. The South Shore around Poʻipū is usually sunnier. Plan a rain backup either way.',
+        },
+        {
+          q: 'Can our families join the dinner?',
+          a: 'Yes. With six or more guests it becomes a Signature dinner at $225–$375 a guest with groceries included. Past about ten, we quote it as catering.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Personal chef Kauai' },
+        { path: '/weddings', label: 'Kauai wedding catering' },
+        { path: '/catering', label: 'Kauai catering' },
+        { path: '/pricing', label: 'Kauai private chef cost' },
+        { path: '/blog/proposal-dinners', label: 'Proposal dinners' },
+      ],
+    },
   ],
   bigisland: [
     {
@@ -1358,6 +1707,121 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/catering', label: 'Big Island catering' },
         { path: '/pricing', label: 'Big Island private chef cost' },
         { path: '/blog/grocery-at-cost', label: 'Groceries at cost' },
+      ],
+    },
+
+    {
+      feature: true,
+      slug: 'big-island-elopement-guide',
+      keyword: 'big island elopement',
+      datePublished: '2026-10-19',
+      name: 'Big Island elopement planning',
+      h1: 'Big Island elopement — the Kona–Kohala day, start to dinner.',
+      title: 'Big Island Elopement — Plan the Day and Dinner | myCHEF',
+      description:
+        'Big Island elopement planning: Kona or Hilo side, license and beach permit rules, sun and wind, a sample Kohala day, and a private dinner after the vows.',
+      lede:
+        'The Big Island gives you lava coast, ranch country and rainforest on one island, which is wonderful for photographs and tricky for logistics. Here is how to plan an elopement day that ends at a table, not in a car.',
+      photo: 'svcHoneymoonBigisland',
+      body: [],
+      sections: [
+        {
+          heading: 'Why couples elope on Hawaiʻi Island',
+          paras: [
+            'Couples choose the Big Island for range. In a single day you can be on a black lava shoreline on the Kohala Coast, in green upland pasture around Waimea, or on the rainy, forested east side near Hilo and Volcano. Elopement photographers and planners on the island build their packages around those settings, and their guides are worth reading for the ceremony itself.',
+            'This guide is about the rest of the day: which side of the island to base yourselves on, what the rules allow, and how to finish with a proper dinner. That last part is what we do, cooking in rentals along the Kona–Kohala coast.',
+          ],
+        },
+        {
+          heading: 'Choose a side of the island first',
+          paras: [
+            'The Big Island is large, and the drive from the Kohala Coast to Hilo takes hours, not minutes. Most elopement days work best when the ceremony, the photographs and the dinner sit on the same side.',
+            'The west side, from Kailua-Kona up through Waikoloa, Mauna Lani and the Kohala Coast, is dry and sunny with reliable sunsets over the ocean. It is also where most resorts and vacation rentals are, and it is our home corridor for dinners. The east side around Hilo and Volcano is greener and much wetter, with a different beauty and a different weather plan. We quote east-side dinners case by case, and we will not plan a same-evening round trip from a Kohala villa to Hilo.',
+          ],
+        },
+        {
+          heading: 'License, officiant and permits — the short version',
+          paras: [
+            'Hawaiʻi marriage licenses are issued through the state Department of Health. Apply online, then meet a licensing agent together in person with photo ID, no sooner than 30 days before your date. The license is valid for 30 days in Hawaiʻi only, there is no waiting period, and the fee at the time of writing is $65. Your officiant must hold a current Hawaiʻi license; a friend officiating needs to register with the state in advance.',
+            'If the ceremony is on a sandy state beach, your vendor needs a right-of-entry permit from the Department of Land and Natural Resources. That permit bans alcohol, tables, tents, arches and amplified sound in the permit area and limits the whole event, set-up included, to two hours. State parks require a special use permit requested at least 45 days ahead. A ceremony on the lawn of your rental only needs the owner’s approval, so check the house rules before you book.',
+          ],
+        },
+        {
+          heading: 'Sun, wind and lava underfoot',
+          paras: [
+            'West-side sun is strong in the middle of the day, and the Kohala Coast can be windy in the afternoon. Most couples schedule the ceremony in the late afternoon, which gives softer light, cooler air and sunset portraits over the water. Ask your photographer how they handle wind for veils and hair.',
+            'Lava rock is sharp and uneven. Bring shoes you can actually walk in for the path to the shoreline, and change for photographs if you want to. Water and shade matter more than people expect, especially for older family members.',
+          ],
+        },
+        {
+          heading: 'Where the dinner happens',
+          paras: [
+            'After the ceremony you have three choices: a resort restaurant, a private room somewhere, or dinner at the house. The first two work, but they mean a reservation time, a drive and a set menu on the one night you least want to be rushed.',
+            'Dinner at the rental is the quiet option. While you are at the ceremony, the chef shops, sets up the kitchen and lays the table on the lānai. You arrive back to cold drinks and a first bite, and dinner is served when you are ready. That is what a [private chef Kona](/private-chef) evening looks like, from a Kailua-Kona condo to a Kohala Coast estate.',
+          ],
+        },
+        {
+          heading: 'Dinner for two, or a small family table',
+          paras: [
+            'For the two of you, dinner for two and elopement dinners on the Big Island are published from $825 per event. A chef plans the menu with you, cooks and serves it at the house and leaves the kitchen clean. West-side menus lean on fish landed that week, named honestly, along with island fruit and produce, and dessert can be the chef’s or a small cake you have ordered elsewhere.',
+            'If parents or a few friends have come, it becomes a dinner party. Signature dinners on the Big Island are $210–$325 a guest with groceries included for six or more, and a simpler table starts from $165 a guest. Tell us about allergies in your first message.',
+          ],
+        },
+        {
+          heading: 'A sample elopement day on the Kohala Coast',
+          paras: [
+            'Morning: a slow breakfast and a swim. Midday: rest out of the sun, while the chef shops on the west side. Early afternoon: hair, make-up and the drive to the ceremony site.',
+            'Late afternoon: ceremony, then portraits along the coast until the light goes. Meanwhile, the chef sets up the house, chills the champagne you could not have on the beach and lays the table.',
+            'Evening: you come back to a quiet house, a toast, and a plated dinner for two or a long table for the family. The kitchen is cleaned when the evening ends, and there is nothing to drive to.',
+          ],
+        },
+        {
+          heading: 'When it is more than an elopement',
+          paras: [
+            'If the guest list grows past about ten, the dinner needs servers, and we quote it as [Big Island catering](/catering) for roughly 10 to 75 guests, with staff as separate hourly lines.',
+            'If there is a welcome dinner, a reception and a brunch the morning after, that is a wedding week. [Wedding catering Big Island](/weddings) covers it from $225 a guest plus staffing, with each event as its own line.',
+          ],
+        },
+        {
+          heading: 'Prices, inquiry and how to start',
+          paras: [
+            'The Big Island is an inquiry island for us. Send the details, we confirm in writing whether a chef is available for your date and address, and then it is booked. A 20% service charge and Hawaiʻi GET are their own lines on every quote, a 50% deposit locks the date and gratuity is voluntary. Travel outside the Kona–Kohala corridor starts from a published $75 line.',
+            'The full rate card is on [Big Island private chef cost](/pricing), and the island overview is [private chef Big Island](/). To start, send the rental address, the date, how many will be at dinner and two lines about the evening. Use the inquiry form or WhatsApp at +1 808-468-7748.',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Do we need a permit to elope on a Big Island beach?',
+          a: 'For a paid ceremony on a state beach, yes. Your vendor normally holds a right-of-entry permit from the Department of Land and Natural Resources, with a two-hour limit and no alcohol or furniture.',
+        },
+        {
+          q: 'When should we meet the marriage license agent?',
+          a: 'Apply online first, then meet the agent together in person no sooner than 30 days before the ceremony. The license is valid for 30 days in Hawaiʻi.',
+        },
+        {
+          q: 'Should we base ourselves in Kona or Hilo?',
+          a: 'Pick one side for the ceremony and dinner. The west side is drier and sunnier with ocean sunsets. The east side is greener and wetter, and the drive between them is long.',
+        },
+        {
+          q: 'How much does an elopement dinner on the Big Island cost?',
+          a: 'Dinner for two or an elopement dinner is published from $825 per event. Service charge and GET are separate lines, and bookings are confirmed by inquiry.',
+        },
+        {
+          q: 'Can you cook our elopement dinner near Hilo?',
+          a: 'We cook west-side first. East-side dinners are quoted case by case, and we do not plan a same-evening round trip from the Kohala Coast.',
+        },
+        {
+          q: 'Can family join the dinner?',
+          a: 'Yes. With six or more guests it is a Signature dinner at $210–$325 a guest with groceries included. Past about ten, we quote it as catering.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Private chef Kona' },
+        { path: '/weddings', label: 'Wedding catering Big Island' },
+        { path: '/catering', label: 'Big Island catering' },
+        { path: '/pricing', label: 'Big Island private chef cost' },
+        { path: '/blog/proposal-dinners', label: 'Proposal dinners' },
       ],
     },
   ],

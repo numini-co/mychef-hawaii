@@ -330,6 +330,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/thanksgiving-dinner-oahu', label: 'Thanksgiving dinner on Oʻahu' },
         { path: '/blog/private-luau-oahu', label: 'Backyard luau guide' },
         { path: '/events', label: 'Events' },
         { path: '/guest-counts', label: 'Guest counts' },
@@ -693,6 +694,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       faqs: [
       ],
       related: [
+        { path: '/blog/thanksgiving-dinner-oahu', label: 'Thanksgiving dinner on Oʻahu' },
         { path: '/journal/how-far-ahead-to-book', label: 'How far ahead' },
         { path: '/blog/shoulder-season', label: 'Shoulder dates' },
         { path: '/quote', label: 'Quote form' },
@@ -1042,6 +1044,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/thanksgiving-dinner-maui', label: 'Thanksgiving dinner on Maui' },
         { path: '/events', label: 'Events' },
         { path: '/guest-counts', label: 'Guest counts' },
         { path: '/quote', label: 'Quote form' },
@@ -1408,6 +1411,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       faqs: [
       ],
       related: [
+        { path: '/blog/thanksgiving-dinner-maui', label: 'Thanksgiving dinner on Maui' },
         { path: '/journal/how-far-ahead-to-book', label: 'How far ahead' },
         { path: '/wedding-week', label: 'Wedding week' },
         { path: '/quote', label: 'Quote form' },
@@ -1757,6 +1761,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-elopement-dinner-guide', label: 'Kauai elopement guide' },
         { path: '/honeymoon-dinners', label: 'Honeymoon dinners' },
         { path: '/fine-dining/romantic-dinner', label: 'Romantic dinner' },
         { path: '/quote', label: 'Inquiry form' },
@@ -2463,6 +2468,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/big-island-elopement-guide', label: 'Big Island elopement guide' },
         { path: '/honeymoon-dinners', label: 'Honeymoon dinners' },
         { path: '/fine-dining/romantic-dinner', label: 'Romantic dinner' },
         { path: '/quote', label: 'Inquiry form' },

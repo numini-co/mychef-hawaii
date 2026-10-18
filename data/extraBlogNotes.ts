@@ -558,6 +558,7 @@ const RAW_EXTRA_BLOG_NOTES: Record<IslandId, UniqueCell[]> = {
       faqs: [
       ],
       related: [
+        { path: '/blog/kauai-elopement-dinner-guide', label: 'Kauai elopement guide' },
         { path: '/events/anniversaries', label: 'Anniversary' },
         { path: '/blog/proposal-dinners', label: 'Proposal dinners' },
         { path: '/honeymoon-dinners', label: 'Dinner for two' },
@@ -818,6 +819,7 @@ const RAW_EXTRA_BLOG_NOTES: Record<IslandId, UniqueCell[]> = {
       faqs: [
       ],
       related: [
+        { path: '/blog/big-island-elopement-guide', label: 'Big Island elopement guide' },
         { path: '/events/anniversaries', label: 'Anniversary' },
         { path: '/blog/proposal-dinners', label: 'Proposal dinners' },
         { path: '/honeymoon-dinners', label: 'Dinner for two' },
