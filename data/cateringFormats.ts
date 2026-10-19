@@ -415,7 +415,9 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Grill, kiawe, pale cliffs or misted mountains. Inquiry. We do not sell a theatrical luau we do not staff.',
       photo: 'fmtBbqKauai',
       body: [
-        'Drop-off is a different product. Inquiry list with the shore.',
+        'A Kauaʻi BBQ is a staffed grill night at the estate: wood-grilled catch with mango and coconut rice, a ranch or vegetable plate so the table is not one fish, island greens, and a lilikoi or haupia close. The crew keeps the fire, plates from the grill and clears, so the hosts stay on the lawn instead of at the coals.',
+        'The shore decides the setup. South Shore homes in Poʻipū and Kōloa are sunnier, and live fire on the lawn works on more nights of the year. On the North Shore in Princeville and Hanalei the grill is planned under cover, with a covered-lānai version written into the reply from November to March. If the Hanalei bridge closes, we move the night rather than keep your deposit.',
+        'Kauaʻi is by inquiry. Name the shore and the town on the first note. Guest counts of about 10–75, the $225–$375 food band and the staffing lines live on the island [Kauai catering](/catering) page; Princeville, Hanalei and Poʻipū carry the published $50–$75 travel line. Trays left at the door are a different product — see Drop-off. For eight or fewer around one grill, a villa dinner on [private chef Kauai](/) is usually the better fit.',
       ],
       faqs: [
         {
@@ -425,6 +427,14 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         {
           q: 'Hanalei BBQ in surf season?',
           a: 'Bridge clause still applies.',
+        },
+        {
+          q: 'What does a Kauaʻi BBQ cost?',
+          a: 'Food follows the Kauaʻi signature card, $225–$375 a guest. Servers are $80 an hour and a sous-chef $105, on four- to five-hour minimums. 20% service and GET up to 4.712% are added once, and the written reply comes from [Kauai catering](/catering).',
+        },
+        {
+          q: 'Can a North Shore rental host the grill?',
+          a: 'If the house allows a grill and has a covered place to plate, yes. Tell us on the inquiry; where it does not, we will suggest a buffet under the lānai instead before anyone pays.',
         },
       ],
       related: [
@@ -444,6 +454,9 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Courses on an estate table. North mist or South sun. Inquiry. Rehearsal dinners often run this way.',
       photo: 'fmtPlatedKauai',
       body: [
+        'Plated Kauaʻi catering is a coursed, seated dinner served to each guest: ahi poke with kukui and sweet onion to start, wood-grilled catch or a ranch plate as the main, and a lilikoi or haupia close. It suits rehearsal dinners, milestone birthdays and the long table on the last night of a reunion week, when the toasts need everyone seated.',
+        'On Kauaʻi the shore often decides whether plated is realistic outdoors. Poʻipū and Kōloa lawns can hold a plated dinner on more nights of the year; a Princeville terrace in January usually moves the courses inside or under a covered lānai. Plated needs more servers than a buffet for the same list, so the staffing line grows while the food band stays the same: servers $80 an hour and a sous-chef $105, on four- to five-hour minimums.',
+        'Kauaʻi is by inquiry. Guest counts, the $225–$375 food band and the written reply live on the island [Kauai catering](/catering) page. A rehearsal that belongs to a wedding week is planned on [Kauai wedding catering](/weddings), and a plated dinner for two to eight is a villa night on [private chef Kauai](/).',
       ],
       faqs: [
         {
@@ -452,11 +465,16 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         },
         {
           q: 'Two of us?',
-          a: 'Yes.',
+          a: 'Yes — but a dinner for two is a private chef night, not catering. On Kauaʻi the dinner-for-two or elopement line is published at $975–$1,425 per event. Start on [private chef Kauai](/).',
+        },
+        {
+          q: 'How many guests can a plated Kauaʻi dinner seat?',
+          a: 'As many as the dining room or lawn and the kitchen can pace, within the usual 10–75 range for staffed events. The server count is sized to the covers and printed on the reply from [Kauai catering](/catering).',
         },
       ],
       related: [
         { path: '/catering', label: 'Kauai catering' },
+        { path: '/weddings', label: 'Kauai wedding catering' },
         { path: '/rehearsal-dinners', label: 'Rehearsal dinners' },
         { path: '/princeville', label: 'Princeville' },
         { path: '/catering/family-style', label: 'Family-style' },
@@ -513,7 +531,9 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Guests move. Stations stay hot. Inquiry. Estate scale, not a ballroom.',
       photo: 'fmtBuffetKauai',
       body: [
-        'Inquiry stage.',
+        'A Kauaʻi buffet is staffed stations in the house: hot pans that stay hot, a carving or grill station when the menu wants one, island greens, coconut rice and a dessert table, with a crew that refills, clears and runs the kitchen. It is the usual choice from about twenty guests — a reunion in a Princeville estate, a retreat week’s group dinner, or a wedding welcome night that walks.',
+        'The North Shore is often misty, and a buffet under a covered lānai is a common choice there from November to March: pans can wait while the rain passes, and forty people can still eat well if the lawn is closed. South Shore buffets in Poʻipū can more often sit outdoors, with a written covered backup before a deposit either way.',
+        'The $225–$375 food band, the 10–75 guest range and staffing at $80 an hour per server are on the island [Kauai catering](/catering) page. Līhuʻe and Kapaʻa are our base zone with no travel surcharge; Princeville, Hanalei and Poʻipū carry the published $50–$75 line. Hotel ballroom banquets are not the product — this is catering in estates and villas, by inquiry.',
       ],
       faqs: [
         {
@@ -523,6 +543,14 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         {
           q: 'Far-North buffet?',
           a: 'Bridge clause still applies.',
+        },
+        {
+          q: 'From how many guests does a Kauaʻi buffet make sense?',
+          a: 'Usually from about twenty. Below that, a family-style table often feels better with a similar crew. The reply from [Kauai catering](/catering) names the format that fits the house and the shore.',
+        },
+        {
+          q: 'Is a buffet cheaper than plated on Kauaʻi?',
+          a: 'The food band is the same Kauaʻi signature card, $225–$375 a guest. A buffet usually needs fewer servers than plated, so the staffing line is lighter. 20% service and GET up to 4.712% are added once.',
         },
       ],
       related: [
@@ -543,7 +571,9 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Boards after Līhuʻe. Family-style may follow. Inquiry.',
       photo: 'fmtGrazingKauai',
       body: [
-        'Welcome dinners often start here.',
+        'Grazing on Kauaʻi is the first hour at the estate: styled boards with ahi poke, local crudités and fruit, plus passed small plates while guests are still arriving from Līhuʻe. Welcome dinners often start here, and family-style is the seated course that may follow.',
+        'Boards run around $750–$950 as a market reference, and passed bites are $5–$7 a piece with a twenty-piece minimum. On a misty Princeville lānai the boards sit under cover; on a sunny Poʻipū lawn they are set out of the sun and refreshed rather than left out.',
+        'Tell us on the inquiry whether grazing is the hour or the whole evening, and we write the quantities to match. Full staffed events — headcount, staffing and the written total — sit on the island [Kauai catering](/catering) page. A drinks line can be added with a [villa bartender](/bar).',
       ],
       faqs: [
         {
@@ -553,6 +583,10 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         {
           q: 'Same day as the flight?',
           a: 'If the crew exists and the shore is named. Inquiry.',
+        },
+        {
+          q: 'Can grazing be added to a Kauaʻi catering dinner?',
+          a: 'Yes. It prints as its own line on the same written reply from [Kauai catering](/catering), before the seated, buffet or BBQ course.',
         },
       ],
       related: [
@@ -574,6 +608,8 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       photo: 'fmtDropoffKauai',
       body: [
         'Far-North still inherits the Hanalei bridge notes even for a conversation about trays.',
+        'Drop-off means food delivered to the estate door and no crew staying behind: nobody at the pass, nobody clearing, no cleanup. On Kauaʻi it is inquiry only, because the staffed format is what we actually run on both shores. If you ask, we will tell you in writing whether trays are possible for that date, that shore and that address.',
+        'If you want a chef in the kitchen and service at the table, that is staffed [Kauai catering](/catering) for about 10–75 guests from $225 a guest, or a villa dinner on [private chef Kauai](/) for eight or fewer. For a week of meals rather than one party, the island Stay Chef line is on the vacation chef page.',
       ],
       faqs: [
         {
