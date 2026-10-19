@@ -57,7 +57,7 @@ export const islandLocations: Record<IslandId, IslandLocationsPage> = {
     h1: 'Where we cook on Kauai — North Shore and South Shore.',
     title: 'Kauai towns we cook in — both shores | myCHEF',
     description:
-      'The Kauai neighborhoods we cook in: Princeville, Hanalei, Kapaʻa and Poʻipū. Bookings start as an inquiry.',
+      'Kauai neighborhoods we cook in: Princeville, Hanalei, Kapaʻa and Poʻipū. Bookings start as an inquiry.',
     lede:
       'Princeville, Hanalei, Kapaʻa and Poʻipū. Bookings start as an inquiry — send the shore and the dates.',
     kicker: 'Kauaʻi · Locations',

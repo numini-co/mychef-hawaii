@@ -242,7 +242,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/dietary': {
     title: 'Dietary design, by island | myCHEF Hawaii',
     description:
-      'Each island designs vegan, gluten-free, and allergy plates in advance.',
+      'Each island designs vegan, gluten-free and allergy plates ahead.',
   },
   '/honeymoon-dinners': {
     title: 'Dinner for two, by island | myCHEF Hawaii',
@@ -360,7 +360,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/fine-dining/chefs-table-evening': {
     title: 'Evening chef’s-table formats, by island | myCHEF Hawaii',
-    description: 'Evening chef’s-table formats across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    description: 'Evening chef’s-table formats across Oʻahu, Maui, Kauaʻi and the Big Island, with published prices and a written quote.',
   },
   '/fine-dining/celebration-dinner': {
     title: 'Celebration dinners, by island | myCHEF Hawaii',
@@ -409,7 +409,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/help/wedding-guide': {
     title: 'Wedding-week planning notes, by island | myCHEF Hawaii',
-    description: 'Wedding-week planning notes across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    description: 'Wedding-week planning notes across Oʻahu, Maui, Kauaʻi and the Big Island, with published prices and a written quote.',
   },
   '/help/corporate-guide': {
     title: 'Offsite planning notes, by island | myCHEF Hawaii',
@@ -598,7 +598,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/kauai/vacation-chef': {
     title: 'Vacation chef Kauai — Stay Chef from $1,650/day | myCHEF',
-    description: 'A chef for your Kauaʻi week. Arrival-night dinner, provisioning, retreat full-board. Inquiry stage.',
+    description: 'A chef for your Kauaʻi week. Arrival dinner, provisioning, retreat full-board. Inquiry stage.',
   },
   '/kauai/events': {
     title: 'Kauai estate events — both shores, inquiry | myCHEF',
@@ -739,7 +739,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/bigisland/sitemap': {
     title: 'Hawaiʻi Island HTML sitemap — live URLs on this site | myCHEF',
-    description: 'Hawaiʻi Island HTML sitemap: practical notes from myCHEF Hawaii for a private chef night in your villa or vacation rental. Send your dates for a written quote.',
+    description: 'Hawaiʻi Island HTML sitemap for a private chef night in a villa or vacation rental. Send dates for a written quote.',
   },
 };
 

@@ -81,7 +81,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       h1: 'Kakaʻako tower ranges — compact kitchens, owned rooms.',
       title: 'Kakaʻako tower dinners — compact ranges | myCHEF',
       description:
-        'Kakaʻako tower-residence dinners. Compact kitchens, freight elevators, quiet hours.',
+        'Kakaʻako tower dinners. Compact kitchens, freight elevators, quiet hours.',
       lede:
         'A small range in a tower, not a rooftop we do not own. Menus adapt to the kitchen that actually exists.',
       photo: 'cellKakaako',
@@ -108,7 +108,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       h1: 'Downtown pied-à-terre dinners — loading, not HCC.',
       title: 'Downtown Honolulu pied-à-terre dinners | myCHEF',
       description:
-        'Downtown Honolulu pied-à-terre dinners. Parking and loading, not restaurant takeovers.',
+        'Downtown pied-à-terre dinners. Parking and loading, not restaurant takeovers.',
       lede:
         'A compact dining room above the loading dock. HCC citywides stay closed. We cook the house, not a ballroom.',
       photo: 'cellDowntown',
@@ -134,7 +134,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       h1: 'Kāneʻohe town tables — quieter windward, published drive.',
       title: 'Kāneʻohe household dinners — published surcharge | myCHEF',
       description:
-        'Kāneʻohe household dinners. Quieter than Kailua, still a drive. Published surcharge.',
+        'Kāneʻohe dinners. Quieter than Kailua, still a drive. Published surcharge.',
       lede:
         'Koʻolau cliffs, a household range, the drive printed as its own line. Not a second 30-day beach-house page.',
       photo: 'cellKaneohe',
@@ -189,7 +189,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       h1: 'Upcountry Maui tables — elevation is a line, not a farm claim.',
       title: 'Upcountry Maui villa dinner — elevation surcharge | myCHEF',
       description:
-        'Upcountry Maui estate dinners. Published elevation surcharge. Named farms only after written verification.',
+        'Upcountry Maui dinners. Published elevation surcharge. Named farms only after written verification.',
       lede:
         'Cooler air, a longer drive, Haleakalā on the slope. The surcharge is printed. Farm names wait for verification.',
       photo: 'cellUpcountry',
@@ -298,7 +298,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       h1: 'Makawao town tables — Upcountry weather on the quote.',
       title: 'Makawao town dinner — Upcountry estate tables | myCHEF',
       description:
-        'Makawao town estate dinners. Upcountry surcharge. Weather can turn on outdoor setups.',
+        'Makawao town estate dinners. Upcountry surcharge. Weather can turn outdoors.',
       lede:
         'Town, not the whole upcountry slope. Retreat houses and estate tables. The weather backup is written.',
       photo: 'cellMakawao',
@@ -325,7 +325,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       h1: 'Honokōwai condo ranges — West Maui strip, not Kapalua.',
       title: 'Honokōwai villa dinner — West Maui condos | myCHEF',
       description:
-        'Honokōwai West Maui condo dinners. Compact kitchens between Kāʻanapali and Kapalua.',
+        'Honokōwai West Maui dinners. Compact kitchens between Kāʻanapali and Kapalua.',
       lede:
         'The residential strip. Multi-day chef days more than one-off halos. The menu fits the range that is actually in the unit.',
       photo: 'cellHonokowai',
@@ -378,7 +378,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       h1: 'Kula and Haleakalā tables — temperature changes the chef day.',
       title: 'Kula elevation dinner — Haleakalā slope | myCHEF',
       description:
-        'Kula / Haleakalā slope dinners. High elevation, surcharge, temperature on the plan.',
+        'Kula / Haleakalā slope dinners. High elevation, surcharge, temperature on plan.',
       lede:
         'Above the cloud line some afternoons. The drive and the temperature both change the chef day. Farm names wait for verification.',
       photo: 'cellHaleakala',
@@ -878,7 +878,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       h1: 'Kaʻū south tables — origin-labeled coffee, a different day.',
       title: 'Kaʻū south dinner — Act 198 coffee, dedicated day | myCHEF',
       description:
-        'Kaʻū / South Point-direction dinners at inquiry. Extended surcharge. Named Kaʻū coffee follows Act 198.',
+        'Kaʻū / South Point dinners at inquiry. Extended surcharge. Named Kaʻū coffee follows Act 198.',
       lede:
         'South of the west-side radius. Advance notice. We do not invent a farm brand for the south.',
       photo: 'cellKau',

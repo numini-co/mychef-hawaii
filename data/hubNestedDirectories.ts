@@ -455,7 +455,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     path: '/fine-dining/chefs-table-evening',
     h1: 'Evening chef’s-table formats, by island.',
     title: 'Evening chef’s-table formats, by island | myCHEF Hawaii',
-    description: 'Evening chef’s-table formats across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    description: 'Evening chef’s-table formats across Oʻahu, Maui, Kauaʻi and the Big Island, with published prices and a written quote.',
     lede: 'Evening chef’s-table formats across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
     kicker: 'Statewide · Chef’s-table evening',
     photo: 'hubFineChefsev',
@@ -474,7 +474,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     path: '/fine-dining/celebration-dinner',
     h1: 'Celebration dinners, by island.',
     title: 'Celebration dinners, by island | myCHEF Hawaii',
-    description: 'A marked night as a format, not an occasion URL. Birthdays and anniversaries stay under the occasions page.',
+    description: 'A marked night as a format, not an occasion page. Birthdays and anniversaries stay under occasions.',
     lede:
       'A marked night as a format, not an occasion URL. Birthdays and anniversaries stay under the occasions page.',
     kicker: 'Statewide · Celebration dinner',
@@ -679,7 +679,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     path: '/help/wedding-guide',
     h1: 'Wedding-week planning notes, by island.',
     title: 'Wedding-week planning notes, by island | myCHEF Hawaii',
-    description: 'Wedding-week planning notes across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    description: 'Wedding-week planning notes across Oʻahu, Maui, Kauaʻi and the Big Island, with published prices and a written quote.',
     lede:
       'How the week is planned.',
     kicker: 'Statewide · Wedding guide',
