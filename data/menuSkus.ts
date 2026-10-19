@@ -22,7 +22,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'A three-course in an Oahu dining room — designed per table.',
       title: 'A three-course in an Oahu dining room | myCHEF',
       description:
-        'Three-course menus in Kahala dining rooms and Ko Olina villas. Designed per table, not a standing carte.',
+        'Three-course menus in Kahala rooms and Ko Olina villas. Per table, not a standing carte.',
       lede:
         'Crudo, a sear, a close. The sample on the menus page is an example.',
       photo: 'menuThreeOahu',
@@ -130,7 +130,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'A three-course in a Maui dining room — designed per table.',
       title: 'A three-course in a Maui dining room | myCHEF',
       description:
-        'Three-course menus in Wailea and Kapalua. Designed per table, not a standing carte.',
+        'Three-course menus, Wailea and Kapalua. Designed per table, not a standing carte.',
       lede:
         'Crudo, a grill, a close. The sample on the menus page is an example.',
       photo: 'menuThreeMaui',
@@ -207,7 +207,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'Lunch in a Maui house — midday in Kīhei and Wailea.',
       title: 'Lunch in a Maui house | myCHEF',
       description:
-        'Lunch menus in Kīhei family houses and Wailea villas. Midday food. Designed per table.',
+        'Lunch in Kīhei family houses and Wailea villas. Midday food. Designed per table.',
       lede:
         'A shorter arc than dinner. South Maui light.',
       photo: 'menuLunchMaui',

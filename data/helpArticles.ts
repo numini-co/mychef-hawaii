@@ -57,7 +57,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'How to read an Oahu menu draft — Honolulu fish, 48 hours.',
       title: 'How to read an Oahu menu draft | myCHEF',
       description:
-        'How an Oahu menu draft arrives: 48 hours, Honolulu fish market, designed per table.',
+        'How an Oahu menu draft arrives: 48 hours, Honolulu fish market, per table.',
       lede: 'How an Oahu menu draft arrives: 48 hours, Honolulu fish market, designed per table.',
       photo: 'helpMenuOahu',
       body: [
@@ -86,7 +86,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'Planning an Oahu wedding week — welcome through brunch as lines.',
       title: 'Planning an Oahu wedding week | myCHEF',
       description:
-        'Planner checklist for an Oahu wedding week: welcome, rehearsal, reception, recovery brunch as separate lines.',
+        'Planner checklist for an Oahu wedding week: welcome, rehearsal, reception, recovery brunch as separate lines. Published prices.',
       lede: 'Planner checklist for an Oahu wedding week: welcome, rehearsal, reception, recovery brunch as separate lines.',
       photo: 'helpWeddingOahu',
       body: [
@@ -240,7 +240,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'Planning a Maui wedding week — Wailea lawns and West Maui houses.',
       title: 'Planning a Maui wedding week | myCHEF',
       description:
-        'Planner checklist for a Maui wedding week: welcome, rehearsal, reception, recovery brunch as separate lines.',
+        'Maui wedding-week checklist: welcome, rehearsal, reception, recovery brunch as separate lines.',
       lede:
         'West Maui Saturday traffic is a logistics line, not a surprise.',
       photo: 'helpWeddingMaui',

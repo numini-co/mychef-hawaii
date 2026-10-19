@@ -477,7 +477,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Honeymoon dinners on Kauai — two seats, both shores.',
       title: 'Honeymoon dinners on Kauai — two seats | myCHEF',
       description:
-        'Dinner-for-two on Princeville terraces or Poʻipū kitchens. Inquiry stage.',
+        'Dinner-for-two on Princeville terraces or Poʻipū. Inquiry stage.',
       lede:
         'Two plates, mist or sun. Not an estate reception. Far-North two-tops still inherit the bridge clause.',
       photo: 'svcHoneymoonKauai',
@@ -507,7 +507,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Chef’s table in a Kauai villa — the counter facing the mountains.',
       title: 'Chef’s table in a Kauai villa | myCHEF',
       description:
-        'Private chef’s table at a Princeville or Poʻipū kitchen counter. Inquiry stage. Not a resort communal table.',
+        'Private chef’s table at a Princeville or Poʻipū counter. Inquiry stage. Not a resort table.',
       lede:
         'The pass is the island in the house. Misted peaks or pale cliffs. Not a ticketed restaurant we do not own.',
       photo: 'svcChefsTableKauai',

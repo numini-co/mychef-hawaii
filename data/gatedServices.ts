@@ -289,7 +289,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Omakase at home on Maui — a tasting arc in Wailea, not a Michelin claim.',
       title: 'Omakase at home on Maui — a tasting arc in Wailea | myCHEF',
       description:
-        'Premium tasting at home in Wailea and Kapalua. Sourcing verification is a launch gate. Not a star claim.',
+        'Premium tasting at home in Wailea and Kapalua. Sourcing verification is a launch gate. Not a star.',
       lede:
         'Courses at the open-kitchen counter. Molokini in the window if the house has it. We will not borrow a restaurant’s name.',
       photo: 'svcOmakaseMaui',

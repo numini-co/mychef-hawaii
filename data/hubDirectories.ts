@@ -421,7 +421,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Dietary design, by island.',
     title: 'Dietary design, by island | myCHEF Hawaii',
     description:
-      'Each island designs vegan, gluten-free, and allergy plates in advance.',
+      'Each island designs vegan, gluten-free and allergy plates ahead.',
     lede:
       'Dietary is designed in, not theatre. Each island writes how that works in that kitchen.',
     kicker: 'Statewide · Dietary',

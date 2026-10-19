@@ -99,7 +99,7 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
     h1: 'Kauai questions — both shores, inquiry, the bridge.',
     title: 'Kauai FAQ — both shores, inquiry, the bridge | myCHEF',
     description:
-      'Kauai booking questions: by inquiry, Princeville vs Poʻipū, Hanalei-bridge weather clause, published prices.',
+      'Kauai booking questions: by inquiry, Princeville vs Poʻipū, Hanalei-bridge clause, published prices.',
     lede:
       'Both shores. Inquiry stage. The bridge and the weather are real. We staff the estate when a crew exists — we do not dress a waitlist as live.',
     kicker: 'Kauaʻi FAQ',
