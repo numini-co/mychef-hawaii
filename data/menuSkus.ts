@@ -130,7 +130,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'A three-course in a Maui dining room — designed per table.',
       title: 'A three-course in a Maui dining room | myCHEF',
       description:
-        'Three-course menus in Wailea and Kapalua. Designed per table, not standing carte.',
+        'Three-course menus, Wailea and Kapalua. Designed per table, not a standing carte.',
       lede:
         'Crudo, a grill, a close. The sample on the menus page is an example.',
       photo: 'menuThreeMaui',

@@ -47,7 +47,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'Do you bring wine for a Ko Olina two-top, or do we?',
-          a: 'Spirits are billed at cost, or you bring your own. They are not folded into the dinner. Say if you want glasses with the courses or bottles left on the sideboard.',
+          a: 'Bring the bottles for the two-top, or ask for a separate pour as its own line on the written quote. Wine, beer, and spirits never sit inside the per-guest band. Say if glasses go with the courses or the bottles stay on the sideboard.',
         },
         {
           q: 'How much time sits between courses when nobody else is at the table?',
@@ -75,12 +75,12 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       photo: 'fineTastingOahu',
       body: [
         'Menus are designed per table. We will not print a fake standing carte.',
-        'A tasting night starts once the Honolulu freight slot or the Ko Olina gate time is open. The arc is already on paper. Courses go to the counter or the dining table in that order, slower for two, steadier when the table is full, and the pass is cleared before we leave. A windy lānai moves the seating inside. Fish or a farm is named only when the invoice stands behind it. The sushi-forward night is [omakase at home](/omakase-at-home). How a draft is built is on [menus](/menus). Formats are on [fine dining](/fine-dining). Bands and fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote).',
+        'A tasting night starts once the Honolulu freight slot or the Ko Olina gate time is open. The arc is already on paper. Courses go to the counter or the dining table in that order, slower for two, steadier when the table is full, and the pass is cleared before we leave. A windy lānai moves the seating inside. Fish or a farm is named only when the invoice stands behind it. A paced tasting at the kitchen island, on its own page, is [omakase at home](/omakase-at-home). Menu and sourcing verification are its launch gates. How a draft is built is on [menus](/menus). Formats are on [fine dining](/fine-dining). Bands and fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
           q: 'How is this tasting arc different from omakase at home?',
-          a: 'Omakase at home is the sushi-forward night in your kitchen. This arc is a written sequence of courses, not that direction and not a restaurant name. Both are designed per table. Say which you want.',
+          a: 'Omakase at home is a paced tasting at the kitchen island, on its own page. Menu and sourcing verification are its launch gates. This arc is the written sequence of courses. Say which night you want.',
         },
         {
           q: 'Are tasting courses plated, or passed for the table to share?',
@@ -96,7 +96,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'Who handles wine during a multi-course Kahala arc?',
-          a: 'Spirits are billed at cost, or you bring your own. A pour beside each course is a note on the quote, not a license claim and not part of the food band.',
+          a: 'Bring the wine, or a pour beside each course is quoted as its own line. Wine, beer, and spirits stay out of the per-guest band. That note is not a license claim.',
         },
         {
           q: 'What do you need to write a Ko Olina tasting quote?',
@@ -140,7 +140,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'Is wine service part of watching the sear?',
-          a: 'Spirits are billed at cost, or you bring your own. Pouring beside the courses is a separate note. It is not a bar license and it is not inside the food.',
+          a: 'Wine service is separate from watching the sear. You bring what is poured, or that pour is its own line on the written quote. Wine, beer, and spirits are not inside the food.',
         },
         {
           q: 'What should I send for a Ko Olina counter after dark?',
@@ -179,7 +179,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'Does the dining-room dinner include wine?',
-          a: 'Spirits are billed at cost, or you bring your own. Glasses on the table are a note, not a pairing menu buried in the food. Say what you want poured.',
+          a: 'The dining room does not include wine. Bring it, or a separate pour is written as its own line. Wine, beer, and spirits stay outside the per-guest band. Say what you want poured.',
         },
         {
           q: 'How does pacing change between two people and a full dining table?',
@@ -225,7 +225,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'Can wine stay on the lānai without a pairing list?',
-          a: 'Spirits are billed at cost, or you bring your own. Leaving the bottle on the lānai is enough. A pour with each course is a note, not a license and not inside the food.',
+          a: 'Leave the bottle on the lānai if it is yours. A pour with each course is a separate line on the quote, not a pairing list inside the food. Wine, beer, and spirits stay out of the per-guest band.',
         },
         {
           q: 'What happens to the courses if we want to linger at blue hour?',
@@ -252,7 +252,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       photo: 'fineTastingMaui',
       body: [
         'We do not impersonate another kitchen.',
-        'The arc is written for the Wailea or Kapalua kitchen you rented. The cook sets the counter, sends courses in that order, and gives two people more time between plates than a full table. Clean-down is the counter and the pass. If rain hits the lānai, the courses stay at that counter. A supplier is named only when the invoice stands behind it. The sushi-forward night is [omakase at home](/omakase-at-home). Drafts are explained on [menus](/menus). Formats are on [fine dining](/fine-dining). The band and fee lines are on [pricing](/pricing). Quotes are open on [the quote form](/quote).',
+        'The arc is written for the Wailea or Kapalua kitchen you rented. The cook sets the counter, sends courses in that order, and gives two people more time between plates than a full table. Clean-down is the counter and the pass. If rain hits the lānai, the courses stay at that counter. A supplier is named only when the invoice stands behind it. The paced tasting at your kitchen island is [omakase at home](/omakase-at-home), and menu plus sourcing verification are what launch that page. Drafts are explained on [menus](/menus). Formats are on [fine dining](/fine-dining). The band and fee lines are on [pricing](/pricing). Quotes are open on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -261,7 +261,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'How is a written tasting different from omakase at home on Maui?',
-          a: 'Omakase at home is the sushi-forward counter. This page is the written sequence of courses, plated in the order on the draft. Tell us which night you mean. Quotes are open.',
+          a: 'Omakase at home is the paced tasting at a Wailea or Kapalua kitchen island, on its own page. Menu and sourcing verification launch it. This page is the written sequence of courses. Quotes are open. Tell us which night.',
         },
         {
           q: 'Can one course in the arc be changed for a dairy note?',
@@ -273,7 +273,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'Where do bottles sit during a long Wailea sequence?',
-          a: 'On the counter if you brought them, or billed at cost if we buy them. They are not a course in the arc. Say if a glass should be set with each plate or the bottle left alone.',
+          a: 'On the counter if you brought them. A pour we buy is quoted as its own line, not folded into a course. Wine, beer, and spirits never sit inside the per-guest band. Say if a glass meets each plate or the bottle stays closed.',
         },
         {
           q: 'What turns a West Maui tasting into a written total?',
@@ -317,7 +317,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'Does watching the cook include a wine pairing?',
-          a: 'Spirits are billed at cost, or you bring your own. A pairing is not assumed and is not a license. Ask for pours in the same note as the seats.',
+          a: 'Watching the cook does not include a pairing. Bring the bottles, or ask for pours as their own line in the same note as the seats. Wine, beer, and spirits stay outside the guest price.',
         },
         {
           q: 'What should a West Maui evening request include?',
@@ -357,7 +357,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'Is the wine included when the dining room is the celebration?',
-          a: 'Spirits are billed at cost, or you bring your own. They are outside the per-guest band. Say if you want them poured or left for the table.',
+          a: 'Wine is not included with the dining room. You bring it, or a pour is written apart from the plates. Wine, beer, and spirits do not sit in the per-guest band. Say if they are poured or left for the table.',
         },
         {
           q: 'Why would two people on a Wailea lānai be paced differently from twelve?',
@@ -404,7 +404,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'Are drinks included on a Garden Isle two-top?',
-          a: 'Spirits are billed at cost, or you bring your own. They are not inside the dinner. A pour with the courses is a note on the availability request.',
+          a: 'Drinks are not included on the two-top. Bring wine, beer, and spirits, or request a separate pour as its own line when you request availability. They stay outside the dinner.',
         },
         {
           q: 'Does rain on a North Shore terrace stop the courses?',
@@ -430,12 +430,12 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       lede: 'Courses at the estate counter. Inquiry.',
       photo: 'fineTastingKauai',
       body: [
-        'The written arc waits until a crew can reach the shore you named. Courses go to the Princeville or Poʻipū counter in that order. Two people get a wider gap than a full table. The pass is cleared at the end. Rain keeps the seating off an open terrace. A Hanalei closure shifts the North Shore night. A name on a dish appears only when the invoice stands behind it. Sushi-forward is [omakase at home](/omakase-at-home). Menu drafts are on [menus](/menus). Formats are on [fine dining](/fine-dining). Fees are on [pricing](/pricing). Request availability on [the quote form](/quote).',
+        'The written arc waits until a crew can reach the shore you named. Courses go to the Princeville or Poʻipū counter in that order. Two people get a wider gap than a full table. The pass is cleared at the end. Rain keeps the seating off an open terrace. A Hanalei closure shifts the North Shore night. A name on a dish appears only when the invoice stands behind it. The paced tasting at the kitchen island is [omakase at home](/omakase-at-home), where menu and sourcing verification are the launch gates. Menu drafts are on [menus](/menus). Formats are on [fine dining](/fine-dining). Fees are on [pricing](/pricing). Request availability on [the quote form](/quote).',
       ],
       faqs: [
         {
           q: 'What separates this estate arc from omakase at home?',
-          a: 'Omakase at home is the sushi-forward tasting. This arc is the written sequence at a Princeville or Poʻipū counter. Request availability for the shore. Neither is a restaurant claim.',
+          a: 'Omakase at home is a paced tasting at the estate kitchen island, on its own page. Menu and sourcing verification are its launch gates. This arc is the written sequence at a Princeville or Poʻipū counter. Request availability for the shore.',
         },
         {
           q: 'Does a South Shore arc arrive as plated courses?',
@@ -451,7 +451,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'How should drinks be requested across a long estate arc?',
-          a: 'Spirits are billed at cost, or you bring your own. They are outside the food. Say if you want a glass with each course when you request availability.',
+          a: 'Request the drinks with the shore. Bring the bottles, or a glass with each course is its own line on the reply. Wine, beer, and spirits are outside the food. Say which when you request availability.',
         },
         {
           q: 'What does a both-shores tasting request need?',
@@ -495,7 +495,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'Is a pairing poured while everyone watches the sear?',
-          a: 'Spirits are billed at cost, or you bring your own. A pairing is not included and is not a license. Ask for it as its own note.',
+          a: 'A pairing is not poured with the sear unless you ask. Bring it, or it is a separate line when you request availability. Wine, beer, and spirits stay off the per-guest band.',
         },
         {
           q: 'What should a North Shore counter request say about the bridge?',
@@ -534,7 +534,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'Should bottles for an estate table be in the house before the crew arrives?',
-          a: 'Bring them if they are yours. Otherwise they are billed at cost and still sit outside the dinner. Say which, and whether they are poured, when you request availability.',
+          a: 'Have your bottles in the house if they are yours. A pour we supply is its own line on the written reply, still outside the dinner. Wine, beer, and spirits are not in the per-guest band. Say whether they are poured when you request availability.',
         },
         {
           q: 'How does a two-person celebration differ in pace from a full estate table?',
@@ -581,7 +581,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'Who supplies wine on a Waikoloa terrace?',
-          a: 'Spirits are billed at cost, or you bring your own. They are outside the dinner. A pour at sunset is a note on the inquiry, not a license.',
+          a: 'You bring the wine for the terrace, or a sunset pour is its own line on the written reply. Wine, beer, and spirits stay outside the dinner. Join the inquiry list and say which.',
         },
         {
           q: 'How are courses timed when sunset is the clock?',
@@ -608,12 +608,12 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       lede: 'Kanpachi in courses at the counter. Lava in the window.',
       photo: 'fineTastingBigisland',
       body: [
-        'Join the inquiry list for a Kona or Kohala kitchen. The arc is written before the shop. Courses land at the counter in that order, with more air between plates for two than for a full counter, and the pass is cleared at the end. Wind off the lava moves seating indoors. A supplier is named only when the invoice stands behind it. Hilo is a separate dedicated east-side day, quoted in writing, not a course added after Waikoloa. Sushi-forward is [omakase at home](/omakase-at-home). Drafts are on [menus](/menus). Formats are on [fine dining](/fine-dining). Fees are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
+        'Join the inquiry list for a Kona or Kohala kitchen. The arc is written before the shop. Courses land at the counter in that order, with more air between plates for two than for a full counter, and the pass is cleared at the end. Wind off the lava moves seating indoors. A supplier is named only when the invoice stands behind it. Hilo is a separate dedicated east-side day, quoted in writing, not a course added after Waikoloa. The paced tasting at the kitchen island is [omakase at home](/omakase-at-home). Its launch gates are the menu and the sourcing verification. Drafts are on [menus](/menus). Formats are on [fine dining](/fine-dining). Fees are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
           q: 'How is a Kona tasting arc different from omakase at home?',
-          a: 'Omakase at home is the sushi-forward counter on the west side. This arc is the written sequence of courses. Join the inquiry list and name which. A Hilo tasting is a separate dedicated east-side day.',
+          a: 'Omakase at home is a paced tasting at the west-side kitchen island, on its own page. Menu and sourcing verification are its launch gates. This arc is the written sequence of courses. Join the inquiry list and name which. A Hilo tasting is a separate dedicated east-side day.',
         },
         {
           q: 'Do west-side tasting courses come out plated?',
@@ -629,7 +629,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'Can a Waikoloa tasting stay dry except for one toast?',
-          a: 'A single toast is enough. Spirits are billed at cost, or you bring that bottle, and the rest of the arc stays food. Put the limit on the inquiry so the pass is not set for a pour at every course.',
+          a: 'One toast is enough. Bring that bottle, or the toast is quoted as its own line, and the rest of the arc stays food. Wine, beer, and spirits are not in the per-guest band. Put the limit on the inquiry.',
         },
         {
           q: 'Does a Hilo tasting ride along with a Kona arc the same evening?',
@@ -674,7 +674,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'Is a wine pairing part of sitting at the Kona sear?',
-          a: 'Spirits are billed at cost, or you bring your own. A pairing is not assumed. It is outside the food and it is not a license.',
+          a: 'A pairing is not part of the Kona sear. Bring the wine, or it is quoted as its own line. Wine, beer, and spirits stay outside the food. Join the inquiry list if you want that line written.',
         },
         {
           q: 'Can the east side be a second seating after the Kona counter?',
@@ -716,7 +716,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         },
         {
           q: 'Is a sunset toast on the Kohala terrace part of the food?',
-          a: 'The toast is separate from the plates. Join the inquiry list and say if the bottle is yours or billed at cost. A Hilo toast is not added to this terrace.',
+          a: 'The toast is separate from the plates. Bring the bottle, or it is its own line on the written reply. Wine, beer, and spirits never sit inside the per-guest band. Join the inquiry list. A Hilo toast is not added to this terrace.',
         },
         {
           q: 'How does pacing for two on a lava terrace differ from a full table?',

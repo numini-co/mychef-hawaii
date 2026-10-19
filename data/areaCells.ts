@@ -298,7 +298,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       h1: 'Makawao town tables — Upcountry weather on the quote.',
       title: 'Makawao town dinner — Upcountry estate tables | myCHEF',
       description:
-        'Makawao town estate dinners. Upcountry surcharge. Weather can turn outdoors.',
+        'Makawao town dinners. Upcountry surcharge. Weather can turn on outdoor setups.',
       lede:
         'Town, not the whole upcountry slope. Retreat houses and estate tables. The weather backup is written.',
       photo: 'cellMakawao',
@@ -378,7 +378,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       h1: 'Kula and Haleakalā tables — temperature changes the chef day.',
       title: 'Kula elevation dinner — Haleakalā slope | myCHEF',
       description:
-        'Kula / Haleakalā slope dinners. High elevation, surcharge, temperature on plan.',
+        'Kula / Haleakalā slope dinners. High elevation surcharge, temperature on the plan.',
       lede:
         'Above the cloud line some afternoons. The drive and the temperature both change the chef day. Farm names wait for verification.',
       photo: 'cellHaleakala',

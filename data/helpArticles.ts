@@ -57,7 +57,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'How to read an Oahu menu draft — Honolulu fish, 48 hours.',
       title: 'How to read an Oahu menu draft | myCHEF',
       description:
-        'An Oahu menu draft arrives in 48 hours via the Honolulu fish market, designed per table.',
+        'How an Oahu menu draft arrives: 48 hours, Honolulu fish market, per table.',
       lede: 'How an Oahu menu draft arrives: 48 hours, Honolulu fish market, designed per table.',
       photo: 'helpMenuOahu',
       body: [

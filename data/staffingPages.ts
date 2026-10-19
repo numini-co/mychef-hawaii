@@ -81,7 +81,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         },
         {
           q: 'What does the bartender set up, and what do we have to supply?',
-          a: 'They set the station and mix what the house supplies. Spirits are billed at cost, or you bring your own. We do not retell the cart. Glassware and ice for the package live on the mobile bar page.',
+          a: 'They set the station and mix what the house supplies. The drinks are yours, or a separate pour is its own line on the written quote. The package kit lives on [the mobile bar](/mobile-bar).',
         },
         {
           q: 'Why can’t I read an hourly figure for a Ko Olina bartender?',
@@ -217,7 +217,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         },
         {
           q: 'What gets mixed on a Kapalua lānai, and who brings the bottles?',
-          a: 'The bartender mixes what the house supplies. Spirits are billed at cost, or you bring your own. Setup and close-down are part of the hours. The cart’s kit is a different page.',
+          a: 'The bartender mixes what the Wailea or Kapalua house put out. Drinks are yours, or they print as a separate line on the quote. The four-hour kit is on [the mobile bar](/mobile-bar).',
         },
         {
           q: 'Why is a West Maui bartender quoted in writing instead of by the hour on the card?',
@@ -352,7 +352,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         },
         {
           q: 'What does the bartender mix on a wet North Shore terrace?',
-          a: 'What the house supplies. Spirits are billed at cost, or you bring your own. They set up and close down inside the hours. We do not restage that as a show.',
+          a: 'On that terrace they mix only what the house supplies. Bring the drinks, or ask for a separate line when you request availability. The package kit is [the mobile bar](/mobile-bar).',
         },
         {
           q: 'Why is there no hourly bartender rate on a Garden Isle request?',
@@ -491,7 +491,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         },
         {
           q: 'Who stocks the spirits for a Kohala terrace station?',
-          a: 'You do, or they are billed at cost on the written reply. The bartender only mixes that stock. Join the inquiry list. Close-down is the end time, not a second product.',
+          a: 'You stock the station. The bartender mixes that. Drinks are yours, or a separate line on the written reply after you join the inquiry list. The package kit is on [the mobile bar](/mobile-bar).',
         },
         {
           q: 'Where would a bartender price sit if I looked at the west-side card?',
