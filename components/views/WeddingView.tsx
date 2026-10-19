@@ -16,24 +16,29 @@ import { photos } from '@/data/photos';
 import { formatOtherOffer, getOtherOffer } from '@/data/rateCard';
 import { islandHref } from '@/lib/paths';
 
-const islandsWeddings: { id: IslandId; title: string; body: string }[] = [
+/** anchor = the island /weddings locked keyword (workspace keyword lock, Oct 2026). */
+const islandsWeddings: { id: IslandId; title: string; body: string; anchor: string }[] = [
   {
     id: 'maui',
+    anchor: 'Wedding catering Maui',
     title: 'Maui',
     body: 'Welcome dinner, rehearsal, reception and recovery brunch with one team. Peak months September, October and May.',
   },
   {
     id: 'oahu',
+    anchor: 'Wedding catering Oahu',
     title: 'Oʻahu',
     body: 'Celebration dinners and weekend stacks in Ko Olina, Kahala and windward estates.',
   },
   {
     id: 'kauai',
+    anchor: 'Kauai wedding catering',
     title: 'Kauaʻi',
     body: 'Estate formats on both shores. Welcome dinner, rehearsal and reception as separate lines.',
   },
   {
     id: 'bigisland',
+    anchor: 'Wedding catering Big Island',
     title: 'Hawaiʻi Island',
     body: 'Kohala estates, wedding-week format, west side first.',
   },
@@ -141,7 +146,7 @@ export function HubWeddingsView() {
                   </span>
                   <span className="mt-3 block text-[17px] leading-[1.65] text-paper">{row.body}</span>
                   <span className="mt-4 block text-[17px] text-paper">
-                    Wedding catering {formatOtherOffer(getOtherOffer('wedding'), row.id)}
+                    {row.anchor} {formatOtherOffer(getOtherOffer('wedding'), row.id)}
                   </span>
                 </span>
               </span>

@@ -74,7 +74,7 @@ export const hubCateringSections: CopySection[] = [
     h2: 'Staffed villa events',
     paras: [
       'Hawaii catering, here, means a staffed villa or estate — not a ballroom, not a drop-off tray, not a convention centre. Ten to seventy-five guests. We shop, cook, and serve in the house you actually have. Buffet, plated, family-style, or grazing. The food band is the island signature card. Staffing is itemised.',
-      'Statewide starting prices: from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island (dinners from $165 a guest). Wedding-week formats add welcome dinner, rehearsal, reception, and recovery brunch as separate lines. The confirmed total is the written quote: food, staffing, 20% service, GET up to 4.712%, 50% deposit.',
+      'Statewide starting prices: from $195 a guest on Oʻahu, $225 on Maui and Kauaʻi, and $210 on Hawaiʻi Island (dinners from $165 a guest). Wedding-week formats add welcome dinner, rehearsal, reception, and recovery brunch as separate lines, planned on the island wedding pages: [wedding catering Oahu](oahu:/weddings), [wedding catering Maui](maui:/weddings), [Kauai wedding catering](kauai:/weddings) and [wedding catering Big Island](bigisland:/weddings). The confirmed total is the written quote: food, staffing, 20% service, GET up to 4.712%, 50% deposit.',
       'Pick the island where the house is — each island page carries its own menus, prices and local drives: [Oahu catering](oahu:/catering) (including Honolulu catering) for Kahala and Ko Olina; [Maui catering](maui:/catering) for Wailea, Kīhei and West Maui staffed menus; [Kauai catering](kauai:/catering) for Princeville, Hanalei and Poʻipū; and [Big Island catering](bigisland:/catering) for Kona and the Kohala Coast.',
     ],
   },
@@ -141,7 +141,7 @@ export const hubWeddingsSections: CopySection[] = [
     paras: [
       'Wedding catering Hawaii, on this site, is a week — not a single plated hour. Welcome dinner, rehearsal, ceremony-adjacent service, reception, recovery brunch. One culinary conversation. Guest lists we staff: dinners for two to fifteen, receptions about ten to seventy-five.',
       'You do not hire four vendors and hope they share a kitchen. We write the week as separate lines on one quote so you can cut a brunch without renegotiating a mystery package. Peak pressure is real on every island; the calendar holds one wedding week at a time per crew.',
-      'Starting prices follow the island card plus staffing. Oʻahu receptions from $195 a guest plus servers. Maui from $225. Kauaʻi wedding formats from $260 plus staffing. The written quote is the total.',
+      'Starting prices follow the island card plus staffing. Oʻahu receptions from $195 a guest plus servers. Maui from $225. Kauaʻi wedding formats from $260 plus staffing. Hawaiʻi Island from $225 plus staffing. The written quote is the total.',
     ],
   },
   {
@@ -154,7 +154,7 @@ export const hubWeddingsSections: CopySection[] = [
   {
     h2: 'How to start',
     paras: [
-      'Open the island wedding page for the house you booked. Tell us the island, the dates, and the headcount on the quote form. We reply in Hawaii business hours. We do not invent venue exclusivity we do not have.',
+      'Open the island wedding page for the house you booked: [Wedding catering Oahu](oahu:/weddings) for Kahala, Ko Olina and windward estates; [Wedding catering Maui](maui:/weddings) for Wailea, Kāʻanapali, Kapalua and Upcountry weeks; [Kauai wedding catering](kauai:/weddings) for Princeville, Hanalei and Poʻipū; and [Wedding catering Big Island](bigisland:/weddings) for Kohala and Kona. Tell us the island, the dates, and the headcount on the quote form. We reply in Hawaii business hours. We do not invent venue exclusivity we do not have.',
       'Hawaii is launching. We do not invent wedding reviews. Proof is published prices, a sample menu, and a written wedding-week quote. Reviews publish after verified events.',
     ],
   },
@@ -217,7 +217,7 @@ export const hubWeddingsFaqs: CopyFaq[] = [
   },
   {
     q: 'Wedding-week Stay Chef or one reception — which do we book?',
-    a: 'Book one reception on the island wedding page when that is the only meal: [Maui weddings](maui:/weddings), [Oʻahu weddings](oahu:/weddings), [Kauaʻi weddings](kauai:/weddings), or [Big Island weddings](bigisland:/weddings). Stay Chef is the villa kitchen on the other days — from $1,250 a day on Oʻahu, $1,550 on Maui, $1,650 on Kauaʻi, $1,450 on Hawaiʻi Island — groceries at cost with receipts, not a second reception. 20% service and Hawaiʻi GET up to 4.712% are separate lines either way. Send the dates on the [quote form](/quote) or WhatsApp https://wa.me/18084687748.',
+    a: 'Book one reception on the island wedding page when that is the only meal: [wedding catering Maui](maui:/weddings), [wedding catering Oahu](oahu:/weddings), [Kauai wedding catering](kauai:/weddings), or [wedding catering Big Island](bigisland:/weddings). Stay Chef is the villa kitchen on the other days — from $1,250 a day on Oʻahu, $1,550 on Maui, $1,650 on Kauaʻi, $1,450 on Hawaiʻi Island — groceries at cost with receipts, not a second reception. 20% service and Hawaiʻi GET up to 4.712% are separate lines either way. Send the dates on the [quote form](/quote) or WhatsApp https://wa.me/18084687748.',
   },
   {
     q: 'Can wedding guests move islands the same day, and what locks the date?',
