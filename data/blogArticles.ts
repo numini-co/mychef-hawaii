@@ -694,6 +694,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       faqs: [
       ],
       related: [
+        { path: '/blog/new-years-eve-honolulu-dinner', label: 'New Year’s Eve in Honolulu' },
         { path: '/blog/thanksgiving-dinner-oahu', label: 'Thanksgiving dinner on Oʻahu' },
         { path: '/journal/how-far-ahead-to-book', label: 'How far ahead' },
         { path: '/blog/shoulder-season', label: 'Shoulder dates' },
@@ -1411,6 +1412,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       faqs: [
       ],
       related: [
+        { path: '/blog/christmas-in-maui-villa-dinner', label: 'Christmas in Maui' },
         { path: '/blog/thanksgiving-dinner-maui', label: 'Thanksgiving dinner on Maui' },
         { path: '/journal/how-far-ahead-to-book', label: 'How far ahead' },
         { path: '/wedding-week', label: 'Wedding week' },
@@ -1712,6 +1714,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/christmas-in-kauai-holiday-dinners', label: 'Christmas in Kauaʻi' },
         { path: '/events', label: 'Events' },
         { path: '/guest-counts', label: 'Guest counts' },
         { path: '/quote', label: 'Inquiry form' },
@@ -2110,6 +2113,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/christmas-in-kauai-holiday-dinners', label: 'Christmas in Kauaʻi' },
         { path: '/journal/how-far-ahead-to-book', label: 'How far ahead' },
         { path: '/hanalei-bridge', label: 'Hanalei bridge' },
         { path: '/quote', label: 'Inquiry form' },
@@ -2165,6 +2169,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/kona-restaurants-dining-guide', label: 'Kona restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/east-side', label: 'East side' },
         { path: '/quote', label: 'Inquiry form' },
