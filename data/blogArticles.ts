@@ -767,6 +767,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       faqs: [
       ],
       related: [
+        { path: '/blog/kaanapali-restaurants-dining-guide', label: 'Kāʻanapali restaurants guide' },
         { path: '/kaanapali', label: 'Private chef Kāʻanapali' },
         { path: '/west-maui', label: 'West Maui timing' },
         { path: '/quote', label: 'Quote form' },
@@ -1714,6 +1715,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/thanksgiving-dinner-kauai', label: 'Thanksgiving on Kauaʻi' },
         { path: '/blog/christmas-in-kauai-holiday-dinners', label: 'Christmas in Kauaʻi' },
         { path: '/events', label: 'Events' },
         { path: '/guest-counts', label: 'Guest counts' },
@@ -2217,6 +2219,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       faqs: [
       ],
       related: [
+        { path: '/blog/waikoloa-restaurants-dining-guide', label: 'Waikoloa restaurants guide' },
         { path: '/waikoloa', label: 'Private chef Waikoloa' },
         { path: '/kohala-corridor', label: 'Kohala corridor' },
         { path: '/quote', label: 'Inquiry form' },

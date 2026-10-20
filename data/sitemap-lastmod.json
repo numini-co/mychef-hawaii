@@ -16,8 +16,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/blog": {
-  "hash": "5ba7328a6a98f44c8fed",
-  "lastmod": "2026-10-20T00:00:00Z"
+  "hash": "571c38b9470c7f0c24e7",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "d769a4aab2019ca28a7a",
@@ -104,8 +104,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/dining-in-waikoloa": {
-  "hash": "14cf4ef6958f01040cb6",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "e1ef4f7bfa383953a151",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/dining-in-waimea": {
   "hash": "5b6c6ef98fe6034f14e0",
@@ -144,8 +144,8 @@
   "lastmod": "2026-10-20T00:00:00Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/kona-restaurants-dining-guide": {
-  "hash": "f937ff8ccf0c45f8ba08",
-  "lastmod": "2026-10-20T00:00:00Z"
+  "hash": "9bceb3c5f01e81f1bda6",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/lunch-service": {
   "hash": "dc8d89353d39a80fb065",
@@ -190,6 +190,10 @@
  "https://bigisland.mychef-hawaii.com/blog/staffing-servers": {
   "hash": "3f099e5f9a3c64b5c51b",
   "lastmod": "2026-10-09T19:32:00Z"
+ },
+ "https://bigisland.mychef-hawaii.com/blog/waikoloa-restaurants-dining-guide": {
+  "hash": "e5c29fe7ab80b802dca6",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/weather-backup": {
   "hash": "de646a60cbb4e7159e71",
@@ -544,8 +548,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/sitemap": {
-  "hash": "1a9d63c01b5bf2ae1e39",
-  "lastmod": "2026-10-20T00:49:02Z"
+  "hash": "9208a008ee4b5262bbec",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://bigisland.mychef-hawaii.com/staffing": {
   "hash": "8e83cb42df06c76fca03",
@@ -612,8 +616,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/blog": {
-  "hash": "1080497a841af5116eb4",
-  "lastmod": "2026-10-20T00:00:00Z"
+  "hash": "867673ca1c8909d139d5",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://kauai.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "55e4350f8e01fa23cf89",
@@ -628,8 +632,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/blog/christmas-in-kauai-holiday-dinners": {
-  "hash": "ac57fb5887ab7f496f56",
-  "lastmod": "2026-10-20T00:00:00Z"
+  "hash": "cd7cef8cd49982af87da",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://kauai.mychef-hawaii.com/blog/cleanup-standard": {
   "hash": "548944879132e94557e5",
@@ -704,8 +708,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/blog/family-reunions": {
-  "hash": "4c0010a5b6024fb37c21",
-  "lastmod": "2026-10-20T00:00:00Z"
+  "hash": "c73873eb82a1ab1aba49",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://kauai.mychef-hawaii.com/blog/fish-species": {
   "hash": "7d3d37629e227fb11b7a",
@@ -778,6 +782,10 @@
  "https://kauai.mychef-hawaii.com/blog/staffing-servers": {
   "hash": "38626282928ac1402604",
   "lastmod": "2026-10-09T19:32:00Z"
+ },
+ "https://kauai.mychef-hawaii.com/blog/thanksgiving-dinner-kauai": {
+  "hash": "3fa1d3fb4729d3c0c958",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://kauai.mychef-hawaii.com/blog/weather-backup": {
   "hash": "0096a88420d6277990db",
@@ -1120,8 +1128,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/sitemap": {
-  "hash": "c025e1b6c9d72ac32994",
-  "lastmod": "2026-10-20T00:49:02Z"
+  "hash": "e5b58a9ceb1849af1c6c",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://kauai.mychef-hawaii.com/south-shore": {
   "hash": "1fd2659afd306b9146ad",
@@ -1184,8 +1192,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/blog": {
-  "hash": "04d105fca34f6ce15163",
-  "lastmod": "2026-10-20T00:00:00Z"
+  "hash": "65aded696d6be601cfe3",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://maui.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "6e470c1a4566cd6b5491",
@@ -1232,8 +1240,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://maui.mychef-hawaii.com/blog/dining-in-kaanapali": {
-  "hash": "d846ab738e18197cc00b",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "3d870bc95e6d60e1c9af",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://maui.mychef-hawaii.com/blog/dining-in-kapalua": {
   "hash": "dc8c1c66de3a69b49ea0",
@@ -1290,6 +1298,10 @@
  "https://maui.mychef-hawaii.com/blog/grocery-at-cost": {
   "hash": "96619d017f4eb7997039",
   "lastmod": "2026-10-16T01:02:12Z"
+ },
+ "https://maui.mychef-hawaii.com/blog/kaanapali-restaurants-dining-guide": {
+  "hash": "232f2bc3cbe3648c06c5",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://maui.mychef-hawaii.com/blog/kids-at-the-table": {
   "hash": "f7e492dff776ea788185",
@@ -1352,8 +1364,8 @@
   "lastmod": "2026-10-20T00:00:00Z"
  },
  "https://maui.mychef-hawaii.com/blog/wailea-restaurants-dining-guide": {
-  "hash": "d08d90aca4e8d1a92440",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "1d3879e2b2740e6882ce",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://maui.mychef-hawaii.com/blog/weather-backup": {
   "hash": "14597b40d2a61d1bee93",
@@ -1688,8 +1700,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/sitemap": {
-  "hash": "bb45bbcc3c82b9a392f3",
-  "lastmod": "2026-10-20T00:49:02Z"
+  "hash": "87634530ae1cae9fc4f0",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://maui.mychef-hawaii.com/south-maui": {
   "hash": "66a5116fda368897fa19",
@@ -2204,8 +2216,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/blog": {
-  "hash": "7cd09d80a0e9283b4f81",
-  "lastmod": "2026-10-20T00:00:00Z"
+  "hash": "f3079aa7213490345495",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "1141bca6e525af9aaf4e",
@@ -2218,6 +2230,10 @@
  "https://oahu.mychef-hawaii.com/blog/breakfast-in-the-villa": {
   "hash": "18d386b5a63df21aabf6",
   "lastmod": "2026-10-09T19:32:00Z"
+ },
+ "https://oahu.mychef-hawaii.com/blog/christmas-in-honolulu-dinner": {
+  "hash": "6d1c50fdca012c16722b",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/cleanup-standard": {
   "hash": "48b610240c651f7f2681",
@@ -2324,8 +2340,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/new-years-eve-honolulu-dinner": {
-  "hash": "9db3d97dae6f1a07ece4",
-  "lastmod": "2026-10-20T00:00:00Z"
+  "hash": "a4af391361f65d55d471",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/no-fake-reviews": {
   "hash": "b1aa7ce4d866edb4c24e",
@@ -2372,8 +2388,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/thanksgiving-dinner-oahu": {
-  "hash": "b4818ee3e4aca2999870",
-  "lastmod": "2026-10-20T00:00:00Z"
+  "hash": "35513820290a8454f72c",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/weather-backup": {
   "hash": "ed3b7bf26c6890a70a55",
@@ -2732,8 +2748,8 @@
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://oahu.mychef-hawaii.com/sitemap": {
-  "hash": "152f8d72476b0b24488c",
-  "lastmod": "2026-10-20T00:49:02Z"
+  "hash": "badfaa8f52066c82ab1c",
+  "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://oahu.mychef-hawaii.com/staffing": {
   "hash": "5332a28c114445d8d205",
