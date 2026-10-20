@@ -630,7 +630,7 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'East-side menu?',
-        a: 'Hilo and Volcano are quote-only with dedicated staffing. The sample below is the west-side dinner.',
+        a: 'Hilo and Volcano are a separate dedicated east-side day, quoted in writing; the sample below is the west-side dinner.',
       },
       {
         q: 'Is a Big Island menu written for the house?',

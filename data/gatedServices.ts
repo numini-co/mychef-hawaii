@@ -181,11 +181,34 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
         'Breakfast through dinner as a food line. The occasion lives next door. We split them so a planner can buy the kitchen without buying the story.',
       photo: 'svcRetreatcatOahu',
       body: [
+        'Breakfast is set before the working session. Lunch feeds that room, on plates or platters. Dinner is the longer cook. A small savory stays in the fridge between, shopped the same day. A Kahala tower still uses its freight window. Ko Olina loads through the house.',
+        'Vegan and other limits are written before the first shop. We cook only what we designed. Days and guests are what the kitchen and the house hold, confirmed in writing. [The retreat occasion](/events/retreats) stays next door.',
+        'A per-guest dinner keeps groceries inside the signature band. Multi-day Stay Chef is the day rate plus groceries at cost with receipts. See [pricing](/pricing), [vacation chef](/vacation-chef), and [staffing](/staffing). 20% service and Hawaiʻi GET up to 4.712% each stand alone. A 50% deposit follows acceptance. Gratuity is never required.',
       ],
       faqs: [
         {
-          q: 'Full-board vegan week?',
-          a: 'Designed in advance. We will not claim theatre.',
+          q: 'How does a full-board day run in a Kahala house?',
+          a: 'Breakfast is set before people sit down to work. Lunch feeds that session. Dinner is the longer cook. A small savory stays in the fridge between. The tower cook uses the freight window already booked. Ko Olina loads through the villa. This page is the food.',
+        },
+        {
+          q: 'What if the week needs to be fully vegan?',
+          a: 'The vegan draft is written before the first shop. We only claim what that kitchen will cook. We will not build a show around it. Send the limits with the dates. See [dietary notes](/dietary). A per-guest dinner still keeps groceries inside the band.',
+        },
+        {
+          q: 'How many days and guests can the house take?',
+          a: 'As many as the kitchen and the house hold, confirmed in writing. This page does not print a headcount. Tell us the cooktop, the table, and the dates. If the room cannot hold the group, we say so before you accept.',
+        },
+        {
+          q: 'When are dietary needs fixed for the first shop?',
+          a: 'Before anyone buys. A change after that can miss the morning market. Children’s plates are written the same way, beside the adults. See [dietary notes](/dietary). Send the limits once, with the address, on the quote.',
+        },
+        {
+          q: 'How does the quote separate dinner nights from Stay Chef days?',
+          a: 'A per-guest dinner keeps groceries inside the signature band. Stay Chef days are the day rate plus groceries at cost with receipts. Staff hours are separate. See [pricing](/pricing), [vacation chef](/vacation-chef), and [staffing](/staffing). A 50% deposit follows acceptance. Gratuity is never required.',
+        },
+        {
+          q: 'What should we send to request a written quote for the week?',
+          a: 'The Kahala or Ko Olina address, the dates, which meals each day, dietary limits, and any building rules. Quotes are open. Use [the quote form](/quote). Desk: quotes@mychef-hawaii.com, +1 (808) 468-7748. We write the total before a deposit.',
         },
       ],
       related: [
@@ -363,15 +386,37 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       description:
         'Full-board retreat days in Wailea, Kapalua and Kīhei. Dietary designed in.',
       lede:
-        'Three meals in the house.',
+        'Three meals in a Wailea or West Maui house. South and West are different drives.',
       photo: 'svcRetreatcatMaui',
       body: [
-        `Upcountry is a surcharge.`,
+        'In Wailea, breakfast is set before the session. Lunch stays with the group. Dinner is the longer cook, indoors if the wind shuts the lānai. Kīhei uses the table the house has. Saturday arrival in West Maui includes Honoapiʻilani.',
+        'South and West are the shores you name, not a surprise on the drive. Limits are written before that shore’s first shop. Days and guests are what the kitchen and the house hold, confirmed in writing. [The retreat occasion](/events/retreats) stays next door.',
+        'A per-guest dinner keeps groceries inside the signature band. Stay Chef days are the day rate, then groceries at cost with receipts. See [pricing](/pricing), [vacation chef](/vacation-chef), and [staffing](/staffing). 20% service is its own item and Hawaiʻi GET up to 4.712% is the next. The 50% deposit comes after you accept. Gratuity is never required.',
       ],
       faqs: [
         {
-          q: 'West Maui full-board in Saturday traffic?',
-          a: 'Arrival is planned. We do not discover Honoapiʻilani on the invoice.',
+          q: 'How does a full-board day run in a Wailea villa?',
+          a: 'Breakfast lands before the working session. Lunch stays in the house with the group. Dinner is the longer cook. Snacks sit in the fridge between. If the wind closes the lānai, meals move inside, written before you accept. [Request a written quote](/quote) and name Wailea.',
+        },
+        {
+          q: 'What changes when the house is in West Maui on a Saturday?',
+          a: 'Honoapiʻilani is built into arrival before you accept. We do not find the traffic on the invoice later. Kapalua and Kāʻanapali are not a Wailea clock. Name the shore. Quotes are open. A Kīhei house does not inherit that Saturday drive.',
+        },
+        {
+          q: 'Where does lunch go if the trade wind closes the lānai?',
+          a: 'Into the dining room already named in the note. We do not add a tent mid-week. Wailea and Kapalua use that backup. Kīhei houses that eat indoors stay indoors. Send photos of both spots if the villa has them.',
+        },
+        {
+          q: 'How are dietary needs written before a South Maui shop?',
+          a: 'They are on the draft before the first buy for that shore. A West Maui week is a different shop. See [dietary notes](/dietary). We only keep a limit the villa kitchen can cook. Say so with the dates, not on the morning of.',
+        },
+        {
+          q: 'How does a multi-day Maui quote split dinners, the day rate, and staff?',
+          a: 'Per-guest dinners keep groceries inside the signature band. Stay Chef days are the day rate plus groceries at cost with receipts. Server hours are separate on [staffing](/staffing). See [pricing](/pricing). A 50% deposit follows acceptance. Gratuity is never required.',
+        },
+        {
+          q: 'What should a Kapalua full-board request include?',
+          a: 'The villa, the dates, meals each day, dietary limits, and whether lunch must be indoors. Quotes are open. Upcountry is a surcharge, quoted with the menu. Use [the quote form](/quote). Desk: quotes@mychef-hawaii.com, +1 (808) 468-7748.',
         },
       ],
       related: [
@@ -551,15 +596,37 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       description:
         'Full-board retreat days in Kauai houses. Inquiry stage. Dietary designed in.',
       lede:
-        'Breakfast through dinner in the house. The mist and the fire plan follow the shore.',
+        'Breakfast through dinner in the house. Mist or sun follows the shore. Request availability.',
       photo: 'svcRetreatcatKauai',
       body: [
-        `Inquiry stage.`,
+        'Name the shore first. Poʻipū breakfast uses the south sun. Princeville uses mist and a covered lānai. Lunch sits with the working session. Dinner is the longer cook. Rain moves a meal under cover and does not swap shores.',
+        'Past the Hanalei bridge, a closure moves the days and does not hand them to Poʻipū. Limits are written before that shore’s shop. Days and guests are what the kitchen and the house hold, confirmed in writing. [Request availability](/quote). [The retreat occasion](/events/retreats) is next door.',
+        'A per-guest dinner keeps groceries inside the signature band when a crew exists. Stay Chef days are the day rate plus groceries at cost with receipts. See [pricing](/pricing), [vacation chef](/vacation-chef), and [staffing](/staffing). 20% service and GET up to 4.712% each stand alone. A 50% deposit follows a written yes. Gratuity is never required.',
       ],
       faqs: [
         {
-          q: 'Vegan full-board on the North?',
-          a: 'Designed in advance, claimed only when true. Bridge clause still applies.',
+          q: 'How does a full-board day differ between Poʻipū and Princeville?',
+          a: 'Poʻipū is south sun and a shorter drive from Līhuʻe. Princeville is mist and a covered roof from the start. Lunch and dinner follow that shore. Request availability for one of them. We do not treat the two kitchens as one shop.',
+        },
+        {
+          q: 'What happens to a North Shore week if the Hanalei bridge closes?',
+          a: 'The days move with the road. A closure does not cancel the food, and it does not become Poʻipū. Houses that are not past the bridge do not inherit the clause. Read the [bridge notes](/hanalei-bridge). Request availability with the bridge side named.',
+        },
+        {
+          q: 'Can a vegan week be designed for the north?',
+          a: 'It can, when the draft is written before the shop and the kitchen can keep it. We claim only what is true. The bridge clause still applies if the house is past Hanalei. See [dietary notes](/dietary). Request availability. A menu is not a performance.',
+        },
+        {
+          q: 'How do you set days and guests without printing a headcount?',
+          a: 'From the brief: what that kitchen and that house hold, confirmed in writing. We do not publish a capacity here. Photos of the cooktop and the table are the useful part. If the room is short, we say so before any yes.',
+        },
+        {
+          q: 'How does the quote read while Kauaʻi availability is still a request?',
+          a: 'The signature band is the shape of a dinner, groceries inside it, and it is not a hold. Stay Chef days are the day rate plus groceries at cost with receipts. See [pricing](/pricing) and [staffing](/staffing). A 50% deposit waits for a written yes. Gratuity is never required.',
+        },
+        {
+          q: 'How do I request availability for full-board and name the shore?',
+          a: 'Send the house, the dates, Poʻipū or Princeville, meals each day, and dietary limits on [the quote form](/quote). A request is not a held crew. Desk: quotes@mychef-hawaii.com, +1 (808) 468-7748. Say if the house sits past the bridge.',
         },
       ],
       related: [
@@ -739,16 +806,37 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       description:
         'Full-board retreat days in Kona–Kohala houses. Inquiry stage. East side is a different day.',
       lede:
-        'Breakfast fish, a small offsite table, lava heat.',
+        'Breakfast fish, lunch in the shade, dinner on the west side. Hilo is a different day.',
       photo: 'svcRetreatcatBigisland',
       body: [
-        'West-side first.',
-        `Hilo retreats are quote-only dedicated days.`,
+        'Join the inquiry list for a Kona or Kohala house first. Breakfast is inside, out of the hard sun. Lunch feeds the working session in that shade. Dinner is the longer cook. A small savory stays in the fridge between. Open lava is not the dining room.',
+        'Hilo and Volcano are a separate dedicated east-side day, quoted in writing, not added to a west-side week. Limits are written before that shop. Days and guests are what the kitchen and the house hold, confirmed in writing. [The retreat occasion](/events/retreats) is next door.',
+        'A per-guest dinner keeps groceries inside the signature band. Stay Chef days are the day rate, groceries at cost with receipts. See [pricing](/pricing), [vacation chef](/vacation-chef), and [staffing](/staffing). 20% service and Hawaiʻi GET up to 4.712% are separate. A 50% deposit follows acceptance. Gratuity is never required.',
       ],
       faqs: [
         {
-          q: 'Volcano full-board?',
-          a: 'Quote-only east side with dedicated staffing. Not a west-side round trip.',
+          q: 'How does a full-board day run in a Kona or Kohala house?',
+          a: 'Breakfast is set in the shade before the session. Lunch stays with the group, indoors. Dinner is the longer cook that evening. Snacks wait in the fridge between. Join the inquiry list for the west side. The open rock is not where we serve.',
+        },
+        {
+          q: 'Can Volcano full-board share a week with Waikoloa?',
+          a: 'It cannot. Volcano and Hilo are a separate dedicated east-side day, quoted in writing, with its own crew. Join the inquiry list for Kona–Kohala, or send the east side alone. We will not drive a week across the island and call it one booking.',
+        },
+        {
+          q: 'Where do meals sit when the lava terrace is too hot?',
+          a: 'In the house, or on a covered lānai that is actually cool. Say which one you have. A picnic on the rock is not a kitchen. Photos of the cooktop and the shaded table belong with the address. We confirm the room before a shop.',
+        },
+        {
+          q: 'When are dietary needs written for the west-side shops?',
+          a: 'Before the first buy, for Kona–Kohala only. An east-side day gets its own draft. See [dietary notes](/dietary). We keep a limit only when that kitchen can cook it. Send the limits with the inquiry, not after the groceries are in.',
+        },
+        {
+          q: 'How does the inquiry separate dinners from Stay Chef days?',
+          a: 'A per-guest dinner keeps groceries inside the signature band. Stay Chef days are the day rate plus groceries at cost with receipts. Staff hours are separate. See [pricing](/pricing), [vacation chef](/vacation-chef), and [staffing](/staffing). A 50% deposit follows a written yes. Gratuity is never required.',
+        },
+        {
+          q: 'What do I send to join the inquiry list for a west-side retreat?',
+          a: 'The Kona, Waikoloa, or Kohala address, the dates, meals each day, and dietary limits on [the quote form](/quote). Leave Hilo and Volcano off that note. Desk: quotes@mychef-hawaii.com, +1 (808) 468-7748. Joining the inquiry list is not a held week.',
         },
       ],
       related: [
