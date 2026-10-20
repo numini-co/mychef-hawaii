@@ -426,12 +426,25 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     photo: 'hubFineRomantic',
     cardLabel: 'Romantic dinner',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'Two seats are a format: paced plates for a couple in the house. A celebration dinner can be a larger marked table. A tasting menu is more courses. Open [Oʻahu romantic dinners](oahu:/fine-dining/romantic-dinner), [Maui romantic dinners](maui:/fine-dining/romantic-dinner), [Kauaʻi romantic dinners](kauai:/fine-dining/romantic-dinner), or [Big Island romantic dinners](bigisland:/fine-dining/romantic-dinner).',
+      'Oʻahu and Maui accept a written quote. Kauaʻi wants a request for availability, with the shore named. The Big Island wants an inquiry, and the west side comes first. Fee items sit on [pricing](/pricing). Send the house and the date on [the quote form](/quote). We do not claim a star.',
     ],
     faqs: [
       {
-        q: 'Is this a star claim?',
-        a: 'No.',
+        q: 'Which island page is the two-seat dinner?',
+        a: 'The romantic-dinner page on the island that has the villa. Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. The Big Island takes an inquiry, west side first. This statewide page does not seat anyone.',
+      },
+      {
+        q: 'How is a romantic dinner different from a celebration dinner?',
+        a: 'Romantic dinner is paced plates for two. A celebration dinner is the format for a marked night and can be a fuller table. If the night is a birthday occasion, use the occasion page on that island. Use this format when the booking is the couple.',
+      },
+      {
+        q: 'Does Kauaʻi confirm two seats because the format is listed?',
+        a: 'A listing is not a crew. Request availability and name the shore. Princeville and Poʻipū are different asks. A reply is not a hold. The band on the pricing page is the shape of the dinner when a crew exists.',
+      },
+      {
+        q: 'What do I send for two seats, and where are the fees?',
+        a: 'The island, the house, the date, and dietary limits on the quote form. The signature band keeps groceries inside it. 20% service and Hawaiʻi GET up to 4.712% stand alone on the pricing page. A 50% deposit follows acceptance. Gratuity is never required.',
       },
     ],
   },
@@ -441,32 +454,62 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     title: 'Tasting menus, by island | myCHEF Hawaii',
     description: 'A tasting arc in the villa, not a restaurant omakase brand. Omakase-at-home has sourcing gates.',
     lede:
-      'A tasting arc in the villa, not a restaurant omakase brand. Omakase-at-home has sourcing gates.',
+      'A longer arc in the villa. Not a restaurant omakase brand, and not a three-course.',
     kicker: 'Statewide · Tasting menu',
     photo: 'hubFineTasting',
     cardLabel: 'Tasting menu',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'A tasting menu is the longer arc. A three-course is fewer plates. Omakase at home is a different product, with sourcing gates, on its own statewide page. Open [Oʻahu tastings](oahu:/fine-dining/tasting-menu), [Maui tastings](maui:/fine-dining/tasting-menu), [Kauaʻi tastings](kauai:/fine-dining/tasting-menu), or [Big Island tastings](bigisland:/fine-dining/tasting-menu).',
+      'A written quote is open on Oʻahu and on Maui. Kauaʻi is a request for availability. Hawaiʻi Island is an inquiry that starts in Kona–Kohala. The band and the fee items are on [pricing](/pricing). Name the arc on [the quote form](/quote).',
     ],
     faqs: [
+      {
+        q: 'Which island page holds the tasting arc?',
+        a: 'The tasting-menu page for the island with the house. This page only points there. Oʻahu and Maui write a quote. Kauaʻi takes a request for availability. The Big Island takes an inquiry that starts on the west side.',
+      },
+      {
+        q: 'How is a tasting menu different from a three-course?',
+        a: 'A tasting is more passes through the kitchen. A three-course is a first, a main, and a close, on the menus side of the site. Pick one. We will not stretch a three-course into a tasting after the shop without writing it again.',
+      },
+      {
+        q: 'Is omakase at home the same product as this arc?',
+        a: 'It is not. Omakase at home has its own sourcing gates and its own statewide page. This arc is a written tasting in the villa. We do not borrow a restaurant’s name for it, and we do not claim a star.',
+      },
+      {
+        q: 'How do booking rules change a tasting request?',
+        a: 'Oʻahu and Maui can take a written quote now. Kauaʻi needs a request for availability. The Big Island needs an inquiry, Kona–Kohala first. Hilo is a separate dedicated east-side day, quoted in writing. Fees are on the pricing page.',
+      },
     ],
   },
   fineChefsev: {
     path: '/fine-dining/chefs-table-evening',
     h1: 'Evening chef’s-table formats, by island.',
     title: 'Evening chef’s-table formats, by island | myCHEF Hawaii',
-    description: 'Evening chef’s-table formats across Oʻahu, Maui, Kauaʻi and the Big Island, with published prices and a written quote.',
-    lede: 'Evening chef’s-table formats across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    description: 'Evening at the kitchen counter, by island. Not a star claim. Oʻahu and Maui quote. Kauaʻi requests availability.',
+    lede: 'An evening at the kitchen counter, routed by island. Not a star claim.',
     kicker: 'Statewide · Chef’s-table evening',
     photo: 'hubFineChefsev',
     cardLabel: 'Evening format',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'An evening at the kitchen counter is this format. The chef’s table page is the broader door. Guests watch the pass, and the courses are still written for that kitchen. Open [Oʻahu counter evenings](oahu:/fine-dining/chefs-table-evening), [Maui counter evenings](maui:/fine-dining/chefs-table-evening), [Kauaʻi counter evenings](kauai:/fine-dining/chefs-table-evening), or [Big Island counter evenings](bigisland:/fine-dining/chefs-table-evening).',
+      'Quote the evening in writing on Oʻahu or Maui. Ask Kauaʻi for availability. Ask the Big Island to join the inquiry list, west side first. Hilo is not inside that ask. [Pricing](/pricing) holds the band and the fee items. Send the counter and the date on [the quote form](/quote).',
     ],
     faqs: [
       {
-        q: 'Is this a Michelin table?',
-        a: 'No. We do not claim a star. Open the island format.',
+        q: 'Which island page is the evening at the counter?',
+        a: 'The chef’s-table evening page on that island. Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. The Big Island joins the inquiry list, west side first. This page does not staff the pass.',
+      },
+      {
+        q: 'How is a counter evening different from the chef’s table page?',
+        a: 'The chef’s table page is the broad door. This format is one evening, guests at the counter, watching the cook. Seats depend on the kitchen you have. We do not print a statewide stool count. The island page says what that house can hold.',
+      },
+      {
+        q: 'Does a Big Island counter evening include Hilo?',
+        a: 'It does not. Join the inquiry list for Kona, Waikoloa, or the Kohala Coast. Hilo is a separate dedicated east-side day, quoted in writing. Do not add it after a west-side seating. Send it alone if that is the house.',
+      },
+      {
+        q: 'What should the note say, and where do fees sit?',
+        a: 'Say the island, the kitchen, the date, and how many people are actually at the counter. The band and 20% service, GET up to 4.712%, and the 50% deposit are on the pricing page. Gratuity is never required. We do not claim a star.',
       },
     ],
   },
@@ -476,14 +519,31 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     title: 'Celebration dinners, by island | myCHEF Hawaii',
     description: 'A marked night as a format, not an occasion page. Birthdays and anniversaries stay under occasions.',
     lede:
-      'A marked night as a format, not an occasion URL. Birthdays and anniversaries stay under the occasions page.',
+      'The format for a marked night in the house. Birthdays and anniversaries stay on the occasion pages.',
     kicker: 'Statewide · Celebration dinner',
     photo: 'hubFineCeleb',
     cardLabel: 'Celebration dinner',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'A celebration dinner is the format for a marked night in the dining room. Birthdays and anniversaries, as occasions, stay on the occasion pages. This page does not retell them. Open [Oʻahu celebrations](oahu:/fine-dining/celebration-dinner), [Maui celebrations](maui:/fine-dining/celebration-dinner), [Kauaʻi celebrations](kauai:/fine-dining/celebration-dinner), or [Big Island celebrations](bigisland:/fine-dining/celebration-dinner).',
+      'Oʻahu and Maui are written-quote islands. Kauaʻi is a request for availability until a crew is real. The Big Island inquiry starts on the west side. We do not claim a star. Bands and fee items are on [pricing](/pricing). Name the mark on [the quote form](/quote).',
     ],
     faqs: [
+      {
+        q: 'Which island page is a celebration dinner?',
+        a: 'The celebration-dinner page where the house sits. Use it for the format. Use the island’s birthday or anniversary page if you want the occasion itself. Oʻahu and Maui write quotes. Kauaʻi takes a request for availability. The Big Island takes an inquiry, west side first.',
+      },
+      {
+        q: 'When should a birthday use the occasion page instead?',
+        a: 'When the night is the birthday itself — cake timing, who speaks, the shape of the party. Use this format when you only need the dinner structure. The two can point at each other. They are not the same brief.',
+      },
+      {
+        q: 'How do Oʻahu and Kauaʻi differ when I ask for a marked night?',
+        a: 'Oʻahu takes a written quote. Kauaʻi takes a request for availability, and the shore has to be named. A published format is not a held table on Kauaʻi. Maui follows the Oʻahu posture. The Big Island follows an inquiry, west side first.',
+      },
+      {
+        q: 'What do I send if the night is a toast rather than a wedding?',
+        a: 'The island, the house, the date, and that this is a celebration dinner, not a reception. Weddings have their own pages. Fees and the per-guest band are on the pricing page. Gratuity is never required. Send it on the quote form.',
+      },
     ],
   },
   staffServers: {
@@ -581,12 +641,25 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     photo: 'hubMenuThree',
     cardLabel: 'Three-course',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'A three-course is the designed dinner: a first, a main, and a close. Plated service is the catering format, not this menu. The sample on an island menus page is an example of length. Open [Oʻahu three-course menus](oahu:/menus/three-course), [Maui three-course menus](maui:/menus/three-course), [Kauaʻi three-course menus](kauai:/menus/three-course), or [Big Island three-course menus](bigisland:/menus/three-course).',
+      'Send Oʻahu or Maui for a written quote. Send Kauaʻi as a request for availability. Send the Big Island as an inquiry, west side before any east-side day. The signature band, groceries inside it, is on [pricing](/pricing). Tell us the house on [the quote form](/quote).',
     ],
     faqs: [
       {
-        q: 'Same as plated service?',
-        a: 'Plated is the catering format.',
+        q: 'Which island page designs the three-course?',
+        a: 'The three-course page on the island with the kitchen. Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. The Big Island takes an inquiry, west side first. Hilo is a separate dedicated east-side day, quoted in writing.',
+      },
+      {
+        q: 'How is that menu different from plated catering?',
+        a: 'This menu is what the kitchen cooks: three courses, designed for the table. Plated catering is the service format, with staffing written apart from the food. Open plated service if you need the floor. Stay here if you need the menu.',
+      },
+      {
+        q: 'Is the sample on the menus page the dinner I get?',
+        a: 'It shows length, not your plates. Every table is still designed after we know the kitchen. A tasting menu is a longer arc and lives under fine dining. Do not treat the sample as a carte you can tick.',
+      },
+      {
+        q: 'Where do I see the band, and what do I send?',
+        a: 'The signature per-guest band is on the pricing page, groceries inside it. 20% service and Hawaiʻi GET up to 4.712% stand alone. A 50% deposit follows acceptance. Gratuity is never required. Send the house, the date, and who eats on the quote form.',
       },
     ],
   },
@@ -601,9 +674,26 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     photo: 'hubMenuFamily',
     cardLabel: 'Family-style menu',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'This menu is the platters on the table. Family-style service is the staffed format, with floor hours apart from the food. Children get plates written beside the adults. Open [Oʻahu platter menus](oahu:/menus/family-style-menu), [Maui platter menus](maui:/menus/family-style-menu), [Kauaʻi platter menus](kauai:/menus/family-style-menu), or [Big Island platter menus](bigisland:/menus/family-style-menu).',
+      'Oʻahu and Maui will write the quote. Kauaʻi will take a request for availability. The Big Island will take an inquiry that begins on the Kona–Kohala side. No separate platter price is published. See [pricing](/pricing). Say sharing, not a buffet, on [the quote form](/quote).',
     ],
     faqs: [
+      {
+        q: 'Which island page is the platter menu?',
+        a: 'The family-style menu page for that island. It designs the bowls. It does not staff the floor. Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. The Big Island takes an inquiry, west side first.',
+      },
+      {
+        q: 'How is the platter menu different from family-style service?',
+        a: 'Service is the catering format: people on the floor, hours apart from the food. This page is only what goes down the table. Ask for both if you need them, and keep the hours on the staffing page. Do not expect one price to cover both.',
+      },
+      {
+        q: 'Where do children fit when the table is shared?',
+        a: 'On plates written before the shop, beside the adults, not after the bowls are gone. The island kids’ menus page is where that plate is planned. Tell the island page the ages only so portions make sense.',
+      },
+      {
+        q: 'How does the ask change from Maui to the Big Island?',
+        a: 'Maui takes a written quote for South or West. The Big Island takes an inquiry that starts in Kona–Kohala. Hilo is a separate dedicated east-side day, quoted in writing. Kauaʻi, if that is the house, takes a request for availability instead.',
+      },
     ],
   },
   menuBreakfast: {
@@ -618,12 +708,25 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     photo: 'hubMenuBreakfast',
     cardLabel: 'Breakfast',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'House breakfast is the morning meal. Brunch is the occasion. Stay Chef is the day rate, and a morning inside that day is not its own card. No breakfast price is published. Open [Oʻahu breakfast](oahu:/menus/breakfast), [Maui breakfast](maui:/menus/breakfast), [Kauaʻi breakfast](kauai:/menus/breakfast), or [Big Island breakfast](bigisland:/menus/breakfast).',
+      'A written quote is the Oʻahu and Maui path. A request for availability is the Kauaʻi path. An inquiry, west side first, is the Big Island path. Day rates and fee items are on [pricing](/pricing). Send the hour and the house on [the quote form](/quote).',
     ],
     faqs: [
       {
-        q: 'Same as Stay Chef?',
-        a: 'Vacation chef is the day rate.',
+        q: 'Which island page is house breakfast?',
+        a: 'The breakfast page on the island where you wake up. Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. The Big Island takes an inquiry, west side first. This page does not cook the eggs.',
+      },
+      {
+        q: 'How is breakfast different from brunch and from Stay Chef?',
+        a: 'Breakfast is the morning in the house. Brunch is the occasion, with its own page. Stay Chef is the day rate on the vacation chef page. A morning inside a Stay Chef day has no separate card. Groceries on that day are at cost with receipts.',
+      },
+      {
+        q: 'Is there a published breakfast price?',
+        a: 'There is not. A morning is quoted in writing. Dinner’s signature band is a different meal, groceries inside it, on the pricing page. Do not invent a breakfast band from the dinner figures. Gratuity is never required.',
+      },
+      {
+        q: 'What do I send for a morning, island by island?',
+        a: 'The house, the date, the hour, and who eats. Oʻahu and Maui want that as a written quote. Kauaʻi wants it as a request for availability, shore named. The Big Island wants it as an inquiry, and Hilo is not folded into a Kona morning.',
       },
     ],
   },
@@ -639,9 +742,26 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     photo: 'hubMenuLunch',
     cardLabel: 'Lunch',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'House lunch is cooked at midday and cleared. Meal prep is a gated fridge program, not this menu. The cook is shorter than dinner and still written out. Open [Oʻahu lunch](oahu:/menus/lunch), [Maui lunch](maui:/menus/lunch), [Kauaʻi lunch](kauai:/menus/lunch), or [Big Island lunch](bigisland:/menus/lunch).',
+      'Oʻahu and Maui quotes are open. Kauaʻi availability is a request, not a hold. The Big Island inquiry covers the west side first. No lunch band is published. See [pricing](/pricing) for the dinner band and the day rate. Send the hour on [the quote form](/quote).',
     ],
     faqs: [
+      {
+        q: 'Which island page is house lunch?',
+        a: 'The lunch page for the island with the stove. Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. The Big Island takes an inquiry, west side first. A park or a hotel room without burners is declined on the island page, not here.',
+      },
+      {
+        q: 'How is lunch different from meal prep?',
+        a: 'Lunch is a cook in the house at midday, then a clean stove. Meal prep is the gated fridge program. If you wanted bags left behind, open that page. If you wanted someone at the burner, open the island lunch page.',
+      },
+      {
+        q: 'Why is a shorter midday service still a written total?',
+        a: 'Because no lunch price is published. A shorter cook is not an automatic discount off dinner. The signature band, groceries inside it, stays on the pricing page for dinner. A Stay Chef midday sits in the day rate. Gratuity is never required.',
+      },
+      {
+        q: 'What do I send, and which islands quote rather than request?',
+        a: 'Send the house, the date, and the hour you want to eat. Oʻahu and Maui turn that into a written quote. Kauaʻi turns it into a request for availability. The Big Island turns it into an inquiry, and Volcano is not a same-day add-on from Waikoloa.',
+      },
     ],
   },
   helpStart: {

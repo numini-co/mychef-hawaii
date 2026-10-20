@@ -264,12 +264,29 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     photo: 'hubFine',
     cardLabel: 'In-villa formats',
     body: [
-      'Romantic dinner, tasting menu, chef’s-table evening, and celebration dinner live under each island the Fine page-dining/:course. Open the island list first.',
+      'Four formats live on each island’s fine-dining page: a romantic dinner, a tasting menu, a chef’s-table evening, and a celebration dinner. Open [Oʻahu in-villa formats](oahu:/fine-dining), [Maui in-villa formats](maui:/fine-dining), [Kauaʻi in-villa formats](kauai:/fine-dining), or [Hawaiʻi Island in-villa formats](bigisland:/fine-dining). None of these is a star claim. The island titles already say so.',
+      'Oʻahu and Maui take a written quote for the format you pick. Kauaʻi takes a request for availability. The Big Island takes an inquiry, west side first. Bands and fee items are on [pricing](/pricing). This page only routes you. Send the island and the format on [the quote form](/quote).',
     ],
     faqs: [
       {
-        q: 'Is this a Michelin page?',
-        a: 'No. We do not claim a star. Island the fine dining page pages say that in the title.',
+        q: 'Do you claim a Michelin star for these formats?',
+        a: 'We do not claim a star, and this is not a Michelin listing. Each island fine-dining page says that in its title. Open the island that has the house. The format under it is the booking, not a rating.',
+      },
+      {
+        q: 'Where do romantic dinners, tastings, counter evenings, and celebrations actually live?',
+        a: 'On that island’s fine-dining page, then the format under it. This hub page does not cook the menu and does not hold a date. Pick Oʻahu, Maui, Kauaʻi, or Hawaiʻi Island before you write anything down.',
+      },
+      {
+        q: 'Can one evening be booked on two islands?',
+        a: 'Not with one crew. A Friday on Oʻahu and a Saturday on Maui are two asks. The coordinator can keep the dates in order. The cooks do not cross the channel the same day. Send each house to its own island page.',
+      },
+      {
+        q: 'Where are the published bands and the fee items?',
+        a: 'On the pricing page. A signature dinner keeps groceries inside the per-guest band. Stay Chef is the day rate plus groceries at cost with receipts. 20% service and Hawaiʻi GET up to 4.712% each stand alone. A 50% deposit follows acceptance. Gratuity is never required.',
+      },
+      {
+        q: 'What should I send if I am still on this statewide page?',
+        a: 'The island, the house, the date, and which of the four formats you mean. Then open that island’s page and use the quote form. Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. The Big Island takes an inquiry, west side first.',
       },
     ],
   },
@@ -692,15 +709,34 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Retreat full-board, by island.',
     title: 'Retreat full-board, by island | myCHEF Hawaii',
     description:
-      'Each island quotes full-board retreat days in houses.',
+      'Full-board retreat food in the house, by island. Oʻahu and Maui quote. Kauaʻi requests availability. The Big Island inquires, west side first.',
     lede:
       'Food as its own line for days in the house — not a ballroom.',
     kicker: 'Statewide · Retreat kitchens',
     photo: 'hubRetreat',
     cardLabel: 'Full-board',
     body: [
+      'Full-board food is booked on the island that has the house. Open [Oʻahu retreat kitchens](oahu:/retreat-catering) for Kahala and Ko Olina, [Maui retreat kitchens](maui:/retreat-catering) for South and West Maui villas, [Kauaʻi retreat kitchens](kauai:/retreat-catering) for both shores, or [Hawaiʻi Island retreat kitchens](bigisland:/retreat-catering) for Kona–Kohala first.',
+      'Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. The Big Island takes an inquiry, west side first. Hilo or Volcano is a separate dedicated east-side day, quoted in writing.',
+      'One coordinator can sequence the dates. Nobody crosses the channel the same day. Bands and fee items are on [pricing](/pricing). Send the island, the house, and the dates on [the quote form](/quote).',
     ],
     faqs: [
+      {
+        q: 'Which island page do I open for retreat food?',
+        a: 'The island where the house is. Oʻahu, Maui, Kauaʻi, and Hawaiʻi Island each have a retreat kitchen page. This page does not take the brief. It sends you there. The occasion page on that island is a different door.',
+      },
+      {
+        q: 'How does the ask differ from one island to the next?',
+        a: 'Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. The Big Island takes an inquiry, west side first. Hilo or Volcano is a separate dedicated east-side day, quoted in writing. The hub does not hold any of those dates.',
+      },
+      {
+        q: 'Can one crew cook two islands in the same week?',
+        a: 'One crew cannot cover both. One coordinator can keep the dates in order. The cooks stay on their island. A same-day channel crossing is not a booking. Friday’s house and Saturday’s house need two asks, even if one person writes both.',
+      },
+      {
+        q: 'Where do fee items sit, and what do I send?',
+        a: 'Bands, the day rate, 20% service, Hawaiʻi GET up to 4.712%, and the 50% deposit are on the pricing page. Gratuity is never required. Send the island, the house, the dates, and the meals each day on the quote form.',
+      },
     ],
   },
   corporateCatering: {
