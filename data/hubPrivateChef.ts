@@ -17,14 +17,14 @@ export const hubPrivateChef = {
   heading: 'Open the island, then the dinner.',
   faqTitle: 'Choosing an island.',
   body: [
-    `This page does not cook a menu. It sends you to the island host that does. A villa dinner is booked where the house is. Signature dinners include the groceries in the guest price. [Private chef Oʻahu](oahu:/private-chef) is ${oahuSig} a guest. [Private chef Maui](maui:/private-chef) and [private chef Kauaʻi](kauai:/private-chef) are ${mauiSig} a guest. [Private chef Big Island](bigisland:/private-chef) is ${biSig} a guest, and simpler Big Island tables start from ${biSimple} a guest. None of those dinners adds a second grocery bill.`,
+    `This page does not cook a menu. It sends you to the island host that does. A villa dinner is booked where the house is. Signature dinners include the groceries in the guest price. [Private chef Oahu](oahu:/) is ${oahuSig} a guest. [Private chef Maui](maui:/) and [private chef Kauai](kauai:/) are ${mauiSig} a guest. [Private chef Big Island](bigisland:/) is ${biSig} a guest, and simpler Big Island tables start from ${biSimple} a guest. None of those dinners adds a second grocery bill.`,
     `Stay Chef is a different product: a daily chef fee plus groceries at cost, with receipts and no markup. The daily floors are ${stayChefUsd('oahu')} on Oʻahu, ${stayChefUsd('maui')} on Maui, ${stayChefUsd('kauai')} on Kauaʻi, and ${stayChefUsd('bigisland')} on Hawaiʻi Island. Oʻahu and Maui accept a written quote. Kauaʻi and Hawaiʻi Island are inquiry only — a published band does not hold a date.`,
     `If you are still picking a shore, start at the island home: [Oʻahu](oahu:/), [Maui](maui:/), [Kauaʻi](kauai:/), or [Hawaiʻi Island](bigisland:/). After the food, every island prints 20% service and Hawaiʻi GET up to 4.712% as separate lines. A 50% deposit locks a date only after you accept the written total. Gratuity is never required. Desk: quotes@mychef-hawaii.com, +1 (808) 468-7748, WhatsApp https://wa.me/18084687748.`,
   ],
   faqs: [
     {
       q: 'Which link is the villa dinner for the island I am actually visiting?',
-      a: `Use the host that matches the house. [Private chef Oʻahu](oahu:/private-chef) is ${oahuSig} a guest. [Private chef Maui](maui:/private-chef) and [private chef Kauaʻi](kauai:/private-chef) are ${mauiSig}. [Private chef Big Island](bigisland:/private-chef) is ${biSig}, with simpler tables from ${biSimple}. Groceries for those dinners are already inside the band.`,
+      a: `Use the host that matches the house. On Oʻahu the dinner page is [private chef Honolulu](oahu:/private-chef), ${oahuSig} a guest. On Maui it is [personal chef Maui](maui:/private-chef) and on Kauaʻi [personal chef Kauai](kauai:/private-chef), both ${mauiSig}. On Hawaiʻi Island it is [private chef Kona](bigisland:/private-chef), ${biSig}, with simpler tables from ${biSimple}. Groceries for those dinners are already inside the band.`,
     },
     {
       q: 'Does this Hawaii page replace the island private-chef page?',
@@ -32,15 +32,15 @@ export const hubPrivateChef = {
     },
     {
       q: 'Where do I read Oʻahu signature dinners?',
-      a: `On [private chef Oʻahu](oahu:/private-chef), or start at the [Oʻahu home](oahu:/) if you are still choosing a town. The guest band is ${oahuSig}, shopping included. Oʻahu takes a written quote.`,
+      a: `On [private chef Honolulu](oahu:/private-chef), the Oʻahu dinner page, or start at [private chef Oahu](oahu:/) if you are still choosing a town. The guest band is ${oahuSig}, shopping included. Oʻahu takes a written quote.`,
     },
     {
       q: 'Where do Maui and Kauaʻi dinners at the same guest band live?',
-      a: `They are separate hosts that happen to publish ${mauiSig} a guest. Open [private chef Maui](maui:/private-chef) or [private chef Kauaʻi](kauai:/private-chef). Maui quotes. Kauaʻi is inquiry. Do not send one form and expect it to cover both islands.`,
+      a: `They are separate hosts that happen to publish ${mauiSig} a guest. Open [personal chef Maui](maui:/private-chef) or [personal chef Kauai](kauai:/private-chef). Maui quotes. Kauaʻi is inquiry. Do not send one form and expect it to cover both islands.`,
     },
     {
       q: 'Where is a Big Island dinner, including tables from $165, actually written?',
-      a: `On [private chef Big Island](bigisland:/private-chef). Usual dinners are ${biSig} a guest. Simpler tables start from ${biSimple}. Both include groceries. The island is inquiry only. The overview is the [Hawaiʻi Island home](bigisland:/).`,
+      a: `On [private chef Kona](bigisland:/private-chef), the Hawaiʻi Island dinner page. Usual dinners are ${biSig} a guest. Simpler tables start from ${biSimple}. Both include groceries. The island is inquiry only. The overview is [private chef Big Island](bigisland:/).`,
     },
     {
       q: 'Is a Stay Chef week requested on this chooser?',

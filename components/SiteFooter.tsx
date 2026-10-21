@@ -6,7 +6,7 @@ import { LocationsBlock } from '@/components/LocationsBlock';
 import { WORLD_DESTINATIONS } from '@/data/destinations';
 import { islandOrder, type IslandId } from '@/data/islands';
 import { islandHref } from '@/lib/paths';
-import { PRIVATE_CHEF_PAGE_ANCHOR } from '@/lib/ownerAnchors';
+import { PRIVATE_CHEF_PAGE_ANCHOR, cateringAnchor } from '@/lib/ownerAnchors';
 
 /** Plain-ASCII island names for descriptive internal anchors (matches how people search). */
 const PLAIN_ISLAND_NAME: Record<IslandId, string> = {
@@ -90,6 +90,20 @@ export default function SiteFooter({
                   All Hawaiʻi
                 </HostLink>
               </li>
+            </ul>
+            <p className="mt-8 text-[13px] text-on-ink">Catering by island</p>
+            <ul className="mt-4 space-y-2">
+              {islandOrder.map((id) => (
+                <li key={`catering-${id}`}>
+                  <HostLink
+                    island={id}
+                    path="/catering"
+                    className="text-base text-paper hover:underline underline-offset-4"
+                  >
+                    {cateringAnchor(id)}
+                  </HostLink>
+                </li>
+              ))}
             </ul>
           </nav>
 
