@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -212,7 +212,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -614,7 +614,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/dining-in-kona</loc>
-    <lastmod>2026-10-20T00:00:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -884,13 +884,19 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/kona-restaurants-dining-guide</loc>
-    <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/waikoloa-restaurants-dining-guide</loc>
     <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://bigisland.mychef-hawaii.com/blog/thanksgiving-dinner-kona</loc>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>

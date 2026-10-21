@@ -61,6 +61,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/waikiki-restaurants-dining-guide', label: 'Waikīkī restaurants guide' },
         { path: '/waikiki', label: 'Private chef Waikīkī' },
         { path: '/short-stay', label: 'Short-stay villas' },
         { path: '/quote', label: 'Quote form' },
@@ -1541,6 +1542,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/kapaa-restaurants-dining-guide', label: 'Kapaʻa restaurants guide' },
         { path: '/kapaa', label: 'Private chef Kapaʻa' },
         { path: '/locations', label: 'Towns we cook in' },
         { path: '/quote', label: 'Inquiry form' },
@@ -2171,6 +2173,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/thanksgiving-dinner-kona', label: 'Thanksgiving dinner in Kona' },
         { path: '/blog/kona-restaurants-dining-guide', label: 'Kona restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/east-side', label: 'East side' },

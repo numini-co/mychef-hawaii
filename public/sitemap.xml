@@ -998,7 +998,7 @@
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1064,7 +1064,7 @@
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1454,7 +1454,7 @@
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/blog/dining-in-waikiki</loc>
-    <lastmod>2026-10-09T19:32:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -1700,7 +1700,7 @@
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/blog/ko-olina-restaurants-dining-guide</loc>
-    <lastmod>2026-10-16T01:02:12Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -1719,6 +1719,12 @@
   <url>
     <loc>https://oahu.mychef-hawaii.com/blog/christmas-in-honolulu-dinner</loc>
     <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://oahu.mychef-hawaii.com/blog/waikiki-restaurants-dining-guide</loc>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -1820,7 +1826,7 @@
   </url>
   <url>
     <loc>https://maui.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1886,7 +1892,7 @@
   </url>
   <url>
     <loc>https://maui.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2522,19 +2528,25 @@
   </url>
   <url>
     <loc>https://maui.mychef-hawaii.com/blog/thanksgiving-dinner-maui</loc>
-    <lastmod>2026-10-20T00:00:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
   <url>
     <loc>https://maui.mychef-hawaii.com/blog/christmas-in-maui-villa-dinner</loc>
-    <lastmod>2026-10-20T00:00:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
   <url>
     <loc>https://maui.mychef-hawaii.com/blog/kaanapali-restaurants-dining-guide</loc>
     <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://maui.mychef-hawaii.com/blog/new-years-eve-maui-villa-dinner</loc>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -2624,7 +2636,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2690,7 +2702,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3098,7 +3110,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/dining-in-kapaa</loc>
-    <lastmod>2026-10-09T19:32:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -3326,7 +3338,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/poipu-restaurants-dining-guide</loc>
-    <lastmod>2026-10-16T01:02:12Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -3345,6 +3357,12 @@
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/thanksgiving-dinner-kauai</loc>
     <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://kauai.mychef-hawaii.com/blog/kapaa-restaurants-dining-guide</loc>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -3434,7 +3452,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3500,7 +3518,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3902,7 +3920,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/dining-in-kona</loc>
-    <lastmod>2026-10-20T00:00:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -4172,13 +4190,19 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/kona-restaurants-dining-guide</loc>
-    <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/waikoloa-restaurants-dining-guide</loc>
     <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://bigisland.mychef-hawaii.com/blog/thanksgiving-dinner-kona</loc>
+    <lastmod>2026-10-21T23:16:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
