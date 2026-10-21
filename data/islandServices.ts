@@ -4,6 +4,9 @@ import { gatedServices } from './gatedServices';
 import { residentLineList } from './residentLine';
 import { feeStackList } from './feeStackPages';
 import type { UniqueCell } from './uniqueCells';
+import { DESK_EMAIL, DESK_PHONE_DISPLAY, DESK_TEL, DESK_WHATSAPP } from '@/lib/contact';
+
+const desk = `${DESK_EMAIL}, +1 ${DESK_PHONE_DISPLAY} (${DESK_TEL}), WhatsApp ${DESK_WHATSAPP}`;
 
 /**
  * Catalog service cells that are not money-keyword doors.
@@ -116,28 +119,44 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Honeymoon dinners on Oahu — two seats, one kitchen.',
       title: 'Honeymoon dinners on Oahu — two seats, one kitchen | myCHEF',
       description:
-        'Dinner-for-two in Kahala, Ko Olina and Kailua kitchens. Published starting prices.',
+        'A private dinner for two in a Kahala, Ko Olina, Kailua, or Honolulu rental. The night and the room. Request a written quote.',
       lede:
-        'Two plates. Brass candles. The rest of the house dark. This is Date Night, not a reception dressed as romance.',
+        'Two people at the rental’s dining table, the rest of the house quiet. This is the honeymoon or anniversary booking, not the course list.',
       photo: 'svcHoneymoonOahu',
       body: [
-        `The crew is smaller. The quote is a dinner band, not four lines.`,
-        'Gold Coast dining rooms and Ko Olina villas are the usual rooms. A welcome-night grazing for the arriving family is on the Welcome dinners page.',
+        'The cook comes in on the elevator slot a Honolulu tower already booked and works the range in that kitchen. Plates go to the dining table. A Kailua lānai is used only when the house can cover it. Service stays with the couple. Counters are reset before the crew leaves the building.',
+        'Kahala houses are judged from photos of the stove, not the listing headline. Building rules belong in the same note as the date. If you want the courses named as a format, open the romantic dinner. This page holds the evening and the room.',
       ],
       faqs: [
         {
-          q: 'Is this a wedding?',
-          a: 'No. This is Tuesday for two.',
+          q: 'How is this Oʻahu dinner for two different from the romantic-dinner courses?',
+          a: 'This page books the night: the rental, the two seats, and the honeymoon or anniversary reason. The [romantic dinner](/fine-dining/romantic-dinner) is the course format. Open that page for the plates. Send the house here when you want the evening held.',
         },
         {
-          q: 'Can we add a bartender?',
-          a: 'Yes as a line.',
+          q: 'What does a Honolulu or Ko Olina kitchen need before two people can be served?',
+          a: 'A working cooktop, a fridge, and a table for two. A hotel suite with a coffee maker is declined. A tower also needs its elevator reservation and the building rules in the note. Photos of the kitchen decide it. Request a written quote with those photos.',
+        },
+        {
+          q: 'Can anyone besides the couple sit this honeymoon night?',
+          a: 'The booking is built for two. Extra family changes it into a different table, confirmed in writing from what that dining room holds. We do not print a seat count the house has not shown. Say who is actually eating on [the quote form](/quote).',
+        },
+        {
+          q: 'Where do allergies go before the Oʻahu shop for a dinner for two?',
+          a: 'In the first note, before anyone buys food. Shellfish, nuts, and gluten are written onto those two plates. We will not claim a separate allergen kitchen. The shop follows the list you send, not a guess at the door.',
+        },
+        {
+          q: 'How is one Oʻahu night for two priced, including a bartender?',
+          a: 'One night uses this island’s per-guest signature band, groceries inside that band. There is no separate honeymoon price. A bartender is quoted in writing, with no hourly figure. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows once you accept. Gratuity is never required. See [pricing](/pricing).',
+        },
+        {
+          q: 'What should we send if a proposal on Oʻahu needs to stay quiet?',
+          a: `Say so in the note and the moment stays between the two of you. We do not announce it, and we do not publish past proposals. Send dates, the address, who is eating, and dietary limits. Request a written quote on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/chefs-table', label: 'Chef’s table' },
-        { path: '/weddings', label: 'Wedding week' },
-        { path: '/gold-coast', label: 'Gold Coast' },
+        { path: '/fine-dining/romantic-dinner', label: 'Romantic dinner courses' },
+        { path: '/pricing', label: 'Starting prices' },
+        { path: '/events/anniversaries', label: 'Anniversary dinners' },
       ],
     },
     {
@@ -146,28 +165,44 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Chef’s table in an Oahu villa — the island, not a restaurant pass.',
       title: 'Chef’s table in an Oahu villa | myCHEF',
       description:
-        'Private chef’s table at your Oahu kitchen island. Guests watch the pass in the house. Not a resort communal table.',
+        'The chef cooks and plates at your Oʻahu kitchen island while guests watch. Kahala, Ko Olina, Kailua. Not a restaurant counter.',
       lede:
-        'Three seats at the koa counter. The pan, the catch, the window. This is not a ticketed restaurant table we do not own.',
+        'Guests sit the house counter. The cook plates in front of them. This is the evening’s format, not a ticketed restaurant pass.',
       photo: 'svcChefsTableOahu',
       body: [
-        'The villa kitchen is the room. Kahala islands and Ko Olina counters that actually have a pass. Compact condos may not hold it — we say so on the quote.',
-        'Halo tasting language stays labeled as posture. We do not make a Michelin claim.',
+        'People take stools at the kitchen island while the cook works the range in front of them. The crew enters on the elevator reservation a tower booked. Plates are set on that counter, not walked to a dining room. After the last course, the pass is scrubbed before the crew leaves.',
+        'A Kailua galley is accepted only when the island is deep enough for guests to sit. A photo of the counter and the building rules belong in the request. The course order is the [chef’s table evening](/fine-dining/chefs-table-evening). This page is the format: the cook, the counter, the house.',
       ],
       faqs: [
         {
-          q: 'How many at the counter?',
-          a: 'Usually two to six. Past that it becomes a seated dinner.',
+          q: 'How is an Oʻahu counter night different from the chef’s table evening?',
+          a: 'This page is the format: the chef cooks and plates at the house counter while you sit there. The [chef’s table evening](/fine-dining/chefs-table-evening) is the course arc. Link that page for the sequence. Send the kitchen here when the seat is the island.',
         },
         {
-          q: 'Omakase?',
-          a: 'Sushi-forward is a menu direction on the menus page — not a separate brand and not a claim we cannot source.',
+          q: 'What has to be true of a Kahala or Ko Olina counter before anyone sits it?',
+          a: 'The island needs a clear run to the range, a fridge, and room for stools. A compact condo that cannot hold a pass is declined on the written quote. Send a photo. Building rules and the elevator slot go in the same note.',
+        },
+        {
+          q: 'How many guests suit an Oʻahu kitchen island?',
+          a: 'As many as that counter and that house hold, confirmed in writing. We do not print a seat count from a listing photo. Past what the island can seat, the night becomes a dining-room dinner. Say who is sitting.',
+        },
+        {
+          q: 'Can one person at an Oʻahu counter skip shellfish while the others keep it?',
+          a: 'Write the limit before the shop. That setting changes. The others stay as drafted. We will not claim a separate allergen kitchen. Raw fish is named on the draft only when you have already cleared it.',
+        },
+        {
+          q: 'How is a counter night in a Honolulu house priced?',
+          a: 'It uses this island’s per-guest signature band, with groceries inside the band. There is no separate counter price. Then 20% service and Hawaiʻi GET up to 4.712% each stand alone. A 50% deposit follows acceptance. Gratuity is never required. The card is [pricing](/pricing).',
+        },
+        {
+          q: 'What do I send to request a written quote for an Oʻahu counter?',
+          a: `The address, the date, who is sitting, dietary notes, and a photo of the island if you have one. A quiet proposal can be flagged in the same note. We do not publish past proposals. Request a written quote on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
+        { path: '/fine-dining/chefs-table-evening', label: 'Chef’s table evening' },
         { path: '/honeymoon-dinners', label: 'Dinner for two' },
-        { path: '/menus', label: 'Menus' },
-        { path: '/private-chef', label: 'What’s included' },
+        { path: '/pricing', label: 'Starting prices' },
       ],
     },
     {
@@ -296,27 +331,43 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Honeymoon dinners on Maui — two seats, Wailea or Kapalua.',
       title: 'Honeymoon dinners on Maui — two seats | myCHEF',
       description:
-        'Dinner-for-two in Wailea and Kapalua kitchens. Published starting prices.',
+        'A private dinner for two in a Wailea, Kapalua, or Kāʻanapali rental. The villa night, not the course list. Request a written quote.',
       lede:
-        'The picture people send. Two plates at blue hour. Not four wedding lines swallowed into one romantic blur.',
+        'Two plates on a West Maui lānai at blue hour, or inside if the trade wind rises. This is the honeymoon booking, not a wedding week on one line.',
       photo: 'svcHoneymoonMaui',
       body: [
-        `Welcome dinner for the arriving party is on the Welcome dinners page.`,
-        'Kapalua is often dinner for two. Wailea can be a tasting counter.',
+        'The cook reaches a Wailea or Kapalua kitchen before blue hour and sets the range there. Plates land on the lānai table when the wind allows, and move under the roof when it does not. Service stays with the couple. The stove is wiped and the outdoor table is cleared before the crew drives out.',
+        'A Saturday in Kāʻanapali needs the highway time written into the arrival, not discovered when the plates are late. Photos of the cooktop decide the house. The course format is the [romantic dinner](/fine-dining/romantic-dinner). This page is the villa night for two.',
       ],
       faqs: [
         {
-          q: 'Can this start the wedding week?',
-          a: 'As its own line, yes.',
+          q: 'Is a Wailea lānai dinner for two the same booking as the romantic-dinner format?',
+          a: 'The lānai night is this booking: the rental, the couple, the honeymoon or anniversary. The [romantic dinner](/fine-dining/romantic-dinner) names the courses. Use that page for the plate order. Use this page to hold the villa evening.',
         },
         {
-          q: 'West Maui two-top?',
-          a: 'Kāʻanapali and Kapalua houses with kitchens. Tell us the address.',
+          q: 'What does a Kapalua kitchen need if we eat outside at blue hour?',
+          a: 'A real cooktop, cold storage, and a covered place if the trade wind shuts the lānai. The backup is written before you accept. A room with only a coffee maker is declined. Send photos with the address.',
+        },
+        {
+          q: 'Can parents in the same Maui villa join the honeymoon table?',
+          a: 'Only if you add them before the shop. The night is planned for two. More seats are confirmed in writing from what that dining room holds. We do not invent a capacity the villa has not shown.',
+        },
+        {
+          q: 'How is one shellfish limit handled on a two-plate Maui night?',
+          a: 'It is written on that plate before the shop. The other plate stays as drafted. We will not claim a separate allergen kitchen. Say it on the first note, not when the cook is already in Wailea.',
+        },
+        {
+          q: 'What lands on the invoice for a single Villa Week dinner for two?',
+          a: 'Maui’s per-guest signature band, with the groceries for that menu inside the band. A Saturday drive is not a second food charge. Then 20% service and Hawaiʻi GET up to 4.712% each stand alone. A 50% deposit follows acceptance. Gratuity is never required. The lines are on [pricing](/pricing).',
+        },
+        {
+          q: 'How do we ask for a quiet proposal on a Kāʻanapali lānai?',
+          a: `Flag it in the note and we keep it between you. We do not stage an announcement, and we do not publish past proposals. Send the villa, the date, who is eating, and dietary limits. Request a written quote on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/chefs-table', label: 'Chef’s table' },
-        { path: '/wedding-week', label: 'Wedding week' },
+        { path: '/fine-dining/romantic-dinner', label: 'Romantic dinner courses' },
+        { path: '/pricing', label: 'Starting prices' },
         { path: '/kapalua', label: 'Kapalua' },
       ],
     },
@@ -326,24 +377,44 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Chef’s table in a Maui villa — the counter, not a resort communal table.',
       title: 'Chef’s table in a Maui villa | myCHEF',
       description:
-        'Private chef’s table at a Wailea or Kapalua kitchen counter. Guests watch the tasting. Not a ticketed restaurant.',
+        'The chef cooks and plates at a Wailea or Kapalua counter while you sit there. The house pass, not a resort communal table.',
       lede:
-        'Open kitchen, Molokini in the window, courses across the counter. This is the house pass — not a communal resort table we do not run.',
+        'Stools at the open kitchen. The cook plates where you can see the pans. The lānai is the view, not the pass.',
       photo: 'svcChefsTableMaui',
       body: [
-        'Wailea open kitchens are the usual room. Kapalua counters that actually face the cook. A lawn of forty is not a chef’s table.',
-        'Halo tasting language stays labeled as posture. No Michelin claim.',
+        'Guests sit the Wailea or Kapalua counter while the cook fires in front of them. Arrival is set so a Saturday highway does not collide with the first plate. The wind plan says whether a course may pause on the lānai. It does not move the seats off the island. Cleanup is the pass.',
+        'A lawn is a different booking. This format needs a counter that faces the range. The sequence of courses lives on the [chef’s table evening](/fine-dining/chefs-table-evening). Here you are booking the cook at the island.',
       ],
       faqs: [
         {
-          q: 'Sushi at the counter?',
-          a: 'A menu direction we can arrange when sourcing holds. Not a separate brand.',
+          q: 'What makes a Maui counter different from the chef’s table evening?',
+          a: 'You are booking the cook at the house island, plating while you watch. The [chef’s table evening](/fine-dining/chefs-table-evening) is the course arc. Open it for the sequence. Keep this page for the counter and the villa.',
+        },
+        {
+          q: 'Can a Wailea open kitchen stay the seat if the trade wind rises?',
+          a: 'The stools stay at the counter. A course may step onto the lānai only when the wind plan allows it. If the island cannot face the range, we say so from the photos before you accept. A coffee-maker room is declined.',
+        },
+        {
+          q: 'How many people can a Kapalua counter actually take?',
+          a: 'Whatever that island and that house hold, confirmed in writing after we see the kitchen. A listing photo is not a seat count. When the stools run out, the night moves to the dining table as a different format.',
+        },
+        {
+          q: 'Can a dairy note change one stool at a West Maui counter?',
+          a: 'A dairy note is written onto that setting before the shop. The rest of the counter stays as drafted. We cook the kitchen you have. We do not claim a separate allergen room behind the villa.',
+        },
+        {
+          q: 'Does a chef’s table in Wailea have its own price?',
+          a: 'It does not. The night uses Maui’s per-guest signature band, groceries inside it. Wind backup is not a food upcharge. Then 20% service and Hawaiʻi GET up to 4.712% print on their own lines. A 50% deposit follows acceptance. Gratuity is never required. See [pricing](/pricing).',
+        },
+        {
+          q: 'What should a West Maui counter request include?',
+          a: `The villa, the date, who sits the island, dietary notes, and a photo of the counter. Mention Saturday if the drive crosses the island. Request a written quote on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/honeymoon-dinners', label: 'Dinner for two' },
+        { path: '/fine-dining/chefs-table-evening', label: 'Chef’s table evening' },
         { path: '/wailea', label: 'Wailea' },
-        { path: '/menus', label: 'Menus' },
+        { path: '/pricing', label: 'Starting prices' },
       ],
     },
     {
@@ -477,28 +548,44 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Honeymoon dinners on Kauai — two seats, both shores.',
       title: 'Honeymoon dinners on Kauai — two seats | myCHEF',
       description:
-        'Dinner-for-two on Princeville terraces or Poʻipū. Inquiry stage.',
+        'A private dinner for two in Princeville or Poʻipū. Rain plan and the Hanalei bridge stay in the note. Request availability.',
       lede:
-        'Two plates, mist or sun. Not an estate reception. Far-North two-tops still inherit the bridge clause.',
+        'Two plates under a covered Princeville terrace, or on a Poʻipū evening when the sky holds. Request availability. The week is a separate ask.',
       photo: 'svcHoneymoonKauai',
       body: [
-        `Inquiry list with the shore.`,
-        'Princeville and Poʻipū are the usual rooms.',
+        'Name the shore when you request availability. The cook sets the range in that estate kitchen and plates at a covered table if rain is forecast. A far-North house still follows the Hanalei bridge. If the road closes, the night moves. Service stays with the couple. The kitchen is left clean before the drive back.',
+        'Poʻipū is the shorter run from Līhuʻe and still needs a wet-weather note. Princeville needs the bridge called out in the same request. The course format is the [romantic dinner](/fine-dining/romantic-dinner). This page is the two-person night on the shore you named.',
       ],
       faqs: [
         {
-          q: 'Can we book Date Night without the week?',
-          a: 'Yes. The week is optional.',
+          q: 'How does a Princeville dinner for two differ from the romantic-dinner format?',
+          a: 'This page is the booking: two people, the estate, the honeymoon or anniversary, on the shore you name. The [romantic dinner](/fine-dining/romantic-dinner) is the course format. Request availability here for the night. Open that page if you are choosing plates.',
         },
         {
-          q: 'Covered terrace if it rains?',
-          a: 'North Shore gets the covered plan. We write it.',
+          q: 'What happens to a Poʻipū terrace if rain starts after we sit?',
+          a: 'The covered plan is written before you accept. Plates move under the roof. They do not stay in the weather. A North Shore closure moves the night rather than keeping the deposit for a road we cannot drive. Say which shore.',
+        },
+        {
+          q: 'Is a Kauaʻi honeymoon night only the couple?',
+          a: 'It is planned for two. More people are confirmed in writing from what that estate table holds. We do not print a seat count off a rental photo. Put who is eating in the request for availability.',
+        },
+        {
+          q: 'Where do allergy notes go before a South Shore shop?',
+          a: 'In the request, before any food is bought. A shellfish limit changes that plate only. The other plate stays. We will not claim a separate allergen kitchen on either shore.',
+        },
+        {
+          q: 'How is a two-person Kauaʻi night priced while availability is still a request?',
+          a: 'A request for availability is not a held price. If a crew can take the shore, the night uses this island’s per-guest signature band, groceries inside it. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing).',
+        },
+        {
+          q: 'What should a request for availability include if the moment should stay quiet?',
+          a: `The shore, the estate, the dates, who is eating, dietary notes, and a line that a proposal stays between you. We do not announce it and we do not publish past proposals. Request availability on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/chefs-table', label: 'Chef’s table' },
-        { path: '/princeville', label: 'Princeville' },
-        { path: '/poipu', label: 'Poʻipū' },
+        { path: '/fine-dining/romantic-dinner', label: 'Romantic dinner courses' },
+        { path: '/hanalei-bridge', label: 'Hanalei bridge' },
+        { path: '/pricing', label: 'Starting prices' },
       ],
     },
     {
@@ -507,24 +594,44 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Chef’s table in a Kauai villa — the counter facing the mountains.',
       title: 'Chef’s table in a Kauai villa | myCHEF',
       description:
-        'Private chef’s table at a Princeville or Poʻipū counter. Inquiry stage. Not a resort table.',
+        'The chef cooks and plates at a Princeville or Poʻipū counter. Request availability. Rain and the bridge stay in the note.',
       lede:
-        'The pass is the island in the house. Misted peaks or pale cliffs. Not a ticketed restaurant we do not own.',
+        'Stools at the estate counter, peaks or cliffs in the glass. The cook plates there. Request availability for the shore.',
       photo: 'svcChefsTableKauai',
       body: [
-        'Inquiry stage. Counters that actually face the cook. Compact galleys may not hold it — the quote says so.',
-        'Halo tasting language stays labeled as posture.',
+        'Request availability with the shore named. Guests sit the counter that faces the cook. If rain hits a Princeville garden, the stools stay inside. The covered note is part of the request. A Hanalei bridge closure moves a far-North night. The pass is wiped before the crew leaves.',
+        'A narrow galley that cannot seat anyone at the range is declined in the reply. Poʻipū counters are the same format with a shorter drive. The course arc is the [chef’s table evening](/fine-dining/chefs-table-evening). This page is the cook at the estate island.',
       ],
       faqs: [
         {
-          q: 'How many at the counter?',
-          a: 'Two to six. Past that it is a seated dinner.',
+          q: 'How is an estate counter different from the chef’s table evening on Kauaʻi?',
+          a: 'The counter is this format: you watch the cook plate at the house island. The [chef’s table evening](/fine-dining/chefs-table-evening) is the course arc. Request availability for the counter. Open that page when you are choosing the sequence.',
+        },
+        {
+          q: 'What does rain do to a Princeville counter if the stools face the garden?',
+          a: 'The seats stay at the indoor island. The garden is the view, not the pass. The covered plan is written with the request. If the Hanalei bridge closes, the night moves. We do not keep a deposit because the road shut.',
+        },
+        {
+          q: 'How many stools does a Poʻipū counter need before you will take it?',
+          a: 'As many as that counter and that house hold, confirmed in writing from photos. A galley with no place to sit the pass is declined. We do not publish a stool count the estate has not shown.',
+        },
+        {
+          q: 'Can one guest at a Princeville counter drop raw fish?',
+          a: 'Write it before the shop for that shore. That setting changes. The other settings stay. We will not claim a separate allergen kitchen. The request for availability is the place to say it.',
+        },
+        {
+          q: 'Is a Kauaʻi counter a different price from a seated estate dinner?',
+          a: 'It is the same per-guest signature band, groceries inside it, once a crew can take the shore. There is no counter surcharge. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. Bands are on [pricing](/pricing).',
+        },
+        {
+          q: 'How do I request availability for a counter and name the shore?',
+          a: `Say Princeville or Poʻipū, the estate, the date, who sits the island, and dietary notes. Add the bridge if the house is past it. Request availability on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/honeymoon-dinners', label: 'Dinner for two' },
-        { path: '/menus', label: 'Menus' },
-        { path: '/north-shore', label: 'North Shore' },
+        { path: '/fine-dining/chefs-table-evening', label: 'Chef’s table evening' },
+        { path: '/poipu', label: 'Poʻipū' },
+        { path: '/pricing', label: 'Starting prices' },
       ],
     },
     {
@@ -655,24 +762,44 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Honeymoon dinners on Hawaiʻi Island — two seats, west-side lava.',
       title: 'Honeymoon dinners on Hawaiʻi Island — two seats | myCHEF',
       description:
-        'Dinner-for-two on Kona–Kohala terraces. Inquiry stage. Not a Hilo add-on.',
+        'A private dinner for two on the Kona–Kohala side. Join the inquiry list. Hilo is a separate dedicated east-side day, quoted in writing.',
       lede:
-        'Two plates, hard sun or sunset, Mauna Kea faint. East side is a different day.',
+        'Two plates on a west-side terrace after the sun drops. Join the inquiry list. Hilo is a separate dedicated east-side day, quoted in writing.',
       photo: 'svcHoneymoonBigisland',
       body: [
-        'West-side villas first. Waikoloa and the Kohala Coast are the usual rooms.',
-        'Inquiry stage. Published starting prices from $210 a guest on this island. Dinners from $165 a guest.',
+        'Join the inquiry list with a Kona, Waikoloa, or Kohala address. The cook sets up in that kitchen and plates indoors when the lava terrace is still hot, or outside once the stone cools. Service stays with the couple. The range is cleaned before the crew leaves the west side. A Volcano evening does not share that day.',
+        'Published starting prices from $210 a guest on this island, groceries inside the band, and dinners from $165 a guest. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. The course format is the [romantic dinner](/fine-dining/romantic-dinner). See [pricing](/pricing).',
       ],
       faqs: [
         {
-          q: 'Volcano two-top?',
-          a: 'Quote-only east side with dedicated staffing.',
+          q: 'How is a Kohala dinner for two different from the romantic-dinner courses?',
+          a: 'This page is the west-side booking: the villa, the couple, the honeymoon or anniversary. The [romantic dinner](/fine-dining/romantic-dinner) is the course format. Join the inquiry list here for the night. Open that page for the plates.',
+        },
+        {
+          q: 'Can a Volcano evening share the crew with a Waikoloa dinner for two?',
+          a: 'It cannot. Hilo and Volcano are a separate dedicated east-side day, quoted in writing. They are not stacked on a west-side night. Join the inquiry list with the Kona–Kohala address only.',
+        },
+        {
+          q: 'What does a lava-terrace kitchen need before two plates go out?',
+          a: 'A working cooktop, a fridge, and shade or an indoor table while the stone is still hot. Photos decide it. A minibar room is declined. The terrace is the setting after the heat drops, not a second kitchen.',
+        },
+        {
+          q: 'When do dietary notes have to reach the west-side shop?',
+          a: 'With the inquiry, before any food is bought. A shellfish limit is written onto that plate. The other plate stays. We will not claim a separate allergen kitchen on the Kohala side.',
+        },
+        {
+          q: 'How is one west-side night for two priced?',
+          a: 'From $210 a guest on the signature band, groceries inside it, or the simpler table from $165 a guest when the menu and the house fit. There is no separate honeymoon price. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. The card is [pricing](/pricing).',
+        },
+        {
+          q: 'What do we send to join the inquiry list if a proposal should stay private?',
+          a: `The west-side address, the dates, who is eating, dietary notes, and a line that the moment stays between you. We do not announce it and we do not publish past proposals. Hilo stays its own day. Join the inquiry list on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/chefs-table', label: 'Chef’s table' },
+        { path: '/fine-dining/romantic-dinner', label: 'Romantic dinner courses' },
         { path: '/kohala', label: 'Kohala Coast' },
-        { path: '/weddings', label: 'Wedding week' },
+        { path: '/pricing', label: 'Starting prices' },
       ],
     },
     {
@@ -681,28 +808,44 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Chef’s table in a Kona villa — the counter, lava in the window.',
       title: 'Chef’s table in a Kona villa | myCHEF',
       description:
-        'Private chef’s table at a Kona or Kohala kitchen counter. Inquiry stage. Guests watch the sear. Not a resort communal table.',
+        'The chef cooks and plates at a Kona or Kohala counter. Join the inquiry list. Hilo is a separate dedicated east-side day, quoted in writing.',
       lede:
-        'Hard sun, coffee slopes, the pan. This is the house pass — not a ticketed restaurant.',
+        'Stools at a west-side counter, the sear in front of you. Join the inquiry list. The east side is not this seating.',
       photo: 'svcChefsTableBigisland',
       body: [
-        'Kona town and Kohala resort residences with a real counter. Galleys may not hold it. Inquiry stage.',
-        'Halo tasting language stays labeled as posture. Farm names only in writing.',
+        'Join the inquiry list for a Kona or Kohala kitchen with a real counter. Guests sit that island while the cook works the range in front of them. Hard afternoon sun keeps the first courses inside. The lava terrace is a view, not the pass. The counter is scrubbed before the crew leaves the west side.',
+        'A galley with no place to sit the cook is declined in the reply. Coffee on a crust is a recipe, and a farm is named only when the receipt supports it. The course arc is the [chef’s table evening](/fine-dining/chefs-table-evening). This page is the cook at the west-side island. Hilo is a separate dedicated east-side day, quoted in writing.',
       ],
       faqs: [
         {
-          q: 'How many at the counter?',
-          a: 'Two to six. Past that it is a seated dinner. Hilo is never implied.',
+          q: 'What is different about a Kona counter and the chef’s table evening?',
+          a: 'This page books the format: the chef plates at the house counter while you sit there. The [chef’s table evening](/fine-dining/chefs-table-evening) is the course arc. Join the inquiry list for the counter. Open that page for the sequence.',
         },
         {
-          q: 'Coffee tasting with dinner?',
-          a: 'Coffee may be on the crust.',
+          q: 'What does a Waikoloa counter need, and can Hilo be a second seating the same day?',
+          a: 'The counter needs a clear run to the range and room for stools, confirmed from photos. Hilo cannot be a second seating. It is a separate dedicated east-side day, quoted in writing. Join the inquiry list for the west side only.',
+        },
+        {
+          q: 'How many people fit a Kohala kitchen island?',
+          a: 'As many as that counter and that house hold, confirmed in writing. We do not print a stool count from a resort brochure. Past what the island seats, the night becomes a dining-room dinner on the same west-side day.',
+        },
+        {
+          q: 'Can one person at a Kona counter skip the raw fish?',
+          a: 'Put it in the inquiry before the shop. That setting changes. The others stay. We will not claim a separate allergen kitchen. A fish is named only when that day’s receipt supports the name.',
+        },
+        {
+          q: 'How is a west-side counter night priced?',
+          a: 'On this island’s per-guest signature band, groceries inside it, once a crew can take the day. The simpler table, where it exists, is on the pricing page. There is no separate counter price. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing).',
+        },
+        {
+          q: 'What do I include to join the inquiry list for a Kona counter?',
+          a: `The west-side address, the date, who sits the island, dietary notes, and a photo of the counter. Do not add Hilo to the same note. Join the inquiry list on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/honeymoon-dinners', label: 'Dinner for two' },
+        { path: '/fine-dining/chefs-table-evening', label: 'Chef’s table evening' },
         { path: '/kona', label: 'Kona' },
-        { path: '/menus', label: 'Menus' },
+        { path: '/pricing', label: 'Starting prices' },
       ],
     },
     {
