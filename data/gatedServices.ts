@@ -103,27 +103,44 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Omakase at home on Oahu — tasting in the villa, not a restaurant claim.',
       title: 'Omakase at home on Oahu — tasting in the villa | myCHEF',
       description:
-        'Premium tasting at home in Kahala and Ko Olina. Menu and sourcing verification are launch gates. Not a Michelin claim.',
+        'A chef-chosen sequence in a Kahala or Ko Olina kitchen, set from that day’s market. Often raw fish. Not a star, and not a restaurant name.',
       lede:
-        'A paced tasting at the kitchen island. We will not borrow a restaurant’s name. Sourcing is written on the menu or it is not claimed.',
+        'The chef picks the sequence from what was bought that day, often raw fish, and plates it at your counter. We do not claim a star.',
       photo: 'svcOmakaseOahu',
       body: [
-        'Proof: a written quote.',
+        'Request a written quote with the house. The cook arrives on the tower’s elevator slot and sets a cold board beside the range. The sequence comes from that day’s purchase, not a standing carte. Pieces go to the counter. A name is used only when the receipt supports it. The board is cleared before the crew leaves.',
+        'Shellfish and raw-fish limits have to be in the note before the shop. A compact condo that cannot hold a cold board and a stool is declined from the photos. The planned course arc, if you want it written ahead, is the [tasting menu](/fine-dining/tasting-menu). This page is the market-led night.',
       ],
       faqs: [
         {
-          q: 'Is this omakase like a restaurant?',
-          a: 'It is a tasting in your kitchen. We do not claim stars we do not have.',
+          q: 'How is Oʻahu omakase different from the tasting menu?',
+          a: 'This night is picked after the Honolulu buy, often raw, and plated on your cold board. A paper order fixed before that buy is the [tasting menu](/fine-dining/tasting-menu). Use the paper arc when you want every course named in advance. Stay here when the chef should decide at the counter.',
         },
         {
-          q: 'Will you name a fishmonger?',
-          a: 'When the invoice can stand behind it. We do not invent farm names.',
+          q: 'What does a Kahala kitchen need for a raw-fish sequence?',
+          a: 'A cooktop, a fridge that can hold the fish cold, and a counter to plate on. A hotel suite is declined. A tower needs the elevator reservation in the same note. Photos of the fridge and the board decide it.',
+        },
+        {
+          q: 'How many people suit an Oʻahu omakase counter?',
+          a: 'As many as that counter and that fridge can hold, confirmed in writing. Raw fish does not scale just because the listing shows a long island. Past what the house can keep cold, we say so before you accept.',
+        },
+        {
+          q: 'Where do shellfish and raw-fish limits go before the Honolulu shop?',
+          a: 'In the first note, before anything is bought. That setting is rewritten. The rest of the sequence stays. We will not claim a separate allergen kitchen. If raw fish is off the table, say so before the market run.',
+        },
+        {
+          q: 'How is one Oʻahu omakase night priced?',
+          a: 'It uses this island’s per-guest signature band, groceries inside the band. There is no separate omakase price. Then 20% service and Hawaiʻi GET up to 4.712% print on their own lines. A 50% deposit follows acceptance. Gratuity is never required. The card is [pricing](/pricing).',
+        },
+        {
+          q: 'When will a fish on an Oʻahu omakase carry a name, and what do we send?',
+          a: `A name is printed only after the Honolulu receipt is in hand. Without that paper, the plate is just the fish. Send the house, the date, who is eating, and raw-fish limits. Request a written quote on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
+        { path: '/fine-dining/tasting-menu', label: 'Tasting menu' },
         { path: '/chefs-table', label: "Chef's table" },
-        { path: '/menus', label: 'Menus' },
-        { path: '/honeymoon-dinners', label: 'Dinner for two' },
+        { path: '/pricing', label: 'Starting prices' },
       ],
     },
     {
@@ -309,29 +326,47 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'omakase-at-home',
       name: 'Omakase at home',
-      h1: 'Omakase at home on Maui — a tasting arc in Wailea, not a Michelin claim.',
-      title: 'Omakase at home on Maui — a tasting arc in Wailea | myCHEF',
+      h1: 'Omakase at home on Maui — the chef chooses from the day’s market.',
+      title: 'Omakase at home on Maui — chef’s choice | myCHEF',
       description:
-        'Premium tasting at home in Wailea and Kapalua. Sourcing verification is a launch gate. Not a star.',
+        'A chef-chosen sequence in a Wailea or Kapalua kitchen, set from that day’s market. Often raw fish. We do not claim a star.',
       lede:
-        'Courses at the open-kitchen counter. Molokini in the window if the house has it. We will not borrow a restaurant’s name.',
+        'The chef sets the sequence from what was bought that morning, often raw fish, at your open kitchen. We do not claim a star.',
       photo: 'svcOmakaseMaui',
       body: [
+        'Request a written quote for the villa. The cook reaches Wailea or Kapalua with the day’s purchase and plates at the counter, not on the windward lānai. A Saturday drive is written into the arrival so the fish is not sitting in a car. The cold board is packed away before the crew leaves.',
+        'Tell us if anyone skips raw fish or shellfish before the shop. A minibar room cannot hold this. If you want the courses locked on paper ahead of the market, that is the [tasting menu](/fine-dining/tasting-menu). This night lets the chef choose.',
       ],
       faqs: [
         {
-          q: 'Lotus Chefs or elite Maui chef omakase?',
-          a: 'Related searches, not a stolen brand. We will not borrow Lotus Chefs or an “elite Maui chef” name.',
+          q: 'How is Maui omakase different from a tasting menu that is already written?',
+          a: 'The villa night waits for the morning buy, then the pieces are set at the counter out of the wind. Locking every course before that buy is the [tasting menu](/fine-dining/tasting-menu). Open it for a Saturday order you want fixed. Stay here if the chef should choose.',
         },
         {
-          q: 'Will you claim a fisherman?',
-          a: 'When the invoice can stand behind it. Otherwise the dish is the dish.',
+          q: 'What does a Wailea kitchen need to keep a raw sequence cold?',
+          a: 'A fridge that can hold the fish, a cooktop, and a counter out of the trade wind. The lānai is not the board. Photos of the fridge decide the house. A coffee-maker room is declined before you accept.',
+        },
+        {
+          q: 'How many guests can a Kapalua omakase counter take?',
+          a: 'Only what that counter and that fridge hold, confirmed in writing. We do not stretch a raw sequence because the villa sleeps more people. If the cold space is short, the reply says so.',
+        },
+        {
+          q: 'How do shellfish and raw-fish notes get onto a West Maui sequence?',
+          a: 'They go in the first message, before the morning buy. That guest’s pieces change. The rest of the sequence stays. We will not claim a separate allergen kitchen in the villa.',
+        },
+        {
+          q: 'Does Maui omakase have a price of its own?',
+          a: 'It does not. The night uses Maui’s per-guest signature band, groceries inside the band. The highway time is not a food charge. Then 20% service and Hawaiʻi GET up to 4.712% each stand alone. A 50% deposit follows acceptance. Gratuity is never required. See [pricing](/pricing).',
+        },
+        {
+          q: 'When is a fish named on a Wailea sequence, and what do we send?',
+          a: `Wailea fish stays unnamed until the morning invoice lists it. If the invoice is silent, the dish stands alone. Send the villa, the date, who is eating, and raw-fish limits. Request a written quote on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/chefs-table', label: "Chef's table" },
+        { path: '/fine-dining/tasting-menu', label: 'Tasting menu' },
         { path: '/wailea', label: 'Wailea' },
-        { path: '/menus', label: 'Menus' },
+        { path: '/pricing', label: 'Starting prices' },
       ],
     },
     {
@@ -518,29 +553,47 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'omakase-at-home',
       name: 'Omakase at home',
-      h1: 'Omakase at home on Kauai — inquiry tasting, both shores.',
+      h1: 'Omakase at home on Kauai — chef’s choice, both shores.',
       title: 'Omakase at home on Kauai — both shores | myCHEF',
       description:
-        'Premium tasting at home in Princeville and Poʻipū. Inquiry stage. Sourcing verification is a launch gate. Not a restaurant claim.',
+        'A chef-chosen sequence in a Princeville or Poʻipū kitchen, from that day’s buy. Request availability. We do not claim a star.',
       lede:
-        'A paced tasting at the estate counter. South sun or North mist. We will not borrow a restaurant’s name while we are inquiry.',
+        'The chef chooses the sequence from that day’s purchase, often raw fish, at the estate counter. Request availability and name the shore.',
       photo: 'svcOmakaseKauai',
       body: [
+        'Request availability with Princeville or Poʻipū named. The cook sets a cold board at the counter that faces the range, not on an open terrace if rain is forecast. A far-North house still follows the Hanalei bridge. If the road closes, the night moves. The board is packed before the drive back.',
+        'Raw-fish and shellfish limits belong in the request, before any purchase. A galley without cold space is declined in the reply. A sequence planned on paper ahead of the market is the [tasting menu](/fine-dining/tasting-menu). This page is the chef’s choice for the shore you named.',
       ],
       faqs: [
         {
-          q: 'Can I book omakase this month?',
-          a: 'Inquiry list with the shore. We will not fake a live roster.',
+          q: 'How is a Kauaʻi omakase different from the tasting menu?',
+          a: 'The estate night is chosen after the purchase for the shore you named, and the board stays indoors if rain is up. An order written before that purchase is the [tasting menu](/fine-dining/tasting-menu). Request availability here for the chef’s choice. Open that page if you want the arc fixed.',
         },
         {
-          q: 'Will you claim a Hanalei fisherman?',
-          a: 'When the invoice can stand behind it. We do not invent names.',
+          q: 'What does rain change about a Princeville raw-fish board?',
+          a: 'The board stays at the indoor counter. An open terrace is not the pass in weather. The covered note is part of the request. If the Hanalei bridge closes, the night moves. We do not keep a deposit for a road that shut.',
+        },
+        {
+          q: 'How many guests can sit a Poʻipū omakase counter?',
+          a: 'Only what that counter and that fridge hold, confirmed in writing from photos. A request for availability is not a promise that a long island can take a raw sequence. If the cold space is short, the reply says so.',
+        },
+        {
+          q: 'Where do raw-fish limits go on a both-shores request?',
+          a: 'In the request for availability, before the purchase for that shore. That guest’s pieces change. The others stay. We will not claim a separate allergen kitchen in Princeville or Poʻipū.',
+        },
+        {
+          q: 'Is a price held just because omakase is on this page?',
+          a: 'A request for availability does not hold a price. If a crew can take the shore, the night uses this island’s per-guest signature band, groceries inside it. There is no separate omakase price. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing).',
+        },
+        {
+          q: 'When is a fish named, and how do I request availability?',
+          a: `The shore’s fish stays a dish until the receipt for that purchase lists a name. Name Princeville or Poʻipū, the estate, the date, who is eating, and raw-fish limits. Request availability on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/chefs-table', label: "Chef's table" },
+        { path: '/fine-dining/tasting-menu', label: 'Tasting menu' },
         { path: '/poipu', label: 'Poʻipū' },
-        { path: '/menus', label: 'Menus' },
+        { path: '/pricing', label: 'Starting prices' },
       ],
     },
     {
@@ -728,30 +781,47 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'omakase-at-home',
       name: 'Omakase at home',
-      h1: 'Omakase at home on Hawaiʻi Island — west-side tasting.',
+      h1: 'Omakase at home on Hawaiʻi Island — west-side chef’s choice.',
       title: 'Omakase at home on the Big Island | myCHEF',
       description:
-        'Premium tasting at home in Kona and Kohala. Inquiry stage. Sourcing verification is a launch gate. East side is a different day. Not a restaurant claim.',
+        'A chef-chosen sequence in a Kona or Kohala kitchen. Join the inquiry list. Hilo is a separate dedicated east-side day.',
       lede:
-        'Kanpachi in courses at the kitchen counter. Lava in the window. We will not borrow a restaurant’s name. East side is not implied.',
+        'The chef chooses the sequence from that day’s purchase, often raw fish, at a west-side counter. Join the inquiry list. We do not claim a star.',
       photo: 'svcOmakaseBigisland',
       body: [
-        'Coffee on a crust follows the Kona coffee labeling notes.',
+        'Join the inquiry list with a Kona or Kohala address. The cook sets a cold board indoors while the lava terrace is still hot. The sequence comes from that day’s purchase. A fish is named only when the receipt supports it. The board is cleared before the crew leaves the west side.',
+        'Raw-fish and shellfish limits go in the inquiry before the shop. A minibar fridge cannot hold the sequence. Hilo is a separate dedicated east-side day, quoted in writing. A sequence locked on paper ahead of the market is the [tasting menu](/fine-dining/tasting-menu). This page is the chef’s choice on the west side.',
       ],
       faqs: [
         {
-          q: 'Can I book this month?',
-          a: 'Inquiry. We will not fake a live west-side roster.',
+          q: 'How is west-side omakase different from the tasting menu?',
+          a: 'The Kona night is set after the west-side buy and plated indoors, away from the hot stone. A sequence locked before that buy is the [tasting menu](/fine-dining/tasting-menu). Join the inquiry list here for the chef’s choice. That other page cannot pull Hilo into the same evening.',
         },
         {
-          q: 'Hilo tasting?',
-          a: 'Quote-only dedicated day.',
+          q: 'Can a Hilo omakase share the day with a Waikoloa counter?',
+          a: 'It cannot. Hilo is a separate dedicated east-side day, quoted in writing. Join the inquiry list with the west-side address only. Do not add Volcano to the same afternoon.',
+        },
+        {
+          q: 'What does a Kohala kitchen need for a raw sequence in the heat?',
+          a: 'A fridge that can hold the fish cold, a cooktop, and an indoor counter. The lava terrace is the view after the stone cools, not the board. Photos of the fridge decide it. A minibar room is declined.',
+        },
+        {
+          q: 'When are raw-fish limits locked for a Kona sequence?',
+          a: 'In the inquiry, before the west-side shop. That setting changes. The rest of the sequence stays. We will not claim a separate allergen kitchen. If raw fish is off, say so before anyone buys.',
+        },
+        {
+          q: 'Does west-side omakase have its own published price?',
+          a: 'It does not. The night uses this island’s per-guest signature band, groceries inside it. The simpler table, where the house fits, is on the pricing page. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing).',
+        },
+        {
+          q: 'What do I send to join the inquiry list for a Kona omakase?',
+          a: `The west-side address, the date, who is eating, raw-fish limits, and a photo of the fridge. A fish is named only when the receipt supports it. Hilo stays its own day. Join the inquiry list on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/chefs-table', label: "Chef's table" },
+        { path: '/fine-dining/tasting-menu', label: 'Tasting menu' },
         { path: '/kona', label: 'Kona' },
-        { path: '/kohala-corridor', label: 'West-side radius' },
+        { path: '/pricing', label: 'Starting prices' },
       ],
     },
     {

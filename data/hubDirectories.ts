@@ -236,19 +236,33 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     path: '/help',
     h1: 'Help desks, by island.',
     title: 'Help desks, by island | myCHEF Hawaii',
-    description: 'Planning guides for booking a private chef or catering with myCHEF Hawaii: getting started, menus, weddings, offsites and managing a booking.',
+    description:
+      'Island help desks for a first note, a menu draft, and changes after you accept. Open the island where the house is.',
     lede:
-      'Planning guides for your first booking, on every island.',
+      'Five guides live on each island. This page routes you. It does not take the form.',
     kicker: 'Statewide · Help',
     photo: 'hubHelp',
     cardLabel: 'Help desk',
     body: [
-      'Getting started, the menu guide, the wedding guide, the corporate guide and managing a booking — written for each island. Kauaʻi and Hawaiʻi Island are taking enquiries.',
+      'Getting started, the menu guide, the wedding guide, the corporate guide, and managing a booking are written on each island. Open the host that has the house. Kauaʻi answers a request for availability. Hawaiʻi Island uses the inquiry list, west side first.',
+      'Prices and the service charge and tax lines stay on [pricing](/pricing). The form is [the quote form](/quote). How a night runs is on the island you open, not a second copy of those steps here.',
     ],
     faqs: [
       {
-        q: 'Can I start a booking here?',
-        a: 'Open the island help desk, then that island’s quote form. This page does not take the form.',
+        q: 'Which guide do I open for a first note, a menu draft, or a change?',
+        a: 'First note: that island’s getting-started guide. Draft: the menu guide. A change after you accept: managing a booking. Start at [Oʻahu help](oahu:/help), [Maui help](maui:/help), [Kauaʻi help](kauai:/help), or [Hawaiʻi Island help](bigisland:/help).',
+      },
+      {
+        q: 'How do the booking postures differ before I leave this page?',
+        a: 'Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry, and you join the inquiry list for the west side. Hilo is a separate dedicated east-side day, quoted in writing.',
+      },
+      {
+        q: 'Where are the prices and the service charge and tax lines?',
+        a: 'On [pricing](/pricing). A signature dinner keeps groceries inside that island’s per-guest band. Then 20% service and Hawaiʻi GET up to 4.712% each stand alone. A 50% deposit follows acceptance. Gratuity is never required.',
+      },
+      {
+        q: 'Can I change a date or a headcount from this statewide desk?',
+        a: `Not from here. Open the island’s managing-booking guide and write the change there. A verbal note does not move a deposit. The desk is ${desk}.`,
       },
     ],
   },
@@ -458,37 +472,67 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     path: '/honeymoon-dinners',
     h1: 'Dinner for two, by island.',
     title: 'Dinner for two, by island | myCHEF Hawaii',
-    description: 'Two seats, one kitchen. Not a full wedding week. Each island writes the room.',
+    description:
+      'Private dinners for two, by island. Oʻahu and Maui take a written quote. Kauaʻi requests availability. The Big Island uses the inquiry list.',
     lede:
-      'Two seats, one kitchen. Not a full wedding week. Each island writes the room.',
+      'A private dinner for two in the rental. Open the island where the house is. This directory does not hold the date.',
     kicker: 'Statewide · Dinner for two',
     photo: 'hubHoneymoon',
     cardLabel: 'Two seats',
     body: [
+      'The island page is the booking: the rental, the couple, the honeymoon or anniversary night. The course format sits under that island’s fine dining, as the romantic dinner. Do not plan the plates from this directory.',
+      'Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry on the west side. Hilo is a separate dedicated east-side day, quoted in writing. Bands and fee lines are on [pricing](/pricing). Send the island on [the quote form](/quote).',
     ],
     faqs: [
+      {
+        q: 'Which island page is the dinner for two?',
+        a: 'Open the host that has the rental: [Oʻahu dinner for two](oahu:/honeymoon-dinners), [Maui dinner for two](maui:/honeymoon-dinners), [Kauaʻi dinner for two](kauai:/honeymoon-dinners), or [Hawaiʻi Island dinner for two](bigisland:/honeymoon-dinners). This directory does not hold a date.',
+      },
+      {
+        q: 'Who takes a written quote for two, and who only takes a request?',
+        a: 'Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry: join the inquiry list for the west side. Hilo is a separate dedicated east-side day, quoted in writing.',
+      },
+      {
+        q: 'Where do the prices and the service charge sit for a dinner for two?',
+        a: 'On [pricing](/pricing). One night uses that island’s per-guest signature band, groceries inside the band. There is no separate honeymoon price. Then 20% service and Hawaiʻi GET up to 4.712% each stand alone. A 50% deposit follows acceptance. Gratuity is never required.',
+      },
+      {
+        q: 'What should I send before I leave this statewide page?',
+        a: 'The island, the rental address, the dates, who is eating, dietary notes, and whether a proposal should stay quiet. Then use that island’s form. The course format, if you need it, is that island’s romantic dinner, not this directory.',
+      },
     ],
   },
   chefsTable: {
     path: '/chefs-table',
     h1: 'Chef’s table nights, by island.',
     title: 'Chef’s table nights, by island | myCHEF Hawaii',
-    description: 'Not a resort communal table. The pass is in the house.',
+    description:
+      'The chef cooks at the house counter, by island. Not a restaurant pass. Oʻahu and Maui quote. Kauaʻi requests availability.',
     lede:
-      'Not a resort communal table. The pass is in the house.',
+      'The counter is in the rental. The chef plates there. Open the island that has the kitchen.',
     kicker: 'Statewide · Chef’s table',
     photo: 'hubChefsTable',
     cardLabel: 'Chef’s table',
     body: [
+      'Each island writes the counter: the cook at the house island, guests on the stools, cleanup of that pass. The course arc is that island’s chef’s table evening, under fine dining. This directory only routes you.',
+      'Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. The Big Island takes an inquiry, west side first. Hilo is a separate dedicated east-side day, quoted in writing. Prices are on [pricing](/pricing).',
     ],
     faqs: [
       {
-        q: 'Is this a restaurant chef’s table?',
-        a: 'No. The table is in the villa. Open the island SKU.',
+        q: 'Is the chef’s table a restaurant counter I can reserve from here?',
+        a: 'The counter is in the rental, not a restaurant dining room. Open the island page for the house: [Oʻahu chef’s table](oahu:/chefs-table), [Maui chef’s table](maui:/chefs-table), [Kauaʻi chef’s table](kauai:/chefs-table), or [Hawaiʻi Island chef’s table](bigisland:/chefs-table).',
       },
       {
-        q: 'Same as omakase at home?',
-        a: 'Omakase is a tasting arc with launch gates.',
+        q: 'Is the chef’s table the same night as omakase at home?',
+        a: 'They are different bookings. The chef’s table is the cook plating at the house counter. Omakase is a chef-chosen sequence from that day’s market. Each island has both pages. The planned course arc is that island’s tasting menu.',
+      },
+      {
+        q: 'Which islands quote a counter night, and which only take a request?',
+        a: 'Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry, and you join the inquiry list for the west side. A published page is not a held crew.',
+      },
+      {
+        q: 'Where is the price for a counter night, and what do I send?',
+        a: `There is no separate counter price. The night uses that island’s per-guest signature band, groceries inside it, on [pricing](/pricing). Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. Send the island and a photo of the counter on [the quote form](/quote). Desk: ${desk}.`,
       },
     ],
   },
@@ -673,18 +717,33 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     path: '/omakase-at-home',
     h1: 'Omakase-at-home notes, by island.',
     title: 'Omakase-at-home notes, by island | myCHEF Hawaii',
-    description: 'A tasting arc in the villa, not a restaurant omakase brand. Menu/IP and sourcing are launch gates.',
+    description:
+      'Chef-chosen sequences at home, by island, often raw fish from that day’s market. We do not claim a star. Open the island page.',
     lede:
-      'A tasting arc in the villa, not a restaurant omakase brand. Menu/IP and sourcing are launch gates.',
+      'The chef chooses the sequence from that day’s market. We do not claim a star. Open the island where the kitchen is.',
     kicker: 'Statewide · Omakase',
     photo: 'hubOmakase',
     cardLabel: 'Tasting at home',
     body: [
+      'Omakase on an island page is a chef-chosen sequence in the rental, often raw fish, decided from what was bought that day. A sequence planned ahead is that island’s tasting menu. This directory does not cook and does not name a boat.',
+      'Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. The Big Island takes an inquiry, west side first. A fish is named only when the receipt supports it. Bands are on [pricing](/pricing).',
     ],
     faqs: [
       {
-        q: 'Is this a Michelin omakase?',
-        a: 'No. We do not claim a star. Open the island page.',
+        q: 'Do you claim a star for omakase at home?',
+        a: 'We do not claim a star. This is not a restaurant rating. Open the island that has the kitchen: [Oʻahu omakase](oahu:/omakase-at-home), [Maui omakase](maui:/omakase-at-home), [Kauaʻi omakase](kauai:/omakase-at-home), or [Hawaiʻi Island omakase](bigisland:/omakase-at-home).',
+      },
+      {
+        q: 'Which page is the chef’s choice, and which is the planned arc?',
+        a: 'The island omakase page is the chef’s choice from that day’s market. The planned arc is that island’s tasting menu, under fine dining. Do not brief both as one night from this directory.',
+      },
+      {
+        q: 'Which islands quote an omakase night, and which take a request?',
+        a: 'Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry. Join the inquiry list for the west side. Hilo is a separate dedicated east-side day, quoted in writing.',
+      },
+      {
+        q: 'Where is the price, and what do I send for a chef-chosen night?',
+        a: `There is no separate omakase price. The night uses that island’s per-guest signature band, groceries inside it, on [pricing](/pricing). Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. Send the island, the house, and raw-fish limits on [the quote form](/quote). Desk: ${desk}.`,
       },
     ],
   },
