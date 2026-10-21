@@ -345,6 +345,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/waikiki-restaurants-dining-guide', label: 'Waikīkī restaurants guide' },
         { path: '/', label: 'Private chef Oahu' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/catering', label: 'Oahu catering' },
@@ -691,6 +692,117 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Oahu' },
         { path: '/pricing', label: 'Oahu private chef cost' },
         { path: '/blog/new-years-eve-honolulu-dinner', label: 'New Year’s Eve in Honolulu' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'waikiki-restaurants-dining-guide',
+      keyword: 'waikiki restaurants',
+      datePublished: '2026-10-22',
+      name: 'Waikīkī restaurants guide',
+      h1: 'Waikīkī restaurants — where to eat, when to book and when to stay in.',
+      title: 'Waikiki Restaurants — Where to Eat & Book | myCHEF',
+      description:
+        'Waikiki restaurants for visitors: oceanfront and sunset tables, where locals eat nearby, booking busy weeks and when a chef dinner in your condo is better.',
+      lede:
+        'Waikīkī has more restaurants packed into a few walkable blocks than anywhere else in Hawaiʻi, from beachfront hotel dining rooms to noodle counters and food courts. This guide explains how the neighbourhood works for visitors, where people who live on Oʻahu go to eat nearby, how to book in the busy weeks, and when a dinner cooked in your condo or rental is the easier night.',
+      photo: 'waikiki',
+      body: [],
+      sections: [
+        {
+          heading: 'What “Waikīkī restaurants” really covers',
+          paras: [
+            'Most of Waikīkī’s dining sits along two streets. Kalākaua Avenue runs beside the beach and carries the hotel restaurants, oceanfront terraces and shopping-centre dining rooms. Kūhiō Avenue, a block inland, has more casual places, ramen and izakaya-style counters, and the late-night food that keeps the neighbourhood busy. At the Diamond Head end, near Kapiʻolani Park, things get quieter; at the other end, the road leads toward Ala Moana and Kakaʻako.',
+            'For a visitor, the honest summary is: you will never be short of somewhere to eat in Waikīkī. The harder questions are which tables are worth booking, how to avoid an hour-long wait at seven o’clock, and what to do with a group of ten that wants to sit together.',
+          ],
+        },
+        {
+          heading: 'Oceanfront and sunset tables',
+          paras: [
+            'The most searched Waikīkī tables are the ones with the ocean in front of them, mostly in the beachfront hotels along Kalākaua. They are worth booking for one special night. Ask for an outdoor or front-row table when you reserve, and time it for sunset: in late November and December the sun sets before six, in summer closer to seven, so a 5:30 booking in winter is a different evening from one in July.',
+            'Expect to pay for the view, and expect those rooms to be full in holiday weeks. If the view is the point, consider breakfast or an early cocktail at the water and dinner somewhere less crowded.',
+          ],
+        },
+        {
+          heading: 'Where do locals eat near Waikīkī?',
+          paras: [
+            'Mostly just outside it. Kapahulu Avenue, which starts at the Diamond Head end of Waikīkī, and Kaimukī a few minutes further up have long been neighbourhood eating streets. Kakaʻako and downtown Honolulu, including Chinatown, are a short ride west and have newer restaurants, bars and markets. Our short notes on [Kakaʻako](/blog/dining-in-kakaako) and [downtown Honolulu](/blog/dining-in-downtown) cover the kitchens there.',
+            'Parking is the main reason many residents avoid Waikīkī for dinner: garages are expensive and street spaces are scarce. If you are staying in Waikīkī that works in your favour, because the neighbourhoods next door are a short taxi or rideshare away.',
+          ],
+        },
+        {
+          heading: 'Booking in busy weeks and with a big group',
+          paras: [
+            'Waikīkī is busy most of the year, and the weeks around Thanksgiving, Christmas and New Year are the busiest. Book the dinners that matter before you fly, especially for Friday and Saturday nights. Walk-in tables are easier before six and after eight thirty.',
+            'Large groups are the real challenge. A table for ten at seven on a Saturday is the hardest booking in the neighbourhood, and once you add small children, a late flight or a guest who needs a strict allergy menu, a restaurant night gets complicated. That is where a dinner at your place starts to make sense.',
+          ],
+        },
+        {
+          heading: 'Can a chef cook in a Waikīkī hotel room?',
+          paras: [
+            'Usually not. Most Waikīkī hotel rooms have no cooktop, and a chef cannot cook a proper dinner on a coffee maker. We cook in residences, condos and rentals that have a working cooktop or range and a table for your group, and we say no before a deposit when the kitchen is not there. Our [private chef Waikīkī](/waikiki) page and [Waikīkī residence notes](/blog/dining-in-waikiki) explain how freight elevators, quiet hours and building paperwork are arranged with the tower before anyone shops.',
+            'If your group is in a hotel, the better plan is often one dinner at a house nearby, for example in Kahala or Diamond Head, rented for the occasion or belonging to a friend or family member.',
+          ],
+        },
+        {
+          heading: 'When a dinner at the condo beats going out',
+          paras: [
+            'Big families, mixed diets, children who eat at five, a birthday, a first night after a long flight, or a day that ends late after the North Shore all point the same way. A [private chef Honolulu](/private-chef) dinner brings the restaurant to your table: the chef plans the menu with you, shops, cooks in your kitchen, serves and leaves the kitchen clean, and nobody has to find a taxi at ten o’clock.',
+            'Most visitors mix the two. Book one or two Waikīkī restaurants you really want, then keep the group nights at home. Birthdays work especially well this way; our [birthday dinners](/events/birthdays) page shows how a house birthday runs.',
+          ],
+        },
+        {
+          heading: 'Parties, reunions and wedding-week dinners',
+          paras: [
+            'A welcome dinner for twenty, a reunion buffet or a party on a Kahala lawn is a staffed event rather than a chef dinner. [Oahu catering](/catering) covers staffed villa and residence events, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, each shown as its own line. For a celebration with cocktails, the Oʻahu mobile bar is published from $975 for four hours plus $65 a guest, with spirits billed at cost or brought by you. Wedding weekends have their own page: [wedding catering Oahu](/weddings).',
+          ],
+        },
+        {
+          heading: 'What a dinner at your Waikīkī residence costs with us',
+          paras: [
+            'Signature dinners on Oʻahu are published at $195–$290 a guest with groceries included in that band, for a minimum party of six, and a simpler menu runs $145–$195 a guest for eight or more. Dinner for two starts from $675. If you want a chef for several days of your stay, Stay Chef days for a chef and an assistant start from $1,250 a day for one meal, with groceries billed at cost and receipts handed over.',
+            'Waikīkī and Honolulu are base coverage; only the North Shore adds a published surcharge from $75. A 20% service charge and Hawaiʻi GET up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Oahu private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan your Waikīkī nights',
+          paras: [
+            'Decide which nights are restaurant nights and which are house nights before you fly. Then send us the residence address and tower name, the dates, the number of adults and children, allergies and the nights you want cooked. Use the quote form or message us on WhatsApp at +1 808-468-7748, and we reply with a written quote. For villa dinners across the island, from the Gold Coast to Ko Olina, see [private chef Oahu](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Where do locals eat near Waikīkī?',
+          a: 'Many go to Kapahulu Avenue and Kaimukī next door, or to Kakaʻako, downtown and Chinatown a short ride west. Parking in Waikīkī keeps many residents away at night.',
+        },
+        {
+          q: 'Do I need reservations for Waikīkī restaurants?',
+          a: 'For oceanfront and popular dinner rooms, yes, especially on weekends and in holiday weeks. Walk-in tables are easier before six and after eight thirty.',
+        },
+        {
+          q: 'When is sunset in Waikīkī?',
+          a: 'In late November and December the sun sets before 6 p.m.; in summer it is closer to 7 p.m. Book sunset tables around that time.',
+        },
+        {
+          q: 'Can a private chef cook in my Waikīkī hotel room?',
+          a: 'Usually not, because most hotel rooms have no cooktop. We cook in residences, condos and rentals with a working range and a table, and decline before a deposit when there is no kitchen.',
+        },
+        {
+          q: 'How much does a chef dinner in a Waikīkī condo cost?',
+          a: 'Signature dinners on Oʻahu are $195–$290 a guest with groceries included, minimum six. Service charge and GET are separate lines and a 50% deposit holds the date.',
+        },
+        {
+          q: 'Is Waikīkī good for a big group dinner?',
+          a: 'It can be hard. Large tables at peak hours are the toughest booking, so many groups book one restaurant night and have a chef cook the other group dinners at their rental.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Private chef Honolulu' },
+        { path: '/catering', label: 'Oahu catering' },
+        { path: '/', label: 'Private chef Oahu' },
+        { path: '/pricing', label: 'Oahu private chef cost' },
+        { path: '/blog/ko-olina-restaurants-dining-guide', label: 'Ko Olina restaurants guide' },
       ],
     },
   ],
@@ -1138,6 +1250,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/new-years-eve-maui-villa-dinner', label: 'New Year’s Eve in Maui' },
         { path: '/blog/christmas-in-maui-villa-dinner', label: 'Christmas in Maui' },
         { path: '/private-chef', label: 'Personal chef Maui' },
         { path: '/catering', label: 'Maui catering' },
@@ -1254,6 +1367,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/new-years-eve-maui-villa-dinner', label: 'New Year’s Eve in Maui' },
         { path: '/private-chef', label: 'Personal chef Maui' },
         { path: '/catering', label: 'Maui catering' },
         { path: '/', label: 'Private chef Maui' },
@@ -1372,6 +1486,119 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Maui' },
         { path: '/pricing', label: 'Maui private chef cost' },
         { path: '/blog/dining-in-kaanapali', label: 'Kāʻanapali kitchen notes' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'new-years-eve-maui-villa-dinner',
+      keyword: 'new years eve maui',
+      datePublished: '2026-10-22',
+      name: 'New Year’s Eve in Maui',
+      h1: 'New Year’s Eve in Maui — fireworks rules, sunset timing and dinner at the villa.',
+      title: 'New Year’s Eve in Maui — Dinner at Your Villa | myCHEF',
+      description:
+        'New Year’s Eve in Maui 2026: fireworks rules and hours, resort galas vs a villa night, sunset timing, a midnight menu and real private chef prices.',
+      lede:
+        'New Year’s Eve 2026 falls on a Thursday, and on Maui it is one of the busiest nights of the year. Resort galas sell out, restaurants run set menus and the neighbourhoods light up at midnight. If your group has a villa or condo for the holidays, this guide covers the rules, the timing and how to have a proper New Year’s Eve dinner at the house.',
+      photo: 'barMaui',
+      body: [],
+      sections: [
+        {
+          heading: 'What New Year’s Eve on Maui is like',
+          paras: [
+            'There are three common ways to spend it. Resorts in Wailea and West Maui hold dinners and parties with music. Many restaurants serve a fixed New Year’s Eve menu at set seating times. Evening cruises leave the harbour for a few hours on the water. All three book out well before December, and all three end with a drive or a shuttle back to where you are staying, on roads that are busy that night.',
+            'The fourth option, and the one families with a villa often choose, is to keep the night at the house: a long dinner, the children awake for midnight or asleep down the hall, and fireworks from the lānai.',
+          ],
+        },
+        {
+          heading: 'Fireworks on Maui: the rules and the hours',
+          paras: [
+            'Under Hawaiʻi law and Maui County rules, fireworks may be set off on New Year’s Eve only between 9 p.m. on 31 December and 1 a.m. on 1 January. For the 2025–26 season, the Maui Fire Department said consumer fireworks such as sparklers and fountains did not need a permit during those hours, firecrackers needed a $25 permit sold at listed stores, and aerial fireworks were illegal without a permit. Fireworks are not allowed on public roads, in county parks or within 500 feet of a hotel without a permit.',
+            'The department publishes the new season’s details each December, including any public display, so check the 2026 notice before you plan. Leeward Maui can be very dry, and many rental agreements ban fireworks outright. If you want a midnight moment at the villa without the risk, a champagne toast and dessert on the lānai works just as well.',
+          ],
+        },
+        {
+          heading: 'Resort party, restaurant or a villa night',
+          paras: [
+            'A resort party suits couples who want to dress up and dance and do not mind the price or the crowd. A restaurant set menu works for a small group that books early. A villa dinner suits families, friends sharing a house and anyone who wants the evening to run on their own clock.',
+            'A [personal chef Maui](/private-chef) booking turns the villa into the venue. The chef plans the menu with you, shops, cooks in your kitchen, serves the courses and leaves the kitchen clean before midnight, so the evening is yours.',
+          ],
+        },
+        {
+          heading: 'Timing the evening: sunset to midnight',
+          paras: [
+            'At the end of December the sun sets around six on Maui. Many villa groups start with drinks on the lānai at sunset, sit down for dinner around seven, and keep dessert and a toast for later. Families with young children often serve the children first and let them sleep before the late part of the night.',
+            'If you want a late dessert course, a midnight snack or a staffed bar running until after midnight, say so when you ask, because it changes the staffing and the quote. Check your rental’s quiet hours too; many condo buildings enforce them even on New Year’s Eve.',
+          ],
+        },
+        {
+          heading: 'A New Year’s Eve menu at the villa',
+          paras: [
+            'A Maui New Year’s Eve menu often starts light and builds: local fish crudo or poke, a warm course, a main of fish or meat cooked on the villa grill, and a dessert that can wait until the toast. Fish is named as what is caught and available on the day rather than promised weeks ahead; our [fish species notes](/blog/fish-species) explain why.',
+            'Tell us about allergies, vegetarian guests and children’s plates early. And if you want the morning after to be easy, our [day-after brunch](/blog/day-after-brunch) notes cover a late breakfast at the house on New Year’s Day.',
+          ],
+        },
+        {
+          heading: 'Wailea, Kīhei or West Maui: logistics by area',
+          paras: [
+            'Wailea, Mākena, Kīhei, Kāʻanapali, Nāpili and Kapalua are base zones for us. Upcountry houses in Kula or Makawao add a published travel line from $75, and Pāʻia and the North Shore are quoted with the menu. On New Year’s Eve the team arrives early and leaves the roads before the busiest hours.',
+            'If you are deciding whether to eat out on one of the other nights of the holiday week, our [Wailea restaurants guide](/blog/wailea-restaurants-dining-guide) and [Kāʻanapali restaurants guide](/blog/kaanapali-restaurants-dining-guide) cover the two main resort areas.',
+          ],
+        },
+        {
+          heading: 'Group size: a chef dinner or a staffed party',
+          paras: [
+            'For a table of six to about a dozen, one chef cooking and serving is usually right. A party for twenty or more, a buffet across two houses or a wedding-week celebration is a staffed event, and [Maui catering](/catering) covers that, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, shown as their own lines.',
+            'On New Year’s Eve a bartender takes a job off the host. The Maui mobile bar is published from $1,200 for four hours plus $85 a guest, with spirits billed at cost or brought by you.',
+          ],
+        },
+        {
+          heading: 'What New Year’s Eve dinner on Maui costs with us',
+          paras: [
+            'Signature dinners on Maui are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler table runs $190–$225 a guest. Dinner for two starts from $750. Stay Chef days for a chef and an assistant start from $1,550 a day for one meal, with groceries billed at cost and receipts handed over, which suits a group that wants the whole holiday week covered.',
+            'A 20% service charge and Hawaiʻi GET up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Maui private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to get New Year’s Eve on the calendar',
+          paras: [
+            'New Year’s Eve is one of the first dates to fill on Maui, along with Christmas Eve and Christmas Day. Send the villa address, the number of adults and children, allergies and the time you want to eat. Use the quote form or message us on WhatsApp at +1 808-468-7748, and we reply with a written quote.',
+            'Staying for Christmas as well? Our [Christmas in Maui guide](/blog/christmas-in-maui-villa-dinner) covers that night. For villa dinners across the island, see [private chef Maui](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'When is New Year’s Eve 2026?',
+          a: 'Thursday 31 December 2026, so New Year’s Day is a Friday and many groups stay for a long weekend.',
+        },
+        {
+          q: 'What time can you set off fireworks on Maui on New Year’s Eve?',
+          a: 'Only from 9 p.m. on 31 December to 1 a.m. on 1 January. Firecrackers need a permit, aerial fireworks are illegal without one, and many rentals ban fireworks.',
+        },
+        {
+          q: 'Where can I see fireworks on Maui on New Year’s Eve?',
+          a: 'Neighbourhood fireworks are common across the island. The Maui Fire Department lists any public display each December, so check its notice for 2026.',
+        },
+        {
+          q: 'Is it rainy in Maui in December?',
+          a: 'December is in Maui’s wetter season, but leeward areas such as Wailea, Kīhei and West Maui are usually drier. Plan a covered table as the backup.',
+        },
+        {
+          q: 'Can a private chef cook New Year’s Eve dinner at our villa?',
+          a: 'Yes. The chef plans the menu, shops, cooks in your kitchen, serves and cleans up. Book early, because New Year’s Eve fills first.',
+        },
+        {
+          q: 'How much does a chef-cooked New Year’s Eve dinner on Maui cost?',
+          a: 'Signature dinners are $225–$375 a guest with groceries included, minimum six. Service charge and GET are separate lines and a 50% deposit holds the date.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Personal chef Maui' },
+        { path: '/catering', label: 'Maui catering' },
+        { path: '/', label: 'Private chef Maui' },
+        { path: '/pricing', label: 'Maui private chef cost' },
+        { path: '/blog/christmas-in-maui-villa-dinner', label: 'Christmas in Maui' },
       ],
     },
   ],
@@ -1703,6 +1930,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kapaa-restaurants-dining-guide', label: 'Kapaʻa restaurants guide' },
         { path: '/', label: 'Private chef Kauai' },
         { path: '/private-chef', label: 'Personal chef Kauai' },
         { path: '/catering', label: 'Kauai catering' },
@@ -2050,6 +2278,128 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Kauai' },
         { path: '/pricing', label: 'Kauai private chef cost' },
         { path: '/blog/christmas-in-kauai-holiday-dinners', label: 'Christmas in Kauaʻi' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'kapaa-restaurants-dining-guide',
+      keyword: 'kapaa restaurants',
+      datePublished: '2026-10-22',
+      name: 'Kapaʻa restaurants guide',
+      h1: 'Kapaʻa restaurants — eating on Kauaʻi’s east side, and when to stay in.',
+      title: 'Kapaa Restaurants — East Side Kauai Dining Guide | myCHEF',
+      description:
+        'Kapaa restaurants on Kauai’s east side: old town, food trucks and Wailua, traffic and timing, sunrise not sunset, and when a chef at your rental is better.',
+      lede:
+        'Kapaʻa is the busiest town on Kauaʻi’s east side, between Līhuʻe and the North Shore, and its restaurants are mostly relaxed: food trucks, plate lunch, poke, cafés and a handful of sit-down dinner rooms. This guide explains how eating in Kapaʻa works, how to time it around the traffic, and when a dinner cooked at your rental is the better plan.',
+      photo: 'locKapaa',
+      body: [],
+      sections: [
+        {
+          heading: 'Is Kapaʻa a good place to stay on Kauaʻi?',
+          paras: [
+            'For many visitors, yes. Kapaʻa and neighbouring Wailua sit on the east side, often called the Coconut Coast, roughly halfway between the North Shore and the South Shore and closer to the airport at Līhuʻe than either. That makes day trips in both directions easier. Condos and rentals here are generally more modest than the resort houses of Princeville or Poʻipū.',
+            'The weather sits between the two shores: wetter than Poʻipū, drier than Hanalei, with passing showers carried in on the trade winds. If you plan dinners outdoors, a covered lānai is worth having.',
+          ],
+        },
+        {
+          heading: 'Old town, the highway and the food trucks',
+          paras: [
+            'Most of Kapaʻa’s restaurants line Kūhiō Highway as it runs through old Kapaʻa town, with more in the shopping areas toward Wailua. Expect counters and casual rooms rather than resort dining: fish tacos, plate lunch, poke from a market counter, shave ice, coffee and a few places with cocktails. Food trucks gather in town and are a good way to eat the way the island does.',
+            'The coastal path that runs north of town is the easiest way to work up an appetite, and it puts you within walking or cycling distance of several places to eat.',
+          ],
+        },
+        {
+          heading: 'Wailua and dinner further down the coast',
+          paras: [
+            'Wailua, just south of Kapaʻa around the mouth of the Wailua River, has its own restaurants, many tied to the hotels and shopping centres along the highway. If you are looking for a more formal dinner, many visitors drive to Līhuʻe, or further to Poʻipū; our [Poʻipū restaurants guide](/blog/poipu-restaurants-dining-guide) covers the South Shore, and the [North Shore dining guide](/blog/north-shore-kauai-dining-guide) covers Princeville and Hanalei.',
+          ],
+        },
+        {
+          heading: 'Sunrise, not sunset',
+          paras: [
+            'Kapaʻa faces east, so the sun rises over the ocean and sets behind the mountains. If a sunset dinner on the water is high on the list, plan that night on the South or West side. On the east side, the best light is in the morning: breakfast on the lānai or a beach walk at sunrise is the Kapaʻa equivalent of a sunset table.',
+          ],
+        },
+        {
+          heading: 'Traffic, timing and closing hours',
+          paras: [
+            'Kūhiō Highway is the main road between Līhuʻe and Kapaʻa, and it is often slow at rush hour in both directions. If you are driving back from the North Shore or the South Shore for dinner, add time. Many casual places in Kapaʻa close early in the evening, so a seven-thirty arrival after a long beach day can leave fewer choices than you expect.',
+            'Small rooms also make big groups difficult. A family of ten that wants to sit together will find few Kapaʻa restaurants that can take them at short notice.',
+          ],
+        },
+        {
+          heading: 'When a chef night at the rental beats eating out',
+          paras: [
+            'Big families, mixed diets, small children who eat early, a birthday, or a long day on the road all point the same way. A [personal chef Kauai](/private-chef) dinner brings the meal to your table: the chef plans the menu with you, shops, cooks in your kitchen, serves and leaves the kitchen clean. Kapaʻa is a base zone for us, so no travel line applies; our [private chef Kapaʻa](/kapaa) page has the local details.',
+            'Most visitors mix the two. Eat lunch from the trucks and counters, book one or two dinners out, and keep the group nights at the house.',
+          ],
+        },
+        {
+          heading: 'Groceries and markets on the east side',
+          paras: [
+            'Most of Kauaʻi’s larger supermarkets are around Līhuʻe and Kapaʻa, which makes the east side an easy place to stock a rental. Weekly farmers markets add local fruit, greens and flowers; our [Kauai farmers market guide](/blog/kauai-farmers-market-villa-week) explains which markets run when and how to use them in a villa week.',
+          ],
+        },
+        {
+          heading: 'A sample east-side week that mixes both',
+          paras: [
+            'A week based in Kapaʻa often looks like this. Arrival night is simple: poke and plate lunch picked up on the way from Līhuʻe, eaten on the lānai. Two or three evenings go to restaurants, one of them a drive to the South Shore for a sunset table. Mornings start early with the sunrise and coffee at the house.',
+            'The group dinners, usually the first full evening and the last night, stay at the rental with a chef cooking, so everyone sits at one table and nobody drives home on the highway after dark. If a birthday or anniversary falls in the week, that is the night to book first. Tell us which nights you want cooked and which you are eating out, and the quote follows that plan.',
+          ],
+        },
+        {
+          heading: 'Reunions and bigger groups',
+          paras: [
+            'A reunion dinner for twenty, a celebration across two rentals or a wedding-week party is a staffed event rather than a chef dinner. [Kauai catering](/catering) covers that on the east side and both shores, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, shown as their own lines.',
+          ],
+        },
+        {
+          heading: 'What a dinner at your Kapaʻa rental costs with us',
+          paras: [
+            'Signature dinners on Kauaʻi are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler menu runs $190–$225 a guest. Dinner for two is $975–$1,425. Stay Chef days for a chef and an assistant start from $1,650 a day for one meal, with groceries billed at cost and receipts handed over.',
+            'A 20% service charge and Hawaiʻi GET up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Kauai private chef cost](/pricing). Kauaʻi is by inquiry, so the written quote is the confirmed total once a chef is confirmed for your date.',
+          ],
+        },
+        {
+          heading: 'How to ask for a Kapaʻa dinner',
+          paras: [
+            'Send the rental address, the dates, the number of adults and children, allergies and the nights you want cooked. Use the inquiry form or message us on WhatsApp at +1 808-468-7748, and we reply in writing. For villa dinners across the island, see [private chef Kauai](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Is Kapaʻa a good place to stay on Kauaʻi?',
+          a: 'For many visitors, yes. It is central, closer to Līhuʻe airport than either shore, and makes day trips north and south easier.',
+        },
+        {
+          q: 'What kind of restaurants are in Kapaʻa?',
+          a: 'Mostly casual: food trucks, plate lunch, poke counters, cafés and a handful of sit-down dinner rooms along Kūhiō Highway.',
+        },
+        {
+          q: 'Can you watch the sunset from Kapaʻa?',
+          a: 'Not over the ocean. Kapaʻa faces east, so the sun rises over the water. For a sunset dinner on the water, go to the South or West side.',
+        },
+        {
+          q: 'Do Kapaʻa restaurants close early?',
+          a: 'Many casual places close early in the evening, and large groups can be hard to seat, so plan dinner times and book where you can.',
+        },
+        {
+          q: 'Can a private chef cook at our Kapaʻa rental?',
+          a: 'Yes, by inquiry. Kapaʻa is a base zone for us, so no travel line applies. The chef shops, cooks in your kitchen, serves and cleans up.',
+        },
+        {
+          q: 'How much does a chef dinner in Kapaʻa cost?',
+          a: 'Signature dinners on Kauaʻi are $225–$375 a guest with groceries included, minimum six. Service charge and GET are separate lines and a 50% deposit holds the date.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Personal chef Kauai' },
+        { path: '/catering', label: 'Kauai catering' },
+        { path: '/', label: 'Private chef Kauai' },
+        { path: '/pricing', label: 'Kauai private chef cost' },
+        { path: '/blog/poipu-restaurants-dining-guide', label: 'Poʻipū restaurants guide' },
       ],
     },
   ],
@@ -2612,6 +2962,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/thanksgiving-dinner-kona', label: 'Thanksgiving dinner in Kona' },
         { path: '/blog/waikoloa-restaurants-dining-guide', label: 'Waikoloa restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/catering', label: 'Big Island catering' },
@@ -2730,6 +3081,118 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Big Island' },
         { path: '/pricing', label: 'Big Island private chef cost' },
         { path: '/blog/dining-in-waikoloa', label: 'Waikoloa kitchen notes' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'thanksgiving-dinner-kona',
+      keyword: 'thanksgiving dinner kona',
+      datePublished: '2026-10-22',
+      name: 'Thanksgiving dinner in Kona',
+      h1: 'Thanksgiving dinner in Kona — the turkey, the coast and dinner at the rental.',
+      title: 'Thanksgiving Dinner in Kona — At Your Rental | myCHEF',
+      description:
+        'Thanksgiving dinner in Kona 2026: resort buffet, to-go meal or a chef at your rental, turkey and grocery logistics, sunset timing and Big Island prices.',
+      lede:
+        'Thanksgiving falls on Thursday 26 November 2026, and the Kona side of Hawaiʻi Island is a popular place to spend the long weekend: dry, sunny and quieter than Christmas week. If your family has a house or condo rather than a hotel room, this guide covers how to get a turkey on the table in Kona, where to stay, and when a chef cooking at the rental is the easier plan.',
+      photo: 'fmtFamilyBigisland',
+      body: [],
+      sections: [
+        {
+          heading: 'Is Kona a good place for Thanksgiving?',
+          paras: [
+            'For families who want warm weather and a slower pace, yes. The west side of the island is usually dry and sunny, the long weekend leaves time for the beach and the boat trips, and late November is calmer than the weeks around Christmas. Resorts and restaurants in Kailua-Kona and along the Kohala Coast run Thanksgiving buffets and set menus, and they book early.',
+            'If your group is staying in a rental with a proper kitchen and a lānai, there is another option: keep the whole day at the house and let someone else cook.',
+          ],
+        },
+        {
+          heading: 'Resort buffet, to-go meal or a chef at the rental',
+          paras: [
+            'A resort buffet suits a couple or a small family staying at that resort. You get turkey and the trimmings with no dishes, but you sit when the room has space, and the drive back along the coast after dinner can be long. Some restaurants and markets sell pre-ordered holiday meals to take away; they sell out and still leave someone reheating in an unfamiliar oven.',
+            'A dinner at the house suits multi-generation families and friends sharing a rental. That is the evening a [private chef Kona](/private-chef) booking is built for. The chef plans the menu with you, shops, cooks in your kitchen, serves and leaves the kitchen clean.',
+          ],
+        },
+        {
+          heading: 'Where you stay changes the plan',
+          paras: [
+            'Kailua-Kona town, Keauhou to the south and the coffee country of Hōlualoa above town are all inside our Kona–Kohala corridor, and so are the Waikoloa and Mauna Lani resort areas up the coast. Hōlualoa evenings are cooler, which suits a heavier holiday meal. Our [Kona restaurants guide](/blog/kona-restaurants-dining-guide) and [Waikoloa restaurants guide](/blog/waikoloa-restaurants-dining-guide) cover the other nights of the week.',
+            'Hilo and Volcano are on the other side of the island, two and a half to three hours from Kona. We quote them separately with their own team day and never fit them into a west-side day.',
+          ],
+        },
+        {
+          heading: 'Turkey and groceries on the west side',
+          paras: [
+            'Kona has the west side’s larger supermarkets, but whole turkeys, fresh cranberries and specialty items can run short in the days before the holiday, and a Kohala house is a real drive from town. We place the turkey order as soon as your date is confirmed instead of hoping the shelf is full on Wednesday afternoon.',
+            'Rental ovens vary from large estate ranges to compact condo units. Tell us the oven size, the burners and whether there is a grill on the lānai when you send the brief, and the chef will plan around it, for example two smaller birds or a turkey roasted in parts. Local produce from the week can go into the sides; our [Kona farmers market guide](/blog/kona-farmers-market-villa-week) shows what the markets carry.',
+          ],
+        },
+        {
+          heading: 'A Thanksgiving menu with Kona on the table',
+          paras: [
+            'Most families want the classics: turkey, stuffing, gravy, mashed potatoes and pie. A Kona table can add local fish as a starter, sweet potato, island greens and a lilikoʻi or coconut dessert next to the pumpkin pie. Many local Thanksgiving tables in Hawaiʻi also carry rice, sushi or poke beside the turkey, and the chef can work those in.',
+            'Kona coffee after dinner is a natural finish. We only name a coffee with its origin labelled correctly, and our [coffee labeling notes](/blog/coffee-labeling) explain why. Tell us about allergies, vegetarian guests and children’s plates early.',
+          ],
+        },
+        {
+          heading: 'Timing the day on the Kona coast',
+          paras: [
+            'In late November the sun sets before six on the Kona side. Many families eat in the afternoon, while there is still light on the lānai, and keep the evening for pie and sunset. If part of the group wants a morning snorkel or a boat trip on Thursday, tell us; the chef can shop and prep around it, but a dinner time everyone agrees on keeps the day calm.',
+            'Plan a covered spot or an indoor table as the backup. Kona is dry, but afternoon clouds and showers do roll down the slopes, and wind can pick up on the coast.',
+          ],
+        },
+        {
+          heading: 'Bigger families and reunion weekends',
+          paras: [
+            'A family of eight to twelve is a chef dinner. Twenty or more, a buffet across two houses or a weekend of meals is a staffed event, and [Big Island catering](/catering) covers that on the Kona–Kohala coast, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, listed as their own lines. Our [family reunions notes](/blog/family-reunions) cover the rest of a big-group week.',
+            'Many families also want the Friday covered: leftovers turned into a late lunch, or a second, simpler dinner after a day out. Stay Chef days, priced below, cover that without booking a new dinner each night.',
+          ],
+        },
+        {
+          heading: 'What Thanksgiving dinner in Kona costs with us',
+          paras: [
+            'Signature dinners on Hawaiʻi Island are published at $210–$325 a guest with groceries included, for a minimum party of six, and a simpler table starts from $165 a guest. If you want a chef for the whole long weekend, Stay Chef days for a chef and an assistant start from $1,450 a day for one meal, with groceries billed at cost and receipts handed over. The published travel line from $75 applies only to houses outside the Kona–Kohala corridor.',
+            'A 20% service charge and Hawaiʻi GET up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Big Island private chef cost](/pricing). Hawaiʻi Island is by inquiry, so the written quote is the confirmed total once a chef is confirmed for your date.',
+          ],
+        },
+        {
+          heading: 'How to ask for Thanksgiving in Kona',
+          paras: [
+            'Send the rental address, the number of adults and children, allergies and the time you want to eat. Use the inquiry form or message us on WhatsApp at +1 808-468-7748, and we reply with a written quote. Thanksgiving is about five weeks away, so the earlier the better. For villa dinners across the west side, see [private chef Big Island](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'When is Thanksgiving in 2026?',
+          a: 'Thanksgiving Day is Thursday 26 November 2026, so most families get a four-day weekend.',
+        },
+        {
+          q: 'Is Hawaiʻi crowded at Thanksgiving?',
+          a: 'It is busier than early November but usually calmer than Christmas week. Resort buffets and restaurant set menus in Kona still book early.',
+        },
+        {
+          q: 'What do people in Hawaiʻi eat for Thanksgiving?',
+          a: 'Turkey and the usual sides, often with rice, sushi, poke or other local dishes beside them. A chef can add those to a Kona menu.',
+        },
+        {
+          q: 'Can a private chef cook Thanksgiving at our Kona rental?',
+          a: 'Yes, by inquiry. The chef plans the menu, orders the turkey, shops, cooks in your kitchen, serves and cleans up.',
+        },
+        {
+          q: 'How much does a chef-cooked Thanksgiving in Kona cost?',
+          a: 'Signature dinners on Hawaiʻi Island are $210–$325 a guest with groceries included, minimum six. Service charge and GET are separate lines and a 50% deposit holds the date.',
+        },
+        {
+          q: 'Do you cook Thanksgiving in Hilo?',
+          a: 'Hilo and Volcano are quote-only, with their own team day, because they are two and a half to three hours from Kona.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Private chef Kona' },
+        { path: '/catering', label: 'Big Island catering' },
+        { path: '/', label: 'Private chef Big Island' },
+        { path: '/pricing', label: 'Big Island private chef cost' },
+        { path: '/blog/kona-restaurants-dining-guide', label: 'Kona restaurants guide' },
       ],
     },
   ],

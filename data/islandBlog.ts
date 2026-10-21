@@ -29,7 +29,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogOahu',
     body: [
       'For the longer notes — Gold Coast counters, convention weeks, short-stay villas — read the journal.',
-      'New this month: [Christmas in Honolulu](/blog/christmas-in-honolulu-dinner) — City Lights dates, the busy days and a [private chef Honolulu](/private-chef) cooking Christmas dinner at the house — plus [New Year’s Eve in Honolulu](/blog/new-years-eve-honolulu-dinner).',
+      'New this month: [the Waikīkī restaurants guide](/blog/waikiki-restaurants-dining-guide) — sunset tables, where locals eat nearby and when a [private chef Honolulu](/private-chef) dinner in the condo is better — plus [Christmas in Honolulu](/blog/christmas-in-honolulu-dinner).',
     ],
   },
   maui: {
@@ -43,7 +43,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogMaui',
     body: [
       'Short posts from Wailea, Kīhei and West Maui kitchens: breakfast and lunch in the villa, cleanup, groceries at cost, and what goes on the written quote. The longer notes, including the Maui price guide, live in the journal.',
-      'New this month: [the Kāʻanapali restaurants guide](/blog/kaanapali-restaurants-dining-guide) — the beach walk, Black Rock at sunset and when a [personal chef Maui](/private-chef) night at the villa is better — plus [Christmas in Maui](/blog/christmas-in-maui-villa-dinner).',
+      'New this month: [New Year’s Eve in Maui](/blog/new-years-eve-maui-villa-dinner) — fireworks rules and hours, sunset to midnight and a [personal chef Maui](/private-chef) cooking at the villa — plus [the Kāʻanapali restaurants guide](/blog/kaanapali-restaurants-dining-guide).',
     ],
   },
   kauai: {
@@ -57,7 +57,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogKauai',
     body: [
       'If you need the Hanalei-bridge weather note at length, the journal is the better page.',
-      'New this month: [Thanksgiving on Kauai](/blog/thanksgiving-dinner-kauai) — turkey and groceries, which shore for late November and a [personal chef Kauai](/private-chef) cooking at the house — plus [Christmas in Kauai](/blog/christmas-in-kauai-holiday-dinners).',
+      'New this month: [the Kapaʻa restaurants guide](/blog/kapaa-restaurants-dining-guide) — old town, food trucks, sunrise not sunset and when a [personal chef Kauai](/private-chef) night at the rental is better — plus [Thanksgiving on Kauai](/blog/thanksgiving-dinner-kauai).',
     ],
   },
   bigisland: {
@@ -71,7 +71,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogBigisland',
     body: [
       'West-side kitchens and Kohala travel show up in the shorter posts; the journal keeps the longer notes.',
-      'New this month: [the Waikoloa restaurants guide](/blog/waikoloa-restaurants-dining-guide) — beach resort or village, Waikoloa vs Kona and when a [private chef Kona](/private-chef) night at the rental is better — plus [the Kona restaurants guide](/blog/kona-restaurants-dining-guide).',
+      'New this month: [Thanksgiving dinner in Kona](/blog/thanksgiving-dinner-kona) — the turkey, where to stay and a [private chef Kona](/private-chef) cooking at the rental — plus [the Waikoloa restaurants guide](/blog/waikoloa-restaurants-dining-guide).',
       'Looking to book rather than read? Dinner prices, dinners from $165 a guest and signature dinners and Stay Chef days are on the [private chef Big Island](/) page, and staffed villa parties for ten to seventy-five are [Big Island catering](/catering).',
     ],
   },
