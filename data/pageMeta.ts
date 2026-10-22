@@ -240,9 +240,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Each island publishes dinners 2–15 and receptions about 10–75.',
   },
   '/dietary': {
-    title: 'Dietary design, by island | myCHEF Hawaii',
+    title: 'Dietary notes, by island | myCHEF Hawaii',
     description:
-      'Each island designs vegan, gluten-free and allergy plates ahead.',
+      'Allergies are written on the island page before the shop. Oʻahu and Maui quote. Kauaʻi requests availability. Hawaiʻi Island uses the inquiry list.',
   },
   '/honeymoon-dinners': {
     title: 'Dinner for two, by island | myCHEF Hawaii',
@@ -253,9 +253,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'Chef’s table nights across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/kids-menus': {
-    title: 'Kids at the table, by island | myCHEF Hawaii',
+    title: 'Children’s plates, by island | myCHEF Hawaii',
     description:
-      'Each island plans children’s plates with the adults’ menu.',
+      'Open the island page for children’s plates: simpler food or an earlier hour. They count in the headcount. The price is in the written quote.',
   },
   '/personal-chef': {
     title: 'Household chef line, by island | myCHEF Hawaii',
@@ -268,14 +268,14 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'What a private chef costs in Hawaii: the per-guest band, 20% service, GET up to 4.712%, and a 50% deposit. Each island writes the total before you pay.',
   },
   '/meal-prep': {
-    title: 'Meal prep honesty, by island | myCHEF Hawaii',
+    title: 'Meal prep by island, not sold yet | myCHEF Hawaii',
     description:
-      'Each island gates volume meal prep until utilization is proven.',
+      'Meal prep is not sold on any island yet. A cook in the house is Stay Chef. One dinner is on pricing. A prep price would publish on the island page.',
   },
   '/cooking-classes': {
-    title: 'Cooking classes honesty, by island | myCHEF Hawaii',
+    title: 'Cooking classes by island, not offered | myCHEF Hawaii',
     description:
-      'Each island keeps classes unpublished until a real instructor bench exists.',
+      'Cooking classes are not offered on any island right now. No instructor and no schedule. Guests can watch the chef cook on that island’s chef’s table page.',
   },
   '/omakase-at-home': {
     title: 'Omakase-at-home notes, by island | myCHEF Hawaii',
