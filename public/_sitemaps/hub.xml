@@ -998,7 +998,7 @@
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-21T23:16:02Z</lastmod>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1064,7 +1064,7 @@
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-10-21T23:16:02Z</lastmod>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1460,7 +1460,7 @@
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/blog/dining-in-kailua</loc>
-    <lastmod>2026-10-09T19:32:00Z</lastmod>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -1724,7 +1724,13 @@
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/blog/waikiki-restaurants-dining-guide</loc>
-    <lastmod>2026-10-21T23:16:02Z</lastmod>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://oahu.mychef-hawaii.com/blog/kailua-restaurants-dining-guide</loc>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -1826,7 +1832,7 @@
   </url>
   <url>
     <loc>https://maui.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-21T23:16:02Z</lastmod>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1892,7 +1898,7 @@
   </url>
   <url>
     <loc>https://maui.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-10-21T23:16:02Z</lastmod>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2294,7 +2300,7 @@
   </url>
   <url>
     <loc>https://maui.mychef-hawaii.com/blog/dining-in-kapalua</loc>
-    <lastmod>2026-10-09T19:32:00Z</lastmod>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -2540,13 +2546,19 @@
   </url>
   <url>
     <loc>https://maui.mychef-hawaii.com/blog/kaanapali-restaurants-dining-guide</loc>
-    <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
   <url>
     <loc>https://maui.mychef-hawaii.com/blog/new-years-eve-maui-villa-dinner</loc>
     <lastmod>2026-10-21T23:16:02Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://maui.mychef-hawaii.com/blog/kapalua-restaurants-dining-guide</loc>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -2636,7 +2648,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-21T23:16:02Z</lastmod>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2702,7 +2714,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-10-21T23:16:02Z</lastmod>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3194,7 +3206,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/dining-in-lihue</loc>
-    <lastmod>2026-10-09T19:32:00Z</lastmod>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -3362,7 +3374,13 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/kapaa-restaurants-dining-guide</loc>
-    <lastmod>2026-10-21T23:16:02Z</lastmod>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://kauai.mychef-hawaii.com/blog/lihue-restaurants-dining-guide</loc>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -3452,7 +3470,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-21T23:16:02Z</lastmod>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3518,7 +3536,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-10-21T23:16:02Z</lastmod>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4040,7 +4058,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/dining-in-mauna-lani</loc>
-    <lastmod>2026-10-09T19:32:00Z</lastmod>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -4196,13 +4214,19 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/waikoloa-restaurants-dining-guide</loc>
-    <lastmod>2026-10-21T00:00:00Z</lastmod>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/thanksgiving-dinner-kona</loc>
     <lastmod>2026-10-21T23:16:02Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://bigisland.mychef-hawaii.com/blog/mauna-lani-restaurants-dining-guide</loc>
+    <lastmod>2026-10-22T23:21:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
