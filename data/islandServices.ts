@@ -86,31 +86,47 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'dietary',
       name: 'Dietary',
-      h1: 'Dietary on Oahu — designed in, not theatre.',
-      title: 'Dietary on Oahu — designed in, not theatre | myCHEF',
+      h1: 'Allergy-aware dinners in Oʻahu houses — written before the shop.',
+      title: 'Allergy-aware dinners in Oʻahu houses | myCHEF',
       description:
-        'Vegan, gluten-free, allergy-aware Oahu menus designed in advance. Claimed only when the Kahala, Ko Olina or Kailua kitchen can do it that night.',
+        'Oʻahu allergies and diets go into the menu before the Kahala, Ko Olina, or Kailua shop. No certified allergen-free kitchen. Request a written quote.',
       lede:
-        'A separate board when wheat cannot share a pan. Kids’ plates planned with the adults. We do not print “we do everything” and hope.',
+        'Nut-free, gluten-free, vegan, and religious limits are written before the Honolulu shop. A Kahala tower and a Kailua driveway are not the same kitchen.',
       photo: 'svcDietaryOahu',
       body: [
-        'Tell us allergies on the quote form. The designed menu in 48 hours names what we can hold. Compact condos change what we can fire.',
-        'This is not a dietary brand. It is the same per-table menu on the menus page with the constraint written in.',
+        'List every limit with the address: gluten-free, dairy-free, nut-free, shellfish, vegan or vegetarian, pescatarian, and any religious diet. Those plates are written before the Kahala, Ko Olina, Honolulu, or Kailua shop. A tower freight window means the list is done before the crew comes up. Draft steps are the [menu guide](/help/menu-guide).',
+        'The kitchen you hand us is a rental, not a certified allergen-free room. The cook can keep a wiped board and a separate pan when that kitchen has the space. If a compact condo cannot hold the limit, we say so before you accept. We do not make a medical claim, and we do not name a farm. Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Nut-free on Oahu?',
-          a: 'When the kitchen and the shop can hold it. We will not claim a dedicated allergen kitchen we do not have.',
+          q: 'Can you cook nut-free for our whole group on Oʻahu?',
+          a: 'A nut-free table is written into the shop before we buy, for every plate. A Kahala condo or a Ko Olina villa is still a rental that may have held nuts before we arrived. We will not claim a certified allergen-free kitchen. If the board is too small to keep that separation, we say so before you accept.',
         },
         {
-          q: 'Kids and allergies together?',
-          a: 'Yes — planned with the kids’ menus page, not as an afterthought plate from the freezer.',
+          q: 'How does a shellfish limit change one Honolulu plate without rewriting the table?',
+          a: 'That guest’s course is rewritten before the shop. The other plates stay as drafted. We keep the change only when that kitchen can hold it. Send the person and the limit together. We do not claim a separate allergen room behind the condo.',
+        },
+        {
+          q: 'Can a Kailua week be gluten-free and dairy-free for two people and unchanged for the rest?',
+          a: 'Name both people before the first shop and their plates are rewritten. The rest of the house stays on the drafted menu. A Kailua driveway is not a tower freight slot, but the list still has to land before we buy. We will not promise a medical outcome.',
+        },
+        {
+          q: 'Will you name an Oʻahu farm for vegan produce?',
+          a: 'No. A vegan or vegetarian menu is designed before the shop, not swapped at the pass. A farm, a boat, or a market is named only when that day’s receipt supports it. Put the limit on the quote with the Honolulu or Kailua address.',
+        },
+        {
+          q: 'How should we send a religious diet for a Ko Olina dinner?',
+          a: 'Write what that person eats and what they skip, with the villa and the date, before the shop. Kosher, halal, or another religious limit is a menu constraint, same as a food allergy. We do not claim a certified religious kitchen. If the house cannot hold it, the quote says so.',
+        },
+        {
+          q: 'What do we send, and where is the price for an allergy-aware Oʻahu night?',
+          a: `Send the address, the date, who eats, and every limit. No separate dietary price. The night uses this island’s per-guest band, groceries inside it, on [pricing](/pricing). Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. Desk: ${desk}.`,
         },
       ],
       related: [
+        { path: '/help/menu-guide', label: 'Menu guide' },
         { path: '/menus', label: 'Menus' },
         { path: '/kids-menus', label: 'Kids at the table' },
-        { path: '/faq', label: 'FAQ' },
       ],
     },
     {
@@ -208,27 +224,47 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'kids-menus',
       name: 'Kids at the table',
-      h1: 'Kids at the Oahu table — planned with the adults.',
-      title: 'Kids at the Oahu table | myCHEF',
+      h1: 'Children’s plates on Oʻahu — same kitchen, simpler food.',
+      title: 'Children’s plates at an Oʻahu table | myCHEF',
       description:
-        'Children’s plates on Oahu planned with the adults’ menu. Kailua weeks and Ko Olina villas. Not a freezer afterthought.',
+        'Children on Oʻahu eat simpler plates, or earlier, in Kailua, Ko Olina, and Kahala. They count in the headcount. The price is in the written quote.',
       lede:
-        'The kids eat when the adults eat. Simpler plates, same kitchen, same night. Kailua family weeks are built for this.',
+        'Children eat from the same Oʻahu kitchen as the adults. Say if they need a simpler plate or an earlier hour. High chairs stay with the household.',
       photo: 'svcKidsOahu',
       body: [
-        'Kailua and Lanikai houses often hold multi-day packages. Town apartments can too if the stove is real.',
-        'We do not print a fake kids’ carte.',
+        'In a Kailua week or a Ko Olina villa, children’s plates are simpler versions of the adult menu, beside them or earlier if you name the hour. A Kahala tower still has a freight window, so the plate plan is finished before the crew comes up. We do not bring a second restaurant list.',
+        'Children are part of the headcount you send. There is no separate published price for a child’s plate, and this page has no age cut-off. What that headcount does to the total is set out in the written quote. A child’s allergy is a [dietary note](/dietary), sent before the shop. Chairs and boosters are the household’s. Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Separate kids’ sitting?',
-          a: 'If the house wants it. Usually one service, two plate styles.',
+          q: 'Can children in a Kailua house eat simpler plates beside the adults?',
+          a: 'Yes. Their plates are a simpler version of the same menu, served at the same table, not after the adults are finished. Tell us who is eating so portions fit. We do not publish an age cut-off, and we do not bring a separate children’s list.',
+        },
+        {
+          q: 'Can kids in a Kahala tower eat earlier than the main table?',
+          a: 'If you want an earlier hour, name it on the quote. The crew still has to clear the building’s freight window, so that hour is written before the shop. Otherwise children eat with the adults. We cook the kitchen the tower actually has.',
+        },
+        {
+          q: 'Do children count toward the Oʻahu guest number and the price?',
+          a: 'Children are part of the headcount you send with the adults. There is no separate published price for a child’s plate. What that headcount does to the total is set out in the written quote. Bands and fee lines are on [pricing](/pricing).',
+        },
+        {
+          q: 'Who brings a high chair for a Ko Olina villa?',
+          a: 'The household does. High chairs and boosters are yours, or already in the villa. We cook for the table that is there. We do not deliver seating, and we do not invent a furniture line on the quote.',
+        },
+        {
+          q: 'Where do we put a child’s nut allergy before the Honolulu shop?',
+          a: 'On the same note as the adult limits, before anyone buys. Name the child and the food. That plate is written with the others. The kitchen rules live on [dietary notes](/dietary). We will not claim a certified allergen-free condo.',
+        },
+        {
+          q: 'What should an Oʻahu family send with the quote?',
+          a: `The address, the date, adults and children in one headcount, whether anyone eats earlier, and any allergy. Kahala, Ko Olina, Kailua, or town. Request a written quote on [the quote form](/quote). Desk: ${desk}. The written quote sets the total. Gratuity is never required.`,
         },
       ],
       related: [
         { path: '/kailua', label: 'Kailua' },
         { path: '/dietary', label: 'Dietary' },
-        { path: '/vacation-chef', label: 'Vacation chef' },
+        { path: '/pricing', label: 'Starting prices' },
       ],
     },
     ...gatedServices.oahu,
@@ -298,29 +334,45 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'dietary',
       name: 'Dietary',
-      h1: 'Dietary on Maui — designed in Wailea and West Maui kitchens.',
-      title: 'Dietary on Maui — designed in, not theatre | myCHEF',
+      h1: 'Allergy notes for a Maui villa week — before arrival night.',
+      title: 'Allergy notes for a Maui villa week | myCHEF',
       description:
-        'Vegan, gluten-free, allergy-aware Maui menus designed in advance. Claimed only when the villa kitchen can hold it.',
+        'Wailea, Kapalua, and Kāʻanapali kitchens write gluten-free, shellfish, vegan, and religious limits before the shop. No farm names. Request a written quote.',
       lede:
-        'Catch-led plates can still be gluten-free. Vegan is a designed tasting, not a garnish swap at the pass.',
+        'A villa week has one kitchen and one first shop. Shellfish, gluten-free, vegan, and religious limits have to be in that note before arrival night.',
       photo: 'svcDietaryMaui',
       body: [
-        'Tell us on the quote. The 48-hour menu names the constraint. Sushi-forward is a direction, not a separate allergen kitchen.',
-        'Kids’ plates with allergies sit on the kids’ menus page. Lawn identical plates still honor the list — or we do not take the night.',
+        'Send the limits with the villa: gluten-free, dairy-free, nut-free, shellfish, vegan or vegetarian, pescatarian, and any religious diet. Wailea, Kapalua, and Kāʻanapali are written before the shop, not swapped on the lānai. A Saturday drive is already in the arrival, so a late note misses the buy. Draft steps are the [menu guide](/help/menu-guide).',
+        'The villa kitchen is a rental. Cross-contact is handled with a wiped board and a separate pan when the house has room. We will not claim a certified allergen-free kitchen, a medical outcome, or a named Upcountry farm. If the kitchen cannot hold the limit, the quote says so. Request a written quote on [the quote form](/quote). Numbers are on [pricing](/pricing).',
       ],
       faqs: [
         {
-          q: 'Pescatarian lawn of forty?',
-          a: 'Yes when designed. Identical event plates, one dietary note on the quote.',
+          q: 'Can the whole Wailea villa be pescatarian without a last-minute swap?',
+          a: 'Only if pescatarian is on the note before the shop. The menu is written that way for the villa, not adjusted on the lānai after guests sit. A lawn and a dining room use the same written list. If the kitchen cannot hold it, we say so before you accept.',
         },
         {
-          q: 'Farm names for vegan produce?',
-          a: 'Only in writing. We do not invent Upcountry farms.',
+          q: 'How is a shellfish allergy handled on a Kapalua arrival night?',
+          a: 'That guest’s course changes before the West Maui buy. The other plates stay. Saturday road time is already in the arrival, so the limit has to be in the first note. We will not claim a certified allergen-free villa kitchen.',
+        },
+        {
+          q: 'Can two guests in Kāʻanapali be vegan while the table stays as drafted?',
+          a: 'Name those two before the shop. Their plates are designed. The rest of the table stays. Vegan is not a garnish swap at the pass. We do not name an Upcountry farm unless that day’s receipt supports it.',
+        },
+        {
+          q: 'Will a Maui menu name an Upcountry farm for vegetarian produce?',
+          a: 'No. Vegetarian and vegan plates are designed before the shop. A farm is named only when the receipt supports the name. Put the limit on the quote with the villa. We do not decorate a Wailea draft with a supplier we cannot show.',
+        },
+        {
+          q: 'Where do we put a religious diet before the first villa shop?',
+          a: 'In the quote, with the villa and the arrival date: what that person eats and what they skip. Kosher, halal, or another religious limit is written like any other constraint. We do not claim a certified religious kitchen. A late text does not catch the buy.',
+        },
+        {
+          q: 'Is there a separate price for allergy changes on Maui?',
+          a: `No. The night uses this island’s per-guest signature band, groceries inside it, on [pricing](/pricing). Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. Request a written quote on [the quote form](/quote) with the shore and the limits. Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/menus', label: 'Menus' },
+        { path: '/help/menu-guide', label: 'Menu guide' },
         { path: '/kids-menus', label: 'Kids at the table' },
         { path: '/wailea', label: 'Wailea' },
       ],
@@ -420,30 +472,47 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'kids-menus',
       name: 'Kids at the table',
-      h1: 'Kids at the Maui table — Kīhei weeks and Wailea houses.',
-      title: 'Kids at the Maui table | myCHEF',
+      h1: 'Kids’ plates on a Maui villa week — arrival night included.',
+      title: 'Kids’ plates on a Maui villa week | myCHEF',
       description:
-        'Children’s plates on Maui planned with the adults’ menu. Kīhei vacation homes and Wailea villas. Not a freezer afterthought.',
+        'Children on a Wailea, Kapalua, or Kāʻanapali week eat simpler plates, or earlier on arrival night. The price is set out in the written quote.',
       lede:
-        'South Maui family weeks are built for this. Adult catch, simpler plates beside. One service.',
+        'Arrival night in a Maui villa often includes children who are still on the road clock. Their plates are planned with the adults, not after the platters are gone.',
       photo: 'svcKidsMaui',
       body: [
-        'Kīhei is often the family house. Wailea can be too. West Maui decks as well.',
+        'Name Wailea, Kāʻanapali, or Kapalua, and say whether children need simpler plates from that night’s menu or an earlier sitting while adults are still coming in from the road. A Kīhei family house and a Wailea lawn are different rooms. The chair is the villa’s or yours. We cook the table that is already there. Saturday traffic does not create a second menu.',
+        'Children count in the guest number on the quote. There is no published kids’ price and no age cut-off here. The written quote sets out what the headcount does to the total. A child’s shellfish or dairy limit goes on [dietary notes](/dietary) before the shop. Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Kids on a lawn reception?',
-          a: 'Yes as plated or buffet lines designed in.',
+          q: 'Can children eat on arrival night in a Wailea villa, before the adults sit?',
+          a: 'Yes, if you name that earlier hour with the villa. Their plates are simpler versions of the same menu, served in the house, not after the lawn is cleared. Saturday arrival time is already in the plan. We do not invent a second list for the children.',
         },
         {
-          q: 'High chairs?',
-          a: 'The house provides them. We cook around the table that exists.',
+          q: 'Are kids’ plates on a Kapalua lānai a smaller version of the same menu?',
+          a: 'They are a simpler version of the menu the adults are eating, plated for the children and served with them unless you asked for an earlier hour. The lānai is the room when the wind allows. It is not a different kitchen.',
+        },
+        {
+          q: 'How do children affect the Maui headcount and the written total?',
+          a: 'They are part of the guest number you send. There is no separate published kids’ price and no age cut-off on this page. What the headcount does to the total is set out in the written quote. Fee lines are on [pricing](/pricing).',
+        },
+        {
+          q: 'Does myCHEF bring high chairs to a Kāʻanapali rental?',
+          a: 'No. High chairs and boosters are the household’s, or already in the villa. We cook for the seats that are there. Tell us if children need an earlier hour. We do not add a furniture charge because a chair was missing.',
+        },
+        {
+          q: 'Can a child’s dairy limit be on the draft before the South Maui shop?',
+          a: 'Put the child and the dairy limit on the quote before the buy, with the villa named. That plate changes. The adult plates stay. The kitchen rules are on [dietary notes](/dietary). We will not claim a certified allergen-free villa.',
+        },
+        {
+          q: 'What do we include when we request a written quote for a family week?',
+          a: `The villa, the shore, the dates, adults and children in one count, any earlier hour, and allergies. Wailea, Kapalua, or Kāʻanapali. Request a written quote on [the quote form](/quote). Desk: ${desk}. The written total is the price. Gratuity is never required.`,
         },
       ],
       related: [
         { path: '/kihei', label: 'Kīhei' },
         { path: '/dietary', label: 'Dietary' },
-        { path: '/vacation-chef', label: 'Vacation chef' },
+        { path: '/pricing', label: 'Starting prices' },
       ],
     },
     ...gatedServices.maui,
@@ -516,28 +585,45 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'dietary',
       name: 'Dietary',
-      h1: 'Dietary on Kauai — designed for the shore you are on.',
-      title: 'Dietary on Kauai — designed in, not theatre | myCHEF',
+      h1: 'Allergy-aware meals on Kauaʻi — name the shore first.',
+      title: 'Allergy-aware meals on Kauaʻi shores | myCHEF',
       description:
-        'Vegan, gluten-free, allergy-aware Kauai menus designed in advance. North Shore covered plan, South Shore fire. Inquiry stage.',
+        'Princeville and Poʻipū write shellfish, gluten-free, vegan, and religious limits before the shop. Rain and the bridge stay noted. Request availability.',
       lede:
-        'The handshake poke can be gluten-free. Wood-grilled catch is a South Shore fire question. We design it before we claim it.',
+        'North and south do not share a shop. A shellfish limit in Princeville is not the same buy as a Poʻipū dinner. Request availability and name the shore.',
       photo: 'svcDietaryKauai',
       body: [
-        'Inquiry stage does not mean a fake dietary promise. The 48-hour menu names the shore and the constraint.',
+        'Put gluten-free, dairy-free, nut-free, shellfish, vegan or vegetarian, pescatarian, and any religious diet in the request, with Princeville or Poʻipū named. The rain plan is written with that list. A house past the Hanalei bridge still moves if the road closes. The other shore is a new request. Draft steps are the [menu guide](/help/menu-guide).',
+        'Each estate kitchen is a rental. A wiped board and a separate pan are used when that kitchen can keep them. We will not claim a certified allergen-free kitchen or a medical result, and we will not name a farm. A retreat week is a different page at [retreats](/events/retreats). Request availability on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Shellfish allergy on the North Shore?',
-          a: 'Designed in. We will not run a mixed grill that cannot be held.',
+          q: 'Can you keep a shellfish allergy off a Princeville catch menu?',
+          a: 'Yes, when the allergy is in the request before that north-shore shop. That guest’s plate changes. The rest of the table stays. We will not run a mixed grill the kitchen cannot keep separate. We will not claim a certified allergen-free estate.',
         },
         {
-          q: 'Vegan retreat days?',
-          a: 'Full-board retreats are the Retreats page — dietary is table stakes, claimed only when true.',
+          q: 'Do a north-shore nut limit and a south-shore gluten-free note share one shop?',
+          a: 'No. Princeville and Poʻipū are different buys. Send the limit with the shore you want. A Poʻipū gluten-free plan does not travel north on the same draft. Changing shores means you request availability again.',
+        },
+        {
+          q: 'What happens to a nut-free Poʻipū dinner if rain moves the table inside?',
+          a: 'The plates move under the roof with the same nut-free plan. Rain changes the room, not the shop. The covered note is written with the request. We still will not claim a certified allergen-free kitchen in that dining room.',
+        },
+        {
+          q: 'Can a Hanalei bridge closure carry a gluten-free plan onto the south shore the same night?',
+          a: 'No. A closure moves the night. It does not silently rebuild the menu in Poʻipū. The gluten-free list stays with the shore you named. A south-shore evening is a new request for availability, with its own shop.',
+        },
+        {
+          q: 'How do vegan or religious limits get into a retreat week on Kauaʻi?',
+          a: 'They go in the request for availability, with the shore, before that shop. The retreat booking itself is [retreats](/events/retreats). This page is the limit, not the week. We do not claim a certified religious kitchen, and we do not name a farm.',
+        },
+        {
+          q: 'What belongs in a request for availability when the table has mixed diets?',
+          a: `The shore, the estate, the dates, who eats, and each limit: gluten-free, shellfish, vegan, or a religious diet. Say if rain backup is a covered lānai. Request availability on [the quote form](/quote). Desk: ${desk}. There is no separate dietary price. Bands are on [pricing](/pricing). Gratuity is never required.`,
         },
       ],
       related: [
-        { path: '/menus', label: 'Menus' },
+        { path: '/help/menu-guide', label: 'Menu guide' },
         { path: '/south-shore', label: 'South Shore' },
         { path: '/events/retreats', label: 'Retreats' },
       ],
@@ -637,30 +723,47 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'kids-menus',
       name: 'Kids at the table',
-      h1: 'Kids at the Kauai table — Kapaʻa houses and both shores.',
-      title: 'Kids at the Kauai table | myCHEF',
+      h1: 'Kids’ plates on Kauaʻi — both shores, one request.',
+      title: 'Kids’ plates on Kauaʻi, both shores | myCHEF',
       description:
-        'Children’s plates on Kauai planned with the adults’ menu. Kapaʻa, Poʻipū, Princeville. Inquiry stage. Not a freezer afterthought.',
+        'Children in Princeville, Poʻipū, and Kapaʻa eat simpler plates or an earlier hour. Rain or the bridge moves the plan indoors. Request availability.',
       lede:
-        'East-side town houses often hold families. The North and South do too. One service, two plate styles.',
+        'Children eat with the booking on the shore you named. Rain moves the plates under cover. A bridge closure moves the night. Request availability.',
       photo: 'svcKidsKauai',
       body: [
-        'We cook in Kapaʻa, Poʻipū pool kitchens and Princeville estates. Bookings start as an inquiry.',
+        'Say Princeville, Poʻipū, or Kapaʻa, and whether children need simpler plates from the same menu or an earlier hour. A Kapaʻa town house and a Princeville estate do not share one draft. If rain hits the garden, plates move under the roof with the adults. If the Hanalei bridge closes, the children’s night moves too. It is not left behind on the far side.',
+        'Children are part of the headcount in the request. There is no separate published kids’ price and no age cut-off on this page. The written reply sets out the total. Allergies for a child belong on [dietary notes](/dietary) before that shore’s shop. High chairs are the household’s. Request availability on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Kids and the bridge clause?',
-          a: 'Far-North still inherits weather. We move the night rather than forfeit.',
+          q: 'Can children at a Princeville estate eat an earlier plate if rain is already in the forecast?',
+          a: 'Yes, if you name the earlier hour when you request availability. The plates are a simpler version of the same menu, served under cover with the rain plan. Rain moves the room. It does not create a second menu. The bridge still decides whether the crew can reach a far-north house.',
         },
         {
-          q: 'Simple pasta?',
-          a: 'If it fits the designed menu. We do not print a fake kids’ carte.',
+          q: 'Are kids’ plates in Poʻipū simpler versions of the adult menu, or a separate list?',
+          a: 'Simpler versions of the menu the adults are eating, served beside them unless you named an earlier hour. Poʻipū is its own shop, shorter from Līhuʻe than Princeville. We do not print a separate children’s list for the south shore.',
+        },
+        {
+          q: 'If the Hanalei bridge closes, do the children’s plates move with the night?',
+          a: 'They move with the adults. A closure reschedules the night. It does not leave the children on a plan the crew cannot drive. A switch to Poʻipū is a new request for availability, because that shore is a different shop.',
+        },
+        {
+          q: 'How are kids counted when we request availability for a Kapaʻa house?',
+          a: 'Children are part of the headcount in that request, with the adults. There is no separate published kids’ price and no age cut-off here. The written reply sets out the total. Fee lines are on [pricing](/pricing). A request is not a held crew.',
+        },
+        {
+          q: 'Who supplies a high chair on either shore?',
+          a: 'The household does. High chairs and boosters are yours, or already in the estate. We cook for the table that is there, in Kapaʻa, Poʻipū, or Princeville. We do not haul seating over the bridge.',
+        },
+        {
+          q: 'Where does a child’s shellfish note go before the shore’s shop?',
+          a: `In the request, with the child named, before that shore’s buy. The plate is written with the adults. Kitchen rules are on [dietary notes](/dietary). Request availability on [the quote form](/quote) and name Princeville, Poʻipū, or Kapaʻa. Desk: ${desk}. Gratuity is never required.`,
         },
       ],
       related: [
         { path: '/kapaa', label: 'Kapaʻa' },
         { path: '/dietary', label: 'Dietary' },
-        { path: '/vacation-chef', label: 'Vacation chef' },
+        { path: '/pricing', label: 'Starting prices' },
       ],
     },
     ...gatedServices.kauai,
@@ -729,29 +832,45 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'dietary',
       name: 'Dietary',
-      h1: 'Dietary on Hawaiʻi Island — designed west-side first.',
-      title: 'Dietary menus on the Big Island — designed in | myCHEF',
+      h1: 'Allergy-aware dinners on the Kona–Kohala side.',
+      title: 'Allergy-aware dinners, Kona to Kohala | myCHEF',
       description:
-        'Vegan, gluten-free, allergy-aware Kona–Kohala menus designed in advance. Claimed only when the west-side kitchen can hold it. Inquiry stage.',
+        'Kona, Waikoloa, and Kohala write gluten-free, shellfish, and vegan limits before the shop. Hilo is a separate dedicated east-side day, quoted in writing.',
       lede:
-        'Kanpachi can be dairy-free. Coffee on the crust is coffee, origin when documented. We design the constraint before we print it.',
+        'Join the inquiry list with a west-side address. Gluten-free, shellfish, vegan, and religious limits are written before that shop. Hilo is a separate dedicated east-side day, quoted in writing.',
       photo: 'svcDietaryBigisland',
       body: [
-        'West-side provisioning for west-side nights. East-side dietary is its own team day.',
-        'Retreat full-board dietary is table stakes on the Retreats page — claimed only when true.',
+        'Name Kona, Waikoloa, or Kohala, and list gluten-free, dairy-free, nut-free, shellfish, vegan or vegetarian, pescatarian, and any religious diet before the west-side shop. Hard sun keeps the work in the kitchen. A gluten-free crust and a coffee label are different facts. Origin is printed when the receipt supports it. Draft steps are the [menu guide](/help/menu-guide).',
+        'The house is a rental kitchen. Cross-contact is a wiped board and a separate pan when the counter allows it. We will not claim a certified allergen-free kitchen or a medical result. Hilo and Volcano are not added to a Waikoloa note. They are a separate dedicated east-side day, quoted in writing. Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Gluten-free coffee crust?',
-          a: 'The crust is a recipe question. Origin labeling is a different law. We will not confuse the two.',
+          q: 'Can you cook gluten-free on the Kohala Coast without treating the crust as a coffee label?',
+          a: 'Yes. Gluten-free is a recipe written before the west-side shop. Coffee origin is a separate label, printed only when the receipt supports it. We do not mix those two facts, and we do not name a farm we cannot document.',
         },
         {
-          q: 'Vegan Hilo?',
-          a: 'East side is quote-only. Do not assume a west-side vegan menu travels.',
+          q: 'How is a shellfish limit written for a Waikoloa kitchen?',
+          a: 'It goes in the inquiry before the buy. That guest’s course changes. The other plates stay. The cook works the rental kitchen you have, out of the hard sun. We will not claim a certified allergen-free room on the Kohala side.',
+        },
+        {
+          q: 'Can one Kona guest be vegan while the rest of the table is not?',
+          a: 'Name that guest before the west-side shop. Their plate is designed. The rest stays as drafted. Vegan is not a swap after the bags are in the house. We do not name a farm unless the receipt supports it.',
+        },
+        {
+          q: 'Will you name a Kona farm, or only label coffee when the receipt supports it?',
+          a: 'Only the receipt. Coffee on a crust is labeled for origin when the paper supports it. A farm name without that paper does not go on the menu. See [coffee origin](/coffee-act-198). The dietary limit is still written before the shop.',
+        },
+        {
+          q: 'Can a religious diet in Hilo share the west-side shop the same day?',
+          a: 'No. Hilo is a separate dedicated east-side day, quoted in writing. A religious limit on the Kona–Kohala side is written into that west-side inquiry only. We do not claim a certified religious kitchen, and we do not stack the shores.',
+        },
+        {
+          q: 'What do we send to join the inquiry list for an allergy-aware west-side night?',
+          a: `The Kona, Waikoloa, or Kohala address, the date, who eats, and every limit. Leave Hilo off. No separate dietary price. Bands are on [pricing](/pricing). Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/menus', label: 'Menus' },
+        { path: '/help/menu-guide', label: 'Menu guide' },
         { path: '/coffee-act-198', label: 'Coffee origin' },
         { path: '/kona', label: 'Kona' },
       ],
@@ -851,31 +970,47 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'kids-menus',
       name: 'Kids at the table',
-      h1: 'Kids at the Hawaiʻi Island table — west-side family nights.',
-      title: 'Kids at the Hawaiʻi Island table | myCHEF',
+      h1: 'Kids’ plates on the Kona–Kohala side — shade first.',
+      title: 'Kids’ plates on the Kona–Kohala side | myCHEF',
       description:
-        'Children’s plates on the Kona–Kohala corridor planned with the adults’ menu. Inquiry stage. Not a freezer afterthought.',
+        'Children on the Kona–Kohala side eat simpler plates in the shade and count in the headcount. Hilo is a separate dedicated east-side day, quoted in writing.',
       lede:
-        'Waikoloa residences and Kona houses. Adult kanpachi, simpler plates beside. East side is a different day.',
+        'Join the inquiry list for the west side. Children eat simpler plates from the same menu, indoors while the lava terrace is still hot. Hilo is not this day.',
       photo: 'svcKidsBigisland',
       body: [
-        'West-side first. Inquiry stage.',
-        'Ironman weeks pack town — flag those dates.',
+        'A noon terrace on the Kohala side is too hot for a children’s table. Plates are served in the shade or inside, as simpler versions of the adult menu, or earlier if you name the hour. Kona and Waikoloa do not share a Hilo shop. Ironman week compresses Kailua-Kona, so flag those dates. Do not add Volcano to the same note.',
+        'Children are part of the west-side headcount. There is no published kids’ price and no age cut-off here. The written reply sets out the total. A child’s fish limit is a [dietary note](/dietary) before the shop. Chairs are the household’s. Hilo is a separate dedicated east-side day, quoted in writing. Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Kids on a lava terrace at noon?',
-          a: 'Shade and timing are the house. Hard sun is real. We cook the kitchen you have.',
+          q: 'Can children eat on a lava terrace at noon on the Kohala Coast?',
+          a: 'Not while the stone is still hot. Children’s plates are served in the shade or indoors, as a simpler version of the same menu. The terrace can be the room after the heat drops, for the adults as well. Join the inquiry list with that timing named.',
         },
         {
-          q: 'Hilo family week?',
-          a: 'Quote-only east side.',
+          q: 'Are kids’ plates in Kona a simpler cut of the same menu, served out of the sun?',
+          a: 'Yes. Simpler versions of the adult menu, in the house, beside the adults unless you named an earlier hour. Kona town is a west-side day. It is not a Hilo stop on the way back. We do not print a separate children’s list.',
+        },
+        {
+          q: 'How do children change the west-side headcount and the quote?',
+          a: 'They are part of the headcount on the inquiry, with the adults. There is no published kids’ price and no age cut-off on this page. The written reply sets out the total. Fee lines are on [pricing](/pricing). Joining the inquiry list is not a held crew.',
+        },
+        {
+          q: 'Can a Hilo family week share the Kona crew on the same day?',
+          a: 'No. Hilo is a separate dedicated east-side day, quoted in writing. A family dinner in Kona, Waikoloa, or Kohala stays on the west side. Do not add Volcano to the bottom of a Kona note and expect one crew to cover both.',
+        },
+        {
+          q: 'Who brings seating for small children in a Waikoloa house?',
+          a: 'The household does. High chairs and boosters are yours, or already in the house. We cook for the shaded table that is there. We do not deliver furniture, and we do not set a children’s table on open lava at noon.',
+        },
+        {
+          q: 'What do we send to join the inquiry list for a west-side family dinner?',
+          a: `The Kona, Waikoloa, or Kohala address, the date, adults and children in one count, any earlier hour, and allergies. Leave Hilo off. Join the inquiry list on [the quote form](/quote). Desk: ${desk}. The written reply sets the total. Gratuity is never required.`,
         },
       ],
       related: [
         { path: '/waikoloa', label: 'Waikoloa' },
         { path: '/dietary', label: 'Dietary' },
-        { path: '/vacation-chef', label: 'Vacation chef' },
+        { path: '/pricing', label: 'Starting prices' },
       ],
     },
     ...gatedServices.bigisland,

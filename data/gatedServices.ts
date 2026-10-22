@@ -5,7 +5,7 @@ import { DESK_EMAIL, DESK_PHONE_DISPLAY, DESK_TEL, DESK_WHATSAPP } from '@/lib/c
 
 /**
  * Catalog service cells that stay off the money-keyword doors.
- * Meal prep / classes / omakase are honesty pages until a bench exists.
+ * Meal prep and cooking classes stay unpublished until they are real products.
  */
 
 const desk = `${DESK_EMAIL}, +1 ${DESK_PHONE_DISPLAY} (${DESK_TEL}), WhatsApp ${DESK_WHATSAPP}`;
@@ -40,61 +40,93 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'meal-prep',
       name: 'Meal prep',
-      h1: 'Oahu meal prep stays gated until utilization is proven.',
-      title: 'Oahu meal prep is gated until proven | myCHEF',
+      h1: 'Meal prep on Oʻahu — not a product we sell today.',
+      title: 'Meal prep on Oʻahu: what we offer today | myCHEF',
       description:
-        'Inquiry only until utilization is proven.',
+        'Weekly meal prep is not sold on Oʻahu yet. Book a cook in the house (Stay Chef) or a signature dinner. If prep opens, the price is published here.',
       lede:
-        'Labeled containers are not a product we sell today. A fridge program needs a bench we will not invent. Ask; do not expect a rate card.',
+        'We don’t sell weekly meal prep on Oʻahu yet. If that changes, prices will be published here. A cook in the house is a different booking.',
       photo: 'svcMealprepOahu',
       body: [
-        'Those are cooked in the house, not packed for the week ahead.',
-        'If utilization is later proven, prices publish here. Until then the honest answer is inquiry.',
+        'Honolulu residents sometimes want a week of containers. Visitors in Kahala or Ko Olina want the fridge full before the first evening. Neither is a product on this page. A cook in the house is [Stay Chef](/vacation-chef): a daily chef fee plus groceries at cost with receipts. A one-night table is a signature dinner on [pricing](/pricing), groceries inside the band.',
+        'A repeating cook for a home you live in is the [household line](/personal-chef), still a person at the stove, not a drop at the door. Building freight rules still apply if the kitchen is in a tower. We will not invent a rate for labeled meals. Request a written quote for the booking that exists today, on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Can I order five days of lunches?',
-          a: 'Not as a published product. Join the inquiry. We will not invent a fridge program.',
+          q: 'Do you offer weekly meal prep on Oʻahu?',
+          a: 'We don’t sell weekly meal prep on Oʻahu yet. If that changes, prices will be published on this page. There is no container program and no rate for one. For food this week, book a cook in the house instead.',
         },
         {
-          q: 'Is this the resident line?',
-          a: 'No.',
+          q: 'Can a Honolulu resident get labeled lunches instead of a cook in the house?',
+          a: 'Not from this page. The household line is a cook in the home on the nights you name, at [household cooking](/personal-chef). It is not containers by the door. Stay Chef is the visitor version: a daily chef fee plus groceries at cost with receipts.',
+        },
+        {
+          q: 'Will the chef leave a week of meals in a Ko Olina fridge before we land?',
+          a: 'No. On a Stay Chef day the chef cooks in the villa and shops for that cooking, groceries at cost with receipts. See [Stay Chef](/vacation-chef). Landing day does not become a labeled-meal drop, even when the fridge is empty.',
+        },
+        {
+          q: 'Is a Kahala signature dinner the same invoice as meal prep?',
+          a: 'No. A signature dinner is one service. Groceries for that menu sit inside the per-guest band on [pricing](/pricing). Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. It is not a week of lunches left behind.',
+        },
+        {
+          q: 'How do I get told if weekly prep opens on Oʻahu?',
+          a: 'This page is where a price would be published. We do not keep a waitlist for a product we do not sell. For a cook now, request a written quote for Stay Chef or a dinner on [the quote form](/quote).',
+        },
+        {
+          q: 'What should we request if we need a cook in the house this month?',
+          a: `The address, the dates, and that you want a cook at the stove, not containers. Honolulu, Kahala, Ko Olina, or Kailua. Request a written quote on [the quote form](/quote). Desk: ${desk}. There is no prep price to send.`,
         },
       ],
       related: [
-        { path: '/kamaaina', label: 'Kamaʻāina line' },
-        { path: '/what-we-dont-do', label: 'What we will not claim' },
-        { path: '/vacation-chef', label: 'Vacation chef' },
+        { path: '/vacation-chef', label: 'Stay Chef' },
+        { path: '/pricing', label: 'Starting prices' },
+        { path: '/personal-chef', label: 'Household line' },
       ],
     },
     {
       slug: 'cooking-classes',
       name: 'Cooking classes',
-      h1: 'Oahu cooking classes publish only with a real instructor bench.',
-      title: 'Oahu cooking classes wait on a real instructor bench | myCHEF',
+      h1: 'Cooking classes on Oʻahu — we do not run them.',
+      title: 'Cooking classes on Oʻahu: not offered | myCHEF',
       description:
-        'Experience classes on Oahu stay unpublished until a named instructor bench exists. We will not sell a class we cannot staff.',
+        'Cooking classes are not offered on Oʻahu. No instructor and no schedule. Watch the chef cook at the house counter. Request a written quote for a dinner.',
       lede:
-        'Empty boards. A stove. No standing class. When a real instructor exists, this page will name the format — not before.',
+        'We don’t run cooking classes on Oʻahu right now. There is no instructor and no schedule on this page. A dinner where you watch the cook is a different booking.',
       photo: 'svcClassesOahu',
       body: [
-        'Halo products stay labeled as posture. A cooking class is an instructor product.',
-        'Private chef dinners are / and the in-villa dinner page. Those are service, not a class.',
+        'Honolulu guests sometimes ask to cook beside the chef. We do not sell that, and we do not publish a teacher, a length, or a date. The [chef’s table](/chefs-table) seats you at the house counter while the chef plates. You watch. It is not a class and not a lesson.',
+        'A full dinner without the counter is a signature night on [pricing](/pricing). A cook in the Kahala, Ko Olina, or Kailua house for the stay is [Stay Chef](/vacation-chef): a daily chef fee plus groceries at cost with receipts. The chef cooks. Request a written quote on [the quote form](/quote). If a class ever opens, this page is where it would be published.',
       ],
       faqs: [
         {
-          q: 'Can the chef teach us to make poke?',
-          a: 'Not as a published class. A dinner can include a short pass at the counter. That is on the chef’s table page, not this page.',
+          q: 'Is there a hands-on cooking class we can book on Oʻahu?',
+          a: 'We don’t run cooking classes on Oʻahu right now. There is no schedule, no instructor, and no class price. You do not cook the meal. For a dinner the chef cooks, use [pricing](/pricing) or the quote form.',
         },
         {
-          q: 'Will you invent a teacher name?',
-          a: 'No.',
+          q: 'Can the chef explain the dishes while cooking in a Kahala kitchen?',
+          a: 'On a chef’s table night, guests sit at the house counter and watch the chef cook and plate. That is what [chef’s table](/chefs-table) already promises. It is not a talk, a technique class, or a lesson. We do not add a narration this page does not have.',
+        },
+        {
+          q: 'Will you publish an instructor name for a Honolulu class?',
+          a: 'We will not publish an instructor we do not have. This page stays without a name, a format, or a date until a class is real. A crew on a dinner is not a teacher roster.',
+        },
+        {
+          q: 'Can a Ko Olina Stay Chef day be turned into a family class?',
+          a: 'No. Stay Chef is a cook in the house for the stay: a daily chef fee plus groceries at cost with receipts, on [Stay Chef](/vacation-chef). Then 20% service and Hawaiʻi GET up to 4.712% are separate lines. The chef cooks. It does not become a class.',
+        },
+        {
+          q: 'How do I get told if a class opens on Oʻahu?',
+          a: 'This page is where a class would be published, with a price, if it ever exists. We do not keep a class list. For a counter dinner now, request a written quote on [the quote form](/quote).',
+        },
+        {
+          q: 'What should we send if we want a dinner where we watch the chef cook?',
+          a: `The address, the date, who is eating, and that you want the chef at the counter. Kahala, Ko Olina, Kailua, or town. Open [chef’s table](/chefs-table). Request a written quote on [the quote form](/quote). Desk: ${desk}. There is no class time.`,
         },
       ],
       related: [
         { path: '/chefs-table', label: "Chef's table" },
-        { path: '/what-we-dont-do', label: 'What we will not claim' },
-        { path: '/about', label: 'The Oahu crew' },
+        { path: '/pricing', label: 'Starting prices' },
+        { path: '/vacation-chef', label: 'Stay Chef' },
       ],
     },
     {
@@ -268,59 +300,93 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'meal-prep',
       name: 'Meal prep',
-      h1: 'Maui meal prep stays gated — inquiry, not a standing.',
-      title: 'Maui meal prep is gated until proven | myCHEF',
+      h1: 'Meal prep on Maui — not sold for a villa week.',
+      title: 'Meal prep on Maui: not sold yet | myCHEF',
       description:
-        'Inquiry only until utilization is proven.',
+        'Weekly meal prep is not sold on Maui yet. A Wailea or Kapalua week can book Stay Chef or a signature dinner. A prep price would be published here.',
       lede:
-        'We will not sell a fridge program we cannot staff in Wailea or West Maui. Ask. Do not expect a published band.',
+        'We don’t sell weekly meal prep on Maui yet. If that changes, prices will be published here. Arrival day is not a fridge full of labeled meals.',
       photo: 'svcMealprepMaui',
       body: [
-        'Stay Chef weeks cook in the house each day. That is not packed lunches.',
+        'A villa week in Wailea, Kapalua, or Kāʻanapali often starts with an empty fridge and a late landing. We do not fill it with packed food. [Stay Chef](/vacation-chef) is a cook in the house: a daily chef fee plus groceries at cost with receipts. The shop is for meals cooked that day.',
+        'An arrival-night table is a signature dinner. The groceries for that menu sit inside the per-guest band on [pricing](/pricing). Saturday road time between the shores is a drive, not a reason to leave containers and go. There is no prep price. Request a written quote on [the quote form](/quote) for the cook or the dinner.',
       ],
       faqs: [
         {
-          q: 'Can you fill the villa fridge on landing day?',
-          a: 'A shop-and-stock for a Stay Chef week, yes. A five-day packed program, not as a published product.',
+          q: 'Do you sell weekly meal prep for a Maui villa?',
+          a: 'We don’t sell weekly meal prep on Maui yet. If that changes, prices will be published on this page. A villa week does not include a stack of labeled meals. Book a cook in the house, or one dinner.',
         },
         {
-          q: 'Upcountry prep?',
-          a: 'Surcharge zone even for dinners. Prep stays gated everywhere.',
+          q: 'Can the chef stock the fridge for our villa week before we land in Wailea?',
+          a: 'Not with a week of packed food. Stay Chef shops for the meals cooked that day, groceries at cost with receipts, and the chef is in the villa to cook them. See [Stay Chef](/vacation-chef). An empty arrival fridge is not a prep order.',
+        },
+        {
+          q: 'Is an arrival-night dinner in Kapalua a prep drop or a cooked service?',
+          a: 'A cooked service. The chef works the villa kitchen and serves that night. Groceries for the menu sit inside the per-guest band on [pricing](/pricing). It is not containers left before you land. Saturday drive time is planned into the arrival.',
+        },
+        {
+          q: 'What groceries are billed on a Stay Chef day in Kāʻanapali?',
+          a: 'Groceries are at cost, with receipts, on top of the daily chef fee. See [Stay Chef](/vacation-chef) and [pricing](/pricing). Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. That is not a prep package.',
+        },
+        {
+          q: 'How would a Maui prep price be published if you ever sell it?',
+          a: 'On this page, as a real price, and not before. We do not keep a waitlist for containers we do not sell. Until then, request a written quote for Stay Chef or a signature dinner on [the quote form](/quote).',
+        },
+        {
+          q: 'What do we send when we want a cook in the villa, not containers?',
+          a: `The villa, the shore, the dates, and that you want the chef cooking, not a fridge drop. Wailea, Kapalua, or Kāʻanapali. Request a written quote on [the quote form](/quote). Desk: ${desk}. There is no prep rate to ask for.`,
         },
       ],
       related: [
-        { path: '/vacation-chef', label: 'Vacation chef' },
-        { path: '/what-we-dont-do', label: 'What we will not claim' },
-        { path: '/south-maui', label: 'South Maui' },
+        { path: '/vacation-chef', label: 'Stay Chef' },
+        { path: '/pricing', label: 'Starting prices' },
+        { path: '/wailea', label: 'Wailea' },
       ],
     },
     {
       slug: 'cooking-classes',
       name: 'Cooking classes',
-      h1: 'Maui cooking classes wait on a named instructor — none published yet.',
-      title: 'Maui cooking classes wait on a named instructor | myCHEF',
+      h1: 'Cooking classes on Maui — none are booked.',
+      title: 'Cooking classes on Maui are not booked | myCHEF',
       description:
-        'Experience classes on Maui stay unpublished until a named instructor exists. We will not sell a class we cannot staff in Wailea or West Maui.',
+        'Cooking classes are not booked on Maui. No instructor and no farm class. Watch the chef cook at a Wailea or Kapalua counter. Request a written quote.',
       lede:
-        'Open kitchen, unused stations. When an instructor is real, this page will say so. Until then it is a refusal.',
+        'We don’t run cooking classes on Maui right now. There is no instructor name and no date. Watching the chef cook at the villa counter is a dinner, not a class.',
       photo: 'svcClassesMaui',
       body: [
-        'A counter pass during dinner is on the chef’s table page. A class is an instructor product. Halo language stays labeled as posture.',
+        'A Wailea or Kapalua week is not a classroom, and we will not invent an Upcountry farm class. No teacher, length, or schedule is published here. Guests who want the pans in view book the [chef’s table](/chefs-table) and watch the chef plate. It is not a lesson.',
+        'The rest of the week, a cook in the villa is [Stay Chef](/vacation-chef): a daily chef fee plus groceries at cost with receipts. One arrival dinner is the signature band on [pricing](/pricing). The chef holds the knife. Request a written quote on [the quote form](/quote). A class price, if one ever exists, would be printed on this page.',
       ],
       faqs: [
         {
-          q: 'Farm-to-table class in Upcountry?',
-          a: 'We do not invent farm names.',
+          q: 'Is there a hands-on cooking class in a Wailea villa?',
+          a: 'We don’t run cooking classes on Maui right now. There is no schedule and no class price. You do not cook the meal. A Wailea dinner the chef cooks is on [pricing](/pricing), not on this page.',
         },
         {
-          q: 'Can dinner include a lesson?',
-          a: 'A short pass at the counter, yes. Not this page.',
+          q: 'Can the chef talk through each dish at a Kapalua counter?',
+          a: 'The [chef’s table](/chefs-table) seats you at the villa counter while the chef cooks and plates in front of you. That is the promise. It is not a narration, a technique class, or a lesson. We do not add a talk the page does not have.',
+        },
+        {
+          q: 'Will you name an instructor for an Upcountry farm class?',
+          a: 'No. We do not publish an instructor, and we do not invent a farm name for a class we do not run. A farm is named on a dinner only when that day’s receipt supports it. This page stays without a teacher.',
+        },
+        {
+          q: 'Does a villa-week Stay Chef include a lesson on arrival day?',
+          a: 'No. Stay Chef is the chef cooking in the villa: a daily chef fee plus groceries at cost with receipts. See [Stay Chef](/vacation-chef). Arrival night can be a signature dinner. Neither one is a lesson, and neither one hands you the stove.',
+        },
+        {
+          q: 'How would we know if Maui classes ever open?',
+          a: 'This page would publish the class and the price. We do not keep a class list in the meantime. For a counter dinner in Wailea or Kapalua now, request a written quote on [the quote form](/quote).',
+        },
+        {
+          q: 'What do we request if we want to watch the chef cook, not take a class?',
+          a: `The villa, the date, who sits the counter, and a photo of the kitchen. Open [chef’s table](/chefs-table). Request a written quote on [the quote form](/quote). Desk: ${desk}. Do not send a class time. There is not one.`,
         },
       ],
       related: [
         { path: '/chefs-table', label: "Chef's table" },
-        { path: '/what-we-dont-do', label: 'What we will not claim' },
-        { path: '/about', label: 'The Maui crew' },
+        { path: '/pricing', label: 'Starting prices' },
+        { path: '/vacation-chef', label: 'Stay Chef' },
       ],
     },
     {
@@ -494,60 +560,93 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'meal-prep',
       name: 'Meal prep',
-      h1: 'Kauai meal prep stays gated — inquiry, not a standing.',
-      title: 'Kauai meal prep is gated until proven | myCHEF',
+      h1: 'Meal prep on Kauaʻi — not offered on either shore.',
+      title: 'Meal prep on Kauaʻi is not for sale | myCHEF',
       description:
-        'Inquiry only.',
+        'Weekly meal prep is not sold on Kauaʻi yet. A Princeville or Poʻipū cook is Stay Chef, after you request availability. A prep price would publish here.',
       lede:
-        'Unused containers in a Poʻipū kitchen. We will not invent a fridge program while this department is inquiry.',
+        'We don’t sell weekly meal prep on Kauaʻi yet. If that changes, prices will be published here. Request availability for a cook in the house, and name the shore.',
       photo: 'svcMealprepKauai',
       body: [
-        'That is cooked daily, not packed.',
-        'Inquiry stage. Published starting prices for dinners still apply when we cook. Prep is not one of those products.',
+        'Princeville and Poʻipū are different shops. A week of packed food is not a product on either one, and it is not a way around the Hanalei bridge. If you want meals cooked in the estate, that is [Stay Chef](/vacation-chef): a daily chef fee plus groceries at cost with receipts, and only after you request availability for that shore.',
+        'A single dinner uses the per-guest band on [pricing](/pricing), with groceries for that menu inside the band. Rain and a bridge closure move a cook night. They do not create a container drop on the other shore. There is no prep price. Request availability on [the quote form](/quote) with the shore named.',
       ],
       faqs: [
         {
-          q: 'North Shore packed lunches for a hike week?',
-          a: 'Far-North still inherits the Hanalei bridge notes even for dinners.',
+          q: 'Do you offer weekly meal prep on Kauaʻi?',
+          a: 'We don’t sell weekly meal prep on Kauaʻi yet. If that changes, prices will be published on this page. North and south are different shops, and neither one sells containers. Request availability for a cook in the house instead.',
         },
         {
-          q: 'When will this open?',
-          a: 'When utilization is proven and the crew exists. This page will change in public.',
+          q: 'Can packed lunches for a Princeville hike week be ordered from this page?',
+          a: 'No. Packed lunches are not a product, including for a north-shore week. A far-north house still follows the Hanalei bridge when a cook is booked. Meals cooked in the estate are Stay Chef, and you request availability first.',
+        },
+        {
+          q: 'Does a Poʻipū Stay Chef day leave containers, or does the chef cook in the house?',
+          a: 'The chef cooks in the house. Stay Chef is a daily chef fee plus groceries at cost with receipts. See [Stay Chef](/vacation-chef). Poʻipū is the shorter run from Līhuʻe. It is still not a bag left on the counter.',
+        },
+        {
+          q: 'If the Hanalei bridge is closed, can prep be dropped on the south shore instead?',
+          a: 'No. We do not sell a prep drop on either shore. A closure moves a cook night. It does not become containers in Poʻipū. A south-shore cook is a new request for availability, because that shop is different.',
+        },
+        {
+          q: 'How do I hear if Kauaʻi meal prep ever goes on sale?',
+          a: 'This page would show the price. We do not keep a waitlist for a product we do not sell. For a dinner now, the band is on [pricing](/pricing): groceries inside it, then 20% service and Hawaiʻi GET up to 4.712% alone. A 50% deposit follows a written yes. Gratuity is never required.',
+        },
+        {
+          q: 'What do we put in a request for availability when we need a cook, not a fridge drop?',
+          a: `Princeville, Poʻipū, or Kapaʻa, the estate, the dates, and that you want the chef cooking. Request availability on [the quote form](/quote). Desk: ${desk}. A reply is not a held cook. There is no prep price.`,
         },
       ],
       related: [
-        { path: '/vacation-chef', label: 'Vacation chef' },
-        { path: '/what-we-dont-do', label: 'What we will not claim' },
-        { path: '/south-shore', label: 'South Shore' },
+        { path: '/vacation-chef', label: 'Stay Chef' },
+        { path: '/pricing', label: 'Starting prices' },
+        { path: '/princeville', label: 'Princeville' },
       ],
     },
     {
       slug: 'cooking-classes',
       name: 'Cooking classes',
-      h1: 'Kauai cooking classes stay unpublished until a bench exists.',
-      title: 'Kauai cooking classes stay unpublished until a bench exists | myCHEF',
+      h1: 'Cooking classes on Kauaʻi — closed on both shores.',
+      title: 'Cooking classes on Kauaʻi stay closed | myCHEF',
       description:
-        'Experience classes on Kauai stay unpublished until a real instructor bench exists. Inquiry stage. We will not sell a class we cannot staff.',
+        'Cooking classes are not offered on Kauaʻi. No instructor on either shore. Watch the chef cook at a Princeville or Poʻipū counter. Request availability.',
       lede:
-        'Empty Princeville boards. Mist in the window. No standing class. When an instructor is real, the page will say so.',
+        'We don’t run cooking classes on Kauaʻi right now. No teacher name, on the north shore or the south. Request availability if you want to watch the chef cook.',
       photo: 'svcClassesKauai',
       body: [
-        'A class is an instructor product. Inquiry stage does not get a fake teacher name.',
+        'Princeville and Poʻipū do not have a standing class, and rain does not create one. We will not publish an instructor, a length, or a date. Book the [chef’s table](/chefs-table) and request availability for that shore. You sit the counter and watch the chef plate. It is not a lesson.',
+        'A cook in the house for the stay is [Stay Chef](/vacation-chef): a daily chef fee plus groceries at cost with receipts, after you request availability. One dinner is the band on [pricing](/pricing). A Hanalei bridge closure moves a far-north night. It does not create a class on the other shore. If a class ever opens, the price would be on this page.',
       ],
       faqs: [
         {
-          q: 'Hanalei cooking lesson?',
-          a: 'Not a published class. Far-North dinners still inherit the Hanalei bridge notes.',
+          q: 'Is there a hands-on cooking class on Kauaʻi right now?',
+          a: 'We don’t run cooking classes on Kauaʻi right now. There is no schedule and no class price on either shore. You do not cook the meal. Request availability for a dinner the chef cooks, on [pricing](/pricing).',
         },
         {
-          q: 'Will you name an instructor?',
-          a: 'When one exists.',
+          q: 'Can guests at a Princeville counter hear the chef explain technique?',
+          a: 'On the [chef’s table](/chefs-table), guests sit the estate counter and watch the chef cook and plate. That is the promise. It is not a technique talk and not a lesson. Request availability and name the shore. Rain keeps the stools inside.',
+        },
+        {
+          q: 'Will a Poʻipū request for availability include a teacher name?',
+          a: 'No. We will not publish an instructor we do not have, on the south shore or the north. A request for availability is for a cook night, not a roster. This page stays without a name until a class is real.',
+        },
+        {
+          q: 'If rain closes the garden, does a class move inside?',
+          a: 'There is no class to move. A chef’s table night already keeps the seats at the indoor counter when rain hits. A bridge closure moves a far-north dinner. It does not invent a class under the roof in Poʻipū.',
+        },
+        {
+          q: 'How do I hear if cooking classes open on either shore?',
+          a: 'This page would publish the class and the price. We do not keep a class list. For a counter dinner now, request availability on [the quote form](/quote). Fee lines for a dinner sit on [pricing](/pricing). Gratuity is never required.',
+        },
+        {
+          q: 'What should a request for availability say if we want the chef’s table, not a class?',
+          a: `Princeville or Poʻipū, the estate, the date, who sits the counter, and that you want to watch the chef cook. Open [chef’s table](/chefs-table). Request availability on [the quote form](/quote). Desk: ${desk}. Do not ask for a teacher.`,
         },
       ],
       related: [
         { path: '/chefs-table', label: "Chef's table" },
-        { path: '/what-we-dont-do', label: 'What we will not claim' },
-        { path: '/about', label: 'The Kauai crew' },
+        { path: '/pricing', label: 'Starting prices' },
+        { path: '/vacation-chef', label: 'Stay Chef' },
       ],
     },
     {
@@ -722,60 +821,93 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'meal-prep',
       name: 'Meal prep',
-      h1: 'Hawaiʻi Island meal prep stays gated — west side, inquiry.',
-      title: 'Hawaiʻi Island meal prep is gated until proven | myCHEF',
+      h1: 'Meal prep on Hawaiʻi Island — not sold on the west side.',
+      title: 'Meal prep on Hawaiʻi Island, not yet | myCHEF',
       description:
-        'Inquiry only. East side is a different day.',
+        'Meal prep is not sold on Hawaiʻi Island yet. Join the inquiry list for a west-side cook. Hilo is a separate dedicated east-side day, quoted in writing.',
       lede:
-        'Unused containers in a Kona kitchen. Hard sun. We will not invent a fridge program while this department is inquiry.',
+        'We don’t sell weekly meal prep on Hawaiʻi Island yet. If that changes, prices will be published here. Join the inquiry list for a cook on the west side.',
       photo: 'svcMealprepBigisland',
       body: [
-        'Cooked daily, not packed.',
-        'West-side first. East-side prep is not a product. Coffee origin labeling is the Kona coffee labeling notes — we do not invent farm names on a packed lunch either.',
+        'Kona, Waikoloa, and the Kohala Coast come first. A fridge of labeled meals is not a product there, including during Ironman week in Kailua-Kona. [Stay Chef](/vacation-chef) is a cook in the house: a daily chef fee plus groceries at cost with receipts. Join the inquiry list for that day. A signature dinner is on [pricing](/pricing), with groceries for that menu inside the band.',
+        'Hilo is not a second stop on a Kona run. It is a separate dedicated east-side day, quoted in writing. Hard sun does not change the product. There is still no prep price. Join the inquiry list on [the quote form](/quote) with a west-side address only.',
       ],
       faqs: [
         {
-          q: 'Can you pack Ironman week lunches?',
-          a: 'Event weeks compress dinners too.',
+          q: 'Do you offer weekly meal prep on the Kona–Kohala side?',
+          a: 'We don’t sell weekly meal prep on Hawaiʻi Island yet. If that changes, prices will be published on this page. The west side can take a cook in the house. Join the inquiry list for that. Do not expect containers.',
         },
         {
-          q: 'Hilo fridge program?',
-          a: 'No. East side is quote-only dedicated days even for dinners.',
+          q: 'Can the chef pack Ironman-week lunches in a Kona fridge?',
+          a: 'No. Ironman week compresses Kailua-Kona, and it still does not create a packed-lunch product. Flag the dates if you want a cook in the house. Stay Chef is that cook, not a fridge route. Join the inquiry list. A held crew is not implied.',
+        },
+        {
+          q: 'Is Stay Chef on the west side a daily cook in the house, or a container route?',
+          a: 'A daily cook in the house: the chef fee plus groceries at cost with receipts. See [Stay Chef](/vacation-chef). The shop is for food cooked that day. It is not labeled meals left in a Waikoloa fridge before you land.',
+        },
+        {
+          q: 'Can Hilo be added as a meal-prep stop on a Waikoloa day?',
+          a: 'No. Hilo is a separate dedicated east-side day, quoted in writing, and meal prep is not sold there either. A Waikoloa day stays on the west side. Do not stack Volcano onto a Kona note.',
+        },
+        {
+          q: 'How do I get told if west-side meal prep opens?',
+          a: 'This page would publish the price. We do not keep a waitlist. A dinner now uses the band on [pricing](/pricing), groceries inside it, then 20% service and Hawaiʻi GET up to 4.712% alone. A 50% deposit follows a written yes. Gratuity is never required. Join the inquiry list for a cook.',
+        },
+        {
+          q: 'What do we send to join the inquiry list for a cook in the house?',
+          a: `A Kona, Waikoloa, or Kohala address, the dates, and that you want the chef cooking, not containers. Leave Hilo off. Join the inquiry list on [the quote form](/quote). Desk: ${desk}. There is no prep price.`,
         },
       ],
       related: [
-        { path: '/vacation-chef', label: 'Vacation chef' },
-        { path: '/what-we-dont-do', label: 'What we will not claim' },
-        { path: '/kohala-corridor', label: 'West-side radius' },
+        { path: '/vacation-chef', label: 'Stay Chef' },
+        { path: '/pricing', label: 'Starting prices' },
+        { path: '/kona', label: 'Kona' },
       ],
     },
     {
       slug: 'cooking-classes',
       name: 'Cooking classes',
-      h1: 'Hawaiʻi Island cooking classes stay unpublished until a bench exists.',
-      title: 'Hawaiʻi Island cooking classes wait on a named instructor | myCHEF',
+      h1: 'Cooking classes on Hawaiʻi Island — not offered.',
+      title: 'Cooking classes, Kona side, not offered | myCHEF',
       description:
-        'Experience classes on Hawaiʻi Island stay unpublished until a named instructor exists. Inquiry stage. We will not sell a class we cannot staff.',
+        'Cooking classes are not offered on Hawaiʻi Island. Watch the chef on the Kona side. Hilo is a separate dedicated east-side day, quoted in writing.',
       lede:
-        'Empty Kona stools. Coffee slopes in the window. No standing class. When an instructor is real, this page will change.',
+        'We don’t run cooking classes on Hawaiʻi Island right now. No instructor on the Kona–Kohala side. Join the inquiry list to watch the chef cook. Hilo is not a class day.',
       photo: 'svcClassesBigisland',
       body: [
-        'A class is an instructor product. We will not invent a Kona coffee-class brand.',
+        'A Kona or Kohala kitchen is not a classroom. We do not publish an instructor, a length, or a date. Coffee is labeled for origin when the receipt supports it, on [coffee origin](/coffee-act-198). That label is not a lesson. Join the inquiry list for the [chef’s table](/chefs-table) if you want to watch the chef plate.',
+        'A cook in the house is [Stay Chef](/vacation-chef): a daily chef fee plus groceries at cost with receipts. One dinner is the band on [pricing](/pricing). Hilo is a separate dedicated east-side day, quoted in writing. If a class ever opens, the price would be printed here.',
       ],
       faqs: [
         {
-          q: 'Coffee farm class?',
-          a: 'Named coffee follows Act 198. We do not invent farms.',
+          q: 'Is there a hands-on cooking class on the Kona side?',
+          a: 'We don’t run cooking classes on Hawaiʻi Island right now. There is no schedule and no class price. You do not cook the meal. Join the inquiry list for a west-side dinner the chef cooks. See [pricing](/pricing).',
         },
         {
-          q: 'Volcano cooking lesson?',
-          a: 'East side is quote-only even for dinners. No class product.',
+          q: 'Can the chef explain dishes while cooking at a Kohala counter?',
+          a: 'On the [chef’s table](/chefs-table), guests sit the west-side counter and watch the chef cook and plate. That is the promise. It is not a talk and not a lesson. Join the inquiry list. Hard sun keeps the first courses inside.',
+        },
+        {
+          q: 'Is a coffee-farm class something you sell, or only a label when the receipt supports it?',
+          a: 'We do not sell a coffee-farm class, and we do not name a farm without the receipt. Origin is a label when the paper supports it. See [coffee origin](/coffee-act-198). This page has no instructor and no class date.',
+        },
+        {
+          q: 'Can a Volcano lesson share the west-side crew the same day?',
+          a: 'There is no lesson to share. Hilo and Volcano are a separate dedicated east-side day, quoted in writing, even for a dinner. They are not stacked onto a Kona class, because no class exists. Join the inquiry list for the west side only.',
+        },
+        {
+          q: 'How do I get told if a west-side class opens?',
+          a: 'This page would publish the class and the price. We do not keep a class list. A dinner now uses the band on [pricing](/pricing), then 20% service and Hawaiʻi GET up to 4.712% alone. A 50% deposit follows a written yes. Gratuity is never required.',
+        },
+        {
+          q: 'What do we send to join the inquiry list if we want to watch the chef cook?',
+          a: `A Kona or Kohala address, the date, who sits the counter, and a photo of it. Leave Hilo off. Open [chef’s table](/chefs-table). Join the inquiry list on [the quote form](/quote). Desk: ${desk}. Do not send a class time.`,
         },
       ],
       related: [
         { path: '/chefs-table', label: "Chef's table" },
+        { path: '/pricing', label: 'Starting prices' },
         { path: '/coffee-act-198', label: 'Coffee origin' },
-        { path: '/what-we-dont-do', label: 'What we will not claim' },
       ],
     },
     {

@@ -15,7 +15,7 @@ const BLURBS: Record<string, string> = {
   '/what-we-dont-do': 'What we decline, in writing',
   '/legal': 'Deposits, changes and weather',
   '/contact': 'Phone, WhatsApp and email',
-  '/how-it-works': 'From enquiry to the last plate',
+  '/how-it-works': 'From inquiry to the last plate',
   '/events': 'Birthdays, anniversaries and more',
   '/mobile-bar': 'A four-hour bar package',
   '/bar': 'A bartender for your villa',

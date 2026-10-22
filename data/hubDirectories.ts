@@ -449,22 +449,35 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
   },
   dietary: {
     path: '/dietary',
-    h1: 'Dietary design, by island.',
-    title: 'Dietary design, by island | myCHEF Hawaii',
+    h1: 'Dietary notes, routed by island.',
+    title: 'Dietary notes, by island | myCHEF Hawaii',
     description:
-      'Each island designs vegan, gluten-free and allergy plates ahead.',
+      'Allergies are written on the island page before the shop. Oʻahu and Maui quote. Kauaʻi requests availability. Hawaiʻi Island uses the inquiry list.',
     lede:
-      'Dietary is designed in, not theatre. Each island writes how that works in that kitchen.',
+      'This directory only routes you. Allergies, diets, and religious limits are written on the island page, before that shop.',
     kicker: 'Statewide · Dietary',
     photo: 'hubDietary',
     cardLabel: 'Dietary',
     body: [
-      'Tell the island desk the restriction with the dates. The draft carries it. We do not invent a second menu brand statewide.',
+      'Pick the island that has the house. That page says how gluten-free, dairy-free, nut-free, shellfish, vegan, pescatarian, and religious limits are written into the menu, and what a rental kitchen cannot promise. This directory does not design a plate.',
+      'Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry: join the inquiry list for the west side. Hilo is a separate dedicated east-side day, quoted in writing. There is no separate dietary price. Bands and fee lines are on [pricing](/pricing).',
     ],
     faqs: [
       {
-        q: 'Is this a vegan restaurant page?',
-        a: 'No. We cook in the house. Related pages.',
+        q: 'Which island page covers allergies and diets?',
+        a: 'Open the host that has the house: [Oʻahu dietary notes](oahu:/dietary), [Maui dietary notes](maui:/dietary), [Kauaʻi dietary notes](kauai:/dietary), or [Hawaiʻi Island dietary notes](bigisland:/dietary). This directory does not write the menu.',
+      },
+      {
+        q: 'Where do prices and fee lines live for a dinner with dietary limits?',
+        a: 'On [pricing](/pricing). There is no separate dietary price. One night uses that island’s per-guest signature band, groceries inside the band. Then 20% service and Hawaiʻi GET up to 4.712% each stand alone. A 50% deposit follows acceptance. Gratuity is never required.',
+      },
+      {
+        q: 'Who takes a written quote for dietary notes, and who takes a request?',
+        a: 'Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry: join the inquiry list for the west side. Hilo is a separate dedicated east-side day, quoted in writing.',
+      },
+      {
+        q: 'What should I send before I leave this statewide page?',
+        a: `The island, the address, the dates, who is eating, and every limit. Then use that island’s form. The draft steps, if you need them, are that island’s menu guide, not this directory. Desk: ${desk}.`,
       },
     ],
   },
@@ -538,25 +551,35 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
   },
   kidsMenus: {
     path: '/kids-menus',
-    h1: 'Kids at the table, by island.',
-    title: 'Kids at the table, by island | myCHEF Hawaii',
+    h1: 'Children’s plates, routed by island.',
+    title: 'Children’s plates, by island | myCHEF Hawaii',
     description:
-      'Each island plans children’s plates with the adults’ menu.',
+      'Open the island page for children’s plates: simpler food or an earlier hour. They count in the headcount. The price is in the written quote.',
     lede:
-      'Children’s plates are planned with the adults, not an afterthought. Each island writes how.',
+      'Children’s plates are planned on the island that has the house. This directory does not set a kids’ price or an age cut-off.',
     kicker: 'Statewide · Kids',
     photo: 'hubKids',
     cardLabel: 'Kids’ plates',
     body: [
+      'Open the island page for the rental. It says whether children eat simpler plates from the same menu, or earlier if you name the hour, and that high chairs stay with the household. Guest counts, the ceiling for a house, live on that island’s guest-counts page. This directory does not cook.',
+      'Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry on the west side. Hilo is a separate dedicated east-side day, quoted in writing. There is no statewide kids’ price. The written quote sets out the total. Bands are on [pricing](/pricing).',
     ],
     faqs: [
       {
-        q: 'Do you have a statewide kids’ carte?',
-        a: 'No.',
+        q: 'Which island page is children’s plates?',
+        a: 'Open the host that has the house: [Oʻahu children’s plates](oahu:/kids-menus), [Maui children’s plates](maui:/kids-menus), [Kauaʻi children’s plates](kauai:/kids-menus), or [Hawaiʻi Island children’s plates](bigisland:/kids-menus). This directory does not plan the hour.',
       },
       {
-        q: 'Same as guest counts?',
-        a: 'Guest counts is headcount.',
+        q: 'Is there a statewide price for children’s plates?',
+        a: 'No. There is no separate published kids’ price and no age cut-off here. Children are part of the headcount on the island quote. What that does to the total is set out in the written quote. Guest ceilings live on that island’s guest-counts page.',
+      },
+      {
+        q: 'Where do fee lines live, and which islands quote a family dinner?',
+        a: 'Fee lines are on [pricing](/pricing): that island’s per-guest signature band, groceries inside it, then 20% service and Hawaiʻi GET up to 4.712% each alone. A 50% deposit follows acceptance. Gratuity is never required. Oʻahu and Maui quote. Kauaʻi requests availability. The Big Island uses the inquiry list.',
+      },
+      {
+        q: 'What should I send before I open an island page for children?',
+        a: `The island, the address, the dates, adults and children in one count, any earlier hour, and allergies. Then use that island’s form. Dietary limits, if a child has them, are that island’s dietary page. Desk: ${desk}.`,
       },
     ],
   },
@@ -665,51 +688,69 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
   },
   mealPrep: {
     path: '/meal-prep',
-    h1: 'Meal prep honesty, by island.',
-    title: 'Meal prep honesty, by island | myCHEF Hawaii',
+    h1: 'Meal prep is not sold, on any island.',
+    title: 'Meal prep by island, not sold yet | myCHEF Hawaii',
     description:
-      'Each island gates volume meal prep until utilization is proven.',
+      'Meal prep is not sold on any island yet. A cook in the house is Stay Chef. One dinner is on pricing. A prep price would publish on the island page.',
     lede:
-      'Meal prep is inquiry until proven. Each island says so.',
+      'We don’t sell weekly meal prep on any island yet. If that changes, prices will be published on the island page. This directory only routes you.',
     kicker: 'Statewide · Meal prep',
     photo: 'hubMealPrep',
     cardLabel: 'Meal prep',
     body: [
-      'A villa week of dinners is on the Stay Chef page.',
+      'Open the island that has the kitchen. Each page says the same posture in its own words: weekly containers are not for sale. A cook in the house during a stay is [Stay Chef](/vacation-chef): a daily chef fee plus groceries at cost with receipts. A one-night table is that island’s signature dinner.',
+      'Oʻahu and Maui take a written quote for the cook or the dinner. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry, west side first. Hilo is a separate dedicated east-side day, quoted in writing. There is no prep price. Bands and fee lines are on [pricing](/pricing).',
     ],
     faqs: [
       {
-        q: 'Can I order statewide meal prep here?',
-        a: 'No. Open the island page. It is gated until proven.',
+        q: 'Can I order weekly meal prep for every island from here?',
+        a: 'No. We don’t sell weekly meal prep on any island yet. Open the page for the house: [Oʻahu meal prep](oahu:/meal-prep), [Maui meal prep](maui:/meal-prep), [Kauaʻi meal prep](kauai:/meal-prep), or [Hawaiʻi Island meal prep](bigisland:/meal-prep). If that changes, the price is published there.',
       },
       {
-        q: 'Same as Stay Chef?',
-        a: 'Stay Chef is the villa day rate on the Stay Chef page. Meal prep is a different, gated line.',
+        q: 'What can I book instead of meal prep?',
+        a: 'A cook in the house during the stay is [Stay Chef](/vacation-chef): a daily chef fee plus groceries at cost with receipts. A one-night dinner is that island’s signature band on [pricing](/pricing), groceries inside the band. Neither one is a container drop.',
+      },
+      {
+        q: 'Which islands quote a cook in the house, and which only take a request?',
+        a: 'Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry: join the inquiry list for the west side. Hilo is a separate dedicated east-side day, quoted in writing. A published page is not a held crew.',
+      },
+      {
+        q: 'How do I hear if weekly prep opens, and where are the fee lines?',
+        a: `The island page is where a prep price would be published. We do not keep a waitlist. For a dinner now, 20% service and Hawaiʻi GET up to 4.712% print alone after the band, a 50% deposit follows acceptance, and gratuity is never required. See [pricing](/pricing). Desk: ${desk}.`,
       },
     ],
   },
   cookingClasses: {
     path: '/cooking-classes',
-    h1: 'Cooking classes honesty, by island.',
-    title: 'Cooking classes honesty, by island | myCHEF Hawaii',
+    h1: 'Cooking classes are not offered, on any island.',
+    title: 'Cooking classes by island, not offered | myCHEF Hawaii',
     description:
-      'Each island keeps classes unpublished until a real instructor bench exists.',
+      'Cooking classes are not offered on any island right now. No instructor and no schedule. Guests can watch the chef cook on that island’s chef’s table page.',
     lede:
-      'Experience product publishes only with a named bench. Each island says when that is not true.',
+      'We don’t run cooking classes on any island right now. There is no instructor to book from this directory. Watching the chef cook is a different page.',
     kicker: 'Statewide · Classes',
     photo: 'hubClasses',
     cardLabel: 'Classes',
     body: [
-      'The island page says so in its own words.',
+      'Open the island page. It will say there is no class, no teacher name, and no date. Guests who want to sit where the pans are use that island’s chef’s table: you watch the chef cook and plate. It is not a class and not a lesson. A cook in the house for the stay is [Stay Chef](/vacation-chef).',
+      'Oʻahu and Maui take a written quote for a dinner. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry, west side first. Hilo is a separate dedicated east-side day, quoted in writing. There is no class price. Dinner bands and fee lines are on [pricing](/pricing).',
     ],
     faqs: [
       {
-        q: 'Can I book a class from the hub?',
-        a: 'No. Open the island page. Classes stay unpublished until a bench exists.',
+        q: 'Can I book a cooking class from this statewide page?',
+        a: 'No. We don’t run cooking classes on any island right now. Open [Oʻahu classes](oahu:/cooking-classes), [Maui classes](maui:/cooking-classes), [Kauaʻi classes](kauai:/cooking-classes), or [Hawaiʻi Island classes](bigisland:/cooking-classes). None of them has a schedule or an instructor.',
       },
       {
-        q: 'Same as chef’s table?',
-        a: 'This is an experience product with a different gate.',
+        q: 'Where do guests watch the chef cook, if a class is not for sale?',
+        a: 'On that island’s chef’s table. Guests sit the house counter and watch the chef cook and plate. It is not a class and not a lesson. Open [Oʻahu](oahu:/chefs-table), [Maui](maui:/chefs-table), [Kauaʻi](kauai:/chefs-table), or [Hawaiʻi Island](bigisland:/chefs-table).',
+      },
+      {
+        q: 'Who quotes a dinner, and who only takes a request?',
+        a: 'Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry: join the inquiry list for the west side. Hilo is a separate dedicated east-side day, quoted in writing. A class is not one of those bookings.',
+      },
+      {
+        q: 'How would I hear if a class opens, and where is the dinner price?',
+        a: `The island page would publish a class and a price. We do not keep a class list. A dinner uses that island’s band on [pricing](/pricing), groceries inside it, then 20% service and Hawaiʻi GET up to 4.712% alone. A 50% deposit follows acceptance. Gratuity is never required. Desk: ${desk}.`,
       },
     ],
   },
