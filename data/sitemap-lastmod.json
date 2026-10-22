@@ -16,8 +16,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/blog": {
-  "hash": "12afa760045f08f0315e",
-  "lastmod": "2026-10-21T23:16:02Z"
+  "hash": "c22fbd9b68e346934407",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "d769a4aab2019ca28a7a",
@@ -92,8 +92,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/dining-in-mauna-lani": {
-  "hash": "47f9f194a3a5af967ccd",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "1e2613a8372d369a83c6",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/dining-in-puako": {
   "hash": "f4224d3f685cc0519130",
@@ -151,6 +151,10 @@
   "hash": "dc8d89353d39a80fb065",
   "lastmod": "2026-10-09T19:32:00Z"
  },
+ "https://bigisland.mychef-hawaii.com/blog/mauna-lani-restaurants-dining-guide": {
+  "hash": "74613f87743f7fa5abcd",
+  "lastmod": "2026-10-22T23:21:23Z"
+ },
  "https://bigisland.mychef-hawaii.com/blog/named-farms": {
   "hash": "77790da41c46ed49b662",
   "lastmod": "2026-10-09T19:32:00Z"
@@ -196,8 +200,8 @@
   "lastmod": "2026-10-21T23:16:02Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/waikoloa-restaurants-dining-guide": {
-  "hash": "e5c29fe7ab80b802dca6",
-  "lastmod": "2026-10-21T00:00:00Z"
+  "hash": "2cc1507b7d4d67c6298d",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://bigisland.mychef-hawaii.com/blog/weather-backup": {
   "hash": "de646a60cbb4e7159e71",
@@ -552,8 +556,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://bigisland.mychef-hawaii.com/sitemap": {
-  "hash": "20efcf04faeec2281469",
-  "lastmod": "2026-10-21T23:16:02Z"
+  "hash": "145e70329408ffad0275",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://bigisland.mychef-hawaii.com/staffing": {
   "hash": "8e83cb42df06c76fca03",
@@ -620,8 +624,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/blog": {
-  "hash": "692acc46a4f2630a90ad",
-  "lastmod": "2026-10-21T23:16:02Z"
+  "hash": "4ef9c90620b15c943396",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://kauai.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "55e4350f8e01fa23cf89",
@@ -692,8 +696,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/blog/dining-in-lihue": {
-  "hash": "1e0464db55fc1ae69c00",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "5b3b7e04732b677e0f33",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://kauai.mychef-hawaii.com/blog/dining-in-poipu": {
   "hash": "d5e0fb8995f63615e0e6",
@@ -724,8 +728,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/blog/kapaa-restaurants-dining-guide": {
-  "hash": "b721da52007554ff5636",
-  "lastmod": "2026-10-21T23:16:02Z"
+  "hash": "ac0cc5c990fea0d85906",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://kauai.mychef-hawaii.com/blog/kauai-elopement-dinner-guide": {
   "hash": "ef7d04b0d5b3621d03b3",
@@ -738,6 +742,10 @@
  "https://kauai.mychef-hawaii.com/blog/kids-at-the-table": {
   "hash": "ea8b6a8177867473a2f9",
   "lastmod": "2026-10-09T19:32:00Z"
+ },
+ "https://kauai.mychef-hawaii.com/blog/lihue-restaurants-dining-guide": {
+  "hash": "cb8acd5e36ca22f639e3",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://kauai.mychef-hawaii.com/blog/lunch-service": {
   "hash": "ed769d13dee0da475672",
@@ -1136,8 +1144,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://kauai.mychef-hawaii.com/sitemap": {
-  "hash": "f190ee173693f0afd30e",
-  "lastmod": "2026-10-21T23:16:02Z"
+  "hash": "3afd65c88b8cc3c46f5b",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://kauai.mychef-hawaii.com/south-shore": {
   "hash": "1fd2659afd306b9146ad",
@@ -1200,8 +1208,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/blog": {
-  "hash": "600b3c25e693fd112763",
-  "lastmod": "2026-10-21T23:16:02Z"
+  "hash": "c392978d84e94b3fd5f0",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://maui.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "6e470c1a4566cd6b5491",
@@ -1252,8 +1260,8 @@
   "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://maui.mychef-hawaii.com/blog/dining-in-kapalua": {
-  "hash": "dc8c1c66de3a69b49ea0",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "f8690b0c0e5729ca178d",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://maui.mychef-hawaii.com/blog/dining-in-kihei": {
   "hash": "0527d8a6d4be88512f95",
@@ -1308,8 +1316,12 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/blog/kaanapali-restaurants-dining-guide": {
-  "hash": "232f2bc3cbe3648c06c5",
-  "lastmod": "2026-10-21T00:00:00Z"
+  "hash": "1260272f1612d67cb6c2",
+  "lastmod": "2026-10-22T23:21:23Z"
+ },
+ "https://maui.mychef-hawaii.com/blog/kapalua-restaurants-dining-guide": {
+  "hash": "cb75226d16ef34768f14",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://maui.mychef-hawaii.com/blog/kids-at-the-table": {
   "hash": "f7e492dff776ea788185",
@@ -1712,8 +1724,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/sitemap": {
-  "hash": "77abd3d98c101aa643a2",
-  "lastmod": "2026-10-21T23:16:02Z"
+  "hash": "2ebfd91c669bde8a3828",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://maui.mychef-hawaii.com/south-maui": {
   "hash": "66a5116fda368897fa19",
@@ -2228,8 +2240,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/blog": {
-  "hash": "887138eb98358f63a322",
-  "lastmod": "2026-10-21T23:16:02Z"
+  "hash": "701b29b644935fc3adf8",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://oahu.mychef-hawaii.com/blog/anniversary-dinners": {
   "hash": "1141bca6e525af9aaf4e",
@@ -2292,8 +2304,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/dining-in-kailua": {
-  "hash": "93e98bb89324443e079f",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "670a9fef065829d800b4",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://oahu.mychef-hawaii.com/blog/dining-in-kakaako": {
   "hash": "065fc2102ba3a76889e2",
@@ -2334,6 +2346,10 @@
  "https://oahu.mychef-hawaii.com/blog/grocery-at-cost": {
   "hash": "c861b0a3f35dd41290c6",
   "lastmod": "2026-10-16T01:02:12Z"
+ },
+ "https://oahu.mychef-hawaii.com/blog/kailua-restaurants-dining-guide": {
+  "hash": "b1ee0a18816f1fd7c29b",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://oahu.mychef-hawaii.com/blog/kids-at-the-table": {
   "hash": "0dd252dbc8d716c06845",
@@ -2404,8 +2420,8 @@
   "lastmod": "2026-10-21T00:00:00Z"
  },
  "https://oahu.mychef-hawaii.com/blog/waikiki-restaurants-dining-guide": {
-  "hash": "ccb7e9fd710e5b2672ea",
-  "lastmod": "2026-10-21T23:16:02Z"
+  "hash": "35cf1518b47409518935",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://oahu.mychef-hawaii.com/blog/weather-backup": {
   "hash": "ed3b7bf26c6890a70a55",
@@ -2764,8 +2780,8 @@
   "lastmod": "2026-10-06T13:07:31Z"
  },
  "https://oahu.mychef-hawaii.com/sitemap": {
-  "hash": "4e3007ed3a3e65f1cd46",
-  "lastmod": "2026-10-21T23:16:02Z"
+  "hash": "2f03117dc92d2047fff9",
+  "lastmod": "2026-10-22T23:21:23Z"
  },
  "https://oahu.mychef-hawaii.com/staffing": {
   "hash": "5332a28c114445d8d205",

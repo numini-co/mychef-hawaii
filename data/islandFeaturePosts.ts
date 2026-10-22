@@ -798,11 +798,143 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kailua-restaurants-dining-guide', label: 'Kailua restaurants guide' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/catering', label: 'Oahu catering' },
         { path: '/', label: 'Private chef Oahu' },
         { path: '/pricing', label: 'Oahu private chef cost' },
         { path: '/blog/ko-olina-restaurants-dining-guide', label: 'Ko Olina restaurants guide' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'kailua-restaurants-dining-guide',
+      keyword: 'kailua restaurants',
+      datePublished: '2026-10-23',
+      name: 'Kailua restaurants guide',
+      h1: 'Kailua restaurants — eating on Oʻahu’s windward side, and when to stay in.',
+      title: 'Kailua Restaurants — Windward Oahu Dining Guide | myCHEF',
+      description:
+        'Kailua restaurants on Oahu’s windward side: the town centre, breakfast and beach-day food, Lanikai, early closings and when a chef at your house is better.',
+      lede:
+        'Kailua is the beach town on Oʻahu’s windward side, over the Koʻolau mountains from Honolulu, and its restaurants feel like a neighbourhood’s rather than a resort’s: breakfast spots with weekend lines, plate lunch, poke, coffee, shave ice and a small number of sit-down dinner rooms. This guide explains how eating in Kailua works, how to time it around the beach and the drive, and when a dinner cooked at your rental house is the better plan.',
+      photo: 'dinKailua',
+      body: [],
+      sections: [
+        {
+          heading: 'Where Kailua is and why visitors eat there',
+          paras: [
+            'Kailua sits on the windward, east-facing coast of Oʻahu, roughly thirty to forty minutes from Waikīkī over the Pali Highway or the Likelike, depending on traffic. Most visitors come for Kailua Beach and for Lanikai next door, and stay for lunch in town. People who live on Oʻahu come for the same reasons, which is why the town is busy on weekends and holidays.',
+            'The restaurants are concentrated in the town centre, around Kailua Road, Hāmākua Drive and Oneawa Street, within a few minutes of the beach. There are no beachfront hotel dining rooms here. If you are looking for the resort-style oceanfront table, that is a Waikīkī or Ko Olina evening; our [Waikīkī restaurants guide](/blog/waikiki-restaurants-dining-guide) covers it.',
+          ],
+        },
+        {
+          heading: 'What the Kailua food scene looks like',
+          paras: [
+            'Kailua is best known for breakfast and brunch: pancakes, eggs and Portuguese sausage, açaí bowls and good coffee. Lunch is plate lunch, poke from a market counter, fish tacos, sandwiches to take to the beach, and shave ice afterwards. In the evening there are a handful of sit-down restaurants and bars, a few with cocktails and a proper wine list, and new places open in town every year.',
+            'The style is relaxed. Most rooms are small, many are counter-service, and very few are built for a long, slow, multi-course dinner. That is part of the charm, and it is also why bigger groups often end up eating at the house.',
+          ],
+        },
+        {
+          heading: 'Breakfast lines and beach-day timing',
+          paras: [
+            'The best-known breakfast places in Kailua have lines on weekend mornings, sometimes long ones. Go early, go on a weekday, or order to take away and eat at the beach. Kailua Beach Park parking fills quickly on sunny weekends, so a breakfast-then-beach plan works better if you are on the sand before mid-morning.',
+            'Lanikai, a few minutes south-east, is a residential neighbourhood with no restaurants or shops and very limited parking. Pick up food in Kailua town first, or walk or cycle over from Kailua. Our short [Lanikai notes](/blog/dining-in-lanikai) explain how stays there work.',
+          ],
+        },
+        {
+          heading: 'Dinner in Kailua: early nights and big groups',
+          paras: [
+            'Kailua is quieter at night than Honolulu. Many casual places close in the early evening, and the sit-down restaurants fill up at the popular times, so book where you can, especially on Friday and Saturday. A table for ten at seven o’clock is hard to find in small rooms.',
+            'If you are staying in Waikīkī and coming over for dinner, remember the drive back over the mountains after dark. Most visitors treat Kailua as a beach-and-lunch day and eat dinner closer to where they sleep.',
+          ],
+        },
+        {
+          heading: 'Sunrise, trade winds and showers',
+          paras: [
+            'Kailua faces east, so the sun rises over the ocean and the Mokulua islets and sets behind the Koʻolau mountains. The windward side catches the trade winds, which keep it cooler and greener than Waikīkī and bring passing showers, often in the late afternoon and overnight. A covered lānai or an indoor table is a sensible backup for any dinner planned outside.',
+          ],
+        },
+        {
+          heading: 'Staying in Kailua: houses, longer stays and kitchens',
+          paras: [
+            'Outside the resort-zoned areas, Honolulu only allows homes to be rented to visitors for thirty days or more, apart from a small number of older permitted vacation rentals. So many Kailua and Lanikai stays are longer: a month in a beach house, a family visit, a remote-work stretch. Those houses usually have real kitchens, though some smaller cottages have galley kitchens, and we check before we quote.',
+            'Kailua and Lanikai are base zones for us, so no travel line applies. Our [private chef Kailua](/kailua) page has the local details, and the short [Kailua kitchen notes](/blog/dining-in-kailua) explain how longer stays are usually planned.',
+          ],
+        },
+        {
+          heading: 'When a chef night at the house beats eating out',
+          paras: [
+            'Big families, mixed diets, small children who eat early, a birthday, or the first night after a long flight all point the same way. A [private chef Honolulu](/private-chef) dinner brings the meal to your table: the chef plans the menu with you, shops, cooks in your kitchen, serves and leaves the kitchen clean, and nobody has to choose who drives home.',
+            'Most visitors mix the two. Breakfast and lunch in town, a dinner or two out, and the group nights at the house. Neighbouring Kāneʻohe adds a published travel line, quoted with the menu.',
+          ],
+        },
+        {
+          heading: 'Groceries and markets on the windward side',
+          paras: [
+            'Kailua has several supermarkets, including a large natural-foods store, so stocking a rental house is easy. Oʻahu’s weekly farmers markets add local fruit, greens, fish and flowers; our [Oʻahu farmers market guide](/blog/oahu-farmers-market-villa-week) explains which markets run when and how to use them in a villa week.',
+            'For dinners we cook, the chef does the shopping. On longer stays, the groceries for any days we cook are billed at cost with receipts handed over, so you can see exactly what was bought.',
+          ],
+        },
+        {
+          heading: 'A sample month in Kailua that mixes both',
+          paras: [
+            'A month-long family stay often settles into a rhythm. Mornings at the beach, lunch from the counters in town, a restaurant dinner once or twice a week and simple meals at home. On top of that, one or two fixed chef nights a week, for example Sunday family dinner and a Thursday with friends, so the cooking does not fall on one person for four weeks.',
+            'Birthdays and anniversaries that land in the stay are the nights to book first. Tell us which nights you want cooked and the quote follows that plan.',
+          ],
+        },
+        {
+          heading: 'Reunions, birthdays and bigger groups',
+          paras: [
+            'A reunion dinner for twenty, a party on the lawn or a celebration across two houses is a staffed event rather than a chef dinner. [Oahu catering](/catering) covers staffed villa and residence events, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, each shown as its own line. Our [family reunions notes](/blog/family-reunions) cover the rest of a big-group week.',
+          ],
+        },
+        {
+          heading: 'What a dinner at your Kailua house costs with us',
+          paras: [
+            'Signature dinners on Oʻahu are published at $195–$290 a guest with groceries included in that band, for a minimum party of six, and a simpler menu runs $145–$195 a guest for eight or more. Dinner for two starts from $675. If you want a chef for several days of your stay, Stay Chef days for a chef and an assistant start from $1,250 a day for one meal, with groceries billed at cost and receipts handed over.',
+            'A 20% service charge and Hawaiʻi GET up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Oahu private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan your Kailua nights',
+          paras: [
+            'Send the house address, the dates, the number of adults and children, allergies and the nights you want cooked. Use the quote form or message us on WhatsApp at +1 808-468-7748, and we reply with a written quote. For villa dinners across the island, from Kailua to Ko Olina, see [private chef Oahu](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Where is Kailua on Oʻahu?',
+          a: 'On the windward, east-facing coast, over the Koʻolau mountains from Honolulu. It is roughly thirty to forty minutes from Waikīkī by car, depending on traffic.',
+        },
+        {
+          q: 'What kind of restaurants are in Kailua?',
+          a: 'Mostly casual: breakfast and brunch spots, plate lunch, poke counters, cafés and shave ice, plus a handful of sit-down dinner restaurants and bars in the town centre.',
+        },
+        {
+          q: 'Are there restaurants in Lanikai?',
+          a: 'No. Lanikai is residential, with no restaurants or shops and very limited parking. Pick up food in Kailua town, a few minutes away.',
+        },
+        {
+          q: 'Do Kailua restaurants close early?',
+          a: 'Many casual places close in the early evening, and the sit-down rooms are small, so book dinner where you can, especially for a big group on a weekend.',
+        },
+        {
+          q: 'Can a private chef cook at our Kailua rental?',
+          a: 'Yes. Kailua and Lanikai are base zones, so no travel line applies. The house needs a working cooktop or range; the chef shops, cooks, serves and cleans up.',
+        },
+        {
+          q: 'How much does a chef dinner in Kailua cost?',
+          a: 'Signature dinners on Oʻahu are $195–$290 a guest with groceries included, minimum six. Service charge and GET are separate lines and a 50% deposit holds the date.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Private chef Honolulu' },
+        { path: '/catering', label: 'Oahu catering' },
+        { path: '/', label: 'Private chef Oahu' },
+        { path: '/pricing', label: 'Oahu private chef cost' },
+        { path: '/blog/waikiki-restaurants-dining-guide', label: 'Waikīkī restaurants guide' },
       ],
     },
   ],
@@ -1481,6 +1613,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kapalua-restaurants-dining-guide', label: 'Kapalua restaurants guide' },
         { path: '/private-chef', label: 'Personal chef Maui' },
         { path: '/catering', label: 'Maui catering' },
         { path: '/', label: 'Private chef Maui' },
@@ -1599,6 +1732,130 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Maui' },
         { path: '/pricing', label: 'Maui private chef cost' },
         { path: '/blog/christmas-in-maui-villa-dinner', label: 'Christmas in Maui' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'kapalua-restaurants-dining-guide',
+      keyword: 'kapalua restaurants',
+      datePublished: '2026-10-23',
+      name: 'Kapalua restaurants guide',
+      h1: 'Kapalua restaurants — dining at Maui’s northwest tip, and when to stay in.',
+      title: 'Kapalua Restaurants — West Maui Dining Guide | myCHEF',
+      description:
+        'Kapalua restaurants at Maui’s northwest tip: resort dining, sunset over Molokai, wind and rain, the drive from Kaanapali and when a villa chef is better.',
+      lede:
+        'Kapalua is the quiet end of West Maui: a resort community of bays, golf courses and villas at the island’s northwest tip, past Kāʻanapali and Nāpili. It has fewer restaurants than its neighbours and most of them are resort dining rooms, so planning matters more here. This guide explains how eating in Kapalua works, how to time sunset and the drive, and when a dinner cooked at your villa is the better night.',
+      photo: 'kapaluaTwo',
+      body: [],
+      sections: [
+        {
+          heading: 'Where Kapalua is',
+          paras: [
+            'Kapalua sits at the northwest end of West Maui, beyond Kāʻanapali, Honokōwai and Nāpili, where the Honoapiʻilani Highway starts to wind north toward Honolua Bay. It is a planned resort area: hotels, condominium villas and private homes spread around a series of sheltered bays, with golf courses climbing the slope behind them and a coastal trail along the shore.',
+            'It feels further from everything than it is. Kāʻanapali is roughly fifteen to twenty minutes away by car, Nāpili less than ten. That short drive is what most Kapalua dinner plans hinge on.',
+          ],
+        },
+        {
+          heading: 'What dining in Kapalua looks like',
+          paras: [
+            'Most of Kapalua’s restaurants belong to the resort: hotel dining rooms, a golf clubhouse restaurant with a view, a few places in the resort village and bars by the pools. Expect resort prices and resort hours. There is no long strip of casual restaurants as there is in Kāʻanapali or Kīhei, so on a quiet night you may find fewer choices than you expected.',
+            'For more variety, most guests drive south. Nāpili and Honokōwai have casual counters and small restaurants, and Kāʻanapali has the beach walk and a much larger choice; our [Kāʻanapali restaurants guide](/blog/kaanapali-restaurants-dining-guide) covers it. Groceries and quick lunches are easier to find on the way down the coast too.',
+          ],
+        },
+        {
+          heading: 'Sunset over Molokaʻi',
+          paras: [
+            'Kapalua faces west and northwest across the channel to Molokaʻi, so the sun sets over the ocean with the island on the horizon. In winter, from roughly December to April, humpback whales are often visible offshore from the bays, which makes an early dinner with the view worth planning.',
+            'The tables with that view are the ones to book first, and they fill up in holiday weeks. Check the sunset time for your dates and reserve thirty to forty-five minutes before it; in December the sun goes down before six.',
+          ],
+        },
+        {
+          heading: 'Wind, rain and winter surf at the northwest tip',
+          paras: [
+            'Kapalua is often windier and a little wetter than Kāʻanapali, because it sits higher on the slope of the West Maui mountains and catches more of the trade winds and showers. Evenings that are calm in Kāʻanapali can be breezy at Kapalua, so a sheltered lānai or an indoor table is a sensible backup for any dinner outside.',
+            'In winter, north swells can make the north-facing bays rough, and the beach plans may change. A villa dinner does not.',
+          ],
+        },
+        {
+          heading: 'The drive, Lahaina and getting back after dinner',
+          paras: [
+            'The Honoapiʻilani Highway is the main road in and out of West Maui. From Kahului airport the drive to Kapalua usually takes well over an hour, passing Lahaina, which is still rebuilding after the August 2023 wildfire; drive through respectfully and follow current county guidance. If you land in the afternoon, an arrival-night dinner at the villa saves a long day getting longer.',
+            'Driving down to Kāʻanapali for dinner is easy, but someone has to drive back up the coast in the dark. Many groups solve that by eating out at lunch and keeping the evenings at the villa.',
+          ],
+        },
+        {
+          heading: 'When a dinner at the villa beats eating out',
+          paras: [
+            'Big families, mixed diets, small children who eat early, a proposal or an anniversary, or a group that does not want to split across two cars all point the same way. A [personal chef Maui](/private-chef) dinner brings the meal to your table: the chef plans the menu with you, shops, cooks in your kitchen, serves and leaves the kitchen clean.',
+            'Kapalua is a base zone for us, so no travel line applies. Dinner for two at the villa is the Kapalua classic, and our [private chef Kapalua](/kapalua) page and short [Kapalua kitchen notes](/blog/dining-in-kapalua) explain how that evening runs. Staying a little further south? See our [Nāpili notes](/blog/dining-in-napili).',
+          ],
+        },
+        {
+          heading: 'Groceries and markets',
+          paras: [
+            'Supermarket choice near Kapalua is limited, and many visitors stock up in Kahului on the way from the airport. For dinners we cook, the chef does the shopping; for longer stays, groceries for the days we cook are billed at cost with receipts. Maui’s weekly farmers markets are the best place for local fruit and greens, and our [Maui farmers market guide](/blog/maui-farmers-market-villa-week) explains which run when.',
+          ],
+        },
+        {
+          heading: 'A sample Kapalua week that mixes both',
+          paras: [
+            'A week at Kapalua often looks like this. Arrival night at the villa, cooked for you. Two or three dinners out: one sunset table in Kapalua, one evening in Kāʻanapali, perhaps one further afield. Lunches on the coast after the beach. The group dinners, usually the first full evening and the last night, stay at the villa with a chef cooking, so everyone sits at one table and nobody drives the coast road after dark.',
+            'If a birthday, anniversary or proposal falls in the week, that is the night to book first. Tell us which nights you want cooked and which you are eating out, and the quote follows that plan.',
+          ],
+        },
+        {
+          heading: 'Wedding weeks and bigger groups',
+          paras: [
+            'Kapalua is a popular wedding area, and a welcome dinner for twenty or a rehearsal dinner across a villa lawn is a staffed event rather than a chef dinner. [Maui catering](/catering) covers that, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, shown as their own lines. The Maui mobile bar is published from $1,200 for four hours plus $85 a guest, with spirits billed at cost or brought by you. The wedding itself has its own page: [wedding catering Maui](/weddings).',
+          ],
+        },
+        {
+          heading: 'What a dinner at your Kapalua villa costs with us',
+          paras: [
+            'Signature dinners on Maui are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler table runs $190–$225 a guest. Dinner for two starts from $750. Stay Chef days for a chef and an assistant start from $1,550 a day for one meal, with groceries billed at cost and receipts handed over.',
+            'A 20% service charge and Hawaiʻi GET up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Maui private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan your Kapalua nights',
+          paras: [
+            'Decide which nights are restaurant nights and which are villa nights before you fly. Then send the villa address, the dates, the number of adults and children, allergies and the nights you want cooked. Use the quote form or message us on WhatsApp at +1 808-468-7748, and we reply with a written quote. For villa dinners across the island, from Wailea to Kapalua, see [private chef Maui](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'How far is Kapalua from Kāʻanapali?',
+          a: 'Roughly fifteen to twenty minutes by car along the Honoapiʻilani Highway, with Nāpili and Honokōwai in between. From Kahului airport, allow well over an hour.',
+        },
+        {
+          q: 'Are there many restaurants in Kapalua?',
+          a: 'Not many. Most are resort dining rooms, a golf clubhouse restaurant and a few places in the resort village. Nāpili and Kāʻanapali, a short drive south, have more choice.',
+        },
+        {
+          q: 'Can you watch the sunset from Kapalua?',
+          a: 'Yes. Kapalua faces west and northwest, so the sun sets over the ocean with Molokaʻi on the horizon. Book sunset tables early in holiday weeks.',
+        },
+        {
+          q: 'Is Kapalua windier than Kāʻanapali?',
+          a: 'Often, yes. It catches more trade wind and more showers, so plan a sheltered or indoor backup for dinners outside.',
+        },
+        {
+          q: 'Can a private chef cook at our Kapalua villa?',
+          a: 'Yes. Kapalua is a base zone, so no travel line applies. The chef plans the menu, shops, cooks in your kitchen, serves and cleans up.',
+        },
+        {
+          q: 'How much is a chef dinner for two in Kapalua?',
+          a: 'Dinner for two on Maui starts from $750. Signature dinners for six or more are $225–$375 a guest with groceries included; service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Personal chef Maui' },
+        { path: '/catering', label: 'Maui catering' },
+        { path: '/', label: 'Private chef Maui' },
+        { path: '/pricing', label: 'Maui private chef cost' },
+        { path: '/blog/kaanapali-restaurants-dining-guide', label: 'Kāʻanapali restaurants guide' },
       ],
     },
   ],
@@ -2395,11 +2652,142 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/lihue-restaurants-dining-guide', label: 'Līhuʻe restaurants guide' },
         { path: '/private-chef', label: 'Personal chef Kauai' },
         { path: '/catering', label: 'Kauai catering' },
         { path: '/', label: 'Private chef Kauai' },
         { path: '/pricing', label: 'Kauai private chef cost' },
         { path: '/blog/poipu-restaurants-dining-guide', label: 'Poʻipū restaurants guide' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'lihue-restaurants-dining-guide',
+      keyword: 'lihue restaurants',
+      datePublished: '2026-10-23',
+      name: 'Līhuʻe restaurants guide',
+      h1: 'Līhuʻe restaurants — eating in Kauaʻi’s airport town, and when to stay in.',
+      title: 'Lihue Restaurants — Where to Eat in Lihue, Kauai | myCHEF',
+      description:
+        'Lihue restaurants on Kauai: saimin and plate lunch, eating near the airport, Nawiliwili and Kalapaki, groceries and when a chef at your rental is better.',
+      lede:
+        'Līhuʻe is Kauaʻi’s county seat and airport town, and almost every visitor passes through it at least twice. It is not a resort town, and that is the point: its restaurants are where people who live on the island eat, with saimin, plate lunch, bakeries and diners alongside a few harbour-side dining rooms. This guide explains how eating in Līhuʻe works, how it fits around arrival and departure days, and when a dinner cooked at your rental is the better plan.',
+      photo: 'cellLihue',
+      body: [],
+      sections: [
+        {
+          heading: 'Is Līhuʻe worth eating in?',
+          paras: [
+            'Yes, especially at breakfast and lunch. Līhuʻe is where Kauaʻi works, shops and runs errands, so its restaurants are built for residents: generous portions, fair prices and food with plantation-era roots. Visitors staying in Poʻipū, Kapaʻa or Princeville often only see Līhuʻe from the airport road, and miss some of the island’s most local cooking.',
+            'It is also central. Kapaʻa is roughly fifteen to twenty minutes north, Poʻipū about twenty-five to thirty minutes south-west, and Princeville about an hour north, depending on traffic.',
+          ],
+        },
+        {
+          heading: 'Saimin, plate lunch, bakeries and diners',
+          paras: [
+            'Saimin, the noodle soup that grew out of Hawaiʻi’s plantation camps, is the dish most people come to Līhuʻe for. Plate lunch, loco moco, poke from a market counter, malasadas and bakery breads are everywhere, and family diners serve breakfast from early morning. Many of these places are small and close in the afternoon or early evening, so check hours before you drive over.',
+            'There are also some sit-down restaurants, bars and a few rooms good for an evening out, though fewer than in Poʻipū or Kapaʻa.',
+          ],
+        },
+        {
+          heading: 'Eating around arrival and departure days',
+          paras: [
+            'Līhuʻe airport is a few minutes from town, which makes Līhuʻe the natural place for a first lunch after landing or a last meal before a flight. Food inside the terminal is limited, so many people eat in town before returning the rental car. If your flight lands in the late afternoon, picking up poke or plate lunch on the way to the rental is the easy arrival dinner.',
+            'If the group is large or tired, an arrival-night dinner already cooking at the house is the other option; tell us your landing time and the chef plans around it.',
+          ],
+        },
+        {
+          heading: 'Nāwiliwili and Kalapakī: the harbour side',
+          paras: [
+            'South of the town centre, Nāwiliwili Harbor is where cruise ships and inter-island freight come in, and Kalapakī Beach beside it has a resort and a cluster of harbour and beachfront restaurants. On days when a cruise ship is in port, the restaurants and shops near the harbour get busy around lunch, so eat a little earlier or later.',
+          ],
+        },
+        {
+          heading: 'Dinner in Līhuʻe, and where to go for sunset',
+          paras: [
+            'Līhuʻe is on Kauaʻi’s east side, so the sun rises over the ocean and sets behind the mountains. For a sunset dinner on the water, drive to the South Shore; our [Poʻipū restaurants guide](/blog/poipu-restaurants-dining-guide) covers it. For an east-side evening, see the [Kapaʻa restaurants guide](/blog/kapaa-restaurants-dining-guide), and for Princeville and Hanalei, the [North Shore dining guide](/blog/north-shore-kauai-dining-guide).',
+            'Most visitors use Līhuʻe for lunch and errands rather than dinner, and that is a sensible plan.',
+          ],
+        },
+        {
+          heading: 'Groceries: Līhuʻe is where you stock the rental',
+          paras: [
+            'Kauaʻi’s warehouse store and several of its largest supermarkets are in Līhuʻe, so many visitors do one big shop here on arrival day before driving to the North or South Shore. Weekly farmers markets add local fruit, greens and flowers; our [Kauai farmers market guide](/blog/kauai-farmers-market-villa-week) explains which run when.',
+            'For dinners we cook, the chef does the shopping. On Stay Chef days, groceries are billed at cost with receipts handed over.',
+          ],
+        },
+        {
+          heading: 'Staying in or near Līhuʻe',
+          paras: [
+            'Most visitor stays in Līhuʻe are at the resort and condos around Kalapakī, plus in-town houses for families visiting relatives. For us Līhuʻe is a planned base zone, so no travel line applies, and the kitchen needs a working cooktop. Our [Līhuʻe household dinners](/lihue) page and short [Līhuʻe kitchen notes](/blog/dining-in-lihue) explain what we cook in town and what we do not.',
+          ],
+        },
+        {
+          heading: 'When a chef night at the rental beats eating out',
+          paras: [
+            'Big families, mixed diets, small children who eat early, a birthday, or a long day driving the island all point the same way. A [personal chef Kauai](/private-chef) dinner brings the meal to your table: the chef plans the menu with you, shops, cooks in your kitchen, serves and leaves the kitchen clean, and nobody drives the highway after dark.',
+            'Most visitors mix the two. Lunch at the counters in Līhuʻe, one or two dinners out on the shore you are staying on, and the group nights at the house.',
+          ],
+        },
+        {
+          heading: 'A sample week that uses Līhuʻe well',
+          paras: [
+            'Arrival day: land, lunch in Līhuʻe, one big grocery shop, then drive to the rental. Mid-week: a day trip through town for saimin and errands, with the harbour or the beach at Kalapakī in between. Departure day: a last breakfast or lunch in town before returning the car.',
+            'The dinners that matter, usually the first full evening, a birthday and the last night, stay at the house with a chef cooking. Tell us which nights you want cooked and the quote follows that plan.',
+          ],
+        },
+        {
+          heading: 'Reunions and bigger groups',
+          paras: [
+            'Līhuʻe is where many Kauaʻi families hold reunions and parties. A dinner for twenty, a celebration across two houses or a wedding-week party is a staffed event rather than a chef dinner, and [Kauai catering](/catering) covers that across the island, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, shown as their own lines.',
+          ],
+        },
+        {
+          heading: 'What a dinner at your Kauaʻi rental costs with us',
+          paras: [
+            'Signature dinners on Kauaʻi are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler menu runs $190–$225 a guest. Dinner for two is $975–$1,425. Stay Chef days for a chef and an assistant start from $1,650 a day for one meal, with groceries billed at cost and receipts handed over.',
+            'A 20% service charge and Hawaiʻi GET up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Kauai private chef cost](/pricing). Kauaʻi is by inquiry, so the written quote is the confirmed total once a chef is confirmed for your date.',
+          ],
+        },
+        {
+          heading: 'How to ask for a dinner',
+          paras: [
+            'Send the rental address, the dates, the number of adults and children, allergies and the nights you want cooked. Use the inquiry form or message us on WhatsApp at +1 808-468-7748, and we reply in writing. For villa dinners across the island, see [private chef Kauai](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'What food is Līhuʻe known for?',
+          a: 'Local food: saimin, plate lunch, loco moco, poke, bakeries and family diners. It is where many people who live on Kauaʻi eat breakfast and lunch.',
+        },
+        {
+          q: 'Is there good food at Līhuʻe airport?',
+          a: 'Choice inside the terminal is limited. Town is a few minutes away, so most people eat in Līhuʻe before returning the rental car.',
+        },
+        {
+          q: 'How far is Līhuʻe from Poʻipū and Kapaʻa?',
+          a: 'Roughly twenty-five to thirty minutes to Poʻipū and fifteen to twenty minutes to Kapaʻa by car, depending on traffic. Princeville is about an hour.',
+        },
+        {
+          q: 'Do Līhuʻe restaurants close early?',
+          a: 'Many local places close in the afternoon or early evening. Check hours, and plan dinner on the shore where you are staying.',
+        },
+        {
+          q: 'Can a private chef cook at our rental near Līhuʻe?',
+          a: 'Yes, by inquiry. Līhuʻe is a planned base zone, so no travel line applies. The kitchen needs a working cooktop; the chef shops, cooks, serves and cleans up.',
+        },
+        {
+          q: 'How much does a chef dinner on Kauaʻi cost?',
+          a: 'Signature dinners on Kauaʻi are $225–$375 a guest with groceries included, minimum six. Service charge and GET are separate lines and a 50% deposit holds the date.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Personal chef Kauai' },
+        { path: '/catering', label: 'Kauai catering' },
+        { path: '/', label: 'Private chef Kauai' },
+        { path: '/pricing', label: 'Kauai private chef cost' },
+        { path: '/blog/kapaa-restaurants-dining-guide', label: 'Kapaʻa restaurants guide' },
       ],
     },
   ],
@@ -3076,6 +3464,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/mauna-lani-restaurants-dining-guide', label: 'Mauna Lani restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/catering', label: 'Big Island catering' },
         { path: '/', label: 'Private chef Big Island' },
@@ -3193,6 +3582,133 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Big Island' },
         { path: '/pricing', label: 'Big Island private chef cost' },
         { path: '/blog/kona-restaurants-dining-guide', label: 'Kona restaurants guide' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'mauna-lani-restaurants-dining-guide',
+      keyword: 'mauna lani restaurants',
+      datePublished: '2026-10-23',
+      name: 'Mauna Lani restaurants guide',
+      h1: 'Mauna Lani restaurants — dining on the Kohala Coast, and when to stay in.',
+      title: 'Mauna Lani Restaurants — Kohala Coast Dining | myCHEF',
+      description:
+        'Mauna Lani restaurants on the Kohala Coast: resort dining, sunset tables, breakfast, nearby Waikoloa and Kawaihae, and when a villa chef is better.',
+      lede:
+        'Mauna Lani is a resort community on Hawaiʻi Island’s Kohala Coast, with hotels, residences and rental villas set among lava fields, fishponds and golf courses. Its restaurants are mostly resort dining rooms with resort prices, and the nearest alternatives are a drive away. This guide explains how eating at Mauna Lani works, where guests go nearby, and when a dinner cooked at your villa is the better plan.',
+      photo: 'cellMaunaLani',
+      body: [],
+      sections: [
+        {
+          heading: 'Where Mauna Lani is',
+          paras: [
+            'Mauna Lani sits on the South Kohala coast between Waikoloa to the south and Puakō to the north, roughly thirty minutes up the Queen Kaʻahumanu Highway from Kona airport and about forty minutes from Kailua-Kona town. It is a planned resort: two hotels, condominium and private residences, beach clubs and golf courses, laid out around ancient fishponds, petroglyph trails and stretches of black lava.',
+            'The Kohala Coast is one of the driest and sunniest parts of Hawaiʻi, which is why so many visitors choose it, and why outdoor dinners here usually go ahead as planned.',
+          ],
+        },
+        {
+          heading: 'What dining at Mauna Lani looks like',
+          paras: [
+            'Most restaurants at Mauna Lani belong to the resort: hotel dining rooms, oceanfront and beach-club restaurants, pool bars and a golf clubhouse. A small shopping centre in the resort adds a few casual and sit-down places. Expect resort prices, the best tables booked well ahead, and limited late-night choice.',
+            'The quality can be high, and one special dinner at the water is worth booking. For a full week, though, most groups look further afield or eat at the villa some nights.',
+          ],
+        },
+        {
+          heading: 'Nearby: Waikoloa, Kawaihae, Waimea and Kona',
+          paras: [
+            'Waikoloa, a few minutes south, has its own resort restaurants and two shopping areas with more casual choice; our [Waikoloa restaurants guide](/blog/waikoloa-restaurants-dining-guide) covers them. Kawaihae harbour, about fifteen minutes north, has casual waterfront places. Waimea, about thirty minutes inland in ranch country, has restaurants with an upcountry feel and cooler evenings.',
+            'Kailua-Kona town is the biggest choice on the west side but the longest drive back at night; our [Kona restaurants guide](/blog/kona-restaurants-dining-guide) covers it.',
+          ],
+        },
+        {
+          heading: 'Sunset tables on the Kohala Coast',
+          paras: [
+            'The coast faces west, so the sun sets over the ocean, and on clear evenings that is the main event of the day. In winter, from roughly December to April, humpback whales are often visible offshore. Book sunset tables well ahead in holiday weeks and reserve thirty to forty-five minutes before the sun goes down; in December that is before six.',
+          ],
+        },
+        {
+          heading: 'How much is breakfast at Mauna Lani?',
+          paras: [
+            'Breakfast is one of the questions visitors ask most, because resort breakfasts add up quickly for a family over a week. Prices change, so check the current menus, but expect resort-level pricing. Many guests in villas keep breakfast simple at home: coffee, fruit from the farmers market and something from the supermarket.',
+            'If you would rather not cook at all, a Stay Chef day covers breakfast at the villa as well as dinner, quoted on the same day.',
+          ],
+        },
+        {
+          heading: 'The drive back after dark',
+          paras: [
+            'The Queen Kaʻahumanu Highway crosses open lava fields with few lights. A dinner in Kona means a forty-minute drive back in the dark, and Waimea evenings can bring mist and rain on the road down. Many groups eat out at lunch and keep the evenings close to the villa for exactly this reason.',
+          ],
+        },
+        {
+          heading: 'Staying in Mauna Lani villas and residences',
+          paras: [
+            'Resort residences and villas at Mauna Lani usually have well-equipped kitchens and lānai built for eating outside. Many are in gated communities, so send the gate and access details with your request. Mauna Lani is a base zone for us, so no travel line applies; our [Mauna Lani villa dinners](/mauna-lani) page and short [Mauna Lani kitchen notes](/blog/dining-in-mauna-lani) have the local details, and the [Puakō notes](/blog/dining-in-puako) cover the shoreline houses next door.',
+          ],
+        },
+        {
+          heading: 'When a chef night at the villa beats eating out',
+          paras: [
+            'Big families, mixed diets, small children who eat early, an anniversary, or a day that ends late after a snorkel trip all point the same way. A [private chef Kona](/private-chef) dinner brings the meal to your table on the Kona–Kohala coast: the chef plans the menu with you, shops, cooks in your kitchen, serves and leaves the kitchen clean, and nobody drives the lava highway after dark.',
+          ],
+        },
+        {
+          heading: 'Groceries and markets',
+          paras: [
+            'There are only a few small markets on the Kohala Coast, and the larger supermarkets are in Kona and Waimea, so many visitors shop on the way from the airport. Farmers markets add local fruit, greens and coffee; our [Kona farmers market guide](/blog/kona-farmers-market-villa-week) explains which run when. For dinners we cook, the chef does the shopping.',
+          ],
+        },
+        {
+          heading: 'Bigger groups and celebrations',
+          paras: [
+            'A welcome dinner for twenty, a reunion buffet or a wedding-week party on a villa lawn is a staffed event rather than a chef dinner. [Big Island catering](/catering) covers that on the Kona–Kohala coast, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, listed as their own lines. The Hawaiʻi Island mobile bar is published from $1,100 for four hours plus $75 a guest, with spirits billed at cost or brought by you.',
+          ],
+        },
+        {
+          heading: 'What a dinner at your Mauna Lani villa costs with us',
+          paras: [
+            'Signature dinners on Hawaiʻi Island are published at $210–$325 a guest with groceries included, for a minimum party of six, and a simpler table starts from $165 a guest. Dinner for two starts from $825. Stay Chef days for a chef and an assistant start from $1,450 a day for one meal, with groceries billed at cost and receipts handed over.',
+            'A 20% service charge and Hawaiʻi GET up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Big Island private chef cost](/pricing). Hawaiʻi Island is by inquiry, so the written quote is the confirmed total once a chef is confirmed for your date.',
+          ],
+        },
+        {
+          heading: 'How to ask for a Mauna Lani dinner',
+          paras: [
+            'Send the villa address and gate details, the dates, the number of adults and children, allergies and the nights you want cooked. Use the inquiry form or message us on WhatsApp at +1 808-468-7748, and we reply with a written quote. For villa dinners across the west side, see [private chef Big Island](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Where is Mauna Lani?',
+          a: 'On the South Kohala coast of Hawaiʻi Island, between Waikoloa and Puakō, roughly thirty minutes north of Kona airport.',
+        },
+        {
+          q: 'Are there restaurants at Mauna Lani outside the hotels?',
+          a: 'A few, in the small resort shopping centre and at the golf clubhouse. For more choice, guests drive to Waikoloa, Kawaihae, Waimea or Kona.',
+        },
+        {
+          q: 'Is Mauna Lani good for a sunset dinner?',
+          a: 'Yes. The Kohala Coast faces west and is one of the driest parts of Hawaiʻi, so sunset dinners outside usually go ahead. Book early in holiday weeks.',
+        },
+        {
+          q: 'How far is Mauna Lani from Kailua-Kona?',
+          a: 'About forty minutes by car on the Queen Kaʻahumanu Highway, much of it across unlit lava fields, which matters for the drive home after dinner.',
+        },
+        {
+          q: 'Can a private chef cook at our Mauna Lani villa?',
+          a: 'Yes, by inquiry. Mauna Lani is a base zone, so no travel line applies. Send gate and access details; the chef shops, cooks, serves and cleans up.',
+        },
+        {
+          q: 'How much does a chef dinner at Mauna Lani cost?',
+          a: 'Signature dinners on Hawaiʻi Island are $210–$325 a guest with groceries included, minimum six, and dinner for two starts from $825. Service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Private chef Kona' },
+        { path: '/catering', label: 'Big Island catering' },
+        { path: '/', label: 'Private chef Big Island' },
+        { path: '/pricing', label: 'Big Island private chef cost' },
+        { path: '/blog/waikoloa-restaurants-dining-guide', label: 'Waikoloa restaurants guide' },
       ],
     },
   ],

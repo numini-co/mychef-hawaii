@@ -88,6 +88,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/kailua-restaurants-dining-guide', label: 'Kailua restaurants guide' },
         { path: '/kailua', label: 'Private chef Kailua' },
         { path: '/kamaaina', label: 'Kamaʻāina line' },
         { path: '/quote', label: 'Quote form' },
@@ -847,6 +848,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/kapalua-restaurants-dining-guide', label: 'Kapalua restaurants guide' },
         { path: '/kapalua', label: 'Private chef Kapalua' },
         { path: '/west-maui', label: 'West Maui timing' },
         { path: '/quote', label: 'Quote form' },
@@ -1891,6 +1893,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/lihue-restaurants-dining-guide', label: 'Līhuʻe restaurants guide' },
         { path: '/lihue', label: 'Private chef Līhuʻe' },
         { path: '/coverage', label: 'Coverage' },
         { path: '/poipu', label: 'Private chef Poʻipū' },
@@ -2673,6 +2676,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/mauna-lani-restaurants-dining-guide', label: 'Mauna Lani restaurants guide' },
         { path: '/mauna-lani', label: 'Private chef Mauna Lani' },
         { path: '/waikoloa', label: 'Private chef Waikoloa' },
         { path: '/blog/dining-in-kohala', label: 'Kohala kitchen notes' },
