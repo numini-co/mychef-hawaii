@@ -14,6 +14,17 @@ import { hubChrome, heroFocal, processSteps } from '@/data/chromeCopy';
 import { hubHomeFaqs, hubHomeSections } from '@/data/longformHub';
 import { photos } from '@/data/photos';
 import { DESK_EMAIL, DESK_PHONE_E164, islandDepartmentsJsonLd } from '@/lib/contact';
+import { cateringAnchor, homeAnchor } from '@/lib/ownerAnchors';
+import type { IslandId } from '@/data/islands';
+
+const CATERING_ISLANDS: IslandId[] = ['oahu', 'maui', 'kauai', 'bigisland'];
+/** Locked owner anchors for island /weddings (hawaii-keyword-lock-2026-10.md). */
+const WEDDING_ANCHOR: Record<IslandId, string> = {
+  oahu: 'Wedding catering Oahu',
+  maui: 'Wedding catering Maui',
+  kauai: 'Kauai wedding catering',
+  bigisland: 'Wedding catering Big Island',
+};
 
 const hubFaqs = [
   {
@@ -212,16 +223,16 @@ export default function HomeView() {
             className="mt-8 flex flex-wrap items-baseline gap-x-6 gap-y-2 text-sm"
           >
             <HostLink island="oahu" path="/" className="text-ink underline decoration-brass underline-offset-[6px]">
-              Oʻahu private chef
+              {homeAnchor('oahu')}
             </HostLink>
             <HostLink island="maui" path="/" className="text-ink underline decoration-brass underline-offset-[6px]">
-              Maui villa weeks
+              {homeAnchor('maui')}
             </HostLink>
             <HostLink island="kauai" path="/" className="text-ink underline decoration-brass underline-offset-[6px]">
-              Kauaʻi inquiry
+              {homeAnchor('kauai')}
             </HostLink>
             <HostLink island="bigisland" path="/" className="text-ink underline decoration-brass underline-offset-[6px]">
-              Hawaiʻi Island inquiry
+              {homeAnchor('bigisland')}
             </HostLink>
             <Link href="/pricing" className="font-medium text-ink underline decoration-brass underline-offset-[6px]">
               The line-by-line card
@@ -238,6 +249,35 @@ export default function HomeView() {
             <HostLink island="bigisland" path="/kona" className="text-ink underline decoration-brass underline-offset-[6px]">
               Kona west-side
             </HostLink>
+          </nav>
+          <p className="mt-10 max-w-[52ch] text-[17px] leading-relaxed text-mute">
+            Staffed events and wedding weeks are quoted by the island team that cooks them: each island page lists
+            its own catering formats, guest counts and wedding-week options.
+          </p>
+          <nav
+            aria-label="Catering and weddings by island"
+            className="mt-5 flex flex-wrap items-baseline gap-x-6 gap-y-2 text-sm"
+          >
+            {CATERING_ISLANDS.map((id) => (
+              <HostLink
+                key={`cat-${id}`}
+                island={id}
+                path="/catering"
+                className="text-ink underline decoration-brass underline-offset-[6px]"
+              >
+                {cateringAnchor(id)}
+              </HostLink>
+            ))}
+            {CATERING_ISLANDS.map((id) => (
+              <HostLink
+                key={`wed-${id}`}
+                island={id}
+                path="/weddings"
+                className="text-ink underline decoration-brass underline-offset-[6px]"
+              >
+                {WEDDING_ANCHOR[id]}
+              </HostLink>
+            ))}
           </nav>
         </div>
       </section>
