@@ -207,7 +207,7 @@ const mauiFaqs: CopyFaq[] = [
   },
   {
     q: 'Do you publish Hawaiian catering menus for Maui?',
-    a: 'Yes — this page owns Maui catering menus (sometimes searched as Hawaiian catering menus for Maui). Sample formats are buffet, plated, or family-style for Wailea and West Maui villas. The written menu is for that house and guest list, not a statewide drop-off carte. Food from $225 a guest; staffing is itemised on the quote.',
+    a: 'Yes. The sample Maui catering menus on this page are Hawaiian catering menus written for Wailea and West Maui villas — buffet, plated, or family-style. The written menu is for that house and guest list, not a statewide drop-off carte. Food from $225 a guest; staffing is itemised on the quote.',
   },
 ];
 

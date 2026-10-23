@@ -131,7 +131,7 @@ export const hubCateringFaqs: CopyFaq[] = [
   },
   {
     q: 'Where do I find island catering menus?',
-    a: 'Staffing rules and the quote process stay on this page. Plated menus do not. [Maui Catering Menus](maui:/catering) owns Wailea, Kīhei, and West Maui. [Oʻahu catering](oahu:/catering) owns Honolulu through Ko Olina. [Kauaʻi catering](kauai:/catering) owns staffed events in Princeville, Hanalei, and Poʻipū. A Kauaʻi dinner under about ten guests starts on [private chef Kauaʻi](kauai:/), not as catering. [Big Island catering](bigisland:/catering) owns Kona and Kohala menus. Send dates on the [quote form](/quote) or WhatsApp https://wa.me/18084687748.',
+    a: 'Staffing rules and the quote process stay on this page. Plated menus do not. Each island keeps its own menus. [Maui Catering Menus](maui:/catering) cover Wailea, Kīhei, and West Maui. [Oahu catering](oahu:/catering) runs from Honolulu to Ko Olina. [Kauai catering](kauai:/catering) is for staffed events in Princeville, Hanalei, and Poʻipū. A Kauaʻi dinner under about ten guests starts on [private chef Kauai](kauai:/), not as catering. [Big Island catering](bigisland:/catering) has the Kona and Kohala menus. Send dates on the [quote form](/quote) or WhatsApp https://wa.me/18084687748.',
   },
 ];
 
@@ -229,7 +229,7 @@ export const hubPricingSections: CopySection[] = [
   {
     h2: 'The statewide band, then a written quote',
     paras: [
-      'Private chef Hawaii cost is not a single number. Hub `/` owns private chef Hawaii. Signature dinner: $195–$290 a guest on Oʻahu, $225–$375 on Maui and Kauaʻi, $210–$325 on Hawaiʻi Island (Table from $165). Stay Chef day rates from $1,250 Oʻahu / $1,550 Maui / $1,650 Kauaʻi / $1,450 Hawaiʻi Island.',
+      'Private chef Hawaii cost is not a single number. It depends on the island, so choose one on the [private chef Hawaii](/) page first. Signature dinner: $195–$290 a guest on Oʻahu, $225–$375 on Maui and Kauaʻi, $210–$325 on Hawaiʻi Island (Table from $165). Stay Chef day rates from $1,250 Oʻahu / $1,550 Maui / $1,650 Kauaʻi / $1,450 Hawaiʻi Island.',
       'What sits inside the per-guest dinner band: menu design, same-day shopping, cooking, table service, cleanup. Groceries are inside that band on a signature night. On Stay Chef days, groceries are billed at cost with receipts. Alcohol is BYO or quoted. Rentals and venue fees are add-ons when you want them.',
       'What is added once, as its own lines: 20% service, Hawaiʻi GET up to 4.712%, and a 50% deposit to lock the date. Gratuity is voluntary. Travel beyond base corridors is a published zone line. There is no mystery “hospitality” fold-in.',
     ],
