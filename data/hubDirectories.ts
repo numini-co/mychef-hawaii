@@ -407,19 +407,32 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'What we will not claim, by island.',
     title: 'What we will not claim, by island | myCHEF Hawaii',
     description:
-      'Each island publishes its own claim list.',
+      'What we will not claim, by island: no invented reviews, no ballroom catering, no same-day island hop. Fee lines stay visible. Open the island page.',
     lede:
-      'No invented reviews, no fake licenses, no “now serving” language ahead of a staffed kitchen. Each island writes that in its own words.',
+      'This directory only routes you. Each island writes what it will not claim. This page does not cook, and it does not invent a review.',
     kicker: 'Statewide · Honesty',
     photo: 'hubHonesty',
     cardLabel: 'Claim list',
     body: [
-      'Reviews publish after verified events.',
+      'Open the island that has the house: [Oʻahu limits](oahu:/what-we-dont-do), [Maui limits](maui:/what-we-dont-do), [Kauaʻi limits](kauai:/what-we-dont-do), or [Hawaiʻi Island limits](bigisland:/what-we-dont-do). Reviews, hotel rooms, ballrooms, and same-day travel are written there.',
+      'Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry: join the inquiry list for the west side. Hilo is a separate dedicated east-side day, quoted in writing. Fee lines live on [pricing](/pricing). This directory does not hold a date.',
     ],
     faqs: [
       {
         q: 'Do you have statewide reviews here?',
-        a: 'No. We do not invent them. Open the island page.',
+        a: 'No. We do not invent them. Open the island page for the house. Reviews publish only after verified events, and never from this directory.',
+      },
+      {
+        q: 'Where do the fee lines live, and is a tip required?',
+        a: 'On [pricing](/pricing), and again on the island page. 20% service and Hawaiʻi GET up to 4.712% each stand alone. A 50% deposit follows acceptance. Gratuity is never required. This directory does not hide a figure.',
+      },
+      {
+        q: 'Can one crew cook two islands the same day, or Kona and Hilo the same day?',
+        a: 'No. There is no same-day inter-island crossing, and no same-day Kona–Hilo round trip. Open the island that has the house. Hilo is a separate dedicated east-side day, quoted in writing.',
+      },
+      {
+        q: 'Which page do I open for the limits on that house?',
+        a: `The host that has the kitchen: [Oʻahu](oahu:/what-we-dont-do), [Maui](maui:/what-we-dont-do), [Kauaʻi](kauai:/what-we-dont-do), or [Hawaiʻi Island](bigisland:/what-we-dont-do). Then use that island’s form. Desk: ${desk}.`,
       },
     ],
   },
@@ -428,22 +441,32 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Guest counts we staff, by island.',
     title: 'Guest counts we staff, by island | myCHEF Hawaii',
     description:
-      'Each island publishes dinners 2–15 and receptions about 10–75.',
+      'Dinners 2–15 and receptions about 10–75. Larger formats are quoted, not promised. A dinner for two is a normal booking. Open the island page.',
     lede:
-      'A dinner for two is a chef and the shopping. A seated twelve is a different crew.',
+      'This directory only routes the headcount. Dinners are two to fifteen. Receptions are about ten to seventy-five. Open the island that has the house.',
     kicker: 'Statewide · Guest counts',
     photo: 'hubCounts',
     cardLabel: 'Headcount',
     body: [
+      'Open [Oʻahu guest counts](oahu:/guest-counts), [Maui guest counts](maui:/guest-counts), [Kauaʻi guest counts](kauai:/guest-counts), or [Hawaiʻi Island guest counts](bigisland:/guest-counts). That page says what the house can hold and how children sit in the number. This directory does not staff a lawn.',
+      'Larger formats are quoted, not promised. A dinner for two is a normal booking on the island’s honeymoon dinners page. Oʻahu and Maui take a written quote. Kauaʻi requests availability. Hawaiʻi Island uses the inquiry list, west side first. Bands are on [pricing](/pricing).',
     ],
     faqs: [
       {
         q: 'Can the hub promise 200 guests?',
-        a: 'No. Open the island page. Larger formats are quoted, not promised.',
+        a: 'No. Open the island page. Dinners are two to fifteen and receptions are about ten to seventy-five. Larger formats are quoted, not promised. This directory does not hold a crew.',
       },
       {
-        q: 'Is two too small?',
-        a: 'No. Dinner for two lives on each island the honeymoon dinners page.',
+        q: 'Is a dinner for two too small to book?',
+        a: 'No. A dinner for two is a normal booking. Open the island’s honeymoon dinners page. This directory does not treat two as a special case, and it does not set a smaller minimum.',
+      },
+      {
+        q: 'Is there a statewide kids’ price on this page?',
+        a: 'No. There is no separate published kids’ price and no age cut-off here. Children are part of the headcount on the island quote. What that does to the total is set out in the written quote.',
+      },
+      {
+        q: 'Which island do I open, and what do I send?',
+        a: `The island that has the house, with the address and the headcount, before any deposit. Oʻahu and Maui take a written quote. Kauaʻi requests availability. Hawaiʻi Island: join the inquiry list. Bands are on [pricing](/pricing). Desk: ${desk}.`,
       },
     ],
   },
@@ -793,15 +816,33 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Rehearsal dinners, by island.',
     title: 'Rehearsal dinners, by island | myCHEF Hawaii',
     description:
-      'Each island quotes the night before as its own line.',
+      'The night before the wedding is its own line on that island. Oʻahu and Maui quote. Kauaʻi requests availability. The Big Island uses the inquiry list.',
     lede:
-      'The night before is not swallowed by a reception quote. Each island writes that line.',
+      'This directory only routes the night before the wedding. It is one seated dinner, written as its own line. Open the island that has the house.',
     kicker: 'Statewide · Rehearsal',
     photo: 'hubRehearsal',
     cardLabel: 'Rehearsal',
     body: [
+      'Open [Oʻahu rehearsal dinners](oahu:/rehearsal-dinners), [Maui rehearsal dinners](maui:/rehearsal-dinners), [Kauaʻi rehearsal dinners](kauai:/rehearsal-dinners), or [Hawaiʻi Island rehearsal dinners](bigisland:/rehearsal-dinners). The island weddings page is the whole week. This night is not that week.',
+      'There is no separate rehearsal price. Fee lines live on [pricing](/pricing). Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry: join the inquiry list for the west side. Hilo is a separate dedicated east-side day, quoted in writing.',
     ],
     faqs: [
+      {
+        q: 'Which island page is the rehearsal dinner?',
+        a: 'Open the host that has the rental: [Oʻahu](oahu:/rehearsal-dinners), [Maui](maui:/rehearsal-dinners), [Kauaʻi](kauai:/rehearsal-dinners), or [Hawaiʻi Island](bigisland:/rehearsal-dinners). This directory does not hold the date.',
+      },
+      {
+        q: 'How does this night relate to the island weddings page?',
+        a: 'The island weddings page is the whole week. This night is one seated dinner the night before, written as its own line. Use both links. Do not brief the week from this directory.',
+      },
+      {
+        q: 'Where do prices and fee lines live for a rehearsal dinner?',
+        a: 'On [pricing](/pricing). There is no separate published rehearsal price. 20% service and Hawaiʻi GET up to 4.712% each stand alone. A 50% deposit follows acceptance. Gratuity is never required.',
+      },
+      {
+        q: 'What should I send, and who takes a quote versus a request?',
+        a: `The island, the address, the dinner date, the headcount, and the wedding date this night sits before. Oʻahu and Maui take a written quote. Kauaʻi requests availability. Hawaiʻi Island: join the inquiry list, west side first. Desk: ${desk}.`,
+      },
     ],
   },
   retreatCatering: {
