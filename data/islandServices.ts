@@ -18,68 +18,92 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'what-we-dont-do',
       name: 'What we will not claim',
-      h1: 'What we will not claim on Oahu.',
+      h1: 'What we will not claim on Oʻahu — houses, not ballrooms.',
       title: 'What we will not claim on Oahu | myCHEF',
       description:
-        'No invented Oahu guest reviews, no fake licenses, no “now serving” language ahead of a staffed kitchen. Published prices and a written quote are the proof.',
+        'No invented Oʻahu reviews, no hotel room without a kitchen, no ballroom catering. Service and tax sit on their own lines. Request a written quote.',
       lede:
-        'Hawaii is launching. We will not invent stars or chef names. The published line is (808) 468-7748. The Gold Coast dinner is real. The Yelp page is not.',
+        'We cook Oʻahu houses with kitchens. We do not invent reviews, licenses, or a “now serving” line ahead of a staffed kitchen. The proof is the published card and a written quote.',
       photo: 'svcHonestyOahu',
       body: [
-        'We do not invent guest reviews. We do not sell chef bios. HCC citywides are closed through 2027 and are not our product. Hotel suites without kitchens are not a kitchen.',
-        'Proof today: published starting prices on the pricing page, a sample menu on the menus page, cleanup, a written quote.',
+        'We do not invent guest reviews, chef names, or licenses. A hotel room without a stove is declined. Residences and villas with kitchens are the work, in Kahala, Ko Olina, Kailua, and Honolulu. Hawaiʻi Convention Center citywides are closed through 2027 and are not our product. We do not staff a ballroom.',
+        'We do not cook on another island the same day. A farm is named only when that day’s receipt supports it. Nothing is hidden in the price: 20% service and Hawaiʻi GET up to 4.712% sit on their own lines. A 50% deposit follows acceptance. Gratuity is never required. Request a written quote on [the quote form](/quote). The card is on [pricing](/pricing).',
       ],
       faqs: [
         {
-          q: 'Do you have Oʻahu reviews?',
-          a: 'Not yet. They publish after verified events. Until then the proof is the card and the quote.',
+          q: 'Do you have Oʻahu guest reviews I can read before I book?',
+          a: 'A Gold Coast dinner does not come with stars. Nothing is published yet, and we will not write a review or buy one. Verified events are the only later path. Use the card on [pricing](/pricing) and the written quote.',
         },
         {
-          q: 'Will you cook a hotel room?',
-          a: 'If there is a stove we can work. Most suites do not. Residences and villas are the product.',
+          q: 'Will you cook in a Waikīkī hotel room that has no kitchen?',
+          a: 'Only if there is a stove we can work. Most suites do not have one. Residences and villas with a real cooktop are the booking. A coffee maker is not a kitchen, and a building rule does not create a stove.',
         },
         {
           q: 'Filipino catering Oahu, or bento and catering Oahu?',
-          a: 'Related searches, not a bento mill. We cook villa dinners and staffed estate events. We do not run a banquet hall.',
+          a: 'Those phrases are searches, not a bento counter and not a banquet hall. We cook dinners in houses with kitchens in Kahala, Ko Olina, Kailua, and Honolulu. We do not staff a ballroom or a convention floor. Request a written quote for the house.',
+        },
+        {
+          q: 'Can the same crew cook a Kahala dinner and fly to another island the same day?',
+          a: 'No. There is no same-day inter-island crossing. A Honolulu day stays on Oʻahu. Name one island and one kitchen. We will not write a second island onto the same crew.',
+        },
+        {
+          q: 'Will you name an Oʻahu farm, or say you are now serving a hotel?',
+          a: 'A farm is named only when that day’s receipt supports it. We do not print “now serving” ahead of a staffed kitchen, and we do not imply a hotel affiliation. The house with the kitchen is the booking.',
+        },
+        {
+          q: 'Are the service charge and a tip already inside the Oʻahu price?',
+          a: `The service charge is not hidden, and a tip is not required. 20% service and Hawaiʻi GET up to 4.712% each print on their own line. A 50% deposit follows acceptance. Gratuity is never required. Request a written quote on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/faq', label: 'FAQ' },
-        { path: '/about', label: 'The Oahu crew' },
-        { path: '/conventions', label: 'Not MICE' },
+        { path: '/pricing', label: 'Starting prices' },
+        { path: '/conventions', label: 'Not a convention kitchen' },
+        { path: '/quote', label: 'The quote form' },
       ],
     },
     {
       slug: 'guest-counts',
       name: 'Guest counts',
-      h1: 'Guest counts we staff on Oahu — two to fifteen, ten to seventy-five.',
-      title: 'Guest counts we staff on Oahu | myCHEF',
+      h1: 'Oʻahu guest counts — Kahala rooms, Ko Olina villas, condo kitchens.',
+      title: 'Kahala and Ko Olina guest counts | myCHEF',
       description:
-        'Oahu dinners 2–15. Receptions about 10–75. Larger formats are quoted, not promised. Kahala dining rooms and Ko Olina villas are the usual rooms.',
+        'Oʻahu dinners for 2–15 guests and receptions about 10–75. Kahala rooms, Ko Olina villas, Waikīkī condo kitchens. Larger formats are quoted, not promised.',
       lede:
-        'A dinner for two is a chef and the shopping. A seated twelve is a different crew. We write the headcount before the deposit.',
+        'A dinner for two is the chef and the shopping. A seated twelve is a different crew. We write the Oʻahu headcount before the deposit.',
       photo: 'svcCountsOahu',
       body: [
-        'Dinners two to fifteen. Receptions about ten to seventy-five. A hundred-guest lawn is quoted as its own format or declined — not stretched from a Tuesday dinner.',
-        'Kahala dining rooms hold a seated table. Ko Olina villas hold a week. Waikīkī residences hold what the kitchen can hold.',
+        'Dinners run from two to fifteen. Receptions are about ten to seventy-five. A Kahala dining room holds a seated table. A Ko Olina villa can hold a larger lawn when the house allows it. A Waikīkī condo kitchen holds what the galley and the building rules allow.',
+        'Children are part of the headcount on the quote. What that does to the total is set out in the written quote. There is no separate published kids’ price and no age cut-off. A plated Gold Coast list may add a server. See [staffing](/staffing). If the seats change, tell us and we re-quote in writing. Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
-          q: 'Can you do 200 on a Gold Coast lawn?',
-          a: 'Not as a promise. Larger than about seventy-five is quoted. We would rather decline than lie.',
+          q: 'Can you staff 200 guests on a Gold Coast lawn?',
+          a: 'Not as a promise. Receptions are about ten to seventy-five. A larger list is quoted as its own format or declined. We would rather decline than invent a crew the house cannot hold.',
         },
         {
-          q: 'Is a dinner for two too small?',
-          a: 'No. Date night is a published band.',
+          q: 'Is a dinner for two in Honolulu too small to book?',
+          a: 'No. A dinner for two is a normal booking, with the chef and the shopping. It lives on [honeymoon dinners](/honeymoon-dinners). It is not a reception, and it is not too small for this page.',
         },
         {
-          q: 'Small catering Honolulu?',
-          a: 'A house dinner for two to fifteen is on the in-villa dinner page. About ten to seventy-five is on the catering page. This page names the headcount so those pages stay distinct.',
+          q: 'Do kids in a Waikīkī condo get left off the Kahala headcount?',
+          a: 'No. A condo galley and a Kahala dining room use one list. Children are part of the headcount on the island quote. What that does to the total is set out in the written quote. The building does not get a second, smaller count.',
+        },
+        {
+          q: 'What changes when a Kahala dinner grows from a table of eight into a seated reception?',
+          a: 'The headcount is written again before the deposit. A small dinner is the chef. A plated reception can add a server or a sous chef as its own line on [staffing](/staffing). We do not publish a crew ratio on this page.',
+        },
+        {
+          q: 'What if the Ko Olina count changes after we already have a quote?',
+          a: 'Tell us and we re-quote in writing. The deposit covers the headcount on the total you accepted, not a larger list, until you accept the rewrite. A day-of text does not change the shop.',
+        },
+        {
+          q: 'What should a Waikīkī condo note include before we request a written quote?',
+          a: `The building, any kitchen rule, the date, and the headcount, with children included. Dinners are two to fifteen. Receptions are about ten to seventy-five. Request a written quote on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
         { path: '/honeymoon-dinners', label: 'Dinner for two' },
-        { path: '/events', label: 'Occasions' },
+        { path: '/staffing', label: 'Staffing' },
         { path: '/pricing', label: 'Starting prices' },
       ],
     },
@@ -275,15 +299,16 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'what-we-dont-do',
       name: 'What we will not claim',
-      h1: 'What we will not claim on Maui.',
-      title: 'What we will not claim on Maui | myCHEF',
+      h1: 'What a Maui villa week will not pretend.',
+      title: 'What a Maui villa week will not claim | myCHEF',
       description:
-        'No invented Maui guest reviews, no Lahaina luxury-dining brand, no ballroom citywides. Published prices and a written quote are the proof.',
+        'No invented Maui reviews, no ballroom, no hotel room without a kitchen. Fee lines stay visible. Request a written quote for the villa week.',
       lede:
-        'We cook villas. We do not staff ballrooms. We do not market West Maui as a Lahaina dining brand. Reviews publish after verified events.',
+        'A villa week in Wailea, Kapalua, or Kāʻanapali is a house with a kitchen. We do not invent reviews, and we do not staff a ballroom. Request a written quote.',
       photo: 'svcHonestyMaui',
       body: [
-        'No invented chef names. No implied hotel affiliation. Upcountry is a surcharge, not a surprise.',
+        'We do not invent chef names or guest reviews. We do not imply a hotel affiliation. A room without a stove is declined. We do not staff a ballroom. Wailea, Kapalua, and Kāʻanapali villas with kitchens are the work.',
+        'Upcountry is a surcharge, written on the quote, not a surprise after you accept. A farm is named only when the receipt supports it. We do not cross to another island the same day. 20% service and Hawaiʻi GET up to 4.712% sit on their own lines. A 50% deposit follows acceptance. Gratuity is never required. Request a written quote on [the quote form](/quote). The card is on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -291,43 +316,75 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
           a: 'Related searches “lotus chefs maui” and “elite maui chef” are other kitchens. We do not impersonate them.',
         },
         {
-          q: 'Do you have Maui reviews?',
-          a: 'Not yet. We will not invent them.',
+          q: 'Do you publish Maui guest reviews for a villa week?',
+          a: 'A Wailea or Kapalua week does not include a review packet. We will not draft one. Later notes wait for verified events. What you can use now is the written quote for that villa, with the card on [pricing](/pricing).',
+        },
+        {
+          q: 'Will you cook a Wailea hotel room that has no kitchen?',
+          a: 'No. The villa needs a stove, a fridge, and a table. A room without those is declined before a deposit. Resort residences that actually cook are a yes. A minibar is not a kitchen.',
+        },
+        {
+          q: 'Can you staff a ballroom or a convention lunch on Maui?',
+          a: 'No. We do not staff a ballroom or a convention floor. The booking is a house with a kitchen in Wailea, Kapalua, or Kāʻanapali. If the address has no cooktop, the quote says so before you accept.',
+        },
+        {
+          q: 'Is an Upcountry drive folded into the villa price after we accept?',
+          a: 'No. Upcountry is a surcharge, written on the quote, not a surprise after you accept. We also do not fly the same crew to another island that day. The town and the kitchen are named before the deposit.',
+        },
+        {
+          q: 'What is printed on its own line, and is a tip required on Maui?',
+          a: `On a villa week the 20% service line prints by itself, then Hawaiʻi GET up to 4.712% on the next line. Half the accepted total is the deposit. A tip is never required and is not tucked into a Wailea band. Request a written quote on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/faq', label: 'FAQ' },
-        { path: '/lahaina', label: 'How we name Lahaina' },
+        { path: '/pricing', label: 'Starting prices' },
         { path: '/west-maui', label: 'West Maui' },
+        { path: '/quote', label: 'The quote form' },
       ],
     },
     {
       slug: 'guest-counts',
       name: 'Guest counts',
-      h1: 'Guest counts we staff on Maui — lawns about ten to seventy-five.',
-      title: 'Guest counts we staff on Maui | myCHEF',
+      h1: 'Maui guest counts — Wailea lawns and villa kitchens.',
+      title: 'Wailea lawn and villa guest counts | myCHEF',
       description:
-        'Maui dinners 2–15. Lawn receptions about 10–75. Larger formats quoted. Wailea, Kapalua, Makena.',
+        'Maui dinners for 2–15 and lawn receptions about 10–75 in Wailea and Kapalua. Larger formats are quoted, not promised. Request a written quote.',
       lede:
-        'A tasting for two in Kapalua is not a Wailea lawn. We write the headcount and the crew before the deposit.',
+        'A dinner for two in Kapalua is not a Wailea lawn. We write the headcount before the deposit. Quotes are open for the villa week.',
       photo: 'svcCountsMaui',
       body: [
-        'Hotel-zoned residences with kitchens. Identical event plates for a lawn. Date Night stays a dinner band.',
-        'West Maui Saturday traffic is planned into arrival. Headcount does not change the corridor.',
+        'Villa dinners run from two to fifteen, in the kitchen you name. Lawn receptions are about ten to seventy-five when that Wailea or Kapalua house can hold them. A Kīhei lot is not an automatic seventy-five. Saturday traffic changes the drive, not the number of seats.',
+        'Children are part of the headcount on the quote. What that does to the total is set out in the written quote. There is no separate published kids’ price and no age cut-off. A plated Wailea lawn may need another pair of hands. See [staffing](/staffing). If the lawn grows, we re-quote in writing. Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
-          q: 'Seventy-five on a Kīhei lot?',
-          a: 'Only if the house and the county allow it. The quote names the address. Larger is quoted or declined.',
+          q: 'Can you seat about seventy-five guests on a Kīhei lot?',
+          a: 'Only if that house can hold them. The quote names the address. About seventy-five is the reception band, not a promise for every lot. A larger list is quoted as its own format or declined.',
         },
         {
-          q: 'Same crew as catering?',
-          a: 'Same department.',
+          q: 'Does a growing Wailea lawn use the same crew call as a villa dinner for eight?',
+          a: 'No. A dinner for eight is the chef at the villa table. A plated lawn can add a server or a sous chef as its own line on [staffing](/staffing). Family-style on the lānai is a different call. We do not publish a ratio here.',
+        },
+        {
+          q: 'Do children on a Kapalua lawn sit outside the villa headcount?',
+          a: 'They do not. They sit in the same number as the adults on that Wailea or Kapalua note. Children are part of the headcount on the island quote. There is no age cut-off on this page. The written quote sets the total.',
+        },
+        {
+          q: 'What happens when the headcount changes after the Maui quote is out?',
+          a: 'Tell us and we re-quote in writing. The deposit covers the headcount on the total you accepted. It does not cover a larger lawn until you accept the rewrite. A morning-of text does not resize the shop.',
+        },
+        {
+          q: 'Is a dinner for two on a villa week too small to book?',
+          a: 'No. A dinner for two is a normal booking. It lives on [honeymoon dinners](/honeymoon-dinners). Dinners on this page run from two to fifteen. A lawn reception is a different number.',
+        },
+        {
+          q: 'What do we send to request a written quote for a lawn and a villa kitchen?',
+          a: `The shore, the villa, the date, whether it is the dining room or the lawn, and the headcount with children included. Wailea, Kapalua, or Kāʻanapali. Request a written quote on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/events', label: 'Occasions' },
-        { path: '/south-maui', label: 'South Maui' },
+        { path: '/honeymoon-dinners', label: 'Dinner for two' },
+        { path: '/staffing', label: 'Staffing' },
         { path: '/pricing', label: 'Starting prices' },
       ],
     },
@@ -523,63 +580,93 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'what-we-dont-do',
       name: 'What we will not claim',
-      h1: 'What we will not claim on Kauai.',
-      title: 'What we will not claim on Kauai | myCHEF',
+      h1: 'What both Kauaʻi shores will not claim while you request availability.',
+      title: 'What both Kauai shores will not claim | myCHEF',
       description:
-        'Inquiry stage. No fake live roster, no invented Kauai guest reviews, no waitlist dressed as booked. The bridge clause is written. Published prices.',
+        'No invented Kauaʻi reviews and no “now serving” line ahead of a crew. Both shores. Request availability. Service and tax stay on their own lines.',
       lede:
-        'Both shores. Inquiry. We staff the estate when a crew exists. We will not print “now serving Kauaʻi” ahead of that.',
+        'Princeville and Poʻipū are one department. Request availability. We confirm a crew before we take the night. We will not print “now serving Kauaʻi” ahead of that.',
       photo: 'svcHonestyKauai',
       body: [
-        'We do not invent a flat driving fee that covers the island. Guest reviews: none yet.',
+        'We do not invent guest reviews or a live roster. A page is not a held date. We do not invent a flat driving fee for the whole island. The Hanalei bridge is a written clause. Rain can move a table indoors. It does not move the crew to the other shore.',
+        'A farm is named only when the receipt supports it. We do not impersonate another kitchen. A hotel room without a stove is declined. There is no same-day trip to another island. 20% service and Hawaiʻi GET up to 4.712% sit on their own lines. A 50% deposit follows a written yes. Gratuity is never required. Request availability on [the quote form](/quote). The card is on [pricing](/pricing).',
       ],
       faqs: [
         {
-          q: 'Is inquiry a waitlist?',
-          a: 'Inquiry means we confirm a crew before we take the night. You still get a written quote.',
+          q: 'Is a request for availability the same as a held Kauaʻi date?',
+          a: 'No. You request availability, and we confirm a crew before we take the night. You still get a written reply. A page on this site is not a booked roster, and it is not a waitlist dressed up as booked.',
         },
         {
-          q: 'South Shore chef as a brand?',
-          a: 'No. One department, two shores.',
+          q: 'Do you have Kauaʻi guest reviews yet?',
+          a: 'Not yet. We do not invent them. We also do not print “now serving Kauaʻi” ahead of a staffed crew. The proof today is the published card and the written reply after you request availability.',
         },
         {
-          q: 'Farm cook Kauai?',
-          a: 'Related search, not us. We do not impersonate another kitchen or invent farm names. Inquiry-stage estate cooking on both shores is this department.',
+          q: 'Will you invent a farm name, or a flat fee that covers both shores?',
+          a: 'No. A farm is named only when the receipt supports it. We do not impersonate another kitchen, and we do not invent a flat driving fee for the whole island. Princeville and Poʻipū are different drives. The bridge is a written clause.',
+        },
+        {
+          q: 'Can one crew cook Poʻipū and then another island the same day?',
+          a: 'No. There is no same-day inter-island crossing. A south-shore night stays on Kauaʻi. Rain may move the table indoors. It does not move the crew off the island or across the bridge in silence.',
+        },
+        {
+          q: 'Will you cook a hotel room on either shore that has no kitchen?',
+          a: 'No. The estate needs a stove. A room without one is declined. Princeville and Poʻipū houses with kitchens are the work. Request availability and name the shore before any deposit.',
+        },
+        {
+          q: 'Are service, tax, and a tip bundled into one Kauaʻi figure?',
+          a: `They are not. 20% service and Hawaiʻi GET up to 4.712% each stand alone. A 50% deposit follows a written yes. Gratuity is never required. Request availability on [the quote form](/quote). See [pricing](/pricing). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/faq', label: 'FAQ' },
+        { path: '/pricing', label: 'Starting prices' },
         { path: '/hanalei-bridge', label: 'Bridge clause' },
-        { path: '/coverage', label: 'Coverage' },
+        { path: '/quote', label: 'The quote form' },
       ],
     },
     {
       slug: 'guest-counts',
       name: 'Guest counts',
-      h1: 'Guest counts we staff on Kauai — estate formats to about seventy-five.',
-      title: 'Guest counts we staff on Kauai | myCHEF',
+      h1: 'Kauaʻi guest counts — both shores, estate tables, rain indoors.',
+      title: 'Guest counts for both Kauai shores | myCHEF',
       description:
-        'Kauai dinners 2–15. Estate receptions about 10–75. Inquiry stage. Larger formats quoted. Princeville, Hanalei, Poʻipū.',
+        'Kauaʻi dinners for 2–15 and estate receptions about 10–75 on both shores. Rain can move a table indoors. Larger formats are quoted. Request availability.',
       lede:
-        'An estate table looking into a valley is not a ballroom. We staff to about seventy-five when a crew exists.',
+        'An estate table is not a ballroom. Dinners run from two to fifteen. Receptions are about ten to seventy-five when a crew exists. Request availability and name the shore.',
       photo: 'svcCountsKauai',
       body: [
-        'Inquiry stage. Headcount is still written. Far-North weather can shrink the outdoor table — the clause is on the Hanalei bridge notes.',
+        'Princeville and Poʻipū use the same bands. The house decides, not the shore. Rain can move a north-shore table indoors without changing the headcount. A closure on the Hanalei bridge moves the night. It does not silently resize the list onto the south shore. A list past about seventy-five is quoted as its own format or declined.',
+        'Children are part of the headcount on the quote. What that does to the total is set out in the written quote. There is no separate published kids’ price and no age cut-off. A plated estate table may add a server or a sous chef on [staffing](/staffing). Tell us if the count changes and we re-quote in writing. Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
-          q: 'A hundred on a North Shore lawn?',
-          a: 'Quoted or declined. About seventy-five is the published hold. The road may decide.',
+          q: 'Can you staff a hundred guests on a North Shore lawn?',
+          a: 'That list is quoted as its own format or declined. About seventy-five is the published reception band, and only when the house and a crew can hold it. The road may still move a far-north night. Request availability with the address.',
         },
         {
-          q: 'South Shore larger than North?',
-          a: 'The house decides, not the shore. Poʻipū still sits in the same guest-count bands.',
+          q: 'If rain moves a Princeville table indoors, does the headcount change?',
+          a: 'No. Rain changes the room, not the number. The indoor table has to hold the count you already sent. If the dining room is short, we say so before you accept. We do not shrink the list in silence.',
+        },
+        {
+          q: 'Are children outside the count when rain moves a Princeville table indoors?',
+          a: 'No. Request availability with one number for the room you will actually use. Children are part of the headcount on the island quote. What that does to the total is set out in the written quote. Rain does not drop them off the list.',
+        },
+        {
+          q: 'Does a Poʻipū estate use a different guest band than a north-shore table?',
+          a: 'No. Both shores use dinners from two to fifteen and receptions about ten to seventy-five. The house decides what it can hold. A south-shore lawn is not a larger product than a Princeville dining room.',
+        },
+        {
+          q: 'What if the count changes after we request availability?',
+          a: 'Tell us and we re-quote in writing. The reply covers the headcount you named. A larger list is not covered until you accept the rewrite. Request availability again if the shore changes too.',
+        },
+        {
+          q: 'What do we send when we request availability for an estate table?',
+          a: `The shore, the estate, the date, indoors or lawn, and the headcount with children included. Princeville or Poʻipū. Request availability on [the quote form](/quote). Bands are on [pricing](/pricing). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/events', label: 'Estate events' },
-        { path: '/wedding-week', label: 'Wedding week' },
-        { path: '/north-shore', label: 'North Shore' },
+        { path: '/honeymoon-dinners', label: 'Dinner for two' },
+        { path: '/staffing', label: 'Staffing' },
+        { path: '/pricing', label: 'Starting prices' },
       ],
     },
     {
@@ -774,58 +861,92 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'what-we-dont-do',
       name: 'What we will not claim',
-      h1: 'What we will not claim on Hawaiʻi Island.',
-      title: 'What we will not claim on Hawaiʻi Island | myCHEF',
+      h1: 'What the west side will not claim, and what Hilo is not.',
+      title: 'What the west side will not claim | myCHEF',
       description:
-        'No whole-island coverage, no invented farm names, no fake guest reviews, no same-day Kona–Hilo round trip. West side first. Inquiry stage.',
+        'No invented reviews and no same-day Kona–Hilo trip. West side first. Join the inquiry list. Hilo is a separate dedicated east-side day, quoted in writing.',
       lede:
-        'Four thousand square miles. We cook the west-side radius. Hilo is a different day. Coffee origin is labeled when the law requires it.',
+        'We cook the Kona–Kohala side first. We do not claim the whole island. Hilo is a separate dedicated east-side day, quoted in writing. Join the inquiry list.',
       photo: 'svcHonestyBigisland',
       body: [
-        'Reviews: none yet.',
+        'We do not invent guest reviews, chef names, or licenses. We do not print “now serving Hilo” ahead of a staffed kitchen. A hotel room without a stove is declined. Kona, Waikoloa, and Kohala houses with kitchens are the west-side work. There is no same-day round trip to Hilo, and no same-day hop to another island.',
+        'A farm is named only when the receipt supports it. Coffee origin follows the note on [coffee origin](/coffee-act-198). 20% service and Hawaiʻi GET up to 4.712% sit on their own lines. A 50% deposit follows a written yes. Gratuity is never required. Join the inquiry list on [the quote form](/quote). The card is on [pricing](/pricing).',
       ],
       faqs: [
         {
-          q: 'Now serving Hilo?',
-          a: 'Quote-only with dedicated staffing. We will not publish that ahead of a crew.',
+          q: 'Are you now serving Hilo on the same crew as Kona?',
+          a: 'No. We will not print “now serving Hilo” ahead of a staffed kitchen. Hilo is a separate dedicated east-side day, quoted in writing. It is not a same-day round trip from the west side.',
         },
         {
-          q: 'Named Kona farm on the card?',
-          a: 'Only in writing. Act 198 from 2027.',
+          q: 'Will a named Kona farm appear on the menu card?',
+          a: 'Only when the receipt supports the name. We do not invent farm names. Coffee origin follows the note on [coffee origin](/coffee-act-198). A label without that paper does not go on the card.',
+        },
+        {
+          q: 'Do you have Hawaiʻi Island guest reviews?',
+          a: 'Not yet. We do not invent them. West-side work is Kona, Waikoloa, and Kohala first. Join the inquiry list. A review page is not a substitute for the written reply.',
+        },
+        {
+          q: 'Will you cook a Kona hotel room that has no stove?',
+          a: 'No. The test is a working kitchen. A room without a cooktop is declined before a deposit. Resort residences and houses that actually cook are the west-side booking.',
+        },
+        {
+          q: 'Can the same crew cover a Kohala dinner and Hilo on one Saturday?',
+          a: 'No. There is no same-day Kona–Hilo round trip, and no same-day hop to another island. Join the inquiry list for the west side only. Hilo is a separate dedicated east-side day, quoted in writing.',
+        },
+        {
+          q: 'What sits on its own line, and is gratuity required?',
+          a: `The west-side reply lists 20% service alone and Hawaiʻi GET up to 4.712% alone. Half of what you accept is the deposit. Gratuity is never required, including on a Kohala terrace. Join the inquiry list on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/faq', label: 'FAQ' },
+        { path: '/pricing', label: 'Starting prices' },
+        { path: '/coffee-act-198', label: 'Coffee origin' },
         { path: '/east-side', label: 'East side' },
-        { path: '/coverage', label: 'Coverage' },
       ],
     },
     {
       slug: 'guest-counts',
       name: 'Guest counts',
-      h1: 'Guest counts we staff on Hawaiʻi Island — west-side tables, not the whole island.',
-      title: 'Guest counts we staff on Hawaiʻi Island | myCHEF',
+      h1: 'Hawaiʻi Island guest counts — west-side terraces first.',
+      title: 'Kona–Kohala guest counts, Hilo separate | myCHEF',
       description:
-        'West-side dinners 2–15. Receptions about 10–75. Hilo is a different day. Inquiry stage. Larger formats quoted.',
+        'West-side dinners for 2–15 and receptions about 10–75. Join the inquiry list. Hilo is a separate dedicated east-side day, quoted in writing.',
       lede:
-        'Eight on a lava terrace is a night we know. A hundred across two climate zones is not. Headcount is written with the address.',
+        'A terrace dinner on the Kona–Kohala side is the booking. Hilo is a separate dedicated east-side day, quoted in writing. Join the inquiry list with the west-side address.',
       photo: 'svcCountsBigisland',
       body: [
-        'West-side first. Waikoloa, Mauna Lani, Kona town. East side is dedicated staffing — not added onto a Waikoloa count.',
+        'Dinners run from two to fifteen. Receptions are about ten to seventy-five, on Kona, Waikoloa, and Kohala terraces and dining rooms first. Ironman week compresses Kailua-Kona. Flag the dates. The bands do not grow. A larger list is quoted as its own format or declined. Hilo and Volcano are not added onto a west-side count.',
+        'Children are part of the headcount on the quote. What that does to the total is set out in the written quote. There is no separate published kids’ price and no age cut-off. A plated terrace may add a server or a sous chef on [staffing](/staffing). Tell us if the count changes and we re-quote in writing. Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
-          q: 'Ironman week larger lists?',
-          a: 'Town compresses. Flag dates early. Headcount still has a ceiling.',
+          q: 'Do Ironman-week lists in Kailua-Kona get a larger guest band?',
+          a: 'No. Town compresses that week. Flag the dates when you join the inquiry list. Dinners stay two to fifteen. Receptions stay about ten to seventy-five. A larger list is quoted as its own format or declined.',
         },
         {
-          q: 'Volcano dinner for twelve?',
-          a: 'Quote-only east side.',
+          q: 'Can a Volcano dinner for twelve share a west-side day?',
+          a: 'No. Hilo and Volcano are a separate dedicated east-side day, quoted in writing. Twelve on the Kona–Kohala side is a normal dinner. Twelve in Volcano is not stacked onto a Waikoloa count.',
+        },
+        {
+          q: 'How do children count on a Kohala terrace, and can Hilo share that number?',
+          a: 'Join the inquiry list with one west-side number. Children are part of the headcount on the island quote for that terrace. Hilo is not added to the same count. The written quote sets out the total. There is no age cut-off.',
+        },
+        {
+          q: 'When does a Waikoloa dinner add a server or a sous chef?',
+          a: 'When the written headcount and the service style need them. A small dinner is the chef. A plated reception can add those roles as their own lines on [staffing](/staffing). This page does not publish a crew ratio.',
+        },
+        {
+          q: 'What if the west-side count changes after the written reply?',
+          a: 'Tell us and we re-quote in writing. The reply covers the headcount you named. A larger terrace is not covered until you accept the rewrite. Leave Hilo off that same note.',
+        },
+        {
+          q: 'What do we send to join the inquiry list with a headcount?',
+          a: `The Kona, Waikoloa, or Kohala address, the date, dining room or terrace, and the headcount with children included. Join the inquiry list on [the quote form](/quote). Bands are on [pricing](/pricing). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/kohala-corridor', label: 'West-side radius' },
-        { path: '/events', label: 'Occasions' },
+        { path: '/honeymoon-dinners', label: 'Dinner for two' },
+        { path: '/staffing', label: 'Staffing' },
         { path: '/pricing', label: 'Starting prices' },
       ],
     },

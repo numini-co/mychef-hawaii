@@ -15,25 +15,46 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'rehearsal-dinners',
       name: 'Rehearsal dinners',
-      h1: 'Oahu rehearsal dinners — the night before, as its own line.',
-      title: 'Oahu rehearsal dinners as their own line | myCHEF',
+      h1: 'Oʻahu rehearsal dinner — wedding party, the night before.',
+      title: 'Night-before rehearsal dinner on Oahu | myCHEF',
       description:
-        'Seated rehearsal dinners in Kahala dining rooms and Ko Olina villas. Not the reception.',
+        'Seated rehearsal dinner for the wedding party in a Kahala dining room or Ko Olina villa, the night before. Its own line. Request a written quote.',
       lede:
-        'Twelve seats, plated fish, the night before. The lawn reception is a different booking. We write this line separately so the quote is honest.',
+        'One seated dinner the night before the wedding, for the wedding party and family. Kahala dining rooms and Ko Olina villas. Not the reception, and not the night you land.',
       photo: 'svcRehearsalOahu',
       body: [
-        'Kahala dining rooms hold a table. Ko Olina villas hold a week.',
+        'The table is in the rental’s dining room or on its lānai. Kahala seats that group inside. A Ko Olina villa keeps the lawn for the wedding and uses the dining room this night. A Honolulu tower still waits on the freight window before the cook comes up. Kailua is a driveway, and it is still one address.',
+        'The night is its own line, apart from the reception. Plated and family-style are both possible. The written menu decides. The chef leaves before the night runs late. The next day’s crew is separate. See [weddings](/weddings) and [pricing](/pricing). Request a written quote on [the quote form](/quote) with the date, address, headcount, and the wedding date.',
       ],
       faqs: [
         {
-          q: 'Can it be family-style?',
-          a: 'Yes. Plated is the usual rehearsal.',
+          q: 'Can you cook our rehearsal dinner in a Kahala house the night before the wedding?',
+          a: 'Yes, when that house has a dining room or a lānai for the wedding party and family. It is one seated night, not the reception and not the night you land. Send the address and the wedding date this dinner sits before.',
+        },
+        {
+          q: 'Can an Oʻahu rehearsal be family-style, or only plated?',
+          a: 'Either style can be written. A Kahala dining room can take courses. A Ko Olina table can take platters. The menu you accept is the one we cook. We will not call one style the usual rehearsal on this island.',
+        },
+        {
+          q: 'Will the chef stay in a Honolulu tower if the toasts run late?',
+          a: 'The cook finishes and leaves before the night runs late. A tower still has to clear its freight window before service starts. The next day’s crew is a separate booking. This page is not the whole wedding week. See [weddings](/weddings).',
+        },
+        {
+          q: 'Is a Ko Olina rehearsal the same night as the welcome dinner?',
+          a: 'No. The welcome dinner is the night guests land. This dinner is the night before the ceremony, for the wedding party and family, in the villa dining room or on the lānai. They are separate lines on the quote.',
+        },
+        {
+          q: 'How is the rehearsal quoted against the Oʻahu reception?',
+          a: 'As its own line. There is no separate published rehearsal price. Fee lines are on [pricing](/pricing): 20% service and Hawaiʻi GET up to 4.712% each alone. A 50% deposit follows acceptance. Gratuity is never required.',
+        },
+        {
+          q: 'What should we send to request a written quote for a Kailua rehearsal?',
+          a: `Name the building first: a Kailua driveway, a Kahala dining room, or a Ko Olina gate, plus any freight rule. Then the dinner date, the seats, and which wedding morning follows. Request a written quote on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
         { path: '/weddings', label: 'Weddings' },
-        { path: '/events/welcome-dinners', label: 'Welcome dinners' },
+        { path: '/pricing', label: 'Starting prices' },
         { path: '/kahala', label: 'Kahala' },
       ],
     },
@@ -271,30 +292,47 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'rehearsal-dinners',
       name: 'Rehearsal dinners',
-      h1: 'Maui rehearsal dinners — a seated night, not the reception.',
-      title: 'Maui rehearsal dinners — a seated night | myCHEF',
+      h1: 'Maui villa rehearsal — one seated night before the ceremony.',
+      title: 'Rehearsal dinner private chef on Maui | myCHEF',
       description:
-        'Seated rehearsal dinners in Wailea, Kapalua and Kāʻanapali houses. Not the lawn reception.',
+        'One seated rehearsal dinner in a Wailea, Kapalua, or Kāʻanapali villa the night before the wedding. Own line. Request a written quote.',
       lede:
-        'A table, paced courses, the night before. The reception is a different line on the week. West Maui Saturday traffic is planned into arrival.',
+        'On a villa week this is one seated dinner the night before the ceremony, for the wedding party and family. Wailea, Kapalua, and Kāʻanapali. Not the lawn reception.',
       photo: 'svcRehearsalMaui',
       body: [
-        'Kapalua lanais and Wailea dining rooms.',
+        'The wedding party and family sit in the rental’s dining room or on the lānai. Wailea houses often use the dining room. A Kapalua or Kāʻanapali villa can set the same table on a covered lānai and leave the lawn for the wedding. A Friday drive between those shores is written into this night’s arrival only.',
+        'Saturday’s crew is a different line. Plated and family-style are both possible, and the written menu decides. The chef is out before the night runs late. The rest of the week is on [weddings](/weddings). Fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the villa, the dinner date, the headcount, and the wedding date this night sits before.',
       ],
       faqs: [
         {
-          q: 'Is this the welcome dinner?',
-          a: 'Rehearsal is the seated night before the ceremony.',
+          q: 'Can you cook our rehearsal dinner at the villa the night before the wedding?',
+          a: 'Yes. It is one seated dinner for the wedding party and family, in the villa dining room or on the lānai. It is not the lawn reception and not the night you land. The written menu says whether that table is plated or family-style.',
         },
         {
-          q: 'Lahaina rehearsal?',
-          a: 'West Maui houses with kitchens.',
+          q: 'Is a Wailea rehearsal just the welcome dinner with a later name?',
+          a: 'No. The welcome dinner is arrival night on a villa week. This one is the night before the ceremony. A Wailea dining room and a Kapalua lānai are both this booking when you name the house. The week is on [weddings](/weddings).',
+        },
+        {
+          q: 'Can the Kapalua wedding party eat family-style, or only from plated courses?',
+          a: 'Both are possible. The written menu decides for that table. A covered lānai and the dining room can hold either style. We do not call one of them the usual Maui rehearsal. The night stays its own line.',
+        },
+        {
+          q: 'Does the Friday drive from Kāʻanapali change who cooks on Saturday?',
+          a: 'Friday’s drive is planned into this night’s arrival only. Saturday’s crew is a separate line. The chef for the rehearsal leaves before the night runs late, so the wedding morning does not inherit the same shift.',
+        },
+        {
+          q: 'Where does a villa-week rehearsal sit on the quote next to the reception?',
+          a: 'On its own line. There is no separate published price for this night. Fee lines are on [pricing](/pricing): 20% service and Hawaiʻi GET up to 4.712% each alone, then a 50% deposit after you accept. Gratuity is never required.',
+        },
+        {
+          q: 'What do we send when we request a written quote for this villa dinner?',
+          a: `Start with the shore. A Friday drive to Kapalua is not a Wailea clock. Add the villa, how many are in the wedding party, the dinner date, and the ceremony date. Request a written quote on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/wedding-week', label: 'Wedding week' },
-        { path: '/west-maui', label: 'West Maui' },
-        { path: '/events/welcome-dinners', label: 'Welcome dinners' },
+        { path: '/weddings', label: 'Weddings' },
+        { path: '/pricing', label: 'Starting prices' },
+        { path: '/wailea', label: 'Wailea' },
       ],
     },
     {
@@ -531,30 +569,47 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'rehearsal-dinners',
       name: 'Rehearsal dinners',
-      h1: 'Kauai rehearsal dinners — estate table, inquiry.',
-      title: 'Kauai rehearsal dinners — estate table, inquiry | myCHEF',
+      h1: 'Kauaʻi estate rehearsal — request availability for the night before.',
+      title: 'Estate rehearsal dinner, request availability | myCHEF',
       description:
-        'Seated rehearsal dinners in Princeville, Hanalei and Poʻipū. Inquiry stage. Not the reception.',
+        'Estate rehearsal dinner in Princeville or Poʻipū the night before the wedding. Rain and the bridge stay in the note. Request availability.',
       lede:
-        'An estate table looking into a valley, or a South Shore dining room. Inquiry. Far-North inherits the bridge clause.',
+        'One seated dinner the night before the ceremony, in a Princeville estate or a Poʻipū dining room. Request availability and name the shore. Not the reception.',
       photo: 'svcRehearsalKauai',
       body: [
-        'Inquiry list with the shore.',
+        'The wedding party and family sit in the rental’s dining room or on a covered lānai. Rain moves a Poʻipū table indoors. It does not turn the night into the reception. A Princeville house past the Hanalei bridge still follows that clause: if the road closes, the night moves rather than jumping shores.',
+        'Plated and family-style are both possible. The written menu decides. The chef leaves before the night runs late, and the next day’s crew is a separate line. The week is on [weddings](/weddings). Fee lines are on [pricing](/pricing). Request availability on [the quote form](/quote) with the shore, the date, the headcount, and the wedding date this dinner sits before.',
       ],
       faqs: [
         {
-          q: 'Can I book a date now?',
-          a: 'Join the inquiry with the shore and the dates. We will not fake instant confirm.',
+          q: 'Can you cook a rehearsal dinner in a Princeville estate the night before?',
+          a: 'Request availability and name the shore. If a crew exists, it is one seated dinner for the wedding party and family, in the estate dining room or on a covered lānai. A printed page is not a held date.',
         },
         {
-          q: 'Hanalei rehearsal in surf season?',
-          a: 'The bridge clause still applies.',
+          q: 'If rain hits a Poʻipū lānai on the night before, where does the table go?',
+          a: 'Indoors, or onto a covered lānai, written before you accept. Rain changes the room. It does not turn this night into the reception. The wedding party and family still sit for one dinner.',
+        },
+        {
+          q: 'What happens to a Hanalei rehearsal if the bridge closes that afternoon?',
+          a: 'The night moves. It is not handed to Poʻipū in silence, and it is not forfeited for weather. Say if the house sits past the bridge when you request availability. The next day’s crew stays a separate line.',
+        },
+        {
+          q: 'Can the estate table be family-style for family, not only plated?',
+          a: 'Rain does not pick the style. Say platters or courses when you request availability, and that choice is what we write. A covered Poʻipū lānai can hold platters. A Princeville dining room can hold courses. Neither is the default.',
+        },
+        {
+          q: 'Is requesting availability for this dinner the same as booking the whole week?',
+          a: 'No. This page is one night. The week is on [weddings](/weddings). Fee lines are on [pricing](/pricing): 20% service and Hawaiʻi GET up to 4.712% each alone. A 50% deposit follows a written yes. Gratuity is never required. There is no separate rehearsal price.',
+        },
+        {
+          q: 'What do we send when we request availability for a south-shore rehearsal?',
+          a: `Say Poʻipū or Princeville before the menu, and whether the house sits past the bridge. Add the estate, the dinner date, the seats, and the ceremony date that follows. Request availability on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
-        { path: '/wedding-week', label: 'Wedding week' },
+        { path: '/weddings', label: 'Weddings' },
+        { path: '/pricing', label: 'Starting prices' },
         { path: '/hanalei-bridge', label: 'Bridge clause' },
-        { path: '/princeville', label: 'Princeville' },
       ],
     },
     {
@@ -792,30 +847,47 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'rehearsal-dinners',
       name: 'Rehearsal dinners',
-      h1: 'Kohala rehearsal dinners — west-side night before, inquiry.',
-      title: 'Kohala rehearsal dinners — west-side night before | myCHEF',
+      h1: 'Kohala rehearsal dinner — west-side night, on the inquiry list.',
+      title: 'West-side rehearsal dinner before the wedding | myCHEF',
       description:
-        'Seated rehearsal dinners on Kona–Kohala terraces. Inquiry stage. Not the reception. East side is a different day.',
+        'West-side rehearsal on a Kona–Kohala terrace the night before. Join the inquiry list. Hilo is a separate dedicated east-side day, quoted in writing.',
       lede:
-        'Eight seats on lava, plated kanpachi, Mauna Kea faint. The reception is a different line. East side is not an add-on.',
+        'One seated dinner the night before the ceremony, on a Kona, Waikoloa, or Kohala terrace. Join the inquiry list. Hilo is a separate dedicated east-side day, quoted in writing.',
       photo: 'svcRehearsalBigisland',
       body: [
-        'West-side radius: Kona–Kohala corridor. Inquiry stage.',
+        'The wedding party and family sit in the rental’s dining room, or on the terrace once the lava stone cools. Kona, Waikoloa, and the Kohala Coast come first. Hilo is not added onto that night. It is a separate dedicated east-side day, quoted in writing. Ironman week compresses Kailua-Kona. Flag the dates. The night does not grow into the reception.',
+        'Plated and family-style are both possible. The written menu decides. The chef leaves before the night runs late. The next day’s crew is separate. See [weddings](/weddings) and [pricing](/pricing). Join the inquiry list on [the quote form](/quote) with the west-side address, the date, the headcount, and the wedding date.',
       ],
       faqs: [
         {
-          q: 'Hilo rehearsal?',
-          a: 'Quote-only dedicated staffing. Not a west-side round trip.',
+          q: 'Can you cook the rehearsal on a Kohala terrace the night before the wedding?',
+          a: 'Join the inquiry list for a west-side house. It is one seated dinner for the wedding party and family, in the dining room or on the terrace once the stone cools. Kona, Waikoloa, and Kohala come first.',
         },
         {
-          q: 'Ironman week?',
-          a: 'Flag the dates. Town compresses.',
+          q: 'Can a Hilo rehearsal share the crew with a Kona dinner the same day?',
+          a: 'No. Hilo is a separate dedicated east-side day, quoted in writing. It is not stacked onto a west-side night. Join the inquiry list with the Kona–Kohala address only.',
+        },
+        {
+          q: 'Does Ironman week in Kailua-Kona turn the rehearsal into a larger party?',
+          a: 'No. Town compresses that week. Flag the dates when you join the inquiry list. The night is still one seated dinner, quoted as its own line, and the next day’s crew is separate.',
+        },
+        {
+          q: 'Who is at the table, and can the menu be family-style as well as plated?',
+          a: 'The wedding party and family, not the full reception. Both plated and family-style are possible. The written menu decides. We do not call either style usual. The chef leaves before the night runs late.',
+        },
+        {
+          q: 'Is this the welcome dinner for people who just landed in Kona?',
+          a: 'No. The welcome dinner is the first night of the stay. This one is the night before the ceremony. The rest of the week is on [weddings](/weddings). This page does not plan that week.',
+        },
+        {
+          q: 'What do we send to join the inquiry list for a west-side rehearsal?',
+          a: `Send the west-side address only, the dinner date, the seats, and the ceremony date. Leave Hilo off. 20% service and Hawaiʻi GET up to 4.712% sit on [pricing](/pricing), each alone. Gratuity is never required. Join the inquiry list on [the quote form](/quote). Desk: ${desk}.`,
         },
       ],
       related: [
         { path: '/weddings', label: 'Weddings' },
+        { path: '/pricing', label: 'Starting prices' },
         { path: '/kohala-corridor', label: 'West-side radius' },
-        { path: '/kona', label: 'Kona' },
       ],
     },
     {
