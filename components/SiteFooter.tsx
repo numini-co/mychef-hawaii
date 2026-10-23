@@ -87,7 +87,7 @@ export default function SiteFooter({
               ))}
               <li>
                 <HostLink island="root" className="text-base text-paper hover:underline underline-offset-4">
-                  All Hawaiʻi
+                  Private chef Hawaii
                 </HostLink>
               </li>
             </ul>
