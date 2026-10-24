@@ -166,19 +166,32 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     path: '/locations',
     h1: 'Private chef towns, by island.',
     title: 'Private chef towns, by island | myCHEF Hawaii',
-    description: 'The towns and neighborhoods where myCHEF Hawaii private chefs cook on Oʻahu, Maui, Kauaʻi and the Big Island, with travel notes.',
-    lede: 'The towns and neighborhoods where myCHEF Hawaii private chefs cook on Oʻahu, Maui, Kauaʻi and the Big Island, with travel notes.',
+    description:
+      'Open the island that holds the house, then its town list. Prices and the service and tax lines live on the pricing pages. This page only routes you.',
+    lede:
+      'This page routes you to the island that has the house. It does not repeat that island’s town notes, and it does not print a price.',
     kicker: 'Statewide · Locations',
     photo: 'hubLocations',
     cardLabel: 'Private chef by town',
     body: [
-      'Each town keeps its own page on that island’s site.',
-      'Oahu: Honolulu to Ko Olina. Maui: Wailea to Kapalua. Kauaʻi: both shores. Hawaiʻi Island: Kona to Kohala, west side first.',
+      'Open the island, then the town. [Oʻahu towns](oahu:/locations) run from Honolulu to Ko Olina. [Maui towns](maui:/locations) run from Wailea to Kapalua. [Kauaʻi towns](kauai:/locations) cover both shores. [Hawaiʻi Island towns](bigisland:/locations) are Kona to Kohala first. Hilo is a separate dedicated east-side day on that island’s site, not a stop you add here. Prices live on [pricing](/pricing). The 20% service charge and Hawaiʻi GET up to 4.712% are their own lines on the written quote, and a 50% deposit follows acceptance. This hub page does not invent a travel fee.',
     ],
     faqs: [
       {
-        q: 'Where is the Honolulu page?',
-        a: 'On the Oʻahu site: oahu.mychef-hawaii.com/honolulu.',
+        q: 'Which island’s town page should I open?',
+        a: 'Open the island that has the house. [Oʻahu towns](oahu:/locations), [Maui towns](maui:/locations), [Kauaʻi towns](kauai:/locations), and [Hawaiʻi Island towns](bigisland:/locations) each list the places we cook. This page does not copy those notes.',
+      },
+      {
+        q: 'Where do the prices live if they are not on this page?',
+        a: 'On [pricing](/pricing), and on each island’s pricing page: [Oʻahu](oahu:/pricing), [Maui](maui:/pricing), [Kauaʻi](kauai:/pricing), and [Hawaiʻi Island](bigisland:/pricing). A band on one host is not a band on the next. This page only routes you.',
+      },
+      {
+        q: 'Where do the service charge and the tax lines live?',
+        a: 'On the written quote for the island you opened, after the food: a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit holds a date after you accept. Gratuity is never required. The line order is on [pricing](/pricing).',
+      },
+      {
+        q: 'How do I start on the right island from here?',
+        a: 'Oʻahu and Maui take a written quote. Kauaʻi is a request for availability. Hawaiʻi Island is join the inquiry list, west side first. Hilo is a separate dedicated east-side day on that site. Use [the quote form](/quote) and name one island. Desk: quotes@mychef-hawaii.com, +1 (808) 468-7748 (tel:+18084687748), https://wa.me/18084687748.',
       },
     ],
   },
