@@ -16,14 +16,30 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       h1: 'Lanikai: a quieter 30-day house, not a second Kailua corridor.',
       title: 'Lanikai villa dinner — quieter 30-day houses | myCHEF',
       description:
-        'Lanikai beach-house dinners under the same 30-day estate rule as Kailua. Quieter inventory.',
+        'Lanikai dinners in quieter 30-day beach houses, the same rule as Kailua. Galley kitchens are common. Parking on these residential streets is limited.',
       lede:
         'Mokulua across the channel. Galley kitchens are common. The stay is still a month, not a weekend tourist drop-in.',
       photo: 'cellLanikai',
       body: [
-        'Weekend tourist drop-ins without a genuine stay are declined.',
+        'The same 30-day estate rule as Kailua applies, in a quieter beach-house inventory. Galley kitchens are common, so the menu is written for the burners that are there. Parking on these residential streets is limited. A weekend tourist drop-in without a genuine stay is declined. There is no restaurant strip to walk to. Request a written quote on [the quote form](/quote) with the address and the length of the stay.',
       ],
       faqs: [
+        {
+          q: 'Do you cook in Lanikai beach houses with galley kitchens?',
+          a: 'We do, when the cooktop is real. Galley kitchens are common here, and the menu is written for those burners rather than for a resort range. A house without a cooktop is declined before a deposit. Send the kitchen with the address.',
+        },
+        {
+          q: 'Why is a Lanikai stay a month rather than a weekend drop-in?',
+          a: 'The same 30-day estate rule as Kailua applies. A one-night tourist dinner without a genuine stay is declined. The house is a long stay, not a second weekend corridor. Put the length of the stay on [the quote form](/quote).',
+        },
+        {
+          q: 'How does limited parking on a Lanikai street affect arrival?',
+          a: 'These are quiet residential streets, and parking is limited. Tell us where the car goes before the shop, the way a tower would name a stall. We will not discover a blocked lane at service time. The plan is on the written quote.',
+        },
+        {
+          q: 'Is Lanikai booked as a second Kailua corridor?',
+          a: 'It is the quieter beach-house inventory next to Kailua, not a copy of that town page. Both are base zone. Open [Kailua](/kailua) for the town, and this page for the quieter streets. Request a written quote for the house you have.',
+        },
       ],
       related: [
         { path: '/kailua', label: 'Kailua corridor' },
@@ -37,15 +53,30 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       h1: 'Hawaiʻi Kai households — east Honolulu, resident tables.',
       title: 'Hawaiʻi Kai household dinners — east Honolulu | myCHEF',
       description:
-        'East Honolulu household dinners in Hawaiʻi Kai. Resident entertaining more than tourist villas.',
+        'Hawaiʻi Kai household dinners in east Honolulu. Resident tables more than tourist villas. Traffic is planned into the chef day. A cooktop is required.',
       lede:
         'Marina light, a household range, traffic planned into the chef day.',
       photo: 'cellHawaiiKai',
       body: [
-        'Traffic is a timing problem, not a surprise invoice.',
-        'Weekly service for residents is on our kamaʻāina page. A cooktop is still required.',
+        'This is east Honolulu, and the usual table is a resident household rather than a tourist villa. Traffic is planned into the chef day. It is a timing problem, not a surprise invoice. A working cooktop is required. Weekly service for residents is on our [kamaʻāina](/kamaaina) page. Request a written quote on [the quote form](/quote) with the house and the headcount.',
       ],
       faqs: [
+        {
+          q: 'Do you cook in Hawaiʻi Kai homes?',
+          a: 'We cook household kitchens here when there is a working cooktop, a fridge, and a table. Resident entertaining is the usual night, more than a tourist villa. A room without a range is declined before a deposit. Send the house on [the quote form](/quote).',
+        },
+        {
+          q: 'How does east Honolulu traffic change a Hawaiʻi Kai chef day?',
+          a: 'It changes the arrival, and that arrival is planned into the chef day. The drive is not a fee discovered on the invoice. Town timing and this marina neighborhood are not the same hour. Name the address so the clock is written first.',
+        },
+        {
+          q: 'Is Hawaiʻi Kai a tourist-villa area or a resident household?',
+          a: 'Resident households are the fit. A weekly cook for people who live here is the [kamaʻāina](/kamaaina) line. A one-off celebration can still be quoted when the kitchen works. We do not treat this marina as a resort strip.',
+        },
+        {
+          q: 'What has to be true of a Hawaiʻi Kai kitchen before you quote?',
+          a: 'A cooktop, cold storage, and room for the headcount. We do not publish a minimum counter length. If the household range cannot hold the menu, we say so before you accept. Request a written quote on [the quote form](/quote). Bands are on [pricing](/pricing).',
+        },
       ],
       related: [
         { path: '/honolulu', label: 'Honolulu corridor' },
@@ -59,15 +90,30 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       h1: 'Diamond Head residences — the cone, not the Kahala estate belt.',
       title: 'Diamond Head residence dinners — adjacent rooms | myCHEF',
       description:
-        'Diamond Head-adjacent residences with real dining rooms.',
+        'Diamond Head dinners in adjacent rooms with real dining rooms. Load-in and building rules are confirmed in writing. Quieter streets than a resort strip.',
       lede:
         'One volcanic cone through the sliders. Load-in in writing. This is not a second Gold Coast essay.',
       photo: 'cellDiamondHead',
       body: [
-        'Hotel suites without a cooktop stay declined. Celebration tables of 4–15 are the usual fit.',
-        'We will not sell a rooftop we do not control. Send the building type on the quote form.',
+        'These are Gold Coast-adjacent residences with real dining rooms, on quieter residential streets than a resort strip. Building rules vary, so load-in is confirmed in writing. Celebration tables of 4–15 are the usual fit. Hotel suites without a cooktop stay declined. We will not sell a rooftop we do not control. Request a written quote on [the quote form](/quote) and name the building type.',
       ],
       faqs: [
+        {
+          q: 'Do you cook in Diamond Head residences with real dining rooms?',
+          a: 'That is the fit: a residence with a dining room and a cooktop, beside the cone. Celebration tables of 4–15 are the usual ask. A suite without a range is declined. Send the building type on [the quote form](/quote).',
+        },
+        {
+          q: 'How do building rules and load-in work on a Diamond Head street?',
+          a: 'Rules vary by building, so load-in is confirmed in writing before the shop. These are quieter residential streets than a resort strip. Tell us where the car goes and which entrance the crew uses. We do not discover that at service.',
+        },
+        {
+          q: 'Is a Diamond Head night the same booking as a Kahala estate?',
+          a: 'It is the adjacent rooms, not the Kahala page. Kahala is the estate belt. This page is the residences beside the cone. Both can be a seated dinner. Open [Kahala](/kahala) if that is the house, and request a written quote for this one if it is not.',
+        },
+        {
+          q: 'Will you use a hotel suite or a rooftop at Diamond Head?',
+          a: 'A hotel suite without a cooktop is declined. A rooftop we do not control is not for sale. The night is the dining room in the residence. Name the building on [the quote form](/quote). Fee lines are on [pricing](/pricing).',
+        },
       ],
       related: [
         { path: '/kahala', label: 'Kahala corridor' },

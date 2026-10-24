@@ -37,7 +37,7 @@ export default function Page() {
             {
               href: '/how-it-works',
               title: 'How it works',
-              body: 'Enquire, menu, written quote.',
+              body: 'Inquiry, menu, written quote.',
               still: photos.hubHow,
             },
           ]}

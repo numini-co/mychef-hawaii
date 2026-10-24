@@ -204,7 +204,8 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/locations': {
     title: 'Private chef towns, by island | myCHEF Hawaii',
-    description: 'The towns and neighborhoods where myCHEF Hawaii private chefs cook on Oʻahu, Maui, Kauaʻi and the Big Island, with travel notes.',
+    description:
+      'Open the island that holds the house, then its town list. Prices and the service and tax lines live on the pricing pages. This page only routes you.',
   },
   '/menus': {
     title: 'How menus are designed, by island | myCHEF Hawaii',

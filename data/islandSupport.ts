@@ -285,181 +285,249 @@ export const islandCoverage: Record<IslandId, IslandSupportPage> = {
 export const islandHow: Record<IslandId, IslandSupportPage> = {
   oahu: {
     h1: 'How an Oahu night runs — from quote to empty dishwasher.',
-    title: 'How an Oahu night runs — quote to empty dishwasher | myCHEF',
+    title: 'How an Oahu night runs, quote to cleanup | myCHEF',
     description:
-      'Oahu booking process: two-minute enquiry, menu in 48 hours, written quote with corridor fees, we cook and leave it clean. Honolulu to Ko Olina.',
+      'Oʻahu nights: date, address, headcount, and dietary notes, then a written quote. Honolulu condos add freight and parking. Fee lines stay separate.',
     lede:
-      'Same network process. Oahu changes the drive times — town rush, Ko Olina west, North Shore surcharge. We publish those on the quote.',
+      'The order is the note, the written total, the deposit, the menu you sign, then the shop and a clean kitchen. A tower freight slot changes the clock. It does not change that order.',
     kicker: 'How it works on Oʻahu',
     photo: 'howOahu',
     body: [
-      'WhatsApp or the quote form. Island is already Oʻahu. Dates, headcount, the address so we know whether it is Kahala, a Waikīkī residence, Ko Olina, or a North Shore day.',
-      'We arrive about three hours before service, shopped that day at the Honolulu fish market when the catch is the main. The dishwasher is empty when we leave.',
+      'Send the date, the address, the headcount, and dietary notes on [the quote form](/quote). A Honolulu or Waikīkī condo also needs the freight window, the parking stall, and the building rules when the tower requires them. Kahala houses and Ko Olina villas skip that slot and still need a cooktop.',
+      'The written quote lists the food, then a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit holds the date only after you accept. You sign the menu before anyone shops. The field list for a first note is on [getting started](/help/getting-started). A change after you accept is on [managing a booking](/help/managing-booking). Quotes are open. Request a written quote.',
     ],
     steps: [
       {
         n: '01',
-        title: 'Tell us the corridor.',
-        body: 'Honolulu, Waikīkī, Kahala, Kailua, Ko Olina, or North Shore. Headcount and dates. Two minutes.',
+        title: 'The building, then the note.',
+        body: 'Date, address, headcount, dietary notes. Name Honolulu, Kahala, Kailua, Ko Olina, or a North Shore day. A tower adds freight and where the car parks.',
       },
       {
         n: '02',
-        title: 'Menu in 48 hours.',
-        body: 'One or two directions around the kitchen you actually have — including compact condos. Kids and allergies designed in.',
+        title: 'The written total.',
+        body: 'Food first. Then a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines. A North Shore day prints travel on its own line. Bands are on [pricing](/pricing).',
       },
       {
         n: '03',
-        title: 'Written quote.',
-        body: 'Starting price, 20% service, GET up to 4.712%, North Shore surcharge if it applies — each on its own line.',
+        title: 'Deposit, then the menu.',
+        body: 'A 50% deposit holds the date after you accept. You sign the menu in writing before the shop. Gratuity is never required.',
       },
       {
         n: '04',
-        title: 'We cook, we leave it clean.',
-        body: 'On-site before the town rush. Shop that day. Serve. Pack out. The kitchen is cleaner than we found it.',
+        title: 'Shop, serve, clear.',
+        body: 'We shop that day and arrive about three hours before service, timed around the corridor. We cook, serve, and leave the dishwasher empty.',
       },
     ],
     faqs: [
       {
-        q: 'How early do you arrive in town?',
-        a: 'About three hours before service, scheduled around the corridor so we are not sitting in the Pali or H-1 at the wrong hour.',
+        q: 'What should I send before you quote an Oʻahu night?',
+        a: 'The date, the address, the headcount, and dietary notes. A Honolulu condo adds the freight window and the parking stall when the building requires them. Kahala and Ko Olina still need a cooktop. The full field list is on [getting started](/help/getting-started). Request a written quote on [the quote form](/quote).',
+      },
+      {
+        q: 'How do freight and parking change a Honolulu condo night?',
+        a: 'They are written on the quote before the shop, not discovered at the curb. The crew uses the freight window the building gives and the stall you name. A Kahala house does not use that slot. Send the building type with the address.',
+      },
+      {
+        q: 'Where do the service charge and Hawaiʻi GET sit on an Oʻahu total?',
+        a: 'They follow the food as their own lines: a 20% service charge, then Hawaiʻi GET up to 4.712%. Neither is folded into the dinner. A North Shore drive, when it applies, is also its own line. The card is on [pricing](/pricing).',
+      },
+      {
+        q: 'When does the 50% deposit hold a Kahala or Ko Olina date?',
+        a: 'It holds the date after you accept the written total, for that house and that headcount. A verbal yes does not hold the calendar. Later changes are on [managing a booking](/help/managing-booking). Gratuity is never required and is not inside the deposit.',
+      },
+      {
+        q: 'Who signs the menu before a Honolulu shop?',
+        a: 'You do, in writing, after the draft and before we buy. The draft follows a complete note. A tower freight window means that sign-off is finished before the crew comes up. We do not shop a menu you have not accepted.',
+      },
+      {
+        q: 'What does clean-down mean after an Oʻahu dinner?',
+        a: 'We clear the service, run the dishwasher, and leave the kitchen cleaner than we found it. A condo clean-down finishes inside the freight window. A Ko Olina villa finishes in the house kitchen. We do not leave a stack for the morning.',
       },
     ],
   },
   maui: {
     h1: 'How a Maui night runs — Wailea to West Maui logistics.',
-    title: 'How a Maui chef night runs | myCHEF',
+    title: 'How booking a Maui private chef works | myCHEF',
     description:
-      'Maui booking process: enquiry, 48-hour menu, written quote with corridor traffic planned in, we cook and leave it clean.',
+      'Maui villa weeks: shore, dates, address, headcount, and dietary notes. Arrival night is its own line. Saturday West Maui traffic is planned in.',
     lede:
-      'South Maui and West Maui are not the same Saturday. We plan arrival into the corridor instead of discovering traffic on your invoice.',
+      'A villa week is several meals, and arrival night is the first of them. Saturday traffic between Wailea and Kapalua changes the call time. It does not change the order of the booking.',
     kicker: 'How it works on Maui',
     photo: 'howMaui',
     body: [
-      'A Wailea lawn reception is a different crew than Date Night for two in Kapalua. The quote writes that difference before the deposit.',
-      'Groceries at cost on Stay Chef days. Signature dinners $225–$375 a guest. Upcountry surcharge when the house sits in the mist.',
+      'Name the shore, the dates, the villa address, the headcount, and dietary notes. An arrival-night dinner is the evening you land. Later meals in a Wailea, Kāʻanapali, or Kapalua week are separate lines on the same written total, not a second surprise invoice. The Saturday drive is planned before anyone shops.',
+      'The quote lists the food, then a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit holds the dates after you accept. You sign each menu before that day’s shop. First-note fields are on [getting started](/help/getting-started). A date move after that is on [managing a booking](/help/managing-booking). Quotes are open. Request a written quote on [the quote form](/quote).',
     ],
     steps: [
       {
         n: '01',
-        title: 'Tell us the shore.',
-        body: 'Wailea, Kīhei, Makena, Kāʻanapali, Kapalua, or an Upcountry address. Dates and headcount.',
+        title: 'Shore, landing, kitchen.',
+        body: 'Wailea, Kīhei, Makena, Kāʻanapali, or Kapalua. Dates, address, headcount, dietary notes. Say if Saturday crosses from the south shore.',
       },
       {
         n: '02',
-        title: 'Menu in 48 hours.',
-        body: 'Catch-led, or a tasting direction. Sushi-forward is a menu, not a separate brand.',
+        title: 'One total for the week you asked.',
+        body: 'Arrival night and any later villa-week meals are named. Then a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines. Bands are on [pricing](/pricing).',
       },
       {
         n: '03',
-        title: 'Written quote.',
-        body: 'Food, staffing, travel, 20% service, GET. West Maui traffic is planned into arrival, not added later.',
+        title: 'Deposit and menu sign-off.',
+        body: 'A 50% deposit holds the dates after you accept. You sign the menu before that day’s shop. Gratuity is never required.',
       },
       {
         n: '04',
-        title: 'The night.',
-        body: 'Shop that day. Arrive ~3 hours pre-service. Cook, serve, pack out. Wet-weather backup is written for lawns.',
+        title: 'Arrival, service, clean kitchen.',
+        body: 'We shop that day and arrive about three hours before service, with West Maui traffic already in the plan. We cook, serve, and leave the kitchen clean. A lawn has a wet-weather backup on the quote.',
       },
     ],
     faqs: [
       {
-        q: 'Do you charge extra to go from Wailea to Kapalua?',
-        a: 'Both are base zones. The cost is time — we leave earlier. Upcountry is the published surcharge.',
+        q: 'What is different about an arrival-night dinner in a Wailea villa?',
+        a: 'It is the meal the evening you land, written as its own line, not a welcome speech. We still need the villa address, the headcount, and dietary notes before we shop. Saturday landing time belongs in that note. Request a written quote on [the quote form](/quote).',
       },
       {
-        q: 'Can the same team do welcome dinner and reception?',
-        a: 'Yes as separate lines on a wedding week.',
+        q: 'How does a villa week change the Maui booking sequence?',
+        a: 'The sequence stays one written total. Arrival night and the later meals are listed on it, each with its menu sign-off before that day’s shop. A 50% deposit holds the dates after you accept. The week is not one dinner copied across the calendar.',
+      },
+      {
+        q: 'Does Saturday traffic between Wailea and Kapalua change the quote?',
+        a: 'It changes the call time, and that time is planned before the shop. Both shores are base. The cost of the crossing is time, written into arrival, not a fee discovered on the invoice. Say which way the crew is driving.',
+      },
+      {
+        q: 'Where do service and tax sit when a Maui week has more than one meal?',
+        a: 'After the food, on their own lines: a 20% service charge, then Hawaiʻi GET up to 4.712%. They are not folded into a Wailea band or a Kapalua band. Gratuity is never required. The card is on [pricing](/pricing).',
+      },
+      {
+        q: 'When does the deposit hold a Kapalua date?',
+        a: 'After you accept the written total for that villa and those dates. A verbal yes does not hold the week. Moving a night or a headcount is on [managing a booking](/help/managing-booking). The first note is on [getting started](/help/getting-started).',
+      },
+      {
+        q: 'What has to be signed before a Kāʻanapali shop?',
+        a: 'The menu for that meal, in writing. The shop follows the signed draft, not a resort brochure. A condo galley and an estate range are not given the same number of pans. We do not buy for a menu you have not accepted.',
       },
     ],
   },
   kauai: {
     h1: 'How a Kauai night runs — both shores and the bridge.',
-    title: 'How a Kauai night runs — both shores and the bridge | myCHEF',
+    title: 'How a Kauai night runs on both shores | myCHEF',
     description:
-      'Kauai booking process: inquiry list, shore and dates, 48-hour menu, written quote with driving fees and a Hanalei-bridge clause when it applies.',
+      'Request availability on Kauaʻi: shore, date, address, headcount, and dietary notes. Princeville rain and the Hanalei bridge are written before the shop.',
     lede:
-      'Inquiry stage. The process is the same. The island changes the weather and the road. Far-North inherits a written clause.',
+      'Request availability with the shore and the dates. Princeville rain and a Hanalei bridge closure change the night. They do not turn a request into a held date.',
     kicker: 'How it works on Kauaʻi',
     photo: 'howKauai',
     body: [
-      'Join the inquiry list with the shore — Princeville, Hanalei, Poʻipū, Kapaʻa — and the dates. We do not take a deposit on a crew that does not exist.',
-      'Far-North events: 72-hour notice. Road closures reschedule rather than forfeit. South Shore kitchens get the fire; North Shore gets the covered lānai plan.',
+      'Send the shore, the date, the address, the headcount, and dietary notes, and request availability. Princeville and Hanalei need a rain plan: a covered lānai or the dining room, named before the shop. A house past the Hanalei bridge carries the 72-hour notice already on our quotes, and a closure reschedules rather than forfeits. Poʻipū is the south-shore kitchen and a different drive from Līhuʻe.',
+      'The written total lists the food, then a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit follows a written yes, not the request itself. You sign the menu before the shop. The first note is on [getting started](/help/getting-started). A change after you accept is on [managing a booking](/help/managing-booking).',
     ],
     steps: [
       {
         n: '01',
         title: 'Name the shore.',
-        body: 'North, South, or Kapaʻa. Dates and headcount. Inquiry list — not a fake instant confirm.',
+        body: 'Princeville, Hanalei, Poʻipū, or Kapaʻa. Date, address, headcount, dietary notes. Request availability. A request is not a confirmation.',
       },
       {
         n: '02',
-        title: 'Menu in 48 hours.',
-        body: 'Ahi poke as a handshake. Wood-grilled catch when the South Shore kitchen can take fire.',
+        title: 'Rain plan and the bridge.',
+        body: 'North-shore houses name the indoor backup. Far-north addresses inherit the written bridge clause. Poʻipū names the south-shore arrival.',
       },
       {
         n: '03',
-        title: 'Written quote.',
-        body: 'Starting prices $225–$375 a guest. Shore surcharge. Bridge clause in writing when the address is far-North.',
+        title: 'The written total.',
+        body: 'Food, then a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines. Travel, when it applies, is quoted in writing. Bands are on [pricing](/pricing). We do not take a deposit on a crew that does not exist.',
       },
       {
         n: '04',
-        title: 'The night, if the road is open.',
-        body: 'We cook and leave it clean. If the bridge closes, we reschedule.',
+        title: 'Sign-off, service, clean-down.',
+        body: 'You sign the menu before the shop. If the road is open we cook, serve, and leave the kitchen clean. If the bridge closes, we reschedule.',
       },
     ],
     faqs: [
       {
-        q: 'Is inquiry the same as booked?',
-        a: 'No. Inquiry means we confirm a crew before we take the night. You still get a written quote.',
+        q: 'How do I request availability for a Princeville night?',
+        a: 'Send the shore, the date, the estate address, the headcount, and dietary notes on [the quote form](/quote), and request availability. That request is not a held date. We confirm a crew before any deposit. The field list is on [getting started](/help/getting-started).',
       },
       {
-        q: 'Who pays if the road closes?',
-        a: 'Far-North inherits reschedule-rather-than-forfeit. The clause is on the quote, not in the FAQ as a surprise.',
+        q: 'What is the rain plan for a north-shore lānai?',
+        a: 'A covered lānai or the dining room, named on the quote before the shop. Princeville mist is the usual case. Poʻipū can keep the outdoor fire when that kitchen allows it. The backup is written, not improvised at dusk.',
+      },
+      {
+        q: 'How does Hanalei bridge timing affect the night?',
+        a: 'A house past the bridge carries 72-hour notice, already on our quotes. A closure reschedules the night rather than forfeits it. The clause is on the written total. It is not a surprise after you have accepted.',
+      },
+      {
+        q: 'Is a Poʻipū night the same sequence as Princeville?',
+        a: 'The sequence is the same: request availability, written total, menu sign-off, then service if we can staff it. The drive from Līhuʻe is shorter on the south shore, and the rain plan is different. A south-shore address does not inherit the bridge clause.',
+      },
+      {
+        q: 'When does a deposit hold a Kauaʻi date?',
+        a: 'After a written yes, for the shore and the headcount on that total. The request for availability does not hold the calendar. A 50% deposit follows acceptance. Gratuity is never required. Changes after that are on [managing a booking](/help/managing-booking).',
+      },
+      {
+        q: 'Who signs the menu before a south-shore shop?',
+        a: 'You do, in writing, before we buy for that Poʻipū or Kōloa kitchen. The draft follows a complete request for availability. We do not shop a menu that is still a maybe. Service and tax lines are on [pricing](/pricing).',
       },
     ],
   },
   bigisland: {
     h1: 'How a Hawaiʻi Island night runs — Kona–Kohala first.',
-    title: 'How a Hawaiʻi Island night runs — Kona–Kohala first | myCHEF',
+    title: 'How a Hawaiʻi Island night runs, west first | myCHEF',
     description:
-      'Big Island booking process: west-side address first, 48-hour menu, written quote, Hilo as its own day. Inquiry stage.',
+      'Join the inquiry list for Kona, Waikoloa, or Kohala. Date, headcount, dietary notes. Hilo is a separate dedicated east-side day, not a west-side add-on.',
     lede:
-      'Tell us the west-side community. Hilo is not a same-day add-on. Ironman weeks need earlier dates.',
+      'Join the inquiry list with a west-side address. Kona to Kohala is one day. Hilo is a separate dedicated east-side day and is never stacked onto that west-side day.',
     kicker: 'How it works on Hawaiʻi Island',
     photo: 'howBigisland',
     body: [
-      'Inquiry stage. Kailua-Kona, Keauhou, Waikoloa, Mauna Lani, the Mauna Kea resort belt — one radius. Waimea is a surcharge. East side is a different day.',
-      'Coffee on the crust is coffee. Named Kona and Kaʻū lots follow Act 198 from 2027. We do not invent farm names on the menu card.',
+      'Send a Kona, Waikoloa, or Kohala address, the date, the headcount, and dietary notes, and join the inquiry list. Waimea is the upcountry ask on that same west side. Hilo and Volcano are not a stop after Waikoloa. They are a separate dedicated east-side day, quoted in writing, with their own shop.',
+      'The written total lists the food, then a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit follows a written yes. You sign the menu before the west-side shop. Ironman week in Kailua-Kona compresses the calendar, so flag those dates in the inquiry. The first note is on [getting started](/help/getting-started). A change after you accept is on [managing a booking](/help/managing-booking).',
     ],
     steps: [
       {
         n: '01',
-        title: 'West-side address.',
-        body: 'Kona, Waikoloa, Kohala Coast, or Waimea. Flag Ironman-week dates. Hilo and Volcano as their own request.',
+        title: 'West-side address only.',
+        body: 'Kailua-Kona, Keauhou, Waikoloa, the Kohala Coast, or Waimea. Date, headcount, dietary notes. Join the inquiry list. Hilo is a different request.',
       },
       {
         n: '02',
-        title: 'Menu in 48 hours.',
-        body: 'Kanpachi when the boat is in. Coffee-rubbed catch labeled as coffee, origin when the law requires it.',
+        title: 'A total for that side.',
+        body: 'Food, then a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines. An east-side day is its own total. Bands, including the simpler table on this island, are on [pricing](/pricing).',
       },
       {
         n: '03',
-        title: 'Written quote.',
-        body: 'Starting prices from $210 a guest on this island (dinners from $165 a guest). Zone fee. Dedicated east-side staffing if that is the night.',
+        title: 'Deposit after a written yes.',
+        body: 'A 50% deposit holds the date you accepted. The inquiry itself does not. You sign the menu before the shop. Gratuity is never required.',
       },
       {
         n: '04',
-        title: 'Hard sun, empty dishwasher.',
-        body: 'Lava-heat evenings. We shop, cook, pack out. A Kona–Hilo round trip is not on this list.',
+        title: 'West-side shop and clean-down.',
+        body: 'We provision the west side the day of service, cook, serve, and leave the dishwasher empty. A Kona-to-Hilo round trip is not on this list.',
       },
     ],
     faqs: [
       {
-        q: 'Can you shop in Hilo for a Waikoloa dinner?',
-        a: 'No. West-side provisioning for west-side nights. East side is its own team day.',
+        q: 'What do I send to join the inquiry list for a Kona night?',
+        a: 'A Kona, Waikoloa, or Kohala address, the date, the headcount, and dietary notes, on [the quote form](/quote). Join the inquiry list. That note is not a held date. The field list is on [getting started](/help/getting-started). Waimea can be named on the same west-side request.',
       },
       {
-        q: 'Do you name the farm on the plate?',
-        a: 'Only when we have it in writing. Act 198 from 2027 governs named Kona and Kaʻū coffee.',
+        q: 'Can Hilo be added onto a Waikoloa day?',
+        a: 'Hilo is a separate dedicated east-side day, with its own shop and its own written total. It is never stacked onto a west-side day. Volcano sits with that east-side request. Join the inquiry list for the side you actually need.',
+      },
+      {
+        q: 'Where do service and tax sit on a west-side total?',
+        a: 'After the food, as their own lines: a 20% service charge, then Hawaiʻi GET up to 4.712%. They are not folded into the Kona or Kohala band. Gratuity is never required. The card, including this island’s simpler table, is on [pricing](/pricing).',
+      },
+      {
+        q: 'When does the deposit hold a Kohala date?',
+        a: 'After you accept the written total for that west-side house. Joining the inquiry list does not hold the date. A 50% deposit follows that yes. Moving the date is on [managing a booking](/help/managing-booking).',
+      },
+      {
+        q: 'Who signs the menu before the Kona shop?',
+        a: 'You do, in writing, before we provision the west side. The draft follows a complete inquiry. A Keauhou kitchen and a Waimea ranch kitchen are not the same shop. We do not buy for a menu you have not signed.',
+      },
+      {
+        q: 'What should an Ironman-week inquiry say?',
+        a: 'Flag the dates in the inquiry. Kailua-Kona compresses in that week, and the shop is narrower. We publish that pressure instead of promising the same calendar as a quiet week. Hilo is still a separate dedicated east-side day.',
       },
     ],
   },
