@@ -125,50 +125,83 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       slug: 'kakaako',
       name: 'Kakaʻako',
       h1: 'Kakaʻako tower ranges — compact kitchens, owned rooms.',
-      title: 'Kakaʻako tower dinners — compact ranges | myCHEF',
+      title: 'Private chef in Kakaʻako towers | myCHEF',
       description:
-        'Kakaʻako tower dinners. Compact kitchens, freight elevators, quiet hours.',
+        'Private chef dinners in Kakaʻako towers with compact kitchens. Freight elevators and quiet hours are confirmed in writing. Not a rooftop we do not control.',
       lede:
         'A small range in a tower, not a rooftop we do not own. Menus adapt to the kitchen that actually exists.',
       photo: 'cellKakaako',
       body: [
-        'We do not sell a rooftop we do not control.',
-        'A unit without a functioning cooktop is declined.',
-        'Send the building packet on the quote form. The menu follows the range, not a brochure kitchen.',
+        'Kakaʻako nights are tower residences with compact kitchens, not a rooftop we do not control. Freight elevators and quiet hours change the clock, so both are named before the shop. Quiet hours can move plating earlier than a house dinner would. The menu follows the range that is actually in the unit. A unit without a functioning cooktop is declined. Send the building packet on the quote form rather than a brochure kitchen.',
+        'Downtown pied-à-terre dinners are the next neighborhood, on [Downtown](/downtown). The wider town page is [Honolulu](/honolulu). Tower notes are [Kakaʻako kitchen notes](/blog/dining-in-kakaako). Oʻahu bands and fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the building, the floor, and where the crew loads in.',
       ],
       faqs: [
         {
-          q: 'Can you cook on the rooftop?',
-          a: 'Not a rooftop we do not own. A tower residence with a range. Open the quote form.',
+          q: 'Do you cook in Kakaʻako condo towers with compact kitchens?',
+          a: 'We do when the unit has a functioning cooktop. The menu follows that range, not a brochure kitchen. A unit without heat is declined before a deposit. Send the floor and the appliance list when you request a written quote.',
+        },
+        {
+          q: 'Can the night move to a rooftop the building does not assign to us?',
+          a: 'We do not sell a rooftop we do not control. The dinner is the residence with the range. If the building has not assigned that deck, it is not part of the booking. Name the room on the quote form.',
+        },
+        {
+          q: 'How do freight elevators and quiet hours change a Kakaʻako evening?',
+          a: 'They change the load-in clock. Both are confirmed in writing before the shop, the way a house would name a driveway. We will not discover a closed freight bay at service. Put the building rules in the packet.',
+        },
+        {
+          q: 'What has to be in the Kakaʻako building packet before you shop?',
+          a: 'Floor, load-in, quiet hours, and proof of a working cooktop. Parking or a stall if the building requires one. We do not guess those from the street. Request a written quote with that packet attached in the notes.',
+        },
+        {
+          q: 'Is Kakaʻako the same booking as a downtown pied-à-terre?',
+          a: 'Kakaʻako is not the downtown pied-à-terre booking. Downtown is the loading-dock page. This page is the tower with the compact range. Honolulu is the wider town. Open the matching building, then request a written quote. Prices are on the pricing page.',
         },
       ],
       related: [
-        { path: '/honolulu', label: 'Honolulu corridor' },
         { path: '/downtown', label: 'Downtown dinners' },
+        { path: '/honolulu', label: 'Honolulu corridor' },
         { path: '/blog/dining-in-kakaako', label: 'Kakaʻako kitchen notes' },
+        { path: '/pricing', label: 'Rate card' },
       ],
     },
     {
       slug: 'downtown',
       name: 'Downtown Honolulu',
       h1: 'Downtown pied-à-terre dinners — loading, not HCC.',
-      title: 'Downtown Honolulu pied-à-terre dinners | myCHEF',
+      title: 'Private chef in Downtown Honolulu | myCHEF',
       description:
-        'Downtown pied-à-terre dinners. Parking and loading, not restaurant takeovers.',
+        'Private chef dinners in Downtown Honolulu pied-à-terre kitchens. Parking and loading confirmed in writing. We cook the residence, not a restaurant.',
       lede:
         'A compact dining room above the loading dock. HCC citywides stay closed. We cook the house, not a ballroom.',
       photo: 'cellDowntown',
       body: [
-        'The conventions note says HCC citywides are closed through 2027.',
-        'We do not take over restaurants. A unit without a cooktop is declined.',
+        'Downtown dinners are pied-à-terre kitchens: a compact dining room, a real cooktop, and a loading plan. Parking and the dock are the constraint, not a long drive. The conventions note says HCC citywides are closed through 2027. We do not take over restaurants, and we do not staff a ballroom. A unit without a cooktop is declined.',
+        'Kakaʻako towers are the next set of compact ranges, on [Kakaʻako](/kakaako). The wider town page is [Honolulu](/honolulu). The closed citywide note is [conventions](/conventions). Kitchen notes are [Downtown kitchen notes](/blog/dining-in-downtown). Oʻahu bands and fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the building and where the car stops.',
       ],
       faqs: [
         {
           q: 'Can you take over a restaurant downtown?',
-          a: 'No. We cook residences.',
+          a: 'We cook residences, not restaurants. A takeover of a dining room we do not staff as a house is declined. If the address is a pied-à-terre with a cooktop, request a written quote for that unit. A ballroom is a different product.',
+        },
+        {
+          q: 'What pied-à-terre kitchens work above a loading dock?',
+          a: 'A compact dining room with a functioning cooktop, cold storage, and seats. The dock and the parking spot are named before the shop. A unit without heat is declined. Send the floor and the load-in with the dates.',
+        },
+        {
+          q: 'Does a closed convention calendar change a downtown house dinner?',
+          a: 'HCC citywides stay closed through 2027, and that note is on the conventions page. A residence dinner is still a residence dinner. We do not turn a house booking into a ballroom because a conference is in town. Request a written quote for the apartment.',
+        },
+        {
+          q: 'How do parking and loading get onto the downtown quote?',
+          a: 'They are written before the shop: where the car stops, which door, which hours. Downtown distance is not the issue. The dock is. We will not discover a blocked curb at service. Put those notes on the quote form.',
+        },
+        {
+          q: 'Where do downtown prices sit next to Kakaʻako?',
+          a: 'Both use the Oʻahu card on the pricing page. Service, Hawaiʻi GET, the deposit, and gratuity stay on their own lines. Downtown is the pied-à-terre. Kakaʻako is the tower. Request a written quote for the building you have, not both.',
         },
       ],
       related: [
+        { path: '/kakaako', label: 'Kakaʻako dinners' },
         { path: '/honolulu', label: 'Honolulu corridor' },
         { path: '/conventions', label: 'Conventions' },
         { path: '/blog/dining-in-downtown', label: 'Downtown kitchen notes' },
@@ -178,53 +211,86 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       slug: 'kaneohe',
       name: 'Kāneʻohe',
       h1: 'Kāneʻohe town tables — quieter windward, published drive.',
-      title: 'Kāneʻohe household dinners — published surcharge | myCHEF',
+      title: 'Private chef in Kāneʻohe homes | myCHEF',
       description:
-        'Kāneʻohe dinners. Quieter than Kailua, still a drive. Published surcharge.',
+        'Private chef dinners in Kāneʻohe homes on the windward side. Quieter than Kailua, with the drive printed on the written quote, not folded into the food.',
       lede:
         'Koʻolau cliffs, a household range, the drive printed as its own line. Not a second 30-day beach-house page.',
       photo: 'cellKaneohe',
       body: [
-        'Household dinners and multi-day stays.',
-        'A cooktop is still required. We will not hide the drive inside the food line.',
-        'Lanikai is the quieter beach house. This is the quieter town. Send the address on the quote form.',
+        'Kāneʻohe is the quieter windward town, with household dinners and multi-day stays in houses that have a real range. It is not a second 30-day beach-house page. Lanikai is that quieter beach house. A cooktop is still required. We will not hide the drive inside the food line. The drive prints as its own line on the written quote. A multi-day stay still names that drive once, not once per meal.',
+        'We do not publish a separate travel dollar on this page. Kailua weeks are on [Kailua](/kailua). The beach-house rule is on [Lanikai](/lanikai). Coverage for the island is on [coverage](/coverage). Kitchen notes are [Kāneʻohe kitchen notes](/blog/dining-in-kaneohe). Oʻahu bands and fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the windward address.',
       ],
       faqs: [
         {
-          q: 'Is the drive included?',
-          a: 'No. It prints as a surcharge line.',
+          q: 'Is the drive from town included in a Kāneʻohe dinner?',
+          a: 'It prints as its own line on the written quote. It is not folded into the food, and this page does not call it included. We do not publish a separate travel dollar here. Send the address so that line can be written first.',
+        },
+        {
+          q: 'What household kitchens do you cook in on this windward side?',
+          a: 'Town houses with a cooktop, a fridge, and a table. Resident dinners and multi-day stays are the fit. A room without heat is declined before a deposit. This is a town range, not a beach-house galley. Request a written quote with the street.',
+        },
+        {
+          q: 'How is Kāneʻohe different from a Lanikai beach-house stay?',
+          a: 'Lanikai is the quieter beach-house page, with the same long-stay rule as Kailua. Kāneʻohe is the quieter town behind the cliffs. Both can be a seated dinner. Open the page that matches the house, and do not mix the rules.',
+        },
+        {
+          q: 'Can a multi-day Kāneʻohe stay hide the drive inside the food?',
+          a: 'A longer stay does not hide the drive inside the food. The line still prints on the written quote, separate from the menu. Oʻahu bands and fee lines are on the pricing page. Request a written quote with how many days you want cooked.',
+        },
+        {
+          q: 'Where do I request a written quote for a Kāneʻohe table?',
+          a: 'On the quote form, with the windward street and the headcount. Read pricing for the Oʻahu bands, service, Hawaiʻi GET, the deposit, and gratuity. Kailua is the other windward page if that is actually the house.',
         },
       ],
       related: [
         { path: '/kailua', label: 'Kailua corridor' },
         { path: '/lanikai', label: 'Lanikai dinners' },
-        { path: '/coverage', label: 'Coverage' },
+        { path: '/blog/dining-in-kaneohe', label: 'Kāneʻohe kitchen notes' },
+        { path: '/pricing', label: 'Rate card' },
       ],
     },
     {
       slug: 'ewa',
       name: 'ʻEwa / Kapolei',
       h1: 'ʻEwa and Kapolei tables — leeward houses, Ko Olina provisioning.',
-      title: 'ʻEwa household dinners — leeward west-side base | myCHEF',
+      title: 'Private chef in ʻEwa and Kapolei | myCHEF',
       description:
-        'ʻEwa and Kapolei household dinners. Leeward residential, west-side base, no town surcharge.',
+        'Private chef dinners in ʻEwa and Kapolei houses. West-side base, no separate town surcharge, closer to Ko Olina provisioning than to Waikīkī.',
       lede:
         'Closer to Ko Olina provisioning than to Waikīkī. Resident houses and west-side overflow — not a resort-residence clone.',
       photo: 'cellEwa',
       body: [
-        'A cooktop is still required.',
-        'We will not sell Kapolei as a Waikīkī dinner.',
+        'ʻEwa and Kapolei are leeward houses, closer to Ko Olina provisioning than to a Waikīkī kitchen. Resident tables and west-side overflow are the fit. This is not a resort-residence copy. A cooktop is still required, and a house without heat is declined before a deposit. We will not sell Kapolei as a Waikīkī dinner.',
+        'The area is west-side base, so the quote does not add a separate town surcharge. Travel is still confirmed in writing rather than invented as a new fee on this page. Villa weeks on the coast are [Ko Olina](/ko-olina). Legal short stays are [short-stay villas](/short-stay). Kitchen notes are [ʻEwa kitchen notes](/blog/dining-in-ewa). Oʻahu bands and fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the leeward address.',
       ],
       faqs: [
         {
-          q: 'Town surcharge?',
-          a: 'No. West-side base.',
+          q: 'Does ʻEwa or Kapolei add a town surcharge?',
+          a: 'These towns sit in the west-side base, so the quote does not add a separate town surcharge. Travel is still confirmed in writing. We do not invent a new fee on this page. Oʻahu bands and fee lines are on the pricing page.',
+        },
+        {
+          q: 'What leeward houses do you cook in around ʻEwa and Kapolei?',
+          a: 'Resident houses with a cooktop, a fridge, and a table. West-side overflow from a villa week can be quoted when the kitchen is real. A room without heat is declined. Send the address when you request a written quote.',
+        },
+        {
+          q: 'Why is this closer to Ko Olina provisioning than to Waikīkī?',
+          a: 'The shop for these houses follows the west side, not a town round trip through Waikīkī. Ko Olina is the villa coast beside that provisioning. This page is the residential towns. Open Ko Olina if the booking is the villa.',
+        },
+        {
+          q: 'Will you sell a Kapolei night as a Waikīkī dinner?',
+          a: 'A Kapolei night is not sold as a Waikīkī dinner. It is a leeward house dinner. Waikīkī residences are a different page and a different building type. We will not rename this town to catch a resort search. Request a written quote for the house you have.',
+        },
+        {
+          q: 'Where are west-side prices before I send an ʻEwa address?',
+          a: 'On the pricing page: Oʻahu bands, service, Hawaiʻi GET, the deposit, and gratuity. Then request a written quote with the leeward street. Short-stay villas explain the legal west-side pool if that is the product you mean.',
         },
       ],
       related: [
         { path: '/ko-olina', label: 'Ko Olina corridor' },
         { path: '/short-stay', label: 'Short-stay villas' },
         { path: '/blog/dining-in-ewa', label: 'ʻEwa kitchen notes' },
+        { path: '/pricing', label: 'Rate card' },
       ],
     },
   ],
@@ -286,77 +352,122 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       slug: 'napili',
       name: 'Nāpili',
       h1: 'Nāpili houses — West Maui, never a Lahaina clone page.',
-      title: 'Nāpili villa dinner — West Maui houses | myCHEF',
+      title: 'Private chef in Nāpili, West Maui | myCHEF',
       description:
-        'Nāpili West Maui villa dinners. Same timing rules as Kāʻanapali and Kapalua. Never marketed as Lahaina.',
+        'Private chef dinners in Nāpili houses on West Maui. Same timing as Kāʻanapali and Kapalua, with Saturday arrival planned and a written quote.',
       lede:
         'West Maui houses between the named corridors. Saturday traffic is planned. This is not a Lahaina destination page.',
       photo: 'cellNapili',
       body: [
-        'The Kāʻanapali page and the Kapalua page are the live West Maui corridors.',
-        'Saturday arrival is planned, not assumed.',
+        'Nāpili houses sit on West Maui, with the same timing rules as Kāʻanapali and Kapalua. The usual booking is a villa week: one kitchen, a real dining table, and a cooktop the menu can use. A lock-off without heat is declined before a shop. This is a house dinner, not a walk-up restaurant night.',
+        'Saturday arrival is planned into the chef day, not discovered after you land. A South Maui Saturday is a different drive, so it is not assumed here. Open [West Maui](/west-maui) for the corridor, [Kapalua](/kapalua) for the headland, and [Kāʻanapali](/kaanapali) for deck dinners. Bands and fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the address and the week.',
       ],
       faqs: [
         {
-          q: 'Is this a Lahaina page?',
-          a: 'No. Open the Lahaina / West Maui page for that corridor.',
+          q: 'Is a Nāpili dinner booked as a Lahaina night?',
+          a: 'Nāpili is its own West Maui house page, not a Lahaina destination. Tell us the street. The Lahaina naming note lives on that page, and this one stays with the houses beside Kapalua. Request a written quote for the address you actually have.',
+        },
+        {
+          q: 'What kitchens do Nāpili villa weeks actually use?',
+          a: 'A villa kitchen with a working cooktop, a fridge, and a table. The menu is written for that range. A lock-off or hotel room without heat is declined before a deposit. Send the kitchen notes with the week on the quote form.',
+        },
+        {
+          q: 'How does Saturday arrival change a Nāpili chef night?',
+          a: 'Saturday West Maui traffic is planned into arrival, not added after you land. The shop and the service clock are set before that day. A South Maui Saturday is a different drive. Name the landing time when you request a written quote.',
+        },
+        {
+          q: 'Is Nāpili a better fit for a family week or a two-seat table?',
+          a: 'A villa week that cooks more than one night is the usual Nāpili stay. A single tasting table can still be quoted when the kitchen works. Put the headcount on the quote form. Maui bands and fee lines are on the pricing page.',
+        },
+        {
+          q: 'Where do Nāpili prices and the West Maui timing note sit?',
+          a: 'Open the pricing page for the Maui bands. Service, Hawaiʻi GET, the deposit, and gratuity each stay on their own line. This base area does not invent a new travel fee on this page. The corridor overview is West Maui.',
         },
       ],
       related: [
-        { path: '/kapalua', label: 'Kapalua corridor' },
         { path: '/west-maui', label: 'West Maui corridor' },
+        { path: '/kapalua', label: 'Kapalua corridor' },
         { path: '/lahaina', label: 'Lahaina corridor' },
+        { path: '/blog/dining-in-napili', label: 'Nāpili kitchen notes' },
       ],
     },
     {
       slug: 'paia',
       name: 'Pāʻia / Haiku',
-      h1: 'Pāʻia and Haiku tables — quote-only North Shore, not a doorway.',
-      title: 'Pāʻia estate dinner — quote-only North Shore | myCHEF',
+      h1: 'Pāʻia and Haiku tables — North Shore booking, not a doorway.',
+      title: 'Private chef in Pāʻia and Haiku | myCHEF',
       description:
-        'Pāʻia and Haiku estate dinners. Quote-only North Shore module. Extended drive.',
+        'Private chef dinners in Pāʻia and Haʻikū, quoted in writing as their own North Shore booking. Extended drive, not stacked onto a Wailea lunch.',
       lede:
         'Trade wind, a North Shore estate, the drive quoted — not stacked with a Wailea lunch as one unpaid day.',
       photo: 'cellPaia',
       body: [
-        'Quote-only. Extended drive. We will not publish a flat fee for this area. Estate dinners when the drive is planned, not stacked with Wailea.',
-        'Send the address on the quote form. A band is not an instant-booking button for this shore.',
+        'Pāʻia and Haʻikū are quoted in writing as their own booking. There is no published flat fee for this North Shore, and the extended drive is planned with the menu. Estate dinners fit when that drive is its own date. They are not stacked onto a Wailea lunch as one unpaid day.',
+        'Haʻikū houses and Pāʻia estates share this page because both sit off the resort corridors. Tell us which one, and which night. A cooktop is still required. A band on the rate card is not an instant-booking button for this shore. Compare the climb on [Upcountry](/upcountry) and the south-shore houses on [South Maui](/south-maui) before you choose. Request a written quote on [the quote form](/quote) with the address. Fee lines are on [pricing](/pricing).',
       ],
       faqs: [
         {
-          q: 'Is there a published fee?',
-          a: 'No. Quote-only. The drive prints with the menu.',
+          q: 'Is Pāʻia a flat fee, or its own written booking?',
+          a: 'Pāʻia and Haʻikū are quoted in writing as their own booking. There is no published flat fee for this shore. The extended drive prints with the menu. Request a written quote with the address. Maui fee lines are on the pricing page.',
         },
         {
-          q: 'Can you do Wailea lunch and Pāʻia dinner the same day?',
-          a: 'Not as one unpaid day. Write both, or pick one.',
+          q: 'Can a Wailea lunch and a Pāʻia dinner share one chef day?',
+          a: 'Not as one unpaid day. Write both services, or pick one. The North Shore drive is planned, not tucked behind a Wailea lunch. Say which night you want when you request a written quote.',
+        },
+        {
+          q: 'What kind of houses do you cook in around Pāʻia and Haʻikū?',
+          a: 'North Shore estates and Haʻikū houses with a working cooktop, cold storage, and a table. A room without heat is declined before a deposit. This is not a resort-corridor doorway. Send the house type on the quote form.',
+        },
+        {
+          q: 'How does the extended North Shore drive show on the quote?',
+          a: 'It is planned with the menu and confirmed on the written quote. We do not publish a separate travel price on this page. The night is its own date. Compare Upcountry if the house is on the climb instead.',
+        },
+        {
+          q: 'Should I open Upcountry or South Maui before I ask for Pāʻia?',
+          a: 'Open both if you are choosing. Upcountry is the climb. South Maui is Wailea, Makena, and Kīhei. Pāʻia stays its own written booking. Request a written quote only for the shore you actually mean.',
         },
       ],
       related: [
         { path: '/upcountry', label: 'Upcountry dinners' },
-        { path: '/coverage', label: 'Coverage' },
+        { path: '/south-maui', label: 'South Maui corridor' },
         { path: '/quote', label: 'Quote form' },
+        { path: '/pricing', label: 'Rate card' },
       ],
     },
     {
       slug: 'makawao',
       name: 'Makawao',
       h1: 'Makawao town tables — Upcountry weather on the quote.',
-      title: 'Makawao town dinner — Upcountry estate tables | myCHEF',
+      title: 'Private chef in Makawao, Upcountry | myCHEF',
       description:
-        'Makawao town dinners. Upcountry surcharge. Weather can turn on outdoor setups.',
+        'Private chef dinners in Makawao town. The Upcountry drive is on the written quote, with a weather backup for outdoor tables and retreat houses.',
       lede:
         'Town, not the whole upcountry slope. Retreat houses and estate tables. The weather backup is written.',
       photo: 'cellMakawao',
       body: [
-        'Named farms only after written verification.',
-        'A cooktop is still required. Haleakalā and Kula are quoted separately.',
-        'Send the address on the quote form. We will not pretend Makawao is a Wailea clone.',
+        'Makawao is the Upcountry town, not the whole slope and not a Wailea resort lawn. Retreat houses and estate tables are the fit. A reunion table in a retreat house is a stronger match than a visitor condo. A working cooktop is still required, and an outdoor table needs a written indoor backup because the weather can turn. We do not invent a dry lawn.',
+        'Cooler evenings belong in the plan before anyone shops, and a Wailea villa week is a different date. Named farms wait for written verification. Haleakalā and Kula are separate quotes on [Kula dinners](/haleakala), and the climb itself is the [Upcountry](/upcountry) page. The town note is [Makawao kitchen notes](/blog/dining-in-makawao). Fee lines live on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the address and whether the table is indoors.',
       ],
       faqs: [
         {
-          q: 'Outdoor dinner if it rains?',
-          a: 'The backup is written on the quote. We do not invent a dry lawn.',
+          q: 'What happens to an outdoor Makawao table if the weather turns?',
+          a: 'The indoor backup is written on the quote before anyone shops. We do not invent a dry lawn. If the only plan is an uncovered yard, we say so and move the table inside or decline that setup. Name the room on the quote form.',
+        },
+        {
+          q: 'What kind of Makawao houses are a fit for a chef night?',
+          a: 'Retreat houses and estate tables in town, with a working cooktop and a real dining room. A visitor condo is the weaker match. This is not a Wailea lawn. Send the house, not a resort name, when you request a written quote.',
+        },
+        {
+          q: 'How does the Upcountry drive show on a Makawao quote?',
+          a: 'The climb prints on the written quote. It is not folded into the food. We do not publish a separate travel price on this page. Read the pricing page for Maui bands and fee lines, then send the Makawao address.',
+        },
+        {
+          q: 'Will a Makawao menu name a farm?',
+          a: 'Named farms wait for written verification. Sitting in town does not earn a grower credit. Produce is still produce until that paper exists. The sourcing note explains the rule. The dinner itself is the retreat table.',
+        },
+        {
+          q: 'Is Makawao the right page for a Kula elevation night?',
+          a: 'Makawao is the town. Kula and the Haleakalā slope are a separate quote, and the wider climb is the Upcountry page. Open the page that matches the house. Request a written quote for one address, not both slopes at once.',
         },
       ],
       related: [
@@ -369,23 +480,40 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       slug: 'honokowai',
       name: 'Honokōwai',
       h1: 'Honokōwai condo ranges — West Maui strip, not Kapalua.',
-      title: 'Honokōwai villa dinner — West Maui condos | myCHEF',
+      title: 'Private chef in Honokōwai condos | myCHEF',
       description:
-        'Honokōwai West Maui dinners. Compact kitchens between Kāʻanapali and Kapalua.',
+        'Private chef dinners in Honokōwai condos between Kāʻanapali and Kapalua. Compact ranges, named load-in, and multi-day chef days on a written quote.',
       lede:
         'The residential strip. Multi-day chef days more than one-off halos. The menu fits the range that is actually in the unit.',
       photo: 'cellHonokowai',
       body: [
-        'The Kāʻanapali page and the Kapalua page are the named corridors. Base zone. Compact kitchens are common.',
-        'Multi-day chef days fit this inventory better than a one-night halo. Send the unit type on the quote form.',
+        'Honokōwai is the residential strip between Kāʻanapali and Kapalua, and condo kitchens are the common room. The menu follows the burners in that unit, not a brochure range. Load-in is named before the shop: which elevator, which stall, which door. A hotel room without a cooktop is declined.',
+        'Multi-day chef days fit these condos better than a single halo night. A one-night tasting can still be quoted when the range is real, and the week is the better fit when you are staying through. Base zone means this strip is not a separate travel product invented on the invoice. Condo load-in notes sit on the journal page linked below. The named corridors are [Kāʻanapali](/kaanapali) and [Kapalua](/kapalua). Nāpili houses are on [Nāpili](/napili), and the corridor overview is [West Maui](/west-maui). Read [pricing](/pricing), then send the unit type on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Tiny kitchen?',
-          a: 'The menu fits the range. Load-in honesty sits on our journal note on Condo load-in.',
+          q: 'Do you cook in Honokōwai condos with compact ranges?',
+          a: 'We do when the unit has a real cooktop. The menu follows those burners, not a brochure kitchen. A hotel room without heat is declined before a deposit. Send the unit type on the quote form so the shop matches the range.',
+        },
+        {
+          q: 'How does load-in work in a Honokōwai building?',
+          a: 'Elevator, stall, and door are named before the shop. We will not discover a blocked garage at service. The condo load-in note is the longer version of that honesty. Put the building instructions on the quote form with the dates.',
+        },
+        {
+          q: 'Why do multi-day chef days fit Honokōwai better than one halo night?',
+          a: 'These are stay-through condos more than one-off tasting rooms. A single dinner can still be quoted when the range is real. A week that cooks more than once should be written as chef days. Request a written quote with how many nights you want.',
+        },
+        {
+          q: 'Is Honokōwai the same booking as Kapalua?',
+          a: 'Kapalua is the headland corridor, and Honokōwai is a different booking. Honokōwai is the condo strip between there and Kāʻanapali. Nāpili is the house page beside them. Open West Maui for the overview, and request a written quote for the unit you have.',
+        },
+        {
+          q: 'Does a Honokōwai condo add a travel line on top of the menu?',
+          a: 'This strip is base zone, so the quote does not invent a separate town fee. Maui bands and fee lines are on the pricing page. The menu still follows the range in the unit. Send that unit before anyone shops.',
         },
       ],
       related: [
+        { path: '/west-maui', label: 'West Maui corridor' },
         { path: '/kaanapali', label: 'Kāʻanapali corridor' },
         { path: '/napili', label: 'Nāpili dinners' },
         { path: '/blog/condo-load-in', label: 'Condo load-in' },
@@ -395,48 +523,79 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       slug: 'waikapu',
       name: 'Waikapū',
       h1: 'Waikapū valley estates — central Maui, not a resort corridor.',
-      title: 'Waikapū estate dinner — central valley houses | myCHEF',
+      title: 'Private chef in Waikapū valley | myCHEF',
       description:
-        'Waikapū central-valley estate dinners. Surcharge from Wailea or West Maui.',
+        'Private chef dinners in Waikapū valley estates. The drive from Wailea or West Maui prints on the written quote. Private houses, not visitor condos.',
       lede:
         'Inland estates, not a resort lawn. The drive from Wailea or West Maui prints. Private houses, not visitor condos.',
       photo: 'cellWaikapu',
       body: [
-        'We will not stack a Wailea lunch with a Waikapū dinner as one chef day without writing it.',
-        'A cooktop is still required.',
-        'Send the address on the quote form. Visitor-condo inventory is the wrong fit here.',
+        'Waikapū is central-valley estates, not a resort corridor and not a visitor-condo strip. Private houses with a dining room are the match. A short-stay condo kitchen is the wrong fit for this valley. The drive from Wailea or from West Maui prints on the written quote. It is not folded into the food. A cooktop is required, and a house without one is declined before a deposit.',
+        'A Wailea lunch and a Waikapū dinner are two written services, or you pick one. We will not hide the second drive. South Maui resort houses stay on [South Maui](/south-maui) and [Wailea](/wailea). This valley is the estate ask. Bands are on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the street and the headcount.',
       ],
       faqs: [
         {
-          q: 'Can you stack Wailea and Waikapū in one day?',
-          a: 'Only if both nights are written. We will not hide a second drive.',
+          q: 'Can one chef day cover a Wailea lunch and a Waikapū dinner?',
+          a: 'Only when both services are written. We will not hide the second drive inside one unpaid sprint. Pick the valley or the resort, or pay for both as separate lines. Say which meals you mean on the quote form.',
+        },
+        {
+          q: 'What kind of Waikapū houses do you cook in?',
+          a: 'Private valley estates with a cooktop, cold storage, and a dining room. Visitor condos are the wrong fit. This is not a resort lawn. Send the street when you request a written quote so the drive can be planned.',
+        },
+        {
+          q: 'How does the central-valley drive print on the quote?',
+          a: 'Coming from Wailea or from the west side, that valley leg is written on its own. It does not vanish into the menu. Open pricing for Maui bands and fee lines, and name the inland street on the quote form.',
+        },
+        {
+          q: 'Is a visitor condo in Waikapū a reason to book this page?',
+          a: 'Visitor condos are the wrong reason to open this page. Waikapū is private houses with dining rooms. If the kitchen is a short-stay condo, say so and we will tell you whether it can hold a dinner. Resort houses belong on the South Maui page.',
+        },
+        {
+          q: 'Where should I read prices before I ask for Waikapū?',
+          a: 'Open the pricing page for Maui bands, service, Hawaiʻi GET, the deposit, and gratuity. Then request a written quote with the valley street. South Maui is the resort shore. This page is the inland estate.',
         },
       ],
       related: [
-        { path: '/wailea', label: 'Wailea corridor' },
         { path: '/south-maui', label: 'South Maui corridor' },
+        { path: '/wailea', label: 'Wailea corridor' },
         { path: '/quote', label: 'Quote form' },
+        { path: '/pricing', label: 'Rate card' },
       ],
     },
     {
       slug: 'haleakala',
       name: 'Haleakalā / Kula',
       h1: 'Kula and Haleakalā tables — temperature changes the chef day.',
-      title: 'Kula elevation dinner — Haleakalā slope | myCHEF',
+      title: 'Private chef in Kula, Haleakalā | myCHEF',
       description:
-        'Kula / Haleakalā slope dinners. High elevation surcharge, temperature on the plan.',
+        'Private chef dinners on the Kula and Haleakalā slope. Elevation and temperature go on the written plan, and farm names wait for verification.',
       lede:
         'Above the cloud line some afternoons. The drive and the temperature both change the chef day. Farm names wait for verification.',
       photo: 'cellHaleakala',
       body: [
-        'Outdoor fire is a weather plan, not a promise.',
-        'Named farms only after written verification.',
-        'Send the elevation and the address on the quote form. We will not print a farm we have not verified.',
+        'Kula and the Haleakalā slope sit above the coast, and both the drive and the temperature change the chef day. A retreat dinner here is its own date. It is not a stop after a South Maui lunch. Outdoor fire is a weather plan, not a promise. Cooler afternoons need an indoor table written before the shop. A cooktop is still required at elevation.',
+        'Send how the house is reached so the day is planned. Named farms print only after written verification. Makawao town is a different page, [Makawao](/makawao), and the wider climb is [Upcountry](/upcountry). Sourcing rules are on [sourcing honesty](/blog/sourcing-honesty). The elevation line and the fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the address and the elevation.',
       ],
       faqs: [
         {
-          q: 'Will you name a Kula farm?',
-          a: 'After written verification.',
+          q: 'How does cooler Kula air change the chef day?',
+          a: 'Temperature is part of the plan, not a surprise at plating. Cooler afternoons need an indoor table written before the shop. Outdoor fire stays a weather plan, not a promise. Send the elevation with the address on the quote form.',
+        },
+        {
+          q: 'Will you print a Kula farm name on the menu?',
+          a: 'Only after written verification. We will not print a grower we have not checked. Food can still be served without a farm credit. The sourcing note is the rule. The dinner is the slope table, not a farm brochure.',
+        },
+        {
+          q: 'What kitchens on the Haleakalā slope can take a dinner?',
+          a: 'A retreat or estate kitchen with a working cooktop, cold storage, and seats. Elevation does not waive that test. A house without heat is declined before a deposit. Tell us how the house is reached when you request a written quote.',
+        },
+        {
+          q: 'Is a Kula night the same quote as Makawao town?',
+          a: 'Makawao is the town page, and a Kula night is a different quote. Kula is the higher slope, and Upcountry is the wider climb. Each address gets its own written quote. A South Maui lunch is not folded into this date.',
+        },
+        {
+          q: 'Where are Maui prices for an elevation dinner?',
+          a: 'On the pricing page: bands, service, Hawaiʻi GET, the deposit, and gratuity. The elevation line is confirmed on the written quote. We do not invent a travel dollar on this page. Request a written quote with the slope address.',
         },
       ],
       related: [
@@ -537,57 +696,86 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'lihue',
       name: 'Līhuʻe',
-      h1: 'Līhuʻe in-town tables — staging, not the villa hero.',
-      title: 'Līhuʻe household dinner — staging town, inquiry | myCHEF',
+      h1: 'Līhuʻe in-town tables — households, not the villa hero.',
+      title: 'Private chef in Līhuʻe households | myCHEF',
       description:
-        'Līhuʻe in-town household dinners at inquiry. Airport-adjacent staging, not villa inventory.',
+        'Private chef dinners in Līhuʻe households near the airport, not a shore estate. Travel is confirmed on the written quote. Request availability.',
       lede:
-        'The planned base. In-town households and staging. Estate dinners are mostly in Princeville and Poʻipū.',
+        'The planned base. In-town households, not shore estates. Estate dinners are mostly in Princeville and Poʻipū.',
       photo: 'cellLihue',
       body: [
-        'Planned base when we launch. Airport-adjacent, not the villa inventory. We will not sell Līhuʻe as a North Shore estate page.',
-        'A cooktop is still required.',
+        'Līhuʻe is the in-town base beside the airport, and the usual table is a household kitchen rather than a shore estate. Weeknight households are the usual ask. We will not sell this town as a North Shore villa page. Princeville and Poʻipū remain the estate dinners. A working cooktop is required, and a room without heat is declined before anyone shops.',
+        'Travel is confirmed on the written quote. This page does not treat the drive as included. East-side households continue on [Kapaʻa](/kapaa). Shore estates are [Poʻipū](/poipu) and [Princeville](/princeville). The South Shore overview is [South Shore](/south-shore). Bands are on [pricing](/pricing). Request availability on [the quote form](/quote) with the street and the dates.',
       ],
       faqs: [
         {
-          q: 'Is this the villa product?',
-          a: 'No. Staging town. Open the Princeville page or the Poʻipū page for estate inventory.',
+          q: 'Is a Līhuʻe night the Princeville or Poʻipū villa product?',
+          a: 'It is an in-town household dinner, not a shore estate. Open Princeville or Poʻipū if that is the house. Līhuʻe stays the airport-adjacent town. Request availability for the kitchen you actually have.',
         },
         {
-          q: 'Included drive?',
-          a: 'Yes, at launch. Inquiry.',
+          q: 'What kind of in-town kitchens do you cook in around Līhuʻe?',
+          a: 'Household kitchens with a cooktop, a fridge, and a table. A hotel room without heat is declined. This is not a villa lawn. Send the street and how the crew should arrive when you request availability.',
+        },
+        {
+          q: 'Does a Līhuʻe booking include the drive?',
+          a: 'Travel is confirmed on the written quote. This page does not call the drive included. We do not publish a separate travel price here. Kauaʻi bands and fee lines are on the pricing page.',
+        },
+        {
+          q: 'Who should book Līhuʻe instead of a shore estate?',
+          a: 'People cooking in an in-town house, not a Princeville or Poʻipū estate week. A family table at home is the fit. If the week is on a shore, open that page. Request availability with the town address.',
+        },
+        {
+          q: 'How do I request availability and see Kauaʻi prices for Līhuʻe?',
+          a: 'Use the quote form with the street, the dates, and the headcount. Read the pricing page for bands, service, Hawaiʻi GET, the deposit, and gratuity. A reply confirms whether a crew can hold that week.',
         },
       ],
       related: [
+        { path: '/kapaa', label: 'Kapaʻa dinners' },
         { path: '/poipu', label: 'Poʻipū corridor' },
         { path: '/princeville', label: 'Princeville corridor' },
-        { path: '/coverage', label: 'Coverage' },
+        { path: '/pricing', label: 'Rate card' },
       ],
     },
     {
       slug: 'kalaheo',
       name: 'Kalāheo',
       h1: 'Kalāheo residential tables — south-west, inquiry.',
-      title: 'Kalāheo household dinner — south-west inquiry | myCHEF',
+      title: 'Private chef in Kalāheo houses | myCHEF',
       description:
-        'Kalāheo south-west household dinners at inquiry. Residential tables between Līhuʻe and the South Shore villas.',
+        'Private chef dinners in Kalāheo houses between Līhuʻe and the South Shore villas. Residential tables, travel on the written quote. Request availability.',
       lede:
-        'Quieter houses, not visitor-villa inventory. Surcharge. Inquiry until we can staff.',
+        'Quieter houses, not a visitor villa. The drive is on the written quote. Request availability.',
       photo: 'cellKalaheo',
       body: [
-        'Inquiry until we can staff.',
-        'ʻEleʻele sits further toward the west. A cooktop is still required.',
-        'Send the address on the quote form. We will not copy Poʻipū onto this town.',
+        'Kalāheo is quieter residential houses between Līhuʻe and the South Shore villas, not a Poʻipū lawn copied inland. We confirm a crew in writing. We do not promise every house on a given week. Bring a residential street, not a resort name. ʻEleʻele sits further toward the west. A cooktop is still required, and a room without heat is declined before a deposit.',
+        'The south-west drive is confirmed on the written quote. We do not publish a separate travel price on this page. Kōloa and Poʻipū stay the shore pages, [Kōloa](/koloa) and [Poʻipū](/poipu). The shore overview is [South Shore](/south-shore). Further west is [ʻEleʻele](/eleele). Bands are on [pricing](/pricing). Request availability on [the quote form](/quote) with the street.',
       ],
       faqs: [
         {
-          q: 'Are you live on every house below?',
-          a: 'Inquiry. We crew when we can staff.',
+          q: 'Are you staffed for every Kalāheo house on a given week?',
+          a: 'Request availability. We confirm a crew in writing when that week can be held. A published band is not a live calendar for every street. Send the address and the dates, and wait for that written reply.',
+        },
+        {
+          q: 'What kind of residential tables fit Kalāheo?',
+          a: 'Quieter houses with a cooktop, a fridge, and room for the people eating. This is not a visitor-villa lawn. A kitchen without heat is declined. Describe the house when you request availability.',
+        },
+        {
+          q: 'How is Kalāheo different from Kōloa or Poʻipū?',
+          a: 'Kōloa and Poʻipū are the South Shore villa and town pages. Kalāheo is the residential stretch between Līhuʻe and those villas. The menu band is still the Kauaʻi card. The house type is what changes. Open South Shore for the overview.',
+        },
+        {
+          q: 'Where does Kalāheo travel sit on the written quote?',
+          a: 'On its own confirmation, not inside the food line. We do not publish a separate travel price on this page. Read pricing for bands, service, Hawaiʻi GET, the deposit, and gratuity. Then request availability with the street.',
+        },
+        {
+          q: 'How do I request availability without treating Kalāheo as a resort lawn?',
+          a: 'Use the quote form and name a residential street, not a resort. Poʻipū is the shore page if that is actually the house. Kalāheo stays the quieter tables. A crew is confirmed in writing before the date is held.',
         },
       ],
       related: [
-        { path: '/poipu', label: 'Poʻipū corridor' },
+        { path: '/south-shore', label: 'South Shore' },
         { path: '/koloa', label: 'Kōloa dinners' },
+        { path: '/poipu', label: 'Poʻipū corridor' },
         { path: '/eleele', label: 'ʻEleʻele dinners' },
       ],
     },
@@ -595,111 +783,172 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       slug: 'waimea',
       name: 'Waimea',
       h1: 'Kauaʻi Waimea tables — west-side distance from Līhuʻe.',
-      title: 'Kauai Waimea villa dinner — west-side inquiry | myCHEF',
+      title: 'Private chef in Waimea, Kauaʻi | myCHEF',
       description:
-        'Kauaʻi Waimea west-side dinners at inquiry. Distance from Līhuʻe is the story.',
+        'Private chef dinners in Waimea on Kauaʻi, west of Līhuʻe. Advance notice, travel confirmed in writing. Not the Hawaiʻi Island ranch. Request availability.',
       lede:
-        'West Kauaʻi, not the Hawaiʻi Island ranch. Extended surcharge. Advance notice. Inquiry until we can staff.',
+        'West Kauaʻi, not the Hawaiʻi Island ranch. Extended surcharge. Advance notice. Request availability.',
       photo: 'cellKauaiWaimea',
       body: [
-        'This is Kauaʻi Waimea — west-side distance from Līhuʻe, extended surcharge, inquiry. It is not Waimea on the Big Island.',
-        'Hanapēpē is a west-side town. A cooktop is still required. Advance notice.',
+        'This is Waimea on Kauaʻi: west-side distance from Līhuʻe, not the ranch town on Hawaiʻi Island. The longer drive is why the date needs advance notice. A west-side Saturday still needs its own shop list, written before anyone leaves Līhuʻe. Travel is confirmed on the written quote. We do not publish a separate travel price on this page. A cooktop is still required.',
+        'Hanapēpē is the nearer west-side town, on [Hanapēpē](/hanapepe). ʻEleʻele sits back toward Kalāheo. The South Shore villas are a different drive, on [South Shore](/south-shore). Do not stack this west-side night onto a Līhuʻe afternoon without writing it. Bands are on [pricing](/pricing). Request availability on [the quote form](/quote) with the west-side street and enough notice for the day.',
       ],
       faqs: [
         {
-          q: 'Is this the Big Island ranch?',
-          a: 'No.',
+          q: 'Is this Waimea the Big Island ranch?',
+          a: 'This is Waimea on Kauaʻi, west of Līhuʻe. The ranch town on Hawaiʻi Island is a different island and a different quote. Say Kauaʻi on the form. Request availability for this west side only.',
         },
         {
-          q: 'Same-day from Līhuʻe?',
-          a: 'Advance notice. Extended surcharge.',
+          q: 'Can a Līhuʻe crew add Kauaʻi Waimea the same day?',
+          a: 'Not as an unspoken add-on. West-side dates need advance notice, and the drive is confirmed on the written quote. We will not hide that distance inside a town afternoon. Request availability with the date you can actually hold.',
+        },
+        {
+          q: 'What west-side houses justify a Waimea quote?',
+          a: 'Houses with a working cooktop, cold storage, and a table, far enough west that the day is its own plan. A hotel room without heat is declined. Send the street so the notice and the drive can be written first.',
+        },
+        {
+          q: 'How do Hanapēpē and Waimea differ on that west side?',
+          a: 'Hanapēpē is the town-house page. Waimea is the farther west-side ask from Līhuʻe. Both need advance notice. Neither is the South Shore villa belt. Open the page that matches the street, then request availability.',
+        },
+        {
+          q: 'Where do I request availability and read the Kauaʻi card for Waimea?',
+          a: 'Pricing holds the bands, service, Hawaiʻi GET, the deposit, and gratuity. The quote form is where the west-side street and the notice go. We confirm a crew in writing. We do not print a travel dollar on this page.',
         },
       ],
       related: [
         { path: '/hanapepe', label: 'Hanapēpē dinners' },
-        { path: '/coverage', label: 'Coverage' },
-        { path: '/quote', label: 'Inquiry form' },
+        { path: '/south-shore', label: 'South Shore' },
+        { path: '/eleele', label: 'ʻEleʻele dinners' },
+        { path: '/quote', label: 'Availability form' },
       ],
     },
     {
       slug: 'hanapepe',
       name: 'Hanapēpē',
       h1: 'Hanapēpē town houses — west Kauaʻi, not a visitor cluster.',
-      title: 'Hanapēpē household dinner — west-side inquiry | myCHEF',
+      title: 'Private chef in Hanapēpē houses | myCHEF',
       description:
-        'Hanapēpē west-side town dinners at inquiry. Private houses, not a visitor-villa cluster.',
+        'Private chef dinners in Hanapēpē town houses on west Kauaʻi. Not a North Shore estate and not a visitor-villa cluster. Request availability with notice.',
       lede:
         'Town houses on the west. Surcharge. We will not sell this as a North Shore estate page.',
       photo: 'cellHanapepe',
       body: [
-        'Not a visitor-villa cluster and not a North Shore copy.',
-        'A cooktop is still required. We crew when we can staff.',
-        'Send the address on the quote form. Advance notice on the west side.',
+        'Hanapēpē is town houses on the west side, not a visitor-villa cluster and not a North Shore copy. The night is a private kitchen and a table, with advance notice because the drive from Līhuʻe is the long one. Write one street, not a whole west-side loop. A cooktop is still required. We confirm a crew in writing when the week can be staffed.',
+        'ʻEleʻele sits back toward Kalāheo, on [ʻEleʻele](/eleele). Farther west is [Kauaʻi Waimea](/waimea). The villa shore is a different page, [South Shore](/south-shore). Travel is confirmed on the written quote. We do not publish a separate travel price here. Bands are on [pricing](/pricing). Request availability on [the quote form](/quote) with the town address and the notice you can give.',
       ],
       faqs: [
         {
-          q: 'North Shore inventory?',
-          a: 'No. This is west Kauaʻi.',
+          q: 'Is Hanapēpē a North Shore estate booking?',
+          a: 'It is west Kauaʻi town houses, not a North Shore estate. Princeville and Hanalei are the other shore. Request availability for this town if the kitchen is here. Do not file a valley address on this page.',
+        },
+        {
+          q: 'What town houses on the west side can take a chef?',
+          a: 'Private houses with a cooktop, cold storage, and seats. A visitor-villa cluster is the wrong picture. A room without heat is declined before a deposit. Describe the kitchen when you request availability.',
+        },
+        {
+          q: 'Why does a Hanapēpē date need advance notice?',
+          a: 'The west side is not a same-afternoon add-on from Līhuʻe. Notice lets the drive and the crew be written first. Travel is confirmed on the quote. We do not publish a separate travel price on this page.',
+        },
+        {
+          q: 'How do Hanapēpē and Kauaʻi Waimea share a west-side quote?',
+          a: 'They do not share one line unless you write both. Hanapēpē is the town. Waimea is farther from Līhuʻe. Pick the street you mean, or ask for two dated lines. Request availability for the one you can hold.',
+        },
+        {
+          q: 'Where do I request availability for a Hanapēpē town house?',
+          a: 'On the quote form, with the street, the dates, and the headcount. Pricing has the Kauaʻi bands and fee lines. South Shore is the villa overview if you are actually in Poʻipū. A crew is confirmed in writing.',
         },
       ],
       related: [
         { path: '/waimea', label: 'Kauaʻi Waimea dinners' },
         { path: '/eleele', label: 'ʻEleʻele dinners' },
-        { path: '/quote', label: 'Inquiry form' },
+        { path: '/south-shore', label: 'South Shore' },
+        { path: '/quote', label: 'Availability form' },
       ],
     },
     {
       slug: 'anahola',
       name: 'Anahola',
       h1: 'Anahola coast tables — quieter than Kapaʻa, inquiry.',
-      title: 'Anahola household dinner — east-north inquiry | myCHEF',
+      title: 'Private chef in Anahola, Kauaʻi | myCHEF',
       description:
-        'Anahola east-north coast dinners at inquiry. Quieter than Kapaʻa, still a drive from Līhuʻe.',
+        'Private chef dinners in Anahola coast houses, quieter than Kapaʻa and still a drive from Līhuʻe. Travel is on the written quote. Request availability.',
       lede:
-        'East-north coast houses. Surcharge at launch. Inquiry until we can staff. Not a second Kapaʻa corridor.',
+        'East-north coast houses. The drive is on the written quote. Request availability. Not a second Kapaʻa page.',
       photo: 'cellAnahola',
       body: [
-        'Still a drive from Līhuʻe staging.',
-        'A cooktop is still required.',
-        'Send the address on the quote form. Inquiry is the honest status.',
+        'Anahola is the quieter east-north coast, not a second Kapaʻa page and not the Hanalei valley. Houses here still sit a drive from Līhuʻe, and that drive is confirmed on the written quote. We do not publish a separate travel price on this page. A cooktop is required. A room without heat is declined before a deposit.',
+        'Kapaʻa is the nearer east-side town, on [Kapaʻa](/kapaa). The North Shore estates are [Hanalei](/hanalei), with their own weather notes. Kitchen notes for this coast are [Anahola kitchen notes](/blog/dining-in-anahola). Bands and fee lines are on [pricing](/pricing). Request availability on [the quote form](/quote). We confirm a crew in writing. This coast is not an instant confirm.',
       ],
       faqs: [
         {
-          q: 'Are you live?',
-          a: 'Inquiry. Open the quote form.',
+          q: 'How is Anahola different from a Kapaʻa household?',
+          a: 'Kapaʻa is the east-side town closer to Līhuʻe. Anahola is the quieter coast beyond it, and the drive is its own line on the quote. Do not file one as the other. Request availability for the coast address if that is the house.',
+        },
+        {
+          q: 'What coast houses do you cook in at Anahola?',
+          a: 'Houses with a working cooktop, cold storage, and a table, on this quieter stretch. A hotel room without heat is declined. Send the street, not a resort name. The kitchen notes page is the short companion to this one.',
+        },
+        {
+          q: 'How does the drive from Līhuʻe show on an Anahola quote?',
+          a: 'It is confirmed in writing with the menu. We do not publish a separate travel price on this page, and we do not hide the drive inside the food. Kauaʻi bands and fee lines are on the pricing page.',
+        },
+        {
+          q: 'Is Anahola ready as an instant confirm?',
+          a: 'Request availability. We confirm a crew in writing when the week can be held. A published band is not a button for this coast. Send the dates and wait for that reply before you treat the night as set.',
+        },
+        {
+          q: 'Where should a Hanalei guest look instead of Anahola?',
+          a: 'Open the Hanalei page. That valley is the North Shore ask, with its own weather notes. Anahola is the east-north coast. Request availability only for the coast you mean, and name it on the quote form.',
         },
       ],
       related: [
         { path: '/kapaa', label: 'Kapaʻa corridor' },
         { path: '/hanalei', label: 'Hanalei corridor' },
         { path: '/blog/dining-in-anahola', label: 'Anahola kitchen notes' },
+        { path: '/pricing', label: 'Rate card' },
       ],
     },
     {
       slug: 'eleele',
       name: 'ʻEleʻele',
       h1: 'ʻEleʻele houses — between Kalāheo and the west, inquiry.',
-      title: 'ʻEleʻele household dinner — south-west inquiry | myCHEF',
+      title: 'Private chef in ʻEleʻele houses | myCHEF',
       description:
-        'ʻEleʻele south-west household dinners at inquiry. Between Kalāheo and the west side.',
+        'Private chef dinners in ʻEleʻele houses between Kalāheo and Hanapēpē. South-west residential, not a Poʻipū villa. Request availability with notice.',
       lede:
         'Further toward the west. Surcharge. Advance notice. Private houses, not a South Shore villa page.',
       photo: 'cellEleele',
       body: [
-        'We will not pretend this is a South Shore villa page.',
-        'Hanapēpē continues west. A cooktop is still required.',
-        'Send the address on the quote form. We crew when we can staff.',
+        'ʻEleʻele is south-west residential, further toward the west than Kalāheo and not a Poʻipū villa page. Private houses are the fit. The night is a residential supper between two towns, not a villa lunch. Advance notice is part of the ask because the day is longer than a South Shore morning. A cooktop is still required. We confirm a crew in writing when that week can be staffed.',
+        'Hanapēpē continues west, on [Hanapēpē](/hanapepe). Kalāheo sits back toward Līhuʻe, on [Kalāheo](/kalaheo). The villa overview stays [South Shore](/south-shore). Travel is confirmed on the written quote. We do not publish a separate travel price here. Bands are on [pricing](/pricing). Request availability on [the quote form](/quote) with the street and the notice you can give.',
       ],
       faqs: [
         {
-          q: 'Poʻipū inventory?',
-          a: 'No. This is south-west residential.',
+          q: 'Is ʻEleʻele booked like a Poʻipū villa?',
+          a: 'It is south-west residential, not the Poʻipū villa page. Open South Shore if the house is actually on that shore. Request availability here only for a private house between Kalāheo and the west.',
+        },
+        {
+          q: 'What residential kitchens sit between Kalāheo and Hanapēpē?',
+          a: 'ʻEleʻele houses with a cooktop, cold storage, and a table. Kalāheo is the nearer residential town. Hanapēpē continues west. A room without heat is declined. Name the street when you request availability.',
+        },
+        {
+          q: 'How does advance notice work for an ʻEleʻele night?',
+          a: 'The date is written with enough notice to plan the south-west day. We will not treat it as a same-afternoon add-on. A crew is confirmed in writing. Send the dates you can hold, not a same-day hope.',
+        },
+        {
+          q: 'Where does ʻEleʻele travel print?',
+          a: 'ʻEleʻele travel is confirmed when the south-west day is accepted, not as a surprise after dinner. This page prints no travel dollar of its own. Read pricing for the Kauaʻi bands and fee lines, then request availability with the notice you can give.',
+        },
+        {
+          q: 'Which page is the South Shore, and which is further west?',
+          a: 'South Shore is Poʻipū and Kōloa. ʻEleʻele is the residential step toward Hanapēpē and Waimea. Use the page that matches the street. Request availability for one address so the drive is the right one.',
         },
       ],
       related: [
         { path: '/kalaheo', label: 'Kalāheo dinners' },
         { path: '/hanapepe', label: 'Hanapēpē dinners' },
-        { path: '/quote', label: 'Inquiry form' },
+        { path: '/south-shore', label: 'South Shore' },
+        { path: '/quote', label: 'Availability form' },
       ],
     },
   ],

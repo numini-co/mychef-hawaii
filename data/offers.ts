@@ -1057,13 +1057,39 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       slug: 'kapaa',
       name: 'Kapaʻa',
       h1: 'Private chef in Kapaʻa, Kauaʻi',
-      title: 'Private chef Kapaa Kauai — from $225/pp | myCHEF',
-      description: 'Private chef in Kapaʻa and the east side. Household dinners from $225/pp.',
-      lede: 'East-side town, closer to the Līhuʻe base than either shore villa belt. Honest, not the hero product — still a real booking.',
-      body: ['Family Feast and weekly-style nights. Same Kauaʻi starting prices.', 'Full Kauaʻi rates are on [the pricing page](/pricing); send your dates on [the quote form](/quote).'],
-      zone: 'East side — included',
+      title: 'Private chef in Kapaʻa, east side | myCHEF',
+      description:
+        'Private chef dinners in Kapaʻa households on the east side, closer to Līhuʻe than the shore villas. Same Kauaʻi card. Request availability for the week.',
+      lede:
+        'East-side town, closer to the Līhuʻe base than either shore villa belt. A household booking, not a shore estate.',
+      body: [
+        'Kapaʻa is the east-side town, closer to the Līhuʻe base than Princeville or Poʻipū. The usual night is a household dinner or a week of cooking at home, not a shore-estate arrival. The menu band does not drop because the drive is shorter. A working cooktop is required, and a room without heat is declined before a shop.',
+        'Anahola is the quieter coast beyond this town, on [Anahola](/anahola). In-town Līhuʻe houses are on [Līhuʻe](/lihue). Shore weeks stay on [Poʻipū](/poipu) and [Princeville](/princeville). Kitchen notes are [Kapaʻa kitchen notes](/blog/dining-in-kapaa). Full bands and fee lines are on [the pricing page](/pricing). Request availability on [the quote form](/quote) with the east-side street and the dates.',
+      ],
+      zone: 'East side — base zone',
       photo: 'locKapaa',
-      faqs: [{ q: 'Is this cheaper?', a: 'Closer drive. Menu band is still the Kauaʻi card.' }],
+      faqs: [
+        {
+          q: 'Is a Kapaʻa dinner cheaper because the drive is shorter?',
+          a: 'The menu band is still the Kauaʻi card. A closer drive to Līhuʻe is not a discount on the food. Shore villas use the same card and name their own line. Read pricing, then request availability with the headcount.',
+        },
+        {
+          q: 'What east-side houses fit a Kapaʻa chef night?',
+          a: 'Household kitchens with a cooktop, a fridge, and a table. This is a town booking, not a shore estate. A room without heat is declined. Send the street and whether you want one night or a week of cooking.',
+        },
+        {
+          q: 'How does a Kapaʻa week differ from a Poʻipū arrival night?',
+          a: 'Poʻipū is the South Shore arrival, often the first night in a villa. Kapaʻa is an east-side household, closer to Līhuʻe, and a week at home is the usual rhythm. Open the shore page if that is the house. Request availability for this town if it is not.',
+        },
+        {
+          q: 'Is Kapaʻa inside the Līhuʻe base, and how does travel print?',
+          a: 'It is the east-side base beside Līhuʻe, not a shore surcharge town. Travel is still confirmed on the written quote. We do not publish a separate travel price on this page. Anahola, past this town, is the coast page.',
+        },
+        {
+          q: 'Where do I request availability for an east-side household?',
+          a: 'On the quote form, with Kapaʻa, the dates, and the headcount. Pricing lists the Kauaʻi bands, service, Hawaiʻi GET, the deposit, and gratuity. We confirm a crew in writing. A shorter drive does not make the night instant.',
+        },
+      ],
     },
   ],
   bigisland: [
