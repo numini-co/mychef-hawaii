@@ -930,11 +930,136 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/haleiwa-restaurants-dining-guide', label: 'Haleʻiwa restaurants guide' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/catering', label: 'Oahu catering' },
         { path: '/', label: 'Private chef Oahu' },
         { path: '/pricing', label: 'Oahu private chef cost' },
         { path: '/blog/waikiki-restaurants-dining-guide', label: 'Waikīkī restaurants guide' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'haleiwa-restaurants-dining-guide',
+      keyword: 'haleiwa restaurants',
+      datePublished: '2026-10-26',
+      name: 'Haleʻiwa restaurants guide',
+      h1: 'Haleiwa restaurants — eating on Oʻahu’s North Shore, and when to stay in.',
+      title: 'Haleiwa Restaurants — North Shore Oahu Dining Guide | myCHEF',
+      description:
+        'Haleiwa restaurants on Oahu’s North Shore: food trucks, shave ice, sunset tables, winter surf traffic and when a chef dinner at your rental wins.',
+      lede:
+        'Haleʻiwa is the old surf town at the heart of Oʻahu’s North Shore, and its restaurants are mostly casual: food trucks, garlic shrimp, plate lunch, poke, coffee, shave ice and a short list of sit-down rooms by the harbor. This guide covers how eating in Haleʻiwa works, how to time it around the drive and the winter surf, and when a dinner cooked at your North Shore rental is the better plan.',
+      photo: 'northShore',
+      body: [],
+      sections: [
+        {
+          heading: 'Where Haleʻiwa is and how long it takes to get there',
+          paras: [
+            'Haleʻiwa sits on the North Shore where Kamehameha Highway meets the coast, roughly an hour to an hour and a quarter from Waikīkī by car via H-1, H-2 and Wahiawā, and longer on weekends. The Joseph P. Leong Highway bypass skips the old town, so turn off at the roundabout if you are stopping to eat.',
+            'Most visitors arrive as a day trip from Honolulu: breakfast or lunch in Haleʻiwa, turtles and beaches up the coast, shrimp in Kahuku, and the drive home down the windward side. If you are staying on the North Shore, Haleʻiwa is your town for groceries, coffee and the occasional dinner out.',
+          ],
+        },
+        {
+          heading: 'What the Haleʻiwa food scene looks like',
+          paras: [
+            'Haleʻiwa’s plantation-era main street is protected as a historic district, and the food fits the town. Expect food trucks and truck lots, garlic shrimp plates, poke and plate lunch, açaí bowls, coffee bars, bakeries and the shave ice counters that draw lines every afternoon. In the evening there are a few sit-down restaurants, some with views over the harbor or the river, and a couple of bars.',
+            'It is relaxed and sandy-footed. Very few rooms are built for a long multi-course dinner, and fewer still can seat a group of twelve at short notice. That is fine for a beach day; it matters if you are planning a birthday or a family dinner.',
+          ],
+        },
+        {
+          heading: 'Shave ice, shrimp trucks and the lunch queue',
+          paras: [
+            'The two things almost every visitor eats in Haleʻiwa are shave ice and garlic shrimp. Lines peak from late morning to mid-afternoon, especially on weekends. Order shave ice with ice cream or sweet azuki beans underneath if you want it the local way, and go early or late for the trucks.',
+            'Parking in town is tight in the middle of the day, so a plan that has you eating at eleven and on the beach by one usually beats arriving hungry at two. Many trucks and counters close by late afternoon or early evening.',
+          ],
+        },
+        {
+          heading: 'Dinner in Haleʻiwa: early nights and sunset',
+          paras: [
+            'The North Shore goes to bed early. Several of the casual spots close before or around sunset, and the sit-down restaurants fill up at golden hour, when the sun drops into the ocean off the west-facing coast. Book where you can, especially for a group or a Friday or Saturday.',
+            'If you are staying in Waikīkī, remember the dark drive back over the middle of the island. Most visitors treat Haleʻiwa as a lunch stop and eat dinner closer to where they sleep. If you are staying up here, dinner at the house is often easier than driving to town and back.',
+          ],
+        },
+        {
+          heading: 'Winter surf season and North Shore traffic',
+          paras: [
+            'From roughly November to February the North Shore gets big winter swells, and the surf contests and crowds that come with them. On big-surf days Kamehameha Highway slows to a crawl between Haleʻiwa, Waimea Bay and Sunset Beach, and a twenty-minute drive can take an hour. Turtles hauling out at Laniakea add to the slowdown.',
+            'If your trip lands in surf season, plan meals around the traffic rather than the clock: eat in Haleʻiwa before heading up the coast, or carry food back to the house. Summer is calmer, with gentler water and lighter traffic.',
+          ],
+        },
+        {
+          heading: 'Staying on the North Shore: houses, longer stays and kitchens',
+          paras: [
+            'Outside the resort-zoned areas, Honolulu only allows homes to be rented to visitors for thirty days or more, apart from a small number of older permitted vacation rentals. Many North Shore stays are therefore longer: a month in a beach house, a surf-season family trip or a remote-work stretch. Those houses usually have real kitchens; some cottages have small ones, and we check before we quote.',
+            'Supermarket choice is thinner than in town, and many guests stock up on the way up. The North Shore is a surcharge zone for us, from $75, printed as its own line, and chef days up here are dedicated rather than squeezed between town bookings. Our [private chef North Shore](/north-shore) page has the local details.',
+          ],
+        },
+        {
+          heading: 'When a chef dinner at the house beats driving to town',
+          paras: [
+            'A family of ten, a surf-season birthday, mixed diets, small children who eat early, or the first night after a long flight all point the same way. A [private chef Honolulu](/private-chef) dinner brings the meal to the North Shore: the chef plans the menu with you, shops, cooks in your kitchen, serves at your table and leaves the kitchen clean. Nobody has to choose who drives.',
+            'Most guests mix the two: lunch from the trucks in Haleʻiwa, a sunset dinner out once, and the group nights at the house.',
+          ],
+        },
+        {
+          heading: 'Groceries, fish and local produce',
+          paras: [
+            'Oʻahu’s weekly farmers markets are the easiest place to buy local fruit, greens and flowers for a rental week, and our [Oʻahu farmers market guide](/blog/oahu-farmers-market-villa-week) explains how they work for villa guests. For dinners we cook, the chef does the shopping; on longer stays, the groceries for days we cook are billed at cost with receipts handed over.',
+          ],
+        },
+        {
+          heading: 'Parties, reunions and bigger groups',
+          paras: [
+            'A reunion dinner for twenty on the lawn or a celebration across two houses is a staffed event rather than a chef dinner. [Oahu catering](/catering) covers staffed villa and residence events of about 10 to 75 guests, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, each shown as its own line. If you are dreaming of an island-food party on the lawn, our [backyard luau guide](/blog/private-luau-oahu) explains what we cook and what we do not.',
+          ],
+        },
+        {
+          heading: 'What a dinner at your North Shore rental costs with us',
+          paras: [
+            'Signature dinners on Oʻahu are published at $195–$290 a guest with groceries included in that band, for a minimum party of six, and a simpler menu runs $145–$195 a guest for eight or more. Dinner for two starts from $675. Stay Chef days for a chef and an assistant start from $1,250 a day for one meal, with groceries billed at cost.',
+            'A 20% service charge and Hawaiʻi GET up to 4.712% are added as their own lines, the North Shore surcharge is printed separately, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Oahu private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan your North Shore nights',
+          paras: [
+            'Send the house address, the dates, the number of adults and children, allergies and the nights you want cooked. Use the quote form or message us on WhatsApp at +1 808-468-7748, and we reply with a written quote. For villa dinners across the island, from the North Shore to Ko Olina, see [private chef Oahu](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'How far is Haleʻiwa from Waikīkī?',
+          a: 'Roughly an hour to an hour and a quarter by car via H-1, H-2 and Wahiawā, longer on weekends and on big winter surf days, when Kamehameha Highway slows down.',
+        },
+        {
+          q: 'What kind of restaurants are in Haleʻiwa?',
+          a: 'Mostly casual: food trucks, garlic shrimp, plate lunch, poke, cafés, bakeries and shave ice, plus a few sit-down restaurants and bars, some with harbor or river views.',
+        },
+        {
+          q: 'Do Haleʻiwa restaurants close early?',
+          a: 'Many trucks and casual counters close by late afternoon or early evening, and the sit-down rooms fill at sunset, so book dinner where you can, especially for a group.',
+        },
+        {
+          q: 'When is North Shore traffic worst?',
+          a: 'Weekends and big-surf days, mostly from about November to February. Eat in Haleʻiwa before heading up the coast, or carry food back to the house.',
+        },
+        {
+          q: 'Can a private chef cook at our North Shore rental?',
+          a: 'Yes. The North Shore is a surcharge zone, from $75, printed as its own line. The house needs a working cooktop; the chef shops, cooks, serves and cleans up.',
+        },
+        {
+          q: 'How much does a chef dinner on the North Shore cost?',
+          a: 'Signature dinners on Oʻahu are $195–$290 a guest with groceries included, minimum six, plus the North Shore surcharge. Service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Private chef Honolulu' },
+        { path: '/catering', label: 'Oahu catering' },
+        { path: '/', label: 'Private chef Oahu' },
+        { path: '/pricing', label: 'Oahu private chef cost' },
+        { path: '/blog/kailua-restaurants-dining-guide', label: 'Kailua restaurants guide' },
       ],
     },
   ],
@@ -1613,6 +1738,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-luau-villa-dinner-guide', label: 'Maui luau guide' },
         { path: '/blog/kapalua-restaurants-dining-guide', label: 'Kapalua restaurants guide' },
         { path: '/private-chef', label: 'Personal chef Maui' },
         { path: '/catering', label: 'Maui catering' },
@@ -1856,6 +1982,129 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Maui' },
         { path: '/pricing', label: 'Maui private chef cost' },
         { path: '/blog/kaanapali-restaurants-dining-guide', label: 'Kāʻanapali restaurants guide' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'maui-luau-villa-dinner-guide',
+      keyword: 'maui luau',
+      datePublished: '2026-10-26',
+      name: 'Maui luau guide',
+      h1: 'Maui luau — a show night, a villa night, or both?',
+      title: 'Maui Luau — Show Tickets or a Villa Island Dinner? | myCHEF',
+      description:
+        'Planning a Maui luau? How commercial luaus work, what to ask before you book, and when an island-style dinner at your villa suits a group better.',
+      lede:
+        'A Maui luau usually means a ticketed evening at a resort or oceanfront venue: a buffet or plated island dinner, drinks and a Polynesian show at sunset. It is one of the most booked evenings on the island, and it is a good one. This guide explains how commercial luaus on Maui work, what to check before you buy tickets, and when an island-style dinner at your own villa is the better fit for your group.',
+      photo: 'fmtFamilyMaui',
+      body: [],
+      sections: [
+        {
+          heading: 'What a Maui luau is today',
+          paras: [
+            'The word lūʻau comes from the young taro leaves cooked in many Hawaiian feast dishes, and the feast itself is a long Hawaiian tradition of gathering for births, birthdays, weddings and homecomings. The visitor luau grew out of that: a shared island meal followed by music and dance.',
+            'On Maui, most commercial luaus run in West Maui around Lahaina and Kāʻanapali and at the South Maui resorts in Wailea. They usually start in the late afternoon, so dinner and the show run through sunset, and most evenings last around three hours. Some focus on Hawaiian hula and storytelling; others tour Polynesia, with dances from Tahiti, Sāmoa and Aotearoa and a fire knife finale.',
+          ],
+        },
+        {
+          heading: 'What is usually on the table',
+          paras: [
+            'Luau menus on Maui lean on the dishes people expect: kālua pig, poi, lomi salmon, laulau, chicken long rice, poke, sweet potato, fresh fruit and haupia for dessert, alongside grilled fish, chicken and salads for less adventurous eaters. Some venues serve a buffet, others a plated or family-style meal at assigned tables.',
+            'If kālua pig is the point for you, ask whether the venue holds an imu ceremony, where the pig is lifted from the underground oven, because not every luau does.',
+          ],
+        },
+        {
+          heading: 'What to check before you buy tickets',
+          paras: [
+            'Seating is the big variable: premium tickets usually buy a table closer to the stage and sometimes table service, while general seats can be further back. Check what drinks are included, whether children are priced separately, how long the evening runs and whether the venue serves a buffet or a seated meal. Ask how dietary needs are handled if anyone is vegetarian, gluten-free or has an allergy.',
+            'Prices change by venue and season, so compare current ticket prices directly with each venue and book early for holiday weeks, when the popular shows sell out.',
+          ],
+        },
+        {
+          heading: 'Where you are staying matters more than you think',
+          paras: [
+            'Maui is bigger than it looks on a map. A West Maui luau is an easy walk for a Kāʻanapali guest and a long drive back in the dark for a family staying in Wailea or Mākena, and the Honoapiʻilani Highway can be slow in the evening. Pick a luau close to your base where you can, or plan the night so the driver is not the one celebrating.',
+            'Our [Kāʻanapali restaurants guide](/blog/kaanapali-restaurants-dining-guide) and [Wailea restaurants guide](/blog/wailea-restaurants-dining-guide) cover the rest of the evening options on each coast.',
+          ],
+        },
+        {
+          heading: 'When a villa island dinner suits a group better',
+          paras: [
+            'Tickets work best for couples and small groups who want the show. For a family of twelve, a wedding party or a reunion, the numbers start to look different: everyone pays for a seat, the group may be split across tables, small children are up past bedtime, and someone still has to drive home.',
+            'The alternative is island food at the house you are already staying in. There is no stage and no ticket; you host, the menu is yours, and the table is only your people. That is what myCHEF does. We are a kitchen, not a show company, so we do not stage a theatrical luau. We cook an island-style dinner: grilled fish, island pork, local produce and dishes people expect, served family-style on the lānai.',
+          ],
+        },
+        {
+          heading: 'What we cook, and what we do not',
+          paras: [
+            'An imu is rarely possible at a vacation rental, because most owners and associations do not allow digging or open fires on the lawn. Our chefs cook on a grill and in the house kitchen instead, and the menu is written for that house and that guest list. Ask for poke, slow-cooked pork, grilled fish or haupia and the chef confirms what the kitchen can do well.',
+            'If you want hula or live music, book a performer separately and we will time the meal around them. We will not invent the cultural program or name partners we do not work with.',
+          ],
+        },
+        {
+          heading: 'Group sizes: chef dinner or staffed catering',
+          paras: [
+            'Up to about a dozen guests, a chef and the villa kitchen can cook and serve family-style platters, and a [personal chef Maui](/private-chef) dinner is the right booking. Past that, it becomes a staffed event: [Maui catering](/catering) covers villa receptions, reunions and wedding weeks for 10 to 75 guests, buffet, plated or family-style, with Hawaiian catering menus written for the house. Servers are $80 an hour and a sous-chef $105 an hour on four- to five-hour minimums, each on its own line.',
+            'Tables, linens and tents are not included unless you ask for them; if the villa does not have enough, they are quoted as rentals on their own lines.',
+          ],
+        },
+        {
+          heading: 'Wedding weeks and welcome nights',
+          paras: [
+            'Many couples want an island-food night during a Maui wedding week, often as the welcome dinner the day guests arrive. Our [welcome dinner notes](/blog/welcome-dinner) cover timing, and the wedding day itself lives on [wedding catering Maui](/weddings). The Maui mobile bar is published from $1,200 for four hours plus $85 a guest, with spirits billed at cost or brought by you.',
+          ],
+        },
+        {
+          heading: 'Doing both: a show night and a villa night',
+          paras: [
+            'Plenty of families do both. They book the luau for the couple or the teenagers who want the fire knife dance, and host an island dinner at the villa for the whole group on another night, when grandparents and toddlers can join and leave the table when they like. If you only have one big night, decide what matters most: the show, or everyone at the same table.',
+          ],
+        },
+        {
+          heading: 'What an island dinner at your villa costs with us',
+          paras: [
+            'Signature dinners on Maui are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler table runs $190–$225 a guest. Dinner for two starts from $750. A 20% service charge and Hawaiʻi GET up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Maui private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan it',
+          paras: [
+            'Send the villa address, the date, the number of adults and children, allergies, and whether you want a chef dinner or a staffed party. Use the quote form or message us on WhatsApp at +1 808-468-7748, and we reply with a written quote. For villa dinners across the island, from Wailea to Kapalua, see [private chef Maui](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Where are most luaus on Maui?',
+          a: 'Mostly in West Maui around Lahaina and Kāʻanapali and at the South Maui resorts in Wailea. Choose one close to where you stay to avoid a long evening drive.',
+        },
+        {
+          q: 'How long does a Maui luau last?',
+          a: 'Most run around three hours, starting in the late afternoon so the dinner and show run through sunset. Check the exact times with the venue when you book.',
+        },
+        {
+          q: 'What food is served at a luau?',
+          a: 'Usually kālua pig, poi, lomi salmon, laulau, chicken long rice, poke, sweet potato, fruit and haupia, with grilled fish, chicken and salads alongside.',
+        },
+        {
+          q: 'Does myCHEF run luau shows?',
+          a: 'No. We are a kitchen, not a show company. We cook an island-style dinner at your villa, served family-style; performers can be booked separately.',
+        },
+        {
+          q: 'Can you cook kālua pig in an imu at our villa?',
+          a: 'Rarely. Most rentals do not allow digging or open fires on the lawn. Our chefs cook on a grill and in the house kitchen, and slow-cooked pork can be on the menu.',
+        },
+        {
+          q: 'How much is an island dinner at a Maui villa?',
+          a: 'Signature dinners on Maui are $225–$375 a guest with groceries included, minimum six. Service charge and GET are separate lines and a 50% deposit holds the date.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Personal chef Maui' },
+        { path: '/catering', label: 'Maui catering' },
+        { path: '/', label: 'Private chef Maui' },
+        { path: '/pricing', label: 'Maui private chef cost' },
+        { path: '/weddings', label: 'Wedding catering Maui' },
       ],
     },
   ],
@@ -2187,6 +2436,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-luau-villa-dinner-guide', label: 'Kauaʻi luau guide' },
         { path: '/blog/kapaa-restaurants-dining-guide', label: 'Kapaʻa restaurants guide' },
         { path: '/', label: 'Private chef Kauai' },
         { path: '/private-chef', label: 'Personal chef Kauai' },
@@ -2788,6 +3038,128 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Kauai' },
         { path: '/pricing', label: 'Kauai private chef cost' },
         { path: '/blog/kapaa-restaurants-dining-guide', label: 'Kapaʻa restaurants guide' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'kauai-luau-villa-dinner-guide',
+      keyword: 'kauai luau',
+      datePublished: '2026-10-26',
+      name: 'Kauaʻi luau guide',
+      h1: 'Kauai luau — booking a show, or island food at the rental?',
+      title: 'Kauai Luau — Show Night or Island Dinner at Home? | myCHEF',
+      description:
+        'Planning a Kauai luau? How Kauaʻi luaus work, rain and driving times, show-only seats, and when an island-style dinner at your rental is the better fit.',
+      lede:
+        'A Kauai luau is usually a ticketed evening at a resort or garden venue: an island buffet or seated dinner, drinks, and hula and Polynesian dance after dark. On Kauaʻi the practical questions are different from the other islands: how far you will drive at night, what the weather will do, and whether a big group wants seats at a show or a long table of its own. This guide covers all three, and explains when island food cooked at your rental is the better plan.',
+      photo: 'fmtFamilyKauai',
+      body: [],
+      sections: [
+        {
+          heading: 'How luaus work on Kauaʻi',
+          paras: [
+            'Commercial luaus on Kauaʻi run at resorts and garden venues, typically a few nights a week rather than every night, so check the schedule before you plan the rest of your week around one. Most start in the late afternoon or early evening with arrival, drinks and a walk around the grounds, then dinner, then the show.',
+            'Shows range from Hawaiian hula and storytelling to a tour of Polynesian dance with a fire knife finale. Some venues sell show-only seats without dinner, which can suit families who have already eaten or who only want the dancing.',
+          ],
+        },
+        {
+          heading: 'The food you can expect',
+          paras: [
+            'The name lūʻau comes from the taro leaves cooked in many Hawaiian feast dishes, and taro, or kalo, matters on Kauaʻi: the wetland patches of Hanalei Valley are among the best-known taro fields in the islands. On a luau table you will usually find kālua pig, poi, lomi salmon, laulau, chicken long rice, poke, sweet potato, fruit and haupia, with grilled fish, chicken and salads for picky eaters.',
+            'If the imu ceremony matters to you, ask the venue directly; not every luau uncovers a pig in an underground oven.',
+          ],
+        },
+        {
+          heading: 'Driving at night on Kauaʻi',
+          paras: [
+            'Kauaʻi has one main road around most of the island, and it does not go all the way round: the Nā Pali coast closes the loop. From Princeville or Hanalei to the south shore is a long evening drive, more than an hour each way, and the road through Kapaʻa is often slow. A luau near where you sleep is worth more than the best-reviewed one across the island.',
+            'If you are staying on the North Shore, also keep the Hanalei bridge in mind: heavy rain can close the road beyond it. Our [north shore Kauai dining guide](/blog/north-shore-kauai-dining-guide) covers evenings on that side.',
+          ],
+        },
+        {
+          heading: 'Rain, and why it shapes the evening',
+          paras: [
+            'Kauaʻi is the wettest of the main islands, and showers can roll through any evening, especially on the North Shore and in winter. Outdoor luaus usually have covered seating or a rain plan, but ask what happens to the show if it pours. The south shore around Poʻipū is generally drier, which is one reason many visitors book their luau and their outdoor dinners on that side.',
+            'At a rental, the same rule applies: we plan a covered lānai or an indoor table as the backup for any outdoor dinner. Our [weather backup notes](/blog/weather-backup) explain how.',
+          ],
+        },
+        {
+          heading: 'Questions to ask before you book',
+          paras: [
+            'Ask what the ticket includes: drinks, seating section, table service or buffet, and whether children are priced differently. Ask how long the evening runs, how dietary needs are handled, and what the rain policy is. Compare current prices directly with each venue, because they change by season, and book early for holiday weeks and school breaks.',
+          ],
+        },
+        {
+          heading: 'When island food at the rental suits a group better',
+          paras: [
+            'Tickets suit couples and small groups who want the show. For a reunion of fifteen, a wedding party or three generations under one roof, a shared table at the house is often better: nobody is split across tables, toddlers can go to bed, and no one drives the dark road home.',
+            'That is what myCHEF cooks. We are a kitchen, not a show company, so we do not stage a theatrical luau on a Princeville or Poʻipū lawn. We cook an island-style dinner on the grill and in the house kitchen: fish, island pork, local produce, served family-style. An imu is rarely possible at a rental, because most owners do not allow digging or open fires on the lawn.',
+          ],
+        },
+        {
+          heading: 'Chef dinner or staffed catering',
+          paras: [
+            'Up to about a dozen guests, a chef and the rental kitchen can cook and serve family-style platters, and a [personal chef Kauai](/private-chef) dinner is the right booking. Bigger parties become staffed events: [Kauai catering](/catering) covers estate and villa events from Princeville to Poʻipū for 10 to 75 guests, buffet or plated, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, shown as their own lines.',
+            'Tables, linens and tents are not included unless you ask for them; if the house does not have enough, they are quoted separately. Performers are booked by you and we time the meal around them.',
+          ],
+        },
+        {
+          heading: 'Where you stay changes the quote',
+          paras: [
+            'Līhuʻe and Kapaʻa are base zones, so no travel line applies. Princeville, Hanalei and Poʻipū carry a published surcharge of $50–$75, printed as its own line, and Hāʻena and the far North are quote-only with 72 hours’ notice and a Hanalei-bridge weather clause. Our [Poʻipū restaurants guide](/blog/poipu-restaurants-dining-guide) covers evenings out on the south shore.',
+          ],
+        },
+        {
+          heading: 'Local produce for an island table',
+          paras: [
+            'Kauaʻi’s weekly farmers markets are the best place to see what is in season, from tropical fruit to greens, and our [Kauaʻi farmers market guide](/blog/kauai-farmers-market-villa-week) explains how they work for rental guests. We only name a farm after we have verified it in writing.',
+          ],
+        },
+        {
+          heading: 'What an island dinner at your rental costs with us',
+          paras: [
+            'Signature dinners on Kauaʻi are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler menu runs $190–$225 a guest. Dinner for two is $975–$1,425. A 20% service charge and Hawaiʻi GET up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Kauai private chef cost](/pricing). Kauaʻi is by inquiry, so the written quote is the confirmed total once a chef is confirmed for your date.',
+          ],
+        },
+        {
+          heading: 'How to plan it',
+          paras: [
+            'Send the rental address, the date, the number of adults and children, allergies and whether you want a chef dinner or a staffed party. Use the inquiry form or message us on WhatsApp at +1 808-468-7748, and we reply in writing. For villa dinners across the island, see [private chef Kauai](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Do Kauaʻi luaus run every night?',
+          a: 'Not usually. Many run a few nights a week, so check each venue’s schedule before you plan the rest of your trip around one.',
+        },
+        {
+          q: 'Can you book a Kauaʻi luau without dinner?',
+          a: 'Some venues sell show-only seats. Ask when you book; it can suit families who have eaten early or only want to see the dancing.',
+        },
+        {
+          q: 'What if it rains at a Kauaʻi luau?',
+          a: 'Showers are common, especially on the North Shore in winter. Most venues have covered seating or a rain plan; ask what happens to the show in heavy rain.',
+        },
+        {
+          q: 'Does myCHEF run luau shows on Kauaʻi?',
+          a: 'No. We are a kitchen, not a show company. We cook an island-style dinner at your rental, served family-style, by inquiry.',
+        },
+        {
+          q: 'Is there a travel fee for Princeville or Poʻipū?',
+          a: 'Yes. Princeville, Hanalei and Poʻipū carry a published $50–$75 surcharge on its own line. Līhuʻe and Kapaʻa are base zones with no travel line.',
+        },
+        {
+          q: 'How much is an island dinner at a Kauaʻi rental?',
+          a: 'Signature dinners on Kauaʻi are $225–$375 a guest with groceries included, minimum six. Service charge and GET are separate lines and a 50% deposit holds the date.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Personal chef Kauai' },
+        { path: '/catering', label: 'Kauai catering' },
+        { path: '/', label: 'Private chef Kauai' },
+        { path: '/pricing', label: 'Kauai private chef cost' },
+        { path: '/blog/poipu-restaurants-dining-guide', label: 'Poʻipū restaurants guide' },
       ],
     },
   ],
@@ -3704,11 +4076,136 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/waimea-big-island-restaurants-guide', label: 'Waimea restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/catering', label: 'Big Island catering' },
         { path: '/', label: 'Private chef Big Island' },
         { path: '/pricing', label: 'Big Island private chef cost' },
         { path: '/blog/waikoloa-restaurants-dining-guide', label: 'Waikoloa restaurants guide' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'waimea-big-island-restaurants-guide',
+      keyword: 'waimea big island restaurants',
+      datePublished: '2026-10-26',
+      name: 'Waimea restaurants guide',
+      h1: 'Waimea Big Island restaurants — eating in ranch country, and when to stay in.',
+      title: 'Waimea Big Island Restaurants — Upcountry Guide | myCHEF',
+      description:
+        'Waimea Big Island restaurants: farm-to-table upcountry, Saturday markets, cool nights, the drive from the Kohala Coast and when a villa chef night wins.',
+      lede:
+        'Waimea, also called Kamuela, is the ranch town in the cool green uplands of Hawaiʻi Island, about half an hour above the Kohala Coast resorts. Its restaurants are small and local, with a long farm-to-table streak: ranch beef, upcountry vegetables, bakeries, coffee and a handful of dinner rooms. This guide explains how eating in Waimea works, how to time it around the drive and the weather, and when a dinner cooked at your villa is the better plan.',
+      photo: 'locWaimea',
+      body: [],
+      sections: [
+        {
+          heading: 'Where Waimea is, and why it feels different',
+          paras: [
+            'Waimea sits at about 2,670 feet between Kohala Mountain and the slopes of Mauna Kea. That elevation makes it several degrees cooler than the coast, often misty, and green where the Kona side is black lava. It is paniolo country: Parker Ranch, one of the largest cattle ranches in the United States, is headquartered here.',
+            'Kamuela is the post office name and Waimea is the town; your booking may use either. From the Waikōloa resorts it is roughly 25 to 35 minutes up the hill, about 20 minutes from Hāpuna, and around 50 minutes from Kailua-Kona.',
+          ],
+        },
+        {
+          heading: 'What the Waimea food scene looks like',
+          paras: [
+            'Waimea has long been tied to Hawaiʻi Regional Cuisine and farm-to-table cooking, because the farms and ranches are right there. Expect ranch-raised beef on menus, vegetables from upcountry growers, bakeries and coffee shops, plate lunch, Mexican and Italian kitchens, a brewpub, and a few dinner restaurants that are worth the drive from the coast.',
+            'Rooms are small and local. Some take reservations and some do not, so a weekend dinner for a big group needs planning. Many visitors make Waimea a lunch stop on the way to Waipiʻo or Pololū, or come up for one dinner out during a Kohala week.',
+          ],
+        },
+        {
+          heading: 'Saturday markets and morning food',
+          paras: [
+            'Saturday morning is when Waimea is busiest. Several farmers and community markets run in and around town, with growers, baked goods, prepared food and coffee, and some items sell out early. Arrive early, bring a bag and cash as a backup, and use the morning to stock a villa kitchen.',
+            'Our [Kona farmers market guide](/blog/kona-farmers-market-villa-week) covers the markets on the coast, and the short [Waimea notes](/blog/dining-in-waimea) explain how upcountry stays work.',
+          ],
+        },
+        {
+          heading: 'Dinner timing, cool nights and the drive down',
+          paras: [
+            'Waimea evenings are cool, and a jacket is normal even in summer. Dinner service tends to end earlier than at the resorts, so book where you can and plan to eat on the early side.',
+            'If you are staying on the Kohala Coast, remember the drive back down Kawaihae Road or the highway in the dark, often through fog or rain on the upper stretch. If the driver wants to enjoy dinner, a chef at the villa is the simpler plan.',
+          ],
+        },
+        {
+          heading: 'Waimea or the coast for your big dinner',
+          paras: [
+            'For a celebration, you are choosing between a small upcountry dining room and a resort restaurant at sea level, and both get busy in peak weeks. Our [Mauna Lani restaurants guide](/blog/mauna-lani-restaurants-dining-guide) and [Waikoloa restaurants guide](/blog/waikoloa-restaurants-dining-guide) cover the coast side.',
+            'For a group of ten or more, or a table with mixed diets and young children, a dinner at the house usually wins: one long table, sunset on the lānai, and nobody on the road afterwards.',
+          ],
+        },
+        {
+          heading: 'Staying in Waimea: ranch houses and cottages',
+          paras: [
+            'Waimea has ranch houses, cottages and estate homes rather than resorts, and kitchens vary from full ranch kitchens to small cottage galleys. We check the kitchen before we quote. Waimea and Hāmākua are a surcharge zone for us, from $75, printed as its own line, and our [private chef Waimea](/waimea) page has the local details. The Kona–Kohala corridor, from Kailua-Kona to the Kohala resorts, is the base zone.',
+          ],
+        },
+        {
+          heading: 'When a chef night at the villa beats eating out',
+          paras: [
+            'Big families, a birthday or anniversary, mixed diets, or the first night after a long flight all point the same way. A [private chef Kona](/private-chef) dinner brings the restaurant to your table: the chef plans the menu with you, shops, cooks, serves and leaves the kitchen clean. Upcountry beef and Kona-side fish can both be on the menu, and we only name a farm after we have verified it in writing.',
+            'Most visitors mix the two: a lunch or one dinner out in Waimea, and the group nights at the villa.',
+          ],
+        },
+        {
+          heading: 'A sample Kohala week that uses Waimea well',
+          paras: [
+            'A week on the Kohala Coast often settles into a rhythm. Beach mornings at Hāpuna or the resort lagoons, one upcountry day with the Saturday market, lunch in Waimea and a drive to the Waipiʻo or Pololū lookouts, and a dinner out on the coast. On top of that, one or two chef nights at the villa, usually the arrival night and the big celebration, so nobody spends the holiday cooking or driving.',
+            'Birthdays and anniversaries that land in the stay are the nights to book first. Tell us which nights you want cooked, and the quote follows that plan.',
+          ],
+        },
+        {
+          heading: 'Reunions, wedding weeks and bigger groups',
+          paras: [
+            'A welcome dinner for twenty, a reunion buffet or a wedding-week party is a staffed event rather than a chef dinner. [Big Island catering](/catering) covers villa events of 10 to 75 guests on the Kona–Kohala coast, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, listed as their own lines. Tables, linens and tents are not included unless you ask for them.',
+          ],
+        },
+        {
+          heading: 'What a dinner at your villa costs with us',
+          paras: [
+            'Signature dinners on Hawaiʻi Island are published at $210–$325 a guest with groceries included, for a minimum party of six, and a simpler table starts from $165 a guest. Dinner for two starts from $825. Stay Chef days for a chef and an assistant start from $1,450 a day for one meal, with groceries billed at cost.',
+            'A 20% service charge and Hawaiʻi GET up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Big Island private chef cost](/pricing). Hawaiʻi Island is by inquiry, so the written quote is the confirmed total once a chef is confirmed for your date.',
+          ],
+        },
+        {
+          heading: 'How to plan your Waimea and Kohala nights',
+          paras: [
+            'Send the house address and gate details, the dates, the number of adults and children, allergies and the nights you want cooked. Use the inquiry form or message us on WhatsApp at +1 808-468-7748, and we reply with a written quote. For villa dinners across the west side, see [private chef Big Island](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Is Waimea the same as Kamuela?',
+          a: 'Yes. Waimea is the town and Kamuela is its post office name, so bookings and road signs may use either. It is the same upcountry ranch town.',
+        },
+        {
+          q: 'How far is Waimea from the Kohala Coast resorts?',
+          a: 'Roughly 25 to 35 minutes from Waikōloa, about 20 minutes from Hāpuna and around 50 minutes from Kailua-Kona, depending on traffic and fog.',
+        },
+        {
+          q: 'What is Waimea known for food-wise?',
+          a: 'Farm-to-table cooking, ranch beef, upcountry vegetables, bakeries and coffee, plus Saturday morning farmers and community markets.',
+        },
+        {
+          q: 'Is Waimea colder than Kona?',
+          a: 'Yes. At about 2,670 feet it is several degrees cooler than the coast and often misty, so bring a layer for dinner even in summer.',
+        },
+        {
+          q: 'Can a private chef cook at our Waimea house?',
+          a: 'Yes, by inquiry. Waimea and Hāmākua are a surcharge zone, from $75, printed as its own line. The house needs a working cooktop.',
+        },
+        {
+          q: 'How much does a chef dinner on Hawaiʻi Island cost?',
+          a: 'Signature dinners are $210–$325 a guest with groceries included, minimum six, and dinner for two starts from $825. Service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Private chef Kona' },
+        { path: '/catering', label: 'Big Island catering' },
+        { path: '/', label: 'Private chef Big Island' },
+        { path: '/pricing', label: 'Big Island private chef cost' },
+        { path: '/blog/mauna-lani-restaurants-dining-guide', label: 'Mauna Lani restaurants guide' },
       ],
     },
   ],

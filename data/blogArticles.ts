@@ -114,6 +114,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/haleiwa-restaurants-dining-guide', label: 'Haleʻiwa restaurants guide' },
         { path: '/north-shore', label: 'Private chef North Shore' },
         { path: '/coverage', label: 'Coverage' },
         { path: '/quote', label: 'Quote form' },
@@ -1049,6 +1050,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-luau-villa-dinner-guide', label: 'Maui luau guide' },
         { path: '/blog/thanksgiving-dinner-maui', label: 'Thanksgiving dinner on Maui' },
         { path: '/events', label: 'Events' },
         { path: '/guest-counts', label: 'Guest counts' },
@@ -1719,6 +1721,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-luau-villa-dinner-guide', label: 'Kauaʻi luau guide' },
         { path: '/blog/thanksgiving-dinner-kauai', label: 'Thanksgiving on Kauaʻi' },
         { path: '/blog/christmas-in-kauai-holiday-dinners', label: 'Christmas in Kauaʻi' },
         { path: '/events', label: 'Events' },
@@ -2204,6 +2207,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/waimea-big-island-restaurants-guide', label: 'Waimea restaurants guide' },
         { path: '/waimea', label: 'Private chef Waimea' },
         { path: '/east-side', label: 'East side' },
         { path: '/quote', label: 'Inquiry form' },
