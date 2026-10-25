@@ -158,7 +158,7 @@
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-22T23:21:23Z</lastmod>
+    <lastmod>2026-10-25T23:14:16Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -224,7 +224,7 @@
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-10-22T23:21:23Z</lastmod>
+    <lastmod>2026-10-25T23:14:16Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -626,7 +626,7 @@
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/blog/dining-in-north-shore</loc>
-    <lastmod>2026-10-09T19:32:00Z</lastmod>
+    <lastmod>2026-10-25T23:14:16Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -890,7 +890,13 @@
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/blog/kailua-restaurants-dining-guide</loc>
-    <lastmod>2026-10-22T23:21:23Z</lastmod>
+    <lastmod>2026-10-25T23:14:16Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://oahu.mychef-hawaii.com/blog/haleiwa-restaurants-dining-guide</loc>
+    <lastmod>2026-10-25T23:14:16Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
