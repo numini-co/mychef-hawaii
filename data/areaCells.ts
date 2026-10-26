@@ -609,30 +609,45 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'haena',
       name: 'Hāʻena',
-      h1: 'Hāʻena Far-North tables — 72-hour road, inquiry.',
-      title: 'Hāʻena villa dinner — Far-North inquiry | myCHEF Kauai',
+      h1: 'Hāʻena Far-North tables — past the bridge, with notice.',
+      title: 'Hāʻena dinners past the Hanalei bridge | myCHEF',
       description:
-        'Hāʻena Far-North dinners at inquiry. Quote-only, 72-hour notice, Hanalei-bridge weather.',
+        'Hāʻena dinners past the Hanalei bridge. Planned dates only, with 72-hour notice. A closed road moves the night. Request availability.',
       lede:
-        'Past the bridge. Planned events only. A closed road moves the night; it does not eat the deposit. Inquiry until we can staff.',
+        'Past the bridge. Planned events only. A closed road moves the night; it does not eat the deposit. We confirm a crew in writing.',
       photo: 'cellHaena',
       body: [
-        'Booking by inquiry is not an instant-booking button.',
+        'Hāʻena is past the Hanalei bridge: far-north houses, planned dates, and a road that can close. A chef night is written with 72-hour notice. A closure moves the night. It does not forfeit the food, and it does not eat the deposit. We confirm a crew in writing.',
+        'The shore overview is [North Shore](/north-shore). The weather clause is [Hanalei bridge](/hanalei-bridge). Hanalei estates are [Hanalei](/hanalei). Bands are on [pricing](/pricing). Travel is confirmed on the written quote with that weather clause. Request availability on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Can you take same-day Hāʻena?',
-          a: 'No. Planned events only. Send the date on the quote form.',
+          q: 'What houses past the bridge can take a Hāʻena dinner?',
+          a: 'A far-north house with a working cooktop, cold storage, and a table. The stay is planned, not a same-day drop-in. Tell us the kitchen when you request availability. A room without heat is declined before a deposit.',
         },
         {
-          q: 'If the bridge closes?',
-          a: 'We reschedule. The deposit is not eaten by weather.',
+          q: 'Why is a same-day Hāʻena request declined?',
+          a: 'The road needs notice. Planned dates only, with 72 hours so a closure can move the night instead of stranding the shop. Send the date on [the quote form](/quote). We confirm a crew in writing. There is no instant button for this shore.',
+        },
+        {
+          q: 'What happens to the night if the Hanalei bridge closes?',
+          a: 'We reschedule. The deposit is not eaten by weather, and the food is not forfeited. The clause is on the written quote. Read [Hanalei bridge](/hanalei-bridge) before you request availability for a date that sits past the one-lane road.',
+        },
+        {
+          q: 'How does that weather clause show up before the shop?',
+          a: 'It is written with the Hāʻena address, not discovered at the bridge. Travel is confirmed on the written quote. Request availability with the dates you can still hold if the road closes. A south-shore house does not use this clause.',
+        },
+        {
+          q: 'Which page is the North Shore overview, and which is this street?',
+          a: 'The overview is [North Shore](/north-shore): Princeville, Hanalei, and Hāʻena together. This page is only the far-north street past the bridge. Hanalei estates are [Hanalei](/hanalei). Request availability for the one you mean. Bands are on [pricing](/pricing).',
         },
       ],
       related: [
         { path: '/hanalei', label: 'Hanalei corridor' },
         { path: '/hanalei-bridge', label: 'Hanalei bridge' },
-        { path: '/quote', label: 'Inquiry form' },
+        { path: '/north-shore', label: 'North Shore' },
+        { path: '/pricing', label: 'Rate card' },
+        { path: '/quote', label: 'Availability' },
       ],
     },
     {
@@ -956,107 +971,176 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'kailua-kona',
       name: 'Kailua-Kona',
-      h1: 'Kailua-Kona town tables — south end of the west-side corridor.',
-      title: 'Kailua-Kona town dinner — west-side inquiry | myCHEF',
+      h1: 'Kailua-Kona town tables — south end of the west side.',
+      title: 'Kailua-Kona town dinners on the west side | myCHEF',
       description:
-        'Kailua-Kona town dinners at inquiry. South end of the west-side corridor.',
+        'Kailua-Kona town dinners at the south end of the west side, by inquiry. Event weeks compress the calendar. Hilo stays its own day. Join the inquiry list.',
       lede:
-        'Town, not the whole west-side radius. Ironman weeks compress the calendar — that honesty is on the Ironman week notes. Inquiry until we can staff.',
+        'Town, not the whole west side. Event weeks compress the calendar — that note is on the event-week page. Inquiry until we can staff.',
       photo: 'cellKailuaKona',
       body: [
-        'Event weeks flag dates; they do not invent a kitchen.',
-        'East side stays a dedicated day.',
+        'Kailua-Kona town is the south end of the west side: walkable blocks, condo kitchens with a real range, and houses that are not the Kohala resort belt. A chef night uses that town kitchen. Event weeks pack the streets, so those dates need an early flag. They do not create a kitchen that is not there.',
+        'Hillside houses above town are [Hōlualoa](/holualoa). Resort residences south of town are [Keauhou](/keauhou). Compressed weeks are [event weeks](/ironman-weeks). Hilo stays a dedicated day on [the east side](/east-side). Bands are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Hilo the same day?',
-          a: 'No. Dedicated staffing.',
+          q: 'What town kitchens in Kailua-Kona can take a private dinner?',
+          a: 'A condo or house with a real range, cold storage, and a table. Walk-up rooms without a cooktop are declined. The menu follows those burners. Join the inquiry list with the building type, not just the town name.',
+        },
+        {
+          q: 'How does an event week change a Kailua-Kona booking?',
+          a: 'The streets pack, so the date has to be held early. An event week does not invent a kitchen and does not make us an official partner. Read [event weeks](/ironman-weeks). Ordinary Tuesdays stay a normal inquiry on this page.',
+        },
+        {
+          q: 'Is a Keauhou resort kitchen the same ask as a town house here?',
+          a: 'It is the next community south, not this town page. Open [Keauhou](/keauhou) for resort residences. Hillside houses are [Hōlualoa](/holualoa). Join the inquiry list on the page that matches the driveway.',
+        },
+        {
+          q: 'Can Hilo ride on a Kailua-Kona afternoon?',
+          a: 'Hilo stays a dedicated day. It is not stacked on this town. The rule is [the east side](/east-side). Join the inquiry list for Kailua-Kona alone if the house is in town, and send Hilo as its own day if that is the address.',
+        },
+        {
+          q: 'Where do I look up a Kailua-Kona town price?',
+          a: 'Open [pricing](/pricing) for the band that covers this town. [Kona](/kona) is the wider corridor if the house is not a downtown kitchen. An event week does not reprint the card. It only means you flag the date sooner on [the quote form](/quote).',
         },
       ],
       related: [
         { path: '/kona', label: 'Kona corridor' },
         { path: '/ironman-weeks', label: 'Event weeks' },
         { path: '/keauhou', label: 'Keauhou dinners' },
+        { path: '/holualoa', label: 'Hōlualoa' },
+        { path: '/pricing', label: 'Rate card' },
       ],
     },
     {
       slug: 'keauhou',
       name: 'Keauhou',
       h1: 'Keauhou resort-residence tables — south of town, still west side.',
-      title: 'Keauhou villa dinner — south of Kona town | myCHEF',
+      title: 'Keauhou dinners south of Kailua-Kona | myCHEF',
       description:
-        'Keauhou resort-residence dinners at inquiry. South of Kailua-Kona, still the west-side corridor.',
+        'Keauhou resort-residence dinners south of Kailua-Kona, still the west side, by inquiry. A cooktop is required. Hilo is not added. Join the inquiry list.',
       lede:
         'Bay light, still the west-side team. Not a Hilo add-on. Inquiry until we can staff.',
       photo: 'cellKeauhou',
       body: [
-        'Inquiry until we can staff.',
-        'East side stays a dedicated day. A cooktop is still required.',
-        'Send the property type on the quote form. We will not stack this with Hilo.',
+        'Keauhou is south of Kailua-Kona and still on the west side: resort residences, bay light, and kitchens that range from a full cooktop to a tight galley. A chef night is written for the property you name. Send the property type before anyone shops. A unit without a cooktop is declined.',
+        'The town page is [Kailua-Kona](/kailua-kona). Hillside coffee country is [Hōlualoa](/holualoa). Hilo and Volcano are not added to this night; that rule is [the east side](/east-side). Fee lines are on [pricing](/pricing). Travel is confirmed on the written quote. Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'East side from here?',
-          a: 'No.',
+          q: 'What Keauhou residences can hold a dinner?',
+          a: 'A resort residence with a cooktop, a fridge, and seats. Bay-side light does not replace a range. A lock-off without heat is declined. Send the property type on [the quote form](/quote) before the shop is planned.',
+        },
+        {
+          q: 'How does a Keauhou night run inside a resort residence?',
+          a: 'The crew uses the kitchen you named, plates for the headcount, and leaves it clean. A galley gets a shorter menu than a full cooktop. Join the inquiry list with how the building wants the car to arrive. We do not discover that at service.',
+        },
+        {
+          q: 'Is Keauhou booked as an extension of Hilo?',
+          a: 'It is south of Kailua-Kona, on the west side. Hilo is not added to this night. That dedicated day is [the east side](/east-side). Join the inquiry list for Keauhou alone if the residence is here.',
+        },
+        {
+          q: 'What should I send about the property type?',
+          a: 'Residence or hotel unit, cooktop or none, and the headcount. Hotel units without a kitchen are declined before a deposit. Town houses belong on [Kailua-Kona](/kailua-kona). Hillside houses are [Hōlualoa](/holualoa).',
+        },
+        {
+          q: 'Which page shows what a Keauhou residence costs?',
+          a: 'The band for a resort residence is on [pricing](/pricing). Say whether the kitchen is a full cooktop or a galley when you join the inquiry list, because that changes the menu, not a secret extra. The town comparison is [Kailua-Kona](/kailua-kona).',
         },
       ],
       related: [
         { path: '/kona', label: 'Kona corridor' },
         { path: '/kailua-kona', label: 'Kailua-Kona dinners' },
-        { path: '/east-side', label: 'East-side rule' },
+        { path: '/holualoa', label: 'Hōlualoa' },
+        { path: '/east-side', label: 'East-side day' },
+        { path: '/pricing', label: 'Rate card' },
       ],
     },
     {
       slug: 'mauna-lani',
       name: 'Mauna Lani',
       h1: 'Mauna Lani resort tables — one Kohala community, not the island.',
-      title: 'Mauna Lani villa dinner — Kohala community | myCHEF',
+      title: 'Mauna Lani dinners, one Kohala community | myCHEF',
       description:
-        'Mauna Lani Kohala resort-residence dinners at inquiry. One community inside the west-side radius.',
+        'Mauna Lani resort-residence dinners, one Kohala community on the west side, by inquiry. Not a claim on Hilo or the whole island. Join the inquiry list.',
       lede:
-        'Lava terrace, one resort community. Same corridor as Waikoloa. Not a claim on the whole island.',
+        'Lava terrace, one resort community. Same side as Waikoloa. Not a claim on the whole island.',
       photo: 'cellMaunaLani',
       body: [
-        'The Waikoloa page and the Kohala Coast page are the named corridors.',
-        'We will not sell Mauna Lani as a Hilo page.',
+        'Mauna Lani is one Kohala resort community: lava-terrace residences, not a stand-in for every west-side town and not a Hilo kitchen. A chef night uses the residence you name. Waikoloa is the neighboring corridor. Puakō is the residential strip between them. This page is only Mauna Lani.',
+        'Read [Puakō](/puako) for the houses between resorts, [Waikoloa](/waikoloa) for that corridor, and [Kona–Kohala communities](/kohala-corridor) for the whole west-side belt. Bands are on [pricing](/pricing). Travel is confirmed on the written quote. Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Hilo from here?',
-          a: 'No.',
+          q: 'What Mauna Lani residences suit a chef night?',
+          a: 'A resort residence with a cooktop and a table on that lava terrace. The night is this community only. A unit without heat is declined. Join the inquiry list with the residence name, not “Kohala” as a whole island.',
+        },
+        {
+          q: 'How is a Mauna Lani table different from a Puakō house?',
+          a: 'Mauna Lani is the resort community. Puakō is the residential strip between here and Waikoloa. Open [Puakō](/puako) if the driveway is a house, not a resort residence. Join the inquiry list for the one you have.',
+        },
+        {
+          q: 'Will you sell a Mauna Lani night as Hilo?',
+          a: 'We will not. Hilo is a dedicated day on the other side of the island. This terrace stays west side. Send Hilo on its own inquiry if that is the address. A Mauna Lani quote does not absorb it.',
+        },
+        {
+          q: 'What does a lava-terrace evening need from the kitchen?',
+          a: 'A working cooktop and a plan if the terrace weather turns. Outdoor seating is written, not assumed. If the range cannot hold the menu, we say so before a deposit. Name both the kitchen and the terrace when you join the inquiry list.',
+        },
+        {
+          q: 'Where are the fee lines before I inquire for Mauna Lani?',
+          a: 'On [pricing](/pricing). 20% service and Hawaiʻi GET up to 4.712% follow the food on their own lines. A 50% deposit follows acceptance. Gratuity is never required. Travel is confirmed on the written quote. The belt overview is [Kona–Kohala communities](/kohala-corridor).',
         },
       ],
       related: [
         { path: '/waikoloa', label: 'Waikoloa corridor' },
-        { path: '/kohala', label: 'Kohala corridor' },
+        { path: '/kohala', label: 'Kohala Coast' },
         { path: '/puako', label: 'Puakō dinners' },
+        { path: '/kohala-corridor', label: 'West-side communities' },
+        { path: '/pricing', label: 'Rate card' },
       ],
     },
     {
       slug: 'mauna-kea',
       name: 'Mauna Kea resort',
       h1: 'Mauna Kea resort belt — the community, never the summit.',
-      title: 'Mauna Kea resort private chef — Kohala Coast | myCHEF',
+      title: 'Mauna Kea resort dinners, not the summit | myCHEF',
       description:
-        'Mauna Kea resort-belt dinners at inquiry. Named for the Kohala community, not the mountain summit.',
+        'Mauna Kea resort-belt dinners on the Kohala Coast, by inquiry. The community, not the summit. Same west side as Waikoloa. Join the inquiry list.',
       lede:
-        'North Kohala resort houses. We will not sell a summit dinner. Same west-side radius as Waikoloa.',
+        'North Kohala resort houses. We will not sell a summit dinner. Same west side as Waikoloa.',
       photo: 'cellMaunaKea',
       body: [
-        'Base zone. Villa dinners at inquiry.',
-        'We will not sell a summit dinner.',
-        'Send the property on the quote form. The mountain is geography, not a kitchen we staff.',
+        'The Mauna Kea resort belt is North Kohala houses and resort kitchens on the west side. The name is the community. We do not cook at the summit, and we do not sell a mountain dinner. A chef night is a villa table in that belt, by inquiry, with the property named on the form.',
+        'The wider belt is [Kona–Kohala communities](/kohala-corridor). The next resort community is [Mauna Lani](/mauna-lani). The coast page is [Kohala](/kohala). Fee lines are on [pricing](/pricing). Travel is confirmed on the written quote. Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Do you cook at the summit?',
-          a: 'No.',
+          q: 'Do you cook in Mauna Kea resort houses, or at the summit?',
+          a: 'In the resort houses. The summit is not a kitchen we staff. The mountain is geography. Join the inquiry list with the resort property, and we will say whether that kitchen can hold the night.',
+        },
+        {
+          q: 'How does a night run on that Kohala resort terrace?',
+          a: 'A villa table in the community: shop, cook, serve, and clean the kitchen you named. The terrace is the setting, not a summit picnic. Tell us if the table is indoors. We write that before anyone drives.',
+        },
+        {
+          q: 'Is this the same booking as Mauna Lani?',
+          a: 'It is the next community, not the same driveway. Open [Mauna Lani](/mauna-lani) if that is the residence. This page is the Mauna Kea resort belt only. The shared west-side list is [Kona–Kohala communities](/kohala-corridor).',
+        },
+        {
+          q: 'Does a Mauna Kea night include Hilo?',
+          a: 'It does not. Hilo is a dedicated day and is never stacked on this resort belt. Join the inquiry list for the Kohala property alone. Send the east side as its own request if the house is actually there.',
+        },
+        {
+          q: 'Where are Kohala Coast prices listed?',
+          a: 'On [pricing](/pricing), with 20% service and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit follows acceptance. Gratuity is never required. The coast page is [Kohala](/kohala). Travel is confirmed on the written quote.',
         },
       ],
       related: [
-        { path: '/kohala', label: 'Kohala corridor' },
+        { path: '/kohala', label: 'Kohala Coast' },
         { path: '/mauna-lani', label: 'Mauna Lani dinners' },
-        { path: '/kohala-corridor', label: 'West-side radius' },
+        { path: '/kohala-corridor', label: 'West-side communities' },
+        { path: '/pricing', label: 'Rate card' },
       ],
     },
     {
@@ -1170,112 +1254,177 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'kau',
       name: 'Kaʻū / South',
-      h1: 'Kaʻū south tables — origin-labeled coffee, a different day.',
-      title: 'Kaʻū south dinner — Act 198 coffee, dedicated day | myCHEF',
+      h1: 'Kaʻū south tables — origin-labeled coffee, its own day.',
+      title: 'Kaʻū south dinners on their own day | myCHEF',
       description:
-        'Kaʻū / South Point dinners at inquiry. Extended surcharge. Named Kaʻū coffee follows Act 198.',
+        'Kaʻū dinners south of the west-side communities, by inquiry, as their own day. Named Kaʻū coffee follows origin labeling from 2027. Join the inquiry list.',
       lede:
-        'South of the west-side radius. Advance notice. We do not invent a farm brand for the south.',
+        'South of the west-side communities. Advance notice. We do not invent a farm brand for the south.',
       photo: 'cellKau',
       body: [
-        'Named Kaʻū coffee follows origin labeling from 2027; we do not invent a farm.',
-        'South is not a same-day Kona add-on.',
-        'Send the address on the quote form. We crew when we can staff a dedicated day.',
+        'Kaʻū is south of the west-side communities: its own day, with notice, in houses rather than a Kona condo. A chef night is staffed only when that dedicated day can be held. Named Kaʻū coffee follows origin labeling from 2027. We do not invent a farm name for the south.',
+        'The labeling note is [coffee origin](/coffee-act-198). Hillside Kona coffee country, still west side, is [Hōlualoa](/holualoa). East of the saddle, Hilo and Volcano are [the east side](/east-side). The map is [coverage](/coverage). Bands are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Will you name a Kaʻū farm?',
-          a: 'Only with origin labeling and verification.',
+          q: 'What houses in Kaʻū suit a chef night?',
+          a: 'A south-side house with a cooktop and a table, booked as its own day. It is not a Kona condo and not a same-afternoon add-on. Join the inquiry list with the address and the notice you can give. A room without heat is declined.',
         },
         {
-          q: 'Same-day from Waikoloa?',
-          a: 'No. Dedicated day. Open the quote form.',
+          q: 'Why is the south its own day rather than a Kona add-on?',
+          a: 'The south sits beyond the west-side communities we staff as one belt. A Waikoloa afternoon does not absorb it. We crew the day when it can be held, or we decline. Send the address on [the quote form](/quote).',
+        },
+        {
+          q: 'Will a Kaʻū menu print a farm name?',
+          a: 'Only with origin labeling and a lot we can document. From 2027 that rule covers named Kaʻū coffee. Otherwise the card says coffee. We do not invent a farm brand. The note is [coffee origin](/coffee-act-198).',
+        },
+        {
+          q: 'How does a south-side drive get onto the Kaʻū quote?',
+          a: 'The south is its own day, so the drive is named beside the Kaʻū address when that day is accepted. Bands stay on [pricing](/pricing). Nothing on this page invents a second dollar. Join the inquiry list with the notice you can give for the south.',
+        },
+        {
+          q: 'Which page explains the coffee rule, and which is the map?',
+          a: 'Coffee labeling is [coffee origin](/coffee-act-198). The island map is [coverage](/coverage). Hilo and Volcano, east of the saddle, are [the east side](/east-side). Hillside Kona houses are [Hōlualoa](/holualoa). Join the inquiry list for the south address itself.',
         },
       ],
       related: [
-        { path: '/coffee-act-198', label: 'Act 198 coffee' },
-        { path: '/east-side', label: 'East-side rule' },
-        { path: '/quote', label: 'Inquiry form' },
+        { path: '/coffee-act-198', label: 'Coffee origin' },
+        { path: '/holualoa', label: 'Hōlualoa' },
+        { path: '/east-side', label: 'East-side day' },
+        { path: '/coverage', label: 'Coverage map' },
+        { path: '/pricing', label: 'Rate card' },
       ],
     },
     {
       slug: 'honokaa',
       name: 'Honokaʻa / Hāmākua',
-      h1: 'Honokaʻa and Hāmākua tables — surcharge coast, not a Kona add-on.',
-      title: 'Honokaʻa coast dinner — Hāmākua surcharge | myCHEF',
+      h1: 'Honokaʻa and Hāmākua tables — a windward coast, not a Kona add-on.',
+      title: 'Honokaʻa coast dinners on the Hāmākua side | myCHEF',
       description:
-        'Honokaʻa / Hāmākua coast dinners at inquiry. Surcharge. Named producers only after verification.',
+        'Honokaʻa and Hāmākua coast dinners, by inquiry. A windward table, not a same-day Kona add-on. Named producers only once verified. Join the inquiry list.',
       lede:
         'Greener windward light. Not a same-day Kona add-on and not a Hilo day unless the quote says so.',
       photo: 'cellHonokaa',
       body: [
-        'Mushrooms and farms are a sourcing story, not a claim without written verification.',
-        'We will not stack this as a free add-on to a Kona night.',
-        'Send the address on the quote form. Named producers only after verification.',
+        'Honokaʻa and the Hāmākua coast are windward: greener light, a longer day, and private houses rather than a Kona resort row. A chef night is a supper in that coast kitchen. It is not folded into a Kona evening, and it is not a Hilo day unless the written quote says so. Named producers appear only after verification.',
+        'Waimea, upcountry on the west side, is [Waimea](/waimea). The separate east-side day is [Hilo and Volcano](/east-side). The island map is [coverage](/coverage). Bands are on [pricing](/pricing). Travel is confirmed on the written quote. Join the inquiry list on [the quote form](/quote) with the coast address.',
       ],
       faqs: [
         {
-          q: 'Same-day from Kona?',
-          a: 'Not as an unpaid add-on. Open the east-side page if you mean Hilo, the quote form if you mean this coast.',
+          q: 'What kitchens on the Hāmākua coast can hold a dinner?',
+          a: 'A private house with a cooktop, cold storage, and a table. Greener windward light does not replace the range. A room without heat is declined. Join the inquiry list with the Honokaʻa or coast address, not a Kona resort name.',
+        },
+        {
+          q: 'How does a Honokaʻa night differ from a Waimea evening?',
+          a: 'Honokaʻa is the windward coast. Waimea is upcountry on the west side. Open [Waimea](/waimea) if that is the ranch-town house. This page is the coast supper. Each address gets its own written quote.',
+        },
+        {
+          q: 'Will you name a Hāmākua producer on the menu?',
+          a: 'Only after written verification. Mushrooms and farms are a sourcing story, not a claim without that paper. Food can still be served without a producer credit. The note is [sourcing honesty](/blog/sourcing-honesty).',
+        },
+        {
+          q: 'Can Honokaʻa share a crew day with Kona?',
+          a: 'Not as an add-on to a Kona night. The coast is its own ask. If you mean Hilo, open [Hilo and Volcano](/east-side). If you mean this coast, join the inquiry list on [the quote form](/quote) with that address alone.',
+        },
+        {
+          q: 'Where does a Hāmākua coast drive get written?',
+          a: 'With the Honokaʻa address, after the coast day is real. [Coverage](/coverage) is the island map. [Pricing](/pricing) holds the bands. A Kona evening is not pasted onto this windward ask, and this page does not invent a travel dollar.',
         },
       ],
       related: [
         { path: '/waimea', label: 'Waimea corridor' },
-        { path: '/east-side', label: 'East-side rule' },
+        { path: '/east-side', label: 'East-side day' },
+        { path: '/coverage', label: 'Coverage map' },
         { path: '/blog/sourcing-honesty', label: 'Sourcing honesty' },
+        { path: '/pricing', label: 'Rate card' },
       ],
     },
     {
       slug: 'holualoa',
       name: 'Hōlualoa',
       h1: 'Hōlualoa mauka tables — coffee-country elevation, still west side.',
-      title: 'Hōlualoa estate dinner — mauka of Kona | myCHEF',
+      title: 'Private chef in Hōlualoa, above Kona | myCHEF',
       description:
-        'Hōlualoa mauka estate dinners at inquiry. Coffee-country elevation, still the west-side corridor.',
+        'Hōlualoa dinners in cooler hillside houses above Kailua-Kona. Still the west side, by inquiry. Named coffee only when documented. Join the inquiry list.',
       lede:
         'Cooler evenings above town. Named coffee only with origin labeling. Still west side — not a Hilo day.',
       photo: 'cellHolualoa',
       body: [
-        'We do not invent a farm brand for the hillside.',
-        'A cooktop is still required.',
-        'Send the address on the quote form. Origin labeling applies when we name coffee.',
+        'Hōlualoa sits above Kailua-Kona, where evenings run cooler and the houses are hillside homes rather than town walk-ups. A chef night here is a seated supper in that house. The menu follows the burners on site. A working cooktop is still required. Named coffee appears only when the lot is documented. Otherwise the card says coffee.',
+        'Town kitchens are on [Kailua-Kona](/kailua-kona). Resort residences south of town are on [Keauhou](/keauhou). The labeling rule is [coffee origin](/coffee-act-198). Bands and fee lines are on [pricing](/pricing). Travel is confirmed on the written quote. Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Will you name the farm?',
-          a: 'Only with origin labeling.',
+          q: 'What kind of houses above Kailua-Kona do you cook in?',
+          a: 'Hillside homes with a dining room and a working cooktop. Evenings run cooler than town. A house without heat is declined. Join the inquiry list with the mauka address. This is not a town walk-up and not a resort row.',
+        },
+        {
+          q: 'How does a Hōlualoa night differ from a Kailua-Kona town dinner?',
+          a: 'Town is [Kailua-Kona](/kailua-kona): walkable blocks and condo ranges. Hōlualoa is the cooler hillside supper above that town. Both are west side. Join the inquiry list for the driveway you have, not for both in one unpaid sprint.',
+        },
+        {
+          q: 'When can coffee on a Hōlualoa menu name an origin?',
+          a: 'When the lot is documented. Otherwise the card says coffee. We do not invent a farm brand for the hillside. The rule is [coffee origin](/coffee-act-198). The plate can still include coffee without the name.',
+        },
+        {
+          q: 'Does a Hōlualoa booking get stacked onto a Hilo day?',
+          a: 'It does not. Hōlualoa stays west side. Hilo is a dedicated day and is never added here. Join the inquiry list for the hillside house alone. Send the east side as its own request if that is actually the address.',
+        },
+        {
+          q: 'Where is the hillside price written before I send Hōlualoa dates?',
+          a: 'On [pricing](/pricing), the same west-side card as town, with service and tax on their own lines. Cooler elevation does not invent a second card. Resort residences south of town are [Keauhou](/keauhou). Send the mauka address on [the quote form](/quote).',
         },
       ],
       related: [
         { path: '/kona', label: 'Kona corridor' },
         { path: '/kailua-kona', label: 'Kailua-Kona dinners' },
-        { path: '/coffee-act-198', label: 'Act 198 coffee' },
+        { path: '/keauhou', label: 'Keauhou' },
+        { path: '/coffee-act-198', label: 'Coffee origin' },
+        { path: '/pricing', label: 'Rate card' },
       ],
     },
     {
       slug: 'puako',
       name: 'Puakō',
       h1: 'Puakō residential tables — between Waikoloa and Mauna Lani.',
-      title: 'Puakō villa dinner — Kohala residential strip | myCHEF',
+      title: 'Puakō house dinners between the resorts | myCHEF',
       description:
-        'Puakō Kohala residential dinners at inquiry. Between Waikoloa and Mauna Lani, inside the 30-minute corridor.',
+        'Puakō residential dinners between Waikoloa and Mauna Lani, on the west side, by inquiry. House kitchens, not a separate island. Join the inquiry list.',
       lede:
         'Residential lava-coast houses, not a separate island claim. Same west-side team. Inquiry until we can staff.',
       photo: 'cellPuako',
       body: [
-        'East side stays a dedicated day.',
-        'Send the property on the quote form. We will not pretend this covers Hilo.',
+        'Puakō is residential lava-coast houses between Waikoloa and Mauna Lani. The night is a house supper, not a resort-program dinner and not a second island. The same west-side crew cooks when the week can be staffed. A working cooktop is required. Hilo is never added to this address.',
+        'Mauna Lani residences are [Mauna Lani](/mauna-lani). The seven-community belt is [Kona–Kohala communities](/kohala-corridor). Waikoloa is [Waikoloa](/waikoloa). The east-side day is [Hilo and Volcano](/east-side). Bands are on [pricing](/pricing). Travel is confirmed on the written quote. Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Hilo from Puakō?',
-          a: 'No.',
+          q: 'What kind of houses in Puakō do you cook in?',
+          a: 'Residential lava-coast houses with a cooktop and a table, between the resorts. A lock-off without heat is declined. Join the inquiry list with the street. This is a house supper, not a resort program.',
+        },
+        {
+          q: 'How does a Puakō house night differ from the resort next door?',
+          a: 'The house is the kitchen and the dining room. A resort residence next door is [Mauna Lani](/mauna-lani) or [Waikoloa](/waikoloa). Do not file one as the other. The crew is the same west-side team when the week can be staffed.',
+        },
+        {
+          q: 'Is Puakō outside the west-side communities?',
+          a: 'It sits inside that belt, between Waikoloa and Mauna Lani. The list is [Kona–Kohala communities](/kohala-corridor). It is not its own island and not the east side. Join the inquiry list for the house if this is the driveway.',
+        },
+        {
+          q: 'Can a Puakō lunch be paired with Hilo the same day?',
+          a: 'Hilo is never added to this address. The east-side day is [Hilo and Volcano](/east-side), written on its own. A Puakō lunch stays on the west side. Join the inquiry list for one side at a time.',
+        },
+        {
+          q: 'Where does Puakō travel appear on the quote?',
+          a: 'Travel is confirmed on the written quote. This page does not invent a separate travel price. Bands, 20% service, and Hawaiʻi GET up to 4.712% are on [pricing](/pricing). A 50% deposit follows acceptance. Gratuity is never required.',
         },
       ],
       related: [
         { path: '/waikoloa', label: 'Waikoloa corridor' },
         { path: '/mauna-lani', label: 'Mauna Lani dinners' },
-        { path: '/kohala-corridor', label: 'West-side radius' },
+        { path: '/kohala-corridor', label: 'West-side communities' },
+        { path: '/east-side', label: 'East-side day' },
+        { path: '/pricing', label: 'Rate card' },
       ],
     },
   ],

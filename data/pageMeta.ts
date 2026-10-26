@@ -146,9 +146,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Wedding catering Hawaii: one team for the whole week. Welcome dinner, ceremony, and the days after. Request a quote.',
   },
   '/bar': {
-    title: 'Villa bartender add-on — terrace cocktails, by island | myCHEF',
+    title: 'Terrace bartender, by island | myCHEF',
     description:
-      'A bartender stacked with dinner or booked as its own hour. Starting prices published per island.',
+      'A terrace bartender with dinner, or booked alone. Open the island mobile bar page for the package. Oʻahu and Maui take a written quote.',
   },
   '/mobile-bar': {
     title: 'Mobile bar Hawaii | 4-hour villa package | myCHEF',
@@ -194,8 +194,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'Answers to common questions about booking a private chef or catering with myCHEF Hawaii on Oʻahu, Maui, Kauaʻi and the Big Island.',
   },
   '/coverage': {
-    title: 'Coverage maps, by island | myCHEF Hawaii',
-    description: 'Where myCHEF Hawaii cooks on each island: base zones, published travel surcharges and the areas we quote case by case.',
+    title: 'Where we cook, island by island | myCHEF',
+    description:
+      'Open the island that has the house. Each coverage page names where we cook and how dates are confirmed in writing. This hub page only routes you there.',
   },
   '/contact': {
     title: 'How to reach a desk, by island | myCHEF Hawaii',
@@ -378,9 +379,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Bartender add-ons by island are quoted in writing. No hourly rate is published. The full guide is the statewide bartenders page, then your island.',
   },
   '/staffing/butlers': {
-    title: 'Quoted butler lines, by island | myCHEF Hawaii',
+    title: 'Butler service by island | myCHEF Hawaii',
     description:
-      'Each island quotes butlers only when a bench exists.',
+      'Butlers are a written line on the island with the house. Open that butler page. Oʻahu and Maui quote. Kauaʻi and the Big Island confirm in writing.',
   },
   '/menus/three-course': {
     title: 'Three-course tables, by island | myCHEF Hawaii',
