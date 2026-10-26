@@ -345,6 +345,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kapolei-restaurants-dining-guide', label: 'Kapolei restaurants guide' },
         { path: '/blog/waikiki-restaurants-dining-guide', label: 'Waikīkī restaurants guide' },
         { path: '/', label: 'Private chef Oahu' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
@@ -1062,6 +1063,125 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/blog/kailua-restaurants-dining-guide', label: 'Kailua restaurants guide' },
       ],
     },
+    {
+      feature: true,
+      slug: 'kapolei-restaurants-dining-guide',
+      keyword: 'kapolei restaurants',
+      datePublished: '2026-10-27',
+      name: 'Kapolei restaurants guide',
+      h1: 'Kapolei restaurants — eating in West Oʻahu, and when to stay in.',
+      title: 'Kapolei Restaurants — West Oahu Dining Guide | myCHEF',
+      description:
+        'Kapolei restaurants in West Oahu: shopping-center dining, plate lunch and poke, Ko Olina next door, H-1 traffic and when a chef dinner at home wins.',
+      lede:
+        'Kapolei is the planned city on Oʻahu’s sunny leeward side, a few minutes from the Ko Olina lagoons and about 25 miles west of Waikīkī. Its restaurants are mostly casual and local: shopping-center dining rooms, plate lunch, poke, noodles, bakeries and family restaurants, with the resort dining rooms just down the road at Ko Olina. This guide explains how eating in Kapolei works, how to plan around the H-1, and when a dinner cooked at your house or rental is the better plan.',
+      photo: 'cellEwa',
+      body: [],
+      sections: [
+        {
+          heading: 'Where Kapolei is and who eats there',
+          paras: [
+            'Kapolei sits on the ʻEwa plain in West Oʻahu, often called the island’s second city. It grew from former sugar plantation land into a planned city with government offices, neighborhoods, schools and large shopping centers. Ko Olina, with its resort lagoons and marina, is about ten minutes west; Kalaeloa and the ʻEwa Beach neighborhoods are just to the south and east.',
+            'Most visitors who search for Kapolei restaurants are in one of three situations: staying at Ko Olina and looking for something less formal than the resort, staying with family on the west side, or on a longer stay in a leeward house. Each needs a slightly different plan for dinner.',
+          ],
+        },
+        {
+          heading: 'What the Kapolei food scene looks like',
+          paras: [
+            'Much of Kapolei’s dining sits in and around its shopping centers, including Ka Makana Aliʻi and Kapolei Commons. Expect national chains next to local favorites: plate lunch, poke counters, saimin and ramen, Korean barbecue, Japanese and Filipino kitchens, pizza, bakeries, coffee and shave ice. The west side has a large local Filipino community, and that shows in the food around ʻEwa and Waipahu.',
+            'It is family dining more than destination dining. Parking is easy, portions are generous and many places are set up for takeout. For a white-tablecloth dinner or a sunset terrace, most people drive the few minutes to Ko Olina.',
+          ],
+        },
+        {
+          heading: 'Kapolei or Ko Olina for dinner',
+          paras: [
+            'Ko Olina’s restaurants are resort dining rooms with resort prices, sunset views and reservations that fill in busy weeks. Kapolei’s are cheaper, faster and more local, but rarely the setting for a celebration. Many Ko Olina guests split the difference: breakfast and lunch from Kapolei, one big dinner at the resort, and the rest at the villa.',
+            'Our [Ko Olina restaurants guide](/blog/ko-olina-restaurants-dining-guide) covers the resort side in detail, including the walkable loop and the drive back from Honolulu.',
+          ],
+        },
+        {
+          heading: 'Timing, traffic and the H-1',
+          paras: [
+            'Kapolei is connected to Honolulu by the H-1 freeway, and the commute is the thing to plan around. Traffic into town is heavy on weekday mornings and traffic back out to the west side builds through the late afternoon, so a dinner in Waikīkī or Kakaʻako can mean a long drive both ways. Without traffic the run to Waikīkī takes roughly 35 to 45 minutes; at rush hour it can be well over an hour.',
+            'If you are staying on the west side, dinner close to home usually wins. The leeward coast is the dry, sunny side of Oʻahu, and clear sunsets over the ocean are common, which is one more reason to eat on your own lānai.',
+          ],
+        },
+        {
+          heading: 'Takeout, poke and a west-side beach day',
+          paras: [
+            'Kapolei is a good place to stock a beach cooler. Poke by the pound, plate lunches, musubi and fruit travel well to the Ko Olina lagoons or the leeward beach parks. Bring water and shade; the west side is hot in the middle of the day.',
+            'For a rental week, the big supermarkets and warehouse stores here are handier than anything in Ko Olina itself, and many guests do a single large shop on arrival. Our [Oʻahu farmers market guide](/blog/oahu-farmers-market-villa-week) covers where to find local fruit and greens.',
+          ],
+        },
+        {
+          heading: 'Staying in Kapolei and ʻEwa: houses and kitchens',
+          paras: [
+            'Outside resort-zoned areas such as Ko Olina, Honolulu only allows homes to be rented to visitors for thirty days or more, apart from a small number of older permitted vacation rentals. So west-side stays tend to be resort condos and villas at Ko Olina, family homes, or longer rentals in Kapolei and ʻEwa. Kitchens range from full family kitchens to compact condo galleys, and we check before we quote.',
+            'ʻEwa and Kapolei are inside our Oʻahu base zone, with no town surcharge. The local details are on our [private chef ʻEwa](/ewa) and [private chef Ko Olina](/ko-olina) pages.',
+          ],
+        },
+        {
+          heading: 'When a chef dinner at the house beats a restaurant',
+          paras: [
+            'West-side gatherings are often big: relatives flying in, a graduation party, a baby’s first birthday lūʻau, a reunion week. Few casual Kapolei restaurants can seat twenty at short notice, and nobody wants to herd children through a parking lot after dark.',
+            'A [private chef Honolulu](/private-chef) dinner brings the meal to your table on the west side as well as in town. The chef plans the menu with you, shops, cooks in your kitchen, serves and leaves the kitchen clean. Local flavors such as poke, kalbi or a whole fish can sit next to whatever the family asks for, and fish is named as the species we actually bought.',
+          ],
+        },
+        {
+          heading: 'Bigger family parties in the yard',
+          paras: [
+            'Past about ten guests, a dinner becomes a staffed event. [Oahu catering](/catering) covers villa and home events of roughly 10 to 75 guests, as a buffet, family-style table or plated dinner. Servers are $80 an hour and a sous-chef is $105 an hour, on four- to five-hour minimums, each listed as its own line.',
+            'Tables, linens, tents and chairs are not included unless you ask for them, and the quote says so in writing. If the party is outdoors, we agree a covered backup with you before the day.',
+          ],
+        },
+        {
+          heading: 'What a dinner at your house costs with us',
+          paras: [
+            'Signature dinners on Oʻahu are published at $195–$290 a guest with groceries included, for a minimum party of six, and a shorter menu for eight or more starts at $145–$195 a guest. Dinner for two starts from $675. Stay Chef days for a chef and an assistant start from $1,250 a day for one meal, with groceries billed at cost.',
+            'A 20% service charge and Hawaiʻi GET up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Oahu private chef cost](/pricing), and the written quote is the total.',
+          ],
+        },
+        {
+          heading: 'How to plan your west-side dinners',
+          paras: [
+            'Send the address, the dates, the number of adults and children, allergies and which nights you want cooked. Use the quote form or message us on WhatsApp at +1 808-468-7748, and we reply with a written quote. For everything we cook across the island, start with [private chef Oahu](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Is Kapolei the same as Ko Olina?',
+          a: 'No. Kapolei is the planned city on the ʻEwa plain; Ko Olina is the resort area with lagoons and a marina about ten minutes west of it. Ko Olina has the resort restaurants, Kapolei the casual and local ones.',
+        },
+        {
+          q: 'How far is Kapolei from Waikīkī?',
+          a: 'About 25 miles by the H-1. Without traffic that is roughly 35 to 45 minutes; at weekday rush hour it can take well over an hour, so plan town dinners around the commute.',
+        },
+        {
+          q: 'What kind of restaurants are in Kapolei?',
+          a: 'Mostly casual: shopping-center dining, national chains, plate lunch, poke, noodles, Korean, Japanese and Filipino food, bakeries and shave ice. For resort dining most people go to Ko Olina.',
+        },
+        {
+          q: 'Is Kapolei a good place for a big family dinner out?',
+          a: 'For a casual meal, yes. For twenty people, a birthday or a celebration with small children, a dinner or a catered party at the house is usually easier than finding a room.',
+        },
+        {
+          q: 'Can a private chef cook at a house in Kapolei or ʻEwa?',
+          a: 'Yes. ʻEwa and Kapolei are in our Oʻahu base zone with no town surcharge. The house needs a working cooktop, and we check the kitchen before we quote.',
+        },
+        {
+          q: 'How much does a chef dinner on Oʻahu cost?',
+          a: 'Signature dinners are $195–$290 a guest with groceries included, minimum six, and dinner for two starts from $675. The service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Private chef Honolulu' },
+        { path: '/catering', label: 'Oahu catering' },
+        { path: '/', label: 'Private chef Oahu' },
+        { path: '/pricing', label: 'Oahu private chef cost' },
+        { path: '/blog/ko-olina-restaurants-dining-guide', label: 'Ko Olina restaurants guide' },
+      ],
+    },
   ],
   maui: [
     {
@@ -1279,6 +1399,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-elopement-dinner-guide', label: 'Maui elopement guide' },
         { path: '/blog/kaanapali-restaurants-dining-guide', label: 'Kāʻanapali restaurants guide' },
         { path: '/', label: 'Private chef Maui' },
         { path: '/private-chef', label: 'Personal chef Maui' },
@@ -2107,6 +2228,125 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/weddings', label: 'Wedding catering Maui' },
       ],
     },
+    {
+      feature: true,
+      slug: 'maui-elopement-dinner-guide',
+      keyword: 'maui elopement',
+      datePublished: '2026-10-27',
+      name: 'Maui elopement planning',
+      h1: 'Maui elopement — sunrise, beach or villa, and the dinner after.',
+      title: 'Maui Elopement — Sunrise, Beach or Villa Dinner | myCHEF',
+      description:
+        'Planning a Maui elopement? License and officiant rules, beach and Haleakalā permits, sunrise or sunset timing, and the private dinner after the vows.',
+      lede:
+        'A Maui elopement is usually the two of you, or a handful of family, with an officiant and a photographer at a beach, a garden or high on Haleakalā. Packages cover the ceremony well. This guide covers the rest of the day: the license, the permits that shape where you can stand, sunrise versus sunset, and where you eat once the photographs are done.',
+      photo: 'svcHoneymoonMaui',
+      body: [],
+      sections: [
+        {
+          heading: 'What a Maui elopement package covers',
+          paras: [
+            'Most Maui elopement packages are built around a short ceremony window: a licensed officiant, a photographer, the location permit and sometimes a lei or flowers. That is where the planning effort belongs, because the setting is the reason you chose Maui.',
+            'What they rarely cover is the meal. After a sunset ceremony you are hungry and often a drive away from a restaurant with a free table, and after a sunrise ceremony you have been awake since the middle of the night. A private meal at your villa, dinner or brunch, fills that gap, and it is the part of the day we cook.',
+          ],
+        },
+        {
+          heading: 'The marriage license and the officiant',
+          paras: [
+            'Marriage licenses in Hawaiʻi are issued by the state Department of Health, so the rules are the same on Maui as on every island. You apply online, then meet a licensing agent together in person with government photo ID. The license is valid for 30 days and only in Hawaiʻi, there is no waiting period, and there is no residency or blood-test requirement. The fee at the time of writing is $65; check the Department of Health site before you travel.',
+            'Your officiant must hold a current Hawaiʻi license to perform marriages. Professional Maui officiants already do. If a friend is marrying you, they need to apply to the state well ahead of the date.',
+          ],
+        },
+        {
+          heading: 'Choosing the setting: South Maui, West Maui, Upcountry or Haleakalā',
+          paras: [
+            'South Maui, around Wailea and Mākena, is the dry, sunny coast with golden beaches and the sun setting over the water, with Kahoʻolawe and Molokini offshore. West Maui, around Kāʻanapali and Kapalua, faces Lānaʻi and Molokaʻi and has more trade wind. Upcountry, in Kula and Makawao, trades beaches for gardens, ranch land and cooler air, and most ceremonies there are at private properties.',
+            'Haleakalā is the dramatic choice: a ceremony above the clouds at sunrise or sunset. The summit is in a national park and more than 10,000 feet up, so it is cold, often near freezing before dawn, and the air is thin. Ceremonies in the park need a park permit, and sunrise visits need a vehicle reservation. Check the park’s current rules early, because they decide the whole schedule.',
+          ],
+        },
+        {
+          heading: 'Beach permits and what they mean for the toast',
+          paras: [
+            'Sandy beaches in Hawaiʻi are generally state shoreline. A paid ceremony there needs a right-of-entry permit from the Department of Land and Natural Resources, usually obtained by your officiant, planner or photographer. The conditions are strict: no alcohol, no tables, arches or tents, chairs only for guests who need them, and a two-hour limit including set-up and clean-up. County beach parks can carry their own rules, so ask your vendor which permit covers your spot.',
+            'That is why many couples split the day. The beach is for the vows and photographs; the champagne, the food and the long table belong at the villa, where only your host’s permission is needed. A [personal chef Maui](/private-chef) dinner is set up while you are at the ceremony.',
+          ],
+        },
+        {
+          heading: 'Sunrise or sunset: timing the day',
+          paras: [
+            'A sunset ceremony is the easy rhythm. Hair and make-up in the early afternoon, the ceremony an hour or so before sunset, portraits until the light goes, then back to the house, where the chef has a cold drink and a first bite ready and dinner follows when you are.',
+            'A Haleakalā sunrise means leaving in the small hours, since the drive up takes around two hours from the resort coasts, and coming down tired, cold and very hungry by mid-morning. That is the moment for a long brunch at the villa instead of a dinner: eggs, fruit, fish, coffee and something sparkling, then a nap. We cook breakfast and brunch as well as dinner.',
+          ],
+        },
+        {
+          heading: 'Where the dinner happens',
+          paras: [
+            'Most elopement dinners we cook on Maui are on villa lānai in Wailea, Mākena, Kāʻanapali and Kapalua. West Maui terraces catch the trade winds, so candles need glass and the table needs a sheltered corner; every outdoor table we set gets a covered backup agreed in writing.',
+            'Upcountry houses carry a travel surcharge from $75, printed as its own line, and Pāʻia and the North Shore are quoted with the menu. If the villa kitchen is small, tell us; we check before we quote.',
+          ],
+        },
+        {
+          heading: 'Dinner for two, or a small family table',
+          paras: [
+            'For the two of you, dinner for two or an elopement dinner on Maui is published as a fixed event from $750+. A chef plans the menu with you, shops, cooks in the villa kitchen, serves and leaves it clean. Dessert can be the chef’s, or a small cake you ordered, plated on the night.',
+            'If parents or friends have flown in, it becomes a dinner party. Signature dinners on Maui are $225–$375 a guest with groceries included, for six or more. For a toast with a bartender, a four-hour villa bar starts from $1,200 plus $85 a guest, with spirits billed at cost or brought by you.',
+          ],
+        },
+        {
+          heading: 'When the guest list grows',
+          paras: [
+            'Some elopements turn into small weddings. Past about ten guests the evening needs servers and a planned service, and we quote it as [Maui catering](/catering), for roughly 10 to 75 guests, with servers at $80 an hour and a sous-chef at $105 an hour as their own lines.',
+            'If there is a welcome dinner, a ceremony dinner and a farewell brunch across the week, that is a wedding week, and [wedding catering Maui](/weddings) covers it from $225 a guest plus staffing, with each event priced separately. Our [honeymoon dinners](/honeymoon-dinners) page covers the nights after.',
+          ],
+        },
+        {
+          heading: 'Prices and booking on Maui',
+          paras: [
+            'Maui is a booking island for us: send the details and we confirm the chef and the date in writing. On every quote a 20% service charge and Hawaiʻi GET up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Maui private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'A short Maui elopement checklist',
+          paras: [
+            'Pick the coast and the villa, then the date and the time of day. Book the officiant and photographer and confirm who holds the permit. If it is Haleakalā, read the park rules and book the reservation. Apply for the license online and plan the in-person meeting inside the 30-day window. Agree a wind and rain plan with every vendor.',
+            'Then send us the address, the date, the number at the table and two lines about the meal you want. Use the quote form or WhatsApp at +1 808-468-7748. For everything we cook on the island, see [private chef Maui](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Do we need a permit to elope on a Maui beach?',
+          a: 'For a paid ceremony on state shoreline, yes. Your vendor usually holds a right-of-entry permit from the Department of Land and Natural Resources, with rules on alcohol, furniture and a two-hour limit.',
+        },
+        {
+          q: 'Can we elope at the top of Haleakalā?',
+          a: 'Ceremonies in Haleakalā National Park need a park permit, and sunrise visits need a vehicle reservation. The summit is above 10,000 feet and cold before dawn, so dress warmly and check the park’s current rules.',
+        },
+        {
+          q: 'How do we get a marriage license for Maui?',
+          a: 'Apply online with the state Department of Health, then meet a licensing agent together in person. The license is valid for 30 days in Hawaiʻi, with no waiting period or residency requirement.',
+        },
+        {
+          q: 'Can we have champagne at a beach ceremony on Maui?',
+          a: 'Not in a permitted beach area, where alcohol is not allowed. Most couples toast at the villa afterwards, where the dinner or brunch can be waiting.',
+        },
+        {
+          q: 'How much does a private elopement dinner on Maui cost?',
+          a: 'Dinner for two or an elopement dinner is published from $750+ as a fixed event. Service charge and GET are separate lines, and a 50% deposit locks the date.',
+        },
+        {
+          q: 'Can our families join the dinner?',
+          a: 'Yes. With six or more it becomes a Signature dinner at $225–$375 a guest with groceries included. Past about ten guests, we quote it as catering with servers.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Personal chef Maui' },
+        { path: '/weddings', label: 'Wedding catering Maui' },
+        { path: '/catering', label: 'Maui catering' },
+        { path: '/pricing', label: 'Maui private chef cost' },
+        { path: '/', label: 'Private chef Maui' },
+      ],
+    },
   ],
   kauai: [
     {
@@ -2324,6 +2564,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-grocery-stores-villa-guide', label: 'Kauaʻi grocery stores guide' },
         { path: '/', label: 'Private chef Kauai' },
         { path: '/private-chef', label: 'Personal chef Kauai' },
         { path: '/catering', label: 'Kauai catering' },
@@ -3160,6 +3401,126 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Kauai' },
         { path: '/pricing', label: 'Kauai private chef cost' },
         { path: '/blog/poipu-restaurants-dining-guide', label: 'Poʻipū restaurants guide' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'kauai-grocery-stores-villa-guide',
+      keyword: 'grocery stores kauai',
+      datePublished: '2026-10-27',
+      name: 'Kauaʻi grocery stores guide',
+      h1: 'Grocery stores on Kauai — stocking a rental kitchen on every shore.',
+      title: 'Grocery Stores Kauai — Stocking a Rental Kitchen | myCHEF',
+      description:
+        'Grocery stores on Kauai by shore: the Līhuʻe airport run, Kapaʻa, Princeville, Kōloa and the west side, farmers markets, and when to let a chef shop.',
+      lede:
+        'Grocery shopping on Kauaʻi is easy once you know where the bigger stores are: most of them sit around Līhuʻe and the Kapaʻa–Wailua corridor on the east side, with smaller markets on the North Shore, the South Shore and the west side. This guide explains where to shop on each shore, what to buy on the first day, and when it is simpler to let a chef do the shopping for the nights you want cooked.',
+      photo: 'blogFarmsKauai',
+      body: [],
+      sections: [
+        {
+          heading: 'How grocery shopping works on Kauaʻi',
+          paras: [
+            'Most food on Kauaʻi, as on every Hawaiian island, arrives by ship, so supermarket prices are higher than on the mainland and some items run short before the next delivery. Local produce, fish and eggs are the exceptions worth seeking out. You will find island chains, a warehouse club, big-box stores and small town markets, plus weekly farmers markets.',
+            'Kauaʻi has one main road that circles most of the island, and the stores follow the towns. That makes the order of your shop more important than the store: buy the big items where the big stores are, then top up near the house.',
+          ],
+        },
+        {
+          heading: 'Līhuʻe: the airport run',
+          paras: [
+            'Līhuʻe, where the airport is, has the island’s largest stores, including Costco near the airport and Walmart in town, as well as supermarkets. Costco needs a membership, but it is the place for cases of water, coffee, snacks and beach supplies for a large group.',
+            'Most visitors do one big shop between landing and checking in. Bring a cooler bag for the drive, especially if you are heading north, and keep it short if the group is tired; you can top up later. Our [Līhuʻe restaurants guide](/blog/lihue-restaurants-dining-guide) covers eating around the airport on arrival day.',
+          ],
+        },
+        {
+          heading: 'East Side: Kapaʻa and Wailua',
+          paras: [
+            'The Kapaʻa–Wailua corridor north of Līhuʻe has the next cluster of full-size supermarkets, including Safeway in Kapaʻa and Foodland at Waipouli, along with health-food stores and small markets. If you are staying on the east side, this is your weekly shop, and it is the last full-size option on the way to the North Shore.',
+            'Traffic through Kapaʻa slows in the afternoons, so morning shopping is quicker. Our [Kapaʻa restaurants guide](/blog/kapaa-restaurants-dining-guide) covers the food side of town.',
+          ],
+        },
+        {
+          heading: 'North Shore: Princeville and Hanalei',
+          paras: [
+            'Princeville has a Foodland, and Hanalei and Kīlauea have smaller markets and natural-food stores. Choice is narrower and prices are higher than in Līhuʻe, so many North Shore guests stock up on the way in and use the local stores for fresh items.',
+            'Heavy rain can close the Hanalei bridge and cut off the shore beyond it, so anyone staying past Hanalei should keep a few days of basics in the house. Our [North Shore Kauai dining guide](/blog/north-shore-kauai-dining-guide) covers restaurants on that coast.',
+          ],
+        },
+        {
+          heading: 'South Shore and the west side',
+          paras: [
+            'Kōloa town, a few minutes from Poʻipū, has a supermarket and small markets, and Big Save, Kauaʻi’s own supermarket chain, has stores in several towns including Kōloa, Hanapēpē and Waimea. For a big shop, Poʻipū guests usually drive to Līhuʻe, about half an hour away.',
+            'On the west side, Hanapēpē and Waimea are the last real stops before the canyon roads and Polihale, so fill the cooler there. The [Poʻipū restaurants guide](/blog/poipu-restaurants-dining-guide) is useful if you are weighing a dinner out against cooking.',
+          ],
+        },
+        {
+          heading: 'Farmers markets, fish and local produce',
+          paras: [
+            'Kauaʻi’s weekly farmers markets are the best place for local fruit, greens, avocados and flowers, and many run for only a couple of hours, so arrive early with small bills. Our [Kauai farmers market guide](/blog/kauai-farmers-market-villa-week) lists how they work for a rental week.',
+            'For fish, look for poke counters and fish cases in the bigger supermarkets, and ask what came in fresh. When we cook, the fish on the menu is named as the species we actually bought that day, not a guess.',
+          ],
+        },
+        {
+          heading: 'A first-day list for a rental kitchen',
+          paras: [
+            'Before you shop, check what the rental already has: oil, salt, spices, foil, coffee filters and dish soap are often there, and good knives often are not. Then keep the first shop simple: coffee, breakfast, fruit, water, snacks for the beach, one easy dinner and ice for the cooler.',
+            'Leave the bigger cooking plans until you have seen the kitchen. Condo galleys and estate kitchens differ a lot, and a two-ring cooktop changes what dinner for ten looks like.',
+          ],
+        },
+        {
+          heading: 'When to let a chef do the shopping',
+          paras: [
+            'Shopping for a group on vacation takes hours: the drive, the queue, carrying it in, then the cooking and the washing up. For the nights that matter, a [personal chef Kauai](/private-chef) dinner takes all of that off your list. The chef plans the menu with you, shops on the day, cooks, serves and leaves the kitchen clean.',
+            'On Signature dinners the groceries are included in the per-guest price. On Stay Chef days, groceries are billed at cost with the receipts, as our short [groceries at cost](/blog/grocery-at-cost) note explains.',
+          ],
+        },
+        {
+          heading: 'Bigger groups and longer stays',
+          paras: [
+            'A family reunion or a wedding-week party of 10 to 75 guests is [Kauai catering](/catering): a staffed buffet, family-style or plated meal at the house, with servers at $80 an hour and a sous-chef at $105 an hour as their own lines. Tables, linens and tents are not included unless you ask.',
+            'For a longer stay, a chef for several days often costs less in time and stress than a week of supermarket runs, and the shopping is planned around the menu, not the other way round.',
+          ],
+        },
+        {
+          heading: 'What a chef dinner costs on Kauaʻi',
+          paras: [
+            'Signature dinners on Kauaʻi are published at $225–$375 a guest with groceries included, for a minimum party of six. Dinner for two is a fixed event at $975–$1,425. Stay Chef days for a chef and an assistant start from $1,650 a day for one meal, with groceries billed at cost. Princeville and Poʻipū carry a $50–$75 travel line where it applies.',
+            'A 20% service charge and Hawaiʻi GET up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Kauai private chef cost](/pricing). Kauaʻi is by inquiry: send the address, dates, guest count, allergies and the nights you want cooked through the inquiry form or WhatsApp at +1 808-468-7748, and we confirm in writing. The island overview is [private chef Kauai](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Is there a Costco on Kauaʻi?',
+          a: 'Yes, in Līhuʻe near the airport. You need a membership. It is the easiest place to stock up on water, coffee and snacks for a big group on arrival day.',
+        },
+        {
+          q: 'Are groceries more expensive on Kauaʻi?',
+          a: 'Generally yes. Most food is shipped in, so supermarket prices are higher than on the mainland. Local fruit, greens and fish from markets are often the best value.',
+        },
+        {
+          q: 'Where should we shop if we are staying in Princeville or Hanalei?',
+          a: 'Princeville has a Foodland and Hanalei has smaller markets. Many guests do a big shop in Līhuʻe or Kapaʻa on the way north, and keep basics in the house in case the Hanalei bridge closes.',
+        },
+        {
+          q: 'Where do Poʻipū guests buy groceries?',
+          a: 'Kōloa town nearby has a supermarket and small markets. For a large shop, most drive to Līhuʻe, about half an hour away.',
+        },
+        {
+          q: 'Can a private chef do the shopping for us?',
+          a: 'Yes. On Signature dinners the groceries are included in the per-guest price; on Stay Chef days they are billed at cost with receipts. Kauaʻi bookings are confirmed by inquiry.',
+        },
+        {
+          q: 'How much does a chef dinner on Kauaʻi cost?',
+          a: 'Signature dinners are $225–$375 a guest with groceries included, minimum six, and dinner for two is $975–$1,425. The service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Personal chef Kauai' },
+        { path: '/catering', label: 'Kauai catering' },
+        { path: '/', label: 'Private chef Kauai' },
+        { path: '/pricing', label: 'Kauai private chef cost' },
+        { path: '/blog/kauai-farmers-market-villa-week', label: 'Kauai farmers market guide' },
       ],
     },
   ],
@@ -4201,11 +4562,130 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/hilo-restaurants-dining-guide', label: 'Hilo restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/catering', label: 'Big Island catering' },
         { path: '/', label: 'Private chef Big Island' },
         { path: '/pricing', label: 'Big Island private chef cost' },
         { path: '/blog/mauna-lani-restaurants-dining-guide', label: 'Mauna Lani restaurants guide' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'hilo-restaurants-dining-guide',
+      keyword: 'hilo restaurants',
+      datePublished: '2026-10-27',
+      name: 'Hilo restaurants guide',
+      h1: 'Hilo restaurants — eating on Hawaiʻi Island’s rainy side, and when to stay in.',
+      title: 'Hilo Restaurants — East Hawaii Dining Guide | myCHEF',
+      description:
+        'Hilo restaurants on Hawaii Island’s east side: loco moco, saimin, the Hilo Farmers Market, early closings, rain and when a chef dinner at the house wins.',
+      lede:
+        'Hilo is the old harbor town on the wet, green east side of Hawaiʻi Island, and its restaurants are some of the most local in the state: plate lunch, saimin, loco moco, poke, bakeries, mochi shops and a handful of dinner rooms along the bayfront. This guide explains how eating in Hilo works, how to time it around the rain, the market days and the drive from Kona, and when a dinner cooked at your house is the better plan.',
+      photo: 'cellHilo',
+      body: [],
+      sections: [
+        {
+          heading: 'Where Hilo is, and why it feels different',
+          paras: [
+            'Hilo sits on Hilo Bay on the east side of the island, the county seat and the island’s largest town. It is one of the wettest cities in the United States, which is why the gardens are so green and the waterfalls so full. It is also on the opposite side of the island from the Kona and Kohala resorts: crossing on the Daniel K. Inouye Highway, the old Saddle Road, is a drive of two hours or more each way.',
+            'Most visitors meet Hilo on a day trip, often combined with Hawaiʻi Volcanoes National Park, about 45 minutes up the road, or the waterfalls on the Hāmākua Coast. Others stay on the east side for the volcano, the rainforest and a quieter town.',
+          ],
+        },
+        {
+          heading: 'What the Hilo food scene looks like',
+          paras: [
+            'Hilo’s food reflects its plantation history, with Japanese, Chinese, Filipino, Portuguese, Korean and Hawaiian kitchens side by side. Expect plate lunch and saimin counters, poke, okazuya-style lunch, bakeries, mochi and manjū shops, shave ice, coffee and a few dinner restaurants in the historic storefronts of downtown and along the bayfront.',
+            'Hilo is widely credited as the birthplace of the loco moco, rice topped with a hamburger patty, a fried egg and gravy, and it is still on menus all over town. Prices are generally lower and portions bigger than at the west-side resorts.',
+          ],
+        },
+        {
+          heading: 'The Hilo Farmers Market and morning food',
+          paras: [
+            'The Hilo Farmers Market downtown is one of the best-known markets in Hawaiʻi. Wednesdays and Saturdays are the big days, with farmers, flowers, prepared food and crafts, and there are smaller vendor days in between. Go early for tropical fruit such as papaya, apple bananas, dragon fruit, avocados and, in season, lychee and rambutan.',
+            'Hilo is also a breakfast town. Many of the local favorites open early and close by mid-afternoon, so a market morning with breakfast downtown is one of the easiest ways to eat well here. Our [Kona farmers market guide](/blog/kona-farmers-market-villa-week) covers the markets on the other side of the island.',
+          ],
+        },
+        {
+          heading: 'Dinner in Hilo: rain, early nights and closed days',
+          paras: [
+            'Hilo goes to bed early. Several restaurants close in the mid-evening and some close one or two days a week, so check before you drive, and book the sit-down rooms where you can. Rain is often heaviest in the afternoon and at night, so a covered table or an indoor room is the safer plan.',
+            'During the Merrie Monarch Festival, the week-long hula festival held in Hilo each spring starting on Easter Sunday, the town is full and tables and rooms book up well ahead.',
+          ],
+        },
+        {
+          heading: 'Hilo as a day trip from the Kona side',
+          paras: [
+            'If you are staying in Kona or on the Kohala Coast, treat Hilo as a full day: breakfast or lunch in town, the market if it is a market day, the waterfalls or the national park, then the long drive back. Plan dinner on the way or back on the west side, and do not count on the drive taking less time in the dark or in rain on the upper Saddle Road.',
+            'Our [Kona restaurants guide](/blog/kona-restaurants-dining-guide) and [Waimea restaurants guide](/blog/waimea-big-island-restaurants-guide) cover the stops on the west side and the northern route back.',
+          ],
+        },
+        {
+          heading: 'Staying on the east side: houses and kitchens',
+          paras: [
+            'East-side stays are mostly houses, cottages, bed and breakfasts and the hotels along Banyan Drive, plus rainforest houses around Volcano. Kitchens vary from full family kitchens to small cottage galleys, and many houses have a covered lānai rather than an open terrace, which matters in Hilo rain.',
+            'For us, Hilo and Volcano are a dedicated east-side day, quoted in writing and never squeezed into a west-side day. Our [private chef Hilo](/hilo) and [east side](/east-side) pages explain how that works.',
+          ],
+        },
+        {
+          heading: 'When a chef dinner at the house beats eating out',
+          paras: [
+            'A rainy evening, a big family, small children, mixed diets, a birthday or a reunion all point the same way. A dinner at the house means one long table under cover, no parking in the rain and nobody driving afterwards.',
+            'Our [private chef Kona](/private-chef) service is built around the west side, and the same kitchen-to-table model applies on an east-side day: the chef plans the menu with you, shops, cooks, serves and leaves the kitchen clean. Local fish is named as the species we actually bought, and we only name a farm after we have verified it in writing.',
+          ],
+        },
+        {
+          heading: 'Bigger groups and events',
+          paras: [
+            'For 10 to 75 guests, [Big Island catering](/catering) covers staffed villa events, built around the Kona–Kohala coast, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums as their own lines. An east-side event is quoted as its own dedicated day. Tables, linens and tents are not included unless you ask for them.',
+          ],
+        },
+        {
+          heading: 'What a dinner at your house costs with us',
+          paras: [
+            'Signature dinners on Hawaiʻi Island are published at $210–$325 a guest with groceries included, for a minimum party of six, and a simpler table starts from $165 a guest. Dinner for two starts from $825. Stay Chef days for a chef and an assistant start from $1,450 a day for one meal, with groceries billed at cost. Travel outside the Kona–Kohala corridor starts from $75, and the east side is quote-only.',
+            'A 20% service charge and Hawaiʻi GET up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Big Island private chef cost](/pricing). Hawaiʻi Island is by inquiry, so the written quote is the confirmed total once a chef is confirmed for your date.',
+          ],
+        },
+        {
+          heading: 'How to plan your Hilo nights',
+          paras: [
+            'Send the house address, the dates, the number of adults and children, allergies and the nights you want cooked, and tell us if you also want a west-side night. Use the inquiry form or WhatsApp at +1 808-468-7748, and we reply in writing. For villa dinners across the island, see [private chef Big Island](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Is Hilo worth a visit for food?',
+          a: 'Yes, for local food. Hilo is known for plate lunch, saimin, loco moco, poke, bakeries and mochi shops, and its farmers market. It is casual and good value rather than resort dining.',
+        },
+        {
+          q: 'When is the Hilo Farmers Market?',
+          a: 'Wednesdays and Saturdays are the big market days downtown, with smaller vendor days in between. Go early for the best fruit and flowers.',
+        },
+        {
+          q: 'Did the loco moco start in Hilo?',
+          a: 'Hilo is widely credited as the birthplace of the loco moco: rice, a hamburger patty, a fried egg and gravy. You will find it on menus all over town.',
+        },
+        {
+          q: 'How far is Hilo from Kona?',
+          a: 'Hilo is on the opposite side of the island. Crossing on the Daniel K. Inouye Highway takes two hours or more each way, longer in rain or by the northern route.',
+        },
+        {
+          q: 'Can a private chef cook at our house in Hilo?',
+          a: 'By inquiry. Hilo and Volcano are a dedicated east-side day, quoted in writing and never combined with a Kona dinner on the same day. The house needs a working cooktop.',
+        },
+        {
+          q: 'How much does a chef dinner on Hawaiʻi Island cost?',
+          a: 'Signature dinners are $210–$325 a guest with groceries included, minimum six, and dinner for two starts from $825. Service charge, GET and east-side travel are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Private chef Kona' },
+        { path: '/catering', label: 'Big Island catering' },
+        { path: '/', label: 'Private chef Big Island' },
+        { path: '/pricing', label: 'Big Island private chef cost' },
+        { path: '/hilo', label: 'Private chef Hilo' },
       ],
     },
   ],

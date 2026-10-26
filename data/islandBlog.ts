@@ -29,7 +29,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogOahu',
     body: [
       'For the longer notes — Gold Coast counters, convention weeks, short-stay villas — read the journal.',
-      'New this month: [the Haleʻiwa restaurants guide](/blog/haleiwa-restaurants-dining-guide) — food trucks, shave ice, winter surf traffic and when a [private chef Honolulu](/private-chef) dinner at your North Shore rental is better — plus [the Kailua restaurants guide](/blog/kailua-restaurants-dining-guide).',
+      'New this month: [the Kapolei restaurants guide](/blog/kapolei-restaurants-dining-guide) — West Oʻahu plate lunch and poke, Ko Olina next door, H-1 traffic and when a [private chef Honolulu](/private-chef) dinner at the house is better — plus [the Haleʻiwa restaurants guide](/blog/haleiwa-restaurants-dining-guide).',
     ],
   },
   maui: {
@@ -43,7 +43,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogMaui',
     body: [
       'Short posts from Wailea, Kīhei and West Maui kitchens: breakfast and lunch in the villa, cleanup, groceries at cost, and what goes on the written quote. The longer notes, including the Maui price guide, live in the journal.',
-      'New this month: [the Maui luau guide](/blog/maui-luau-villa-dinner-guide) — show tickets, where luaus run, what to ask and when a [personal chef Maui](/private-chef) island dinner at the villa suits a group better — plus [the Kapalua restaurants guide](/blog/kapalua-restaurants-dining-guide).',
+      'New this month: [the Maui elopement guide](/blog/maui-elopement-dinner-guide) — license, beach and Haleakalā permits, sunrise or sunset, and the [personal chef Maui](/private-chef) dinner or brunch at the villa afterwards — plus [the Maui luau guide](/blog/maui-luau-villa-dinner-guide).',
     ],
   },
   kauai: {
@@ -57,7 +57,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogKauai',
     body: [
       'If you need the Hanalei-bridge weather note at length, the journal is the better page.',
-      'New this month: [the Kauaʻi luau guide](/blog/kauai-luau-villa-dinner-guide) — show nights, rain, driving at night and when a [personal chef Kauai](/private-chef) island dinner at the rental is better — plus [the Līhuʻe restaurants guide](/blog/lihue-restaurants-dining-guide).',
+      'New this month: [the Kauaʻi grocery stores guide](/blog/kauai-grocery-stores-villa-guide) — the Līhuʻe airport run, every shore’s markets and when a [personal chef Kauai](/private-chef) does the shopping for you — plus [the Kauaʻi luau guide](/blog/kauai-luau-villa-dinner-guide).',
     ],
   },
   bigisland: {
@@ -71,7 +71,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogBigisland',
     body: [
       'West-side kitchens and Kohala travel show up in the shorter posts; the journal keeps the longer notes.',
-      'New this month: [the Waimea restaurants guide](/blog/waimea-big-island-restaurants-guide) — ranch-country dining, Saturday markets, cool nights and when a [private chef Kona](/private-chef) night at the villa is better — plus [the Mauna Lani restaurants guide](/blog/mauna-lani-restaurants-dining-guide).',
+      'New this month: [the Hilo restaurants guide](/blog/hilo-restaurants-dining-guide) — loco moco, saimin, the Hilo Farmers Market, rain and early nights on the east side, and when a chef dinner at the house is better — plus [the Waimea restaurants guide](/blog/waimea-big-island-restaurants-guide).',
       'Looking to book rather than read? Dinner prices, dinners from $165 a guest and signature dinners and Stay Chef days are on the [private chef Big Island](/) page, and staffed villa parties for ten to seventy-five are [Big Island catering](/catering).',
     ],
   },
