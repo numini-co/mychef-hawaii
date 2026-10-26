@@ -612,21 +612,34 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
   staffButlers: {
     path: '/staffing/butlers',
     h1: 'Quoted butler lines, by island.',
-    title: 'Quoted butler lines, by island | myCHEF Hawaii',
+    title: 'Butler service by island | myCHEF Hawaii',
     description:
-      'Each island quotes butlers only when a bench exists.',
+      'Butlers are a written line on the island with the house. Open that butler page. Oʻahu and Maui quote. Kauaʻi and the Big Island confirm in writing.',
     lede:
-      'Quoted, not promised. Each island says when the bench is not there.',
+      'Quoted in writing, and only when that island can staff the night. This page routes you. It does not send a crew.',
     kicker: 'Statewide · Butlers',
     photo: 'hubStaffButlers',
     cardLabel: 'Butlers',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'A butler is a written line on the island that can staff the night. This page does not dispatch anyone. [Oʻahu butlers](oahu:/staffing/butlers) cover Honolulu, Kahala, and Ko Olina. Request a written quote. [Maui butlers](maui:/staffing/butlers) cover Wailea and West Maui villa weeks. Quotes are open.',
+      '[Kauaʻi butlers](kauai:/staffing/butlers) cover both shores. Request availability. [Big Island butlers](bigisland:/staffing/butlers) are Kona–Kohala first. Join the inquiry list. Hilo is a separate dedicated day, not a butler added to a west-side night. If you need a server instead, open [Oʻahu servers](oahu:/staffing/servers), [Maui servers](maui:/staffing/servers), [Kauaʻi servers](kauai:/staffing/servers), or [Big Island servers](bigisland:/staffing/servers).',
     ],
     faqs: [
       {
-        q: 'Do you send a butler from the hub?',
-        a: 'No. Open the island page. Butler is quoted only when a bench exists.',
+        q: 'Do you book a butler from this hub page?',
+        a: 'You do not. Open the island that has the house. A butler is a written line there, and only when that island can staff the night. This page only routes you.',
+      },
+      {
+        q: 'Which page is a Honolulu, Kahala, or Ko Olina butler?',
+        a: '[Oʻahu butlers](oahu:/staffing/butlers). Request a written quote and name the house. Quotes are open. A Wailea butler is [Maui butlers](maui:/staffing/butlers), not this Oʻahu line.',
+      },
+      {
+        q: 'How do I request a Kauaʻi butler without treating it as confirmed?',
+        a: 'Request availability on [Kauaʻi butlers](kauai:/staffing/butlers) and name the shore. A reply is not a held night. Hanalei-bridge weather can move a far-north date. The amount is written on the quote.',
+      },
+      {
+        q: 'Does a Big Island butler request include Hilo?',
+        a: 'It does not. [Big Island butlers](bigisland:/staffing/butlers) are Kona–Kohala first. Join the inquiry list. Hilo is a separate dedicated day. Do not add a butler to a west-side night and call it Hilo.',
       },
     ],
   },

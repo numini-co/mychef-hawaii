@@ -14,6 +14,25 @@ import { photos } from '@/data/photos';
 import { FEE_DISCLOSURE, formatMobileBarGuest, formatMobileBarPackage, getMobileBar } from '@/data/rateCard';
 import { islandHref } from '@/lib/paths';
 
+const hubBarFaqs = [
+  {
+    q: 'Which island page books the terrace hour?',
+    a: 'The mobile bar page on the island with the house. [Oʻahu](oahu:/mobile-bar) and [Maui](maui:/mobile-bar) take a written quote. [Kauaʻi](kauai:/mobile-bar) is a request for availability. [Big Island](bigisland:/mobile-bar) is join the inquiry list, Kona–Kohala first.',
+  },
+  {
+    q: 'Is this hub page the four-hour cart?',
+    a: 'It only routes you. The four-hour package, with the cart, citrus, and ice, is written on that island’s mobile bar page. A cocktail hour inside a dinner is still a line on the same written quote.',
+  },
+  {
+    q: 'How do I ask for a Kauaʻi terrace hour?',
+    a: 'Request availability on [Kauaʻi mobile bar](kauai:/mobile-bar) and name Princeville, Hanalei, or Poʻipū. Those shores are not one driveway. A reply does not hold the glassware. Far-north weather can still move the night.',
+  },
+  {
+    q: 'Can the cart pour in Hilo on the same day as Kona?',
+    a: 'The cart stays on the Kona–Kohala side unless the east is booked as its own day. Open [Big Island mobile bar](bigisland:/mobile-bar) and join the inquiry list for the terrace you mean. A Hilo pour is not a second stop after a Kohala sunset.',
+  },
+];
+
 const hubMobileBarFaqs = [
   {
     q: 'What does mobile bar Hawaii include?',
@@ -112,6 +131,17 @@ function IslandBarPicker({
 export function HubBarView() {
   return (
     <>
+      <JsonLd
+        data={{
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: hubBarFaqs.map((f) => ({
+            '@type': 'Question',
+            name: f.q,
+            acceptedAnswer: { '@type': 'Answer', text: f.a },
+          })),
+        }}
+      />
       <Hero src={photos.barHero.file} alt={photos.barHero.alt} min="short">
         <p className="text-[13px] text-mute">Cocktails</p>
         <LineReveal
@@ -126,6 +156,13 @@ export function HubBarView() {
           <QuoteCta service="mobile-bar" variant="light" />
         </div>
       </Hero>
+      <DocumentCopy
+        heading="Open the island mobile bar."
+        paras={[
+          'The terrace hour is booked on the island where the glassware goes, not from this hub page. [Oʻahu mobile bar](oahu:/mobile-bar) covers Waikīkī residences, Kahala lawns, Ko Olina villas, and Kailua houses. Request a written quote. [Maui mobile bar](maui:/mobile-bar) is the welcome pour in Wailea, Kapalua, and Kāʻanapali. Quotes are open.',
+          '[Kauaʻi mobile bar](kauai:/mobile-bar) is Princeville, Hanalei, and Poʻipū. Request availability and name the shore. [Big Island mobile bar](bigisland:/mobile-bar) is Kona–Kohala first. Join the inquiry list. Hilo is not added to a west-side pour. The packaged cart on each of those pages is the four-hour line. This page only routes you.',
+        ]}
+      />
       <IslandBarPicker
         path="/bar"
         heading="Related pages."
@@ -167,6 +204,7 @@ export function HubBarView() {
           },
         ]}
       />
+      <LongFaq items={hubBarFaqs} title="Before you open an island bar." />
       <QuoteTeaser headline="Date, headcount, island — we quote the bar in writing." />
     </>
   );

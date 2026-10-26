@@ -125,16 +125,34 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
   coverage: {
     path: '/coverage',
     h1: 'Coverage maps, by island.',
-    title: 'Coverage maps, by island | myCHEF Hawaii',
-    description: 'Where myCHEF Hawaii cooks on each island: base zones, published travel surcharges and the areas we quote case by case.',
-    lede: 'Where myCHEF Hawaii cooks on each island: base zones, published travel surcharges and the areas we quote case by case.',
+    title: 'Where we cook, island by island | myCHEF',
+    description:
+      'Open the island that has the house. Each coverage page names where we cook and how dates are confirmed in writing. This hub page only routes you there.',
+    lede: 'Open the island that has the house. This page routes you. It does not copy that island’s zone notes.',
     kicker: 'Statewide · Coverage',
     photo: 'hubCoverage',
     cardLabel: 'Coverage map',
     body: [
-      'Oahu names the North Shore surcharge. Maui names Upcountry. Kauaʻi names both shores and the bridge. Hawaiʻi Island is west side first — Hilo is a different day.',
+      'This page does not list driveways. It sends you to the island that holds the house. [Oʻahu coverage](oahu:/coverage) is Honolulu, Kahala, Ko Olina, and Kailua, and quotes are open: request a written quote. [Maui coverage](maui:/coverage) is Wailea, Kapalua, and Kāʻanapali villa weeks, and quotes are open there too.',
+      '[Kauaʻi coverage](kauai:/coverage) is both shores, including the Hanalei-bridge weather clause. Request availability and name the shore. [Hawaiʻi Island coverage](bigisland:/coverage) is Kona–Kohala first. Join the inquiry list. Hilo and Volcano are a separate dedicated day on that island, never stacked on a west-side day. Prices stay on each island’s pricing page. This hub page does not invent a travel fee.',
     ],
     faqs: [
+      {
+        q: 'Which coverage page do I open for a Honolulu or Ko Olina house?',
+        a: '[Oʻahu coverage](oahu:/coverage). Quotes are open. Request a written quote and name the house. This hub page does not list the driveways. Kahala and Kailua sit on that same island map.',
+      },
+      {
+        q: 'Where does a Wailea or Kapalua week go?',
+        a: '[Maui coverage](maui:/coverage). Quotes are open for those villa weeks. Kāʻanapali is on that map too. Do not file a Maui week on the Oʻahu page. Request a written quote from the Maui host.',
+      },
+      {
+        q: 'How do I read Kauaʻi shores before I request availability?',
+        a: 'Open [Kauaʻi coverage](kauai:/coverage) and name the shore. Both shores are on that page, and far-north dates carry the Hanalei-bridge weather clause. Request availability. A reply is not a held date.',
+      },
+      {
+        q: 'Does the Big Island map treat Hilo as part of a Kona day?',
+        a: 'The map keeps them apart. [Hawaiʻi Island coverage](bigisland:/coverage) starts on the Kona–Kohala side. Hilo and Volcano are written as their own day. Join the inquiry list and name one side.',
+      },
     ],
   },
   contact: {
