@@ -57,9 +57,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'WhatsApp or quote, menu in 48 hours, written price, we cook and leave it clean. Typical reply in Hawaii business hours.',
   },
   '/pricing': {
-    title: 'Private Chef & Catering Prices in Hawaii | myCHEF',
+    title: 'Private Chef Cost in Hawaii | Prices by Island | myCHEF',
     description:
-      'Chef prices by island in USD. Oʻahu $195–$290 a guest. Maui and Kauaʻi $225–$375. Hawaiʻi Island $210–$325. 20% service and GET up to 4.712%.',
+      'Private chef cost in Hawaii, by island in USD: Oʻahu $195–$290 a guest, Maui and Kauaʻi $225–$375, Hawaiʻi Island $210–$325. 20% service and GET extra.',
   },
   '/quote': {
     title: 'Get a quote — myCHEF Hawaii',

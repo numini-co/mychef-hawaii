@@ -95,7 +95,7 @@ export default function PricingView({ related }: { related?: ReactNode } = {}) {
 
   const copy = islandId ? islandPricing[islandId] : null;
   const photo = copy ? photos[copy.photo] : null;
-  const h1 = copy?.h1 ?? 'What a night costs.';
+  const h1 = copy?.h1 ?? 'Private chef cost in Hawaii, island by island.';
   const lede =
     copy?.lede ??
     'USD. Line by line. The written quote is the confirmed total — never a verbal range in a chat window.';
