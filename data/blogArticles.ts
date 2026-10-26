@@ -600,6 +600,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       faqs: [
       ],
       related: [
+        { path: '/blog/kapolei-restaurants-dining-guide', label: 'Kapolei restaurants guide' },
         { path: '/ewa', label: 'Private chef ʻEwa' },
         { path: '/ko-olina', label: 'Private chef Ko Olina' },
         { path: '/coverage', label: 'Coverage' },
@@ -1101,6 +1102,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-elopement-dinner-guide', label: 'Maui elopement guide' },
         { path: '/honeymoon-dinners', label: 'Honeymoon dinners' },
         { path: '/fine-dining/romantic-dinner', label: 'Romantic dinner' },
         { path: '/quote', label: 'Quote form' },
@@ -1572,6 +1574,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-grocery-stores-villa-guide', label: 'Kauaʻi grocery stores guide' },
         { path: '/blog/kauai-farmers-market-villa-week', label: 'Kauai farmers markets guide' },
         { path: '/pricing', label: 'Kauai rate card' },
         { path: '/hanalei-bridge', label: 'Hanalei bridge' },
@@ -2559,6 +2562,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/hilo-restaurants-dining-guide', label: 'Hilo restaurants guide' },
         { path: '/hilo', label: 'Private chef Hilo' },
         { path: '/east-side', label: 'East side' },
         { path: '/private-chef', label: 'Private chef Kona' },
