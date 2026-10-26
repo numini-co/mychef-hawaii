@@ -658,9 +658,9 @@ export const journalArticles: Record<IslandId, JournalArticle[]> = {
       slug: 'how-much-does-a-private-chef-cost',
       name: 'How a quote is built',
       h1: 'What a Big Island chef dinner costs — band, stack, Kona–Kohala.',
-      title: 'What a Big Island Chef Dinner Costs — From $165 | myCHEF',
+      title: 'How Much Does a Private Chef Cost on the Big Island? | myCHEF',
       description:
-        'Big Island chef dinners from $165 a guest; most $210–$325. Six guests at $210 → $1,260 food + 20% service + GET. Kona–Kohala first; Hilo is its own day.',
+        'Big Island chef dinners from $165 a guest, most $210–$325 with groceries inside. A six-guest Kona quote worked line by line: food, 20% service, GET, travel.',
       lede: 'Big Island chef dinners from $165 a guest; most $210–$325. Six guests at $210 → $1,260 food + 20% service + GET. Kona–Kohala first; Hilo is its own day.',
       photo: 'jnlCostBigisland',
       body: [
