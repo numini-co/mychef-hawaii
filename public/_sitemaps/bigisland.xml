@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-27T00:52:05Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -212,7 +212,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-10-26T23:17:13Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -674,7 +674,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/family-reunions</loc>
-    <lastmod>2026-10-09T19:32:00Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -860,7 +860,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/kona-beach-party-catering-guide</loc>
-    <lastmod>2026-10-16T01:02:12Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -915,6 +915,12 @@
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/hilo-restaurants-dining-guide</loc>
     <lastmod>2026-10-26T23:17:38Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://bigisland.mychef-hawaii.com/blog/big-island-luau-villa-dinner-guide</loc>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>

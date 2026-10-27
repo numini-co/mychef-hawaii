@@ -998,7 +998,7 @@
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-27T00:52:05Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1064,7 +1064,7 @@
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-10-26T23:17:13Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1520,7 +1520,7 @@
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/blog/family-reunions</loc>
-    <lastmod>2026-10-19T00:54:59Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -1688,7 +1688,7 @@
   </url>
   <url>
     <loc>https://oahu.mychef-hawaii.com/blog/private-luau-oahu</loc>
-    <lastmod>2026-10-16T01:02:12Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -1743,6 +1743,12 @@
   <url>
     <loc>https://oahu.mychef-hawaii.com/blog/kapolei-restaurants-dining-guide</loc>
     <lastmod>2026-10-26T23:17:38Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://oahu.mychef-hawaii.com/blog/oahu-wedding-venues-guide</loc>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -1844,7 +1850,7 @@
   </url>
   <url>
     <loc>https://maui.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-27T00:52:05Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1910,7 +1916,7 @@
   </url>
   <url>
     <loc>https://maui.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-10-26T23:17:13Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2324,7 +2330,7 @@
   </url>
   <url>
     <loc>https://maui.mychef-hawaii.com/blog/grocery-at-cost</loc>
-    <lastmod>2026-10-16T01:02:12Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -2528,7 +2534,7 @@
   </url>
   <url>
     <loc>https://maui.mychef-hawaii.com/blog/maui-farmers-market-villa-week</loc>
-    <lastmod>2026-10-16T01:02:12Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -2583,6 +2589,12 @@
   <url>
     <loc>https://maui.mychef-hawaii.com/blog/maui-elopement-dinner-guide</loc>
     <lastmod>2026-10-26T23:17:38Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://maui.mychef-hawaii.com/blog/maui-grocery-stores-villa-guide</loc>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -2672,7 +2684,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-27T01:30:43Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2738,7 +2750,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-10-26T23:17:13Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3242,13 +3254,13 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/dining-in-waimea</loc>
-    <lastmod>2026-10-09T19:32:00Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/dining-in-hanapepe</loc>
-    <lastmod>2026-10-09T19:32:00Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -3421,6 +3433,12 @@
     <priority>0.35</priority>
   </url>
   <url>
+    <loc>https://kauai.mychef-hawaii.com/blog/hanapepe-restaurants-west-kauai-guide</loc>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
     <loc>https://bigisland.mychef-hawaii.com/kona</loc>
     <lastmod>2026-10-16T01:02:12Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -3506,7 +3524,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-27T00:52:05Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3572,7 +3590,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-10-26T23:17:13Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4034,7 +4052,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/family-reunions</loc>
-    <lastmod>2026-10-09T19:32:00Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -4220,7 +4238,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/kona-beach-party-catering-guide</loc>
-    <lastmod>2026-10-16T01:02:12Z</lastmod>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -4275,6 +4293,12 @@
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/hilo-restaurants-dining-guide</loc>
     <lastmod>2026-10-26T23:17:38Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://bigisland.mychef-hawaii.com/blog/big-island-luau-villa-dinner-guide</loc>
+    <lastmod>2026-10-27T23:21:34Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
