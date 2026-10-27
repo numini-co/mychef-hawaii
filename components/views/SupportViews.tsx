@@ -911,6 +911,10 @@ export function IslandEditorialView({
               {l.label}
             </HostLink>
           ))}
+          {/* Island → hub for the statewide in-villa router (master map: island pages link up). */}
+          <HostLink island="root" path="/private-chef" className="text-ink underline underline-offset-4">
+            In-villa private chef
+          </HostLink>
         </div>
       </nav>
       <DocumentPhotoGrid

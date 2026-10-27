@@ -245,7 +245,8 @@ export const hubPricingSections: CopySection[] = [
     h2: 'How to read the tariff',
     paras: [
       'Use the island tabs on this page for the card that matches the house. Then open the quote form with that island selected. Typical reply in Hawaii business hours. No payment to enquire. No account.',
-      'This statewide card is what a night costs, line by line. Each island site also publishes its own rate card.',
+      'This statewide card is what a night costs, line by line. Each island site also publishes its own rate card: [Private chef Oahu cost](oahu:/pricing), [Private chef Maui cost](maui:/pricing), [Private chef Kauai cost](kauai:/pricing) and [Private chef Big Island cost](bigisland:/pricing).',
+      'Then open the page for the service you are pricing. One dinner cooked in the house starts on [in-villa private chef](/private-chef), or go straight to the island home: [private chef Maui](maui:/) for Wailea, Kīhei and West Maui. Staffed events for 10–75 guests are priced on the island catering pages, with sample menus: [Maui catering](maui:/catering) and [Kauai catering](kauai:/catering). A wedding reception or wedding week on Oʻahu is quoted on [wedding catering Oahu](oahu:/weddings), with welcome dinner, rehearsal and recovery brunch as separate lines.',
     ],
   },
 ];
