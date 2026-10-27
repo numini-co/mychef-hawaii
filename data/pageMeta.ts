@@ -467,7 +467,8 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/oahu/mobile-bar': {
     title: 'Oʻahu 4-hour mobile bar package | myCHEF',
-    description: 'A four-hour cart — ice, citrus, glassware, bartender — from Waikīkī to Ko Olina. Quote in writing.',
+    description:
+      'A four-hour Oʻahu cart: bartender, ice, citrus, and glassware from Waikīkī to Ko Olina. Spirits are at cost or yours. It is its own line on the quote.',
   },
   '/oahu/events': {
     title: 'Oahu villa events — birthdays & retreats | myCHEF',
@@ -475,9 +476,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Staffed villa events on Oahu: birthdays, retreats and welcome nights from Honolulu to Ko Olina. Request a quote.',
   },
   '/oahu/about': {
-    title: 'About myCHEF Oahu — Honolulu to Ko Olina crew | myCHEF',
+    title: 'About the Oʻahu crew, Honolulu to Ko Olina | myCHEF',
     description:
-      'myCHEF Oahu staffs a brigade to the house: chef, sous, service, bar, shopper. Honolulu, Waikīkī residences, Kahala, Kailua, Ko Olina. Request a quote.',
+      'The Oʻahu crew cooks Honolulu residences, Kahala houses, Kailua weeks, and Ko Olina villas. Prices are on the pricing page. Request a written quote.',
   },
   '/oahu/pricing': {
     title: 'Oahu Private Chef Cost | $195–$290 a Guest | myCHEF',
@@ -538,7 +539,8 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/maui/mobile-bar': {
     title: 'Maui 4-hour mobile bar package | myCHEF',
-    description: 'A four-hour cart for Wailea, Kapalua, Kāʻanapali and Makena. Starting prices published.',
+    description:
+      'A four-hour Maui cart for Wailea, Kapalua, Kāʻanapali, and Makena. Bartender, ice, citrus, and glassware. The package is its own line on the written quote.',
   },
   '/maui/events': {
     title: 'Maui villa events — Wailea & West Maui | myCHEF',
@@ -546,9 +548,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Staffed villa events on Maui: birthdays, retreats and welcome nights in Wailea, Kīhei and West Maui.',
   },
   '/maui/about': {
-    title: 'About myCHEF Maui — Wailea to West Maui crew | myCHEF',
+    title: 'About the Maui crew for Wailea villa weeks | myCHEF',
     description:
-      'myCHEF Maui staffs villa dinners and lawn receptions. Wailea, Kīhei, Kāʻanapali, Kapalua, Makena. Staffed catering for bigger parties. Request a quote.',
+      'The Maui crew cooks villa weeks in Wailea, Kapalua, and Kāʻanapali, including arrival night. Prices are on the pricing page. Request a written quote.',
   },
   '/maui/pricing': {
     title: 'Maui Private Chef Cost | Wailea & West Maui Rates | myCHEF',
@@ -608,9 +610,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Staffed estate events on Kauai: Princeville, Hanalei and Poʻipū. Inquiry stage.',
   },
   '/kauai/about': {
-    title: 'About myCHEF Kauai — both-shore inquiry crew | myCHEF',
+    title: 'About the Kauaʻi crew on both shores | myCHEF',
     description:
-      'myCHEF Kauai is by inquiry only on both shores: Princeville, Hanalei, Poʻipū. We staff the estate to the guest list when a crew exists.',
+      'The Kauaʻi crew cooks Princeville, Hanalei, and Poʻipū when a shore crew exists. Request availability with the dates. Prices are on the pricing page.',
   },
   '/kauai/catering': {
     title: 'Kauai Catering | Princeville & Poipu Estate Events | myCHEF',
@@ -628,7 +630,8 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/kauai/mobile-bar': {
     title: 'Kauaʻi 4-hour mobile bar package | myCHEF',
-    description: 'A four-hour cart for Princeville, Hanalei and Poʻipū. Starting prices published. Inquiry stage.',
+    description:
+      'A four-hour Kauaʻi cart for Princeville, Hanalei, and Poʻipū. Bartender, ice, citrus, and glassware. Request availability. It is its own quote line.',
   },
   '/kauai/pricing': {
     title: 'Kauai Private Chef Cost | Both-Shore Rate Card | myCHEF',
@@ -693,7 +696,8 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/bigisland/mobile-bar': {
     title: 'Hawaiʻi Island 4-hour mobile bar package | myCHEF',
-    description: 'A four-hour cart for the Kohala Coast and Kona. Inquiry-stage. Starting prices published.',
+    description:
+      'A four-hour cart for Kona and the Kohala Coast. Bartender, ice, citrus, and glassware. Join the inquiry list. Hilo is a separate day, not a second stop.',
   },
   '/bigisland/events': {
     title: 'Big Island villa events — Kohala and Kona | myCHEF',
@@ -701,9 +705,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Staffed villa events on Hawaiʻi Island: Kohala Coast and Kona first, by inquiry. East side is a dedicated day, never a same-day add-on.',
   },
   '/bigisland/about': {
-    title: 'About myCHEF Big Island — Kona–Kohala crew | myCHEF',
+    title: 'About the Hawaiʻi Island crew, Kona first | myCHEF',
     description:
-      'myCHEF Hawaiʻi Island is west-side first: Kona, Waikoloa, the Kohala Coast. Inquiry stage. Hilo is a different day.',
+      'The Hawaiʻi Island crew cooks Kona, Waikoloa, and the Kohala Coast first. Hilo is its own day. Join the inquiry list. Prices are on the pricing page.',
   },
   '/bigisland/pricing': {
     title: 'Big Island Private Chef Cost | Kona–Kohala Rates | myCHEF',

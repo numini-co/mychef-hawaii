@@ -210,32 +210,138 @@ export function HubBarView() {
   );
 }
 
-const PACKAGE: Record<IslandId, { h1: string; lede: string; hero: { file: string; alt: string } }> = {
+const PACKAGE: Record<IslandId, { h1: string; lede: string; detail: string; hero: { file: string; alt: string } }> = {
   oahu: {
     h1: 'The 4-hour mobile bar package — Waikīkī to Ko Olina.',
     lede:
-      'A cart, ice, citrus, glassware and a bartender for four hours. Stack it with dinner or book the package alone.',
+      'A cart, ice, citrus, glassware and a bartender for four hours. Stack it with a Honolulu dinner or book the package alone on a Ko Olina lānai.',
+    detail:
+      'The four hours cover the bartender, the setup, ice, citrus, and glassware. Spirits are billed at cost with receipts, or you bring the bottles. A Kahala counter and a Waikīkī residence both need a place for ice. The cart can pour beside dinner, and dinner still needs a real cooktop if you stack the two. The written quote shows the package as its own line. A 20% service charge and Hawaiʻi GET up to 4.712% follow on their own lines. A 50% deposit holds the date after you accept. Gratuity is never required.',
     hero: photos.mobileBarOahu,
   },
   maui: {
     h1: 'A 4-hour mobile bar for Maui villa nights.',
     lede:
-      'The packaged cart for Wailea, Kapalua, Kāʻanapali and Makena.',
+      'The packaged cart for a villa night in Wailea, Kapalua, Kāʻanapali, or Makena, including the arrival evening.',
+    detail:
+      'What the four hours cover is the bartender, the setup, ice, citrus, and glassware on that villa lānai. You may bring the spirits, or we bill them at cost with receipts. On arrival night the bar is a line next to dinner, not a second company. A welcome pour in Kapalua and a later Wailea dinner are separate lines when you ask for both. Saturday traffic between those shores is planned into the call time. Service at 20% and Hawaiʻi GET up to 4.712% follow the lines. A 50% deposit holds the dates after you accept. Gratuity is never required.',
     hero: photos.mobileBarMaui,
   },
   kauai: {
     h1: 'A 4-hour mobile bar on both Kauaʻi shores.',
     lede:
-      'Princeville, Hanalei and Poʻipū — a full cart on the terrace. Inquiry stage. Starting prices published. The add-on hour is on the villa bar page.',
+      'Request availability for a full cart on a Princeville, Hanalei, or Poʻipū terrace. The add-on hour is on the villa bar page.',
+    detail:
+      'The package is a bartender, setup, ice, citrus, and glassware for four hours. Spirits are at cost with receipts, or the estate supplies them. The bar can sit with dinner on the same written reply, as its own line. A house past the Hanalei bridge keeps the 72-hour notice and the weather clause. A closure moves the night. It does not forfeit a deposit. The reply lists 20% service and Hawaiʻi GET up to 4.712% after the package. A 50% deposit follows a written yes. Gratuity is never required. Request availability and name the shore.',
     hero: photos.mobileBarKauai,
   },
   bigisland: {
     h1: 'A 4-hour mobile bar on the Kohala Coast.',
     lede:
-      'Lava-coast package: ice, citrus, glassware, bartender. West-side first.',
+      'A west-side cart for Kona and Kohala: ice, citrus, glassware, and a bartender. Hilo is not a second stop.',
+    detail:
+      'Join the inquiry list for four hours on a Kona or Kohala terrace. The package covers the bartender, setup, ice, citrus, and glassware. Spirits are billed at cost with receipts, or you supply them. The bar is a line beside a west-side dinner on the same reply. It is not a drive to Hilo after dessert. Hilo is its own dedicated day. The reply shows the package, then a 20% service charge and Hawaiʻi GET up to 4.712% as separate lines. A 50% deposit follows a written yes. Gratuity is never required.',
     hero: photos.mobileBarBigisland,
   },
 };
+
+function packageFaqs(islandId: IslandId): { q: string; a: string }[] {
+  const price = `The package price is ${formatMobileBarPackage(islandId)}, or ${formatMobileBarGuest(islandId)}. ${FEE_DISCLOSURE}`;
+  if (islandId === 'oahu') {
+    return [
+      {
+        q: 'What does the four-hour Oʻahu cart cover?',
+        a: 'A bartender, bar setup, ice, citrus, and glassware for four hours, from Waikīkī residences to Ko Olina. The villa bar page is the shorter add-on stacked with dinner. This page is the packaged cart.',
+      },
+      {
+        q: 'Who brings the spirits for a Kahala or Ko Olina bar?',
+        a: 'You may bring them, or we buy them and bill the receipts at cost. The package price does not hide the bottles inside the bartender line. Say which way you want it when you request a written quote.',
+      },
+      {
+        q: 'Can the cart sit beside a Honolulu dinner?',
+        a: 'It can, on the same written quote, or you can book the four hours alone. Dinner still needs a cooktop. A hotel suite with a minibar is not that kitchen. The cart needs a counter and a place for ice.',
+      },
+      {
+        q: 'Where do the bar, service charge, and GET sit?',
+        a: 'The package is its own line. A 20% service charge and Hawaiʻi GET up to 4.712% follow as their own lines. A 50% deposit holds the date after you accept. Gratuity is never required. Quotes are open.',
+      },
+      {
+        q: 'What is the Oʻahu package price?',
+        a: price,
+      },
+    ];
+  }
+  if (islandId === 'maui') {
+    return [
+      {
+        q: 'What is inside a four-hour Wailea cart?',
+        a: 'A bartender, setup, ice, citrus, and glassware for four hours in Wailea, Kapalua, Kāʻanapali, or Makena. This is the packaged cart. The villa bar page is the shorter terrace hour.',
+      },
+      {
+        q: 'Do we bring the bottles, or does the villa?',
+        a: 'Either. The villa can supply the spirits, or we buy them and bill at cost with receipts. Tell us which on the quote so the bottle line is not a surprise next to the package.',
+      },
+      {
+        q: 'How does the bar sit on an arrival-night dinner?',
+        a: 'As a line next to that dinner on one written total, not a second company after you land. A Kapalua welcome and a later Wailea dinner are separate lines when you ask for both. Saturday traffic between them is planned in.',
+      },
+      {
+        q: 'How is the Maui bar written next to the dinner band?',
+        a: 'Package, then dinner, then service at 20% and Hawaiʻi GET up to 4.712%, each on its own line. A 50% deposit holds the dates after you accept. Gratuity is never required. Quotes are open. Request a written quote.',
+      },
+      {
+        q: 'What does the Maui cart cost?',
+        a: price,
+      },
+    ];
+  }
+  if (islandId === 'kauai') {
+    return [
+      {
+        q: 'What does a four-hour Princeville cart include?',
+        a: 'A bartender, setup, ice, citrus, and glassware for four hours on a Princeville, Hanalei, or Poʻipū terrace. Request availability. The villa bar page is the shorter add-on, not this package.',
+      },
+      {
+        q: 'Who supplies the spirits when the estate is by request?',
+        a: 'The estate can supply them, or we buy them and bill at cost with receipts. The package line is the cart and the bartender. Bottles stay separate. Say which you want when you request availability.',
+      },
+      {
+        q: 'How does the bar sit with a Poʻipū dinner?',
+        a: 'On the same written reply, as its own line next to dinner. A north-shore terrace is a different request from Poʻipū. Name the shore. A request does not hold the glassware.',
+      },
+      {
+        q: 'What changes if the house is past the Hanalei bridge?',
+        a: 'The 72-hour notice and the weather clause stay on the quote. A closure moves the night. It does not forfeit a deposit. South-shore carts do not use that clause. Request availability with the bridge side named.',
+      },
+      {
+        q: 'How does the Kauaʻi package show on the reply?',
+        a: price,
+      },
+    ];
+  }
+  return [
+    {
+      q: 'What does the four-hour Kohala cart include?',
+      a: 'A bartender, setup, ice, citrus, and glassware for four hours on a Kona or Kohala terrace. Join the inquiry list for the west-side house. The villa bar page is the shorter add-on.',
+    },
+    {
+      q: 'Who brings the spirits on a Kona terrace?',
+      a: 'You can supply them, or we buy them and bill at cost with receipts. The package does not swallow the bottle cost. Say which when you join the inquiry list so the reply has a clean line.',
+    },
+    {
+      q: 'How does the bar sit with a west-side dinner?',
+      a: 'As its own line on the same reply as the Kona or Kohala dinner. It is not a second company, and it is not a drive to Hilo after dessert. Hilo is its own dedicated day.',
+    },
+    {
+      q: 'Can the same cart cover a Hilo night?',
+      a: 'Hilo is quoted as its own dedicated day, never stacked on a Kohala sunset. Join the inquiry list for the terrace you mean. A west-side note does not include the east side.',
+    },
+    {
+      q: 'How is the Big Island package written on the reply?',
+      a: price,
+    },
+  ];
+}
 
 export function HubMobileBarView() {
   return (
@@ -322,22 +428,8 @@ export function HubMobileBarView() {
 
 export function IslandMobileBarView({ islandId, hostMode }: { islandId: IslandId; hostMode: boolean }) {
   const copy = PACKAGE[islandId];
-  const bar = getMobileBar(islandId);
   const href = (path: string) => islandHref(islandId, hostMode, path);
-  const faqs = [
-    {
-      q: 'How is this different from the villa bar page?',
-      a: `${islands[islandId].name} the villa bar page is the bartender add-on stacked with dinner. This page is the four-hour mobile-bar package — cart, ice, citrus, glassware — priced as its own line.`,
-    },
-    {
-      q: 'What does the package include?',
-      a: `A bartender, bar setup and glassware for ${bar.packageHours} hours. Spirits are billed at cost with receipts, or you supply your own.`,
-    },
-    {
-      q: 'How is it priced?',
-      a: `${formatMobileBarPackage(islandId)}, or ${formatMobileBarGuest(islandId)}. ${FEE_DISCLOSURE}`,
-    },
-  ];
+  const faqs = packageFaqs(islandId);
 
   return (
     <>
@@ -379,6 +471,7 @@ export function IslandMobileBarView({ islandId, hostMode }: { islandId: IslandId
         heading={`How the packaged cart runs on ${islands[islandId].name}.`}
         paras={[
           copy.lede,
+          copy.detail,
           `${formatMobileBarPackage(islandId)}, or ${formatMobileBarGuest(islandId)}. ${FEE_DISCLOSURE}`,
         ]}
       />

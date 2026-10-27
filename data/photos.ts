@@ -937,7 +937,7 @@ export const photos = {
   },
   staffButlersKauai: {
     file: '/photos/staff-butlers-kauai.png',
-    alt: `An empty Princeville dining table being set, misted mountains — butler service quoted when a bench exists.`,
+    alt: `A butler setting an empty Princeville dining table, misted mountains behind the linen.`,
   },
   staffButlersBigisland: {
     file: '/photos/staff-butlers-bigisland.png',
@@ -2573,7 +2573,7 @@ export const photos = {
   },
   cellLihue: {
     file: '/photos/cell-lihue.png',
-    alt: `A Līhuʻe in-town household table — staging town, not a villa hero, plated weekday fish.`,
+    alt: `A plated weekday fish dinner at a Līhuʻe family table.`,
   },
   cellKalaheo: {
     file: '/photos/cell-kalaheo.png',
