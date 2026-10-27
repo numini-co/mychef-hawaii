@@ -177,106 +177,154 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
 
 export const islandCoverage: Record<IslandId, IslandSupportPage> = {
   oahu: {
-    h1: 'Where we cook on Oahu — published corridors, not statewide fiction.',
-    title: 'Where we cook on Oahu — published corridors | myCHEF',
+    h1: 'Where we cook on Oahu — town, villas, and the North Shore.',
+    title: 'Where our private chefs cook on Oʻahu | myCHEF',
     description:
-      'Oahu service map: Waikīkī, Kahala, Ko Olina, Kailua base zones; North Shore surcharge. Drive times on the quote. Not a statewide claim.',
+      'Honolulu, Waikīkī residences, Kahala, Kailua, and Ko Olina are the Oʻahu base. North Shore travel is its own line on the written quote.',
     lede:
-      'Five corridors. Town and the short-stay villa belt are base. The North Shore is a surcharge. We schedule around the corridor — on-site before the rush.',
+      'Town and the short-stay villa belt are the base area. North Shore travel is its own line on the written quote. We schedule around the neighborhood.',
     kicker: 'Oʻahu coverage',
     photo: 'coverageOahu',
     body: [
-      'Neighborhoods we cook in: Honolulu, Waikīkī, Kahala / Gold Coast, Kailua / Lanikai, Ko Olina, North Shore. Gold Coast estates and legal short-stay villas have their own pages: Gold Coast, Short-stay villas.',
-      'Waikīkī residences with kitchens are base; most hotel suites are not a kitchen. Kahala dining rooms are estate entertaining. Ko Olina holds the deepest legal short-stay villa pool on this island. Kailua is built for multi-day packages. North Shore / Turtle Bay is 60–90+ minutes — published surcharge.',
+      'Neighborhoods we cook in: Honolulu, Waikīkī, Kahala / Gold Coast, Kailua / Lanikai, Ko Olina, North Shore. Gold Coast estates and legal short-stay villas have their own pages: [Gold Coast](/gold-coast), [short-stay villas](/short-stay).',
+      'Waikīkī residences with kitchens are base; most hotel suites are not a kitchen. Kahala dining rooms are estate entertaining. Ko Olina holds the deepest legal short-stay villa pool on this island. Kailua is built for multi-day packages. North Shore / Turtle Bay is 60–90+ minutes. That travel is its own line on the written quote before any deposit. The amount is on [pricing](/pricing).',
       'We do not claim every zip code. HCC citywides are closed through 2027; this department is not a MICE play.',
+      'Open the town page that matches the house. [Honolulu](/honolulu) is residences in town. [Waikīkī](/waikiki) is a residence with a kitchen, not a hotel suite. [Kahala](/kahala) is an estate dining room. [Kailua](/kailua) is the windward multi-day stay. [Ko Olina](/ko-olina) is the west-side base. [North Shore](/north-shore) travel prints on the quote, never after the deposit. Building rules stay on that quote. Surf-season dates book early. Quotes are open. [Request a written quote](/quote).',
     ],
     faqs: [
       {
-        q: 'Is Honolulu a different department?',
-        a: 'No. Honolulu residences are the Honolulu page on this site. Private chef Honolulu is a search phrase, not a second company.',
+        q: 'Which Oʻahu neighborhoods are the base area?',
+        a: 'Honolulu, Waikīkī residences with kitchens, Kahala, Kailua, and Ko Olina. A hotel suite without a cooktop is not a base kitchen. Each of those towns has its own page. The quote names the one you booked.',
       },
       {
-        q: 'Do you drive to the North Shore for one dinner?',
-        a: 'Yes, as a surcharge day. Surf-season dates book early. The fee is on the quote, not discovered on the invoice.',
+        q: 'How does North Shore travel show before I deposit?',
+        a: 'It is its own line on the written quote, before any deposit. The amount is on the pricing page. Surf-season dates book early. We do not stack a town lunch on a Turtle Bay dinner in the same chef day.',
       },
       {
-        q: 'Private chef near me?',
-        a: 'On Oahu, near you means the neighborhoods we cover: Honolulu, Kahala, Waikīkī residences, Kailua, Ko Olina, and a North Shore surcharge. We do not claim every zip.',
+        q: 'Is a Waikīkī hotel suite the same area as a residence?',
+        a: 'The neighborhood can be the same and the kitchen is not. A residence with a cooktop is base. Most hotel suites are not a kitchen, and those are declined. Say which room you have when you request a written quote.',
+      },
+      {
+        q: 'Where are the Gold Coast and Ko Olina pages?',
+        a: 'Gold Coast estates are on the Gold Coast page, beside Kahala. Legal short-stay villas are on the short-stay page, and Ko Olina is the deepest pool of those villas. Both sit in the base area when the kitchen works.',
+      },
+      {
+        q: 'What should the Oʻahu quote name besides the date?',
+        a: 'The neighborhood: Honolulu, Kahala, Kailua, Ko Olina, or a North Shore day. Add the building type when the house is a tower. We do not claim every zip code. Quotes are open. Request a written quote.',
       },
     ],
   },
   maui: {
-    h1: 'Where we cook on Maui — five areas, honestly zoned.',
-    title: 'Where we cook on Maui — published zones | myCHEF',
+    h1: 'Where we cook on Maui — villa shores, grouped honestly.',
+    title: 'Where our private chefs cook on Maui | myCHEF',
     description:
-      'Maui service map: Wailea, Kāʻanapali, Kapalua, Makena base; Upcountry surcharge; Pāʻia quote-only. South and West corridors named.',
+      'Maui base areas are Wailea, Makena, Kāʻanapali, and Kapalua. Upcountry and Pāʻia travel are confirmed on the written quote. Request a written quote.',
     lede:
-      'Hotel-zoned residences with kitchens. Travel fees are published with your quote — never discovered on the invoice.',
+      'Villa residences with kitchens. Travel outside the base shores is its own line on the written quote, before any deposit.',
     kicker: 'Maui coverage',
     photo: 'coverageMaui',
     body: [
-      'Live neighborhood URLs: Wailea, Kāʻanapali, Lahaina / West Maui, Kīhei, Kapalua, Makena. Areas: South Maui, West Maui. We do not market Lahaina luxury dining; the Lahaina / West Maui page says how we name West Maui.',
-      'Wailea, Makena, Kāʻanapali, Kapalua are base. Upcountry is elevation and drive time — published surcharge. Pāʻia / Haiku is quote-only with the menu.',
-      'A South Maui Tuesday and a West Maui Saturday are not the same traffic. We plan arrival into the corridor.',
+      'Live neighborhood pages: [Wailea](/wailea), [Kāʻanapali](/kaanapali), [Lahaina](/lahaina), [Kīhei](/kihei), [Kapalua](/kapalua), [Makena](/makena). Corridors: [South Maui](/south-maui), [West Maui](/west-maui). We do not market Lahaina luxury dining. The Lahaina page says how we name West Maui.',
+      'Wailea, Makena, Kāʻanapali, and Kapalua are the base area. Upcountry travel is its own line on the written quote. Pāʻia and Haʻikū travel is confirmed on the written quote with the menu.',
+      'A South Maui Tuesday and a West Maui Saturday are not the same traffic. We plan arrival into the shore you named.',
+      'Use the page that matches the driveway. [Kīhei](/kihei) is residential vacation homes. Wailea is resort residences. [Upcountry](/upcountry) is elevation, written as travel with the menu. [Pāʻia](/paia) and Haʻikū are confirmed the same way, not stacked onto a Wailea dinner. A lawn in Wailea and a Kapalua welcome are two addresses on one week, each with its own call time. We do not treat the island as a single neighborhood. The travel amount is on [pricing](/pricing). Quotes are open. [Request a written quote](/quote).',
     ],
     faqs: [
       {
-        q: 'Is Kīhei the same as Wailea?',
-        a: 'Same South Maui team, different logistics. Kīhei is residential vacation homes. Wailea is resort residences.',
+        q: 'Which Maui areas are base for a villa week?',
+        a: 'Wailea, Makena, Kāʻanapali, and Kapalua. Kīhei is South Maui with its own kitchen story, still in the area we cook. A villa week can use more than one of those shores when each day is written. Quotes are open.',
       },
       {
-        q: 'Do you cover Hana?',
-        a: 'Not as a same-day add-on. Far East Maui is quoted only if we can staff it honestly. This map is the west and south we actually cook.',
+        q: 'How is Upcountry travel written?',
+        a: 'It is its own line on the written quote, with the menu, before any deposit. The amount is on the pricing page. Elevation is the reason it is not treated as a Wailea driveway. Open the Upcountry page when that is the house.',
+      },
+      {
+        q: 'How is Pāʻia or Haʻikū travel confirmed?',
+        a: 'On the written quote, with the menu, before any deposit. We do not stack that drive onto a South Maui dinner. The amount is on the pricing page. Say Pāʻia or Haʻikū in the note so the line is the right one.',
+      },
+      {
+        q: 'Are Wailea and Kīhei the same kitchen story?',
+        a: 'They share South Maui and not the building. Kīhei is vacation homes and condos. Wailea is resort residences. The South Maui page separates the two. Name the one you rented.',
+      },
+      {
+        q: 'Can one Maui week cross from Wailea to Kapalua?',
+        a: 'Both days can sit on one written week. Saturday traffic on that crossing is planned into arrival, not discovered at the car. Each shore stays on the total you accept. Request a written quote with both addresses.',
       },
     ],
   },
   kauai: {
-    h1: 'Where we cook on Kauai — we publish the driving fees.',
-    title: 'Where we cook on Kauai — published driving fees | myCHEF',
+    h1: 'Where we cook on Kauai — base towns and both shores.',
+    title: 'Where our private chefs cook on Kauaʻi | myCHEF',
     description:
-      'Kauai service map: Līhuʻe and Kapaʻa base; Princeville, Hanalei and Poʻipū surcharge; Hāʻena quote-only with a Hanalei-bridge clause.',
+      'Kauaʻi base areas are Līhuʻe and Kapaʻa. Both shores add a travel line on the written quote. Hāʻena keeps the 72-hour notice and bridge clause.',
     lede:
-      'The driving fee is the ad. Base is Līhuʻe and Kapaʻa. Both shores are a published surcharge. Far-North inherits weather.',
+      'Base is Līhuʻe and Kapaʻa. Princeville, Hanalei, and Poʻipū add travel, shown as its own line on the written quote. The far North keeps the bridge clause.',
     kicker: 'Kauaʻi coverage',
     photo: 'coverageKauai',
     body: [
-      'Live neighborhood URLs: Princeville, Poʻipū, Hanalei, Kapaʻa. Shores: North Shore, South Shore.',
-      'Līhuʻe and Kapaʻa are included. Princeville, Hanalei, and Poʻipū carry a published surcharge. Hāʻena and the far North are quote-only with 72-hour notice — road closures reschedule rather than forfeit.',
-      'Inquiry stage. We staff the estate when a crew exists. We will not pretend a flat $50 driving fee covers the island.',
+      'Live neighborhood pages: [Princeville](/princeville), [Poʻipū](/poipu), [Hanalei](/hanalei), [Kapaʻa](/kapaa). Shores: [North Shore](/north-shore), [South Shore](/south-shore).',
+      'Līhuʻe and Kapaʻa are the base area. Princeville, Hanalei, and Poʻipū travel is its own line on the written quote before any deposit. Hāʻena and the far North are confirmed on the written quote with 72-hour notice and a Hanalei-bridge weather clause. Road closures reschedule rather than forfeit.',
+      'Request availability with the shore and the dates. We staff the estate when a crew exists.',
+      '[Līhuʻe](/lihue) is the in-town base, and [Kapaʻa](/kapaa) sits with it, so those dinners do not add a travel line. [Kōloa](/koloa) follows Poʻipū on the south. [Hāʻena](/haena) is past the bridge. Read the [Hanalei bridge](/hanalei-bridge) clause before you request a far-north date. Poʻipū is a shorter drive from Līhuʻe than the far North, and both shores still show travel on the quote. The amount is on [pricing](/pricing). [Request availability](/quote).',
     ],
     faqs: [
       {
-        q: 'Why is Poʻipū a surcharge if it is closer than Hanalei?',
-        a: 'Both shores sit outside the Līhuʻe–Kapaʻa base. Poʻipū is still a shorter drive than the North. The quote names the shore.',
+        q: 'Which Kauaʻi towns are the base area?',
+        a: 'Līhuʻe and Kapaʻa. A dinner there does not add a travel line. Princeville, Hanalei, Poʻipū, and Kōloa sit outside that base. Request availability and name the town so the quote uses the right group.',
       },
       {
-        q: 'What if the bridge closes?',
-        a: 'Far-North events inherit a written clause: 72-hour notice, reschedule rather than forfeit.',
+        q: 'How do Princeville, Hanalei, and Poʻipū travel show?',
+        a: 'As their own line on the written quote, before any deposit. The amount is on the pricing page. Poʻipū is a shorter drive than Hanalei and still outside the Līhuʻe base. The quote names the shore.',
+      },
+      {
+        q: 'How are Hāʻena and the far North confirmed?',
+        a: 'On the written quote, with the existing 72-hour notice and the Hanalei-bridge weather clause. A closure reschedules the night. It does not forfeit the deposit. Request availability. A request is not a held crew.',
+      },
+      {
+        q: 'Why name the shore on a Kauaʻi request?',
+        a: 'North and south are different drives from Līhuʻe, and the bridge applies only past Hanalei. The written reply cannot price travel, or skip it, until the shore is named. Request availability with Princeville, Poʻipū, Hanalei, or Kapaʻa.',
+      },
+      {
+        q: 'Where is the Hanalei bridge clause written?',
+        a: 'On the Hanalei bridge page, and on the written quote before any deposit when the house is past the bridge. It is 72-hour notice, and a closure reschedules rather than forfeits. South-shore houses do not inherit it.',
       },
     ],
   },
   bigisland: {
-    h1: 'Where we cook on Hawaiʻi Island — west-side first.',
-    title: 'Where we cook on Hawaiʻi Island — west-side first | myCHEF',
+    h1: 'Where we cook on Hawaiʻi Island — west side first.',
+    title: 'Where our private chefs cook on Hawaiʻi Island | myCHEF',
     description:
-      'Big Island service map: Kona–Kohala base, Waimea surcharge, Kaʻū extended surcharge, Hilo quote-only. We will not pretend to cover 4,000 square miles.',
+      'Hawaiʻi Island base is the Kona–Kohala belt. Waimea travel is a quote line. Hilo and Volcano are a dedicated day, never stacked on the west side.',
     lede:
-      'Seven west-side communities in one radius. A same-day Kona–Hilo round trip is a logistics fantasy. We publish that.',
+      'Seven west-side communities in one radius. Hilo and Volcano are their own dedicated day. A same-day Kona–Hilo round trip is not a plan we sell.',
     kicker: 'Hawaiʻi Island coverage',
     photo: 'coverageBigisland',
     body: [
-      'Live neighborhood URLs: Kailua-Kona / Keauhou, Waimea, Waikoloa, Kohala Coast.',
-      'Base is the Kona–Kohala corridor — Kailua-Kona, Keauhou, Kohala resorts, Waikoloa. Waimea / Hāmākua is a surcharge. Kaʻū / South is an extended surcharge with advance notice. Hilo / Volcano is 2.5–3 hours — dedicated staffing, never a west-side round trip.',
+      'Live neighborhood pages: [Kona](/kona), [Kailua-Kona](/kailua-kona), [Waimea](/waimea), [Waikoloa](/waikoloa), [Kohala Coast](/kohala). The belt overview is [Kona–Kohala communities](/kohala-corridor).',
+      'Base is the Kona–Kohala belt — Kailua-Kona, Keauhou, Kohala resorts, Waikoloa. Waimea travel is its own line on the written quote. Kaʻū and the south are extended travel with advance notice, also their own line. Hilo and Volcano are quoted in writing as their own dedicated day, never stacked on a west-side day. The drive is 2.5–3 hours.',
       'Inquiry stage. Named coffee follows Act 198 from 2027.',
+      'Join the inquiry list for the west-side address. Open [Hilo](/hilo) or [Volcano](/volcano) only when that is the house, and send it as its own day. Do not attach an east-side driveway to a Waikoloa note. Waimea is cooler ranch country above the coast, still west of the saddle, and still not an east-side day. Name it on the inquiry if the house is there. Travel amounts are on [pricing](/pricing). [Join the inquiry list](/quote).',
     ],
     faqs: [
       {
-        q: 'Is Waimea oceanfront?',
-        a: 'No. Waimea is ranch country in the mist. The ocean dinner is Kona and Kohala.',
+        q: 'Which west-side towns are the base area?',
+        a: 'Kailua-Kona, Keauhou, Waikoloa, and the Kohala Coast resort communities. They share one west-side radius. Waimea is above that belt. Join the inquiry list with the town, not with “the whole island.”',
       },
       {
-        q: 'Can you add Volcano onto a Waikoloa wedding?',
-        a: 'Not as a same-day errand. East side is its own team day.',
+        q: 'How is Waimea travel written?',
+        a: 'As its own line on the written quote, before any deposit. The amount is on the pricing page. Waimea is ranch country, cooler than the coast, and it is still not Hilo. A Kona dinner does not include that drive for free.',
+      },
+      {
+        q: 'How is a Hilo or Volcano day quoted?',
+        a: 'In writing, as its own dedicated day. It is never stacked on a Kona or Waikoloa day. The drive is 2.5–3 hours. Send the east-side address on its own inquiry. Join the inquiry list for the west-side house separately.',
+      },
+      {
+        q: 'Is Kaʻū the same day as Kona?',
+        a: 'Kaʻū is extended travel with advance notice, written as its own line. It is not the Kona–Kohala base, and it is not a Hilo day. Name Kaʻū in the inquiry if that is the house. The amount is on the pricing page.',
+      },
+      {
+        q: 'Where do I join the inquiry list for a west-side address?',
+        a: 'On the quote form. Name Kona, Waikoloa, Kohala, or Waimea, plus the dates. Leave Hilo off that note. An inquiry is not a held crew. Travel, when it applies, is a line on the written reply before any deposit.',
       },
     ],
   },

@@ -97,7 +97,7 @@ export function IslandSupportView({
               {zones.zones.map((z) => (
                 <li key={z.name} className="border-t border-line pt-6">
                   <p className="text-[12px] uppercase tracking-[0.14em] text-mute">
-                    {z.class}
+                    {z.class === 'quote-only' ? 'written quote' : z.class === 'base' ? 'base area' : 'added travel'}
                     {z.feeChip ? ` · ${z.feeChip}` : ''}
                   </p>
                   <h2 className="mt-2 font-display text-[1.75rem] font-light text-ink">{z.name}</h2>

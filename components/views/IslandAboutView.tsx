@@ -3,6 +3,7 @@ import DocumentPhotoGrid from '@/components/DocumentPhotoGrid';
 import Hero from '@/components/Hero';
 import JsonLd from '@/components/JsonLd';
 import LineReveal from '@/components/LineReveal';
+import InlineText from '@/components/InlineText';
 import { LongFaq, SiblingCluster } from '@/components/Longform';
 import QuoteTeaser from '@/components/QuoteTeaser';
 import { islandAbout } from '@/data/islandAbout';
@@ -43,7 +44,7 @@ export function IslandAboutView({ islandId, hostMode }: { islandId: IslandId; ho
         <div className="mx-auto max-w-3xl space-y-6 px-5 lg:px-10">
           {copy.body.map((p) => (
             <p key={p.slice(0, 40)} className="text-[17px] leading-[1.7] text-mute">
-              {p}
+              <InlineText text={p} />
             </p>
           ))}
         </div>
