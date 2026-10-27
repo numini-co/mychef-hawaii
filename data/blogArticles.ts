@@ -333,6 +333,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/oahu-wedding-venues-guide', label: 'Oʻahu wedding venues guide' },
         { path: '/blog/thanksgiving-dinner-oahu', label: 'Thanksgiving dinner on Oʻahu' },
         { path: '/blog/private-luau-oahu', label: 'Backyard luau guide' },
         { path: '/events', label: 'Events' },
@@ -902,6 +903,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-grocery-stores-villa-guide', label: 'Maui grocery stores guide' },
         { path: '/blog/maui-farmers-market-villa-week', label: 'Maui farmers markets guide' },
         { path: '/pricing', label: 'Maui rate card' },
         { path: '/journal/what-is-included', label: 'What prints as a line' },
@@ -1952,6 +1954,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/hanapepe-restaurants-west-kauai-guide', label: 'Hanapēpē restaurants guide' },
         { path: '/waimea', label: 'Private chef Kauaʻi Waimea' },
         { path: '/coverage', label: 'Coverage' },
         { path: '/poipu', label: 'Private chef Poʻipū' },
@@ -1980,6 +1983,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/hanapepe-restaurants-west-kauai-guide', label: 'Hanapēpē restaurants guide' },
         { path: '/hanapepe', label: 'Private chef Hanapēpē' },
         { path: '/blog/dining-in-waimea', label: 'Kauai Waimea notes' },
         { path: '/coverage', label: 'Coverage' },
@@ -2440,6 +2444,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/big-island-luau-villa-dinner-guide', label: 'Big Island luau guide' },
         { path: '/events', label: 'Events' },
         { path: '/guest-counts', label: 'Guest counts' },
         { path: '/quote', label: 'Inquiry form' },
