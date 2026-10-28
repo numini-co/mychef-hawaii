@@ -29,7 +29,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogOahu',
     body: [
       'For the longer notes — Gold Coast counters, convention weeks, short-stay villas — read the journal.',
-      'New this month: [the Oʻahu wedding venues guide](/blog/oahu-wedding-venues-guide) — resorts, beaches, parks, ranches and rented houses, the permits and alcohol rules, and where [wedding catering Oahu](/weddings) or a [private chef Honolulu](/private-chef) fits — plus [the Kapolei restaurants guide](/blog/kapolei-restaurants-dining-guide).',
+      'New this month: [the Kāneʻohe restaurants guide](/blog/kaneohe-restaurants-windward-guide) — plate lunch, poke and bay days on the windward side, early nights, rain and when a [private chef Honolulu](/private-chef) dinner at the house is better — plus [the Oʻahu wedding venues guide](/blog/oahu-wedding-venues-guide).',
     ],
   },
   maui: {
@@ -43,7 +43,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogMaui',
     body: [
       'Short posts from Wailea, Kīhei and West Maui kitchens: breakfast and lunch in the villa, cleanup, groceries at cost, and what goes on the written quote. The longer notes, including the Maui price guide, live in the journal.',
-      'New this month: [the Maui grocery stores guide](/blog/maui-grocery-stores-villa-guide) — the Kahului airport run, South and West Maui markets, delivery and when a [personal chef Maui](/private-chef) does the shopping — plus [the Maui elopement guide](/blog/maui-elopement-dinner-guide).',
+      'New this month: [the Maui wedding venues guide](/blog/maui-wedding-venues-guide) — resort lawns, beaches, Upcountry ranches and villas, the permit and rental rules, and where [wedding catering Maui](/weddings) or a [personal chef Maui](/private-chef) fits — plus [the Maui grocery stores guide](/blog/maui-grocery-stores-villa-guide).',
     ],
   },
   kauai: {
@@ -57,7 +57,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogKauai',
     body: [
       'If you need the Hanalei-bridge weather note at length, the journal is the better page.',
-      'New this month: [the Hanapēpē restaurants guide](/blog/hanapepe-restaurants-west-kauai-guide) — Friday Art Night, Waimea town, Port Allen boat days, early closing and when a [personal chef Kauai](/private-chef) dinner at the house is better — plus [the Kauaʻi grocery stores guide](/blog/kauai-grocery-stores-villa-guide).',
+      'New this month: [the Kauaʻi wedding venues guide](/blog/kauai-wedding-venues-guide) — choosing a shore, resorts, beaches, gardens and estates, rental zones, rain and roads, and where [Kauai wedding catering](/weddings) or a [personal chef Kauai](/private-chef) fits — plus [the Hanapēpē restaurants guide](/blog/hanapepe-restaurants-west-kauai-guide).',
     ],
   },
   bigisland: {
@@ -71,7 +71,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogBigisland',
     body: [
       'West-side kitchens and Kohala travel show up in the shorter posts; the journal keeps the longer notes.',
-      'New this month: [the Big Island luau guide](/blog/big-island-luau-villa-dinner-guide) — Kona’s place in luau history, Kohala show nights, the drive and when a [private chef Kona](/private-chef) island dinner at the villa suits a group better — plus [the Hilo restaurants guide](/blog/hilo-restaurants-dining-guide).',
+      'New this month: [the Big Island wedding venues guide](/blog/big-island-wedding-venues-guide) — Kohala resorts, Kona villas, Waimea ranches and Hilo gardens, wind, drives and where [wedding catering Big Island](/weddings) or a [private chef Kona](/private-chef) fits — plus [the Big Island luau guide](/blog/big-island-luau-villa-dinner-guide).',
       'Looking to book rather than read? Dinner prices, dinners from $165 a guest and signature dinners and Stay Chef days are on the [private chef Big Island](/) page, and staffed villa parties for ten to seventy-five are [Big Island catering](/catering).',
     ],
   },

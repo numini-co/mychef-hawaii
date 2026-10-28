@@ -932,6 +932,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kaneohe-restaurants-windward-guide', label: 'Kāneʻohe restaurants guide' },
         { path: '/blog/haleiwa-restaurants-dining-guide', label: 'Haleʻiwa restaurants guide' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/catering', label: 'Oahu catering' },
@@ -1295,6 +1296,128 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       related: [
         { path: '/weddings', label: 'Wedding catering Oahu' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
+        { path: '/catering', label: 'Oahu catering' },
+        { path: '/pricing', label: 'Oahu private chef cost' },
+        { path: '/', label: 'Private chef Oahu' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'kaneohe-restaurants-windward-guide',
+      keyword: 'kaneohe restaurants',
+      datePublished: '2026-10-29',
+      name: 'Kāneʻohe restaurants guide',
+      h1: 'Kaneohe restaurants — eating well on the windward side.',
+      title: 'Kaneohe Restaurants — Windward Oahu Food Guide | myCHEF',
+      description:
+        'Kaneohe restaurants explained: plate lunch, poke, saimin and bay-day food on windward Oahu, early nights, rain, the drive from town and big-group dinners.',
+      lede:
+        'Kaneohe restaurants are not where most visitors start planning, and that is part of the charm. Kāneʻohe is a working windward town on Oʻahu’s biggest bay, under the Koʻolau cliffs, where people eat plate lunch after a morning on the water and family dinner happens early. This guide explains what eating out in Kāneʻohe actually looks like, how the drive, the rain and the early closing shape your evenings, and when a dinner cooked at the house you are staying in is the better plan. We do not rank or review restaurants and we have no restaurant partners.',
+      photo: 'cellKaneohe',
+      body: [],
+      sections: [
+        {
+          heading: 'Where Kāneʻohe is and how you get there',
+          paras: [
+            'Kāneʻohe sits on the windward side of Oʻahu, between Kailua to the south and Kahaluʻu and the road to Kualoa to the north, wrapped around Kāneʻohe Bay. From Honolulu you cross the Koʻolau range on the Likelike Highway or the H-3, or come over the Pali Highway through Kailua. Outside rush hour it is a short drive over the mountains; at commute times, and on the way home after dark, it feels longer.',
+            'That drive matters for dinner. If you are staying in Kāneʻohe, a restaurant night in Waikīkī means someone drives back over the mountains afterwards. If you are staying in town, Kāneʻohe is a day trip, not a dinner stop. Our [Kailua restaurants guide](/blog/kailua-restaurants-dining-guide) covers the busier windward town next door.',
+          ],
+        },
+        {
+          heading: 'What the Kāneʻohe food scene looks like',
+          paras: [
+            'Expect local, casual and good value rather than tasting menus. Plate lunch with two scoops of rice and mac salad, saimin and noodle shops, poke sold by the pound at market counters, Japanese and Korean family restaurants, bakeries, drive-ins and shave ice make up most of the town. Much of it sits in and around the shopping centers along Kamehameha Highway and near Windward Mall, which is why so many visitors miss it.',
+            'There are few dress-up dining rooms. For a celebration dinner with wine service and courses, most people drive to Kailua or into Honolulu. That is the honest trade-off: Kāneʻohe is easy for a quick lunch, a takeout poke bowl and a family breakfast, and harder for a long, special evening.',
+          ],
+        },
+        {
+          heading: 'Bay days, Heʻeia and the drive north',
+          paras: [
+            'Most visitors come to Kāneʻohe for the water. Boat trips to the sandbar in the middle of Kāneʻohe Bay, kayaks, the Heʻeia area with its restored fishpond, the Byodo-In Temple in the Valley of the Temples and Hoʻomaluhia Botanical Garden under the cliffs fill the days. None of these are food stops, so pack water and snacks and plan lunch before or after.',
+            'Heading north on Kamehameha Highway toward Kualoa and the North Shore, food trucks and roadside stands appear along the coast. It makes a good lunch drive, but the road is two lanes and slow on weekends, so leave time to get back before dinner.',
+          ],
+        },
+        {
+          heading: 'Dinner in Kāneʻohe: early nights and big groups',
+          paras: [
+            'Windward restaurants tend to close earlier than Waikīkī, and many are built for families and regulars rather than parties of twelve. If you are a big group, call ahead or split into two tables, and do not count on a late seating after a full beach day. Sundays and holidays can be quieter still.',
+            'Groups staying in a windward house usually mix it up: lunch out, an easy takeout night, and one or two evenings at home where everyone can sit together without watching the clock.',
+          ],
+        },
+        {
+          heading: 'Rain, trade winds and the lānai',
+          paras: [
+            'The windward side catches the trade-wind showers that the Koʻolau squeeze out of the clouds, so Kāneʻohe is greener and wetter than Honolulu, especially in winter and in the afternoons near the cliffs. Showers are usually short, but an open lānai dinner needs a covered fallback. Trade winds also blow out candles and move paper napkins, which is worth knowing before you set a long table outside.',
+          ],
+        },
+        {
+          heading: 'Staying in Kāneʻohe: houses and longer stays',
+          paras: [
+            'Outside resort-zoned areas, homes in the City and County of Honolulu can generally only be rented to visitors for thirty days or more, apart from a small number of older permitted vacation rentals. In practice that makes Kāneʻohe a place for longer stays, family visits and people working on the island, often in houses with a real kitchen and a dining table.',
+            'A real range, a fridge with space and a table that seats everyone is what turns a rental into a good dinner venue. Before you book a chef night, check the cooktop, the oven and how many chairs there really are.',
+          ],
+        },
+        {
+          heading: 'When a chef night at the house beats eating out',
+          paras: [
+            'A dinner at home makes sense when the group is large, there are kids or grandparents, it is raining, or nobody wants to drive over the mountains after a birthday toast. A [private chef Honolulu](/private-chef) dinner is planned with you, shopped that morning, cooked and served in your kitchen, and the kitchen is cleaned before we leave. Fish is named as the species we actually bought.',
+            'Our [private chef Kāneʻohe](/kaneohe) page explains how a windward house dinner works and why the drive is quoted on its own line rather than hidden inside the food.',
+          ],
+        },
+        {
+          heading: 'Groceries and markets on the windward side',
+          paras: [
+            'Kāneʻohe has full supermarkets, so stocking a rental for breakfast and lunches is easy. Poke and prepared foods from market counters cover the beach days. If you want produce from local growers, our [Oʻahu farmers markets guide](/blog/oahu-farmers-market-villa-week) explains how the island’s markets work across the week.',
+          ],
+        },
+        {
+          heading: 'Reunions, birthdays and bigger groups',
+          paras: [
+            'When the guest list passes a dinner table, [Oahu catering](/catering) is the staffed version for roughly ten to seventy-five guests at a home: buffet, family-style or plated, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, each on its own line. Tables, linens, tents and rentals are not included unless you ask, and then they are quoted separately.',
+          ],
+        },
+        {
+          heading: 'What a dinner at your Kāneʻohe house costs with us',
+          paras: [
+            'Signature dinners on Oʻahu are published at $195–$290 a guest with groceries included, for a minimum party of six. Kāneʻohe is outside our base zone, so a published travel surcharge is quoted with the menu. A 20% service charge and Hawaiʻi GET up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Oahu private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan your Kāneʻohe nights',
+          paras: [
+            'Send the house address, your dates, the guest count, which nights you want cooked and any allergies through the quote form, or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total. For dinners anywhere on the island, see [private chef Oahu](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'What kind of restaurants are in Kāneʻohe?',
+          a: 'Mostly local and casual: plate lunch, saimin, poke counters, Japanese and Korean family restaurants, bakeries, drive-ins and shave ice. For a long dress-up dinner most people drive to Kailua or Honolulu.',
+        },
+        {
+          q: 'How far is Kāneʻohe from Waikīkī?',
+          a: 'It is on the other side of the Koʻolau range, reached by the Likelike Highway, the H-3 or the Pali through Kailua. Outside rush hour it is a short drive; at commute times and late at night it takes longer.',
+        },
+        {
+          q: 'Do Kāneʻohe restaurants stay open late?',
+          a: 'Many close earlier than Waikīkī and are set up for families rather than big parties. Large groups should call ahead or plan a night at the house.',
+        },
+        {
+          q: 'Can a private chef cook at a rental in Kāneʻohe?',
+          a: 'Yes, if the house has a working range and a table for your group. Kāneʻohe carries a published travel surcharge that is quoted with the menu, never added afterwards.',
+        },
+        {
+          q: 'How much is a private chef dinner in Kāneʻohe?',
+          a: 'Signature dinners on Oʻahu are $195–$290 a guest with groceries included, minimum six, plus the Kāneʻohe travel line, a 20% service charge and GET up to 4.712%.',
+        },
+        {
+          q: 'Is it rainy in Kāneʻohe?',
+          a: 'It is wetter than Honolulu because the windward side catches trade-wind showers, especially in winter. Showers are usually short, but plan a covered spot for any outdoor dinner.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Private chef Honolulu' },
+        { path: '/kaneohe', label: 'Private chef Kāneʻohe' },
         { path: '/catering', label: 'Oahu catering' },
         { path: '/pricing', label: 'Oahu private chef cost' },
         { path: '/', label: 'Private chef Oahu' },
@@ -2459,6 +2582,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-wedding-venues-guide', label: 'Maui wedding venues guide' },
         { path: '/private-chef', label: 'Personal chef Maui' },
         { path: '/weddings', label: 'Wedding catering Maui' },
         { path: '/catering', label: 'Maui catering' },
@@ -2582,6 +2706,118 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Maui' },
         { path: '/pricing', label: 'Maui private chef cost' },
         { path: '/blog/maui-farmers-market-villa-week', label: 'Maui farmers market guide' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'maui-wedding-venues-guide',
+      keyword: 'maui wedding venues',
+      datePublished: '2026-10-29',
+      name: 'Maui wedding venues guide',
+      h1: 'Maui wedding venues — from resort lawns to Upcountry ranches.',
+      title: 'Maui Wedding Venues — Types, Rules & Food | myCHEF',
+      description:
+        'Maui wedding venues compared: resorts, beaches, Upcountry ranches, gardens and private villas, with permits, rental rules, weather and how catering works.',
+      lede:
+        'Maui wedding venues fall into a handful of types, and each one decides the food before you have picked a single dish. A Wailea or Kāʻanapali resort lawn comes with its own banquet kitchen; a beach comes with a permit and the public; an Upcountry ranch comes with cooler air and a long drive; a private villa comes with a kitchen and a list of owner rules. This guide sorts Maui venues by type, explains the rules, weather and timing that matter, and shows where a chef or a staffed wedding week fits. We do not rank or recommend named venues and we have no venue partners.',
+      photo: 'weddingMaui',
+      body: [],
+      sections: [
+        {
+          heading: 'Start with the guest list and the island side',
+          paras: [
+            'Write down the guest count you expect, the count you could live with, and which side of the island you want to wake up on. South Maui (Wailea, Makena, Kīhei) and West Maui (Kāʻanapali, Nāpili, Kapalua) hold most visitor stays, the resorts and the larger villas. Upcountry, on the slopes of Haleakalā, is where the ranches and gardens are. The east side toward Pāʻia, Haʻikū and Hāna is lush and beautiful, and much further from everything.',
+            'Guest count also decides the format. A family table of twelve can be cooked in a villa kitchen. A reception of sixty needs servers, a sous-chef, power, a covered area and somewhere to plate, which not every house has.',
+          ],
+        },
+        {
+          heading: 'Resort lawns and ballrooms',
+          paras: [
+            'Wailea, Kāʻanapali and Kapalua resorts offer ocean lawns, terraces, chapels and ballrooms with in-house coordinators. Everything sits in one contract, guests walk to their rooms and there is an indoor rain plan. The trade-off is that resorts generally require their own banquet kitchen, so outside caterers and private chefs are usually not allowed, and food and beverage minimums apply.',
+            'If you love a resort for the ceremony, ask whether the welcome dinner, rehearsal or day-after brunch can happen at a villa nearby. That is where a chef usually comes in. Our [Wailea restaurants guide](/blog/wailea-restaurants-dining-guide) and [Kāʻanapali restaurants guide](/blog/kaanapali-restaurants-dining-guide) cover eating out around both resort areas.',
+          ],
+        },
+        {
+          heading: 'Beach ceremonies and county parks',
+          paras: [
+            'Beaches in Hawaiʻi are public. Commercial wedding activity on state shoreline is regulated by the Department of Land and Natural Resources, so planners and officiants who work on Maui beaches normally hold the permit and know the limits on group size, set-up and sound. You cannot reserve the sand or close it to the public, and structures such as arches and chairs are restricted.',
+            'Maui County beach parks need a county permit for organized gatherings, and alcohol rules in parks are strict. Check the current rules with the county before you promise anyone a champagne toast on the beach. The usual Maui pattern is a short ceremony on the sand, then a reception at a villa, resort or private venue.',
+          ],
+        },
+        {
+          heading: 'Upcountry ranches, gardens and estates',
+          paras: [
+            'Upcountry Maui, around Kula and Makawao, holds ranches, gardens and estate venues with views down to the ocean and across the isthmus. The air is cooler than the coast, evenings can need a layer, and the light at sunset is spectacular. These venues are built for weddings with parking, restrooms and power, and each sets its own rules on caterers, alcohol, end times and noise. Ask for them in writing before you sign.',
+            'Upcountry is a drive from the resort coast, so plan shuttles and a realistic end time. Upcountry chef days on our side carry a published surcharge from $75 for elevation and drive time. Haleakalā itself is covered in our [Maui elopement guide](/blog/maui-elopement-dinner-guide), because the national park sets its own permit rules.',
+          ],
+        },
+        {
+          heading: 'Private villas and vacation rentals',
+          paras: [
+            'A private villa is the most personal Maui wedding venue, and the one with the most homework. Many owners and homeowner associations forbid events, and those who allow them set guest limits, hours and parking rules. Get written permission for the event, the guest count and the hours before you pay a deposit.',
+            'Rental rules on Maui are also changing. Maui County has passed Ordinance 5909, which phases out vacation rentals in apartment-zoned buildings: in West Maui that use must stop on 1 January 2029 and elsewhere in the county on 1 January 2031. Confirm the property’s permit status when you book a future wedding week.',
+            'A villa with a real range, a covered lānai and a dining table that seats your list is the ideal setting for a welcome dinner, rehearsal or at-home reception. Wailea, Kapalua, Kāʻanapali, Nāpili and Makena are our base zones; Pāʻia and Haʻikū are quoted with the menu.',
+          ],
+        },
+        {
+          heading: 'Weather, wind, whales and sunset',
+          paras: [
+            'South and West Maui are generally the drier, sunnier sides, while the east side and the upper slopes catch more rain. Trade winds blow most of the year and move veils, candles and paper, and the central valley can be very windy in the afternoon. Every outdoor venue needs a named covered fallback written into the plan.',
+            'Humpback whales visit Maui’s waters in winter, which makes a December to March ceremony on the coast memorable and also means villa inventory is tight then. September, October and May are the busiest wedding months on our calendar, so those dates go first.',
+          ],
+        },
+        {
+          heading: 'Where a chef or a staffed wedding week fits',
+          paras: [
+            'If the venue allows outside food, choose between a chef-led dinner and a staffed event. For a family table, a [personal chef Maui](/private-chef) dinner is planned with you, shopped that morning, cooked and served in the villa, and the kitchen is cleaned afterwards.',
+            'For a reception of roughly ten to seventy-five at a villa or estate, [wedding catering Maui](/weddings) writes the week as separate lines: welcome dinner, rehearsal, reception and recovery brunch, so you can cut one without reopening the rest. Other staffed parties are [Maui catering](/catering). Servers are $80 an hour and a sous-chef $105 an hour, on four- to five-hour minimums. Tables, linens, tents and rentals are not included unless you ask, and then they are quoted separately.',
+          ],
+        },
+        {
+          heading: 'What the food costs with us',
+          paras: [
+            'Maui wedding receptions start from $225 a guest plus staffing. Signature dinners are $225–$375 a guest with groceries included, and elopements and dinners for two start from $750 as a fixed event. A 20% service charge and Hawaiʻi GET up to 4.712% are their own lines, a 50% deposit locks the dates, and gratuity is voluntary. The full card is on [Maui private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan it',
+          paras: [
+            'Send the venue or villa address, your dates, the guest count, which events you want fed and any allergies through the quote form, or WhatsApp +1 808-468-7748. We reply in writing, including whether the kitchen can hold your list. For single villa dinners, see [private chef Maui](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Do you need a permit for a beach wedding on Maui?',
+          a: 'Commercial wedding activity on state shoreline is regulated by the Department of Land and Natural Resources, and planners or officiants who work on beaches normally hold the permit. County beach parks need a county permit for organized gatherings.',
+        },
+        {
+          q: 'Can we have our wedding at a Maui vacation rental?',
+          a: 'Only with the owner’s written permission for the event, the guest count and the hours. Under Ordinance 5909, apartment-zoned vacation rentals are being phased out by 2029 in West Maui and 2031 elsewhere, so check the permit status.',
+        },
+        {
+          q: 'Can we bring our own caterer to a Maui resort?',
+          a: 'Usually not. Resorts generally require their own banquet kitchen. Outside caterers and chefs suit villas, estates and private venues that allow them.',
+        },
+        {
+          q: 'When is the best time for a Maui wedding?',
+          a: 'South and West Maui are drier year-round. On our calendar September, October and May book first, and winter is whale season, when villas are in demand. Ask as soon as you have a date.',
+        },
+        {
+          q: 'How far are Upcountry venues from Wailea or Kāʻanapali?',
+          a: 'Upcountry ranches and gardens are a drive up the slopes of Haleakalā, so plan shuttles and an end time. Our Upcountry chef days carry a published surcharge from $75.',
+        },
+        {
+          q: 'How much does wedding catering cost on Maui?',
+          a: 'Receptions start from $225 a guest plus staffing, with servers at $80 an hour and a sous-chef at $105 an hour. The 20% service charge and GET up to 4.712% are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/weddings', label: 'Wedding catering Maui' },
+        { path: '/private-chef', label: 'Personal chef Maui' },
+        { path: '/catering', label: 'Maui catering' },
+        { path: '/pricing', label: 'Maui private chef cost' },
+        { path: '/', label: 'Private chef Maui' },
       ],
     },
   ],
@@ -3031,6 +3267,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-wedding-venues-guide', label: 'Kauaʻi wedding venues guide' },
         { path: '/private-chef', label: 'Personal chef Kauai' },
         { path: '/weddings', label: 'Kauai wedding catering' },
         { path: '/catering', label: 'Kauai catering' },
@@ -3877,6 +4114,122 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/hanapepe', label: 'Private chef Hanapēpē' },
       ],
     },
+    {
+      feature: true,
+      slug: 'kauai-wedding-venues-guide',
+      keyword: 'kauai wedding venues',
+      datePublished: '2026-10-29',
+      name: 'Kauaʻi wedding venues guide',
+      h1: 'Kauai wedding venues — choosing a shore, then a kitchen.',
+      title: 'Kauai Wedding Venues — Shores, Rules & Food | myCHEF',
+      description:
+        'Kauai wedding venues compared by shore: resorts, beaches, gardens, estates and rentals, with permits, rental zones, rain, roads and how catering works.',
+      lede:
+        'Kauai wedding venues are chosen by shore before anything else. The North Shore around Princeville and Hanalei is green, dramatic and wet in winter; the South Shore around Poʻipū and Kōloa is sunnier and closer to the airport; the east side around Kapaʻa and Līhuʻe sits between them. Each shore has resorts, beaches, gardens and private estates, and each comes with its own roads, rules and weather. This guide sorts Kauaʻi venues by type, explains what decides the food, and shows where a chef or a staffed wedding week fits. We do not rank or recommend named venues and we have no venue partners.',
+      photo: 'weddingKauai',
+      body: [],
+      sections: [
+        {
+          heading: 'Pick a shore first',
+          paras: [
+            'Kauaʻi has one main road that circles most of the island, and no road along the Nā Pali coast, so a North Shore wedding and a South Shore wedding are different trips. Guests staying in Poʻipū and celebrating in Hanalei will spend a long time in the car. Choose the shore where most guests sleep, then look for a venue there.',
+            'The North Shore offers mountains, waterfalls and Hanalei Bay. The South Shore offers sunnier weather, calmer evenings and the resort area of Poʻipū. The east side is practical, with Līhuʻe airport, Kapaʻa and the Coconut Coast in between. Our [North Shore Kauai dining guide](/blog/north-shore-kauai-dining-guide) and [Poʻipū restaurants guide](/blog/poipu-restaurants-dining-guide) describe both shores in more depth.',
+          ],
+        },
+        {
+          heading: 'Resort and hotel venues',
+          paras: [
+            'Resorts in Poʻipū, Princeville and along the east side offer ocean lawns, terraces and ballrooms with in-house coordinators, guest rooms on site and an indoor rain plan. The trade-off is the usual one: most resorts require their own banquet kitchen, so outside caterers and chefs are generally not allowed, and food and beverage minimums apply. A villa or estate nearby often hosts the welcome dinner or recovery brunch instead.',
+          ],
+        },
+        {
+          heading: 'Beaches and parks',
+          paras: [
+            'Beaches in Hawaiʻi are public, and commercial wedding activity on state shoreline is regulated by the Department of Land and Natural Resources. Planners and officiants who work on Kauaʻi beaches normally hold the permit and know the limits on group size, set-up and sound. County beach parks need a Kauaʻi County permit for organized gatherings, and alcohol rules in parks are strict, so check before planning a toast on the sand.',
+            'Some North Shore beaches sit inside Hāʻena State Park, where visitors who are not Hawaiʻi residents need advance reservations to enter. That alone rules out a casual sunset ceremony at the end of the road for most guests.',
+          ],
+        },
+        {
+          heading: 'Gardens, plantation estates and event venues',
+          paras: [
+            'Kauaʻi is known for its gardens, and the island has botanical gardens, plantation-era estates and private event venues on several shores. They offer lawns with mountain or ocean views, parking and restrooms, and they set their own rules on caterers, alcohol, end times and noise. Ask for those rules and any insurance requirement in writing before you sign.',
+          ],
+        },
+        {
+          heading: 'Private estates and vacation rentals',
+          paras: [
+            'A private estate is the most personal Kauaʻi venue and the one with the most homework. On Kauaʻi, transient vacation rentals are generally limited to the Visitor Destination Areas, such as Poʻipū, Princeville and parts of the east side; outside them only rentals holding a nonconforming use certificate can operate. Many owners and associations also forbid events. Get written permission for the event, guest count and hours, and confirm the rental’s permit status.',
+            'A house with a real range, cold storage, a covered lānai and a table that seats your list is the setting for a welcome dinner, rehearsal or at-home reception. We plan from the cooktop we confirm, not from listing photos.',
+          ],
+        },
+        {
+          heading: 'Rain, roads and the Hanalei bridge',
+          paras: [
+            'Kauaʻi is green because it rains, and the North Shore gets the most of it, especially in winter. Showers are often short, but every outdoor wedding needs a covered fallback written into the plan, not decided on the day. The single-lane bridges on the North Shore road can slow or stop traffic after heavy rain.',
+            'For estates in Hāʻena, past the Hanalei bridge, we need seventy-two hours’ notice and a weather-and-road clause; if the road closes, the event is rescheduled rather than forfeited. Our [weather backup notes](/blog/weather-backup) explain how we plan for it.',
+          ],
+        },
+        {
+          heading: 'Questions to ask every Kauaʻi venue',
+          paras: [
+            'Before you sign, ask each venue the same short list and get the answers in writing. Does it allow outside caterers or chefs, and does it need an insurance certificate naming the property? Is there a working kitchen, or only a prep area? Where is the power, and is it enough for warming equipment? How many restrooms are there, and where do guests park? What time does music stop and the site close? What is the named rain plan, and who decides to use it?',
+            'For a rented estate, add two more questions: is the event allowed by the owner and the association, and does the rental hold the right permit for its zone. Those answers decide whether the food plan can work at all.',
+          ],
+        },
+        {
+          heading: 'Where a chef or a staffed wedding week fits',
+          paras: [
+            'If the venue allows outside food, choose between a chef-led dinner and a staffed event. For a family table, a [personal chef Kauai](/private-chef) dinner is planned with you, shopped that day, cooked and served at the house, and the kitchen is cleaned afterwards.',
+            'For a reception of up to about seventy-five at an estate, [Kauai wedding catering](/weddings) writes the week as separate lines: welcome dinner, rehearsal, reception and recovery brunch, each one cuttable. Other staffed parties are [Kauai catering](/catering). Servers and a sous-chef are on their own hourly lines. Tables, linens, tents and rentals are not included unless you ask, and then they are quoted separately.',
+          ],
+        },
+        {
+          heading: 'What the food costs with us',
+          paras: [
+            'Kauaʻi wedding formats start from $260 a guest plus staffing. Signature dinners are $225–$375 a guest with groceries included, and elopements and dinners for two are a fixed $975–$1,425. A 20% service charge and Hawaiʻi GET up to 4.712% are their own lines, half the total locks the week, and gratuity is voluntary. The full card is on [Kauai private chef cost](/pricing). Kauaʻi is by inquiry: we confirm a crew before we confirm the date.',
+          ],
+        },
+        {
+          heading: 'How to plan it',
+          paras: [
+            'Send the shore, the venue or estate address, your dates, the guest count, which events you want fed and any allergies through the quote form, or WhatsApp +1 808-468-7748. We reply in writing, including whether the kitchen can hold your list. For single dinners anywhere on the island, see [private chef Kauai](/), and for two, our [Kauaʻi elopement guide](/blog/kauai-elopement-dinner-guide).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Which shore is best for a Kauaʻi wedding?',
+          a: 'The South Shore around Poʻipū is generally sunnier and closer to Līhuʻe airport. The North Shore around Princeville and Hanalei is more dramatic and wetter, especially in winter. Choose where most guests will stay.',
+        },
+        {
+          q: 'Do you need a permit for a beach wedding on Kauaʻi?',
+          a: 'Commercial wedding activity on state shoreline is regulated by the Department of Land and Natural Resources, and planners or officiants normally hold the permit. County beach parks need a county permit for organized gatherings.',
+        },
+        {
+          q: 'Can we get married at a vacation rental on Kauaʻi?',
+          a: 'Only with the owner’s written permission. Vacation rentals are generally limited to Visitor Destination Areas such as Poʻipū and Princeville, or to rentals with a nonconforming use certificate.',
+        },
+        {
+          q: 'Can we bring our own caterer to a Kauaʻi resort?',
+          a: 'Usually not. Most resorts require their own banquet kitchen. Outside caterers and chefs suit private estates and venues that allow them.',
+        },
+        {
+          q: 'What happens if it rains on a North Shore wedding?',
+          a: 'Every outdoor plan needs a covered fallback in writing. For Hāʻena estates past the Hanalei bridge we need 72 hours’ notice, and a road closure means a reschedule, not a forfeit.',
+        },
+        {
+          q: 'How much does wedding catering cost on Kauaʻi?',
+          a: 'Wedding formats start from $260 a guest plus hourly staffing, with a 20% service charge and GET up to 4.712% as separate lines. Elopement dinners are a fixed $975–$1,425.',
+        },
+      ],
+      related: [
+        { path: '/weddings', label: 'Kauai wedding catering' },
+        { path: '/private-chef', label: 'Personal chef Kauai' },
+        { path: '/catering', label: 'Kauai catering' },
+        { path: '/pricing', label: 'Kauai private chef cost' },
+        { path: '/', label: 'Private chef Kauai' },
+      ],
+    },
   ],
   bigisland: [
     {
@@ -4325,6 +4678,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/big-island-wedding-venues-guide', label: 'Big Island wedding venues guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/weddings', label: 'Wedding catering Big Island' },
         { path: '/catering', label: 'Big Island catering' },
@@ -5158,6 +5512,127 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Big Island' },
         { path: '/pricing', label: 'Big Island private chef cost' },
         { path: '/blog/kona-beach-party-catering-guide', label: 'Kona beach party catering guide' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'big-island-wedding-venues-guide',
+      keyword: 'big island wedding venues',
+      datePublished: '2026-10-29',
+      name: 'Big Island wedding venues guide',
+      h1: 'Big Island wedding venues — Kohala, Kona, Waimea and Hilo.',
+      title: 'Big Island Wedding Venues — Coast to Ranch | myCHEF',
+      description:
+        'Big Island wedding venues by region: Kohala resorts, Kona, Waimea ranches and Hilo gardens, with permits, rental rules, wind, vog, drives and catering.',
+      lede:
+        'Big Island wedding venues are spread across an island bigger than all the other Hawaiian islands combined, so the first decision is the region, not the room. The Kohala Coast has the resorts and the sunniest lawns; Kailua-Kona and Keauhou have town-side villas; Waimea has ranch country and cool evenings; Hilo and Volcano have gardens, rain and rainforest. This guide sorts the island’s venues by region and type, explains the rules, weather and drives that decide the food, and shows where a chef or a staffed wedding week fits. We do not rank or recommend named venues and we have no venue partners.',
+      photo: 'weddingBigisland',
+      body: [],
+      sections: [
+        {
+          heading: 'Choose a region before a venue',
+          paras: [
+            'Hawaiʻi Island is large enough that a Kohala ceremony and a Hilo reception are different days. Most visitor weddings happen on the west side, where the Kohala Coast resorts, Waikoloa, the Mauna Kea and Mauna Lani areas, Kailua-Kona and Keauhou sit along one dry coastline. Waimea is uphill in ranch country, and the east side around Hilo and Volcano is a long drive across the island.',
+            'Start with where most guests will sleep, then look for a venue within an easy drive. Our [Mauna Lani restaurants guide](/blog/mauna-lani-restaurants-dining-guide) and [Waikoloa restaurants guide](/blog/waikoloa-restaurants-dining-guide) describe the Kohala resort areas.',
+          ],
+        },
+        {
+          heading: 'Kohala Coast resorts',
+          paras: [
+            'The Kohala Coast resorts offer oceanfront lawns, lava-rock terraces, ballrooms and golf-course settings, with coordinators, guest rooms and an indoor rain plan in one contract. Most resorts require their own banquet kitchen, so outside caterers and private chefs are generally not allowed, and food and beverage minimums apply. A private residence nearby often hosts the welcome dinner, rehearsal or day-after brunch instead.',
+          ],
+        },
+        {
+          heading: 'Beaches and parks',
+          paras: [
+            'Beaches in Hawaiʻi are public, and commercial wedding activity on state shoreline, including state beach parks on the Kohala Coast, is regulated by the Department of Land and Natural Resources. Planners and officiants who work on beaches normally hold the permit and know the limits on group size, set-up and sound. County parks have their own permits and rules on alcohol, so check with the county before you plan a toast.',
+            'Black-sand and lava-edged beaches photograph beautifully, but footing, wind and heat are real on the west side. Plan shade, water and shoes for older guests.',
+          ],
+        },
+        {
+          heading: 'Waimea ranches and upcountry estates',
+          paras: [
+            'Waimea, in the cool green uplands between the Kohala mountains and Mauna Kea, holds ranch land, pastures and estates that host weddings with mountain views and a paniolo feel. Evenings are much cooler than the coast and can be misty. Venues set their own rules on caterers, alcohol, end times and noise; ask for them in writing before you sign. Waimea chef days carry a published surcharge on our side for elevation and drive time. See our [Waimea restaurants guide](/blog/waimea-big-island-restaurants-guide) for the town.',
+          ],
+        },
+        {
+          heading: 'Hilo gardens and the east side',
+          paras: [
+            'Hilo and Volcano offer gardens, waterfalls and rainforest, with more rain and lower prices than the west side. It is a very different wedding: greener, wetter and quieter. From the Kohala Coast it is a two-and-a-half to three-hour drive. East-side events are quoted separately on our side with dedicated staffing, and we do not run a same-day Kona and Hilo round trip. Our [Hilo restaurants guide](/blog/hilo-restaurants-dining-guide) covers the town.',
+          ],
+        },
+        {
+          heading: 'Private residences and vacation rentals',
+          paras: [
+            'A private residence is the most personal Big Island venue and the one with the most homework. Hawaiʻi County requires short-term vacation rentals to be registered, and whether a home can be rented short term depends on its zoning. Many owners and associations also forbid events. Get written permission for the event, guest count and hours, and confirm the registration.',
+            'A home with a real range, a fridge, a covered lānai or dining room and a lawn with an indoor backup is the setting for an at-home reception. Resort residences often cook well and still have vendor rules, which we arrange with the property before the first welcome pour.',
+          ],
+        },
+        {
+          heading: 'Wind, vog, heat and event weeks',
+          paras: [
+            'The Kohala Coast is one of the sunniest places in Hawaiʻi, and afternoon winds there can be strong enough to move tents, centerpieces and veils. Vog, the haze from volcanic activity, sometimes drifts over the west side. Plan a covered fallback, weighted décor and a later ceremony when the heat drops.',
+            'The Ironman World Championship in Kailua-Kona compresses lodging, traffic and grocery windows, so flag those dates early if your week overlaps.',
+          ],
+        },
+        {
+          heading: 'Sunset, timing and questions to ask',
+          paras: [
+            'The west side faces the ocean, so Kohala and Kona ceremonies often look straight into the sunset. Most couples start about an hour before it, so photographs catch the light and dinner is served as the heat drops. Ask each venue the same short list and get the answers in writing: are outside caterers or chefs allowed, and is an insurance certificate needed; is there a working kitchen; where is the power; how many restrooms and parking spaces; when does music stop; and what is the named plan for wind or rain.',
+          ],
+        },
+        {
+          heading: 'Where a chef or a staffed wedding week fits',
+          paras: [
+            'If the venue allows outside food, choose between a chef-led dinner and a staffed event. For a family table, a [private chef Kona](/private-chef) dinner is planned with you, shopped on the west side the day of service, cooked and served at the house, and the kitchen is cleaned afterwards.',
+            'For a reception of roughly ten to seventy-five at a west-side estate, [wedding catering Big Island](/weddings) writes the week as separate lines: welcome dinner, rehearsal, reception and recovery brunch. Other staffed parties are [Big Island catering](/catering). Servers and a sous-chef are on their own hourly lines. Tables, linens, tents and rentals are not included unless you ask, and then they are quoted separately.',
+          ],
+        },
+        {
+          heading: 'What the food costs with us',
+          paras: [
+            'Big Island wedding food starts from $225 a guest plus staffing. Signature dinners are $210–$325 a guest with groceries included, smaller dinners start from $165 a guest, and elopements are a fixed evening from $825. A 20% service charge and Hawaiʻi GET up to 4.712% are their own lines, a 50% deposit locks the week, and gratuity is voluntary. The full card is on [Big Island private chef cost](/pricing). Hawaiʻi Island is by inquiry.',
+          ],
+        },
+        {
+          heading: 'How to plan it',
+          paras: [
+            'Send the region, the venue or residence address, your dates, the guest count, which events you want fed and any allergies through the inquiry form, or WhatsApp +1 808-468-7748. We reply in writing, including whether the kitchen can hold your list. For single dinners, see [private chef Big Island](/), and for two, our [Big Island elopement guide](/blog/big-island-elopement-guide).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Where do most Big Island weddings happen?',
+          a: 'Most visitor weddings are on the west side: the Kohala Coast resorts, Waikoloa, Kailua-Kona and Keauhou. Waimea offers ranch settings, and Hilo and Volcano offer gardens and rainforest.',
+        },
+        {
+          q: 'Do you need a permit for a beach wedding on the Big Island?',
+          a: 'Commercial wedding activity on state shoreline is regulated by the Department of Land and Natural Resources, and planners or officiants normally hold the permit. County parks have their own permits and alcohol rules.',
+        },
+        {
+          q: 'Can we bring our own caterer to a Kohala resort?',
+          a: 'Usually not. Most resorts require their own banquet kitchen. Outside caterers and chefs suit private residences and venues that allow them.',
+        },
+        {
+          q: 'Can we have our wedding at a vacation rental?',
+          a: 'Only with the owner’s written permission. Hawaiʻi County requires short-term vacation rentals to be registered, and zoning decides where they are allowed.',
+        },
+        {
+          q: 'Can one wedding week cover Kona and Hilo?',
+          a: 'Not as one day. The drive is two and a half to three hours, so an east-side event is quoted separately with dedicated staffing.',
+        },
+        {
+          q: 'How much does wedding catering cost on the Big Island?',
+          a: 'Wedding food starts from $225 a guest plus hourly staffing, with a 20% service charge and GET up to 4.712% as separate lines. Elopements are a fixed evening from $825.',
+        },
+      ],
+      related: [
+        { path: '/weddings', label: 'Wedding catering Big Island' },
+        { path: '/private-chef', label: 'Private chef Kona' },
+        { path: '/catering', label: 'Big Island catering' },
+        { path: '/pricing', label: 'Big Island private chef cost' },
+        { path: '/', label: 'Private chef Big Island' },
       ],
     },
   ],
