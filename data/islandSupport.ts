@@ -1,6 +1,7 @@
 import type { IslandId } from './islands';
 import type { PhotoKey } from './photos';
 import { SEARCH_VOLUMES } from './offers';
+import { bigIslandSimplerDinner, signatureGuestBand, stayChefUsd } from './rateCard';
 
 /**
  * Unique supporting documents on every island host.
@@ -17,162 +18,322 @@ export interface IslandSupportPage {
   body: string[];
   faqs: { q: string; a: string }[];
   steps?: { n: string; title: string; body: string }[];
+  faqGroups?: { h2: string; faqs: { q: string; a: string }[] }[];
+}
+
+function faqPage(
+  page: Omit<IslandSupportPage, 'faqs'> & {
+    faqGroups: NonNullable<IslandSupportPage['faqGroups']>;
+  },
+): IslandSupportPage {
+  return { ...page, faqs: page.faqGroups.flatMap((group) => group.faqs) };
 }
 
 export const islandFaq: Record<IslandId, IslandSupportPage> = {
-  oahu: {
-    h1: 'Oahu questions — kitchens, corridors, what we will not claim.',
-    title: 'Oahu FAQ — kitchens, corridors, what we publish | myCHEF',
+  oahu: faqPage({
+    h1: 'Questions before you book a private chef on Oahu.',
+    title: 'Private chef questions on Oahu, answered | myCHEF',
     description:
-      'Oahu booking questions: hotel kitchens vs residences, North Shore surcharge, published prices, reviews.',
+      'Oahu answers on dates, signature dinners, Stay Chef days, condo kitchens, and where we cook from Honolulu to Ko Olina. Request a written quote.',
     lede:
-      'This page answers the booking. We do not invent guest reviews.',
+      'Dates, kitchens, fee lines, and the corridor. This is the Oʻahu question list before you request a written quote.',
     kicker: 'Oʻahu FAQ',
     photo: 'faqOahu',
     body: [
-      'Waikīkī hotel suites often lack a kitchen. Residences with a real stove are the product. Kahala dining rooms, Ko Olina villas, Kailua weeks, and a North Shore surcharge day are not the same drive; the quote says which.',
+      'A resident night starts with the house. Honolulu condos, Kahala dining rooms, Ko Olina villas, and Kailua weeks are different buildings, and the written quote names which one. A tower may need a freight window and a parking stall. A villa still needs a working cooktop. We do not treat a hotel suite with a minibar as a kitchen.',
+      'A signature dinner and a Stay Chef day are separate bills on [pricing](/pricing). A 20% service charge and Hawaiʻi GET up to 4.712% sit on their own lines. Travel past the usual corridors is also its own line, and the amount is on that card. The neighborhood map is on [coverage](/coverage). Send the date on [the quote form](/quote) and request a written quote. How the night runs is on [how it works](/how-it-works). Allergy notes are on [dietary](/dietary).',
     ],
-    faqs: [
+    faqGroups: [
       {
-        q: 'Is this the Oahu catering page?',
-        a: `No.`,
+        h2: 'Booking and dates',
+        faqs: [
+          {
+            q: 'How do I request a written quote for a Honolulu or Kahala date?',
+            a: 'Send the date, the building, and who is eating on [the quote form](/quote), and request a written quote. A message to the front desk does not hold the night. What happens after the reply is on [how it works](/how-it-works).',
+          },
+          {
+            q: 'Can a Ko Olina dinner and a North Shore day share one week?',
+            a: 'They can, when both addresses are on the quote you accept. They are not the same drive. North Shore travel is its own line, and the amount is on [pricing](/pricing). The split between town and that shore is on [coverage](/coverage).',
+          },
+          {
+            q: 'When should a Kailua week go on the Oahu calendar?',
+            a: 'Put it on the quote when the house is held, especially December through March. A quieter weeknight can sometimes move sooner. The date is not held until you accept the written total. Request a written quote on [the quote form](/quote).',
+          },
+        ],
       },
       {
-        q: 'Do you cook in a Waikīkī hotel room?',
-        a: 'If there is a kitchen we can work. Most hotel suites do not have one. Residences, Kahala houses, and Ko Olina villas are the usual rooms. Tell us the address.',
+        h2: 'Prices and fee lines',
+        faqs: [
+          {
+            q: 'What does an Oahu signature dinner price cover?',
+            a: `A signature dinner is ${signatureGuestBand('oahu')} a guest. Grocery shopping sits inside that band. There is no separate grocery bill. Then a 20% service charge and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows once you accept. Gratuity is never required. The card is [pricing](/pricing).`,
+          },
+          {
+            q: 'How is Stay Chef billed on Oahu?',
+            a: `Stay Chef is ${stayChefUsd('oahu')} a day for the cook, plus groceries at cost with receipts. It is not a signature dinner repeated across the week. Service and tax stay on the same card, [pricing](/pricing). Request a written quote if the house wants several cook days.`,
+          },
+          {
+            q: 'Are service and tax folded into the Honolulu guest price?',
+            a: 'They are not. A 20% service charge and Hawaiʻi GET up to 4.712% follow the food as their own lines. A 50% deposit comes after you accept. Gratuity is never required. Read the lines on [pricing](/pricing) before you compare a quote with the band.',
+          },
+        ],
       },
       {
-        q: 'Is the North Shore extra?',
-        a: 'Yes. Turtle Bay and the North Shore are a published surcharge — 60–90+ minutes from town. Surf-season dates book early.',
+        h2: 'Kitchens and the house',
+        faqs: [
+          {
+            q: 'What kitchen does a Waikīkī booking need?',
+            a: 'A cooktop, a fridge, and space to plate. Most hotel suites fail that test, and a minibar is not a kitchen. Residences, Kahala houses, and Ko Olina villas are the rooms we write. Name the building on [the quote form](/quote). Tower rules are part of that written total.',
+          },
+          {
+            q: 'Where do I list gluten-free or shellfish notes for Oahu?',
+            a: 'With the address, before the shop. [Dietary](/dietary) is how those limits are written. There is no separate allergy price. The guest band on [pricing](/pricing) still applies, with service and tax on their own lines.',
+          },
+        ],
       },
       {
-        q: 'Are groceries included?',
-        a: 'Two models, and we never blend them. On a Signature or per-guest dinner, food and grocery procurement sit inside the published per-guest band — there is no separate “+ groceries” line. On a Stay Chef, multi-day or weekly-cook booking, it is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The rate card is the pricing page; the fee stack is on the private chef cost page.',
-      },
-      {
-        q: 'Do you have Oʻahu guest reviews?',
-        a: 'Not yet. We will not invent them. Reviews publish after verified events. Proof today is published starting prices and a written quote.',
-      },
-      {
-        q: 'Wedding catering or a dinner?',
-        a: `A Tuesday dinner in Kahala is the private chef page or the in-villa dinner page. Pick the door that matches the night.`,
+        h2: 'Where we cook',
+        faqs: [
+          {
+            q: 'Which page shows where on Oahu you cook?',
+            a: '[Coverage](/coverage) is the map. Honolulu, Kahala, Kailua, and Ko Olina are the houses we write most. A North Shore day adds a travel line. The amount is on [pricing](/pricing), not in a chat. Request a written quote and name the neighborhood.',
+          },
+          {
+            q: 'Is a staffed party the same booking as a Kahala dinner?',
+            a: 'A dinner in the house is [Private chef Honolulu](/private-chef). A staffed party is [Oahu catering](/catering). This page only answers the questions. Open the door that matches the night, then request a written quote.',
+          },
+        ],
       },
     ],
-  },
-  maui: {
-    h1: 'Maui questions — villa kitchens, West Maui naming, prices.',
-    title: 'Maui FAQ — villa kitchens, West Maui naming, prices | myCHEF',
+  }),
+  maui: faqPage({
+    h1: 'Questions for a Maui villa week.',
+    title: 'Private chef questions on Maui, answered | myCHEF',
     description:
-      'Maui booking questions: catering vs dinner, how we name Lahaina, Upcountry surcharge, published prices.',
+      'Maui answers for a villa week: arrival night, signature dinners, Stay Chef days, kitchens, and how Pāʻia travel is confirmed. Request a written quote.',
     lede:
-      'Answers about Maui catering, private chef dinners, how we name West Maui, the Upcountry surcharge and published prices.',
+      'Arrival night, the fee lines, the kitchen, and the shore. This is the Maui question list before you request a written quote.',
     kicker: 'Maui FAQ',
     photo: 'faqMaui',
     body: [
-      'We cook West Maui residences with kitchens — Kāʻanapali, Nāpili, Kapalua. We do not market a Lahaina luxury-dining brand.',
-      'Upcountry is a published surcharge. Pāʻia and Haiku are quote-only with the menu. Wailea, Makena, and Kīhei are base-zone South Maui — three logistics stories, one team.',
+      'A villa week is several meals, and the evening you land is the first of them. Wailea, Kapalua, and Kāʻanapali are the houses we write most often. Saturday traffic between the south shore and West Maui changes the call time. It does not create a second invoice when both dinners are on the quote you accept.',
+      'Pāʻia and Haʻikū are confirmed on the written quote with the menu. They are not stacked onto a Wailea dinner. Upcountry travel is its own line, and the figure is on [pricing](/pricing). The neighborhood map is on [coverage](/coverage). Signature dinners and Stay Chef days stay separate on that card. Request a written quote on [the quote form](/quote). The sequence of a week is on [how it works](/how-it-works). Shop limits are on [dietary](/dietary).',
     ],
-    faqs: [
+    faqGroups: [
       {
-        q: 'Do you do Lahaina luxury dining?',
-        a: 'No. We cook West Maui houses: Kāʻanapali, Nāpili, Kapalua. Tell us the address.',
+        h2: 'Booking and dates',
+        faqs: [
+          {
+            q: 'How do I request a written quote for a Wailea arrival night?',
+            a: 'Name the villa, the landing evening, and who is eating on [the quote form](/quote). That arrival dinner is its own line. Quotes are open. The rest of the week’s order is on [how it works](/how-it-works).',
+          },
+          {
+            q: 'Does mentioning Kapalua in a text hold Saturday?',
+            a: 'A text that names Kapalua does not hold Saturday. The dates are held after you accept the written total for that villa. Saturday traffic between Wailea and Kapalua is planned into the call time. It is not a fee invented on the invoice. Request a written quote with the shore named.',
+          },
+          {
+            q: 'Can one villa week list both Wailea and Kāʻanapali?',
+            a: 'Both dinners can sit on one written week. Each shore keeps its own call time, and a Saturday crossing is planned before the shop. Send both addresses on [the quote form](/quote). The area notes are on [coverage](/coverage).',
+          },
+        ],
       },
       {
-        q: 'What does a night cost?',
-        a: `Starting prices are on the pricing page — signature dinners $225–$375 a guest on Maui.`,
+        h2: 'Prices and fee lines',
+        faqs: [
+          {
+            q: 'What is inside a Maui signature dinner price?',
+            a: `The guest price is ${signatureGuestBand('maui')}. The shop for that dinner sits inside the band. It is not billed again as groceries at cost. A 20% service charge and Hawaiʻi GET up to 4.712% follow as their own lines. Gratuity is never required. See [pricing](/pricing).`,
+          },
+          {
+            q: 'How does a Stay Chef week bill on Maui?',
+            a: `The daily chef fee starts at ${stayChefUsd('maui')}, and groceries are at cost with receipts. That is the villa-week cook, not the per-guest dinner copied across the calendar. A 50% deposit follows once you accept the written total. The card is [pricing](/pricing).`,
+          },
+          {
+            q: 'Where do service and tax show on a two-meal Maui week?',
+            a: 'After the food, on [pricing](/pricing) and on the quote. A 20% service charge and Hawaiʻi GET up to 4.712% each stand alone. They are not folded into a Wailea band or a Kapalua band. A 50% deposit holds the dates you accepted. Gratuity is never required.',
+          },
+        ],
       },
       {
-        q: 'Are groceries included?',
-        a: 'Two models, never conflated. A Signature or per-guest dinner keeps food and grocery procurement inside the published band — no separate “+ groceries” line. A Stay Chef, multi-day or weekly-cook villa week is the chef fee plus groceries at cost, with original merchant receipts and zero markup.',
+        h2: 'Kitchens and the house',
+        faqs: [
+          {
+            q: 'What does a Kapalua kitchen need before you shop?',
+            a: 'A working cooktop, a fridge, and a table that fits the group. A resort gallery with no range is not that kitchen. Tell us which villa it is when you request a written quote. The shop follows the menu you sign. Steps are on [how it works](/how-it-works).',
+          },
+          {
+            q: 'Where do diet notes go for a Kāʻanapali shop?',
+            a: 'On the quote before that day’s buy. [Dietary](/dietary) explains how gluten-free, shellfish, and other limits are written. There is no second price for those plates. The dinner figure stays the band on [pricing](/pricing).',
+          },
+        ],
       },
       {
-        q: 'Do you have Maui guest reviews?',
-        a: 'Not yet — and we will not invent them. Reviews publish only after verified events, never bought or written in-house. What we can prove now is published starting prices from $225 a guest, sample menus, and a written quote.',
-      },
-      {
-        q: 'Wedding week vs a Tuesday dinner?',
-        a: `Welcome, rehearsal, reception, and recovery brunch are separate lines on the wedding week page.`,
+        h2: 'Where we cook',
+        faqs: [
+          {
+            q: 'How are Pāʻia and Haʻikū confirmed?',
+            a: 'On the written quote, with the menu, before any deposit. We do not stack that drive onto a Wailea dinner. The amount is on [pricing](/pricing). The rest of the shores, including Upcountry, are mapped on [coverage](/coverage).',
+          },
+          {
+            q: 'Is a lawn party the same as a Tuesday villa dinner?',
+            a: 'A villa dinner is [Personal chef Maui](/private-chef). A staffed lawn is [Maui catering](/catering). Arrival night in a house is still the dinner door. Request a written quote and say which night you mean.',
+          },
+        ],
       },
     ],
-  },
-  kauai: {
-    h1: 'Kauai questions — both shores, inquiry, the bridge.',
-    title: 'Kauai FAQ — both shores, inquiry, the bridge | myCHEF',
+  }),
+  kauai: faqPage({
+    h1: 'Questions before you request availability on Kauai.',
+    title: 'Kauai chef questions before you request a date | myCHEF',
     description:
-      'Kauai booking questions: by inquiry, Princeville vs Poʻipū, Hanalei-bridge clause, published prices.',
+      'Kauai answers before you request availability: both shores, the bridge, signature dinners, and Stay Chef weeks. A request is not a held crew.',
     lede:
-      'Both shores. Inquiry stage. The bridge and the weather are real. We staff the estate when a crew exists — we do not dress a waitlist as live.',
+      'Name the shore, then read the fee lines and the bridge. Request availability. This list is not a held date.',
     kicker: 'Kauaʻi FAQ',
     photo: 'faqKauai',
     body: [
-      `This FAQ holds the logistics.`,
-      'Princeville and Hanalei inherit weather and the Hanalei-bridge clause — 72-hour notice, reschedule rather than forfeit. Poʻipū is a shorter drive from Līhuʻe.',
-      'Estate formats to about 75 guests.',
+      'Request availability and name the shore before anyone talks about a menu. Princeville and Hanalei sit in the north, with rain and the Hanalei bridge in the plan. Poʻipū is the south-shore kitchen, a different drive from Līhuʻe. A request is not a held crew. We write back when that shore can be staffed.',
+      'A signature dinner and a Stay Chef stretch are different bills on [pricing](/pricing). A published band is not a confirmation. Travel for either shore is its own line on the written reply, and the amount is on that card. Towns are on [coverage](/coverage). Far-north houses should read [Hanalei bridge](/hanalei-bridge) before they request a date. Diet limits go on [dietary](/dietary), with the shore named. The shape of the night is on [how it works](/how-it-works).',
     ],
-    faqs: [
+    faqGroups: [
       {
-        q: 'Can I book a date now?',
-        a: 'Yes — join the inquiry list with the shore and the dates. This is not a waitlist island dressed up as live.',
+        h2: 'Booking and dates',
+        faqs: [
+          {
+            q: 'How do I request availability for Princeville or Poʻipū?',
+            a: 'Name the shore, the estate, the date, and who is eating on [the quote form](/quote), and request availability. That note is not a held crew. We write back if that shore can be staffed. The night’s shape is on [how it works](/how-it-works).',
+          },
+          {
+            q: 'Does a request for a Poʻipū Saturday hold a crew?',
+            a: 'A request does not hold a crew. Someone is confirmed in writing before any deposit. A 50% deposit follows that yes, not the request itself. Gratuity is never required. If the date moves later, the written change is on [managing a booking](/help/managing-booking).',
+          },
+          {
+            q: 'Can one request name both Hanalei and Poʻipū?',
+            a: 'Only when you want two nights. They are different drives from Līhuʻe, and the bridge applies past Hanalei, not on the south shore. Request availability with each address. Travel, when it applies, is a line on the reply. The amount is on [pricing](/pricing).',
+          },
+        ],
       },
       {
-        q: 'North Shore or South Shore?',
-        a: 'Princeville and Hanalei are the North. Poʻipū and Kōloa are the South. Far-North events inherit the bridge clause.',
+        h2: 'Prices and fee lines',
+        faqs: [
+          {
+            q: 'What does a Kauai signature dinner include if a shore can be staffed?',
+            a: `If that shore can be staffed, the guest price is ${signatureGuestBand('kauai')}, with the shop inside the band. A published band is not a held crew. A 20% service charge and Hawaiʻi GET up to 4.712% are separate lines on the reply. Read [pricing](/pricing).`,
+          },
+          {
+            q: 'How are groceries billed on a Kauai Stay Chef stretch?',
+            a: `The chef fee starts at ${stayChefUsd('kauai')} a day. Groceries are at cost with receipts on that stretch only. A signature dinner does not add a grocery bill on top of the band. Request availability, and read both models on [pricing](/pricing).`,
+          },
+          {
+            q: 'Where do service and tax show on the Kauai reply?',
+            a: 'On their own lines after the food: 20% service, then Hawaiʻi GET up to 4.712%. A 50% deposit follows a written yes. Gratuity is never required. The card is [pricing](/pricing). A request for availability does not print those lines by itself.',
+          },
+        ],
       },
       {
-        q: 'Is this Kauai catering?',
-        a: `No.`,
+        h2: 'Kitchens and the house',
+        faqs: [
+          {
+            q: 'What should a Princeville kitchen note include?',
+            a: 'The estate address, whether dinner is on a covered lānai or indoors, and the headcount. Rain is planned before the shop, not at dusk. Request availability with that backup named. The sequence is on [how it works](/how-it-works).',
+          },
+          {
+            q: 'Where do dietary limits go for a north-shore night?',
+            a: 'In the availability request, with the shore, before any shop. [Dietary](/dietary) is the page for those limits. A south-shore kitchen is a different buy. There is no separate diet price. Bands stay on [pricing](/pricing).',
+          },
+        ],
       },
       {
-        q: 'Are groceries included?',
-        a: 'Two models, kept separate even at inquiry. A Signature or per-guest dinner has food and grocery procurement inside the published band — no separate “+ groceries” line. A Stay Chef, multi-day or weekly-cook booking is the chef fee plus groceries at cost, with original merchant receipts and zero markup. The card is the pricing page; the stack is on the private chef cost page.',
-      },
-      {
-        q: 'Do you have Kauaʻi guest reviews?',
-        a: 'Not yet. We will not invent them. Proof is published starting prices from $225 a guest and a written quote.',
+        h2: 'Where we cook',
+        faqs: [
+          {
+            q: 'Where do I read the shore map and the bridge clause?',
+            a: 'Shores and towns are on [coverage](/coverage). Houses past the bridge should read [Hanalei bridge](/hanalei-bridge) before they request availability. A closure moves the night. It does not forfeit a deposit. Poʻipū does not inherit that clause.',
+          },
+          {
+            q: 'Is an estate party the same request as a house dinner on Kauai?',
+            a: 'A dinner in the house is [Personal chef Kauai](/private-chef). A staffed estate party is [Kauai catering](/catering). Request availability and say which one. This page does not hold the date.',
+          },
+        ],
       },
     ],
-  },
-  bigisland: {
-    h1: 'Hawaiʻi Island questions — west side first, Hilo honesty.',
-    title: 'Hawaiʻi Island FAQ — west side first, Hilo honesty | myCHEF',
+  }),
+  bigisland: faqPage({
+    h1: 'Questions for a Kona or Kohala booking.',
+    title: 'Hawaii Island chef questions, west side first | myCHEF',
     description:
-      'Big Island booking questions: Kona–Kohala first, Hilo quote-only, Ironman-week calendar, coffee origin labeling.',
+      'Hawaiʻi Island answers for Kona and Kohala: join the inquiry list, signature and simpler tables, Stay Chef, and a Hilo day kept separate.',
     lede:
-      'The island is 4,000 square miles. We cook the Kona–Kohala corridor first. Hilo is a different day. We publish that instead of overselling.',
+      'West side first. Hilo is a separate dedicated day. Join the inquiry list with the address you actually need.',
     kicker: 'Hawaiʻi Island FAQ',
     photo: 'faqBigisland',
     body: [
-      ` This FAQ is the map.`,
-      'Seven resort communities sit inside a 30-minute west-side radius. East side — Hilo and Volcano — is 2.5–3 hours and quote-only with dedicated staffing.',
-      'Event weeks in Kailua-Kona compress availability. Named Kona and Kaʻū coffee follow Act 198 from 2027; we do not invent farm names.',
+      'Join the inquiry list with a west-side address. Kailua-Kona, Waikoloa, and the Kohala Coast are the usual day. Waimea is the cooler town above that coast and is still not the east side. Hilo and Volcano are a separate dedicated day, confirmed in writing, and never attached to a Kona dinner as a second stop.',
+      'This island publishes a signature band and a simpler table. Both keep the grocery shop inside the guest price. Stay Chef is the multi-day fee plus groceries at cost with receipts. Those figures, the 20% service charge, and Hawaiʻi GET are on [pricing](/pricing). The town list is on [coverage](/coverage). An inquiry is not a held date. Send it on [the quote form](/quote). How a west-side night runs is on [how it works](/how-it-works). Food limits are on [dietary](/dietary).',
     ],
-    faqs: [
+    faqGroups: [
       {
-        q: 'Do you cover the whole island?',
-        a: 'No. West side first: Kona, Waikoloa, the Kohala Coast, Waimea as a surcharge. Hilo and Volcano are quote-only.',
+        h2: 'Booking and dates',
+        faqs: [
+          {
+            q: 'How do I join the inquiry list for a Kona date?',
+            a: 'Send the west-side address, the date, and who is eating on [the quote form](/quote), and join the inquiry list. That note is not a held crew. Hilo does not belong on the same line. The night’s order is on [how it works](/how-it-works).',
+          },
+          {
+            q: 'Does joining the inquiry list hold a Waikoloa night?',
+            a: 'Joining the inquiry list does not hold the date. The night is held after you accept the written total. A 50% deposit follows that yes. Gratuity is never required. Ironman week in Kailua-Kona is tighter, so flag those dates in the inquiry. There is no instant-booking button.',
+          },
+          {
+            q: 'How do we flag a race week when the Kona house is already held?',
+            a: 'Name the race dates and the Kona or Waikoloa address in the inquiry. Town fills that week, so send it when the villa is held. Hilo is still a separate dedicated day, not a backup driveway. Use [the quote form](/quote).',
+          },
+        ],
       },
       {
-        q: 'Same as Big Island catering?',
-        a: `No.`,
+        h2: 'Prices and fee lines',
+        faqs: [
+          {
+            q: 'What is in a west-side signature dinner price?',
+            a: `The signature band is ${signatureGuestBand('bigisland')} a guest, and the shop sits inside it. A simpler table on this island starts from ${bigIslandSimplerDinner()} a guest, shop inside that price too. Then 20% service and Hawaiʻi GET up to 4.712% print alone. See [pricing](/pricing).`,
+          },
+          {
+            q: 'How does Stay Chef differ from those guest prices?',
+            a: `Stay Chef starts at ${stayChefUsd('bigisland')} a day. Groceries on that booking are at cost with receipts. They are not inside the day fee. A signature dinner never uses that grocery line. Join the inquiry list, and compare both on [pricing](/pricing).`,
+          },
+          {
+            q: 'Where do service, tax, and the deposit sit on a west-side total?',
+            a: 'After the food, each alone: a 20% service charge, Hawaiʻi GET up to 4.712%, then a 50% deposit once you accept. Gratuity is never required. The west-side card, including the simpler table, is on [pricing](/pricing). Joining the inquiry list does not print the total.',
+          },
+        ],
       },
       {
-        q: 'Can you do Hilo from Kona in one day?',
-        a: 'No. East side is 2.5–3 hours. Dedicated staffing, quoted honestly — never squeezed into a west-side day.',
+        h2: 'Kitchens and the house',
+        faqs: [
+          {
+            q: 'What does a Kohala kitchen need before the west-side shop?',
+            a: 'A cooktop, a fridge, and a place to plate out of the hard sun. Photos of that kitchen decide it. A minibar room is declined. Join the inquiry list with the villa name. The shop follows the menu you sign. Steps are on [how it works](/how-it-works).',
+          },
+          {
+            q: 'Where do west-side diet notes go?',
+            a: 'In the inquiry, before the Kona or Kohala shop. [Dietary](/dietary) is where those limits are explained. There is no extra price for them. The guest band on [pricing](/pricing) still applies. A Waimea ranch kitchen is a different buy from the coast.',
+          },
+        ],
       },
       {
-        q: 'Are groceries included?',
-        a: 'Two models, never blended. A Signature or per-guest dinner keeps food and grocery procurement inside the published band — no separate “+ groceries” line. A Stay Chef, multi-day or weekly-cook west-side booking is the chef fee plus groceries at cost, with original merchant receipts and zero markup.',
-      },
-      {
-        q: 'Do you have Hawaiʻi Island guest reviews?',
-        a: 'Not yet — and we will not invent them. On the west side, booking by inquiry means proof is published starting prices from $225 a guest, sample menus, and a written quote — not a five-star page.',
-      },
-      {
-        q: 'Ironman week — are you available?',
-        a: 'Flag those dates early. Town compresses. We publish the calendar pressure instead of overselling.',
+        h2: 'Where we cook',
+        faqs: [
+          {
+            q: 'Which towns count as the usual west-side day?',
+            a: 'Kailua-Kona, Waikoloa, and the Kohala Coast. Waimea is above that belt and still not Hilo. The town pages are linked from [coverage](/coverage). Join the inquiry list with the town, not with the whole island. Travel outside the base is a line. The amount is on [pricing](/pricing).',
+          },
+          {
+            q: 'How do I ask for a Hilo dinner?',
+            a: 'Send Hilo on its own form, not as a line under a Kona note. East-side houses are confirmed in writing as their own day. Open [coverage](/coverage) for the map, and keep Waikoloa off that message. Join the inquiry list for the side the house is actually on.',
+          },
+        ],
       },
     ],
-  },
+  }),
 };
 
 export const islandCoverage: Record<IslandId, IslandSupportPage> = {

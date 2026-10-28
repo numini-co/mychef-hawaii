@@ -56,10 +56,11 @@ export function IslandSupportView({
   const photo = photos[copy.photo];
   const href = (path: string) => islandHref(islandId, hostMode, path);
   const zones = zoneMap[islandId];
+  const faqs = copy.faqGroups?.length ? copy.faqGroups.flatMap((group) => group.faqs) : copy.faqs;
 
   return (
     <>
-      <FaqSchema faqs={copy.faqs} />
+      <FaqSchema faqs={faqs} />
       {showMenu && islandId === 'bigisland' ? <JsonLd data={sampleMenuJsonLd(islandId)} /> : null}
       <Hero src={photo.file} alt={photo.alt}>
         <p className="text-[13px] text-mute">{copy.kicker}</p>
@@ -196,7 +197,11 @@ export function IslandSupportView({
       ) : null}
 
       <SiblingCluster island={islandId} href={href} />
-      <LongFaq items={copy.faqs} title={`Asked on ${island.shortName}.`} />
+      {copy.faqGroups?.length ? (
+        copy.faqGroups.map((group) => <LongFaq key={group.h2} items={group.faqs} title={group.h2} />)
+      ) : (
+        <LongFaq items={copy.faqs} title={`Asked on ${island.shortName}.`} />
+      )}
       <QuoteTeaser headline="Request a quote. Quote in writing." island={islandId} />
     </>
   );
