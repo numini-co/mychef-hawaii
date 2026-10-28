@@ -579,6 +579,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/kaneohe-restaurants-windward-guide', label: 'Kāneʻohe restaurants guide' },
         { path: '/kaneohe', label: 'Private chef Kāneʻohe' },
         { path: '/kailua', label: 'Private chef Kailua' },
         { path: '/coverage', label: 'Coverage' },
@@ -952,6 +953,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       faqs: [
       ],
       related: [
+        { path: '/blog/maui-wedding-venues-guide', label: 'Maui wedding venues guide' },
         { path: '/coverage', label: 'Coverage' },
         { path: '/makena', label: 'Private chef Makena' },
         { path: '/quote', label: 'Quote form' },
@@ -1625,6 +1627,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       faqs: [
       ],
       related: [
+        { path: '/blog/kauai-wedding-venues-guide', label: 'Kauaʻi wedding venues guide' },
         { path: '/coverage', label: 'Coverage' },
         { path: '/hanalei-bridge', label: 'Hanalei bridge' },
         { path: '/quote', label: 'Inquiry form' },
@@ -2517,6 +2520,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       faqs: [
       ],
       related: [
+        { path: '/blog/big-island-wedding-venues-guide', label: 'Big Island wedding venues guide' },
         { path: '/blog/condo-load-in', label: 'Condo load-in' },
         { path: '/east-side', label: 'East side' },
         { path: '/quote', label: 'Inquiry form' },

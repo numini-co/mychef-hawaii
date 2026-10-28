@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/pricing</loc>
-    <lastmod>2026-10-28T00:54:41Z</lastmod>
+    <lastmod>2026-10-28T23:19:21Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-10-27T23:21:34Z</lastmod>
+    <lastmod>2026-10-28T23:19:21Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -212,7 +212,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-10-27T23:21:34Z</lastmod>
+    <lastmod>2026-10-28T23:19:21Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -638,7 +638,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/weather-backup</loc>
-    <lastmod>2026-10-09T19:32:00Z</lastmod>
+    <lastmod>2026-10-28T23:19:21Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -854,7 +854,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/kauai-elopement-dinner-guide</loc>
-    <lastmod>2026-10-19T00:00:00Z</lastmod>
+    <lastmod>2026-10-28T23:19:21Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -897,6 +897,12 @@
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/hanapepe-restaurants-west-kauai-guide</loc>
     <lastmod>2026-10-27T23:21:34Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://kauai.mychef-hawaii.com/blog/kauai-wedding-venues-guide</loc>
+    <lastmod>2026-10-28T23:19:21Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
