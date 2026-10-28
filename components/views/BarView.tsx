@@ -13,6 +13,7 @@ import { islands, type IslandId } from '@/data/islands';
 import { photos } from '@/data/photos';
 import { FEE_DISCLOSURE, formatMobileBarGuest, formatMobileBarPackage, getMobileBar } from '@/data/rateCard';
 import { islandHref } from '@/lib/paths';
+import { PRIVATE_CHEF_PAGE_ANCHOR } from '@/lib/ownerAnchors';
 
 const hubBarFaqs = [
   {
@@ -59,26 +60,141 @@ const rows: { id: IslandId; line: string }[] = [
   { id: 'bigisland', line: 'Kona–Kohala first. Sunset bar on lava-coast terraces.' },
 ];
 
-const COPY: Record<IslandId, { h1: string; lede: string; hero: { file: string; alt: string } }> = {
+const COPY: Record<
+  IslandId,
+  { h1: string; lede: string; detail: string; hero: { file: string; alt: string }; faqs: { q: string; a: string }[] }
+> = {
   oahu: {
     h1: 'A cocktail bar on your lānai — Waikīkī to Ko Olina.',
     lede: 'Bartender, citrus, ice and glassware on the terrace. Stack it with an Oʻahu chef night or book the hour alone.',
+    detail:
+      'This hour is the bartender beside the chef, or the hour on its own if dinner is not booked. Honolulu towers, Kahala houses, Ko Olina villas, and Kailua weeks can all take it. The four-hour cart, with the package price, is the [mobile bar](/mobile-bar). There is no published bartender hour. The line is quoted in writing. A 20% service charge and Hawaiʻi GET up to 4.712% follow on their own lines, and a 50% deposit follows once you accept. Gratuity is never required. Those fee lines are on [pricing](/pricing). Say if you are supplying the spirits when you request a written quote.',
     hero: photos.barOahu,
+    faqs: [
+      {
+        q: 'How does a bartender line sit next to a Honolulu dinner?',
+        a: 'The dinner and the pour are separate lines on one written quote. Service at 20% and Hawaiʻi GET up to 4.712% come after those lines, not inside them. A 50% deposit follows once you accept. Gratuity is never required. The fee pattern is on [pricing](/pricing).',
+      },
+      {
+        q: 'If Kahala already bought the wine, what does the bartender pour?',
+        a: 'Your bottles. Spirits are billed at cost with receipts, or you supply your own. Say which when you request a written quote so the reply does not invent a bottle line. The four-hour kit is a different page.',
+      },
+      {
+        q: 'What is the bartender doing while the chef uses a Ko Olina kitchen?',
+        a: 'The chef stays on the food. The bartender sets the terrace, pours through dinner, and clears the station at the end time you named. They are not a second cook. Both names belong on the same quote if you want them the same night.',
+      },
+      {
+        q: 'What should an Oahu note include for a pour with dinner?',
+        a: 'The address, the date, the headcount, and whether the bartender is with the chef or alone. Add who supplies the spirits. A tower should mention the freight window if the building has one. Request a written quote on [the quote form](/quote).',
+      },
+      {
+        q: 'Is this lānai hour the four-hour cart?',
+        a: 'The four-hour cart is the [mobile bar](/mobile-bar). This page is the bartender for the dinner hour, or the hour alone. The package price is not this line. Request a written quote and name the hour you want.',
+      },
+      {
+        q: 'Can we book the Oahu bartender without a chef?',
+        a: 'You can book the hour alone. It is still quoted in writing, with 20% service and Hawaiʻi GET up to 4.712% on their own lines. A cooktop is a dinner question, not a bar question. Say it is bar only on [the quote form](/quote).',
+      },
+    ],
   },
   maui: {
     h1: 'Villa bartender add-on — Wailea and Kapalua terraces.',
-    lede: 'Welcome pours, rehearsal-night cocktails and a terrace hour in Wailea, Kapalua, Kāʻanapali and Makena. The four-hour packaged cart is on the mobile bar page.',
+    lede: 'Welcome pours and a terrace hour in Wailea, Kapalua, Kāʻanapali, and Makena, beside the chef.',
+    detail:
+      'Book this when the villa dinner needs a person on the terrace for the hour, including the evening you land. Wailea, Kapalua, and Kāʻanapali are the usual lawns. Makena can be named the same way. The packaged four hours live on the [mobile bar](/mobile-bar), not here. No bartender hour is printed on the card. You get a written line, then service at 20% and Hawaiʻi GET up to 4.712% each alone. A 50% deposit holds the dates after you accept. Gratuity is never required. Open [pricing](/pricing) for the fee lines. Quotes are open. Tell us if the house already bought the bottles.',
     hero: photos.barMaui,
+    faqs: [
+      {
+        q: 'How is a welcome pour written on a Wailea arrival total?',
+        a: 'As its own line beside that arrival dinner, on the quote you accept before anyone shops. It is not a second company after you land. Service at 20% and Hawaiʻi GET up to 4.712% follow, each alone. A 50% deposit holds the dates after you accept. See [pricing](/pricing).',
+      },
+      {
+        q: 'The villa stocked the bar. Does the Kapalua bartender still buy bottles?',
+        a: 'Only if you ask for that. Spirits are billed at cost with receipts, or you supply your own. A house that already bought the wine should say so, or the reply may add a bottle line you did not want. Quotes are open.',
+      },
+      {
+        q: 'Where is the bartender during plated service in Kāʻanapali?',
+        a: 'On the terrace or the lānai you named, while the chef works the kitchen. The pour is not a course. If you want both for the landing night, put both on the quote. Saturday traffic changes the call time, not those two lines.',
+      },
+      {
+        q: 'What do we tell the desk for a Maui dinner pour?',
+        a: 'The villa, the shore, the date, the headcount, and whether this is the landing night. Say if bottles are already in the house. Request a written quote on [the quote form](/quote). A Kapalua welcome and a later Wailea dinner are two lines when you ask for both.',
+      },
+      {
+        q: 'Why open the Maui bartender page instead of the four-hour cart?',
+        a: 'This page is the dinner-hour bartender. The cart, priced as a package, is the [mobile bar](/mobile-bar). Use that page for four hours and the setup as a package. Use this one when the pour sits with the chef.',
+      },
+      {
+        q: 'Can one Saturday quote include a Kapalua pour and a Wailea dinner?',
+        a: 'It can, as two lines with the drive planned in. They are not one terrace. Name both houses and which one gets the bartender. Request a written quote. The food stays on [pricing](/pricing), separate from the pour.',
+      },
+    ],
   },
   kauai: {
     h1: 'Estate cocktails on both Kauaʻi shores.',
-    lede: 'Princeville, Hanalei and Poʻipū — a bartender on the terrace. Starting prices published.',
+    lede: 'Request availability for a bartender on a Princeville, Hanalei, or Poʻipū dinner. Name the shore.',
+    detail:
+      'Request availability for a bartender on the dinner, and name Princeville, Hanalei, or Poʻipū. Kapaʻa is a different driveway, so name it if that is the house. This is not the four-hour package. That cart is the [mobile bar](/mobile-bar). A request does not reserve the glassware. If a shore can be staffed, the reply shows the bartender as its own line, then 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit follows a written yes. Gratuity is never required. The fee lines are on [pricing](/pricing). A house past the bridge should say so. A closure moves the night.',
     hero: photos.barKauai,
+    faqs: [
+      {
+        q: 'How does a Princeville bartender show on the written reply?',
+        a: 'As a written line next to dinner, if that shore can be staffed. Then 20% service and Hawaiʻi GET up to 4.712%, each alone. A 50% deposit follows a written yes, not the request. Gratuity is never required. Fee lines are on [pricing](/pricing). Request availability and name the north shore.',
+      },
+      {
+        q: 'Does a Poʻipū dinner pour include the bottles?',
+        a: 'The bottles are a choice in the request, not part of the person on the terrace. Spirits are billed at cost with receipts, or you supply your own. Put that choice next to the shore when you request availability so the reply does not guess.',
+      },
+      {
+        q: 'How do the chef and the bartender share a south-shore night?',
+        a: 'The chef cooks. The bartender runs the terrace you named and stops at the end time on the reply. Rain may move the table under cover. That backup should be in the request. They are one booking with two lines, not two companies.',
+      },
+      {
+        q: 'What do we put in a Kauai request for a dinner pour?',
+        a: 'The shore, the estate, the date, the headcount, and whether dinner is booked the same night. Add who brings the bottles, and say if the house is past the bridge. Request availability on [the quote form](/quote). A request is not a confirmation.',
+      },
+      {
+        q: 'Where is the four-hour Kauai package if we want the cart?',
+        a: 'On the [mobile bar](/mobile-bar). This page stays the dinner-hour bartender. Do not expect the package price on this hour. Request availability and say cart or dinner hour so the reply uses the right line.',
+      },
+      {
+        q: 'If the Hanalei road closes, what happens to the bar line?',
+        a: 'The night moves. A closure does not forfeit a deposit, and it does not silently become a Poʻipū pour. The clause is on the [Hanalei bridge](/hanalei-bridge) page and on the written reply when the house is past the bridge. South-shore bars do not use it.',
+      },
+    ],
   },
   bigisland: {
     h1: 'Sunset pours on the Kohala Coast.',
-    lede: 'Lava-coast terraces in the Kona–Kohala corridor. Bartender add-on; the four-hour packaged cart is on the mobile bar page.',
+    lede: 'Join the inquiry list for a bartender on a Kona or Kohala dinner. Hilo is not a second stop.',
+    detail:
+      'Join the inquiry list for a bartender on a Kona, Waikoloa, or Kohala dinner. Waimea can be named when the house is up there. Do not leave that town off the note you send. Hilo is a separate dedicated day and is not a second pour after sunset. The four-hour package is the [mobile bar](/mobile-bar). No bartender hour is published. The reply lists the pour, then a 20% service charge and Hawaiʻi GET up to 4.712% as separate lines. A 50% deposit follows a written yes. Gratuity is never required. Read [pricing](/pricing) for those lines. An inquiry is not a held terrace.',
     hero: photos.barBigisland,
+    faqs: [
+      {
+        q: 'How is a Kohala bartender written on the west-side reply?',
+        a: 'On its own line with the west-side dinner, after you join the inquiry list and the day can be staffed. A 20% service charge and Hawaiʻi GET up to 4.712% follow as separate lines. A 50% deposit follows a written yes. Gratuity is never required. The card is [pricing](/pricing).',
+      },
+      {
+        q: 'We did not ship bottles to Kona. Who brings them?',
+        a: 'Buy them in town, or ask the desk to buy them and attach the receipts at cost. Spirits are billed at cost with receipts, or you supply your own. Write that choice into the inquiry so the terrace line stays the bartender.',
+      },
+      {
+        q: 'Can the chef and a bartender work the same Waikoloa night?',
+        a: 'They can, on one reply. The chef uses the kitchen. The bartender keeps the terrace for the hour you named. Put both in the inquiry or the pour is left off. Hilo is not added after dessert.',
+      },
+      {
+        q: 'What belongs in the inquiry when we want a pour with dinner?',
+        a: 'The west-side address, the date, the headcount, and that you want a bartender with dinner. Note who supplies the spirits. Flag Ironman if the week is the race. Join the inquiry list on [the quote form](/quote). Leave Hilo off that note.',
+      },
+      {
+        q: 'Which page has the four-hour cart on Hawaiʻi Island?',
+        a: 'The [mobile bar](/mobile-bar). Join the inquiry list there for the package. This page is only the dinner-hour bartender, quoted in writing, with no hourly figure on the card. Do not mix the two lines in one unlabeled note.',
+      },
+      {
+        q: 'Can a Hilo pour ride along with a Kona bartender?',
+        a: 'Keep Hilo off the Kona bartender note. East-side glassware is a different day, confirmed in writing, with its own inquiry. If the house is in Hilo or Volcano, start that note from scratch. Do not treat Waikoloa as the same sunset.',
+      },
+    ],
   },
 };
 
@@ -496,24 +612,7 @@ export function IslandMobileBarView({ islandId, hostMode }: { islandId: IslandId
 export function IslandBarView({ islandId, hostMode }: { islandId: IslandId; hostMode: boolean }) {
   const copy = COPY[islandId];
   const href = (path: string) => islandHref(islandId, hostMode, path);
-  const faqs = [
-    {
-      q: 'How is this different from the mobile bar page?',
-      a: `${islands[islandId].name} the mobile bar page is the four-hour packaged cart. This page is the bartender add-on — stacked with dinner or booked as its own hour.`,
-    },
-    {
-      q: 'What does the add-on include?',
-      a: `A bartender, citrus, ice and glassware. Spirits are billed at cost with receipts, or you supply your own. The four-hour cart is a different line on the mobile bar page.`,
-    },
-    {
-      q: 'Can we stack the bar with a chef or wedding week?',
-      a: 'Yes — that is the usual order. The bar is a line on the same written quote as dinner or the wedding week.',
-    },
-    {
-      q: 'How is it priced?',
-      a: `Starting ${formatMobileBarGuest(islandId)}, or ${formatMobileBarPackage(islandId)}. ${FEE_DISCLOSURE}`,
-    },
-  ];
+  const faqs = copy.faqs;
 
   return (
     <>
@@ -535,17 +634,13 @@ export function IslandBarView({ islandId, hostMode }: { islandId: IslandId; host
           className="mt-4 font-display text-[clamp(2.5rem,6vw,4rem)] font-light leading-[1.05] text-ink"
         />
         <p className="mt-5 max-w-[52ch] text-[17px] leading-[1.65] text-ink">{copy.lede}</p>
-        <p className="mt-4 text-[17px] text-ink">{formatMobileBarPackage(islandId)}</p>
         <div className="mt-8">
           <QuoteCta island={islandId} service="mobile-bar" variant="light" />
         </div>
       </Hero>
       <DocumentCopy
         heading={`How the terrace bar runs on ${islands[islandId].name}.`}
-        paras={[
-          copy.lede,
-          `${formatMobileBarPackage(islandId)}, or ${formatMobileBarGuest(islandId)}. ${FEE_DISCLOSURE}`,
-        ]}
+        paras={[copy.lede, copy.detail]}
       />
       <DocumentPhotoGrid
         islandId={islandId}
@@ -555,7 +650,7 @@ export function IslandBarView({ islandId, hostMode }: { islandId: IslandId; host
         items={[
           { path: '/mobile-bar', label: '4-hour package', detail: 'The bar cart, start to finish' },
           { path: '/weddings', label: 'Wedding week', detail: 'Rehearsal to farewell brunch' },
-          { path: '/private-chef', label: 'What’s included', detail: 'One dinner in the villa' },
+          { path: '/private-chef', label: PRIVATE_CHEF_PAGE_ANCHOR[islandId], detail: 'One dinner in the villa' },
         ]}
       />
       <LongFaq items={faqs} />
