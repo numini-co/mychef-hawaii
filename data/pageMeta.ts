@@ -553,7 +553,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'The Maui crew cooks villa weeks in Wailea, Kapalua, and Kāʻanapali, including arrival night. Prices are on the pricing page. Request a written quote.',
   },
   '/maui/pricing': {
-    title: 'Maui Private Chef Cost | Wailea & West Maui Rates | myCHEF',
+    title: 'Maui Private Chef Cost | $225–$375 a Guest | myCHEF',
     description:
       'Private chef Maui cost: $225–$375 a guest with groceries inside the band, Stay Chef from $1,550 a day. 20% service and GET print as their own lines.',
   },
@@ -634,7 +634,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'A four-hour Kauaʻi cart for Princeville, Hanalei, and Poʻipū. Bartender, ice, citrus, and glassware. Request availability. It is its own quote line.',
   },
   '/kauai/pricing': {
-    title: 'Kauai Private Chef Cost | Both-Shore Rate Card | myCHEF',
+    title: 'Kauai Private Chef Cost | $225–$375, Both Shores | myCHEF',
     description:
       'What a private chef costs on Kauaʻi: $225–$375 a guest, Date Night $975–$1,425, Stay Chef from $1,650 a day. By inquiry, with every fee itemized.',
   },
@@ -710,7 +710,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'The Hawaiʻi Island crew cooks Kona, Waikoloa, and the Kohala Coast first. Hilo is its own day. Join the inquiry list. Prices are on the pricing page.',
   },
   '/bigisland/pricing': {
-    title: 'Big Island Private Chef Cost | Kona–Kohala Rates | myCHEF',
+    title: 'Big Island Private Chef Cost | $210–$325 a Guest | myCHEF',
     description:
       'What a private chef costs on the Big Island: dinners from $165, signature $210–$325 a guest, Stay Chef from $1,450 a day. Hilo quoted separately.',
   },
