@@ -215,7 +215,8 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/help': {
     title: 'Help desks, by island | myCHEF Hawaii',
-    description: 'Help desks across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    description:
+      'Island help for a first note, a menu draft, and a change after you accept. Open the island where the house is, then pricing for the fee lines.',
   },
   '/fine-dining': {
     title: 'In-villa formats, by island | myCHEF Hawaii',
@@ -299,32 +300,39 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Each island quotes executive dinners in houses.',
   },
   '/events/birthdays': {
-    title: 'Birthday dinners, by island | myCHEF Hawaii',
-    description: 'Birthday dinners across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Birthday dinner with a private chef in Hawaii | myCHEF',
+    description:
+      'Birthday dinner in a Hawaii rental, with the cake plan in the note. Groceries sit inside the per-guest band. Open an island, then pricing.',
   },
   '/events/welcome-dinners': {
-    title: 'Arrival-night dinners, by island | myCHEF Hawaii',
-    description: 'Arrival-night dinners across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Arrival dinner with a private chef in Hawaii | myCHEF',
+    description:
+      'Arrival-night dinner in a Hawaii rental, the first evening after you land. Groceries sit inside the per-guest band. Open an island page, then pricing.',
   },
   '/events/retreats': {
-    title: 'Retreat cooking notes, by island | myCHEF Hawaii',
-    description: 'Retreat cooking notes across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Retreat meals with a private chef in Hawaii | myCHEF',
+    description:
+      'Retreat meals in one Hawaii house over several days. Signature nights include groceries. Stay Chef days bill groceries at cost with receipts.',
   },
   '/events/anniversaries': {
-    title: 'Anniversary nights, by island | myCHEF Hawaii',
-    description: 'Anniversary nights across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Anniversary dinner with a private chef in Hawaii | myCHEF',
+    description:
+      'Anniversary dinner in a Hawaii rental, usually two seats. Groceries sit inside the per-guest band. Open an island page, then pricing, and send one date.',
   },
   '/events/corporate-events': {
-    title: 'House offsite nights, by island | myCHEF Hawaii',
-    description: 'House offsite nights across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Company dinner with a private chef in Hawaii | myCHEF',
+    description:
+      'A company dinner in a Hawaii rental, not a convention floor. The person who can approve is named on the note. Open an island, then pricing.',
   },
   '/events/villa-parties': {
-    title: 'Villa parties, by island | myCHEF Hawaii',
-    description: 'Villa parties across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Villa party with a private chef in Hawaii | myCHEF',
+    description:
+      'A villa party cooked in a Hawaii rental for the list you actually have. Groceries sit inside the per-guest band. Open an island page, then pricing.',
   },
   '/events/brunch': {
-    title: 'Day-after brunch, by island | myCHEF Hawaii',
-    description: 'Day-after brunch across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Brunch with a private chef at a Hawaii rental | myCHEF',
+    description:
+      'Morning brunch in a Hawaii rental, after the kitchen was used the night before. No separate brunch price is published. Open your island, then pricing.',
   },
   '/catering/bbq': {
     title: 'Lawn BBQ service, by island | myCHEF Hawaii',
@@ -353,20 +361,24 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Each island says drop-off is not staffed service.',
   },
   '/fine-dining/romantic-dinner': {
-    title: 'Romantic villa dinners, by island | myCHEF Hawaii',
-    description: 'Romantic villa dinners across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Romantic dinner for two with a Hawaii chef | myCHEF',
+    description:
+      'A two-seat romantic dinner in a Hawaii rental. Groceries sit inside the per-guest band. Open an island page, then pricing, and send the house.',
   },
   '/fine-dining/tasting-menu': {
-    title: 'Tasting menus, by island | myCHEF Hawaii',
-    description: 'Tasting menus across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Tasting menu with a private chef in Hawaii | myCHEF',
+    description:
+      'A tasting menu in a Hawaii rental: a longer arc than three courses. No statewide course count is printed here. Open an island, then pricing.',
   },
   '/fine-dining/chefs-table-evening': {
-    title: 'Evening chef’s-table formats, by island | myCHEF Hawaii',
-    description: 'Evening chef’s-table formats across Oʻahu, Maui, Kauaʻi and the Big Island, with published prices and a written quote.',
+    title: 'Chef’s-table evening in a Hawaii rental | myCHEF',
+    description:
+      'A chef’s-table evening at your Hawaii rental counter. Not a star claim. Groceries sit inside the per-guest band. Open an island, then pricing.',
   },
   '/fine-dining/celebration-dinner': {
-    title: 'Celebration dinners, by island | myCHEF Hawaii',
-    description: 'Celebration dinners across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Celebration dinner with a private chef in Hawaii | myCHEF',
+    description:
+      'A celebration dinner in a Hawaii rental dining room, as a format. Birthdays stay on occasion pages. Open an island, then pricing, for the band.',
   },
   '/staffing/servers': {
     title: 'Server add-ons, by island | myCHEF Hawaii',
@@ -384,22 +396,24 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Butlers are a written line on the island with the house. Open that butler page. Oʻahu and Maui quote. Kauaʻi and the Big Island confirm in writing.',
   },
   '/menus/three-course': {
-    title: 'Three-course tables, by island | myCHEF Hawaii',
-    description: 'Three-course tables across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Three-course dinner with a Hawaii private chef | myCHEF',
+    description:
+      'A three-course dinner in a Hawaii rental: a first, a main, and a close. Groceries sit inside the per-guest band. Open an island page, then pricing.',
   },
   '/menus/family-style-menu': {
-    title: 'Family-style menus, by island | myCHEF Hawaii',
-    description: 'Family-style menus across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Family-style dinner with a Hawaii private chef | myCHEF',
+    description:
+      'Family-style platters for a Hawaii rental table. The shared menu is not the staffed floor. Groceries sit inside the band. Open an island, then pricing.',
   },
   '/menus/breakfast': {
-    title: 'Breakfast in the house, by island | myCHEF Hawaii',
+    title: 'Breakfast with a private chef in a Hawaii house | myCHEF',
     description:
-      'Each island designs breakfast per table.',
+      'Breakfast cooked in a Hawaii rental kitchen, designed for that morning. No breakfast price is published. Open the island page, then pricing.',
   },
   '/menus/lunch': {
-    title: 'Lunch in the house, by island | myCHEF Hawaii',
+    title: 'Lunch with a private chef in a Hawaii rental | myCHEF',
     description:
-      'Each island designs lunch per table.',
+      'Lunch cooked at midday in a Hawaii rental, then the stove is cleared. No lunch price is published. Open the island page, then pricing, and send the hour.',
   },
   '/help/getting-started': {
     title: 'First booking notes, by island | myCHEF Hawaii',
@@ -407,7 +421,8 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/help/menu-guide': {
     title: 'How to read a menu draft, by island | myCHEF Hawaii',
-    description: 'How to read a menu draft across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    description:
+      'How a menu draft is written and revised for one house on each island. A supplier is named only when that day’s receipt supports it. Open the island guide.',
   },
   '/help/wedding-guide': {
     title: 'Wedding-week planning notes, by island | myCHEF Hawaii',
@@ -747,7 +762,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   },
   '/bigisland/sitemap': {
     title: 'Hawaiʻi Island HTML sitemap — live URLs on this site | myCHEF',
-    description: 'Hawaiʻi Island HTML sitemap for a private chef night in a villa or vacation rental. Send dates for a written quote.',
+    description: 'Hawaiʻi Island sitemap of west-side villa pages in Kona and Kohala. Join the inquiry list from here. Hilo and the east side are a separate day.',
   },
 };
 

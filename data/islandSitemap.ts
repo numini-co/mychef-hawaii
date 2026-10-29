@@ -50,7 +50,7 @@ export const islandSitemap: Record<IslandId, IslandSitemapPage> = {
   bigisland: {
     h1: 'Every page on our Big Island site.',
     title: 'Hawaiʻi Island sitemap — every page | myCHEF',
-    description: 'Hawaiʻi Island HTML sitemap for a private chef night in a villa or vacation rental. Send dates for a written quote.',
+    description: 'Hawaiʻi Island sitemap of west-side villa pages in Kona and Kohala. Join the inquiry list from here. Hilo and the east side are a separate day.',
     lede:
       'West side first.',
     kicker: 'Hawaiʻi Island · Sitemap',

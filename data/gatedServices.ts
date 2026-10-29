@@ -988,7 +988,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Omakase at home on Hawaiʻi Island — west-side chef’s choice.',
       title: 'Omakase at home on the Big Island | myCHEF',
       description:
-        'A chef-chosen sequence in a Kona or Kohala kitchen. Join the inquiry list. Hilo is a separate dedicated east-side day.',
+        'Join the inquiry list for a chef-chosen sequence in a Kona or Kohala kitchen, often raw fish. Not a star claim. Hilo is a separate dedicated east-side day.',
       lede:
         'The chef chooses the sequence from that day’s purchase, often raw fish, at a west-side counter. Join the inquiry list. We do not claim a star.',
       photo: 'svcOmakaseBigisland',

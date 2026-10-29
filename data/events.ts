@@ -26,7 +26,7 @@ export const eventOffers: Record<IslandId, EventOffer> = {
     h1: 'Villa events on Oahu — birthdays, retreats, welcome nights.',
     title: 'Oahu villa events — birthdays & retreats | myCHEF',
     description:
-      'Staffed villa events on Oahu: birthdays, retreats and welcome nights from Honolulu to Ko Olina. Request a quote.',
+      'Villa events on Oʻahu, from Honolulu and Kahala to Ko Olina and Kailua: birthdays, retreats, and welcome nights. Request a written quote for the house.',
     lede:
       'Birthdays, company offsites, welcome nights in residences with kitchens. Buffet or plated is on the catering page with published starting prices.',
     photo: 'eventsOahu',

@@ -75,225 +75,302 @@ export type HubNestedId =
 export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
   occBirthdays: {
     path: '/events/birthdays',
-    h1: 'Birthday dinners, by island.',
-    title: 'Birthday dinners, by island | myCHEF Hawaii',
-    description: 'Birthday dinners across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    h1: 'Birthday dinner cooked in your Hawaii house',
+    title: 'Birthday dinner with a private chef in Hawaii | myCHEF',
+    description:
+      'Birthday dinner in a Hawaii rental, with the cake plan in the note. Groceries sit inside the per-guest band. Open an island, then pricing.',
     lede:
       'Each island writes the room.',
     kicker: 'Statewide · Birthdays',
     photo: 'hubOccBirthdays',
     cardLabel: 'Birthdays',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking inquiries.',
+      'A birthday dinner is the night the house is marking, cooked in the rental kitchen. Say if people sit for courses or gather after the cake. The chef shops, cooks, and clears. The signature band on [pricing](/pricing) includes the groceries. A simpler plate is written before the shop.',
+      'Resident’s Island quiet hours in Honolulu, Kahala, Ko Olina, or Kailua belong in the same note as the cake when you request a written quote. A Maui Villa Week in Wailea, Kapalua, or Kāʻanapali can keep the birthday to one evening. Quotes are open. A Garden Isle Retreat asks you to request availability for Princeville or Poʻipū and to say if the cake stays indoors when rain or the Hanalei bridge is in play. An Expedition joins the inquiry list for a Kona–Kohala cake. Hilo is a separate dedicated east-side day.',
+      'Open [Oʻahu birthday dinners](oahu:/events/birthdays), [Maui birthday dinners](maui:/events/birthdays), [Kauaʻi birthday dinners](kauai:/events/birthdays), or [Big Island birthday dinners](bigisland:/events/birthdays), then [pricing](/pricing) and [the quote form](/quote).',
     ],
     faqs: [
       {
-        q: 'Which island birthday page should I open?',
-        a: 'Open the birthday page on the island that has the house: [Oʻahu](oahu:/events/birthdays), [Maui](maui:/events/birthdays), [Kauaʻi](kauai:/events/birthdays), or [Hawaiʻi Island](bigisland:/events/birthdays). This page only routes.',
+        q: 'Which island should I open if the cake matters more than the courses?',
+        a: 'Open the birthday page on the island that has the kitchen. Name the cake and who speaks in that note. Oʻahu and Maui return a written quote. Kauaʻi returns a request-availability reply. The Big Island uses the inquiry list, west side first.',
       },
       {
-        q: 'If the birthday is on Kauaʻi, do I still get a written quote from this page?',
-        a: 'No. This page does not answer. Kauaʻi sends an availability reply from its birthday page. Hawaiʻi Island uses the inquiry list and starts on the west side. Only Oʻahu and Maui birthdays come back as a written quote.',
+        q: 'Are birthday groceries inside the band, or a second receipt?',
+        a: 'They are inside the signature per-guest band for that dinner. Do not expect a separate grocery invoice for a signature night. 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. See [pricing](/pricing).',
       },
       {
-        q: 'What does a birthday request need before any island prices it?',
-        a: 'The dinner date, which island and area, how many people including children, the house kitchen, and dietary limits. One island only. Use [the quote form](/quote).',
+        q: 'Can a Kauaʻi birthday and a Maui birthday share one hub total?',
+        a: 'No shared total. Request availability on [Kauaʻi birthday dinners](kauai:/events/birthdays) and request a written quote on [Maui birthday dinners](maui:/events/birthdays). Two islands stay two notes, even if one person watches both replies on [the quote form](/quote).',
       },
       {
-        q: 'Why are birthdays on two islands two separate requests?',
-        a: `A crew does not cross islands the same day. Each house is its own quote or request, even if one person keeps both emails. Name one island per night. Desk: ${desk}.`,
+        q: 'How do I name a simpler plate without turning the birthday into a kids’ menu?',
+        a: 'Say who needs a simpler plate in the birthday note so the shop covers it. The island children’s-plate page is where that plate is planned. This statewide page does not print ages or a separate birthday price.',
+      },
+      {
+        q: 'When should a birthday stay here instead of moving to a villa party?',
+        a: 'Stay on the birthday page when the night is the person and the cake. Move to the island villa-party page when the list is the larger house gathering. The two briefs are not one URL.',
+      },
+      {
+        q: 'Who answers a birthday note, and how do I reach the desk?',
+        a: `Oʻahu and Maui answer with a written quote. Kauaʻi answers a request for availability. The Big Island answers from the inquiry list. Send one island on [the quote form](/quote). Desk: ${desk}.`,
       },
     ],
   },
   occWelcome: {
     path: '/events/welcome-dinners',
-    h1: 'Arrival-night dinners, by island.',
-    title: 'Arrival-night dinners, by island | myCHEF Hawaii',
-    description: 'First night in the house. Not a full wedding week. Each island writes arrival dinner.',
+    h1: 'Arrival-night dinner at your Hawaii rental',
+    title: 'Arrival dinner with a private chef in Hawaii | myCHEF',
+    description:
+      'Arrival-night dinner in a Hawaii rental, the first evening after you land. Groceries sit inside the per-guest band. Open an island page, then pricing.',
     lede:
       'First night in the house. Not a full wedding week. Each island writes the arrival dinner.',
     kicker: 'Statewide · Welcome nights',
     photo: 'hubOccWelcome',
     cardLabel: 'Welcome nights',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking inquiries.',
+      'An arrival dinner is the first night in the rental after people land, not a full wedding week. The chef uses the kitchen you just collected, plates dinner, and clears the pass. The signature per-guest band on [pricing](/pricing) includes the groceries. Later nights are separate lines.',
+      'Resident’s Island arrivals in Honolulu, Kahala, Ko Olina, or Kailua still depend on the building letting the crew in when you request a written quote. A Maui Villa Week often is that landing night in Wailea, Kapalua, or Kāʻanapali, and quotes are open. A Garden Isle Retreat asks you to request availability for Princeville or Poʻipū, with a Hanalei-bridge note if the house sits past it. An Expedition joins the inquiry list on the Kona–Kohala side the day you land. Hilo is a separate dedicated east-side day.',
+      'Open [Oʻahu arrival dinners](oahu:/events/welcome-dinners), [Maui arrival dinners](maui:/events/welcome-dinners), [Kauaʻi arrival dinners](kauai:/events/welcome-dinners), or [Big Island arrival dinners](bigisland:/events/welcome-dinners), then [pricing](/pricing) and [the quote form](/quote).',
     ],
     faqs: [
       {
-        q: 'Which island page is the first night in the house?',
-        a: 'The welcome page where you land: [Oʻahu](oahu:/events/welcome-dinners), [Maui](maui:/events/welcome-dinners), [Kauaʻi](kauai:/events/welcome-dinners), or [Hawaiʻi Island](bigisland:/events/welcome-dinners). This hub page does not cook that night.',
+        q: 'Which island page is the first night in the rental?',
+        a: 'The welcome page where you land, not this directory. Oʻahu and Maui can write a quote. Kauaʻi asks you to request availability and name the shore. The Big Island asks you to join the inquiry list, west side first.',
       },
       {
-        q: 'How does an arrival-night reply differ on Kauaʻi and Hawaiʻi Island?',
-        a: 'Kauaʻi replies when you request availability. Hawaiʻi Island replies from the inquiry list, west side first. Oʻahu and Maui send a written quote. None of those replies is a held crew until that island says so.',
+        q: 'What does an arrival-night band cover if the flight is late?',
+        a: 'The signature band includes groceries for that dinner. Say the landing time so the island can say whether the kitchen window still works. 20% service and Hawaiʻi GET up to 4.712% are separate lines. A 50% deposit follows acceptance. Gratuity is never required. See [pricing](/pricing).',
       },
       {
-        q: 'What belongs in an arrival-night note?',
-        a: 'The landing date, the island and area, how many seats, the house and its kitchen, and dietary limits. Send one island on [the quote form](/quote).',
+        q: 'Can the welcome be on Oʻahu and the rest of the week on Maui?',
+        a: 'Only as two bookings. The Oʻahu landing is [Oʻahu arrival dinners](oahu:/events/welcome-dinners). The Maui days are a Maui note. [The quote form](/quote) does not merge a crew across the channel.',
       },
       {
-        q: 'If the welcome dinner is only the first night, where does the rest of a wedding week go?',
-        a: `Not on this page. This route is the arrival night alone. Open that island’s welcome page, then send one island on [the quote form](/quote). Two islands are still two requests. Desk: ${desk}.`,
+        q: 'How is an arrival night different from booking the whole wedding week?',
+        a: 'This route is the first evening alone. A week of welcome, rehearsal, reception, and brunch is [wedding week](/weddings). Do not file the week under the arrival URL. Open the island welcome page for a single landing.',
+      },
+      {
+        q: 'What should the arrival note say about the flight and the kitchen?',
+        a: 'The landing date, one island and area, how many seats, the house kitchen, and dietary limits. If the house is past the Hanalei bridge, say so on the Kauaʻi note. One island per form.',
+      },
+      {
+        q: 'How do Kauaʻi and Big Island arrival replies differ?',
+        a: `Kauaʻi replies when you request availability. The Big Island replies from the inquiry list, Kona–Kohala first, with Hilo as its own day. Neither reply holds a crew until that island says so. Desk: ${desk}.`,
       },
     ],
   },
   occRetreats: {
     path: '/events/retreats',
-    h1: 'Retreat cooking notes, by island.',
-    title: 'Retreat cooking notes, by island | myCHEF Hawaii',
-    description: 'Retreat cooking notes across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    h1: 'Retreat meals cooked in a Hawaii house',
+    title: 'Retreat meals with a private chef in Hawaii | myCHEF',
+    description:
+      'Retreat meals in one Hawaii house over several days. Signature nights include groceries. Stay Chef days bill groceries at cost with receipts.',
     lede:
       'Days in the house, food as a constraint.',
     kicker: 'Statewide · Retreat notes',
     photo: 'hubOccRetreats',
     cardLabel: 'Retreat notes',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking inquiries.',
+      'A retreat is several days of cooking in one rental, not one supper and not a ballroom. Name which meals repeat. A signature dinner inside the week includes groceries in the per-guest band on [pricing](/pricing). A Stay Chef day is the daily chef fee plus groceries at cost with receipts. Those lines stay apart.',
+      'Resident’s Island days in Honolulu, Kahala, Ko Olina, or Kailua follow quiet hours, and you request a written quote for the span. A Maui Villa Week in Wailea, Kapalua, or Kāʻanapali is the usual full-board shape, and quotes are open. A Garden Isle Retreat asks you to request availability for Princeville or Poʻipū, with rain and the Hanalei bridge written per day. An Expedition week joins the inquiry list for Kona–Kohala. Hilo is a separate dedicated east-side day.',
+      'Open [Oʻahu retreats](oahu:/events/retreats), [Maui retreats](maui:/events/retreats), [Kauaʻi retreats](kauai:/events/retreats), or [Big Island retreats](bigisland:/events/retreats), then [pricing](/pricing) and [the quote form](/quote).',
     ],
     faqs: [
       {
-        q: 'Which island page covers full-board days in the house?',
-        a: 'The retreat page where the group stays: [Oʻahu](oahu:/events/retreats), [Maui](maui:/events/retreats), [Kauaʻi](kauai:/events/retreats), or [Hawaiʻi Island](bigisland:/events/retreats). Days of cooking are not set from this hub.',
+        q: 'Which island fits several days of meals in one house?',
+        a: 'The retreat page where the group actually stays. This directory does not assign chefs to a week. Oʻahu and Maui write the quote. Kauaʻi asks you to request availability. The Big Island asks you to join the inquiry list, west side first.',
       },
       {
-        q: 'If the retreat runs several days, which islands still will not send a quote?',
-        a: 'Kauaʻi will not. Request availability there, even for a full week. Hawaiʻi Island will not either. Join the inquiry list, west side first. Oʻahu and Maui are the hosts that write the quote. This directory does not.',
+        q: 'When is a retreat day Stay Chef, and when is a night a signature dinner?',
+        a: 'A signature dinner includes groceries inside the per-guest band. Stay Chef is the daily chef fee plus groceries at cost with receipts. A week can contain both, as separate lines. Do not label the signature night as groceries at cost. See [pricing](/pricing).',
       },
       {
-        q: 'Which facts does a retreat request need that a single dinner does not?',
-        a: 'The span of days, which meals repeat, the island and area, headcount, the house kitchen, and dietary limits. One island on [the quote form](/quote). A single supper is a different page.',
+        q: 'Can a retreat hop from Maui to Kauaʻi with the same crew?',
+        a: 'It cannot. Request a written quote for the Maui days on [Maui retreats](maui:/events/retreats) and request availability for the Kauaʻi days on [Kauaʻi retreats](kauai:/events/retreats). [The quote form](/quote) takes one island per note.',
       },
       {
-        q: 'Is a retreat the same ask as one executive dinner?',
-        a: `No. Full-board days stay on the island retreat page. One leadership dinner is [house offsite catering](/corporate-catering). Each island is still its own request, with no same-day crossing. Desk: ${desk}.`,
+        q: 'How is a multi-meal retreat total assembled?',
+        a: 'Each meal type is named: which breakfasts, which dinners. Signature dinners keep groceries inside the band. Stay Chef days keep receipts. Then 20% service and Hawaiʻi GET up to 4.712% stand alone. A 50% deposit follows acceptance. Gratuity is never required.',
+      },
+      {
+        q: 'Can a west-side Big Island retreat add Hilo without a second day?',
+        a: 'It cannot. Join the inquiry list for Kona–Kohala. Hilo is a separate dedicated east-side day, quoted in writing. Do not attach it to a Waikoloa week and call it the same crew.',
+      },
+      {
+        q: 'What does a retreat note need that a single dinner does not?',
+        a: `The span of days, which meals repeat, one island and area, headcount, the kitchen, and dietary limits. Send that on [the quote form](/quote). Desk: ${desk}.`,
       },
     ],
   },
   occAnniversaries: {
     path: '/events/anniversaries',
-    h1: 'Anniversary nights, by island.',
-    title: 'Anniversary nights, by island | myCHEF Hawaii',
-    description: 'A marked night in the dining room. Not a wedding week. Each island writes the table.',
+    h1: 'Anniversary dinner at your Hawaii rental',
+    title: 'Anniversary dinner with a private chef in Hawaii | myCHEF',
+    description:
+      'Anniversary dinner in a Hawaii rental, usually two seats. Groceries sit inside the per-guest band. Open an island page, then pricing, and send one date.',
     lede:
       'A marked night in the dining room. Not a wedding week. Each island writes the table.',
     kicker: 'Statewide · Anniversaries',
     photo: 'hubOccAnniversaries',
     cardLabel: 'Anniversaries',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking inquiries.',
+      'An anniversary dinner is one marked night in the rental dining room, usually two seats, not a wedding week. The chef cooks in that kitchen, plates the courses, and clears the pass. The signature per-guest band on [pricing](/pricing) includes the groceries, so the shop is not a second bill.',
+      'Oʻahu, Resident’s Island, needs the Honolulu, Kahala, Ko Olina, or Kailua building rule when you request a written quote. Maui, a Villa Week, often puts the year-mark on arrival night in Wailea, Kapalua, or Kāʻanapali, and quotes are open. Kauaʻi, a Garden Isle Retreat, asks you to request availability for Princeville or Poʻipū and to name Hanalei-bridge or rain plans. The Big Island, an Expedition, starts when you join the inquiry list for Kona–Kohala. Hilo is a separate dedicated east-side day.',
+      'Open [Oʻahu anniversary dinners](oahu:/events/anniversaries), [Maui anniversary dinners](maui:/events/anniversaries), [Kauaʻi anniversary dinners](kauai:/events/anniversaries), or [Big Island anniversary dinners](bigisland:/events/anniversaries), then [pricing](/pricing) and [the quote form](/quote).',
     ],
     faqs: [
       {
-        q: 'Where do I open a small anniversary table?',
-        a: 'On the anniversary page for that island: [Oʻahu](oahu:/events/anniversaries), [Maui](maui:/events/anniversaries), [Kauaʻi](kauai:/events/anniversaries), or [Hawaiʻi Island](bigisland:/events/anniversaries). Two seats stay on that host.',
+        q: 'Which island fits a two-seat anniversary if the house is not chosen yet?',
+        a: 'Match the house you will actually rent. Oʻahu and Maui can send a written quote. Kauaʻi asks you to request availability and name the shore. The Big Island asks you to join the inquiry list, west side first. This page does not hold a table.',
       },
       {
-        q: 'Will an anniversary on Kauaʻi come back as a written quote?',
-        a: 'No. Kauaʻi comes back as an availability reply. Hawaiʻi Island comes back from the inquiry list, west side first. Oʻahu and Maui come back as a written quote. This page does not blend those replies.',
+        q: 'What does the anniversary band cover, and what is a separate line?',
+        a: 'The signature per-guest band includes grocery procurement for that dinner. It is not a second shop bill. 20% service and Hawaiʻi GET up to 4.712% then stand on their own lines. A 50% deposit follows acceptance. Gratuity is never required. Read [pricing](/pricing).',
       },
       {
-        q: 'What should an anniversary note contain?',
-        a: 'The date, the island and area, two seats or a small table, the house and kitchen, and any dietary limits. Send one island on [the quote form](/quote).',
+        q: 'Can an anniversary on Maui Friday and Oʻahu Saturday share one crew?',
+        a: 'They cannot. A crew does not cross islands the same day, and the next day is still a second crew. Send [Maui anniversary dinners](maui:/events/anniversaries) and [Oʻahu anniversary dinners](oahu:/events/anniversaries) as two notes on [the quote form](/quote).',
       },
       {
-        q: 'Why can’t an anniversary on one island share a total with dinner on another island?',
-        a: `Each island is a separate request. Crews do not cross the same day. One person can watch both emails. The totals stay apart. Desk: ${desk}.`,
+        q: 'How is an anniversary total built when each island replies differently?',
+        a: 'Oʻahu and Maui write a quote for the seats and the kitchen. Kauaʻi replies when you request availability. The Big Island replies from the inquiry list, Kona–Kohala before any east-side day. This hub adds the threads. It does not blend the totals.',
+      },
+      {
+        q: 'When is an anniversary the occasion, not the celebration-dinner format?',
+        a: 'Use the island anniversary page when the year-mark is the brief: who sits, and that it is not a wedding. The celebration dinner is a format under fine dining. They can point at each other and still stay separate notes.',
+      },
+      {
+        q: 'What should a one-night anniversary note contain?',
+        a: `The date, one island, the area, two seats or a small table, the kitchen, and dietary limits. One note per island on [the quote form](/quote). Desk: ${desk}.`,
       },
     ],
   },
   occCorporate: {
     path: '/events/corporate-events',
-    h1: 'House offsite nights, by island.',
-    title: 'House offsite nights, by island | myCHEF Hawaii',
-    description: 'House offsite nights across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    h1: 'Company dinner in a Hawaii rental house',
+    title: 'Company dinner with a private chef in Hawaii | myCHEF',
+    description:
+      'A company dinner in a Hawaii rental, not a convention floor. The person who can approve is named on the note. Open an island, then pricing.',
     lede:
       'A night in a house, not HCC citywides.',
     kicker: 'Statewide · Offsite nights',
     photo: 'hubOccCorporate',
     cardLabel: 'Offsite nights',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking inquiries.',
+      'A company dinner is one night for the team in a rental, not a convention floor. Say if people sit or stand. The chef sets the kitchen, sends the food, and clears. The per-guest band on [pricing](/pricing) includes the groceries. Server hours, if needed, are a separate line. Name the person who can approve.',
+      'A Resident’s Island offsite in Honolulu, Kahala, Ko Olina, or Kailua still carries the building rule when you request a written quote. A Maui Villa Week offsite in Wailea, Kapalua, or Kāʻanapali is one leadership night, and quotes are open. A Garden Isle Retreat asks you to request availability and name Princeville or Poʻipū. Rain and the Hanalei bridge do not move the meeting. An Expedition joins the inquiry list for Kona–Kohala. Hilo is a separate dedicated east-side day.',
+      'Open [Oʻahu company dinners](oahu:/events/corporate-events), [Maui company dinners](maui:/events/corporate-events), [Kauaʻi company dinners](kauai:/events/corporate-events), or [Big Island company dinners](bigisland:/events/corporate-events), then [pricing](/pricing) and [the quote form](/quote).',
     ],
     faqs: [
       {
-        q: 'Which island page is a company night for the whole team in the house?',
-        a: 'The house-offsite page on that island: [Oʻahu](oahu:/events/corporate-events), [Maui](maui:/events/corporate-events), [Kauaʻi](kauai:/events/corporate-events), or [Hawaiʻi Island](bigisland:/events/corporate-events). This hub page does not plan the night.',
+        q: 'Which island fits a company dinner in a house rather than a convention hall?',
+        a: 'The house-offsite page where the team is sleeping or meeting. This hub does not book a convention floor. Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. The Big Island takes an inquiry, west side first.',
       },
       {
-        q: 'Does a company night on Maui get the same kind of answer as one on Kauaʻi?',
-        a: 'No. Maui, like Oʻahu, gets a written quote. Kauaʻi gets an availability reply. Hawaiʻi Island gets an inquiry-list reply, west side first. Open the matching host before you write the menu.',
+        q: 'Who accepts the company total, and which lines print on it?',
+        a: 'Name the person who can approve. That person accepts the written quote. Lines are the food band, groceries inside it, then 20% service and Hawaiʻi GET up to 4.712% alone. A 50% deposit follows acceptance. Gratuity is never required. See [pricing](/pricing).',
       },
       {
-        q: 'What do I put in a company-night request?',
-        a: 'Dates, island and area, headcount, the house and kitchen, and dietary limits. One island per note. Use [the quote form](/quote).',
+        q: 'Can Friday’s Oʻahu offsite and Saturday’s Maui offsite be one signature?',
+        a: 'They cannot. Two islands are two approvals. Open [Oʻahu company dinners](oahu:/events/corporate-events) and [Maui company dinners](maui:/events/corporate-events), and send each building on [the quote form](/quote). A coordinator can watch both threads.',
       },
       {
-        q: 'Where is the planning brief if this page only routes the night?',
-        a: `The brief is [how to brief an offsite](/help/corporate-guide), one island at a time. Two islands remain two requests, with no same-day crossing. Desk: ${desk}.`,
+        q: 'How do server hours show up without being folded into the food?',
+        a: 'They are their own line when you ask for a floor, apart from the dinner band. The published hour is on [pricing](/pricing) and on the servers page. A bartender has no published hour and is quoted in writing. This page does not restate those figures.',
+      },
+      {
+        q: 'Where do several days of leadership meals go if this page is one night?',
+        a: 'On that island’s retreat page. This route is a single company night. Full-board days are a different brief. Do not stretch one dinner URL across a week of breakfasts.',
+      },
+      {
+        q: 'What has to be in the company note before an island prices the night?',
+        a: `Dates, one island and area, headcount, the house kitchen, dietary limits, and the person who can approve. One island per note. Desk: ${desk}.`,
       },
     ],
   },
   occParties: {
     path: '/events/villa-parties',
-    h1: 'Villa parties, by island.',
-    title: 'Villa parties, by island | myCHEF Hawaii',
-    description: 'Extra glasses in the house. Each island writes the party.',
+    h1: 'Villa party dinner at a Hawaii rental',
+    title: 'Villa party with a private chef in Hawaii | myCHEF',
+    description:
+      'A villa party cooked in a Hawaii rental for the list you actually have. Groceries sit inside the per-guest band. Open an island page, then pricing.',
     lede:
       'Extra glasses in the house. Each island writes the party.',
     kicker: 'Statewide · Villa parties',
     photo: 'hubOccParties',
     cardLabel: 'Villa parties',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking inquiries.',
+      'A villa party is the larger list in the rental, cooked in that house, not a two-seat anniversary. Say if the night is seated or looser. The chef uses the kitchen, serves, and clears. The per-guest band on [pricing](/pricing) includes the groceries. Extra hands are a staffing line apart from the food.',
+      'Resident’s Island still needs the Ko Olina, Kahala, Honolulu, or Kailua building rule in the note when you request a written quote. A Maui Villa Week in Wailea, Kapalua, or Kāʻanapali chooses lawn or dining room up front, and quotes are open. A Garden Isle Retreat asks you to request availability for Princeville or Poʻipū. Rain stays under cover on that shore and does not cross the Hanalei bridge. An Expedition joins the inquiry list for a Kona–Kohala terrace. Hilo is a separate dedicated east-side day.',
+      'Open [Oʻahu villa parties](oahu:/events/villa-parties), [Maui villa parties](maui:/events/villa-parties), [Kauaʻi villa parties](kauai:/events/villa-parties), or [Big Island villa parties](bigisland:/events/villa-parties), then [pricing](/pricing) and [the quote form](/quote).',
     ],
     faqs: [
       {
-        q: 'Which island writes the villa party?',
-        a: 'The party page for the house: [Oʻahu](oahu:/events/villa-parties), [Maui](maui:/events/villa-parties), [Kauaʻi](kauai:/events/villa-parties), or [Hawaiʻi Island](bigisland:/events/villa-parties). Pick the host before the menu.',
+        q: 'Which island fits a house party rather than a two-seat dinner?',
+        a: 'The villa-party page for the rental you hold. This hub only routes the list. Oʻahu and Maui send a written quote. Kauaʻi sends an availability reply after you request it. The Big Island uses the inquiry list, west side first.',
       },
       {
-        q: 'Who sends a written quote for a house party, and who sends an availability reply?',
-        a: 'Oʻahu and Maui send a written quote. Kauaʻi sends an availability reply. Hawaiʻi Island uses the inquiry list, west side first. This page does not choose among them.',
+        q: 'What does the party band include, and where do extra hands go?',
+        a: 'The signature band includes groceries for the food. Servers, if you ask, are a separate line on [pricing](/pricing). A bartender is quoted in writing, with no hour printed here. 20% service and Hawaiʻi GET up to 4.712% follow alone. A 50% deposit follows acceptance. Gratuity is never required.',
       },
       {
-        q: 'What do I include when I ask about a villa party?',
-        a: 'Dates, island and area, headcount, the house and kitchen, and dietary limits. One island only. Use [the quote form](/quote).',
+        q: 'Can one party note cover a Maui Friday and an Oʻahu Saturday?',
+        a: 'It cannot. Send [Maui villa parties](maui:/events/villa-parties) and [Oʻahu villa parties](oahu:/events/villa-parties) separately on [the quote form](/quote). There is no same-day crossing, and the next day is still another crew.',
       },
       {
-        q: 'Can one party request cover a Friday on Maui and a Saturday on Oʻahu?',
-        a: `No. Two islands are two requests. There is no same-day crossing, and the next day is still a second crew. Desk: ${desk}.`,
+        q: 'How do Oʻahu building rules change a party note compared with a Maui lawn?',
+        a: 'Oʻahu needs the tower or house rule in the same request as the list, then a written quote. Maui quotes are open for a Wailea, Kapalua, or Kāʻanapali lawn or dining room, chosen before anyone accepts. This page does not measure either lawn.',
+      },
+      {
+        q: 'Does rain on Kauaʻi move a villa party to the other shore?',
+        a: 'It does not. Request availability and name Princeville or Poʻipū. Rain moves the party under cover on that shore. A Hanalei-bridge issue stays with the north-shore house. It is not a transfer to the south.',
+      },
+      {
+        q: 'What do I send for a villa party, and where is the desk?',
+        a: `Dates, one island and area, the list, the kitchen, and dietary limits. One island only on [the quote form](/quote). Desk: ${desk}.`,
       },
     ],
   },
   occBrunch: {
     path: '/events/brunch',
-    h1: 'Day-after brunch, by island.',
-    title: 'Day-after brunch, by island | myCHEF Hawaii',
-    description: 'Day-after brunch across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    h1: 'Morning brunch in a Hawaii rental kitchen',
+    title: 'Brunch with a private chef at a Hawaii rental | myCHEF',
+    description:
+      'Morning brunch in a Hawaii rental, after the kitchen was used the night before. No separate brunch price is published. Open your island, then pricing.',
     lede:
       'Mid-morning in the villa, not a standing carte.',
     kicker: 'Statewide · Brunch',
     photo: 'hubOccBrunch',
     cardLabel: 'Brunch',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking inquiries.',
+      'Brunch is a morning in the rental, often the day after dinner, not a restaurant carte. Eggs are cooked then. Fruit and coffee can be set out. Last night’s service is still its own line. No brunch price is published. Signature dinners on [pricing](/pricing) include groceries. Stay Chef is the daily fee plus groceries at cost with receipts.',
+      'Resident’s Island brunch waits on a Honolulu freight window or a Kahala, Ko Olina, or Kailua kitchen when you request a written quote. A Maui Villa Week brunch is the morning after arrival in Wailea, Kapalua, or Kāʻanapali, and quotes are open. A Garden Isle Retreat asks you to request availability and to say if Princeville rain or the Hanalei bridge kept last night indoors. An Expedition brunch joins the inquiry list on the Kona–Kohala side. Hilo is a separate dedicated east-side morning.',
+      'Open [Oʻahu brunch](oahu:/events/brunch), [Maui brunch](maui:/events/brunch), [Kauaʻi brunch](kauai:/events/brunch), or [Big Island brunch](bigisland:/events/brunch), then [pricing](/pricing) and [the quote form](/quote).',
     ],
     faqs: [
       {
-        q: 'Which island page is the morning in the villa?',
-        a: 'The brunch page on that host: [Oʻahu](oahu:/events/brunch), [Maui](maui:/events/brunch), [Kauaʻi](kauai:/events/brunch), or [Hawaiʻi Island](bigisland:/events/brunch). This directory only points.',
+        q: 'Which island fits a morning-after brunch if the kitchen cooked last night?',
+        a: 'The brunch page on the island that has that kitchen. Say the dinner was the night before so the morning is planned as its own line. Oʻahu and Maui write a quote. Kauaʻi asks you to request availability. The Big Island uses the inquiry list.',
       },
       {
-        q: 'Is a brunch on Hawaiʻi Island booked the same way as a brunch on Maui?',
-        a: 'No. Maui sends a written quote, and so does Oʻahu. Hawaiʻi Island asks you to join the inquiry list, west side first. Kauaʻi asks you to request availability. Open the brunch page on the host that has the kitchen.',
+        q: 'What is cooked in the morning, and what must be true of the kitchen?',
+        a: 'Eggs are cooked then. Fruit and coffee can be set out. The counters have to be usable after whatever happened the night before. We do not publish a brunch carte. Dietary limits belong in the note before the shop.',
       },
       {
-        q: 'What do I send for a house brunch?',
-        a: 'The morning’s date, the island and area, headcount, the kitchen, and dietary limits. One island. Start on [the quote form](/quote).',
+        q: 'Can one crew cook Maui dinner and Oʻahu brunch the next morning?',
+        a: 'It cannot. The channel is still two crews. Book [Maui brunch](maui:/events/brunch) or the Maui dinner on Maui, and book the Oʻahu morning on [Oʻahu brunch](oahu:/events/brunch). Use [the quote form](/quote) twice.',
       },
       {
-        q: 'If brunch is the morning after a wedding, where does that week live?',
-        a: `The wedding week is planned on [wedding week](/weddings). This page routes a villa morning that is not that week. Open the island brunch page for the house. Desk: ${desk}.`,
+        q: 'Where does a wedding-week brunch go if this page is the villa morning?',
+        a: 'On [wedding week](/weddings), as its own line. This route is a rental morning that is not that week. Same kind of kitchen, separate notes. Do not fold the wedding morning into this URL.',
+      },
+      {
+        q: 'Is there a published brunch price on this statewide page?',
+        a: 'There is not. Do not borrow the dinner band and call it brunch. Signature dinners on [pricing](/pricing) include groceries. A Stay Chef morning is the daily fee plus groceries at cost with receipts. Gratuity is never required.',
+      },
+      {
+        q: 'What belongs in the brunch note before any island prices the morning?',
+        a: `The morning’s date, one island and area, headcount, the kitchen, and dietary limits. Say if a dinner used that kitchen the night before. Desk: ${desk}.`,
       },
     ],
   },
@@ -417,9 +494,10 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
   },
   fineRomantic: {
     path: '/fine-dining/romantic-dinner',
-    h1: 'Romantic villa dinners, by island.',
-    title: 'Romantic villa dinners, by island | myCHEF Hawaii',
-    description: 'Romantic villa dinners across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    h1: 'Romantic dinner for two in a Hawaii rental',
+    title: 'Romantic dinner for two with a Hawaii chef | myCHEF',
+    description:
+      'A two-seat romantic dinner in a Hawaii rental. Groceries sit inside the per-guest band. Open an island page, then pricing, and send the house.',
     lede:
       'Two seats as a format, not a Michelin claim.',
     kicker: 'Statewide · Romantic dinner',
@@ -428,6 +506,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     body: [
       'Two seats are a format: paced plates for a couple in the house. A celebration dinner can be a larger marked table. A tasting menu is more courses. Open [Oʻahu romantic dinners](oahu:/fine-dining/romantic-dinner), [Maui romantic dinners](maui:/fine-dining/romantic-dinner), [Kauaʻi romantic dinners](kauai:/fine-dining/romantic-dinner), or [Big Island romantic dinners](bigisland:/fine-dining/romantic-dinner).',
       'Oʻahu and Maui accept a written quote. Kauaʻi wants a request for availability, with the shore named. The Big Island wants an inquiry, and the west side comes first. Fee items sit on [pricing](/pricing). Send the house and the date on [the quote form](/quote). We do not claim a star.',
+      'Two seats still change with the island. Resident’s Island couples wait on a Honolulu freight slot or a Kahala, Ko Olina, or Kailua room, and you request a written quote. A Maui Villa Week sets the pair on a Wailea, Kapalua, or Kāʻanapali lānai the night they arrive, and quotes are open. A Garden Isle Retreat asks you to request availability and choose Princeville mist or Poʻipū sun, with rain and the Hanalei bridge named first. An Expedition joins the inquiry list for two plates on a Kona–Kohala terrace. Hilo is a separate dedicated east-side day, not a second seating after dark.',
     ],
     faqs: [
       {
@@ -446,13 +525,22 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
         q: 'What do I send for two seats, and where are the fees?',
         a: 'The island, the house, the date, and dietary limits on the quote form. The signature band keeps groceries inside it. 20% service and Hawaiʻi GET up to 4.712% stand alone on the pricing page. A 50% deposit follows acceptance. Gratuity is never required.',
       },
+      {
+        q: 'Can two seats on Maui one night and Oʻahu the next share a crew?',
+        a: 'They cannot. Request a written quote on [Maui romantic dinners](maui:/fine-dining/romantic-dinner) and another on [Oʻahu romantic dinners](oahu:/fine-dining/romantic-dinner). [The quote form](/quote) keeps the notes apart. One cook does not cross the channel for a second sunset.',
+      },
+      {
+        q: 'Do groceries for two seats sit inside the band?',
+        a: 'Grocery procurement for a signature dinner sits inside the per-guest band. It is not a second shop bill. 20% service and Hawaiʻi GET up to 4.712% are their own lines on [pricing](/pricing). A 50% deposit follows acceptance. Gratuity is never required.',
+      },
     ],
   },
   fineTasting: {
     path: '/fine-dining/tasting-menu',
-    h1: 'Tasting menus, by island.',
-    title: 'Tasting menus, by island | myCHEF Hawaii',
-    description: 'A tasting arc in the villa, not a restaurant omakase brand. Omakase-at-home has sourcing gates.',
+    h1: 'Tasting menu cooked in a Hawaii rental',
+    title: 'Tasting menu with a private chef in Hawaii | myCHEF',
+    description:
+      'A tasting menu in a Hawaii rental: a longer arc than three courses. No statewide course count is printed here. Open an island, then pricing.',
     lede:
       'A longer arc in the villa. Not a restaurant omakase brand, and not a three-course.',
     kicker: 'Statewide · Tasting menu',
@@ -461,6 +549,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     body: [
       'A tasting menu is the longer arc. A three-course is fewer plates. Omakase at home is a different product, with sourcing gates, on its own statewide page. Open [Oʻahu tastings](oahu:/fine-dining/tasting-menu), [Maui tastings](maui:/fine-dining/tasting-menu), [Kauaʻi tastings](kauai:/fine-dining/tasting-menu), or [Big Island tastings](bigisland:/fine-dining/tasting-menu).',
       'A written quote is open on Oʻahu and on Maui. Kauaʻi is a request for availability. Hawaiʻi Island is an inquiry that starts in Kona–Kohala. The band and the fee items are on [pricing](/pricing). Name the arc on [the quote form](/quote).',
+      'The arc is longer than a first, a main, and a close, and this page does not print a statewide course count. Resident’s Island writes that sequence after you request a written quote for a Honolulu, Kahala, Ko Olina, or Kailua kitchen. A Maui Villa Week writes it for Wailea, Kapalua, or Kāʻanapali, and quotes are open. A Garden Isle Retreat asks you to request availability and name Princeville or Poʻipū before any pass is promised. Rain stays on that shore. An Expedition joins the inquiry list for a Kona–Kohala arc. Hilo is a separate dedicated east-side day, not extra courses on a west-side night.',
     ],
     faqs: [
       {
@@ -479,13 +568,22 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
         q: 'How do booking rules change a tasting request?',
         a: 'Oʻahu and Maui can take a written quote now. Kauaʻi needs a request for availability. The Big Island needs an inquiry, Kona–Kohala first. Hilo is a separate dedicated east-side day, quoted in writing. Fees are on the pricing page.',
       },
+      {
+        q: 'Is a course count published on this statewide tasting page?',
+        a: 'It is not. The wording stays what the repo already uses: a tasting is more passes than a three-course, and a three-course is a first, a main, and a close. This hub does not add a number the island page did not already print.',
+      },
+      {
+        q: 'Can one tasting arc be cooked on two islands in one trip?',
+        a: 'Only as two requests. A Friday arc on Oʻahu and a Saturday arc on Maui are different kitchens. Send each on [the quote form](/quote). This hub can order the dates. It cannot put one cook on both islands.',
+      },
     ],
   },
   fineChefsev: {
     path: '/fine-dining/chefs-table-evening',
-    h1: 'Evening chef’s-table formats, by island.',
-    title: 'Evening chef’s-table formats, by island | myCHEF Hawaii',
-    description: 'Evening at the kitchen counter, by island. Not a star claim. Oʻahu and Maui quote. Kauaʻi requests availability.',
+    h1: 'Chef’s-table evening at a Hawaii counter',
+    title: 'Chef’s-table evening in a Hawaii rental | myCHEF',
+    description:
+      'A chef’s-table evening at your Hawaii rental counter. Not a star claim. Groceries sit inside the per-guest band. Open an island, then pricing.',
     lede: 'An evening at the kitchen counter, routed by island. Not a star claim.',
     kicker: 'Statewide · Chef’s-table evening',
     photo: 'hubFineChefsev',
@@ -493,6 +591,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     body: [
       'An evening at the kitchen counter is this format. The chef’s table page is the broader door. Guests watch the pass, and the courses are still written for that kitchen. Open [Oʻahu counter evenings](oahu:/fine-dining/chefs-table-evening), [Maui counter evenings](maui:/fine-dining/chefs-table-evening), [Kauaʻi counter evenings](kauai:/fine-dining/chefs-table-evening), or [Big Island counter evenings](bigisland:/fine-dining/chefs-table-evening).',
       'Quote the evening in writing on Oʻahu or Maui. Ask Kauaʻi for availability. Ask the Big Island to join the inquiry list, west side first. Hilo is not inside that ask. [Pricing](/pricing) holds the band and the fee items. Send the counter and the date on [the quote form](/quote).',
+      'The evening is the counter, not a star and not every stool in the state. On Resident’s Island you request a written quote and say whether the Honolulu, Kahala, Ko Olina, or Kailua island faces the cook. A Maui Villa Week puts guests at a Wailea, Kapalua, or Kāʻanapali pass, and quotes are open. A Garden Isle Retreat asks you to request availability for a Princeville or Poʻipū counter and to name rain or the Hanalei bridge. An Expedition joins the inquiry list for a west-side counter in Kona–Kohala. A Hilo counter is a separate dedicated east-side day.',
     ],
     faqs: [
       {
@@ -511,13 +610,22 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
         q: 'What should the note say, and where do fees sit?',
         a: 'Say the island, the kitchen, the date, and how many people are actually at the counter. The band and 20% service, GET up to 4.712%, and the 50% deposit are on the pricing page. Gratuity is never required. We do not claim a star.',
       },
+      {
+        q: 'Can one counter evening be split across two islands?',
+        a: 'It cannot. Book [Oʻahu counter evenings](oahu:/fine-dining/chefs-table-evening) and [Maui counter evenings](maui:/fine-dining/chefs-table-evening) as separate notes. How many people fit is whatever that kitchen faces, confirmed on the island page, not as a statewide stool count.',
+      },
+      {
+        q: 'Where do I read the band without treating this page as a star listing?',
+        a: 'On [pricing](/pricing). The signature band includes groceries. 20% service and Hawaiʻi GET up to 4.712% stand alone. A 50% deposit follows acceptance. Gratuity is never required. We do not claim a star.',
+      },
     ],
   },
   fineCeleb: {
     path: '/fine-dining/celebration-dinner',
-    h1: 'Celebration dinners, by island.',
-    title: 'Celebration dinners, by island | myCHEF Hawaii',
-    description: 'A marked night as a format, not an occasion page. Birthdays and anniversaries stay under occasions.',
+    h1: 'Celebration dinner in a Hawaii rental',
+    title: 'Celebration dinner with a private chef in Hawaii | myCHEF',
+    description:
+      'A celebration dinner in a Hawaii rental dining room, as a format. Birthdays stay on occasion pages. Open an island, then pricing, for the band.',
     lede:
       'The format for a marked night in the house. Birthdays and anniversaries stay on the occasion pages.',
     kicker: 'Statewide · Celebration dinner',
@@ -526,6 +634,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     body: [
       'A celebration dinner is the format for a marked night in the dining room. Birthdays and anniversaries, as occasions, stay on the occasion pages. This page does not retell them. Open [Oʻahu celebrations](oahu:/fine-dining/celebration-dinner), [Maui celebrations](maui:/fine-dining/celebration-dinner), [Kauaʻi celebrations](kauai:/fine-dining/celebration-dinner), or [Big Island celebrations](bigisland:/fine-dining/celebration-dinner).',
       'Oʻahu and Maui are written-quote islands. Kauaʻi is a request for availability until a crew is real. The Big Island inquiry starts on the west side. We do not claim a star. Bands and fee items are on [pricing](/pricing). Name the mark on [the quote form](/quote).',
+      'This format is the marked night’s structure. The birthday or anniversary occasion stays on its own page. Resident’s Island requests a written quote for a Honolulu, Kahala, Ko Olina, or Kailua dining room, building rule included. A Maui Villa Week uses the arrival night in Wailea, Kapalua, or Kāʻanapali when that is the toast, and quotes are open. A Garden Isle Retreat asks you to request availability and name Princeville or Poʻipū. The Hanalei bridge does not slide the toast to the other shore. An Expedition joins the inquiry list for Kona–Kohala. Hilo is a separate dedicated east-side day.',
     ],
     faqs: [
       {
@@ -543,6 +652,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
       {
         q: 'What do I send if the night is a toast rather than a wedding?',
         a: 'The island, the house, the date, and that this is a celebration dinner, not a reception. Weddings have their own pages. Fees and the per-guest band are on the pricing page. Gratuity is never required. Send it on the quote form.',
+      },
+      {
+        q: 'What does the celebration band include when the night is a toast?',
+        a: 'Grocery procurement sits inside the signature per-guest band. Weddings stay on their own pages. The 20% service charge, Hawaiʻi GET up to 4.712%, and the 50% deposit are on [pricing](/pricing). Gratuity is never required.',
+      },
+      {
+        q: 'Can a celebration on two islands share one hub total?',
+        a: 'It cannot. A Kahala toast and a Wailea toast are two formats on two hosts. Open each island’s celebration page and send two notes on [the quote form](/quote). Someone may watch both threads. The totals stay apart.',
       },
     ],
   },
@@ -645,9 +762,10 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
   },
   menuThree: {
     path: '/menus/three-course',
-    h1: 'Three-course tables, by island.',
-    title: 'Three-course tables, by island | myCHEF Hawaii',
-    description: 'Three-course tables across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    h1: 'Three-course dinner at a Hawaii rental table',
+    title: 'Three-course dinner with a Hawaii private chef | myCHEF',
+    description:
+      'A three-course dinner in a Hawaii rental: a first, a main, and a close. Groceries sit inside the per-guest band. Open an island page, then pricing.',
     lede:
       'Designed per table, not a fake standing carte.',
     kicker: 'Statewide · Three-course',
@@ -656,6 +774,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     body: [
       'A three-course is the designed dinner: a first, a main, and a close. Plated service is the catering format, not this menu. The sample on an island menus page is an example of length. Open [Oʻahu three-course menus](oahu:/menus/three-course), [Maui three-course menus](maui:/menus/three-course), [Kauaʻi three-course menus](kauai:/menus/three-course), or [Big Island three-course menus](bigisland:/menus/three-course).',
       'Send Oʻahu or Maui for a written quote. Send Kauaʻi as a request for availability. Send the Big Island as an inquiry, west side before any east-side day. The signature band, groceries inside it, is on [pricing](/pricing). Tell us the house on [the quote form](/quote).',
+      'Three courses means a first, a main, and a close, designed for the kitchen in front of you. It is not a tasting arc and not plated catering. Resident’s Island asks you to request a written quote for Honolulu, Kahala, Ko Olina, or Kailua burners. A Maui Villa Week designs the trio for Wailea, Kapalua, or Kāʻanapali, and quotes are open. A Garden Isle Retreat asks you to request availability and say whether Princeville rain or the Hanalei bridge moves the close indoors. Poʻipū is a different shore. An Expedition joins the inquiry list for Kona–Kohala. Hilo is a separate dedicated east-side day.',
     ],
     faqs: [
       {
@@ -674,13 +793,22 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
         q: 'Where do I see the band, and what do I send?',
         a: 'The signature per-guest band is on the pricing page, groceries inside it. 20% service and Hawaiʻi GET up to 4.712% stand alone. A 50% deposit follows acceptance. Gratuity is never required. Send the house, the date, and who eats on the quote form.',
       },
+      {
+        q: 'Can I book a three-course on two islands from this hub?',
+        a: 'Only as two menus. Three courses are a first, a main, and a close in one kitchen. Oʻahu and Maui each take a written quote. Kauaʻi is a request for availability. The Big Island is an inquiry that starts on the west side. Hilo is its own day.',
+      },
+      {
+        q: 'What does the three-course band include?',
+        a: 'The signature per-guest band includes groceries for that dinner. Plated catering, if you also need people on the floor, is a separate format. 20% service and Hawaiʻi GET up to 4.712% stand alone on [pricing](/pricing). A 50% deposit follows acceptance. Gratuity is never required.',
+      },
     ],
   },
   menuFamily: {
     path: '/menus/family-style-menu',
-    h1: 'Family-style menus, by island.',
-    title: 'Family-style menus, by island | myCHEF Hawaii',
-    description: 'Family-style menus across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    h1: 'Family-style platters for a Hawaii rental',
+    title: 'Family-style dinner with a Hawaii private chef | myCHEF',
+    description:
+      'Family-style platters for a Hawaii rental table. The shared menu is not the staffed floor. Groceries sit inside the band. Open an island, then pricing.',
     lede:
       'The designed menu, not the service format.',
     kicker: 'Statewide · Family-style menu',
@@ -689,6 +817,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     body: [
       'This menu is the platters on the table. Family-style service is the staffed format, with floor hours apart from the food. Children get plates written beside the adults. Open [Oʻahu platter menus](oahu:/menus/family-style-menu), [Maui platter menus](maui:/menus/family-style-menu), [Kauaʻi platter menus](kauai:/menus/family-style-menu), or [Big Island platter menus](bigisland:/menus/family-style-menu).',
       'Oʻahu and Maui will write the quote. Kauaʻi will take a request for availability. The Big Island will take an inquiry that begins on the Kona–Kohala side. No separate platter price is published. See [pricing](/pricing). Say sharing, not a buffet, on [the quote form](/quote).',
+      'Platters down the middle are the menu. People on the floor are a different booking. Resident’s Island writes the bowls for a Honolulu, Kahala, Ko Olina, or Kailua table when you request a written quote, and a simpler plate is named before the shop. A Maui Villa Week shares that table in Wailea, Kapalua, or Kāʻanapali, often on arrival night, and quotes are open. A Garden Isle Retreat asks you to request availability for Princeville or Poʻipū and to keep rain and the Hanalei bridge on that shore. An Expedition joins the inquiry list for Kona–Kohala bowls. Hilo is a separate dedicated east-side day.',
     ],
     faqs: [
       {
@@ -707,14 +836,22 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
         q: 'How does the ask change from Maui to the Big Island?',
         a: 'Maui takes a written quote for South or West. The Big Island takes an inquiry that starts in Kona–Kohala. Hilo is a separate dedicated east-side day, quoted in writing. Kauaʻi, if that is the house, takes a request for availability instead.',
       },
+      {
+        q: 'What does a shared-platter band include?',
+        a: 'Groceries for the signature dinner sit inside the per-guest band. Servers, if you need a floor, are not inside that band. Read [pricing](/pricing). 20% service and Hawaiʻi GET up to 4.712% are their own lines. A 50% deposit follows acceptance. Gratuity is never required.',
+      },
+      {
+        q: 'Can platters on Maui and platters on Oʻahu be one quote?',
+        a: 'They cannot. A Villa Week share in Wailea is a Maui quote. A Resident’s Island share in Kahala is an Oʻahu quote. Send both through [the quote form](/quote). Bowls do not travel between islands.',
+      },
     ],
   },
   menuBreakfast: {
     path: '/menus/breakfast',
-    h1: 'Breakfast in the house, by island.',
-    title: 'Breakfast in the house, by island | myCHEF Hawaii',
+    h1: 'Breakfast cooked in a Hawaii rental kitchen',
+    title: 'Breakfast with a private chef in a Hawaii house | myCHEF',
     description:
-      'Each island designs breakfast per table.',
+      'Breakfast cooked in a Hawaii rental kitchen, designed for that morning. No breakfast price is published. Open the island page, then pricing.',
     lede:
       'Morning in the villa, designed per table. Brunch as an occasion is on the Brunch page.',
     kicker: 'Statewide · Breakfast',
@@ -723,6 +860,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     body: [
       'House breakfast is the morning meal. Brunch is the occasion. Stay Chef is the day rate, and a morning inside that day is not its own card. No breakfast price is published. Open [Oʻahu breakfast](oahu:/menus/breakfast), [Maui breakfast](maui:/menus/breakfast), [Kauaʻi breakfast](kauai:/menus/breakfast), or [Big Island breakfast](bigisland:/menus/breakfast).',
       'A written quote is the Oʻahu and Maui path. A request for availability is the Kauaʻi path. An inquiry, west side first, is the Big Island path. Day rates and fee items are on [pricing](/pricing). Send the hour and the house on [the quote form](/quote).',
+      'House breakfast is the morning meal in the rental, not the brunch occasion and not a published breakfast price. Resident’s Island writes it for Honolulu, Kahala, Ko Olina, or Kailua after you request a written quote, once the building allows the crew in. A Maui Villa Week can include the morning inside Wailea, Kapalua, or Kāʻanapali days, and quotes are open. A Garden Isle Retreat asks you to request availability and say if Princeville mist or the Hanalei bridge changes the hour. Poʻipū is named separately. An Expedition joins the inquiry list for a Kona–Kohala morning. Hilo is a separate dedicated east-side day.',
     ],
     faqs: [
       {
@@ -741,22 +879,31 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
         q: 'What do I send for a morning, island by island?',
         a: 'The house, the date, the hour, and who eats. Oʻahu and Maui want that as a written quote. Kauaʻi wants it as a request for availability, shore named. The Big Island wants it as an inquiry, and Hilo is not folded into a Kona morning.',
       },
+      {
+        q: 'Can breakfast on two islands be one written total?',
+        a: 'It cannot. A Kailua morning and a Wailea morning are two kitchens. Request a written quote on each island’s breakfast page. Kauaʻi still needs a request for availability. The Big Island still starts when you join the inquiry list on the west side.',
+      },
+      {
+        q: 'How does a Hilo breakfast differ from a Kona breakfast here?',
+        a: 'Hilo is a separate dedicated east-side day. Join the inquiry list for Kona–Kohala only. Do not attach an east-side morning to a west-side note and expect one crew to cover both.',
+      },
     ],
   },
   menuLunch: {
     path: '/menus/lunch',
-    h1: 'Lunch in the house, by island.',
-    title: 'Lunch in the house, by island | myCHEF Hawaii',
+    h1: 'Midday lunch cooked in a Hawaii rental',
+    title: 'Lunch with a private chef in a Hawaii rental | myCHEF',
     description:
-      'Each island designs lunch per table.',
+      'Lunch cooked at midday in a Hawaii rental, then the stove is cleared. No lunch price is published. Open the island page, then pricing, and send the hour.',
     lede:
-      'Midday in the house, designed per table. Meal prep is a gated fridge line.',
+      'Midday in the house, designed per table. Meal prep is a fridge program, and it is not sold yet.',
     kicker: 'Statewide · Lunch',
     photo: 'hubMenuLunch',
     cardLabel: 'Lunch',
     body: [
-      'House lunch is cooked at midday and cleared. Meal prep is a gated fridge program, not this menu. The cook is shorter than dinner and still written out. Open [Oʻahu lunch](oahu:/menus/lunch), [Maui lunch](maui:/menus/lunch), [Kauaʻi lunch](kauai:/menus/lunch), or [Big Island lunch](bigisland:/menus/lunch).',
+      'House lunch is cooked at midday and cleared. Meal prep is a fridge program that is not sold yet, not this menu. The cook is shorter than dinner and still written out. Open [Oʻahu lunch](oahu:/menus/lunch), [Maui lunch](maui:/menus/lunch), [Kauaʻi lunch](kauai:/menus/lunch), or [Big Island lunch](bigisland:/menus/lunch).',
       'Oʻahu and Maui quotes are open. Kauaʻi availability is a request, not a hold. The Big Island inquiry covers the west side first. No lunch band is published. See [pricing](/pricing) for the dinner band and the day rate. Send the hour on [the quote form](/quote).',
+      'Midday lunch is a cook at the burner, then a clear stove. It is not the fridge program, which is not sold yet. Resident’s Island asks you to request a written quote for a Honolulu, Kahala, Ko Olina, or Kailua midday, building rule included. A Maui Villa Week quotes an open lunch in Wailea, Kapalua, or Kāʻanapali. A Garden Isle Retreat asks you to request availability and name Princeville or Poʻipū, including rain or the Hanalei bridge. An Expedition joins the inquiry list for Kona–Kohala. Volcano and Hilo are a separate dedicated east-side day, not a same-day add from Waikoloa.',
     ],
     faqs: [
       {
@@ -765,7 +912,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
       },
       {
         q: 'How is lunch different from meal prep?',
-        a: 'Lunch is a cook in the house at midday, then a clean stove. Meal prep is the gated fridge program. If you wanted bags left behind, open that page. If you wanted someone at the burner, open the island lunch page.',
+        a: 'Lunch is a cook in the house at midday, then a clean stove. Meal prep is the fridge program that is not sold yet. If you wanted bags left behind, open that page. If you wanted someone at the burner, open the island lunch page.',
       },
       {
         q: 'Why is a shorter midday service still a written total?',
@@ -774,6 +921,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
       {
         q: 'What do I send, and which islands quote rather than request?',
         a: 'Send the house, the date, and the hour you want to eat. Oʻahu and Maui turn that into a written quote. Kauaʻi turns it into a request for availability. The Big Island turns it into an inquiry, and Volcano is not a same-day add-on from Waikoloa.',
+      },
+      {
+        q: 'Can a Kauaʻi lunch and an Oʻahu dinner on the same day share a crew?',
+        a: 'They cannot. Request availability for the Kauaʻi midday and request a written quote for the Oʻahu dinner. A shorter lunch does not make a same-day crossing. Send two notes on [the quote form](/quote).',
+      },
+      {
+        q: 'Is house lunch the fridge program under another name?',
+        a: 'It is not. Lunch is someone at the burner at midday, then a clean stove. The fridge program is not sold yet. Bags left behind are a different page, and they are not this midday cook.',
       },
     ],
   },
@@ -816,7 +971,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     h1: 'How to read a menu draft, by island.',
     title: 'How to read a menu draft, by island | myCHEF Hawaii',
     description:
-      'How a menu draft is written, revised, and limited, by island. Named suppliers are not promised. Open the island guide.',
+      'How a menu draft is written and revised for one house on each island. A supplier is named only when that day’s receipt supports it. Open the island guide.',
     lede:
       'The draft is written for one house. It is not a standing carte, and it does not name a supplier we cannot show.',
     kicker: 'Statewide · Menu guide',

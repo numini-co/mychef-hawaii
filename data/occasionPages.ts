@@ -119,7 +119,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       h1: 'Oahu retreat cooking — full-board days in houses.',
       title: 'Oahu retreat cooking — full-board days in houses | myCHEF',
       description:
-        'Full-board chef days for Oahu villa offsites. Not HCC citywides. Dietary designed in. Ko Olina and Gold Coast houses.',
+        'Full-board retreat days in Kahala and Ko Olina houses, not a convention floor. Dietary notes are designed in. Request a written quote for the span of days.',
       lede:
         'Breakfast through dinner in the house. Laptops away from the pass. Not a convention-centre play while citywides are closed.',
       photo: 'occRetreatOahu',
@@ -403,7 +403,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       h1: 'Kauai retreat cooking — full-board days, inquiry.',
       title: 'Kauai retreat cooking — full-board days in houses | myCHEF',
       description:
-        'Full-board chef days for Kauai estate offsites. Inquiry stage. Dietary designed in. Both shores. Not a ballroom.',
+        'Request availability for full-board retreat days in a Princeville or Poʻipū house. Rain and the Hanalei bridge stay in the note. Not a ballroom.',
       lede:
         'Breakfast through dinner in the house. The mist and the fire plan follow the shore.',
       photo: 'occRetreatKauai',
@@ -545,7 +545,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       h1: 'Hawaiʻi Island retreat cooking — full-board west-side days.',
       title: 'Big Island retreat cooking — full-board villa days | myCHEF',
       description:
-        'Full-board chef days for Kona–Kohala villa offsites. Inquiry stage. Dietary designed in. East side is a different day.',
+        'Join the inquiry list for full-board retreat days in a Kona–Kohala house. Name which meals repeat. Hilo is a separate dedicated east-side day.',
       lede:
         'Breakfast fish, a small offsite table, lava heat. Not the whole island. Not a ballroom.',
       photo: 'occRetreatBigisland',
