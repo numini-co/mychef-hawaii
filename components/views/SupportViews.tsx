@@ -1,4 +1,5 @@
 import HostLink from '@/components/HostLink';
+import InlineText from '@/components/InlineText';
 import ContactCluster from '@/components/ContactCluster';
 import { CtaLink, QuoteCta, WhatsAppCta } from '@/components/Cta';
 import DeskChannels from '@/components/DeskChannels';
@@ -645,7 +646,7 @@ export function HubDirectoryView({ id, related }: { id: string; related?: ReactN
           text={copy.h1}
           className="mt-4 font-display text-[clamp(2.5rem,6vw,4.25rem)] font-light leading-[1.05] tracking-[-0.02em] text-ink"
         />
-        <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink">{copy.lede}</p>
+        <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink"><InlineText text={copy.lede} /></p>
         <div className="mt-8 flex flex-wrap items-center gap-3">
           <QuoteCta variant="light" />
           {copy.path === '/contact' ? <DeskChannels variant="secondary" /> : null}
