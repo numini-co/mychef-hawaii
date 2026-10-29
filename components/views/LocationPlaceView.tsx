@@ -1,6 +1,7 @@
 import { QuoteCta } from '@/components/Cta';
 import DocumentPhotoGrid from '@/components/DocumentPhotoGrid';
 import Hero from '@/components/Hero';
+import InlineText from '@/components/InlineText';
 import JsonLd from '@/components/JsonLd';
 import LineReveal from '@/components/LineReveal';
 import { DocumentCopy, LongFaq, SiblingCluster } from '@/components/Longform';
@@ -88,7 +89,9 @@ export function LocationPlaceView({
           text={hood.h1}
           className="mt-3 font-display text-[clamp(2.75rem,7vw,4.5rem)] font-light leading-[1.05] tracking-[-0.02em] text-ink"
         />
-        <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink">{hood.lede}</p>
+        <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink">
+          <InlineText text={hood.lede} />
+        </p>
         <p className="mt-4 text-[17px] text-ink">{hood.zone}</p>
         <div className="mt-8">
           <QuoteCta island={islandId} variant="light" />

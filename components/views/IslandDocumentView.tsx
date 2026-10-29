@@ -8,6 +8,7 @@ import PlacePriceBlock from '@/components/PlacePriceBlock';
 import QuoteTeaser from '@/components/QuoteTeaser';
 import { SampleMenu } from '@/components/SampleMenu';
 import HostLink from '@/components/HostLink';
+import InlineText from '@/components/InlineText';
 import { isAreaDinnerDoor } from '@/data/areaCells';
 import type { IslandSupportPage } from '@/data/islandSupport';
 import { islands, type IslandId } from '@/data/islands';
@@ -68,7 +69,9 @@ export function IslandSupportView({
           text={copy.h1}
           className="mt-4 font-display text-[clamp(2.5rem,6vw,4.25rem)] font-light leading-[1.05] tracking-[-0.02em] text-ink"
         />
-        <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink">{copy.lede}</p>
+        <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink">
+          <InlineText text={copy.lede} />
+        </p>
         <div className="mt-8">
           <QuoteCta island={islandId} variant="light" />
         </div>
@@ -83,7 +86,9 @@ export function IslandSupportView({
               <article key={s.n}>
                 <p className="font-display text-2xl font-light text-ink">{s.n}</p>
                 <h2 className="mt-2 font-display text-[clamp(1.625rem,3vw,2.25rem)] font-light text-ink">{s.title}</h2>
-                <p className="mt-4 max-w-[65ch] text-[17px] leading-[1.65] text-mute">{s.body}</p>
+                <p className="mt-4 max-w-[65ch] text-[17px] leading-[1.65] text-mute">
+                  <InlineText text={s.body} />
+                </p>
               </article>
             ))}
           </div>
@@ -247,7 +252,9 @@ export function UniqueCellView({
           text={cell.h1}
           className="mt-3 font-display text-[clamp(2.75rem,7vw,4.5rem)] font-light leading-[1.05] tracking-[-0.02em] text-ink"
         />
-        <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink">{cell.lede}</p>
+        <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink">
+          <InlineText text={cell.lede} />
+        </p>
         {islandId === 'bigisland' && cell.slug === 'three-course' ? (
           <ol className="mt-6 max-w-[46ch] space-y-3 text-ink">
             {sampleMenus.bigisland.courses.map((course) => (

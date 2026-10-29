@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Eyebrow from '@/components/Eyebrow';
 import Photo from '@/components/Photo';
+import { stripInlineLinks } from '@/lib/inlineLinks';
 
 /** Hub-host document list as photography, not paper tiles. Same-host Links. */
 export default function HubPhotoGrid({
@@ -50,7 +51,7 @@ export default function HubPhotoGrid({
                   />
                 </span>
                 <span className="mt-5 block font-display text-[1.5rem] font-light text-ink">{item.title}</span>
-                <span className="mt-2 block text-[15px] leading-relaxed text-mute">{item.body}</span>
+                <span className="mt-2 block text-[15px] leading-relaxed text-mute">{stripInlineLinks(item.body)}</span>
               </Link>
             </li>
           ))}
