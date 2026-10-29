@@ -268,7 +268,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'Help desks, by island.',
     title: 'Help desks, by island | myCHEF Hawaii',
     description:
-      'Island help desks for a first note, a menu draft, and changes after you accept. Open the island where the house is.',
+      'Island help for a first note, a menu draft, and a change after you accept. Open the island where the house is, then pricing for the fee lines.',
     lede:
       'Five guides live on each island. This page routes you. It does not take the form.',
     kicker: 'Statewide · Help',

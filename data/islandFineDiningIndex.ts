@@ -12,7 +12,7 @@ export const islandFineDiningIndex: Record<IslandId, IslandNestedIndexPage> = {
     h1: 'Kahala rooms and Ko Olina villas — four formats, still a house.',
     title: 'Fine dining at home — Kahala & Ko Olina | myCHEF',
     description:
-      'Kahala rooms and Ko Olina villas: romantic dinner, tasting menu, chef’s table evening, celebration dinner. Not a star.',
+      'Fine dining at home in Kahala and Ko Olina: romantic dinner, tasting menu, chef’s-table evening, and celebration. Request a written quote. Not a star.',
     lede: 'Oʻahu in-villa formats in Kahala rooms and Ko Olina villas: romantic dinner, tasting menu, chef’s table evening, celebration dinner. Halo posture, not a star.',
     kicker: 'Oʻahu · Fine dining',
     photo: 'fineIndexOahu',
@@ -132,7 +132,7 @@ export const islandFineDiningIndex: Record<IslandId, IslandNestedIndexPage> = {
     h1: 'Kona-to-Kohala formats at inquiry — Hilo never on this list.',
     title: 'Fine dining at home — Kona to Kohala | myCHEF',
     description:
-      'West-side Hawaiʻi Island formats at inquiry, Kona to Kohala. Not a Michelin claim. Hilo is a separate east-side day.',
+      'West-side formats at inquiry, Kona to Kohala: romantic dinner, tasting menu, counter evening, celebration. Not a star. Hilo is a separate east-side day.',
     lede: 'West-side Hawaiʻi Island formats at inquiry, Kona to Kohala. Not a Michelin claim. Hilo never on this list.',
     kicker: 'Hawaiʻi Island · Fine dining',
     photo: 'fineIndexBigisland',

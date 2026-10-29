@@ -25,7 +25,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Anniversary dinners in a Kahala dining room — two seats or a small table.',
       title: 'Anniversary dinners in a Kahala dining room | myCHEF',
       description:
-        'Anniversary tables in Kahala dining rooms and Ko Olina villas. Two seats or a small list. Not a restaurant buyout.',
+        'Anniversary tables in Kahala dining rooms and Ko Olina villas, two seats or a small list. Request a written quote. This is not a restaurant buyout.',
       lede:
         'Two plates, brass, Diamond Head faint. Or a small family table. This one is the year-mark.',
       photo: 'occAnniversaryOahu',
@@ -117,7 +117,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Villa parties in Ko Olina and Kahala — the house is the venue.',
       title: 'Villa parties in Ko Olina and Kahala | myCHEF',
       description:
-        'Staffed villa parties in Ko Olina short-stay houses and Kahala dining rooms. About 10–75. Not a restaurant buyout.',
+        'Staffed villa parties in Ko Olina houses and Kahala dining rooms. The house is the venue. Request a written quote. Not a restaurant buyout.',
       lede:
         'The house, family-style fish, the guest list you actually have. Legal short-stay fact is on the Short-stay villas page.',
       photo: 'occVillaOahu',
@@ -303,7 +303,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Villa parties in Wailea and West Maui — lawn or dining room.',
       title: 'Villa parties in Wailea and West Maui | myCHEF',
       description:
-        'Staffed villa parties in Wailea, Kīhei, Kāʻanapali and Kapalua. About 10–75. Wet-weather backup written for lawns.',
+        'Staffed villa parties in Wailea, Kāʻanapali, Kapalua, and Kīhei. Choose lawn or dining room before you accept. Quotes are open for a written total.',
       lede:
         'Grass, identical plates, the guest list you actually have. Saturday West Maui traffic is planned into arrival, not discovered on the invoice.',
       photo: 'occVillaMaui',
@@ -583,7 +583,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Anniversary dinners on a Kohala lava terrace — west side first.',
       title: 'Anniversary dinners on a Kohala lava terrace | myCHEF',
       description:
-        'Anniversary tables on Kona–Kohala terraces. Inquiry stage. Two seats or a small list. East side is a different day.',
+        'Join the inquiry list for an anniversary table on the Kona–Kohala west side. Two seats or a small list. Hilo is a separate dedicated east-side day.',
       lede:
         'Two plates on lava, Mauna Kea faint. Not a Hilo add-on.',
       photo: 'occAnniversaryBigisland',
@@ -675,7 +675,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Villa parties on the Kohala Coast — lava terrace, west side.',
       title: 'Villa parties on the Kohala Coast | myCHEF',
       description:
-        'Staffed villa parties on Kona–Kohala terraces, about 10–75 guests. Inquiry stage. East side is a different day.',
+        'Join the inquiry list for a villa party on a Kona–Kohala terrace or in the great room. Hilo is a separate dedicated east-side day, not an add-on.',
       lede:
         'Eight to forty on lava, plated kanpachi, Mauna Kea faint. Not a Hilo add-on. Hard sun is real.',
       photo: 'occVillaBigisland',

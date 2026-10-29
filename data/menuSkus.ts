@@ -580,7 +580,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'A three-course on the Kohala Coast — designed per table, west side.',
       title: 'A three-course on the Kohala Coast | myCHEF',
       description:
-        'Three-course menus in Kona and Kohala houses. Inquiry stage. Designed per table. East side is a different day.',
+        'A three-course in a Kona or Kohala house: a first, a main, and a close, designed per table. Join the inquiry list. Hilo is a separate east-side day.',
       lede:
         'Kanpachi crudo, a sear, a close. West-side houses. A Hilo table is a different day.',
       photo: 'menuThreeBigisland',

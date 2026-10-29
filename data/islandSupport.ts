@@ -795,7 +795,7 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
     h1: 'Maui menus — Wailea and Kapalua kitchens, not a carte.',
     title: 'Maui chef menus — Wailea to Kapalua | myCHEF',
     description:
-      'Maui villa menus designed per table: ahi poke, macadamia-crusted catch, tasting plates. Not a laminated standing list.',
+      'Maui menus designed per table for Wailea, Kapalua, and Kāʻanapali. Not a standing carte. Quotes are open, and groceries sit inside the dinner band.',
     lede:
       'Built for a Wailea or Kapalua kitchen. You pick the catch; we shop that day. Sushi-forward is a direction, not a separate brand.',
     kicker: 'Maui menus',
