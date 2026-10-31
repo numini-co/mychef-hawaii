@@ -934,10 +934,10 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
   },
   helpStart: {
     path: '/help/getting-started',
-    h1: 'First booking notes, by island.',
-    title: 'First booking notes, by island | myCHEF Hawaii',
+    h1: 'What a first private chef note should include.',
+    title: 'What to send for a Hawaii private chef | myCHEF',
     description:
-      'What to send in a first note, by island: dates, address, guests, dietary limits, and the occasion. Then open that island’s guide.',
+      'A first private chef note needs dates, the address, who is eating, dietary limits, and the occasion. Then open that island’s getting-started guide.',
     lede:
       'The first note is dates, the house, who is eating, dietary limits, and the occasion. Open the island guide. This page only routes.',
     kicker: 'Statewide · Getting started',
@@ -946,6 +946,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     body: [
       'Each island guide says what happens after that note. Oʻahu and Maui turn it into a written quote. Kauaʻi turns it into a request for availability. Hawaiʻi Island turns it into the inquiry list, west side first.',
       'Do not brief two islands in one note. Hilo is a separate dedicated east-side day, quoted in writing. Prices stay on [pricing](/pricing). The form is [the quote form](/quote).',
+      'On the Resident’s Island, name a Honolulu, Kahala, Ko Olina, or Kailua kitchen and the building rules, then request a written quote. A Villa Week note names Wailea, Kapalua, or Kāʻanapali, including the arrival night. Quotes are open. A Garden Isle Retreat note names Princeville or Poʻipū, plus rain and the Hanalei bridge. Request availability. An Expedition note starts on the Kona–Kohala side. Join the inquiry list. Read the guide for that house: [Oʻahu getting started](oahu:/help/getting-started), [Maui getting started](maui:/help/getting-started), [Kauaʻi getting started](kauai:/help/getting-started), or [Hawaiʻi Island getting started](bigisland:/help/getting-started).',
     ],
     faqs: [
       {
@@ -954,32 +955,41 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
       },
       {
         q: 'What belongs in the first note, whichever island I pick?',
-        a: 'Dates, the address or the area, who is eating, dietary notes, and the occasion. Leave resort slogans out. The island guide adds whatever that host still needs, such as a freight slot or a shore.',
+        a: 'Dates, the address, who is eating, dietary notes, and the occasion. Leave resort slogans out. The island guide adds what that host still needs, such as a freight slot or a shore. A complete note is what the island can price.',
       },
       {
         q: 'Who answers a first note with a quote, and who answers with availability?',
-        a: 'Oʻahu and Maui answer with a written quote. Kauaʻi answers a request for availability. Hawaiʻi Island answers from the inquiry list, west side first. This page does not hold a date.',
+        a: 'Oʻahu and Maui answer with a written quote. Kauaʻi answers a request for availability. Hawaiʻi Island answers from the inquiry list, west side first. This page does not hold a date. Hilo is a separate dedicated east-side day.',
+      },
+      {
+        q: 'Can one first note cover two islands?',
+        a: 'It should not. Send one island per note on [the quote form](/quote). A coordinator can keep the dates in order. The crews and the totals stay separate. There is no same-day crossing, and a west-side note does not include Hilo.',
+      },
+      {
+        q: 'What is inside the price the first note is asking for?',
+        a: 'A single night uses that island’s signature band, groceries inside it. A cook for the stay is the Stay Chef day: the chef fee plus groceries at cost with receipts. Then 20% service and Hawaiʻi GET up to 4.712% print alone. The card is [pricing](/pricing).',
       },
       {
         q: 'Where do I send that first note?',
-        a: `On [the quote form](/quote), one island per note, or through the getting-started guide linked above. Bands and fee lines are on [pricing](/pricing). Desk: ${desk}.`,
+        a: `On [the quote form](/quote), one island per note, or through the getting-started guide linked above. A 50% deposit follows acceptance. Gratuity is never required. Desk: ${desk}.`,
       },
     ],
   },
   helpMenu: {
     path: '/help/menu-guide',
-    h1: 'How to read a menu draft, by island.',
-    title: 'How to read a menu draft, by island | myCHEF Hawaii',
+    h1: 'How to read a private chef menu draft.',
+    title: 'How a Hawaii private chef menu is written | myCHEF',
     description:
-      'How a menu draft is written and revised for one house on each island. A supplier is named only when that day’s receipt supports it. Open the island guide.',
+      'A menu draft is written for one house, then revised in writing. A supplier is named only when the receipt supports it. Open the island guide.',
     lede:
-      'The draft is written for one house. It is not a standing carte, and it does not name a supplier we cannot show.',
+      'The draft is written for one house. It is not a fixed statewide menu, and it does not name a supplier we cannot show.',
     kicker: 'Statewide · Menu guide',
     photo: 'hubHelpMenu',
     cardLabel: 'Menu guide',
     body: [
-      'Revisions, dietary notes, and children’s plates are handled on the island guide. A sample on a menus page is an example. A boat or a farm appears only when that day’s receipt supports the name.',
-      'Oʻahu and Maui write the draft after a complete quote request. Kauaʻi writes it after a request for availability if a crew can take the shore. The Big Island writes it from the inquiry list, west side first.',
+      'Revisions, dietary notes, and children’s plates are handled on the island guide. A sample on a menus page is an example. A boat or a farm appears only when that day’s receipt supports the name. You sign the draft before that island shops.',
+      'Oʻahu and Maui write the draft after a complete quote request. Kauaʻi writes it after a request for availability if a crew can take the shore. The Big Island writes it from the inquiry list, west side first. One night stays on that island’s signature band, groceries inside it, on [pricing](/pricing).',
+      'A Resident’s Island draft follows a Honolulu, Kahala, Ko Olina, or Kailua kitchen. Request a written quote. A Villa Week draft is the Wailea, Kapalua, or Kāʻanapali house. A Garden Isle Retreat draft names Princeville or Poʻipū and the Hanalei bridge. Request availability. An Expedition draft starts on the Kona–Kohala side. Join the inquiry list. Open [Oʻahu menu guide](oahu:/help/menu-guide), [Maui menu guide](maui:/help/menu-guide), [Kauaʻi menu guide](kauai:/help/menu-guide), or [Hawaiʻi Island menu guide](bigisland:/help/menu-guide). Send limits on [the quote form](/quote).',
     ],
     faqs: [
       {
@@ -988,7 +998,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
       },
       {
         q: 'Is there one statewide draft I can approve here?',
-        a: 'There is not. Each house gets its own draft on its own host. Approving a plate list on this directory does nothing. Open the island guide, then reply in writing on that thread.',
+        a: 'There is not. Each house gets its own draft on its own host. Approving a plate list on this page does nothing. Open the island guide, then reply in writing on that thread.',
       },
       {
         q: 'Will the draft name a fisherman, a farm, or a market?',
@@ -996,7 +1006,15 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
       },
       {
         q: 'Where do dietary notes and children’s plates go before the draft?',
-        a: 'In the first note, with the island, before anyone shops. The island menu guide is where revisions are answered. Prices for the night stay on [pricing](/pricing), not inside the draft.',
+        a: 'In the first note, with the island, before anyone shops. The island menu guide is where revisions are answered. Prices for the night stay on [pricing](/pricing), not inside the draft. There is no separate kids’ price and no age cut-off here.',
+      },
+      {
+        q: 'Does a menu revision change the signature band?',
+        a: 'A revision changes plates, not the published band. One night stays on that island’s signature band, groceries inside it. If the headcount changes, the total is rewritten before anyone shops again. Fee lines stay on [pricing](/pricing).',
+      },
+      {
+        q: 'Can one draft cover a dinner on two islands?',
+        a: `It cannot. Each kitchen gets its own draft and its own shop. Send a second note on [the quote form](/quote). There is no same-day crossing. Desk: ${desk}.`,
       },
     ],
   },
@@ -1058,18 +1076,19 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
   },
   helpManage: {
     path: '/help/managing-booking',
-    h1: 'After the quote, by island.',
-    title: 'After the quote, by island | myCHEF Hawaii',
+    h1: 'How to change a private chef booking in Hawaii.',
+    title: 'Change a Hawaii private chef booking | myCHEF',
     description:
-      'How to change a date, a headcount, or an address after you accept, by island. The 50% deposit and the service lines stay on the quote.',
+      'Change a date, a headcount, or an address in writing after you accept. A verbal note does not move the deposit. Open the island guide.',
     lede:
-      'Changes after you accept are written on the island that holds the house. This directory does not move a deposit.',
+      'Changes after you accept are written on the island that holds the house. This page does not move a deposit.',
     kicker: 'Statewide · After the quote',
     photo: 'hubHelpManage',
     cardLabel: 'After the quote',
     body: [
       'A 50% deposit locks a date only after you accept the written total. Guest count, date, and address changes go back to that island in writing. A verbal note does not rewrite the quote. Gratuity is never required.',
       'Oʻahu and Maui take the change against a written quote. Kauaʻi takes it against a request for availability. Hawaiʻi Island takes it on the inquiry list, west side first. Service at 20% and Hawaiʻi GET up to 4.712% stay their own lines. The card is [pricing](/pricing).',
+      'A Resident’s Island change names the new Honolulu, Kahala, Ko Olina, or Kailua address and the building rules. Request the rewrite in writing. A Villa Week change names Wailea, Kapalua, or Kāʻanapali. A Garden Isle Retreat change names Princeville or Poʻipū and the Hanalei bridge if the house is north. Request availability again if the shore changed. An Expedition change stays on the Kona–Kohala side, or asks for Hilo as its own day. Join the inquiry list for that side. Open [Oʻahu changes](oahu:/help/managing-booking), [Maui changes](maui:/help/managing-booking), [Kauaʻi changes](kauai:/help/managing-booking), or [Hawaiʻi Island changes](bigisland:/help/managing-booking). Send the rewrite on [the quote form](/quote).',
     ],
     faqs: [
       {
@@ -1078,7 +1097,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
       },
       {
         q: 'Does a message on this page move the date or the headcount?',
-        a: 'It does not. Write the island that issued the total. The quote is the record, not a chat on the statewide desk. A new headcount rewrites the total before anything else is locked.',
+        a: 'It does not. Write the island that issued the total. The quote is the record. A new headcount rewrites the total before anything else is locked. A verbal note does not move a deposit.',
       },
       {
         q: 'Where do the service charge and the tax sit after I accept?',
@@ -1086,7 +1105,15 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
       },
       {
         q: 'What if the house moves to another island after the deposit?',
-        a: `That is a new booking on the new island, not an edit of the first total. One crew does not cross the channel the same day. Start the second note on [the quote form](/quote). Desk: ${desk}.`,
+        a: 'That is a new booking on the new island, not an edit of the first total. One crew does not cross the channel the same day. Start the second note on [the quote form](/quote). The first island still holds its own record until that island writes a change.',
+      },
+      {
+        q: 'How does a headcount change show on the total?',
+        a: 'The island rewrites the food line for the new count before the shop. A signature night stays on that island’s band, groceries inside it. A Stay Chef day stays the chef fee plus groceries at cost with receipts. Service and tax are recalculated on [pricing](/pricing) as their own lines.',
+      },
+      {
+        q: 'Who do I write when the change is ready?',
+        a: `The island guide above, or [the quote form](/quote), naming the original date and the new one. Desk: ${desk}.`,
       },
     ],
   },

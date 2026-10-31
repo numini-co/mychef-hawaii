@@ -36,20 +36,28 @@ const hubBarFaqs = [
 
 const hubMobileBarFaqs = [
   {
-    q: 'What does mobile bar Hawaii include?',
-    a: 'A cart, a bartender, citrus, ice and glassware for four hours. Spirits billed at cost with receipts, or you supply your own. Island the mobile bar page pages publish the package price for that shore.',
+    q: 'What does the Hawaii mobile bar package include?',
+    a: 'A cart, a bartender, setup, citrus, ice, and glassware for four hours. Spirits are billed at cost with receipts, or you supply them. The package price for that shore is on the island mobile bar page. It is not folded into the dinner.',
   },
   {
-    q: 'How is this different from the villa bar page?',
-    a: 'Open the island the mobile bar page document for that shore’s cart.',
+    q: 'How is the four-hour cart different from the terrace bartender hour?',
+    a: 'The cart is the packaged four hours on this page. The shorter hour beside the chef is the [villa bar](/bar), quoted in writing with no published bartender hour. Use the cart when you want the package. Use the bar page when the pour sits with dinner only.',
   },
   {
-    q: 'Do you staff all four islands?',
-    a: 'Yes. Oʻahu and Maui take a written package quote now. Kauaʻi and Hawaiʻi Island are by inquiry only — join the list with dates and shore. Starting prices are still published on every island page.',
+    q: 'Which islands take a written package quote, and which take a request?',
+    a: '[Oʻahu](oahu:/mobile-bar) and [Maui](maui:/mobile-bar) take a written quote. [Kauaʻi](kauai:/mobile-bar) is a request for availability: name Princeville, Poʻipū, or the Hanalei-bridge weather. [Hawaiʻi Island](bigisland:/mobile-bar) is join the inquiry list, Kona–Kohala first. Hilo is its own day.',
   },
   {
-    q: 'Can we stack the cart with dinner or a wedding week?',
-    a: 'Yes. The packaged cart is a line on the same written quote as a visitor dinner or a wedding week. It is not buried inside a hospitality fee.',
+    q: 'Can the cart sit on the same quote as dinner?',
+    a: 'It can, as its own line on the written quote, next to a visitor dinner or a wedding week. It is not buried inside the food. A 20% service charge and Hawaiʻi GET up to 4.712% follow those lines. A 50% deposit follows acceptance. Gratuity is never required.',
+  },
+  {
+    q: 'Can one trip book the cart on two islands?',
+    a: 'As two packages. A Friday cart on Oʻahu and a later cart on Maui are two notes on [the quote form](/quote), two crews, and two totals. The hub does not send one cart across the channel the same day.',
+  },
+  {
+    q: 'Where do the package price and the fee lines print?',
+    a: 'The package price is the figure already on that island’s mobile bar page. Fee lines, including travel when it applies, are on [pricing](/pricing). This page does not add a new package price. Desk: quotes@mychef-hawaii.com, +1 (808) 468-7748, https://wa.me/18084687748.',
   },
 ];
 
@@ -498,6 +506,13 @@ export function HubMobileBarView() {
           <QuoteCta service="mobile-bar" variant="light" />
         </div>
       </Hero>
+      <DocumentCopy
+        heading="A four-hour cart, then the island that has the terrace."
+        paras={[
+          'A four-hour package: a bartender, the cart, citrus, ice, and glassware. Spirits are at cost with receipts, or you bring them. Then a 20% service charge and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required.',
+          '[Oʻahu mobile bar](oahu:/mobile-bar): Honolulu, Kahala, Ko Olina, or Kailua. Request a written quote. [Maui mobile bar](maui:/mobile-bar): Wailea, Kapalua, or Kāʻanapali, quotes open, including arrival night. [Kauaʻi mobile bar](kauai:/mobile-bar): Princeville or Poʻipū. Request availability, and name rain or the Hanalei bridge. [Hawaiʻi Island mobile bar](bigisland:/mobile-bar): Kona–Kohala first. Join the inquiry list. Hilo is its own day. The shorter hour is the [villa bar](/bar). Fees stay on [pricing](/pricing). Name the island on [the quote form](/quote).',
+        ]}
+      />
       <IslandBarPicker
         path="/mobile-bar"
         heading="Related pages."

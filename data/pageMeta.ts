@@ -153,7 +153,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/mobile-bar': {
     title: 'Mobile bar Hawaii | 4-hour villa package | myCHEF',
     description:
-      'Mobile bar Hawaii: a four-hour cart, bartender, citrus and ice. Starting prices published per island.',
+      'Mobile bar Hawaii: a four-hour cart with a bartender, citrus, ice, and glassware. Spirits at cost or yours. Open the island package, then pricing.',
   },
   '/trust': {
     title: 'Trust standards — Honesty register | myCHEF Hawaii',
@@ -190,8 +190,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Birthdays, reunions, and rehearsal dinners in Hawaiian villas. Staffed 10–75.',
   },
   '/faq': {
-    title: 'Questions, by island | myCHEF Hawaii',
-    description: 'Answers to common questions about booking a private chef or catering with myCHEF Hawaii on Oʻahu, Maui, Kauaʻi and the Big Island.',
+    title: 'Private chef in Hawaii: questions, all four islands | myCHEF',
+    description:
+      'Statewide answers on signature dinners, Stay Chef days, fee lines, and a two-island trip. Then open the FAQ for the house.',
   },
   '/coverage': {
     title: 'Where we cook, island by island | myCHEF',
@@ -204,9 +205,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Quote form, WhatsApp, (808) 468-7748, and quotes@mychef-hawaii.com — Hawaii Standard Time. Open the island desk that holds the house. Not a walk-in office.',
   },
   '/locations': {
-    title: 'Private chef towns, by island | myCHEF Hawaii',
+    title: 'Private chef service areas in Hawaii by island | myCHEF',
     description:
-      'Open the island that holds the house, then its town list. Prices and the service and tax lines live on the pricing pages. This page only routes you.',
+      'Private chef towns already published on each island: open that town list, then pricing. This page names those places and does not add a travel fee.',
   },
   '/menus': {
     title: 'How menus are designed, by island | myCHEF Hawaii',
@@ -238,27 +239,29 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Each island publishes its own claim list.',
   },
   '/guest-counts': {
-    title: 'Guest counts we staff, by island | myCHEF Hawaii',
+    title: 'Guest counts for a Hawaii villa dinner | myCHEF',
     description:
-      'Each island publishes dinners 2–15 and receptions about 10–75.',
+      'Dinners are two to fifteen. Receptions are about ten to seventy-five. Larger formats are quoted, not promised. Open the island page, then pricing.',
   },
   '/dietary': {
-    title: 'Dietary notes, by island | myCHEF Hawaii',
+    title: 'Allergy-aware private chef in Hawaii | myCHEF',
     description:
-      'Allergies are written on the island page before the shop. Oʻahu and Maui quote. Kauaʻi requests availability. Hawaiʻi Island uses the inquiry list.',
+      'Gluten-free, dairy-free, nut-free, shellfish, vegan, and religious limits are written before the shop. No separate allergy price. Open the island page.',
   },
   '/honeymoon-dinners': {
-    title: 'Dinner for two, by island | myCHEF Hawaii',
-    description: 'Dinner for two across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Private dinner for two in a Hawaii rental | myCHEF',
+    description:
+      'A private dinner for two in the rental, for a honeymoon or an anniversary. No separate honeymoon price. Oʻahu and Maui quote. Kauaʻi requests availability.',
   },
   '/chefs-table': {
-    title: 'Chef’s table nights, by island | myCHEF Hawaii',
-    description: 'Chef’s table nights across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Chef’s table dinner at your Hawaii rental | myCHEF',
+    description:
+      'The chef cooks and plates at the counter in your Hawaii rental, then clears that pass. Not a restaurant seat. Open the island kitchen, then pricing.',
   },
   '/kids-menus': {
-    title: 'Children’s plates, by island | myCHEF Hawaii',
+    title: 'Children’s plates with a Hawaii private chef | myCHEF',
     description:
-      'Open the island page for children’s plates: simpler food or an earlier hour. They count in the headcount. The price is in the written quote.',
+      'Children’s plates are simpler food from the same menu, or an earlier hour you name. They count in the headcount. There is no separate kids’ price.',
   },
   '/personal-chef': {
     title: 'Household chef line, by island | myCHEF Hawaii',
@@ -281,18 +284,19 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Cooking classes are not offered on any island right now. No instructor and no schedule. Guests can watch the chef cook on that island’s chef’s table page.',
   },
   '/omakase-at-home': {
-    title: 'Omakase-at-home notes, by island | myCHEF Hawaii',
-    description: 'Omakase-at-home notes across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Omakase at home with a Hawaii private chef | myCHEF',
+    description:
+      'A chef-chosen sequence in the rental, often raw fish from that day’s market. We do not claim a star. No separate omakase price. Open the island page.',
   },
   '/rehearsal-dinners': {
-    title: 'Rehearsal dinners, by island | myCHEF Hawaii',
+    title: 'Rehearsal dinner with a private chef in Hawaii | myCHEF',
     description:
-      'Each island quotes the night before as its own line.',
+      'The night before the wedding is one seated dinner in the rental, written as its own line. No separate rehearsal price. Open the island that has the house.',
   },
   '/retreat-catering': {
-    title: 'Retreat full-board, by island | myCHEF Hawaii',
+    title: 'Full-board retreat catering in a Hawaii house | myCHEF',
     description:
-      'Each island quotes full-board retreat days in houses.',
+      'Full-board retreat food cooked in the house, as its own line for the days you name. Not a ballroom. Oʻahu and Maui quote. Kauaʻi requests availability.',
   },
   '/corporate-catering': {
     title: 'House offsite catering, by island | myCHEF Hawaii',
@@ -416,13 +420,14 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Lunch cooked at midday in a Hawaii rental, then the stove is cleared. No lunch price is published. Open the island page, then pricing, and send the hour.',
   },
   '/help/getting-started': {
-    title: 'First booking notes, by island | myCHEF Hawaii',
-    description: 'First booking notes across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'What to send for a Hawaii private chef | myCHEF',
+    description:
+      'A first private chef note needs dates, the address, who is eating, dietary limits, and the occasion. Then open that island’s getting-started guide.',
   },
   '/help/menu-guide': {
-    title: 'How to read a menu draft, by island | myCHEF Hawaii',
+    title: 'How a Hawaii private chef menu is written | myCHEF',
     description:
-      'How a menu draft is written and revised for one house on each island. A supplier is named only when that day’s receipt supports it. Open the island guide.',
+      'A menu draft is written for one house, then revised in writing. A supplier is named only when the receipt supports it. Open the island guide.',
   },
   '/help/wedding-guide': {
     title: 'Wedding-week planning notes, by island | myCHEF Hawaii',
@@ -433,8 +438,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'Offsite planning notes across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/help/managing-booking': {
-    title: 'After the quote, by island | myCHEF Hawaii',
-    description: 'What happens after your written quote: deposit, menu edits, changes and the night itself, for myCHEF Hawaii bookings on every island.',
+    title: 'Change a Hawaii private chef booking | myCHEF',
+    description:
+      'Change a date, a headcount, or an address in writing after you accept. A verbal note does not move the deposit. Open the island guide.',
   },
   '/oahu': {
     title: 'Private Chef Oahu | Resident Villa and Home Chefs | myCHEF',

@@ -627,13 +627,15 @@ export function HubDirectoryView({ id, related }: { id: string; related?: ReactN
   if (!copy) return null;
   const photo = photos[copy.photo];
   const nested = nestedHubDirectories(copy.path);
+  const faqGroups = copy.faqGroups ?? [];
+  const faqs = faqGroups.length ? faqGroups.flatMap((group) => group.faqs) : copy.faqs;
   return (
     <>
       <JsonLd
         data={{
           '@context': 'https://schema.org',
           '@type': 'FAQPage',
-          mainEntity: copy.faqs.map((f) => ({
+          mainEntity: faqs.map((f) => ({
             '@type': 'Question',
             name: f.q,
             acceptedAnswer: { '@type': 'Answer', text: f.a },
@@ -707,7 +709,11 @@ export function HubDirectoryView({ id, related }: { id: string; related?: ReactN
         detailOf={() => copy.cardLabel}
       />
       {related}
-      <LongFaq items={copy.faqs} title="Before you open an island." />
+      {faqGroups.length ? (
+        faqGroups.map((group) => <LongFaq key={group.h2} items={group.faqs} title={group.h2} />)
+      ) : (
+        <LongFaq items={copy.faqs} title="Before you open an island." />
+      )}
     </>
   );
 }
