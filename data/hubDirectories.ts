@@ -121,7 +121,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
         faqs: [
           {
             q: 'Which island’s question list should I open first?',
-            a: 'Open the FAQ for the island that has the house. [Oʻahu](oahu:/faq) and [Maui](maui:/faq) take a written quote. [Kauaʻi](kauai:/faq) is a request for availability. [Hawaiʻi Island](bigisland:/faq) is join the inquiry list, west side first. Hilo is a separate dedicated day on that list. This page does not hold a date.',
+            a: 'Open the FAQ for the island that has the house. [Oʻahu](oahu:/faq) and [Maui](maui:/faq) take a written quote. [Kauaʻi](kauai:/faq) is a request for availability. On [Hawaiʻi Island](bigisland:/faq), join the inquiry list, west side first. Hilo is a separate dedicated day on that list. This page does not hold a date.',
           },
           {
             q: 'How do I match a resort or a town to the right island FAQ?',
@@ -283,7 +283,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       },
       {
         q: 'How do I start on the right island from here?',
-        a: 'Oʻahu and Maui take a written quote. Kauaʻi is a request for availability. Hawaiʻi Island is join the inquiry list, west side first. Use [the quote form](/quote) and name one town. Desk: quotes@mychef-hawaii.com, +1 (808) 468-7748 (tel:+18084687748), https://wa.me/18084687748.',
+        a: 'Oʻahu and Maui take a written quote. Kauaʻi is a request for availability. On Hawaiʻi Island, join the inquiry list, west side first. Use [the quote form](/quote) and name one town. Desk: quotes@mychef-hawaii.com, +1 (808) 468-7748 (tel:+18084687748), https://wa.me/18084687748.',
       },
     ],
   },
@@ -317,7 +317,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       },
       {
         q: 'Where do the fee lines sit once the courses are chosen?',
-        a: 'On [pricing](/pricing), after the food. A 20% service charge and Hawaiʻi GET up to 4.712% each print alone. A 50% deposit follows once you accept. Gratuity is never required. One island’s band is not the next island’s band.',
+        a: 'On [pricing](/pricing), after the food. A 20% service charge and Hawaiʻi GET up to 4.712% each print alone. A 50% deposit follows once you accept. Gratuity is never required. Hawaiʻi Island example: from $165, Signature $210–$325, Stay Chef from $1,450.',
       },
       {
         q: 'Is a staffed party designed on this menu page?',
@@ -333,7 +333,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       },
       {
         q: 'Where do I send the kitchen and the date?',
-        a: 'Open the island menus page for the house, then [the quote form](/quote). Name one island, the town, and who is eating. The desk is quotes@mychef-hawaii.com, +1 (808) 468-7748 (tel:+18084687748), and https://wa.me/18084687748.',
+        a: 'Open the island menus page for the house, then [the quote form](/quote). Name one island, the town, and who is eating. The desk is quotes@mychef-hawaii.com and +1 808 468 7748 (https://wa.me/18084687748).',
       },
     ],
   },
@@ -482,7 +482,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     cardLabel: 'Occasions',
     body: [
       'Start with the night, then the island. A birthday, a welcome dinner, a villa party, an anniversary, brunch, a retreat, and a house offsite each live on the island site. This page only routes. A dinner for the people already in the house stays an occasion. When the room needs a staffed service, open [Hawaii catering](/catering). When the dates are a wedding week — welcome, rehearsal, reception, and brunch — open [wedding week](/weddings). Do not file a wedding under a birthday URL.',
-      `One coordinator can hold several nights on the same island. Each night stays its own line. Oʻahu and Maui take a written quote. Kauaʻi is request availability. Hawaiʻi Island is join the inquiry list, west side first. A crew does not cross islands the same day. Open the host that has the house: [Oʻahu occasions](oahu:/events), [Maui occasions](maui:/events), [Kauaʻi occasions](kauai:/events), [Hawaiʻi Island occasions](bigisland:/events). Send one island, the occasion, and the dates on [the quote form](/quote). Desk: ${desk}.`,
+      `One coordinator can hold several nights on the same island. Each night stays its own line. Oʻahu and Maui take a written quote. On Kauaʻi, request availability. On Hawaiʻi Island, join the inquiry list, west side first. A crew does not cross islands the same day. Open the host that has the house: [Oʻahu occasions](oahu:/events), [Maui occasions](maui:/events), [Kauaʻi occasions](kauai:/events), [Hawaiʻi Island occasions](bigisland:/events). Send one island, the occasion, and the dates on [the quote form](/quote). Desk: ${desk}.`,
     ],
     faqs: [
       {
@@ -511,7 +511,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       },
       {
         q: 'Do Kauaʻi and Hawaiʻi Island occasions take a quote or an inquiry?',
-        a: 'Kauaʻi is request availability. Hawaiʻi Island is join the inquiry list, west side first. Oʻahu and Maui take a written quote. A printed occasion page is not a held date on the inquiry islands.',
+        a: 'On Kauaʻi, request availability. On Hawaiʻi Island, join the inquiry list, west side first. Oʻahu and Maui take a written quote. A printed occasion page is not a held date on the inquiry islands.',
       },
       {
         q: 'Can the same crew cook an occasion on two islands in one day?',
@@ -1090,7 +1090,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       },
       {
         q: 'Which islands take an offsite quote, and which take an inquiry?',
-        a: 'Oʻahu and Maui take a written quote. Kauaʻi is request availability. Hawaiʻi Island is join the inquiry list, west side first. The hub does not hold a date for any of them.',
+        a: 'Oʻahu and Maui take a written quote. On Kauaʻi, request availability. On Hawaiʻi Island, join the inquiry list, west side first. The hub does not hold a date for any of them.',
       },
       {
         q: 'How is a multi-island offsite quoted?',

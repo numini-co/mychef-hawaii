@@ -295,7 +295,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       h1: 'Servers on Kauai — quoted hourly, inquiry, both shores.',
       title: 'Servers on Kauai — quoted hourly, inquiry | myCHEF',
       description:
-        'Server add-ons for Princeville and Poʻipū. Inquiry stage. Hourly, itemised. Far-North inherits the bridge clause.',
+        'Server add-ons for Princeville and Poʻipū. Request availability. Hours are itemized when a crew exists. Far-north calls inherit the Hanalei bridge clause.',
       lede:
         'An estate table needs hands. Inquiry. We write the hours when the crew exists. We will not fake a roster.',
       photo: 'staffServersKauai',
@@ -476,7 +476,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       h1: 'Bartenders on the Kohala Coast — hourly, west side, inquiry.',
       title: 'Bartenders on the Kohala Coast — hourly, inquiry | myCHEF',
       description:
-        'Bartender add-ons for Kona and Kohala. Inquiry stage. East side is a different day. No theatrical tiki service.',
+        'Bartender add-ons for Kona and Kohala terraces. Join the inquiry list. The night is quoted in writing. The east side is a different day.',
       lede: 'Citrus on lava, hard sun. Not Hilo.',
       photo: 'staffBartendersBigisland',
       body: [

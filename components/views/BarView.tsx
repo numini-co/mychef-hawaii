@@ -53,7 +53,7 @@ const hubMobileBarFaqs = [
   },
   {
     q: 'Which islands take a written package quote, and which take a request?',
-    a: '[Oʻahu](oahu:/mobile-bar) and [Maui](maui:/mobile-bar) take a written quote. [Kauaʻi](kauai:/mobile-bar) is a request for availability: name Princeville, Poʻipū, or the Hanalei-bridge weather. [Hawaiʻi Island](bigisland:/mobile-bar) is join the inquiry list, Kona–Kohala first. Hilo is its own day.',
+    a: '[Oʻahu](oahu:/mobile-bar) and [Maui](maui:/mobile-bar) take a written quote. [Kauaʻi](kauai:/mobile-bar) is a request for availability: name Princeville, Poʻipū, or the Hanalei-bridge weather. On [Hawaiʻi Island](bigisland:/mobile-bar), join the inquiry list, Kona–Kohala first. Hilo is its own day.',
   },
   {
     q: 'Can the cart sit on the same quote as dinner?',

@@ -22,6 +22,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       photo: 'cellLanikai',
       body: [
         'The same 30-day estate rule as Kailua applies, in a quieter beach-house inventory. Galley kitchens are common, so the menu is written for the burners that are there. Parking on these residential streets is limited. A weekend tourist drop-in without a genuine stay is declined. There is no restaurant strip to walk to. Request a written quote on [the quote form](/quote) with the address and the length of the stay.',
+        'Treat the month as the booking, not a weekend corridor next to Kailua. Name the galley and where the car parks before the shop. Lanikai and Kailua are both base zone. Prices and the separate fee lines are on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -39,6 +40,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Is Lanikai booked as a second Kailua corridor?',
           a: 'It is the quieter beach-house inventory next to Kailua, not a copy of that town page. Both are base zone. Open [Kailua](/kailua) for the town, and this page for the quieter streets. Request a written quote for the house you have.',
+        },
+        {
+          q: 'What does a 30-day Lanikai note have to include?',
+          a: 'The address, the length of the stay, the galley, and where the car parks. The same 30-day rule as Kailua applies. A one-night drop-in without a genuine stay is declined. Request a written quote on [the quote form](/quote).',
         },
       ],
       related: [
@@ -59,6 +64,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       photo: 'cellHawaiiKai',
       body: [
         'This is east Honolulu, and the usual table is a resident household rather than a tourist villa. Traffic is planned into the chef day. It is a timing problem, not a surprise invoice. A working cooktop is required. Weekly service for residents is on our [kamaʻāina](/kamaaina) page. Request a written quote on [the quote form](/quote) with the house and the headcount.',
+        'Send the household the way you would send any Resident’s Island kitchen: the cooktop, the fridge, the table, and the headcount. East Honolulu traffic changes the arrival, not the invoice. Fee lines stay on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -76,6 +82,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         {
           q: 'What has to be true of a Hawaiʻi Kai kitchen before you quote?',
           a: 'A cooktop, cold storage, and room for the headcount. We do not publish a minimum counter length. If the household range cannot hold the menu, we say so before you accept. Request a written quote on [the quote form](/quote). Bands are on [pricing](/pricing).',
+        },
+        {
+          q: 'What does a Hawaiʻi Kai household note need besides the date?',
+          a: 'The cooktop, the fridge, the table, and how many people sit down. Resident entertaining is the usual night, not a tourist villa. Traffic is planned into the chef day, so the address sets the clock. Request a written quote on [the quote form](/quote).',
         },
       ],
       related: [
@@ -96,6 +106,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       photo: 'cellDiamondHead',
       body: [
         'These are Gold Coast-adjacent residences with real dining rooms, on quieter residential streets than a resort strip. Building rules vary, so load-in is confirmed in writing. Celebration tables of 4–15 are the usual fit. Hotel suites without a cooktop stay declined. We will not sell a rooftop we do not control. Request a written quote on [the quote form](/quote) and name the building type.',
+        'This is the residence beside the cone, not the Kahala estate page. Say which entrance the crew uses and that the dining room has a cooktop. We will not sell a rooftop we do not control.',
       ],
       faqs: [
         {
@@ -113,6 +124,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Will you use a hotel suite or a rooftop at Diamond Head?',
           a: 'A hotel suite without a cooktop is declined. A rooftop we do not control is not for sale. The night is the dining room in the residence. Name the building on [the quote form](/quote). Fee lines are on [pricing](/pricing).',
+        },
+        {
+          q: 'What should a Diamond Head residence note say about load-in?',
+          a: 'The building type, which door the crew uses, and that the dining room has a cooktop. Rules vary by building, so load-in is written before the shop. Request a written quote for this residence, not the Kahala page.',
         },
       ],
       related: [
