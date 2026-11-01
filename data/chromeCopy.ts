@@ -86,7 +86,7 @@ export const islandChooserCopy: Record<
 export const hubIslandsPage = {
   guideHeading: 'How the four hosts differ.',
   paras: [
-    'Four hosts, four crews. Oʻahu and Maui take a written quote. Kauaʻi is request availability. Hawaiʻi Island is join the inquiry list, and only the west side is in that request. Hilo, on the east side, is a dedicated day on the Hawaiʻi Island site. It is not another island, and it is not a same-afternoon add-on.',
+    'Four hosts, four crews. Oʻahu and Maui take a written quote. On Kauaʻi, request availability. On Hawaiʻi Island, join the inquiry list, and only the west side is in that request. Hilo, on the east side, is a dedicated day on the Hawaiʻi Island site. It is not another island, and it is not a same-afternoon add-on.',
     `One booking cannot cover two islands. Each island is quoted alone because the kitchen, the drive, and the people are not shared. There is no same-day crossing. A hotel room without a real cooktop is declined on every host. The cards below open the site that has the house. Start on [the quote form](/quote) and name one island. Desk: ${DESK_EMAIL}, +1 ${DESK_PHONE_DISPLAY} (${DESK_TEL}), WhatsApp ${DESK_WHATSAPP}.`,
   ],
   feeNote:
@@ -98,7 +98,7 @@ export const hubIslandsPage = {
     },
     {
       q: 'Which islands take a written quote, and which take an inquiry?',
-      a: 'Oʻahu and Maui take a written quote. Kauaʻi is request availability. Hawaiʻi Island is join the inquiry list. A card on this page is not a held date on the inquiry islands.',
+      a: 'Oʻahu and Maui take a written quote. On Kauaʻi, request availability. On Hawaiʻi Island, join the inquiry list. A card on this page is not a held date on the inquiry islands.',
     },
     {
       q: 'Can one booking span two islands?',
@@ -122,7 +122,7 @@ export const hubIslandsPage = {
     },
     {
       q: 'How do I start from this page?',
-      a: `Open the card for one island, or send that island on [the quote form](/quote). Oʻahu and Maui get a written quote. Kauaʻi is request availability. Hawaiʻi Island is join the inquiry list. Desk: ${DESK_EMAIL}, +1 ${DESK_PHONE_DISPLAY} (${DESK_TEL}), WhatsApp ${DESK_WHATSAPP}.`,
+      a: `Open the card for one island, or send that island on [the quote form](/quote). Oʻahu and Maui get a written quote. On Kauaʻi, request availability. On Hawaiʻi Island, join the inquiry list. Desk: ${DESK_EMAIL}, +1 ${DESK_PHONE_DISPLAY} (${DESK_TEL}), WhatsApp ${DESK_WHATSAPP}.`,
     },
   ],
 };
