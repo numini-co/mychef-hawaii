@@ -17,20 +17,28 @@ import { PRIVATE_CHEF_PAGE_ANCHOR } from '@/lib/ownerAnchors';
 
 const hubBarFaqs = [
   {
-    q: 'Which island page books the terrace hour?',
-    a: 'The mobile bar page on the island with the house. [Oʻahu](oahu:/mobile-bar) and [Maui](maui:/mobile-bar) take a written quote. [Kauaʻi](kauai:/mobile-bar) is a request for availability. [Big Island](bigisland:/mobile-bar) is join the inquiry list, Kona–Kohala first.',
+    q: 'Which island page books the dinner-hour bartender?',
+    a: 'The bar page on the island with the house. [Oʻahu bar](oahu:/bar) and [Maui bar](maui:/bar) take a written quote. On [Kauaʻi bar](kauai:/bar), request availability and name Princeville or Poʻipū. On [Hawaiʻi Island bar](bigisland:/bar), join the inquiry list, Kona–Kohala first. Hilo is its own day.',
   },
   {
-    q: 'Is this hub page the four-hour cart?',
-    a: 'It only routes you. The four-hour package, with the cart, citrus, and ice, is written on that island’s mobile bar page. A cocktail hour inside a dinner is still a line on the same written quote.',
+    q: 'Who supplies the spirits for a dinner-hour bartender?',
+    a: 'You do, or the desk buys them and attaches the receipts at cost. Say which in the note so the reply does not add a bottle line you did not ask for. The four-hour package kit is the mobile bar. No bartender hour is published on this page.',
   },
   {
-    q: 'How do I ask for a Kauaʻi terrace hour?',
-    a: 'Request availability on [Kauaʻi mobile bar](kauai:/mobile-bar) and name Princeville, Hanalei, or Poʻipū. Those shores are not one driveway. A reply does not hold the glassware. Far-north weather can still move the night.',
+    q: 'How do I ask for an Oʻahu bartender in a tower?',
+    a: 'Request a written quote on [Oʻahu bar](oahu:/bar). Name Honolulu, Kahala, Ko Olina, or Kailua, the date, and the building’s load-in if the tower has one. The dinner and the pour can share one note as separate lines.',
   },
   {
-    q: 'Can the cart pour in Hilo on the same day as Kona?',
-    a: 'The cart stays on the Kona–Kohala side unless the east is booked as its own day. Open [Big Island mobile bar](bigisland:/mobile-bar) and join the inquiry list for the terrace you mean. A Hilo pour is not a second stop after a Kohala sunset.',
+    q: 'What should a Maui arrival-night pour say?',
+    a: 'The villa, the shore, and that it is the night you land. Wailea, Kapalua, and Kāʻanapali quotes are open on [Maui bar](maui:/bar). Say whether the house already bought the bottles. The reply writes the pour as its own line.',
+  },
+  {
+    q: 'Does a Kauaʻi availability reply reserve the terrace?',
+    a: 'It does not. Request availability on [Kauaʻi bar](kauai:/bar) and name Princeville or Poʻipū. Rain or the Hanalei bridge can move a far-north night. The station is real only when the reply says a crew exists.',
+  },
+  {
+    q: 'Where does a Big Island bartender inquiry start?',
+    a: 'On the Kona–Kohala side. Join the inquiry list on [Hawaiʻi Island bar](bigisland:/bar) and name that terrace. Hilo glassware is a separate dedicated day, not a second stop after sunset. The reply quotes the night in writing.',
   },
 ];
 
@@ -269,11 +277,11 @@ export function HubBarView() {
       <Hero src={photos.barHero.file} alt={photos.barHero.alt} min="short">
         <p className="text-[13px] text-mute">Cocktails</p>
         <LineReveal
-          text="Cocktails where you already are."
+          text="Private bartender for Hawaii rentals."
           className="mt-5 font-display text-[clamp(2.5rem,6vw,4rem)] font-light leading-[1.05] text-ink"
         />
         <p className="mt-6 max-w-[54ch] text-[17px] leading-[1.65] text-ink">
-          A bartender, a terrace bar, citrus and ice — stacked with dinner or booked as its own hour.
+          The dinner-hour bartender for a Hawaii rental, with citrus, ice, and glassware. The four-hour cart is a separate package.
         </p>
         <p className="mt-5 text-[17px] text-ink">From {formatMobileBarGuest('maui')}, Maui.</p>
         <div className="mt-8">
@@ -281,10 +289,10 @@ export function HubBarView() {
         </div>
       </Hero>
       <DocumentCopy
-        heading="Open the island mobile bar."
+        heading="Open the island bar."
         paras={[
-          'The terrace hour is booked on the island where the glassware goes, not from this hub page. [Oʻahu mobile bar](oahu:/mobile-bar) covers Waikīkī residences, Kahala lawns, Ko Olina villas, and Kailua houses. Request a written quote. [Maui mobile bar](maui:/mobile-bar) is the welcome pour in Wailea, Kapalua, and Kāʻanapali. Quotes are open.',
-          '[Kauaʻi mobile bar](kauai:/mobile-bar) is Princeville, Hanalei, and Poʻipū. Request availability and name the shore. [Big Island mobile bar](bigisland:/mobile-bar) is Kona–Kohala first. Join the inquiry list. Hilo is not added to a west-side pour. The packaged cart on each of those pages is the four-hour line. This page only routes you.',
+          'A private bartender for a Hawaii rental is the person on the terrace for the dinner hour, or that hour booked alone. The hour includes the bartender, citrus, ice, and glassware. Spirits are billed at cost with receipts, or you bring them. No bartender hour is published. The line is quoted in writing. The four-hour cart, with its package price, is the mobile bar page. Use that page for the package. Use this page when the pour sits with dinner. This hub does not pour, and a note here does not reserve the glassware.',
+          'After you write, the island with the house answers. On Oʻahu, request a written quote for a Resident’s Island hour in Honolulu, Kahala, Ko Olina, or Kailua, and include the building’s load-in, on [Oʻahu bar](oahu:/bar). On Maui, quotes are open for a Villa Week terrace in Wailea, Kapalua, or Kāʻanapali, including the night you land, on [Maui bar](maui:/bar). On Kauaʻi, request availability for a Garden Isle terrace in Princeville or Poʻipū on [Kauaʻi bar](kauai:/bar), and name rain or the Hanalei bridge. A reply does not hold the station. On Hawaiʻi Island, join the inquiry list for an Expedition terrace on the Kona–Kohala side, on [Hawaiʻi Island bar](bigisland:/bar). Hilo glassware is a separate dedicated day. Service at 20% and Hawaiʻi GET up to 4.712% sit on [pricing](/pricing), then a 50% deposit. Gratuity is never required. Send the hour on [the quote form](/quote).',
         ]}
       />
       <IslandBarPicker

@@ -146,9 +146,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Wedding catering Hawaii: one team for the whole week. Welcome dinner, ceremony, and the days after. Request a quote.',
   },
   '/bar': {
-    title: 'Terrace bartender, by island | myCHEF',
+    title: 'Private bartender for Hawaii rentals | myCHEF',
     description:
-      'A terrace bartender with dinner, or booked alone. Open the island mobile bar page for the package. Oʻahu and Maui take a written quote.',
+      'A private bartender for a Hawaii rental dinner, or the hour alone. The four-hour cart is a separate package. Open the island bar page, then pricing.',
   },
   '/mobile-bar': {
     title: 'Mobile bar Hawaii | 4-hour villa package | myCHEF',
@@ -195,9 +195,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Statewide answers on signature dinners, Stay Chef days, fee lines, and a two-island trip. Then open the FAQ for the house.',
   },
   '/coverage': {
-    title: 'Where we cook, island by island | myCHEF',
+    title: 'Where our private chefs cook in Hawaii | myCHEF',
     description:
-      'Open the island that has the house. Each coverage page names where we cook and how dates are confirmed in writing. This hub page only routes you there.',
+      'Where private chefs cook in Hawaii: each island’s base area, and how travel prints as its own quote line. Open that coverage page, then pricing.',
   },
   '/contact': {
     title: 'How to reach a desk, by island | myCHEF Hawaii',
@@ -210,19 +210,19 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Private chef towns already published on each island: open that town list, then pricing. This page names those places and does not add a travel fee.',
   },
   '/menus': {
-    title: 'How menus are designed, by island | myCHEF Hawaii',
+    title: 'Private chef menus in Hawaii: how a menu is built | myCHEF',
     description:
-      'Oʻahu, Maui, Kauaʻi and Hawaiʻi Island menus — designed per table, not a standing carte. Published USD prices in writing.',
+      'How a private chef menu is built in Hawaii for one table. Samples live on each island. Groceries stay inside the dinner band. Open that menus page.',
   },
   '/help': {
-    title: 'Help desks, by island | myCHEF Hawaii',
+    title: 'Private chef help center for Hawaii bookings | myCHEF',
     description:
-      'Island help for a first note, a menu draft, and a change after you accept. Open the island where the house is, then pricing for the fee lines.',
+      'A Hawaii private chef help center for the first note, the menu draft, and a change after you accept. Open the island desk, then the fee lines.',
   },
   '/fine-dining': {
-    title: 'In-villa formats, by island | myCHEF Hawaii',
+    title: 'Fine dining at your Hawaii villa | myCHEF',
     description:
-      'Each island lists in-villa formats — not a Michelin claim.',
+      'Fine dining at your Hawaii villa: romantic dinner, tasting menu, counter evening, or celebration. Not a star claim. Open the island page, then pricing.',
   },
   '/staffing': {
     title: 'Staffing add-ons, by island | myCHEF Hawaii',
