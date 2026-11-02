@@ -234,9 +234,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'Villa occasions across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
   },
   '/what-we-dont-do': {
-    title: 'What we will not claim, by island | myCHEF Hawaii',
+    title: 'What myCHEF Hawaii does not offer or claim | myCHEF',
     description:
-      'Each island publishes its own claim list.',
+      'What myCHEF Hawaii will not claim: no invented reviews, no ballroom catering, no same-day island hop. Private chef dinners and Stay Chef are on pricing.',
   },
   '/guest-counts': {
     title: 'Guest counts for a Hawaii villa dinner | myCHEF',
@@ -274,14 +274,14 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'What a private chef costs in Hawaii: the per-guest band, 20% service, GET up to 4.712%, and a 50% deposit. Each island writes the total before you pay.',
   },
   '/meal-prep': {
-    title: 'Meal prep by island, not sold yet | myCHEF Hawaii',
+    title: 'Meal prep service in Hawaii: not offered yet | myCHEF',
     description:
-      'Meal prep is not sold on any island yet. A cook in the house is Stay Chef. One dinner is on pricing. A prep price would publish on the island page.',
+      'Meal prep service in Hawaii is not sold yet. There is no container price and no waitlist. A cook in the house is Stay Chef. One dinner is on pricing.',
   },
   '/cooking-classes': {
-    title: 'Cooking classes by island, not offered | myCHEF Hawaii',
+    title: 'Private cooking classes in Hawaii: not offered | myCHEF',
     description:
-      'Cooking classes are not offered on any island right now. No instructor and no schedule. Guests can watch the chef cook on that island’s chef’s table page.',
+      'Private cooking classes in Hawaii are not offered. There is no instructor and no schedule. Watch the chef cook at that island’s chef’s table.',
   },
   '/omakase-at-home': {
     title: 'Omakase at home with a Hawaii private chef | myCHEF',

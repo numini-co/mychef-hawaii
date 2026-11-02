@@ -521,10 +521,10 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
   },
   whatWeDontDo: {
     path: '/what-we-dont-do',
-    h1: 'What we will not claim, by island.',
-    title: 'What we will not claim, by island | myCHEF Hawaii',
+    h1: 'What myCHEF Hawaii will not offer or claim.',
+    title: 'What myCHEF Hawaii does not offer or claim | myCHEF',
     description:
-      'What we will not claim, by island: no invented reviews, no ballroom catering, no same-day island hop. Fee lines stay visible. Open the island page.',
+      'What myCHEF Hawaii will not claim: no invented reviews, no ballroom catering, no same-day island hop. Private chef dinners and Stay Chef are on pricing.',
     lede:
       'This directory only routes you. Each island writes what it will not claim. This page does not cook, and it does not invent a review.',
     kicker: 'Statewide · Honesty',
@@ -533,11 +533,12 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     body: [
       'Open the island that has the house: [Oʻahu limits](oahu:/what-we-dont-do), [Maui limits](maui:/what-we-dont-do), [Kauaʻi limits](kauai:/what-we-dont-do), or [Hawaiʻi Island limits](bigisland:/what-we-dont-do). Reviews, hotel rooms, ballrooms, and same-day travel are written there.',
       'Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry: join the inquiry list for the west side. Hilo is a separate dedicated east-side day, quoted in writing. Fee lines live on [pricing](/pricing). This directory does not hold a date.',
+      'Read this page as the limit list, not a menu of add-ons. We will not invent a review, a star rating, a guest statistic, a chef name, or a license, and we will not print a now-serving line ahead of a staffed kitchen. Ballroom catering is not offered. A hotel room without a cooktop is declined. What you can request is a private chef dinner or a Stay Chef day in a house kitchen. Open [pricing](/pricing) for the bands and the fee lines, then [the quote form](/quote) for the house. The island limit pages keep the local wording. This directory still does not cook, and it still does not hold a date.',
     ],
     faqs: [
       {
         q: 'Do you have statewide reviews here?',
-        a: 'No. We do not invent them. Open the island page for the house. Reviews publish only after verified events, and never from this directory.',
+        a: 'We do not publish statewide reviews here, and we do not invent them. Open the island page for the house. Reviews publish only after verified events, and never from this directory.',
       },
       {
         q: 'Where do the fee lines live, and is a tip required?',
@@ -545,11 +546,19 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       },
       {
         q: 'Can one crew cook two islands the same day, or Kona and Hilo the same day?',
-        a: 'No. There is no same-day inter-island crossing, and no same-day Kona–Hilo round trip. Open the island that has the house. Hilo is a separate dedicated east-side day, quoted in writing.',
+        a: 'One crew cannot cook two islands the same day, and a Kona day cannot add Hilo. There is no same-day inter-island crossing and no same-day Kona–Hilo round trip. Open the island that has the house. Hilo is a separate dedicated east-side day, quoted in writing.',
       },
       {
         q: 'Which page do I open for the limits on that house?',
         a: `The host that has the kitchen: [Oʻahu](oahu:/what-we-dont-do), [Maui](maui:/what-we-dont-do), [Kauaʻi](kauai:/what-we-dont-do), or [Hawaiʻi Island](bigisland:/what-we-dont-do). Then use that island’s form. Desk: ${desk}.`,
+      },
+      {
+        q: 'Will this page name a chef, a past client, or a star rating?',
+        a: 'This page will not name a chef, a past client, or a star rating, and it will not invent one. Proof here is the fee lines on [pricing](/pricing) and a written total after you accept. Open the island limits page for the house. Reviews publish only after verified events.',
+      },
+      {
+        q: 'Can this page point me to ballroom catering?',
+        a: 'Ballroom catering is not offered, so this page has nowhere to send that request. A hotel room without a cooktop is declined. The work that is offered is a private chef dinner or Stay Chef in a house kitchen, on [pricing](/pricing), then [the quote form](/quote). This directory does not hold the date.',
       },
     ],
   },
@@ -873,10 +882,10 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
   },
   mealPrep: {
     path: '/meal-prep',
-    h1: 'Meal prep is not sold, on any island.',
-    title: 'Meal prep by island, not sold yet | myCHEF Hawaii',
+    h1: 'Meal prep in Hawaii is not sold yet.',
+    title: 'Meal prep service in Hawaii: not offered yet | myCHEF',
     description:
-      'Meal prep is not sold on any island yet. A cook in the house is Stay Chef. One dinner is on pricing. A prep price would publish on the island page.',
+      'Meal prep service in Hawaii is not sold yet. There is no container price and no waitlist. A cook in the house is Stay Chef. One dinner is on pricing.',
     lede:
       'We don’t sell weekly meal prep on any island yet. If that changes, prices will be published on the island page. This directory only routes you.',
     kicker: 'Statewide · Meal prep',
@@ -885,11 +894,12 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     body: [
       'Open the island that has the kitchen. Each page says the same posture in its own words: weekly containers are not for sale. A cook in the house during a stay is [Stay Chef](/vacation-chef): a daily chef fee plus groceries at cost with receipts. A one-night table is that island’s signature dinner.',
       'Oʻahu and Maui take a written quote for the cook or the dinner. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry, west side first. Hilo is a separate dedicated east-side day, quoted in writing. There is no prep price. Bands and fee lines are on [pricing](/pricing).',
+      'Containers are the product this page refuses. Weekly portions for a fridge drop, a porch handoff, or a pickup window are not sold on any island yet. Do not ask for a prep price or a standing delivery day. A cook who shops and cooks in the house during the stay is [Stay Chef](/vacation-chef): the daily chef fee plus groceries at cost with receipts. One seated dinner is the signature band, and the shop for that dinner sits inside the band. Both are on [pricing](/pricing). Send the address on [the quote form](/quote) and say dinner or Stay Chef, not meal prep. If a prep price is ever real, the island page will publish it. We do not keep a waitlist.',
     ],
     faqs: [
       {
         q: 'Can I order weekly meal prep for every island from here?',
-        a: 'No. We don’t sell weekly meal prep on any island yet. Open the page for the house: [Oʻahu meal prep](oahu:/meal-prep), [Maui meal prep](maui:/meal-prep), [Kauaʻi meal prep](kauai:/meal-prep), or [Hawaiʻi Island meal prep](bigisland:/meal-prep). If that changes, the price is published there.',
+        a: 'Weekly meal prep is not sold on any island yet, so this page cannot take that order. Open the page for the house: [Oʻahu meal prep](oahu:/meal-prep), [Maui meal prep](maui:/meal-prep), [Kauaʻi meal prep](kauai:/meal-prep), or [Hawaiʻi Island meal prep](bigisland:/meal-prep). If that changes, the price is published there.',
       },
       {
         q: 'What can I book instead of meal prep?',
@@ -903,14 +913,22 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
         q: 'How do I hear if weekly prep opens, and where are the fee lines?',
         a: `The island page is where a prep price would be published. We do not keep a waitlist. For a dinner now, 20% service and Hawaiʻi GET up to 4.712% print alone after the band, a 50% deposit follows acceptance, and gratuity is never required. See [pricing](/pricing). Desk: ${desk}.`,
       },
+      {
+        q: 'Can the villa fridge be stocked with prepared meals before we land?',
+        a: 'A drop of prepared meals is not sold. Weekly meal prep is not sold on any island yet. Ask for a cook in the house, which is Stay Chef, or for one dinner. Both are on [pricing](/pricing). A prep price, if it ever exists, would be published on the island page.',
+      },
+      {
+        q: 'Can I reserve meal prep now for a later month?',
+        a: 'You cannot reserve meal prep. There is no waitlist and no deposit for prep that is not sold. Request a dinner or a Stay Chef day on [the quote form](/quote) for the island that has the kitchen. This page will not hold a future prep date.',
+      },
     ],
   },
   cookingClasses: {
     path: '/cooking-classes',
-    h1: 'Cooking classes are not offered, on any island.',
-    title: 'Cooking classes by island, not offered | myCHEF Hawaii',
+    h1: 'Cooking classes in Hawaii are not offered.',
+    title: 'Private cooking classes in Hawaii: not offered | myCHEF',
     description:
-      'Cooking classes are not offered on any island right now. No instructor and no schedule. Guests can watch the chef cook on that island’s chef’s table page.',
+      'Private cooking classes in Hawaii are not offered. There is no instructor and no schedule. Watch the chef cook at that island’s chef’s table.',
     lede:
       'We don’t run cooking classes on any island right now. There is no instructor to book from this directory. Watching the chef cook is a different page.',
     kicker: 'Statewide · Classes',
@@ -919,11 +937,12 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     body: [
       'Open the island page. It will say there is no class, no teacher name, and no date. Guests who want to sit where the pans are use that island’s chef’s table: you watch the chef cook and plate. It is not a class and not a lesson. A cook in the house for the stay is [Stay Chef](/vacation-chef).',
       'Oʻahu and Maui take a written quote for a dinner. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry, west side first. Hilo is a separate dedicated east-side day, quoted in writing. There is no class price. Dinner bands and fee lines are on [pricing](/pricing).',
+      'There is nothing to enroll in. A class would need a named instructor, a date on a schedule, and a published class price. None of those exist right now, so do not send a headcount for a lesson. If you want to sit where the pans are, that is the chef’s table on the island with the kitchen: you watch the chef cook and plate the dinner. It is not instruction. A cook in the rental for the stay is [Stay Chef](/vacation-chef), the daily fee plus groceries at cost with receipts, on [pricing](/pricing). A single dinner uses that island’s signature band, groceries inside the band. Send the dinner on [the quote form](/quote). Leave the word class out of the note.',
     ],
     faqs: [
       {
         q: 'Can I book a cooking class from this statewide page?',
-        a: 'No. We don’t run cooking classes on any island right now. Open [Oʻahu classes](oahu:/cooking-classes), [Maui classes](maui:/cooking-classes), [Kauaʻi classes](kauai:/cooking-classes), or [Hawaiʻi Island classes](bigisland:/cooking-classes). None of them has a schedule or an instructor.',
+        a: 'Cooking classes are not offered on any island right now, so this page cannot book one. Open [Oʻahu classes](oahu:/cooking-classes), [Maui classes](maui:/cooking-classes), [Kauaʻi classes](kauai:/cooking-classes), or [Hawaiʻi Island classes](bigisland:/cooking-classes). None of them has a schedule or an instructor.',
       },
       {
         q: 'Where do guests watch the chef cook, if a class is not for sale?',
@@ -936,6 +955,14 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       {
         q: 'How would I hear if a class opens, and where is the dinner price?',
         a: `The island page would publish a class and a price. We do not keep a class list. A dinner uses that island’s band on [pricing](/pricing), groceries inside it, then 20% service and Hawaiʻi GET up to 4.712% alone. A 50% deposit follows acceptance. Gratuity is never required. Desk: ${desk}.`,
+      },
+      {
+        q: 'Is the chef’s table a group cooking class?',
+        a: 'The chef’s table is guests at the rental counter while the chef cooks and plates their dinner. It is not a class, not a lesson, and not an instructor you can hire. Open that island’s chef’s table if you want the counter. A class is still not offered.',
+      },
+      {
+        q: 'Can I buy an hour of instruction for one dish?',
+        a: 'An hour of instruction is not for sale. There is no class price and no schedule on any island. Request a private chef dinner or a Stay Chef day instead, and read the fee lines on [pricing](/pricing). Use [the quote form](/quote) and name the island. We do not keep a class list.',
       },
     ],
   },
