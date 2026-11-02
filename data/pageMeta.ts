@@ -507,9 +507,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'What a private chef costs on Oahu: $195–$290 a guest with groceries inside, Date Night from $675, Stay Chef from $1,250 a day. Service and GET itemized.',
   },
   '/oahu/quote': {
-    title: 'Oahu quote form — corridor, kitchen, written total | myCHEF',
+    title: 'Request a private chef quote on Oʻahu | myCHEF',
     description:
-      'Five fields for an Oahu villa dinner or staffed room. Name the corridor and the kitchen. A written quote follows.',
+      'Request a written Oʻahu quote. Name the corridor, the kitchen, and tower access. The reply lists the rate-card band, the fee lines, and what happens next.',
   },
   '/oahu/legal': {
     title: 'Oahu booking notes — quotes, GET, Gold Coast kitchens | myCHEF',
@@ -579,9 +579,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Private chef Maui cost: $225–$375 a guest with groceries inside the band, Stay Chef from $1,550 a day. 20% service and GET print as their own lines.',
   },
   '/maui/quote': {
-    title: 'Maui quote form — shore, kitchen, written total | myCHEF',
+    title: 'Request a written villa quote on Maui | myCHEF',
     description:
-      'Five fields for a Maui villa dinner or staffed room. Name the shore and the kitchen. Saturday West Maui traffic is planned in.',
+      'Request a written Maui villa quote. Name the shore, arrival night, and the kitchen. The reply lists the rate-card band, the fee lines, and the next step.',
   },
   '/maui/legal': {
     title: 'Maui booking notes — quotes, GET, West Maui travel | myCHEF',
@@ -661,9 +661,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'What a private chef costs on Kauaʻi: $225–$375 a guest, Date Night $975–$1,425, Stay Chef from $1,650 a day. By inquiry, with every fee itemized.',
   },
   '/kauai/quote': {
-    title: 'Kauai inquiry form — both shores, written reply | myCHEF',
+    title: 'Request private chef availability on Kauaʻi | myCHEF',
     description:
-      'Inquiry form for Kauai estate dinners. Name the shore. Hanalei-bridge weather is a clause. We will not fake a live instant-booking button.',
+      'Request private chef availability on Kauaʻi. Name the shore, rain, or a Hanalei-bridge date. The written reply lists the band and the fee lines.',
   },
   '/kauai/legal': {
     title: 'Kauai booking notes — quotes, GET, Hanalei-bridge weather | myCHEF',
@@ -738,9 +738,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'What a private chef costs on the Big Island: dinners from $165, signature $210–$325 a guest, Stay Chef from $1,450 a day. Hilo quoted separately.',
   },
   '/bigisland/quote': {
-    title: 'Big Island chef inquiry — written reply | myCHEF',
+    title: 'Join the Kona–Kohala chef inquiry list | myCHEF',
     description:
-      'Inquiry form for west-side Hawaiʻi Island dinners. East side is a different day. We will not fake a live instant-booking button.',
+      'Join the inquiry list for a Kona–Kohala dinner. Hilo is a separate day. The reply lists the band and the fee lines when that west-side day can be staffed.',
   },
   '/bigisland/legal': {
     title: 'Hawaiʻi Island booking notes — quotes, GET, east-side days | myCHEF',
