@@ -12,15 +12,16 @@ const desk = `${DESK_EMAIL}, +1 ${DESK_PHONE_DISPLAY} (${DESK_TEL}), WhatsApp ${
 
 export const islandIslands: Record<IslandId, IslandNestedIndexPage> = {
   oahu: {
-    h1: 'You’re on our Oʻahu site. Maui, Kauaʻi and the Big Island each have their own.',
-    title: 'The other islands from Oahu — Maui, Kauai, west-side Hawaiʻi | myCHEF',
+    h1: 'Planning the next island after an Oʻahu dinner.',
+    title: 'Planning a multi-island Hawaii trip from Oʻahu | myCHEF',
     description:
-      'You’re on our Oahu site. Maui, Kauai and the Big Island each have their own site.',
-    lede: 'You’re on our Oahu site. Maui, Kauai and the Big Island each have their own site.',
+      'Planning past Oʻahu? This site cooks Honolulu, Kahala, Ko Olina, and Kailua only. Send each later island its own request from the Hawaii home.',
+    lede: 'This site cooks Oʻahu only. Maui, Kauaʻi, and the Big Island each have their own crew.',
     kicker: 'Oʻahu · Other islands',
     photo: 'islandsIndexOahu',
     body: [
-      'Each island is its own host: own chefs, own zones, own quote vs inquiry posture. Kauaʻi and Hawaiʻi Island stay inquiry.',
+      'Oʻahu has its own site because the crew, the zones, and the booking path stay with this island. A Kahala house or a Ko Olina villa is requested here. A later dinner on Maui, Kauaʻi, or the Big Island is not a second stop for this team. There is no same-day inter-island crossing. Guests may fly. This crew stays on Oʻahu. The next island is its own day and its own people.',
+      'Start the rest of the trip at [the Hawaii home](root:/), open [locations](root:/locations), and send each later island its own request through that island’s quote form. One coordinator can hold the thread. The totals are not blended. This host stays open for the Honolulu house.',
     ],
     faqs: [
       {
@@ -29,7 +30,7 @@ export const islandIslands: Record<IslandId, IslandNestedIndexPage> = {
       },
       {
         q: 'Can the Oʻahu crew cook on another island the same day?',
-        a: 'No. There is no same-day inter-island crossing. Guests may fly. This crew stays on Oʻahu. The next island is its own day and its own people.',
+        a: 'This crew stays on Oʻahu. There is no same-day inter-island crossing. Guests may fly. The next island is its own day and its own people.',
       },
       {
         q: 'How do I plan a trip that also eats on another island?',
@@ -39,18 +40,27 @@ export const islandIslands: Record<IslandId, IslandNestedIndexPage> = {
         q: 'If tonight is a Honolulu house and the next dinner is somewhere else, what stays on this site?',
         a: `Only the Oʻahu night. Kahala and Ko Olina quotes are written here. The other dinner is requested on that island’s own site, from [the islands page](root:/islands). Quotes on this host stay open for the house in town. Desk: ${desk}.`,
       },
+      {
+        q: 'If the group flies to Maui after a Honolulu dinner, who cooks the second night?',
+        a: 'The Maui crew cooks the Maui night. This site only writes the Honolulu, Kahala, or Ko Olina dinner. Start the other request from [the Hawaii home](root:/). There is no same-day inter-island crossing. Guests may fly. The totals are not blended.',
+      },
+      {
+        q: 'I am already on the Oʻahu site. Where do I start the rest of a multi-island trip?',
+        a: 'Start at [the Hawaii home](root:/), then [locations](root:/locations), and open the host that has the next house. Send that island its own request through its quote form. One coordinator can hold the thread. This page does not blend a Ko Olina total with another island.',
+      },
     ],
   },
   maui: {
-    h1: 'You’re on our Maui site. Oʻahu, Kauaʻi and the Big Island each have their own.',
-    title: 'The other islands from Maui — Oahu, Kauai, west-side Hawaiʻi | myCHEF',
+    h1: 'A Maui villa week that continues on another island.',
+    title: 'A Maui villa week that also leaves the island | myCHEF',
     description:
-      'You’re on our Maui site. Oahu, Kauai and the Big Island each have their own site.',
-    lede: 'You’re on our Maui site. Oahu, Kauai and the Big Island each have their own site.',
+      'A Wailea or Kapalua week stays on this Maui site. A dinner on another island is a separate request from the Hawaii home, with its own crew.',
+    lede: 'This site quotes the Maui villa. A later island is a different crew and a different request.',
     kicker: 'Maui · Other islands',
     photo: 'islandsIndexMaui',
     body: [
-      'Each island has its own site. Kauaʻi and Hawaiʻi Island bookings start as an inquiry.',
+      'This site exists so a Wailea, Kapalua, or Kāʻanapali week is quoted by the crew that cooks those houses. Oʻahu, Kauaʻi, and the Big Island are not extra lawns on the same booking. A chef team cooks on its own island only. Same-day crossings are declined. A Saturday lānai in Kapalua does not become another island’s kitchen the next morning.',
+      'Plan the nights that leave Maui from [the Hawaii home](root:/). Open [coverage](root:/coverage), then send that island its own request through its quote form. The villa here is a written quote on [this form](/quote). The Saturday drive between Wailea and Kapalua stays on Maui. It is not a flight.',
     ],
     faqs: [
       {
@@ -59,7 +69,7 @@ export const islandIslands: Record<IslandId, IslandNestedIndexPage> = {
       },
       {
         q: 'Can a Maui crew fly to another island and cook that same night?',
-        a: 'No. Same-day crossings are declined. A Saturday lanai in Kapalua does not become another island’s crew the next morning by default. Book that night with the island that has the house.',
+        a: 'Same-day crossings are declined. A Saturday lānai in Kapalua does not become another island’s crew the next morning by default. Book that night with the island that has the house.',
       },
       {
         q: 'How should a week that also leaves Maui be requested?',
@@ -69,19 +79,27 @@ export const islandIslands: Record<IslandId, IslandNestedIndexPage> = {
         q: 'If the lawn is in Wailea and a later dinner is off Maui, which part stays here?',
         a: `The Wailea or West Maui night only, including the Saturday drive if you cross this island. The off-island dinner is a separate request through [the islands page](root:/islands). Quotes here stay open for the villa you named. Desk: ${desk}.`,
       },
+      {
+        q: 'Can a Wailea week and a later Oʻahu night share one Maui total?',
+        a: 'A Wailea week and a later Oʻahu night do not share one Maui total. The villa nights stay a written quote on this site. The Oʻahu dinner is a separate request from [the Hawaii home](root:/). Two notes, even in one email thread.',
+      },
+      {
+        q: 'Does the Saturday drive from Wailea to Kapalua count as leaving Maui?',
+        a: 'The Saturday drive from Wailea to Kapalua stays on Maui and is planned into arrival when you name it. Leaving Maui means another island, which is a different crew and a different request. The lawn in Wailea is still quoted here.',
+      },
     ],
   },
   kauai: {
-    h1: 'You’re on our Kauaʻi site. Oʻahu, Maui and the Big Island each have their own.',
-    title: 'The other islands from Kauai — Oahu, Maui, west-side Hawaiʻi | myCHEF',
+    h1: 'Requesting another island during a Kauaʻi stay.',
+    title: 'Requesting other islands from a Kauaʻi stay | myCHEF',
     description:
-      'You’re on our Kauai site. Oahu, Maui and the Big Island each have their own site.',
-    lede: 'You’re on our Kauai site. Oahu, Maui and the Big Island each have their own site.',
+      'Request availability on Kauaʻi for one shore. Another island’s dinner is a separate note from the Hawaii home. This crew does not cook that night.',
+    lede: 'Request availability for one shore here. Another island is a separate note from the Hawaii home.',
     kicker: 'Kauaʻi · Other islands',
     photo: 'islandsIndexKauai',
     body: [
-      `Inquiry stage.`,
-      'A named shore is not an instant-booking button. Oahu and Maui take written quotes. Hawaiʻi Island is also inquiry, west side first.',
+      'Kauaʻi has its own site so a Princeville or Poʻipū stay is a request for availability on this shore, not a booking that covers Oʻahu or Maui. A chef team cooks on its own island only. There is no same-day inter-island crossing. Rain or a Hanalei bridge closure can move a north-shore night. It does not send this crew off the Garden Isle.',
+      'When the trip also eats elsewhere, start at [the Hawaii home](root:/) and open [locations](root:/locations) for the host that has the next house. Request availability here for one shore on [the quote form](/quote). Send the other island its own note. One coordinator can hold both notes. The totals stay apart.',
     ],
     faqs: [
       {
@@ -90,7 +108,7 @@ export const islandIslands: Record<IslandId, IslandNestedIndexPage> = {
       },
       {
         q: 'Can this Kauaʻi crew cook on another island the same day?',
-        a: 'No. There is no same-day inter-island crossing. A Hanalei bridge closure can already move a north-shore night on this island. It does not move the crew somewhere else.',
+        a: 'This crew stays on Kauaʻi. There is no same-day inter-island crossing. A Hanalei bridge closure can already move a north-shore night on this island. It does not move the crew somewhere else.',
       },
       {
         q: 'How do I plan meals here and on another island?',
@@ -100,20 +118,27 @@ export const islandIslands: Record<IslandId, IslandNestedIndexPage> = {
         q: 'Are nights on Kauaʻi live, or do I request availability?',
         a: `Request availability. A named shore is not a confirmation. We write back when we can staff. This host does not pretend a live roster. Other islands are reached from [the islands page](root:/islands). Desk: ${desk}.`,
       },
+      {
+        q: 'If the Hanalei bridge closes, can this crew cook the night on Oʻahu instead?',
+        a: 'A bridge closure moves the north-shore night on Kauaʻi. It does not move the crew to Oʻahu. Request availability for one shore here. An Oʻahu dinner is a separate written quote, started from [the Hawaii home](root:/).',
+      },
+      {
+        q: 'How do I request availability here and a quote on Maui for the same trip?',
+        a: 'Request availability on [the quote form](/quote) for Princeville or Poʻipū. Open [the Hawaii home](root:/), then send Maui its own written quote for the villa. One coordinator can hold both notes. The totals stay apart. A named shore is not a confirmation.',
+      },
     ],
   },
   bigisland: {
-    h1: 'You’re on our Big Island site. Oʻahu, Maui and Kauaʻi each have their own.',
-    title: 'The other islands from the west side — Oahu, Maui, Kauai | myCHEF',
+    h1: 'Other islands after a west-side Hawaiʻi stay.',
+    title: 'Other islands after a Kona or Kohala stay | myCHEF',
     description:
-      'You’re on our Big Island site. Oahu, Maui and Kauai each have their own site.',
-    lede:
-      'Hilo is not another island; it is on the east-side page.',
+      'Join the inquiry list for Kona or Kohala. Plan any other island from the Hawaii home. Hilo is a separate day, not another island. West side first.',
+    lede: 'Join the inquiry list for the west side. Hilo is the east side of this island, not another island.',
     kicker: 'Hawaiʻi Island · Other islands',
     photo: 'islandsIndexBigisland',
     body: [
-      `West side first.`,
-      'The east side is a dedicated day from the west-side base. Oahu and Maui take written quotes. Kauaʻi is also taking enquiries.',
+      'This site starts on the Kona–Kohala coast, so Oʻahu, Maui, and Kauaʻi are not resorts you add to a west-side inquiry. Each of those islands has its own site and its own crew. A chef team cooks on its own island only. Same-day inter-island crossings are declined. The saddle toward Hilo is already its own day here. Another island is a further day, with that island’s people.',
+      'Join the inquiry list for the west-side house on [the quote form](/quote). For any other island, start at [the Hawaii home](root:/), open [coverage](root:/coverage), and send that host its own request. One coordinator, separate totals. Hilo is not another island. It is the east side of Hawaiʻi Island, a dedicated day. Kauaʻi takes an availability request on its own site.',
     ],
     faqs: [
       {
@@ -122,7 +147,7 @@ export const islandIslands: Record<IslandId, IslandNestedIndexPage> = {
       },
       {
         q: 'Can the west-side crew cook on another island the same day?',
-        a: 'No. Same-day inter-island crossings are declined. The saddle toward Hilo is already its own day on this island. Another island is a further day, with that island’s people.',
+        a: 'Same-day inter-island crossings are declined. The saddle toward Hilo is already its own day on this island. Another island is a further day, with that island’s people.',
       },
       {
         q: 'How do I plan a trip that eats here and then on another island?',
@@ -130,7 +155,15 @@ export const islandIslands: Record<IslandId, IslandNestedIndexPage> = {
       },
       {
         q: 'Is Hilo another island?',
-        a: `No. Hilo is the east side of this island, a dedicated day, never implied by a Kona or Kohala request. It is not a same-day add-on. The other islands are listed on [the islands page](root:/islands). Desk: ${desk}.`,
+        a: `Hilo is the east side of this island, a dedicated day, never implied by a Kona or Kohala request. It is not another island and not a same-day add-on. The other islands are listed on [the islands page](root:/islands). Desk: ${desk}.`,
+      },
+      {
+        q: 'Is a flight to Maui the same kind of separate request as Hilo?',
+        a: 'They are both separate requests, and they are not the same place. Hilo is still this island, a dedicated east-side day. Maui is another island with its own crew. Join the inquiry list for Kona or Kohala, and start Maui from [the Hawaii home](root:/).',
+      },
+      {
+        q: 'How do I join the inquiry list here and still ask Oʻahu for a written quote?',
+        a: 'Join the inquiry list on [the quote form](/quote) for the west-side address. Start at [the Hawaii home](root:/) and send Oʻahu its own written quote. One coordinator, separate totals. This site does not book Oʻahu.',
       },
     ],
   },
