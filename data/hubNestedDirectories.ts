@@ -338,12 +338,12 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     description:
       'Morning brunch in a Hawaii rental, after the kitchen was used the night before. No separate brunch price is published. Open your island, then pricing.',
     lede:
-      'Mid-morning in the villa, not a standing carte.',
+      'Mid-morning in the villa, not a fixed restaurant menu.',
     kicker: 'Statewide · Brunch',
     photo: 'hubOccBrunch',
     cardLabel: 'Brunch',
     body: [
-      'Brunch is a morning in the rental, often the day after dinner, not a restaurant carte. Eggs are cooked then. Fruit and coffee can be set out. Last night’s service is still its own line. No brunch price is published. Signature dinners on [pricing](/pricing) include groceries. Stay Chef is the daily fee plus groceries at cost with receipts.',
+      'Brunch is a morning in the rental, often the day after dinner, not a restaurant menu. Eggs are cooked then. Fruit and coffee can be set out. Last night’s service is still its own line. No brunch price is published. Signature dinners on [pricing](/pricing) include groceries. Stay Chef is the daily fee plus groceries at cost with receipts.',
       'Resident’s Island brunch waits on a Honolulu freight window or a Kahala, Ko Olina, or Kailua kitchen when you request a written quote. A Maui Villa Week brunch is the morning after arrival in Wailea, Kapalua, or Kāʻanapali, and quotes are open. A Garden Isle Retreat asks you to request availability and to say if Princeville rain or the Hanalei bridge kept last night indoors. An Expedition brunch joins the inquiry list on the Kona–Kohala side. Hilo is a separate dedicated east-side morning.',
       'Open [Oʻahu brunch](oahu:/events/brunch), [Maui brunch](maui:/events/brunch), [Kauaʻi brunch](kauai:/events/brunch), or [Big Island brunch](bigisland:/events/brunch), then [pricing](/pricing) and [the quote form](/quote).',
     ],
@@ -354,7 +354,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
       },
       {
         q: 'What is cooked in the morning, and what must be true of the kitchen?',
-        a: 'Eggs are cooked then. Fruit and coffee can be set out. The counters have to be usable after whatever happened the night before. We do not publish a brunch carte. Dietary limits belong in the note before the shop.',
+        a: 'Eggs are cooked then. Fruit and coffee can be set out. The counters have to be usable after whatever happened the night before. We do not publish a brunch menu you order from. Dietary limits belong in the note before the shop.',
       },
       {
         q: 'Can one crew cook Maui dinner and Oʻahu brunch the next morning?',
@@ -665,15 +665,16 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
   },
   staffServers: {
     path: '/staffing/servers',
-    h1: 'Server add-ons, by island.',
-    title: 'Server add-ons, by island | myCHEF Hawaii',
-    description: `Server add-ons by island at $${serverHr}/hr on the written quote, plus 20% service and GET. The full guide is the statewide waiters page, then your island.`,
+    h1: 'Hire servers for a private dinner in Hawaii.',
+    title: 'Hire servers for a private dinner in Hawaii | myCHEF',
+    description: `Hire servers for a Hawaii villa dinner at $${serverHr}/hr on their own quote line, plus 20% service and GET. Open the island server page from the cards below.`,
     lede: `Servers are an hourly line on the written quote: $${serverHr}/hr, minimum ${minHours} hours, with 20% service and Hawaiʻi GET up to 4.712% on their own lines. A sous chef is a separate $${sousHr}/hr line. The full guide for a villa dinner, a week, or a party is [waiters](/in-villa-services/waiters). Use this page only to pick the island. Oʻahu and Maui quotes are open. Kauaʻi and the Big Island are request availability.`,
     kicker: 'Statewide · Servers',
     photo: 'hubStaffServers',
     cardLabel: 'Servers',
     body: [
       `Open [Oʻahu servers](oahu:/staffing/servers), [Maui servers](maui:/staffing/servers), [Kauaʻi servers](kauai:/staffing/servers), or [Big Island servers](bigisland:/staffing/servers) after the statewide guide. The hour is the same figure. The booking posture is not. A 50% deposit follows a written yes. Gratuity is never required. Desk: ${desk}.`,
+      'A server at a villa dinner carries each course, refills water, and clears while the chef stays at the range. Hire one when the night is plated, or when the list is too large for the cook to serve. Family-style can keep a shorter call. On the written quote that person is a separate line at the published hour, for the hours you name. A 20% service charge and Hawaiʻi GET up to 4.712% print after it. A 50% deposit follows acceptance. Gratuity is never required. Use the island cards on this page. Oʻahu and Maui take a written quote. On Kauaʻi, request availability and name the shore. On the Big Island, join the inquiry list, Kona–Kohala first.',
     ],
     faqs: [
       {
@@ -690,22 +691,31 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
       },
       {
         q: 'Does the Big Island server line cover Hilo?',
-        a: `No. [Big Island servers](bigisland:/staffing/servers) are Kona to Kohala, by request for availability, at $${serverHr}/hr plus 20% service and GET up to 4.712%. Hilo is a different day. Do not add it to a west-side server ask.`,
+        a: `Hilo is a different day. [Big Island servers](bigisland:/staffing/servers) are Kona to Kohala, by request for availability, at $${serverHr}/hr plus 20% service and GET up to 4.712%. Do not add Hilo to a west-side server ask.`,
+      },
+      {
+        q: 'What does a server do during a villa dinner?',
+        a: 'The server carries the courses, keeps water on the table, and clears between plates. The chef stays at the range. A plated night needs that split. Family-style can be a shorter call. The hour is still its own line on the quote.',
+      },
+      {
+        q: 'How does the server line sit next to the food on the written quote?',
+        a: 'Food or the day fee prints first. Server hours print as their own line at the published hour, separate from a sous-chef line. A 20% service charge and Hawaiʻi GET up to 4.712% follow those lines. A 50% deposit follows acceptance. Gratuity is never required.',
       },
     ],
   },
   staffBartenders: {
     path: '/staffing/bartenders',
-    h1: 'Bartender hourly lines, by island.',
-    title: 'Bartender hourly lines, by island | myCHEF Hawaii',
+    h1: 'Hire a private bartender in Hawaii.',
+    title: 'Hire a private bartender in Hawaii | myCHEF',
     description:
-      'Bartender add-ons by island are quoted in writing. No hourly rate is published. The full guide is the statewide bartenders page, then your island.',
+      'Hire a bartender for a Hawaii villa dinner. The line is quoted in writing, with no hourly rate published. Open the island bartender page from the cards.',
     lede: `Bartenders are quoted in writing. No hourly bartender rate is published on the card or on this page. The full guide — a villa bar, glassware, and how a night is scoped — is [bartenders](/in-villa-services/bartenders). This page only routes you to an island. Oʻahu and Maui take a written quote. Kauaʻi and the Big Island are request availability, not a confirmed pour.`,
     kicker: 'Statewide · Bartenders',
     photo: 'hubStaffBartenders',
     cardLabel: 'Bartenders',
     body: [
       `Open [Oʻahu bartenders](oahu:/staffing/bartenders), [Maui bartenders](maui:/staffing/bartenders), [Kauaʻi bartenders](kauai:/staffing/bartenders), or [Big Island bartenders](bigisland:/staffing/bartenders). A 50% deposit applies only after you accept the written total. 20% service and Hawaiʻi GET up to 4.712% are their own lines on that total. Gratuity is never required. Desk: ${desk}.`,
+      'A bartender at a villa dinner sets the station before guests arrive, pours what the house brought, and packs the bar down at the end time. Call one when the chef should stay on the food, or when cocktail hour stands on its own. This page is the person, not the four-hour cart. The written quote shows that person as a separate line, with no hourly rate beside it. A 20% service charge and Hawaiʻi GET up to 4.712% follow the total. A 50% deposit follows acceptance. Gratuity is never required. Open the island card for the terrace. Oʻahu and Maui take a written quote. On Kauaʻi, request availability. On the Big Island, join the inquiry list for Kona–Kohala.',
     ],
     faqs: [
       {
@@ -722,16 +732,24 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
       },
       {
         q: 'Does a Big Island bartender request include Hilo?',
-        a: `No. [Big Island bartenders](bigisland:/staffing/bartenders) are Kona to Kohala, quoted in writing, and only by request for availability. Hilo is not implied. Send it as its own east-side day if that is the house.`,
+        a: 'Hilo is not included. [Big Island bartenders](bigisland:/staffing/bartenders) are Kona to Kohala, quoted in writing, and only by request for availability. Send Hilo as its own east-side day if that is the house.',
+      },
+      {
+        q: 'What does a bartender do at a villa dinner?',
+        a: 'They set the station before guests, pour what the house supplied, and close the bar at the end time you named. The chef stays on the food. This is the person for those hours, not the four-hour cart. The amount is quoted in writing.',
+      },
+      {
+        q: 'How is a bartender shown when no hourly rate is on the card?',
+        a: 'As its own written line, with no hourly figure beside it. The only published staffing hours are the server and the sous chef. A 20% service charge and Hawaiʻi GET up to 4.712% follow the total. A 50% deposit follows acceptance. Gratuity is never required.',
       },
     ],
   },
   staffButlers: {
     path: '/staffing/butlers',
-    h1: 'Quoted butler lines, by island.',
-    title: 'Butler service by island | myCHEF Hawaii',
+    h1: 'Hire a private butler for a Hawaii villa dinner.',
+    title: 'Hire a private butler for a Hawaii villa dinner | myCHEF',
     description:
-      'Butlers are a written line on the island with the house. Open that butler page. Oʻahu and Maui quote. Kauaʻi and the Big Island confirm in writing.',
+      'Hire a butler for a Hawaii villa dinner. Quoted in writing, and only when that island can staff the night. Open the island butler page.',
     lede:
       'Quoted in writing, and only when that island can staff the night. This page routes you. It does not send a crew.',
     kicker: 'Statewide · Butlers',
@@ -740,6 +758,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     body: [
       'A butler is a written line on the island that can staff the night. This page does not dispatch anyone. [Oʻahu butlers](oahu:/staffing/butlers) cover Honolulu, Kahala, and Ko Olina. Request a written quote. [Maui butlers](maui:/staffing/butlers) cover Wailea and West Maui villa weeks. Quotes are open.',
       '[Kauaʻi butlers](kauai:/staffing/butlers) cover both shores. Request availability. [Big Island butlers](bigisland:/staffing/butlers) are Kona–Kohala first. Join the inquiry list. Hilo is a separate dedicated day, not a butler added to a west-side night. If you need a server instead, open [Oʻahu servers](oahu:/staffing/servers), [Maui servers](maui:/staffing/servers), [Kauaʻi servers](kauai:/staffing/servers), or [Big Island servers](bigisland:/staffing/servers).',
+      'A butler at a villa dinner runs the house around the meal: rooms, timing, and the table set before anyone sits. Hire one when the stay runs longer than one pass and a dinner server would stop once the plates are cleared. The written quote carries the butler as its own line, and only when that island can staff the night. No hourly butler figure is published. A 20% service charge and Hawaiʻi GET up to 4.712% follow that line. A 50% deposit follows a written yes. Gratuity is never required. Use the island card for the house. Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. The Big Island is an inquiry, west side first.',
     ],
     faqs: [
       {
@@ -758,6 +777,14 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
         q: 'Does a Big Island butler request include Hilo?',
         a: 'It does not. [Big Island butlers](bigisland:/staffing/butlers) are Kona–Kohala first. Join the inquiry list. Hilo is a separate dedicated day. Do not add a butler to a west-side night and call it Hilo.',
       },
+      {
+        q: 'When should a host add a butler rather than another server?',
+        a: 'Add a butler when the house needs someone across the stay, not only while courses are on the table. A server stops when that dinner is cleared. A butler keeps rooms, timing, and the table. Both can be on one quote as separate lines.',
+      },
+      {
+        q: 'What does the butler line look like on the written quote?',
+        a: 'It is its own line, quoted in writing, and only when that island can staff the night. No hourly butler rate is published. A 20% service charge and Hawaiʻi GET up to 4.712% follow. A 50% deposit follows a written yes. Gratuity is never required.',
+      },
     ],
   },
   menuThree: {
@@ -767,7 +794,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     description:
       'A three-course dinner in a Hawaii rental: a first, a main, and a close. Groceries sit inside the per-guest band. Open an island page, then pricing.',
     lede:
-      'Designed per table, not a fake standing carte.',
+      'Designed per table, not a fixed restaurant menu.',
     kicker: 'Statewide · Three-course',
     photo: 'hubMenuThree',
     cardLabel: 'Three-course',
@@ -787,7 +814,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
       },
       {
         q: 'Is the sample on the menus page the dinner I get?',
-        a: 'It shows length, not your plates. Every table is still designed after we know the kitchen. A tasting menu is a longer arc and lives under fine dining. Do not treat the sample as a carte you can tick.',
+        a: 'It shows length, not your plates. Every table is still designed after we know the kitchen. A tasting menu is a longer arc and lives under fine dining. Do not treat the sample as a list you can tick.',
       },
       {
         q: 'Where do I see the band, and what do I send?',

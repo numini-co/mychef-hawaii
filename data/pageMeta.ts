@@ -62,8 +62,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Private chef cost in Hawaii, by island in USD: Oʻahu $195–$290 a guest, Maui and Kauaʻi $225–$375, Hawaiʻi Island $210–$325. 20% service and GET extra.',
   },
   '/quote': {
-    title: 'Get a quote — myCHEF Hawaii',
-    description: 'Five fields, two minutes. WhatsApp or this form. Typical reply in Hawaii business hours.',
+    title: 'Request a private chef quote in Hawaii | myCHEF',
+    description:
+      'Pick the island first, then send the form. The reply lists the rate-card band, 20% service, Hawaiʻi GET, and a 50% deposit. Gratuity is never required.',
   },
   '/estimate': {
     title: 'Hawaiʻi private chef cost estimator | myCHEF',
@@ -225,9 +226,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Fine dining at your Hawaii villa: romantic dinner, tasting menu, counter evening, or celebration. Not a star claim. Open the island page, then pricing.',
   },
   '/staffing': {
-    title: 'Staffing add-ons, by island | myCHEF Hawaii',
+    title: 'Event staffing for private dinners in Hawaii | myCHEF',
     description:
-      'Choose an island for servers at $80/hr and a separate sous-chef line. Bartenders and butlers are quoted in writing. Kauaʻi and the Big Island stay inquiry.',
+      'Event staffing for a private Hawaii dinner. Servers at $80/hr and a separate sous-chef line. Bartenders and butlers are quoted in writing.',
   },
   '/events': {
     title: 'Villa occasions, by island | myCHEF Hawaii',
@@ -385,19 +386,19 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'A celebration dinner in a Hawaii rental dining room, as a format. Birthdays stay on occasion pages. Open an island, then pricing, for the band.',
   },
   '/staffing/servers': {
-    title: 'Server add-ons, by island | myCHEF Hawaii',
+    title: 'Hire servers for a private dinner in Hawaii | myCHEF',
     description:
-      'Server add-ons by island at $80/hr on the written quote, plus 20% service and GET. The full guide is the statewide waiters page, then your island.',
+      'Hire servers for a Hawaii villa dinner at $80/hr on their own quote line, plus 20% service and GET. Open the island server page from the cards below.',
   },
   '/staffing/bartenders': {
-    title: 'Bartender hourly lines, by island | myCHEF Hawaii',
+    title: 'Hire a private bartender in Hawaii | myCHEF',
     description:
-      'Bartender add-ons by island are quoted in writing. No hourly rate is published. The full guide is the statewide bartenders page, then your island.',
+      'Hire a bartender for a Hawaii villa dinner. The line is quoted in writing, with no hourly rate published. Open the island bartender page from the cards.',
   },
   '/staffing/butlers': {
-    title: 'Butler service by island | myCHEF Hawaii',
+    title: 'Hire a private butler for a Hawaii villa dinner | myCHEF',
     description:
-      'Butlers are a written line on the island with the house. Open that butler page. Oʻahu and Maui quote. Kauaʻi and the Big Island confirm in writing.',
+      'Hire a butler for a Hawaii villa dinner. Quoted in writing, and only when that island can staff the night. Open the island butler page.',
   },
   '/menus/three-course': {
     title: 'Three-course dinner with a Hawaii private chef | myCHEF',

@@ -151,14 +151,31 @@ export function IslandSupportView({
         />
       ) : null}
 
-      {showMenu ? <SampleMenu island={islandId} /> : null}
+      {showMenu ? (
+        <SampleMenu
+          island={islandId}
+          intro={
+            islandId === 'maui'
+              ? 'Built for a Wailea or Kapalua kitchen. You pick the catch; we shop that day. Sushi-forward is a menu direction we can arrange (nigiri, sashimi, hand rolls) — not a separate brand.'
+              : undefined
+          }
+        />
+      ) : null}
 
       {showMenu ? (
         <DocumentPhotoGrid
           islandId={islandId}
           eyebrow={`${island.shortName} · Sample menus`}
           heading="Related pages."
-          intro="Designed per table, not a standing carte."
+          intro={
+            islandId === 'oahu'
+              ? 'Designed for that Honolulu or Kahala table, not a fixed restaurant menu.'
+              : islandId === 'maui'
+                ? 'Designed for that Wailea or Kapalua kitchen, not a printed menu.'
+                : islandId === 'kauai'
+                  ? 'Designed for that shore’s kitchen, not a fixed list you order from.'
+                  : 'Designed for that west-side kitchen, not a printed restaurant menu.'
+          }
           columns={2}
           items={menuSkuPages[islandId].map((sku) => ({
             path: `/menus/${sku.slug}`,

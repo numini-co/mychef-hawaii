@@ -80,7 +80,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       description:
         'How an Oʻahu menu draft is written for one house, how you revise it, and what a name on a fish cannot promise. About 48 hours after a complete request.',
       lede:
-        'The draft is written for your table. The sample on the menus page is an example, not a carte you order from.',
+        'The draft is written for your table. The sample on the menus page is an example, not a fixed restaurant menu you order from.',
       photo: 'helpMenuOahu',
       body: [
         'A complete quote request comes first. The draft follows about 48 hours later and names courses for that Kahala dining room or Ko Olina kitchen, not a standing list. You approve it in writing. A revision of a course, a headcount, or a dietary note goes back in writing before the shop.',
@@ -92,7 +92,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
           a: 'About 48 hours after the request has dates, the house, who is eating, and the dietary list. Then you revise in writing. A partial note does not start that clock. The sample courses are on [menus](/menus).',
         },
         {
-          q: 'Can I choose an Oʻahu dinner off a printed carte?',
+          q: 'Can I choose an Oʻahu dinner off a printed menu?',
           a: 'Every table is designed. The menus page shows examples, including a [three-course](/menus/three-course) shape. It is not a list you tick. Say the direction you want in the note, and the draft is written for the house.',
         },
         {
@@ -709,7 +709,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       description:
         'How a Kona–Kohala draft is written after you join the inquiry list, how revisions work, and why a farm name is not promised. Hilo is a separate day.',
       lede:
-        'A west-side draft is written for one kitchen if a crew can take the day. It is not a standing carte, and it does not include Hilo.',
+        'A west-side draft is written for one kitchen if a crew can take the day. It is not a printed restaurant menu, and it does not include Hilo.',
       photo: 'helpMenuBigisland',
       body: [
         'Join the inquiry list first. If the west side can be staffed, the draft follows about 48 hours after the note is complete. It names courses for that Kona or Waikoloa kitchen. You approve it in writing. A revision goes back before the shop. Hard sun may move a plate inside, and that backup is in the draft.',
@@ -722,7 +722,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
         },
         {
           q: 'Is the kanpachi example the menu for every Kohala table?',
-          a: 'It is an example. The draft is written for the house. A [three-course](/menus/three-course) page shows one length. It is not a carte. Say the direction you want, and the courses are written for that kitchen.',
+          a: 'It is an example. The draft is written for the house. A [three-course](/menus/three-course) page shows one length. It is not a printed menu. Say the direction you want, and the courses are written for that kitchen.',
         },
         {
           q: 'How do west-side revisions work once a draft exists?',

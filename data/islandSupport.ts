@@ -747,19 +747,19 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
     h1: 'Oahu menus — designed per table, Honolulu fish market.',
     title: 'Oahu chef menus — Honolulu fish market | myCHEF',
     description:
-      'Oahu villa menus are designed per table, not a standing carte. Miso-glazed catch, poke tostada, compact-condo kitchens. Sample three-course on this page.',
+      'Oahu villa menus are designed per table, not a fixed restaurant menu. Miso-glazed catch, poke tostada, compact-condo kitchens.',
     lede:
       'Kahala, Ko Olina, Kailua, a Waikīkī residence with a stove — we cook in the kitchen you have. You pick the catch; we shop that day.',
     kicker: 'Oʻahu menus',
     photo: 'menusOahu',
     body: [
-      'There is no laminated carte. A Gold Coast dinner for eight and a Kailua family week are different plates. Kids’ plates are planned with the adults, not an afterthought.',
+      'There is no fixed restaurant menu. A Gold Coast dinner for eight and a Kailua family week are different plates. Kids’ plates are planned with the adults, not an afterthought.',
       'Honolulu fish-market shopping the same day as service when the main is catch. Compact condos get a menu that fits the burners.',
     ],
     faqs: [
       {
         q: 'Can I see a PDF menu?',
-        a: 'You see a sample three-course below and a designed menu in 48 hours after enquiry. We do not publish a fake standing list.',
+        a: 'You see a sample three-course below and a designed menu in 48 hours after inquiry. We do not publish a fake standing list.',
       },
       {
         q: 'Sushi-forward on Oʻahu?',
@@ -767,11 +767,11 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Honolulu catering menus with prices?',
-        a: 'Related search, not a PDF mill. Both show a sample and a starting band. Your designed menu arrives after enquiry.',
+        a: 'Related search, not a PDF mill. Both show a sample and a starting band. Your designed menu arrives after inquiry.',
       },
       {
         q: 'Is an Oahu menu written for the house?',
-        a: 'A Kahala dining room, a Ko Olina villa, and a Kailua family kitchen do not share a carte. We look at the burners, the fridge, and who is sitting down, then write that night. The Honolulu fish market sets the main the morning we cook.',
+        a: 'A Kahala dining room, a Ko Olina villa, and a Kailua family kitchen do not share a fixed menu. We look at the burners, the fridge, and who is sitting down, then write that night. The Honolulu fish market sets the main the morning we cook.',
       },
       {
         q: 'What is on the Oahu sample three-course?',
@@ -787,15 +787,15 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'How is the food bought, and how much notice does an Oahu menu need?',
-        a: 'On a private dinner the shopping sits inside $195–$290 a guest, bought the day we cook. A staffed party of about ten to seventy-five is a different menu — matching plates, same $195–$290 food range — with staffing, a 20% service charge, and GET up to 4.712% written apart from the food. Send the date when the house is held; December through March needs weeks. The designed menu comes back within 48 hours of the enquiry. A multi-day Stay Chef, from $1,250 a day, is the only booking that bills groceries at cost with receipts.',
+        a: 'On a private dinner the shopping sits inside $195–$290 a guest, bought the day we cook. A staffed party of about ten to seventy-five is a different menu — matching plates, same $195–$290 food range — with staffing, a 20% service charge, and GET up to 4.712% written apart from the food. Send the date when the house is held; December through March needs weeks. The designed menu comes back within 48 hours of the inquiry. A multi-day Stay Chef, from $1,250 a day, is the only booking that bills groceries at cost with receipts.',
       },
     ],
   },
   maui: {
-    h1: 'Maui menus — Wailea and Kapalua kitchens, not a carte.',
+    h1: 'Maui menus — Wailea and Kapalua kitchens, written for the house.',
     title: 'Maui chef menus — Wailea to Kapalua | myCHEF',
     description:
-      'Maui menus designed per table for Wailea, Kapalua, and Kāʻanapali. Not a standing carte. Quotes are open, and groceries sit inside the dinner band.',
+      'Maui menus designed per table for Wailea, Kapalua, and Kāʻanapali. Not a printed menu. Quotes are open, and groceries sit inside the dinner band.',
     lede:
       'Built for a Wailea or Kapalua kitchen. You pick the catch; we shop that day. Sushi-forward is a direction, not a separate brand.',
     kicker: 'Maui menus',
@@ -850,7 +850,7 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
     photo: 'menusKauai',
     body: [
       'Ahi poke, kukui, sweet onion — the North Shore handshake. Wood-grilled catch, mango salsa, coconut rice when the South Shore kitchen can take fire.',
-      'Inquiry stage. Menu/IP is designed per table. We do not publish a fake standing carte to look launched.',
+      'Inquiry stage. Menu/IP is designed per table. We do not publish a fake fixed list to look launched.',
     ],
     faqs: [
       {
@@ -875,7 +875,7 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Is a Kauai menu written for that house?',
-        a: 'Yes, at inquiry, for one shore and one kitchen. A Princeville estate under a covered lānai and a Poʻipū house that can hold a grill are planned as different fires, and Hanalei adds the bridge. We do not pass over a standing list and pretend the island is a printed carte.',
+        a: 'Yes, at inquiry, for one shore and one kitchen. A Princeville estate under a covered lānai and a Poʻipū house that can hold a grill are planned as different fires, and Hanalei adds the bridge. We do not pass over a standing list and pretend the island is a fixed restaurant list.',
       },
       {
         q: 'How does food shopping work for a Princeville or Poipu menu?',

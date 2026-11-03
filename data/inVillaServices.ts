@@ -268,7 +268,7 @@ export const inVillaPages: InVillaPage[] = [
       {
         h2: 'Replacement, cover and the coordinator',
         paras: [
-          'Ask most providers what happens if your chef cannot make a confirmed date and there is often no written answer. Ours: your coordinator arranges a briefed replacement from our bench, or that service is refunded. Any role that becomes unavailable is reassigned — you are informed, never left short. One coordinator owns the problem, so one message resolves it and you never chase an individual staff member.',
+          'Ask most providers what happens if your chef cannot make a confirmed date and there is often no written answer. Ours: your coordinator arranges a briefed replacement from our crew, or that service is refunded. Any role that becomes unavailable is reassigned — you are informed, never left short. One coordinator owns the problem, so one message resolves it and you never chase an individual staff member.',
           CATERING_VS_STAY,
         ],
       },
@@ -288,7 +288,7 @@ export const inVillaPages: InVillaPage[] = [
       },
       {
         q: 'What happens if someone on the team is unavailable?',
-        a: 'Your coordinator replaces them from our bench or refunds that service. Backup cover applies to every role — that is the difference between a managed team and hired individuals.',
+        a: 'Your coordinator replaces them from our crew or refunds that service. Backup cover applies to every role — that is the difference between a managed team and hired individuals.',
       },
       {
         q: 'Is a villa team the same as hiring a private chef?',

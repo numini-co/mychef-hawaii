@@ -109,8 +109,8 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
     {
       slug: 'butlers',
       name: 'Butlers',
-      h1: 'Butlers on Oahu — quoted only when a bench exists.',
-      title: 'Butlers on Oahu — quoted only when a bench exists | myCHEF',
+      h1: 'Butlers on Oahu — quoted when a trained butler is free.',
+      title: 'Oahu butlers — quoted when a trained butler is free | myCHEF',
       description:
         'Butler add-ons for Oahu houses. Quoted as a line, never assumed. We will not sell a butler we cannot staff.',
       lede: 'Water poured, the table set, the pass left to the chef.',
@@ -130,7 +130,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         },
         {
           q: 'What does the quote say if Honolulu has nobody for that week?',
-          a: 'It says the bench is empty, before any deposit. We will not sell a butler we cannot staff. When someone is free, the amount is quoted in writing rather than assumed.',
+          a: 'It says no trained butler is free that week, before any deposit. We will not sell a butler we cannot staff. When someone is free, the amount is quoted in writing rather than assumed.',
         },
         {
           q: 'How are butler hours written if the stay is several days?',
@@ -245,8 +245,8 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
     {
       slug: 'butlers',
       name: 'Butlers',
-      h1: 'Butlers on Maui — quoted only when a bench exists.',
-      title: 'Butlers on Maui — quoted only when a bench exists | myCHEF',
+      h1: 'Butlers on Maui — quoted for a villa week when free.',
+      title: 'Butlers on Maui — quoted for a villa week when free | myCHEF',
       description:
         'Butler add-ons for Maui houses. Quoted as a line, never assumed. We will not sell a butler we cannot staff in Wailea or West Maui.',
       lede: 'The table set, water poured, the chef left at the pass.',
@@ -380,8 +380,8 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
     {
       slug: 'butlers',
       name: 'Butlers',
-      h1: 'Butlers on Kauai — quoted only when a bench exists, inquiry.',
-      title: 'Butlers on Kauai — quoted only when a bench exists | myCHEF',
+      h1: 'Butlers on Kauai — request availability when someone is free.',
+      title: 'Butlers on Kauai — request availability when free | myCHEF',
       description:
         'Butler add-ons for Kauai estates. Inquiry stage. Quoted as a line. We will not sell a butler we cannot staff.',
       lede: 'An empty Princeville table being set. Inquiry.',
@@ -409,7 +409,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         },
         {
           q: 'Is this the hotel butler from a Princeville resort?',
-          a: 'Estates we can actually staff. We do not impersonate a resort department and we do not borrow one. A named resort is not our bench.',
+          a: 'Estates we can actually staff. We do not impersonate a resort department and we do not borrow one. A named resort is not our crew.',
         },
         {
           q: 'How do I request availability for a butler on either shore?',
@@ -519,7 +519,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
     {
       slug: 'butlers',
       name: 'Butlers',
-      h1: 'Butlers on Hawaiʻi Island — quoted only when a bench exists.',
+      h1: 'Butlers on Hawaiʻi Island — quoted when a trained butler is free.',
       title: 'Butlers on the Big Island — quoted on request | myCHEF',
       description:
         'Butler add-ons for Kona and Kohala houses. Inquiry stage. Quoted as a line. East side is a different day. We will not sell a butler we cannot staff.',
@@ -540,8 +540,8 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
           a: 'The call time and end time on the reply, across the days you named. Rooms, timing, and the table. Not a resort department, and not a Hilo afternoon after Kona.',
         },
         {
-          q: 'Will you sell a butler for a Kona week if the bench is empty?',
-          a: 'We will not sell a butler we cannot staff. Join the inquiry list. An empty bench is said in the reply before a deposit. When someone can work, the amount is quoted in writing.',
+          q: 'Will you sell a butler for a Kona week if no trained butler is free?',
+          a: 'We will not sell a butler we cannot staff. Join the inquiry list. If no trained butler is free that week, the reply says so before a deposit. When someone can work, the amount is quoted in writing.',
         },
         {
           q: 'Are butler hours inside the west-side chef fee?',

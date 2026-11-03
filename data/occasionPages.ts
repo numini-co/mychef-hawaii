@@ -124,7 +124,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
         'Breakfast through dinner in the house. Laptops away from the pass. Not a convention-centre play while citywides are closed.',
       photo: 'occRetreatOahu',
       body: [
-        'HCC citywides are closed through 2027 and are not our product. A house offsite of 10–75 is. Dietary is table stakes, claimed only when true.',
+        'HCC citywides are closed through 2027 and are not our product. A house offsite of 10–75 is. Dietary needs are planned for every guest; we only claim what we can cook safely.',
         'A retreat day in Kahala or Ko Olina is breakfast, lunch, and dinner from the house kitchen, not one board sitting. You hand over the cooktop for those days. Quiet hours are yours. We cook around them. A signature dinner inside the week includes the groceries. Stay Chef days are the daily chef fee plus groceries at cost with receipts. See [vacation chef](/vacation-chef) and [pricing](/pricing). Rain moves lunch indoors or onto a covered lānai, written before you accept, with 20% service and Hawaiʻi GET up to 4.712% on their own and a 50% deposit after you accept. Gratuity is never required. Send the dates on [the quote form](/quote).',
       ],
       faqs: [
@@ -408,7 +408,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
         'Breakfast through dinner in the house. The mist and the fire plan follow the shore.',
       photo: 'occRetreatKauai',
       body: [
-        'Inquiry stage. Dietary is table stakes, claimed only when true.',
+        'Inquiry stage. Dietary needs are planned for every guest; we only claim what we can cook safely.',
         'Request availability for one shore before a retreat is treated as held. Breakfast, lunch, and dinner come from that estate kitchen. Quiet hours are yours. A signature dinner includes the groceries. Stay Chef days are the daily chef fee plus groceries at cost with receipts. See [vacation chef](/vacation-chef) and [pricing](/pricing). Rain on the north moves a meal under a covered lanai. A Hanalei bridge closure moves those days. It does not hand them to Poʻipū. The note shows 20% service and GET up to 4.712% each alone, and a 50% deposit only after a written yes. Gratuity is never required. Request availability on [the quote form](/quote).',
       ],
       faqs: [

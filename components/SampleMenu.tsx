@@ -1,7 +1,7 @@
 import type { IslandId } from '@/data/islands';
 import { sampleMenus } from '@/data/menus';
 
-export function SampleMenu({ island }: { island: IslandId }) {
+export function SampleMenu({ island, intro }: { island: IslandId; intro?: string }) {
   const menu = sampleMenus[island];
   return (
     <section className="bg-paper py-20 lg:py-28">
@@ -10,7 +10,7 @@ export function SampleMenu({ island }: { island: IslandId }) {
         <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3rem)] font-light leading-[1.1] text-ink">
           {menu.title}
         </h2>
-        <p className="mt-4 text-[17px] leading-[1.65] text-mute">{menu.intro}</p>
+        <p className="mt-4 text-[17px] leading-[1.65] text-mute">{intro ?? menu.intro}</p>
         <ol className="mt-12 space-y-8">
           {menu.courses.map((c) => (
             <li key={c.course} className="border-t border-line pt-6">
