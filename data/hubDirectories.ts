@@ -423,9 +423,9 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
   },
   staffing: {
     path: '/staffing',
-    h1: 'Staffing add-ons, by island.',
-    title: 'Staffing add-ons, by island | myCHEF Hawaii',
-    description: `Choose an island for servers at $${serverHr}/hr and a separate sous-chef line. Bartenders and butlers are quoted in writing. Kauaʻi and the Big Island stay inquiry.`,
+    h1: 'Event staffing for private dinners in Hawaii.',
+    title: 'Event staffing for private dinners in Hawaii | myCHEF',
+    description: `Event staffing for a private Hawaii dinner. Servers at $${serverHr}/hr and a separate sous-chef line. Bartenders and butlers are quoted in writing.`,
     lede:
       'Pick the island, then the line. The long guides for waiters, bartenders, and butlers are statewide. This page only routes you.',
     kicker: 'Statewide · Staffing',
