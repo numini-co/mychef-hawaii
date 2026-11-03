@@ -398,6 +398,10 @@ function packageFaqs(islandId: IslandId): { q: string; a: string }[] {
         a: 'The package is its own line. A 20% service charge and Hawaiʻi GET up to 4.712% follow as their own lines. A 50% deposit holds the date after you accept. Gratuity is never required. Quotes are open.',
       },
       {
+        q: 'What should a Honolulu condo note say about the bar setup?',
+        a: 'Name the building rule and the load-in if the tower has one, plus a counter and a place for ice. A minibar is not that setup. Request a written quote with the address. The package stays its own line on the quote.',
+      },
+      {
         q: 'What is the Oʻahu package price?',
         a: price,
       },
@@ -420,6 +424,10 @@ function packageFaqs(islandId: IslandId): { q: string; a: string }[] {
       {
         q: 'How is the Maui bar written next to the dinner band?',
         a: 'Package, then dinner, then service at 20% and Hawaiʻi GET up to 4.712%, each on its own line. A 50% deposit holds the dates after you accept. Gratuity is never required. Quotes are open. Request a written quote.',
+      },
+      {
+        q: 'How do I time a lānai sunset bar during a Wailea villa week?',
+        a: 'Name the villa, the night, and that you want the cart for sunset on the lānai. Arrival night can be that night. Quotes are open. Saturday traffic between Wailea and Kapalua changes the call time, not the package line.',
       },
       {
         q: 'What does the Maui cart cost?',
@@ -446,6 +454,10 @@ function packageFaqs(islandId: IslandId): { q: string; a: string }[] {
         a: 'The 72-hour notice and the weather clause stay on the quote. A closure moves the night. It does not forfeit a deposit. South-shore carts do not use that clause. Request availability with the bridge side named.',
       },
       {
+        q: 'What if rain hits a Princeville cart?',
+        a: 'Request availability and name a covered backup on that shore. Rain moves the cart under cover. It does not move the night to Poʻipū. A house past the Hanalei bridge should say so. A request does not hold the glassware.',
+      },
+      {
         q: 'How does the Kauaʻi package show on the reply?',
         a: price,
       },
@@ -467,6 +479,10 @@ function packageFaqs(islandId: IslandId): { q: string; a: string }[] {
     {
       q: 'Can the same cart cover a Hilo night?',
       a: 'Hilo is quoted as its own dedicated day, never stacked on a Kohala sunset. Join the inquiry list for the terrace you mean. A west-side note does not include the east side.',
+    },
+    {
+      q: 'Is a Hilo day the same cart as a Kona or Kohala house?',
+      a: 'A west-side house and a Hilo day are different requests. Join the inquiry list for Kona or Kohala, or send Hilo on its own. The cart is not a second stop after a west-side sunset. Each reply quotes that day in writing.',
     },
     {
       q: 'How is the Big Island package written on the reply?',

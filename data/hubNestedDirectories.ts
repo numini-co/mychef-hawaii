@@ -338,12 +338,12 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     description:
       'Morning brunch in a Hawaii rental, after the kitchen was used the night before. No separate brunch price is published. Open your island, then pricing.',
     lede:
-      'Mid-morning in the villa, not a standing carte.',
+      'Mid-morning in the villa, not a fixed restaurant menu.',
     kicker: 'Statewide · Brunch',
     photo: 'hubOccBrunch',
     cardLabel: 'Brunch',
     body: [
-      'Brunch is a morning in the rental, often the day after dinner, not a restaurant carte. Eggs are cooked then. Fruit and coffee can be set out. Last night’s service is still its own line. No brunch price is published. Signature dinners on [pricing](/pricing) include groceries. Stay Chef is the daily fee plus groceries at cost with receipts.',
+      'Brunch is a morning in the rental, often the day after dinner, not a restaurant menu. Eggs are cooked then. Fruit and coffee can be set out. Last night’s service is still its own line. No brunch price is published. Signature dinners on [pricing](/pricing) include groceries. Stay Chef is the daily fee plus groceries at cost with receipts.',
       'Resident’s Island brunch waits on a Honolulu freight window or a Kahala, Ko Olina, or Kailua kitchen when you request a written quote. A Maui Villa Week brunch is the morning after arrival in Wailea, Kapalua, or Kāʻanapali, and quotes are open. A Garden Isle Retreat asks you to request availability and to say if Princeville rain or the Hanalei bridge kept last night indoors. An Expedition brunch joins the inquiry list on the Kona–Kohala side. Hilo is a separate dedicated east-side morning.',
       'Open [Oʻahu brunch](oahu:/events/brunch), [Maui brunch](maui:/events/brunch), [Kauaʻi brunch](kauai:/events/brunch), or [Big Island brunch](bigisland:/events/brunch), then [pricing](/pricing) and [the quote form](/quote).',
     ],
@@ -354,7 +354,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
       },
       {
         q: 'What is cooked in the morning, and what must be true of the kitchen?',
-        a: 'Eggs are cooked then. Fruit and coffee can be set out. The counters have to be usable after whatever happened the night before. We do not publish a brunch carte. Dietary limits belong in the note before the shop.',
+        a: 'Eggs are cooked then. Fruit and coffee can be set out. The counters have to be usable after whatever happened the night before. We do not publish a brunch menu you order from. Dietary limits belong in the note before the shop.',
       },
       {
         q: 'Can one crew cook Maui dinner and Oʻahu brunch the next morning?',
@@ -794,7 +794,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
     description:
       'A three-course dinner in a Hawaii rental: a first, a main, and a close. Groceries sit inside the per-guest band. Open an island page, then pricing.',
     lede:
-      'Designed per table, not a fake standing carte.',
+      'Designed per table, not a fixed restaurant menu.',
     kicker: 'Statewide · Three-course',
     photo: 'hubMenuThree',
     cardLabel: 'Three-course',
@@ -814,7 +814,7 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
       },
       {
         q: 'Is the sample on the menus page the dinner I get?',
-        a: 'It shows length, not your plates. Every table is still designed after we know the kitchen. A tasting menu is a longer arc and lives under fine dining. Do not treat the sample as a carte you can tick.',
+        a: 'It shows length, not your plates. Every table is still designed after we know the kitchen. A tasting menu is a longer arc and lives under fine dining. Do not treat the sample as a list you can tick.',
       },
       {
         q: 'Where do I see the band, and what do I send?',

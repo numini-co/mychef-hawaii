@@ -22,9 +22,10 @@ export interface HubQuoteCopy {
 export const hubQuoteVariants: Record<HubQuoteKey, HubQuoteCopy> = {
   default: {
     key: 'default',
-    title: 'Get a quote — myCHEF Hawaii',
-    description: 'Five fields, two minutes. WhatsApp or this form. Typical reply in Hawaii business hours.',
-    h1: 'Tell us where you’re dining.',
+    title: 'Request a private chef quote in Hawaii | myCHEF',
+    description:
+      'Pick the island first, then send the form. The reply lists the rate-card band, 20% service, Hawaiʻi GET, and a 50% deposit. Gratuity is never required.',
+    h1: 'Request a private chef quote in Hawaii.',
     lede: 'Five fields. A human reply. Typical response in Hawaii business hours.',
     kicker: 'Four islands',
     canonicalIsland: 'root',
@@ -85,6 +86,41 @@ export const hubQuoteVariants: Record<HubQuoteKey, HubQuoteCopy> = {
     canonicalIsland: 'root',
   },
 };
+
+/** Visible guidance on hub `/quote` (not the multi-island variant). */
+export const hubQuoteIntro =
+  'A visitor should name the island with the house on this form, or open that island desk when the villa is already chosen. The written reply lists the rate-card band for that island, then a 20% service charge and Hawaiʻi GET up to 4.712% as their own lines, then the 50% deposit. Gratuity is never required. Travel, when the house sits past the base area, is on that island’s pricing page. Oʻahu and Maui take a written quote. On Kauaʻi, request availability and name the shore. On Hawaiʻi Island, join the inquiry list, Kona–Kohala first. Hilo is its own day.';
+
+/**
+ * Statewide routing questions for hub `/quote`. Not the island host forms,
+ * and not the multi-island itinerary accordion.
+ */
+export const hubQuoteFaqs: { q: string; a: string }[] = [
+  {
+    q: 'Which island should I name before I send this form?',
+    a: 'Name the island that has the house before anything else. Oʻahu and Maui take a written quote. On Kauaʻi, request availability and name the shore. On Hawaiʻi Island, join the inquiry list, Kona–Kohala first. Hilo is its own day. This form does not pick the island for you.',
+  },
+  {
+    q: 'What does the written reply list?',
+    a: 'The rate-card band for that island, then a 20% service charge and Hawaiʻi GET up to 4.712% as their own lines, then the 50% deposit. Gratuity is never required. Travel, if the house sits outside the base area, is on that island’s pricing page, not added here.',
+  },
+  {
+    q: 'If the trip covers two islands, how many requests do I send?',
+    a: 'Send one request per island. A Kahala night and a Wailea night are two notes, two crews, and two totals. This desk can watch both threads. It does not merge them into one hub price, and it does not send one crew across the channel the same day.',
+  },
+  {
+    q: 'Which island stage is open when I am still on the Hawaii form?',
+    a: 'Oʻahu and Maui are open for a written quote. Kauaʻi is a request for availability: name Princeville, Poʻipū, or Hanalei-bridge weather. Hawaiʻi Island is an inquiry that starts on the Kona–Kohala side. A printed page is not a held date on those two.',
+  },
+  {
+    q: 'Where do I read travel if the house is outside the base area?',
+    a: 'On that island’s pricing page, where travel is already published. This form does not restate a travel figure. Name the house so the reply can point at the right card. Fee lines other than travel still print on the written total.',
+  },
+  {
+    q: 'Can email, phone, and WhatsApp reach this same desk?',
+    a: 'They reach the same Hawaii desk as this form: quotes@mychef-hawaii.com, +1 (808) 468-7748, and https://wa.me/18084687748. Use one thread for one island. A second island still needs its own note. Nothing is charged to ask.',
+  },
+];
 
 /**
  * Hub `/quote?itinerary=multi` accordion + FAQPage.

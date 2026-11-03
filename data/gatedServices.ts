@@ -161,7 +161,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
         'The chef picks the sequence from what was bought that day, often raw fish, and plates it at your counter. We do not claim a star.',
       photo: 'svcOmakaseOahu',
       body: [
-        'Request a written quote with the house. The cook arrives on the tower’s elevator slot and sets a cold board beside the range. The sequence comes from that day’s purchase, not a standing carte. Pieces go to the counter. A name is used only when the receipt supports it. The board is cleared before the crew leaves.',
+        'Request a written quote with the house. The cook arrives on the tower’s elevator slot and sets a cold board beside the range. The sequence comes from that day’s purchase, not a fixed restaurant menu. Pieces go to the counter. A name is used only when the receipt supports it. The board is cleared before the crew leaves.',
         'Shellfish and raw-fish limits have to be in the note before the shop. A compact condo that cannot hold a cold board and a stool is declined from the photos. The planned course arc, if you want it written ahead, is the [tasting menu](/fine-dining/tasting-menu). This page is the market-led night.',
       ],
       faqs: [

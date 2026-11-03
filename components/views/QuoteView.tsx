@@ -7,17 +7,12 @@ import JsonLd from '@/components/JsonLd';
 import LineReveal from '@/components/LineReveal';
 import { LongFaq, Longform, SiblingCluster } from '@/components/Longform';
 import { quoteTrustSections } from '@/data/longformHub';
-import { hubMultiQuoteFaqs, hubQuoteVariants, type HubQuoteCopy } from '@/data/hubQuote';
+import { hubMultiQuoteFaqs, hubQuoteFaqs, hubQuoteIntro, hubQuoteVariants, type HubQuoteCopy } from '@/data/hubQuote';
 import { islandQuote } from '@/data/islandQuote';
 import { getHubDirectory } from '@/data/hubDirectories';
 import { photos } from '@/data/photos';
 import { islands, isInquiryIsland, type IslandId } from '@/data/islands';
 import { islandHref } from '@/lib/paths';
-
-const FIVE_FIELDS_FAQ = {
-  q: 'The five fields.',
-  a: 'Starting prices are published. Your written quote is the confirmed total.',
-};
 
 const ISLAND_QUOTE_DESKS: { id: IslandId; href: string }[] = [
   { id: 'oahu', href: 'https://oahu.mychef-hawaii.com/quote' },
@@ -42,13 +37,7 @@ export default function QuoteView({
   const faq = getHubDirectory('/faq');
   const multi = variant.key === 'multi';
   const prefIsland = variant.key !== 'default' && variant.key !== 'multi' ? variant.key : null;
-  const hubFaqs = multi
-    ? hubMultiQuoteFaqs
-    : [
-        { q: quoteTrustSections[0].h2, a: quoteTrustSections[0].paras.join(' ') },
-        { q: quoteTrustSections[1].h2, a: quoteTrustSections[1].paras.join(' ') },
-        FIVE_FIELDS_FAQ,
-      ];
+  const hubFaqs = multi ? hubMultiQuoteFaqs : hubQuoteFaqs;
   const h1 = copy?.h1 ?? variant.h1;
   const lede = copy?.lede ?? variant.lede;
   const kicker = copy?.kicker ?? variant.kicker;
@@ -107,6 +96,9 @@ export default function QuoteView({
       ) : (
         <>
           <IslandDeskLinks selected={prefIsland} multi={multi} />
+          {multi ? null : (
+            <Longform sections={[{ h2: 'Pick the island first.', paras: [hubQuoteIntro] }]} />
+          )}
           <Longform sections={quoteTrustSections} />
           <HubPhotoGrid
             eyebrow="Related pages"
@@ -147,7 +139,9 @@ export default function QuoteView({
               title="One coordinator. Sequence the shores."
               contrast="aa"
             />
-          ) : null}
+          ) : (
+            <LongFaq items={hubQuoteFaqs} title="Before you send the Hawaii form." />
+          )}
         </>
       )}
       <SiblingCluster island={islandId} current="quote" href={href} />

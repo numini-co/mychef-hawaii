@@ -90,14 +90,22 @@ export const sampleMenus: Record<IslandId, SampleMenu> = {
   },
 };
 
-/** Example dishes only — never a standing carte, never AggregateRating. */
+/** Example dishes only — never a fixed restaurant menu, never AggregateRating. */
 export function sampleMenuJsonLd(island: IslandId) {
   const menu = sampleMenus[island];
   return {
     '@context': 'https://schema.org',
     '@type': 'Menu',
     name: menu.title,
-    description: `${menu.intro} Example dishes only — designed per table, not a standing carte.`,
+    description: `${menu.title}. ${
+      island === 'oahu'
+        ? 'Example dishes only — designed for that table, not a fixed restaurant menu.'
+        : island === 'maui'
+          ? 'Example dishes only — designed for that kitchen, not a printed menu.'
+          : island === 'kauai'
+            ? 'Example dishes only — designed for that shore, not a fixed list.'
+            : 'Example dishes only — designed for that west-side kitchen, not a printed restaurant menu.'
+    }`,
     hasMenuItem: menu.courses.map((course) => ({
       '@type': 'MenuItem',
       name: course.name,

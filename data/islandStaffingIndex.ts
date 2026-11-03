@@ -21,7 +21,7 @@ const biSimple = bigIslandSimplerDinner();
 
 export const islandStaffingIndex: Record<IslandId, IslandNestedIndexPage> = {
   oahu: {
-    h1: 'Oahu add-ons — servers, bartenders, butlers when a bench exists.',
+    h1: 'Oahu add-ons — servers, bartenders, and a butler when one is free.',
     title: 'Oahu event staffing — servers & bartenders | myCHEF',
     description: `Honolulu, Kahala, and Ko Olina servers at $${serverHr}/hr on a written Oʻahu quote. The sous chef is a separate line. Bartenders and butlers are quoted in writing.`,
     lede: 'Resident’s Island quotes are open. A Honolulu or Kahala dinner adds a server when the courses are plated. Ko Olina bartenders and butlers are written lines, not a published hour.',
@@ -67,7 +67,7 @@ export const islandStaffingIndex: Record<IslandId, IslandNestedIndexPage> = {
     ],
   },
   maui: {
-    h1: 'Maui add-ons — servers, lanai bartenders, butlers when a bench exists.',
+    h1: 'Maui add-ons — servers, lanai bartenders, and a butler for the villa week.',
     title: 'Maui event staffing — servers & bartenders | myCHEF',
     description:
       'Wailea and West Maui servers are an hourly line on the written quote. Bartenders and butlers are quoted in writing, with no published hour.',

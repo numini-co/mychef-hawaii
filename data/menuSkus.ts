@@ -22,13 +22,13 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'A three-course in an Oahu dining room — designed per table.',
       title: 'A three-course in an Oahu dining room | myCHEF',
       description:
-        'Three-course menus in Kahala rooms and Ko Olina villas. Per table, not a standing carte.',
+        'Three-course menus in Kahala rooms and Ko Olina villas. Per table, not a fixed restaurant menu.',
       lede:
         'Crudo, a sear, a close — paced for that Kahala or Ko Olina table.',
       photo: 'menuThreeOahu',
       body: [
         'The cook is in the dining-room kitchen with time to set plates before anyone sits. A Honolulu tower still waits on its freight window. A Ko Olina villa can start once the house is open. Courses leave the pass one at a time, and the kitchen is cleared before we go. See [how Oʻahu menus are designed](/menus).',
-        'This is the designed dinner, not [the tasting menu](/fine-dining/tasting-menu). The sample on the menus page shows length. It is not your carte. One night uses the signature per-guest band, groceries inside it. Read [pricing](/pricing), then [request a written quote](/quote) with the address and the seats.',
+        'This is the designed dinner, not [the tasting menu](/fine-dining/tasting-menu). The sample on the menus page shows length. It is not your printed menu. One night uses the signature per-guest band, groceries inside it. Read [pricing](/pricing), then [request a written quote](/quote) with the address and the seats.',
       ],
       faqs: [
         {
@@ -208,7 +208,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       h1: 'A three-course in a Maui dining room — designed per table.',
       title: 'A three-course in a Maui dining room | myCHEF',
       description:
-        'Three-course menus, Wailea and Kapalua. Designed per table, not a standing carte.',
+        'Three-course menus, Wailea and Kapalua. Designed per table, not a printed menu.',
       lede:
         'Crudo, a grill, a close. Wailea and Kapalua, one table at a time.',
       photo: 'menuThreeMaui',
@@ -218,8 +218,8 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       ],
       faqs: [
         {
-          q: 'Is the Wailea sample a standing carte I can order from?',
-          a: 'No carte is standing. The sample shows how long a villa dinner runs. Your draft is written for that kitchen after you tell us who is eating. Open [how Maui menus are designed](/menus). The sample is not a menu to tick.',
+          q: 'Is the Wailea sample a printed menu I can order from?',
+          a: 'The sample is not a menu you order from. It shows how long a villa dinner runs. Your draft is written for that kitchen after you tell us who is eating. Open [how Maui menus are designed](/menus). The sample is not a list to tick.',
         },
         {
           q: 'How is a three-course different from a tasting arc on Maui?',
@@ -356,8 +356,8 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       ],
       faqs: [
         {
-          q: 'Is a Kīhei lunch the gated fridge program?',
-          a: 'Lunch is cooked and served in the house, then cleared. The fridge program is [meal prep](/meal-prep), and it stays gated. If you want a cook at midday, use this page. If you want bags left behind, that is the other one.',
+          q: 'Is a Kīhei lunch the same as leaving meals in the fridge?',
+          a: 'A Kīhei lunch is cooked in the house at midday, then served and cleared. Leaving prepared bags in the fridge is [meal prep](/meal-prep). Stay here if someone should be at the stove. Open meal prep if you wanted bags left behind.',
         },
         {
           q: 'Will you cook a beach-park lunch in South Maui?',
@@ -400,7 +400,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       photo: 'menuThreeKauai',
       body: [
         'A three-course on the south uses Poʻipū sun and a shorter drive from Līhuʻe. A Princeville table is mist, a covered lānai, and the Hanalei bridge notes if the house sits past the bridge. Rain moves the courses under cover. It does not move the booking to the other shore. See [how Kauaʻi menus are designed](/menus).',
-        'The sample is an example of length, not a carte you can book off. This dinner is not [the tasting menu](/fine-dining/tasting-menu). No date is held because the sample exists. [Request availability](/quote) and name the shore. The signature band, with groceries inside it, is on [pricing](/pricing).',
+        'The sample is an example of length, not a fixed list you can book off. This dinner is not [the tasting menu](/fine-dining/tasting-menu). No date is held because the sample exists. [Request availability](/quote) and name the shore. The signature band, with groceries inside it, is on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -585,13 +585,13 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
         'Kanpachi crudo, a sear, a close. West-side houses. A Hilo table is a different day.',
       photo: 'menuThreeBigisland',
       body: [
-        'A west-side three-course is paced in a Kona or Kohala kitchen: a first, a sear, a close, then a clean pass. The sample is a west-side example of length, not a carte. Hilo or Volcano is a separate dedicated east-side day, quoted in writing, not added on. See [how Hawaiʻi Island menus are designed](/menus).',
+        'A west-side three-course is paced in a Kona or Kohala kitchen: a first, a sear, a close, then a clean pass. The sample is a west-side example of length, not a printed restaurant menu. Hilo or Volcano is a separate dedicated east-side day, quoted in writing, not added on. See [how Hawaiʻi Island menus are designed](/menus).',
         'This is not [the tasting menu](/fine-dining/tasting-menu). One west-side night uses the signature per-guest band, groceries inside it. The simpler open table lives only on this island’s [pricing](/pricing) page. [Join the inquiry list](/quote) for Kona–Kohala. Do not attach an east-side house to that note.',
       ],
       faqs: [
         {
           q: 'Is the kanpachi sample the menu for every west-side table?',
-          a: 'It is one example of length for a Kona–Kohala dinner. Your draft is still written for that kitchen. A Waikoloa house and a Kona town house can share a west-side shop. They do not share a standing carte. See [how Hawaiʻi Island menus are designed](/menus).',
+          a: 'It is one example of length for a Kona–Kohala dinner. Your draft is still written for that kitchen. A Waikoloa house and a Kona town house can share a west-side shop. They do not share a printed restaurant menu. See [how Hawaiʻi Island menus are designed](/menus).',
         },
         {
           q: 'Can a Hilo three-course share the evening with a Waikoloa dinner?',

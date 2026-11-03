@@ -62,8 +62,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Private chef cost in Hawaii, by island in USD: Oʻahu $195–$290 a guest, Maui and Kauaʻi $225–$375, Hawaiʻi Island $210–$325. 20% service and GET extra.',
   },
   '/quote': {
-    title: 'Get a quote — myCHEF Hawaii',
-    description: 'Five fields, two minutes. WhatsApp or this form. Typical reply in Hawaii business hours.',
+    title: 'Request a private chef quote in Hawaii | myCHEF',
+    description:
+      'Pick the island first, then send the form. The reply lists the rate-card band, 20% service, Hawaiʻi GET, and a 50% deposit. Gratuity is never required.',
   },
   '/estimate': {
     title: 'Hawaiʻi private chef cost estimator | myCHEF',
