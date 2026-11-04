@@ -199,14 +199,16 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'corporate-catering',
       name: 'Corporate catering',
-      h1: 'Executive dinners in Oahu houses — not citywides.',
-      title: 'Executive dinners in Oahu houses — not citywides | myCHEF',
+      h1: 'Private chef for a corporate dinner on Oʻahu.',
+      title: 'Private chef for a corporate dinner on Oʻahu | myCHEF',
       description:
-        'Offsites and executive dinners in Kahala and Ko Olina houses. HCC citywides are closed through 2027 and are not our product.',
+        'One corporate dinner in a Kahala or Ko Olina house. The written quote lists the band, service, and tax on their own lines. Request a written quote.',
       lede:
-        'A house, a small offsite table, the guest list you actually have. Not the Hawaiʻi Convention Center. Not a MICE play while citywides are closed.',
+        'One leadership dinner in a Kahala, Ko Olina, Kailua, or Honolulu house. Request a written quote when the address is known.',
       photo: 'svcCorpcatOahu',
       body: [
+        'A coordinator books this for one leadership table in a Kahala dining room, a Ko Olina villa, a Kailua house, or a Honolulu residence with a real cooktop. Building rules belong in the same note as the date. Request a written quote on [the quote form](/quote).',
+        'The written quote shows the rate-card band on its own line. Groceries for that signature dinner stay inside the band. The 20% service charge is the next line. Hawaiʻi GET up to 4.712% is a separate line after it. A 50% deposit is due only after you accept. Gratuity is never required. That written total is the invoice a finance desk can read, sent to the person who accepts it. For a mixed team, name every limit with the headcount before the shop. We do not claim a separate allergen kitchen. Send the dates, the house address, and the headcount. Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -219,7 +221,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'What does the menu for one Honolulu executive dinner actually contain?',
-          a: 'A menu written for that table, not a standing carte. Say whether the board wants plated courses or shared platters, plus seats and the dietary list. Food bands sit on [pricing](/pricing).',
+          a: 'A menu written for that table. There is no fixed restaurant menu. Say whether the board wants plated courses or shared platters, plus seats and the dietary list. Food bands sit on [pricing](/pricing).',
         },
         {
           q: 'When does the crew reach a Kahala board dinner?',
@@ -235,7 +237,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
         },
       ],
       related: [
-        { path: '/conventions', label: 'Not MICE' },
+        { path: '/conventions', label: 'Conventions' },
         { path: '/events/corporate-events', label: 'House offsites' },
         { path: '/catering', label: 'Staffed catering' },
       ],
@@ -476,14 +478,16 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'corporate-catering',
       name: 'Corporate catering',
-      h1: 'Executive dinners in Maui villas — not a ballroom.',
-      title: 'Executive dinners in Maui villas — not a ballroom | myCHEF',
+      h1: 'Executive dinner catering in a Maui villa.',
+      title: 'Executive dinner catering in a Maui villa | myCHEF',
       description:
-        'Offsites and executive dinners in Wailea, Kapalua and Kīhei houses. Not hotel ballrooms.',
+        'An executive dinner in a Wailea, Kapalua, or Kāʻanapali villa. The quote lists the band, service, and tax apart. Request a written quote.',
       lede:
-        'A villa kitchen, a small offsite list, South or West. We cook houses. We do not staff banquet rooms.',
+        'One executive dinner in a Wailea, Kapalua, or Kāʻanapali villa, including the night you arrive. Request a written quote with the shore named.',
       photo: 'svcCorpcatMaui',
       body: [
+        'One executive dinner, often the night the group lands, in a Wailea rental, a Kapalua estate, or a Kāʻanapali house. The host or the planner who can approve the total is who books it. Name the shore first. A Saturday drive from the south shore to West Maui changes the call time. Request a written quote on [the quote form](/quote).',
+        'The food band for that villa night is the first line, shop included. Service at 20% stands alone under it, then Hawaiʻi GET up to 4.712% on its own line. The 50% deposit is the hold after you accept. Gratuity is never required. Finance receives that same total. Dietary needs for a mixed team are written before the shop, each limit next to the seat count. We do not claim a separate allergen kitchen. Send the dates, the villa address, and the headcount. Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -753,15 +757,16 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'corporate-catering',
       name: 'Corporate catering',
-      h1: 'Executive dinners on Kauai estates — inquiry.',
-      title: 'Executive dinners on Kauai estates — inquiry | myCHEF',
+      h1: 'Corporate retreat dinners on Kauaʻi estates.',
+      title: 'Corporate retreat dinners on Kauaʻi estates | myCHEF',
       description:
-        'Offsites and executive dinners in Princeville and Poʻipū houses. Inquiry stage. Not a convention play.',
+        'One corporate dinner on a Princeville or Poʻipū estate, with rain and the Hanalei bridge in the note. Request availability for that shore.',
       lede:
-        'A small estate table. Both shores. Inquiry. We do not pretend Kauaʻi is a MICE island.',
+        'One estate dinner in Princeville or Poʻipū. Request availability, and name the Hanalei bridge if the house is north.',
       photo: 'svcCorpcatKauai',
       body: [
-        'Inquiry stage.',
+        'One estate dinner, in Princeville rain or clearer Poʻipū light. The person who requests availability is the one who can accept a written total if a crew can take that shore. When the house sits past the Hanalei bridge, say so. A closure moves the night. It does not move the dinner to the other shore.',
+        'The written total lists the rate-card band, then the 20% service charge, then Hawaiʻi GET up to 4.712%, each on its own line. A 50% deposit follows that written yes. Gratuity is never required. The approver receives the invoice. A mixed team’s limits are planned with the headcount before the shop on that shore. We do not claim a separate allergen kitchen. Send the dates, the estate address, and the headcount, and name Princeville or Poʻipū. Request availability on [the quote form](/quote). Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -781,7 +786,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
           a: 'We build the call around the road. A bridge closure moves the night. It does not forfeit the night, and it does not quietly become Poʻipū. The south shore does not inherit that clause. Name the shore before anyone shops.',
         },
         {
-          q: 'How do I ask for servers at a Poʻipū executive dinner while Kauaʻi is still an inquiry?',
+          q: 'How do I ask for servers at a Poʻipū executive dinner?',
           a: 'Name them in the availability request. Server and sous-chef hours sit apart from the menu. See [staffing](/staffing). A bartender is quoted in writing. 20% service and GET up to 4.712% print alone. A 50% deposit waits for a written yes. Gratuity is never required.',
         },
         {
@@ -1031,14 +1036,16 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'corporate-catering',
       name: 'Corporate catering',
-      h1: 'Executive dinners on the Kohala Coast — inquiry.',
-      title: 'Executive dinners on the Kohala Coast — inquiry | myCHEF',
+      h1: 'Offsite catering on the Kohala Coast.',
+      title: 'Offsite catering on the Kohala Coast | myCHEF',
       description:
-        'Offsites and executive dinners in Kona and Kohala houses. Inquiry stage. Not a Hilo add-on.',
+        'One leadership dinner on the Kohala Coast or in Kona. Join the inquiry list. The written yes lists the band, service, and tax as separate lines.',
       lede:
-        'A west-side villa table. Hard sun. Not the whole island. Not a ballroom. Inquiry.',
+        'One leadership dinner on the Kona–Kohala side. Join the inquiry list. Hilo is a separate dedicated day.',
       photo: 'svcCorpcatBigisland',
       body: [
+        'Join the inquiry list for one leadership dinner in Kona, Waikoloa, or along the Kohala Coast. Hard sun and a lava terrace set the room, or the group eats indoors. The booker is whoever can approve the total. Hilo is a separate dedicated day. Flag Ironman if the week touches the race. The grocery window tightens.',
+        'A written yes shows the rate-card band first. Groceries for that signature dinner stay inside the band. The 20% service charge prints next. Hawaiʻi GET up to 4.712% prints after it, alone. A 50% deposit follows acceptance. Gratuity is never required. Finance gets that same total. Mixed dietary needs go with the headcount before the west-side shop. We do not claim a separate allergen kitchen. Send the dates, the house address, and the headcount, and name the terrace or the great room. Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {

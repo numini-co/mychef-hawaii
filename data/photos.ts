@@ -189,7 +189,7 @@ export const photos = {
   },
   produce: {
     file: '/photos/hawaii-produce-fish-sourcing-still.jpg',
-    alt: `Hawaii produce and whole fish on a villa kitchen board — sourcing still, not a named farm.`,
+    alt: `Hawaii produce and whole fish on a villa kitchen board — sourcing still.`,
   },
   plated: {
     file: '/photos/plated-fish-lanai-dusk.jpg',
@@ -229,7 +229,7 @@ export const photos = {
   },
   locWaimea: {
     file: '/photos/loc-waimea.png',
-    alt: `Waimea ranch-country kitchen in cool mist — searing fish, pasture and Mauna Kea in cloud, no ocean.`,
+    alt: `Waimea ranch-country kitchen in cool mist — searing fish, pasture and Mauna Kea in cloud.`,
   },
   locWaikoloa: {
     file: '/photos/loc-waikoloa.png',
@@ -269,7 +269,7 @@ export const photos = {
   },
   chefOahu: {
     file: '/photos/heroes/hero-chef-oahu.png',
-    alt: `A personal chef plating sesame ahi in an Oʻahu Gold Coast estate kitchen, koa and brass, no skyline.`,
+    alt: `A personal chef plating sesame ahi in an Oʻahu Gold Coast estate kitchen, koa and brass.`,
   },
   chefMaui: {
     file: '/photos/heroes/hero-chef-maui.png',
@@ -285,11 +285,11 @@ export const photos = {
   },
   hubChef: {
     file: '/photos/heroes/hero-hub-private-chef.png',
-    alt: `A private chef plating seared fish in a Hawaiian villa kitchen at blue hour — charcoal jacket, volcanic-stone island, Pacific lawn beyond. No island landmark.`,
+    alt: `A private chef plating seared fish in a villa kitchen at blue hour — volcanic-stone island, Pacific lawn.`,
   },
   hubVacation: {
     file: '/photos/heroes/hero-hub-vacation-chef.png',
-    alt: `A vacation chef stocking a villa fridge for the week — paper-wrapped fish, citrus, bottled water, papaya on the board, pool beyond. No island landmark.`,
+    alt: `A vacation chef stocking a villa fridge for the week — paper-wrapped fish, citrus, papaya, pool beyond.`,
   },
   mobileBarOahu: {
     file: '/photos/heroes/hero-mobilebar-oahu.png',
@@ -373,11 +373,11 @@ export const photos = {
   },
   cellKamaaina: {
     file: '/photos/cell-kamaaina.png',
-    alt: `Weeknight family plates in a Honolulu residential kitchen — not a resort villa.`,
+    alt: `Weeknight family plates in a Honolulu residential kitchen.`,
   },
   cellConventions: {
     file: '/photos/cell-conventions.png',
-    alt: `A Honolulu house dining room at dusk — we cook residences, not citywide conventions.`,
+    alt: `A Honolulu house dining room at dusk — we cook residences.`,
   },
   cellGoldCoast: {
     file: '/photos/cell-gold-coast.png',
@@ -413,7 +413,7 @@ export const photos = {
   },
   cellKauaiWeddingWeek: {
     file: '/photos/cell-kauai-wedding-week.png',
-    alt: `A Kauaʻi estate wedding-week table looking into a misted valley — inquiry-scale, not a ballroom.`,
+    alt: `A Kauaʻi estate wedding-week table looking into a misted valley — inquiry-scale.`,
   },
   cellKohalaCorridor: {
     file: '/photos/cell-kohala-corridor.png',
@@ -429,23 +429,23 @@ export const photos = {
   },
   cellEastSide: {
     file: '/photos/cell-east-side.png',
-    alt: `A rainy Hilo house kitchen — ʻōhiʻa and ferns outside, east-side mist, not west-side lava.`,
+    alt: `A rainy Hilo house kitchen — ʻōhiʻa and ferns outside, east-side mist.`,
   },
   svcHonestyOahu: {
     file: '/photos/svc-honesty-oahu.png',
-    alt: `A Kahala kitchen at dusk — a written quote on the island, no invented reviews, Diamond Head faint.`,
+    alt: `A Kahala kitchen at dusk — a written quote on the island, Diamond Head faint.`,
   },
   svcHonestyMaui: {
     file: '/photos/svc-honesty-maui.png',
-    alt: `A Wailea kitchen looking past the house toward a distant resort — we cook villas, not ballrooms.`,
+    alt: `A Wailea kitchen looking past the house toward a distant resort — we cook villas.`,
   },
   svcHonestyKauai: {
     file: '/photos/svc-honesty-kauai.png',
-    alt: `An empty Princeville kitchen in rain, misted mountains — inquiry, not a fake live roster.`,
+    alt: `An empty Princeville kitchen in rain, misted mountains — for inquiry.`,
   },
   svcHonestyBigisland: {
     file: '/photos/svc-honesty-bigisland.png',
-    alt: `A Kona kitchen in hard sun — west-side lava in the window, the east side not claimed.`,
+    alt: `A Kona kitchen in hard sun — west-side lava in the window.`,
   },
   svcCountsOahu: {
     file: '/photos/svc-counts-oahu.png',
@@ -497,7 +497,7 @@ export const photos = {
   },
   svcChefsTableOahu: {
     file: '/photos/svc-chefstable-oahu.png',
-    alt: `Guests at a Kahala kitchen island watching a chef finish seared ahi — not a restaurant pass.`,
+    alt: `Guests at a Kahala kitchen island watching a chef finish seared ahi.`,
   },
   svcChefsTableMaui: {
     file: '/photos/svc-chefstable-maui.png',
@@ -597,7 +597,7 @@ export const photos = {
   },
   occCorporateMaui: {
     file: '/photos/occ-corporate-maui.png',
-    alt: `A Wailea open-kitchen offsite — breakfast plates, Molokini faint, not a banquet.`,
+    alt: `A Wailea open-kitchen offsite — breakfast plates, Molokini faint.`,
   },
   occCorporateKauai: {
     file: '/photos/occ-corporate-kauai.png',
@@ -657,31 +657,31 @@ export const photos = {
   },
   svcMealprepOahu: {
     file: '/photos/svc-mealprep-oahu.png',
-    alt: `An unused Kahala prep kitchen — labeled containers, Diamond Head faint, no standing.`,
+    alt: `A Kahala prep kitchen — labeled containers, Diamond Head faint.`,
   },
   svcMealprepMaui: {
     file: '/photos/svc-mealprep-maui.png',
-    alt: `A Wailea kitchen with unused meal-prep containers, Molokini faint.`,
+    alt: `A Wailea kitchen with meal-prep containers, Molokini faint.`,
   },
   svcMealprepKauai: {
     file: '/photos/svc-mealprep-kauai.png',
-    alt: `A quiet Poʻipū kitchen — unused prep containers, pale cliffs.`,
+    alt: `A quiet Poʻipū kitchen — prep containers, pale cliffs.`,
   },
   svcMealprepBigisland: {
     file: '/photos/svc-mealprep-bigisland.png',
-    alt: `A Kona kitchen with unused prep containers, coffee cherries, lava in the window.`,
+    alt: `A Kona kitchen with prep containers, coffee cherries, lava in the window.`,
   },
   svcClassesOahu: {
     file: '/photos/svc-classes-oahu.png',
-    alt: `An empty Kahala teaching kitchen — unused boards, Diamond Head faint, no class in session.`,
+    alt: `An empty Kahala teaching kitchen — boards, Diamond Head faint.`,
   },
   svcClassesMaui: {
     file: '/photos/svc-classes-maui.png',
-    alt: `A Wailea open kitchen with unused class stations, Molokini faint.`,
+    alt: `A Wailea open kitchen with class stations, Molokini faint.`,
   },
   svcClassesKauai: {
     file: '/photos/svc-classes-kauai.png',
-    alt: `A quiet Princeville kitchen — unused boards, misted mountains, no class running.`,
+    alt: `A quiet Princeville kitchen — boards, misted mountains.`,
   },
   svcClassesBigisland: {
     file: '/photos/svc-classes-bigisland.png',
@@ -693,7 +693,7 @@ export const photos = {
   },
   svcOmakaseMaui: {
     file: '/photos/svc-omakase-maui.png',
-    alt: `Tasting plates on a Wailea kitchen counter, Molokini faint, not a restaurant claim.`,
+    alt: `Tasting plates on a Wailea kitchen counter, Molokini faint.`,
   },
   svcOmakaseKauai: {
     file: '/photos/svc-omakase-kauai.png',
@@ -705,11 +705,11 @@ export const photos = {
   },
   svcCorpcatOahu: {
     file: '/photos/svc-corpcat-oahu.png',
-    alt: `An executive dinner in a Kahala dining room — plated fish, not a convention centre.`,
+    alt: `An executive dinner in a Kahala dining room — plated fish.`,
   },
   svcCorpcatMaui: {
     file: '/photos/svc-corpcat-maui.png',
-    alt: `An executive villa dinner in Wailea — plated fish, Molokini faint, not a ballroom.`,
+    alt: `An executive villa dinner in Wailea — plated fish, Molokini faint.`,
   },
   svcCorpcatKauai: {
     file: '/photos/svc-corpcat-kauai.png',
@@ -737,11 +737,11 @@ export const photos = {
   },
   fmtBbqOahu: {
     file: '/photos/fmt-bbq-oahu.png',
-    alt: `Whole fish on a Ko Olina lawn grill at dusk, west-side lagoon, staffed not theatrical.`,
+    alt: `Whole fish on a Ko Olina lawn grill at dusk, west-side lagoon, staffed.`,
   },
   fmtBbqMaui: {
     file: '/photos/fmt-bbq-maui.png',
-    alt: `A Wailea lawn grill at dusk — whole fish, grass, Pacific, not a hotel luau.`,
+    alt: `A Wailea lawn grill at dusk — whole fish, grass, Pacific.`,
   },
   fmtBbqKauai: {
     file: '/photos/fmt-bbq-kauai.png',
@@ -817,19 +817,19 @@ export const photos = {
   },
   fmtDropoffOahu: {
     file: '/photos/fmt-dropoff-oahu.png',
-    alt: `Trays at a Kahala door, no chef at the pass — drop-off is not staffed service.`,
+    alt: `Trays at a Kahala door, the pass clear for drop-off.`,
   },
   fmtDropoffMaui: {
     file: '/photos/fmt-dropoff-maui.png',
-    alt: `Trays at a Wailea villa door, empty kitchen behind — drop-off is not staffed service.`,
+    alt: `Trays at a Wailea villa door, empty kitchen behind, for drop-off.`,
   },
   fmtDropoffKauai: {
     file: '/photos/fmt-dropoff-kauai.png',
-    alt: `Trays at a Poʻipū estate door, unused pass — drop-off is not staffed service.`,
+    alt: `Trays at a Poʻipū estate door, the pass clear for drop-off.`,
   },
   fmtDropoffBigisland: {
     file: '/photos/fmt-dropoff-bigisland.png',
-    alt: `Trays at a Kona villa door, hard sun, unused pass — drop-off is not staffed service.`,
+    alt: `Trays at a Kona villa door in hard sun, the pass clear for drop-off.`,
   },
   fineRomanticOahu: {
     file: '/photos/fine-romantic-oahu.png',
@@ -853,7 +853,7 @@ export const photos = {
   },
   fineTastingMaui: {
     file: '/photos/fine-tasting-maui.png',
-    alt: `Tasting plates on a Wailea kitchen counter, Molokini faint, not a restaurant claim.`,
+    alt: `Tasting plates set on a Wailea kitchen counter, Molokini faint.`,
   },
   fineTastingKauai: {
     file: '/photos/fine-tasting-kauai.png',
@@ -865,7 +865,7 @@ export const photos = {
   },
   fineChefsEveOahu: {
     file: '/photos/fine-chefseve-oahu.png',
-    alt: `Guests at a Kahala kitchen island at night watching a sear — not a restaurant pass.`,
+    alt: `Guests at a Kahala kitchen island at night watching a sear.`,
   },
   fineChefsEveMaui: {
     file: '/photos/fine-chefseve-maui.png',
@@ -913,7 +913,7 @@ export const photos = {
   },
   staffBartendersOahu: {
     file: '/photos/staff-bartenders-oahu.png',
-    alt: `A bartender at a Kahala lānai counter mixing a citrus cocktail, Diamond Head faint, no tiki mug.`,
+    alt: `A bartender at a Kahala lānai counter mixing a citrus cocktail, Diamond Head faint.`,
   },
   staffBartendersMaui: {
     file: '/photos/staff-bartenders-maui.png',
@@ -933,7 +933,7 @@ export const photos = {
   },
   staffButlersMaui: {
     file: '/photos/staff-butlers-maui.png',
-    alt: `A butler setting a Wailea dining table, Molokini faint — quoted add-on, not a hotel staff.`,
+    alt: `A butler setting a Wailea dining table, Molokini faint — a quoted add-on.`,
   },
   staffButlersKauai: {
     file: '/photos/staff-butlers-kauai.png',
@@ -1009,11 +1009,11 @@ export const photos = {
   },
   svcPersonalOahu: {
     file: '/photos/svc-personal-oahu.png',
-    alt: `A Honolulu household kitchen on a school night — a used fridge, a real stove, not a villa one-off.`,
+    alt: `A Honolulu household kitchen on a school night — a used fridge, a real stove.`,
   },
   svcPersonalMaui: {
     file: '/photos/svc-personal-maui.png',
-    alt: `A Kīhei resident kitchen on a weekday — a used fridge, not a Wailea tourist.`,
+    alt: `A Kīhei resident kitchen on a weekday — a used fridge.`,
   },
   svcPersonalKauai: {
     file: '/photos/svc-personal-kauai.png',
@@ -1021,7 +1021,7 @@ export const photos = {
   },
   svcPersonalBigisland: {
     file: '/photos/svc-personal-bigisland.png',
-    alt: `A Kona town household kitchen on a weekday — used fridge, coffee slopes, not a resort villa.`,
+    alt: `A Kona town household kitchen on a weekday — used fridge, coffee slopes.`,
   },
   helpStartOahu: {
     file: '/photos/help-start-oahu.png',
@@ -1073,7 +1073,7 @@ export const photos = {
   },
   helpCorporateOahu: {
     file: '/photos/help-corporate-oahu.png',
-    alt: `An executive dinner for eight in a Kahala dining room — plated fish, no ballroom, Diamond Head faint.`,
+    alt: `An executive dinner for eight in a Kahala dining room — plated fish, Diamond Head faint.`,
   },
   helpCorporateMaui: {
     file: '/photos/help-corporate-maui.png',
@@ -1085,23 +1085,23 @@ export const photos = {
   },
   helpCorporateBigisland: {
     file: '/photos/help-corporate-bigisland.png',
-    alt: `An executive dinner on a Waikoloa lava terrace — plated kanpachi, hard sun, not a Hilo ballroom.`,
+    alt: `An executive dinner on a Waikoloa lava terrace — plated kanpachi, hard sun.`,
   },
   helpBookingOahu: {
     file: '/photos/help-booking-oahu.png',
-    alt: `A brass clip holding a signed Oahu quote on a Kahala counter, keys and a date card.`,
+    alt: `A signed Oahu quote on a Kahala counter, keys and a date card.`,
   },
   helpBookingMaui: {
     file: '/photos/help-booking-maui.png',
-    alt: `A brass clip holding a signed Maui quote on a Wailea counter, villa keys, west light.`,
+    alt: `A signed Maui quote on a Wailea counter, villa keys, west light.`,
   },
   helpBookingKauai: {
     file: '/photos/help-booking-kauai.png',
-    alt: `A brass clip holding a signed Kauai inquiry quote on a Princeville counter, wet glass, mountains.`,
+    alt: `A signed Kauai inquiry quote on a Princeville counter, wet glass, mountains.`,
   },
   helpBookingBigisland: {
     file: '/photos/help-booking-bigisland.png',
-    alt: `A brass clip holding a signed west-side quote on a Kona counter, lava stone, hard sun.`,
+    alt: `A signed west-side quote on a Kona counter, lava stone, hard sun.`,
   },
   svcCostOahu: {
     file: '/photos/svc-cost-oahu.png',
@@ -1121,11 +1121,11 @@ export const photos = {
   },
   quoteOahu: {
     file: '/photos/quote-oahu.png',
-    alt: `A Kahala kitchen counter with a five-field quote card and brass pen, Diamond Head faint through the sliders.`,
+    alt: `A Kahala kitchen counter with a written quote card and brass pen, Diamond Head faint through the sliders.`,
   },
   quoteMaui: {
     file: '/photos/quote-maui.png',
-    alt: `A Wailea kitchen counter with a five-field quote card, Molokini faint beyond the lānai.`,
+    alt: `A Wailea kitchen counter with a written quote card, Molokini faint beyond the lānai.`,
   },
   quoteKauai: {
     file: '/photos/quote-kauai.png',
@@ -1201,11 +1201,11 @@ export const photos = {
   },
   blogOahu: {
     file: '/photos/blog-oahu.png',
-    alt: `Short note cards stacked on a Kahala kitchen counter in overcast morning light, brass clip, no theatrical props.`,
+    alt: `Short note cards stacked on a Kahala kitchen counter in overcast morning light.`,
   },
   blogMaui: {
     file: '/photos/blog-maui.png',
-    alt: `Short note cards on a Kāʻanapali deck table at west sunset, brass clip, Lānaʻi faint on the horizon.`,
+    alt: `Short note cards on a Kāʻanapali deck table at west sunset, Lānaʻi faint on the horizon.`,
   },
   blogKauai: {
     file: '/photos/blog-kauai.png',
@@ -1217,11 +1217,11 @@ export const photos = {
   },
   locIndexOahu: {
     file: '/photos/loc-index-oahu.png',
-    alt: `A Kahala kitchen counter with a small corridor map card, brass clip, Diamond Head faint at dusk.`,
+    alt: `A Kahala kitchen counter with a small corridor map card, Diamond Head faint at dusk.`,
   },
   locIndexMaui: {
     file: '/photos/loc-index-maui.png',
-    alt: `A Wailea lānai table with a small shore-map card, brass clip, Molokini faint at west sunset.`,
+    alt: `A Wailea lānai table with a small shore-map card, Molokini faint at west sunset.`,
   },
   locIndexKauai: {
     file: '/photos/loc-index-kauai.png',
@@ -1233,19 +1233,19 @@ export const photos = {
   },
   sitemapOahu: {
     file: '/photos/sitemap-oahu.png',
-    alt: `A stacked set of blank cream URL cards on a Kahala dining table at dusk, brass clip, Diamond Head faint.`,
+    alt: `A stacked set of cream URL cards on a Kahala dining table at dusk, Diamond Head faint.`,
   },
   sitemapMaui: {
     file: '/photos/sitemap-maui.png',
-    alt: `A stacked set of blank cream URL cards on a Wailea lānai table, brass clip, Pacific dusk.`,
+    alt: `A stacked set of cream URL cards on a Wailea lānai table, Pacific dusk.`,
   },
   sitemapKauai: {
     file: '/photos/sitemap-kauai.png',
-    alt: `A stacked set of blank cream URL cards on a wet Princeville counter, brass clip, mountain mist.`,
+    alt: `A stacked set of cream URL cards on a wet Princeville counter, mountain mist.`,
   },
   sitemapBigisland: {
     file: '/photos/sitemap-bigisland.png',
-    alt: `A stacked set of blank cream URL cards on a Kona lava-terrace table, brass clip, hard sun.`,
+    alt: `A stacked set of cream URL cards on a Kona lava-terrace table, hard sun.`,
   },
   jnlCostOahu: {
     file: '/photos/jnl-cost-oahu.png',
@@ -1265,19 +1265,19 @@ export const photos = {
   },
   jnlHireOahu: {
     file: '/photos/jnl-hire-oahu.png',
-    alt: `A five-field hire card on a Kahala kitchen island at dusk, brass pen, Diamond Head faint through the sliders.`,
+    alt: `A written hire card on a Kahala kitchen island at dusk, brass pen, Diamond Head faint through the sliders.`,
   },
   jnlHireMaui: {
     file: '/photos/jnl-hire-maui.png',
-    alt: `A five-field hire card on a Wailea kitchen island in late afternoon, Molokini faint beyond the lānai.`,
+    alt: `A written hire card on a Wailea kitchen island in late afternoon, Molokini faint beyond the lānai.`,
   },
   jnlHireKauai: {
     file: '/photos/jnl-hire-kauai.png',
-    alt: `A five-field inquiry card on a Princeville kitchen counter, rain on the glass, misted peaks.`,
+    alt: `A written inquiry card on a Princeville kitchen counter, rain on the glass, misted peaks.`,
   },
   jnlHireBigisland: {
     file: '/photos/jnl-hire-bigisland.png',
-    alt: `A five-field inquiry card on a Kona window-kitchen counter, coffee slope and dry lava in hard sun.`,
+    alt: `A written inquiry card on a Kona window-kitchen counter, coffee slope and dry lava in hard sun.`,
   },
   jnlKitchenOahu: {
     file: '/photos/jnl-kitchen-oahu.png',
@@ -1297,19 +1297,19 @@ export const photos = {
   },
   jnlDietOahu: {
     file: '/photos/jnl-diet-oahu.png',
-    alt: `Blank cream paper and clay bowls of fish and herbs on a Kahala kitchen island at dusk.`,
+    alt: `Cream menu paper and clay bowls of fish and herbs on a Kahala kitchen island at dusk.`,
   },
   jnlDietMaui: {
     file: '/photos/jnl-diet-maui.png',
-    alt: `Blank cream paper and clay herb bowls on a Wailea lānai kitchen counter, Pacific beyond.`,
+    alt: `Cream menu paper and clay herb bowls on a Wailea lānai kitchen counter, Pacific beyond.`,
   },
   jnlDietKauai: {
     file: '/photos/jnl-diet-kauai.png',
-    alt: `Blank cream paper and citrus on a wet Princeville counter, misted mountains through the rain.`,
+    alt: `Cream menu paper and citrus on a wet Princeville counter, misted mountains through the rain.`,
   },
   jnlDietBigisland: {
     file: '/photos/jnl-diet-bigisland.png',
-    alt: `Blank cream paper and clay bowls on a Kohala lava-stone counter in hard sun.`,
+    alt: `Cream menu paper and clay bowls on a Kohala lava-stone counter in hard sun.`,
   },
   jnlInclOahu: {
     file: '/photos/jnl-incl-oahu.png',
@@ -1329,19 +1329,19 @@ export const photos = {
   },
   jnlBookOahu: {
     file: '/photos/jnl-book-oahu.png',
-    alt: `A blank cream card and brass pen on a Kahala dining table at dusk, Diamond Head faint.`,
+    alt: `A cream menu card and brass pen on a Kahala dining table at dusk, Diamond Head faint.`,
   },
   jnlBookMaui: {
     file: '/photos/jnl-book-maui.png',
-    alt: `A blank cream card and brass pen on a Wailea lānai table, Pacific at west sunset.`,
+    alt: `A cream menu card and brass pen on a Wailea lānai table, Pacific at west sunset.`,
   },
   jnlBookKauai: {
     file: '/photos/jnl-book-kauai.png',
-    alt: `A blank cream card and brass pen on a wet Princeville stone table, mountain mist.`,
+    alt: `A cream menu card and brass pen on a wet Princeville stone table, mountain mist.`,
   },
   jnlBookBigisland: {
     file: '/photos/jnl-book-bigisland.png',
-    alt: `A blank cream card and brass pen on a Kohala lava-terrace table in hard sun.`,
+    alt: `A cream menu card and brass pen on a Kohala lava-terrace table in hard sun.`,
   },
   jnlVsOahu: {
     file: '/photos/jnl-vs-oahu.png',
@@ -1361,99 +1361,99 @@ export const photos = {
   },
   dinHonolulu: {
     file: '/photos/din-honolulu.png',
-    alt: `A small ivory table on a Honolulu lānai at dusk, blank cream card, Diamond Head faint.`,
+    alt: `A small ivory table on a Honolulu lānai at dusk, cream menu card, Diamond Head faint.`,
   },
   dinWaikiki: {
     file: '/photos/din-waikiki.png',
-    alt: `A compact Waikīkī tower-residence cooktop at blue hour, blank cream card, city lights.`,
+    alt: `A compact Waikīkī tower-residence cooktop at blue hour, cream menu card, city lights.`,
   },
   dinKailua: {
     file: '/photos/din-kailua.png',
-    alt: `A Kailua windward kitchen counter in late light, blank cream card, residential lawn beyond.`,
+    alt: `A Kailua windward kitchen counter in late light, cream menu card, residential lawn beyond.`,
   },
   dinNorthShore: {
     file: '/photos/din-north-shore.png',
-    alt: `An Oahu North Shore villa counter, blank cream card, ironwoods and a distant coastline.`,
+    alt: `An Oahu North Shore villa counter, cream menu card, ironwoods and a distant coastline.`,
   },
   dinKahala: {
     file: '/photos/din-kahala.png',
-    alt: `A Kahala Gold Coast dining table at dusk, blank place cards, Diamond Head faint.`,
+    alt: `A Kahala Gold Coast dining table at dusk, place cards, Diamond Head faint.`,
   },
   dinKoOlina: {
     file: '/photos/din-ko-olina.png',
-    alt: `A Ko Olina villa kitchen island, grocery tote and blank cream card, lagoon palms beyond.`,
+    alt: `A Ko Olina villa kitchen island, grocery tote and cream menu card, lagoon palms beyond.`,
   },
   dinWailea: {
     file: '/photos/din-wailea.png',
-    alt: `A Wailea lānai table at west sunset, blank cream card, Pacific and faint Molokini.`,
+    alt: `A Wailea lānai table at west sunset, cream menu card, Pacific and faint Molokini.`,
   },
   dinKaanapali: {
     file: '/photos/din-kaanapali.png',
-    alt: `A Kāʻanapali villa kitchen in late light, blank cream card, West Maui Pacific beyond.`,
+    alt: `A Kāʻanapali villa kitchen in late light, cream menu card, West Maui Pacific beyond.`,
   },
   dinLahaina: {
     file: '/photos/din-lahaina.png',
-    alt: `A West Maui villa kitchen counter, blank cream card, hills and Pacific beyond the sliders.`,
+    alt: `A West Maui villa kitchen counter, cream menu card, hills and Pacific beyond the sliders.`,
   },
   dinKihei: {
     file: '/photos/din-kihei.png',
-    alt: `A Kīhei vacation-home cooktop, family plates and a blank cream card, residential South Maui light.`,
+    alt: `A Kīhei vacation-home cooktop, family plates and a cream menu card, residential South Maui light.`,
   },
   dinKapalua: {
     file: '/photos/din-kapalua.png',
-    alt: `Two ivory place settings on a Kapalua estate table at dusk, blank cream cards, northwest coast.`,
+    alt: `Two ivory place settings on a Kapalua estate table at dusk, cream menu cards, northwest coast.`,
   },
   dinMakena: {
     file: '/photos/din-makena.png',
-    alt: `A Makena lānai table south of Wailea, blank cream card and folded linen, quieter coast.`,
+    alt: `A Makena lānai table south of Wailea, cream menu card and folded linen, quieter coast.`,
   },
   dinPrinceville: {
     file: '/photos/din-princeville.png',
-    alt: `A Princeville estate kitchen in wet light, blank cream card, misted fluted mountains.`,
+    alt: `A Princeville estate kitchen in wet light, cream menu card, misted fluted mountains.`,
   },
   dinPoipu: {
     file: '/photos/din-poipu.png',
-    alt: `A Poʻipū villa kitchen in clearer South Shore light, blank cream card, dry ridge beyond.`,
+    alt: `A Poʻipū villa kitchen in clearer South Shore light, cream menu card, dry ridge beyond.`,
   },
   dinHanalei: {
     file: '/photos/din-hanalei.png',
-    alt: `A Hanalei kitchen counter in rain light, blank cream card, valley mist through the glass.`,
+    alt: `A Hanalei kitchen counter in rain light, cream menu card, valley mist through the glass.`,
   },
   dinKapaa: {
     file: '/photos/din-kapaa.png',
-    alt: `A Kapaʻa east-side household kitchen, blank cream card, residential trees through the window.`,
+    alt: `A Kapaʻa east-side household kitchen, cream menu card, residential trees through the window.`,
   },
   dinKona: {
     file: '/photos/din-kona.png',
-    alt: `A Kona lava-stone kitchen in hard sun, blank cream card, Mauna Kea faint.`,
+    alt: `A Kona lava-stone kitchen in hard sun, cream menu card, Mauna Kea faint.`,
   },
   dinWaimea: {
     file: '/photos/din-waimea.png',
-    alt: `A Waimea ranch-country kitchen, blank cream card, pasture and a pale volcanic slope.`,
+    alt: `A Waimea ranch-country kitchen, cream menu card, pasture and a pale volcanic slope.`,
   },
   dinWaikoloa: {
     file: '/photos/din-waikoloa.png',
-    alt: `A Waikoloa lava-stone kitchen island, blank cream card, black lava in hard sun.`,
+    alt: `A Waikoloa lava-stone kitchen island, cream menu card, black lava in hard sun.`,
   },
   dinKohala: {
     file: '/photos/din-kohala.png',
-    alt: `A Kohala Coast lava-stone counter, blank cream card, dry lava field in hard sun.`,
+    alt: `A Kohala Coast lava-stone counter, cream menu card, dry lava field in hard sun.`,
   },
   blogGroceryOahu: {
     file: '/photos/blog-grocery-oahu.png',
-    alt: `A canvas grocery tote and blank receipt paper on a Kahala kitchen island at dusk.`,
+    alt: `A canvas grocery tote and receipt paper on a Kahala kitchen island at dusk.`,
   },
   blogGroceryMaui: {
     file: '/photos/blog-grocery-maui.png',
-    alt: `A canvas grocery tote and blank receipt paper on a Wailea kitchen counter at west sunset.`,
+    alt: `A canvas grocery tote and receipt paper on a Wailea kitchen counter at west sunset.`,
   },
   blogGroceryKauai: {
     file: '/photos/blog-grocery-kauai.png',
-    alt: `A canvas grocery tote and blank receipt paper on a wet Princeville counter.`,
+    alt: `A canvas grocery tote and receipt paper on a wet Princeville counter.`,
   },
   blogGroceryBigisland: {
     file: '/photos/blog-grocery-bigisland.png',
-    alt: `A canvas grocery tote and blank receipt paper on a Kona lava-stone counter in hard sun.`,
+    alt: `A canvas grocery tote and receipt paper on a Kona lava-stone counter in hard sun.`,
   },
   blogWineOahu: {
     file: '/photos/blog-wine-oahu.png',
@@ -1489,15 +1489,15 @@ export const photos = {
   },
   blogSourceOahu: {
     file: '/photos/blog-source-oahu.png',
-    alt: `Whole fish on ice and unmarked citrus on a Kahala kitchen counter at dusk.`,
+    alt: `Whole fish on ice and citrus on a Kahala kitchen counter at dusk.`,
   },
   blogSourceMaui: {
     file: '/photos/blog-source-maui.png',
-    alt: `Whole fish on ice and unmarked citrus on a Wailea kitchen counter at west sunset.`,
+    alt: `Whole fish on ice and citrus on a Wailea kitchen counter at west sunset.`,
   },
   blogSourceKauai: {
     file: '/photos/blog-source-kauai.png',
-    alt: `Whole fish on ice and unmarked citrus on a wet Princeville kitchen counter.`,
+    alt: `Whole fish on ice and citrus on a wet Princeville kitchen counter.`,
   },
   blogSourceBigisland: {
     file: '/photos/blog-source-bigisland.png',
@@ -1521,19 +1521,19 @@ export const photos = {
   },
   blogCondoOahu: {
     file: '/photos/blog-condo-oahu.png',
-    alt: `Stacked coolers in a Waikīkī tower hallway at dusk, freight-elevator doors, no logos.`,
+    alt: `Stacked coolers in a Waikīkī tower hallway at dusk, freight-elevator doors.`,
   },
   blogCondoMaui: {
     file: '/photos/blog-condo-maui.png',
-    alt: `Stacked coolers in a South Maui condo hallway at west sunset, no logos.`,
+    alt: `Stacked coolers in a South Maui condo hallway at west sunset.`,
   },
   blogCondoKauai: {
     file: '/photos/blog-condo-kauai.png',
-    alt: `Stacked coolers in a Princeville tower hallway, wet glass, no logos.`,
+    alt: `Stacked coolers in a Princeville tower hallway, wet glass.`,
   },
   blogCondoBigisland: {
     file: '/photos/blog-condo-bigisland.png',
-    alt: `Stacked coolers in a Waikoloa tower hallway in hard sun, no logos.`,
+    alt: `Stacked coolers in a Waikoloa tower hallway in hard sun.`,
   },
   blogReunionOahu: {
     file: '/photos/blog-reunion-oahu.png',
@@ -1553,19 +1553,19 @@ export const photos = {
   },
   blogShootOahu: {
     file: '/photos/blog-shoot-oahu.png',
-    alt: `Identical plated meals on a Kahala kitchen island, blank cream cards, dusk.`,
+    alt: `Identical plated meals on a Kahala kitchen island, cream menu cards, dusk.`,
   },
   blogShootMaui: {
     file: '/photos/blog-shoot-maui.png',
-    alt: `Identical plated meals on a Wailea kitchen island, blank cream cards, west sunset.`,
+    alt: `Identical plated meals on a Wailea kitchen island, cream menu cards, west sunset.`,
   },
   blogShootKauai: {
     file: '/photos/blog-shoot-kauai.png',
-    alt: `Identical plated meals on a Princeville kitchen island, blank cream cards, wet light.`,
+    alt: `Identical plated meals on a Princeville kitchen island, cream menu cards, wet light.`,
   },
   blogShootBigisland: {
     file: '/photos/blog-shoot-bigisland.png',
-    alt: `Identical plated meals on a Kona lava-stone island, blank cream cards, hard sun.`,
+    alt: `Identical plated meals on a Kona lava-stone island, cream menu cards, hard sun.`,
   },
   blogProposalOahu: {
     file: '/photos/blog-proposal-oahu.png',
@@ -1585,31 +1585,31 @@ export const photos = {
   },
   blogEstateOahu: {
     file: '/photos/blog-estate-oahu.png',
-    alt: `Stacked canvas coolers beside a closed koa Gold Coast gate at dusk, no logos.`,
+    alt: `Stacked canvas coolers beside a closed koa Gold Coast gate at dusk.`,
   },
   blogEstateMaui: {
     file: '/photos/blog-estate-maui.png',
-    alt: `Stacked canvas coolers beside a closed Wailea wooden gate at west sunset, no logos.`,
+    alt: `Stacked canvas coolers beside a closed Wailea wooden gate at west sunset.`,
   },
   blogEstateKauai: {
     file: '/photos/blog-estate-kauai.png',
-    alt: `Stacked canvas coolers beside a closed Princeville gate on wet stone, no logos.`,
+    alt: `Stacked canvas coolers beside a closed Princeville gate on wet stone.`,
   },
   blogEstateBigisland: {
     file: '/photos/blog-estate-bigisland.png',
-    alt: `Stacked canvas coolers beside a closed west-side lava-rock gate in hard sun, no logos.`,
+    alt: `Stacked canvas coolers beside a closed west-side lava-rock gate in hard sun.`,
   },
   blogShoulderOahu: {
     file: '/photos/blog-shoulder-oahu.png',
-    alt: `An empty Kahala lānai table in soft morning light, folded sand linen, unused ivory plates.`,
+    alt: `An empty Kahala lānai table in soft morning light, folded sand linen, ivory plates.`,
   },
   blogShoulderMaui: {
     file: '/photos/blog-shoulder-maui.png',
-    alt: `An empty Wailea lānai table in softer morning light, folded sand linen, unused ivory plates.`,
+    alt: `An empty Wailea lānai table in softer morning light, folded sand linen, ivory plates.`,
   },
   blogShoulderKauai: {
     file: '/photos/blog-shoulder-kauai.png',
-    alt: `An empty Princeville terrace table in grey light, folded sand linen, unused ivory plates.`,
+    alt: `An empty Princeville terrace table in grey light, folded sand linen, ivory plates.`,
   },
   blogShoulderBigisland: {
     file: '/photos/blog-shoulder-bigisland.png',
@@ -1617,11 +1617,11 @@ export const photos = {
   },
   dinLanikai: {
     file: '/photos/din-lanikai.png',
-    alt: `A compact Lanikai beach-house galley at dusk, unused ivory plates, moss-green foliage through a window.`,
+    alt: `A compact Lanikai beach-house galley at dusk, ivory plates, moss-green foliage through a window.`,
   },
   dinHawaiiKai: {
     file: '/photos/din-hawaii-kai.png',
-    alt: `An East Honolulu household kitchen island at dusk, unused ivory plates, unmarked citrus.`,
+    alt: `An East Honolulu household kitchen island at dusk, ivory plates, citrus.`,
   },
   dinDiamondHead: {
     file: '/photos/din-diamond-head.png',
@@ -1629,167 +1629,167 @@ export const photos = {
   },
   dinKakaako: {
     file: '/photos/din-kakaako.png',
-    alt: `A compact Kakaʻako tower-residence range at blue hour, unused ivory plates, city lights.`,
+    alt: `A compact Kakaʻako tower-residence range at blue hour, ivory plates, city lights.`,
   },
   dinUpcountry: {
     file: '/photos/din-upcountry.png',
-    alt: `An Upcountry Maui estate kitchen in misty morning light, unused ivory plates, moss-green pasture.`,
+    alt: `An Upcountry Maui estate kitchen in misty morning light, ivory plates, moss-green pasture.`,
   },
   dinNapili: {
     file: '/photos/din-napili.png',
-    alt: `A Nāpili villa kitchen at west sunset, unused ivory plates, sand linen, brass faucet.`,
+    alt: `A Nāpili villa kitchen at west sunset, ivory plates, sand linen, brass faucet.`,
   },
   dinPaia: {
     file: '/photos/din-paia.png',
-    alt: `A Pāʻia house kitchen in softer light, unused ivory plates, sand linen.`,
+    alt: `A Pāʻia house kitchen in softer light, ivory plates, sand linen.`,
   },
   dinHonokowai: {
     file: '/photos/din-honokowai.png',
-    alt: `A Honokōwai condo kitchen at west sunset, compact range, unused ivory plates.`,
+    alt: `A Honokōwai condo kitchen at west sunset, compact range, ivory plates.`,
   },
   dinHaena: {
     file: '/photos/din-haena.png',
-    alt: `A Hāʻena Far-North kitchen in rain, unused ivory plates, wet glass, moss-green foliage.`,
+    alt: `A Hāʻena Far-North kitchen in rain, ivory plates, wet glass, moss-green foliage.`,
   },
   dinKoloa: {
     file: '/photos/din-koloa.png',
-    alt: `A Kōloa town house kitchen, unused ivory plates, quieter residential street through the window.`,
+    alt: `A Kōloa town house kitchen, ivory plates, quieter residential street through the window.`,
   },
   dinLihue: {
     file: '/photos/din-lihue.png',
-    alt: `A Līhuʻe in-town household kitchen, compact range, unused ivory plates, not a villa.`,
+    alt: `A Līhuʻe in-town household kitchen, compact range, ivory plates.`,
   },
   dinKalaheo: {
     file: '/photos/din-kalaheo.png',
-    alt: `A Kalāheo south-west residential kitchen, unused ivory plates, moss-green hillside.`,
+    alt: `A Kalāheo south-west residential kitchen, ivory plates, moss-green hillside.`,
   },
   dinHilo: {
     file: '/photos/din-hilo.png',
-    alt: `A Hilo east-side house kitchen in rain, unused ivory plates, wet glass, moss-green foliage.`,
+    alt: `A Hilo east-side house kitchen in rain, ivory plates, wet glass, moss-green foliage.`,
   },
   dinVolcano: {
     file: '/photos/din-volcano.png',
-    alt: `A Volcano lodge kitchen in mist, unused ivory plates, moss-green foliage, no theatrical glow.`,
+    alt: `A Volcano lodge kitchen in mist, ivory plates, moss-green foliage.`,
   },
   dinKeauhou: {
     file: '/photos/din-keauhou.png',
-    alt: `A Keauhou resort-residence kitchen in hard sun, unused ivory plates, lava-stone backsplash.`,
+    alt: `A Keauhou resort-residence kitchen in hard sun, ivory plates, lava-stone backsplash.`,
   },
   dinHolualoa: {
     file: '/photos/din-holualoa.png',
-    alt: `A Hōlualoa mauka kitchen, unused ivory plates, unmarked coffee cherries in a clay bowl.`,
+    alt: `A Hōlualoa mauka kitchen, ivory plates, coffee cherries in a clay bowl.`,
   },
   dinDowntown: {
     file: '/photos/din-downtown.png',
-    alt: `A Downtown Honolulu pied-à-terre kitchen at dusk, unused ivory plates, city loading alley.`,
+    alt: `A Downtown Honolulu pied-à-terre kitchen at dusk, ivory plates, city loading alley.`,
   },
   dinKaneohe: {
     file: '/photos/din-kaneohe.png',
-    alt: `A Kāneʻohe windward household kitchen at dusk, unused ivory plates, moss-green through a window.`,
+    alt: `A Kāneʻohe windward household kitchen at dusk, ivory plates, moss-green through a window.`,
   },
   dinEwa: {
     file: '/photos/din-ewa.png',
-    alt: `An ʻEwa leeward household kitchen at dusk, unused ivory plates, west-side residential.`,
+    alt: `An ʻEwa leeward household kitchen at dusk, ivory plates, west-side residential.`,
   },
   dinMakawao: {
     file: '/photos/din-makawao.png',
-    alt: `A Makawao Upcountry town kitchen in misty light, unused ivory plates, moss-green pasture.`,
+    alt: `A Makawao Upcountry town kitchen in misty light, ivory plates, moss-green pasture.`,
   },
   dinWaikapu: {
     file: '/photos/din-waikapu.png',
-    alt: `A Waikapū central-valley estate kitchen, unused ivory plates, dry valley light.`,
+    alt: `A Waikapū central-valley estate kitchen, ivory plates, dry valley light.`,
   },
   dinHaleakala: {
     file: '/photos/din-haleakala.png',
-    alt: `A Kula high-elevation kitchen in cooler light, unused ivory plates, moss-green slope.`,
+    alt: `A Kula high-elevation kitchen in cooler light, ivory plates, moss-green slope.`,
   },
   dinKauaiWaimea: {
     file: '/photos/din-kauai-waimea.png',
-    alt: `A west Kauaʻi Waimea estate kitchen, unused ivory plates, dry west light, not ranch country.`,
+    alt: `A west Kauaʻi Waimea estate kitchen, ivory plates, dry west light.`,
   },
   dinHanapepe: {
     file: '/photos/din-hanapepe.png',
-    alt: `A Hanapēpē west-side town house kitchen, unused ivory plates, quiet residential street.`,
+    alt: `A Hanapēpē west-side town house kitchen, ivory plates, quiet residential street.`,
   },
   dinAnahola: {
     file: '/photos/din-anahola.png',
-    alt: `An Anahola east-north coast kitchen, unused ivory plates, moss-green through a window.`,
+    alt: `An Anahola east-north coast kitchen, ivory plates, moss-green through a window.`,
   },
   dinEleele: {
     file: '/photos/din-eleele.png',
-    alt: `An ʻEleʻele south-west residential kitchen, unused ivory plates, hillside houses.`,
+    alt: `An ʻEleʻele south-west residential kitchen, ivory plates, hillside houses.`,
   },
   dinKailuaKona: {
     file: '/photos/din-kailua-kona.png',
-    alt: `A Kailua-Kona town kitchen in hard sun, unused ivory plates, lava-stone detail.`,
+    alt: `A Kailua-Kona town kitchen in hard sun, ivory plates, lava-stone detail.`,
   },
   dinMaunaLani: {
     file: '/photos/din-mauna-lani.png',
-    alt: `A Mauna Lani resort-residence kitchen in hard sun, unused ivory plates, lava-stone backsplash.`,
+    alt: `A Mauna Lani resort-residence kitchen in hard sun, ivory plates, lava-stone backsplash.`,
   },
   dinMaunaKea: {
     file: '/photos/din-mauna-kea.png',
-    alt: `A Mauna Kea resort-belt kitchen in hard sun, unused ivory plates, lava terrace, not the summit.`,
+    alt: `A Mauna Kea resort-belt kitchen in hard sun, ivory plates, lava terrace.`,
   },
   dinKau: {
     file: '/photos/din-kau.png',
-    alt: `A Kaʻū south-side estate kitchen, unused ivory plates, unmarked coffee cherries in a clay bowl.`,
+    alt: `A Kaʻū south-side estate kitchen, ivory plates, coffee cherries in a clay bowl.`,
   },
   dinHonokaa: {
     file: '/photos/din-honokaa.png',
-    alt: `A Honokaʻa Hāmākua kitchen, unused ivory plates, moss-green windward coast through a window.`,
+    alt: `A Honokaʻa Hāmākua kitchen, ivory plates, moss-green windward coast through a window.`,
   },
   dinPuako: {
     file: '/photos/din-puako.png',
-    alt: `A Puakō Kohala Coast kitchen in hard sun, unused ivory plates, lava-stone residential.`,
+    alt: `A Puakō Kohala Coast kitchen in hard sun, ivory plates, lava-stone residential.`,
   },
   areasIndexOahu: {
     file: '/photos/areas-oahu.png',
-    alt: `A Kahala dining table at dusk with blank cream place cards, brass clip, Diamond Head faint.`,
+    alt: `A Kahala dining table at dusk with cream place cards, Diamond Head faint.`,
   },
   areasIndexMaui: {
     file: '/photos/areas-maui.png',
-    alt: `A Wailea lānai table at west sunset with blank cream place cards, brass clip, Molokini faint.`,
+    alt: `A Wailea lānai table at west sunset with cream place cards, Molokini faint.`,
   },
   areasIndexKauai: {
     file: '/photos/areas-kauai.png',
-    alt: `A Princeville stone counter in rain with blank cream place cards, brass clip, misted mountains.`,
+    alt: `A Princeville stone counter in rain with cream place cards, misted mountains.`,
   },
   areasIndexBigisland: {
     file: '/photos/areas-bigisland.png',
-    alt: `A Kohala lava-stone counter in hard sun with blank cream place cards, brass clip, Mauna Kea faint.`,
+    alt: `A Kohala lava-stone counter in hard sun with cream place cards, Mauna Kea faint.`,
   },
   blogFarmsOahu: {
     file: '/photos/blog-farms-oahu.png',
-    alt: `Unmarked produce crates of greens and citrus on a Kahala kitchen counter in overcast morning light.`,
+    alt: `Produce crates of greens and citrus on a Kahala kitchen counter in overcast morning light.`,
   },
   blogFarmsMaui: {
     file: '/photos/blog-farms-maui.png',
-    alt: `Unmarked produce crates of tomatoes and greens on a Wailea kitchen island, Haleakalā slope inland.`,
+    alt: `Produce crates of tomatoes and greens on a Wailea kitchen island, Haleakalā slope inland.`,
   },
   blogFarmsKauai: {
     file: '/photos/blog-farms-kauai.png',
-    alt: `Unmarked produce crates of greens and citrus on a Poʻipū kitchen counter, red dirt and kiawe.`,
+    alt: `Produce crates of greens and citrus on a Poʻipū kitchen counter, red dirt and kiawe.`,
   },
   blogFarmsBigisland: {
     file: '/photos/blog-farms-bigisland.png',
-    alt: `Unmarked produce crates of greens and citrus on a west-side kitchen counter in hard sun, lava-stone.`,
+    alt: `Produce crates of greens and citrus on a west-side kitchen counter in hard sun, lava-stone.`,
   },
   blogFishOahu: {
     file: '/photos/blog-fish-oahu.png',
-    alt: `A whole unmarked silver fish on crushed ice on a Kahala kitchen counter at dusk, blank cream paper beside it.`,
+    alt: `A whole silver fish on crushed ice on a Kahala kitchen counter at dusk, cream menu paper beside it.`,
   },
   blogFishMaui: {
     file: '/photos/blog-fish-maui.png',
-    alt: `A whole unmarked silver fish on crushed ice on a Wailea kitchen counter at west sunset, blank cream paper beside it.`,
+    alt: `A whole silver fish on crushed ice on a Wailea kitchen counter at west sunset, cream menu paper beside it.`,
   },
   blogFishKauai: {
     file: '/photos/blog-fish-kauai.png',
-    alt: `A whole unmarked silver fish on crushed ice on a wet Princeville stone counter, blank cream paper beside it.`,
+    alt: `A whole silver fish on crushed ice on a wet Princeville stone counter, cream menu paper beside it.`,
   },
   blogFishBigisland: {
     file: '/photos/blog-fish-bigisland.png',
-    alt: `A whole unmarked silver fish on crushed ice on a Kohala lava-stone counter in hard sun, blank cream paper beside it.`,
+    alt: `A whole silver fish on crushed ice on a Kohala lava-stone counter in hard sun, cream menu paper beside it.`,
   },
   quoteHub: {
     file: '/photos/plated-fish-lanai-dusk.jpg',
@@ -1797,211 +1797,211 @@ export const photos = {
   },
   contactOahu: {
     file: '/photos/contact-oahu.png',
-    alt: `A Kahala kitchen desk at dusk with a closed unmarked notepad and brass pen, no telephone, Diamond Head faint.`,
+    alt: `A Kahala kitchen desk at dusk with a closed notepad and brass pen, Diamond Head faint.`,
   },
   contactMaui: {
     file: '/photos/contact-maui.png',
-    alt: `A Wailea lānai desk at west sunset with a closed unmarked notepad and brass pen, no telephone, Pacific beyond.`,
+    alt: `A Wailea lānai desk at west sunset with a closed notepad and brass pen, Pacific beyond.`,
   },
   contactKauai: {
     file: '/photos/contact-kauai.png',
-    alt: `A Princeville stone desk in rain with a closed unmarked notepad and brass pen, no telephone, misted mountains.`,
+    alt: `A Princeville stone desk in rain with a closed notepad and brass pen, misted mountains.`,
   },
   contactBigisland: {
     file: '/photos/contact-bigisland.png',
-    alt: `A Kohala lava-stone desk in hard sun with a closed unmarked notepad and brass pen, no telephone, Mauna Kea faint.`,
+    alt: `A Kohala lava-stone desk in hard sun with a closed notepad and brass pen, Mauna Kea faint.`,
   },
   trustOahu: {
     file: '/photos/trust-oahu.png',
-    alt: `Blank cream ledger cards and a brass clip on a Kahala kitchen counter at dusk, unused ivory plates, Diamond Head faint.`,
+    alt: `Cream ledger cards on a Kahala kitchen counter at dusk, ivory plates, Diamond Head faint.`,
   },
   trustMaui: {
     file: '/photos/trust-maui.png',
-    alt: `Blank cream ledger cards and a brass clip on a Wailea kitchen island at west sunset, unused ivory plates.`,
+    alt: `Cream ledger cards on a Wailea kitchen island at west sunset, ivory plates.`,
   },
   trustKauai: {
     file: '/photos/trust-kauai.png',
-    alt: `Blank cream ledger cards and a brass clip on a wet Princeville stone counter, unused ivory plates, mountain rain.`,
+    alt: `Cream ledger cards on a wet Princeville stone counter, ivory plates, mountain rain.`,
   },
   trustBigisland: {
     file: '/photos/trust-bigisland.png',
-    alt: `Blank cream ledger cards and a brass clip on a Kohala lava-stone counter in hard sun, unused ivory plates.`,
+    alt: `Cream ledger cards on a Kohala lava-stone counter in hard sun, ivory plates.`,
   },
   blogCoffeeOahu: {
     file: '/photos/blog-coffee-oahu.png',
-    alt: `Unmarked roasted coffee beans in a clay bowl and a brass cup on a Kahala kitchen counter at dusk.`,
+    alt: `Roasted coffee beans in a clay bowl and a brass cup on a Kahala kitchen counter at dusk.`,
   },
   blogCoffeeMaui: {
     file: '/photos/blog-coffee-maui.png',
-    alt: `Unmarked roasted coffee beans in a clay bowl and a brass cup on a Wailea kitchen island at west sunset.`,
+    alt: `Roasted coffee beans in a clay bowl and a brass cup on a Wailea kitchen island at west sunset.`,
   },
   blogCoffeeKauai: {
     file: '/photos/blog-coffee-kauai.png',
-    alt: `Unmarked roasted coffee beans in a clay bowl and a brass cup on a wet Princeville stone counter.`,
+    alt: `Roasted coffee beans in a clay bowl and a brass cup on a wet Princeville stone counter.`,
   },
   blogCoffeeBigisland: {
     file: '/photos/blog-coffee-bigisland.png',
-    alt: `Unmarked coffee cherries in a clay bowl on a Kohala lava-stone counter in hard sun, no farm labels.`,
+    alt: `Coffee cherries in a clay bowl on a Kohala lava-stone counter in hard sun.`,
   },
   blogPeakOahu: {
     file: '/photos/blog-peak-oahu.png',
-    alt: `A Kahala dining table being set at winter dusk, unused ivory plates, sand linen, Diamond Head faint.`,
+    alt: `A Kahala dining table being set at winter dusk, ivory plates, sand linen, Diamond Head faint.`,
   },
   blogPeakMaui: {
     file: '/photos/blog-peak-maui.png',
-    alt: `A Wailea lānai table being set at west winter sunset, unused ivory plates, sand linen, Pacific beyond.`,
+    alt: `A Wailea lānai table being set at west winter sunset, ivory plates, sand linen, Pacific beyond.`,
   },
   blogPeakKauai: {
     file: '/photos/blog-peak-kauai.png',
-    alt: `A Princeville stone table being set in winter rain dusk, unused ivory plates, sand linen, misted mountains.`,
+    alt: `A Princeville stone table being set in winter rain dusk, ivory plates, sand linen, misted mountains.`,
   },
   blogPeakBigisland: {
     file: '/photos/blog-peak-bigisland.png',
-    alt: `A Kohala lava-terrace table being set in hard winter sun, unused ivory plates, sand linen.`,
+    alt: `A Kohala lava-terrace table being set in hard winter sun, ivory plates, sand linen.`,
   },
   svcIndexOahu: {
     file: '/photos/svc-index-oahu.png',
-    alt: `Four unused ivory plates stacked on a Kahala kitchen pass at dusk, brass clip, Diamond Head faint.`,
+    alt: `Four ivory plates stacked on a Kahala kitchen pass at dusk, Diamond Head faint.`,
   },
   svcIndexMaui: {
     file: '/photos/svc-index-maui.png',
-    alt: `Four unused ivory plates stacked on a Wailea kitchen pass at west sunset, brass clip, Pacific beyond.`,
+    alt: `Four ivory plates stacked on a Wailea kitchen pass at west sunset, Pacific beyond.`,
   },
   svcIndexKauai: {
     file: '/photos/svc-index-kauai.png',
-    alt: `Four unused ivory plates stacked on a wet Princeville stone pass, brass clip, misted mountains.`,
+    alt: `Four ivory plates stacked on a wet Princeville stone pass, misted mountains.`,
   },
   svcIndexBigisland: {
     file: '/photos/svc-index-bigisland.png',
-    alt: `Four unused ivory plates stacked on a Kohala lava-stone pass in hard sun, brass clip.`,
+    alt: `Four ivory plates stacked on a Kohala lava-stone pass in hard sun.`,
   },
   helpIndexOahu: {
     file: '/photos/help-index-oahu.png',
-    alt: `Unused ivory papers under a brass clip on a Kahala koa pass at dusk, Diamond Head faint.`,
+    alt: `Ivory menu papers on a Kahala koa pass at dusk, Diamond Head faint.`,
   },
   helpIndexMaui: {
     file: '/photos/help-index-maui.png',
-    alt: `Unused ivory papers under a brass clip on a Wailea pass at west sunset, Pacific beyond.`,
+    alt: `Ivory menu papers on a Wailea pass at west sunset, Pacific beyond.`,
   },
   helpIndexKauai: {
     file: '/photos/help-index-kauai.png',
-    alt: `Unused ivory papers under a rain-beaded brass clip on a wet Princeville stone pass.`,
+    alt: `Ivory menu papers on a wet Princeville stone pass.`,
   },
   helpIndexBigisland: {
     file: '/photos/help-index-bigisland.png',
-    alt: `Unused ivory papers under a brass clip on a Kohala lava-stone pass in hard sun.`,
+    alt: `Ivory menu papers on a Kohala lava-stone pass in hard sun.`,
   },
   fineIndexOahu: {
     file: '/photos/fine-index-oahu.png',
-    alt: `Unused ivory plates and empty glasses on a Kahala dining table at dusk, brass clip.`,
+    alt: `Ivory plates and empty glasses on a Kahala dining table at dusk.`,
   },
   fineIndexMaui: {
     file: '/photos/fine-index-maui.png',
-    alt: `Unused ivory plates and empty glasses on a Wailea lānai table at west sunset.`,
+    alt: `Ivory plates and empty glasses on a Wailea lānai table at west sunset.`,
   },
   fineIndexKauai: {
     file: '/photos/fine-index-kauai.png',
-    alt: `Unused ivory plates and empty glasses on a Princeville stone table in misted rain light.`,
+    alt: `Ivory plates and empty glasses on a Princeville stone table in misted rain light.`,
   },
   fineIndexBigisland: {
     file: '/photos/fine-index-bigisland.png',
-    alt: `Unused ivory plates and empty glasses on a Kohala lava terrace in hard sun.`,
+    alt: `Ivory plates and empty glasses on a Kohala lava terrace in hard sun.`,
   },
   staffIndexOahu: {
     file: '/photos/staff-index-oahu.png',
-    alt: `Unused empty stemware and sand linen on a Kahala kitchen pass at dusk, brass clip.`,
+    alt: `Empty stemware and sand linen on a Kahala kitchen pass at dusk.`,
   },
   staffIndexMaui: {
     file: '/photos/staff-index-maui.png',
-    alt: `Unused empty glasses and sand linen on a Wailea lānai pass at west sunset.`,
+    alt: `Empty glasses and sand linen on a Wailea lānai pass at west sunset.`,
   },
   staffIndexKauai: {
     file: '/photos/staff-index-kauai.png',
-    alt: `Unused empty glasses and sand linen on a wet Princeville stone pass, brass clip.`,
+    alt: `Empty glasses and sand linen on a wet Princeville stone pass.`,
   },
   staffIndexBigisland: {
     file: '/photos/staff-index-bigisland.png',
-    alt: `Unused empty glasses and sand linen on a Kohala lava-stone pass in hard sun.`,
+    alt: `Empty glasses and sand linen on a Kohala lava-stone pass in hard sun.`,
   },
   blogReviewsOahu: {
     file: '/photos/blog-reviews-oahu.png',
-    alt: `A blank unused ivory card under a brass clip on a Kahala koa pass at dusk, Diamond Head faint.`,
+    alt: `An ivory menu card on a Kahala koa pass at dusk, Diamond Head faint.`,
   },
   blogReviewsMaui: {
     file: '/photos/blog-reviews-maui.png',
-    alt: `A blank unused ivory card under a brass clip on a Wailea lānai pass at west sunset.`,
+    alt: `An ivory menu card on a Wailea lānai pass at west sunset.`,
   },
   blogReviewsKauai: {
     file: '/photos/blog-reviews-kauai.png',
-    alt: `A blank unused ivory card under a rain-beaded brass clip on a wet Princeville stone pass.`,
+    alt: `An ivory menu card on a wet Princeville stone pass.`,
   },
   blogReviewsBigisland: {
     file: '/photos/blog-reviews-bigisland.png',
-    alt: `A blank unused ivory card under a brass clip on a Kohala lava-stone pass in hard sun.`,
+    alt: `An ivory menu card on a Kohala lava-stone pass in hard sun.`,
   },
   corpIndexOahu: {
     file: '/photos/corp-index-oahu.png',
-    alt: `Unused ivory plates and unmarked papers on a Kahala dining table at dusk, brass clip.`,
+    alt: `Ivory plates and menu papers on a Kahala dining table at dusk.`,
   },
   corpIndexMaui: {
     file: '/photos/corp-index-maui.png',
-    alt: `Unused ivory plates and unmarked papers on a Wailea dining table at west sunset.`,
+    alt: `Ivory plates and menu papers on a Wailea dining table at west sunset.`,
   },
   corpIndexKauai: {
     file: '/photos/corp-index-kauai.png',
-    alt: `Unused ivory plates and unmarked papers on a Princeville stone table in misted rain light.`,
+    alt: `Ivory plates and menu papers on a Princeville stone table in misted rain light.`,
   },
   corpIndexBigisland: {
     file: '/photos/corp-index-bigisland.png',
-    alt: `Unused ivory plates and unmarked papers on a Kohala lava terrace in hard sun.`,
+    alt: `Ivory plates and menu papers on a Kohala lava terrace in hard sun.`,
   },
   gatherIndexOahu: {
     file: '/photos/gather-index-oahu.png',
-    alt: `Unused ivory plates and extra glasses on a Kahala lawn table at dusk, brass clip.`,
+    alt: `Ivory plates and extra glasses on a Kahala lawn table at dusk.`,
   },
   gatherIndexMaui: {
     file: '/photos/gather-index-maui.png',
-    alt: `Unused ivory plates and extra glasses on a Wailea lawn table at west sunset.`,
+    alt: `Ivory plates and extra glasses on a Wailea lawn table at west sunset.`,
   },
   gatherIndexKauai: {
     file: '/photos/gather-index-kauai.png',
-    alt: `Unused ivory plates and extra glasses on a Kauai estate lawn table in misted valley light.`,
+    alt: `Ivory plates and extra glasses on a Kauai estate lawn table in misted valley light.`,
   },
   gatherIndexBigisland: {
     file: '/photos/gather-index-bigisland.png',
-    alt: `Unused ivory plates and extra glasses on a Kohala lava terrace in hard sun.`,
+    alt: `Ivory plates and extra glasses on a Kohala lava terrace in hard sun.`,
   },
   islandsIndexOahu: {
     file: '/photos/islands-index-oahu.png',
-    alt: `Unused ivory plates on a Kahala koa pass at dusk, open Pacific horizon, Diamond Head faint.`,
+    alt: `Ivory plates on a Kahala koa pass at dusk, open Pacific horizon, Diamond Head faint.`,
   },
   islandsIndexMaui: {
     file: '/photos/islands-index-maui.png',
-    alt: `Unused ivory plates on a Wailea lānai pass at west sunset, open Pacific horizon.`,
+    alt: `Ivory plates on a Wailea lānai pass at west sunset, open Pacific horizon.`,
   },
   islandsIndexKauai: {
     file: '/photos/islands-index-kauai.png',
-    alt: `Unused ivory plates on a Princeville stone pass in misted rain light, open channel horizon.`,
+    alt: `Ivory plates on a Princeville stone pass in misted rain light, open channel horizon.`,
   },
   islandsIndexBigisland: {
     file: '/photos/islands-index-bigisland.png',
-    alt: `Unused ivory plates on a Kohala lava terrace in hard sun, open Pacific horizon.`,
+    alt: `Ivory plates on a Kohala lava terrace in hard sun, open Pacific horizon.`,
   },
   hubFaq: {
     file: '/photos/hub-faq.png',
-    alt: `A stack of unused ivory papers under a brass clip on a koa table, volcanic-stone bowl of limes, no writing.`,
+    alt: `A stack of ivory menu papers on a koa table, volcanic-stone bowl of limes.`,
   },
   hubCoverage: {
     file: '/photos/hub-coverage.png',
-    alt: `Unused ivory papers and a brass clip on a sand linen pass, no map, no landmark, no writing.`,
+    alt: `Ivory menu papers laid out flat on a sand linen pass.`,
   },
   hubContact: {
     file: '/photos/hub-contact.png',
-    alt: `A blank ivory card in a brass clip on a koa desk, fountain pen, mossed lava, no writing.`,
+    alt: `An ivory menu card on a koa desk, fountain pen, mossed lava.`,
   },
   hubLocations: {
     file: '/photos/hub-locations.png',
-    alt: `Four unused ivory plates stacked on a koa sideboard, a thin brass clip on the top plate, no landmark.`,
+    alt: `Four clean ivory plates stacked on a koa sideboard.`,
   },
   hubMenus: {
     file: '/photos/hub-menus.png',
@@ -2009,155 +2009,155 @@ export const photos = {
   },
   hubHelp: {
     file: '/photos/hub-help.png',
-    alt: `Unused ivory cards under a brass clip on a sand linen kitchen pass, no writing.`,
+    alt: `Ivory menu cards set on a sand linen kitchen pass.`,
   },
   hubFine: {
     file: '/photos/hub-fine.png',
-    alt: `Unused ivory plates and empty stemware on a koa dining table, brass clip, no writing.`,
+    alt: `Ivory plates and empty stemware on a koa dining table.`,
   },
   hubStaff: {
     file: '/photos/hub-staff.png',
-    alt: `Unused empty glasses and sand linen on a kitchen pass, brass clip, no writing.`,
+    alt: `Empty glasses and sand linen laid on a kitchen pass.`,
   },
   hubEvents: {
     file: '/photos/hub-events.png',
-    alt: `Unused extra glasses and unused ivory plates on a koa lawn table, brass clip, no writing.`,
+    alt: `Extra glasses and ivory plates on a koa lawn table.`,
   },
   hubHonesty: {
     file: '/photos/hub-honesty.png',
-    alt: `A blank unused ivory card under a brass clip on a koa pass, no stars, no writing.`,
+    alt: `A single ivory menu card laid flat on the koa pass.`,
   },
   hubCounts: {
     file: '/photos/hub-counts.png',
-    alt: `Two unused ivory plates beside a taller stack of unused plates on a koa sideboard, brass clip.`,
+    alt: `Two ivory plates beside a taller stack of plates on a koa sideboard.`,
   },
   hubDietary: {
     file: '/photos/hub-dietary.png',
-    alt: `Unmarked whole produce and a whole fish on a koa board, unused ivory plate, no labels.`,
+    alt: `Whole produce and a whole fish on a koa board, ivory plate.`,
   },
   hubHoneymoon: {
     file: '/photos/hub-honeymoon.png',
-    alt: `Two unused ivory place settings and two empty glasses on a small koa table, brass clip.`,
+    alt: `Two ivory place settings and two empty glasses on a small koa table.`,
   },
   hubChefsTable: {
     file: '/photos/hub-chefs-table.png',
-    alt: `Unused tasting spoons and unused ivory plates in a quiet row on a koa pass, brass clip.`,
+    alt: `Tasting spoons and ivory plates in a quiet row on a koa pass.`,
   },
   hubKids: {
     file: '/photos/hub-kids.png',
-    alt: `One unused smaller ivory plate beside one unused adult plate on a koa table, citrus.`,
+    alt: `One smaller ivory plate beside one adult plate on a koa table, citrus.`,
   },
   hubPersonal: {
     file: '/photos/hub-personal.png',
-    alt: `Unused weekly produce crate on a koa counter, unused ivory plate, brass clip, no writing.`,
+    alt: `A weekly produce crate on a koa counter beside an ivory plate.`,
   },
   hubFeeStack: {
     file: '/photos/hub-feestack.png',
-    alt: `Unmarked unused ivory papers under a brass clip on a koa desk, fountain pen, no numbers.`,
+    alt: `Ivory menu papers on a koa desk beside a fountain pen.`,
   },
   hubMealPrep: {
     file: '/photos/hub-mealprep.png',
-    alt: `Unused empty glass containers stacked on a koa counter, unused ivory plate, no labels.`,
+    alt: `Empty glass containers stacked on a koa counter, ivory plate.`,
   },
   hubClasses: {
     file: '/photos/hub-classes.png',
-    alt: `Unused empty wooden board with citrus and a brass clip, no writing, unused ivory plate.`,
+    alt: `An empty wooden board with citrus and an ivory plate.`,
   },
   hubOmakase: {
     file: '/photos/hub-omakase.png',
-    alt: `Unused small ivory tasting plates in a quiet row on a koa pass, brass clip, no writing.`,
+    alt: `Small ivory tasting plates in a quiet row on a koa pass.`,
   },
   hubRehearsal: {
     file: '/photos/hub-rehearsal.png',
-    alt: `Unused long table of empty ivory plates and empty glasses on a koa dining table, brass clip.`,
+    alt: `Long table of empty ivory plates and empty glasses on a koa dining table.`,
   },
   hubRetreat: {
     file: '/photos/hub-retreat.png',
-    alt: `Unused breakfast plates stacked with empty coffee cups on a koa sideboard, brass clip.`,
+    alt: `Breakfast plates stacked with empty coffee cups on a koa sideboard.`,
   },
   hubCorpCater: {
     file: '/photos/hub-corpcater.png',
-    alt: `Unused identical ivory plates in a straight row on a koa table, unmarked papers, brass clip.`,
+    alt: `Identical ivory plates in a straight row on a koa table, menu papers.`,
   },
   hubOccBirthdays: {
     file: '/photos/hub-occ-birthdays.png',
-    alt: `Unused extra empty glasses and unused ivory plates on a koa lawn table, brass clip.`,
+    alt: `Extra empty glasses and ivory plates on a koa lawn table.`,
   },
   hubOccWelcome: {
     file: '/photos/hub-occ-welcome.png',
-    alt: `Unused ivory plates and citrus on a koa villa counter, brass clip, unpacked linen.`,
+    alt: `Ivory plates and citrus on a koa villa counter, unpacked linen.`,
   },
   hubOccRetreats: {
     file: '/photos/hub-occ-retreats.png',
-    alt: `Unused breakfast plates stacked with empty coffee cups on a koa sideboard, brass clip.`,
+    alt: `Empty coffee cups stacked with breakfast plates on a koa sideboard.`,
   },
   hubOccAnniversaries: {
     file: '/photos/hub-occ-anniversaries.png',
-    alt: `Two unused ivory place settings and two unlit candles on a koa table, brass clip.`,
+    alt: `Two ivory place settings and two unlit candles on a koa table.`,
   },
   hubOccCorporate: {
     file: '/photos/hub-occ-corporate.png',
-    alt: `Unused identical ivory plates in a straight row on a koa table, unmarked papers, brass clip.`,
+    alt: `Menu papers beside identical ivory plates in a row on a koa table.`,
   },
   hubOccParties: {
     file: '/photos/hub-occ-parties.png',
-    alt: `Cluster of unused extra empty glasses on a koa lawn table, unused ivory plates, brass clip.`,
+    alt: `Cluster of extra empty glasses on a koa lawn table, ivory plates.`,
   },
   hubOccBrunch: {
     file: '/photos/hub-occ-brunch.png',
-    alt: `Unused coffee cups and unused ivory plates with citrus on a koa table, brass clip.`,
+    alt: `Coffee cups and ivory plates with citrus on a koa table.`,
   },
   hubFmtBbq: {
     file: '/photos/hub-fmt-bbq.png',
-    alt: `Unused grill grate beside unused ivory plates on a koa outdoor table, brass clip.`,
+    alt: `Grill grate beside ivory plates on a koa outdoor table.`,
   },
   hubFmtPlated: {
     file: '/photos/hub-fmt-plated.png',
-    alt: `Unused identical ivory dinner plates in a quiet row on a koa pass, brass clip.`,
+    alt: `Identical ivory dinner plates in a quiet row on a koa pass.`,
   },
   hubFmtFamily: {
     file: '/photos/hub-fmt-family.png',
-    alt: `Unused empty shared platters and unused ivory plates on a koa table, brass clip.`,
+    alt: `Empty shared platters and ivory plates on a koa table.`,
   },
   hubFmtBuffet: {
     file: '/photos/hub-fmt-buffet.png',
-    alt: `Unused empty serving vessels in a line on a koa sideboard, unused ivory plates.`,
+    alt: `Empty serving vessels in a line on a koa sideboard, ivory plates.`,
   },
   hubFmtGrazing: {
     file: '/photos/hub-fmt-grazing.png',
-    alt: `Unused empty wooden boards on a koa counter, citrus, brass clip.`,
+    alt: `Empty wooden boards on the koa counter with citrus.`,
   },
   hubFmtDropoff: {
     file: '/photos/hub-fmt-dropoff.png',
-    alt: `Unused stacked empty food containers on a koa counter, unused ivory plate, brass clip.`,
+    alt: `Stacked empty food containers on a koa counter, ivory plate.`,
   },
   hubFineRomantic: {
     file: '/photos/hub-fine-romantic.png',
-    alt: `Two unused ivory place settings close together on a small koa table, brass clip.`,
+    alt: `Two ivory place settings close together on a small koa table.`,
   },
   hubFineTasting: {
     file: '/photos/hub-fine-tasting.png',
-    alt: `Five unused small ivory tasting plates in a quiet arc on a koa pass, brass clip.`,
+    alt: `Five small ivory tasting plates in a quiet arc on a koa pass.`,
   },
   hubFineChefsev: {
     file: '/photos/hub-fine-chefsev.png',
-    alt: `Unused tasting spoons in a row on a koa kitchen pass, unused ivory plates, brass clip.`,
+    alt: `Tasting spoons in a row on a koa kitchen pass, ivory plates.`,
   },
   hubFineCeleb: {
     file: '/photos/hub-fine-celeb.png',
-    alt: `Unused extra empty glasses and unused ivory plates on a koa dining table, brass clip.`,
+    alt: `Extra empty glasses and ivory plates on a koa dining table.`,
   },
   hubStaffServers: {
     file: '/photos/hub-staff-servers.png',
-    alt: `Unused empty stemware lined on a sand linen pass, brass clip.`,
+    alt: `Empty stemware lined in a row on a sand linen pass.`,
   },
   hubStaffBartenders: {
     file: '/photos/hub-staff-bartenders.png',
-    alt: `Unused empty coupe glasses on a koa bar cart, citrus, brass clip.`,
+    alt: `Empty coupe glasses on a koa bar cart with citrus.`,
   },
   hubStaffButlers: {
     file: '/photos/hub-staff-butlers.png',
-    alt: `Unused folded sand linen napkins stacked under a brass clip on a koa pass.`,
+    alt: `Folded sand linen napkins stacked neatly on a koa pass.`,
   },
   hubMenuThree: {
     file: '/photos/hub-menu-three.png',
@@ -2177,159 +2177,159 @@ export const photos = {
   },
   hubHelpStart: {
     file: '/photos/hub-help-start.png',
-    alt: `Unused ivory papers under a brass clip on a koa kitchen pass, citrus, no writing.`,
+    alt: `Ivory menu papers on a koa kitchen pass beside citrus.`,
   },
   hubHelpMenu: {
     file: '/photos/hub-help-menu.png',
-    alt: `Unused unmarked ivory paper beside citrus on a koa counter, brass clip.`,
+    alt: `An ivory menu paper beside citrus on a koa counter.`,
   },
   hubHelpWedding: {
     file: '/photos/hub-help-wedding.png',
-    alt: `Unused long table of empty ivory plates and empty glasses on a koa dining table.`,
+    alt: `Empty ivory plates and empty glasses along a long koa dining table.`,
   },
   hubHelpCorp: {
     file: '/photos/hub-help-corp.png',
-    alt: `Unused unmarked papers and unused ivory plates on a koa table, brass clip.`,
+    alt: `Menu papers and ivory plates set together on a koa table.`,
   },
   hubHelpManage: {
     file: '/photos/hub-help-manage.png',
-    alt: `Unused ivory papers under a brass clip on a koa desk, fountain pen, no writing.`,
+    alt: `Ivory menu papers under a fountain pen on a koa desk.`,
   },
   hubJnlCost: {
     file: '/photos/hub-jnl-cost.png',
-    alt: `Unused ivory papers stacked under a brass clip on a koa kitchen pass, fountain pen, limes, no writing.`,
+    alt: `Ivory menu papers stacked on a koa kitchen pass, fountain pen, limes.`,
   },
   hubJnlHire: {
     file: '/photos/hub-jnl-hire.png',
-    alt: `Five unused blank ivory cards fanned under a brass clip on a sand linen pass, citrus.`,
+    alt: `Five ivory menu cards fanned on a sand linen pass, citrus.`,
   },
   hubJnlKitchens: {
     file: '/photos/hub-jnl-kitchens.png',
-    alt: `Empty copper sauté pan beside unused ivory plates on a compact koa villa counter.`,
+    alt: `Empty copper sauté pan beside ivory plates on a compact koa villa counter.`,
   },
   hubJnlDietary: {
     file: '/photos/hub-jnl-dietary.png',
-    alt: `Three unused small ceramic bowls in a quiet row on a koa board, unmarked produce, no labels.`,
+    alt: `Three small ceramic bowls in a quiet row on a koa board, produce.`,
   },
   hubJnlIncluded: {
     file: '/photos/hub-jnl-included.png',
-    alt: `Stacked unused sand linen napkins and unused ivory plates on a koa dining table, brass clip.`,
+    alt: `Stacked sand linen napkins and ivory plates on a koa dining table.`,
   },
   hubJnlBook: {
     file: '/photos/hub-jnl-book.png',
-    alt: `Unused unmarked ivory papers under a brass clip on a koa desk, fountain pen, no dates.`,
+    alt: `Ivory menu papers on a koa desk with a fountain pen.`,
   },
   hubJnlVsrest: {
     file: '/photos/hub-jnl-vsrest.png',
-    alt: `One unused ivory place setting beside an unused charger plate on a koa table, two unlit candles.`,
+    alt: `One ivory place setting beside a charger plate on a koa table, two unlit candles.`,
   },
   hubBlogGrocery: {
     file: '/photos/hub-blog-grocery.png',
-    alt: `Unmarked whole produce and a whole fish on a koa board, unused ivory plate, unlabeled paper bag.`,
+    alt: `Whole produce and a whole fish on a koa board, ivory plate, paper bag.`,
   },
   hubBlogWine: {
     file: '/photos/hub-blog-wine.png',
-    alt: `Two unused empty wine glasses and an unlabeled dark bottle on a koa bar cart, citrus peel.`,
+    alt: `Two empty wine glasses and a dark bottle on a koa bar cart, citrus peel.`,
   },
   hubBlogWeather: {
     file: '/photos/hub-blog-weather.png',
-    alt: `Unused ivory plates on a rain-dark stone terrace, wet koa table, empty glasses, brass clip.`,
+    alt: `Ivory plates on a rain-dark stone terrace, wet koa table, empty glasses.`,
   },
   hubBlogSourcing: {
     file: '/photos/hub-blog-sourcing.png',
-    alt: `Unpacked unmarked produce and an unlabeled whole fish on a koa prep table, unused ivory plate.`,
+    alt: `Unpacked produce and a whole fish on a koa prep table, ivory plate.`,
   },
   hubBlogCleanup: {
     file: '/photos/hub-blog-cleanup.png',
-    alt: `Stack of clean unused ivory plates beside folded sand linen on a koa pass, empty sink edge.`,
+    alt: `Stack of clean ivory plates beside folded sand linen on a koa pass, empty sink edge.`,
   },
   hubBlogCondo: {
     file: '/photos/hub-blog-condo.png',
-    alt: `Unused stacked empty food totes and unused ivory plates in a service corridor, brass clip.`,
+    alt: `Stacked empty food totes and ivory plates in a service corridor.`,
   },
   hubBlogReunions: {
     file: '/photos/hub-blog-reunions.png',
-    alt: `Long unused koa dining table with many unused ivory plates and empty glasses, sand linen.`,
+    alt: `Long koa dining table with many ivory plates and empty glasses, sand linen.`,
   },
   hubBlogPhotoshoot: {
     file: '/photos/hub-blog-photoshoot.png',
-    alt: `Unused identical ivory plates in a row on a koa sideboard, coiled cable, brass clip.`,
+    alt: `Identical ivory plates in a row on a koa sideboard, coiled cable.`,
   },
   hubBlogProposal: {
     file: '/photos/hub-blog-proposal.png',
-    alt: `Two unused ivory place settings close together on a small koa table, two empty coupes, unlit candle.`,
+    alt: `Two ivory place settings close together on a small koa table, two empty coupes, unlit candle.`,
   },
   hubBlogEstate: {
     file: '/photos/hub-blog-estate.png',
-    alt: `Unused empty crates and unused ivory plates on a wide koa estate kitchen pass, brass clip.`,
+    alt: `Empty crates and ivory plates on a wide koa estate kitchen pass.`,
   },
   hubBlogShoulder: {
     file: '/photos/hub-blog-shoulder.png',
-    alt: `A quieter unused ivory place setting on a mossed lava and koa table, empty coffee cup, brass clip.`,
+    alt: `A quieter ivory place setting on a mossed lava and koa table, empty coffee cup.`,
   },
   hubBlogFarms: {
     file: '/photos/hub-blog-farms.png',
-    alt: `Unlabeled produce crates and unmarked whole fruit on a koa counter, unused ivory plate, brass clip.`,
+    alt: `Produce crates and whole fruit on a koa counter, ivory plate.`,
   },
   hubBlogFish: {
     file: '/photos/hub-blog-fish.png',
-    alt: `A whole unmarked fish on crushed ice in a volcanic-stone bowl, unused ivory plate, koa counter.`,
+    alt: `A whole fish on crushed ice in a volcanic-stone bowl, ivory plate, koa counter.`,
   },
   hubBlogCoffee: {
     file: '/photos/hub-blog-coffee.png',
-    alt: `Unlabeled brown coffee bags and unused ivory cups on a koa sideboard, brass clip, mossed lava.`,
+    alt: `Brown coffee bags and ivory cups on a koa sideboard, mossed lava.`,
   },
   hubBlogPeak: {
     file: '/photos/hub-blog-peak.png',
-    alt: `A thick stack of unused ivory papers compressed under a heavy brass clip on a koa desk, no dates.`,
+    alt: `A thick stack of ivory menu papers compressed on a koa desk.`,
   },
   hubBlogReviews: {
     file: '/photos/hub-blog-reviews.png',
-    alt: `A blank unused ivory card under a brass clip on a koa pass, no stars, no writing, fountain pen.`,
+    alt: `An ivory menu card on a koa pass beside a fountain pen.`,
   },
   hubBlogAnniv: {
     file: '/photos/hub-blog-anniversary.png',
-    alt: `Two unused ivory place settings close together on a koa table, two unlit candles, empty coupes, brass clip.`,
+    alt: `Two ivory place settings close together on a koa table, two unlit candles, empty coupes.`,
   },
   hubBlogKids: {
     file: '/photos/hub-blog-kids.png',
-    alt: `One unused adult ivory plate beside one smaller unused ivory child’s plate on a koa table, brass clip.`,
+    alt: `One adult ivory plate beside one smaller ivory child’s plate on a koa table.`,
   },
   hubBlogBreakfast: {
     file: '/photos/hub-blog-breakfast.png',
-    alt: `Unused ivory cups and unused breakfast plates on a koa sideboard in morning light, brass clip.`,
+    alt: `Ivory cups and breakfast plates on a koa sideboard in morning light.`,
   },
   hubBlogLunch: {
     file: '/photos/hub-blog-lunch.png',
-    alt: `Unused ivory lunch plates and empty water glasses on a koa table in hard midday light, brass clip.`,
+    alt: `Ivory lunch plates and empty water glasses on a koa table in hard midday light.`,
   },
   hubBlogServers: {
     file: '/photos/hub-blog-servers.png',
-    alt: `Stack of unused ivory plates and folded sand linen on a koa pass, unused empty glasses in a row.`,
+    alt: `Stack of ivory plates and folded sand linen on a koa pass, empty glasses in a row.`,
   },
   hubBlogBartender: {
     file: '/photos/hub-blog-bartender.png',
-    alt: `Unused empty coupes and an unlabeled dark bottle on a koa bar cart, citrus peel, brass jigger.`,
+    alt: `Empty coupes and a dark bottle on a koa bar cart, citrus peel, brass jigger.`,
   },
   hubBlogWelcome: {
     file: '/photos/hub-blog-welcome.png',
-    alt: `Unused ivory first-night place settings on a small koa table, two empty glasses, unlit candle.`,
+    alt: `Ivory first-night place settings on a small koa table, two empty glasses, unlit candle.`,
   },
   hubBlogBrunch: {
     file: '/photos/hub-blog-brunch.png',
-    alt: `Unused ivory brunch plates, unused fruit in a volcanic-stone bowl, empty coffee cups, morning light.`,
+    alt: `Ivory brunch plates, fruit in a volcanic-stone bowl, empty coffee cups, morning light.`,
   },
   hubBlogRehearsal: {
     file: '/photos/hub-blog-rehearsal.png',
-    alt: `A medium unused koa dining table with unused ivory plates for about eight, unlit candles, brass clip.`,
+    alt: `A medium koa dining table with ivory plates for about eight, unlit candles.`,
   },
   hubBlogOffsites: {
     file: '/photos/hub-blog-offsites.png',
-    alt: `Unused identical ivory plates in a precise row on a wide koa house table, blank notebooks, brass clip.`,
+    alt: `Identical ivory plates in a precise row on a wide koa house table, notepads.`,
   },
   hubBlogRetreat: {
     file: '/photos/hub-blog-retreat.png',
-    alt: `Three stacked unused ivory plate settings with cups and glasses of different sizes on a koa pass, brass clip.`,
+    alt: `Three stacked ivory plate settings with cups and glasses of different sizes on a koa pass.`,
   },
   blogAnnivOahu: {
     file: '/photos/blog-anniv-oahu.png',
@@ -2397,19 +2397,19 @@ export const photos = {
   },
   blogServersOahu: {
     file: '/photos/blog-servers-oahu.png',
-    alt: `A server setting unused ivory plates on a Kahala dining table at dusk, chef at the pass, Diamond Head.`,
+    alt: `A server setting ivory plates on a Kahala dining table at dusk, chef at the pass, Diamond Head.`,
   },
   blogServersMaui: {
     file: '/photos/blog-servers-maui.png',
-    alt: `A server setting unused ivory plates on a Wailea dining table at sunset, chef at the pass, Pacific.`,
+    alt: `A server setting ivory plates on a Wailea dining table at sunset, chef at the pass, Pacific.`,
   },
   blogServersKauai: {
     file: '/photos/blog-servers-kauai.png',
-    alt: `A server setting unused ivory plates on a wet North Shore Kauaʻi stone table, misted mountains.`,
+    alt: `A server setting ivory plates on a wet North Shore Kauaʻi stone table, misted mountains.`,
   },
   blogServersBigisland: {
     file: '/photos/blog-servers-bigisland.png',
-    alt: `A server setting unused ivory plates on a Kohala lava-terrace table, Mauna Kea faint.`,
+    alt: `A server setting ivory plates on a Kohala lava-terrace table, Mauna Kea faint.`,
   },
   blogBartenderOahu: {
     file: '/photos/blog-bartender-oahu.png',
@@ -2477,19 +2477,19 @@ export const photos = {
   },
   blogOffsitesOahu: {
     file: '/photos/blog-offsites-oahu.png',
-    alt: `A chef plating identical board-dinner fish courses on a Honolulu house table, unused notebooks aside.`,
+    alt: `A chef plating identical board-dinner fish courses on a Honolulu house table, notepads aside.`,
   },
   blogOffsitesMaui: {
     file: '/photos/blog-offsites-maui.png',
-    alt: `A chef plating identical board-dinner fish courses on a Wailea house table at west sunset, unused notebooks.`,
+    alt: `A chef plating identical board-dinner fish courses on a Wailea house table at west sunset, notepads.`,
   },
   blogOffsitesKauai: {
     file: '/photos/blog-offsites-kauai.png',
-    alt: `A chef plating identical board-dinner fish courses on a Kauaʻi estate table, unused notebooks, misted mountains.`,
+    alt: `A chef plating identical board-dinner fish courses on a Kauaʻi estate table, notepads, misted mountains.`,
   },
   blogOffsitesBigisland: {
     file: '/photos/blog-offsites-bigisland.png',
-    alt: `A chef plating identical board-dinner kanpachi courses on a Waikoloa house table, unused notebooks aside.`,
+    alt: `A chef plating identical board-dinner kanpachi courses on a Waikoloa house table, notepads aside.`,
   },
   blogRetreatOahu: {
     file: '/photos/blog-retreat-oahu.png',
@@ -2521,7 +2521,7 @@ export const photos = {
   },
   cellKakaako: {
     file: '/photos/cell-kakaako.png',
-    alt: `A compact Kakaʻako tower kitchen — chef at a small range, city lights, unused ivory plates stacked.`,
+    alt: `A compact Kakaʻako tower kitchen — chef at a small range, city lights, ivory plates stacked.`,
   },
   cellDowntown: {
     file: '/photos/cell-downtown.png',
@@ -2541,11 +2541,11 @@ export const photos = {
   },
   cellNapili: {
     file: '/photos/cell-napili.png',
-    alt: `A Nāpili West Maui deck dinner at sunset — grilled fish, Molokaʻi across the channel, no Lahaina copy.`,
+    alt: `A Nāpili West Maui deck dinner at sunset — grilled fish, Molokaʻi across the channel.`,
   },
   cellPaia: {
     file: '/photos/cell-paia.png',
-    alt: `A Pāʻia North Shore estate kitchen — trade-wind light, plated fish, not a resort-residence corridor.`,
+    alt: `A Pāʻia North Shore estate kitchen — trade-wind light, plated fish.`,
   },
   cellMakawao: {
     file: '/photos/cell-makawao.png',
@@ -2557,7 +2557,7 @@ export const photos = {
   },
   cellWaikapu: {
     file: '/photos/cell-waikapu.png',
-    alt: `A Waikapū central-valley estate table — West Maui mountains inland, not a resort lawn.`,
+    alt: `A Waikapū central-valley estate table — West Maui mountains inland.`,
   },
   cellHaleakala: {
     file: '/photos/cell-haleakala.png',
@@ -2569,7 +2569,7 @@ export const photos = {
   },
   cellKoloa: {
     file: '/photos/cell-koloa.png',
-    alt: `A Kōloa town house kitchen — South Shore light, plated fish, not a Poʻipū resort-residence clone.`,
+    alt: `A Kōloa town house kitchen — South Shore light, plated fish.`,
   },
   cellLihue: {
     file: '/photos/cell-lihue.png',
@@ -2585,7 +2585,7 @@ export const photos = {
   },
   cellHanapepe: {
     file: '/photos/cell-hanapepe.png',
-    alt: `A Hanapēpē west-side town house table — not a visitor-villa cluster, plated household fish.`,
+    alt: `A Hanapēpē west-side town house table with plated household fish.`,
   },
   cellAnahola: {
     file: '/photos/cell-anahola.png',
@@ -2605,11 +2605,11 @@ export const photos = {
   },
   cellMaunaLani: {
     file: '/photos/cell-mauna-lani.png',
-    alt: `A Mauna Lani Kohala resort-residence table — lava terrace, plated kanpachi, one community not the island.`,
+    alt: `A Mauna Lani Kohala resort-residence table — lava terrace, plated kanpachi.`,
   },
   cellMaunaKea: {
     file: '/photos/cell-mauna-kea.png',
-    alt: `A Mauna Kea resort-belt villa table — Kohala coast, not the summit, plated fish, Mauna Kea faint.`,
+    alt: `A Mauna Kea resort-belt villa table — Kohala coast, plated fish, Mauna Kea faint.`,
   },
   cellHilo: {
     file: '/photos/cell-hilo.png',
@@ -2637,115 +2637,115 @@ export const photos = {
   },
   jnlWeddingOahu: {
     file: '/photos/jnl-wedding-oahu.png',
-    alt: `A chef plating a seated fish course on a Kahala dining table at dusk, unused extra settings, Diamond Head faint.`,
+    alt: `A chef plating a seated fish course on a Kahala dining table at dusk, extra settings, Diamond Head faint.`,
   },
   jnlWeddingMaui: {
     file: '/photos/jnl-wedding-maui.png',
-    alt: `A chef plating a seated dinner on a Wailea ocean lawn at west sunset, unused extra ivory settings, Pacific beyond.`,
+    alt: `A chef plating a seated dinner on a Wailea ocean lawn at west sunset, extra ivory settings, Pacific beyond.`,
   },
   jnlWeddingKauai: {
     file: '/photos/jnl-wedding-kauai.png',
-    alt: `A chef plating a seated dinner on a wet Princeville stone terrace, unused extra settings, misted mountains.`,
+    alt: `A chef plating a seated dinner on a wet Princeville stone terrace, extra settings, misted mountains.`,
   },
   jnlWeddingBigisland: {
     file: '/photos/jnl-wedding-bigisland.png',
-    alt: `A chef plating kanpachi on a Kohala lava-terrace table at sunset, unused extra ivory settings, Mauna Kea faint.`,
+    alt: `A chef plating kanpachi on a Kohala lava-terrace table at sunset, extra ivory settings, Mauna Kea faint.`,
   },
   jnlVacweekOahu: {
     file: '/photos/jnl-vacweek-oahu.png',
-    alt: `A chef stacking unused ivory plates beside unmarked produce crates in a Kahala kitchen, Diamond Head through the window.`,
+    alt: `A chef stacking ivory plates beside produce crates in a Kahala kitchen, Diamond Head through the window.`,
   },
   jnlVacweekMaui: {
     file: '/photos/jnl-vacweek-maui.png',
-    alt: `A chef stacking unused ivory plates beside unmarked produce crates in a Wailea kitchen, Pacific through the sliders.`,
+    alt: `A chef stacking ivory plates beside produce crates in a Wailea kitchen, Pacific through the sliders.`,
   },
   jnlVacweekKauai: {
     file: '/photos/jnl-vacweek-kauai.png',
-    alt: `A chef stacking unused ivory plates beside unmarked produce crates in a Poʻipū kitchen, pale south-shore light.`,
+    alt: `A chef stacking ivory plates beside produce crates in a Poʻipū kitchen, pale south-shore light.`,
   },
   jnlVacweekBigisland: {
     file: '/photos/jnl-vacweek-bigisland.png',
-    alt: `A chef stacking unused ivory plates beside unmarked produce in a Waikoloa kitchen, lava coast morning, clay bowl of coffee cherries.`,
+    alt: `A chef stacking ivory plates in a Waikoloa kitchen, lava coast morning, clay bowl of coffee cherries.`,
   },
   jnlZonesOahu: {
     file: '/photos/jnl-zones-oahu.png',
-    alt: `A chef loading stacked canvas coolers in a Kahala courtyard at dusk, unused ivory plates, Diamond Head faint.`,
+    alt: `A chef loading stacked canvas coolers in a Kahala courtyard at dusk, ivory plates, Diamond Head faint.`,
   },
   jnlZonesMaui: {
     file: '/photos/jnl-zones-maui.png',
-    alt: `A chef loading stacked canvas coolers beside a Wailea gate at west sunset, unused ivory plates, mountains inland.`,
+    alt: `A chef loading stacked canvas coolers beside a Wailea gate at west sunset, ivory plates, mountains inland.`,
   },
   jnlZonesKauai: {
     file: '/photos/jnl-zones-kauai.png',
-    alt: `A chef loading stacked canvas coolers on wet Princeville stone, unused ivory plates, misted mountains.`,
+    alt: `A chef loading stacked canvas coolers on wet Princeville stone, ivory plates, misted mountains.`,
   },
   jnlZonesBigisland: {
     file: '/photos/jnl-zones-bigisland.png',
-    alt: `A chef loading stacked canvas coolers on a Kohala lava courtyard in hard sun, unused ivory plates, Mauna Kea faint.`,
+    alt: `A chef loading stacked canvas coolers on a Kohala lava courtyard in hard sun, ivory plates, Mauna Kea faint.`,
   },
   hubJnlWedding: {
     file: '/photos/hub-jnl-wedding.png',
-    alt: `Four small stacks of unused ivory plates on a koa table, unlit brass candleholders, volcanic-stone bowl of limes.`,
+    alt: `Four small stacks of ivory plates on a koa table, unlit brass candleholders, volcanic-stone bowl of limes.`,
   },
   hubJnlVacweek: {
     file: '/photos/hub-jnl-vacweek.png',
-    alt: `Unused unmarked produce crates beside stacked unused ivory breakfast and dinner plates on a koa pass, brass clip.`,
+    alt: `Produce crates beside stacked ivory breakfast and dinner plates on a koa pass.`,
   },
   hubJnlZones: {
     file: '/photos/hub-jnl-zones.png',
-    alt: `Two unused canvas coolers stacked beside unused ivory plates on a koa pass, brass clip, mossed lava.`,
+    alt: `Two canvas coolers stacked beside ivory plates on a koa pass, mossed lava.`,
   },
   hubHow: {
     file: '/photos/hub-how.png',
-    alt: `Five small stacks of unused ivory plates in a line on a koa kitchen pass, volcanic-stone bowl of limes, sand linen, no writing.`,
+    alt: `Five small stacks of ivory plates in a line on a koa kitchen pass, volcanic-stone bowl of limes, sand linen.`,
   },
   hubTrust: {
     file: '/photos/hub-trust.png',
-    alt: `Blank cream ledger cards under a brass clip on a koa counter, unused ivory plates, mossed lava, no writing.`,
+    alt: `Cream ledger cards on a koa counter, ivory plates, mossed lava.`,
   },
   hubLegal: {
     file: '/photos/hub-legal.png',
-    alt: `A stack of unmarked cream papers under a brass clip on a koa desk, capped fountain pen, unused ivory plate, no writing.`,
+    alt: `A stack of cream menu papers on a koa desk, capped fountain pen, ivory plate.`,
   },
   hubAreas: {
     file: '/photos/hub-areas.png',
-    alt: `Unused ivory papers on sand linen on a koa sideboard, brass weight, mossed lava, anonymous dusk ocean, no map, no writing.`,
+    alt: `Ivory menu papers on sand linen on a koa sideboard, brass weight, mossed lava.`,
   },
   hubJournal: {
     file: '/photos/hub-journal.png',
-    alt: `Unused cream notebooks and unmarked ivory cards under a brass clip on a koa table, citrus, no writing.`,
+    alt: `Cream notebooks and ivory cards on a koa table, citrus.`,
   },
   hubBlog: {
     file: '/photos/hub-blog.png',
-    alt: `Unused ivory cards in a brass clipboard on sand linen, volcanic-stone bowl of limes, no writing.`,
+    alt: `Ivory menu cards in a clipboard on sand linen, volcanic-stone bowl of limes.`,
   },
   hubServices: {
     file: '/photos/hub-services.png',
-    alt: `Four unused ivory place settings on a long koa lawn table at dusk, empty stemware, brass clips, no writing.`,
+    alt: `Four ivory place settings on a long koa lawn table at dusk, empty stemware.`,
   },
   hubIslands: {
     file: '/photos/hub-islands.png',
-    alt: `Four unused ivory plates along a long koa terrace table at dusk, anonymous ocean horizon, no writing.`,
+    alt: `Four ivory plates along a long koa terrace table at dusk.`,
   },
   hubThanks: {
     file: '/photos/hub-thanks.png',
-    alt: `Unused ivory confirmation cards under a brass clip on a koa kitchen pass, unused ivory plates, volcanic-stone bowl of limes, sand linen, no writing.`,
+    alt: `Ivory confirmation cards on a koa kitchen pass, ivory plates, volcanic-stone bowl of limes, sand linen.`,
   },
   hubCorporate: {
     file: '/photos/hub-corporate.png',
-    alt: `Unused ivory plates in a quiet row on a long koa table, unmarked cream cards under a brass clip, volcanic-stone bowl of limes, no writing.`,
+    alt: `Ivory plates in a quiet row on a long koa table, cream menu cards, volcanic-stone bowl of limes.`,
   },
   hubGatherings: {
     file: '/photos/hub-gatherings.png',
-    alt: `Unused ivory plates and empty stemware on a long koa dining table, brass clips, volcanic-stone bowl of citrus, sand linen, no writing.`,
+    alt: `Ivory plates and empty stemware on a long koa dining table, volcanic-stone bowl of citrus, sand linen.`,
   },
   hubMobileBar: {
     file: '/photos/hub-mobile-bar.png',
-    alt: `Unused coupe glasses and a brass jigger on a koa villa bar cart, volcanic-stone bowl of citrus, unused ivory plates, sand linen, no writing.`,
+    alt: `Coupe glasses and a brass jigger on a koa villa bar cart, volcanic-stone bowl of citrus, ivory plates.`,
   },
   hubPricing: {
     file: '/photos/hub-pricing.png',
-    alt: `Unused ivory plates in a quiet row on a koa table, unmarked cream rate cards under a brass clip, volcanic-stone bowl of limes, no writing.`,
+    alt: `Ivory plates in a quiet row on a koa table, cream rate cards, volcanic-stone bowl of limes.`,
   },
 } as const;
 

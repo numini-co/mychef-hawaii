@@ -435,8 +435,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'Wedding-week planning notes across Oʻahu, Maui, Kauaʻi and the Big Island, with published prices and a written quote.',
   },
   '/help/corporate-guide': {
-    title: 'Offsite planning notes, by island | myCHEF Hawaii',
-    description: 'Offsite planning notes across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Corporate offsite catering in Hawaii | myCHEF',
+    description:
+      'Corporate offsite meals in a Hawaii house. The brief names dates, the address, and headcount. Oʻahu and Maui answer with a written quote.',
   },
   '/help/managing-booking': {
     title: 'Change a Hawaii private chef booking | myCHEF',
