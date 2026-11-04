@@ -145,15 +145,15 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
     {
       slug: 'corporate-guide',
       name: 'Corporate guide',
-      h1: 'Planning an Oahu house offsite — not a convention floor.',
-      title: 'Planning an Oahu house offsite | myCHEF',
+      h1: 'How to brief an Oʻahu corporate dinner.',
+      title: 'How to brief an Oʻahu corporate dinner | myCHEF',
       description:
-        'How to brief an Oahu executive dinner or house offsite. Not HCC citywides.',
-      lede: 'How to brief an Oahu executive dinner or house offsite. Not HCC citywides.',
+        'What an Oʻahu brief needs: dates, the house address, headcount, and who can approve. The quote shows the band, service, and tax on separate lines.',
+      lede: 'What to put in an Oʻahu brief before a menu exists: the house, the dates, the headcount, and who can approve.',
       photo: 'helpCorporateOahu',
       body: [
-        'HCC citywides are closed through 2027 and are not our product.',
-        'Kahala and Ko Olina houses. Larger than about seventy-five is quoted or declined.',
+        'The useful Oʻahu note names a Kahala, Ko Olina, Kailua, or Honolulu address, the dates, and the headcount, plus who can approve a written total. A tower also needs its freight window and the building rule the crew will meet at the curb. Kitchen photos matter more than a listing headline. Request a written quote on [the quote form](/quote).',
+        'The quote comes back line by line. The rate-card band is the food, and groceries for a signature dinner stay inside it. Then 20% service. Then Hawaiʻi GET up to 4.712%. A 50% deposit is collected after acceptance. Gratuity is never required. The person who accepts should receive the invoice. A mixed team’s dietary list is part of the brief, written before the shop. We do not claim a separate allergen kitchen. HCC citywides are closed through 2027. Larger than about seventy-five is quoted or declined. Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -184,7 +184,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       related: [
         { path: '/corporate-catering', label: 'Executive dinners' },
         { path: '/events/corporate-events', label: 'House offsites' },
-        { path: '/conventions', label: 'Not MICE' },
+        { path: '/conventions', label: 'Conventions' },
       ],
     },
     {
@@ -355,15 +355,15 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
     {
       slug: 'corporate-guide',
       name: 'Corporate guide',
-      h1: 'Planning a Maui villa offsite — South and West houses, not a ballroom.',
-      title: 'Planning a Maui villa offsite | myCHEF',
+      h1: 'How to brief a Maui villa offsite.',
+      title: 'How to brief a Maui villa offsite | myCHEF',
       description:
-        'How to brief a Maui executive dinner or villa offsite. Not a hotel ballroom.',
-      lede: 'How to brief a Maui executive dinner or villa offsite. Not a hotel ballroom.',
+        'What a Maui villa brief needs: the shore, the rental address, headcount, and any Saturday drive. Request a written quote before the menu is discussed.',
+      lede: 'What a Villa Week brief needs before dishes are discussed: the shore, the rental, and whether Saturday crosses West Maui.',
       photo: 'helpCorporateMaui',
       body: [
-        'Upcountry is still a surcharge.',
-        'We do not staff a Maui Convention Center floor we do not run.',
+        'Write Wailea, Kapalua, or Kāʻanapali, then the rental’s street address, the dates, and how many seats. Say whether Saturday crosses from the south shore toward West Maui. That drive sets the call time. One person still has to accept the total. Request a written quote on [the quote form](/quote) when the villa contract is signed.',
+        'Food is the rate-card band, groceries inside it for that one dinner. Service at 20% is not folded into the guest price. Hawaiʻi GET up to 4.712% is its own line. The 50% deposit waits until you accept. Gratuity is never required. That total is what finance files. Put dietary needs for the mixed team in the same brief, before any dish is discussed. We do not claim a separate allergen kitchen. If the house is Upcountry, the travel line is on [pricing](/pricing), not guessed here. Send the dates, the villa address, and the headcount.',
       ],
       faqs: [
         {
@@ -499,7 +499,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       description:
         'How a Kauaʻi draft is written after a request for availability, how you revise it, and why a supplier is not promised. The shore is part of the draft.',
       lede:
-        'A Kauaʻi draft names the shore. It is written only if a crew can take that estate. It is not a standing carte.',
+        'A Kauaʻi draft names the shore. It is written only if a crew can take that estate. There is no fixed restaurant menu.',
       photo: 'helpMenuKauai',
       body: [
         'Request availability first. If that shore can be cooked, the draft follows about 48 hours after the request is complete. Princeville drafts carry the bridge note. Poʻipū drafts carry the wet-weather note. Kapaʻa is closer to Līhuʻe and still a real table. You approve the courses in writing.',
@@ -512,7 +512,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
         },
         {
           q: 'Is a Kauaʻi draft a menu I can reorder on the other shore?',
-          a: 'It is written for the shore you named. A Princeville draft does not become Poʻipū if the road closes. The night moves, or a new draft is written. A [three-course](/menus/three-course) page shows a shape, not a carte.',
+          a: 'It is written for the shore you named. A Princeville draft does not become Poʻipū if the road closes. The night moves, or a new draft is written. A [three-course](/menus/three-course) page shows a shape. There is no fixed restaurant menu.',
         },
         {
           q: 'How do I revise a Kauaʻi draft before the shop?',
@@ -565,15 +565,15 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
     {
       slug: 'corporate-guide',
       name: 'Corporate guide',
-      h1: 'Planning a Kauai estate offsite — inquiry, not a convention.',
-      title: 'Planning a Kauai estate offsite | myCHEF',
+      h1: 'How to request a Kauaʻi estate dinner.',
+      title: 'How to request a Kauaʻi estate dinner | myCHEF',
       description:
-        'How to brief a Kauai executive dinner or estate offsite at inquiry. Not a convention floor.',
-      lede: 'How to brief a Kauai executive dinner or estate offsite at inquiry. Not a convention floor.',
+        'What a Kauaʻi estate request needs: Princeville or Poʻipū, the bridge if you are north, dates, and headcount. Request availability before any menu.',
+      lede: 'What a request for availability must name: the shore, the estate, and the Hanalei bridge if the house is north.',
       photo: 'helpCorporateKauai',
       body: [
-        'Inquiry.',
-        'We do not staff a Kauaʻi convention we do not run.',
+        'Request availability with the shore in the first sentence. Princeville and Hanalei need the bridge named, plus a covered backup when rain is the forecast. Poʻipū needs the estate address and a wet-weather note. Dates, headcount, and kitchen photos travel with that shore. Put the approver’s name on the note. A printed page is not a held crew.',
+        'If the shore can be staffed, the reply is a written total: the rate-card band, a 20% service charge, and Hawaiʻi GET up to 4.712%, each on its own line. The 50% deposit comes after the written yes. Gratuity is never required. The approver’s finance desk receives that total. Dietary limits for a mixed team go in the request, before the shop, with the headcount. We do not claim a separate allergen kitchen. Send the dates, the estate address, and the headcount. Request availability on [the quote form](/quote). Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -775,15 +775,15 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
     {
       slug: 'corporate-guide',
       name: 'Corporate guide',
-      h1: 'Planning a west-side villa offsite — Kohala, not a Hilo convention.',
-      title: 'Planning a west-side villa offsite | myCHEF',
+      h1: 'How to brief a Kohala Coast offsite.',
+      title: 'How to brief a Kohala Coast offsite | myCHEF',
       description:
-        'How to brief a Hawaiʻi Island executive dinner or villa offsite at inquiry. West side first.',
-      lede: 'How to brief a Hawaiʻi Island executive dinner or villa offsite at inquiry. West side first.',
+        'What a Kohala Coast brief needs: a Kona or Waikoloa address, dates, and headcount. Join the inquiry list. Hilo stays a separate dedicated day.',
+      lede: 'What a west-side brief must name before a menu exists: the Kona or Kohala address. Hilo is its own day.',
       photo: 'helpCorporateBigisland',
       body: [
-        'Ironman weeks change lodging, not our kitchen promise.',
-        'East side is a dedicated day. Inquiry. We do not staff a Hilo convention we do not run.',
+        'Join the inquiry list with a west-side address only. Write Kona, Waikoloa, or the Kohala Coast, then the dates and the headcount. Photos should show the cooktop, the fridge, and whether the night is the lava terrace or the great room. Flag Ironman if the week touches the race. Hilo is a second note and a dedicated east-side day. Name the person who can approve.',
+        'The answer is a written total the approver can hand to finance. The rate-card band is the food line, groceries inside it. The 20% service charge follows. Hawaiʻi GET up to 4.712% follows that. A 50% deposit applies after the written yes. Gratuity is never required. Dietary needs for a mixed team are in the brief before the west-side shop. We do not claim a separate allergen kitchen. Send the dates, the house address, and the headcount. Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {

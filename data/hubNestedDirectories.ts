@@ -1063,16 +1063,18 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
   },
   helpCorp: {
     path: '/help/corporate-guide',
-    h1: 'Offsite planning notes, by island.',
-    title: 'Offsite planning notes, by island | myCHEF Hawaii',
-    description: 'Offsite planning notes across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    h1: 'Corporate offsite catering in Hawaii.',
+    title: 'Corporate offsite catering in Hawaii | myCHEF',
+    description:
+      'Corporate offsite meals in a Hawaii house. The brief names dates, the address, and headcount. Oʻahu and Maui answer with a written quote.',
     lede:
-      'How to plan a house offsite. Not HCC citywides.',
+      'How a company plans an offsite meal in a Hawaii house: one brief, a written total, and the person who can approve it.',
     kicker: 'Statewide · Offsite guide',
     photo: 'hubHelpCorp',
     cardLabel: 'Offsite guide',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'A company meal in Hawaii is planned where the house sits. Oʻahu and Maui take a request for a written quote. Kauaʻi takes a request for availability at a Princeville or Poʻipū estate, and the Hanalei bridge belongs in the note when the house is north. Hawaiʻi Island: join the inquiry list for Kona, Waikoloa, or the Kohala Coast. Hilo stays its own day. One brief does not cover two islands.',
+      'Every note carries the dates, the house address, the headcount, dietary needs for a mixed team, and the name of the person who can approve. The written quote shows the rate-card band, a 20% service charge, and Hawaiʻi GET up to 4.712% as separate lines. A 50% deposit follows acceptance. Gratuity is never required. The invoice a finance desk can read goes to that approver. Send the note on [the quote form](/quote). Bands are on [pricing](/pricing).',
     ],
     faqs: [
       {
