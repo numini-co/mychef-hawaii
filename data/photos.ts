@@ -437,7 +437,7 @@ export const photos = {
   },
   svcHonestyMaui: {
     file: '/photos/svc-honesty-maui.png',
-    alt: `A Wailea kitchen looking past the house toward a distant resort — we cook villas, not ballrooms.`,
+    alt: `A Wailea kitchen looking past the house toward a distant resort — we cook villas.`,
   },
   svcHonestyKauai: {
     file: '/photos/svc-honesty-kauai.png',
@@ -597,7 +597,7 @@ export const photos = {
   },
   occCorporateMaui: {
     file: '/photos/occ-corporate-maui.png',
-    alt: `A Wailea open-kitchen offsite — breakfast plates, Molokini faint, not a banquet.`,
+    alt: `A Wailea open-kitchen offsite — breakfast plates, Molokini faint.`,
   },
   occCorporateKauai: {
     file: '/photos/occ-corporate-kauai.png',
@@ -661,7 +661,7 @@ export const photos = {
   },
   svcMealprepMaui: {
     file: '/photos/svc-mealprep-maui.png',
-    alt: `A Wailea kitchen with unused meal-prep containers, Molokini faint.`,
+    alt: `A Wailea kitchen with meal-prep containers, Molokini faint.`,
   },
   svcMealprepKauai: {
     file: '/photos/svc-mealprep-kauai.png',
@@ -677,7 +677,7 @@ export const photos = {
   },
   svcClassesMaui: {
     file: '/photos/svc-classes-maui.png',
-    alt: `A Wailea open kitchen with unused class stations, Molokini faint.`,
+    alt: `A Wailea open kitchen with class stations, Molokini faint.`,
   },
   svcClassesKauai: {
     file: '/photos/svc-classes-kauai.png',
@@ -693,7 +693,7 @@ export const photos = {
   },
   svcOmakaseMaui: {
     file: '/photos/svc-omakase-maui.png',
-    alt: `Tasting plates on a Wailea kitchen counter, Molokini faint, not a restaurant claim.`,
+    alt: `Tasting plates on a Wailea kitchen counter, Molokini faint.`,
   },
   svcOmakaseKauai: {
     file: '/photos/svc-omakase-kauai.png',
@@ -709,7 +709,7 @@ export const photos = {
   },
   svcCorpcatMaui: {
     file: '/photos/svc-corpcat-maui.png',
-    alt: `An executive villa dinner in Wailea — plated fish, Molokini faint, not a ballroom.`,
+    alt: `An executive villa dinner in Wailea — plated fish, Molokini faint.`,
   },
   svcCorpcatKauai: {
     file: '/photos/svc-corpcat-kauai.png',
@@ -741,7 +741,7 @@ export const photos = {
   },
   fmtBbqMaui: {
     file: '/photos/fmt-bbq-maui.png',
-    alt: `A Wailea lawn grill at dusk — whole fish, grass, Pacific, not a hotel luau.`,
+    alt: `A Wailea lawn grill at dusk — whole fish, grass, Pacific.`,
   },
   fmtBbqKauai: {
     file: '/photos/fmt-bbq-kauai.png',
@@ -821,7 +821,7 @@ export const photos = {
   },
   fmtDropoffMaui: {
     file: '/photos/fmt-dropoff-maui.png',
-    alt: `Trays at a Wailea villa door, empty kitchen behind — drop-off is not staffed service.`,
+    alt: `Trays at a Wailea villa door, empty kitchen behind, for drop-off.`,
   },
   fmtDropoffKauai: {
     file: '/photos/fmt-dropoff-kauai.png',
@@ -853,7 +853,7 @@ export const photos = {
   },
   fineTastingMaui: {
     file: '/photos/fine-tasting-maui.png',
-    alt: `Tasting plates on a Wailea kitchen counter, Molokini faint, not a restaurant claim.`,
+    alt: `Tasting plates set on a Wailea kitchen counter, Molokini faint.`,
   },
   fineTastingKauai: {
     file: '/photos/fine-tasting-kauai.png',
@@ -933,7 +933,7 @@ export const photos = {
   },
   staffButlersMaui: {
     file: '/photos/staff-butlers-maui.png',
-    alt: `A butler setting a Wailea dining table, Molokini faint — quoted add-on, not a hotel staff.`,
+    alt: `A butler setting a Wailea dining table, Molokini faint — a quoted add-on.`,
   },
   staffButlersKauai: {
     file: '/photos/staff-butlers-kauai.png',
@@ -1013,7 +1013,7 @@ export const photos = {
   },
   svcPersonalMaui: {
     file: '/photos/svc-personal-maui.png',
-    alt: `A Kīhei resident kitchen on a weekday — a used fridge, not a Wailea tourist.`,
+    alt: `A Kīhei resident kitchen on a weekday — a used fridge.`,
   },
   svcPersonalKauai: {
     file: '/photos/svc-personal-kauai.png',
@@ -1093,7 +1093,7 @@ export const photos = {
   },
   helpBookingMaui: {
     file: '/photos/help-booking-maui.png',
-    alt: `A brass clip holding a signed Maui quote on a Wailea counter, villa keys, west light.`,
+    alt: `A signed Maui quote on a Wailea counter, villa keys, west light.`,
   },
   helpBookingKauai: {
     file: '/photos/help-booking-kauai.png',
@@ -1125,7 +1125,7 @@ export const photos = {
   },
   quoteMaui: {
     file: '/photos/quote-maui.png',
-    alt: `A Wailea kitchen counter with a five-field quote card, Molokini faint beyond the lānai.`,
+    alt: `A Wailea kitchen counter with a written quote card, Molokini faint beyond the lānai.`,
   },
   quoteKauai: {
     file: '/photos/quote-kauai.png',
@@ -1205,7 +1205,7 @@ export const photos = {
   },
   blogMaui: {
     file: '/photos/blog-maui.png',
-    alt: `Short note cards on a Kāʻanapali deck table at west sunset, brass clip, Lānaʻi faint on the horizon.`,
+    alt: `Short note cards on a Kāʻanapali deck table at west sunset, Lānaʻi faint on the horizon.`,
   },
   blogKauai: {
     file: '/photos/blog-kauai.png',
@@ -1221,7 +1221,7 @@ export const photos = {
   },
   locIndexMaui: {
     file: '/photos/loc-index-maui.png',
-    alt: `A Wailea lānai table with a small shore-map card, brass clip, Molokini faint at west sunset.`,
+    alt: `A Wailea lānai table with a small shore-map card, Molokini faint at west sunset.`,
   },
   locIndexKauai: {
     file: '/photos/loc-index-kauai.png',
@@ -1237,7 +1237,7 @@ export const photos = {
   },
   sitemapMaui: {
     file: '/photos/sitemap-maui.png',
-    alt: `A stacked set of blank cream URL cards on a Wailea lānai table, brass clip, Pacific dusk.`,
+    alt: `A stacked set of cream URL cards on a Wailea lānai table, Pacific dusk.`,
   },
   sitemapKauai: {
     file: '/photos/sitemap-kauai.png',
@@ -1269,7 +1269,7 @@ export const photos = {
   },
   jnlHireMaui: {
     file: '/photos/jnl-hire-maui.png',
-    alt: `A five-field hire card on a Wailea kitchen island in late afternoon, Molokini faint beyond the lānai.`,
+    alt: `A written hire card on a Wailea kitchen island in late afternoon, Molokini faint beyond the lānai.`,
   },
   jnlHireKauai: {
     file: '/photos/jnl-hire-kauai.png',
@@ -1301,7 +1301,7 @@ export const photos = {
   },
   jnlDietMaui: {
     file: '/photos/jnl-diet-maui.png',
-    alt: `Blank cream paper and clay herb bowls on a Wailea lānai kitchen counter, Pacific beyond.`,
+    alt: `Cream menu paper and clay herb bowls on a Wailea lānai kitchen counter, Pacific beyond.`,
   },
   jnlDietKauai: {
     file: '/photos/jnl-diet-kauai.png',
@@ -1333,7 +1333,7 @@ export const photos = {
   },
   jnlBookMaui: {
     file: '/photos/jnl-book-maui.png',
-    alt: `A blank cream card and brass pen on a Wailea lānai table, Pacific at west sunset.`,
+    alt: `A cream menu card and brass pen on a Wailea lānai table, Pacific at west sunset.`,
   },
   jnlBookKauai: {
     file: '/photos/jnl-book-kauai.png',
@@ -1445,7 +1445,7 @@ export const photos = {
   },
   blogGroceryMaui: {
     file: '/photos/blog-grocery-maui.png',
-    alt: `A canvas grocery tote and blank receipt paper on a Wailea kitchen counter at west sunset.`,
+    alt: `A canvas grocery tote and receipt paper on a Wailea kitchen counter at west sunset.`,
   },
   blogGroceryKauai: {
     file: '/photos/blog-grocery-kauai.png',
@@ -1493,7 +1493,7 @@ export const photos = {
   },
   blogSourceMaui: {
     file: '/photos/blog-source-maui.png',
-    alt: `Whole fish on ice and unmarked citrus on a Wailea kitchen counter at west sunset.`,
+    alt: `Whole fish on ice and citrus on a Wailea kitchen counter at west sunset.`,
   },
   blogSourceKauai: {
     file: '/photos/blog-source-kauai.png',
@@ -1525,7 +1525,7 @@ export const photos = {
   },
   blogCondoMaui: {
     file: '/photos/blog-condo-maui.png',
-    alt: `Stacked coolers in a South Maui condo hallway at west sunset, no logos.`,
+    alt: `Stacked coolers in a South Maui condo hallway at west sunset.`,
   },
   blogCondoKauai: {
     file: '/photos/blog-condo-kauai.png',
@@ -1557,7 +1557,7 @@ export const photos = {
   },
   blogShootMaui: {
     file: '/photos/blog-shoot-maui.png',
-    alt: `Identical plated meals on a Wailea kitchen island, blank cream cards, west sunset.`,
+    alt: `Identical plated meals on a Wailea kitchen island, cream menu cards, west sunset.`,
   },
   blogShootKauai: {
     file: '/photos/blog-shoot-kauai.png',
@@ -1589,7 +1589,7 @@ export const photos = {
   },
   blogEstateMaui: {
     file: '/photos/blog-estate-maui.png',
-    alt: `Stacked canvas coolers beside a closed Wailea wooden gate at west sunset, no logos.`,
+    alt: `Stacked canvas coolers beside a closed Wailea wooden gate at west sunset.`,
   },
   blogEstateKauai: {
     file: '/photos/blog-estate-kauai.png',
@@ -1605,7 +1605,7 @@ export const photos = {
   },
   blogShoulderMaui: {
     file: '/photos/blog-shoulder-maui.png',
-    alt: `An empty Wailea lānai table in softer morning light, folded sand linen, unused ivory plates.`,
+    alt: `An empty Wailea lānai table in softer morning light, folded sand linen, ivory plates.`,
   },
   blogShoulderKauai: {
     file: '/photos/blog-shoulder-kauai.png',
@@ -1749,7 +1749,7 @@ export const photos = {
   },
   areasIndexMaui: {
     file: '/photos/areas-maui.png',
-    alt: `A Wailea lānai table at west sunset with blank cream place cards, brass clip, Molokini faint.`,
+    alt: `A Wailea lānai table at west sunset with cream place cards, Molokini faint.`,
   },
   areasIndexKauai: {
     file: '/photos/areas-kauai.png',
@@ -1765,7 +1765,7 @@ export const photos = {
   },
   blogFarmsMaui: {
     file: '/photos/blog-farms-maui.png',
-    alt: `Unmarked produce crates of tomatoes and greens on a Wailea kitchen island, Haleakalā slope inland.`,
+    alt: `Produce crates of tomatoes and greens on a Wailea kitchen island, Haleakalā slope inland.`,
   },
   blogFarmsKauai: {
     file: '/photos/blog-farms-kauai.png',
@@ -1781,7 +1781,7 @@ export const photos = {
   },
   blogFishMaui: {
     file: '/photos/blog-fish-maui.png',
-    alt: `A whole unmarked silver fish on crushed ice on a Wailea kitchen counter at west sunset, blank cream paper beside it.`,
+    alt: `A whole silver fish on crushed ice on a Wailea kitchen counter at west sunset, cream menu paper beside it.`,
   },
   blogFishKauai: {
     file: '/photos/blog-fish-kauai.png',
@@ -1801,7 +1801,7 @@ export const photos = {
   },
   contactMaui: {
     file: '/photos/contact-maui.png',
-    alt: `A Wailea lānai desk at west sunset with a closed unmarked notepad and brass pen, no telephone, Pacific beyond.`,
+    alt: `A Wailea lānai desk at west sunset with a closed notepad and brass pen, Pacific beyond.`,
   },
   contactKauai: {
     file: '/photos/contact-kauai.png',
@@ -1817,7 +1817,7 @@ export const photos = {
   },
   trustMaui: {
     file: '/photos/trust-maui.png',
-    alt: `Blank cream ledger cards and a brass clip on a Wailea kitchen island at west sunset, unused ivory plates.`,
+    alt: `Cream ledger cards on a Wailea kitchen island at west sunset, ivory plates.`,
   },
   trustKauai: {
     file: '/photos/trust-kauai.png',
@@ -1833,7 +1833,7 @@ export const photos = {
   },
   blogCoffeeMaui: {
     file: '/photos/blog-coffee-maui.png',
-    alt: `Unmarked roasted coffee beans in a clay bowl and a brass cup on a Wailea kitchen island at west sunset.`,
+    alt: `Roasted coffee beans in a clay bowl and a brass cup on a Wailea kitchen island at west sunset.`,
   },
   blogCoffeeKauai: {
     file: '/photos/blog-coffee-kauai.png',
@@ -1849,7 +1849,7 @@ export const photos = {
   },
   blogPeakMaui: {
     file: '/photos/blog-peak-maui.png',
-    alt: `A Wailea lānai table being set at west winter sunset, unused ivory plates, sand linen, Pacific beyond.`,
+    alt: `A Wailea lānai table being set at west winter sunset, ivory plates, sand linen, Pacific beyond.`,
   },
   blogPeakKauai: {
     file: '/photos/blog-peak-kauai.png',
@@ -1865,7 +1865,7 @@ export const photos = {
   },
   svcIndexMaui: {
     file: '/photos/svc-index-maui.png',
-    alt: `Four unused ivory plates stacked on a Wailea kitchen pass at west sunset, brass clip, Pacific beyond.`,
+    alt: `Four ivory plates stacked on a Wailea kitchen pass at west sunset, Pacific beyond.`,
   },
   svcIndexKauai: {
     file: '/photos/svc-index-kauai.png',
@@ -1881,7 +1881,7 @@ export const photos = {
   },
   helpIndexMaui: {
     file: '/photos/help-index-maui.png',
-    alt: `Unused ivory papers under a brass clip on a Wailea pass at west sunset, Pacific beyond.`,
+    alt: `Ivory menu papers on a Wailea pass at west sunset, Pacific beyond.`,
   },
   helpIndexKauai: {
     file: '/photos/help-index-kauai.png',
@@ -1897,7 +1897,7 @@ export const photos = {
   },
   fineIndexMaui: {
     file: '/photos/fine-index-maui.png',
-    alt: `Unused ivory plates and empty glasses on a Wailea lānai table at west sunset.`,
+    alt: `Ivory plates and empty glasses on a Wailea lānai table at west sunset.`,
   },
   fineIndexKauai: {
     file: '/photos/fine-index-kauai.png',
@@ -1913,7 +1913,7 @@ export const photos = {
   },
   staffIndexMaui: {
     file: '/photos/staff-index-maui.png',
-    alt: `Unused empty glasses and sand linen on a Wailea lānai pass at west sunset.`,
+    alt: `Empty glasses and sand linen on a Wailea lānai pass at west sunset.`,
   },
   staffIndexKauai: {
     file: '/photos/staff-index-kauai.png',
@@ -1929,7 +1929,7 @@ export const photos = {
   },
   blogReviewsMaui: {
     file: '/photos/blog-reviews-maui.png',
-    alt: `A blank unused ivory card under a brass clip on a Wailea lānai pass at west sunset.`,
+    alt: `An ivory menu card on a Wailea lānai pass at west sunset.`,
   },
   blogReviewsKauai: {
     file: '/photos/blog-reviews-kauai.png',
@@ -1945,7 +1945,7 @@ export const photos = {
   },
   corpIndexMaui: {
     file: '/photos/corp-index-maui.png',
-    alt: `Unused ivory plates and unmarked papers on a Wailea dining table at west sunset.`,
+    alt: `Ivory plates and menu papers on a Wailea dining table at west sunset.`,
   },
   corpIndexKauai: {
     file: '/photos/corp-index-kauai.png',
@@ -1961,7 +1961,7 @@ export const photos = {
   },
   gatherIndexMaui: {
     file: '/photos/gather-index-maui.png',
-    alt: `Unused ivory plates and extra glasses on a Wailea lawn table at west sunset.`,
+    alt: `Ivory plates and extra glasses on a Wailea lawn table at west sunset.`,
   },
   gatherIndexKauai: {
     file: '/photos/gather-index-kauai.png',
@@ -1977,7 +1977,7 @@ export const photos = {
   },
   islandsIndexMaui: {
     file: '/photos/islands-index-maui.png',
-    alt: `Unused ivory plates on a Wailea lānai pass at west sunset, open Pacific horizon.`,
+    alt: `Ivory plates on a Wailea lānai pass at west sunset, open Pacific horizon.`,
   },
   islandsIndexKauai: {
     file: '/photos/islands-index-kauai.png',
@@ -2401,7 +2401,7 @@ export const photos = {
   },
   blogServersMaui: {
     file: '/photos/blog-servers-maui.png',
-    alt: `A server setting unused ivory plates on a Wailea dining table at sunset, chef at the pass, Pacific.`,
+    alt: `A server setting ivory plates on a Wailea dining table at sunset, chef at the pass, Pacific.`,
   },
   blogServersKauai: {
     file: '/photos/blog-servers-kauai.png',
@@ -2481,7 +2481,7 @@ export const photos = {
   },
   blogOffsitesMaui: {
     file: '/photos/blog-offsites-maui.png',
-    alt: `A chef plating identical board-dinner fish courses on a Wailea house table at west sunset, unused notebooks.`,
+    alt: `A chef plating identical board-dinner fish courses on a Wailea house table at west sunset, notepads.`,
   },
   blogOffsitesKauai: {
     file: '/photos/blog-offsites-kauai.png',
@@ -2641,7 +2641,7 @@ export const photos = {
   },
   jnlWeddingMaui: {
     file: '/photos/jnl-wedding-maui.png',
-    alt: `A chef plating a seated dinner on a Wailea ocean lawn at west sunset, unused extra ivory settings, Pacific beyond.`,
+    alt: `A chef plating a seated dinner on a Wailea ocean lawn at west sunset, extra ivory settings, Pacific beyond.`,
   },
   jnlWeddingKauai: {
     file: '/photos/jnl-wedding-kauai.png',
@@ -2657,7 +2657,7 @@ export const photos = {
   },
   jnlVacweekMaui: {
     file: '/photos/jnl-vacweek-maui.png',
-    alt: `A chef stacking unused ivory plates beside unmarked produce crates in a Wailea kitchen, Pacific through the sliders.`,
+    alt: `A chef stacking ivory plates beside produce crates in a Wailea kitchen, Pacific through the sliders.`,
   },
   jnlVacweekKauai: {
     file: '/photos/jnl-vacweek-kauai.png',
@@ -2673,7 +2673,7 @@ export const photos = {
   },
   jnlZonesMaui: {
     file: '/photos/jnl-zones-maui.png',
-    alt: `A chef loading stacked canvas coolers beside a Wailea gate at west sunset, unused ivory plates, mountains inland.`,
+    alt: `A chef loading stacked canvas coolers beside a Wailea gate at west sunset, ivory plates, mountains inland.`,
   },
   jnlZonesKauai: {
     file: '/photos/jnl-zones-kauai.png',
