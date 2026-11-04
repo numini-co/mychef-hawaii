@@ -413,7 +413,7 @@ export const photos = {
   },
   cellKauaiWeddingWeek: {
     file: '/photos/cell-kauai-wedding-week.png',
-    alt: `A Kauaʻi estate wedding-week table looking into a misted valley — inquiry-scale, not a ballroom.`,
+    alt: `A Kauaʻi estate wedding-week table looking into a misted valley — inquiry-scale.`,
   },
   cellKohalaCorridor: {
     file: '/photos/cell-kohala-corridor.png',
@@ -441,7 +441,7 @@ export const photos = {
   },
   svcHonestyKauai: {
     file: '/photos/svc-honesty-kauai.png',
-    alt: `An empty Princeville kitchen in rain, misted mountains — inquiry, not a fake live roster.`,
+    alt: `An empty Princeville kitchen in rain, misted mountains — for inquiry.`,
   },
   svcHonestyBigisland: {
     file: '/photos/svc-honesty-bigisland.png',
@@ -665,7 +665,7 @@ export const photos = {
   },
   svcMealprepKauai: {
     file: '/photos/svc-mealprep-kauai.png',
-    alt: `A quiet Poʻipū kitchen — unused prep containers, pale cliffs.`,
+    alt: `A quiet Poʻipū kitchen — prep containers, pale cliffs.`,
   },
   svcMealprepBigisland: {
     file: '/photos/svc-mealprep-bigisland.png',
@@ -681,7 +681,7 @@ export const photos = {
   },
   svcClassesKauai: {
     file: '/photos/svc-classes-kauai.png',
-    alt: `A quiet Princeville kitchen — unused boards, misted mountains, no class running.`,
+    alt: `A quiet Princeville kitchen — boards, misted mountains.`,
   },
   svcClassesBigisland: {
     file: '/photos/svc-classes-bigisland.png',
@@ -825,7 +825,7 @@ export const photos = {
   },
   fmtDropoffKauai: {
     file: '/photos/fmt-dropoff-kauai.png',
-    alt: `Trays at a Poʻipū estate door, unused pass — drop-off is not staffed service.`,
+    alt: `Trays at a Poʻipū estate door, the pass clear for drop-off.`,
   },
   fmtDropoffBigisland: {
     file: '/photos/fmt-dropoff-bigisland.png',
@@ -1097,7 +1097,7 @@ export const photos = {
   },
   helpBookingKauai: {
     file: '/photos/help-booking-kauai.png',
-    alt: `A brass clip holding a signed Kauai inquiry quote on a Princeville counter, wet glass, mountains.`,
+    alt: `A signed Kauai inquiry quote on a Princeville counter, wet glass, mountains.`,
   },
   helpBookingBigisland: {
     file: '/photos/help-booking-bigisland.png',
@@ -1241,7 +1241,7 @@ export const photos = {
   },
   sitemapKauai: {
     file: '/photos/sitemap-kauai.png',
-    alt: `A stacked set of blank cream URL cards on a wet Princeville counter, brass clip, mountain mist.`,
+    alt: `A stacked set of cream URL cards on a wet Princeville counter, mountain mist.`,
   },
   sitemapBigisland: {
     file: '/photos/sitemap-bigisland.png',
@@ -1273,7 +1273,7 @@ export const photos = {
   },
   jnlHireKauai: {
     file: '/photos/jnl-hire-kauai.png',
-    alt: `A five-field inquiry card on a Princeville kitchen counter, rain on the glass, misted peaks.`,
+    alt: `A written inquiry card on a Princeville kitchen counter, rain on the glass, misted peaks.`,
   },
   jnlHireBigisland: {
     file: '/photos/jnl-hire-bigisland.png',
@@ -1305,7 +1305,7 @@ export const photos = {
   },
   jnlDietKauai: {
     file: '/photos/jnl-diet-kauai.png',
-    alt: `Blank cream paper and citrus on a wet Princeville counter, misted mountains through the rain.`,
+    alt: `Cream menu paper and citrus on a wet Princeville counter, misted mountains through the rain.`,
   },
   jnlDietBigisland: {
     file: '/photos/jnl-diet-bigisland.png',
@@ -1337,7 +1337,7 @@ export const photos = {
   },
   jnlBookKauai: {
     file: '/photos/jnl-book-kauai.png',
-    alt: `A blank cream card and brass pen on a wet Princeville stone table, mountain mist.`,
+    alt: `A cream menu card and brass pen on a wet Princeville stone table, mountain mist.`,
   },
   jnlBookBigisland: {
     file: '/photos/jnl-book-bigisland.png',
@@ -1449,7 +1449,7 @@ export const photos = {
   },
   blogGroceryKauai: {
     file: '/photos/blog-grocery-kauai.png',
-    alt: `A canvas grocery tote and blank receipt paper on a wet Princeville counter.`,
+    alt: `A canvas grocery tote and receipt paper on a wet Princeville counter.`,
   },
   blogGroceryBigisland: {
     file: '/photos/blog-grocery-bigisland.png',
@@ -1497,7 +1497,7 @@ export const photos = {
   },
   blogSourceKauai: {
     file: '/photos/blog-source-kauai.png',
-    alt: `Whole fish on ice and unmarked citrus on a wet Princeville kitchen counter.`,
+    alt: `Whole fish on ice and citrus on a wet Princeville kitchen counter.`,
   },
   blogSourceBigisland: {
     file: '/photos/blog-source-bigisland.png',
@@ -1529,7 +1529,7 @@ export const photos = {
   },
   blogCondoKauai: {
     file: '/photos/blog-condo-kauai.png',
-    alt: `Stacked coolers in a Princeville tower hallway, wet glass, no logos.`,
+    alt: `Stacked coolers in a Princeville tower hallway, wet glass.`,
   },
   blogCondoBigisland: {
     file: '/photos/blog-condo-bigisland.png',
@@ -1561,7 +1561,7 @@ export const photos = {
   },
   blogShootKauai: {
     file: '/photos/blog-shoot-kauai.png',
-    alt: `Identical plated meals on a Princeville kitchen island, blank cream cards, wet light.`,
+    alt: `Identical plated meals on a Princeville kitchen island, cream menu cards, wet light.`,
   },
   blogShootBigisland: {
     file: '/photos/blog-shoot-bigisland.png',
@@ -1593,7 +1593,7 @@ export const photos = {
   },
   blogEstateKauai: {
     file: '/photos/blog-estate-kauai.png',
-    alt: `Stacked canvas coolers beside a closed Princeville gate on wet stone, no logos.`,
+    alt: `Stacked canvas coolers beside a closed Princeville gate on wet stone.`,
   },
   blogEstateBigisland: {
     file: '/photos/blog-estate-bigisland.png',
@@ -1609,7 +1609,7 @@ export const photos = {
   },
   blogShoulderKauai: {
     file: '/photos/blog-shoulder-kauai.png',
-    alt: `An empty Princeville terrace table in grey light, folded sand linen, unused ivory plates.`,
+    alt: `An empty Princeville terrace table in grey light, folded sand linen, ivory plates.`,
   },
   blogShoulderBigisland: {
     file: '/photos/blog-shoulder-bigisland.png',
@@ -1705,7 +1705,7 @@ export const photos = {
   },
   dinKauaiWaimea: {
     file: '/photos/din-kauai-waimea.png',
-    alt: `A west Kauaʻi Waimea estate kitchen, unused ivory plates, dry west light, not ranch country.`,
+    alt: `A west Kauaʻi Waimea estate kitchen, ivory plates, dry west light.`,
   },
   dinHanapepe: {
     file: '/photos/din-hanapepe.png',
@@ -1753,7 +1753,7 @@ export const photos = {
   },
   areasIndexKauai: {
     file: '/photos/areas-kauai.png',
-    alt: `A Princeville stone counter in rain with blank cream place cards, brass clip, misted mountains.`,
+    alt: `A Princeville stone counter in rain with cream place cards, misted mountains.`,
   },
   areasIndexBigisland: {
     file: '/photos/areas-bigisland.png',
@@ -1769,7 +1769,7 @@ export const photos = {
   },
   blogFarmsKauai: {
     file: '/photos/blog-farms-kauai.png',
-    alt: `Unmarked produce crates of greens and citrus on a Poʻipū kitchen counter, red dirt and kiawe.`,
+    alt: `Produce crates of greens and citrus on a Poʻipū kitchen counter, red dirt and kiawe.`,
   },
   blogFarmsBigisland: {
     file: '/photos/blog-farms-bigisland.png',
@@ -1785,7 +1785,7 @@ export const photos = {
   },
   blogFishKauai: {
     file: '/photos/blog-fish-kauai.png',
-    alt: `A whole unmarked silver fish on crushed ice on a wet Princeville stone counter, blank cream paper beside it.`,
+    alt: `A whole silver fish on crushed ice on a wet Princeville stone counter, cream menu paper beside it.`,
   },
   blogFishBigisland: {
     file: '/photos/blog-fish-bigisland.png',
@@ -1805,7 +1805,7 @@ export const photos = {
   },
   contactKauai: {
     file: '/photos/contact-kauai.png',
-    alt: `A Princeville stone desk in rain with a closed unmarked notepad and brass pen, no telephone, misted mountains.`,
+    alt: `A Princeville stone desk in rain with a closed notepad and brass pen, misted mountains.`,
   },
   contactBigisland: {
     file: '/photos/contact-bigisland.png',
@@ -1821,7 +1821,7 @@ export const photos = {
   },
   trustKauai: {
     file: '/photos/trust-kauai.png',
-    alt: `Blank cream ledger cards and a brass clip on a wet Princeville stone counter, unused ivory plates, mountain rain.`,
+    alt: `Cream ledger cards on a wet Princeville stone counter, ivory plates, mountain rain.`,
   },
   trustBigisland: {
     file: '/photos/trust-bigisland.png',
@@ -1837,7 +1837,7 @@ export const photos = {
   },
   blogCoffeeKauai: {
     file: '/photos/blog-coffee-kauai.png',
-    alt: `Unmarked roasted coffee beans in a clay bowl and a brass cup on a wet Princeville stone counter.`,
+    alt: `Roasted coffee beans in a clay bowl and a brass cup on a wet Princeville stone counter.`,
   },
   blogCoffeeBigisland: {
     file: '/photos/blog-coffee-bigisland.png',
@@ -1853,7 +1853,7 @@ export const photos = {
   },
   blogPeakKauai: {
     file: '/photos/blog-peak-kauai.png',
-    alt: `A Princeville stone table being set in winter rain dusk, unused ivory plates, sand linen, misted mountains.`,
+    alt: `A Princeville stone table being set in winter rain dusk, ivory plates, sand linen, misted mountains.`,
   },
   blogPeakBigisland: {
     file: '/photos/blog-peak-bigisland.png',
@@ -1869,7 +1869,7 @@ export const photos = {
   },
   svcIndexKauai: {
     file: '/photos/svc-index-kauai.png',
-    alt: `Four unused ivory plates stacked on a wet Princeville stone pass, brass clip, misted mountains.`,
+    alt: `Four ivory plates stacked on a wet Princeville stone pass, misted mountains.`,
   },
   svcIndexBigisland: {
     file: '/photos/svc-index-bigisland.png',
@@ -1885,7 +1885,7 @@ export const photos = {
   },
   helpIndexKauai: {
     file: '/photos/help-index-kauai.png',
-    alt: `Unused ivory papers under a rain-beaded brass clip on a wet Princeville stone pass.`,
+    alt: `Ivory menu papers on a wet Princeville stone pass.`,
   },
   helpIndexBigisland: {
     file: '/photos/help-index-bigisland.png',
@@ -1901,7 +1901,7 @@ export const photos = {
   },
   fineIndexKauai: {
     file: '/photos/fine-index-kauai.png',
-    alt: `Unused ivory plates and empty glasses on a Princeville stone table in misted rain light.`,
+    alt: `Ivory plates and empty glasses on a Princeville stone table in misted rain light.`,
   },
   fineIndexBigisland: {
     file: '/photos/fine-index-bigisland.png',
@@ -1917,7 +1917,7 @@ export const photos = {
   },
   staffIndexKauai: {
     file: '/photos/staff-index-kauai.png',
-    alt: `Unused empty glasses and sand linen on a wet Princeville stone pass, brass clip.`,
+    alt: `Empty glasses and sand linen on a wet Princeville stone pass.`,
   },
   staffIndexBigisland: {
     file: '/photos/staff-index-bigisland.png',
@@ -1933,7 +1933,7 @@ export const photos = {
   },
   blogReviewsKauai: {
     file: '/photos/blog-reviews-kauai.png',
-    alt: `A blank unused ivory card under a rain-beaded brass clip on a wet Princeville stone pass.`,
+    alt: `An ivory menu card on a wet Princeville stone pass.`,
   },
   blogReviewsBigisland: {
     file: '/photos/blog-reviews-bigisland.png',
@@ -1949,7 +1949,7 @@ export const photos = {
   },
   corpIndexKauai: {
     file: '/photos/corp-index-kauai.png',
-    alt: `Unused ivory plates and unmarked papers on a Princeville stone table in misted rain light.`,
+    alt: `Ivory plates and menu papers on a Princeville stone table in misted rain light.`,
   },
   corpIndexBigisland: {
     file: '/photos/corp-index-bigisland.png',
@@ -1965,7 +1965,7 @@ export const photos = {
   },
   gatherIndexKauai: {
     file: '/photos/gather-index-kauai.png',
-    alt: `Unused ivory plates and extra glasses on a Kauai estate lawn table in misted valley light.`,
+    alt: `Ivory plates and extra glasses on a Kauai estate lawn table in misted valley light.`,
   },
   gatherIndexBigisland: {
     file: '/photos/gather-index-bigisland.png',
@@ -1981,7 +1981,7 @@ export const photos = {
   },
   islandsIndexKauai: {
     file: '/photos/islands-index-kauai.png',
-    alt: `Unused ivory plates on a Princeville stone pass in misted rain light, open channel horizon.`,
+    alt: `Ivory plates on a Princeville stone pass in misted rain light, open channel horizon.`,
   },
   islandsIndexBigisland: {
     file: '/photos/islands-index-bigisland.png',
@@ -2405,7 +2405,7 @@ export const photos = {
   },
   blogServersKauai: {
     file: '/photos/blog-servers-kauai.png',
-    alt: `A server setting unused ivory plates on a wet North Shore Kauaʻi stone table, misted mountains.`,
+    alt: `A server setting ivory plates on a wet North Shore Kauaʻi stone table, misted mountains.`,
   },
   blogServersBigisland: {
     file: '/photos/blog-servers-bigisland.png',
@@ -2485,7 +2485,7 @@ export const photos = {
   },
   blogOffsitesKauai: {
     file: '/photos/blog-offsites-kauai.png',
-    alt: `A chef plating identical board-dinner fish courses on a Kauaʻi estate table, unused notebooks, misted mountains.`,
+    alt: `A chef plating identical board-dinner fish courses on a Kauaʻi estate table, notepads, misted mountains.`,
   },
   blogOffsitesBigisland: {
     file: '/photos/blog-offsites-bigisland.png',
@@ -2645,7 +2645,7 @@ export const photos = {
   },
   jnlWeddingKauai: {
     file: '/photos/jnl-wedding-kauai.png',
-    alt: `A chef plating a seated dinner on a wet Princeville stone terrace, unused extra settings, misted mountains.`,
+    alt: `A chef plating a seated dinner on a wet Princeville stone terrace, extra settings, misted mountains.`,
   },
   jnlWeddingBigisland: {
     file: '/photos/jnl-wedding-bigisland.png',
@@ -2661,7 +2661,7 @@ export const photos = {
   },
   jnlVacweekKauai: {
     file: '/photos/jnl-vacweek-kauai.png',
-    alt: `A chef stacking unused ivory plates beside unmarked produce crates in a Poʻipū kitchen, pale south-shore light.`,
+    alt: `A chef stacking ivory plates beside produce crates in a Poʻipū kitchen, pale south-shore light.`,
   },
   jnlVacweekBigisland: {
     file: '/photos/jnl-vacweek-bigisland.png',
@@ -2677,7 +2677,7 @@ export const photos = {
   },
   jnlZonesKauai: {
     file: '/photos/jnl-zones-kauai.png',
-    alt: `A chef loading stacked canvas coolers on wet Princeville stone, unused ivory plates, misted mountains.`,
+    alt: `A chef loading stacked canvas coolers on wet Princeville stone, ivory plates, misted mountains.`,
   },
   jnlZonesBigisland: {
     file: '/photos/jnl-zones-bigisland.png',
