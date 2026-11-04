@@ -445,7 +445,7 @@ export const photos = {
   },
   svcHonestyBigisland: {
     file: '/photos/svc-honesty-bigisland.png',
-    alt: `A Kona kitchen in hard sun — west-side lava in the window, the east side not claimed.`,
+    alt: `A Kona kitchen in hard sun — west-side lava in the window.`,
   },
   svcCountsOahu: {
     file: '/photos/svc-counts-oahu.png',
@@ -669,7 +669,7 @@ export const photos = {
   },
   svcMealprepBigisland: {
     file: '/photos/svc-mealprep-bigisland.png',
-    alt: `A Kona kitchen with unused prep containers, coffee cherries, lava in the window.`,
+    alt: `A Kona kitchen with prep containers, coffee cherries, lava in the window.`,
   },
   svcClassesOahu: {
     file: '/photos/svc-classes-oahu.png',
@@ -829,7 +829,7 @@ export const photos = {
   },
   fmtDropoffBigisland: {
     file: '/photos/fmt-dropoff-bigisland.png',
-    alt: `Trays at a Kona villa door, hard sun, unused pass — drop-off is not staffed service.`,
+    alt: `Trays at a Kona villa door in hard sun, the pass clear for drop-off.`,
   },
   fineRomanticOahu: {
     file: '/photos/fine-romantic-oahu.png',
@@ -1021,7 +1021,7 @@ export const photos = {
   },
   svcPersonalBigisland: {
     file: '/photos/svc-personal-bigisland.png',
-    alt: `A Kona town household kitchen on a weekday — used fridge, coffee slopes, not a resort villa.`,
+    alt: `A Kona town household kitchen on a weekday — used fridge, coffee slopes.`,
   },
   helpStartOahu: {
     file: '/photos/help-start-oahu.png',
@@ -1085,7 +1085,7 @@ export const photos = {
   },
   helpCorporateBigisland: {
     file: '/photos/help-corporate-bigisland.png',
-    alt: `An executive dinner on a Waikoloa lava terrace — plated kanpachi, hard sun, not a Hilo ballroom.`,
+    alt: `An executive dinner on a Waikoloa lava terrace — plated kanpachi, hard sun.`,
   },
   helpBookingOahu: {
     file: '/photos/help-booking-oahu.png',
@@ -1101,7 +1101,7 @@ export const photos = {
   },
   helpBookingBigisland: {
     file: '/photos/help-booking-bigisland.png',
-    alt: `A brass clip holding a signed west-side quote on a Kona counter, lava stone, hard sun.`,
+    alt: `A signed west-side quote on a Kona counter, lava stone, hard sun.`,
   },
   svcCostOahu: {
     file: '/photos/svc-cost-oahu.png',
@@ -1245,7 +1245,7 @@ export const photos = {
   },
   sitemapBigisland: {
     file: '/photos/sitemap-bigisland.png',
-    alt: `A stacked set of blank cream URL cards on a Kona lava-terrace table, brass clip, hard sun.`,
+    alt: `A stacked set of cream URL cards on a Kona lava-terrace table, hard sun.`,
   },
   jnlCostOahu: {
     file: '/photos/jnl-cost-oahu.png',
@@ -1277,7 +1277,7 @@ export const photos = {
   },
   jnlHireBigisland: {
     file: '/photos/jnl-hire-bigisland.png',
-    alt: `A five-field inquiry card on a Kona window-kitchen counter, coffee slope and dry lava in hard sun.`,
+    alt: `A written inquiry card on a Kona window-kitchen counter, coffee slope and dry lava in hard sun.`,
   },
   jnlKitchenOahu: {
     file: '/photos/jnl-kitchen-oahu.png',
@@ -1309,7 +1309,7 @@ export const photos = {
   },
   jnlDietBigisland: {
     file: '/photos/jnl-diet-bigisland.png',
-    alt: `Blank cream paper and clay bowls on a Kohala lava-stone counter in hard sun.`,
+    alt: `Cream menu paper and clay bowls on a Kohala lava-stone counter in hard sun.`,
   },
   jnlInclOahu: {
     file: '/photos/jnl-incl-oahu.png',
@@ -1341,7 +1341,7 @@ export const photos = {
   },
   jnlBookBigisland: {
     file: '/photos/jnl-book-bigisland.png',
-    alt: `A blank cream card and brass pen on a Kohala lava-terrace table in hard sun.`,
+    alt: `A cream menu card and brass pen on a Kohala lava-terrace table in hard sun.`,
   },
   jnlVsOahu: {
     file: '/photos/jnl-vs-oahu.png',
@@ -1453,7 +1453,7 @@ export const photos = {
   },
   blogGroceryBigisland: {
     file: '/photos/blog-grocery-bigisland.png',
-    alt: `A canvas grocery tote and blank receipt paper on a Kona lava-stone counter in hard sun.`,
+    alt: `A canvas grocery tote and receipt paper on a Kona lava-stone counter in hard sun.`,
   },
   blogWineOahu: {
     file: '/photos/blog-wine-oahu.png',
@@ -1533,7 +1533,7 @@ export const photos = {
   },
   blogCondoBigisland: {
     file: '/photos/blog-condo-bigisland.png',
-    alt: `Stacked coolers in a Waikoloa tower hallway in hard sun, no logos.`,
+    alt: `Stacked coolers in a Waikoloa tower hallway in hard sun.`,
   },
   blogReunionOahu: {
     file: '/photos/blog-reunion-oahu.png',
@@ -1565,7 +1565,7 @@ export const photos = {
   },
   blogShootBigisland: {
     file: '/photos/blog-shoot-bigisland.png',
-    alt: `Identical plated meals on a Kona lava-stone island, blank cream cards, hard sun.`,
+    alt: `Identical plated meals on a Kona lava-stone island, cream menu cards, hard sun.`,
   },
   blogProposalOahu: {
     file: '/photos/blog-proposal-oahu.png',
@@ -1597,7 +1597,7 @@ export const photos = {
   },
   blogEstateBigisland: {
     file: '/photos/blog-estate-bigisland.png',
-    alt: `Stacked canvas coolers beside a closed west-side lava-rock gate in hard sun, no logos.`,
+    alt: `Stacked canvas coolers beside a closed west-side lava-rock gate in hard sun.`,
   },
   blogShoulderOahu: {
     file: '/photos/blog-shoulder-oahu.png',
@@ -1757,7 +1757,7 @@ export const photos = {
   },
   areasIndexBigisland: {
     file: '/photos/areas-bigisland.png',
-    alt: `A Kohala lava-stone counter in hard sun with blank cream place cards, brass clip, Mauna Kea faint.`,
+    alt: `A Kohala lava-stone counter in hard sun with cream place cards, Mauna Kea faint.`,
   },
   blogFarmsOahu: {
     file: '/photos/blog-farms-oahu.png',
@@ -1773,7 +1773,7 @@ export const photos = {
   },
   blogFarmsBigisland: {
     file: '/photos/blog-farms-bigisland.png',
-    alt: `Unmarked produce crates of greens and citrus on a west-side kitchen counter in hard sun, lava-stone.`,
+    alt: `Produce crates of greens and citrus on a west-side kitchen counter in hard sun, lava-stone.`,
   },
   blogFishOahu: {
     file: '/photos/blog-fish-oahu.png',
@@ -1789,7 +1789,7 @@ export const photos = {
   },
   blogFishBigisland: {
     file: '/photos/blog-fish-bigisland.png',
-    alt: `A whole unmarked silver fish on crushed ice on a Kohala lava-stone counter in hard sun, blank cream paper beside it.`,
+    alt: `A whole silver fish on crushed ice on a Kohala lava-stone counter in hard sun, cream menu paper beside it.`,
   },
   quoteHub: {
     file: '/photos/plated-fish-lanai-dusk.jpg',
@@ -1809,7 +1809,7 @@ export const photos = {
   },
   contactBigisland: {
     file: '/photos/contact-bigisland.png',
-    alt: `A Kohala lava-stone desk in hard sun with a closed unmarked notepad and brass pen, no telephone, Mauna Kea faint.`,
+    alt: `A Kohala lava-stone desk in hard sun with a closed notepad and brass pen, Mauna Kea faint.`,
   },
   trustOahu: {
     file: '/photos/trust-oahu.png',
@@ -1825,7 +1825,7 @@ export const photos = {
   },
   trustBigisland: {
     file: '/photos/trust-bigisland.png',
-    alt: `Blank cream ledger cards and a brass clip on a Kohala lava-stone counter in hard sun, unused ivory plates.`,
+    alt: `Cream ledger cards on a Kohala lava-stone counter in hard sun, ivory plates.`,
   },
   blogCoffeeOahu: {
     file: '/photos/blog-coffee-oahu.png',
@@ -1841,7 +1841,7 @@ export const photos = {
   },
   blogCoffeeBigisland: {
     file: '/photos/blog-coffee-bigisland.png',
-    alt: `Unmarked coffee cherries in a clay bowl on a Kohala lava-stone counter in hard sun, no farm labels.`,
+    alt: `Coffee cherries in a clay bowl on a Kohala lava-stone counter in hard sun.`,
   },
   blogPeakOahu: {
     file: '/photos/blog-peak-oahu.png',
@@ -1857,7 +1857,7 @@ export const photos = {
   },
   blogPeakBigisland: {
     file: '/photos/blog-peak-bigisland.png',
-    alt: `A Kohala lava-terrace table being set in hard winter sun, unused ivory plates, sand linen.`,
+    alt: `A Kohala lava-terrace table being set in hard winter sun, ivory plates, sand linen.`,
   },
   svcIndexOahu: {
     file: '/photos/svc-index-oahu.png',
@@ -1873,7 +1873,7 @@ export const photos = {
   },
   svcIndexBigisland: {
     file: '/photos/svc-index-bigisland.png',
-    alt: `Four unused ivory plates stacked on a Kohala lava-stone pass in hard sun, brass clip.`,
+    alt: `Four ivory plates stacked on a Kohala lava-stone pass in hard sun.`,
   },
   helpIndexOahu: {
     file: '/photos/help-index-oahu.png',
@@ -1889,7 +1889,7 @@ export const photos = {
   },
   helpIndexBigisland: {
     file: '/photos/help-index-bigisland.png',
-    alt: `Unused ivory papers under a brass clip on a Kohala lava-stone pass in hard sun.`,
+    alt: `Ivory menu papers on a Kohala lava-stone pass in hard sun.`,
   },
   fineIndexOahu: {
     file: '/photos/fine-index-oahu.png',
@@ -1905,7 +1905,7 @@ export const photos = {
   },
   fineIndexBigisland: {
     file: '/photos/fine-index-bigisland.png',
-    alt: `Unused ivory plates and empty glasses on a Kohala lava terrace in hard sun.`,
+    alt: `Ivory plates and empty glasses on a Kohala lava terrace in hard sun.`,
   },
   staffIndexOahu: {
     file: '/photos/staff-index-oahu.png',
@@ -1921,7 +1921,7 @@ export const photos = {
   },
   staffIndexBigisland: {
     file: '/photos/staff-index-bigisland.png',
-    alt: `Unused empty glasses and sand linen on a Kohala lava-stone pass in hard sun.`,
+    alt: `Empty glasses and sand linen on a Kohala lava-stone pass in hard sun.`,
   },
   blogReviewsOahu: {
     file: '/photos/blog-reviews-oahu.png',
@@ -1937,7 +1937,7 @@ export const photos = {
   },
   blogReviewsBigisland: {
     file: '/photos/blog-reviews-bigisland.png',
-    alt: `A blank unused ivory card under a brass clip on a Kohala lava-stone pass in hard sun.`,
+    alt: `An ivory menu card on a Kohala lava-stone pass in hard sun.`,
   },
   corpIndexOahu: {
     file: '/photos/corp-index-oahu.png',
@@ -1953,7 +1953,7 @@ export const photos = {
   },
   corpIndexBigisland: {
     file: '/photos/corp-index-bigisland.png',
-    alt: `Unused ivory plates and unmarked papers on a Kohala lava terrace in hard sun.`,
+    alt: `Ivory plates and menu papers on a Kohala lava terrace in hard sun.`,
   },
   gatherIndexOahu: {
     file: '/photos/gather-index-oahu.png',
@@ -1969,7 +1969,7 @@ export const photos = {
   },
   gatherIndexBigisland: {
     file: '/photos/gather-index-bigisland.png',
-    alt: `Unused ivory plates and extra glasses on a Kohala lava terrace in hard sun.`,
+    alt: `Ivory plates and extra glasses on a Kohala lava terrace in hard sun.`,
   },
   islandsIndexOahu: {
     file: '/photos/islands-index-oahu.png',
@@ -1985,7 +1985,7 @@ export const photos = {
   },
   islandsIndexBigisland: {
     file: '/photos/islands-index-bigisland.png',
-    alt: `Unused ivory plates on a Kohala lava terrace in hard sun, open Pacific horizon.`,
+    alt: `Ivory plates on a Kohala lava terrace in hard sun, open Pacific horizon.`,
   },
   hubFaq: {
     file: '/photos/hub-faq.png',
@@ -2409,7 +2409,7 @@ export const photos = {
   },
   blogServersBigisland: {
     file: '/photos/blog-servers-bigisland.png',
-    alt: `A server setting unused ivory plates on a Kohala lava-terrace table, Mauna Kea faint.`,
+    alt: `A server setting ivory plates on a Kohala lava-terrace table, Mauna Kea faint.`,
   },
   blogBartenderOahu: {
     file: '/photos/blog-bartender-oahu.png',
@@ -2489,7 +2489,7 @@ export const photos = {
   },
   blogOffsitesBigisland: {
     file: '/photos/blog-offsites-bigisland.png',
-    alt: `A chef plating identical board-dinner kanpachi courses on a Waikoloa house table, unused notebooks aside.`,
+    alt: `A chef plating identical board-dinner kanpachi courses on a Waikoloa house table, notepads aside.`,
   },
   blogRetreatOahu: {
     file: '/photos/blog-retreat-oahu.png',
@@ -2649,7 +2649,7 @@ export const photos = {
   },
   jnlWeddingBigisland: {
     file: '/photos/jnl-wedding-bigisland.png',
-    alt: `A chef plating kanpachi on a Kohala lava-terrace table at sunset, unused extra ivory settings, Mauna Kea faint.`,
+    alt: `A chef plating kanpachi on a Kohala lava-terrace table at sunset, extra ivory settings, Mauna Kea faint.`,
   },
   jnlVacweekOahu: {
     file: '/photos/jnl-vacweek-oahu.png',
@@ -2665,7 +2665,7 @@ export const photos = {
   },
   jnlVacweekBigisland: {
     file: '/photos/jnl-vacweek-bigisland.png',
-    alt: `A chef stacking unused ivory plates beside unmarked produce in a Waikoloa kitchen, lava coast morning, clay bowl of coffee cherries.`,
+    alt: `A chef stacking ivory plates in a Waikoloa kitchen, lava coast morning, clay bowl of coffee cherries.`,
   },
   jnlZonesOahu: {
     file: '/photos/jnl-zones-oahu.png',
@@ -2681,7 +2681,7 @@ export const photos = {
   },
   jnlZonesBigisland: {
     file: '/photos/jnl-zones-bigisland.png',
-    alt: `A chef loading stacked canvas coolers on a Kohala lava courtyard in hard sun, unused ivory plates, Mauna Kea faint.`,
+    alt: `A chef loading stacked canvas coolers on a Kohala lava courtyard in hard sun, ivory plates, Mauna Kea faint.`,
   },
   hubJnlWedding: {
     file: '/photos/hub-jnl-wedding.png',
