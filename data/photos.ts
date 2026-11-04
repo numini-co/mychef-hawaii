@@ -269,7 +269,7 @@ export const photos = {
   },
   chefOahu: {
     file: '/photos/heroes/hero-chef-oahu.png',
-    alt: `A personal chef plating sesame ahi in an Oʻahu Gold Coast estate kitchen, koa and brass, no skyline.`,
+    alt: `A personal chef plating sesame ahi in an Oʻahu Gold Coast estate kitchen, koa and brass.`,
   },
   chefMaui: {
     file: '/photos/heroes/hero-chef-maui.png',
@@ -433,7 +433,7 @@ export const photos = {
   },
   svcHonestyOahu: {
     file: '/photos/svc-honesty-oahu.png',
-    alt: `A Kahala kitchen at dusk — a written quote on the island, no invented reviews, Diamond Head faint.`,
+    alt: `A Kahala kitchen at dusk — a written quote on the island, Diamond Head faint.`,
   },
   svcHonestyMaui: {
     file: '/photos/svc-honesty-maui.png',
@@ -497,7 +497,7 @@ export const photos = {
   },
   svcChefsTableOahu: {
     file: '/photos/svc-chefstable-oahu.png',
-    alt: `Guests at a Kahala kitchen island watching a chef finish seared ahi — not a restaurant pass.`,
+    alt: `Guests at a Kahala kitchen island watching a chef finish seared ahi.`,
   },
   svcChefsTableMaui: {
     file: '/photos/svc-chefstable-maui.png',
@@ -657,7 +657,7 @@ export const photos = {
   },
   svcMealprepOahu: {
     file: '/photos/svc-mealprep-oahu.png',
-    alt: `An unused Kahala prep kitchen — labeled containers, Diamond Head faint, no standing.`,
+    alt: `A Kahala prep kitchen — labeled containers, Diamond Head faint.`,
   },
   svcMealprepMaui: {
     file: '/photos/svc-mealprep-maui.png',
@@ -673,7 +673,7 @@ export const photos = {
   },
   svcClassesOahu: {
     file: '/photos/svc-classes-oahu.png',
-    alt: `An empty Kahala teaching kitchen — unused boards, Diamond Head faint, no class in session.`,
+    alt: `An empty Kahala teaching kitchen — boards, Diamond Head faint.`,
   },
   svcClassesMaui: {
     file: '/photos/svc-classes-maui.png',
@@ -705,7 +705,7 @@ export const photos = {
   },
   svcCorpcatOahu: {
     file: '/photos/svc-corpcat-oahu.png',
-    alt: `An executive dinner in a Kahala dining room — plated fish, not a convention centre.`,
+    alt: `An executive dinner in a Kahala dining room — plated fish.`,
   },
   svcCorpcatMaui: {
     file: '/photos/svc-corpcat-maui.png',
@@ -737,7 +737,7 @@ export const photos = {
   },
   fmtBbqOahu: {
     file: '/photos/fmt-bbq-oahu.png',
-    alt: `Whole fish on a Ko Olina lawn grill at dusk, west-side lagoon, staffed not theatrical.`,
+    alt: `Whole fish on a Ko Olina lawn grill at dusk, west-side lagoon, staffed.`,
   },
   fmtBbqMaui: {
     file: '/photos/fmt-bbq-maui.png',
@@ -817,7 +817,7 @@ export const photos = {
   },
   fmtDropoffOahu: {
     file: '/photos/fmt-dropoff-oahu.png',
-    alt: `Trays at a Kahala door, no chef at the pass — drop-off is not staffed service.`,
+    alt: `Trays at a Kahala door, the pass clear for drop-off.`,
   },
   fmtDropoffMaui: {
     file: '/photos/fmt-dropoff-maui.png',
@@ -865,7 +865,7 @@ export const photos = {
   },
   fineChefsEveOahu: {
     file: '/photos/fine-chefseve-oahu.png',
-    alt: `Guests at a Kahala kitchen island at night watching a sear — not a restaurant pass.`,
+    alt: `Guests at a Kahala kitchen island at night watching a sear.`,
   },
   fineChefsEveMaui: {
     file: '/photos/fine-chefseve-maui.png',
@@ -913,7 +913,7 @@ export const photos = {
   },
   staffBartendersOahu: {
     file: '/photos/staff-bartenders-oahu.png',
-    alt: `A bartender at a Kahala lānai counter mixing a citrus cocktail, Diamond Head faint, no tiki mug.`,
+    alt: `A bartender at a Kahala lānai counter mixing a citrus cocktail, Diamond Head faint.`,
   },
   staffBartendersMaui: {
     file: '/photos/staff-bartenders-maui.png',
@@ -1009,7 +1009,7 @@ export const photos = {
   },
   svcPersonalOahu: {
     file: '/photos/svc-personal-oahu.png',
-    alt: `A Honolulu household kitchen on a school night — a used fridge, a real stove, not a villa one-off.`,
+    alt: `A Honolulu household kitchen on a school night — a used fridge, a real stove.`,
   },
   svcPersonalMaui: {
     file: '/photos/svc-personal-maui.png',
@@ -1073,7 +1073,7 @@ export const photos = {
   },
   helpCorporateOahu: {
     file: '/photos/help-corporate-oahu.png',
-    alt: `An executive dinner for eight in a Kahala dining room — plated fish, no ballroom, Diamond Head faint.`,
+    alt: `An executive dinner for eight in a Kahala dining room — plated fish, Diamond Head faint.`,
   },
   helpCorporateMaui: {
     file: '/photos/help-corporate-maui.png',
@@ -1089,7 +1089,7 @@ export const photos = {
   },
   helpBookingOahu: {
     file: '/photos/help-booking-oahu.png',
-    alt: `A brass clip holding a signed Oahu quote on a Kahala counter, keys and a date card.`,
+    alt: `A signed Oahu quote on a Kahala counter, keys and a date card.`,
   },
   helpBookingMaui: {
     file: '/photos/help-booking-maui.png',
@@ -1121,7 +1121,7 @@ export const photos = {
   },
   quoteOahu: {
     file: '/photos/quote-oahu.png',
-    alt: `A Kahala kitchen counter with a five-field quote card and brass pen, Diamond Head faint through the sliders.`,
+    alt: `A Kahala kitchen counter with a written quote card and brass pen, Diamond Head faint through the sliders.`,
   },
   quoteMaui: {
     file: '/photos/quote-maui.png',
@@ -1201,7 +1201,7 @@ export const photos = {
   },
   blogOahu: {
     file: '/photos/blog-oahu.png',
-    alt: `Short note cards stacked on a Kahala kitchen counter in overcast morning light, brass clip, no theatrical props.`,
+    alt: `Short note cards stacked on a Kahala kitchen counter in overcast morning light.`,
   },
   blogMaui: {
     file: '/photos/blog-maui.png',
@@ -1217,7 +1217,7 @@ export const photos = {
   },
   locIndexOahu: {
     file: '/photos/loc-index-oahu.png',
-    alt: `A Kahala kitchen counter with a small corridor map card, brass clip, Diamond Head faint at dusk.`,
+    alt: `A Kahala kitchen counter with a small corridor map card, Diamond Head faint at dusk.`,
   },
   locIndexMaui: {
     file: '/photos/loc-index-maui.png',
@@ -1233,7 +1233,7 @@ export const photos = {
   },
   sitemapOahu: {
     file: '/photos/sitemap-oahu.png',
-    alt: `A stacked set of blank cream URL cards on a Kahala dining table at dusk, brass clip, Diamond Head faint.`,
+    alt: `A stacked set of cream URL cards on a Kahala dining table at dusk, Diamond Head faint.`,
   },
   sitemapMaui: {
     file: '/photos/sitemap-maui.png',
@@ -1265,7 +1265,7 @@ export const photos = {
   },
   jnlHireOahu: {
     file: '/photos/jnl-hire-oahu.png',
-    alt: `A five-field hire card on a Kahala kitchen island at dusk, brass pen, Diamond Head faint through the sliders.`,
+    alt: `A written hire card on a Kahala kitchen island at dusk, brass pen, Diamond Head faint through the sliders.`,
   },
   jnlHireMaui: {
     file: '/photos/jnl-hire-maui.png',
@@ -1297,7 +1297,7 @@ export const photos = {
   },
   jnlDietOahu: {
     file: '/photos/jnl-diet-oahu.png',
-    alt: `Blank cream paper and clay bowls of fish and herbs on a Kahala kitchen island at dusk.`,
+    alt: `Cream menu paper and clay bowls of fish and herbs on a Kahala kitchen island at dusk.`,
   },
   jnlDietMaui: {
     file: '/photos/jnl-diet-maui.png',
@@ -1329,7 +1329,7 @@ export const photos = {
   },
   jnlBookOahu: {
     file: '/photos/jnl-book-oahu.png',
-    alt: `A blank cream card and brass pen on a Kahala dining table at dusk, Diamond Head faint.`,
+    alt: `A cream menu card and brass pen on a Kahala dining table at dusk, Diamond Head faint.`,
   },
   jnlBookMaui: {
     file: '/photos/jnl-book-maui.png',
@@ -1441,7 +1441,7 @@ export const photos = {
   },
   blogGroceryOahu: {
     file: '/photos/blog-grocery-oahu.png',
-    alt: `A canvas grocery tote and blank receipt paper on a Kahala kitchen island at dusk.`,
+    alt: `A canvas grocery tote and receipt paper on a Kahala kitchen island at dusk.`,
   },
   blogGroceryMaui: {
     file: '/photos/blog-grocery-maui.png',
@@ -1489,7 +1489,7 @@ export const photos = {
   },
   blogSourceOahu: {
     file: '/photos/blog-source-oahu.png',
-    alt: `Whole fish on ice and unmarked citrus on a Kahala kitchen counter at dusk.`,
+    alt: `Whole fish on ice and citrus on a Kahala kitchen counter at dusk.`,
   },
   blogSourceMaui: {
     file: '/photos/blog-source-maui.png',
@@ -1521,7 +1521,7 @@ export const photos = {
   },
   blogCondoOahu: {
     file: '/photos/blog-condo-oahu.png',
-    alt: `Stacked coolers in a Waikīkī tower hallway at dusk, freight-elevator doors, no logos.`,
+    alt: `Stacked coolers in a Waikīkī tower hallway at dusk, freight-elevator doors.`,
   },
   blogCondoMaui: {
     file: '/photos/blog-condo-maui.png',
@@ -1553,7 +1553,7 @@ export const photos = {
   },
   blogShootOahu: {
     file: '/photos/blog-shoot-oahu.png',
-    alt: `Identical plated meals on a Kahala kitchen island, blank cream cards, dusk.`,
+    alt: `Identical plated meals on a Kahala kitchen island, cream menu cards, dusk.`,
   },
   blogShootMaui: {
     file: '/photos/blog-shoot-maui.png',
@@ -1585,7 +1585,7 @@ export const photos = {
   },
   blogEstateOahu: {
     file: '/photos/blog-estate-oahu.png',
-    alt: `Stacked canvas coolers beside a closed koa Gold Coast gate at dusk, no logos.`,
+    alt: `Stacked canvas coolers beside a closed koa Gold Coast gate at dusk.`,
   },
   blogEstateMaui: {
     file: '/photos/blog-estate-maui.png',
@@ -1601,7 +1601,7 @@ export const photos = {
   },
   blogShoulderOahu: {
     file: '/photos/blog-shoulder-oahu.png',
-    alt: `An empty Kahala lānai table in soft morning light, folded sand linen, unused ivory plates.`,
+    alt: `An empty Kahala lānai table in soft morning light, folded sand linen, ivory plates.`,
   },
   blogShoulderMaui: {
     file: '/photos/blog-shoulder-maui.png',
@@ -1745,7 +1745,7 @@ export const photos = {
   },
   areasIndexOahu: {
     file: '/photos/areas-oahu.png',
-    alt: `A Kahala dining table at dusk with blank cream place cards, brass clip, Diamond Head faint.`,
+    alt: `A Kahala dining table at dusk with cream place cards, Diamond Head faint.`,
   },
   areasIndexMaui: {
     file: '/photos/areas-maui.png',
@@ -1761,7 +1761,7 @@ export const photos = {
   },
   blogFarmsOahu: {
     file: '/photos/blog-farms-oahu.png',
-    alt: `Unmarked produce crates of greens and citrus on a Kahala kitchen counter in overcast morning light.`,
+    alt: `Produce crates of greens and citrus on a Kahala kitchen counter in overcast morning light.`,
   },
   blogFarmsMaui: {
     file: '/photos/blog-farms-maui.png',
@@ -1777,7 +1777,7 @@ export const photos = {
   },
   blogFishOahu: {
     file: '/photos/blog-fish-oahu.png',
-    alt: `A whole unmarked silver fish on crushed ice on a Kahala kitchen counter at dusk, blank cream paper beside it.`,
+    alt: `A whole silver fish on crushed ice on a Kahala kitchen counter at dusk, cream menu paper beside it.`,
   },
   blogFishMaui: {
     file: '/photos/blog-fish-maui.png',
@@ -1797,7 +1797,7 @@ export const photos = {
   },
   contactOahu: {
     file: '/photos/contact-oahu.png',
-    alt: `A Kahala kitchen desk at dusk with a closed unmarked notepad and brass pen, no telephone, Diamond Head faint.`,
+    alt: `A Kahala kitchen desk at dusk with a closed notepad and brass pen, Diamond Head faint.`,
   },
   contactMaui: {
     file: '/photos/contact-maui.png',
@@ -1813,7 +1813,7 @@ export const photos = {
   },
   trustOahu: {
     file: '/photos/trust-oahu.png',
-    alt: `Blank cream ledger cards and a brass clip on a Kahala kitchen counter at dusk, unused ivory plates, Diamond Head faint.`,
+    alt: `Cream ledger cards on a Kahala kitchen counter at dusk, ivory plates, Diamond Head faint.`,
   },
   trustMaui: {
     file: '/photos/trust-maui.png',
@@ -1829,7 +1829,7 @@ export const photos = {
   },
   blogCoffeeOahu: {
     file: '/photos/blog-coffee-oahu.png',
-    alt: `Unmarked roasted coffee beans in a clay bowl and a brass cup on a Kahala kitchen counter at dusk.`,
+    alt: `Roasted coffee beans in a clay bowl and a brass cup on a Kahala kitchen counter at dusk.`,
   },
   blogCoffeeMaui: {
     file: '/photos/blog-coffee-maui.png',
@@ -1845,7 +1845,7 @@ export const photos = {
   },
   blogPeakOahu: {
     file: '/photos/blog-peak-oahu.png',
-    alt: `A Kahala dining table being set at winter dusk, unused ivory plates, sand linen, Diamond Head faint.`,
+    alt: `A Kahala dining table being set at winter dusk, ivory plates, sand linen, Diamond Head faint.`,
   },
   blogPeakMaui: {
     file: '/photos/blog-peak-maui.png',
@@ -1861,7 +1861,7 @@ export const photos = {
   },
   svcIndexOahu: {
     file: '/photos/svc-index-oahu.png',
-    alt: `Four unused ivory plates stacked on a Kahala kitchen pass at dusk, brass clip, Diamond Head faint.`,
+    alt: `Four ivory plates stacked on a Kahala kitchen pass at dusk, Diamond Head faint.`,
   },
   svcIndexMaui: {
     file: '/photos/svc-index-maui.png',
@@ -1877,7 +1877,7 @@ export const photos = {
   },
   helpIndexOahu: {
     file: '/photos/help-index-oahu.png',
-    alt: `Unused ivory papers under a brass clip on a Kahala koa pass at dusk, Diamond Head faint.`,
+    alt: `Ivory menu papers on a Kahala koa pass at dusk, Diamond Head faint.`,
   },
   helpIndexMaui: {
     file: '/photos/help-index-maui.png',
@@ -1893,7 +1893,7 @@ export const photos = {
   },
   fineIndexOahu: {
     file: '/photos/fine-index-oahu.png',
-    alt: `Unused ivory plates and empty glasses on a Kahala dining table at dusk, brass clip.`,
+    alt: `Ivory plates and empty glasses on a Kahala dining table at dusk.`,
   },
   fineIndexMaui: {
     file: '/photos/fine-index-maui.png',
@@ -1909,7 +1909,7 @@ export const photos = {
   },
   staffIndexOahu: {
     file: '/photos/staff-index-oahu.png',
-    alt: `Unused empty stemware and sand linen on a Kahala kitchen pass at dusk, brass clip.`,
+    alt: `Empty stemware and sand linen on a Kahala kitchen pass at dusk.`,
   },
   staffIndexMaui: {
     file: '/photos/staff-index-maui.png',
@@ -1925,7 +1925,7 @@ export const photos = {
   },
   blogReviewsOahu: {
     file: '/photos/blog-reviews-oahu.png',
-    alt: `A blank unused ivory card under a brass clip on a Kahala koa pass at dusk, Diamond Head faint.`,
+    alt: `An ivory menu card on a Kahala koa pass at dusk, Diamond Head faint.`,
   },
   blogReviewsMaui: {
     file: '/photos/blog-reviews-maui.png',
@@ -1941,7 +1941,7 @@ export const photos = {
   },
   corpIndexOahu: {
     file: '/photos/corp-index-oahu.png',
-    alt: `Unused ivory plates and unmarked papers on a Kahala dining table at dusk, brass clip.`,
+    alt: `Ivory plates and menu papers on a Kahala dining table at dusk.`,
   },
   corpIndexMaui: {
     file: '/photos/corp-index-maui.png',
@@ -1957,7 +1957,7 @@ export const photos = {
   },
   gatherIndexOahu: {
     file: '/photos/gather-index-oahu.png',
-    alt: `Unused ivory plates and extra glasses on a Kahala lawn table at dusk, brass clip.`,
+    alt: `Ivory plates and extra glasses on a Kahala lawn table at dusk.`,
   },
   gatherIndexMaui: {
     file: '/photos/gather-index-maui.png',
@@ -1973,7 +1973,7 @@ export const photos = {
   },
   islandsIndexOahu: {
     file: '/photos/islands-index-oahu.png',
-    alt: `Unused ivory plates on a Kahala koa pass at dusk, open Pacific horizon, Diamond Head faint.`,
+    alt: `Ivory plates on a Kahala koa pass at dusk, open Pacific horizon, Diamond Head faint.`,
   },
   islandsIndexMaui: {
     file: '/photos/islands-index-maui.png',
@@ -2397,7 +2397,7 @@ export const photos = {
   },
   blogServersOahu: {
     file: '/photos/blog-servers-oahu.png',
-    alt: `A server setting unused ivory plates on a Kahala dining table at dusk, chef at the pass, Diamond Head.`,
+    alt: `A server setting ivory plates on a Kahala dining table at dusk, chef at the pass, Diamond Head.`,
   },
   blogServersMaui: {
     file: '/photos/blog-servers-maui.png',
@@ -2477,7 +2477,7 @@ export const photos = {
   },
   blogOffsitesOahu: {
     file: '/photos/blog-offsites-oahu.png',
-    alt: `A chef plating identical board-dinner fish courses on a Honolulu house table, unused notebooks aside.`,
+    alt: `A chef plating identical board-dinner fish courses on a Honolulu house table, notepads aside.`,
   },
   blogOffsitesMaui: {
     file: '/photos/blog-offsites-maui.png',
@@ -2637,7 +2637,7 @@ export const photos = {
   },
   jnlWeddingOahu: {
     file: '/photos/jnl-wedding-oahu.png',
-    alt: `A chef plating a seated fish course on a Kahala dining table at dusk, unused extra settings, Diamond Head faint.`,
+    alt: `A chef plating a seated fish course on a Kahala dining table at dusk, extra settings, Diamond Head faint.`,
   },
   jnlWeddingMaui: {
     file: '/photos/jnl-wedding-maui.png',
@@ -2653,7 +2653,7 @@ export const photos = {
   },
   jnlVacweekOahu: {
     file: '/photos/jnl-vacweek-oahu.png',
-    alt: `A chef stacking unused ivory plates beside unmarked produce crates in a Kahala kitchen, Diamond Head through the window.`,
+    alt: `A chef stacking ivory plates beside produce crates in a Kahala kitchen, Diamond Head through the window.`,
   },
   jnlVacweekMaui: {
     file: '/photos/jnl-vacweek-maui.png',
@@ -2669,7 +2669,7 @@ export const photos = {
   },
   jnlZonesOahu: {
     file: '/photos/jnl-zones-oahu.png',
-    alt: `A chef loading stacked canvas coolers in a Kahala courtyard at dusk, unused ivory plates, Diamond Head faint.`,
+    alt: `A chef loading stacked canvas coolers in a Kahala courtyard at dusk, ivory plates, Diamond Head faint.`,
   },
   jnlZonesMaui: {
     file: '/photos/jnl-zones-maui.png',
