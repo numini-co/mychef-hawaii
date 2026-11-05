@@ -67,10 +67,10 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
     {
       slug: 'corporate-events',
       name: 'Corporate events',
-      h1: 'Oahu house offsites — not HCC citywides.',
-      title: 'Oahu house offsites — not HCC citywides | myCHEF',
+      h1: 'One company dinner night in an Oahu house.',
+      title: 'One-night company dinner on Oahu | myCHEF',
       description:
-        'House offsites in Kahala and Ko Olina. HCC citywides are closed through 2027.',
+        'One company dinner in a Kahala or Ko Olina house, standing plates or a seated table. Request a written quote with the building, the date, and headcount.',
       lede:
         'Laptops away from the pass. Breakfast in the house. Not the convention centre. The food line is on the corporate catering page.',
       photo: 'occCorporateOahu',
@@ -102,7 +102,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
         },
         {
           q: 'What should I send for a house night that is the whole team, not one board table?',
-          a: `The building, the date, the headcount, standing or seated, and dietary limits. Quotes are open on [the quote form](/quote). One leadership table is [executive dinners](/corporate-catering). Desk: ${desk}.`,
+          a: `The building, the date, the headcount, standing or seated, and dietary limits. Quotes are open on [the quote form](/quote). Meals across the stay are [meals across the stay](/corporate-catering). Desk: ${desk}.`,
         },
       ],
       related: [
@@ -254,10 +254,10 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
     {
       slug: 'corporate-events',
       name: 'Corporate events',
-      h1: 'Maui villa offsites — South and West houses, not a ballroom.',
-      title: 'Maui villa offsites in South and West houses | myCHEF',
+      h1: 'Company dinner in a Maui villa.',
+      title: 'Company dinner in a Maui villa | myCHEF',
       description:
-        'Villa offsites in Wailea, Kapalua and Kīhei. Not hotel ballrooms.',
+        'One company dinner night in a Wailea, Kapalua, or Kāʻanapali villa, lawn plates or a seated table. Request a written quote and name the shore.',
       lede:
         'A small offsite table, the lawn optional. We cook houses. We do not staff banquet rooms.',
       photo: 'occCorporateMaui',
@@ -288,7 +288,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
         },
         {
           q: 'Which shore details does a West Maui team night need that a Wailea night does not?',
-          a: `The Saturday drive, and whether the lawn or the dining room is the room. Headcount and dietary limits still belong in the note. Quotes are open on [the quote form](/quote). One leadership dinner is [executive dinners](/corporate-catering). Desk: ${desk}.`,
+          a: `The Saturday drive, and whether the lawn or the dining room is the room. Headcount and dietary limits still belong in the note. Quotes are open on [the quote form](/quote). Meals across the stay are [meals across the stay](/corporate-catering). Desk: ${desk}.`,
         },
       ],
       related: [
@@ -439,10 +439,10 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
     {
       slug: 'corporate-events',
       name: 'Corporate events',
-      h1: 'Kauai estate offsites — inquiry, not a convention play.',
-      title: 'Kauai estate offsites — inquiry, not a convention | myCHEF',
+      h1: 'Company dinner on a Kauai estate.',
+      title: 'Company dinner on Kauai | myCHEF',
       description:
-        'Estate offsites in Princeville and Poʻipū. Inquiry. Not a MICE island.',
+        'One company dinner on a Princeville or Poʻipū estate, seated or standing. Request availability for that shore. Meals across the stay are another page.',
       lede:
         'A small estate table. Both shores. Inquiry. We do not pretend Kauaʻi is a convention product.',
       photo: 'occCorporateKauai',
@@ -473,7 +473,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
         },
         {
           q: 'What do I put in an availability request for a Garden Isle team night?',
-          a: `Shore, date, seats, the house, standing or seated, and dietary limits. Request availability on [the quote form](/quote). One executive table is [executive dinners](/corporate-catering). Desk: ${desk}.`,
+          a: `Shore, date, seats, the house, standing or seated, and dietary limits. Request availability on [the quote form](/quote). Meals across the stay are [meals across the stay](/corporate-catering). Desk: ${desk}.`,
         },
       ],
       related: [
@@ -485,10 +485,10 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
     {
       slug: 'villa-parties',
       name: 'Villa parties',
-      h1: 'Estate parties on Kauai — Princeville and Poipu houses, inquiry.',
-      title: 'Estate parties on Kauai — both shores, inquiry | myCHEF',
+      h1: 'Estate party on Kauai.',
+      title: 'Estate party on Kauai | myCHEF',
       description:
-        'Staffed estate parties in Princeville, Hanalei and Poʻipū. About 10–75. Inquiry stage. Far-North inherits the bridge clause.',
+        'A staffed party in Princeville, Hanalei, or Poʻipū. The cook sets the kitchen and clears. Request availability. Far-north houses use the bridge clause.',
       lede:
         'An estate dessert course looking into a valley, or a South Shore table. Inquiry. The road may decide the North.',
       photo: 'occVillaKauai',
@@ -531,10 +531,10 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
     {
       slug: 'brunch',
       name: 'Brunch',
-      h1: 'Kauai estate brunch — both shores, inquiry.',
-      title: 'Kauai estate brunch — both shores, inquiry | myCHEF',
+      h1: 'Estate brunch on Kauai.',
+      title: 'Estate brunch on Kauai | myCHEF',
       description:
-        'Estate brunch in Poʻipū and Princeville. Inquiry stage. Not a restaurant brunch.',
+        'Estate brunch in a Poʻipū or Princeville kitchen, cooked that morning. Request availability and say if the house sits past the Hanalei bridge.',
       lede:
         'Pool morning on the South, or misted North coffee. Inquiry.',
       photo: 'occBrunchKauai',

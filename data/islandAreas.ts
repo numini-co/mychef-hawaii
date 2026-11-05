@@ -98,10 +98,10 @@ export const islandAreas: Record<IslandId, IslandAreasPage> = {
     ],
   },
   kauai: {
-    h1: 'Kauai area guide — both shores plus west-side towns, inquiry.',
-    title: 'Kauai area guide — both shores, inquiry | myCHEF',
+    h1: 'Kauai area guide — north shore, south shore, west side.',
+    title: 'Kauai area guide for both shores | myCHEF',
     description:
-      'How Kauaʻi areas differ: north-shore rain and the bridge, a drier south shore, west-side distance. Request availability. Towns are on the locations page.',
+      'Princeville rain, the Hanalei bridge, a drier Poʻipū shore, and west-side distance each change a Kauaʻi chef night. Request availability and name the area.',
     lede:
       'The north shore is rain and the bridge. The south shore is drier and a shorter drive from Līhuʻe. The west side is distance. Request availability for the area the house is in.',
     kicker: 'Kauaʻi · Areas',

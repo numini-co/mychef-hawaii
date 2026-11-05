@@ -231,8 +231,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Event staffing for a private Hawaii dinner. Servers at $80/hr and a separate sous-chef line. Bartenders and butlers are quoted in writing.',
   },
   '/events': {
-    title: 'Villa occasions, by island | myCHEF Hawaii',
-    description: 'Villa occasions across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Villa occasions in Hawaii | myCHEF',
+    description:
+      'Brunch, parties, and company dinners in a Hawaii villa. Open the island with the house. Oʻahu and Maui quote. Kauaʻi and the Big Island write back.',
   },
   '/what-we-dont-do': {
     title: 'What myCHEF Hawaii does not offer or claim | myCHEF',
@@ -300,9 +301,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Full-board retreat food cooked in the house, as its own line for the days you name. Not a ballroom. Oʻahu and Maui quote. Kauaʻi requests availability.',
   },
   '/corporate-catering': {
-    title: 'House offsite catering, by island | myCHEF Hawaii',
+    title: 'House offsite catering in Hawaii | myCHEF',
     description:
-      'Each island quotes executive dinners in houses.',
+      'Catered team meals in a house, chosen by island. Oʻahu and Maui take a written quote. Kauaʻi: request availability. Hawaiʻi Island: join the inquiry list.',
   },
   '/events/birthdays': {
     title: 'Birthday dinner with a private chef in Hawaii | myCHEF',

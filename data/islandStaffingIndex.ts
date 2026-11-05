@@ -114,10 +114,10 @@ export const islandStaffingIndex: Record<IslandId, IslandNestedIndexPage> = {
     ],
   },
   kauai: {
-    h1: 'Kauai add-ons — hourly lines, inquiry, no fake roster.',
-    title: 'Kauai staffing add-ons — hourly lines at inquiry | myCHEF',
+    h1: 'Staffing for a Kauai estate.',
+    title: 'Kauai estate staffing | myCHEF',
     description:
-      'Kauaʻi staffing is an inquiry on both shores. Servers are hourly when a crew exists. Bartenders and butlers are quoted in writing. Request availability.',
+      'Servers, bartenders, and butlers for Princeville or Poʻipū. Server hours publish if a crew exists. Bar and butler are written quotes. Request availability.',
     lede: 'Garden Isle staffing is an inquiry on both shores. A named Princeville or Poʻipū date is a request for availability, not a confirmed crew. Hanalei-bridge weather can move the night.',
     kicker: 'Kauaʻi · Staffing',
     photo: 'staffIndexKauai',

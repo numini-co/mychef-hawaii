@@ -11,9 +11,9 @@ const desk = `${DESK_EMAIL}, +1 ${DESK_PHONE_DISPLAY} (${DESK_TEL}), WhatsApp ${
  */
 
 export const CORPORATE_INDEX_LINKS: { path: string; label: string }[] = [
-  { path: '/corporate-catering', label: 'Executive dinners' },
-  { path: '/events/corporate-events', label: 'House offsites' },
-  { path: '/help/corporate-guide', label: 'How to brief an offsite' },
+  { path: '/corporate-catering', label: 'Meals across the stay' },
+  { path: '/events/corporate-events', label: 'One company dinner' },
+  { path: '/help/corporate-guide', label: 'How to brief it' },
   { path: '/retreat-catering', label: 'Full-board retreat food' },
   { path: '/events/retreats', label: 'Retreat occasion' },
   { path: '/quote', label: 'Quote / inquiry form' },
@@ -21,23 +21,23 @@ export const CORPORATE_INDEX_LINKS: { path: string; label: string }[] = [
 
 export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
   oahu: {
-    h1: 'Oahu offsites — Kahala dining rooms, not the convention centre.',
-    title: 'Oahu villa offsites — houses, not HCC citywides | myCHEF',
+    h1: 'Company offsite in an Oahu rental house.',
+    title: 'Company offsite in an Oahu house | myCHEF',
     description:
-      'Oahu villa offsites: houses, not HCC citywides.',
+      'A company offsite or retreat in a Kahala, Ko Olina, Kailua, or Honolulu house. One dinner and meals across the stay have a page. Request a written quote.',
     lede: 'Oahu villa offsites: practical notes from myCHEF Hawaii for a private chef night in your villa or vacation rental. Send your dates for a written quote.',
     kicker: 'Oʻahu · Offsites',
     photo: 'corpIndexOahu',
     body: [
       `HCC citywides are closed through 2027.`,
       'Board dinners and house offsites sit in residences we can actually cook in. We do not staff a ballroom because a conference is in town.',
-      'Pick the format before the menu. One executive dinner in a Kahala or Ko Olina house is [executive dinners](/corporate-catering). A single company night, still in the residence, is [house offsites](/events/corporate-events). Days of cooking for the same group are [retreats](/events/retreats). The brief that names the house, the dates, and the dietary limits is [how to brief an offsite](/help/corporate-guide). This page does not replace those three.',
+      'This page is the overview: a company offsite or a retreat cooked in the rented house. One company dinner night is [one company dinner](/events/corporate-events). Catered meals for the team across the stay are [meals across the stay](/corporate-catering). How to brief the house, the dates, and the dietary notes is [how to brief it](/help/corporate-guide).',
       `Staffing is not folded into the dinner. A server and a sous chef show as their own lines on the quote. A bartender or butler is quoted in writing. There is no hourly figure for either. Open [staffing](/staffing) before you assume a floor. The card is [pricing](/pricing). Quotes are open on [the quote form](/quote). A Gold Coast dining room and a Ko Olina villa do not share a freight plan. Write the building with the format. Desk: ${desk}.`,
     ],
     faqs: [
       {
         q: 'Is one Kahala executive dinner the same booking as a house offsite night?',
-        a: 'No. One leadership table is [executive dinners](/corporate-catering). A single company night for the wider group, still in the house, is [house offsites](/events/corporate-events). Same residence can hold either. The quote uses the format you name.',
+        a: 'No. One company dinner night is [one company dinner](/events/corporate-events). Catered meals for the team across the stay are [meals across the stay](/corporate-catering). The same residence can hold either. The quote uses the format you name.',
       },
       {
         q: 'When does a Honolulu offsite become full-board days instead of one dinner?',
@@ -57,7 +57,7 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
       },
       {
         q: 'Can one coordinator arrange a Kahala dinner and a later Ko Olina retreat day?',
-        a: 'Yes, on one thread, as separate lines. The dinner is [executive dinners](/corporate-catering). The days are [retreats](/events/retreats). Town freight and a villa arrival stay different notes. Quotes are open.',
+        a: 'Yes, on one thread, as separate lines. The dinner night is [one company dinner](/events/corporate-events). Days of cooking are [retreats](/events/retreats). Town freight and a villa arrival stay different notes. Quotes are open.',
       },
       {
         q: 'What does a Kahala board-dinner kitchen need that a Ko Olina offsite kitchen does not?',
@@ -70,23 +70,23 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
     ],
   },
   maui: {
-    h1: 'Maui offsites — Wailea houses, not a banquet floor.',
-    title: 'Maui villa offsites — houses, not hotel ballrooms | myCHEF',
+    h1: 'Company offsite in a Maui villa.',
+    title: 'Company offsite in a Maui villa | myCHEF',
     description:
-      'Maui villa offsites: houses, not hotel ballrooms.',
+      'A company offsite or retreat in a Wailea, Kapalua, or Kāʻanapali villa. One dinner and stay meals each have a page. Request a written quote.',
     lede: 'Maui villa offsites: practical notes from myCHEF Hawaii for a private chef night in your villa or vacation rental. Send your dates for a written quote.',
     kicker: 'Maui · Offsites',
     photo: 'corpIndexMaui',
     body: [
       `Saturday West Maui traffic is planned on the West Maui page.`,
       'Villa offsites and crew meals sit in residences. We do not staff a resort banquet room because the group is already on property.',
-      'Villa Week offsites split by format, not by a resort name. One seated dinner for the leadership table is [executive dinners](/corporate-catering). A single night for the wider group, still in the rental, is [house offsites](/events/corporate-events). Cooking through the days of the stay is [retreats](/events/retreats). Write the shore, the Saturday west-side drive, and the dietary limits in [how to brief an offsite](/help/corporate-guide) before asking for a menu.',
+      'This page is the Villa Week overview: a company offsite or a retreat cooked in the rented house. One company dinner night is [one company dinner](/events/corporate-events). Catered meals for the team across the stay are [meals across the stay](/corporate-catering). How to brief the shore, the dates, and the dietary notes is [how to brief it](/help/corporate-guide).',
       `The quote lists people separately from food. Server hours and sous-chef hours are their own lines. A lanai bartender is quoted in writing, with no hourly figure on the card. Read [staffing](/staffing). Numbers are on [pricing](/pricing). A wet lawn stays in the house you named. It does not become a hotel ballroom. Quotes are open. Put Wailea or West Maui on [the quote form](/quote). Desk: ${desk}.`,
     ],
     faqs: [
       {
         q: 'Is a Wailea leadership dinner the same booking as a lawn night for the whole group?',
-        a: 'The leadership table is [executive dinners](/corporate-catering). The lawn night for the wider group is [house offsites](/events/corporate-events). Both stay in the rental. We do not move either into a resort banquet room.',
+        a: 'One company dinner night is [one company dinner](/events/corporate-events). Catered meals across the stay are [meals across the stay](/corporate-catering). Both stay in the rental. We do not move either into a resort banquet room.',
       },
       {
         q: 'When does a West Maui stay need full-board cooking instead of one crew dinner?',
@@ -102,7 +102,7 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
       },
       {
         q: 'Can one Maui request cover an executive dinner and a retreat day?',
-        a: 'Yes. One coordinator, two lines. The dinner stays on [executive dinners](/corporate-catering). The days stay on [retreats](/events/retreats). Quotes are open. Do not ask the banquet office to blend them.',
+        a: 'Yes. One coordinator, two lines. The dinner night stays on [one company dinner](/events/corporate-events). The days stay on [retreats](/events/retreats). Quotes are open. Do not ask the banquet office to blend them.',
       },
       {
         q: 'What does a Wailea rental kitchen need that a hotel banquet room cannot stand in for?',
@@ -119,23 +119,23 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
     ],
   },
   kauai: {
-    h1: 'Kauai offsites — estate tables at inquiry, not a convention product.',
-    title: 'Kauai estate offsites — inquiry, not a MICE island | myCHEF',
+    h1: 'Company offsite on a Kauai estate.',
+    title: 'Company offsite on Kauai | myCHEF',
     description:
-      'Kauai estate offsites at inquiry. Not an instant-booking button.',
+      'A company offsite or retreat in a rented Kauaʻi estate. One dinner, stay meals, and the brief each have a page. Request availability for the shore.',
     lede: 'Kauai estate offsites at inquiry. Not an instant-booking button.',
     kicker: 'Kauaʻi · Offsites',
     photo: 'corpIndexKauai',
     body: [
       `Inquiry stage. Kauaʻi is not a MICE island.`,
       'A named shore is not a confirmation. Send dates on the quote form.',
-      'Garden Isle company meals are an inquiry, and the format is the first choice. One executive table is [executive dinners](/corporate-catering). One estate night for the group is [house offsites](/events/corporate-events). Full-board days on a single shore are [retreats](/events/retreats). North and south stay separate drives, even when one coordinator holds the thread. The note that names the shore, the bridge risk, and the dietary limits is [how to brief an offsite](/help/corporate-guide). A named shore is still not a crew.',
+      'This page is the overview for a Garden Isle company offsite or retreat in the rented estate. One company dinner night is [one company dinner](/events/corporate-events). Catered meals for the team across the stay are [meals across the stay](/corporate-catering). How to brief the shore, the bridge, and the dietary notes is [how to brief it](/help/corporate-guide).',
       `Request availability. If you want people beyond the chef, say so: server and sous-chef lines are written apart from the menu, and a bartender is quoted in writing. See [staffing](/staffing). The card is [pricing](/pricing). Use [the quote form](/quote) and request availability for one shore. A closure on the Hanalei bridge moves a north-shore night. It does not silently become Poʻipū. Desk: ${desk}.`,
     ],
     faqs: [
       {
         q: 'Should a Princeville request start as one executive dinner, a group night, or full-board days?',
-        a: 'One executive table is [executive dinners](/corporate-catering). One estate night for the group is [house offsites](/events/corporate-events). Full-board days on that shore are [retreats](/events/retreats). Request availability for one of those. A shore name is not a yes.',
+        a: 'One company dinner night is [one company dinner](/events/corporate-events). Catered meals across the stay are [meals across the stay](/corporate-catering). Full-board days on that shore are [retreats](/events/retreats). Request availability for one of those. A shore name is not a yes.',
       },
       {
         q: 'How does the Hanalei bridge change a north-shore offsite?',
@@ -168,23 +168,23 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
     ],
   },
   bigisland: {
-    h1: 'West-side offsites — Kona houses at inquiry. Hilo not implied.',
-    title: 'West-side villa offsites — inquiry, not citywides | myCHEF',
+    h1: 'Company retreat in a Kona or Kohala house.',
+    title: 'Company retreat in a Kona house | myCHEF',
     description:
-      'Hawaiʻi Island west-side villa offsites at inquiry.',
+      'A company offsite or retreat in a rented Kona, Waikoloa, or Kohala house. Hilo is a separate day. Join the inquiry list. One dinner night has its own page.',
     lede: 'Hawaiʻi Island west-side villa offsites at inquiry.',
     kicker: 'Hawaiʻi Island · Offsites',
     photo: 'corpIndexBigisland',
     body: [
       `West side first.`,
       'East side is a dedicated day. Ironman weeks compress lodging, not a fake kitchen promise.',
-      'West-side company cooking starts with the format, inside Kona, Waikoloa, and the Kohala Coast. One leadership dinner is [executive dinners](/corporate-catering). One house night for the group is [house offsites](/events/corporate-events). Multi-day cooking that stays on that side is [retreats](/events/retreats). Waikoloa and Kona town share a radius and still take two call times. The brief is [how to brief an offsite](/help/corporate-guide). Hilo is not a format on this page. It is a dedicated day, and it is not implied.',
+      'This page is the overview for a company offsite or retreat in a rented west-side house. One company dinner night is [one company dinner](/events/corporate-events). Catered meals for the team across the stay are [meals across the stay](/corporate-catering). How to brief the address, the dates, and the dietary notes is [how to brief it](/help/corporate-guide). Hilo is a dedicated day, and it is not implied.',
       `Join the inquiry list. Staffing, if you need it, is requested as lines: a server, a sous chef, and any bartender quoted in writing. Open [staffing](/staffing). The card is [pricing](/pricing). Send the west-side address on [the quote form](/quote). Ironman weeks need an early flag because lodging and grocery windows compress. They do not add a kitchen we have not seen. Desk: ${desk}.`,
     ],
     faqs: [
       {
         q: 'On the west side, which booking is a leadership dinner and which is the group night?',
-        a: 'One leadership dinner is [executive dinners](/corporate-catering). One house night for the wider group is [house offsites](/events/corporate-events). Both are Kona, Waikoloa, or the Kohala Coast. Join the inquiry list with the format named. Hilo is not either URL.',
+        a: 'One company dinner night is [one company dinner](/events/corporate-events). Catered meals across the stay are [meals across the stay](/corporate-catering). Both are Kona, Waikoloa, or the Kohala Coast. Join the inquiry list with the format named. Hilo is not either URL.',
       },
       {
         q: 'When is multi-day cooking a retreat instead of a repeated dinner?',

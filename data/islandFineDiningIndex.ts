@@ -89,10 +89,10 @@ export const islandFineDiningIndex: Record<IslandId, IslandNestedIndexPage> = {
     ],
   },
   kauai: {
-    h1: 'Both-shore estate formats at inquiry — when we can staff.',
-    title: 'Both-shore estate formats — inquiry, not a star | myCHEF',
+    h1: 'Fine dining at home on Kauai.',
+    title: 'Fine dining at home on Kauai | myCHEF',
     description:
-      'Kauaʻi estate formats at inquiry on both shores: romantic dinner, tasting menu, chef’s table evening, celebration dinner. Not a Michelin claim.',
+      'Fine dining at home on a Kauaʻi estate: romantic dinner, tasting menu, chef’s table, or celebration dinner. Request availability for Princeville or Poʻipū.',
     lede: 'Kauaʻi estate formats at inquiry on both shores: romantic dinner, tasting menu, chef’s table evening, celebration dinner. Not a Michelin claim. Not an instant-booking button.',
     kicker: 'Kauaʻi · Fine dining',
     photo: 'fineIndexKauai',

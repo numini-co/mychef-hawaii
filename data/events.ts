@@ -147,10 +147,10 @@ export const eventOffers: Record<IslandId, EventOffer> = {
     ],
   },
   kauai: {
-    h1: 'Estate events on Kauai — both shores, inquiry.',
-    title: 'Kauai estate events — both shores, inquiry | myCHEF',
+    h1: 'Estate occasions on Kauai.',
+    title: 'Estate occasions on Kauai | myCHEF',
     description:
-      'Staffed estate events on Kauai: Princeville, Hanalei and Poʻipū. Inquiry stage.',
+      'Birthdays, brunch, parties, and company dinners on Princeville and Poʻipū estates. Name the shore and request availability. A page is not a held crew.',
     lede:
       'Both shores. Inquiry stage. The bridge and the weather are real.',
     photo: 'eventsKauai',

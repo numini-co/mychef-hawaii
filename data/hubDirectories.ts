@@ -472,9 +472,10 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
   },
   events: {
     path: '/events',
-    h1: 'Villa occasions, by island.',
-    title: 'Villa occasions, by island | myCHEF Hawaii',
-    description: 'Villa occasions across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    h1: 'Villa occasions in Hawaii.',
+    title: 'Villa occasions in Hawaii | myCHEF',
+    description:
+      'Brunch, parties, and company dinners in a Hawaii villa. Open the island with the house. Oʻahu and Maui quote. Kauaʻi and the Big Island write back.',
     lede:
       'Wedding-week formats stay on the weddings page.',
     kicker: 'Statewide · Events',
@@ -1097,10 +1098,10 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
   },
   corporateCatering: {
     path: '/corporate-catering',
-    h1: 'House offsite catering, by island.',
-    title: 'House offsite catering, by island | myCHEF Hawaii',
+    h1: 'House offsite catering in Hawaii.',
+    title: 'House offsite catering in Hawaii | myCHEF',
     description:
-      'Each island quotes executive dinners in houses.',
+      'Catered team meals in a house, chosen by island. Oʻahu and Maui take a written quote. Kauaʻi: request availability. Hawaiʻi Island: join the inquiry list.',
     lede:
       'Not HCC citywides — those are closed through 2027 and are not our product.',
     kicker: 'Statewide · Offsite catering',

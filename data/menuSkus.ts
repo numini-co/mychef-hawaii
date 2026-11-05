@@ -1,5 +1,9 @@
 import type { IslandId } from './islands';
 import type { UniqueCell } from './uniqueCells';
+import { STAFFING } from './rateCard';
+
+const serverHr = STAFFING.serverHourly;
+const sousHr = STAFFING.sousHourly;
 
 /**
  * Catalog MENU_SLUGS — designed per table, not a fake standing carte.
@@ -447,6 +451,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       body: [
         'Estate platters are the menu on the table. They are not the staffed format. That format is [family-style service](/catering/family-style). Poʻipū can set them in the south sun, with a covered backup if rain starts. Princeville uses the covered lānai first. Past the Hanalei bridge, that clause still applies. See [how Kauaʻi menus are designed](/menus).',
         'Children’s plates are written on [kids’ menus](/kids-menus) before the shop, beside the adults. One dinner uses the signature band, groceries inside it, when a crew exists. Nothing is held until you [request availability](/quote). Bands sit on [pricing](/pricing).',
+        `On a Kauaʻi estate the platters go down the table you named, Princeville under the covered lānai or Poʻipū in the south sun with that cover already written. The cook sets the kitchen, sends the food, and clears. Request availability for the shore before that service is treated as held. If you add a floor, server time is $${serverHr}/hr and a sous chef is $${sousHr}/hr, each its own line, then a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit follows a written yes. Gratuity is never required. The signature band, groceries inside it, stays on [pricing](/pricing).`,
       ],
       faqs: [
         {
@@ -529,16 +534,17 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
     {
       slug: 'lunch',
       name: 'Lunch',
-      h1: 'Lunch on Kauai — midday in Kapaʻa and estate kitchens, inquiry.',
-      title: 'Lunch on Kauai — midday, inquiry | myCHEF',
+      h1: 'Lunch in a Kauai estate.',
+      title: 'Lunch in a Kauai estate | myCHEF',
       description:
-        'Lunch menus in Kapaʻa houses and Princeville or Poʻipū estates. Inquiry stage. Midday food.',
+        'Midday lunch in a Kapaʻa house or a Princeville or Poʻipū kitchen, shorter than dinner. Request availability, name the shore, and note rain cover up north.',
       lede:
         'A shorter arc. A Kapaʻa house or an estate kitchen. Request availability.',
       photo: 'menuLunchKauai',
       body: [
         'Kapaʻa is the shorter drive from Līhuʻe, and it is a real midday booking, not a stop on the way to an estate. Princeville or Poʻipū lunches follow the shore you name, including rain cover and the bridge clause on the far north. We cook, serve, and clear. See [how Kauaʻi menus are designed](/menus). [Request availability](/quote).',
         'This is not a [meal-prep](/meal-prep) drop. No lunch price is published. If a Stay Chef day includes midday, the meal sits in the day rate and groceries are at cost with receipts. The card is [pricing](/pricing). The day rate is [vacation chef](/vacation-chef).',
+        `A Kauaʻi lunch is the shorter midday in the estate kitchen, not a second dinner. Kapaʻa is the closer house. Princeville uses the covered lānai when rain starts, and a bridge closure moves a far-north midday rather than sending it south. Request availability with the hour and the shore. A server, if you want one, is $${serverHr}/hr and a sous chef is $${sousHr}/hr, written apart from the food, with 20% service and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit waits for a written yes. Gratuity is never required. See [pricing](/pricing).`,
       ],
       faqs: [
         {
