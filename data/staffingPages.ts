@@ -1,5 +1,9 @@
 import type { IslandId } from './islands';
 import type { UniqueCell } from './uniqueCells';
+import { STAFFING } from './rateCard';
+
+const serverHr = STAFFING.serverHourly;
+const sousHr = STAFFING.sousHourly;
 
 /**
  * Catalog STAFF_SLUGS — quoted add-ons, never buried in a menu price.
@@ -301,6 +305,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       photo: 'staffServersKauai',
       body: [
         'Request availability, then a server is on the Princeville or Poʻipū estate before guests, if a crew exists for that shore. They run courses, keep water on the table, and clear. Call time and end time are hours, separate from the food, sized to headcount and to plated or family-style. A bridge closure moves a North Shore call. It does not hand the night to the other shore. A sous chef is a second set of hours. 20% service and Hawaiʻi GET up to 4.712% follow, each alone. The hour is on [staffing](/staffing) and [pricing](/pricing). Request availability on [the quote form](/quote).',
+        `On the estate a server carries plated courses through the great room or moves platters on the lawn, then clears. Princeville rain uses the covered lānai already named. Poʻipū still needs an indoor backup. Request availability for the shore. The hour is $${serverHr}/hr. A sous chef, if you ask, is $${sousHr}/hr. Those lines sit apart from the food, then 20% service and Hawaiʻi GET up to 4.712% each take a line. A 50% deposit follows a written yes. Gratuity is never required. Bands are on [pricing](/pricing).`,
       ],
       faqs: [
         {
@@ -325,7 +330,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         },
         {
           q: 'How do I request availability for servers on either shore?',
-          a: 'Shore, date, seats, and plated or family-style on [the quote form](/quote). The hour is on [pricing](/pricing). There is no instant confirmation.',
+          a: 'Name the shore, the date, the seats, and whether the dinner is plated or family-style on [the quote form](/quote). Request availability for that estate. The server hour is on [pricing](/pricing). A printed page is not a held crew, and there is no instant confirmation.',
         },
       ],
       related: [
@@ -345,6 +350,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       photo: 'staffBartendersKauai',
       body: [
         'Request availability for a bartender on the shore you named. They arrive before guests, set the station, mix what the house supplies, and close it down at the end time. A wet North Shore terrace and a Poʻipū counter are different setups. A bridge closure moves the North Shore night. Hours are quoted in writing. No bartender hour is published. This is not the villa bar and not the four-hour cart. Those are [the bar](/bar) and [the mobile bar](/mobile-bar). We will not staff a theatrical tiki bar. Request availability on [the quote form](/quote).',
+        `The bartender sets a station on the Princeville terrace or the Poʻipū counter, mixes what the house brought, and packs it down at the end time. A wet north terrace uses the covered lānai. Request availability for that shore. No bartender hour is published. If the same night also needs a floor, server time is $${serverHr}/hr and sous-chef time is $${sousHr}/hr, then 20% service and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing).`,
       ],
       faqs: [
         {
@@ -390,6 +396,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       body: [
         'Request availability. We do not impersonate a resort butler department.',
         'A butler on either shore is house-level service across the stay, not the dinner server. They are at the Princeville or Poʻipū estate for the call time you requested, keep the house through those hours, and finish at the end time. A bridge closure moves a North Shore day. Hours are separate from the chef, sized to who is in the house. We will not sell a butler we cannot staff. There is no published hour. The stay is quoted in writing. Request availability on [the quote form](/quote). See [staffing](/staffing).',
+        `A butler on the estate keeps the house across the stay, from the call time you requested until the end time, while a dinner server only has the courses. Princeville rain still moves a north-shore day under cover. Request availability for the shore. There is no published butler hour. A server added for the dinner is $${serverHr}/hr and a sous chef is $${sousHr}/hr, then 20% service and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing).`,
       ],
       faqs: [
         {
