@@ -322,15 +322,16 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       photo: 'cellUpcountry',
       body: [
         'Outdoor setups inherit a wet-weather backup.',
+        'People booking this slope are usually in a Kula, Makawao, or Haʻikū estate for a villa week, not a Wailea lawn the same night. The kitchen is cooler, and an outdoor table still needs the indoor backup this slope already uses. Request a written quote with the dates, the house address, the guest count, and dietary notes, and say whether dinner is the lanai or the dining room. Food prints as the rate-card band, then 20% service, then Hawaiʻi GET up to 4.712%. A 50% deposit holds the date after you accept. Gratuity is never required. Travel past the base zone is the line on [pricing](/pricing).',
       ],
       faqs: [
         {
           q: 'Same as Wailea?',
-          a: 'No. [Wailea](/wailea) is South Maui resort residences in the base zone. Upcountry is the climb — Kula, Makawao and Haʻikū — with the surcharge as its own quote line. They are not one night.',
+          a: 'No. [Wailea](/wailea) is South Maui resort residences in the base zone. This slope is Kula, Makawao, and Haʻikū, and the drive is its own line on [pricing](/pricing). They are not one night.',
         },
         {
           q: 'Will you print a farm name?',
-          a: 'Named farms wait for written verification. Sitting in Kula mist does not earn a grower credit. This page is about the elevation dinner, not a farm brochure.',
+          a: 'Named farms wait for written verification. Kula mist does not earn a grower credit. The dinner is the house kitchen, with a wet-weather backup written before anyone shops.',
         },
         {
           q: 'Where does the Kula, Makawao, or Haʻikū drive print?',

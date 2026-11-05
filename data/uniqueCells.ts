@@ -37,6 +37,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         'Kamaʻāina service is frequency: the same Oʻahu household, the same corridors, a standing shop-and-cook rhythm. Honolulu residences, Kailua households, and town apartments with a real stove are the fit. School nights and a fridge that gets used are the point. A one-off visitor dinner belongs on another page.',
         'Visitor weeks are [vacation chef weeks](/vacation-chef). What a single night includes is [Private chef Honolulu](/private-chef). Town residences are [Honolulu](/honolulu). Windward households are [Kailua](/kailua). Bands and fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the address and how often you want the cook.',
+        'The fit is a household that lives here: a Honolulu residence, a Kailua house, or a town apartment with a real stove, on a repeating week rather than a visitor arrival. Dinner is a school-night supper and a clean kitchen. Request a written quote with the dates, the house address, the guest count, and dietary notes, and say how often the cook returns. The total shows the rate-card band, a 20% service charge, and Hawaiʻi GET up to 4.712% on their own lines, then a 50% deposit. Gratuity is never required. Travel outside the base area is on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -58,6 +59,10 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Where do I see prices for a resident week?',
           a: 'On [pricing](/pricing): the bands, then 20% service and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit follows acceptance. Gratuity is never required. Travel is confirmed on the written quote. We do not print a separate travel price here.',
+        },
+        {
+          q: 'What does a resident week say about rhythm that a visitor dinner leaves off?',
+          a: 'Say how often the cook returns, then the dates, the street, the household count, and dietary notes. Request a written quote for the home you live in. A visitor celebration is a different page.',
         },
       ],
       related: [
@@ -81,6 +86,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         'The Hawaiʻi Convention Center calendar is closed through 2027. We cook houses. We do not staff a ballroom, and we will not pretend this department takes that work while the calendar is closed. A residence dinner stays a residence dinner even when a conference is in town.',
         'Offsites that happen in a house, with a kitchen and a lawn, are [villa events](/events). Staffed rooms are [Oahu catering](/catering). A busy January can press hospitality on this island. We name the calendar. We do not claim an affiliation. Bands are on [pricing](/pricing). Request a written quote on [the quote form](/quote).',
+        'The dinner that still belongs here is in an Oʻahu residence or villa while a conference is in town, not inside the convention building. The kitchen is that house cooktop and the table already in the residence. Request a written quote with the dates, the house address, the guest count, and dietary notes. The total lists the rate-card band, a 20% service charge, and Hawaiʻi GET up to 4.712% on their own lines, then a 50% deposit. Gratuity is never required. Travel outside the base area is on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -102,6 +108,10 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Where do I price a house dinner instead of a hall?',
           a: 'Bands and fee lines are on [pricing](/pricing). Staffed rooms are [Oahu catering](/catering). Request a written quote on [the quote form](/quote) with the residence, the date, and the headcount. The written total is the booking.',
+        },
+        {
+          q: 'If a conference is in town, which address is the kitchen on the quote?',
+          a: 'Send the residence address, the dates, the guest count, and dietary notes. Do not file the convention hall as the kitchen. Request a written quote on [the quote form](/quote). A busy calendar does not turn the house into a ballroom.',
         },
       ],
       related: [
@@ -167,6 +177,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         'Ko Olina holds the legal short-stay villa pool on this island. We say legal because the law does. Town apartments and unpermitted rentals are a different product, and we will not advertise them. A chef week here is a villa kitchen on the west side: an arrival night, then the days you actually book.',
         'The corridor page is [Ko Olina](/ko-olina). Multi-day visitor cooking is [vacation chef weeks](/vacation-chef). Resident weekly cooking is the [kamaʻāina line](/kamaaina). Grocery lines stay on [pricing](/pricing), not blended on this page. Request a written quote on [the quote form](/quote) with the villa and the length of the stay.',
+        'Visitors in a legal Ko Olina villa book an arrival-night dinner and then the further days they actually want. The kitchen has to be a working cooktop in that villa, not a town apartment filed as a rental. Request a written quote with the dates, the villa address, the guest count, dietary notes, and how many nights should be cooked. The total shows the rate-card band, a 20% service charge, and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit follows acceptance. Gratuity is never required. Travel, when the card has it, is on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -188,6 +199,10 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Where are prices for a west-side villa week?',
           a: 'On [pricing](/pricing). Fee lines — 20% service and Hawaiʻi GET up to 4.712% — sit on their own rows, with a 50% deposit after you accept. Gratuity is never required. The corridor detail is [Ko Olina](/ko-olina). Request a written quote for the villa.',
+        },
+        {
+          q: 'What does a Ko Olina villa week put on the quote form besides the resort name?',
+          a: 'Put the villa address, the landing date, the guest count, dietary notes, and the number of cooked nights on [the quote form](/quote). Request a written quote. A lock-off without heat is declined before that shop.',
         },
       ],
       related: [
@@ -213,6 +228,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         'Wailea, Makena, and Kīhei are three South Maui logistics stories and one team. Resort residences, lava-terrace houses, and residential vacation homes do not share a driveway. Kīhei family weeks and Wailea tasting tables can both be quoted. They are different houses, not a ranking. Makena stays the quieter inventory south of Wailea. This page names that south-shore drive. It does not replace the neighborhood pages: [Wailea](/wailea), [Makena](/makena), and [Kīhei](/kihei).',
         'Upcountry is not South Maui. Pāʻia and Haʻikū are quoted in writing as their own booking, on [Pāʻia](/paia), and they are not folded into a Wailea day. The climb is [Upcountry](/upcountry). Two services on this shore are quoted as two nights or a day rate. Fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote).',
+        'Hosts here are in a Wailea resort residence, a quieter Makena house, or a Kīhei vacation home, often a villa week that opens with an arrival night. The three kitchens do not share a driveway, so the menu follows the burners and the lawn or dining room you named. Request a written quote with the dates, the house address, the guest count, and dietary notes, and name the town. The total lists the rate-card band, then a 20% service charge and Hawaiʻi GET up to 4.712% on separate lines, then a 50% deposit. Gratuity is never required. A drive off this shore is on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -234,6 +250,10 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Where are South Maui prices, and what is not this shore?',
           a: 'Maui bands and fee lines are on the pricing page. This URL is the south-shore drive across Wailea, Makena, and Kīhei. The climb is Upcountry. Request a written quote with the driveway you mean, not all three at once.',
+        },
+        {
+          q: 'Which South Maui town name should lead the written quote?',
+          a: 'Name Wailea, Makena, or Kīhei, then the dates, the street, the seats, and dietary notes. Request a written quote for that one driveway. Two towns in one unpaid day are not assumed.',
         },
       ],
       related: [
@@ -333,6 +353,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         'The road is the constraint. Far-north addresses, including Hāʻena, are confirmed on the written quote with this weather clause. Notice is 72 hours. If the one-lane bridge closes, we reschedule rather than forfeit the food. Poʻipū does not inherit the clause. The quote names the shore.',
         'Princeville and Hanalei name their shore on that same written quote. The estate dinner itself is [Hanalei](/hanalei) or the [North Shore](/north-shore) page. Far-north houses are [Hāʻena](/haena). The map is [coverage](/coverage). Bands are on [pricing](/pricing). Request availability on [the quote form](/quote).',
+        'People with a far-north driveway use this page so the road is named before a shop. The dinner is still the estate kitchen, with a covered table when the evening is wet. Poʻipū does not inherit the note. Request availability with the dates, the house address, the guest count, and dietary notes. On the written quote the food is the rate-card band, the 20% service charge stands under it, and Hawaiʻi GET up to 4.712% is its own line. A 50% deposit waits for a yes. Gratuity is never required. Travel sits on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -354,6 +375,10 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         {
           q: 'How do I request availability with the shore named?',
           a: 'Use [the quote form](/quote) and write Princeville, Hanalei, or Hāʻena, plus the dates. Bands are on [pricing](/pricing). The map is [coverage](/coverage). We confirm the clause with the shore, not as a guess on the night.',
+        },
+        {
+          q: 'What street facts does a far-north availability note need besides the road?',
+          a: 'Send the dates, the far-north street, the guest count, and dietary notes, and say if the house is past the bridge. Request availability on [the quote form](/quote). The reply is a written total for that shore only.',
         },
       ],
       related: [
@@ -377,6 +402,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         'The North Shore is three places with one weather problem: Princeville houses, Hanalei estates, and Hāʻena past the bridge. Winters book early because surf season is the calendar. A chef night can be in the kitchen or on a covered lānai. Outdoor fire is a weather call, not a promise.',
         'Hāʻena dates are confirmed on the written quote with the Hanalei-bridge weather clause. Read [Hāʻena](/haena) and [Hanalei bridge](/hanalei-bridge). Princeville is [Princeville](/princeville). Hanalei is [Hanalei](/hanalei). Bands are on [pricing](/pricing). Request availability on [the quote form](/quote) with the shore and the dates.',
+        'People who book this shore usually hold a Princeville house, a Hanalei estate, or a Hāʻena place for a winter week. Dinner is the kitchen or a covered lānai. Request availability with the dates, the house address, the guest count, and dietary notes, and name which place you have. The written reply lists the rate-card band, then 20% service, then Hawaiʻi GET up to 4.712%, each alone. A 50% deposit follows a written yes. Gratuity is never required. Travel for the shore is on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -398,6 +424,10 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Where are Kauaʻi prices for this shore?',
           a: 'On [pricing](/pricing). Service is 20% and Hawaiʻi GET up to 4.712%, each on its own line, with a 50% deposit after you accept. Gratuity is never required. Travel is confirmed on the written quote. Request availability on [the quote form](/quote).',
+        },
+        {
+          q: 'Which place name belongs on a North Shore availability note?',
+          a: 'Name Princeville, Hanalei, or Hāʻena with the dates, the street, the seats, and dietary notes. Request availability on [the quote form](/quote). A winter week is not held until a crew can take that shore.',
         },
       ],
       related: [
@@ -498,6 +528,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         'This page names the west-side communities we actually staff: Kailua-Kona, Keauhou, Waikoloa, Mauna Lani, the Mauna Kea resort belt, Hualālai-area houses, and North Kohala coast homes. Hard sun and lava terraces are the setting. Kitchens run from a true pass to a galley. The rest of the island is not implied.',
         'Waimea is upcountry on the same side, with travel confirmed on the written quote, not one of these seven. Resort and house pages include [Mauna Kea](/mauna-kea), [Mauna Lani](/mauna-lani), and [Puakō](/puako). Hilo is a different day on [the east side](/east-side). The map is [coverage](/coverage). Bands are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
+        'Groups on this belt are in one of the seven west-side communities, a Kona town kitchen or a Kohala lava-terrace house. Join the inquiry list for that address only. Hard sun means you should name an indoor room if the terrace shuts. Send the dates, the house address, the guest count, and dietary notes, and name the community. A written yes shows the rate-card band, a 20% service charge, and Hawaiʻi GET up to 4.712% on their own lines, then a 50% deposit. Gratuity is never required. Waimea travel is on [pricing](/pricing). Hilo is not on this list.',
       ],
       faqs: [
         {
@@ -519,6 +550,10 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Where do I read prices for a west-side night?',
           a: 'On [pricing](/pricing). After the food, 20% service and Hawaiʻi GET up to 4.712% are their own lines. A 50% deposit follows acceptance. Gratuity is never required. Travel is confirmed on the written quote. Join the inquiry list on [the quote form](/quote).',
+        },
+        {
+          q: 'What should a west-side inquiry leave off so Hilo is not implied?',
+          a: 'Name the community, the dates, the street, the seats, and dietary notes, and leave Hilo off the note. Join the inquiry list on [the quote form](/quote). A terrace dinner still needs the indoor room written if the sun shuts the lava.',
         },
       ],
       related: [
