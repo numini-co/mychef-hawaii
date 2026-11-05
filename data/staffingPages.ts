@@ -245,10 +245,10 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
     {
       slug: 'butlers',
       name: 'Butlers',
-      h1: 'Butlers on Maui — quoted for a villa week when free.',
-      title: 'Butlers on Maui — quoted for a villa week when free | myCHEF',
+      h1: 'Butlers for a Maui villa week.',
+      title: 'Butlers for a Maui villa week | myCHEF',
       description:
-        'Butler add-ons for Maui houses. Quoted as a line, never assumed. We will not sell a butler we cannot staff in Wailea or West Maui.',
+        'A butler for a Wailea, Kapalua, or Kāʻanapali villa week, apart from the dinner server. Quoted in writing when someone can work. Request a written quote.',
       lede: 'The table set, water poured, the chef left at the pass.',
       photo: 'staffButlersMaui',
       body: [
@@ -292,10 +292,10 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
     {
       slug: 'servers',
       name: 'Servers',
-      h1: 'Servers on Kauai — quoted hourly, inquiry, both shores.',
-      title: 'Servers on Kauai — quoted hourly, inquiry | myCHEF',
+      h1: 'Servers for a Kauai estate dinner.',
+      title: 'Servers for a Kauai estate dinner | myCHEF',
       description:
-        'Server add-ons for Princeville and Poʻipū. Request availability. Hours are itemized when a crew exists. Far-north calls inherit the Hanalei bridge clause.',
+        'Servers for plated or family-style dinners in Princeville or Poʻipū. Hours are itemized when a crew exists. Request availability for the shore.',
       lede:
         'An estate table needs hands. Inquiry. We write the hours when the crew exists. We will not fake a roster.',
       photo: 'staffServersKauai',
@@ -337,9 +337,10 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
     {
       slug: 'bartenders',
       name: 'Bartenders',
-      h1: 'Bartenders on Kauai — hourly, inquiry, not the 4-hour package.',
-      title: 'Bartenders on Kauai — hourly, inquiry | myCHEF',
-      description: 'Bartender add-ons for Kauai estates. Inquiry stage. No theatrical tiki service.',
+      h1: 'Bartenders for a Kauai estate party.',
+      title: 'Bartenders for a Kauai estate | myCHEF',
+      description:
+        'A bartender for a Princeville terrace or a Poʻipū counter, mixing what the house supplies. Quoted in writing. Request availability and name the shore.',
       lede: 'Citrus on a wet terrace or a South Shore counter. Inquiry.',
       photo: 'staffBartendersKauai',
       body: [
@@ -380,10 +381,10 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
     {
       slug: 'butlers',
       name: 'Butlers',
-      h1: 'Butlers on Kauai — request availability when someone is free.',
-      title: 'Butlers on Kauai — request availability when free | myCHEF',
+      h1: 'Butlers for a Kauai estate stay.',
+      title: 'Butlers for a Kauai estate stay | myCHEF',
       description:
-        'Butler add-ons for Kauai estates. Inquiry stage. Quoted as a line. We will not sell a butler we cannot staff.',
+        'A butler for a Princeville or Poʻipū stay, separate from the dinner server. Quoted in writing when someone can work. Request availability for that shore.',
       lede: 'An empty Princeville table being set. Inquiry.',
       photo: 'staffButlersKauai',
       body: [
@@ -473,10 +474,10 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
     {
       slug: 'bartenders',
       name: 'Bartenders',
-      h1: 'Bartenders on the Kohala Coast — hourly, west side, inquiry.',
-      title: 'Bartenders on the Kohala Coast — hourly, inquiry | myCHEF',
+      h1: 'Bartenders on a Kohala Coast terrace.',
+      title: 'Bartenders on the Kohala Coast | myCHEF',
       description:
-        'Bartender add-ons for Kona and Kohala terraces. Join the inquiry list. The night is quoted in writing. The east side is a different day.',
+        'A bartender for a Kona or Kohala terrace, mixing what the house supplies. Quoted in writing. Join the inquiry list on the west side. Hilo is its own day.',
       lede: 'Citrus on lava, hard sun. Not Hilo.',
       photo: 'staffBartendersBigisland',
       body: [
@@ -519,10 +520,10 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
     {
       slug: 'butlers',
       name: 'Butlers',
-      h1: 'Butlers on Hawaiʻi Island — quoted when a trained butler is free.',
-      title: 'Butlers on the Big Island — quoted on request | myCHEF',
+      h1: 'Butlers for a Kona or Kohala stay.',
+      title: 'Butlers for a Kohala Coast stay | myCHEF',
       description:
-        'Butler add-ons for Kona and Kohala houses. Inquiry stage. Quoted as a line. East side is a different day. We will not sell a butler we cannot staff.',
+        'A butler for a Kona or Kohala stay, separate from the dinner server. Quoted in writing when someone can work. Join the inquiry list. Hilo stays off.',
       lede: 'A lava terrace table being set. Not a resort butler department.',
       photo: 'staffButlersBigisland',
       body: [

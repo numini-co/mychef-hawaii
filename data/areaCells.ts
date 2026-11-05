@@ -313,10 +313,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'upcountry',
       name: 'Upcountry',
-      h1: 'Upcountry Maui tables — elevation is a line, not a farm claim.',
-      title: 'Upcountry Maui villa dinner — elevation surcharge | myCHEF',
+      h1: 'Upcountry Maui villa dinner.',
+      title: 'Upcountry Maui villa dinner | myCHEF',
       description:
-        'Upcountry Maui dinners. Published elevation surcharge. Named farms only after written verification.',
+        'Villa dinners in Upcountry Maui at Kula, Makawao, and Haʻikū. Cooler air, a longer drive. Travel past the base zone is on pricing. Request a written quote.',
       lede:
         'Cooler air, a longer drive, Haleakalā on the slope. The surcharge is printed. Farm names wait for verification.',
       photo: 'cellUpcountry',
@@ -668,10 +668,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'koloa',
       name: 'Kōloa',
-      h1: 'Kōloa town tables — South Shore houses, not a Poʻipū clone.',
-      title: 'Kōloa town dinner — South Shore inquiry | myCHEF Kauai',
+      h1: 'Private chef dinner in Kōloa town.',
+      title: 'Private chef dinner in Koloa | myCHEF',
       description:
-        'Kōloa town dinners at inquiry. South Shore houses adjacent to Poʻipū, not a resort-residence copy.',
+        'Private chef dinners in Kōloa on the South Shore, beside Poʻipū and closer to Līhuʻe than Princeville. Request availability with the street and the dates.',
       lede:
         'Town, not the resort lawn. Retreat houses and small weddings to about 75. Inquiry until we can staff.',
       photo: 'cellKoloa',

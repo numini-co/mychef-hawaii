@@ -529,10 +529,10 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
     {
       slug: 'lunch',
       name: 'Lunch',
-      h1: 'Lunch on Kauai — midday in Kapaʻa and estate kitchens, inquiry.',
-      title: 'Lunch on Kauai — midday, inquiry | myCHEF',
+      h1: 'Lunch in a Kauai estate.',
+      title: 'Lunch in a Kauai estate | myCHEF',
       description:
-        'Lunch menus in Kapaʻa houses and Princeville or Poʻipū estates. Inquiry stage. Midday food.',
+        'Midday lunch in a Kapaʻa house or a Princeville or Poʻipū kitchen, shorter than dinner. Request availability, name the shore, and note rain cover up north.',
       lede:
         'A shorter arc. A Kapaʻa house or an estate kitchen. Request availability.',
       photo: 'menuLunchKauai',
