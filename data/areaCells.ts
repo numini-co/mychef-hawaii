@@ -322,7 +322,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       photo: 'cellUpcountry',
       body: [
         'Outdoor setups inherit a wet-weather backup.',
-        'People booking this slope are usually in a Kula, Makawao, or Haʻikū estate for a villa week, not a Wailea lawn the same night. The kitchen is cooler, and an outdoor table still needs the indoor backup this slope already uses. Request a written quote with the dates, the house address, the guest count, and dietary notes, and say whether dinner is the lanai or the dining room. Food prints as the rate-card band, then 20% service, then Hawaiʻi GET up to 4.712%. A 50% deposit holds the date after you accept. Gratuity is never required. Travel past the base zone is the line on [pricing](/pricing).',
+        'People booking this slope are usually in a Kula, Makawao, or Haʻikū estate for a villa week, not a Wailea lawn the same night. The kitchen is cooler, and an outdoor table still needs the indoor backup this slope already uses. Request a written quote with the dates, the house address, the guest count, and dietary notes, and say whether dinner is the lanai or the dining room. Food prints as the rate-card band, then 20% service, then Hawaiʻi GET up to 4.712%. A 50% deposit holds the date after you accept. Gratuity is never required. Name Kula, Makawao, or Haʻikū in that note. Travel past the base zone is the line on [pricing](/pricing).',
       ],
       faqs: [
         {
