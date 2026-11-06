@@ -341,30 +341,34 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Morning brunch in a Hawaii rental, after the kitchen was used the night before. No separate brunch price is published. Open your island, then pricing.',
   },
   '/catering/bbq': {
-    title: 'Lawn BBQ service, by island | myCHEF Hawaii',
-    description: 'Lawn BBQ service across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Lawn BBQ catering in Hawaii villas | myCHEF',
+    description:
+      'Staffed lawn BBQ for Hawaii villas, about 10–75 guests, with the crew at the fire. Request a quote, availability, or the inquiry list for that host.',
   },
   '/catering/plated': {
-    title: 'Plated villa service, by island | myCHEF Hawaii',
+    title: 'Plated villa catering in Hawaii | myCHEF',
     description:
-      'Plated villa service across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+      'Plated courses in a Hawaii villa for about 10–75 guests. More servers than a buffet. Quote, availability, or the inquiry list depends on the island.',
   },
   '/catering/family-style': {
-    title: 'Family-style service, by island | myCHEF Hawaii',
-    description: 'Family-style service across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Family-style villa catering in Hawaii | myCHEF',
+    description:
+      'Family-style platters for a Hawaii villa, usually 10–20 at one table. Fewer servers than plated courses. Open the island page, then pricing.',
   },
   '/catering/buffet': {
-    title: 'Buffet service, by island | myCHEF Hawaii',
-    description: 'Buffet service across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Staffed buffet catering in Hawaii villas | myCHEF',
+    description:
+      'A staffed buffet inside a Hawaii villa, not a hotel ballroom and not drop-off. Open the island page for hot stations, then the pricing card.',
   },
   '/catering/grazing': {
-    title: 'Grazing boards, by island | myCHEF Hawaii',
-    description: 'Grazing boards across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
+    title: 'Grazing boards for Hawaii villa hours | myCHEF',
+    description:
+      'Grazing boards for a Hawaii villa arrival hour. Passed bites, not a seated dinner. Say whether the hour is the whole night before you open an island.',
   },
   '/catering/drop-off': {
-    title: 'Drop-off is not staffed, by island | myCHEF Hawaii',
+    title: 'Drop-off trays for Hawaii villas | myCHEF',
     description:
-      'Each island says drop-off is not staffed service.',
+      'Hawaii villa drop-off is trays at the door. Nobody stays to serve or clear. It is not a staffed crew. Open the island page before you book.',
   },
   '/fine-dining/romantic-dinner': {
     title: 'Romantic dinner for two with a Hawaii chef | myCHEF',
