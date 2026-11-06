@@ -33,6 +33,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       body: [
         'The cook is in the dining-room kitchen with time to set plates before anyone sits. A Honolulu tower still waits on its freight window. A Ko Olina villa can start once the house is open. Courses leave the pass one at a time, and the kitchen is cleared before we go. See [how Oʻahu menus are designed](/menus).',
         'This is the designed dinner, not [the tasting menu](/fine-dining/tasting-menu). The sample on the menus page shows length. It is not your printed menu. One night uses the signature per-guest band, groceries inside it. Read [pricing](/pricing), then [request a written quote](/quote) with the address and the seats.',
+        'A Kahala three-course still waits on the freight window before the first plate leaves the pass. Ko Olina loads through the villa, then the same pacing: a first, a sear, a close, and a cleared stove. That night uses the signature band, and the shop for those plates sits inside it. It is not billed again as groceries at cost. A Stay Chef day is the other paper: the daily fee, then groceries at cost with receipts. See [how Oʻahu menus are designed](/menus) and the lines on [pricing](/pricing). [Request a written quote](/quote) with the address and any tower rule.',
       ],
       faqs: [
         {
@@ -79,6 +80,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       body: [
         'These are the platters for one table, written for that house. They are not the staffed format. That format, with a floor crew, is [family-style service](/catering/family-style). In a tower the trays wait on the freight window. In Ko Olina they come through the villa. Then the platters go down the table. See [how Oʻahu menus are designed](/menus).',
         'Honolulu welcome dinners often use this menu. Children’s plates are planned beside the adults on [kids’ menus](/kids-menus), before the shop. One night uses the signature band, groceries inside it. There is no separate platter price. Read [pricing](/pricing) and [request a written quote](/quote).',
+        'Honolulu platters are the bowls for one table, carried up after the freight window, not the staffed floor on the catering format page. A Ko Olina house sets them on the dining table the villa already has. Children’s plates are decided before the buy, beside the adults. One platter night uses the signature band, groceries inside that band, with no second price for sharing. If the household is on a Stay Chef day, the meal sits in the day rate and groceries are at cost with receipts. See [how Oʻahu menus are designed](/menus) and [pricing](/pricing). [Request a written quote](/quote).',
       ],
       faqs: [
         {
@@ -125,6 +127,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       body: [
         'A Kahala breakfast starts with the freight window, not the eggs. The cook is in the kitchen before the household is up and sets fruit, coffee, and the pan. Ko Olina loads through the villa. Kailua uses the driveway, with no lobby clock. Burners are clean before the family returns. See [how Oʻahu menus are designed](/menus).',
         'This morning is the house meal, not [the brunch occasion](/events/brunch). No breakfast price is published. On a Stay Chef day it sits in the day rate, groceries billed at cost with receipts. A signature dinner keeps groceries inside the per-guest band. Read [pricing](/pricing) and [Stay Chef](/vacation-chef), then [request a written quote](/quote).',
+        'Kahala breakfast is the freight window, then fruit, coffee, and eggs before the household is up. Ko Olina comes through the villa. Kailua uses the driveway, with no lobby clock. This is the house morning, not the brunch occasion. No breakfast price is published, so the morning is quoted in writing. On a Stay Chef day it sits in the day rate and groceries are at cost with receipts. A signature dinner the night before keeps its own groceries inside the band. Those two bills are not blended. See [how Oʻahu menus are designed](/menus) and [pricing](/pricing). [Request a written quote](/quote).',
       ],
       faqs: [
         {
@@ -171,6 +174,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       body: [
         'Midday in a Kailua or Lanikai house is a shorter cook than dinner: a set table, a hot plate, then a clean stove. Kahala and Ko Olina can take the same midday menu when the kitchen is real. A hotel room is in only if it has a stove. Most suites do not. See [how Oʻahu menus are designed](/menus).',
         'This is not a [meal-prep](/meal-prep) drop in the fridge. We cook, serve, and clear. No lunch price is published. On a Stay Chef day, lunch is part of the day rate when the day includes it, groceries at cost with receipts. Read [pricing](/pricing) and [vacation chef](/vacation-chef). [Request a written quote](/quote).',
+        'Midday in Kailua or Lanikai is a shorter cook than dinner: set the kitchen, send one hot plate, clear the burners. Kahala and Ko Olina can take the same hour when the stove is real. A hotel room is in only if it has burners. No lunch price is published, and a shorter cook is not an automatic cut off dinner. On a Stay Chef day, lunch sits in the day rate when the day includes it, groceries at cost with receipts. A signature dinner keeps groceries inside its band. See [how Oʻahu menus are designed](/menus) and [pricing](/pricing). [Request a written quote](/quote) with the hour.',
       ],
       faqs: [
         {
@@ -219,6 +223,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       body: [
         'In a Wailea dining room the cook sets the pass, then sends a first, a grill, and a close. Kapalua uses the same pacing. If the trade wind shuts the lānai, plates move indoors, decided before you accept. We do not copy another Maui kitchen’s menu. See [how Maui menus are designed](/menus).',
         'A three-course is not [the tasting menu](/fine-dining/tasting-menu), and the sample on the menus page is only an example of length. One night uses the signature per-guest band, groceries inside it. Upcountry is a surcharge zone, quoted with the menu. Read [pricing](/pricing) and [request a written quote](/quote).',
+        'Wailea sends the three plates from the dining-room pass, and Kapalua uses the same order if the lānai shuts. The trade wind is decided before you accept, not when the first course is already in hand. One villa night keeps grocery buying inside the signature band. Do not ask for that dinner plus a grocery receipt. A Stay Chef day, if the week is the booking, is the daily fee and then groceries at cost with receipts. Open [how Maui menus are designed](/menus) and [pricing](/pricing). [Request a written quote](/quote) and name Wailea, Kapalua, or an Upcountry surcharge town.',
       ],
       faqs: [
         {
@@ -265,6 +270,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       body: [
         'Platters are the menu: bowls and boards for one villa table. The staffed format is a different booking, [family-style service](/catering/family-style). On a Wailea lānai we set the platters out of the wind. If the trade comes up, the same food moves inside, written before you accept. Kīhei houses use the dining table they have. See [how Maui menus are designed](/menus).',
         'Children eat from plates planned on [kids’ menus](/kids-menus), beside the adults. One platter night uses the signature per-guest band, groceries inside it. No platter price is published on its own. Read [pricing](/pricing) and [request a written quote](/quote) with the shore.',
+        'A Wailea lānai platter moves indoors when the wind is already written into the note. Kīhei uses the dining table the house has, and Kapalua does not inherit a South Maui layout. The bowls are this menu. The floor crew, if you want one, is the catering format, not an extra sentence here. Groceries for that night stay inside the signature band. A Stay Chef villa week bills the day rate, then groceries at cost with receipts. Open [how Maui menus are designed](/menus) and [pricing](/pricing). [Request a written quote](/quote) with the shore and who eats.',
       ],
       faqs: [
         {
@@ -311,6 +317,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       body: [
         'In Wailea the cook is in the villa before the pool is in use. Fruit and coffee go on a shaded table. Eggs follow. If the trade wind shuts the lānai, those plates move to the dining room, decided before you accept. Kapalua and Kāʻanapali keep that indoor backup. See [how Maui menus are designed](/menus).',
         'A villa breakfast is not [brunch as an occasion](/events/brunch). No breakfast price is published. A Stay Chef morning sits in the day rate, groceries at cost with receipts. The signature dinner is a different night, groceries inside the band. Open [pricing](/pricing) and [vacation chef](/vacation-chef). [Request a written quote](/quote).',
+        'Wailea sets fruit and coffee on a shaded table before the pool is in use, and eggs follow. If the trade wind closes the lānai, plates move to the dining room, already written. Kapalua and Kāʻanapali keep that indoor backup. The morning is not a brunch party. No breakfast price is on the card. Request a written quote for a single morning. A Stay Chef day folds the meal into the day rate, groceries at cost with receipts. Do not copy the dinner band onto breakfast and call the shop included. Open [how Maui menus are designed](/menus), [pricing](/pricing), and [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -357,6 +364,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       body: [
         'A Kīhei or Wailea lunch is cooked in the house at midday: set the kitchen, serve, clear the burners. It is not a beach park, and it is not a hotel lawn without a stove. West Maui houses add Honoapiʻilani to the arrival, especially on Saturday. Wind moves an open table inside, written first. See [how Maui menus are designed](/menus).',
         'Lunch is not a [meal-prep](/meal-prep) fridge drop. No lunch price is published. When a Stay Chef day includes midday, the meal sits in the day rate and groceries are at cost with receipts. Read [pricing](/pricing) and [vacation chef](/vacation-chef). [Request a written quote](/quote) and name the shore.',
+        'A Kīhei or Wailea lunch is cooked in the house at midday, then the burners are cleared. It is not a beach park and not a lawn without a stove. West Maui adds Honoapiʻilani to arrival, especially on Saturday, and that clock is written before you accept. Wind moves an open table inside. No lunch band is published. Request a written quote. When a Stay Chef day includes midday, groceries are at cost with receipts. Do not label a signature dinner the same way. Open [how Maui menus are designed](/menus), [pricing](/pricing), and [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -405,6 +413,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       body: [
         'A three-course on the south uses Poʻipū sun and a shorter drive from Līhuʻe. A Princeville table is mist, a covered lānai, and the Hanalei bridge notes if the house sits past the bridge. Rain moves the courses under cover. It does not move the booking to the other shore. See [how Kauaʻi menus are designed](/menus).',
         'The sample is an example of length, not a fixed list you can book off. This dinner is not [the tasting menu](/fine-dining/tasting-menu). No date is held because the sample exists. [Request availability](/quote) and name the shore. The signature band, with groceries inside it, is on [pricing](/pricing).',
+        'Poʻipū writes a three-course against south sun and a shorter hop from Līhuʻe. Princeville writes it under cover, and a house past the Hanalei bridge has to say so before any plate is promised. Request availability. Nothing is held because a sample exists. When a crew is real, the signature band keeps the shop inside it. A Stay Chef morning-to-night day is separate: the day rate, then groceries at cost with receipts. Read [how Kauaʻi menus are designed](/menus) and [pricing](/pricing). [Request availability](/quote) with the shore, not both shores on one note.',
       ],
       faqs: [
         {
@@ -498,6 +507,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       body: [
         'A Poʻipū breakfast uses south sun and a short drive from Līhuʻe. Princeville is mist, a covered lānai, and the Hanalei bridge notes if the house is past the bridge. Rain moves the table under cover. It does not swap shores. [Request availability](/quote) and name the shore. See [how Kauaʻi menus are designed](/menus).',
         'Estate breakfast is the morning meal, not [the brunch occasion](/events/brunch). No breakfast price is published. On a Stay Chef day the meal is inside the day rate and groceries are billed at cost with receipts. See [pricing](/pricing) and [vacation chef](/vacation-chef).',
+        'A Poʻipū morning uses south sun and the shorter drive from Līhuʻe. Princeville is mist and a covered lānai, and the Hanalei bridge notes apply only if the house is past the bridge. Rain moves the table under the cover already named. It does not swap shores. Request availability. No breakfast price is published. On a Stay Chef day the meal is inside the day rate and groceries are billed at cost with receipts. A signature dinner is a different meal, groceries inside its band. See [how Kauaʻi menus are designed](/menus) and [pricing](/pricing). Name the shore on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -639,6 +649,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       body: [
         'West-side platters are bowls on a Kona or Kohala table, in the shade of the house. They are not [family-style service](/catering/family-style). Open lava is not the dining room. Children eat inside with the adults. Hilo is a separate dedicated east-side day, quoted in writing. See [how Hawaiʻi Island menus are designed](/menus).',
         'Join the inquiry list for the Kona–Kohala side. One night uses the signature band, groceries inside it. Kids’ plates are on [kids’ menus](/kids-menus) before the shop. Read [pricing](/pricing). Do not add Volcano to a Waikoloa note.',
+        'West-side platters stay in the shade of a Kona or Kohala house. Open lava is not the table, and children eat inside with the adults. Join the inquiry list for that side only. Hilo or Volcano is a separate dedicated east-side day, not a second bowl after Waikoloa. One night uses the signature band, groceries inside it. There is no platter surcharge. A Stay Chef day is the day rate plus groceries at cost with receipts. See [how Hawaiʻi Island menus are designed](/menus) and [pricing](/pricing), including the simpler open table that exists only here. Send the west-side address on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -685,6 +696,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       body: [
         'On the Kona–Kohala side breakfast is set inside, because the terrace is already hot. Shade is the house. Coffee may be poured, origin labeled when the law requires it. We name no farm we cannot document. Hilo or Volcano is a separate dedicated east-side day, quoted in writing. See [how Hawaiʻi Island menus are designed](/menus).',
         'West-side breakfast is not [the brunch occasion](/events/brunch). No breakfast price is published. [Join the inquiry list](/quote) for Kona or Kohala. On a Stay Chef day the meal sits in the day rate, groceries at cost with receipts. Read [pricing](/pricing) and [vacation chef](/vacation-chef).',
+        'Kona–Kohala breakfast is set inside because the terrace is already hot. Shade is the house. Coffee may be poured, origin labeled when the law requires it, and no farm is named that we cannot document. Join the inquiry list for that west-side morning. Hilo or Volcano is a separate dedicated east-side day. No breakfast price is published. A Stay Chef day holds the meal in the day rate, groceries at cost with receipts. The signature dinner band is a different meal and keeps its shop inside the band. Read [how Hawaiʻi Island menus are designed](/menus) and [pricing](/pricing). [Join the inquiry list](/quote).',
       ],
       faqs: [
         {
@@ -731,6 +743,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       body: [
         'A Waikoloa or Kona lunch is a shorter cook than dinner, served inside while the rock is hot. Shade is the room, not a picnic. We set the kitchen, serve, and clear. Volcano is not a drive from Waikoloa. The east side is its own dedicated day, quoted in writing. See [how Hawaiʻi Island menus are designed](/menus).',
         'Lunch is not a [meal-prep](/meal-prep) fridge drop, and no lunch price is published. [Join the inquiry list](/quote) for the west side. On a Stay Chef day, midday sits in the day rate, groceries at cost with receipts. Read [pricing](/pricing) and [vacation chef](/vacation-chef).',
+        'A Waikoloa or Kona lunch is the shorter midday, served inside while the rock is hot. The open lava is not the dining room. Join the inquiry list for that west-side hour. Volcano is not a drive tacked onto Waikoloa. The east side is its own dedicated day. No lunch price is published, so a shorter cook is still written out, not discounted off dinner. A Stay Chef day puts midday in the day rate, groceries at cost with receipts. The signature band is the dinner, groceries inside it. See [how Hawaiʻi Island menus are designed](/menus) and [pricing](/pricing). Send the hour on [the quote form](/quote).',
       ],
       faqs: [
         {

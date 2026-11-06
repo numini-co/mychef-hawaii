@@ -376,119 +376,253 @@ export const hubNestedDirectories: Record<HubNestedId, HubDirectory> = {
   },
   fmtBbq: {
     path: '/catering/bbq',
-    h1: 'Lawn BBQ service, by island.',
-    title: 'Lawn BBQ service, by island | myCHEF Hawaii',
-    description: 'Lawn BBQ service across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
-    lede:
-      'Each island writes the grill.',
+    h1: 'Lawn BBQ catering in Hawaii villas',
+    title: 'Lawn BBQ catering in Hawaii villas | myCHEF',
+    description:
+      'Staffed lawn BBQ for Hawaii villas, about 10–75 guests, with the crew at the fire. Request a quote, availability, or the inquiry list for that host.',
+    lede: 'A staffed grill on the lawn. Each island writes the fire and the wet-weather plan.',
     kicker: 'Statewide · BBQ',
     photo: 'hubFmtBbq',
     cardLabel: 'BBQ',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'A lawn BBQ keeps a crew at the fire. They plate and clear. It is not food left on the grass. Villas of about 10–75 book it when a flame is allowed.',
+      `The quote lists that island’s signature band, groceries inside the band, then a server at $${serverHr}/hr and a sous chef at $${sousHr}/hr. Service at 20% and Hawaiʻi GET up to 4.712% print on their own lines. A 50% deposit follows acceptance. Gratuity is never required.`,
+      'Oʻahu and Maui request a written quote: the Honolulu, Kahala, Ko Olina, or Kailua flame rule, or a Wailea, Kapalua, or Kāʻanapali arrival lawn. Kauaʻi requests availability for Princeville or Poʻipū, with rain and the Hanalei bridge. The Big Island joins the inquiry list for Kona–Kohala. Hilo is a separate dedicated east-side day. Open [Oʻahu lawn BBQ](oahu:/catering/bbq), [Maui lawn BBQ](maui:/catering/bbq), [Kauaʻi estate BBQ](kauai:/catering/bbq), or [Kohala terrace BBQ](bigisland:/catering/bbq), then [pricing](/pricing) and [the quote form](/quote).',
     ],
     faqs: [
       {
-        q: 'Is this a restaurant BBQ page?',
-        a: 'No. We cook in the house. Open the island format.',
+        q: 'Does this statewide page book the grill, or do I still open an island?',
+        a: 'This page only routes the format. The lawn, the flame rule, and the crew sit on the island BBQ page. Oʻahu and Maui return a written quote. Kauaʻi answers a request for availability. The Big Island answers from the inquiry list, west side first. Hilo is a separate dedicated east-side day.',
+      },
+      {
+        q: 'Is a lawn BBQ the same product as drop-off trays?',
+        a: 'No. A BBQ keeps a crew at the fire through service and cleanup. Drop-off leaves food and the crew does not stay. If the yard cannot hold a flame, open the buffet or plated router. Do not ask this page to rename trays as a staffed grill.',
+      },
+      {
+        q: 'Which lines show on a staffed BBQ quote?',
+        a: `The island signature band, with groceries inside that band, then a server at $${serverHr}/hr and a sous chef at $${sousHr}/hr while the crew stays. A 20% service charge and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. Travel fees stay on the island pricing page.`,
+      },
+      {
+        q: 'How do building rules change an Oʻahu grill versus a Maui lawn?',
+        a: 'On Oʻahu, name the Honolulu, Kahala, Ko Olina, or Kailua rule before anyone plans a flame, and request a written quote. A Maui Villa Week in Wailea, Kapalua, or Kāʻanapali requests a written quote for the arrival-night lawn. A tower that bans live fire is not a BBQ.',
+      },
+      {
+        q: 'Can one note cover a Kauaʻi BBQ and a Big Island BBQ?',
+        a: 'No. Request availability on the Kauaʻi estate BBQ page and name Princeville or Poʻipū, rain, and the Hanalei bridge. Join the inquiry list on the Kohala terrace page for Kona–Kohala. Hilo is its own day. Two islands stay two notes on the quote form.',
+      },
+      {
+        q: 'Who answers a BBQ note, and how do I reach the desk?',
+        a: `Oʻahu and Maui answer with a written quote. Kauaʻi answers a request for availability. The Big Island answers from the inquiry list. Send one island, the yard, and the date on the quote form. Desk: ${desk}.`,
       },
     ],
   },
   fmtPlated: {
     path: '/catering/plated',
-    h1: 'Plated villa service, by island.',
-    title: 'Plated villa service, by island | myCHEF Hawaii',
+    h1: 'Plated courses in a Hawaii villa dining room',
+    title: 'Plated villa catering in Hawaii | myCHEF',
     description:
-      'Plated villa service across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
-    lede:
-      'Identical courses in the house.',
+      'Plated courses in a Hawaii villa for about 10–75 guests. More servers than a buffet. Quote, availability, or the inquiry list depends on the island.',
+    lede: 'Identical courses at one table. Each island writes the dining room and how many servers pace them.',
     kicker: 'Statewide · Plated',
     photo: 'hubFmtPlated',
     cardLabel: 'Plated',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'Plated catering seats the same courses for each guest, paced from the villa kitchen. The room has to hold the list. It is not a standing line and not trays at the door.',
+      `The floor is heavier than a buffet. The quote starts with the signature band, groceries inside it, then a server at $${serverHr}/hr and a sous chef at $${sousHr}/hr. 20% service and Hawaiʻi GET up to 4.712% are separate lines. A 50% deposit follows acceptance. Gratuity is never required.`,
+      'Request a written quote for a Honolulu, Kahala, Ko Olina, or Kailua dining room, including the freight rule. Maui requests a written quote for Wailea, Kapalua, or Kāʻanapali courses. Kauaʻi: request availability and choose Princeville or Poʻipū. Join the inquiry list for Kona–Kohala. Hilo is a separate dedicated east-side day. Open [Oʻahu plated service](oahu:/catering/plated), [Maui plated service](maui:/catering/plated), [Kauaʻi plated service](kauai:/catering/plated), or [Kohala plated service](bigisland:/catering/plated), then [pricing](/pricing) and [the quote form](/quote).',
     ],
     faqs: [
+      {
+        q: 'How is plated service different from family-style platters?',
+        a: 'Plated means each guest receives the same courses, paced to the table. Family-style puts shared platters down the middle and people serve themselves. The food band can match. The server count usually does not. Open the family-style router if the night is passing bowls, not a pass.',
+      },
+      {
+        q: 'Why does a plated villa dinner list more server hours?',
+        a: `Courses have to leave the kitchen together and land at the seats. That takes more floor time than a buffet pan or a platter. Server hours are $${serverHr}/hr and a sous chef is $${sousHr}/hr, written under the signature band. The band itself does not grow because the plates are identical.`,
+      },
+      {
+        q: 'Do groceries for a plated night sit inside the band?',
+        a: 'Yes. Grocery buying for a signature dinner sits inside the per-guest band. It is not a second shop bill and it is not groceries at cost. A 20% service charge and Hawaiʻi GET up to 4.712% are their own lines on pricing. A 50% deposit follows acceptance. Gratuity is never required.',
+      },
+      {
+        q: 'Which island will actually pace the courses?',
+        a: 'The plated page on the island that has the dining room. Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability and needs the shore named. The Big Island takes an inquiry that starts in Kona–Kohala. This statewide page does not seat anyone.',
+      },
+      {
+        q: 'Is a dinner for two a plated catering booking?',
+        a: 'Two seats are a villa dinner, not a 10–75 catering format. Use the island private-chef page for a pair. Use this router when the table is a staffed plated event and the house can pace courses. Say the headcount so the server line matches the seats.',
+      },
+      {
+        q: 'What should the plated note include before any island replies?',
+        a: `One island, the dining room or lānai, the date, the headcount, and dietary limits. Add a building rule on Oʻahu. Name the shore on Kauaʻi. Keep Hilo off a west-side note. Desk: ${desk}.`,
+      },
     ],
   },
   fmtFamily: {
     path: '/catering/family-style',
-    h1: 'Family-style service, by island.',
-    title: 'Family-style service, by island | myCHEF Hawaii',
-    description: 'Family-style service across Oʻahu, Maui, Kauaʻi and the Big Island: how myCHEF Hawaii handles it, with published starting prices and a written quote.',
-    lede:
-      'Shared platters, not a standing carte.',
+    h1: 'Family-style platters for a Hawaii villa table',
+    title: 'Family-style villa catering in Hawaii | myCHEF',
+    description:
+      'Family-style platters for a Hawaii villa, usually 10–20 at one table. Fewer servers than plated courses. Open the island page, then pricing.',
+    lede: 'Shared platters down one table. Each island writes who passes them and how many people sit.',
     kicker: 'Statewide · Family-style',
     photo: 'hubFmtFamily',
     cardLabel: 'Family-style',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'Family-style sets shared platters on one table so guests serve each other. About 10–20 is the usual night. The house needs one table. Two rooms usually means a buffet.',
+      `Food is the signature band, groceries inside it. The floor is lighter than plated: servers at $${serverHr}/hr and a sous chef at $${sousHr}/hr. 20% service and Hawaiʻi GET up to 4.712% are their own lines. A 50% deposit follows acceptance. Gratuity is never required.`,
+      'Request a written quote for platters in Honolulu, Kahala, Ko Olina, or Kailua. Maui requests a written quote for a Wailea, Kapalua, or Kāʻanapali welcome table. Kauaʻi: request availability and name Princeville rain, Poʻipū sun, or the Hanalei bridge. Join the inquiry list for Kona–Kohala. Hilo is a separate dedicated east-side day. Open [Oʻahu family-style](oahu:/catering/family-style), [Maui family-style](maui:/catering/family-style), [Kauaʻi family-style](kauai:/catering/family-style), or [Kohala family-style](bigisland:/catering/family-style), then [pricing](/pricing) and [the quote form](/quote).',
     ],
     faqs: [
       {
-        q: 'Same as plated?',
-        a: 'Plated is identical courses. Family-style is shared platters.',
+        q: 'Are family-style platters the same booking as plated courses?',
+        a: 'No. Plated service puts an identical course at each seat. Family-style puts bowls and boards on the table and guests pass them. You can ask for either on the island catering page. This router is only the shared-platter format, not the menu page and not a children’s menu.',
+      },
+      {
+        q: 'How many guests usually sit family-style?',
+        a: 'About 10–20 at one table is the usual estate night, inside the broader 10–75 staffed range. A longer list that cannot share one table is often a buffet. Under that, the island private-chef page is the smaller villa dinner. Say the real headcount so the floor matches.',
+      },
+      {
+        q: 'Where do children’s plates go on a platter night?',
+        a: 'On the same table, written before the shop, not after the platters are out. The island page plans the simpler plate beside the adults. This statewide router does not print ages or a separate children’s price. Name who needs the simpler plate in the note.',
+      },
+      {
+        q: 'Does a platter night use the same fee lines as a plated night?',
+        a: `The signature band is the food line, groceries inside it. Server time is $${serverHr}/hr and a sous chef is $${sousHr}/hr, often fewer hours than plated. A 20% service charge and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. See pricing.`,
+      },
+      {
+        q: 'Which island voice applies if the table is a welcome dinner?',
+        a: 'Open the family-style page where the kitchen is. Oʻahu and Maui take a written quote, including a Maui arrival night in Wailea, Kapalua, or Kāʻanapali. Kauaʻi takes a request for availability and the shore. The Big Island takes the inquiry list, Kona–Kohala first. The welcome-dinner occasion page is a different URL.',
+      },
+      {
+        q: 'What do I send so the platters are quoted for one island only?',
+        a: `The island, the address, the date, who sits, and any simpler plates. Do not combine Princeville and Wailea on one note. Send it on the quote form. Desk: ${desk}.`,
       },
     ],
   },
   fmtBuffet: {
     path: '/catering/buffet',
-    h1: 'Buffet service, by island.',
-    title: 'Buffet service, by island | myCHEF Hawaii',
-    description: 'A staffed buffet in the house, not a hotel ballroom. Each island writes the line.',
-    lede:
-      'A staffed buffet in the house, not a hotel ballroom. Each island writes the line.',
+    h1: 'A staffed buffet in a Hawaii villa',
+    title: 'Staffed buffet catering in Hawaii villas | myCHEF',
+    description:
+      'A staffed buffet inside a Hawaii villa, not a hotel ballroom and not drop-off. Open the island page for hot stations, then the pricing card.',
+    lede: 'Hot stations in the house, with a crew that refills them. Not a ballroom, and not trays at the door.',
     kicker: 'Statewide · Buffet',
     photo: 'hubFmtBuffet',
     cardLabel: 'Buffet',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'A buffet is staffed stations in the villa. Pans stay hot and the crew clears. It is usual from about twenty guests, inside 10–75. It is not a ballroom. Drop-off leaves nobody to tend a pan.',
+      `Food is the signature band, groceries inside it. The floor is often lighter than plated, still a server at $${serverHr}/hr and a sous chef at $${sousHr}/hr. 20% service and Hawaiʻi GET up to 4.712% print separately. The deposit is 50%. Gratuity is never required.`,
+      'Request a written quote for Honolulu, Kahala, Ko Olina, or Kailua, and name the loading rule. Maui requests a written quote for Wailea, Kapalua, or Kāʻanapali, including wind. Kauaʻi: request availability if Princeville rain, the Hanalei bridge, or Poʻipū sun moves the line. Join the inquiry list for Kona–Kohala. Hilo is a separate dedicated east-side day. Open [Oʻahu buffet service](oahu:/catering/buffet), [Maui buffet service](maui:/catering/buffet), [Kauaʻi buffet service](kauai:/catering/buffet), or [Kohala buffet service](bigisland:/catering/buffet), then [pricing](/pricing) and [the quote form](/quote).',
     ],
     faqs: [
       {
-        q: 'Same as drop-off?',
-        a: 'Drop-off is not staffed. Buffet is staffed in the house.',
+        q: 'Is a villa buffet the same thing as drop-off?',
+        a: 'No. A buffet is staffed in the house: the pans are refilled and the crew clears. Drop-off is food left at the door with nobody staying. If you want trays and an empty kitchen, open the drop-off router. If you want stations that stay hot, stay on this one.',
+      },
+      {
+        q: 'Will you run a hotel ballroom or convention buffet?',
+        a: 'No. This format is stations in a villa, estate, or residence. A ballroom banquet is a different building and not this product. Say the house, not a convention floor. The island buffet page is where the room is judged.',
+      },
+      {
+        q: 'From about how many guests does a buffet make sense?',
+        a: 'Usually from about twenty, when a home range should not fire that many plated mains at once. Smaller tables often fit family-style. The outside of the staffed range is still about 10–75, and a larger lawn is quoted only after the island sees the house.',
+      },
+      {
+        q: 'How do the fee lines differ from a plated quote?',
+        a: `The signature band is the same food line, groceries inside it. The floor is usually lighter, still at $${serverHr}/hr for a server and $${sousHr}/hr for a sous chef. A 20% service charge and Hawaiʻi GET up to 4.712% stay separate. A 50% deposit follows acceptance. Gratuity is never required.`,
+      },
+      {
+        q: 'What does each island need before stations are promised?',
+        a: 'Oʻahu and Maui need a written-quote note with the house and the wind or loading rule. Kauaʻi needs a request for availability that names Princeville or Poʻipū and rain cover. The Big Island needs the inquiry list for Kona–Kohala. Hilo is not a second station after a west-side night.',
+      },
+      {
+        q: 'Where do I open the island buffet and send the house?',
+        a: `Use the buffet link for Oʻahu, Maui, Kauaʻi, or the Kohala Coast, then pricing. One house, one date, one headcount on the quote form. Desk: ${desk}.`,
       },
     ],
   },
   fmtGrazing: {
     path: '/catering/grazing',
-    h1: 'Grazing boards, by island.',
-    title: 'Grazing boards, by island | myCHEF Hawaii',
-    description: 'Boards, not a fake standing carte. Each island writes how.',
-    lede:
-      'Boards, not a fake standing carte. Each island writes how.',
+    h1: 'Grazing boards for a Hawaii villa hour',
+    title: 'Grazing boards for Hawaii villa hours | myCHEF',
+    description:
+      'Grazing boards for a Hawaii villa arrival hour. Passed bites, not a seated dinner. Say whether the hour is the whole night before you open an island.',
+    lede: 'Boards for the arrival hour. Each island writes whether that hour is the whole night.',
     kicker: 'Statewide · Grazing',
     photo: 'hubFmtGrazing',
     cardLabel: 'Grazing',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'Grazing is boards and passed bites while guests arrive. It can be the first hour or the whole evening. It is not a seated dinner and not the villa-party page. Say which, so quantities match.',
+      `A crew that stays is its own line: a server at $${serverHr}/hr and a sous chef at $${sousHr}/hr, not inside the signature band. 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a yes. Gratuity is never required.`,
+      'Request a written quote for Honolulu, Kahala, Ko Olina, or Kailua, and say where boards sit. Maui requests a written quote for a Wailea, Kapalua, or Kāʻanapali arrival, out of the wind. Kauaʻi: request availability and name Princeville, Poʻipū, rain, or the Hanalei bridge. Join the inquiry list for a Kona–Kohala hour. Hilo is a separate dedicated east-side day. Open [Oʻahu grazing boards](oahu:/catering/grazing), [Maui grazing boards](maui:/catering/grazing), [Kauaʻi grazing boards](kauai:/catering/grazing), or [Kohala grazing boards](bigisland:/catering/grazing), then [pricing](/pricing) and [the quote form](/quote).',
     ],
     faqs: [
       {
-        q: 'Same as a villa party?',
-        a: 'Villa parties is the occasion.',
+        q: 'Can grazing be the whole night, or only the first hour?',
+        a: 'Either, if you say which on the note. The first hour before a seated course is one quantity. Boards as the entire evening are another. The island page writes that choice. This router does not guess from the word grazing.',
+      },
+      {
+        q: 'Is this the same page as a villa party?',
+        a: 'No. A villa party is the occasion: the reason the house is full. Grazing is the food format for boards and passed bites. You can use both, on two URLs. Open the island villa-party page for the occasion and this format only for the boards.',
+      },
+      {
+        q: 'How does a grazing hour show up on the quote?',
+        a: `As its own line when it is only the hour. A crew that stays is a server at $${serverHr}/hr and a sous chef at $${sousHr}/hr. Those rates are not hidden inside the signature band. A 20% service charge and Hawaiʻi GET up to 4.712% are separate. A 50% deposit follows acceptance. Gratuity is never required.`,
+      },
+      {
+        q: 'Which island should I open for an arrival-night board?',
+        a: 'The grazing page where the villa is. Oʻahu and Maui take a written quote, including a Maui arrival in Wailea, Kapalua, or Kāʻanapali. Kauaʻi takes a request for availability and the shore. The Big Island takes the inquiry list, Kona–Kohala first. Hilo is a different day.',
+      },
+      {
+        q: 'If a seated dinner follows the boards, where do groceries sit?',
+        a: 'The signature dinner that follows keeps grocery buying inside the per-guest band. It is not billed again as groceries at cost. The boards stay their own line. A Stay Chef day is a different model: the daily fee plus groceries at cost with receipts. See pricing.',
+      },
+      {
+        q: 'What do I send before anyone writes the board quantities?',
+        a: `Whether grazing is the hour or the night, one island, the address, the date, and the headcount. Name wind or rain cover if the boards are outside. Desk: ${desk}.`,
       },
     ],
   },
   fmtDropoff: {
     path: '/catering/drop-off',
-    h1: 'Drop-off is not staffed, by island.',
-    title: 'Drop-off is not staffed, by island | myCHEF Hawaii',
+    h1: 'Drop-off trays at a Hawaii villa door',
+    title: 'Drop-off trays for Hawaii villas | myCHEF',
     description:
-      'Each island says drop-off is not staffed service.',
-    lede:
-      'Food left, crew gone. Not a staffed room. Each island writes that honesty.',
+      'Hawaii villa drop-off is trays at the door. Nobody stays to serve or clear. It is not a staffed crew. Open the island page before you book.',
+    lede: 'Food left at the door. The crew does not stay to serve, pass, or clear.',
     kicker: 'Statewide · Drop-off',
     photo: 'hubFmtDropoff',
     cardLabel: 'Drop-off',
     body: [
-      'Choose your island below. Kauaʻi and the Big Island are taking enquiries.',
+      'Drop-off is trays at the door and a crew that leaves. Nobody serves, clears, or cleans. It is not a buffet with the servers deleted. A chef in the house is a staffed format.',
+      `Trays do not include a server at $${serverHr}/hr or a sous chef at $${sousHr}/hr. Those rates are for a crew that stays. A staffed switch shows the signature band, groceries inside it, then 20% service and Hawaiʻi GET up to 4.712% on their own lines, then a 50% deposit. Gratuity is never required.`,
+      'Oʻahu and Maui: request a written quote that says trays, not a crew, for Honolulu, Kahala, Ko Olina, Kailua, Wailea, Kapalua, or Kāʻanapali. Kauaʻi: request availability and name Princeville or Poʻipū, plus rain or the Hanalei bridge. Big Island: join the inquiry list for a Kona–Kohala door. Hilo is a separate dedicated east-side day. Open [Oʻahu drop-off](oahu:/catering/drop-off), [Maui drop-off](maui:/catering/drop-off), [Kauaʻi drop-off](kauai:/catering/drop-off), or [west-side drop-off](bigisland:/catering/drop-off), then [pricing](/pricing) and [the quote form](/quote).',
     ],
     faqs: [
       {
-        q: 'Is this staffed catering?',
-        a: 'No. Drop-off is not staffed. Open the island page.',
+        q: 'Does anyone stay after the trays are set down?',
+        a: 'No. Drop-off is food at the door and a departure. There is no pass, no clearing, and no cleanup crew. If the house needs someone to keep pans hot or plate courses, that is buffet, plated, family-style, or BBQ. Those formats are staffed. This one is not.',
+      },
+      {
+        q: 'Can I buy the signature dinner band as drop-off to pay less?',
+        a: 'No. The signature band is the staffed dinner, groceries inside it. Drop-off is a different product and is not a discount on that band. The island page says in writing whether trays are possible for that date and address. We will not describe trays as a chef who stays.',
+      },
+      {
+        q: 'What if I decide I want a crew after all?',
+        a: `Open the staffed format for that island. The quote then shows the signature band, a server at $${serverHr}/hr, and a sous chef at $${sousHr}/hr. A 20% service charge and Hawaiʻi GET up to 4.712% are separate lines. A 50% deposit follows acceptance. Gratuity is never required. Those lines do not belong on a tray that is left.`,
+      },
+      {
+        q: 'How do I ask about trays without calling it a staffed event?',
+        a: 'Say drop-off in the note and name one island. Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability, with Princeville or Poʻipū named. The Big Island takes the inquiry list for a Kona–Kohala door. Hilo is not added onto a west-side drop.',
+      },
+      {
+        q: 'Why is there no server hour on a drop-off?',
+        a: `A server at $${serverHr}/hr and a sous chef at $${sousHr}/hr are paid for time in the house. Drop-off has no one left to do that work. Adding those lines would pretend the night is staffed. Pricing shows the staffed rates for the formats that use them.`,
+      },
+      {
+        q: 'Who do I write, and which link is the honest page?',
+        a: `Use the island drop-off link, then pricing if you are comparing a staffed format. Send one address and one date on the quote form. Desk: ${desk}.`,
       },
     ],
   },

@@ -232,8 +232,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/catering": {
-  "hash": "77f78b70380b9aef49c9",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "096de547dbb41c5054c3",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://bigisland.mychef-hawaii.com/catering/bbq": {
   "hash": "6f47a716e2b732c162b0",
@@ -244,16 +244,16 @@
   "lastmod": "2026-10-20T00:49:02Z"
  },
  "https://bigisland.mychef-hawaii.com/catering/drop-off": {
-  "hash": "8e364201a1fa746116e3",
-  "lastmod": "2026-10-20T00:49:02Z"
+  "hash": "23265b9aa47209a4f41a",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://bigisland.mychef-hawaii.com/catering/family-style": {
   "hash": "59dcb46b49a6c6885bb9",
   "lastmod": "2026-10-20T00:49:02Z"
  },
  "https://bigisland.mychef-hawaii.com/catering/grazing": {
-  "hash": "88968f6313b8e8d74ee4",
-  "lastmod": "2026-10-20T00:49:02Z"
+  "hash": "a1fcd1f7b4d23e7f286b",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://bigisland.mychef-hawaii.com/catering/plated": {
   "hash": "50a2fd5d29937301b8d9",
@@ -512,16 +512,16 @@
   "lastmod": "2026-11-03T01:24:35Z"
  },
  "https://bigisland.mychef-hawaii.com/menus/breakfast": {
-  "hash": "f45ba5f470061d4534fc",
-  "lastmod": "2026-10-20T13:30:00Z"
+  "hash": "42dc5397f9aa593ca9b7",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://bigisland.mychef-hawaii.com/menus/family-style-menu": {
-  "hash": "aad42ebec7e728fe195f",
-  "lastmod": "2026-10-20T13:30:00Z"
+  "hash": "84eaf007e1dfecefc46e",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://bigisland.mychef-hawaii.com/menus/lunch": {
-  "hash": "18327ef044b0ec75e4db",
-  "lastmod": "2026-10-20T13:30:00Z"
+  "hash": "129e1c499d91df5d78f4",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://bigisland.mychef-hawaii.com/menus/three-course": {
   "hash": "383bc9ecb740cb46fd06",
@@ -848,32 +848,32 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/catering": {
-  "hash": "67a60cf9fdfba08d57fa",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "ab35afa2954dfc3c67f2",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://kauai.mychef-hawaii.com/catering/bbq": {
-  "hash": "8405d51a23f573b58568",
-  "lastmod": "2026-10-19T00:54:59Z"
+  "hash": "c1d99c7e14d3b0dcdfd1",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://kauai.mychef-hawaii.com/catering/buffet": {
-  "hash": "5dae2ff875a3f18c7ba4",
-  "lastmod": "2026-10-19T00:54:59Z"
+  "hash": "e7909162024c6553a066",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://kauai.mychef-hawaii.com/catering/drop-off": {
-  "hash": "a4daca88576694d2e3c0",
-  "lastmod": "2026-10-19T00:54:59Z"
+  "hash": "b94a00a75a0c067fc9ab",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://kauai.mychef-hawaii.com/catering/family-style": {
-  "hash": "d42213fd20fd38475c20",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "3875d250b5cad3b6a1f5",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://kauai.mychef-hawaii.com/catering/grazing": {
-  "hash": "0f00cda23727f8823e8a",
-  "lastmod": "2026-10-19T00:54:59Z"
+  "hash": "929febb9fac327f66670",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://kauai.mychef-hawaii.com/catering/plated": {
-  "hash": "7cfa5484df949101736f",
-  "lastmod": "2026-10-19T00:54:59Z"
+  "hash": "1f6123075a8f32ba3531",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://kauai.mychef-hawaii.com/chefs-table": {
   "hash": "9335c279fcc5464498af",
@@ -1108,8 +1108,8 @@
   "lastmod": "2026-11-03T01:24:35Z"
  },
  "https://kauai.mychef-hawaii.com/menus/breakfast": {
-  "hash": "68a2ad5cee4e80cf35af",
-  "lastmod": "2026-10-20T13:30:00Z"
+  "hash": "d225942248b7379d55f7",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://kauai.mychef-hawaii.com/menus/family-style-menu": {
   "hash": "43654f6e94e6620d781c",
@@ -1120,8 +1120,8 @@
   "lastmod": "2026-11-05T01:27:25Z"
  },
  "https://kauai.mychef-hawaii.com/menus/three-course": {
-  "hash": "2806f133835759042cf6",
-  "lastmod": "2026-11-03T01:24:35Z"
+  "hash": "74b13c7d17e17414ca7f",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://kauai.mychef-hawaii.com/mobile-bar": {
   "hash": "a4231f2c5f157264e9a1",
@@ -1460,20 +1460,20 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/catering/buffet": {
-  "hash": "0dbaf5faf7f31764df48",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "209c1901d6f4195e4dfc",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://maui.mychef-hawaii.com/catering/drop-off": {
-  "hash": "448bdb3d65d765bdbd46",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "b204b4a773859b0262b8",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://maui.mychef-hawaii.com/catering/family-style": {
   "hash": "2ba26ad85efcf9b96d91",
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/catering/grazing": {
-  "hash": "f5e1f2d0ee4d617aea16",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "e222fe0fd4649727167a",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://maui.mychef-hawaii.com/catering/plated": {
   "hash": "88bf9043a361741cbd10",
@@ -1708,20 +1708,20 @@
   "lastmod": "2026-11-03T01:24:35Z"
  },
  "https://maui.mychef-hawaii.com/menus/breakfast": {
-  "hash": "6c665601a24456d2e4b0",
-  "lastmod": "2026-10-20T13:30:00Z"
+  "hash": "97093e485c7199f7719d",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://maui.mychef-hawaii.com/menus/family-style-menu": {
-  "hash": "c35aa99451837a567a88",
-  "lastmod": "2026-10-20T13:30:00Z"
+  "hash": "dccf51c1e9625b1b8aec",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://maui.mychef-hawaii.com/menus/lunch": {
-  "hash": "26e1d3644794e2edc1a7",
-  "lastmod": "2026-11-03T01:24:35Z"
+  "hash": "11729fbce2ab70752f2a",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://maui.mychef-hawaii.com/menus/three-course": {
-  "hash": "b6d6227d65b002e35815",
-  "lastmod": "2026-11-03T01:24:35Z"
+  "hash": "c42e8799005dedf52fae",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://maui.mychef-hawaii.com/mobile-bar": {
   "hash": "b09bc2f4a8c1122c5da2",
@@ -1952,32 +1952,32 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://mychef-hawaii.com/catering": {
-  "hash": "900394dfaa429e651fec",
-  "lastmod": "2026-10-23T00:50:35Z"
+  "hash": "5f6822184aea1e68b8e7",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://mychef-hawaii.com/catering/bbq": {
-  "hash": "8570b73eec3c2e564290",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "f751065c0afca8ae1a44",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://mychef-hawaii.com/catering/buffet": {
-  "hash": "4625a09635203d4ef79a",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "767ea63f44b73ec037e5",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://mychef-hawaii.com/catering/drop-off": {
-  "hash": "d03dc85e176b5445cb28",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "f9443e7b716078a02d58",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://mychef-hawaii.com/catering/family-style": {
-  "hash": "34d8e180d465a681a12e",
-  "lastmod": "2026-10-06T13:07:31Z"
+  "hash": "4923808d33d3217392d9",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://mychef-hawaii.com/catering/grazing": {
-  "hash": "3b017539e3a5f77c51c2",
-  "lastmod": "2026-10-09T19:32:00Z"
+  "hash": "fdc767a5aba2237a2b25",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://mychef-hawaii.com/catering/plated": {
-  "hash": "319ab6c68d3fc6a4e163",
-  "lastmod": "2026-10-08T01:00:00Z"
+  "hash": "2ca077ba819c2df64cf7",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://mychef-hawaii.com/chefs-table": {
   "hash": "f827e4148e3d3ce56093",
@@ -2780,20 +2780,20 @@
   "lastmod": "2026-11-03T01:24:35Z"
  },
  "https://oahu.mychef-hawaii.com/menus/breakfast": {
-  "hash": "c8adfdd0c6b5bfbfb0d8",
-  "lastmod": "2026-10-20T13:30:00Z"
+  "hash": "36a935e9fa0cd6ae6c25",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://oahu.mychef-hawaii.com/menus/family-style-menu": {
-  "hash": "b2a3bf7d75034f6fb052",
-  "lastmod": "2026-10-20T13:30:00Z"
+  "hash": "b013df49aa8a027b002c",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://oahu.mychef-hawaii.com/menus/lunch": {
-  "hash": "36e580d6f6bc6fbc6944",
-  "lastmod": "2026-10-20T13:30:00Z"
+  "hash": "e66d9ee2267ea6023dd0",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://oahu.mychef-hawaii.com/menus/three-course": {
-  "hash": "34a230e6949afc755b02",
-  "lastmod": "2026-11-03T01:24:35Z"
+  "hash": "c6b53ea1854d5e262da6",
+  "lastmod": "2026-11-06T01:31:08Z"
  },
  "https://oahu.mychef-hawaii.com/mobile-bar": {
   "hash": "6087f485b592d70be275",
