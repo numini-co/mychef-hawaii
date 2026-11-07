@@ -444,7 +444,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       slug: 'drop-off',
       name: 'Drop-off',
       h1: 'Wailea drop-off is trays at the door, not a villa brigade.',
-      title: 'Wailea drop-off is not a villa brigade | myCHEF',
+      title: 'Drop-off trays for Wailea villas | myCHEF',
       description:
         'Maui drop-off is trays at a Wailea or Kīhei door, not a villa brigade. Request a written quote. We will not sell drop-off as if a chef stays to clear.',
       lede:
@@ -504,15 +504,16 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'A Kauaʻi BBQ is a staffed grill night at the estate: wood-grilled catch with mango and coconut rice, a ranch or vegetable plate so the table is not one fish, island greens, and a lilikoi or haupia close. The crew keeps the fire, plates from the grill and clears, so the hosts stay on the lawn instead of at the coals.',
         'The shore decides the setup. South Shore homes in Poʻipū and Kōloa are sunnier, and live fire on the lawn works on more nights of the year. On the North Shore in Princeville and Hanalei the grill is planned under cover, with a covered-lānai version written into the reply from November to March. If the Hanalei bridge closes, we move the night rather than keep your deposit.',
         'Request availability. Name the shore and the town on the first note. Guest counts of about 10–75, the $225–$375 food band and the staffing lines live on the island [Kauai catering](/catering) page; Princeville, Hanalei and Poʻipū carry the published $50–$75 travel line. Trays left at the door are a different product — see Drop-off. For eight or fewer around one grill, a villa dinner on [private chef Kauai](/) is usually the better fit.',
+        'Princeville rain is why the covered lānai is named before a deposit. A Poʻipū lawn can take the grill on more nights and still needs a table under a roof in the same note. Request availability with the shore, the town, and whether the Hanalei bridge sits between the house and Līhuʻe. Server hours stay off the food band. Read 20% service, Hawaiʻi GET up to 4.712%, and the 50% deposit on [pricing](/pricing). Gratuity is never required. Send the estate on [the quote form](/quote). Staffed service is [Kauai catering](/catering).',
       ],
       faqs: [
         {
           q: 'Luau?',
-          a: 'We grill. We do not staff a theatrical luau on a Princeville lawn.',
+          a: 'We grill on the estate lawn. We do not staff a theatrical luau on a Princeville or Poʻipū lawn, and we will not add a show to the fire. Request availability for the grill night itself. Name the shore so the covered lānai is in the note before anyone accepts.',
         },
         {
           q: 'Hanalei BBQ in surf season?',
-          a: 'Bridge clause still applies.',
+          a: 'The Hanalei bridge clause still applies when the house is past the bridge. A closure moves the night. It does not become a Poʻipū grill. Request availability and name that side of the bridge. South Shore lawns do not inherit the clause.',
         },
         {
           q: 'What does a Kauaʻi BBQ cost?',
@@ -521,6 +522,14 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         {
           q: 'Can a North Shore rental host the grill?',
           a: 'If the house allows a grill and has a covered place to plate, yes. Tell us when you request availability; where it does not, we will suggest a buffet under the lānai instead before anyone pays.',
+        },
+        {
+          q: 'Where does a Poʻipū grill move when south rain starts?',
+          a: 'Onto the covered table already written for that estate. We do not hunt for a tent after the deposit. Princeville plans under the lānai from the first note because surf-season rain is expected. Request availability and name the roof you actually have. A lawn with no indoor table is a decline.',
+        },
+        {
+          q: 'How do I request availability for a Kauaʻi grill night?',
+          a: 'Send the estate, the date, Princeville or Poʻipū, and the headcount on [the quote form](/quote). Add the bridge side if the house is north of Hanalei. Fee lines are on [pricing](/pricing). A request is not a held crew. One shore only. The staffed page is [Kauai catering](/catering).',
         },
       ],
       related: [
@@ -543,6 +552,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Plated Kauaʻi catering is a coursed, seated dinner served to each guest: ahi poke with kukui and sweet onion to start, wood-grilled catch or a ranch plate as the main, and a lilikoi or haupia close. It suits rehearsal dinners, milestone birthdays and the long table on the last night of a reunion week, when the toasts need everyone seated.',
         'On Kauaʻi the shore often decides whether plated is realistic outdoors. Poʻipū and Kōloa lawns can hold a plated dinner on more nights of the year; a Princeville terrace in January usually moves the courses inside or under a covered lānai. Plated needs more servers than a buffet for the same list, so the staffing line grows while the food band stays the same: servers $80 an hour and a sous-chef $105, on four- to five-hour minimums.',
         'Request availability. Guest counts, the $225–$375 food band and the written reply live on the island [Kauai catering](/catering) page. A rehearsal that belongs to a wedding week is planned on [Kauai wedding catering](/weddings), and a plated dinner for two to eight is a villa night on [private chef Kauai](/).',
+        'A Poʻipū rehearsal table can stay on the lawn when the evening is dry. The same courses in Princeville in winter belong under a roof. Request availability and name that difference, and name the Hanalei bridge if the estate is past it. The server line is longer than a buffet and still separate from the food. Read 20% service, Hawaiʻi GET up to 4.712%, and the 50% deposit on [pricing](/pricing). Gratuity is never required. Use [the quote form](/quote). Staffed events are [Kauai catering](/catering).',
       ],
       faqs: [
         {
@@ -556,6 +566,18 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         {
           q: 'How many guests can a plated Kauaʻi dinner seat?',
           a: 'As many as the dining room or lawn and the kitchen can pace, within the usual 10–75 range for staffed events. The server count is sized to the covers and printed on the reply from [Kauai catering](/catering).',
+        },
+        {
+          q: 'Does a Princeville plated dinner stay outdoors in January?',
+          a: 'Usually it moves inside or under the covered lānai. January mist on the North Shore is expected, so the roof is named when you request availability. Poʻipū can hold a plated lawn on more nights and still needs a backup table. We do not add a tent after the reply.',
+        },
+        {
+          q: 'Why does plated service need more hands than a Kauaʻi buffet?',
+          a: 'Each cover is served and cleared at the seat, so the floor is busier than a station line for the same list. The food band does not rise because the pass is longer. Server hours are a separate line on the reply from [Kauai catering](/catering). Request availability and name the shore.',
+        },
+        {
+          q: 'How do I request availability for courses on a Kauaʻi estate?',
+          a: 'Send the house, the date, Princeville or Poʻipū, and the headcount on [the quote form](/quote). Add the Hanalei bridge if the table is north of it. Fee lines, including 20% service and Hawaiʻi GET up to 4.712% on their own lines, are on [pricing](/pricing). A request is not a held crew.',
         },
       ],
       related: [
@@ -629,15 +651,16 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'A Kauaʻi buffet is staffed stations in the house: hot pans that stay hot, a carving or grill station when the menu wants one, island greens, coconut rice and a dessert table, with a crew that refills, clears and runs the kitchen. It is the usual choice from about twenty guests — a reunion in a Princeville estate, a retreat week’s group dinner, or a wedding welcome night that walks.',
         'The North Shore is often misty, and a buffet under a covered lānai is a common choice there from November to March: pans can wait while the rain passes, and forty people can still eat well if the lawn is closed. South Shore buffets in Poʻipū can more often sit outdoors, with a written covered backup before a deposit either way.',
         'The $225–$375 food band, the 10–75 guest range and staffing at $80 an hour per server are on the island [Kauai catering](/catering) page. Līhuʻe and Kapaʻa are our base zone with no travel surcharge; Princeville, Hanalei and Poʻipū carry the published $50–$75 line. Hotel ballroom banquets are not the product — this is catering in estates and villas after you request availability.',
+        'A buffet in the Līhuʻe and Kapaʻa base zone is a different drive from a Princeville estate in the rain. Request availability and say which shore the pans are for. A North Shore station is written under the covered lānai from the start. A Poʻipū station can begin outside and still names an indoor table. Server hours are their own line. Read 20% service, Hawaiʻi GET up to 4.712%, and the 50% deposit on [pricing](/pricing). Gratuity is never required. Send the house on [the quote form](/quote). The format index is [Kauai catering](/catering).',
       ],
       faqs: [
         {
           q: 'Līhuʻe hotel buffet?',
-          a: 'No. Estates and villas.',
+          a: 'No. The stations are in estates and villas, not a Līhuʻe hotel ballroom. Request availability and name the house in Princeville or Poʻipū. A conference room is a different building. We will not restage a banquet hall on a Garden Isle lawn.',
         },
         {
           q: 'Far-North buffet?',
-          a: 'Bridge clause still applies.',
+          a: 'The Hanalei bridge clause still applies when the estate is past the bridge. A closure moves the night rather than keeping the pans in Poʻipū. Request availability and name that side. South Shore buffets do not inherit the bridge.',
         },
         {
           q: 'From how many guests does a Kauaʻi buffet make sense?',
@@ -646,6 +669,14 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         {
           q: 'Is a buffet cheaper than plated on Kauaʻi?',
           a: 'The food band is the same Kauaʻi signature card, $225–$375 a guest. A buffet usually needs fewer servers than plated, so the staffing line is lighter. 20% service and GET up to 4.712% are added once.',
+        },
+        {
+          q: 'Why do Princeville stations sit under the lānai in surf season?',
+          a: 'Surf-season rain is the normal North Shore weather, so the covered lānai is the plan, not a backup invented on the day. Pans can wait while a shower passes. Poʻipū can start outdoors more often and still needs a written roof. Request availability with the cover you have.',
+        },
+        {
+          q: 'What should a Kauaʻi buffet request say about the shore?',
+          a: 'The estate, the date, Princeville or Poʻipū, and the headcount, on [the quote form](/quote). Say if the list is about twenty or larger so the stations match the room. Fee lines are on [pricing](/pricing). A request is not a held crew. Staffed service is [Kauai catering](/catering).',
         },
       ],
       related: [
@@ -952,7 +983,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       slug: 'drop-off',
       name: 'Drop-off',
       h1: 'West-side trays at the door, not a Kona crew. Hilo is another day.',
-      title: 'West-side trays, not a Kona catering crew | myCHEF',
+      title: 'West-side drop-off trays on Hawaiʻi Island | myCHEF',
       description:
         'West-side drop-off is trays at a Kona or Kohala door. Join the inquiry list. Hilo is a separate day. We will not sell trays as if a chef stays.',
       lede:
