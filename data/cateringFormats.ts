@@ -22,7 +22,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'BBQ on an Oahu lawn — Ko Olina and Kahala.',
       title: 'BBQ on an Oahu lawn — Ko Olina and Kahala | myCHEF',
       description:
-        'Staffed BBQ in Ko Olina villas and Kahala gardens.',
+        'Staffed BBQ on Ko Olina lawns and Kahala gardens. Request a written quote. Most towers cannot take an open grill. Plates move under the lānai.',
       lede:
         'Whole fish on the grill, a lawn, the trade wind. Not a restaurant patio. Staffing still sits on the quote.',
       photo: 'fmtBbqOahu',
@@ -33,12 +33,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       ],
       faqs: [
         {
-          q: 'Is this cheaper than plated?',
-          a: 'Food band is still the island signature card. Staffing changes. Quote in writing.',
+          q: 'Is an Oʻahu lawn grill cheaper than plated service?',
+          a: 'The food band is still the island signature card. What changes is the staffing line, because a grill night and a plated pass use the floor differently. Request a written quote. The lines are on [pricing](/pricing), and the format page is [Oahu catering](/catering).',
         },
         {
-          q: 'Hotel grill?',
-          a: 'If the house has a grill we can work. Most suites do not.',
+          q: 'Can a Waikīkī hotel suite host the grill?',
+          a: 'Only if that suite has a grill the building allows. Most hotel suites do not. Name the property when you request a written quote and we will say whether a buffet or a plated dinner in the kitchen is the fit, before anyone pays.',
         },
         {
           q: 'What does an Oʻahu BBQ cost?',
@@ -47,6 +47,14 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         {
           q: 'Can we grill at a Honolulu condo?',
           a: 'Usually not — most towers do not allow open flames on the lānai. Name the building on the quote form and we will suggest a buffet or plated dinner in the kitchen instead, before anyone pays.',
+        },
+        {
+          q: 'Where do Kahala plates go if a shower hits the lawn?',
+          a: 'Under the lānai already named in the note. A passing shower should move the plates, not end the party. Ko Olina uses the same written wet-weather plan. Request a written quote and describe the cover you have before a deposit.',
+        },
+        {
+          q: 'What should a Ko Olina grill note include?',
+          a: 'The villa, the date, the headcount, and whether the yard allows live fire. Request a written quote on [the quote form](/quote). Fee lines are on [pricing](/pricing). Staffed events are [Oahu catering](/catering). A tower without a grill belongs on a different format.',
         },
       ],
       related: [
@@ -62,7 +70,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Plated villa service on Oahu — a restaurant arc in the house.',
       title: 'Plated villa service on Oahu | myCHEF',
       description:
-        'Coursed seated service in Kahala dining rooms and Ko Olina villas. Needs more servers than a buffet.',
+        'Coursed seated service in Kahala dining rooms and Ko Olina villas. Request a written quote. Plated needs more servers than a buffet for the same list.',
       lede:
         'Courses paced to the table. The Gold Coast dining room is the usual room. Staffing is a different line from the food band.',
       photo: 'fmtPlatedOahu',
@@ -73,8 +81,8 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       ],
       faqs: [
         {
-          q: 'How many servers?',
-          a: 'More than a buffet for the same headcount. We write it on the quote.',
+          q: 'How many servers does a plated Oʻahu dinner need?',
+          a: 'More than a buffet for the same headcount, because each cover is served and cleared at the seat. We write the hours on the quote. The food band does not rise because the pass is longer. Request a written quote from [Oahu catering](/catering).',
         },
         {
           q: 'Can two of us sit plated?',
@@ -83,6 +91,18 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         {
           q: 'How many guests can a plated Oʻahu dinner seat?',
           a: 'As many as the dining room or lānai and the kitchen can pace, within the usual 10–75 range for staffed events. The server count is sized to the covers and printed on the quote from [Oahu catering](/catering).',
+        },
+        {
+          q: 'Can a Kakaʻako residence pace plated courses?',
+          a: 'Yes when the table seats the list and the kitchen can hold the timing. We book the freight elevator and send the building our certificate of insurance before the day. Request a written quote and name the tower. A galley with no real table is the wrong room.',
+        },
+        {
+          q: 'Why is the server line separate from the Oʻahu food band?',
+          a: 'Plated hours grow with the covers. The signature band does not. Those hours, then 20% service and Hawaiʻi GET up to 4.712% on their own lines, are on [pricing](/pricing). A 50% deposit follows acceptance. Gratuity is never required.',
+        },
+        {
+          q: 'What does a Kahala plated note need before anyone accepts?',
+          a: 'The dining room address, the date, the headcount, and whether the night is a rehearsal. Request a written quote on [the quote form](/quote). Staffed events are [Oahu catering](/catering). One house, one seating.',
         },
       ],
       related: [
@@ -99,7 +119,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Family-style service in Oahu houses — platters down the table.',
       title: 'Family-style service in Oahu houses | myCHEF',
       description:
-        'Shared platters in Kahala dining rooms and Ko Olina villas. Usual estate night when the list is about 10–20.',
+        'Shared platters in Kahala and Ko Olina, usually 10 to 20 at one table. Request a written quote. A room split in two is often a buffet instead.',
       lede:
         'Platters, not a pass. Welcome dinners often run this way.',
       photo: 'fmtFamilyOahu',
@@ -107,19 +127,32 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Family-style Oʻahu catering puts shared platters down a long table: wood-grilled catch, coconut rice, island greens, a ranch or vegetable plate and a dessert passed hand to hand. Guests serve each other, the conversation keeps moving, and nobody waits for a course to land. It is the usual estate night for about 10–20 guests — welcome dinners, birthdays and reunion weeks in Kahala, Kailua and Ko Olina houses.',
         'It sits between plated and buffet. It needs fewer servers than plated for the same table but more than a buffet, because platters are refilled and cleared at the table. A long dining table or a lānai that seats everyone together is the one thing the house must have; if the list is split across two rooms, we will suggest a buffet in writing instead.',
         'Children get the same platters with simpler plates beside them. The $195–$290 food band, staffing at $80 an hour per server and the written quote are on the island [Oahu catering](/catering) page. For a table of eight or fewer, the same platters come with a villa dinner on [private chef Oahu](/).',
+        'A Kahala welcome dinner works when one table holds the list and the platters can travel the length of it. If the guests are split between a dining room and a lānai, request a written quote for a buffet instead of forcing one pass across two rooms. Ko Olina and Kailua use the same test. Server hours stay off the food band. Read 20% service, Hawaiʻi GET up to 4.712%, and the 50% deposit on [pricing](/pricing). Gratuity is never required. Send the house on [the quote form](/quote). Staffed service is [Oahu catering](/catering).',
       ],
       faqs: [
         {
-          q: 'Kids at a family-style table?',
-          a: 'Same platters, simpler plates beside.',
+          q: 'Can children eat from the Oʻahu platters?',
+          a: 'Yes. Simpler plates sit beside the adults on the same plan, written before the shop. Say how many children when you request a written quote. The platters do not become a second menu. A table that cannot seat them together is the wrong format.',
         },
         {
-          q: 'Same as grazing?',
-          a: 'Grazing is boards and pūpū.',
+          q: 'Is family-style the same night as grazing on Oʻahu?',
+          a: 'No. Grazing is boards and passed pūpū while people are still standing. Family-style is seated platters down one table in Kahala, Kailua, or Ko Olina. Request a written quote for the one you mean. They can follow each other and they stay separate lines.',
         },
         {
           q: 'How much is family-style catering on Oʻahu?',
           a: 'The food band is the same Oʻahu signature card, $195–$290 a guest; only the staffing changes. Servers are $80 an hour and a sous-chef $105, on four- to five-hour minimums, plus 20% service and GET up to 4.712%, quoted in writing from [Oahu catering](/catering).',
+        },
+        {
+          q: 'What if a Ko Olina list will not fit one table?',
+          a: 'We will suggest a buffet in writing before a deposit. Family-style needs everyone at one table so the platters can pass. Two rooms are not one long table. Request a written quote and describe the furniture you actually have.',
+        },
+        {
+          q: 'Do platter hours change the Oʻahu signature band?',
+          a: 'No. The band stays the signature card, with groceries inside it. Staffing hours are the line that moves. 20% service and Hawaiʻi GET up to 4.712% are their own lines on [pricing](/pricing). A 50% deposit follows acceptance. Gratuity is never required.',
+        },
+        {
+          q: 'What belongs on an Oʻahu platter note?',
+          a: 'The house, the date, Kahala or Ko Olina or Kailua, the headcount, and any children. Request a written quote on [the quote form](/quote). Staffed events are [Oahu catering](/catering). One table, one list.',
         },
       ],
       related: [
@@ -135,7 +168,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Buffet service in Oahu houses — stations that stay hot.',
       title: 'Buffet service in Oahu houses | myCHEF',
       description:
-        'Staffed buffet in Kahala and Ko Olina houses. Best from about 20 guests. Not a hotel banquet.',
+        'Staffed buffet stations in Kahala and Ko Olina houses, from about 20 guests. Request a written quote. This is a house, not a hotel banquet.',
       lede:
         'Guests move. Stations stay hot. A hundred-guest lawn is still quoted, not promised from a Tuesday dinner.',
       photo: 'fmtBuffetOahu',
@@ -146,16 +179,28 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       ],
       faqs: [
         {
-          q: 'Is buffet cheaper?',
-          a: 'Food band is the signature card. Staffing is usually lighter than plated. Quote in writing.',
+          q: 'Is an Oʻahu house buffet cheaper than plated?',
+          a: 'The food band is still the signature card. Staffing is usually lighter than a plated pass, and that is the line that changes. Request a written quote. 20% service and Hawaiʻi GET up to 4.712% are on [pricing](/pricing), each alone. Gratuity is never required.',
         },
         {
-          q: 'Convention buffet?',
-          a: 'No. HCC citywides are closed through 2027.',
+          q: 'Will you run a convention buffet at the Hawaiʻi Convention Center?',
+          a: 'No. HCC citywides are closed through 2027. The stations are in homes, villas, and residences. Name the Kahala or Ko Olina house when you request a written quote. A ballroom booking is a different building.',
         },
         {
           q: 'How many guests can an Oʻahu buffet feed?',
           a: 'About 20–50 is the sweet spot in a residence, within the 10–75 range we staff. Larger lawns are quoted in writing after we see the house, from [Oahu catering](/catering).',
+        },
+        {
+          q: 'Why does a Honolulu house use stations instead of plated mains?',
+          a: 'Most Honolulu homes do not have a restaurant range that can fire forty plated mains at once. Stations let the pans stay hot while guests walk. Request a written quote and say if the list is a reunion, a retreat dinner, or a welcome night.',
+        },
+        {
+          q: 'How do Waikīkī quiet hours change a buffet load-in?',
+          a: 'We book the freight elevator and work around the building quiet hours. Name the tower on the note. Ko Olina shops on the west side rather than making extra trips to town. Request a written quote before anyone treats the freight window as optional.',
+        },
+        {
+          q: 'What should an Oʻahu buffet note include?',
+          a: 'The address, the date, the headcount, and whether the stations are indoors. Request a written quote on [the quote form](/quote). Fee lines are on [pricing](/pricing). Staffed service is [Oahu catering](/catering). One residence, one list.',
         },
       ],
       related: [
@@ -171,7 +216,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Grazing boards in an Oahu villa — pūpū, not a seated dinner.',
       title: 'Grazing boards in an Oahu villa | myCHEF',
       description:
-        'Styled boards and passed small plates in Ko Olina and Kahala. Cocktail hour or terrace welcome.',
+        'Styled boards and passed plates for a Ko Olina or Kahala arrival hour. Request a written quote and say if the boards are the night or only that first hour.',
       lede:
         'Boards, passed pieces, the room still landing. A seated dinner is a different format. Grazing tables are a market reference, labeled when we quote them.',
       photo: 'fmtGrazingOahu',
@@ -179,19 +224,32 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Grazing on Oʻahu is the first hour at the house: styled boards with ahi poke, local crudités and mango, plus passed pūpū while guests are still arriving from the airport or the beach. Welcome dinners often start here, and family-style is the seated course that may follow.',
         'Boards run around $750–$950 as a market reference, and passed bites are $5–$7 a piece with a twenty-piece minimum. On a Ko Olina lawn the boards are set out of the afternoon sun and refreshed rather than left out; in a Kakaʻako or Waikīkī residence they sit on the kitchen island while the view does the rest.',
         'Tell us on the quote form whether grazing is the hour or the whole evening, and we write the quantities to match. Full staffed events — headcount, staffing and the written total — sit on the island [Oahu catering](/catering) page. A drinks line can be added with a [villa bartender](/bar); the Oʻahu mobile bar starts from $975 for four hours plus $65 a guest.',
+        'A Gold Coast arrival often starts with the boards on a Kahala sideboard while guests are still in airport clothes. A Kakaʻako residence uses the kitchen island when there is no lawn. Ko Olina keeps that spread off the west-side sun and refreshes it. Say on the note if a seated course comes after, because the hour and the dinner stay separate. Request a written quote. Staffed service is [Oahu catering](/catering). Fee lines are on [pricing](/pricing). Send the residence on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Is grazing enough for dinner?',
-          a: 'Say so on the brief. Grazing can be the night or the first hour. We write which.',
+          q: 'Are Oʻahu grazing boards enough for the evening?',
+          a: 'Only if you say so when you request a written quote. We write the Ko Olina or Kahala kitchen as an hour or as the night, and the quantities change. A seated course after the boards is [Oahu catering](/catering). Do not assume the boards replace that course.',
         },
         {
-          q: 'Pūpū piece minimums?',
-          a: 'Quoted. Market references are labeled. Not invented as a standing carte.',
+          q: 'How are passed pūpū quantities written on Oʻahu?',
+          a: 'They are quoted, and market references are labeled as references. We do not invent a standing menu price that the card does not publish. Tell us the headcount and whether the pieces are the hour or the night. Request a written quote before the shop.',
         },
         {
           q: 'Can grazing be added to an Oʻahu catering dinner?',
-          a: 'Yes. It prints as its own line on the same written quote from [Oahu catering](/catering), before the seated, buffet or BBQ course.',
+          a: 'Yes. It prints as its own line on the same written quote from [Oahu catering](/catering), before the seated, buffet, or BBQ course. The dinner band does not swallow the hour. Say which house so the sun plan matches the lawn or the island.',
+        },
+        {
+          q: 'Where do Ko Olina boards go when the sun is still high?',
+          a: 'Out of the afternoon sun, and they are refreshed rather than left out. A Kakaʻako residence uses the kitchen island instead of a lawn. Request a written quote and name the surface you have. A board left in direct sun is not the hour we write.',
+        },
+        {
+          q: 'How does the grazing hour sit next to the signature band?',
+          a: 'The hour is its own line. A signature dinner that follows keeps groceries inside the per-guest band. 20% service and Hawaiʻi GET up to 4.712% are separate lines on [pricing](/pricing). A 50% deposit follows acceptance. Gratuity is never required.',
+        },
+        {
+          q: 'What belongs on an Oʻahu grazing quote?',
+          a: 'The house, the date, Ko Olina or Kahala, the headcount, and whether the boards are the hour or the night. Request a written quote on [the quote form](/quote). If dinner follows, name the format so the lines stay apart.',
         },
       ],
       related: [
@@ -207,23 +265,40 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Trays at a Honolulu door are not a staffed Kahala night.',
       title: 'Drop-off catering Honolulu vs staffed catering | myCHEF',
       description:
-        'Oʻahu drop-off is trays at the door, not a staffed Kahala brigade. Inquiry only. We will not sell drop-off as if a chef stays.',
+        'Oʻahu drop-off is trays at a Honolulu or Kahala door, not a staffed crew. Request a written quote. Nobody stays to clear or to plate.',
       lede:
         'Trays at the door, no pass, no cleanup crew. If you want a chef in the house, that is the catering page or /.',
       photo: 'fmtDropoffOahu',
       body: [
-        'Drop-off means food delivered to the door and no crew staying behind: nobody at the pass, nobody clearing, no cleanup. On Oʻahu it is not our standard product — every event we run is staffed — so trays are inquiry only. If you ask, we will tell you in writing whether they are possible for that date and address, and we will not price them as if a chef stays.',
+        'Drop-off means food delivered to the door and no crew staying behind: nobody at the pass, nobody clearing, no cleanup. On Oʻahu it is not our standard product — every event we run is staffed — so request a written quote before anyone treats trays as booked. If you ask, we will tell you in writing whether they are possible for that date and address, and we will not price them as if a chef stays.',
         'If the goal is the food without the fuss, a staffed buffet often gets closer than trays: the crew sets up, keeps the pans hot, clears and leaves the kitchen clean, so the hosts do even less. That is staffed [Oahu catering](/catering) for about 10–75 guests at $195–$290 a guest, plus servers from $80 an hour.',
         'For eight or fewer, a villa dinner on [private chef Oahu](/) is the simpler choice, and the dinner-for-two line starts from $675 per event. For a week of meals rather than one party, the Oʻahu Stay Chef line starts at $1,250 a day on the vacation chef page.',
+        'A Honolulu or Kahala door drop is food left behind. It is not a staffed night with the crew edited out. Request a written quote and use the word trays, plus the building rules if a tower is involved. If someone should stay to plate and clear, that ask is [Oahu catering](/catering). Fee lines for a staffed night are on [pricing](/pricing): 20% service and Hawaiʻi GET up to 4.712% on their own lines, then a 50% deposit. Gratuity is never required. Send the address on [the quote form](/quote).',
       ],
       faqs: [
         {
-          q: 'Can you leave trays and go?',
-          a: 'Inquiry only. It is not the staffed product and it is not priced as one.',
+          q: 'Can you leave trays at a Honolulu door and go?',
+          a: 'Only if a written quote says that address and date can take trays. Request a written quote and use the word trays. It is not the staffed product. Nobody stays to pass or clear. Do not read a Kahala crew into a door drop.',
         },
         {
-          q: 'Is this cheaper catering?',
-          a: 'It is a different product. We will not discount staffed service into drop-off language.',
+          q: 'Is Oʻahu drop-off a cheaper version of staffed catering?',
+          a: 'No. It is a different product. We will not discount staffed service into drop-off language. If you want pans kept hot and a kitchen left clean, that is a buffet on [Oahu catering](/catering). The fee lines for that night are on [pricing](/pricing).',
+        },
+        {
+          q: 'Does a Kahala tray include cleanup?',
+          a: 'No. Nobody stays to clear plates or wipe the kitchen. That work is the staffed format. If cleanup matters, do not book the word trays and then expect a pass. Say which product you want before anyone accepts.',
+        },
+        {
+          q: 'Can a Waikīkī tower take trays through the freight elevator?',
+          a: 'Only when the building allows a delivery and you request a written quote that names the tower. A freight window is not a crew. If the night needs service inside the residence, open [Oahu catering](/catering) instead of describing trays as staffed.',
+        },
+        {
+          q: 'Where do fee lines sit if we switch from trays to a crew?',
+          a: 'On [pricing](/pricing). A staffed night shows the signature band with groceries inside it, then 20% service and Hawaiʻi GET up to 4.712% on their own lines, then a 50% deposit. Gratuity is never required. Those lines are not a tray left at the door.',
+        },
+        {
+          q: 'What should an Oʻahu drop-off note include?',
+          a: 'The address, the date, and the word trays. Request a written quote on [the quote form](/quote). Say if you are actually asking for a crew so the reply does not describe the wrong product. One door, one ask.',
         },
       ],
       related: [
@@ -241,7 +316,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'BBQ on a Maui lawn — Wailea and West Maui.',
       title: 'BBQ on a Maui lawn — Wailea and West Maui | myCHEF',
       description:
-        'Staffed BBQ in Wailea, Kīhei and West Maui houses. Grill as a format. Wet-weather backup written.',
+        'Staffed BBQ on Wailea, Kīhei, and West Maui lawns. Request a written quote. Wind backup is written first. Saturday traffic is planned into arrival.',
       lede:
         'Grill, grass, identical plates. Saturday Honoapiʻilani traffic is planned into arrival. Not a hotel luau we do not run.',
       photo: 'fmtBbqMaui',
@@ -249,15 +324,16 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'A Maui BBQ is a staffed grill night on the lawn or lānai of the house: wood-grilled catch, a ranch or vegetable plate so the table is not one fish, coconut rice, island greens, and a crew that keeps the fire, plates and clears. It suits a reunion lawn in Kīhei, a Wailea pool deck, or a Kāʻanapali estate where people would rather stand near the grill than sit through courses.',
         'Wind shapes the plan. The grill is set where the trade winds drop, pans stay lidded, and an indoor or covered table is written into the quote before a deposit. Saturday Honoapiʻilani traffic is built into crew arrival for West Maui houses, and Upcountry addresses carry their published travel line.',
         'This page is the format note. Guest counts of about 10–75, the $225–$375 food band and the staffing lines live on the island [Maui catering](/catering) page. Trays left at the door are a different product — see Drop-off. For eight or fewer around one grill, a villa dinner on [private chef Maui](/) is usually the better fit.',
+        'A Villa Week grill on a Wailea pool deck still needs the wind plan written before anyone accepts. The fire sits where the trade wind drops, and an indoor table is named for a shower. Kapalua and Kāʻanapali put Saturday traffic on Honoapiʻilani into the call time, not into a silent fee. Request a written quote and name the shore. Server hours stay off the food band. Read 20% service, Hawaiʻi GET up to 4.712%, and the 50% deposit on [pricing](/pricing). Gratuity is never required. Send the house on [the quote form](/quote). Staffed service is [Maui catering](/catering).',
       ],
       faqs: [
         {
-          q: 'Luau on the lawn?',
-          a: 'We grill. We do not sell a theatrical luau we do not staff.',
+          q: 'Will you stage a luau on a Wailea lawn?',
+          a: 'We grill. We do not sell a theatrical luau we do not staff, and we will not add a show to the fire. Request a written quote for the grill night itself. Name Wailea, Kīhei, or West Maui so the wind plan matches that lawn.',
         },
         {
-          q: 'Rain?',
-          a: 'Backup is written.',
+          q: 'What happens if rain hits a Maui grill?',
+          a: 'The backup table is already written. A shower moves the plates under cover. It does not invent a tent on the day. Request a written quote and describe the roof you have in Wailea or on the West Maui deck before a deposit.',
         },
         {
           q: 'What does a Maui BBQ cost?',
@@ -266,6 +342,14 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         {
           q: 'Can a Kīhei condo host a BBQ?',
           a: 'Only if the building allows a grill and there is a real place to plate. Many Kīhei condos suit a buffet or family-style night better, and we will say so before you commit.',
+        },
+        {
+          q: 'Why does Saturday change a Kapalua grill call?',
+          a: 'Honoapiʻilani traffic changes when the crew must leave, not the food band. The end time is still when the lawn is clear. Request a written quote and name Kapalua or Kāʻanapali so arrival is planned. Wailea does not inherit that West Maui clock.',
+        },
+        {
+          q: 'What should a Maui grill note include?',
+          a: 'The villa, the date, Wailea or West Maui, the headcount, and whether the building allows live fire. Request a written quote on [the quote form](/quote). Fee lines are on [pricing](/pricing). Staffed events are [Maui catering](/catering).',
         },
       ],
       related: [
@@ -280,7 +364,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Plated villa service on Maui — courses on a Wailea table.',
       title: 'Plated villa service on Maui | myCHEF',
       description:
-        'Coursed seated service in Wailea dining rooms and Kapalua lanais. Needs more servers than a buffet.',
+        'Coursed seated service in Wailea dining rooms and on Kapalua lanais. Request a written quote. Plated needs more servers than a buffet.',
       lede:
         'A restaurant arc, off-site, to the table. Rehearsal dinners often run this way. Staffing is a separate line.',
       photo: 'fmtPlatedMaui',
@@ -288,19 +372,32 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Plated Maui catering is a coursed, seated dinner served to each guest: a first course such as kanpachi crudo, a main of wood-grilled catch or a ranch plate, and a lilikoi or haupia close. It suits Wailea dining rooms, sheltered Kapalua terraces and rehearsal dinners where the toasts need the table to stay seated.',
         'Plated needs more people on the floor than a buffet for the same guest list, so the staffing line grows while the food band stays the same. Servers are $80 an hour and a sous-chef $105, on four- to five-hour minimums. A Wailea condo with a galley kitchen can be the wrong room for twenty plated covers — we will suggest family-style or a buffet before you pay a deposit.',
         'Guest counts, the $225–$375 food band and the written quote live on the island [Maui catering](/catering) page. A plated dinner for two to eight in the villa is booked as a private dinner on [private chef Maui](/), not as catering.',
+        'A Wailea dining room can pace courses when the table seats the list. An open Kapalua terrace in the trade wind usually cannot, unless a sheltered table is already named. Request a written quote and say which room is real. The server line grows with plated covers and stays off the food band. Read 20% service, Hawaiʻi GET up to 4.712%, and the 50% deposit on [pricing](/pricing). Gratuity is never required. Send the villa on [the quote form](/quote). Staffed events are [Maui catering](/catering).',
       ],
       faqs: [
         {
-          q: 'Lawn plated in wind?',
-          a: 'We write a backup. Plated wants a table that holds.',
+          q: 'Can plated courses stay on a windy Maui lawn?',
+          a: 'Only if a sheltered table is already written. Plated wants a surface that holds the plates. Request a written quote and name Wailea or Kapalua, plus the indoor backup. We do not discover the trade wind on the day and invent a tent.',
         },
         {
-          q: 'Two of us?',
-          a: 'Yes — but a dinner for two is a private chef night, not catering. Open [private chef Maui](/).',
+          q: 'Can two of us book plated catering on Maui?',
+          a: 'A dinner for two is a private chef night, not catering. Open [private chef Maui](/). Catering on this page is the staffed list. Request a written quote only if the table is a real seated group, not a pair.',
         },
         {
           q: 'How many guests can a plated Maui dinner seat?',
           a: 'As many as the dining room or terrace and the kitchen can hold, within the usual 10–75 range for staffed events. The staffing plan is sized to the covers and printed on the quote from [Maui catering](/catering).',
+        },
+        {
+          q: 'Why does a Wailea plated pass need more servers than a buffet?',
+          a: 'Each cover is served and cleared at the seat. A station line is lighter for the same headcount. The food band does not rise because the pass is longer. Request a written quote and the hours come back beside the band, not inside it.',
+        },
+        {
+          q: 'When is a Wailea galley the wrong room for plated covers?',
+          a: 'When the kitchen cannot pace the courses and the table cannot seat the list. We will suggest family-style or a buffet before a deposit. Request a written quote and send a note about the kitchen if you have one. Do not pay first and discover the range.',
+        },
+        {
+          q: 'What should a Maui plated note include?',
+          a: 'The villa, the date, Wailea or Kapalua, the headcount, and whether the table is indoors. Request a written quote on [the quote form](/quote). Fee lines are on [pricing](/pricing). Staffed service is [Maui catering](/catering).',
         },
       ],
       related: [
@@ -315,7 +412,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Family-style service in Maui villas — platters on the lanai.',
       title: 'Family-style service in Maui villas | myCHEF',
       description:
-        'Shared platters in Wailea, Kapalua and Kīhei. Usual villa night for about 10–20 under Maui catering.',
+        'Shared platters on Wailea and West Maui lanais, usually about 10 to 20 at one table. Request a written quote. Wind backup is written before anyone accepts.',
       lede:
         'Platters down the table on a Wailea or West Maui lānai. Welcome dinners and reunion nights often run this way under staffed Maui catering.',
       photo: 'fmtFamilyMaui',
@@ -323,11 +420,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Family-style on Maui is a seated format: whole fish, salads and sides travel down the table, and guests serve themselves. It sits between a plated restaurant arc and a buffet station line. Most Wailea and Kīhei lists of about 10–20 prefer it for welcome nights because conversation stays at the table and service can stay lighter than a full plated pass.',
         'West Maui houses in Kāʻanapali and Kapalua use the same format when the deck table holds the guest list. Saturday Honoapiʻilani traffic is planned into crew arrival, not into a silent fee. Wind and spray on an open ocean deck get a written indoor or covered backup — the same clause we use for other Maui catering formats.',
         'This page is the format note. Headcount, staffing hours and the food band live on the island [Maui catering](/catering) page, with published starting prices from $225 a guest for staffed villa events of about 10–75. For eight or fewer, open [private chef Maui](/) instead of a catering format.',
+        'A Villa Week welcome on a Wailea lānai stays family-style when one table holds the group and the platters can pass. Wind and spray on an open Kapalua deck need the covered backup in the note before you accept. Request a written quote and name the shore. Saturday traffic on Honoapiʻilani changes the call for West Maui. It does not change the food band. Read 20% service, Hawaiʻi GET up to 4.712%, and the 50% deposit on [pricing](/pricing). Gratuity is never required. Send the villa on [the quote form](/quote). The format index is [Maui catering](/catering).',
       ],
       faqs: [
         {
-          q: 'Same as grazing?',
-          a: 'No. Grazing is boards and passed pūpū while people still stand. Family-style is seated platters on a Wailea or Kapalua table.',
+          q: 'Is Maui family-style the same format as grazing?',
+          a: 'No. Grazing is boards and passed pūpū while people still stand. Family-style is seated platters on a Wailea or Kapalua table. Request a written quote for the one you mean. The two can follow each other, and they stay separate lines on the reply.',
         },
         {
           q: 'How many guests suit family-style on Maui?',
@@ -336,6 +434,18 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         {
           q: 'Does family-style cost less than plated Maui catering?',
           a: 'The food band is still the Maui signature card from $225 a guest. Staffing is usually lighter than a full plated pass. Exact hours print on the written quote from [Maui catering](/catering).',
+        },
+        {
+          q: 'What does the trade wind do to a Kapalua platter table?',
+          a: 'The long table moves to the covered or indoor backup already written. We do not add a tent after you accept. Wailea uses the same rule when the lawn is the plan. Request a written quote and name the roof you have. A deck with no indoor table is a decline.',
+        },
+        {
+          q: 'Can children share the Wailea platters?',
+          a: 'Yes. Simpler plates go beside the adults and are written before the shop. Say how many children when you request a written quote. The platters stay one menu. A table that cannot seat the children with the group is the wrong format.',
+        },
+        {
+          q: 'What should a Maui platter note include?',
+          a: 'The villa, the date, Wailea or West Maui, the headcount, and any children. Request a written quote on [the quote form](/quote). Fee lines are on [pricing](/pricing). Staffed service is [Maui catering](/catering). One table only.',
         },
       ],
       related: [
@@ -791,7 +901,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'BBQ on a Kohala lava terrace — west side, inquiry.',
       title: 'BBQ on a Kohala lava terrace — west side | myCHEF',
       description:
-        'Staffed BBQ on Kona–Kohala terraces. Inquiry stage. Grill as a format. East side is a different day.',
+        'Staffed BBQ on Kona and Kohala terraces. Join the inquiry list. The grill is a west-side format. Hilo is a separate dedicated day, not an add-on.',
       lede:
         'Grill on lava, hard sun, kanpachi. Not a Hilo add-on. We do not sell a theatrical luau we do not staff.',
       photo: 'fmtBbqBigisland',
@@ -799,19 +909,32 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'A Big Island BBQ is a staffed grill night on a west-side terrace: wood-grilled kanpachi or catch with coconut rice, a ranch plate so the table is not one fish, island greens and a lilikoi or haupia close. The crew keeps the fire, plates from the grill and clears, so the hosts stay with their guests on the lawn while the sun goes down over the water.',
         'On the Kohala Coast the grill has to handle wind and heat: it is set behind a wall or in the lee of the house, and the protein is kept from drying out. Waikoloa, Mauna Lani and Puakō homes host most of these nights; Kailua-Kona and Keauhou work when the house allows live fire. Outdoor tables on lava rock get a wet-weather plan in writing before anyone pays a deposit. We grill — we do not stage a theatrical luau.',
         'Big Island catering is by inquiry. Food follows the island card at $210–$325 a guest, and guest counts of about 10–75 sit on the [Big Island catering](/catering) page with the staffing lines. Travel outside the Kona–Kohala corridor starts from a published $75, and Hilo or Volcano is its own quoted day with a dedicated crew. For eight or fewer around one grill, a villa dinner on [private chef Big Island](/) is usually the better fit.',
+        'Join the inquiry list for a grill on a Waikoloa, Mauna Lani, or Puakō terrace. The fire sits in the lee of the house because the Kohala wind and the hard sun will dry the fish if the grill is on open lava. Kailua-Kona and Keauhou work when the house allows live fire. Hilo is not added after dark. Server hours stay off the food band. Read 20% service, Hawaiʻi GET up to 4.712%, and the 50% deposit on [pricing](/pricing). Gratuity is never required. Send the west-side address on [the quote form](/quote). Staffed service is [Big Island catering](/catering).',
       ],
       faqs: [
         {
-          q: 'Luau on lava?',
-          a: 'We grill. We do not staff a theatrical luau on a Waikoloa terrace.',
+          q: 'Will you stage a luau on a Waikoloa terrace?',
+          a: 'We grill. We do not staff a theatrical luau on a Waikoloa or Kohala terrace, and we will not add a show to the fire. Join the inquiry list for the grill night itself. Name the west-side house. Hilo is not part of that note.',
         },
         {
-          q: 'Hilo BBQ?',
-          a: 'Quote-only dedicated staffing.',
+          q: 'Can a Hilo grill share the day with Kona?',
+          a: 'No. Hilo is a separate dedicated east-side day, not the tail of a west-side grill. Join the inquiry list for Kona–Kohala, or send Hilo on its own note. We will not treat the east side as an errand after the terrace is clear.',
         },
         {
           q: 'What does a Big Island BBQ cost?',
           a: 'Food follows the Big Island signature card, $210–$325 a guest, with a lighter menu from $165 when the menu and the house fit. Servers are $80 an hour and a sous-chef $105, on four- to five-hour minimums. 20% service and GET up to 4.712% are added once, on the written reply from [Big Island catering](/catering).',
+        },
+        {
+          q: 'Where does the Kohala grill sit when the wind is up?',
+          a: 'Behind a wall or in the lee of the house, which is written before anyone pays a deposit. Outdoor tables on lava rock get a wet-weather plan in that same note. Join the inquiry list and describe the cover you have. An open rock with no lee is a decline.',
+        },
+        {
+          q: 'Do grill hours change the west-side food band?',
+          a: 'No. The signature band stays put, groceries inside it. Server hours are the separate line. 20% service and Hawaiʻi GET up to 4.712% are their own lines on [pricing](/pricing). A 50% deposit follows a written yes. Gratuity is never required.',
+        },
+        {
+          q: 'What do I send to join the inquiry list for a west-side grill?',
+          a: 'A Kona, Waikoloa, or Kohala address, the date, the headcount, and whether the house allows live fire, on [the quote form](/quote). Leave Hilo off. Staffed service is [Big Island catering](/catering). An inquiry is not a held crew.',
         },
       ],
       related: [
@@ -827,7 +950,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Plated villa service on the Kohala Coast — west-side courses.',
       title: 'Plated villa service on the Kohala Coast | myCHEF',
       description:
-        'Coursed seated service in Kona and Kohala houses. Inquiry stage. Needs more servers than a buffet. East side is a different day.',
+        'Coursed seated service in Kona and Kohala houses. Join the inquiry list. Plated needs more servers than a buffet. Hilo is a separate dedicated day.',
       lede:
         'Courses on lava, Mauna Kea faint. Inquiry. Rehearsal dinners often run this way.',
       photo: 'fmtPlatedBigisland',
@@ -835,11 +958,12 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Plated Big Island catering is a coursed, seated dinner served to each guest: kanpachi crudo or a chilled cucumber-crab first course, wood-grilled catch or a ranch plate as the main, and lilikoi cheesecake or coconut haupia to close. It suits rehearsal dinners, milestone birthdays and the last night of a reunion week, when the toasts need everyone seated.',
         'Plated works best on a terrace table of about twelve in still air, with a kitchen that can pace courses — a Kohala Coast estate, a Mauna Lani residence, or a Hōlualoa house above Kona, where evenings run cooler and a covered setup is often wise. Plated needs more servers than a buffet for the same guest count, so the staffing line grows while the food band stays the same: servers $80 an hour and a sous-chef $105, on four- to five-hour minimums.',
         'Guest counts, the $210–$325 food band and the written reply live on the [Big Island catering](/catering) page. A rehearsal that belongs to a wedding week is planned on [wedding catering Big Island](/weddings), and a plated dinner for two to eight is a villa night on [private chef Big Island](/). Hilo is never implied — the east side is its own quoted day.',
+        'Join the inquiry list for courses on a Kohala Coast or Mauna Lani table that can actually seat the list. A Hōlualoa evening above Kona is cooler, and a covered setup is often the plan. The server line grows with plated covers and stays off the food band. Hilo is not implied by a west-side seating. Read 20% service, Hawaiʻi GET up to 4.712%, and the 50% deposit on [pricing](/pricing). Gratuity is never required. Send the west-side house on [the quote form](/quote). Staffed events are [Big Island catering](/catering).',
       ],
       faqs: [
         {
-          q: 'Hilo plated?',
-          a: 'Quote-only dedicated day.',
+          q: 'Can Hilo plated courses share a Kona day?',
+          a: 'No. Hilo is a separate dedicated east-side day. Join the inquiry list for Kona or the Kohala Coast, or send the east side alone. A west-side seating does not grow an east-side pass after the table is clear.',
         },
         {
           q: 'Two of us?',
@@ -848,6 +972,18 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         {
           q: 'How many guests can a plated Big Island dinner seat?',
           a: 'As many as the terrace or dining room and the kitchen can pace, within the usual 10–75 range for staffed events. The server count is sized to the covers and printed on the reply from [Big Island catering](/catering).',
+        },
+        {
+          q: 'Why does a Kohala plated dinner need more servers than a buffet?',
+          a: 'Each cover is served and cleared at the seat, so the floor is busier than stations for the same list. The food band does not rise. Join the inquiry list and the hours come back beside the band. A terrace of about twelve in still air is the usual room.',
+        },
+        {
+          q: 'When does a Hōlualoa plated table move under cover?',
+          a: 'When the evening above Kona is cool enough that an open table will not hold. The covered setup is named when you join the inquiry list, not after the reply. Mauna Lani uses the same rule if the wind is up. A lawn with no roof is a decline.',
+        },
+        {
+          q: 'What do I include to join the inquiry list for west-side courses?',
+          a: 'The Kona or Kohala address, the date, the headcount, and whether the table is sheltered, on [the quote form](/quote). Leave Hilo off. Fee lines are on [pricing](/pricing). An inquiry is not a held crew.',
         },
       ],
       related: [
@@ -864,7 +1000,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Family-style service on west-side Hawaiʻi Island — platters on lava.',
       title: 'Family-style service on west-side Hawaiʻi Island | myCHEF',
       description:
-        'Shared platters in Kona and Kohala villas. Inquiry stage. Usual west-side night for about 10–20. East side is a different day.',
+        'Shared platters in Kona and Kohala villas, usually about 10 to 20 at one table. Join the inquiry list. Hilo is a separate dedicated day, not this table.',
       lede:
         'Platters down the table. Welcome dinners often run this way. Hard sun still in the window.',
       photo: 'fmtFamilyBigisland',
@@ -872,19 +1008,32 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'Family-style Big Island catering puts shared platters down a long table: grilled catch, coconut rice, island greens, a ranch or vegetable plate and dessert passed hand to hand. Guests serve each other and nobody waits for a course to land. It is the usual west-side night for about 10–20 guests — welcome dinners, birthdays and family reunions in Kohala Coast villas.',
         'A teak table on the lawn is the classic setting, with shade for an early start and a covered plan if the weather turns. Family-style needs fewer servers than plated for the same table but more than a buffet, because platters are refilled and cleared at the table. Children get the same platters with simpler plates beside them.',
         'We cook along the Kona–Kohala corridor: Kailua-Kona, Keauhou, Waikoloa, Mauna Lani, the Mauna Kea resort and Puakō. Food is $210–$325 a guest, with staffing and the written reply on the [Big Island catering](/catering) page. Waimea carries the published travel line from $75, and Hilo is quoted as a separate day. For eight or fewer, the same platters come with a villa dinner on [private chef Big Island](/).',
+        'Join the inquiry list when a Kohala teak table can hold the group in the shade. An early start still needs cover if the weather turns, and that cover is named before a deposit. Children get simpler plates beside the adults, written before the shop. Hilo is not this table. Server hours stay off the food band. Read 20% service, Hawaiʻi GET up to 4.712%, and the 50% deposit on [pricing](/pricing). Gratuity is never required. Send the west-side house on [the quote form](/quote). The format index is [Big Island catering](/catering).',
       ],
       faqs: [
         {
-          q: 'Kids on lava at noon?',
-          a: 'Shade is the house.',
+          q: 'Where do children sit for a noon platter on the Kohala Coast?',
+          a: 'In the shade of the house, with simpler plates beside the adults. Shade is the plan, not a guess at noon on lava. Join the inquiry list and say how many children. The platters stay one menu. A table in full sun is the wrong hour.',
         },
         {
-          q: 'Hilo family-style?',
-          a: 'Quote-only east side.',
+          q: 'Can Hilo family-style share a west-side day?',
+          a: 'No. Hilo is a separate dedicated east-side day. Join the inquiry list for Kona–Kohala, or send Hilo alone. A Waikoloa platter table does not continue across the island after the courses are passed.',
         },
         {
           q: 'How much is family-style catering on the Big Island?',
           a: 'The food band is the island signature card, $210–$325 a guest; only the staffing changes. Servers are $80 an hour and a sous-chef $105, on four- to five-hour minimums, plus 20% service and GET up to 4.712%, on the written reply from [Big Island catering](/catering).',
+        },
+        {
+          q: 'What if a Waikoloa list will not fit one teak table?',
+          a: 'We will suggest a buffet in the reply before a deposit. Family-style needs one table so the platters can pass. Two terraces are not one table. Join the inquiry list and describe the furniture. Do not assume the lawn becomes a second dining room.',
+        },
+        {
+          q: 'Do platter hours change the Big Island signature band?',
+          a: 'No. The band stays the signature card, groceries inside it. Staffing hours are the line that moves. 20% service and Hawaiʻi GET up to 4.712% are their own lines on [pricing](/pricing). A 50% deposit follows a written yes. Gratuity is never required.',
+        },
+        {
+          q: 'What do I send to join the inquiry list for west-side platters?',
+          a: 'A Kona or Kohala address, the date, the headcount, and any children, on [the quote form](/quote). Leave Hilo off. Staffed service is [Big Island catering](/catering). An inquiry is not a held table.',
         },
       ],
       related: [
@@ -900,7 +1049,7 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
       h1: 'Buffet service on the Kohala Coast — west-side stations.',
       title: 'Buffet service on the Kohala Coast | myCHEF',
       description:
-        'Staffed buffet in Kona and Kohala houses. Inquiry stage. Best from about 20 guests. East side is a different day.',
+        'Staffed buffet stations in Kona and Kohala houses, best from about 20 guests. Join the inquiry list. The east side is a separate dedicated day.',
       lede:
         'Guests move. Stations stay hot in hard sun. Inquiry. Not a Hilo add-on.',
       photo: 'fmtBuffetBigisland',
@@ -908,19 +1057,32 @@ export const cateringFormats: Record<IslandId, CateringFormatPage[]> = {
         'A Big Island buffet is staffed stations in the villa: pans chosen for the breeze, stations set behind a wall, a carving or grill station when the menu wants one, island greens, coconut rice and a dessert table, with a crew that refills, clears and runs the kitchen. It is the usual choice from about twenty guests — a reunion in a Waikoloa great room, a retreat week’s group dinner or a relaxed wedding reception.',
         'A buffet is how a Kohala Coast house feeds thirty without asking a home range to fire thirty plated mains at once. Ironman week in October and the Kona Coffee Festival in November fill the west side quickly, and one crew holds one heavy event week at a time, so flag those dates early.',
         'The $210–$325 food band, the 10–75 guest range and staffing at $80 an hour per server are on the [Big Island catering](/catering) page. A buffet usually needs fewer servers than plated for the same list. Travel outside the Kona–Kohala corridor starts from $75, and the east side is always its own quote. Hotel ballroom banquets are not the product — this is catering in villas and estates, by inquiry.',
+        'Join the inquiry list when a Waikoloa great room needs stations instead of thirty plated mains off a home range. Pans are set behind a wall so the Kohala breeze does not cool them. Flag Ironman week and the Kona Coffee Festival early, because one crew holds one heavy week at a time. Hilo is not a second station that night. Read 20% service, Hawaiʻi GET up to 4.712%, and the 50% deposit on [pricing](/pricing). Gratuity is never required. Send the west-side house on [the quote form](/quote). The format index is [Big Island catering](/catering).',
       ],
       faqs: [
         {
-          q: 'Ironman week buffet?',
-          a: 'Flag dates. Town compresses.',
+          q: 'How should Ironman week change a Kona buffet?',
+          a: 'Flag the dates when you join the inquiry list. Town roads and the grocery window compress, so the call is written for that week. The food band does not change because the calendar is loud. One crew holds one heavy event week at a time.',
         },
         {
-          q: 'Hilo buffet?',
-          a: 'Quote-only dedicated staffing.',
+          q: 'Can a Hilo buffet use the same crew as Waikoloa?',
+          a: 'No. Hilo is a separate dedicated east-side day. Join the inquiry list for Kona–Kohala, or send Hilo alone. A west-side station night does not continue to the east side after the pans are packed.',
         },
         {
           q: 'How many guests can a Big Island buffet feed?',
           a: 'From about twenty, within the 10–75 range we staff on the west side. Larger lawns are quoted in writing after we see the house, from [Big Island catering](/catering).',
+        },
+        {
+          q: 'Why are Kohala buffet pans set behind a wall?',
+          a: 'The breeze cools an open station. The wall, or the lee of the house, is the plan written before a deposit. Join the inquiry list and describe that spot. A line of pans on open lava is not the format.',
+        },
+        {
+          q: 'Is a west-side buffet cheaper than plated service?',
+          a: 'The food band is the same signature card. A buffet usually needs fewer servers than plated, so the staffing line is lighter. 20% service and Hawaiʻi GET up to 4.712% are their own lines on [pricing](/pricing). Gratuity is never required. Join the inquiry list for the hours.',
+        },
+        {
+          q: 'What do I send to join the inquiry list for west-side stations?',
+          a: 'A Kona or Kohala address, the date, the headcount, and whether the stations are indoors, on [the quote form](/quote). Leave Hilo off. Staffed service is [Big Island catering](/catering). An inquiry is not a held night.',
         },
       ],
       related: [
