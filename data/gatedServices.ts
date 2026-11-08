@@ -163,6 +163,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'Request a written quote with the house. The cook arrives on the tower’s elevator slot and sets a cold board beside the range. The sequence comes from that day’s purchase, not a fixed restaurant menu. Pieces go to the counter. A name is used only when the receipt supports it. The board is cleared before the crew leaves.',
         'Shellfish and raw-fish limits have to be in the note before the shop. A compact condo that cannot hold a cold board and a stool is declined from the photos. The planned course arc, if you want it written ahead, is the [tasting menu](/fine-dining/tasting-menu). This page is the market-led night.',
+        'The sequence is chosen after the Honolulu purchase, often raw fish, and it lands on a cold board beside the range. A Kahala fridge has to hold that fish cold. A tower still needs its elevator slot in the note. Shellfish and raw-fish limits belong there before the shop. A name is printed only when the receipt supports it. How many people that fridge can take is confirmed in writing after the kitchen is seen. Grocery shopping sits inside this island’s signature per-guest band. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. See [pricing](/pricing) and [Private chef Honolulu](/private-chef). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -435,13 +436,14 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Omakase at home on Maui — the chef chooses from the day’s market.',
       title: 'Omakase at home on Maui — chef’s choice | myCHEF',
       description:
-        'A chef-chosen sequence in a Wailea or Kapalua kitchen, set from that day’s market. Often raw fish. We do not claim a star.',
+        'A chef-chosen sequence in a Wailea or Kapalua kitchen, from that morning’s market, often raw fish. Not a star. Request a written quote.',
       lede:
         'The chef sets the sequence from what was bought that morning, often raw fish, at your open kitchen. We do not claim a star.',
       photo: 'svcOmakaseMaui',
       body: [
         'Request a written quote for the villa. The cook reaches Wailea or Kapalua with the day’s purchase and plates at the counter, not on the windward lānai. A Saturday drive is written into the arrival so the fish is not sitting in a car. The cold board is packed away before the crew leaves.',
         'Tell us if anyone skips raw fish or shellfish before the shop. A minibar room cannot hold this. If you want the courses locked on paper ahead of the market, that is the [tasting menu](/fine-dining/tasting-menu). This night lets the chef choose.',
+        'The morning buy in Wailea or Kapalua sets the pieces, often raw fish, plated at the counter out of the trade wind. A Saturday drive is written in so the fish is not waiting in a car on Honoapiʻilani. The lānai is the view, not the board. Say who skips raw fish or shellfish before that buy. How many guests that counter can take is confirmed in writing after the kitchen is seen. The shop sits inside Maui’s signature per-guest band. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. See [pricing](/pricing) and [Personal chef Maui](/private-chef). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -714,13 +716,14 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Omakase at home on Kauai — chef’s choice, both shores.',
       title: 'Omakase at home on Kauai — both shores | myCHEF',
       description:
-        'A chef-chosen sequence in a Princeville or Poʻipū kitchen, from that day’s buy. Request availability. We do not claim a star.',
+        'A chef-chosen sequence in a Princeville or Poʻipū kitchen, from that day’s buy, often raw fish. Name the shore. Request availability.',
       lede:
         'The chef chooses the sequence from that day’s purchase, often raw fish, at the estate counter. Request availability and name the shore.',
       photo: 'svcOmakaseKauai',
       body: [
         'Request availability with Princeville or Poʻipū named. The cook sets a cold board at the counter that faces the range, not on an open terrace if rain is forecast. A far-North house still follows the Hanalei bridge. If the road closes, the night moves. The board is packed before the drive back.',
         'Raw-fish and shellfish limits belong in the request, before any purchase. A galley without cold space is declined in the reply. A sequence planned on paper ahead of the market is the [tasting menu](/fine-dining/tasting-menu). This page is the chef’s choice for the shore you named.',
+        'Request availability and name Princeville or Poʻipū before a cold board is planned. The pieces, often raw fish, come from that shore’s purchase and stay indoors when rain is forecast. A far-North house still follows the Hanalei bridge, and a closure does not relocate the board to Poʻipū. Raw-fish limits go in the request before any purchase. If a crew can take the shore, the shop sits inside this island’s signature per-guest band. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing) and [Personal chef Kauai](/private-chef). Request availability on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -1000,6 +1003,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'Join the inquiry list with a Kona or Kohala address. The cook sets a cold board indoors while the lava terrace is still hot. The sequence comes from that day’s purchase. A fish is named only when the receipt supports it. The board is cleared before the crew leaves the west side.',
         'Raw-fish and shellfish limits go in the inquiry before the shop. A minibar fridge cannot hold the sequence. Hilo is a separate dedicated east-side day, quoted in writing. A sequence locked on paper ahead of the market is the [tasting menu](/fine-dining/tasting-menu). This page is the chef’s choice on the west side.',
+        'Join the inquiry list with a Kona or Kohala address, not Hilo. The cold board is set indoors while the lava terrace is still hot. The sequence comes from that day’s west-side purchase, often raw fish. A fish carries a name only when the receipt supports it. Raw-fish limits belong in the inquiry before the shop. Volcano is not a second board after Waikoloa. Grocery shopping sits inside this island’s signature per-guest band. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing) and [Private chef Kona](/private-chef). Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
