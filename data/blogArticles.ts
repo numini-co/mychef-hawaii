@@ -475,6 +475,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       faqs: [
       ],
       related: [
+        { path: '/blog/hawaii-kai-restaurants-east-honolulu-guide', label: 'Hawaiʻi Kai restaurants guide' },
         { path: '/hawaii-kai', label: 'Private chef Hawaiʻi Kai' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/kamaaina', label: 'Kamaʻāina line' },
@@ -1232,6 +1233,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/paia-restaurants-north-shore-maui-guide', label: 'Pāʻia restaurants guide' },
         { path: '/paia', label: 'Private chef Pāʻia' },
         { path: '/coverage', label: 'Coverage' },
         { path: '/wailea', label: 'Private chef Wailea' },
@@ -1704,6 +1706,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-vacation-rentals-kitchen-guide', label: 'Kauaʻi vacation rentals guide' },
         { path: '/poipu', label: 'Private chef Poʻipū' },
         { path: '/blog/dining-in-poipu', label: 'Poʻipū kitchen notes' },
         { path: '/quote', label: 'Inquiry form' },
@@ -2595,6 +2598,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
       faqs: [
       ],
       related: [
+        { path: '/blog/volcano-hawaii-restaurants-guide', label: 'Volcano restaurants guide' },
         { path: '/volcano', label: 'Private chef Volcano' },
         { path: '/east-side', label: 'East side' },
         { path: '/blog/dining-in-hilo', label: 'Hilo kitchen notes' },
