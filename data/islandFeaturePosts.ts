@@ -800,6 +800,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/hawaii-kai-restaurants-east-honolulu-guide', label: 'Hawaiʻi Kai restaurants guide' },
         { path: '/blog/kailua-restaurants-dining-guide', label: 'Kailua restaurants guide' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/catering', label: 'Oahu catering' },
@@ -1418,6 +1419,122 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       related: [
         { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/kaneohe', label: 'Private chef Kāneʻohe' },
+        { path: '/catering', label: 'Oahu catering' },
+        { path: '/pricing', label: 'Oahu private chef cost' },
+        { path: '/', label: 'Private chef Oahu' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'hawaii-kai-restaurants-east-honolulu-guide',
+      keyword: 'hawaii kai restaurants',
+      datePublished: '2026-11-09',
+      name: 'Hawaiʻi Kai restaurants guide',
+      h1: 'Hawaii Kai restaurants — eating well in East Honolulu.',
+      title: 'Hawaii Kai Restaurants — East Honolulu Food Guide | myCHEF',
+      description:
+        'Hawaii Kai restaurants explained: marina dining, plate lunch and poke, Hanauma Bay mornings, Kalanianaʻole traffic, rental rules and dinners at the house.',
+      lede:
+        'Hawaii Kai restaurants are mostly local, casual and clustered in a few shopping centers around the marina at the east end of Honolulu, about twenty to thirty minutes from Waikīkī outside rush hour. It is a residential neighborhood rather than a resort, so expect plate lunch, poke, sushi, breakfast spots and a handful of waterfront dining rooms, not a long strip of tasting menus. This guide explains how eating out in Hawaiʻi Kai works around Hanauma Bay mornings, Koko Head hikes and the afternoon traffic, and when a dinner cooked at the house is the better plan. We do not rank or review restaurants and we have no restaurant partners.',
+      photo: 'cellHawaiiKai',
+      body: [],
+      sections: [
+        {
+          heading: 'Where is Hawaiʻi Kai, and how long is the drive?',
+          paras: [
+            'Hawaiʻi Kai sits at the far east end of urban Honolulu, past ʻĀina Haina and Niu Valley, where the H-1 freeway turns into Kalanianaʻole Highway. The neighborhood was built in the 1960s around the old Kuapā fishpond, which became today’s marina and canals, with Koko Head and Koko Crater rising behind it.',
+            'From Waikīkī it is roughly twenty to thirty minutes by car when the road is clear. Kalanianaʻole is the only main road in and out, so the afternoon commute heading east is slow, and a crash can stop it altogether. Plan dinner reservations with that in mind, especially if you are driving out from town after a beach day. Our [Waikīkī restaurants guide](/blog/waikiki-restaurants-dining-guide) covers the busier end of the island.',
+          ],
+        },
+        {
+          heading: 'What kind of restaurants are in Hawaiʻi Kai?',
+          paras: [
+            'Most restaurants sit in a few places: the shopping centers on the marina and along Kalanianaʻole Highway, plus a few spots facing the water. You will find plate lunch and poke counters, sushi and ramen, Thai and Korean food, pizza, burgers, coffee shops, bakeries and shave ice, along with a few sit-down dining rooms with marina views.',
+            'Because most of the people eating here live here, prices and portions are set for residents. Breakfast and lunch are easy. For a dress-up celebration dinner with wine service, people often drive back toward Kāhala, Kaimukī or Waikīkī.',
+          ],
+        },
+        {
+          heading: 'Hanauma Bay, Koko Head and the east-side morning',
+          paras: [
+            'Most visitors come to Hawaiʻi Kai for the coast. Hanauma Bay Nature Preserve is open Wednesday to Sunday and closed every Monday and Tuesday. Entry runs from 6:45 a.m. to 1:30 p.m., and everyone has to leave by 4 p.m. Non-residents aged 13 and over pay $25. Reservations open online at 7 a.m. Hawaiʻi time, two days before your visit, and the city says the schedule can change. The bay has no restaurant, so a snorkel morning usually ends with lunch back in Hawaiʻi Kai.',
+            'The Koko Crater stairs are a steep, exposed climb best done early, before the heat. Further along the coast, the Hālona Blowhole lookout, Sandy Beach and the Makapuʻu Point lighthouse trail fill the rest of the morning. Sandy Beach has a powerful shorebreak, so it is for watching unless you are an experienced bodysurfer. This is the sunrise side of the island, so the early start is a gift, not a chore.',
+          ],
+        },
+        {
+          heading: 'Dinner in Hawaiʻi Kai: timing and bigger groups',
+          paras: [
+            'Weeknight dinners here are early and local. Many kitchens are built for couples and families rather than a party of twelve, so call ahead for big groups or split into two tables. Weekend evenings at the marina-view rooms fill first, and sunset tables go quickly.',
+            'The bigger question is the drive. If you are staying in Waikīkī, a Hawaiʻi Kai dinner means someone drives Kalanianaʻole home in the dark. If you are staying in Hawaiʻi Kai, eating in town means the same drive the other way. Groups usually eat lunch out and keep one or two evenings at the house.',
+          ],
+        },
+        {
+          heading: 'Staying in Hawaiʻi Kai: houses, condos and the 30-day rule',
+          paras: [
+            'Hawaiʻi Kai is outside Honolulu’s resort zones, so homes and condos here can generally only be rented to visitors for thirty days or more, apart from a small number of older permitted vacation rentals. In practice, the visitors who stay here are long-stay guests, families visiting relatives and people working on the island. Ask the host for the permit or the minimum stay in writing before you book.',
+            'Those long stays are often in real family houses with full kitchens, a lānai and a dining table, which makes them good places to host a dinner. Before you plan a chef night, check that the range works, that the oven fits a sheet pan and that you have enough chairs.',
+          ],
+        },
+        {
+          heading: 'When is a dinner at the house better than eating out?',
+          paras: [
+            'A dinner at home makes sense when the group is large, there are kids or grandparents, someone has a birthday, or nobody wants to sit in traffic on Kalanianaʻole after a toast. A [private chef Honolulu](/private-chef) dinner is planned with you, shopped that morning, cooked and served in your kitchen, and the kitchen is cleaned before we leave. Fish is named as the species we actually bought.',
+            'Hawaiʻi Kai is inside our base area on Oʻahu, so there is no travel line, and we plan the drive into the chef day. Our [private chef Hawaiʻi Kai](/hawaii-kai) page explains how dinners for East Honolulu households work, including weekly service for residents.',
+          ],
+        },
+        {
+          heading: 'Groceries, poke and the farmers market',
+          paras: [
+            'The neighborhood has full supermarkets, so stocking a rental for breakfasts and beach lunches is easy, and poke by the pound from market counters covers a picnic. For produce from local growers, our [Oʻahu farmers markets guide](/blog/oahu-farmers-market-villa-week) explains how the island’s markets work across the week.',
+          ],
+        },
+        {
+          heading: 'Family parties, reunions and graduations',
+          paras: [
+            'Hawaiʻi Kai is where many families hold the big party: a graduation, a milestone birthday or a reunion in the backyard. When the guest list passes a dinner table, [Oahu catering](/catering) is the staffed version for roughly ten to seventy-five guests at a home, served as a buffet, family-style or plated. Servers are $80 an hour and a sous-chef $105 an hour, on four- to five-hour minimums, each on its own line. Tables, linens, tents and rentals are not included unless you ask, and then they are quoted separately.',
+          ],
+        },
+        {
+          heading: 'What does a dinner at your Hawaiʻi Kai house cost with us?',
+          paras: [
+            'Signature dinners on Oʻahu are published at $195–$290 a guest with groceries included, for a minimum party of six. A simpler menu for eight or more starts at $145–$195 a guest. A 20% service charge and Hawaiʻi GET of up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Oahu private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan your Hawaiʻi Kai nights',
+          paras: [
+            'Send the house address, your dates, the guest count, which nights you want cooked and any allergies through the quote form, or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total. For dinners anywhere on the island, see [private chef Oahu](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'What kind of restaurants are in Hawaiʻi Kai?',
+          a: 'Mostly local and casual: plate lunch, poke, sushi, ramen, Thai, Korean, pizza, coffee and shave ice, in the shopping centers around the marina and along Kalanianaʻole Highway, plus a few marina-view dining rooms.',
+        },
+        {
+          q: 'How far is Hawaiʻi Kai from Waikīkī?',
+          a: 'Roughly twenty to thirty minutes by car when traffic is light. Kalanianaʻole Highway is the only main road, so afternoon traffic heading east is slow.',
+        },
+        {
+          q: 'Is there food at Hanauma Bay?',
+          a: 'There is no restaurant in the preserve. Most visitors snorkel in the morning and eat lunch in Hawaiʻi Kai. The bay is closed on Mondays and Tuesdays, and non-residents should reserve two days ahead.',
+        },
+        {
+          q: 'Can you rent a vacation home in Hawaiʻi Kai?',
+          a: 'Hawaiʻi Kai is outside Honolulu’s resort zones, so homes can generally only be rented to visitors for thirty days or more, apart from a few older permitted rentals. Ask the host for the permit or minimum stay in writing.',
+        },
+        {
+          q: 'Can a private chef cook at a house in Hawaiʻi Kai?',
+          a: 'Yes, if the house has a working range and a table for your group. Hawaiʻi Kai is in our Oʻahu base area, so there is no travel line, and we plan the traffic into the chef day.',
+        },
+        {
+          q: 'How much is a private chef dinner in Hawaiʻi Kai?',
+          a: 'Signature dinners on Oʻahu are $195–$290 a guest with groceries included, for a minimum of six, plus a 20% service charge and GET of up to 4.712% as separate lines.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Private chef Honolulu' },
+        { path: '/hawaii-kai', label: 'Private chef Hawaiʻi Kai' },
         { path: '/catering', label: 'Oahu catering' },
         { path: '/pricing', label: 'Oahu private chef cost' },
         { path: '/', label: 'Private chef Oahu' },
@@ -2701,6 +2818,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/paia-restaurants-north-shore-maui-guide', label: 'Pāʻia restaurants guide' },
         { path: '/private-chef', label: 'Personal chef Maui' },
         { path: '/catering', label: 'Maui catering' },
         { path: '/', label: 'Private chef Maui' },
@@ -2815,6 +2933,122 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       related: [
         { path: '/weddings', label: 'Wedding catering Maui' },
         { path: '/private-chef', label: 'Personal chef Maui' },
+        { path: '/catering', label: 'Maui catering' },
+        { path: '/pricing', label: 'Maui private chef cost' },
+        { path: '/', label: 'Private chef Maui' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'paia-restaurants-north-shore-maui-guide',
+      keyword: 'paia restaurants',
+      datePublished: '2026-11-09',
+      name: 'Pāʻia restaurants guide',
+      h1: 'Paia restaurants — eating on Maui’s North Shore.',
+      title: 'Paia Restaurants — Maui North Shore Food Guide | myCHEF',
+      description:
+        'Paia restaurants explained: fish counters, cafés and oceanfront dinners on Maui’s North Shore, parking, wind, Road to Hāna days and dinners at the house.',
+      lede:
+        'Paia restaurants are small, casual and packed into one walkable plantation-era town on Maui’s North Shore, about fifteen minutes from Kahului Airport, where the Hāna Highway begins. Expect fish counters, cafés, smoothie and açaí bars, bakeries, taco and Thai kitchens, and a few oceanfront dinner rooms between Pāʻia and Hoʻokipa that book weeks ahead. This guide explains how eating out in Pāʻia works around parking, wind and Road to Hāna days, and when a dinner cooked at the house you are renting is the better plan. We do not rank or review restaurants and we have no restaurant partners.',
+      photo: 'cellPaia',
+      body: [],
+      sections: [
+        {
+          heading: 'Where is Pāʻia, and who stays there?',
+          paras: [
+            'Pāʻia sits on the Hāna Highway on Maui’s North Shore, east of Kahului and its airport. It grew up as a sugar plantation town. Today it is a small grid of wooden storefronts, surf shops and galleries between Baldwin Beach to the west and Kuʻau and Hoʻokipa to the east. Haʻikū is uphill and inland: greener, wetter and more rural.',
+            'Most Maui visitors stay in South Maui or West Maui and pass through Pāʻia on the way to Hāna. The people who stay here are usually in houses and cottages in Pāʻia, Kuʻau and Haʻikū: windsurfers, surfers, families who want a quieter base and longer-stay guests. That changes the food pattern. More people cook at home, and they eat out at lunch.',
+          ],
+        },
+        {
+          heading: 'What kind of restaurants are in Pāʻia?',
+          paras: [
+            'The town is built for breakfast and lunch. Fish markets and poke counters, cafés, bakeries, health-food grocers, smoothie and açaí bars, tacos, pizza, Thai and burger spots line the two main streets, with plenty of plant-based and gluten-free options. Portions are generous, and many places are order-at-the-counter.',
+            'Sit-down dinners are fewer. There are a few oceanfront dining rooms between Pāʻia and Hoʻokipa, and the best-known ones book weeks ahead, especially in winter. If a special dinner out matters, reserve before you fly. Many in-town kitchens close earlier than resort restaurants in Wailea or Kāʻanapali.',
+          ],
+        },
+        {
+          heading: 'Parking, traffic and the Hāna Highway',
+          paras: [
+            'Pāʻia is small and the Hāna Highway runs straight through it, so traffic backs up at busy times, and parking is a small public lot plus tight street spaces. Arrive early for breakfast, walk once you have parked, and do not try to stop for lunch at noon on the way back from Hāna with six people in two cars.',
+            'If you are driving the Road to Hāna, Pāʻia is the last easy place to buy breakfast, coffee and picnic food. Waiʻānapanapa State Park needs advance parking and entry reservations for non-residents, up to 30 days ahead and never on the same day. A full Hāna day ends after dark and leaves most drivers tired, which is why many groups plan that evening as a dinner at the house.',
+          ],
+        },
+        {
+          heading: 'Hoʻokipa, wind and the North Shore weather',
+          paras: [
+            'Hoʻokipa Beach Park, just east of town, is where windsurfers and big-wave surfers ride in the afternoon trade winds, and green sea turtles often haul out on the sand late in the day. Watch from the lookout and give the turtles plenty of room. Baldwin Beach to the west is the long, easy beach for families.',
+            'The North Shore is windier and wetter than Kīhei and Wailea, and Haʻikū gets more rain again. Afternoon trade winds blow candles out and lift napkins, and showers pass through. Any outdoor dinner on a Pāʻia or Haʻikū lānai needs a covered fallback and some weight on the table.',
+          ],
+        },
+        {
+          heading: 'Staying in a Pāʻia or Haʻikū house',
+          paras: [
+            'Most North Shore homes are in residential districts, and Maui County requires a short-term rental home or bed-and-breakfast permit before a house there can be rented by the night. Ask the host for the permit number before you book. The houses that are legally rented are often family homes with a real kitchen, an outdoor shower and a big lānai, which makes them good places to host a dinner.',
+            'Before you plan a chef night, check the range, the oven size, the fridge space and how many chairs there are. Some cottages have only a two-burner cooktop, and that changes the menu.',
+          ],
+        },
+        {
+          heading: 'Groceries and markets on the North Shore',
+          paras: [
+            'Pāʻia has small grocers and health-food stores that are good for produce, coffee and snacks, but prices are higher and the range is smaller than in Kahului, fifteen minutes away, where the big supermarkets and warehouse stores are. Stock up in Kahului on arrival day. Our [Maui grocery stores guide](/blog/maui-grocery-stores-villa-guide) and [Maui farmers markets guide](/blog/maui-farmers-market-villa-week) explain where to shop across the island.',
+          ],
+        },
+        {
+          heading: 'When is a dinner at the house better than eating out?',
+          paras: [
+            'A dinner at the house makes sense after a Hāna day, when the group is bigger than a Pāʻia dining room can seat, when there are kids, or when the only dinner reservation left is at 9 p.m. A [personal chef Maui](/private-chef) dinner is planned with you, shopped that day, cooked and served in your kitchen, and the kitchen is cleaned before we leave. Fish is named as the species we actually bought.',
+            'Pāʻia and Haʻikū are outside our base shores, so the drive is confirmed on the written quote with the menu and never squeezed in after a Wailea dinner on the same day. Our [private chef in Pāʻia and Haiku](/paia) page explains how North Shore dinners are booked.',
+          ],
+        },
+        {
+          heading: 'Birthdays, retreats and bigger groups',
+          paras: [
+            'Retreat houses and big family homes in Haʻikū often host groups for a week. When the guest list passes a dinner table, [Maui catering](/catering) is the staffed version for roughly ten to seventy-five guests: buffet, family-style or plated, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, each on its own line. Tables, linens, tents and rentals are not included unless you ask, and then they are quoted separately.',
+          ],
+        },
+        {
+          heading: 'What does a dinner at your Pāʻia house cost with us?',
+          paras: [
+            'Signature dinners on Maui are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler menu runs $190–$225 a guest. North Shore travel is quoted with the menu, and Upcountry addresses carry a published surcharge from $75. A 20% service charge and Hawaiʻi GET of up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Maui private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan your North Shore nights',
+          paras: [
+            'Send the house address, your dates, the guest count, which nights you want cooked and any allergies through the quote form, or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction, the travel line and a total. For dinners anywhere on the island, see [private chef Maui](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'What kind of restaurants are in Pāʻia?',
+          a: 'Mostly casual breakfast and lunch places: fish counters, cafés, bakeries, smoothie and açaí bars, tacos, Thai and pizza, plus a few oceanfront dinner rooms between Pāʻia and Hoʻokipa that book weeks ahead.',
+        },
+        {
+          q: 'How far is Pāʻia from Kahului Airport?',
+          a: 'About fifteen minutes by car along the Hāna Highway, longer when traffic backs up through town.',
+        },
+        {
+          q: 'Is it hard to park in Pāʻia?',
+          a: 'It can be. There is a small public lot and tight street parking, and the Hāna Highway runs through town. Arrive early and walk once you have parked.',
+        },
+        {
+          q: 'Should we eat in Pāʻia before the Road to Hāna?',
+          a: 'Pāʻia is the last easy stop for breakfast, coffee and picnic food. Waiʻānapanapa State Park needs advance reservations for non-residents, so book that before the day.',
+        },
+        {
+          q: 'Can a private chef cook at a house in Pāʻia or Haʻikū?',
+          a: 'Yes, if the house has a working range and a table for your group. Pāʻia and Haʻikū travel is confirmed on the written quote with the menu, and the dinner is never squeezed in after a Wailea booking.',
+        },
+        {
+          q: 'How much is a private chef dinner in Pāʻia?',
+          a: 'Signature dinners on Maui are $225–$375 a guest with groceries included, for a minimum of six, plus the North Shore travel line, a 20% service charge and GET of up to 4.712%.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Personal chef Maui' },
+        { path: '/paia', label: 'Private chef in Pāʻia and Haiku' },
         { path: '/catering', label: 'Maui catering' },
         { path: '/pricing', label: 'Maui private chef cost' },
         { path: '/', label: 'Private chef Maui' },
@@ -3990,6 +4224,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-vacation-rentals-kitchen-guide', label: 'Kauaʻi vacation rentals guide' },
         { path: '/private-chef', label: 'Personal chef Kauai' },
         { path: '/catering', label: 'Kauai catering' },
         { path: '/', label: 'Private chef Kauai' },
@@ -4225,6 +4460,122 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       related: [
         { path: '/weddings', label: 'Kauai wedding catering' },
         { path: '/private-chef', label: 'Personal chef Kauai' },
+        { path: '/catering', label: 'Kauai catering' },
+        { path: '/pricing', label: 'Kauai private chef cost' },
+        { path: '/', label: 'Private chef Kauai' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'kauai-vacation-rentals-kitchen-guide',
+      keyword: 'kauai vacation rentals',
+      datePublished: '2026-11-09',
+      name: 'Kauaʻi vacation rentals guide',
+      h1: 'Kauai vacation rentals — choosing a house you can cook in.',
+      title: 'Kauai Vacation Rentals — Zones, Kitchens & Food | myCHEF',
+      description:
+        'Kauai vacation rentals explained: where short stays are legal, how to check a permit, which shore suits you, kitchens, groups, groceries and chef nights.',
+      lede:
+        'Kauai vacation rentals that can legally take short stays are concentrated in four Visitor Destination Areas: Poʻipū on the South Shore, Līhuʻe, Wailua–Kapaʻa on the east side, and Princeville on the North Shore. Outside those areas, a home can only be rented for less than 180 days if it holds a nonconforming use certificate for a rental that was already operating before 7 March 2008. This guide explains how to check a rental, how to choose a shore, what to look for in the kitchen and the dining table, and how meals work across a Kauaʻi week. We do not list, rank or manage rentals and we have no rental partners.',
+      photo: 'vacationKauai',
+      body: [],
+      sections: [
+        {
+          heading: 'Where are vacation rentals allowed on Kauaʻi?',
+          paras: [
+            'Kauaʻi County allows single-family transient vacation rentals in its Visitor Destination Areas, which cover Poʻipū, Līhuʻe, Wailua–Kapaʻa and Princeville. Resort condominiums, hotels and many rental homes sit inside those boundaries. Outside them, the county says a home or room cannot be rented for less than 180 days unless it holds a nonconforming use certificate. Those certificates were only issued for rentals that could prove ongoing vacation-rental use before 7 March 2008, and they must be renewed every year.',
+            'That is why a beautiful listing in a quiet residential valley may not be legal for a one-week stay. If it is shut down, guests can lose their booking close to arrival.',
+          ],
+        },
+        {
+          heading: 'How do you check that a Kauaʻi rental is legal?',
+          paras: [
+            'The Kauaʻi Planning Department publishes a list of approved homestays and nonconforming vacation rentals by tax map key, with the permit number, address and whether each one is current. Ask the host for the property’s tax map key and certificate number, then check it against the county list. If a house outside a Visitor Destination Area is not on the list, the county says it should not be operating.',
+            'Inside the destination areas, ask whether the unit is in a resort-zoned building or a registered rental home, and get the house rules in writing. Rental bills on Kauaʻi normally include state general excise and transient accommodations taxes plus the county’s own accommodations tax, along with cleaning fees and minimum stays. Compare totals, not nightly rates.',
+          ],
+        },
+        {
+          heading: 'Which shore should you rent on?',
+          paras: [
+            'The South Shore around Poʻipū and Kōloa is generally sunnier, has the largest choice of resort condos and homes, and is about twenty-five to thirty minutes from Līhuʻe Airport. The east side around Kapaʻa and Wailua, the Coconut Coast, is central and practical, fifteen to twenty minutes from the airport and in the middle of the island’s one main road. The North Shore around Princeville is green, dramatic and wetter, especially in winter, and about an hour from Līhuʻe.',
+            'There is no road along the Nā Pali coast, so a week in Princeville and a week in Poʻipū are different trips. Beaches past Hanalei sit inside Hāʻena State Park, where visitors who are not Hawaiʻi residents need advance reservations. Pick the shore you want to wake up on, then pick the house. Our [Poʻipū restaurants guide](/blog/poipu-restaurants-dining-guide) and [North Shore Kauai dining guide](/blog/north-shore-kauai-dining-guide) describe both ends of the island.',
+          ],
+        },
+        {
+          heading: 'Condo, house or estate: what changes in the kitchen?',
+          paras: [
+            'Resort condos in Poʻipū and Princeville usually have a compact kitchen, a four-burner range, a standard oven and a dining table for four to six. Many complexes restrict grills on the lānai and offer shared grills instead, so check before you plan a barbecue. Parking, elevators and long corridors also matter when you are carrying a week of groceries, which is why we plan [condo load-in](/blog/condo-load-in) before a chef arrives.',
+            'Rental homes and estates often have larger ranges, a second fridge, an outdoor kitchen and a covered lānai that seats ten or more. They are the better choice when the trip is built around shared dinners.',
+          ],
+        },
+        {
+          heading: 'What should you check before you book for a group?',
+          paras: [
+            'Listing photos show the view, not the kitchen. Before you pay a deposit, ask the host these questions and keep the answers. How many working burners does the range have, and does the oven fit a full sheet pan? How much fridge and freezer space is there for a week of food? How many people can sit at the dining table, and is there a covered place to eat outside when it rains? Is there a grill, and is it allowed to be used? Are there enough plates, glasses and knives for everyone?',
+            'Bedrooms and seats rarely match. A house that sleeps twelve may only have a table for eight. If everyone is going to eat together, the table decides the house.',
+          ],
+        },
+        {
+          heading: 'Groceries for a Kauaʻi rental week',
+          paras: [
+            'Līhuʻe and Kapaʻa have the biggest supermarkets and the warehouse store, so most groups shop on arrival day on the way from the airport. North Shore stores are smaller and more expensive, and Poʻipū has resort-area markets plus larger shops in Kōloa and toward Līhuʻe. Our [Kauai grocery stores guide](/blog/kauai-grocery-stores-villa-guide) and [Kauai farmers markets guide](/blog/kauai-farmers-market-villa-week) explain where and when to shop.',
+          ],
+        },
+        {
+          heading: 'Planning meals across the week',
+          paras: [
+            'A pattern that works for most families and friend groups is simple. Keep the arrival night easy, cook breakfasts and beach lunches yourselves, eat out on two or three nights, and book one or two chef nights at the house for the big dinners: a birthday, the last night or the day you all come back tired from a long hike.',
+            'For a single dinner, a [personal chef Kauai](/private-chef) evening is planned with you, shopped that day, cooked and served in the rental kitchen, and the kitchen is cleaned before we leave. If you want a chef for most of the stay, [vacation chef Kauai](/vacation-chef) days cover more than one meal, quoted as a day rate.',
+          ],
+        },
+        {
+          heading: 'Reunions and big houses',
+          paras: [
+            'Family reunions and milestone trips often rent the biggest estate they can find. When the guest list passes a dinner table, [Kauai catering](/catering) is the staffed version for a party at the house, with servers at $80 an hour and a sous-chef at $105 an hour, each on its own line. Tables, linens, tents and rentals are not included unless you ask, and then they are quoted separately. Check the rental’s rules on events and guest numbers first, because many owners and associations forbid parties.',
+          ],
+        },
+        {
+          heading: 'What does a chef night at a Kauaʻi rental cost with us?',
+          paras: [
+            'Signature dinners on Kauaʻi are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler menu runs $190–$225 a guest. Līhuʻe and Kapaʻa are our base area; Princeville and Poʻipū add a published travel line of $50–$75, and Hāʻena and the far North are quote-only with seventy-two hours’ notice. Chef days start from $1,650. A 20% service charge and Hawaiʻi GET of up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Kauai private chef cost](/pricing). Kauaʻi is by inquiry: we confirm a crew before we confirm the date.',
+          ],
+        },
+        {
+          heading: 'How to plan it',
+          paras: [
+            'Once you have the rental, send the address, your dates, the guest count, which nights you want cooked and any allergies through the inquiry form, or message us on WhatsApp at +1 808-468-7748. We reply in writing, including whether the kitchen can hold your menu. For dinners anywhere on the island, see [private chef Kauai](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Where are vacation rentals legal on Kauaʻi?',
+          a: 'Inside the Visitor Destination Areas of Poʻipū, Līhuʻe, Wailua–Kapaʻa and Princeville. Outside them, stays under 180 days are only allowed in homes holding a nonconforming use certificate for a rental operating before 7 March 2008.',
+        },
+        {
+          q: 'How can I check if a Kauaʻi rental has a permit?',
+          a: 'Ask the host for the tax map key and certificate number and check it against the Kauaʻi Planning Department’s published list of approved homestays and nonconforming vacation rentals.',
+        },
+        {
+          q: 'Which side of Kauaʻi is best for a vacation rental?',
+          a: 'The South Shore around Poʻipū is generally sunnier, the east side around Kapaʻa is central, and the North Shore around Princeville is greener and wetter, especially in winter. Choose where you want to spend most days.',
+        },
+        {
+          q: 'What should a group check in a rental kitchen?',
+          a: 'Working burners, an oven that fits a sheet pan, fridge space for a week, a dining table that seats everyone, a covered place to eat outside, and whether the grill can be used.',
+        },
+        {
+          q: 'Can a private chef cook at a Kauaʻi vacation rental?',
+          a: 'Yes, if the kitchen has a working range and a table for your group. Līhuʻe and Kapaʻa are our base; Princeville and Poʻipū add a $50–$75 travel line.',
+        },
+        {
+          q: 'How much is a private chef dinner at a Kauaʻi rental?',
+          a: 'Signature dinners are $225–$375 a guest with groceries included, for a minimum of six, plus any travel line, a 20% service charge and GET of up to 4.712%.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Personal chef Kauai' },
+        { path: '/vacation-chef', label: 'Vacation chef Kauai' },
         { path: '/catering', label: 'Kauai catering' },
         { path: '/pricing', label: 'Kauai private chef cost' },
         { path: '/', label: 'Private chef Kauai' },
@@ -5390,6 +5741,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/volcano-hawaii-restaurants-guide', label: 'Volcano restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/catering', label: 'Big Island catering' },
         { path: '/', label: 'Private chef Big Island' },
@@ -5630,6 +5982,122 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       related: [
         { path: '/weddings', label: 'Wedding catering Big Island' },
         { path: '/private-chef', label: 'Private chef Kona' },
+        { path: '/catering', label: 'Big Island catering' },
+        { path: '/pricing', label: 'Big Island private chef cost' },
+        { path: '/', label: 'Private chef Big Island' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'volcano-hawaii-restaurants-guide',
+      keyword: 'volcano hawaii restaurants',
+      datePublished: '2026-11-09',
+      name: 'Volcano, Hawaiʻi restaurants guide',
+      h1: 'Volcano Hawaii restaurants — eating near the national park.',
+      title: 'Volcano Hawaii Restaurants — Food Near the Park | myCHEF',
+      description:
+        'Volcano Hawaii restaurants explained: a small village by the national park, early closing, cold wet nights, groceries from Hilo and dinners at the lodge.',
+      lede:
+        'Volcano Hawaii restaurants are few and small. Volcano Village sits in rainforest at about 3,750 feet, a mile or so from the entrance to Hawaiʻi Volcanoes National Park, about 45 minutes from Hilo and two and a half hours from Kailua-Kona. A handful of restaurants, cafés and a general store serve the village, and many close early. This guide explains how eating works around park days, night visits, cold wet evenings and the long drive back to the west side, and when a dinner at your cabin or lodge is the better plan. We do not rank or review restaurants and we have no restaurant partners.',
+      photo: 'cellVolcano',
+      body: [],
+      sections: [
+        {
+          heading: 'Where is Volcano Village, and how far is it from Kona?',
+          paras: [
+            'Volcano is a small community on Highway 11 on the slopes of Kīlauea, just outside the main entrance to Hawaiʻi Volcanoes National Park. Hilo is about 30 miles and 45 minutes north-east. Kailua-Kona is about 96 miles and two and a half hours away by the southern route, and a little longer across the island through Hilo.',
+            'That distance shapes everything. A Kona-based day trip means about five hours of driving and an arrival back on the west side well after dark. Many visitors split the trip by spending a night or two in Volcano or Hilo, and that is when the dinner question comes up. Our [Hilo restaurants guide](/blog/hilo-restaurants-dining-guide) covers the nearest town.',
+          ],
+        },
+        {
+          heading: 'What kind of restaurants are in Volcano?',
+          paras: [
+            'Expect a small choice: a few casual restaurants and cafés in the village, a general store with basic groceries and ready food, coffee and bakery stops, a winery near the park and a lodge dining room inside the park. Menus are hearty and simple, built for cool evenings and hikers. Hours are short, and some places close one or two days a week. Check hours on the day rather than trusting an old listing.',
+            'For a long celebration dinner with wine service and courses, the choice is very limited. Most groups either book well ahead or eat in Hilo before driving up, which is not much fun after a long day in the park.',
+          ],
+        },
+        {
+          heading: 'Park days, night visits and timing dinner',
+          paras: [
+            'The park entrance is open 24 hours a day, every day. When Kīlauea is erupting, many visitors return after dark to see the glow from the crater overlooks, which puts the evening right where Volcano restaurants are closing. Eat early before you go back in, or plan a late supper at the house. Check the National Park Service and the USGS Hawaiian Volcano Observatory for current activity, closures and air-quality alerts before you plan the night.',
+            'Volcanic gas and vog can be strong near the crater and downwind, and people with breathing or heart conditions should follow the park’s guidance. Pack water, snacks and warm layers in the car for any park day.',
+          ],
+        },
+        {
+          heading: 'Cold, rain and the Volcano evening',
+          paras: [
+            'Volcano is not beach weather. At park headquarters, average daytime highs sit around the high 60s to low 70s °F, nights often drop into the 40s and 50s, and around 96 inches of rain falls a year, most of it from November to April. Mist rolls through the ferns most afternoons.',
+            'That is exactly why a warm dinner indoors is so appealing. Most cabins and lodges have a fireplace or a heater and a real dining table, and a slow-cooked dinner with soup or a braise suits the evening better than anything grilled outside.',
+          ],
+        },
+        {
+          heading: 'Staying in Volcano: cabins, cottages and lodges',
+          paras: [
+            'Accommodation in Volcano is mostly cottages, cabins, bed-and-breakfasts, small lodges and rainforest houses tucked into the trees. Hawaiʻi County requires short-term vacation rentals to be registered, and zoning decides where they are allowed, so ask the host for the registration before you book.',
+            'Kitchens range from a full family kitchen to a two-burner cottage galley. Ask how many burners and what size oven there is, whether there is enough fridge space, and how many people the table seats. Roads in the village are narrow and dark at night, so a clear driveway and good directions help anyone coming to cook.',
+          ],
+        },
+        {
+          heading: 'Groceries: shop in Hilo or on the way',
+          paras: [
+            'The village store covers basics, but the full supermarkets are in Hilo, 45 minutes away, and on the west side if you are coming from Kona. Do the big shop before you drive up, and bring coffee, breakfast and picnic lunches for the park. Our [Kona farmers market guide](/blog/kona-farmers-market-villa-week) explains how to keep a west-side house stocked, and why we never plan a same-day cross-island grocery loop.',
+          ],
+        },
+        {
+          heading: 'When is a dinner at the lodge better than eating out?',
+          paras: [
+            'A dinner at your cabin or lodge makes sense when the group is bigger than a village restaurant can seat, when you are going back into the park after dark, when it is cold and raining, or when nobody wants to drive narrow roads at night. A chef plans the menu with you, cooks in your kitchen, serves at your table and cleans the kitchen before leaving.',
+            'For us, Hilo and Volcano are a dedicated east-side day, quoted in writing with dedicated staffing and never squeezed into a west-side day. Our [private chef Volcano](/volcano) page and [Hilo and Volcano](/east-side) notes explain how that works. If your stay is on the west side, our [private chef Kona](/private-chef) service covers Kailua-Kona to the Kohala Coast.',
+          ],
+        },
+        {
+          heading: 'Groups, retreats and celebrations',
+          paras: [
+            'Volcano draws retreats, family trips and small celebrations in rented houses and lodges. When the guest list passes a dinner table, [Big Island catering](/catering) is the staffed version, with servers at $80 an hour and a sous-chef at $105 an hour, each on its own line. Tables, linens, tents and rentals are not included unless you ask, and then they are quoted separately. East-side events are quoted separately from any west-side booking.',
+          ],
+        },
+        {
+          heading: 'What does a dinner in Volcano cost with us?',
+          paras: [
+            'Signature dinners on Hawaiʻi Island are published at $210–$325 a guest with groceries included, for a minimum party of six, and smaller dinners start from $165 a guest. Volcano is quote-only, so the east-side day and travel are written into the quote with the menu, never added afterwards. A 20% service charge and Hawaiʻi GET of up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Big Island private chef cost](/pricing). Hawaiʻi Island is by inquiry.',
+          ],
+        },
+        {
+          heading: 'How to plan your Volcano nights',
+          paras: [
+            'Send the cabin or lodge address, your dates, the guest count, which nights you want cooked and any allergies through the inquiry form, or message us on WhatsApp at +1 808-468-7748. We reply in writing, including whether the kitchen can hold your menu. For dinners anywhere on the island, see [private chef Big Island](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Are there many restaurants in Volcano, Hawaiʻi?',
+          a: 'No. Volcano Village has a handful of restaurants and cafés, a general store, a winery and a lodge dining room in the park. Many close early and some close one or two days a week, so check hours on the day.',
+        },
+        {
+          q: 'How far is Volcano from Kona and Hilo?',
+          a: 'Hilo is about 30 miles and 45 minutes away. Kailua-Kona is about 96 miles and two and a half hours, so a day trip from Kona means about five hours of driving.',
+        },
+        {
+          q: 'Where should we eat after seeing the volcano glow at night?',
+          a: 'Most Volcano restaurants close before the late glow visits, so eat early, bring food, or plan a late supper at your cabin or lodge. Check the park and USGS for current activity first.',
+        },
+        {
+          q: 'What is the weather like in Volcano at night?',
+          a: 'Cool and often wet. Nights at park headquarters often drop into the 40s and 50s °F, and around 96 inches of rain falls a year, most of it from November to April. Bring warm layers.',
+        },
+        {
+          q: 'Can a private chef cook at a cabin in Volcano?',
+          a: 'Yes, by inquiry, if the kitchen has a working cooktop and a table for your group. Hilo and Volcano are a dedicated east-side day, never combined with a Kona dinner on the same day.',
+        },
+        {
+          q: 'How much is a private chef dinner in Volcano?',
+          a: 'Signature dinners on Hawaiʻi Island are $210–$325 a guest with groceries included, for a minimum of six, and smaller dinners from $165. The east-side day, a 20% service charge and GET of up to 4.712% are written into the quote.',
+        },
+      ],
+      related: [
+        { path: '/private-chef', label: 'Private chef Kona' },
+        { path: '/volcano', label: 'Private chef Volcano' },
         { path: '/catering', label: 'Big Island catering' },
         { path: '/pricing', label: 'Big Island private chef cost' },
         { path: '/', label: 'Private chef Big Island' },
