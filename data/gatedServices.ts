@@ -576,7 +576,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       slug: 'rehearsal-dinners',
       name: 'Rehearsal dinners',
       h1: 'Kauaʻi estate rehearsal — request availability for the night before.',
-      title: 'Estate rehearsal dinner, request availability | myCHEF',
+      title: 'Rehearsal dinner on a Kauai estate | myCHEF',
       description:
         'Estate rehearsal dinner in Princeville or Poʻipū the night before the wedding. Rain and the bridge stay in the note. Request availability.',
       lede:

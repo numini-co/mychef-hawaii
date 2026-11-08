@@ -268,6 +268,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
         'South Maui and West Maui houses that actually cook.',
         'Production crews in residences are this product. Convention citywides are not.',
         'A Villa Week retreat is breakfast, lunch, and dinner in the rental, shore by shore. Quiet hours between meals are yours. A signature dinner inside the week includes the groceries. Stay Chef days are the daily chef fee plus groceries at cost with receipts. See [vacation chef](/vacation-chef) and [pricing](/pricing). Wind on a West Maui lanai moves lunch under cover. A Wailea lawn keeps an indoor backup in the same note, written before you accept, with 20% service and GET up to 4.712% each alone and a 50% deposit after you accept. Gratuity is never required. Name the shore on [the quote form](/quote).',
+        'Full-board days in a Wailea or Kapalua house are Stay Chef: the daily chef fee, then groceries at cost with receipts. Breakfast and lunch are that model, not a signature per-guest dinner copied across the calendar. Send the shore and which meals repeat. The day rate is on [pricing](/pricing). The week format is [vacation chef](/vacation-chef). Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -317,6 +318,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       body: [
         'Inquiry stage.',
         'Request availability with the shore before a birthday is treated as held. The cook sets the estate kitchen, serves, and clears. The cake you brought, or a dessert we plate, comes at the moment you set. Children can eat earlier if the house allows it. Rain on the north moves the table under a covered lanai. A Hanalei bridge closure moves the whole night. It does not send it to Poʻipū. The note shows food, 20% service and GET up to 4.712% each alone, and a 50% deposit only after a written yes. Gratuity is never required. See [all occasions](/events) and [pricing](/pricing). Request availability on [the quote form](/quote). See [staffing](/staffing).',
+        'Request availability for the person the night is for, and name the shore before the cake is planned. A dessert the estate kitchen plates, or a cake you bring, comes at the hour you set. Children can eat an earlier plate if the house allows it. The dinner uses this island’s signature per-guest band, groceries inside it. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing). Request availability on [the quote form](/quote). Name the icing, the knife, the candle, and the first slice.',
       ],
       faqs: [
         {
@@ -410,6 +412,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       body: [
         'Inquiry stage. Dietary needs are planned for every guest; we only claim what we can cook safely.',
         'Request availability for one shore before a retreat is treated as held. Breakfast, lunch, and dinner come from that estate kitchen. Quiet hours are yours. A signature dinner includes the groceries. Stay Chef days are the daily chef fee plus groceries at cost with receipts. See [vacation chef](/vacation-chef) and [pricing](/pricing). Rain on the north moves a meal under a covered lanai. A Hanalei bridge closure moves those days. It does not hand them to Poʻipū. The note shows 20% service and GET up to 4.712% each alone, and a 50% deposit only after a written yes. Gratuity is never required. Request availability on [the quote form](/quote).',
+        'Request availability for full-board days on one shore, framed as Stay Chef: the daily chef fee plus groceries at cost with receipts. Breakfast through dinner is the day rate, not a signature per-guest dinner repeated each evening. A Hanalei bridge closure moves those days and does not hand them to the other shore. Name the meals and the quiet hours. The day rate is on [pricing](/pricing). See [vacation chef](/vacation-chef). Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. Request availability on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -459,6 +462,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       body: [
         'West-side radius: Kona–Kohala corridor. Inquiry stage.',
         'Join the inquiry list with a Kona, Waikoloa, or Kohala address. The cook sets that kitchen, serves, and clears. The cake you brought, or a dessert we plate, comes at the moment you set. Children can take a smaller plate first if you say so. Wind moves a lava terrace into the great room, written before a yes. Hilo is a dedicated east-side day and is never implied. The inquiry shows 20% service and Hawaiʻi GET up to 4.712% each alone, and a 50% deposit only after a written yes. Gratuity is never required. See [all occasions](/events) and [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
+        'Join the inquiry list for the person the night is for, on a Kona, Waikoloa, or Kohala address. A cake you bring, or a dessert the villa kitchen plates, is the close. Children can take a smaller plate first if you name that hour. Hilo is a dedicated east-side day and does not ride along. The dinner uses this island’s signature per-guest band, groceries inside it. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -553,6 +557,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
         'West-side first.',
         'Hilo is a dedicated east-side day, never implied by a Waikoloa week.',
         'Join the inquiry list for breakfast, lunch, and dinner in a Kona or Kohala house. Quiet hours are yours. A signature dinner includes the groceries. Stay Chef days are the daily chef fee plus groceries at cost with receipts. See [vacation chef](/vacation-chef) and [pricing](/pricing). Wind moves a terrace meal into the great room, written before a yes. A Volcano or Hilo day is its own dedicated day. The inquiry shows 20% service and Hawaiʻi GET up to 4.712% each alone, and a 50% deposit after a written yes. Gratuity is never required. Join the inquiry list on [the quote form](/quote).',
+        'Join the inquiry list for full-board days in a Kona or Kohala house, framed as Stay Chef: the daily chef fee plus groceries at cost with receipts. Breakfast in the shade and dinner that evening are that day rate, not a signature per-guest dinner copied across the week. Hilo and Volcano stay a separate dedicated east-side day. The day rate is on [pricing](/pricing). See [vacation chef](/vacation-chef). Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
