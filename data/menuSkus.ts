@@ -603,6 +603,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       body: [
         'A west-side three-course is paced in a Kona or Kohala kitchen: a first, a sear, a close, then a clean pass. The sample is a west-side example of length, not a printed restaurant menu. Hilo or Volcano is a separate dedicated east-side day, quoted in writing, not added on. See [how Hawaiʻi Island menus are designed](/menus).',
         'This is not [the tasting menu](/fine-dining/tasting-menu). One west-side night uses the signature per-guest band, groceries inside it. The simpler open table lives only on this island’s [pricing](/pricing) page. [Join the inquiry list](/quote) for Kona–Kohala. Do not attach an east-side house to that note.',
+        'Join the inquiry list for a west-side table that wants a first, a sear, and a close, paced in a Kona or Kohala kitchen. Kona and Waikoloa do not share that evening with Hilo. One night uses this island’s signature per-guest band, and the groceries for those three plates sit inside it. A Stay Chef stretch is the day rate, then groceries at cost with receipts. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. Read [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {

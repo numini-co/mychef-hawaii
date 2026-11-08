@@ -159,13 +159,14 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Honeymoon dinners on Oahu — two seats, one kitchen.',
       title: 'Honeymoon dinners on Oahu — two seats, one kitchen | myCHEF',
       description:
-        'A private dinner for two in a Kahala, Ko Olina, Kailua, or Honolulu rental. The night and the room. Request a written quote.',
+        'A private dinner for two in a Kahala, Ko Olina, Kailua, or Honolulu rental on the arrival week. Two seats. Request a written quote.',
       lede:
         'Two people at the rental’s dining table, the rest of the house quiet. This is the honeymoon or anniversary booking, not the course list.',
       photo: 'svcHoneymoonOahu',
       body: [
         'The cook comes in on the elevator slot a Honolulu tower already booked and works the range in that kitchen. Plates go to the dining table. A Kailua lānai is used only when the house can cover it. Service stays with the couple. Counters are reset before the crew leaves the building.',
         'Kahala houses are judged from photos of the stove, not the listing headline. Building rules belong in the same note as the date. If you want the courses named as a format, open the romantic dinner. This page holds the evening and the room.',
+        'This page is the arrival week: two people, the rental, and the first nights the house is theirs. A Honolulu tower still needs the elevator slot before the cook comes up. A Ko Olina villa uses the dining table. Service stays with the couple. Send the address, the landing dates, who is eating, and dietary limits. One night uses this island’s signature per-guest band, with grocery shopping inside it. There is no separate two-seat price. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. See [pricing](/pricing) and [Private chef Honolulu](/private-chef). A dated return is [anniversary dinners](/events/anniversaries). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -205,13 +206,14 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Chef’s table in an Oahu villa — the island, not a restaurant pass.',
       title: 'Chef’s table in an Oahu villa | myCHEF',
       description:
-        'The chef cooks and plates at your Oʻahu kitchen island while guests watch. Kahala, Ko Olina, Kailua. Not a restaurant counter.',
+        'The chef plates at your Oʻahu kitchen island in Kahala, Ko Olina, Kailua, or Honolulu. Seats follow the kitchen. Request a written quote.',
       lede:
         'Guests sit the house counter. The cook plates in front of them. This is the evening’s format, not a ticketed restaurant pass.',
       photo: 'svcChefsTableOahu',
       body: [
         'People take stools at the kitchen island while the cook works the range in front of them. The crew enters on the elevator reservation a tower booked. Plates are set on that counter, not walked to a dining room. After the last course, the pass is scrubbed before the crew leaves.',
         'A Kailua galley is accepted only when the island is deep enough for guests to sit. A photo of the counter and the building rules belong in the request. The course order is the [chef’s table evening](/fine-dining/chefs-table-evening). This page is the format: the cook, the counter, the house.',
+        'A Honolulu tower still waits on its freight window before a stool is set. Kahala needs a photo of the counter depth. Ko Olina uses the gate time the house gave. A Kailua galley is a yes only when guests face the range. Send the address, the date, who sits, dietary notes, building rules, and that photo. Seat count is confirmed in writing after the kitchen is seen. Grocery shopping sits inside this island’s signature per-guest band. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. See [pricing](/pricing) and [Private chef Honolulu](/private-chef). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -447,6 +449,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'The cook reaches a Wailea or Kapalua kitchen before blue hour and sets the range there. Plates land on the lānai table when the wind allows, and move under the roof when it does not. Service stays with the couple. The stove is wiped and the outdoor table is cleared before the crew drives out.',
         'A Saturday in Kāʻanapali needs the highway time written into the arrival, not discovered when the plates are late. Photos of the cooktop decide the house. The course format is the [romantic dinner](/fine-dining/romantic-dinner). This page is the villa night for two.',
+        'Book this for the Villa Week landing: two plates, the couple who just arrived, and the Wailea or Kapalua kitchen before blue hour. A Saturday drive on Honoapiʻilani is written into that arrival. Plates use the lānai when the trade wind allows and move under the roof when it does not. Parents join only if you add them before the shop. One night uses Maui’s signature per-guest band, groceries inside it. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. See [pricing](/pricing) and [Personal chef Maui](/private-chef). A later year-mark is [anniversary nights](/events/anniversaries). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -486,13 +489,14 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Chef’s table in a Maui villa — the counter, not a resort communal table.',
       title: 'Chef’s table in a Maui villa | myCHEF',
       description:
-        'The chef cooks and plates at a Wailea or Kapalua counter while you sit there. The house pass, not a resort communal table.',
+        'The chef plates at a Wailea or Kapalua counter while you sit the island. A lawn is a different booking. Request a written quote for that villa.',
       lede:
         'Stools at the open kitchen. The cook plates where you can see the pans. The lānai is the view, not the pass.',
       photo: 'svcChefsTableMaui',
       body: [
         'Guests sit the Wailea or Kapalua counter while the cook fires in front of them. Arrival is set so a Saturday highway does not collide with the first plate. The wind plan says whether a course may pause on the lānai. It does not move the seats off the island. Cleanup is the pass.',
         'A lawn is a different booking. This format needs a counter that faces the range. The sequence of courses lives on the [chef’s table evening](/fine-dining/chefs-table-evening). Here you are booking the cook at the island.',
+        'On a Villa Week the stools stay at the Wailea or Kapalua island. Saturday traffic on Honoapiʻilani is written into the arrival so the first pan is not late. A lawn party does not borrow this counter. Send the villa, the date, who sits, dietary notes, and a photo of the range. Seat count is confirmed in writing after the kitchen is seen. The shop sits inside Maui’s signature per-guest band. Wind backup is not a food charge. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. Read [pricing](/pricing) and [Personal chef Maui](/private-chef). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -721,13 +725,14 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Honeymoon dinners on Kauai — two seats, both shores.',
       title: 'Honeymoon dinners on Kauai — two seats | myCHEF',
       description:
-        'A private dinner for two in Princeville or Poʻipū. Rain plan and the Hanalei bridge stay in the note. Request availability.',
+        'A private dinner for two in Princeville or Poʻipū on a first trip. Rain and the Hanalei bridge stay in the note. Request availability.',
       lede:
         'Two plates under a covered Princeville terrace, or on a Poʻipū evening when the sky holds. Request availability. The week is a separate ask.',
       photo: 'svcHoneymoonKauai',
       body: [
         'Name the shore when you request availability. The cook sets the range in that estate kitchen and plates at a covered table if rain is forecast. A far-North house still follows the Hanalei bridge. If the road closes, the night moves. Service stays with the couple. The kitchen is left clean before the drive back.',
         'Poʻipū is the shorter run from Līhuʻe and still needs a wet-weather note. Princeville needs the bridge called out in the same request. The course format is the [romantic dinner](/fine-dining/romantic-dinner). This page is the two-person night on the shore you named.',
+        'Request availability for the first-trip couple, two seats, and one shore. Princeville needs the Hanalei bridge in the same note. If the road closes, the night moves. Poʻipū is the shorter run from Līhuʻe and still needs a covered table if rain is forecast. A request is not a held price. If a crew can take the shore, the night uses this island’s signature per-guest band, groceries inside it. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing) and [Personal chef Kauai](/private-chef). A dated return is [anniversary dinners](/events/anniversaries). Request availability on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -767,13 +772,14 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Chef’s table in a Kauai villa — the counter facing the mountains.',
       title: 'Chef’s table in a Kauai villa | myCHEF',
       description:
-        'The chef cooks and plates at a Princeville or Poʻipū counter. Request availability. Rain and the bridge stay in the note.',
+        'The chef plates at a Princeville or Poʻipū counter while you sit the island. Rain and the Hanalei bridge stay in the note. Request availability.',
       lede:
         'Stools at the estate counter, peaks or cliffs in the glass. The cook plates there. Request availability for the shore.',
       photo: 'svcChefsTableKauai',
       body: [
         'Request availability with the shore named. Guests sit the counter that faces the cook. If rain hits a Princeville garden, the stools stay inside. The covered note is part of the request. A Hanalei bridge closure moves a far-North night. The pass is wiped before the crew leaves.',
         'A narrow galley that cannot seat anyone at the range is declined in the reply. Poʻipū counters are the same format with a shorter drive. The course arc is the [chef’s table evening](/fine-dining/chefs-table-evening). This page is the cook at the estate island.',
+        'Request availability with Princeville or Poʻipū named before any stool is promised. Mist keeps a Princeville seating indoors, and the garden stays a view. A house past the Hanalei bridge has to say so, because a closure moves the night. Poʻipū is the shorter run from Līhuʻe and still needs the covered note. Seat count is confirmed in writing after the kitchen is seen. Once a crew can take the shore, grocery shopping sits inside this island’s signature per-guest band. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing) and [Personal chef Kauai](/private-chef). Request availability on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -1009,6 +1015,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'Join the inquiry list with a Kona, Waikoloa, or Kohala address. The cook sets up in that kitchen and plates indoors when the lava terrace is still hot, or outside once the stone cools. Service stays with the couple. The range is cleaned before the crew leaves the west side. A Volcano evening does not share that day.',
         'Published starting prices from $210 a guest on this island, groceries inside the band, and dinners from $165 a guest. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. The course format is the [romantic dinner](/fine-dining/romantic-dinner). See [pricing](/pricing).',
+        'Join the inquiry list for a first west-side trip: two plates, a Kona, Waikoloa, or Kohala kitchen, and the terrace only after the lava stone cools. Hilo and Volcano are a separate dedicated east-side day and do not share this crew. One night uses this island’s signature per-guest band, groceries inside it. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing) and [Private chef Kona](/private-chef). A dated return is [anniversary dinners](/events/anniversaries). Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -1055,6 +1062,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'Join the inquiry list for a Kona or Kohala kitchen with a real counter. Guests sit that island while the cook works the range in front of them. Hard afternoon sun keeps the first courses inside. The lava terrace is a view, not the pass. The counter is scrubbed before the crew leaves the west side.',
         'A galley with no place to sit the cook is declined in the reply. Coffee on a crust is a recipe, and a farm is named only when the receipt supports it. The course arc is the [chef’s table evening](/fine-dining/chefs-table-evening). This page is the cook at the west-side island. Hilo is a separate dedicated east-side day, quoted in writing.',
+        'Join the inquiry list for a Kona, Waikoloa, or Kohala counter only. Hard afternoon sun keeps the early courses inside. The lava terrace stays a window, not the pass. Hilo and Volcano stay a separate dedicated east-side day. Seat count is confirmed in writing after the kitchen is seen. Grocery shopping sits inside this island’s signature per-guest band. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing) and [Private chef Kona](/private-chef). Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {

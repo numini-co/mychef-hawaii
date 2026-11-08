@@ -31,6 +31,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       photo: 'occAnniversaryOahu',
       body: [
         'Two place settings in a Kahala dining room, or a small table in a Ko Olina villa, start in the kitchen you hand over. The cook plates after any town freight window. Courses go to the table you named, then we clear the pass. Rain moves an outdoor Gold Coast plan indoors, and that backup is on the quote with 20% service and Hawaiʻi GET up to 4.712% on their own and a 50% deposit after you accept. Gratuity is never required. A larger list belongs with [all occasions](/events). Bands are on [pricing](/pricing). Send the house on [the quote form](/quote). See [staffing](/staffing).',
+        'This night marks a date you are coming back for, not the week you first land. Two place settings in a Kahala dining room, or a small family table in a Ko Olina villa, are both this booking. A cake you bring is plated at the moment you name, or we plate a dessert from the same kitchen. Send the house, the date, and two seats or the small count. The dinner uses this island’s signature per-guest band, groceries inside it. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. See [pricing](/pricing). Arrival-week seating is [honeymoon dinners](/honeymoon-dinners). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -211,13 +212,14 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Anniversary nights on a Wailea lanai — two plates, not a buyout.',
       title: 'Anniversary nights on a Wailea lanai | myCHEF',
       description:
-        'Anniversary tables in Wailea, Kapalua and Kīhei. Two seats or a small list. Not a restaurant buyout.',
+        'A dated anniversary table in Wailea, Kapalua, or Kīhei: two seats or a small family list, and a cake you bring. Request a written quote.',
       lede:
         'Blue hour, two plated fish, Molokini faint. Or a small family table on the lawn.',
       photo: 'occAnniversaryMaui',
       body: [
         `Wet-weather backup is written for lawns.`,
         'A Wailea or Kapalua anniversary is two plates, or a very small table, cooked in the villa. The cook plates before blue hour, and a Saturday drive up from the south is already in that arrival. You hand over the cooktop and the seats. Courses go to the lanai, then we clear. Trade winds that close it move those seats into the dining room, written before you accept. The quote is that small table, then 20% service and GET up to 4.712% each alone, and a 50% deposit after you accept. Gratuity is never required. A full lawn belongs on [all occasions](/events). Numbers are on [pricing](/pricing). Name the shore on [the quote form](/quote). A full wedding week is [weddings](/weddings).',
+        'Pick the date you are returning to Wailea, Kapalua, or Kīhei, and say whether the table is two plates or a very small family list. A cake you carry in is cut at the hour you set, or a dessert leaves the villa pass. We do not invent a bakery name. Trade wind that closes the lānai moves those seats into the dining room. The small table uses Maui’s signature per-guest band, groceries inside it. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. See [pricing](/pricing). The landing week is [honeymoon dinners](/honeymoon-dinners). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -309,6 +311,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       photo: 'occVillaMaui',
       body: [
         'A Wailea lawn party starts in the rental kitchen. The cook is on site in time to fire platters before guests reach the grass. You hand over the cooktop, the fridge, and a table that matches the list. We serve, then clear the kitchen. Trade winds move the night under the lanai roof or into the dining room, and that plan is on the quote before you accept. Saturday traffic between the shores changes the call time. The quote lists food, any server hours, 20% service and GET up to 4.712% each alone, and a 50% deposit after you accept. Gratuity is never required. See [all occasions](/events) and [pricing](/pricing). Send the shore on [the quote form](/quote). See [Maui catering](/catering).',
+        'Name Wailea, Kāʻanapali, Kapalua, or Kīhei, and say whether the list stands on the lawn or sits in the dining room. The cook fires platters before guests reach the grass. Trade wind moves the night under the lānai roof, written before you accept. Send the real chair count with photos of the cooktop. Food for that list uses Maui’s signature per-guest band, groceries inside it. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. See [pricing](/pricing). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -393,21 +396,22 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
     {
       slug: 'anniversaries',
       name: 'Anniversaries',
-      h1: 'Anniversary dinners on a Kauai estate — inquiry, both shores.',
+      h1: 'Anniversary dinners on a Kauai estate — a dated night, both shores.',
       title: 'Anniversary dinners on a Kauai estate | myCHEF',
       description:
-        'Anniversary tables in Princeville, Hanalei and Poʻipū. Inquiry stage. Two seats or a small list.',
+        'A dated anniversary table in Princeville or Poʻipū: two seats or a small list, and a cake you bring. Request availability for that shore.',
       lede:
         'Two seats on wet North Shore stone, or a South Shore table. Inquiry. The road may decide the North.',
       photo: 'occAnniversaryKauai',
       body: [
         'Request availability with the shore.',
         'Request availability with the shore before an anniversary date is treated as held. In Hanalei the road has to be open, and a bridge closure moves the two seats rather than dropping them. In Poʻipū the drive from Līhuʻe is shorter, and rain still needs the indoor table named ahead. The cook sets the estate kitchen, plates, and clears. A cake you bring is welcome. The request shows the small table, 20% service and GET up to 4.712% each alone, and a 50% deposit only after a written yes. Gratuity is never required. A larger terrace is on [all occasions](/events). The card is [pricing](/pricing). Request availability on [the quote form](/quote). Extra hands are [staffing](/staffing).',
+        'Request availability for the date you are marking, and name Princeville or Poʻipū. Two seats, or a very small family table, are this booking. A cake you bring sits beside a dessert the estate kitchen plates. A bridge closure moves the two seats rather than dropping them on the south shore. If a crew can take the shore, the small table uses this island’s signature per-guest band, groceries inside it. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing). A first trip is [honeymoon dinners](/honeymoon-dinners). Request availability on [the quote form](/quote).',
       ],
       faqs: [
         {
           q: 'Can I lock a Kauaʻi anniversary date today?',
-          a: 'No. Request availability with the shore and the dates. An inquiry is not a confirmation. There is no instant-booking button.',
+          a: 'No. Request availability with the shore, the estate, and the dates before that night is treated as held. A request is not a confirmation. There is no instant-booking button.',
         },
         {
           q: 'Can it be just the two of us in Hanalei?',
@@ -495,11 +499,12 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       body: [
         'Inquiry stage.',
         'Request availability before you treat a Princeville or Poʻipū date as held. On an open road the cook sets the estate kitchen, sends the meal to the terrace or dining room you named, and clears before leaving. North of the Hanalei bridge, rain or a closure moves the night. It does not cancel it, and it does not relocate it south. Poʻipū is the shorter drive from Līhuʻe and still needs an indoor backup. The note shows food, any server hours, 20% service and GET up to 4.712% each alone, and a 50% deposit only after a written yes. Gratuity is never required. See [all occasions](/events) and [pricing](/pricing). Request availability on [the quote form](/quote). Extra hands are [staffing](/staffing).',
+        'The list is the terrace or the dining room you can actually seat, not a two-seat year-mark. Request availability with Princeville or Poʻipū, the real chair count, and whether platters go outside. Food for that list uses this island’s signature per-guest band, groceries inside it. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing). Request availability on [the quote form](/quote). Show the burner row, the pass depth, the platter path, and the chair clearance in photos, plus napkins.',
       ],
       faqs: [
         {
           q: 'Can I reserve a Kauaʻi estate-party date today?',
-          a: 'No. Request availability with the shore and the dates. A named estate is not a confirmed crew. There is no instant-booking button.',
+          a: 'No. Request availability with the shore, the estate, and the dates. A named house is not a confirmed crew. There is no instant-booking button. Say Princeville or Poʻipū.',
         },
         {
           q: 'Can children be on a north-shore terrace for the party?',
@@ -590,6 +595,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       body: [
         'West-side: Kona–Kohala corridor.',
         'Join the inquiry list for two plates on a Kona or Kohala terrace, or a small table in the great room. The cook plates before sunset. You hand over the cooktop and the seats. Wind that shuts the lava terrace moves dinner into that same great room, written before you accept. We clear when the courses are done. Hilo is a dedicated day and is not added onto this night. The inquiry shows the small table, 20% service and Hawaiʻi GET up to 4.712% each alone, and a 50% deposit after a written yes. Gratuity is never required. A full terrace belongs on [all occasions](/events). The card is [pricing](/pricing). Join the inquiry list on [the quote form](/quote). See [staffing](/staffing).',
+        'Join the inquiry list for a dated return on the Kona–Kohala side: two plates on the terrace once the stone cools, or a small table in the great room. A cake you bring is cut at the moment you set. Wind that shuts the lava terrace moves the courses into that same great room. Hilo is a dedicated east-side day and is not added onto this night. The small table uses this island’s signature per-guest band, groceries inside it. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -682,6 +688,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       body: [
         'West-side radius: Kona–Kohala corridor.',
         'Join the inquiry list with a Kona, Waikoloa, or Kohala address. The cook sets the kitchen before anyone sits. You hand over the cooktop, the fridge, and either the lava terrace or the great room. We cook, serve, and clear. Wind that shuts the terrace moves the party indoors in the same house, written in the inquiry before a yes. Hilo is a dedicated day and is never implied here. Flag Ironman weeks. The note shows food, any server hours, 20% service and Hawaiʻi GET up to 4.712% each alone, and a 50% deposit after a written yes. Gratuity is never required. See [all occasions](/events) and [pricing](/pricing). Join the inquiry list on [the quote form](/quote). See [staffing](/staffing).',
+        'Join the inquiry list with the real headcount and say lava terrace or great room. The cook sets a Kona, Waikoloa, or Kohala kitchen. Wind that shuts the terrace moves the party indoors in that same house. Hilo is a dedicated east-side day and is never implied by this terrace. Food for the list uses this island’s signature per-guest band, groceries inside it. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
