@@ -479,9 +479,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'A chef for the Oʻahu villa week. Stay Chef from $1,250 a day, groceries at cost.',
   },
   '/oahu/catering': {
-    title: 'Oahu Catering | Honolulu to Ko Olina Events | myCHEF',
+    title: 'Oahu Catering Menus | Honolulu to Ko Olina Events | myCHEF',
     description:
-      'Oahu catering and Honolulu catering from $195 a guest — staffed villa and estate events from Honolulu and Kahala to Ko Olina, 10–75 guests. Buffet or plated. Request a quote.',
+      'Oahu catering menus from $195 a guest: staffed villa and estate events from Honolulu and Kahala to Ko Olina, 10–75 guests. Buffet, plated or family-style.',
   },
   '/oahu/weddings': {
     title: 'Wedding Catering Oahu | Gold Coast Weekends | myCHEF',

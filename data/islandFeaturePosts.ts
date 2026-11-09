@@ -17,6 +17,8 @@ export interface FeaturePost extends BlogArticle {
   feature: true;
   keyword: string;
   datePublished: string;
+  /** Set when the main copy, title or meta is refreshed after publishing. */
+  dateModified?: string;
   sections: FeatureSection[];
 }
 
@@ -249,11 +251,12 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       slug: 'ko-olina-restaurants-dining-guide',
       keyword: 'ko olina restaurants',
       datePublished: '2026-10-16',
+      dateModified: '2026-11-09',
       name: 'Ko Olina restaurants dining guide',
       h1: 'Ko Olina restaurants — resort tables, marina nights and when to cook at the villa.',
-      title: 'Ko Olina Restaurants — Dining Guide for Villa Weeks | myCHEF',
+      title: 'Ko Olina Restaurants & Resort Dining Guide | myCHEF',
       description:
-        'Ko Olina restaurants for a villa week: resort rooms, marina tables, reservations and when a private chef night at the house is the better plan.',
+        'Ko Olina restaurants and resort dining for a villa week: hotel rooms, marina tables, reservations and when a chef night at the house is the better plan.',
       lede:
         'Ko Olina restaurants sit inside a compact west-side resort pocket: hotel dining rooms, marina-facing tables and a short loop of walkable options. This guide is for villa and condo guests who want to know when to book a table and when dinner at the house makes more sense.',
       photo: 'dinKoOlina',
@@ -361,11 +364,12 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       slug: 'thanksgiving-dinner-oahu',
       keyword: 'thanksgiving dinner oahu',
       datePublished: '2026-10-19',
+      dateModified: '2026-11-09',
       name: 'Thanksgiving dinner on Oʻahu',
       h1: 'Thanksgiving dinner on Oahu — the holiday table, cooked at your house.',
-      title: 'Thanksgiving Dinner Oahu — a Chef at Your House | myCHEF',
+      title: 'Thanksgiving Dinner Oahu 2026 — Chef at Your House | myCHEF',
       description:
-        'Planning Thanksgiving dinner on Oahu? Restaurant buffet or a chef at the house, turkey and oven limits, island sides, timing and the published prices.',
+        'Thanksgiving dinner on Oahu, Thu 26 Nov 2026: restaurant buffet, pick-up meal or a chef at the house. Turkey and oven limits, sides, timing, prices.',
       lede:
         'Thanksgiving 2026 falls on Thursday 26 November. If your family is spending it in an Oʻahu house rather than a hotel room, this is how to plan the dinner so nobody spends the holiday in the kitchen.',
       photo: 'kailua',
@@ -1883,11 +1887,12 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       slug: 'thanksgiving-dinner-maui',
       keyword: 'thanksgiving dinner maui',
       datePublished: '2026-10-19',
+      dateModified: '2026-11-09',
       name: 'Thanksgiving dinner on Maui',
       h1: 'Thanksgiving dinner on Maui — cooked in your villa, not a buffet line.',
-      title: 'Thanksgiving Dinner Maui — Cooked at Your Villa | myCHEF',
+      title: 'Thanksgiving Dinner Maui 2026 — Chef at Your Villa | myCHEF',
       description:
-        'Thanksgiving dinner on Maui: resort buffet, pick-up meal or a chef in your villa. Wailea, Kīhei and West Maui logistics, menus, timing and real prices.',
+        'Thanksgiving dinner on Maui, Thu 26 Nov 2026: resort buffet, pick-up meal or a chef in your villa. Wailea, Kīhei and West Maui logistics, menus, prices.',
       lede:
         'Thanksgiving 2026 is Thursday 26 November. If your family has a Maui villa or condo for the week, here is how to get a proper holiday dinner on the table without anyone giving up the beach to cook it.',
       photo: 'kaanapali',
@@ -3629,9 +3634,10 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       slug: 'thanksgiving-dinner-kauai',
       keyword: 'thanksgiving kauai',
       datePublished: '2026-10-21',
+      dateModified: '2026-11-09',
       name: 'Thanksgiving on Kauaʻi',
       h1: 'Thanksgiving on Kauaʻi — the turkey, the shore you pick and dinner at the house.',
-      title: 'Thanksgiving Kauai — Dinner at Your Rental | myCHEF',
+      title: 'Thanksgiving Kauai 2026 — Dinner at Your Rental | myCHEF',
       description:
         'Thanksgiving on Kauai 2026: resort buffet, pick-up or a chef at your rental, turkey and grocery logistics, North vs South Shore, menus and real prices.',
       lede:
@@ -3697,7 +3703,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         {
           heading: 'How to ask for Thanksgiving on Kauaʻi',
           paras: [
-            'Send the rental address, the date, the number of adults and children, allergies and the time you want to eat. Use the inquiry form or message us on WhatsApp at +1 808-468-7748, and we reply with a written quote. Thanksgiving is five weeks away, so the earlier the better.',
+            'Send the rental address, the date, the number of adults and children, allergies and the time you want to eat. Use the inquiry form or message us on WhatsApp at +1 808-468-7748, and we reply with a written quote. Thanksgiving is Thursday 26 November and holiday dates fill first, so the earlier the better.',
             'Staying through December too? Our [Christmas in Kauai guide](/blog/christmas-in-kauai-holiday-dinners) covers the next holiday. For an overview of villa dinners on both shores, see [private chef Kauai](/).',
           ],
         },
@@ -5270,9 +5276,10 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       slug: 'thanksgiving-dinner-kona',
       keyword: 'thanksgiving dinner kona',
       datePublished: '2026-10-22',
+      dateModified: '2026-11-09',
       name: 'Thanksgiving dinner in Kona',
       h1: 'Thanksgiving dinner in Kona — the turkey, the coast and dinner at the rental.',
-      title: 'Thanksgiving Dinner in Kona — At Your Rental | myCHEF',
+      title: 'Thanksgiving Dinner Kona 2026 — At Your Rental | myCHEF',
       description:
         'Thanksgiving dinner in Kona 2026: resort buffet, to-go meal or a chef at your rental, turkey and grocery logistics, sunset timing and Big Island prices.',
       lede:
@@ -5339,7 +5346,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         {
           heading: 'How to ask for Thanksgiving in Kona',
           paras: [
-            'Send the rental address, the number of adults and children, allergies and the time you want to eat. Use the inquiry form or message us on WhatsApp at +1 808-468-7748, and we reply with a written quote. Thanksgiving is about five weeks away, so the earlier the better. For villa dinners across the west side, see [private chef Big Island](/).',
+            'Send the rental address, the number of adults and children, allergies and the time you want to eat. Use the inquiry form or message us on WhatsApp at +1 808-468-7748, and we reply with a written quote. Thanksgiving is Thursday 26 November and holiday dates fill first, so the earlier the better. For villa dinners across the west side, see [private chef Big Island](/).',
           ],
         },
       ],
