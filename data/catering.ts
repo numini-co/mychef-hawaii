@@ -34,9 +34,9 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     keyword: 'oahu catering',
     volume: CATERING_VOLUMES['oahu catering'],
     h1: 'Oahu catering — staffed events from Honolulu to Ko Olina.',
-    title: 'Oahu Catering | Honolulu to Ko Olina Events | myCHEF',
+    title: 'Oahu Catering Menus | Honolulu to Ko Olina Events | myCHEF',
     description:
-      'Oahu catering from $195 a guest — staffed villa and estate events from Honolulu and Kahala to Ko Olina, 10–75 guests. Buffet or plated. Request a quote.',
+      'Oahu catering menus from $195 a guest: staffed villa and estate events from Honolulu and Kahala to Ko Olina, 10–75 guests. Buffet, plated or family-style.',
     lede:
       'Staffed Oahu catering for villas, estates and residences — buffet, plated or family-style for 10–75 guests. Honolulu catering from Kahala to Ko Olina, with published prices and a written menu.',
     fromPp: 195,

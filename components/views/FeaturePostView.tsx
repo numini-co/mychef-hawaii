@@ -27,7 +27,7 @@ export function FeaturePostView({ islandId, post }: { islandId: IslandId; post: 
             description: post.description,
             image: `${origin}${photo.file}`,
             datePublished: post.datePublished,
-            dateModified: post.datePublished,
+            dateModified: post.dateModified ?? post.datePublished,
             mainEntityOfPage: { '@type': 'WebPage', '@id': url },
             url,
             keywords: post.keyword,
