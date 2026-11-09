@@ -74,6 +74,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'Dinners run from two to fifteen. Receptions are about ten to seventy-five. A Kahala dining room holds a seated table. A Ko Olina villa can hold a larger lawn when the house allows it. A Waikīkī condo kitchen holds what the galley and the building rules allow.',
         'Children are part of the headcount on the quote. What that does to the total is set out in the written quote. There is no separate published kids’ price and no age cut-off. A plated Gold Coast list may add a server. See [staffing](/staffing). If the seats change, tell us and we re-quote in writing. Bands are on [pricing](/pricing).',
+        'A headcount in the two-to-fifteen dinner range can be a seated signature night, [plated](/catering/plated) in a Kahala dining room or [family-style](/catering/family-style) down a Ko Olina table. Once the list is a reception, about ten to seventy-five, the house may take a [buffet](/catering/buffet) or a [drop-off](/catering/drop-off) if the galley and the building rules allow it. A Waikīkī condo does not inherit a lawn. A server or a sous chef is its own line on [staffing](/staffing) when the style needs one. This page still prints no crew ratio. Bands stay on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -120,6 +121,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'List every limit with the address: gluten-free, dairy-free, nut-free, shellfish, vegan or vegetarian, pescatarian, and any religious diet. Those plates are written before the Kahala, Ko Olina, Honolulu, or Kailua shop. A tower freight window means the list is done before the crew comes up. Draft steps are the [menu guide](/help/menu-guide).',
         'The kitchen you hand us is a rental, not a certified allergen-free room. The cook can keep a wiped board and a separate pan when that kitchen has the space. If a compact condo cannot hold the limit, we say so before you accept. We do not make a medical claim, and we do not name a farm. Request a written quote on [the quote form](/quote).',
+        'Write every limit on the request and it lands on the menu draft before the Kahala, Ko Olina, Honolulu, or Kailua shop. Tell the chef what the kitchen is: cooktop, fridge, whether a second board fits, and the freight window if the burners sit in a tower. Cross-contact is a wiped board and a separate pan. We will not claim a certified allergen-free kitchen or a medical result. If a compact condo cannot keep the separation, the written quote says so before you accept.',
       ],
       faqs: [
         {
@@ -357,6 +359,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'Villa dinners run from two to fifteen, in the kitchen you name. Lawn receptions are about ten to seventy-five when that Wailea or Kapalua house can hold them. A Kīhei lot is not an automatic seventy-five. Saturday traffic changes the drive, not the number of seats.',
         'Children are part of the headcount on the quote. What that does to the total is set out in the written quote. There is no separate published kids’ price and no age cut-off. A plated Wailea lawn may need another pair of hands. See [staffing](/staffing). If the lawn grows, we re-quote in writing. Bands are on [pricing](/pricing).',
+        'Two to fifteen in a villa kitchen can stay seated: [plated](/catering/plated) at a Wailea table or [family-style](/catering/family-style) on a Kapalua lānai. A lawn in the about-ten-to-seventy-five range is where [buffet](/catering/buffet) or [drop-off](/catering/drop-off) gets written, and only if that Kāʻanapali or Kīhei house can hold the list. Saturday traffic changes the drive, not the seats. Extra hands, when the style needs them, are a line on [staffing](/staffing). No crew ratio is printed here. See [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -396,13 +399,14 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Allergy notes for a Maui villa week — before arrival night.',
       title: 'Allergy notes for a Maui villa week | myCHEF',
       description:
-        'Wailea, Kapalua, and Kāʻanapali kitchens write gluten-free, shellfish, vegan, and religious limits before the shop. No farm names. Request a written quote.',
+        'Wailea, Kapalua, and Kāʻanapali kitchens write gluten-free, shellfish, vegan, and religious limits before the shop. Request a written quote.',
       lede:
         'A villa week has one kitchen and one first shop. Shellfish, gluten-free, vegan, and religious limits have to be in that note before arrival night.',
       photo: 'svcDietaryMaui',
       body: [
         'Send the limits with the villa: gluten-free, dairy-free, nut-free, shellfish, vegan or vegetarian, pescatarian, and any religious diet. Wailea, Kapalua, and Kāʻanapali are written before the shop, not swapped on the lānai. A Saturday drive is already in the arrival, so a late note misses the buy. Draft steps are the [menu guide](/help/menu-guide).',
         'The villa kitchen is a rental. Cross-contact is handled with a wiped board and a separate pan when the house has room. We will not claim a certified allergen-free kitchen, a medical outcome, or a named Upcountry farm. If the kitchen cannot hold the limit, the quote says so. Request a written quote on [the quote form](/quote). Numbers are on [pricing](/pricing).',
+        'The limit goes on the Villa Week request and onto the draft before the Wailea, Kapalua, or Kāʻanapali shop, not as a swap on arrival night. The chef needs the villa kitchen in photos: the range, the fridge, and whether a second board fits beside it. A Saturday drive is already in the arrival, so a late allergy misses that buy. Cross-contact is a wiped board and a separate pan when the house has room. We will not claim a certified allergen-free kitchen or a medical result.',
       ],
       faqs: [
         {
@@ -640,6 +644,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'Princeville and Poʻipū use the same bands. The house decides, not the shore. Rain can move a north-shore table indoors without changing the headcount. A closure on the Hanalei bridge moves the night. It does not silently resize the list onto the south shore. A list past about seventy-five is quoted as its own format or declined.',
         'Children are part of the headcount on the quote. What that does to the total is set out in the written quote. There is no separate published kids’ price and no age cut-off. A plated estate table may add a server or a sous chef on [staffing](/staffing). Tell us if the count changes and we re-quote in writing. Bands are on [pricing](/pricing).',
+        'Request availability with one number. Dinners from two to fifteen can be [plated](/catering/plated) in a Princeville dining room or [family-style](/catering/family-style) at a Poʻipū table. A reception about ten to seventy-five is where [buffet](/catering/buffet) or [drop-off](/catering/drop-off) is written, if that estate and a crew can hold it. Rain moves the room indoors. It does not resize the list, and a bridge closure does not hand the count to the other shore. A server line, if you ask, stays on [staffing](/staffing). Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -686,6 +691,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'Put gluten-free, dairy-free, nut-free, shellfish, vegan or vegetarian, pescatarian, and any religious diet in the request, with Princeville or Poʻipū named. The rain plan is written with that list. A house past the Hanalei bridge still moves if the road closes. The other shore is a new request. Draft steps are the [menu guide](/help/menu-guide).',
         'Each estate kitchen is a rental. A wiped board and a separate pan are used when that kitchen can keep them. We will not claim a certified allergen-free kitchen or a medical result, and we will not name a farm. A retreat week is a different page at [retreats](/events/retreats). Request availability on [the quote form](/quote).',
+        'Request availability and put each limit on that note, with the shore and whether rain backup is a covered lānai or the dining room. The Princeville draft is not the Poʻipū draft. The chef needs photos of that kitchen, including a second board if the limit needs one. Cross-contact is a wiped board and a separate pan only when that estate can keep them. We will not claim a certified allergen-free kitchen or a medical result. A bridge closure does not carry the list to the other shore.',
       ],
       faqs: [
         {
@@ -923,6 +929,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'Dinners run from two to fifteen. Receptions are about ten to seventy-five, on Kona, Waikoloa, and Kohala terraces and dining rooms first. Ironman week compresses Kailua-Kona. Flag the dates. The bands do not grow. A larger list is quoted as its own format or declined. Hilo and Volcano are not added onto a west-side count.',
         'Children are part of the headcount on the quote. What that does to the total is set out in the written quote. There is no separate published kids’ price and no age cut-off. A plated terrace may add a server or a sous chef on [staffing](/staffing). Tell us if the count changes and we re-quote in writing. Bands are on [pricing](/pricing).',
+        'Join the inquiry list with a west-side number. Dinners from two to fifteen on a Kona or Kohala terrace can be [plated](/catering/plated) or [family-style](/catering/family-style). A reception about ten to seventy-five is where [buffet](/catering/buffet) or [drop-off](/catering/drop-off) is written, if that Waikoloa house can hold it. Ironman week does not grow the band. Hilo is not added to the count. A server or a sous chef is a separate line on [staffing](/staffing) when the style needs one. No crew ratio is printed here. See [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -969,6 +976,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'Name Kona, Waikoloa, or Kohala, and list gluten-free, dairy-free, nut-free, shellfish, vegan or vegetarian, pescatarian, and any religious diet before the west-side shop. Hard sun keeps the work in the kitchen. A gluten-free crust and a coffee label are different facts. Origin is printed when the receipt supports it. Draft steps are the [menu guide](/help/menu-guide).',
         'The house is a rental kitchen. Cross-contact is a wiped board and a separate pan when the counter allows it. We will not claim a certified allergen-free kitchen or a medical result. Hilo and Volcano are not added to a Waikoloa note. They are a separate dedicated east-side day, quoted in writing. Join the inquiry list on [the quote form](/quote).',
+        'Join the inquiry list with every limit beside the Kona, Waikoloa, or Kohala address. The draft is written before that west-side shop. The chef needs the kitchen in photos: cooktop, fridge, and whether a second board fits out of the hard sun. Cross-contact is a wiped board and a separate pan when the counter allows it. We will not claim a certified allergen-free kitchen or a medical result. Hilo does not share that shop. It remains a separate dedicated east-side day. Coffee origin stays a receipt fact, not a diet.',
       ],
       faqs: [
         {
