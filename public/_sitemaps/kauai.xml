@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-11-08T23:17:48Z</lastmod>
+    <lastmod>2026-11-09T23:22:58Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -212,7 +212,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-11-08T23:17:48Z</lastmod>
+    <lastmod>2026-11-09T23:22:58Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -848,7 +848,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/poipu-restaurants-dining-guide</loc>
-    <lastmod>2026-10-25T23:14:16Z</lastmod>
+    <lastmod>2026-11-09T23:22:58Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -908,7 +908,13 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/kauai-vacation-rentals-kitchen-guide</loc>
-    <lastmod>2026-11-08T23:17:48Z</lastmod>
+    <lastmod>2026-11-09T23:22:58Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://kauai.mychef-hawaii.com/blog/kauai-family-vacation-planning-guide</loc>
+    <lastmod>2026-11-09T23:22:58Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>

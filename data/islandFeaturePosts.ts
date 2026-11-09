@@ -349,6 +349,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/oahu-elopement-planning-guide', label: 'Oʻahu elopement guide' },
         { path: '/blog/kapolei-restaurants-dining-guide', label: 'Kapolei restaurants guide' },
         { path: '/blog/waikiki-restaurants-dining-guide', label: 'Waikīkī restaurants guide' },
         { path: '/', label: 'Private chef Oahu' },
@@ -1299,6 +1300,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/oahu-elopement-planning-guide', label: 'Oʻahu elopement guide' },
         { path: '/weddings', label: 'Wedding catering Oahu' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/catering', label: 'Oahu catering' },
@@ -1539,6 +1541,117 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       related: [
         { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/hawaii-kai', label: 'Private chef Hawaiʻi Kai' },
+        { path: '/catering', label: 'Oahu catering' },
+        { path: '/pricing', label: 'Oahu private chef cost' },
+        { path: '/', label: 'Private chef Oahu' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'oahu-elopement-planning-guide',
+      keyword: 'oahu elopement',
+      datePublished: '2026-11-10',
+      name: 'Oʻahu elopement planning',
+      h1: 'Oahu elopement — license, place, timing and the dinner after.',
+      title: 'Oahu Elopement — License, Beaches & Dinner Plan | myCHEF',
+      description:
+        'Planning an Oahu elopement? The marriage license, beach permit rules, officiants, sunrise or sunset timing and a private dinner for two where you stay.',
+      lede:
+        'An Oahu elopement is mostly paperwork and timing: a Hawaiʻi marriage license picked up in person, a licensed officiant, a place you are allowed to stand, and a light that suits your photos. The ceremony itself often takes fifteen minutes. This guide walks through the license, the state beach permit rules, choosing between town and the quieter coasts, the hour of day, and how to finish with a dinner for two, or for a few guests, at the place you are staying. We are a private chef company, not a wedding planner or officiant, and we have no venue or vendor partners.',
+      photo: 'svcHoneymoonOahu',
+      body: [],
+      sections: [
+        {
+          heading: 'How does the Hawaiʻi marriage license work?',
+          paras: [
+            'Hawaiʻi marriage licenses are issued by the state Department of Health, not by the counties. You apply and pay online through the state’s marriage system, then the two of you meet a license agent together, in person, with valid photo ID. Proxies are not allowed. The Department of Health lists the cost as $65, a $60 application fee plus a $5 portal fee, and the fees are non-refundable.',
+            'There is no waiting period once the license is issued, and there is no residency requirement, but the timing has a catch: you can meet the agent no sooner than thirty days before the ceremony, and the license is void thirty days after it is issued. It is valid anywhere in the State of Hawaiʻi and nowhere else. Most couples book the agent appointment for the first or second day of the trip.',
+          ],
+        },
+        {
+          heading: 'Who can officiate, and what does a friend need?',
+          paras: [
+            'Every officiant must hold a license from the Hawaiʻi Department of Health before the ceremony. A one-year license costs $110 in total and a sixty-day license $35, and the state asks performers to register at least two weeks ahead because approval can take that long. That makes it realistic for a friend or relative to officiate, as long as they register in time.',
+            'If you would rather not organize it yourselves, many Oʻahu officiants and photographers sell short elopement sessions and handle the timing and the beach rules for you. Ask who holds any permit and what happens if the weather turns.',
+          ],
+        },
+        {
+          heading: 'Can you elope on an Oʻahu beach?',
+          paras: [
+            'Yes, but the rules are strict. Hawaiʻi’s public beaches are state land, and a ceremony run by a paid officiant, planner or photographer counts as a commercial activity that needs a right-of-entry permit from the Department of Land and Natural Resources. The fee is ten cents per square foot with a $20 minimum, and each permit covers no more than two hours, including setup and cleanup.',
+            'Nothing may be placed on the sand: no arches, altars, tables, chairs, tents or signs, and no amplified sound. Loose flowers, lei, bouquets, unamplified instruments such as a conch shell, cameras and a few chairs for elderly or disabled guests are allowed. Public beaches also stay public, so expect swimmers in the background. If you want chairs, a table and a toast, plan that part for a private lānai or garden instead.',
+          ],
+        },
+        {
+          heading: 'Town, windward or west side: choosing a setting',
+          paras: [
+            'Waikīkī and the Diamond Head side give you the city skyline, easy logistics and the most people. The windward coast around Kailua and Lanikai has pale sand and turquoise water, best at sunrise when the light comes over the ocean and before the beaches fill. The west side around Ko Olina faces the sunset and is the driest part of the island. The North Shore is spectacular but has big surf in winter and a long drive home after dark.',
+            'Think about the drive back as part of the plan. A sunrise ceremony on the windward side and breakfast in Kailua is an easy day. A North Shore sunset and a dinner reservation in Waikīkī is a long evening. Our [Oʻahu wedding venues guide](/blog/oahu-wedding-venues-guide) covers resort lawns, gardens and estates if the guest list grows past a handful of people.',
+          ],
+        },
+        {
+          heading: 'Sunrise or sunset: picking the hour',
+          paras: [
+            'Sunrise ceremonies on the east and windward coasts are quiet, cool and usually calm, and the photographer has soft light for the first hour. Sunset ceremonies on the west and south shores are warmer and busier, and the golden light is short, so the timeline runs to the minute. In the cooler months the sun sets earlier, and trade-wind showers can pass through in either light.',
+            'Whichever you choose, keep a rain plan. A short shower often passes in twenty minutes, so an officiant who can wait and a covered place nearby are worth more than a fixed time.',
+          ],
+        },
+        {
+          heading: 'Where to stay, and why the kitchen matters',
+          paras: [
+            'Many couples stay in Waikīkī for the first nights and then move to a quieter house or condo. Outside Honolulu’s resort zones, most homes can only be rented for thirty days or more, so check the permit or minimum stay before you book. A legal vacation rental with a real kitchen and a lānai is the easiest place to host the dinner after the ceremony, especially if a few family members flew in.',
+          ],
+        },
+        {
+          heading: 'The dinner after: for two or for a small group',
+          paras: [
+            'After the photos, most couples are tired, sandy and hungry, and a restaurant booking at a fixed time is one more thing to rush to. A [private chef Honolulu](/private-chef) dinner is planned with you before the trip, shopped that day, cooked and served at your stay, and the kitchen is cleaned before we leave. Fish is named as the species we actually bought. Our [honeymoon dinners](/honeymoon-dinners) page shows how a dinner for two is set.',
+            'If parents, siblings or a few friends joined you, the same evening becomes a small family-style dinner. Once the list passes about ten people, [Oahu catering](/catering) is the staffed version, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums. Tables, linens, tents and rentals are not included unless you ask, and then they are quoted separately. For a full wedding reception, see [wedding catering Oahu](/weddings).',
+          ],
+        },
+        {
+          heading: 'What does an elopement dinner cost with us?',
+          paras: [
+            'A dinner for two on Oʻahu is published from $675 per event. Signature dinners for six or more are $195–$290 a guest with groceries included. A 20% service charge and Hawaiʻi GET of up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. North Shore and Turtle Bay addresses carry a published travel line from $75. The full rate card is on [Oahu private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan it with us',
+          paras: [
+            'Send the address where you are staying, the date, the ceremony time, the number of guests and any allergies through the quote form, or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total, and we time dinner to your ceremony and photos, not the other way around. For dinners anywhere on the island, see [private chef Oahu](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'How do we get a marriage license for an Oʻahu elopement?',
+          a: 'Apply and pay $65 online with the Hawaiʻi Department of Health, then meet a license agent together in person with photo ID, no sooner than thirty days before the ceremony. The license is valid for thirty days, only in Hawaiʻi.',
+        },
+        {
+          q: 'Is there a waiting period or residency rule?',
+          a: 'No. There is no waiting period once the license is issued and no residency requirement.',
+        },
+        {
+          q: 'Do we need a permit to elope on an Oʻahu beach?',
+          a: 'A ceremony run by a paid officiant, planner or photographer on a public beach needs a DLNR right-of-entry permit: ten cents per square foot, $20 minimum, two hours at most, and no arches, chairs, tables or tents on the sand.',
+        },
+        {
+          q: 'Can a friend officiate our elopement in Hawaiʻi?',
+          a: 'Yes, if they are licensed by the Hawaiʻi Department of Health first. A sixty-day license costs $35, and the state asks performers to register at least two weeks before the ceremony.',
+        },
+        {
+          q: 'Can a private chef cook dinner after the ceremony?',
+          a: 'Yes. We cook at the house, condo or villa you are staying in, timed to your ceremony and photos, and clean the kitchen before we leave.',
+        },
+        {
+          q: 'How much is a dinner for two after an Oʻahu elopement?',
+          a: 'A dinner for two on Oʻahu starts from $675 per event, plus a 20% service charge and GET of up to 4.712% as their own lines. Gratuity is voluntary.',
+        },
+      ],
+      related: [
+        { path: '/blog/oahu-wedding-venues-guide', label: 'Oʻahu wedding venues guide' },
+        { path: '/private-chef', label: 'Private chef Honolulu' },
+        { path: '/weddings', label: 'Wedding catering Oahu' },
         { path: '/catering', label: 'Oahu catering' },
         { path: '/pricing', label: 'Oahu private chef cost' },
         { path: '/', label: 'Private chef Oahu' },
@@ -2109,6 +2222,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-whale-watching-season-guide', label: 'Maui whale watching season guide' },
         { path: '/blog/new-years-eve-maui-villa-dinner', label: 'New Year’s Eve in Maui' },
         { path: '/private-chef', label: 'Personal chef Maui' },
         { path: '/catering', label: 'Maui catering' },
@@ -2223,6 +2337,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-whale-watching-season-guide', label: 'Maui whale watching season guide' },
         { path: '/blog/maui-luau-villa-dinner-guide', label: 'Maui luau guide' },
         { path: '/blog/kapalua-restaurants-dining-guide', label: 'Kapalua restaurants guide' },
         { path: '/private-chef', label: 'Personal chef Maui' },
@@ -3059,6 +3174,124 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Maui' },
       ],
     },
+    {
+      feature: true,
+      slug: 'maui-whale-watching-season-guide',
+      keyword: 'whale watching season maui',
+      datePublished: '2026-11-10',
+      name: 'Maui whale watching season',
+      h1: 'Whale watching season on Maui — when, where and how to plan the days.',
+      title: 'Whale Watching Season Maui — When, Where & Rules | myCHEF',
+      description:
+        'Whale watching season on Maui explained: the months, the January–March peak, shore lookouts, boat tours, the 100-yard rule and planning dinners around it.',
+      lede:
+        'Whale watching season on Maui runs roughly from November to May, when thousands of North Pacific humpback whales come to Hawaiʻi to breed, give birth and nurse their calves. NOAA’s humpback whale sanctuary says the usual peak is January through March. Maui sits next to the shallow ʻAuʻau Channel between Maui, Molokaʻi and Lānaʻi, which is why so many sightings happen here. This guide explains the months, where to watch from shore and from a boat, the 100-yard rule, and how to plan the rest of the day, including dinners at your villa. We do not run or sell tours and we have no tour partners.',
+      photo: 'menusMaui',
+      body: [],
+      sections: [
+        {
+          heading: 'When is whale season on Maui?',
+          paras: [
+            'The Hawaiian Islands Humpback Whale National Marine Sanctuary says humpbacks are generally in Hawaiian waters from November through April or May, with a few seen in other months. The first arrivals show up in November and December, numbers climb through the holidays, and January to March is the usual peak. By April and May most mothers and calves have started the long trip north.',
+            'If whales are the main reason for the trip, aim for late January to mid-March. If you are coming for Christmas or New Year, you will very likely still see blows and breaches, just fewer of them. Our [Christmas in Maui guide](/blog/christmas-in-maui-villa-dinner) covers that busy holiday stretch.',
+          ],
+        },
+        {
+          heading: 'Why Maui is the whale island',
+          paras: [
+            'Humpbacks prefer water less than about 600 feet deep. The channel between Maui, Molokaʻi, Lānaʻi and Kahoʻolawe is a large, shallow, sheltered basin, and it is one of the most important breeding areas in the North Pacific. From the West and South Maui shores you are looking straight across it.',
+            'That is also why winter is the busiest time on Maui. Whale season overlaps with the holidays and with people escaping the mainland winter, so villas, rental cars and dinner reservations fill early from mid-December through March.',
+          ],
+        },
+        {
+          heading: 'Watching from shore',
+          paras: [
+            'You do not need a boat to see whales. The McGregor Point lookout on the highway west of Māʻalaea is a classic roadside spot, and the beaches of Kāʻanapali, Kīhei and Wailea all look out over the channel. On a calm morning you can often see blows, tail slaps and breaches from a villa lānai.',
+            'Bring binoculars and look for the spout first: a short, bushy puff of mist. Mornings are usually calmer before the trade winds pick up, which makes the white water easier to spot. Pull fully off the road at lookouts, because the highway is narrow and traffic is fast.',
+          ],
+        },
+        {
+          heading: 'Going out on a boat',
+          paras: [
+            'Boat tours run from rafts to larger catamarans and usually last two to four hours. Morning trips tend to have calmer water, and smaller boats feel the swell more, which matters if anyone gets seasick. Compare the departure point, the boat size, whether there is a naturalist on board and the refund policy if the trip is cancelled for wind.',
+            'Book the tour for early in your stay. If wind cancels it, you still have days to rebook, and you are not trying to squeeze it in before the flight home.',
+          ],
+        },
+        {
+          heading: 'The 100-yard rule and other ways to be a good guest',
+          paras: [
+            'Federal and state rules prohibit approaching a humpback whale closer than 100 yards, by any means, and the rule covers swimmers, paddleboarders, kayaks, canoes, boats and drones. Aircraft must stay at least 1,000 feet away. The rules apply year-round in all Hawaiian waters, and enforcement is shared by NOAA, the Coast Guard and the state.',
+            'If a whale comes toward you, the sanctuary asks boaters to stop and stay in neutral until it moves away. Never swim toward a whale or try to touch one. Mothers and young calves are especially sensitive.',
+          ],
+        },
+        {
+          heading: 'Planning a whale-season week on Maui',
+          paras: [
+            'Most winter weeks follow a simple pattern: an early boat or a lookout in the morning, a beach or pool in the middle of the day, and an early sunset dinner. South and West Maui are the dry sides of the island and are where most visitors stay. Book villas, cars and any big dinner reservations early, because whale season is peak season.',
+            'Expect winter surf on north-facing shores and the occasional wet day. Keep one flexible day for the tour and plan the rest around it. Our [Wailea restaurants guide](/blog/wailea-restaurants-dining-guide) and [Kāʻanapali restaurants guide](/blog/kaanapali-restaurants-dining-guide) cover eating out on the two main resort coasts.',
+          ],
+        },
+        {
+          heading: 'Whale season with kids and grandparents',
+          paras: [
+            'Shore watching is the easiest way to include everyone: a lānai or a beach chair, binoculars and patience. For a boat, a larger vessel and a morning departure are gentler for young children and older guests, and a short trip is better than a long one. Hats, sunscreen, water and a light jacket for the wind on the way back cover most of it.',
+            'Humpback males sing in Hawaiian waters during the season, and snorkelers and swimmers sometimes hear the song underwater on calm days. It is one of the best memories of a winter trip, and it costs nothing.',
+          ],
+        },
+        {
+          heading: 'When is a dinner at the villa better than eating out?',
+          paras: [
+            'After a morning on the water, many groups would rather not drive to a 6 p.m. reservation, especially in peak weeks when good tables are hard to get. A [personal chef Maui](/private-chef) dinner is planned with you, shopped that day, cooked and served on your lānai while you watch the channel at sunset, and the kitchen is cleaned before we leave. Fish is named as the species we actually bought.',
+            'For larger family groups or a whale-season birthday on the lawn, [Maui catering](/catering) is the staffed version for roughly ten to seventy-five guests, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, each on its own line. Tables, linens, tents and rentals are not included unless you ask, and then they are quoted separately.',
+          ],
+        },
+        {
+          heading: 'What does a villa dinner cost with us?',
+          paras: [
+            'Signature dinners on Maui are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler menu runs $190–$225 a guest. Upcountry addresses carry a published travel surcharge from $75. A 20% service charge and Hawaiʻi GET of up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Maui private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan your winter nights',
+          paras: [
+            'Whale season is our busiest stretch, so send the villa address, your dates, the guest count, which nights you want cooked and any allergies through the quote form as early as you can, or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total. For dinners anywhere on the island, see [private chef Maui](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'When is whale watching season on Maui?',
+          a: 'Roughly November through May. NOAA’s humpback whale sanctuary says the usual peak is January through March.',
+        },
+        {
+          q: 'What is the best month to see whales on Maui?',
+          a: 'Late January to mid-March is usually the busiest time for whales. December and April still have whales, just fewer.',
+        },
+        {
+          q: 'Can you see whales from shore on Maui?',
+          a: 'Yes. The McGregor Point lookout west of Māʻalaea and the beaches of Kāʻanapali, Kīhei and Wailea all look over the channel where humpbacks gather.',
+        },
+        {
+          q: 'How close can you get to a humpback whale in Hawaiʻi?',
+          a: 'No closer than 100 yards by any means, including swimming, paddleboarding, boats and drones. Aircraft must stay 1,000 feet away.',
+        },
+        {
+          q: 'How long are Maui whale watching tours?',
+          a: 'Most run two to four hours. Morning trips usually have calmer water.',
+        },
+        {
+          q: 'Can a private chef cook at our villa during whale season?',
+          a: 'Yes. It is our busiest season, so send the dates early. Signature dinners on Maui are $225–$375 a guest with groceries included, for a minimum of six, plus service charge and GET as their own lines.',
+        },
+      ],
+      related: [
+        { path: '/blog/christmas-in-maui-villa-dinner', label: 'Christmas in Maui guide' },
+        { path: '/private-chef', label: 'Personal chef Maui' },
+        { path: '/catering', label: 'Maui catering' },
+        { path: '/pricing', label: 'Maui private chef cost' },
+        { path: '/', label: 'Private chef Maui' },
+      ],
+    },
   ],
   kauai: [
     {
@@ -3389,6 +3622,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-family-vacation-planning-guide', label: 'Kauaʻi family vacation guide' },
         { path: '/blog/kauai-luau-villa-dinner-guide', label: 'Kauaʻi luau guide' },
         { path: '/blog/kapaa-restaurants-dining-guide', label: 'Kapaʻa restaurants guide' },
         { path: '/', label: 'Private chef Kauai' },
@@ -4580,6 +4814,119 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-family-vacation-planning-guide', label: 'Kauaʻi family vacation guide' },
+        { path: '/private-chef', label: 'Personal chef Kauai' },
+        { path: '/vacation-chef', label: 'Vacation chef Kauai' },
+        { path: '/catering', label: 'Kauai catering' },
+        { path: '/pricing', label: 'Kauai private chef cost' },
+        { path: '/', label: 'Private chef Kauai' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'kauai-family-vacation-planning-guide',
+      keyword: 'kauai family vacation',
+      datePublished: '2026-11-10',
+      name: 'Kauaʻi family vacation planning',
+      h1: 'Kauai family vacation — beaches, bases and meals that work with kids.',
+      title: 'Kauai Family Vacation — Beaches, Bases & Meals | myCHEF',
+      description:
+        'Planning a Kauai family vacation? Which shore to base on, lifeguarded beaches with keiki ponds, winter surf, drive times, groceries and family dinners.',
+      lede:
+        'A Kauai family vacation works best when you choose one base, keep the drives short and plan the days around lifeguarded beaches and an early dinner. The island has one main road around most of its coast, no road along Nā Pali, and very different weather on the North and South Shores. This guide covers which shore suits families, the beaches with protected ponds and lifeguards, winter surf, groceries and how to feed a mixed group of kids and adults without spending every evening in a restaurant queue. We do not rank hotels, rentals or tours and we have no partners.',
+      photo: 'fmtGrazingKauai',
+      body: [],
+      sections: [
+        {
+          heading: 'Which shore is best for a family base?',
+          paras: [
+            'The South Shore around Poʻipū and Kōloa is usually the sunniest and has the most resort condos and family-sized homes, about twenty-five to thirty minutes from Līhuʻe Airport. The east side around Kapaʻa and Wailua is central and practical, close to the airport, groceries and Lydgate Beach Park. The North Shore around Princeville and Hanalei is beautiful but wetter, especially in winter, and about an hour from Līhuʻe.',
+            'With small children, a short airport transfer and a sunny base count for more than the view. Many families stay on the South Shore or the east side and make the North Shore a day trip. Our [Kauaʻi vacation rentals guide](/blog/kauai-vacation-rentals-kitchen-guide) explains where short stays are legal and what to check in the kitchen before you book.',
+          ],
+        },
+        {
+          heading: 'Lifeguarded beaches with calmer water for kids',
+          paras: [
+            'Lydgate Beach Park in Wailua has two rock-walled ponds: a shallow inner pond for younger children and a larger one for swimming and easy snorkeling. A lifeguard tower watches both, staffed daily from 8 a.m. to 6 p.m. according to the state ocean safety list, and the big Kamalani Playground is next door. Lifeguards note that onshore winds can blow jellyfish in and that winter river floods can bring debris into the ponds, so check with the tower first.',
+            'Poʻipū Beach Park on the South Shore has two lifeguard towers staffed daily from 8 a.m. to 6 p.m., a shallow area sheltered by rocks that families call Baby Beach, a grass lawn, showers and restrooms. Green sea turtles and Hawaiian monk seals often rest on the sand; keep well back and follow posted signs. Arrive early, because parking fills by late morning.',
+          ],
+        },
+        {
+          heading: 'Winter surf, rain and the North Shore',
+          paras: [
+            'From about October to April, big north swells can make North Shore beaches dangerous, even when the sky is blue. Swim only at lifeguarded beaches, ask the lifeguard before anyone goes in, and treat a calm-looking bay with respect. Summer is usually the calmer season on the North Shore, while the South Shore can get its bigger waves in summer.',
+            'Beaches past Hanalei at the end of the road sit inside Hāʻena State Park, where visitors who are not Hawaiʻi residents need advance reservations for entry and parking or the shuttle. Book those before the day. Rain also closes the Hanalei bridge from time to time, so keep the North Shore day flexible.',
+          ],
+        },
+        {
+          heading: 'Keeping drives short with children',
+          paras: [
+            'Kauaʻi looks small on the map, but traffic through Kapaʻa and Līhuʻe at rush hour is slow and there is only one road. As a rough guide, plan on about an hour from Poʻipū to Hanalei without traffic, and longer with stops. Waimea Canyon from the South Shore is a half-day trip with a winding mountain road, so pack snacks, water and warm layers for the lookouts.',
+            'A simple rule helps: one big outing a day, back at the house by mid-afternoon, and the rest of the day at the pool or the nearest beach.',
+          ],
+        },
+        {
+          heading: 'Feeding a family on Kauaʻi',
+          paras: [
+            'Breakfast and lunch are easy at the rental: fruit, cereal, poke from a market counter, sandwiches for the beach cooler. Shop on arrival day in Līhuʻe or Kapaʻa, where the largest supermarkets and warehouse store are. Our [Kauaʻi grocery stores guide](/blog/kauai-grocery-stores-villa-guide) and [Kauaʻi farmers markets guide](/blog/kauai-farmers-market-villa-week) explain where to shop.',
+            'Dinner is the hard meal. Children are hungry at five, popular restaurants on the South Shore and in Kapaʻa have waits in peak weeks, and a table for ten with a toddler and grandparents is rarely relaxing. Many families eat out at lunch and keep dinner at the house.',
+          ],
+        },
+        {
+          heading: 'When is a chef dinner at the house the better plan?',
+          paras: [
+            'A [personal chef Kauai](/private-chef) dinner is planned with you before the trip, shopped that day, cooked and served in the rental kitchen, and the kitchen is cleaned before we leave. Children’s plates are planned with the adults’ menu, not added from a freezer, and kids can eat first while the adults sit down later. Our [kids at the table](/kids-menus) page explains how that works.',
+            'If you want help with more than one meal a day, [vacation chef Kauai](/vacation-chef) days cover breakfast, beach lunches and dinner on a day rate. For a reunion or a milestone birthday with a bigger guest list, [Kauai catering](/catering) is the staffed version, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums. Tables, linens, tents and rentals are not included unless you ask, and then they are quoted separately.',
+          ],
+        },
+        {
+          heading: 'A simple week that works for most families',
+          paras: [
+            'Arrival day: groceries in Līhuʻe, an early night. Day two: Poʻipū Beach Park or Lydgate in the morning, pool in the afternoon. Day three: Waimea Canyon lookouts early, back by lunch. Day four: a slow beach day and a dinner at the house. Day five: the North Shore, with Hāʻena reservations booked ahead and a spare day kept in case of rain. The last days: the favorite beach again and an easy pack-up.',
+            'Leave at least one day with nothing planned. Jet lag, sunburn and a tired toddler change plans more often than the weather does.',
+          ],
+        },
+        {
+          heading: 'What do family dinners cost with us?',
+          paras: [
+            'Signature dinners on Kauaʻi are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler menu runs $190–$225 a guest. Vacation chef days start from $375 a person per day, and chef days from $1,650. Līhuʻe and Kapaʻa are our base area; Princeville and Poʻipū add a published travel line of $50–$75. A 20% service charge and Hawaiʻi GET of up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Kauai private chef cost](/pricing). Kauaʻi is by inquiry: we confirm a crew before we confirm the date.',
+          ],
+        },
+        {
+          heading: 'How to plan your family nights',
+          paras: [
+            'Send the rental address, your dates, the number of adults and children with their ages, which nights you want cooked and any allergies through the inquiry form, or message us on WhatsApp at +1 808-468-7748. We reply in writing, including an early kids’ plate if you want one. For dinners anywhere on the island, see [private chef Kauai](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Which part of Kauaʻi is best for families?',
+          a: 'Many families base on the sunnier South Shore around Poʻipū or on the east side around Kapaʻa and Wailua, close to the airport and groceries, and visit the North Shore as a day trip.',
+        },
+        {
+          q: 'Which Kauaʻi beaches are best for young kids?',
+          a: 'Lydgate Beach Park, with its rock-walled keiki pond, and the sheltered Baby Beach area at Poʻipū Beach Park. Both have lifeguards daily from 8 a.m. to 6 p.m.',
+        },
+        {
+          q: 'Is the North Shore safe for swimming in winter?',
+          a: 'Often not. Big north swells from about October to April make many North Shore beaches dangerous. Swim at lifeguarded beaches and ask the lifeguard first.',
+        },
+        {
+          q: 'Do we need reservations for Hāʻena State Park?',
+          a: 'Yes, if you are not a Hawaiʻi resident. Entry and parking or the shuttle must be booked in advance.',
+        },
+        {
+          q: 'Can a private chef cook for kids and adults at the same dinner?',
+          a: 'Yes. Children’s plates are planned with the adult menu, and kids can eat first while the adults sit down later.',
+        },
+        {
+          q: 'How much does a family chef dinner on Kauaʻi cost?',
+          a: 'Signature dinners are $225–$375 a guest with groceries included, for a minimum of six, plus a 20% service charge and GET of up to 4.712% as their own lines.',
+        },
+      ],
+      related: [
+        { path: '/blog/kauai-vacation-rentals-kitchen-guide', label: 'Kauaʻi vacation rentals guide' },
         { path: '/private-chef', label: 'Personal chef Kauai' },
         { path: '/vacation-chef', label: 'Vacation chef Kauai' },
         { path: '/catering', label: 'Kauai catering' },
@@ -5149,6 +5496,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kona-manta-ray-night-snorkel-guide', label: 'Kona manta ray night snorkel guide' },
         { path: '/blog/thanksgiving-dinner-kona', label: 'Thanksgiving dinner in Kona' },
         { path: '/blog/waikoloa-restaurants-dining-guide', label: 'Waikoloa restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
@@ -5263,6 +5611,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kona-manta-ray-night-snorkel-guide', label: 'Kona manta ray night snorkel guide' },
         { path: '/blog/mauna-lani-restaurants-dining-guide', label: 'Mauna Lani restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/catering', label: 'Big Island catering' },
@@ -6105,6 +6454,124 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       related: [
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/volcano', label: 'Private chef Volcano' },
+        { path: '/catering', label: 'Big Island catering' },
+        { path: '/pricing', label: 'Big Island private chef cost' },
+        { path: '/', label: 'Private chef Big Island' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'kona-manta-ray-night-snorkel-guide',
+      keyword: 'manta ray night snorkel kona',
+      datePublished: '2026-11-10',
+      name: 'Kona manta ray night snorkel',
+      h1: 'Manta ray night snorkel in Kona — how it works and how to plan the evening.',
+      title: 'Manta Ray Night Snorkel Kona — Sites & Rules | myCHEF',
+      description:
+        'Manta ray night snorkel in Kona explained: the two sites, harbors, what happens in the water, who it suits, the rules, and planning dinner around the trip.',
+      lede:
+        'A manta ray night snorkel in Kona means floating at the surface after dark while reef manta rays feed on plankton drawn to lights below you. It happens at two sites on the Kona coast: Makako Bay, also called Garden Eel Cove, off the Kona airport, and Keauhou Bay south of Kailua-Kona. This guide explains the two sites and harbors, what happens in the water, who the trip suits, the state rules, and how to plan dinner around a late evening on the water. We do not run or sell tours and we have no tour partners.',
+      photo: 'konaKitchen',
+      body: [],
+      sections: [
+        {
+          heading: 'How does a manta ray night snorkel work?',
+          paras: [
+            'Boats anchor or moor at the viewing site around dusk. Guests in wetsuits, mask and snorkel hold on to a floating board or ring fitted with lights pointing down. The light draws plankton, and manta rays glide up from below to feed, often turning loops just under the snorkelers. Divers sometimes sit on the bottom with their own lights at the same time.',
+            'You stay at the surface and keep still. Kicking, diving down or reaching out disturbs the animals and the people around you. Sightings depend on the night; mantas are wild animals, and operators set their own policies for nights with no rays.',
+          ],
+        },
+        {
+          heading: 'The two sites: Makako Bay and Keauhou Bay',
+          paras: [
+            'The state recognizes two manta viewing areas in West Hawaiʻi. Makako Bay, known as Garden Eel Cove in daylight, sits off the Kona airport, and boats usually leave from Honokōhau Harbor north of town. Kaukalaelae Point at Keauhou Bay is south of Kailua-Kona, and boats leave from Keauhou Bay itself, a short ride away.',
+            'Neither is better in any way you can verify before you go. What changes your evening is the drive to the harbor and the length of the boat ride. If you are staying on the Kohala Coast, Honokōhau is closer; if you are in Keauhou or south of town, Keauhou Bay is. Our [Kona restaurants guide](/blog/kona-restaurants-dining-guide) explains how the town and Keauhou fit together.',
+          ],
+        },
+        {
+          heading: 'What are the rules?',
+          paras: [
+            'Hawaiʻi law makes it illegal to knowingly capture, take, possess, abuse, entangle or kill a ray in state marine waters. That means no touching, chasing or riding the mantas, even if one bumps into you.',
+            'In October 2022 the state land board approved starting rulemaking for the two Kona manta viewing zones, with proposed limits on permits, shifts, passengers and guide ratios. Those rules are still a draft, not law. Until they are adopted, the number of boats and the conduct on them depends on the operator you choose, so ask about group size, guide ratio and their policy on touching and diving.',
+          ],
+        },
+        {
+          heading: 'Who is the trip right for?',
+          paras: [
+            'You need to be comfortable in open water at night. Operators set their own swimming requirements; some ask you to swim a set distance without flotation and climb a boat ladder unaided, and some do not allow non-swimmers in the water. Ask about age limits for children, wetsuit sizes, and whether a ride-along place is available for anyone who wants to watch from the boat.',
+            'Seasickness is the other common problem. The boat sits still at the site, and the swell can be noticeable on the way out and back. If anyone is prone to it, eat lightly and ask whether the trip is short or long.',
+          ],
+        },
+        {
+          heading: 'What to bring and how to time the day',
+          paras: [
+            'Bring a towel, a warm layer for the ride back, a dry bag for phones and car keys, and any medication you need. Wetsuits and gear are usually provided. Eat something light a couple of hours before, and plan a calm day before the trip: a morning at the beach is fine, a long hike up Mauna Kea in the afternoon is not.',
+            'Trips are timed around dusk, with twilight departures and later ones. Expect to be back at the harbor in the evening, wet, cold and very hungry, with a drive home still ahead.',
+          ],
+        },
+        {
+          heading: 'Dinner before or after the manta trip?',
+          paras: [
+            'On an early twilight trip, a late dinner after works well. On a later trip, a light early meal before and something warm when you get home is usually better than a full restaurant dinner. Many Kona dining rooms take their last seatings before late boats come back, and a group of eight in wet hair rarely wants to dress for a reservation.',
+            'This is where a dinner at the house helps. A [private chef Kona](/private-chef) evening can be timed to your boat: a light early plate before you leave, or a warm dinner ready when you walk back in. It is planned with you, shopped that day, cooked in your villa kitchen, and the kitchen is cleaned before we leave. Our [Keauhou private chef](/keauhou) page covers dinners near the southern harbor.',
+          ],
+        },
+        {
+          heading: 'If the trip is cancelled or the mantas do not show',
+          paras: [
+            'Operators cancel when wind or swell makes the site unsafe, and some nights the rays simply do not come. Book the manta trip early in your stay so there is room to rebook, and read the operator’s policy on refunds and repeat trips before you pay. Keep the dinner plan flexible too: a chef night can usually move to another evening if you tell us early.',
+            'Other good evenings on the Kona side need no boat at all: sunset from a lānai, a walk along Aliʻi Drive in Kailua-Kona, or stargazing on a clear night away from town lights.',
+          ],
+        },
+        {
+          heading: 'Bigger groups and celebrations',
+          paras: [
+            'Families and friends often book the manta trip for a birthday or a reunion week. When the guest list passes a dinner table, [Big Island catering](/catering) is the staffed version for roughly ten to seventy-five guests, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, each on its own line. Tables, linens, tents and rentals are not included unless you ask, and then they are quoted separately.',
+          ],
+        },
+        {
+          heading: 'What does a Kona villa dinner cost with us?',
+          paras: [
+            'Signature dinners on Hawaiʻi Island are published at $210–$325 a guest with groceries included, for a minimum party of six, and smaller dinners start from $165 a guest. Chef days start from $1,450. Addresses outside the Kona–Kohala corridor carry a published travel line from $75. A 20% service charge and Hawaiʻi GET of up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Big Island private chef cost](/pricing). Hawaiʻi Island is by inquiry.',
+          ],
+        },
+        {
+          heading: 'How to plan your manta night',
+          paras: [
+            'Send the villa address, your dates, the guest count, the time your boat leaves and any allergies through the inquiry form, or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total, timed to your trip. For dinners anywhere on the island, see [private chef Big Island](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Where do manta ray night snorkels happen in Kona?',
+          a: 'At two sites: Makako Bay, also called Garden Eel Cove, off the Kona airport, usually reached from Honokōhau Harbor, and Keauhou Bay south of Kailua-Kona.',
+        },
+        {
+          q: 'Can you touch the manta rays?',
+          a: 'No. Hawaiʻi law makes it illegal to knowingly capture, take, abuse, entangle or kill a ray, and snorkelers are asked to stay at the surface and keep still.',
+        },
+        {
+          q: 'Do you need to be a strong swimmer for the manta snorkel?',
+          a: 'You need to be comfortable in open water at night. Operators set their own requirements; some require a swim test and some do not allow non-swimmers in the water.',
+        },
+        {
+          q: 'Are there state rules for manta tours?',
+          a: 'Rules for the two Kona manta viewing zones were proposed in 2022 and are still a draft, so operator policies decide group size and conduct for now.',
+        },
+        {
+          q: 'Should we eat before or after the manta snorkel?',
+          a: 'Eat lightly a couple of hours before. After a later trip, a warm meal at the house is usually easier than a late restaurant reservation.',
+        },
+        {
+          q: 'Can a private chef time dinner around our manta trip?',
+          a: 'Yes, by inquiry. We can serve a light early plate before you leave or have dinner ready when you get back to your villa.',
+        },
+      ],
+      related: [
+        { path: '/blog/kona-restaurants-dining-guide', label: 'Kona restaurants guide' },
+        { path: '/private-chef', label: 'Private chef Kona' },
+        { path: '/keauhou', label: 'Private chef Keauhou' },
         { path: '/catering', label: 'Big Island catering' },
         { path: '/pricing', label: 'Big Island private chef cost' },
         { path: '/', label: 'Private chef Big Island' },

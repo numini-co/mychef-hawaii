@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-11-08T23:17:48Z</lastmod>
+    <lastmod>2026-11-09T23:22:58Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -212,7 +212,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-11-08T23:17:48Z</lastmod>
+    <lastmod>2026-11-09T23:22:58Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -884,13 +884,13 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/kona-restaurants-dining-guide</loc>
-    <lastmod>2026-10-21T23:16:02Z</lastmod>
+    <lastmod>2026-11-09T23:22:58Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/waikoloa-restaurants-dining-guide</loc>
-    <lastmod>2026-10-22T23:21:23Z</lastmod>
+    <lastmod>2026-11-09T23:22:58Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -933,6 +933,12 @@
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/volcano-hawaii-restaurants-guide</loc>
     <lastmod>2026-11-08T23:17:48Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://bigisland.mychef-hawaii.com/blog/kona-manta-ray-night-snorkel-guide</loc>
+    <lastmod>2026-11-09T23:22:58Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
