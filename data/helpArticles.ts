@@ -39,6 +39,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       body: [
         'Send five things on the quote form: dates, the address or the corridor, who is eating, dietary notes, and the occasion. Honolulu, Waikīkī, Kahala, Ko Olina, Kailua, and the North Shore are the corridors on this site. A tower also needs the elevator reservation and the building rules.',
         'What happens next is a written total if the kitchen can hold the night, then a menu draft about 48 hours after that complete request. The sequence of the evening itself stays on how it works. A suite with a coffee maker is declined before any deposit.',
+        'The first note is a checklist, not a menu. Put the date, a Honolulu, Kahala, Ko Olina, or Kailua address, the guest count, the format, every allergy, and a budget band from [pricing](/pricing). A tower also needs its freight window and the building rule at the curb. What happens next is a written quote if that kitchen has a cooktop. A suite with only a coffee maker is declined before any deposit. Photos of the burners belong with the note. Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -85,6 +86,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       body: [
         'A complete quote request comes first. The draft follows about 48 hours later and names courses for that Kahala dining room or Ko Olina kitchen, not a standing list. You approve it in writing. A revision of a course, a headcount, or a dietary note goes back in writing before the shop.',
         'Children’s plates are planned in the same draft as the adults. A fish, a farm, or a shop is named only when the receipt supports it. We do not print a supplier we cannot show. The three-course example, if that is the shape you want, lives on its own page.',
+        'Read the draft as courses for one Kahala or Ko Olina kitchen, not a standing list. Groceries for that signature dinner sit inside the per-guest band. A Stay Chef day is different: the daily chef fee, then groceries at cost with receipts, on [Stay Chef](/vacation-chef). An allergy is a flag on the course it changes, written before the Honolulu shop. If the market lacks the fish the draft named, the swap is marked on the same thread before the buy. Reply there to ask for a change. The card is [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -200,6 +202,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       body: [
         'Fifty percent locks the date you accepted. It does not lock a different night, a different tower, or a longer guest list. Service at 20% and Hawaiʻi GET up to 4.712% print as their own lines. Gratuity is never required. A verbal yes does not hold the calendar.',
         'Headcount, date, and address changes are written on the same thread. A Gold Coast house and a Ko Olina villa keep separate quotes. If the seats change, the total is rewritten before the deposit is treated as covering the new plan. The quote is the record.',
+        'After you accept, 50% holds the Kahala, Ko Olina, or Honolulu date on that total, not a different tower and not a longer list. A new headcount, date, or address goes back on the same thread. The invoice then shows the food, then 20% service, then Hawaiʻi GET up to 4.712%, each on its own line. Gratuity is optional and is never required. The deposit covers the new plan only after you accept the rewrite. A chat does not move a freight window. Send the change on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -248,6 +251,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       body: [
         'Put the shore in the first line: Wailea, Kāʻanapali, Lahaina, Kīhei, Kapalua, or Makena. Then dates, the rental address, who is eating, dietary notes, and the occasion. Lahaina is its own town on this site. It is not a stand-in for Wailea. A Saturday crossing West Maui needs the drive time in the same note.',
         'A complete request becomes a written total if the kitchen has a cooktop. The menu draft follows about 48 hours after that. The shape of the evening stays on how it works. A minibar room is declined before a deposit.',
+        'Open a Villa Week note with the shore, then the checklist: the date, a Wailea, Kapalua, or Kāʻanapali address, the guest count, the format, allergies, and a budget band from [pricing](/pricing). Say whether Saturday crosses Honoapiʻilani. A resort name is not the kitchen. What comes back is a written quote when the villa has a cooktop. A minibar room stops there. Photos of the range go with the rental address. Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -294,6 +298,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       body: [
         'After a complete quote request, the draft follows about 48 hours later for that Wailea or Kapalua kitchen. Saturday West Maui still uses the same window. You approve courses in writing. A wind note belongs in the draft if dinner was planned on the lānai, so the backup is not invented at dusk.',
         'A child’s plate and a dietary limit are lines in that same draft. Upcountry remains a travel line even when the food looks simple. A farm or a boat is named only when the receipt supports it. The three-course shape, if you want that length, is its own page.',
+        'A Villa Week draft is courses for the Wailea or Kapalua kitchen you named, plus a wind backup if dinner was the lānai. Groceries for a signature dinner stay inside the per-guest band. On a Stay Chef day the fee is the day, and groceries are at cost with receipts. See [Stay Chef](/vacation-chef). A shellfish or dairy flag sits on that guest’s course before the shop. A substitution is a written swap when that morning’s market misses the draft, not a surprise at the table. Ask on the same thread. Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -301,7 +306,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
           a: 'It does. About 48 hours after a complete request, including the shore and the drive. The highway does not add a second drafting clock. Examples of plates are on [menus](/menus).',
         },
         {
-          q: 'Can a Wailea table order from a printed carte?',
+          q: 'Can a Wailea table order from a printed menu?',
           a: 'The draft is designed for the villa. A [three-course](/menus/three-course) page shows one shape. It is not a card you tick. Tell us the direction, and the courses are written for that kitchen.',
         },
         {
@@ -410,6 +415,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       body: [
         'Fifty percent locks the date on the total you accepted. Service at 20% and Hawaiʻi GET up to 4.712% stay their own lines. Gratuity is never required. A verbal yes does not hold a Saturday.',
         'A move from Wailea to Lahaina, a different headcount, or a new date goes back in writing. The travel line can change with the town. West Maui traffic stays a planning note. It is not invented on the invoice after you have paid. The quote remains the record.',
+        'After you accept, 50% locks the Wailea or Kapalua date and the headcount on that total. Moving the villa toward Lahaina, or adding seats, is a written rewrite before the deposit is treated as the new week. The invoice keeps 20% service on its own line and Hawaiʻi GET up to 4.712% on the next. Gratuity stays optional and is never required. A Saturday drive change belongs in that note, because the call time can move with the town. Use [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -458,6 +464,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       body: [
         'The first request names the shore, the dates, the estate address, who is eating, dietary notes, and the occasion. Princeville and Hanalei need the bridge called out. Poʻipū and Kapaʻa still need the address, not just the town. We will not pretend a published page is a roster.',
         'If a crew can take that shore, a written total follows, and a menu draft follows about 48 hours after the request is complete. If the road closes, the night moves rather than forfeiting. How the evening runs is on how it works. Send the request on the quote form.',
+        'Request availability with the shore named first, then the checklist. Princeville or Hanalei needs the bridge. Poʻipū and Kapaʻa still need the estate address, the date, the guest count, the format, allergies, and a budget band from [pricing](/pricing). A request is not a held date. If that shore can be cooked, what comes back is a written total. If the road closes, the night moves rather than forfeiting. Send the covered plan with the estate on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -504,6 +511,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       body: [
         'Request availability first. If that shore can be cooked, the draft follows about 48 hours after the request is complete. Princeville drafts carry the bridge note. Poʻipū drafts carry the wet-weather note. Kapaʻa is closer to Līhuʻe and still a real table. You approve the courses in writing.',
         'A revision stays on that thread before the shop. Children’s plates and dietary limits are in the same draft. Fish is described as the dish unless that day’s receipt supports a name. We do not promise a boat. The three-course shape is a separate page if you want that length.',
+        'A Princeville draft carries the bridge. A Poʻipū draft carries the wet-weather note. Both are courses for that shore, and only if a crew can take it. Groceries for the signature dinner sit inside the per-guest band. A Stay Chef day is the daily chef fee plus groceries at cost with receipts. See [Stay Chef](/vacation-chef). An allergy flag is on the course it changes, before that shore’s buy. If the purchase cannot match a named dish, mark the swap on the request before the shop. Ask there. See [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -613,13 +621,14 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       h1: 'After the Kauai quote — deposit, weather, and written changes.',
       title: 'After a Kauaʻi yes — deposit and weather | myCHEF',
       description:
-        'How a Kauaʻi date is held after a written yes: 50% deposit, shore changes in writing, and a road closure that moves the night.',
+        'How a Kauaʻi date is held after a written yes: a 50% deposit, headcount or shore changes in writing, and a road closure that moves the night.',
       lede:
         'A 50% deposit locks a Kauaʻi date only after a written yes, and only for a shore a crew can take. Weather changes go in writing.',
       photo: 'helpBookingKauai',
       body: [
         'Fifty percent locks a staffed date you have accepted. Service at 20% and Hawaiʻi GET up to 4.712% print as their own lines. Gratuity is never required. A request for availability is not itself a hold, and we will not keep a roster we do not have.',
         'Shore, headcount, and weather changes go in writing. If the Hanalei bridge closes, the night moves. The deposit follows the night, not the calendar. We do not keep a deposit because the road closed. A north-shore house does not silently become Poʻipū.',
+        'A written yes, then 50%, is what holds a Princeville or Poʻipū date a crew can actually take. Requesting availability is not that hold. Change the headcount or the shore in writing. The invoice lists the food, then 20% service, then Hawaiʻi GET up to 4.712%, each alone. Gratuity is optional and is never required. If the Hanalei bridge closes, the night moves and the deposit follows the night, not the calendar. It does not become Poʻipū unless you write that shore. Send the change on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -668,6 +677,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       body: [
         'The first note names a Kona, Keauhou, Waikoloa, Waimea, or Kohala address, the dates, who is eating, dietary notes, and the occasion. Join the inquiry list with that west-side house only. Ironman weeks should be flagged because Kona roads and the grocery window compress. They do not add an east-side stop.',
         'If a crew can take the day, a written total follows, and a menu draft follows about 48 hours after the note is complete. A minibar room is declined before a deposit. How the night runs is on how it works. Hilo, if you need it, is its own note.',
+        'Join the inquiry list with a west-side checklist only: a Kona, Waikoloa, or Kohala address, the date, the guest count, the format, allergies, and a budget band from [pricing](/pricing). Flag Ironman if the dates touch the race in Kailua-Kona. Hilo is not a line on this note. It stays a separate dedicated east-side day. If that day can be staffed, what comes back is a written total for the kitchen you named. A minibar room is declined. Use [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -714,6 +724,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       body: [
         'Join the inquiry list first. If the west side can be staffed, the draft follows about 48 hours after the note is complete. It names courses for that Kona or Waikoloa kitchen. You approve it in writing. A revision goes back before the shop. Hard sun may move a plate inside, and that backup is in the draft.',
         'Coffee is labeled when the receipt supports the origin. A farm is not printed because the slope is visible. Children’s plates sit in the same draft. An east-side menu is a separate dedicated day, quoted in writing. The three-course shape is its own page.',
+        'The west-side draft is courses for one Kona or Waikoloa kitchen. It does not draft Hilo on the back. Groceries for a signature dinner sit inside the band. The simpler table, only when that house fits, is on [pricing](/pricing) too. A Stay Chef day is the daily chef fee plus groceries at cost with receipts. See [Stay Chef](/vacation-chef). An allergy is flagged on the course before the west-side shop. If the buy cannot match the draft, write the substitution on the inquiry before anyone cooks. Hard sun that moves a plate inside belongs in that same note.',
       ],
       faqs: [
         {
@@ -830,6 +841,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       body: [
         'Fifty percent locks a staffed west-side date you have accepted. Service at 20% and Hawaiʻi GET up to 4.712% print as their own lines. Gratuity is never required. Joining the inquiry list is not itself a hold. A verbal yes does not keep the day.',
         'Address, headcount, and Ironman-week changes go in writing. The total is rewritten before the deposit is treated as covering the new plan. Adding Hilo is not a change to the west-side quote. It is a separate dedicated east-side day, quoted in writing.',
+        'Joining the inquiry list does not hold a day. A written yes, then 50%, locks the Kona, Waikoloa, or Kohala date on that total. A new headcount or a new west-side address is rewritten before the deposit is treated as the new plan. The invoice shows the food, then 20% service, then Hawaiʻi GET up to 4.712%, each on its own line. Gratuity is optional and is never required. Adding Hilo is not a change on this quote. It is a separate dedicated east-side day. Send the rewrite on [the quote form](/quote).',
       ],
       faqs: [
         {
