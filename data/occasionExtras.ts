@@ -164,13 +164,14 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       h1: 'Brunch in an Oahu house — recovery morning, not a restaurant.',
       title: 'Brunch in an Oahu house | myCHEF',
       description:
-        'Recovery brunch in Kahala houses and Ko Olina villas. Morning after the villa week or the wedding night. Not a restaurant brunch.',
+        'Late-morning recovery brunch in Kahala houses and Ko Olina villas. The kitchen is clear by early afternoon. Request a written quote.',
       lede:
         'Fruit, eggs, last night’s fish recast. The house still waking.',
       photo: 'occBrunchOahu',
       body: [
         'Wedding recovery brunch stacks on the weddings page as its own line.',
         'A villa-week brunch starts in the morning, after any Honolulu freight window. Eggs and last night’s fish are cooked then. Fruit and a pot of coffee are set out. We finish before the afternoon so the kitchen is yours again. Rain keeps a Gold Coast table in the dining room or on a covered lānai, written on the quote before you accept, with 20% service and Hawaiʻi GET up to 4.712% on their own and a 50% deposit after you accept. Gratuity is never required. The wedding-week morning lives on [weddings](/weddings). Other nights are on [all occasions](/events). Bands are on [pricing](/pricing). Send the house on [the quote form](/quote).',
+        'Book the start late morning so the Kahala or Ko Olina kitchen is clear by early afternoon. Eggs and fruit go out as [family-style](/catering/family-style) platters, or as a short [buffet](/catering/buffet) on the counter, not as a seated dinner after dark. A dinner booking is a different night and a different shop. The morning has no separate published figure. Read [pricing](/pricing) for the band that applies. Send the date, the start time, the head count including children, and allergies. A Honolulu tower still names its freight window. Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -179,7 +180,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
         },
         {
           q: 'What is cooked that morning in a Kahala house, and what is already set out?',
-          a: 'Eggs and fish are cooked then. Fruit and coffee are set out. We do not run a restaurant carte. Say dietary limits on the quote so the shop matches the house.',
+          a: 'Eggs and fish are cooked then. Fruit and coffee are set out. We do not run a restaurant menu. Say dietary limits on the quote so the shop matches the house.',
         },
         {
           q: 'What time do you arrive for a Ko Olina brunch, and when do you leave?',
@@ -358,6 +359,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       body: [
         'Wedding-week brunch is a separate line on the wedding week page.',
         'A villa brunch on Maui starts in the morning, with the Saturday drive already in the call if the house is in Kapalua. Grilled fish is cooked then. Fruit and coffee are set on the counter. We finish before the afternoon so the pool kitchen is free. Trade wind that closes an open lanai moves the table under cover or into the dining room, written before you accept. The quote is that morning, then 20% service and GET up to 4.712% each alone, and a 50% deposit after you accept. Gratuity is never required. The wedding-week morning is [wedding week](/weddings). Other nights are on [all occasions](/events). Numbers are on [pricing](/pricing). Name the shore on [the quote form](/quote).',
+        'A recovery brunch in Wailea, Kapalua, or Kāʻanapali starts late morning, after the villa week, and the kitchen is yours again by early afternoon. Grilled fish and fruit can leave as [family-style](/catering/family-style) on the lānai, or as a [buffet](/catering/buffet) if the wind has already moved the table inside. It is not the dinner booked the night before, and it does not invent a morning price. The card is [pricing](/pricing). Send the date, the start time, the head count including children, and allergies. Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -366,7 +368,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
         },
         {
           q: 'What is grilled fresh at a Wailea brunch, and what is simply set out?',
-          a: 'Fish is grilled that morning. Fruit and coffee are set out. We do not run a standing restaurant carte. Put dietary limits on the quote before the shop.',
+          a: 'Fish is grilled that morning. Fruit and coffee are set out. We do not run a standing restaurant menu. Put dietary limits on the quote before the shop.',
         },
         {
           q: 'How early is a Kapalua brunch if Saturday traffic is already on the road?',
@@ -547,6 +549,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
         'Wedding-week brunch is on the wedding week page.',
         'Far-North brunch still inherits the Hanalei bridge notes. Request availability with the shore.',
         'Request availability before a brunch morning is treated as held. On the south, the cook sets a Poʻipū kitchen, cooks eggs and fish then, and sets fruit and coffee out. We finish before the afternoon. Rain needs the indoor table named ahead. On the north, mist and a covered lanai are the wet plan when the road is open. A Hanalei bridge closure moves the morning. It does not send it south. The note shows the morning, any server hours, 20% service and GET up to 4.712% each alone, and a 50% deposit only after a written yes. Gratuity is never required. The wedding-week morning is [wedding week](/weddings). Request availability on [the quote form](/quote). The card is [pricing](/pricing).',
+        'Request availability for a late-morning estate brunch so the Poʻipū or Princeville kitchen is clear by early afternoon. On the south shore the plates can be [family-style](/catering/family-style) by the pool. On the north, rain is the fallback and the same food moves under cover as a [buffet](/catering/buffet) or at the indoor table. This morning is not a dinner booking with a later name. No separate morning figure is published. See [pricing](/pricing). Send the date, the start time, the head count including children, allergies, and which shore. Say if the house sits past the bridge.',
       ],
       faqs: [
         {
@@ -735,6 +738,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       body: [
         'An east-side brunch is its own dedicated day. It is not implied by a Kona morning.',
         'Join the inquiry list for a west-side morning in Kona or along the Kohala Coast. Fish is cooked then. Fruit is set out. Coffee may be in the cup or on the crust, and a farm name is printed only when the lot is documented. We finish before the afternoon heat. Wind moves the table into the great room, written before a yes. Hilo is a dedicated day and is never implied. The inquiry shows 20% service and Hawaiʻi GET up to 4.712% each alone, and a 50% deposit after a written yes. Gratuity is never required. See [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
+        'Join the inquiry list for a late-morning west-side brunch so the Kona or Kohala kitchen is clear before the hard afternoon sun. Fish and fruit go out as [family-style](/catering/family-style) in the shade, or as a short [buffet](/catering/buffet) on the counter. It is not the terrace dinner, and it does not add a morning price. Bands stay on [pricing](/pricing). Send the date, the start time, the head count including children, and allergies. Leave Hilo off that note. A packed town week should be named if those dates are yours.',
       ],
       faqs: [
         {

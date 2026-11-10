@@ -247,10 +247,10 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'retreat-catering',
       name: 'Retreat catering',
-      h1: 'Oahu full-board retreat kitchens — food as its own line.',
-      title: 'Oahu retreat catering — full-board villa days | myCHEF',
+      h1: 'Oahu retreat catering for multi-day group stays.',
+      title: 'Oahu retreat catering for multi-day group stays | myCHEF',
       description:
-        'Full-board retreat days in Oahu houses. Dietary designed in.',
+        'Oahu retreat catering plans breakfast, a working lunch, and dinner in Kahala, Ko Olina, or Kailua. Send the head count. Request a written quote.',
       lede:
         'Breakfast through dinner as a food line. The occasion lives next door. We split them so a planner can buy the kitchen without buying the story.',
       photo: 'svcRetreatcatOahu',
@@ -258,6 +258,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
         'Breakfast is set before the working session. Lunch feeds that room, on plates or platters. Dinner is the longer cook. A small savory stays in the fridge between, shopped the same day. A Kahala tower still uses its freight window. Ko Olina loads through the house.',
         'Vegan and other limits are written before the first shop. We cook only what we designed. Days and guests are what the kitchen and the house hold, confirmed in writing. [The retreat occasion](/events/retreats) stays next door.',
         'A per-guest dinner keeps groceries inside the signature band. Multi-day Stay Chef is the day rate plus groceries at cost with receipts. See [pricing](/pricing), [vacation chef](/vacation-chef), and [staffing](/staffing). 20% service and Hawaiʻi GET up to 4.712% each stand alone. A 50% deposit follows acceptance. Gratuity is never required.',
+        'Breakfast is plated before the working session in the Kahala, Ko Olina, or Kailua kitchen. The working lunch is a [buffet](/catering/buffet) or [family-style](/catering/family-style) for that room. Dinner is the seated cook. A [drop-off](/catering/drop-off) is trays only, and only if that day is written as a drop. A Honolulu tower still needs its freight window before the shop. Send the dates, the house address, the head count for each day, the dietary list, and any working-session timing. Seated dinners keep groceries inside the signature band. Stay Chef days are the daily fee plus groceries at cost with receipts on [pricing](/pricing). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -528,10 +529,10 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'retreat-catering',
       name: 'Retreat catering',
-      h1: 'Maui full-board retreat kitchens — South and West houses.',
-      title: 'Maui retreat catering — full-board villa days | myCHEF',
+      h1: 'Maui retreat catering for a villa group stay.',
+      title: 'Maui retreat catering for villa group stays | myCHEF',
       description:
-        'Full-board retreat days in Wailea, Kapalua and Kīhei. Dietary designed in.',
+        'Maui retreat catering for a Wailea, Kapalua, or Kāʻanapali group stay. Breakfast, working lunch, and dinner. Request a written quote.',
       lede:
         'Three meals in a Wailea or West Maui house. South and West are different drives.',
       photo: 'svcRetreatcatMaui',
@@ -539,6 +540,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
         'In Wailea, breakfast is set before the session. Lunch stays with the group. Dinner is the longer cook, indoors if the wind shuts the lānai. Kīhei uses the table the house has. Saturday arrival in West Maui includes Honoapiʻilani.',
         'South and West are the shores you name, not a surprise on the drive. Limits are written before that shore’s first shop. Days and guests are what the kitchen and the house hold, confirmed in writing. [The retreat occasion](/events/retreats) stays next door.',
         'A per-guest dinner keeps groceries inside the signature band. Stay Chef days are the day rate, then groceries at cost with receipts. See [pricing](/pricing), [vacation chef](/vacation-chef), and [staffing](/staffing). 20% service is its own item and Hawaiʻi GET up to 4.712% is the next. The 50% deposit comes after you accept. Gratuity is never required.',
+        'In a Wailea villa the morning meal is down before the session. The working lunch is [family-style](/catering/family-style) on the lānai or a [buffet](/catering/buffet) in the dining room if the trade wind is up. Dinner is the seated cook. [Drop-off](/catering/drop-off) means trays at the door and no one stays to clear, and only for a day named that way. A Saturday drive toward Kapalua or Kāʻanapali is in the arrival. Send the dates, the villa address, the head count each day, the dietary list, and when the working session needs the kitchen quiet. Seated dinners keep groceries inside the band. Stay Chef days add groceries at cost with receipts. See [pricing](/pricing). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -809,10 +811,10 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'retreat-catering',
       name: 'Retreat catering',
-      h1: 'Kauai full-board retreat kitchens — inquiry, both shores.',
-      title: 'Kauai retreat catering — full-board, both shores | myCHEF',
+      h1: 'Kauai retreat catering — request availability, both shores.',
+      title: 'Kauai retreat catering — request availability | myCHEF',
       description:
-        'Full-board retreat days in Kauai houses. Inquiry stage. Dietary designed in.',
+        'Request availability for Kauai retreat catering in Princeville or Poʻipū. Rain moves the meal under cover. Name the shore, dates, and head count.',
       lede:
         'Breakfast through dinner in the house. Mist or sun follows the shore. Request availability.',
       photo: 'svcRetreatcatKauai',
@@ -820,6 +822,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
         'Name the shore first. Poʻipū breakfast uses the south sun. Princeville uses mist and a covered lānai. Lunch sits with the working session. Dinner is the longer cook. Rain moves a meal under cover and does not swap shores.',
         'Past the Hanalei bridge, a closure moves the days and does not hand them to Poʻipū. Limits are written before that shore’s shop. Days and guests are what the kitchen and the house hold, confirmed in writing. [Request availability](/quote). [The retreat occasion](/events/retreats) is next door.',
         'A per-guest dinner keeps groceries inside the signature band when a crew exists. Stay Chef days are the day rate plus groceries at cost with receipts. See [pricing](/pricing), [vacation chef](/vacation-chef), and [staffing](/staffing). 20% service and GET up to 4.712% each stand alone. A 50% deposit follows a written yes. Gratuity is never required.',
+        'Name Poʻipū or Princeville first. South-shore breakfast uses the morning sun. A Princeville lunch starts under a covered roof, because rain is the fallback. The working lunch is [family-style](/catering/family-style) at the estate table or a [buffet](/catering/buffet) on the counter. Dinner stays on that shore. [Drop-off](/catering/drop-off) is trays and a departure, only when the day says so. Past the Hanalei bridge, the days move with the road and do not become the other shore. Request availability with the dates, the estate address, the head count each day, the dietary list, and the working-session times. Seated dinners keep groceries inside the band when a crew exists. Stay Chef days are the daily fee plus groceries at cost with receipts on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -1090,10 +1093,10 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
     {
       slug: 'retreat-catering',
       name: 'Retreat catering',
-      h1: 'Hawaiʻi Island full-board retreat kitchens — west side.',
-      title: 'Big Island retreat catering — full-board | myCHEF',
+      h1: 'Big Island group catering for west-side multi-day stays.',
+      title: 'Big Island group catering for west-side stays | myCHEF',
       description:
-        'Full-board retreat days in Kona–Kohala houses. Inquiry stage. East side is a different day.',
+        'Join the inquiry list for Big Island group catering on the Kona–Kohala side. Hilo is a separate dedicated day. Send dates and head count.',
       lede:
         'Breakfast fish, lunch in the shade, dinner on the west side. Hilo is a different day.',
       photo: 'svcRetreatcatBigisland',
@@ -1101,6 +1104,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
         'Join the inquiry list for a Kona or Kohala house first. Breakfast is inside, out of the hard sun. Lunch feeds the working session in that shade. Dinner is the longer cook. A small savory stays in the fridge between. Open lava is not the dining room.',
         'Hilo and Volcano are a separate dedicated east-side day, quoted in writing, not added to a west-side week. Limits are written before that shop. Days and guests are what the kitchen and the house hold, confirmed in writing. [The retreat occasion](/events/retreats) is next door.',
         'A per-guest dinner keeps groceries inside the signature band. Stay Chef days are the day rate, groceries at cost with receipts. See [pricing](/pricing), [vacation chef](/vacation-chef), and [staffing](/staffing). 20% service and Hawaiʻi GET up to 4.712% are separate. A 50% deposit follows acceptance. Gratuity is never required.',
+        'Join the inquiry list for a Kona, Waikoloa, or Kohala house first. Breakfast stays in the shade. The working lunch is [family-style](/catering/family-style) indoors or a [buffet](/catering/buffet) on the counter, not on open lava. Dinner is the west-side cook. [Drop-off](/catering/drop-off) is trays at the door, only if that day is written as a drop. Hilo and Volcano stay a separate dedicated east-side day. Send the dates, the west-side address, the head count each day, the dietary list, and any working-session timing. Seated dinners keep groceries inside the band. Stay Chef days add groceries at cost with receipts. See [pricing](/pricing).',
       ],
       faqs: [
         {

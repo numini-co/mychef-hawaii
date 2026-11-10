@@ -262,6 +262,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'In a Kailua week or a Ko Olina villa, children’s plates are simpler versions of the adult menu, beside them or earlier if you name the hour. A Kahala tower still has a freight window, so the plate plan is finished before the crew comes up. We do not bring a second restaurant list.',
         'Children are part of the headcount you send. There is no separate published price for a child’s plate, and this page has no age cut-off. What that headcount does to the total is set out in the written quote. A child’s allergy is a [dietary note](/dietary), sent before the shop. Chairs and boosters are the household’s. Request a written quote on [the quote form](/quote).',
+        'Children’s plates are written into the menu draft beside the adult courses, before the Honolulu shop, not as a list added at the door. If the family wants early seating, name that hour with the Kahala, Ko Olina, or Kailua address so the tower freight window still fits. An allergy flag for a child goes on [dietary notes](/dietary) with the child’s name. There is no age-based price and no separate kids’ figure on this page. The head count, children included, is what the written quote uses. Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -547,6 +548,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'Name Wailea, Kāʻanapali, or Kapalua, and say whether children need simpler plates from that night’s menu or an earlier sitting while adults are still coming in from the road. A Kīhei family house and a Wailea lawn are different rooms. The chair is the villa’s or yours. We cook the table that is already there. Saturday traffic does not create a second menu.',
         'Children count in the guest number on the quote. There is no published kids’ price and no age cut-off here. The written quote sets out what the headcount does to the total. A child’s shellfish or dairy limit goes on [dietary notes](/dietary) before the shop. Request a written quote on [the quote form](/quote).',
+        'On a villa week the children’s plates are drafted next to the adult courses for that Wailea, Kapalua, or Kāʻanapali night, including arrival. Early seating is an hour you name while adults are still on the road from the airport. A shellfish or dairy flag for a child is written on [dietary notes](/dietary) before that shore’s shop. Nothing here is priced by age, and no new kids’ figure is published. The written quote uses one head count. Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -832,6 +834,7 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'Say Princeville, Poʻipū, or Kapaʻa, and whether children need simpler plates from the same menu or an earlier hour. A Kapaʻa town house and a Princeville estate do not share one draft. If rain hits the garden, plates move under the roof with the adults. If the Hanalei bridge closes, the children’s night moves too. It is not left behind on the far side.',
         'Children are part of the headcount in the request. There is no separate published kids’ price and no age cut-off on this page. The written reply sets out the total. Allergies for a child belong on [dietary notes](/dietary) before that shore’s shop. High chairs are the household’s. Request availability on [the quote form](/quote).',
+        'Request availability and name the shore, because a child’s plate is drafted next to the adult courses for that Poʻipū kitchen or that Princeville estate, not copied across the island. Early seating is an hour in the same note. Rain moves that earlier plate under cover with the adults. A bridge closure moves the children’s night too. Allergy flags go on [dietary notes](/dietary) before that shore’s shop. There is no age-based price. Send the head count with the children included.',
       ],
       faqs: [
         {
@@ -1110,13 +1113,14 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       h1: 'Kids’ plates on the Kona–Kohala side — shade first.',
       title: 'Kids’ plates on the Kona–Kohala side | myCHEF',
       description:
-        'Children on the Kona–Kohala side eat simpler plates in the shade and count in the headcount. Hilo is a separate dedicated east-side day, quoted in writing.',
+        'Children on the Kona–Kohala side eat simpler plates in the shade and count in the headcount. Hilo is a separate dedicated east-side day.',
       lede:
         'Join the inquiry list for the west side. Children eat simpler plates from the same menu, indoors while the lava terrace is still hot. Hilo is not this day.',
       photo: 'svcKidsBigisland',
       body: [
         'A noon terrace on the Kohala side is too hot for a children’s table. Plates are served in the shade or inside, as simpler versions of the adult menu, or earlier if you name the hour. Kona and Waikoloa do not share a Hilo shop. Ironman week compresses Kailua-Kona, so flag those dates. Do not add Volcano to the same note.',
         'Children are part of the west-side headcount. There is no published kids’ price and no age cut-off here. The written reply sets out the total. A child’s fish limit is a [dietary note](/dietary) before the shop. Chairs are the household’s. Hilo is a separate dedicated east-side day, quoted in writing. Join the inquiry list on [the quote form](/quote).',
+        'Join the inquiry list and the children’s plates are written beside the adult courses for the Kona or Kohala draft, served in the shade or at an earlier hour you name. The lava terrace at noon is not that seating. An allergy flag goes on [dietary notes](/dietary) before the west-side shop. Plates are not priced by age, and this page adds no new figure. Hilo remains a separate dedicated east-side day. Send one head count, children included, for the west-side house only.',
       ],
       faqs: [
         {
