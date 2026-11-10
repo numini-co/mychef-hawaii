@@ -7,6 +7,7 @@ import LineReveal from '@/components/LineReveal';
 import { LongFaq, Longform, SiblingCluster } from '@/components/Longform';
 import Photo from '@/components/Photo';
 import QuoteTeaser from '@/components/QuoteTeaser';
+import SeasonalNote from '@/components/SeasonalNote';
 import { islandChooserCopy } from '@/data/chromeCopy';
 import { HUB_CATERING, cateringOffers } from '@/data/catering';
 import { hubCateringFaqs, hubCateringSections } from '@/data/longformHub';
@@ -202,6 +203,7 @@ export function IslandCateringView({ islandId, hostMode }: { islandId: IslandId;
           <QuoteCta island={islandId} service="catering" variant="light" />
         </div>
       </Hero>
+      <SeasonalNote islandId={islandId} hostMode={hostMode} />
 
       <Formats islandId={islandId} />
 

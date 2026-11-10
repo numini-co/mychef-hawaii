@@ -8,6 +8,7 @@ import LineReveal from '@/components/LineReveal';
 import { Longform, LongFaq } from '@/components/Longform';
 import Photo from '@/components/Photo';
 import QuoteTeaser from '@/components/QuoteTeaser';
+import SeasonalNote from '@/components/SeasonalNote';
 import { SampleMenu } from '@/components/SampleMenu';
 import { heroFocal, islandHeroLede } from '@/data/chromeCopy';
 import { islandHomeLongform } from '@/data/longformIslands';
@@ -125,6 +126,8 @@ export default function IslandHomeView({
           </p>
         ) : null}
       </Hero>
+
+      <SeasonalNote islandId={islandId} hostMode={hostMode} />
 
       <section className="bg-paper py-24 lg:py-32">
         <div className="mx-auto grid w-full max-w-spread gap-10 px-5 lg:grid-cols-2 lg:gap-16 lg:px-10">

@@ -898,10 +898,10 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
     {
       slug: 'princeville',
       name: 'Princeville',
-      h1: 'Private chef Princeville Kauai',
-      title: 'Private chef Princeville Kauai — from $225/pp | myCHEF',
+      h1: 'Princeville private chef — North Shore estate dinners',
+      title: 'Princeville Private Chef | North Shore Estate Dinners | myCHEF',
       description:
-        'Private chef Princeville Kauai from $225/pp. North Shore estate dinners, villa weeks and Kauai catering. Inquiry stage.',
+        'Princeville estate and villa dinners from $225 a guest: North Shore rain plan in writing, Stay Chef weeks, by inquiry. Island-wide: the Kauaʻi home page.',
       lede:
         'Private chef Princeville covers the North Shore estates. By inquiry — send the shore and the dates, not instant booking. Signature dinners $225–$375/pp. Kauai catering for the same estates.',
       body: [
@@ -1004,10 +1004,10 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
     {
       slug: 'hanalei',
       name: 'Hanalei',
-      h1: 'Hanalei private chef — North Shore Kauai, bridge honesty.',
-      title: 'Hanalei Private Chef | North Shore Kauai | myCHEF',
+      h1: 'Hanalei private chef — valley dinners, bridge honesty.',
+      title: 'Hanalei Private Chef | Valley & Hāʻena Villa Dinners | myCHEF',
       description:
-        'Hanalei and North Shore Kauai villa dinners from $225 a guest. Bridge weather clause published. For island-wide private chef Kauai, open the Kauai home page.',
+        'Hanalei valley and Hāʻena villa dinners from $225 a guest. Bridge weather clause published: reschedule, not forfeit. Island-wide: the Kauaʻi home page.',
       lede:
         'Hanalei is one North Shore corridor of [private chef Kauai](/). The bridge is real — we plan around it. CORE from $225 a guest.',
       body: [
