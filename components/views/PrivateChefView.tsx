@@ -5,6 +5,7 @@ import JsonLd from '@/components/JsonLd';
 import LineReveal from '@/components/LineReveal';
 import { LongFaq, Longform, SiblingCluster } from '@/components/Longform';
 import QuoteTeaser from '@/components/QuoteTeaser';
+import SeasonalNote from '@/components/SeasonalNote';
 import { privateChefLongform } from '@/data/longformPrivateChef';
 import { islands, type IslandId } from '@/data/islands';
 import { photos } from '@/data/photos';
@@ -65,6 +66,7 @@ export default function PrivateChefView({ islandId, hostMode }: { islandId: Isla
           <QuoteCta island={islandId} service="private-chef" variant="light" />
         </div>
       </Hero>
+      <SeasonalNote islandId={islandId} hostMode={hostMode} />
       <Longform sections={copy.sections} />
       <DocumentPhotoGrid
         islandId={islandId}

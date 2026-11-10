@@ -1,7 +1,7 @@
 {
  "https://bigisland.mychef-hawaii.com/": {
-  "hash": "6497f94adc7b4bd90f62",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "db4bf7b9fd785b777c8e",
+  "lastmod": "2026-11-10T00:53:48Z"
  },
  "https://bigisland.mychef-hawaii.com/about": {
   "hash": "2bc332284751f9d00def",
@@ -240,8 +240,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://bigisland.mychef-hawaii.com/catering": {
-  "hash": "096de547dbb41c5054c3",
-  "lastmod": "2026-11-06T01:31:08Z"
+  "hash": "345ba4319844a1961199",
+  "lastmod": "2026-11-10T00:53:48Z"
  },
  "https://bigisland.mychef-hawaii.com/catering/bbq": {
   "hash": "cb4e4dab60ff7ace106e",
@@ -552,8 +552,8 @@
   "lastmod": "2026-10-28T00:54:41Z"
  },
  "https://bigisland.mychef-hawaii.com/private-chef": {
-  "hash": "f3c0f665132722323c4c",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "82e3a5b8c8bdece1aa22",
+  "lastmod": "2026-11-10T00:53:48Z"
  },
  "https://bigisland.mychef-hawaii.com/private-chef-cost": {
   "hash": "c1f4afec8d1d8dd35e4f",
@@ -628,8 +628,8 @@
   "lastmod": "2026-10-23T01:26:52Z"
  },
  "https://kauai.mychef-hawaii.com/": {
-  "hash": "b733e1df5816e86a7017",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "d5d5afa95caccb13b536",
+  "lastmod": "2026-11-10T00:53:48Z"
  },
  "https://kauai.mychef-hawaii.com/about": {
   "hash": "71dc1f85a06749fbd458",
@@ -864,8 +864,8 @@
   "lastmod": "2026-10-09T19:32:00Z"
  },
  "https://kauai.mychef-hawaii.com/catering": {
-  "hash": "ab35afa2954dfc3c67f2",
-  "lastmod": "2026-11-06T01:31:08Z"
+  "hash": "b7b68c57f3abe142822c",
+  "lastmod": "2026-11-10T00:53:48Z"
  },
  "https://kauai.mychef-hawaii.com/catering/bbq": {
   "hash": "679e1e9547e0b0167494",
@@ -996,8 +996,8 @@
   "lastmod": "2026-10-26T01:21:11Z"
  },
  "https://kauai.mychef-hawaii.com/hanalei": {
-  "hash": "593863dc6d6da8599b24",
-  "lastmod": "2026-10-29T00:54:49Z"
+  "hash": "6247f806a77deb177056",
+  "lastmod": "2026-11-10T00:53:48Z"
  },
  "https://kauai.mychef-hawaii.com/hanalei-bridge": {
   "hash": "14dbe357c5d2a21c6884",
@@ -1164,12 +1164,12 @@
   "lastmod": "2026-10-28T23:19:21Z"
  },
  "https://kauai.mychef-hawaii.com/princeville": {
-  "hash": "f4d3c91110bdb7e5762d",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "0d786fdd36ac90b0d9fb",
+  "lastmod": "2026-11-10T00:53:48Z"
  },
  "https://kauai.mychef-hawaii.com/private-chef": {
-  "hash": "16260fa3ef9f6100eeb3",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "31ed0978e64a47715c89",
+  "lastmod": "2026-11-10T00:53:48Z"
  },
  "https://kauai.mychef-hawaii.com/private-chef-cost": {
   "hash": "a045a7e6e4d857b5d39f",
@@ -1240,8 +1240,8 @@
   "lastmod": "2026-10-23T01:26:52Z"
  },
  "https://maui.mychef-hawaii.com/": {
-  "hash": "da3fe128654fbd3ac142",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "0f1d01e7087ee4de562d",
+  "lastmod": "2026-11-10T00:53:48Z"
  },
  "https://maui.mychef-hawaii.com/about": {
   "hash": "39c2291ec61361716a9c",
@@ -1476,8 +1476,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://maui.mychef-hawaii.com/catering": {
-  "hash": "5a66dcc8bad971ff62de",
-  "lastmod": "2026-10-23T00:50:35Z"
+  "hash": "719692237c8b5c757682",
+  "lastmod": "2026-11-10T00:53:48Z"
  },
  "https://maui.mychef-hawaii.com/catering/bbq": {
   "hash": "6bcf858d641bda03ff46",
@@ -1772,8 +1772,8 @@
   "lastmod": "2026-10-28T00:54:41Z"
  },
  "https://maui.mychef-hawaii.com/private-chef": {
-  "hash": "e6f26eda36f1c720099a",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "b77b90e02127d50f7da6",
+  "lastmod": "2026-11-10T00:53:48Z"
  },
  "https://maui.mychef-hawaii.com/private-chef-cost": {
   "hash": "ba90307123b42455ef69",
@@ -2296,8 +2296,8 @@
   "lastmod": "2026-11-02T01:30:07Z"
  },
  "https://oahu.mychef-hawaii.com/": {
-  "hash": "9a963653a641c79acc34",
-  "lastmod": "2026-10-09T19:27:00Z"
+  "hash": "fa352ba15682407e8387",
+  "lastmod": "2026-11-10T00:53:48Z"
  },
  "https://oahu.mychef-hawaii.com/about": {
   "hash": "a553262f79d242cc7297",
@@ -2532,8 +2532,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/catering": {
-  "hash": "530c0cd05f08ee93d5b3",
-  "lastmod": "2026-11-09T00:52:23Z"
+  "hash": "62059c28db08b15d755b",
+  "lastmod": "2026-11-10T00:53:48Z"
  },
  "https://oahu.mychef-hawaii.com/catering/bbq": {
   "hash": "501684b0fc358c72ac44",
@@ -2848,8 +2848,8 @@
   "lastmod": "2026-10-16T01:02:12Z"
  },
  "https://oahu.mychef-hawaii.com/private-chef": {
-  "hash": "828eff4ff4ca5981080a",
-  "lastmod": "2026-10-16T01:02:12Z"
+  "hash": "847a363b1843f47e966a",
+  "lastmod": "2026-11-10T00:53:48Z"
  },
  "https://oahu.mychef-hawaii.com/private-chef-cost": {
   "hash": "4e67dce70801a6b366de",
