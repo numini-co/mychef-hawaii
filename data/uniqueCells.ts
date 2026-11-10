@@ -276,6 +276,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         'The channel, the headland, and the west sunset are the setting. The booking is still the kitchen in the house. West Maui runs from Kāʻanapali to Kapalua. Live neighborhood pages are [Kāʻanapali](/kaanapali), [Kapalua](/kapalua), and [Lahaina](/lahaina). Nāpili houses and Honokōwai condos sit between those names: [Nāpili](/napili) and [Honokōwai](/honokowai). We cook houses with kitchens. We do not sell this coast as a Lahaina dining brand.',
         'Traffic is planned into arrival, not discovered on the invoice. A Saturday here is not a South Maui Saturday. Kapalua is often a quieter dinner. Kāʻanapali is often a family deck. Read the neighborhood page that matches the house, then the Maui bands on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the address.',
+        'Villa kitchens are the booking, from a Kāʻanapali deck to a Kapalua house and the Nāpili places between. Tell us the cooktop and whether dinner is indoors. Open [Kāʻanapali](/kaanapali) or [Kapalua](/kapalua) for the matching driveway. Request a written quote on [the quote form](/quote) with that address, the dates, and the seats. Bands stay on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -297,6 +298,10 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Where do I see West Maui prices before a written quote?',
           a: 'On the pricing page. Service, Hawaiʻi GET, the deposit, and gratuity stay on their own lines. This overview does not add a town fee. Request a written quote with the neighborhood and the address.',
+        },
+        {
+          q: 'What does a Kāʻanapali or Nāpili villa kitchen need before you write the quote?',
+          a: 'A working cooktop, a fridge, and a table the house already has. Name Kāʻanapali, Kapalua, or Nāpili so the town page matches the street. We cook that kitchen. Request a written quote with the dates and the seats.',
         },
       ],
       related: [
@@ -451,6 +456,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         'The South Shore as a whole is Poʻipū and Kōloa, sun-side kitchens closer to Līhuʻe than Princeville. The drive is shorter than the North. The menu band is the same Kauaʻi card, and the shore line is still named on the written quote. Wood-grilled catch happens when that kitchen can take fire. Arrival mornings in a pool kitchen are the usual Poʻipū ask, while Kōloa is more often the town house beside that shore. This page is not a second company.',
         'Poʻipū is the resort-and-house page, [Poʻipū](/poipu). Kōloa is the town beside it, [Kōloa](/koloa). Kalāheo, ʻEleʻele, Hanapēpē, and Waimea sit off this villa belt: start at [Kalāheo](/kalaheo) or [Hanapēpē](/hanapepe) if that is the street. The other shore is [North Shore](/north-shore). Sample plates are on [menus](/menus). Bands are on [pricing](/pricing). Request availability on [the quote form](/quote) with the shore and the dates.',
+        'Request availability and name a Poʻipū house or a Kōloa town kitchen. Rain still needs the indoor table before anyone shops. This shore does not inherit the Hanalei bridge. Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -472,6 +478,10 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Where do Kalāheo and the west side sit relative to this shore?',
           a: 'Off the Poʻipū and Kōloa villa belt. Kalāheo is the residential stretch. Hanapēpē and Waimea continue west and need their own notice. This page does not absorb those streets. Request availability on the URL that matches the house.',
+        },
+        {
+          q: 'What do I include when I request availability for Poʻipū or Kōloa?',
+          a: 'Request availability, then say Poʻipū or Kōloa, the dates, the house address, the guest count, and dietary notes. Rain needs the indoor table in that note. The south shore does not take the bridge clause. A shorter drive is not a cheaper menu. The card is on [pricing](/pricing).',
         },
       ],
       related: [
@@ -578,6 +588,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         'Act 198 tightens origin labeling for named Kona and Kaʻū coffee from 2027. The plate can still include coffee. The menu card cannot name a farm we do not have in writing. Coffee-rubbed catch can stay on a west-side menu. Unlabeled cherries are produce, not an origin claim.',
         'South-side dinners that meet this rule are [Kaʻū](/kau). Hillside houses above Kona are [Hōlualoa](/holualoa). Sample plates are on [menus](/menus). We cook dinners. We do not add a farm tour. Bands are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
+        'Named Kona coffee is printed on a west-side menu only when that lot is documented. Otherwise the card says coffee. Coffee-rubbed catch can remain. Those plates are on [menus](/menus). Do not add a farm tour. Join the inquiry list on [the quote form](/quote). Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -600,6 +611,10 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
           q: 'Which dinner pages use this labeling rule?',
           a: 'Any menu that would name Kona or Kaʻū coffee. Hillside houses are [Hōlualoa](/holualoa). The south is [Kaʻū](/kau). Bands are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote) and we will match the card to the lot.',
         },
+        {
+          q: 'Where does named Kona coffee appear when the lot is documented?',
+          a: 'On that dinner’s menu card, and on the sample plates at [menus](/menus), only when the lot is documented. If the paper is missing, the line says coffee. Named Kaʻū coffee follows the same rule from 2027. We do not add a farm tour.',
+        },
       ],
       related: [
         { path: '/menus', label: 'Menus' },
@@ -621,6 +636,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         'World Championship week and other pier-town events pack Kailua-Kona. Aliʻi Drive is not a quiet provisioning run. Villa breakfasts still happen when the date was held. We do not print event logos or claim an affiliation. This page is a calendar warning so we do not oversell.',
         'Flag those dates on the inquiry. A Waikoloa house is a different traffic story than a townhouse above Aliʻi Drive, and both stay on the west side. Read [Kailua-Kona](/kailua-kona), [Kona–Kohala communities](/kohala-corridor), and [how a night runs](/how-it-works). Bands are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
+        'Join the inquiry list early if a Kailua-Kona villa breakfast falls in a packed town week. A Waikoloa house is a different drive from Aliʻi. A published page is not a held crew. Flag the dates you already have. Read [pricing](/pricing) for the band.',
       ],
       faqs: [
         {
@@ -642,6 +658,10 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Where do ordinary west-side Tuesdays go when it is not an event week?',
           a: 'On [Kailua-Kona](/kailua-kona) or the [Kona–Kohala communities](/kohala-corridor), at a normal inquiry pace. This page is only the compressed weeks. Bands are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
+        },
+        {
+          q: 'What should the inquiry say when a Kailua-Kona breakfast falls in a packed town week?',
+          a: 'Join the inquiry list with the west-side address, the dates, and a note that town will be full. We do not print a logo or claim a tie to the week. Name Waikoloa or Aliʻi so the drive matches the house. Bands stay on [pricing](/pricing).',
         },
       ],
       related: [
@@ -665,6 +685,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         'Hilo and Volcano are quoted in writing as their own dedicated day. The drive from Kona is 2.5–3 hours, and that day is never stacked on a west-side day. Rain, ʻōhiʻa, and a different climate are the setting. If a crew can hold the date, the quote says so. We will not publish a live east-side calendar ahead of that crew.',
         'The west-side communities are [Kona–Kohala](/kohala-corridor). Town kitchens are [Hilo](/hilo). Lodge kitchens are [Volcano](/volcano). The map is [coverage](/coverage). Bands are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote) and name the east-side address as its own day.',
+        'Name [Hilo](/hilo) or [Volcano](/volcano) as its own dedicated day. A west-side afternoon does not absorb either kitchen. Send the east-side street, the dates, and the guest count, and leave Kona off that note. Travel sits on [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -686,6 +707,10 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         {
           q: 'How do I join the inquiry list for an east-side day only?',
           a: 'Use [the quote form](/quote) and name Hilo or Volcano, the dates, and the headcount as one dedicated day. Bands are on [pricing](/pricing). The map is [coverage](/coverage). A west-side afternoon is a different request.',
+        },
+        {
+          q: 'Can one inquiry name a Hilo dinner and a Volcano breakfast?',
+          a: 'Send the Hilo dinner and the Volcano breakfast as named east-side days. The reply says if they share a crew or need two notes. Hilo is the town kitchen. Volcano is the lodge kitchen. Neither is a Waikoloa stop. Join the inquiry list. Fee lines are on [pricing](/pricing).',
         },
       ],
       related: [
