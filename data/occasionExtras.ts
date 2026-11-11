@@ -79,6 +79,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
         'The kitchen line for executive dinners is on the corporate catering page.',
         'Production crews in residences are this product. A stage downtown is not.',
         'This page is one night in the house for the whole team. People can stand with plates or sit. Say which. The cook sets the Kahala or Ko Olina kitchen, sends the food, and clears before leaving. A town tower still needs its freight window first. Rain moves an outdoor setup indoors or onto a covered lānai, written before you accept. Server and sous-chef hours are separate from the food. A bartender is quoted in writing. See [staffing](/staffing). The quote shows 20% service and Hawaiʻi GET up to 4.712% on their own and a 50% deposit after you accept. Gratuity is never required. Days of meals are [retreats](/events/retreats). Bands are on [pricing](/pricing). Send the building on [the quote form](/quote).',
+        'One company dinner is a single evening in the house, apart from meals that run across a stay and apart from the plan for a group living in the rental. In a Kahala dining room the courses can be seated. In a Ko Olina villa the same night can be family-style platters people carry. Floor service, when the room needs it, is [servers](/staffing/servers). If someone will speak, put that moment on the timing line so the pass is not mid-sentence. The note needs the date, how many people, the allergy list, the building, and where the car parks. Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -267,6 +268,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       body: [
         'Production crews in residences are this product. Convention citywides are not.',
         'This page is one night in the rental for the whole team. The lawn can hold standing plates, or the dining room can seat them. Say which. The cook works the kitchen you hand over, serves, and clears. Saturday traffic toward Kapalua is already in the call time. Trade wind moves the night under the lanai roof, written before you accept. Server and sous-chef hours sit apart from the food. A lanai bartender is quoted in writing. See [staffing](/staffing). The quote lists 20% service and GET up to 4.712% each alone and a 50% deposit after you accept. Gratuity is never required. Days of cooking are [retreats](/events/retreats). Numbers are on [pricing](/pricing). Name the shore on [the quote form](/quote).',
+        'A company dinner on Maui is one evening in the villa, not several days of team meals and not the kitchen schedule of a group stay. The lawn can take family-style platters. The dining room can take a seated table. Say which before the shop. People who plate and clear are [servers](/staffing/servers), and only if that floor needs them. A toast gets its own minute so the courses wait. The request names the evening, the seats, food limits, and the shore, including a Saturday drive toward Kapalua when that is the house. Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -455,6 +457,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       body: [
         'Inquiry stage. Published starting prices for dinners still apply when we cook.',
         'Request availability for one night in the estate, for the whole team. Standing plates on a terrace, or seats in the dining room: say which. The cook sets the kitchen, serves, and clears. Rain on the north moves the night under a covered lanai when the road is open. A Hanalei bridge closure moves that night. It does not become Poʻipū. Server and sous-chef hours are separate from the menu. A bartender is quoted in writing. See [staffing](/staffing). The note shows 20% service and GET up to 4.712% each alone, and a 50% deposit only after a written yes. Gratuity is never required. Full-board days are [retreats](/events/retreats). The card is [pricing](/pricing). Request availability on [the quote form](/quote).',
+        'Request availability for one estate dinner for the company. Keep it separate from meals across the stay and from the days a group lives in the house. Choose seated courses in the dining room, or family-style platters on a covered lanai, and choose the rain fallback in the same note. A Hanalei bridge closure moves that night. It does not become the other shore. Floor service is [servers](/staffing/servers) when you ask for the line. A short speech needs a clock time so the kitchen pauses. Availability asks for the night, the chairs, each dietary limit, and the shore. Request availability on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -645,6 +648,7 @@ export const occasionExtras: Record<IslandId, OccasionExtra[]> = {
       body: [
         'Inquiry stage. We will not pretend a Waikoloa offsite covers Hilo.',
         'Join the inquiry list for one night in a Kona or Kohala house, for the whole team. Standing plates on the terrace, or seats in the great room: say which. The cook sets the kitchen, serves, and clears. Wind moves the night indoors in that same house, written before a yes. Hilo is a dedicated day and is never implied. Server and sous-chef hours are separate asks. A bartender is quoted in writing. See [staffing](/staffing). The inquiry shows 20% service and Hawaiʻi GET up to 4.712% each alone and a 50% deposit after a written yes. Gratuity is never required. Full-board days are [retreats](/events/retreats). The card is [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
+        'Join the inquiry list for one west-side company dinner in a Kona or Kohala house. It is not the booking that feeds a team on several days, and it is not the note that plans how a group lives in the villa. Family-style platters suit the terrace. A seated table suits the great room. Say if a talk sits between courses, because hard sun and wind already decide whether the terrace holds. The floor, when you need it, is [servers](/staffing/servers) as its own ask. The inquiry carries the evening, the chair count, each restriction, and the address. Leave Hilo off. Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [
         {
