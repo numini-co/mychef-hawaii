@@ -31,6 +31,7 @@ export const islandLocations: Record<IslandId, IslandLocationsPage> = {
     photo: 'locIndexOahu',
     body: [
       'Base-zone towns are [Honolulu](/honolulu), [Waikīkī](/waikiki), [Kahala](/kahala), [Kailua](/kailua), [Lanikai](/lanikai), [Hawaiʻi Kai](/hawaii-kai), [Diamond Head](/diamond-head), and [Ko Olina](/ko-olina). Hotel suites without a cooktop are declined on the Waikīkī page. The [North Shore](/north-shore) is a surcharge day, 60–90+ minutes from town, and that drive is its own line on the quote, not folded into the food. Kāneʻohe is the same idea: travel quoted in writing. A 20% service charge and Hawaiʻi GET up to 4.712% stay on their own lines after the food. A 50% deposit holds the date after you accept. How the areas feel different is on [areas](/areas). Quotes are open. Request a written quote on [the quote form](/quote). Bands are on [pricing](/pricing).',
+      'Pick the page that matches the driveway, then open [coverage](/coverage) for base versus beyond-base. Town towers: [Kakaʻako](/kakaako) needs a dock and a freight window, and [Downtown](/downtown) is a small residence range. The estate belt is the [Gold Coast](/gold-coast), from Kahala toward Diamond Head. Past the base towns, [Kāneʻohe](/kaneohe) and [ʻEwa](/ewa) are longer drives, written on [pricing](/pricing) with no figure on this index. Open that one town page before you send the building. A suite without a cooktop is declined. Request a written quote and name where the car parks.',
     ],
     faqs: [
       {
@@ -63,13 +64,14 @@ export const islandLocations: Record<IslandId, IslandLocationsPage> = {
     h1: 'Where we cook on Maui — South Shore, West Maui and the towns between.',
     title: 'Maui towns we cook in — Wailea to Kapalua | myCHEF',
     description:
-      'Maui towns: Wailea, Makena, Kīhei, Kāʻanapali, Lahaina, and Kapalua. Each has a page. Saturday West Maui traffic is planned in. Travel prints on the quote.',
+      'Maui towns: Wailea, Makena, Kīhei, Kāʻanapali, Lahaina, and Kapalua. Saturday West Maui traffic is planned in. Travel prints on the quote.',
     lede:
       'South Shore and West Maui are both on this list. Lahaina is a town here, not a mystery fee. Saturday traffic changes the arrival, and that arrival is written before the shop.',
     kicker: 'Maui · Locations',
     photo: 'locIndexMaui',
     body: [
       'Open the town: [Wailea](/wailea), [Makena](/makena), [Kīhei](/kihei), [Kāʻanapali](/kaanapali), [Lahaina](/lahaina), [Kapalua](/kapalua), and [Nāpili](/napili). Those are base. [Upcountry](/upcountry) is a published surcharge, quoted with the menu, not a dollar invented on this page. A Saturday crossing from Wailea toward Kapalua is planned into arrival. Travel, when it applies, prints on the written quote and is not folded into the food. A 20% service charge and Hawaiʻi GET up to 4.712% are their own lines. A 50% deposit holds the dates after you accept. How the areas differ for a villa week is on [areas](/areas). Quotes are open. Request a written quote on [the quote form](/quote).',
+      'Match the page to the driveway. Along West Maui, [Honokōwai](/honokowai) is the condo stretch beside the resorts already listed. [Waikapū](/waikapu) is a central-valley house. On the north shore, [Pāʻia](/paia) is its own booking, not a Wailea day. Higher up, [Makawao](/makawao) and [Haleakalā](/haleakala) sit with the upcountry climb. Shore overviews are [South Maui](/south-maui) and [West Maui](/west-maui). Base versus beyond-base is on [pricing](/pricing), with no travel figure here. The map is [coverage](/coverage). One town should lead the note. Request a written quote and name that town.',
     ],
     faqs: [
       {
@@ -109,6 +111,7 @@ export const islandLocations: Record<IslandId, IslandLocationsPage> = {
     photo: 'locIndexKauai',
     body: [
       'North shore: [Princeville](/princeville) and [Hanalei](/hanalei). South shore: [Poʻipū](/poipu) and [Kōloa](/koloa). East side: [Kapaʻa](/kapaa) and [Līhuʻe](/lihue). A house past the Hanalei bridge inherits the written clause, including 72-hour notice, and a closure reschedules rather than forfeits. Poʻipū is a shorter drive from Līhuʻe than the far north. West-side towns such as Waimea are quoted in writing. We do not print a separate travel price on this page. A 20% service charge and Hawaiʻi GET up to 4.712% are their own lines after a written yes. Request availability on [the quote form](/quote). How the shores differ is on [areas](/areas).',
+      'Group the request by shore before you ask. Far north of Hanalei is [Hāʻena](/haena). East of the airport, [Anahola](/anahola) is its own ask. The villa belt overview is [South Shore](/south-shore). West of that belt, open [Kalāheo](/kalaheo), [ʻEleʻele](/eleele), [Hanapēpē](/hanapepe), and [Waimea](/waimea), each with its own notice. The north overview is [North Shore](/north-shore). Base versus a longer drive is on [pricing](/pricing), and this index prints no fee. The map is [coverage](/coverage). Request availability, name one town, and say the shore. A named town is not a held date.',
     ],
     faqs: [
       {
@@ -148,6 +151,7 @@ export const islandLocations: Record<IslandId, IslandLocationsPage> = {
     photo: 'locIndexBigisland',
     body: [
       'West side first: [Kailua-Kona](/kailua-kona), [Keauhou](/keauhou), [Kona](/kona), [Waikoloa](/waikoloa), and the [Kohala Coast](/kohala). Seven resort communities sit inside a 30-minute west-side radius. [Waimea](/waimea) is upcountry on that same side, with travel quoted in writing. [Hilo](/hilo) is not on the west-side day. It is a separate dedicated east-side day, 2.5–3 hours from Kona, with its own quote. Volcano sits with that east-side request. A 20% service charge and Hawaiʻi GET up to 4.712% are their own lines. Join the inquiry list on [the quote form](/quote). How the sides differ is on [areas](/areas). Bands are on [pricing](/pricing).',
+      'Resort communities still on the west side: [Mauna Lani](/mauna-lani) is one terrace community, [Mauna Kea](/mauna-kea) is the resort belt and not the summit, and [Puakō](/puako) is the houses between them. Above town, [Hōlualoa](/holualoa) is the cooler hillside. The shared belt is [Kona–Kohala communities](/kohala-corridor). East of the saddle, open [Volcano](/volcano) with Hilo under [the east side](/east-side). South is [Kaʻū](/kau). The windward coast is [Honokaʻa](/honokaa). Base versus beyond-base is on [pricing](/pricing), with no travel figure here. The map is [coverage](/coverage). Join the inquiry list for one town.',
     ],
     faqs: [
       {

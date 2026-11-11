@@ -1192,11 +1192,12 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         '2.5–3 hours from Kona.',
         'Volcano is a separate east-side day. A cooktop is still required. We will not publish “now serving Hilo” ahead of a crew.',
+        'A Hilo dinner is a town kitchen on the dedicated east-side day, not a stop added to a west-side afternoon. The range, the cold storage, and the seats are in town. Rain does not cancel the cooktop rule, and a covered backup is written when the table is outdoors. Lodge kitchens are a different page. This day is [the east side](/east-side). Bands stay on [pricing](/pricing). Join the inquiry list on [the quote form](/quote) with the Hilo street, the date, and the headcount.',
       ],
       faqs: [
         {
           q: 'Hilo town versus the east-side crossing rule versus Volcano?',
-          a: 'Same east-side day class, different kitchens. We will not sell Hilo as a Volcano page or the reverse.',
+          a: 'The town page is the Hilo street and its range. The east-side page is the rule that the day stands alone. The lodge page is the slope. Join the inquiry list for the kitchen you have.',
         },
         {
           q: 'Why can’t a Kona or Waikoloa night absorb Hilo town?',
@@ -1246,6 +1247,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Weather is its own plan. A cooktop is still required. Inquiry.',
         'Send the dates on the quote form. We will not promise a lawn we cannot keep dry.',
+        'Volcano dinners use lodge and cabin kitchens, not a Hilo storefront. Nights run cooler, so write the indoor table as the plan. Confirm the cooktop and the cold storage before the shop, and expect a shorter menu when the range is small. Outdoor fire stays a weather decision. This slope is [the east side](/east-side). Bands are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote) with the lodge address and the seats.',
       ],
       faqs: [
         {
@@ -1258,7 +1260,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Why is a Volcano lodge a dedicated day from Kona?',
-          a: 'The drive is 2.5–3 hours from Kona. We quote it as its own east-side day and never squeeze it onto a west-side afternoon.',
+          a: 'The drive is 2.5–3 hours from Kona. We quote it as its own east-side day and never squeeze it onto a west-side afternoon. Send the lodge name with the nights. A Kohala terrace does not absorb this kitchen.',
         },
         {
           q: 'What does booking by inquiry mean for a park-side lodge?',
@@ -1266,7 +1268,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Signature $210–$325 or a from-$165 dinner at a Volcano lodge?',
-          a: 'A park-lodge plated night is Signature $210–$325 per guest, with the shop already in the band. The from-$165 dinner is only a shorter cabin list when the range can hold it. Service is 20%. Tax prints up to 4.712%. Half, the 50%, waits until someone can staff the slope. Gratuity is never required. Read the pricing page before you enquire.',
+          a: 'A park-lodge plated night is Signature $210–$325 per guest, with the shop already in the band. The from-$165 dinner is only a shorter cabin list when the range can hold it. Service is 20%. Tax prints up to 4.712%. Half, the 50%, waits until someone can staff the slope. Gratuity is never required. Read the pricing page before you inquire.',
         },
         {
           q: 'Stay Chef from $1,450 for a lodge week — who pays for the shop?',
@@ -1277,7 +1279,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
           a: 'A working cooktop. Cold, wet evenings at elevation need an indoor plan in writing — not a lanai hope. Hotel rooms and lock-offs without heat are declined before a deposit. Town kitchens are on the [Hilo](/hilo) page.',
         },
         {
-          q: 'How do I enquire for a Volcano lodge — address and dates?',
+          q: 'How do I inquire for a Volcano lodge — address and dates?',
           a: 'Name the lodge, the nights, and the seats on the quote form. If the week is real, WhatsApp https://wa.me/18084687748 or call +1 808 468 7748. Mail quotes@mychef-hawaii.com. Hawaii hours, and only when a crew can cross. Full rates: [the pricing page](/pricing).',
         },
       ],
