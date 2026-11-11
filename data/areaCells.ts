@@ -1046,7 +1046,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Keauhou is south of Kailua-Kona and still on the west side: resort residences, bay light, and kitchens that range from a full cooktop to a tight galley. A chef night is written for the property you name. Send the property type before anyone shops. A unit without a cooktop is declined.',
         'The town page is [Kailua-Kona](/kailua-kona). Hillside coffee country is [Hōlualoa](/holualoa). Hilo and Volcano are not added to this night; that rule is [the east side](/east-side). Fee lines are on [pricing](/pricing). Travel is confirmed on the written quote. Join the inquiry list on [the quote form](/quote).',
-        'Name a full cooktop or a tight galley before the shop. The crew uses that kitchen, plates the headcount, and leaves it clean. A town walk-up and a hillside house are other driveways. This night does not collect an east-side address. Join the inquiry list with the property type. Bands stay on [pricing](/pricing).',
+        'Name a full cooktop or a tight galley before the shop. The crew uses that kitchen, plates the headcount, and leaves it clean. A town walk-up and a hillside house are other driveways. This night does not collect an east-side address. Join the inquiry list with the property type. Say how the building wants the car to arrive. Bands stay on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -1247,7 +1247,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Weather is its own plan. A cooktop is still required. Inquiry.',
         'Send the dates on the quote form. We will not promise a lawn we cannot keep dry.',
-        'Volcano dinners use lodge and cabin kitchens, not a Hilo storefront. Nights run cooler, so write the indoor table as the plan. Confirm the cooktop and the cold storage before the shop, and expect a shorter menu when the range is small. Outdoor fire stays a weather decision. This slope is [the east side](/east-side). Bands are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote) with the lodge address and the seats.',
+        'Volcano dinners use lodge and cabin kitchens, not a Hilo storefront. Nights run cooler, so write the indoor table as the plan. A lanai is only a written backup. Confirm the cooktop and the cold storage before the shop, and expect a shorter menu when the range is small. Outdoor fire stays a weather decision. This slope is [the east side](/east-side). Bands are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote) with the lodge address, the nights, and the seats.',
       ],
       faqs: [
         {
@@ -1439,7 +1439,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Puakō is residential lava-coast houses between Waikoloa and Mauna Lani. The night is a house supper, not a resort-program dinner and not a second island. The same west-side crew cooks when the week can be staffed. A working cooktop is required. Hilo is never added to this address.',
         'Mauna Lani residences are [Mauna Lani](/mauna-lani). The seven-community belt is [Kona–Kohala communities](/kohala-corridor). Waikoloa is [Waikoloa](/waikoloa). The east-side day is [Hilo and Volcano](/east-side). Bands are on [pricing](/pricing). Travel is confirmed on the written quote. Join the inquiry list on [the quote form](/quote).',
-        'This is a house supper between the resorts. The dining room is the house, not a resort program. A lock-off without heat is declined. Do not file this street as the resort next door, and do not add the east side the same day. Join the inquiry list with the street. Bands are on [pricing](/pricing).',
+        'This is a house supper between the resorts. The dining room is the house, not a resort program. A lock-off without heat is declined. Do not file this street as the resort next door, and do not add the east side the same day. Join the inquiry list with the street. Name that cooktop in the note. Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
