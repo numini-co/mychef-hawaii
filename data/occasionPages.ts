@@ -80,6 +80,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
         'Ko Olina short-stay weeks often start here. Kahala houses too.',
         'Legal short-stay rules for those Ko Olina villas are written on the short-stay page.',
         'The cook is in a Ko Olina villa or a Kahala house about three hours before food is wanted. A Honolulu tower waits on its freight window first. You hand over the cooktop, the fridge, and a clear counter. Family-style platters or a grazing board go out while bags are still in the hall. We serve and clear. Rain moves an outdoor setup into the dining room or onto a covered lānai, written on the quote with 20% service and Hawaiʻi GET up to 4.712% on their own and a 50% deposit after you accept. Gratuity is never required. See [all occasions](/events) and [pricing](/pricing). Send the landing time on [the quote form](/quote). A larger room is [Oahu catering](/catering).',
+        'The arrival-night problem on Oʻahu is a late flight, an empty fridge, and a kitchen nobody has used. The chef shops before guests land, and groceries for this signature dinner sit inside the per-guest band on [pricing](/pricing). The start can move with the landing if a Honolulu tower still has its freight window and a place for the car. The first course is one shared plate, not a seated reception. Send the arrival time, the head count, allergies, and the house address, and say whether the building uses a dock. A later cooked week in that house is [retreats](/events/retreats). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -215,13 +216,14 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       h1: 'Maui welcome dinners — first night in Wailea or West Maui.',
       title: 'Maui welcome dinners — first villa night | myCHEF',
       description:
-        'Arrival-night grazing in Wailea, Kapalua and Kāʻanapali.',
+        'Arrival-night dinner for a Maui villa week in Wailea, Kapalua, or Kāʻanapali. The chef shops before you land. Request a written quote.',
       lede:
         'Travel clothes, family-style fish, the ice-breaker before the week. The reception is a different line.',
       photo: 'occWelcomeMaui',
       body: [
         'Wedding welcome nights stack on the wedding week page as their own line.',
         'A Wailea or Kapalua landing starts in the rental kitchen about three hours before platters. A Saturday crawl toward Kapalua is already in that call. You hand over the cooktop, cold storage, and a clear counter. Family-style fish goes to the lanai while people are still in travel clothes. We serve, then reset the kitchen. If a west-side gust closes the open lanai, dinner shifts under cover. The quote names that backup, then 20% service and Hawaiʻi GET up to 4.712% each alone, and a 50% deposit after you accept. Gratuity is never required. Other nights are on [all occasions](/events). Numbers are on [pricing](/pricing). Send the shore on [the quote form](/quote). A later lawn is [Maui catering](/catering).',
+        'The first night of a Maui villa week is often a late flight, groceries not yet bought, and a rental cooktop nobody has tried. The chef shops before the group lands. That shop sits inside the signature per-guest band on [pricing](/pricing). The start can slide with the arrival, including a Saturday drive toward Kapalua. The first course is one shared plate while people are still in travel clothes. Send the arrival time, the head count, allergies, and the villa address, and name Wailea, Kapalua, or Kāʻanapali. When the dates are a full week, see [wedding week](/wedding-week). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -367,6 +369,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
         'Poʻipū pool kitchens are the usual South arrival. Princeville for the North. Far-North still inherits the bridge clause if you keep driving.',
         'Request availability with the shore.',
         'Request availability with the shore and the Līhuʻe flight. Poʻipū is the shorter hop. Princeville still depends on the road. The cook sets the estate kitchen, then family-style fish goes out while bags are by the door, and the counters are cleared before we leave. Rain on the north moves the table under a covered lanai. A Hanalei bridge closure moves the whole night rather than sending it south. The note shows food, any server hours, 20% service and GET up to 4.712% each alone, and a 50% deposit only after a written yes. Gratuity is never required. Other nights are on [all occasions](/events). The card is [pricing](/pricing). Request availability on [the quote form](/quote). Extra hands are [staffing](/staffing).',
+        'An estate first night on Kauaʻi often means bags by the door and a kitchen not yet used. The chef shops before the Līhuʻe flight lands. Groceries for that signature dinner sit inside the per-guest band on [pricing](/pricing). Offer a start time that can move if the road is slow, and name a covered lanai as the rain fallback. A Hanalei bridge closure moves the whole night. The first course is one shared plate. Send the arrival time, the head count, allergies, and the estate address. Request availability on [the quote form](/quote). Further days in that house are [retreats](/events/retreats).',
       ],
       faqs: [
         {
@@ -511,6 +514,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
         'Kona town and Kohala resort residences.',
         'Inquiry stage. Published starting prices from $210 a guest. Dinners from $165 a guest.',
         'Join the inquiry list with the KOA time and a west-side address. The cook sets the Kona or Waikoloa kitchen before family-style fish goes out. You hand over the cooktop, the fridge, and a clear counter. We serve, then clear. If the Kohala terrace shuts, dinner moves to the great room of that same house. Hilo is a dedicated day and is not implied by this landing. The inquiry shows that one night, 20% service and Hawaiʻi GET up to 4.712% each alone, and a 50% deposit only after a written yes. Gratuity is never required. Other nights are on [all occasions](/events). The card is [pricing](/pricing). Join the inquiry list on [the quote form](/quote). See [staffing](/staffing).',
+        'West side first: a KOA landing, a villa fridge still empty, and a cooktop nobody has tested. The chef shops before guests land. Groceries for this signature dinner sit inside the per-guest band on [pricing](/pricing). The start can flex with the flight. If the terrace is still too bright, the first course is one shared plate in the great room. Send the arrival time, the head count, allergies, and a Kona, Waikoloa, or Kohala address. Hilo is not this night. Join the inquiry list on [the quote form](/quote). Days after the landing, in the same house, are [retreats](/events/retreats).',
       ],
       faqs: [
         {

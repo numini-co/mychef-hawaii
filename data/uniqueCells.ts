@@ -134,6 +134,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       body: [
         'The Gold Coast is the estate belt from Kahala to Diamond Head: houses with dining rooms, not a Waikīkī kitchenette. The dining room is the point. Name the house, not a nearby hotel. A Tuesday dinner for eight stays a house booking on this page. Wedding-weekend kitchens are on [weddings](/weddings). The crew follows the guest list already written for this coast. A seated reception is still that same house.',
         'This coast is base zone. There is no North Shore travel line on a Gold Coast address. Kahala holds the estate corridor and Diamond Head holds the adjacent residences, so a Tuesday dinner stays here while a wedding weekend is written apart. Kahala estates are [Kahala](/kahala). Residences beside the cone are [Diamond Head](/diamond-head). The wider town is [Honolulu](/honolulu). Oʻahu bands and fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote) and name the house, not a hotel.',
+        'Diamond Head-side estates are houses with a dining room on this belt. Residences beside the cone are [Diamond Head](/diamond-head). The other end is [Kahala](/kahala). Both ends are base zone. A hotel suite without a cooktop is declined. Request a written quote for the house, and name the street you mean. Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -155,6 +156,10 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         {
           q: 'How is this page different from Kahala and from Diamond Head?',
           a: 'Kahala is the estate corridor. Diamond Head is the residences beside the cone. This URL is the belt that holds both, not a third company. Honolulu is the wider town. Request a written quote with the actual street.',
+        },
+        {
+          q: 'How do I tell a Diamond Head-side estate from a Kahala house?',
+          a: 'Use the street. Houses beside the cone are [Diamond Head](/diamond-head). Kahala is the estate corridor at the other end. Request a written quote for that dining room, not a hotel nearby. Both ends of the belt are base zone. Bands are on [pricing](/pricing).',
         },
       ],
       related: [

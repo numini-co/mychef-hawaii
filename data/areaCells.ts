@@ -997,6 +997,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Kailua-Kona town is the south end of the west side: walkable blocks, condo kitchens with a real range, and houses that are not the Kohala resort belt. A chef night uses that town kitchen. Event weeks pack the streets, so those dates need an early flag. They do not create a kitchen that is not there.',
         'Hillside houses above town are [Hōlualoa](/holualoa). Resort residences south of town are [Keauhou](/keauhou). Compressed weeks are [event weeks](/ironman-weeks). Hilo stays a dedicated day on [the east side](/east-side). Bands are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
+        'A dinner on this page is a condo or house range on the walkable blocks, not the hillside and not the resort residences south of town. Cold storage and a table still have to be real. Dates that pack the streets are a separate note on [event weeks](/ironman-weeks). Join the inquiry list with the building type. Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -1018,6 +1019,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Where do I look up a Kailua-Kona town price?',
           a: 'Open [pricing](/pricing) for the band that covers this town. [Kona](/kona) is the wider corridor if the house is not a downtown kitchen. An event week does not reprint the card. It only means you flag the date sooner on [the quote form](/quote).',
+        },
+        {
+          q: 'What do I send for a Kailua-Kona condo that is not an event week?',
+          a: 'Send the building type, a real range, cold storage, the headcount, and dietary limits. Packed dates belong on [event weeks](/ironman-weeks), which this note only links. Join the inquiry list for the town kitchen. Bands are on [pricing](/pricing).',
         },
       ],
       related: [
@@ -1041,6 +1046,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Keauhou is south of Kailua-Kona and still on the west side: resort residences, bay light, and kitchens that range from a full cooktop to a tight galley. A chef night is written for the property you name. Send the property type before anyone shops. A unit without a cooktop is declined.',
         'The town page is [Kailua-Kona](/kailua-kona). Hillside coffee country is [Hōlualoa](/holualoa). Hilo and Volcano are not added to this night; that rule is [the east side](/east-side). Fee lines are on [pricing](/pricing). Travel is confirmed on the written quote. Join the inquiry list on [the quote form](/quote).',
+        'Name a full cooktop or a tight galley before the shop. The crew uses that kitchen, plates the headcount, and leaves it clean. A town walk-up and a hillside house are other driveways. This night does not collect an east-side address. Join the inquiry list with the property type. Say how the building wants the car to arrive. Bands stay on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -1062,6 +1068,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Which page shows what a Keauhou residence costs?',
           a: 'The band for a resort residence is on [pricing](/pricing). Say whether the kitchen is a full cooktop or a galley when you join the inquiry list, because that changes the menu, not a secret extra. The town comparison is [Kailua-Kona](/kailua-kona).',
+        },
+        {
+          q: 'What should a Keauhou note say about the galley before anyone shops?',
+          a: 'Say full cooktop or tight galley, the headcount, and how the car should arrive. A lock-off without heat is declined. The menu follows those burners. Join the inquiry list for this residence alone. Bands are on [pricing](/pricing).',
         },
       ],
       related: [
@@ -1085,6 +1095,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Mauna Lani is one Kohala resort community: lava-terrace residences, not a stand-in for every west-side town and not a Hilo kitchen. A chef night uses the residence you name. Waikoloa is the neighboring corridor. Puakō is the residential strip between them. This page is only Mauna Lani.',
         'Read [Puakō](/puako) for the houses between resorts, [Waikoloa](/waikoloa) for that corridor, and [Kona–Kohala communities](/kohala-corridor) for the whole west-side belt. Bands are on [pricing](/pricing). Travel is confirmed on the written quote. Join the inquiry list on [the quote form](/quote).',
+        'Keep this page to the lava-terrace residence. Houses between the resorts, and the next resort belt, are other driveways. If terrace weather may turn, name the indoor room with the cooktop. A unit without heat is declined before a deposit. Join the inquiry list with the residence, not the whole coast. Fee lines stay on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -1106,6 +1117,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Where are the fee lines before I inquire for Mauna Lani?',
           a: 'On [pricing](/pricing). 20% service and Hawaiʻi GET up to 4.712% follow the food on their own lines. A 50% deposit follows acceptance. Gratuity is never required. Travel is confirmed on the written quote. The belt overview is [Kona–Kohala communities](/kohala-corridor).',
+        },
+        {
+          q: 'What do I write if a Mauna Lani terrace might not hold the table?',
+          a: 'Name the cooktop and the indoor room if terrace weather turns. Outdoor seats are written, not assumed. Join the inquiry list for this community only. Fee lines are on [pricing](/pricing), with no travel figure on this page.',
         },
       ],
       related: [
@@ -1129,6 +1144,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'The Mauna Kea resort belt is North Kohala houses and resort kitchens on the west side. The name is the community. We do not cook at the summit, and we do not sell a mountain dinner. A chef night is a villa table in that belt, by inquiry, with the property named on the form.',
         'The wider belt is [Kona–Kohala communities](/kohala-corridor). The next resort community is [Mauna Lani](/mauna-lani). The coast page is [Kohala](/kohala). Fee lines are on [pricing](/pricing). Travel is confirmed on the written quote. Join the inquiry list on [the quote form](/quote).',
+        'The name here is the resort community, not the summit. A mountain dinner is not for sale. The villa table is cooked and cleared in the house you named. Say whether that table is indoors before anyone drives. The next resort community is a different driveway. Join the inquiry list with the property. Fee lines are on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -1151,6 +1167,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
           q: 'Where are Kohala Coast prices listed?',
           a: 'On [pricing](/pricing), with 20% service and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit follows acceptance. Gratuity is never required. The coast page is [Kohala](/kohala). Travel is confirmed on the written quote.',
         },
+        {
+          q: 'Why will you not cook at the summit if the resort uses that name?',
+          a: 'The resort houses are the kitchen. The summit is geography, not a dining room we staff. Join the inquiry list with the property and say if the table is indoors. A mountain dinner is not for sale. Fee lines are on [pricing](/pricing).',
+        },
       ],
       related: [
         { path: '/kohala', label: 'Kohala Coast' },
@@ -1172,11 +1192,12 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         '2.5–3 hours from Kona.',
         'Volcano is a separate east-side day. A cooktop is still required. We will not publish “now serving Hilo” ahead of a crew.',
+        'A Hilo dinner is a town kitchen on the dedicated east-side day, not a stop added to a west-side afternoon. The range, the cold storage, and the seats are in town. Rain does not cancel the cooktop rule, and a covered backup is written when the table is outdoors. Lodge kitchens are a different page. This day is [the east side](/east-side). Bands stay on [pricing](/pricing). Join the inquiry list on [the quote form](/quote) with the Hilo street, the date, and the headcount.',
       ],
       faqs: [
         {
           q: 'Hilo town versus the east-side crossing rule versus Volcano?',
-          a: 'Same east-side day class, different kitchens. We will not sell Hilo as a Volcano page or the reverse.',
+          a: 'The town page is the Hilo street and its range. The east-side page is the rule that the day stands alone. The lodge page is the slope. Join the inquiry list for the kitchen you have.',
         },
         {
           q: 'Why can’t a Kona or Waikoloa night absorb Hilo town?',
@@ -1226,6 +1247,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Weather is its own plan. A cooktop is still required. Inquiry.',
         'Send the dates on the quote form. We will not promise a lawn we cannot keep dry.',
+        'Volcano dinners use lodge and cabin kitchens, not a Hilo storefront. Nights run cooler, so write the indoor table as the plan. A lanai is only a written backup. Confirm the cooktop and the cold storage before the shop, and expect a shorter menu when the range is small. Outdoor fire stays a weather decision. This slope is [the east side](/east-side). Bands are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote) with the lodge address, the nights, and the seats.',
       ],
       faqs: [
         {
@@ -1238,7 +1260,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Why is a Volcano lodge a dedicated day from Kona?',
-          a: 'The drive is 2.5–3 hours from Kona. We quote it as its own east-side day and never squeeze it onto a west-side afternoon.',
+          a: 'The drive is 2.5–3 hours from Kona. We quote it as its own east-side day and never squeeze it onto a west-side afternoon. Send the lodge name with the nights. A Kohala terrace does not absorb this kitchen.',
         },
         {
           q: 'What does booking by inquiry mean for a park-side lodge?',
@@ -1246,7 +1268,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Signature $210–$325 or a from-$165 dinner at a Volcano lodge?',
-          a: 'A park-lodge plated night is Signature $210–$325 per guest, with the shop already in the band. The from-$165 dinner is only a shorter cabin list when the range can hold it. Service is 20%. Tax prints up to 4.712%. Half, the 50%, waits until someone can staff the slope. Gratuity is never required. Read the pricing page before you enquire.',
+          a: 'A park-lodge plated night is Signature $210–$325 per guest, with the shop already in the band. The from-$165 dinner is only a shorter cabin list when the range can hold it. Service is 20%. Tax prints up to 4.712%. Half, the 50%, waits until someone can staff the slope. Gratuity is never required. Read the pricing page before you inquire.',
         },
         {
           q: 'Stay Chef from $1,450 for a lodge week — who pays for the shop?',
@@ -1257,7 +1279,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
           a: 'A working cooktop. Cold, wet evenings at elevation need an indoor plan in writing — not a lanai hope. Hotel rooms and lock-offs without heat are declined before a deposit. Town kitchens are on the [Hilo](/hilo) page.',
         },
         {
-          q: 'How do I enquire for a Volcano lodge — address and dates?',
+          q: 'How do I inquire for a Volcano lodge — address and dates?',
           a: 'Name the lodge, the nights, and the seats on the quote form. If the week is real, WhatsApp https://wa.me/18084687748 or call +1 808 468 7748. Mail quotes@mychef-hawaii.com. Hawaii hours, and only when a crew can cross. Full rates: [the pricing page](/pricing).',
         },
       ],
@@ -1368,6 +1390,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Hōlualoa sits above Kailua-Kona, where evenings run cooler and the houses are hillside homes rather than town walk-ups. A chef night here is a seated supper in that house. The menu follows the burners on site. A working cooktop is still required. Named coffee appears only when the lot is documented. Otherwise the card says coffee.',
         'Town kitchens are on [Kailua-Kona](/kailua-kona). Resort residences south of town are on [Keauhou](/keauhou). The labeling rule is [coffee origin](/coffee-act-198). Bands and fee lines are on [pricing](/pricing). Travel is confirmed on the written quote. Join the inquiry list on [the quote form](/quote).',
+        'Evenings above town run cooler than the walkable blocks, and the houses are hillside homes. The menu still follows the burners, so a working cooktop is required. Coffee names an origin only when the lot is documented. Otherwise the card says coffee. This address stays west side. Join the inquiry list with the mauka address. The card is on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -1389,6 +1412,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Where is the hillside price written before I send Hōlualoa dates?',
           a: 'On [pricing](/pricing), the same west-side card as town, with service and tax on their own lines. Cooler elevation does not invent a second card. Resort residences south of town are [Keauhou](/keauhou). Send the mauka address on [the quote form](/quote).',
+        },
+        {
+          q: 'What is different about sending a Hōlualoa address instead of a town condo?',
+          a: 'The evening is cooler than town. Send the mauka address and confirm a working cooktop. Named coffee needs a documented lot. Join the inquiry list for this hillside driveway. Bands are on [pricing](/pricing).',
         },
       ],
       related: [
@@ -1412,6 +1439,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Puakō is residential lava-coast houses between Waikoloa and Mauna Lani. The night is a house supper, not a resort-program dinner and not a second island. The same west-side crew cooks when the week can be staffed. A working cooktop is required. Hilo is never added to this address.',
         'Mauna Lani residences are [Mauna Lani](/mauna-lani). The seven-community belt is [Kona–Kohala communities](/kohala-corridor). Waikoloa is [Waikoloa](/waikoloa). The east-side day is [Hilo and Volcano](/east-side). Bands are on [pricing](/pricing). Travel is confirmed on the written quote. Join the inquiry list on [the quote form](/quote).',
+        'This is a house supper between the resorts. The dining room is the house, not a resort program. A lock-off without heat is declined. Do not file this street as the resort next door, and do not add the east side the same day. Join the inquiry list with the street. Name that cooktop in the note. Bands are on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -1433,6 +1461,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Where does Puakō travel appear on the quote?',
           a: 'Travel is confirmed on the written quote. This page does not invent a separate travel price. Bands, 20% service, and Hawaiʻi GET up to 4.712% are on [pricing](/pricing). A 50% deposit follows acceptance. Gratuity is never required.',
+        },
+        {
+          q: 'What belongs in a Puakō inquiry that a resort note leaves out?',
+          a: 'Send the street, the house cooktop, and that dinner is inside the house. Join the inquiry list for this driveway alone. Travel is confirmed on the written quote, not as a new figure here. Bands are on [pricing](/pricing).',
         },
       ],
       related: [
