@@ -120,6 +120,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       photo: 'fineChefsEveOahu',
       body: [
         'Evening seating starts after the building lets the crew in. Guests sit where the Kahala or Ko Olina counter actually faces the cook. The sear happens in front of them, courses follow the written order, and pacing is looser for two than for a full counter. Clean-down is the counters and the pass, done before the freight window closes. A windy lānai is not the seat if the kitchen island is the table. How many seats that counter holds is confirmed on the written quote. The standing chef’s table page is [chef’s table](/chefs-table). Formats are on [fine dining](/fine-dining). Fee lines sit on [pricing](/pricing). Request a written quote on [the quote form](/quote).',
+      'How the Oʻahu evening runs. The chef arrives in the afternoon with the shop already done, sets the mise en place at the island, and guests take their stools at the time on the quote. Each course is cooked and plated in front of them, and the chef says what is on the plate and where it came from, without a script. A Honolulu tower seating keeps the noise and the smoke inside what the building allows; a Kahala or Ko Olina house can open the doors to the lānai between courses. Diets are written into the draft before the shop, not negotiated at the counter. Pours are their own line if you ask for them.',
       ],
       faqs: [
         {
@@ -297,6 +298,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       photo: 'fineChefsEveMaui',
       body: [
         'Guests sit at the Wailea or Kapalua counter that faces the cook, once the kitchen is theirs for the evening. The sear is in front of them. Courses follow the draft, with a looser gap for two than for a full counter, and the pass is wiped before the crew leaves. Rain keeps everyone at that counter rather than on the lānai. How many stools the kitchen holds is confirmed on the written reply. The standing product is [chef’s table](/chefs-table). Formats are on [fine dining](/fine-dining). Fees are on [pricing](/pricing). Quotes are open on [the quote form](/quote).',
+      'How the Maui evening runs. The chef comes in the afternoon, after the Saturday drive is planned, and builds the station at the counter before the guests sit. Courses are fired and plated in front of the stools, one at a time, and the chef talks through each plate as it lands rather than reading a card. In a Wailea villa the counter usually looks through to the lānai, so the first course can start with the sunset and the rest stay inside when the trades pick up. Kapalua houses can be wetter in the evening, and the plan says so. Diets go into the draft before the shop. Wine pours are a separate line when asked for.',
       ],
       faqs: [
         {
@@ -475,6 +477,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       photo: 'fineChefsEveKauai',
       body: [
         'Request availability before anyone treats the counter as booked. Guests sit where a Princeville or Poʻipū kitchen actually faces the cook. The sear is in the room. Courses follow the draft, looser for two, steadier for a full counter, and the pass is cleared before the drive back. Rain and a bridge closure are written into a North Shore evening. They move the night. They do not silently swap it to the other shore. Seats are what that counter holds, confirmed in the reply. The standing page is [chef’s table](/chefs-table). Formats are on [fine dining](/fine-dining). Fees are on [pricing](/pricing). Request availability on [the quote form](/quote).',
+      'How the Kauaʻi evening runs, once availability is confirmed. The chef arrives in the afternoon with the shop done and sets the station at the counter, then guests sit at the agreed time. Each course is cooked and plated across the counter, and the chef explains it as it goes down rather than reciting a menu card. On the North Shore the plan includes a dry-weather window and a written fallback date, because the Hanalei bridge and a heavy shower can both close the road. On the South Shore a Poʻipū house can open to the pool deck between courses. Diets are written into the draft before the shop. Pours are a separate line if asked for.',
       ],
       faqs: [
         {
@@ -654,6 +657,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
       body: [
         'West-side first.',
         'Join the inquiry list, then the evening is the Kona or Kohala counter that faces the cook. Guests watch the sear. Courses follow the draft, slower for two, tighter when the counter is full, and the pass is wiped before the crew leaves. Wind moves the seat indoors. Hilo is a separate dedicated east-side day, quoted in writing, not a second counter the same night. How many seats that kitchen holds is confirmed in the reply. The standing page is [chef’s table](/chefs-table). Formats are on [fine dining](/fine-dining). Fees are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
+      'How the west-side evening runs, once the inquiry list turns into a date. The chef arrives in the afternoon with the shop done, sets the station at the Kona or Kohala counter, and guests sit after the hardest sun has passed. Courses are cooked and plated in front of them, one at a time, with the chef explaining each plate as it lands. Kona coffee or local produce shows up on a plate only when the label or the farm has been checked, never as a claim. Wind off the Kohala coast keeps the seats inside and the lānai for after dinner. Diets go into the draft before the shop. Pours are a separate line if asked for.',
       ],
       faqs: [
         {

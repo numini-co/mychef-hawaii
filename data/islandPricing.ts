@@ -82,6 +82,9 @@ export const islandPricing: Record<IslandId, IslandPricingPage> = {
     body: [
       'Wailea, Kapalua, Kāʻanapali, and Makena are base. Upcountry is a published surcharge.',
       'After the band: 20% service, GET up to 4.712%, 50% deposit.',
+      'How a private chef Maui cost is built, line by line. A Signature villa dinner is priced per guest, $225–$375, and that band already holds the grocery run, the cooking, plated service at your table, and the cleanup of the kitchen. Where a menu lands inside the band depends on the courses and the produce it asks for: a family dinner after a beach day sits nearer the low end, while a longer tasting with premium fish sits nearer the top. As plain arithmetic, eight guests at the low end is 8 × $225 = $1,800 for the food line before anything else prints.',
+      'Two lines then follow the food, each on its own row: a 20% service charge and Hawaiʻi GET up to 4.712%. Upcountry addresses such as Kula and Pāʻia add a travel surcharge from $75; Wailea, Makena, Kāʻanapali, and Kapalua do not. Gratuity is never required. A 50% deposit holds the date once you accept the written quote, and that quote is the confirmed total for your night, not this page.',
+      'A villa stay of three to seven days is usually written as Stay Chef, from $1,550 a day, rather than as a string of Signature nights, because the chef and assistant cook across the stay instead of shopping for one dinner at a time. On Stay Chef the chef fee and groceries are separate: groceries are billed at cost with the original receipts and no markup. Whale season, December to March, fills Wailea and West Maui kitchens sooner but does not change the band. To get a number for your dates, open [private chef Maui](/) for what the night looks like, or send the villa address, dates, and headcount on [the quote form](/quote).',
     ],
     faqs: [
       {
