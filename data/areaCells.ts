@@ -23,6 +23,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'The same 30-day estate rule as Kailua applies, in a quieter beach-house inventory. Galley kitchens are common, so the menu is written for the burners that are there. Parking on these residential streets is limited. A weekend tourist drop-in without a genuine stay is declined. There is no restaurant strip to walk to. Request a written quote on [the quote form](/quote) with the address and the length of the stay.',
         'Treat the month as the booking, not a weekend corridor next to Kailua. Name the galley and where the car parks before the shop. A weekend drop-in without a genuine stay is declined. Lanikai and Kailua are both base zone. Prices and the separate fee lines are on [pricing](/pricing).',
+        'For a Lanikai month, write the galley burners and the stall where the car sits before anyone shops. These residential streets have limited parking, and a weekend without a genuine stay is still declined. Beach-house streets are listed on [locations](/locations). Request a written quote for the length of that stay. Add the length of the stay and a plain note describing the galley burners you actually have.',
       ],
       faqs: [
         {
@@ -45,6 +46,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
           q: 'What does a 30-day Lanikai note have to include?',
           a: 'The address, the length of the stay, the galley, and where the car parks. The same 30-day rule as Kailua applies. Request a written quote on [the quote form](/quote).',
         },
+        {
+          q: 'Where does the car go during a month-long Lanikai galley booking?',
+          a: 'Name the stall or the driveway on that limited residential street before the shop. The menu follows the galley burners, not a resort range. A weekend drop-in without a genuine stay is declined. Request a written quote on [the quote form](/quote) with the length of the stay.',
+        },
       ],
       related: [
         { path: '/kailua', label: 'Kailua corridor' },
@@ -65,6 +70,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'This is east Honolulu, and the usual table is a resident household rather than a tourist villa. Traffic is planned into the chef day. It is a timing problem, not a surprise invoice. A working cooktop is required. Weekly service for residents is on our [kamaʻāina](/kamaaina) page. Request a written quote on [the quote form](/quote) with the house and the headcount.',
         'Send the household the way you would send any Resident’s Island kitchen: the cooktop, the fridge, the table, and the headcount. East Honolulu traffic changes the arrival, not the invoice. The usual night is a resident household. Weekly service for residents is on the [kamaʻāina](/kamaaina) page. Fee lines stay on [pricing](/pricing).',
+        'Hawaiʻi Kai is a resident supper beside the marina: the household range, the people who live in the house, and east Honolulu traffic already planned into arrival. A tourist villa is the wrong picture. East Honolulu households are listed on [locations](/locations). Request a written quote for this marina street. Say whether the night is a one-off supper or a repeating resident week, and name the household cooktop.',
       ],
       faqs: [
         {
@@ -85,7 +91,11 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'What does a Hawaiʻi Kai household note need besides the date?',
-          a: 'The cooktop, the fridge, the table, and the headcount. Resident entertaining is the usual night. Request a written quote on [the quote form](/quote).',
+          a: 'The cooktop, the fridge, the table, the headcount, and the marina street. Resident entertaining is the usual night in this east Honolulu house. Request a written quote on [the quote form](/quote).',
+        },
+        {
+          q: 'Who is a Hawaiʻi Kai supper beside the marina actually for?',
+          a: 'People who live in the east Honolulu house and want the household range used for a resident table. Traffic changes the arrival, not the invoice. Request a written quote on [the quote form](/quote) with the marina street. Bands are on [pricing](/pricing).',
         },
       ],
       related: [
@@ -107,6 +117,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'These are Gold Coast-adjacent residences with real dining rooms, on quieter residential streets than a resort strip. Building rules vary, so load-in is confirmed in writing. Celebration tables of 4–15 are the usual fit. Hotel suites without a cooktop stay declined. We will not sell a rooftop we do not control. Request a written quote on [the quote form](/quote) and name the building type.',
         'This is the residence beside the cone, not the Kahala estate page. Say which entrance the crew uses and that the dining room has a cooktop. Celebration tables of 4–15 are the usual fit. The streets are quieter than a resort strip. We will not sell a rooftop we do not control.',
+        'A Diamond Head booking is the residence beside the cone, with a real dining room and a named entrance for the crew. Celebration tables on these quieter streets are the usual fit. It is not the Kahala estate page and not a rooftop we do not control. Those residences are listed on [locations](/locations). Request a written quote for this building. Name the headcount together with that crew entrance.',
       ],
       faqs: [
         {
@@ -129,6 +140,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
           q: 'What should a Diamond Head residence note say about load-in?',
           a: 'The building type and which door the crew uses. Load-in is written before the shop. Request a written quote for this residence, not the Kahala page.',
         },
+        {
+          q: 'What should a Diamond Head note say about the dining room entrance?',
+          a: 'Which door the crew uses, and that the dining room has a cooktop. These are quieter residential streets than a resort strip. Request a written quote on [the quote form](/quote) for this residence, not a Kahala estate. Fee lines are on [pricing](/pricing).',
+        },
       ],
       related: [
         { path: '/kahala', label: 'Kahala corridor' },
@@ -142,13 +157,14 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       h1: 'Kakaʻako tower ranges — compact kitchens, owned rooms.',
       title: 'Private chef in Kakaʻako towers | myCHEF',
       description:
-        'Private chef dinners in Kakaʻako towers with compact kitchens. Freight elevators and quiet hours are confirmed in writing. Not a rooftop we do not control.',
+        'Private chef dinners in Kakaʻako towers with compact kitchens. Freight elevators and quiet hours are confirmed in writing before service.',
       lede:
         'A small range in a tower, not a rooftop we do not own. Menus adapt to the kitchen that actually exists.',
       photo: 'cellKakaako',
       body: [
         'Kakaʻako nights are tower residences with compact kitchens, not a rooftop we do not control. Freight elevators and quiet hours change the clock, so both are named before the shop. Quiet hours can move plating earlier than a house dinner would. The menu follows the range that is actually in the unit. A unit without a functioning cooktop is declined. Send the building packet on the quote form rather than a brochure kitchen.',
         'Downtown pied-à-terre dinners are the next neighborhood, on [Downtown](/downtown). The wider town page is [Honolulu](/honolulu). Tower notes are [Kakaʻako kitchen notes](/blog/dining-in-kakaako). Oʻahu bands and fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the building, the floor, and where the crew loads in.',
+        'A Kakaʻako evening follows the compact range inside the unit. Put the floor, the freight window, and the quiet hours the building sets in one packet so plating can move earlier than a house dinner. This is not a rooftop the building has not assigned. Condo towers are listed on [locations](/locations). Request a written quote for that unit. Name the unit number with that packet before the shop is planned.',
       ],
       faqs: [
         {
@@ -171,6 +187,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
           q: 'Is Kakaʻako the same booking as a downtown pied-à-terre?',
           a: 'Kakaʻako is not the downtown pied-à-terre booking. Downtown is the loading-dock page. This page is the tower with the compact range. Honolulu is the wider town. Open the matching building, then request a written quote. Prices are on the pricing page.',
         },
+        {
+          q: 'Why can plating start earlier in a Kakaʻako tower?',
+          a: 'Quiet hours belong to the building, so the last plate may move earlier than a house dinner would. Send the floor, the freight window, and proof the range works. Request a written quote on [the quote form](/quote). Bands are on [pricing](/pricing).',
+        },
       ],
       related: [
         { path: '/downtown', label: 'Downtown dinners' },
@@ -192,6 +212,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Downtown dinners are pied-à-terre kitchens: a compact dining room, a real cooktop, and a loading plan. Parking and the dock are the constraint, not a long drive. The conventions note says HCC citywides are closed through 2027. We do not take over restaurants, and we do not staff a ballroom. A unit without a cooktop is declined.',
         'Kakaʻako towers are the next set of compact ranges, on [Kakaʻako](/kakaako). The wider town page is [Honolulu](/honolulu). The closed citywide note is [conventions](/conventions). Kitchen notes are [Downtown kitchen notes](/blog/dining-in-downtown). Oʻahu bands and fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the building and where the car stops.',
+        'Downtown cooking is the compact dining room above the dock. Name where the car stops, which door the crew uses, and the hours that curb is open. A ballroom and a restaurant takeover stay off this page. Pied-à-terre streets are separated on [locations](/locations). Request a written quote for the residence you have. Add the floor, the headcount, and the cooktop so this residence is not confused with a ballroom.',
       ],
       faqs: [
         {
@@ -214,6 +235,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
           q: 'Where do downtown prices sit next to Kakaʻako?',
           a: 'Both use the Oʻahu card on the pricing page. Service, Hawaiʻi GET, the deposit, and gratuity stay on their own lines. Downtown is the pied-à-terre. Kakaʻako is the tower. Request a written quote for the building you have, not both.',
         },
+        {
+          q: 'Which curb details belong on a downtown residence note?',
+          a: 'Where the car stops, which door, and the hours that loading curb is usable. Distance is not the constraint. The dock is. Request a written quote on [the quote form](/quote) for this pied-à-terre. Fee lines are on [pricing](/pricing).',
+        },
       ],
       related: [
         { path: '/kakaako', label: 'Kakaʻako dinners' },
@@ -235,6 +260,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Kāneʻohe is the quieter windward town, with household dinners and multi-day stays in houses that have a real range. It is not a second 30-day beach-house page. Lanikai is that quieter beach house. A cooktop is still required. We will not hide the drive inside the food line. The drive prints as its own line on the written quote. A multi-day stay still names that drive once, not once per meal.',
         'We do not publish a separate travel dollar on this page. Kailua weeks are on [Kailua](/kailua). The beach-house rule is on [Lanikai](/lanikai). Coverage for the island is on [coverage](/coverage). Kitchen notes are [Kāneʻohe kitchen notes](/blog/dining-in-kaneohe). Oʻahu bands and fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the windward address.',
+        'Kāneʻohe is a windward town range behind the cliffs, quieter than Kailua and not a 30-day beach-house month. A longer stay still names the drive once on the written quote, never inside the food. Windward town streets are listed on [locations](/locations). Request a written quote with that street. Put the number of cooked days and the headcount on the note so the drive is written once.',
       ],
       faqs: [
         {
@@ -257,6 +283,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
           q: 'Where do I request a written quote for a Kāneʻohe table?',
           a: 'On the quote form, with the windward street and the headcount. Read pricing for the Oʻahu bands, service, Hawaiʻi GET, the deposit, and gratuity. Kailua is the other windward page if that is actually the house.',
         },
+        {
+          q: 'Does a second Kāneʻohe meal on the same stay reprint the drive?',
+          a: 'A multi-day stay names the windward drive once, not once per meal, and the line stays off the food. This page prints no travel dollar. Request a written quote on [the quote form](/quote). The amount, when the card has it, is on [pricing](/pricing).',
+        },
       ],
       related: [
         { path: '/kailua', label: 'Kailua corridor' },
@@ -278,6 +308,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'ʻEwa and Kapolei are leeward houses, closer to Ko Olina provisioning than to a Waikīkī kitchen. Resident tables and west-side overflow are the fit. This is not a resort-residence copy. A cooktop is still required, and a house without heat is declined before a deposit. We will not sell Kapolei as a Waikīkī dinner.',
         'The area is west-side base, so the quote does not add a separate town surcharge. Travel is still confirmed in writing rather than invented as a new fee on this page. Villa weeks on the coast are [Ko Olina](/ko-olina). Legal short stays are [short-stay villas](/short-stay). Kitchen notes are [ʻEwa kitchen notes](/blog/dining-in-ewa). Oʻahu bands and fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the leeward address.',
+        'ʻEwa and Kapolei nights are family houses on the leeward side: a home range, a resident table, and a shop that follows Ko Olina provisioning instead of a Waikīkī loop. The area is west-side base, so this page does not add a town surcharge. Leeward family streets are listed on [locations](/locations). Request a written quote for the house. Add the headcount and whether the week is a resident household or west-side overflow.',
       ],
       faqs: [
         {
@@ -299,6 +330,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Where are west-side prices before I send an ʻEwa address?',
           a: 'On the pricing page: Oʻahu bands, service, Hawaiʻi GET, the deposit, and gratuity. Then request a written quote with the leeward street. Short-stay villas explain the legal west-side pool if that is the product you mean.',
+        },
+        {
+          q: 'What belongs in an ʻEwa or Kapolei family-house note?',
+          a: 'The leeward street, the home range, and who sits at the resident table. West-side base means the note does not invent a separate town surcharge. Request a written quote on [the quote form](/quote). Bands are on [pricing](/pricing).',
         },
       ],
       related: [
