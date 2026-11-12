@@ -351,6 +351,7 @@ export const islandCoverage: Record<IslandId, IslandSupportPage> = {
       'Waikīkī residences with kitchens are base; most hotel suites are not a kitchen. Kahala dining rooms are estate entertaining. Ko Olina holds the deepest legal short-stay villa pool on this island. Kailua is built for multi-day packages. North Shore / Turtle Bay is 60–90+ minutes. That travel is its own line on the written quote before any deposit. The amount is on [pricing](/pricing).',
       'We do not claim every zip code. HCC citywides are closed through 2027; this department is not a MICE play.',
       'Open the town page that matches the house. [Honolulu](/honolulu) is residences in town. [Waikīkī](/waikiki) is a residence with a kitchen, not a hotel suite. [Kahala](/kahala) is an estate dining room. [Kailua](/kailua) is the windward multi-day stay. [Ko Olina](/ko-olina) is the west-side base. [North Shore](/north-shore) travel prints on the quote, never after the deposit. Building rules stay on that quote. Surf-season dates book early. Quotes are open. [Request a written quote](/quote).',
+      'When you already know the neighborhood, open [locations](/locations) and start from that town page. This page is only the map of base towns versus a longer drive. Name that neighborhood on the written quote.',
     ],
     faqs: [
       {
@@ -373,6 +374,10 @@ export const islandCoverage: Record<IslandId, IslandSupportPage> = {
         q: 'What should the Oʻahu quote name besides the date?',
         a: 'The neighborhood: Honolulu, Kahala, Kailua, Ko Olina, or a North Shore day. Add the building type when the house is a tower. We do not claim every zip code. Quotes are open. Request a written quote.',
       },
+      {
+        q: 'A house past Honolulu, Kahala, Kailua, or Ko Olina — where does that travel print?',
+        a: 'Open the Oʻahu rate card for the published travel line. The figure stays on that card and on the written quote before any deposit, not on this map. Request a written quote and name Honolulu, Kahala, Kailua, Ko Olina, or the North Shore.',
+      },
     ],
   },
   maui: {
@@ -389,6 +394,7 @@ export const islandCoverage: Record<IslandId, IslandSupportPage> = {
       'Wailea, Makena, Kāʻanapali, and Kapalua are the base area. Upcountry travel is its own line on the written quote. Pāʻia and Haʻikū travel is confirmed on the written quote with the menu.',
       'A South Maui Tuesday and a West Maui Saturday are not the same traffic. We plan arrival into the shore you named.',
       'Use the page that matches the driveway. [Kīhei](/kihei) is residential vacation homes. Wailea is resort residences. [Upcountry](/upcountry) is elevation, written as travel with the menu. [Pāʻia](/paia) and Haʻikū are confirmed the same way, not stacked onto a Wailea dinner. A lawn in Wailea and a Kapalua welcome are two addresses on one week, each with its own call time. We do not treat the island as a single neighborhood. The travel amount is on [pricing](/pricing). Quotes are open. [Request a written quote](/quote).',
+      'If the driveway is one town, open [locations](/locations) before you write. This page groups the shores. The town page is the house. Say which single town should lead the written note.',
     ],
     faqs: [
       {
@@ -411,6 +417,10 @@ export const islandCoverage: Record<IslandId, IslandSupportPage> = {
         q: 'Can one Maui week cross from Wailea to Kapalua?',
         a: 'Both days can sit on one written week. Saturday traffic on that crossing is planned into arrival, not discovered at the car. Each shore stays on the total you accept. Request a written quote with both addresses.',
       },
+      {
+        q: 'My villa sits just off Wailea or Kapalua — where is that travel priced?',
+        a: 'A house just off the base shores uses the published travel line on [pricing](/pricing). The figure is not repeated on this map. Request a written quote and name the shore you rented.',
+      },
     ],
   },
   kauai: {
@@ -427,6 +437,7 @@ export const islandCoverage: Record<IslandId, IslandSupportPage> = {
       'Līhuʻe and Kapaʻa are the base area. Princeville, Hanalei, and Poʻipū travel is its own line on the written quote before any deposit. Hāʻena and the far North are confirmed on the written quote with 72-hour notice and a Hanalei-bridge weather clause. Road closures reschedule rather than forfeit.',
       'Request availability with the shore and the dates. We staff the estate when a crew exists.',
       '[Līhuʻe](/lihue) is the in-town base, and [Kapaʻa](/kapaa) sits with it, so those dinners do not add a travel line. [Kōloa](/koloa) follows Poʻipū on the south. [Hāʻena](/haena) is past the bridge. Read the [Hanalei bridge](/hanalei-bridge) clause before you request a far-north date. Poʻipū is a shorter drive from Līhuʻe than the far North, and both shores still show travel on the quote. The amount is on [pricing](/pricing). [Request availability](/quote).',
+      'Name one town from [locations](/locations) before you request availability. This map shows which shore adds travel. The town page is the street itself. Also say the shore in that same note.',
     ],
     faqs: [
       {
@@ -449,6 +460,10 @@ export const islandCoverage: Record<IslandId, IslandSupportPage> = {
         q: 'Where is the Hanalei bridge clause written?',
         a: 'On the Hanalei bridge page, and on the written quote before any deposit when the house is past the bridge. It is 72-hour notice, and a closure reschedules rather than forfeits. South-shore houses do not inherit it.',
       },
+      {
+        q: 'A Princeville, Hanalei, or Poʻipū driveway sits outside the base — which page has the travel line?',
+        a: 'Shores beyond Līhuʻe and Kapaʻa read the travel line on the Kauaʻi pricing page, written before any deposit. This map does not copy that amount. Request availability and name Princeville, Hanalei, Poʻipū, or Hāʻena.',
+      },
     ],
   },
   bigisland: {
@@ -465,6 +480,7 @@ export const islandCoverage: Record<IslandId, IslandSupportPage> = {
       'Base is the Kona–Kohala belt — Kailua-Kona, Keauhou, Kohala resorts, Waikoloa. Waimea travel is its own line on the written quote. Kaʻū and the south are extended travel with advance notice, also their own line. Hilo and Volcano are quoted in writing as their own dedicated day, never stacked on a west-side day. The drive is 2.5–3 hours.',
       'Inquiry stage. Named coffee follows Act 198 from 2027.',
       'Join the inquiry list for the west-side address. Open [Hilo](/hilo) or [Volcano](/volcano) only when that is the house, and send it as its own day. Do not attach an east-side driveway to a Waikoloa note. Waimea is cooler ranch country above the coast, still west of the saddle, and still not an east-side day. Name it on the inquiry if the house is there. Travel amounts are on [pricing](/pricing). [Join the inquiry list](/quote).',
+      'Open [locations](/locations) for the driveway you mean. This map keeps the Kona–Kohala base apart from a dedicated east-side day. Name one town on the inquiry, not the whole island at once.',
     ],
     faqs: [
       {
@@ -486,6 +502,10 @@ export const islandCoverage: Record<IslandId, IslandSupportPage> = {
       {
         q: 'Where do I join the inquiry list for a west-side address?',
         a: 'On the quote form. Name Kona, Waikoloa, Kohala, or Waimea, plus the dates. Leave Hilo off that note. An inquiry is not a held crew. Travel, when it applies, is a line on the written reply before any deposit.',
+      },
+      {
+        q: 'My house is just outside the Kona–Kohala base — how is that day priced?',
+        a: 'The published travel amount is on [pricing](/pricing), not copied onto this map. Waimea, Kaʻū, and the east side keep the lines already written here. Join the inquiry list and name the town.',
       },
     ],
   },
