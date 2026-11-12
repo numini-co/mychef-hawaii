@@ -1372,6 +1372,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Kaʻū is south of the west-side communities: its own day, with notice, in houses rather than a Kona condo. A chef night is staffed only when that dedicated day can be held. Named Kaʻū coffee follows origin labeling from 2027. We do not invent a farm name for the south.',
         'The labeling note is [coffee origin](/coffee-act-198). Hillside Kona coffee country, still west side, is [Hōlualoa](/holualoa). East of the saddle, Hilo and Volcano are [the east side](/east-side). The map is [coverage](/coverage). Bands are on [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
+        'A Kaʻū supper is the south-side house on a day of its own: the kitchen there, the seats, and notice long enough that the day can be staffed. The card says coffee unless the lot is documented. South addresses are listed on [locations](/locations). Join the inquiry list for that south street. Send the south street and the headcount, and keep a Kona condo off this note.',
       ],
       faqs: [
         {
@@ -1393,6 +1394,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Which page explains the coffee rule, and which is the map?',
           a: 'Coffee labeling is [coffee origin](/coffee-act-198). The island map is [coverage](/coverage). Hilo and Volcano, east of the saddle, are [the east side](/east-side). Hillside Kona houses are [Hōlualoa](/holualoa). Join the inquiry list for the south address itself.',
+        },
+        {
+          q: 'What do I send for a Kaʻū house that is not a Kona condo?',
+          a: 'The south street, the cooktop, the seats, and how much notice you can give for a day of its own. Coffee names an origin only when the lot is documented. Join the inquiry list on [the quote form](/quote). Bands are on [pricing](/pricing).',
         },
       ],
       related: [
@@ -1416,6 +1421,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Honokaʻa and the Hāmākua coast are windward: greener light, a longer day, and private houses rather than a Kona resort row. A chef night is a supper in that coast kitchen. It is not folded into a Kona evening, and it is not a Hilo day unless the written quote says so. Named producers appear only after verification.',
         'Waimea, upcountry on the west side, is [Waimea](/waimea). The separate east-side day is [Hilo and Volcano](/east-side). The island map is [coverage](/coverage). Bands are on [pricing](/pricing). Travel is confirmed on the written quote. Join the inquiry list on [the quote form](/quote) with the coast address.',
+        'A Honokaʻa night is a coast-kitchen supper in greener windward light: the house range, the table, and a day that is not folded into a Kona evening. A producer name waits until it is verified. Hāmākua streets are listed on [locations](/locations). Join the inquiry list for this coast. Name the coast street and the headcount, and write that this windward night is not folded into a Kona resort row.',
       ],
       faqs: [
         {
@@ -1437,6 +1443,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Where does a Hāmākua coast drive get written?',
           a: 'With the Honokaʻa address, after the coast day is real. [Coverage](/coverage) is the island map. [Pricing](/pricing) holds the bands. A Kona evening is not pasted onto this windward ask, and this page does not invent a travel dollar.',
+        },
+        {
+          q: 'What is different about cooking in a Hāmākua coast kitchen?',
+          a: 'The supper is in that windward house, on its own ask, with the range and the table you actually have. A producer credit appears only after verification. Join the inquiry list on [the quote form](/quote) with the coast address. Bands are on [pricing](/pricing).',
         },
       ],
       related: [
