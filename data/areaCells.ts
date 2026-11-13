@@ -412,6 +412,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Nāpili houses sit on West Maui, with the same timing rules as Kāʻanapali and Kapalua. The usual booking is a villa week: one kitchen, a real dining table, and a cooktop the menu can use. A lock-off without heat is declined before a shop. This is a house dinner, not a walk-up restaurant night.',
         'Saturday arrival is planned into the chef day, not discovered after you land. A South Maui Saturday is a different drive, so it is not assumed here. Open [West Maui](/west-maui) for the corridor, [Kapalua](/kapalua) for the headland, and [Kāʻanapali](/kaanapali) for deck dinners. Bands and fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the address and the week.',
+        'A Nāpili family week uses one villa kitchen on more than one night, and Saturday arrival is already written into the first cook. Name who sits the table, which nights the cook is in the house, and that the range is a villa cooktop rather than a hotel lock-off. Those houses are listed with [all Maui towns we cook in](/locations). Request a written quote for that villa week. Fee lines stay on [pricing](/pricing). Say whether the opening night is the landing, and keep a South Maui Saturday on its own note.',
       ],
       faqs: [
         {
@@ -434,6 +435,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
           q: 'Where do Nāpili prices and the West Maui timing note sit?',
           a: 'Open the pricing page for the Maui bands. Service, Hawaiʻi GET, the deposit, and gratuity each stay on their own line. This base area does not invent a new travel fee on this page. The corridor overview is West Maui.',
         },
+        {
+          q: 'What belongs in a Nāpili family-week note when Saturday is the landing?',
+          a: 'The villa address, which nights the cook is in, who sits down, and the landing time. Saturday West Maui arrival is planned into that first cook, not discovered after you land. A South Maui Saturday is a different drive. Request a written quote for the villa week you actually have. Bands and fee lines are on [pricing](/pricing).',
+        },
       ],
       related: [
         { path: '/west-maui', label: 'West Maui corridor' },
@@ -455,6 +460,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Pāʻia and Haʻikū are quoted in writing as their own booking. There is no published flat fee for this North Shore, and the extended drive is planned with the menu. Estate dinners fit when that drive is its own date. They are not stacked onto a Wailea lunch as one unpaid day.',
         'Haʻikū houses and Pāʻia estates share this page because both sit off the resort corridors. Tell us which one, and which night. A cooktop is still required. A band on the rate card is not an instant-booking button for this shore. Compare the climb on [Upcountry](/upcountry) and the south-shore houses on [South Maui](/south-maui) before you choose. Request a written quote on [the quote form](/quote) with the address. Fee lines are on [pricing](/pricing).',
+        'A Pāʻia or Haʻikū house is confirmed on the quote as its own North Shore booking, and it is not folded into a Wailea day. There is still no published flat fee for this shore. Tell us which house, which night, and that the cooktop works. Those streets are on [all Maui towns we cook in](/locations). Request a written quote with the address. The extended drive is planned with the menu and confirmed on the quote. Fee lines sit on [pricing](/pricing).',
       ],
       faqs: [
         {
@@ -477,6 +483,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
           q: 'Should I open Upcountry or South Maui before I ask for Pāʻia?',
           a: 'Open both if you are choosing. Upcountry is the climb. South Maui is Wailea, Makena, and Kīhei. Pāʻia stays its own written booking. Request a written quote only for the shore you actually mean.',
         },
+        {
+          q: 'What does confirmed on the quote mean for a Pāʻia or Haʻikū house?',
+          a: 'The North Shore address, the night, and the extended drive are written together before anyone shops. There is no published flat fee, and the booking is confirmed on the quote rather than stacked onto a Wailea lunch. Request a written quote for the house you mean, Pāʻia or Haʻikū. Fee lines are on [pricing](/pricing).',
+        },
       ],
       related: [
         { path: '/upcountry', label: 'Upcountry dinners' },
@@ -498,6 +508,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Makawao is the Upcountry town, not the whole slope and not a Wailea resort lawn. Retreat houses and estate tables are the fit. A reunion table in a retreat house is a stronger match than a visitor condo. A working cooktop is still required, and an outdoor table needs a written indoor backup because the weather can turn. We do not invent a dry lawn.',
         'Cooler evenings belong in the plan before anyone shops, and a Wailea villa week is a different date. Named farms wait for written verification. Haleakalā and Kula are separate quotes on [Kula dinners](/haleakala), and the climb itself is the [Upcountry](/upcountry) page. The town note is [Makawao kitchen notes](/blog/dining-in-makawao). Fee lines live on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the address and whether the table is indoors.',
+        'A Makawao supper is a town house with a dining room, and an outdoor table only when the indoor room is already named. Cooler evenings go in that note before the shop. We do not invent a dry lawn, and a farm name still waits for written verification. The town is separate from the Kula slope on [all Maui towns we cook in](/locations). Request a written quote and say whether guests start indoors. The climb prints on [pricing](/pricing), not inside the food.',
       ],
       faqs: [
         {
@@ -520,6 +531,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
           q: 'Is Makawao the right page for a Kula elevation night?',
           a: 'Makawao is the town. Kula and the Haleakalā slope are a separate quote, and the wider climb is the Upcountry page. Open the page that matches the house. Request a written quote for one address, not both slopes at once.',
         },
+        {
+          q: 'If a Makawao evening cools, where is the outdoor table written to move?',
+          a: 'Into the dining room you name before anyone shops. Cooler air is part of the plan, and we do not invent a dry lawn. A retreat house with a real table is the fit, not a visitor condo. Request a written quote and say the evening starts inside or out. The Upcountry climb is confirmed on [pricing](/pricing), not folded into the food.',
+        },
       ],
       related: [
         { path: '/upcountry', label: 'Upcountry dinners' },
@@ -540,6 +555,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Honokōwai is the residential strip between Kāʻanapali and Kapalua, and condo kitchens are the common room. The menu follows the burners in that unit, not a brochure range. Load-in is named before the shop: which elevator, which stall, which door. A hotel room without a cooktop is declined.',
         'Multi-day chef days fit these condos better than a single halo night. A one-night tasting can still be quoted when the range is real, and the week is the better fit when you are staying through. Base zone means this strip is not a separate travel product invented on the invoice. Condo load-in notes sit on the journal page linked below. The named corridors are [Kāʻanapali](/kaanapali) and [Kapalua](/kapalua). Nāpili houses are on [Nāpili](/napili), and the corridor overview is [West Maui](/west-maui). Read [pricing](/pricing), then send the unit type on [the quote form](/quote).',
+        'A Honokōwai week follows the compact burners inside that condo, not a brochure range beside Kapalua. Before anyone shops, name the elevator, the stall, and the door the crew uses, the load-in this page already requires. The strip is on [all Maui towns we cook in](/locations). Request a written quote with the unit type and how many nights the cook returns. Bands stay on [pricing](/pricing). A one-night tasting can still be asked when the burners are real. A room without heat stays declined.',
       ],
       faqs: [
         {
@@ -562,6 +578,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
           q: 'Does a Honokōwai condo add a travel line on top of the menu?',
           a: 'This strip is base zone, so the quote does not invent a separate town fee. Maui bands and fee lines are on the pricing page. The menu still follows the range in the unit. Send that unit before anyone shops.',
         },
+        {
+          q: 'What do we write about a Honokōwai condo range before the shop?',
+          a: 'The unit type, which burners actually work, and the elevator, stall, and door for load-in. The menu follows that compact range. A hotel room without a cooktop is declined before a deposit. Request a written quote for the nights you want cooked. This base strip does not invent a separate town fee. Read [pricing](/pricing) before you send the unit.',
+        },
       ],
       related: [
         { path: '/west-maui', label: 'West Maui corridor' },
@@ -583,6 +603,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Waikapū is central-valley estates, not a resort corridor and not a visitor-condo strip. Private houses with a dining room are the match. A short-stay condo kitchen is the wrong fit for this valley. The drive from Wailea or from West Maui prints on the written quote. It is not folded into the food. A cooktop is required, and a house without one is declined before a deposit.',
         'A Wailea lunch and a Waikapū dinner are two written services, or you pick one. We will not hide the second drive. South Maui resort houses stay on [South Maui](/south-maui) and [Wailea](/wailea). This valley is the estate ask. Bands are on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the street and the headcount.',
+        'A Waikapū night is a central-valley house with a dining room. A south-side day beside it is a second written service, or you pick one. We will not hide that second drive inside one unpaid sprint. Visitor condos remain the wrong fit for this valley. Find the inland street on [all Maui towns we cook in](/locations), not on the resort lawn. Request a written quote with the street and the headcount. Bands stay on [pricing](/pricing). Say which meal is the valley and which meal stays in Wailea.',
       ],
       faqs: [
         {
@@ -605,6 +626,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
           q: 'Where should I read prices before I ask for Waikapū?',
           a: 'Open the pricing page for Maui bands, service, Hawaiʻi GET, the deposit, and gratuity. Then request a written quote with the valley street. South Maui is the resort shore. This page is the inland estate.',
         },
+        {
+          q: 'How do we pair a Waikapū house with a south-side day?',
+          a: 'Write them as two services, or pick the valley. A Waikapū dinner and a Wailea lunch are not one unpaid sprint, and the second drive stays visible. Name the inland street, the headcount, and which meal stays south. Request a written quote. Private houses with dining rooms are the match. Bands are on [pricing](/pricing).',
+        },
       ],
       related: [
         { path: '/south-maui', label: 'South Maui corridor' },
@@ -626,6 +651,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Kula and the Haleakalā slope sit above the coast, and both the drive and the temperature change the chef day. A retreat dinner here is its own date. It is not a stop after a South Maui lunch. Outdoor fire is a weather plan, not a promise. Cooler afternoons need an indoor table written before the shop. A cooktop is still required at elevation.',
         'Send how the house is reached so the day is planned. Named farms print only after written verification. Makawao town is a different page, [Makawao](/makawao), and the wider climb is [Upcountry](/upcountry). Sourcing rules are on [sourcing honesty](/blog/sourcing-honesty). The elevation line and the fee lines are on [pricing](/pricing). Request a written quote on [the quote form](/quote) with the address and the elevation.',
+        'A Kula evening is an elevation house: cooler air, an indoor table written before the shop, and a cooktop that still has to work up there. Outdoor fire stays a weather plan, not a promise. Send how the driveway is reached. This slope sits apart from Makawao town on [all Maui towns we cook in](/locations). Request a written quote with the address and the elevation. That elevation line is confirmed on [pricing](/pricing). A grower is printed only after written verification.',
       ],
       faqs: [
         {
@@ -647,6 +673,10 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Where are Maui prices for an elevation dinner?',
           a: 'On the pricing page: bands, service, Hawaiʻi GET, the deposit, and gratuity. The elevation line is confirmed on the written quote. We do not invent a travel dollar on this page. Request a written quote with the slope address.',
+        },
+        {
+          q: 'What should a Kula note say about cooler evenings at the house?',
+          a: 'The elevation, how the house is reached, and that an indoor table is written before the shop. Cooler evenings change the chef day. Outdoor fire stays a weather plan. A cooktop is still required at that height. Request a written quote for this slope alone, not Makawao town on the same line. Fee lines are on [pricing](/pricing).',
         },
       ],
       related: [
