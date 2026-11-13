@@ -26,13 +26,14 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       h1: 'Birthday dinners in an Oahu house — not a restaurant buyout.',
       title: 'Birthday dinners in an Oahu house | myCHEF',
       description:
-        'Staffed birthday tables in Kahala dining rooms and Ko Olina villas. About 10–75.',
+        'Staffed birthday dinners in Kahala dining rooms and Ko Olina villas, about 10–75 guests. Name cake or a plated dessert. Request a written quote.',
       lede:
         'The house, a simple dessert, the guest list you actually have. Not a buyout downtown.',
       photo: 'occBirthdayOahu',
       body: [
         'Kahala dining rooms and Ko Olina villas are the usual rooms. Anniversaries run the same kitchen.',
         'A Kahala birthday waits on the freight window, then the cook sets the dining-room kitchen and plates. The cake you brought, or a dessert we plate, comes at the moment you set. Children can eat earlier from that same kitchen if you say so. We clear before we leave. Ko Olina can run later because the house is the venue. Rain moves a lawn indoors or onto a covered lānai. That backup is on the quote, with 20% service and Hawaiʻi GET up to 4.712% on their own and a 50% deposit after you accept. Gratuity is never required. Other nights are on [all occasions](/events). Bands are on [pricing](/pricing). Send the house on [the quote form](/quote). See [staffing](/staffing).',
+        'How a birthday night runs in a Kahala dining room or a Ko Olina villa. In a tower the cook comes up after the freight window. When the house itself is the venue, the start can be earlier, and the kitchen is set before plates go out. You pick a bakery cake we cut, or a dessert we plate, and you choose that moment. Children can take a simpler plate first if you name their hour. The counters are clear before we leave. Rain on a lawn moves the seats indoors or onto a covered lānai already written on the quote. Request a written quote with the house, the date, the headcount, and whether children eat early.',
       ],
       faqs: [
         {
@@ -177,6 +178,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       body: [
         'Wet-weather backup is written for lawns. Kīhei family houses and Wailea residences.',
         'A Wailea birthday starts in the rental kitchen before anyone reaches the grass. The cake you brought, or a dessert we plate, comes at the moment you set. Children in a Kīhei house can eat earlier if you name the hour. We clear before we leave. Trade wind on a West Maui lawn moves the table under the lanai roof, and Saturday traffic from the south is already in the call time. The quote names that backup, then 20% service and Hawaiʻi GET up to 4.712% each alone, and a 50% deposit after you accept. Gratuity is never required. Other nights are on [all occasions](/events). Numbers are on [pricing](/pricing). Name the shore on [the quote form](/quote).',
+        'How a birthday night runs for a villa week on the south shore or the west side. The cook is in the rental kitchen first, and the lawn is set only after that range is working. Dessert is a cake the family carries in, cut when you say, or a plated close from the same kitchen. If children should eat ahead of the adults, name the hour and a simpler plate leaves first. The pass is wiped before the crew goes. A gust that shuts the open grass uses the covered lanai already named. Request a written quote with the villa, the date, and which shore holds the table.',
       ],
       faqs: [
         {
@@ -321,6 +323,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       body: [
         'Inquiry stage.',
         'Request availability with the shore before a birthday is treated as held. The cook sets the estate kitchen, serves, and clears. The cake you brought, or a dessert we plate, comes at the moment you set. Children can eat earlier if the house allows it. Rain on the north moves the table under a covered lanai. A Hanalei bridge closure moves the whole night. It does not send it to Poʻipū. The note shows food, 20% service and GET up to 4.712% each alone, and a 50% deposit only after a written yes. Gratuity is never required. See [all occasions](/events) and [pricing](/pricing). Request availability on [the quote form](/quote). See [staffing](/staffing).',
+        'How a birthday night runs on one Kauaʻi shore. Request availability with Princeville or Poʻipū and the hour people sit. The cook works that estate kitchen, sends the plates, and leaves the counters clear. Use a cake from home, cut when you say, or a plated dessert from the same range. Younger guests can take a first plate if you name that earlier hour. North-shore rain uses the covered lanai. A closed Hanalei road moves the date.',
         'Request availability for the person the night is for. A dessert the estate kitchen plates, or a cake you bring, comes at the hour you set. Children can eat an earlier plate if the house allows it. The dinner uses this island’s signature per-guest band, groceries inside it. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing). Request availability on [the quote form](/quote). Name the icing, the knife, the candle, and the first slice.',
       ],
       faqs: [
@@ -466,6 +469,7 @@ export const occasionPages: Record<IslandId, OccasionPage[]> = {
       body: [
         'West-side radius: Kona–Kohala corridor. Inquiry stage.',
         'Join the inquiry list with a Kona, Waikoloa, or Kohala address. The cook sets that kitchen, serves, and clears. The cake you brought, or a dessert we plate, comes at the moment you set. Children can take a smaller plate first if you say so. Wind moves a lava terrace into the great room, written before a yes. Hilo is a dedicated east-side day and is never implied. The inquiry shows 20% service and Hawaiʻi GET up to 4.712% each alone, and a 50% deposit only after a written yes. Gratuity is never required. See [all occasions](/events) and [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
+        'How a birthday night runs on the west side. Join the inquiry list with a Kona, Waikoloa, or Kohala address and the hour. The cook sets that kitchen, serves the list, and leaves the counters clear. Bring a cake to cut when you choose, or ask for a plated dessert. Children can take a smaller plate first if you name the hour. Wind moves the terrace into the great room already written. Hilo stays its own day.',
         'Join the inquiry list for the person the night is for, on a Kona, Waikoloa, or Kohala address. A cake you bring, or a dessert the villa kitchen plates, is the close. Children can take a smaller plate first if you name that hour. The dinner uses this island’s signature per-guest band, groceries inside it. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
       ],
       faqs: [

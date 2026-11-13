@@ -78,13 +78,22 @@ const rows: { id: IslandId; line: string }[] = [
 
 const COPY: Record<
   IslandId,
-  { h1: string; lede: string; detail: string; hero: { file: string; alt: string }; faqs: { q: string; a: string }[] }
+  {
+    h1: string;
+    lede: string;
+    detail: string;
+    pour: string;
+    hero: { file: string; alt: string };
+    faqs: { q: string; a: string }[];
+  }
 > = {
   oahu: {
     h1: 'A cocktail bar on your lānai — Waikīkī to Ko Olina.',
     lede: 'Bartender, citrus, ice and glassware on the terrace. Stack it with an Oʻahu chef night or book the hour alone.',
     detail:
       'This hour is the bartender beside the chef, or the hour on its own if dinner is not booked. Honolulu towers, Kahala houses, Ko Olina villas, and Kailua weeks can all take it. The four-hour cart, with the package price, is the [mobile bar](/mobile-bar). There is no published bartender hour. The line is quoted in writing. A 20% service charge and Hawaiʻi GET up to 4.712% follow on their own lines, and a 50% deposit follows once you accept. Gratuity is never required. Those fee lines are on [pricing](/pricing). Say if you are supplying the spirits when you request a written quote.',
+    pour:
+      'What to send for a pour beside a Honolulu dinner: the guest count, the dinner time, and whether a Kahala house, a Ko Olina villa, or a Kailua week already holds the bottles. Say if mixers and glassware are on that terrace, or if the station should bring them. Spirits stay at cost with receipts, or you supply them. The bartender is quoted in writing, and no hourly bartender figure is published. Request a written quote. Fee lines are on [pricing](/pricing).',
     hero: photos.barOahu,
     faqs: [
       {
@@ -118,6 +127,8 @@ const COPY: Record<
     lede: 'Welcome pours and a terrace hour in Wailea, Kapalua, Kāʻanapali, and Makena, beside the chef.',
     detail:
       'Book this when the villa dinner needs a person on the terrace for the hour, including the evening you land. Wailea, Kapalua, and Kāʻanapali are the usual lawns. Makena can be named the same way. The packaged four hours live on the [mobile bar](/mobile-bar), not here. No bartender hour is printed on the card. You get a written line, then service at 20% and Hawaiʻi GET up to 4.712% each alone. A 50% deposit holds the dates after you accept. Gratuity is never required. Open [pricing](/pricing) for the fee lines. Quotes are open. Tell us if the house already bought the bottles.',
+    pour:
+      'For a pour with a Wailea, Kapalua, or Kāʻanapali dinner, send the villa, the guest count, the dinner time, and whether the night is the landing. Note if the house already bought the bottles, and whether mixers and glassware are already on the lānai. Saturday traffic changes the call time. It does not merge the pour into the food. The bartender is quoted in writing. No bartender hour is printed on the card. Quotes are open. Request a written quote and name the shore. Fee lines stay on [pricing](/pricing).',
     hero: photos.barMaui,
     faqs: [
       {
@@ -151,6 +162,8 @@ const COPY: Record<
     lede: 'Request availability for a bartender on a Princeville, Hanalei, or Poʻipū dinner. Name the shore.',
     detail:
       'Request availability for a bartender on the dinner, and name Princeville, Hanalei, or Poʻipū. Kapaʻa is a different driveway, so name it if that is the house. This is not the four-hour package. That cart is the [mobile bar](/mobile-bar). A request does not reserve the glassware. If a shore can be staffed, the reply shows the bartender as its own line, then 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit follows a written yes. Gratuity is never required. The fee lines are on [pricing](/pricing). A house past the bridge should say so. A closure moves the night.',
+    pour:
+      'Request availability for a dinner pour and name Princeville, Hanalei, or Poʻipū in the same note. Include the guest count, the dinner time, whether the estate already has bottles, and if mixers and glassware are on site. A house past the bridge should say so, because a closure moves the night. Spirits are billed at cost with receipts, or the estate supplies them. The bartender is a written line only if that shore can be staffed. A request does not reserve the glassware. Fee lines are on [pricing](/pricing).',
     hero: photos.barKauai,
     faqs: [
       {
@@ -184,6 +197,8 @@ const COPY: Record<
     lede: 'Join the inquiry list for a bartender on a Kona or Kohala dinner. Hilo is not a second stop.',
     detail:
       'Join the inquiry list for a bartender on a Kona, Waikoloa, or Kohala dinner. Waimea can be named when the house is up there. Do not leave that town off the note you send. Hilo is a separate dedicated day and is not a second pour after sunset. The four-hour package is the [mobile bar](/mobile-bar). No bartender hour is published. The reply lists the pour, then a 20% service charge and Hawaiʻi GET up to 4.712% as separate lines. A 50% deposit follows a written yes. Gratuity is never required. Read [pricing](/pricing) for those lines. An inquiry is not a held terrace.',
+    pour:
+      'Join the inquiry list for a Kona, Waikoloa, or Kohala pour and send the guest count, the dinner time, and whether that terrace already has bottles. Say if mixers and glassware are on site. Leave Hilo off the note. It is a separate dedicated day, not a second pour after sunset. Spirits are billed at cost with receipts, or you buy them in town. The bartender is quoted in writing, with no hourly figure on the card. An inquiry is not a held terrace. Fee lines are on [pricing](/pricing).',
     hero: photos.barBigisland,
     faqs: [
       {
@@ -679,7 +694,7 @@ export function IslandBarView({ islandId, hostMode }: { islandId: IslandId; host
       </Hero>
       <DocumentCopy
         heading={`How the terrace bar runs on ${islands[islandId].name}.`}
-        paras={[copy.lede, copy.detail]}
+        paras={[copy.lede, copy.detail, copy.pour]}
       />
       <DocumentPhotoGrid
         islandId={islandId}
