@@ -17,11 +17,33 @@ export interface CopyFaq {
   a: string;
 }
 
+/** A body paragraph beginning with this marker opens another H2 inside the same column. */
+const BODY_H2 = '## ';
+
+function expandBodyHeadings(sections: CopySection[]): CopySection[] {
+  if (!sections.some((s) => s.paras.some((p) => p.startsWith(BODY_H2)))) return sections;
+  const out: CopySection[] = [];
+  for (const s of sections) {
+    let cur: CopySection = { h2: s.h2, paras: [] };
+    for (const p of s.paras) {
+      if (p.startsWith(BODY_H2)) {
+        if (cur.paras.length) out.push(cur);
+        cur = { h2: p.slice(BODY_H2.length), paras: [] };
+      } else {
+        cur.paras.push(p);
+      }
+    }
+    if (cur.paras.length) out.push(cur);
+  }
+  return out;
+}
+
 export function Longform({ sections }: { sections: CopySection[] }) {
+  const blocks = expandBodyHeadings(sections);
   return (
     <section className="border-t border-line bg-paper py-20 lg:py-28">
       <div className="mx-auto w-full max-w-3xl space-y-16 px-5 lg:px-10">
-        {sections.map((s) => (
+        {blocks.map((s) => (
           <article key={s.h2}>
             <h2 className="font-display text-[clamp(1.75rem,3.5vw,2.5rem)] font-light leading-[1.15] text-ink">
               {s.h2}
@@ -48,21 +70,60 @@ export function DocumentCopy({
   paras: string[];
   children?: ReactNode;
 }) {
+  const marked = paras.some((p) => p.startsWith(BODY_H2));
+  const chunks: { heading?: string; paras: string[] }[] = [];
+  if (marked) {
+    let cur: { heading?: string; paras: string[] } = { heading, paras: [] };
+    for (const p of paras) {
+      if (p.startsWith(BODY_H2)) {
+        if (cur.heading || cur.paras.length) chunks.push(cur);
+        cur = { heading: p.slice(BODY_H2.length), paras: [] };
+      } else {
+        cur.paras.push(p);
+      }
+    }
+    if (cur.heading || cur.paras.length) chunks.push(cur);
+  }
   return (
     <section className="bg-paper py-20 lg:py-28">
       <div className="mx-auto w-full max-w-3xl px-5 lg:px-10">
-        {heading ? (
-          <h2 className="font-display text-[clamp(1.75rem,3.5vw,2.5rem)] font-light leading-[1.15] text-ink">
-            {heading}
-          </h2>
-        ) : null}
-        <div className={heading ? 'mt-6 space-y-6' : 'space-y-6'}>
-          {paras.map((p) => (
-            <p key={p.slice(0, 48)} className="text-[17px] leading-[1.7] text-mute">
-              <InlineText text={p} />
-            </p>
-          ))}
-        </div>
+        {marked ? (
+          chunks.map((chunk, i) => (
+            <div key={chunk.heading ?? `copy-${i}`}>
+              {chunk.heading ? (
+                <h2
+                  className={`font-display text-[clamp(1.75rem,3.5vw,2.5rem)] font-light leading-[1.15] text-ink ${i > 0 ? 'mt-16' : ''}`}
+                >
+                  {chunk.heading}
+                </h2>
+              ) : null}
+              {chunk.paras.length ? (
+                <div className={chunk.heading ? 'mt-6 space-y-6' : 'space-y-6'}>
+                  {chunk.paras.map((p) => (
+                    <p key={p.slice(0, 48)} className="text-[17px] leading-[1.7] text-mute">
+                      <InlineText text={p} />
+                    </p>
+                  ))}
+                </div>
+              ) : null}
+            </div>
+          ))
+        ) : (
+          <>
+            {heading ? (
+              <h2 className="font-display text-[clamp(1.75rem,3.5vw,2.5rem)] font-light leading-[1.15] text-ink">
+                {heading}
+              </h2>
+            ) : null}
+            <div className={heading ? 'mt-6 space-y-6' : 'space-y-6'}>
+              {paras.map((p) => (
+                <p key={p.slice(0, 48)} className="text-[17px] leading-[1.7] text-mute">
+                  <InlineText text={p} />
+                </p>
+              ))}
+            </div>
+          </>
+        )}
         {children}
       </div>
     </section>
