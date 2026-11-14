@@ -1,6 +1,7 @@
 import type { IslandId } from './islands';
 import { SEARCH_VOLUMES } from './offers';
 import type { UniqueCell } from './uniqueCells';
+import { STAFFING } from './rateCard';
 import { DESK_EMAIL, DESK_PHONE_DISPLAY, DESK_TEL, DESK_WHATSAPP } from '@/lib/contact';
 
 /**
@@ -213,6 +214,9 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'A coordinator books this for one leadership table in a Kahala dining room, a Ko Olina villa, a Kailua house, or a Honolulu residence with a real cooktop. Building rules belong in the same note as the date. Request a written quote on [the quote form](/quote).',
         'The written quote shows the rate-card band on its own line. Groceries for that signature dinner stay inside the band. The 20% service charge is the next line. Hawaiʻi GET up to 4.712% is a separate line after it. A 50% deposit is due only after you accept. Gratuity is never required. That written total is the invoice a finance desk can read, sent to the person who accepts it. For a mixed team, name every limit with the headcount before the shop. We do not claim a separate allergen kitchen. Send the dates, the house address, and the headcount. Bands are on [pricing](/pricing).',
+        '## One Kahala or Ko Olina board dinner, start to finish',
+        'One table in a Kahala dining room, a Ko Olina villa, a Kailua house, or a Honolulu residence. The chef serves courses or platters. Not a ballroom.',
+        `A server at $${STAFFING.serverHourly}/hr and a sous chef at $${STAFFING.sousHourly}/hr come only if you ask. Hours sit on [staffing](/staffing). The kitchen needs a cooktop, a fridge, and a table the board can use. Send the note on [how to brief it](/help/corporate-guide). The band on [pricing](/pricing), then a 20% service charge and Hawaiʻi GET up to 4.712%, each alone. A 50% deposit follows acceptance. Gratuity is never required. Request a written quote.`,
       ],
       faqs: [
         {
@@ -221,7 +225,7 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
         },
         {
           q: 'Can a production crew eat in a Kahala house or a Ko Olina villa?',
-          a: 'Call-time breakfasts in a residence, yes. A stage downtown, no. Send the house address, not a venue name, on [the quote form](/quote).',
+          a: 'Call-time breakfasts in a Kahala house or a Ko Olina villa, yes. A stage downtown, no. Send the house address, not a venue name, on [the quote form](/quote). The residence still needs a cooktop.',
         },
         {
           q: 'What does the menu for one Honolulu executive dinner actually contain?',
@@ -497,6 +501,9 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'One executive dinner, often the night the group lands, in a Wailea rental, a Kapalua estate, or a Kāʻanapali house. The host or the planner who can approve the total is who books it. Name the shore first. A Saturday drive from the south shore to West Maui changes the call time. Request a written quote on [the quote form](/quote).',
         'The food band for that villa night is the first line, shop included. Service at 20% stands alone under it, then Hawaiʻi GET up to 4.712% on its own line. The 50% deposit is the hold after you accept. Gratuity is never required. Finance receives that same total. Dietary needs for a mixed team are written before the shop, each limit next to the seat count. We do not claim a separate allergen kitchen. Send the dates, the villa address, and the headcount. Bands are on [pricing](/pricing).',
+        '## A leadership night in a Wailea or Kapalua villa',
+        'One dinner in the villa. Wailea uses the dining room. A Kapalua or Kāʻanapali covered lānai can take the same table. Not a conference lunch.',
+        `A server at $${STAFFING.serverHourly}/hr and a sous chef at $${STAFFING.sousHourly}/hr join only if you ask. Hours stay on [staffing](/staffing). The villa needs a cooktop, a fridge, and a table. If trade wind closes the lawn, name the dining room. The shore note is [how to brief it](/help/corporate-guide). Band, 20% service, and Hawaiʻi GET up to 4.712% are separate lines on [pricing](/pricing). A 50% deposit follows acceptance. Gratuity is never required. Request a written quote.`,
       ],
       faqs: [
         {
@@ -781,6 +788,9 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'One estate dinner, in Princeville rain or clearer Poʻipū light. The person who requests availability is the one who can accept a written total if a crew can take that shore. When the house sits past the Hanalei bridge, say so. A closure moves the night. It does not move the dinner to the other shore.',
         'The written total lists the rate-card band, then the 20% service charge, then Hawaiʻi GET up to 4.712%, each on its own line. A 50% deposit follows that written yes. Gratuity is never required. The approver receives the invoice. A mixed team’s limits are planned with the headcount before the shop on that shore. We do not claim a separate allergen kitchen. Send the dates, the estate address, and the headcount, and name Princeville or Poʻipū. Request availability on [the quote form](/quote). Bands are on [pricing](/pricing).',
+        '## One estate dinner on either shore, with rain in the plan',
+        'One dinner, one shore. Name the Hanalei bridge if the house is north: a closure moves the night and does not become Poʻipū. Rain moves the table under cover. Poʻipū needs a wet-weather note.',
+        `A server at $${STAFFING.serverHourly}/hr and a sous chef at $${STAFFING.sousHourly}/hr come only if you name them, on [staffing](/staffing). A cooktop, a fridge, and the seats. What to send is [how to brief it](/help/corporate-guide). Request availability on [the quote form](/quote). The band on [pricing](/pricing), then 20% service and Hawaiʻi GET up to 4.712%, each alone. A 50% deposit follows that yes. Gratuity is never required.`,
       ],
       faqs: [
         {
@@ -1065,6 +1075,9 @@ export const gatedServices: Record<IslandId, UniqueCell[]> = {
       body: [
         'Join the inquiry list for one leadership dinner in Kona, Waikoloa, or along the Kohala Coast. Hard sun and a lava terrace set the room, or the group eats indoors. The booker is whoever can approve the total. Hilo is a separate dedicated day. Flag Ironman if the week touches the race. The grocery window tightens.',
         'A written yes shows the rate-card band first. Groceries for that signature dinner stay inside the band. The 20% service charge prints next. Hawaiʻi GET up to 4.712% prints after it, alone. A 50% deposit follows acceptance. Gratuity is never required. Finance gets that same total. Mixed dietary needs go with the headcount before the west-side shop. We do not claim a separate allergen kitchen. Send the dates, the house address, and the headcount, and name the terrace or the great room. Bands are on [pricing](/pricing).',
+        '## One Kohala Coast leadership dinner',
+        'One leadership dinner in Kona, Waikoloa, or on the Kohala Coast. Hard sun may move the first plates indoors. Hilo is a separate dedicated day. Flag Ironman week in Kailua-Kona.',
+        `A server at $${STAFFING.serverHourly}/hr and a sous chef at $${STAFFING.sousHourly}/hr join only if you ask. Hours are on [staffing](/staffing). Say terrace or great room. Show a cooktop, a fridge, and a table. The brief is [how to brief it](/help/corporate-guide). Join the inquiry list on [the quote form](/quote). A written yes uses the band on [pricing](/pricing), then 20% service and Hawaiʻi GET up to 4.712% alone. A 50% deposit follows acceptance. Gratuity is never required.`,
       ],
       faqs: [
         {

@@ -156,6 +156,9 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       body: [
         'The useful Oʻahu note names a Kahala, Ko Olina, Kailua, or Honolulu address, the dates, and the headcount, plus who can approve a written total. A tower also needs its freight window and the building rule the crew will meet at the curb. Kitchen photos matter more than a listing headline. Request a written quote on [the quote form](/quote).',
         'The quote comes back line by line. The rate-card band is the food, and groceries for a signature dinner stay inside it. Then 20% service. Then Hawaiʻi GET up to 4.712%. A 50% deposit is collected after acceptance. Gratuity is never required. The person who accepts should receive the invoice. A mixed team’s dietary list is part of the brief, written before the shop. We do not claim a separate allergen kitchen. HCC citywides are closed through 2027. Larger than about seventy-five is quoted or declined. Bands are on [pricing](/pricing).',
+        '## The five lines an Oʻahu brief needs',
+        'Dates. A Kahala, Ko Olina, Kailua, or Honolulu address. Headcount. Who can approve. The dietary list, each limit beside a seat. A tower adds the freight window. Kitchen photos beat the listing headline.',
+        'Finance receives a written quote. The rate-card band is the food, and grocery procurement for that signature dinner stays inside the band. Then a 20% service charge. Then Hawaiʻi GET up to 4.712%. A 50% deposit is due only after the approver accepts. Gratuity is never required. Bands are on [pricing](/pricing). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -369,11 +372,14 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       body: [
         'Write Wailea, Kapalua, or Kāʻanapali, then the rental’s street address, the dates, and how many seats. Say whether Saturday crosses from the south shore toward West Maui. That drive sets the call time. One person still has to accept the total. Request a written quote on [the quote form](/quote) when the villa contract is signed.',
         'Food is the rate-card band, groceries inside it for that one dinner. Service at 20% is not folded into the guest price. Hawaiʻi GET up to 4.712% is its own line. The 50% deposit waits until you accept. Gratuity is never required. That total is what finance files. Put dietary needs for the mixed team in the same brief, before any dish is discussed. We do not claim a separate allergen kitchen. If the house is Upcountry, the travel line is on [pricing](/pricing), not guessed here. Send the dates, the villa address, and the headcount.',
+        '## What a Maui villa brief carries before any dish',
+        'No dishes yet. Wailea, Kapalua, or Kāʻanapali, then the rental’s street, not the resort name. Dates, and whether Saturday crosses toward West Maui, because that drive sets the call time. Headcount, the approver, the dietary list. Photos of the cooktop and the room.',
+        'A cooktop brings a written quote the approver can file. The band is the food, with grocery procurement for that signature dinner inside it. A 20% service charge is the next line. Hawaiʻi GET up to 4.712% follows. A 50% deposit waits until acceptance. Gratuity is never required. See [pricing](/pricing). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
           q: 'Will you cook a hotel ballroom if the brief only names the resort?',
-          a: 'No. Residences and villas. A resort name is not a kitchen. Put the rental address, not the banquet office, in the brief.',
+          a: 'No. We cook in residences and villas only. A resort name is not a kitchen, and a banquet office is not a brief. Put the rental’s street address in the note before any dish is discussed.',
         },
         {
           q: 'What belongs in a Maui offsite brief before any dishes are discussed?',
@@ -582,6 +588,9 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       body: [
         'Request availability with the shore in the first sentence. Princeville and Hanalei need the bridge named, plus a covered backup when rain is the forecast. Poʻipū needs the estate address and a wet-weather note. Dates, headcount, and kitchen photos travel with that shore. Put the approver’s name on the note. A printed page is not a held crew.',
         'If the shore can be staffed, the reply is a written total: the rate-card band, a 20% service charge, and Hawaiʻi GET up to 4.712%, each on its own line. The 50% deposit comes after the written yes. Gratuity is never required. The approver’s finance desk receives that total. Dietary limits for a mixed team go in the request, before the shop, with the headcount. We do not claim a separate allergen kitchen. Send the dates, the estate address, and the headcount. Request availability on [the quote form](/quote). Bands are on [pricing](/pricing).',
+        '## What to send when you request Kauaʻi availability',
+        'Shore first. Princeville or Hanalei: the Hanalei bridge and a covered backup. Poʻipū: the estate address and a wet-weather line. Then dates, headcount, kitchen photos, the dietary list, and who can approve. A printed page is not a held crew.',
+        'If the shore can be staffed, the reply is a written total. The band is the food, grocery procurement inside it. A 20% service charge follows. Hawaiʻi GET up to 4.712% follows, each line alone. A 50% deposit follows the written yes, not the request. Gratuity is never required. See [pricing](/pricing). Request availability on [the quote form](/quote).',
       ],
       faqs: [
         {
@@ -795,6 +804,9 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
       body: [
         'Join the inquiry list with a west-side address only. Write Kona, Waikoloa, or the Kohala Coast, then the dates and the headcount. Photos should show the cooktop, the fridge, and whether the night is the lava terrace or the great room. Flag Ironman if the week touches the race. Hilo is a second note and a dedicated east-side day. Name the person who can approve.',
         'The answer is a written total the approver can hand to finance. The rate-card band is the food line, groceries inside it. The 20% service charge follows. Hawaiʻi GET up to 4.712% follows that. A 50% deposit applies after the written yes. Gratuity is never required. Dietary needs for a mixed team are in the brief before the west-side shop. We do not claim a separate allergen kitchen. Send the dates, the house address, and the headcount. Bands are on [pricing](/pricing).',
+        '## What a west-side brief needs to join the inquiry list',
+        'A west-side address only: Kona, Waikoloa, or the Kohala Coast, the dates, and the headcount. Photos of the cooktop, the fridge, and the room. The approver and the dietary list. Flag Ironman if the dates touch the race. Hilo is a second note and a dedicated east-side day.',
+        'The reply is a written quote for that house when a crew can take the day. The band is the food, grocery procurement inside it. A 20% service charge follows. Hawaiʻi GET up to 4.712% follows. A 50% deposit applies after the written yes. Gratuity is never required. See [pricing](/pricing).',
       ],
       faqs: [
         {
