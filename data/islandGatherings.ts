@@ -34,7 +34,7 @@ export const islandGatherings: Record<IslandId, IslandNestedIndexPage> = {
       'What that count does to the total is on the written quote, with a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines. Occasion pages hold the night type. Seat rules are on [guest counts](/guest-counts). Request a written quote on [the quote form](/quote).',
       '## Which page fits your group',
       'A birthday in the rental is [birthdays](/events/birthdays). A late-morning family meal is [brunch](/events/brunch). A reception that outgrows the table follows [guest counts](/guest-counts). The night before a wedding is [rehearsal dinners](/rehearsal-dinners).',
-      'Several families share one Kahala or Ko Olina kitchen. Children count on the quote. There is no separate kids’ price and no age cut-off. Family-style is platters on the dining table. A buffet needs a line the house can hold. Seated courses need the galley, and the building rules, to allow the chairs. Request a written quote on [the quote form](/quote).',
+      'Several families share one Kahala or Ko Olina kitchen. Children count on the quote. There is no separate kids’ price and no age cut-off. Family-style is platters on the dining table. A buffet needs a line the house can hold. Seated courses need the galley, and the building rules, to allow the chairs. Request a written quote.',
     ],
     faqs: [
       {
@@ -78,7 +78,7 @@ export const islandGatherings: Record<IslandId, IslandNestedIndexPage> = {
       'Arrival night can be the casual meal. A later birthday can be seated. Both are lines on one written quote, with a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines. How many seats is [guest counts](/guest-counts). The lawn party page is [villa parties](/events/villa-parties). Quotes are open.',
       '## Which page fits your group',
       'A birthday is [birthdays](/events/birthdays). A late-morning family meal is [brunch](/events/brunch). A reception past the table follows [guest counts](/guest-counts). The night before the wedding is [rehearsal dinners](/rehearsal-dinners). A villa party is [villa parties](/events/villa-parties).',
-      'One Wailea, Kapalua, or Kāʻanapali house is one written total. Two villas are two quotes. Children sit on that headcount. There is no separate kids’ price and no age cut-off. Family-style is platters on the lānai. A buffet is stations the lawn can hold. Seated is courses for the people in the house. Request a written quote on [the quote form](/quote).',
+      'One Wailea, Kapalua, or Kāʻanapali house is one written total. Two villas are two quotes. Children sit on that headcount. There is no separate kids’ price and no age cut-off. Family-style is platters on the lānai. A buffet is stations the lawn can hold. Seated is courses in the house. Request a written quote.',
     ],
     faqs: [
       {
@@ -122,7 +122,7 @@ export const islandGatherings: Record<IslandId, IslandNestedIndexPage> = {
       'A house past the Hanalei bridge still carries the written bridge clause. Request availability on [the quote form](/quote). A named shore is not a confirmation. Seat rules are on [guest counts](/guest-counts). Fee lines are a 20% service charge and Hawaiʻi GET up to 4.712%, each on its own line, after a written yes.',
       '## Which page fits your group',
       'A birthday is [birthdays](/events/birthdays). A late-morning family meal is [brunch](/events/brunch). A reception past the table uses [guest counts](/guest-counts). The night before a wedding is [rehearsal dinners](/rehearsal-dinners). Request availability. A shore is not a confirmation.',
-      'The week is the Princeville or Poʻipū house you named. Children count on the quote. No separate kids’ price and no age cut-off. North-shore platters and seated courses use the great-room table. A buffet needs a dry line if rain moves inside. Poʻipū can keep the lawn. Past the Hanalei bridge, the bridge clause applies. Request availability on [the quote form](/quote).',
+      'The week is that Princeville or Poʻipū house. Children count on the quote. No separate kids’ price and no age cut-off. North-shore platters and seated courses use the great-room table. A buffet needs a dry line if rain moves inside. Poʻipū can keep the lawn. Past the Hanalei bridge, the bridge clause applies. Request availability.',
     ],
     faqs: [
       {
@@ -166,7 +166,7 @@ export const islandGatherings: Record<IslandId, IslandNestedIndexPage> = {
       'Hilo is a separate dedicated east-side day and is never stacked onto this west-side party. Ironman week in Kailua-Kona compresses the calendar, so flag it when you join the inquiry list on [the quote form](/quote). Seat rules are on [guest counts](/guest-counts). A 20% service charge and Hawaiʻi GET up to 4.712% sit on their own lines after the food.',
       '## Which page fits your group',
       'A birthday is [birthdays](/events/birthdays). A late-morning family meal is [brunch](/events/brunch). A reception past the table is [guest counts](/guest-counts). The night before a wedding is [rehearsal dinners](/rehearsal-dinners). Join the inquiry list for Kona, Waikoloa, or Kohala. Hilo is not on that evening.',
-      'The week uses the west-side kitchen you named. Children count on the quote. No separate kids’ price and no age cut-off. Family-style is platters on the terrace. A buffet needs stations that terrace can hold. Seated is courses in the house. Flag Ironman week when you join the inquiry list on [the quote form](/quote).',
+      'The week uses that west-side kitchen. Children count on the quote. No separate kids’ price and no age cut-off. Family-style is platters on the terrace. A buffet needs stations that terrace can hold. Seated is courses in the house. Flag Ironman week when you join the inquiry list.',
     ],
     faqs: [
       {

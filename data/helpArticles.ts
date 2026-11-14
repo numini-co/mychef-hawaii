@@ -374,7 +374,7 @@ export const helpArticles: Record<IslandId, HelpArticle[]> = {
         'Food is the rate-card band, groceries inside it for that one dinner. Service at 20% is not folded into the guest price. Hawaiʻi GET up to 4.712% is its own line. The 50% deposit waits until you accept. Gratuity is never required. That total is what finance files. Put dietary needs for the mixed team in the same brief, before any dish is discussed. We do not claim a separate allergen kitchen. If the house is Upcountry, the travel line is on [pricing](/pricing), not guessed here. Send the dates, the villa address, and the headcount.',
         '## What a Maui villa brief carries before any dish',
         'No dishes yet. Wailea, Kapalua, or Kāʻanapali, then the rental’s street, not the resort name. Dates, and whether Saturday crosses toward West Maui, because that drive sets the call time. Headcount, the approver, the dietary list. Photos of the cooktop and the room.',
-        'A cooktop brings a written quote the approver can file. The band is the food, with grocery procurement for that signature dinner inside it. A 20% service charge is the next line. Hawaiʻi GET up to 4.712% follows. A 50% deposit waits until acceptance. Gratuity is never required. See [pricing](/pricing). Request a written quote on [the quote form](/quote).',
+        'A cooktop brings a written quote. The band is the food, with grocery procurement for that signature dinner inside it. A 20% service charge is the next line. Hawaiʻi GET up to 4.712% follows. A 50% deposit waits until acceptance. Gratuity is never required. See [pricing](/pricing). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
         {
