@@ -162,6 +162,10 @@ export function IslandSupportView({
         />
       ) : null}
 
+      {showMenu && copy.afterSample ? (
+        <DocumentCopy heading={copy.afterSample.h2} paras={copy.afterSample.paras} />
+      ) : null}
+
       {showMenu ? (
         <DocumentPhotoGrid
           islandId={islandId}

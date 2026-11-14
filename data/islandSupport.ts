@@ -19,6 +19,8 @@ export interface IslandSupportPage {
   faqs: { q: string; a: string }[];
   steps?: { n: string; title: string; body: string }[];
   faqGroups?: { h2: string; faqs: { q: string; a: string }[] }[];
+  /** One H2 block rendered after the sample three-course on island /menus only. */
+  afterSample?: { h2: string; paras: string[] };
 }
 
 function faqPage(
@@ -767,7 +769,7 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
     h1: 'Oahu menus — designed per table, Honolulu fish market.',
     title: 'Oahu chef menus — Honolulu fish market | myCHEF',
     description:
-      'Oahu villa menus are designed per table, not a fixed restaurant menu. Miso-glazed catch, poke tostada, compact-condo kitchens.',
+      'Oʻahu villa menus are designed per table, not a fixed restaurant menu. Miso-glazed catch, poke tostada, compact condos. Request a written quote.',
     lede:
       'Kahala, Ko Olina, Kailua, a Waikīkī residence with a stove — we cook in the kitchen you have. You pick the catch; we shop that day.',
     kicker: 'Oʻahu menus',
@@ -776,18 +778,25 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
       'There is no fixed restaurant menu. A Gold Coast dinner for eight and a Kailua family week are different plates. Kids’ plates are planned with the adults, not an afterthought.',
       'Honolulu fish-market shopping the same day as service when the main is catch. Compact condos get a menu that fits the burners.',
     ],
+    afterSample: {
+      h2: 'Pick the menu shape before the dishes',
+      paras: [
+        'Designed per table, not a printed menu. A plated three-course fits a Honolulu, Kahala, or Ko Olina kitchen that can run courses at the chairs. See [three-course](/menus/three-course). Family-style fits when platters go down one table. See [family-style](/menus/family-style-menu).',
+        'Breakfast and lunch are their own pages, not a shortened dinner. Morning service is [breakfast](/menus/breakfast). A midday table is [lunch](/menus/lunch). Signature per-guest dinners include grocery procurement inside the band. Groceries at cost with receipts apply only to Stay Chef. Both models are on [pricing](/pricing). Request a written quote.',
+      ],
+    },
     faqs: [
       {
-        q: 'Can I see a PDF menu?',
-        a: 'You see a sample three-course below and a designed menu in 48 hours after inquiry. We do not publish a fake standing list.',
+        q: 'Can I see a PDF of an Oʻahu menu before the dinner is designed?',
+        a: 'You see the sample three-course on this page, then a menu designed for your house about 48 hours after a complete request. We do not publish a fake standing list, and we do not send a PDF in its place. Request a written quote when the kitchen is known.',
       },
       {
-        q: 'Sushi-forward on Oʻahu?',
-        a: 'A menu direction we can arrange — nigiri, sashimi, hand rolls — not a separate brand or a second URL.',
+        q: 'Can an Oʻahu dinner be sushi-forward?',
+        a: 'Sushi-forward is a direction for that table: nigiri, sashimi, or hand rolls. It is not a separate brand and not a second URL. Say so when you request a written quote, and the designed menu follows the house.',
       },
       {
-        q: 'Honolulu catering menus with prices?',
-        a: 'Related search, not a PDF mill. Both show a sample and a starting band. Your designed menu arrives after inquiry.',
+        q: 'Where are Honolulu catering menus with prices?',
+        a: 'This page is the related search, not a stack of PDFs. You see a sample three-course here and the starting band on [pricing](/pricing). The menu for your headcount arrives after you request a written quote on [the quote form](/quote).',
       },
       {
         q: 'Is an Oahu menu written for the house?',
@@ -824,6 +833,13 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
       'Ahi poke, inamona, ogo, lime — the table goes quiet. Macadamia-crusted fresh catch with whatever ran that morning — mahi, ono, or opakapaka.',
       'Lawn receptions get identical event plates, not a dinner tasting stretched to seventy-five.',
     ],
+    afterSample: {
+      h2: 'Pick the menu shape before the dishes',
+      paras: [
+        'Designed per table, not a printed menu. A plated three-course fits a Wailea or Kapalua kitchen, with a wind backup if the lānai was the plan. See [three-course](/menus/three-course). Family-style fits a villa week that wants platters, not a plated reset. See [family-style](/menus/family-style-menu).',
+        'Breakfast after a late landing, and lunch between excursions, are separate pages: [breakfast](/menus/breakfast) and [lunch](/menus/lunch). Signature per-guest dinners include grocery procurement inside the band. Groceries at cost with receipts apply only to Stay Chef. Read both on [pricing](/pricing). Request a written quote for the villa you hold.',
+      ],
+    },
     faqs: [
       {
         q: 'Is there a Maui catering menu PDF?',
@@ -842,8 +858,8 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
         a: 'Wailea, Kīhei, Kāʻanapali, Kapalua and West Maui villas. Tell us the kitchen you have, and the menu is written to fit its burners, oven and lānai.',
       },
       {
-        q: 'Dietary?',
-        a: 'Vegan, gluten-free, allergy-aware — designed in advance. Claimed only when the kitchen can do it that night.',
+        q: 'Can dietary limits be designed into a Maui menu?',
+        a: 'Vegan, gluten-free, and allergy notes are designed in before the shop, and only when that Wailea or Kapalua kitchen can keep them. Send the list with the dates when you request a written quote.',
       },
       {
         q: 'What does the Maui sample three-course show?',
@@ -863,7 +879,7 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
     h1: 'Kauai menus — North Shore handshake, South Shore fire.',
     title: 'Kauai chef menus — North & South Shore | myCHEF',
     description:
-      'Kauai estate menus designed per table: ahi poke, wood-grilled catch. North Shore covered lānai plan; South Shore fire. Inquiry stage.',
+      'Kauai estate menus designed per table: ahi poke, wood-grilled catch. North Shore covered lānai plan; South Shore fire. Request availability.',
     lede:
       'Princeville mist or Poʻipū sun — same kitchen standard, published starting prices. The plate changes with the shore.',
     kicker: 'Kauaʻi menus',
@@ -872,10 +888,17 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
       'Ahi poke, kukui, sweet onion — the North Shore handshake. Wood-grilled catch, mango salsa, coconut rice when the South Shore kitchen can take fire.',
       'Inquiry stage. Menu/IP is designed per table. We do not publish a fake fixed list to look launched.',
     ],
+    afterSample: {
+      h2: 'Pick the menu shape before the dishes',
+      paras: [
+        'Designed per table, not a printed menu. A plated three-course fits an estate that can seat courses, under a covered lānai in Princeville or with the grill in Poʻipū. See [three-course](/menus/three-course). Family-style fits the great-room table if rain moves the north-shore group inside. See [family-style](/menus/family-style-menu).',
+        'Breakfast and lunch are not a dinner cut short. Morning food is [breakfast](/menus/breakfast). Midday food is [lunch](/menus/lunch). Signature per-guest dinners include grocery procurement inside the band. Groceries at cost with receipts apply only to Stay Chef. See [pricing](/pricing). Request availability for the shore the house is on.',
+      ],
+    },
     faqs: [
       {
         q: 'Do North and South eat the same menu?',
-        a: 'Same standard, different fire and weather plan. The designed menu says which shore.',
+        a: 'The standard is the same on both shores. The fire and the weather plan are not. Princeville names the covered lānai. Poʻipū names the grill when the kitchen can take it. The designed menu says which shore.',
       },
       {
         q: 'Is there a Kauai catering menu?',
@@ -887,11 +910,11 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
       },
       {
         q: 'Can the menu handle dietary needs?',
-        a: 'Yes — vegan, gluten-free and allergy-aware menus are designed in advance, and we only promise what the kitchen can deliver that night.',
+        a: 'Yes. Vegan, gluten-free, and allergy-aware menus are designed before the shop, and we only promise what that shore’s kitchen can cook that night. Send the limits with the request for availability.',
       },
       {
         q: 'Which towns do you cook in on Kauai?',
-        a: 'Princeville, Hanalei, Poʻipū and Kapaʻa. Līhuʻe and Kapaʻa are base zone; Princeville, Hanalei and Poʻipū carry a published travel line.',
+        a: 'Princeville, Hanalei, Poʻipū, and Kapaʻa. Līhuʻe and Kapaʻa are the base zone. Princeville, Hanalei, and Poʻipū carry a published travel line on [pricing](/pricing). Request availability for the town the house is in.',
       },
       {
         q: 'Is a Kauai menu written for that house?',
@@ -920,14 +943,21 @@ export const islandMenus: Record<IslandId, IslandSupportPage> = {
       'Kanpachi crudo, citrus, chili oil — or ahi poke when the boat is in. Coffee-rubbed catch or ranch steak with Hāmākua mushrooms. Coffee on the crust is coffee; origin labeled when Act 198 requires it.',
       'We do not invent farm names to decorate a tasting.',
     ],
+    afterSample: {
+      h2: 'Pick the menu shape before the dishes',
+      paras: [
+        'Designed per table, not a printed menu. A plated three-course fits a Kona or Kohala kitchen that can run courses indoors. See [three-course](/menus/three-course). Family-style fits when the west-side table passes platters. See [family-style](/menus/family-style-menu). The sample above is west-side. Hilo is a separate dedicated day.',
+        'Morning service is [breakfast](/menus/breakfast). A midday table is [lunch](/menus/lunch). Signature per-guest dinners include grocery procurement inside the band. Groceries at cost with receipts apply only to Stay Chef. The simpler table, when the house fits, is on [pricing](/pricing) too. Join the inquiry list with the west-side address.',
+      ],
+    },
     faqs: [
       {
         q: 'Is this a Kona coffee dinner?',
-        a: 'Coffee may be on the crust. Named Kona or Kaʻū lots follow the origin law. We will not print a farm we cannot document.',
+        a: 'Coffee may be on the crust of the catch. Named Kona or Kaʻū lots follow the origin law, and only when the receipt supports them. We will not print a farm we cannot document.',
       },
       {
-        q: 'East-side menu?',
-        a: 'Hilo and Volcano are a separate dedicated east-side day, quoted in writing; the sample below is the west-side dinner.',
+        q: 'Is the sample an east-side menu, or west-side only?',
+        a: 'Hilo and Volcano are a separate dedicated east-side day, quoted in writing. The sample on this page is the west-side dinner. Join the inquiry list for the side the house is on. We do not draft Hilo onto a Kona menu.',
       },
       {
         q: 'Is a Big Island menu written for the house?',
