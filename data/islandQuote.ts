@@ -119,7 +119,7 @@ export const islandQuote: Record<IslandId, IslandQuotePage> = {
       'Send the dates as soon as the house is held. Hawaii business hours bring a written total when we can staff. The draft follows about 48 hours after the request is complete. A far-north house also keeps the 72-hour notice and the bridge clause. We log the shore and write back with what we can staff. Nothing is confirmed until the written reply names the shore.',
       '## What the Kauaʻi availability reply looks like',
       'Request availability with the shore, dates, party size, service, and one contact. Name Princeville, Hanalei, or Poʻipū. A house north of the Hanalei bridge should say so, and whether rain may close the road.',
-      'When that shore can be cooked, the reply lists the rate-card band, then 20% service and Hawaiʻi GET up to 4.712% as their own lines. Travel outside the base is on [pricing](/pricing). A 50% deposit follows a written yes. Gratuity is never required. The request is not a held crew, and a bridge closure reschedules rather than forfeits.',
+      'When that shore can be cooked, the reply lists the rate-card band, then 20% service and Hawaiʻi GET up to 4.712% as their own lines. Travel outside the base is on [pricing](/pricing). A 50% deposit follows a written yes. Gratuity is never required. The request is not a held crew.',
     ],
     faqs: [
       {
@@ -161,7 +161,7 @@ export const islandQuote: Record<IslandId, IslandQuotePage> = {
       'When that west-side day can be staffed, the reply lists the rate-card band, then a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit follows a written yes. Gratuity is never required. Travel outside the base is its own line. The amount, and the simpler open table published only on this island, are on [pricing](/pricing).',
       'Send the note once the west-side house is held. Hawaii business hours bring a written total if that day can be staffed. The draft follows about 48 hours after the note is complete. Crossing to Hilo is a dedicated day, not a line on the Kona night.',
       '## What happens after you join the inquiry list',
-      'Join the inquiry list with a west-side address, the dates, the party size, the service, and one contact. Write Kailua-Kona, Keauhou, Waikoloa, Waimea, or the Kohala Coast. Leave Hilo off that note. There is no instant-booking button. An inquiry is not a held crew.',
+      'Join the inquiry list with a west-side address, the dates, the party size, the service, and one contact. Write Kailua-Kona, Keauhou, Waikoloa, Waimea, or the Kohala Coast. There is no instant-booking button. An inquiry is not a held crew.',
       'If that west-side day can be staffed, the reply lists the rate-card band, then a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines. Travel is on [pricing](/pricing). A 50% deposit follows a written yes. Gratuity is never required. Hilo stays a separate day.',
     ],
     faqs: [
