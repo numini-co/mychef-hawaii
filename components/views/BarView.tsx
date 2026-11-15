@@ -357,13 +357,19 @@ export function HubBarView() {
   );
 }
 
-const PACKAGE: Record<IslandId, { h1: string; lede: string; detail: string; hero: { file: string; alt: string } }> = {
+const PACKAGE: Record<
+  IslandId,
+  { h1: string; lede: string; detail: string; prepHeading: string; prep: string; hero: { file: string; alt: string } }
+> = {
   oahu: {
     h1: 'The 4-hour mobile bar package — Waikīkī to Ko Olina.',
     lede:
       'A cart, ice, citrus, glassware and a bartender for four hours. Stack it with a Honolulu dinner or book the package alone on a Ko Olina lānai.',
     detail:
       'The four hours cover the bartender, the setup, ice, citrus, and glassware. Spirits are billed at cost with receipts, or you bring the bottles. A Kahala counter and a Waikīkī residence both need a place for ice. The cart can pour beside dinner, and dinner still needs a real cooktop if you stack the two. The written quote shows the package as its own line. A 20% service charge and Hawaiʻi GET up to 4.712% follow on their own lines. A 50% deposit holds the date after you accept. Gratuity is never required.',
+    prepHeading: 'What to have ready in a Honolulu condo',
+    prep:
+      'Clear a counter for the cart and a place for ice. A Kahala house and a Ko Olina villa need that same spot. Say whether you bring the spirits or we buy them and bill the receipts at cost. If dinner is stacked, the kitchen still needs a real cooktop. Put the guest count on the request. The package is its own quote line, then a 20% service charge and Hawaiʻi GET up to 4.712%. Fee lines are on [pricing](/pricing).',
     hero: photos.mobileBarOahu,
   },
   maui: {
@@ -372,6 +378,9 @@ const PACKAGE: Record<IslandId, { h1: string; lede: string; detail: string; hero
       'The packaged cart for a villa night in Wailea, Kapalua, Kāʻanapali, or Makena, including the arrival evening.',
     detail:
       'What the four hours cover is the bartender, the setup, ice, citrus, and glassware on that villa lānai. You may bring the spirits, or we bill them at cost with receipts. On arrival night the bar is a line next to dinner, not a second company. A welcome pour in Kapalua and a later Wailea dinner are separate lines when you ask for both. Saturday traffic between those shores is planned into the call time. Service at 20% and Hawaiʻi GET up to 4.712% follow the lines. A 50% deposit holds the dates after you accept. Gratuity is never required.',
+    prepHeading: 'What the villa lānai needs before sunset',
+    prep:
+      'Set a spot on the lānai for the cart and the ice. Say if the villa already bought the spirits or we should bill them at cost with receipts. If the cart sits with dinner, it stays a separate line, including on arrival night. A Kapalua welcome and a later Wailea dinner are two lines. Put the guest count on the request. Service at 20% and Hawaiʻi GET up to 4.712% follow those lines. See [pricing](/pricing).',
     hero: photos.mobileBarMaui,
   },
   kauai: {
@@ -380,6 +389,9 @@ const PACKAGE: Record<IslandId, { h1: string; lede: string; detail: string; hero
       'Request availability for a full cart on a Princeville, Hanalei, or Poʻipū terrace. The add-on hour is on the villa bar page.',
     detail:
       'The package is a bartender, setup, ice, citrus, and glassware for four hours. Spirits are at cost with receipts, or the estate supplies them. The bar can sit with dinner on the same written reply, as its own line. A house past the Hanalei bridge keeps the 72-hour notice and the weather clause. A closure moves the night. It does not forfeit a deposit. The reply lists 20% service and Hawaiʻi GET up to 4.712% after the package. A 50% deposit follows a written yes. Gratuity is never required. Request availability and name the shore.',
+    prepHeading: 'What to set before a shore cart arrives',
+    prep:
+      'Name a covered space for the cart and the ice, because rain moves the setup under cover. Say if the estate supplies the spirits or we bill them at cost with receipts. If dinner is on the same reply, the package stays its own line. Put the guest count on the request. A house past the Hanalei bridge should say so. A 20% service charge and Hawaiʻi GET up to 4.712% follow the package. The lines are on [pricing](/pricing). Request availability.',
     hero: photos.mobileBarKauai,
   },
   bigisland: {
@@ -388,6 +400,9 @@ const PACKAGE: Record<IslandId, { h1: string; lede: string; detail: string; hero
       'A west-side cart for Kona and Kohala: ice, citrus, glassware, and a bartender. Hilo is not a second stop.',
     detail:
       'Join the inquiry list for four hours on a Kona or Kohala terrace. The package covers the bartender, setup, ice, citrus, and glassware. Spirits are billed at cost with receipts, or you supply them. The bar is a line beside a west-side dinner on the same reply. It is not a drive to Hilo after dessert. Hilo is its own dedicated day. The reply shows the package, then a 20% service charge and Hawaiʻi GET up to 4.712% as separate lines. A 50% deposit follows a written yes. Gratuity is never required.',
+    prepHeading: 'What a west-side terrace needs first',
+    prep:
+      'Leave a place on the Kona or Kohala terrace for the cart and the ice. Say if you supply the spirits or we buy them and bill at cost with receipts. If a west-side dinner is on the same reply, the package stays its own line. Put the guest count on the request. Hilo is not implied and is not a second stop. A 20% service charge and Hawaiʻi GET up to 4.712% follow as separate lines. See [pricing](/pricing). Join the inquiry list.',
     hero: photos.mobileBarBigisland,
   },
 };
@@ -643,6 +658,8 @@ export function IslandMobileBarView({ islandId, hostMode }: { islandId: IslandId
           copy.lede,
           copy.detail,
           `${formatMobileBarPackage(islandId)}, or ${formatMobileBarGuest(islandId)}. ${FEE_DISCLOSURE}`,
+          `## ${copy.prepHeading}`,
+          copy.prep,
         ]}
       />
       <DocumentPhotoGrid

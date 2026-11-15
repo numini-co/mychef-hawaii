@@ -568,7 +568,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/maui/mobile-bar': {
     title: 'Maui 4-hour mobile bar package | myCHEF',
     description:
-      'A four-hour Maui cart for Wailea, Kapalua, Kāʻanapali, and Makena. Bartender, ice, citrus, and glassware. The package is its own line on the written quote.',
+      'A four-hour Maui cart for Wailea, Kapalua, Kāʻanapali, and Makena. Bartender, ice, citrus, and glassware. The package is its own line on the quote.',
   },
   '/maui/events': {
     title: 'Maui villa events — Wailea & West Maui | myCHEF',
@@ -727,7 +727,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/bigisland/mobile-bar': {
     title: 'Hawaiʻi Island 4-hour mobile bar package | myCHEF',
     description:
-      'A four-hour cart for Kona and the Kohala Coast. Bartender, ice, citrus, and glassware. Join the inquiry list. Hilo is a separate day, not a second stop.',
+      'A four-hour west-side cart for Kona and the Kohala Coast. Ice, citrus, glassware, and a bartender. Join the inquiry list. Hilo is not a second stop.',
   },
   '/bigisland/events': {
     title: 'Big Island villa events — Kohala and Kona | myCHEF',
