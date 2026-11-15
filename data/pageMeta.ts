@@ -516,7 +516,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/oahu/quote': {
     title: 'Request a private chef quote on Oʻahu | myCHEF',
     description:
-      'Request a written Oʻahu quote. Name the corridor, the kitchen, and tower access. The reply lists the rate-card band, the fee lines, and what happens next.',
+      'Request a written Oʻahu quote. Name the corridor, the kitchen, and tower access. The reply lists the rate-card band, the fee lines, and the next step.',
   },
   '/oahu/legal': {
     title: 'Oahu booking notes — quotes, GET, Gold Coast kitchens | myCHEF',
@@ -568,7 +568,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/maui/mobile-bar': {
     title: 'Maui 4-hour mobile bar package | myCHEF',
     description:
-      'A four-hour Maui cart for Wailea, Kapalua, Kāʻanapali, and Makena. Bartender, ice, citrus, and glassware. The package is its own line on the written quote.',
+      'A four-hour Maui cart for Wailea, Kapalua, Kāʻanapali, and Makena. Bartender, ice, citrus, and glassware. The package is its own line on the quote.',
   },
   '/maui/events': {
     title: 'Maui villa events — Wailea & West Maui | myCHEF',
@@ -588,7 +588,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/maui/quote': {
     title: 'Request a written villa quote on Maui | myCHEF',
     description:
-      'Request a written Maui villa quote. Name the shore, arrival night, and the kitchen. The reply lists the rate-card band, the fee lines, and the next step.',
+      'Request a written Maui villa quote. Name the shore, arrival night, and the kitchen. The reply lists the rate-card band and the fee lines.',
   },
   '/maui/legal': {
     title: 'Maui booking notes — quotes, GET, West Maui travel | myCHEF',
@@ -727,7 +727,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/bigisland/mobile-bar': {
     title: 'Hawaiʻi Island 4-hour mobile bar package | myCHEF',
     description:
-      'A four-hour cart for Kona and the Kohala Coast. Bartender, ice, citrus, and glassware. Join the inquiry list. Hilo is a separate day, not a second stop.',
+      'A four-hour west-side cart for Kona and the Kohala Coast. Ice, citrus, glassware, and a bartender. Join the inquiry list. Hilo is not a second stop.',
   },
   '/bigisland/events': {
     title: 'Big Island villa events — Kohala and Kona | myCHEF',
@@ -747,7 +747,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/bigisland/quote': {
     title: 'Join the Kona–Kohala chef inquiry list | myCHEF',
     description:
-      'Join the inquiry list for a Kona–Kohala dinner. Hilo is a separate day. The reply lists the band and the fee lines when that west-side day can be staffed.',
+      'Join the inquiry list for a Kona–Kohala dinner. Hilo is a separate day. The reply lists the band and the fee lines for that west-side day.',
   },
   '/bigisland/legal': {
     title: 'Hawaiʻi Island booking notes — quotes, GET, east-side days | myCHEF',
