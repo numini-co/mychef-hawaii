@@ -516,7 +516,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/oahu/quote': {
     title: 'Request a private chef quote on Oʻahu | myCHEF',
     description:
-      'Request a written Oʻahu quote. Name the corridor, the kitchen, and tower access. The reply lists the rate-card band, the fee lines, and what happens next.',
+      'Request a written Oʻahu quote. Name the corridor, the kitchen, and tower access. The reply lists the rate-card band, the fee lines, and the next step.',
   },
   '/oahu/legal': {
     title: 'Oahu booking notes — quotes, GET, Gold Coast kitchens | myCHEF',
@@ -588,7 +588,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/maui/quote': {
     title: 'Request a written villa quote on Maui | myCHEF',
     description:
-      'Request a written Maui villa quote. Name the shore, arrival night, and the kitchen. The reply lists the rate-card band, the fee lines, and the next step.',
+      'Request a written Maui villa quote. Name the shore, arrival night, and the kitchen. The reply lists the rate-card band and the fee lines.',
   },
   '/maui/legal': {
     title: 'Maui booking notes — quotes, GET, West Maui travel | myCHEF',
@@ -747,7 +747,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/bigisland/quote': {
     title: 'Join the Kona–Kohala chef inquiry list | myCHEF',
     description:
-      'Join the inquiry list for a Kona–Kohala dinner. Hilo is a separate day. The reply lists the band and the fee lines when that west-side day can be staffed.',
+      'Join the inquiry list for a Kona–Kohala dinner. Hilo is a separate day. The reply lists the band and the fee lines for that west-side day.',
   },
   '/bigisland/legal': {
     title: 'Hawaiʻi Island booking notes — quotes, GET, east-side days | myCHEF',
