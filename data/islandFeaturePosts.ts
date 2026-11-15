@@ -1540,6 +1540,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kahala-diamond-head-restaurants-guide', label: 'Kahala restaurants guide' },
         { path: '/blog/honolulu-restaurants-neighborhood-guide', label: 'Honolulu restaurants guide' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/hawaii-kai', label: 'Private chef Hawaiʻi Kai' },
@@ -1769,9 +1770,121 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kahala-diamond-head-restaurants-guide', label: 'Kahala restaurants guide' },
         { path: '/blog/waikiki-restaurants-dining-guide', label: 'Waikīkī restaurants guide' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/honolulu', label: 'Honolulu dinners' },
+        { path: '/catering', label: 'Oahu catering' },
+        { path: '/pricing', label: 'Oahu private chef cost' },
+        { path: '/', label: 'Private chef Oahu' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'kahala-diamond-head-restaurants-guide',
+      keyword: 'kahala restaurants',
+      datePublished: '2026-11-16',
+      name: 'Kahala and Diamond Head restaurants guide',
+      h1: 'Kahala restaurants — eating around Diamond Head and the Gold Coast.',
+      title: 'Kahala Restaurants & Diamond Head Dining Guide | myCHEF',
+      description:
+        'Kahala restaurants and Diamond Head dining: Kāhala Mall, Waiʻalae Avenue, Monsarrat cafés, hike timing, reservations and private dinners at home.',
+      lede:
+        'Kahala restaurants are few and far between, and that surprises people. Kahala is one of Honolulu’s quietest and most residential neighborhoods: big houses along Kahala Avenue, a golf course, a beach park and a resort hotel, with most of the everyday eating packed into one shopping center and the streets just around it. On the other side of Diamond Head, the Monsarrat Avenue and Kapiʻolani Park end of Waikīkī has its own small run of cafés and casual kitchens. This guide explains how the area works for food, how to fit meals around the Diamond Head hike, and when the easier dinner is the one cooked in the house you are staying in. We do not name or rank restaurants, take commissions or have restaurant partners.',
+      photo: 'dinDiamondHead',
+      body: [],
+      sections: [
+        {
+          heading: 'Where are Kahala and Diamond Head?',
+          paras: [
+            'Diamond Head, or Lēʻahi, is the volcanic crater at the eastern end of Waikīkī. Kahala sits on its far side, along the shore toward Hawaiʻi Kai. The Gold Coast is the strip of apartment buildings on Diamond Head Road and Kalākaua Avenue between Kapiʻolani Park and the lighthouse. Kahala Avenue runs east from there, past the estates and the beach accesses, to the golf course and the resort at its end.',
+            'From central Waikīkī it is about ten to fifteen minutes to Kahala by car outside rush hour. Kaimukī, the neighborhood main street covered in our [Honolulu restaurants guide](/blog/honolulu-restaurants-neighborhood-guide), is just inland. Hawaiʻi Kai, further east, has its own [Hawaiʻi Kai restaurants guide](/blog/hawaii-kai-restaurants-east-honolulu-guide).',
+          ],
+        },
+        {
+          heading: 'Kāhala Mall and Waiʻalae Avenue',
+          paras: [
+            'Most of the day-to-day food in Kahala is around Kāhala Mall, the neighborhood shopping center off the H-1 and Waiʻalae Avenue. Expect a mix of casual sit-down restaurants, quick counters, coffee and grocery shopping. It is where residents grab lunch, pick up dinner and do the weekly shop, and it has easy parking, which is rare in Honolulu.',
+            'Waiʻalae Avenue continues west from the mall into Kaimukī, where the dining gets denser: bakeries, chef-run rooms and long-standing local spots. If you are staying in Kahala and want a proper night out, that short drive is usually the answer, rather than expecting a restaurant row on Kahala Avenue itself.',
+          ],
+        },
+        {
+          heading: 'Resort dining and the Gold Coast',
+          paras: [
+            'The resort at the end of Kahala Avenue has its own dining rooms and beach-side terraces. They suit an anniversary or a celebration lunch, but book ahead in the holiday weeks, and expect resort pricing. Along the Gold Coast, the buildings are residential, so the nearest meals are back toward Kapiʻolani Park and Waikīkī.',
+            'Monsarrat Avenue, which runs along the Diamond Head side of Kapiʻolani Park, is the closest thing the area has to a café street: breakfast spots, plate lunch, smoothie and açaí counters and a few casual dinner places. It is busy on weekend mornings with walkers coming off the park and the hike.',
+          ],
+        },
+        {
+          heading: 'Eating around the Diamond Head hike',
+          paras: [
+            'Diamond Head State Monument needs a reservation for non-residents, booked online up to 30 days ahead. The state lists entry at $5 a person, children three and under free, and parking at $10 a vehicle. The park is open 6 a.m. to 6 p.m., the last reservation slot is 4 p.m. with entry by 4:30 p.m., and you must arrive within the first 30 minutes of your slot. It is closed on Christmas Day and New Year’s Day, which catches out holiday visitors every year.',
+            'The hike is short but steep and exposed, so most people go early and eat afterwards. Plan breakfast for after the hike rather than before, carry water, and leave the big lunch until you are back. On Saturday mornings, the farmers market on the Diamond Head slope at Kapiʻolani Community College is the other early option; our [Oʻahu farmers market guide](/blog/oahu-farmers-market-villa-week) covers it.',
+          ],
+        },
+        {
+          heading: 'Reservations, timing and the January golf week',
+          paras: [
+            'Because Kahala has so few restaurants, the good tables nearby fill early on Friday and Saturday nights and over the holidays. Book a week or more ahead for groups of six or more. Many neighborhood kitchens close earlier than Waikīkī, and some close one or two nights a week.',
+            'Each January the golf course in Kahala hosts a PGA Tour event, and the neighborhood fills with players, teams and guests. Hotel rooms and dinner tables are harder to find that week, and traffic on Kahala Avenue slows. If your stay overlaps, plan your dinners before you fly.',
+          ],
+        },
+        {
+          heading: 'Why many Kahala stays eat at home',
+          paras: [
+            'Many visitors in Kahala are in a rented house or a long-stay residence with a real dining room, a big kitchen and a garden. With few restaurants close by, a dinner at home is often the most relaxed night of the trip: no driving, no parking, children in bed down the hall and the table set the way you want it.',
+            'That is what a [private chef Kahala](/kahala) evening is. A [private chef Honolulu](/private-chef) dinner is planned with you before the trip, shopped that day, cooked and served in your kitchen, and the kitchen is cleaned before we leave. For Gold Coast apartments and houses on the crater side, see [Diamond Head dinners](/diamond-head), which explains building rules and load-in.',
+          ],
+        },
+        {
+          heading: 'Birthdays, reunions and parties on the lawn',
+          paras: [
+            'When the guest list passes about ten people, or you want a party rather than a seated dinner, [Oahu catering](/catering) is the staffed version, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, each on its own line. Tables, linens, tents and rentals are not included unless you ask, and then they are quoted separately.',
+          ],
+        },
+        {
+          heading: 'What does a dinner at home cost with us?',
+          paras: [
+            'Signature dinners on Oʻahu are published at $195–$290 a guest with groceries included, for a minimum party of six, and a dinner for two starts from $675 per event. Kahala and Diamond Head are in our base zone, so there is no travel line. A 20% service charge and Hawaiʻi GET of up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Oahu private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan a night in',
+          paras: [
+            'Send the address, the date, the guest count and any allergies through the quote form, or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total. For dinners anywhere on the island, see [private chef Oahu](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Are there many restaurants in Kahala?',
+          a: 'Not many. Most are around Kāhala Mall and Waiʻalae Avenue, plus the resort dining rooms. Kaimukī, a few minutes west, has far more choice.',
+        },
+        {
+          q: 'Where can I eat near Diamond Head?',
+          a: 'Monsarrat Avenue by Kapiʻolani Park has cafés and casual kitchens, Waikīkī is a few minutes further, and Kāhala Mall is on the other side of the crater.',
+        },
+        {
+          q: 'Do I need a reservation for the Diamond Head hike?',
+          a: 'Non-residents do. The state lists $5 entry a person and $10 parking per vehicle, booked up to 30 days ahead. The park is closed on Christmas Day and New Year’s Day.',
+        },
+        {
+          q: 'What should I eat after hiking Diamond Head?',
+          a: 'Most hikers head to the Monsarrat Avenue cafés or back into Waikīkī for breakfast. On Saturdays the farmers market at Kapiʻolani Community College is close by.',
+        },
+        {
+          q: 'Can a private chef cook in a Kahala house?',
+          a: 'Yes. Kahala and Diamond Head are in our base zone, and the menu is planned around the kitchen, the dining room and the garden you actually have.',
+        },
+        {
+          q: 'How much is a private chef dinner in Kahala?',
+          a: 'Signature dinners are $195–$290 a guest with groceries included, minimum six, and a dinner for two starts from $675. Service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/blog/honolulu-restaurants-neighborhood-guide', label: 'Honolulu restaurants guide' },
+        { path: '/private-chef', label: 'Private chef Honolulu' },
+        { path: '/kahala', label: 'Private chef Kahala' },
         { path: '/catering', label: 'Oahu catering' },
         { path: '/pricing', label: 'Oahu private chef cost' },
         { path: '/', label: 'Private chef Oahu' },
@@ -3288,6 +3401,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/makawao-restaurants-upcountry-maui-guide', label: 'Makawao restaurants guide' },
         { path: '/blog/kahului-restaurants-central-maui-guide', label: 'Kahului restaurants guide' },
         { path: '/private-chef', label: 'Personal chef Maui' },
         { path: '/paia', label: 'Private chef in Pāʻia and Haiku' },
@@ -3523,9 +3637,129 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/makawao-restaurants-upcountry-maui-guide', label: 'Makawao restaurants guide' },
         { path: '/blog/maui-grocery-stores-villa-guide', label: 'Maui grocery stores guide' },
         { path: '/private-chef', label: 'Personal chef Maui' },
         { path: '/waikapu', label: 'Waikapū dinners' },
+        { path: '/catering', label: 'Maui catering' },
+        { path: '/pricing', label: 'Maui private chef cost' },
+        { path: '/', label: 'Private chef Maui' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'makawao-restaurants-upcountry-maui-guide',
+      keyword: 'makawao restaurants',
+      datePublished: '2026-11-16',
+      name: 'Makawao restaurants guide',
+      h1: 'Makawao restaurants — eating in Upcountry Maui’s paniolo town.',
+      title: 'Makawao Restaurants — Upcountry Maui Food Guide | myCHEF',
+      description:
+        'Makawao restaurants and Upcountry Maui food: the paniolo town, Pukalani and Kula, bakeries, farm stands, Haleakalā sunrise timing and dinners in.',
+      lede:
+        'Makawao restaurants are small, local and mostly casual, which is exactly why people drive up the mountain for them. The old paniolo, or Hawaiian cowboy, town sits at about 1,500 feet on the slope of Haleakalā, with wooden storefronts, galleries, a famous bakery or two and a handful of kitchens. Around it, Pukalani, Haliʻimaile and Kula make up Upcountry Maui, a cooler world of ranches, farms and long views. This guide explains what eating in Makawao and Upcountry is like, how to fit it around a sunrise at the summit, and when a dinner cooked in your Upcountry house is the better night. We do not name or rank restaurants, take commissions or have restaurant partners.',
+      photo: 'dinMakawao',
+      body: [],
+      sections: [
+        {
+          heading: 'Where is Makawao, and what is Upcountry?',
+          paras: [
+            'Upcountry is the name for the farming and ranching towns on the western slope of Haleakalā: Makawao, Pukalani, Haliʻimaile, Kula and, higher up, Keokea and Ulupalakua. It is a different Maui from the beach resorts, cooler, greener and quieter, with pasture, eucalyptus and jacaranda instead of palms.',
+            'Makawao is at the crossroads of Baldwin Avenue, which climbs from Pāʻia, and Makawao Avenue, which comes up from Pukalani. From Kahului it is roughly twenty to thirty minutes by car, and from Wailea or Kīhei closer to forty-five. If you are coming up from the North Shore, our [Pāʻia restaurants guide](/blog/paia-restaurants-north-shore-maui-guide) covers the bottom of Baldwin Avenue.',
+          ],
+        },
+        {
+          heading: 'What kind of restaurants are in Makawao?',
+          paras: [
+            'Expect small, mostly casual places: bakeries known for their pastries and doughnuts, coffee shops, a few sit-down dinner rooms, Mexican and other casual kitchens, and a steak and ranch-food tradition. The town is small enough to walk end to end in a few minutes, and the galleries and boutiques make a pleasant hour before or after a meal.',
+            'The town’s paniolo history is still visible. Ranching came to Upcountry in the 1800s, Hawaiian cowboys worked the slopes long before the resorts arrived, and each Fourth of July weekend Makawao holds a rodeo and a parade that fill the town. Expect crowds and full tables that weekend, and plan meals around the events.',
+            'Many places open early and close early. Some bakeries sell out by late morning, a few kitchens close one or two days a week, and Sunday and Monday evenings can be very quiet. Check hours on the day rather than trusting an old listing.',
+          ],
+        },
+        {
+          heading: 'Pukalani, Haliʻimaile and Kula',
+          paras: [
+            'Pukalani, just below Makawao, is the Upcountry service town, with a supermarket, a shopping center and casual places to eat. Haliʻimaile, a former pineapple plantation village between Makawao and Pāʻia, is tiny but has long been a destination for dinner.',
+            'Kula, higher up the Haleakalā Highway, is farm country: lavender, protea, vegetables and some of the best produce on the island, with roadside stands and a few lodges and cafés with big views. Further on, the road toward Ulupalakua runs through ranch land. Distances are short on the map but slow on narrow, winding roads, especially after dark.',
+          ],
+        },
+        {
+          heading: 'What to eat Upcountry',
+          paras: [
+            'Upcountry is where much of Maui’s beef, vegetables and flowers come from, so look for local grass-fed beef, Kula onions and greens, sweet potato and fresh fruit. Bakery goods are a Makawao tradition, and plate lunch, saimin and loco moco are as common here as anywhere on the island.',
+            'For shopping your own produce, farm stands and small markets are the Upcountry way. Our [Maui farmers market guide](/blog/maui-farmers-market-villa-week) covers what to buy and when.',
+          ],
+        },
+        {
+          heading: 'Haleakalā sunrise and Upcountry meals',
+          paras: [
+            'Many visitors pass through Upcountry on the way to Haleakalā. A sunrise reservation is required for each vehicle entering the summit district between 3 a.m. and 7 a.m. It costs $1, is booked only on Recreation.gov, opens 60 days ahead at 7 a.m. Hawaiʻi time, with more released two days ahead, and often sells out within minutes. The $30 private-vehicle entrance fee is paid separately.',
+            'Sunrise means leaving in the dark and coming down hungry and cold. Plan breakfast in Pukalani or Makawao on the way back, and keep that evening simple. If you are staying Upcountry, a dinner at the house that night, without another drive, is the one most families remember.',
+          ],
+        },
+        {
+          heading: 'Weather, driving and dinner timing',
+          paras: [
+            'Upcountry is noticeably cooler than the coast, especially at night and in winter, and mist and rain can roll in fast. Bring a layer for an evening out, and do not plan an outdoor table without a covered fallback. Roads are dark, narrow and winding, so a restaurant dinner with wine is easier with a driver.',
+            'Back at the house, the same weather changes how we cook. Kitchens and lānai are often set up for cool nights, a grill may be the only outdoor equipment, and dinner can start earlier.',
+          ],
+        },
+        {
+          heading: 'When a dinner at the house is the better night',
+          paras: [
+            'Upcountry houses, retreat properties and farm stays often have big kitchens and long tables but very few restaurants within a short drive. That is when a chef at the house makes sense. A [personal chef Maui](/private-chef) dinner is planned with you before the trip, shopped that day, cooked and served in your kitchen, and the kitchen is cleaned before we leave. Our [private chef Makawao](/makawao) page explains how we work in Upcountry kitchens.',
+            'For a reunion, a wedding-week dinner or a birthday on the lawn, [Maui catering](/catering) is the staffed version, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums. Tables, linens, tents and rentals are not included unless you ask, and then they are quoted separately.',
+          ],
+        },
+        {
+          heading: 'What does a villa dinner cost with us?',
+          paras: [
+            'Signature dinners on Maui are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler menu runs $190–$225 a guest. Makawao, Kula and other Upcountry addresses carry a published travel surcharge from $75, shown as its own line. A 20% service charge and Hawaiʻi GET of up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Maui private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'Holiday weeks Upcountry',
+          paras: [
+            'Thanksgiving, Christmas and New Year are the busiest weeks for Upcountry rentals and retreat houses, and also the weeks when small Makawao kitchens are most likely to shorten hours or close for a day so their own staff can be with family. If you are hosting a holiday meal in Kula or Makawao, book the dinner early, confirm the oven and table size with the host, and plan for a cooler, possibly rainy evening indoors rather than on the lānai. A written menu and total before the week starts makes the day itself simple.',
+          ],
+        },
+        {
+          heading: 'How to plan a night in',
+          paras: [
+            'Send the address, the date, the guest count and any allergies through the quote form, or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total. For dinners anywhere on the island, see [private chef Maui](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'What is Makawao known for?',
+          a: 'It is Maui’s paniolo, or cowboy, town on the slope of Haleakalā, known for its wooden storefronts, galleries, bakeries and Upcountry ranching history.',
+        },
+        {
+          q: 'Are Makawao restaurants open for dinner?',
+          a: 'Some are, but many places open early and close early, and a few close one or two days a week. Check hours on the day.',
+        },
+        {
+          q: 'How far is Makawao from Wailea?',
+          a: 'Roughly forty-five minutes by car, and twenty to thirty minutes from Kahului. Upcountry roads are narrow and winding, especially after dark.',
+        },
+        {
+          q: 'Do I need a reservation for Haleakalā sunrise?',
+          a: 'Yes. A $1 per-vehicle reservation on Recreation.gov is required between 3 a.m. and 7 a.m., and the $30 vehicle entrance fee is separate.',
+        },
+        {
+          q: 'Can a private chef cook at an Upcountry Maui house?',
+          a: 'Yes. Upcountry addresses carry a published travel surcharge from $75, and the menu is planned around the kitchen and the weather.',
+        },
+        {
+          q: 'How much is a private chef dinner in Makawao?',
+          a: 'Signature dinners are $225–$375 a guest with groceries included, minimum six, plus the Upcountry surcharge from $75. Service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/blog/paia-restaurants-north-shore-maui-guide', label: 'Pāʻia restaurants guide' },
+        { path: '/private-chef', label: 'Personal chef Maui' },
+        { path: '/makawao', label: 'Private chef Makawao' },
         { path: '/catering', label: 'Maui catering' },
         { path: '/pricing', label: 'Maui private chef cost' },
         { path: '/', label: 'Private chef Maui' },
@@ -4095,6 +4329,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/new-years-eve-kauai-dinner-guide', label: 'New Year’s Eve on Kauaʻi guide' },
         { path: '/blog/thanksgiving-dinner-kauai', label: 'Thanksgiving on Kauaʻi' },
         { path: '/private-chef', label: 'Personal chef Kauai' },
         { path: '/catering', label: 'Kauai catering' },
@@ -4209,6 +4444,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/new-years-eve-kauai-dinner-guide', label: 'New Year’s Eve on Kauaʻi guide' },
         { path: '/private-chef', label: 'Personal chef Kauai' },
         { path: '/catering', label: 'Kauai catering' },
         { path: '/', label: 'Private chef Kauai' },
@@ -5288,6 +5524,116 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Kauai' },
       ],
     },
+    {
+      feature: true,
+      slug: 'new-years-eve-kauai-dinner-guide',
+      keyword: 'new years eve kauai',
+      datePublished: '2026-11-16',
+      name: 'New Year’s Eve on Kauaʻi',
+      h1: 'New Year’s Eve on Kauaʻi — dinner, fireworks rules and a quiet midnight.',
+      title: 'New Year’s Eve Kauai 2026 — Dinner & Fireworks | myCHEF',
+      description:
+        'New Year’s Eve on Kauaʻi in 2026: what the night is like, county fireworks and permit rules, Japanese New Year food, booking early and dinner at home.',
+      lede:
+        'New Year’s Eve on Kauaʻi is not a big-city countdown. There is no skyline show, the island goes quiet early, and most of the noise comes from neighborhoods setting off firecrackers at midnight. For many families that is the point. In 2026, New Year’s Eve falls on a Thursday, at the end of the busiest week of the year on the island. This guide covers what the night is really like on each shore, the county fireworks and permit rules, the local New Year food traditions, and how to plan a dinner at the house, with what it costs with us. We do not sell tickets or resort packages and have no venue partners.',
+      photo: 'fineCelebrationKauai',
+      body: [],
+      sections: [
+        {
+          heading: 'What is New Year’s Eve like on Kauaʻi?',
+          paras: [
+            'Kauaʻi has no large public fireworks display that the whole island gathers for, and the nightlife is small. Resorts hold their own dinners and parties for guests, a few restaurants run set menus, and the rest of the island celebrates at home, with family, food and fireworks in the yard. Expect firecrackers and smoke in residential areas around midnight, and an early, quiet morning on New Year’s Day.',
+            'The week between Christmas and New Year is the island’s peak. Flights, rental cars, houses and restaurant tables are at their tightest, and many local businesses shorten their hours on New Year’s Eve and close on New Year’s Day. If you are also here for Christmas, our [Christmas in Kauai guide](/blog/christmas-in-kauai-holiday-dinners) covers that week.',
+          ],
+        },
+        {
+          heading: 'North Shore or South Shore for the night',
+          paras: [
+            'December is the wet season, and the North Shore around Princeville and Hanalei gets most of the rain and the big winter surf. Nights there are cooler and often damp, so plan dinner indoors or on a covered lānai. The South Shore around Poʻipū and Kōloa is usually drier and warmer, which makes an outdoor table more realistic.',
+            'Wherever you stay, sunset in late December comes a little before 6 p.m., so a New Year’s Eve dinner can start with the last light and still leave a long evening before midnight. The east side around Kapaʻa and Līhuʻe sits in between and is closest to most services.',
+          ],
+        },
+        {
+          heading: 'Fireworks and firecracker rules on Kauaʻi',
+          paras: [
+            'Under county rules, fireworks and firecrackers may only be set off on private property from 9 p.m. on New Year’s Eve to 1 a.m. on New Year’s Day. Firecrackers need a county permit, with a $25 fee, applied for online and then validated in person at the Kauaʻi Fire Department in Līhuʻe; applicants must be 18 or older. Sparklers, fountains, snakes, ground spinners and similar items do not need a permit, but they are still fireworks.',
+            'Aerial fireworks may only be set off by licensed pyrotechnicians, sky lanterns are banned statewide, and fireworks are illegal on streets, sidewalks, beaches and parks. State penalties for illegal aerial fireworks are severe. In 2025 the online firecracker permit was suspended on December 31 when retailers ran short, so do not leave it to the day. Many rental contracts and resorts ban fireworks entirely, and dry grass is a real fire risk, so read the house rules first and check the Kauaʻi Fire Department notice for 2026.',
+          ],
+        },
+        {
+          heading: 'Kauaʻi New Year food traditions',
+          paras: [
+            'Hawaiʻi’s New Year traditions draw heavily on its Japanese, Chinese and Okinawan communities. Many families eat sashimi and sushi on New Year’s Eve and ozoni, a soup with mochi, on New Year’s Day. Fresh mochi is pounded and sold in the last days of December, and firecrackers at midnight come from the Chinese tradition of chasing away bad luck.',
+            'A good island New Year’s Eve menu borrows from that. Think a sashimi course built on the ahi or other fish we actually buy that week, a fish or beef main for the table, local citrus and fruit in the desserts, and a pot of ozoni for the morning after. Fish is named on the menu as the species we bought, never as something we hope to find.',
+          ],
+        },
+        {
+          heading: 'Restaurant, resort party or a chef at the house',
+          paras: [
+            'There are three ways to do the night. A restaurant set menu works for couples who book early and want to be out. A resort party suits guests staying at that resort. For families and groups, a dinner at the house is usually the easiest: no driving after midnight, children asleep down the hall, and the fireworks on your own lawn if the rules allow.',
+            'That is what a [personal chef Kauai](/private-chef) evening is. It is planned with you before the trip, shopped that day, cooked and served in your kitchen, and the kitchen is cleaned before we leave. For a couple, a dinner for two is the quiet version. For a bigger family, the menu is served family-style or plated.',
+          ],
+        },
+        {
+          heading: 'Booking early for the holiday fortnight',
+          paras: [
+            'New Year’s Eve is one of the hardest nights of the year to staff on any island. Kauaʻi is by inquiry: we confirm a crew before we confirm the date, so ask as early as you can. If you want both Christmas and New Year’s Eve, say so in the first message. One chef across both nights, or a Stay Chef for the week, keeps the menus from repeating.',
+            'Grocery shopping takes longer in the holiday week too. Stores are busy, some items run out, and many shorten hours on December 31. We shop for your dinner, so that part is not yours to worry about.',
+          ],
+        },
+        {
+          heading: 'Bigger groups and New Year parties',
+          paras: [
+            'When two families share an estate, or you invite friends for a party rather than a seated dinner, [Kauai catering](/catering) is the staffed version, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums. Tables, linens, tents and rentals are not included unless you ask, and then they are quoted separately.',
+          ],
+        },
+        {
+          heading: 'What does New Year’s Eve dinner cost with us?',
+          paras: [
+            'Signature dinners on Kauaʻi are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler menu runs $190–$225 a guest. A dinner for two is $975–$1,425 per event, and Stay Chef starts from $1,650 a day. Princeville and Poʻipū add a published travel line of $50–$75, and the far North Shore is quoted case by case. A 20% service charge and Hawaiʻi GET of up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Kauai private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to ask for New Year’s Eve',
+          paras: [
+            'Send the address, the guest count, any allergies and whether you also want Christmas through the quote form, or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total once a chef is confirmed. For dinners anywhere on the island, see [private chef Kauai](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Is there a big fireworks show on Kauaʻi for New Year’s Eve?',
+          a: 'There is no single island-wide public show. Most people celebrate at home or at their resort, with neighborhood fireworks around midnight.',
+        },
+        {
+          q: 'When are fireworks allowed on Kauaʻi on New Year’s Eve?',
+          a: 'Under county rules, only on private property from 9 p.m. on December 31 to 1 a.m. on January 1. Firecrackers need a $25 county permit; sparklers and fountains do not.',
+        },
+        {
+          q: 'Are sky lanterns allowed on Kauaʻi?',
+          a: 'No. Aerial luminaries, including sky lanterns, are banned throughout the State of Hawaiʻi.',
+        },
+        {
+          q: 'What do people eat on New Year’s in Hawaiʻi?',
+          a: 'Many families eat sashimi and sushi on New Year’s Eve and ozoni, a mochi soup, on New Year’s Day, reflecting the islands’ Japanese and Chinese traditions.',
+        },
+        {
+          q: 'How early should I book a private chef for New Year’s Eve on Kauaʻi?',
+          a: 'As early as you can. It is one of the busiest nights of the year, and on Kauaʻi we confirm a crew before we confirm the date.',
+        },
+        {
+          q: 'How much is a New Year’s Eve private chef dinner on Kauaʻi?',
+          a: 'Signature dinners are $225–$375 a guest with groceries included, minimum six, and a dinner for two is $975–$1,425. Service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/blog/christmas-in-kauai-holiday-dinners', label: 'Christmas in Kauai guide' },
+        { path: '/private-chef', label: 'Personal chef Kauai' },
+        { path: '/catering', label: 'Kauai catering' },
+        { path: '/pricing', label: 'Kauai private chef cost' },
+        { path: '/', label: 'Private chef Kauai' },
+      ],
+    },
   ],
   bigisland: [
     {
@@ -6334,6 +6680,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/hawi-restaurants-north-kohala-guide', label: 'Hāwī restaurants guide' },
         { path: '/blog/hilo-restaurants-dining-guide', label: 'Hilo restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/catering', label: 'Big Island catering' },
@@ -7042,9 +7389,127 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/hawi-restaurants-north-kohala-guide', label: 'Hāwī restaurants guide' },
         { path: '/blog/thanksgiving-dinner-kona', label: 'Thanksgiving dinner Kona guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/kailua-kona', label: 'Private chef Kailua-Kona' },
+        { path: '/catering', label: 'Big Island catering' },
+        { path: '/pricing', label: 'Big Island private chef cost' },
+        { path: '/', label: 'Private chef Big Island' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'hawi-restaurants-north-kohala-guide',
+      keyword: 'hawi restaurants',
+      datePublished: '2026-11-16',
+      name: 'Hāwī restaurants guide',
+      h1: 'Hāwī restaurants — eating in North Kohala, from Hāwī to Pololū.',
+      title: 'Hawi Restaurants — North Kohala Food Guide | myCHEF',
+      description:
+        'Hāwī restaurants and North Kohala food: the old sugar town, Kapaʻau and the Kamehameha statue, Pololū Valley timing, the two roads north and dinners in.',
+      lede:
+        'Hāwī restaurants are a short list in a small town, and that is part of the charm. Hāwī is the old sugar-plantation town at the northern tip of Hawaiʻi Island, in North Kohala, with wooden storefronts, galleries, coffee and a handful of kitchens under big banyan trees. Kapaʻau is a few minutes east, and the road ends at the Pololū Valley lookout. This guide explains what eating in Hāwī and North Kohala is like, how to get there, how to time a day around Pololū, and when a dinner cooked at your Kohala Coast villa is the better end to it. We do not name or rank restaurants, take commissions or have restaurant partners.',
+      photo: 'dinKohala',
+      body: [],
+      sections: [
+        {
+          heading: 'Where is Hāwī?',
+          paras: [
+            'Hāwī sits near the northern tip of the island, in the green, windward-facing district of North Kohala. It grew up around the Kohala sugar plantation, which closed in the 1970s, and today it is a quiet, small town with a main street of shops, galleries and places to eat. Kapaʻau, a few minutes east, is home to the original statue of King Kamehameha I, who was born in North Kohala.',
+            'Two roads reach it. The Akoni Pule Highway, Route 270, runs up the dry coast from Kawaihae, past the resorts. The Kohala Mountain Road, Route 250, climbs from Waimea over the ranch land with long views. From the Mauna Kea and Mauna Lani resorts it is roughly thirty to forty minutes, and from Kailua-Kona a little over an hour.',
+          ],
+        },
+        {
+          heading: 'What kind of restaurants are in Hāwī?',
+          paras: [
+            'Expect small and casual: coffee shops and bakeries, a few cafés, plate lunch and local food, a pizza or burger place, shave ice, and one or two places for a more relaxed sit-down dinner. Kapaʻau adds a few more counters and a market. There is no resort-style dining room in town, and that is the point of coming.',
+            'Hours are short. Many places open for breakfast and lunch only, some close one or two days a week, and dinner choice is limited and can end early. Check hours on the day, and do not count on a late meal after a sunset drive back.',
+          ],
+        },
+        {
+          heading: 'Kapaʻau, the statue and the Kohala history',
+          paras: [
+            'The Kamehameha statue in Kapaʻau stands in front of the old courthouse, and on King Kamehameha Day in June it is draped in long lei. Near Upolu Point, the Moʻokini heiau and the birthplace of Kamehameha are among the most significant cultural sites on the island; treat them with respect, stay on paths and follow posted signs.',
+            'The district’s plantation past shows in its towns and its food: Japanese, Filipino, Portuguese and Hawaiian family traditions, local bakeries, and the kind of plate lunch that feeds people who work outdoors. North Kohala also has small farms, and farm stands and markets appear on some days; check locally rather than relying on old schedules.',
+          ],
+        },
+        {
+          heading: 'Timing a day around Pololū Valley',
+          paras: [
+            'Route 270 ends at the Pololū Valley lookout, one of the most photographed views on the island. The trail down to the black-sand beach is about 0.6 mile each way, steep and often slippery, and the climb back is hard work. The parking area is small, so arrive early. The valley includes private land and burial sites, so stay on the public trail and beach, and follow the guidance of the stewards.',
+            'The state sometimes closes the lookout, trail and parking for maintenance, usually for a morning and announced in advance by the Department of Land and Natural Resources. Check the current notice before you drive. A good day is Pololū in the morning, lunch in Hāwī or Kapaʻau, and the mountain road to Waimea on the way back.',
+          ],
+        },
+        {
+          heading: 'Wind, weather and driving after dark',
+          paras: [
+            'North Kohala is windier and wetter than the resort coast, and the mountain road can be misty and gusty. Bring a layer. Both roads are dark at night, with few services in between, and the coast road has long empty stretches. A dinner in Hāwī with wine is much easier if someone else is driving.',
+            'If you are staying further south, our [Waimea restaurants guide](/blog/waimea-big-island-restaurants-guide) covers the ranch town at the other end of Route 250, and the [Mauna Lani restaurants guide](/blog/mauna-lani-restaurants-dining-guide) covers the resort coast.',
+          ],
+        },
+        {
+          heading: 'Why many North Kohala days end at the villa',
+          paras: [
+            'Most visitors who spend a day in Hāwī are staying on the Kohala Coast, at Mauna Kea, Mauna Lani, Waikoloa or a private home further north. After Pololū, the drive back and a dark road, many would rather eat at the house than go out again.',
+            'That is what a [private chef Kona](/private-chef) dinner is for. It is planned with you before the trip, shopped that day, cooked and served in your kitchen, and the kitchen is cleaned before we leave. Our [Mauna Kea resort dinners](/mauna-kea) page explains how we work in the northern resort belt, and North Kohala homes are confirmed in writing with the quote.',
+          ],
+        },
+        {
+          heading: 'Family reunions and bigger groups',
+          paras: [
+            'For a family table of six to about a dozen, one chef cooking and serving family-style is usually right. For a reunion or a party on the lawn, [Big Island catering](/catering) covers the Kona–Kohala coast for roughly ten to seventy-five guests, with servers at $80 an hour and a sous-chef at $105 an hour on four- to five-hour minimums, each on its own line. Tables, linens, tents and rentals are not included unless you ask, and then they are quoted separately.',
+          ],
+        },
+        {
+          heading: 'What does a villa dinner cost with us?',
+          paras: [
+            'Signature dinners on Hawaiʻi Island are published at $210–$325 a guest with groceries included, for a minimum party of six, and smaller table dinners start from $165 a guest. Stay Chef days start from $1,450 a day, with groceries billed at cost. Addresses outside the Kona–Kohala corridor carry a published travel line from $75. A 20% service charge and Hawaiʻi GET of up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Big Island private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'Holiday season in North Kohala',
+          paras: [
+            'From Thanksgiving through New Year, Kohala Coast villas fill with families and the resort restaurants book out early, while many small Hāwī and Kapaʻau places keep short hours or close on the holidays themselves. If your group is planning a day up north in that season, treat lunch in town as a bonus rather than the plan, and book any holiday dinner at the house well before you fly. Tell us the date, the guest count and the kitchen early, and the menu and total come back in writing.',
+          ],
+        },
+        {
+          heading: 'How to plan a night in',
+          paras: [
+            'Send the address, the date, the guest count and any allergies through the quote form, or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total. For dinners anywhere on the west side, see [private chef Big Island](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Is Hāwī worth visiting?',
+          a: 'Yes, for a slow half day: the old plantation town, galleries and cafés, the Kamehameha statue in Kapaʻau and the Pololū Valley lookout at the end of the road.',
+        },
+        {
+          q: 'Are Hāwī restaurants open for dinner?',
+          a: 'A few are, but many places serve breakfast and lunch only, and some close one or two days a week. Check hours on the day.',
+        },
+        {
+          q: 'How far is Hāwī from Kona?',
+          a: 'A little over an hour from Kailua-Kona, and roughly thirty to forty minutes from the Mauna Kea and Mauna Lani resorts.',
+        },
+        {
+          q: 'Is the Pololū Valley trail open?',
+          a: 'Usually, but the state closes the lookout, trail and parking for maintenance on some mornings, announced in advance. Check the current DLNR notice before you drive.',
+        },
+        {
+          q: 'Can a private chef cook at a Kohala Coast villa?',
+          a: 'Yes. The Kona–Kohala corridor is our base area, and North Kohala homes are confirmed in writing with the quote.',
+        },
+        {
+          q: 'How much is a private chef dinner on the Kohala Coast?',
+          a: 'Signature dinners are $210–$325 a guest with groceries included, minimum six, and smaller table dinners start from $165. Service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/blog/waimea-big-island-restaurants-guide', label: 'Waimea restaurants guide' },
+        { path: '/private-chef', label: 'Private chef Kona' },
+        { path: '/mauna-kea', label: 'Mauna Kea resort dinners' },
         { path: '/catering', label: 'Big Island catering' },
         { path: '/pricing', label: 'Big Island private chef cost' },
         { path: '/', label: 'Private chef Big Island' },

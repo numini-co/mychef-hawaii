@@ -29,7 +29,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogOahu',
     body: [
       'For the longer notes — Gold Coast counters, convention weeks, short-stay villas — read the journal.',
-      'New this month: [the Honolulu restaurants guide](/blog/honolulu-restaurants-neighborhood-guide) — Chinatown, Kakaʻako, Ala Moana, Mōʻiliʻili and Kaimukī, what to eat, parking and reservations, and when a [private chef Honolulu](/private-chef) dinner at home is easier. Recently: [the Oʻahu elopement guide](/blog/oahu-elopement-planning-guide), [the Hawaiʻi Kai restaurants guide](/blog/hawaii-kai-restaurants-east-honolulu-guide) and [the Oʻahu wedding venues guide](/blog/oahu-wedding-venues-guide).',
+      'New this month: [the Kahala restaurants guide](/blog/kahala-diamond-head-restaurants-guide) — Kāhala Mall and Waiʻalae Avenue, the Gold Coast and Monsarrat end of Waikīkī, timing meals around the Diamond Head hike, and when a [private chef Honolulu](/private-chef) dinner at the house is easier. Recently: [the Honolulu restaurants guide](/blog/honolulu-restaurants-neighborhood-guide), [the Oʻahu elopement guide](/blog/oahu-elopement-planning-guide) and [the Hawaiʻi Kai restaurants guide](/blog/hawaii-kai-restaurants-east-honolulu-guide).',
     ],
   },
   maui: {
@@ -43,7 +43,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogMaui',
     body: [
       'Short posts from Wailea, Kīhei and West Maui kitchens: breakfast and lunch in the villa, cleanup, groceries at cost, and what goes on the written quote. The longer notes, including the Maui price guide, live in the journal.',
-      'New this month: [the Kahului restaurants guide](/blog/kahului-restaurants-central-maui-guide) — plate lunch and local kitchens by the airport, old Wailuku, arrival and departure days, ʻĪao Valley and when a [personal chef Maui](/private-chef) dinner on arrival night is better. Recently: [the Maui whale watching season guide](/blog/maui-whale-watching-season-guide), [the Pāʻia restaurants guide](/blog/paia-restaurants-north-shore-maui-guide) and [the Maui wedding venues guide](/blog/maui-wedding-venues-guide), with where [wedding catering Maui](/weddings) fits.',
+      'New this month: [the Makawao restaurants guide](/blog/makawao-restaurants-upcountry-maui-guide) — Upcountry bakeries and paniolo-town kitchens, Pukalani and Kula, Haleakalā sunrise timing, cool evenings and when a [personal chef Maui](/private-chef) dinner at an Upcountry house fits. Recently: [the Kahului restaurants guide](/blog/kahului-restaurants-central-maui-guide), [the Maui whale watching season guide](/blog/maui-whale-watching-season-guide) and [the Pāʻia restaurants guide](/blog/paia-restaurants-north-shore-maui-guide).',
     ],
   },
   kauai: {
@@ -57,7 +57,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogKauai',
     body: [
       'If you need the Hanalei-bridge weather note at length, the journal is the better page.',
-      'New this month: [the Kōloa restaurants guide](/blog/koloa-restaurants-south-shore-kauai-guide) — Old Kōloa Town counters and shave ice, Kalāheo and the road west, parking and early closing, and where a [personal chef Kauai](/private-chef) night fits on the South Shore. Recently: [the Kauaʻi family vacation guide](/blog/kauai-family-vacation-planning-guide), [the Kauaʻi vacation rentals guide](/blog/kauai-vacation-rentals-kitchen-guide) and [the Kauaʻi wedding venues guide](/blog/kauai-wedding-venues-guide), with where [Kauai wedding catering](/weddings) fits.',
+      'New this month: [New Year’s Eve on Kauaʻi](/blog/new-years-eve-kauai-dinner-guide) — what the night is like on each shore, county fireworks and permit rules, local New Year food and booking a [personal chef Kauai](/private-chef) dinner at the house. Recently: [the Kōloa restaurants guide](/blog/koloa-restaurants-south-shore-kauai-guide), [the Kauaʻi family vacation guide](/blog/kauai-family-vacation-planning-guide) and [the Kauaʻi vacation rentals guide](/blog/kauai-vacation-rentals-kitchen-guide).',
     ],
   },
   bigisland: {
@@ -71,7 +71,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogBigisland',
     body: [
       'West-side kitchens and Kohala travel show up in the shorter posts; the journal keeps the longer notes.',
-      'New this month: [Christmas on the Big Island](/blog/christmas-on-the-big-island-holiday-dinner) — Kona weather in December, planning the week, three ways to do Christmas dinner, New Year’s Eve fireworks rules and a [private chef Kona](/private-chef) holiday dinner at the villa. Recently: [the Kona manta ray night snorkel guide](/blog/kona-manta-ray-night-snorkel-guide), [the Volcano restaurants guide](/blog/volcano-hawaii-restaurants-guide) and [the Big Island wedding venues guide](/blog/big-island-wedding-venues-guide), with where [wedding catering Big Island](/weddings) fits.',
+      'New this month: [the Hāwī restaurants guide](/blog/hawi-restaurants-north-kohala-guide) — the North Kohala town, Kapaʻau and the Kamehameha statue, timing a day around Pololū Valley, wind and night driving, and a [private chef Kona](/private-chef) dinner back at the Kohala Coast villa. Recently: [Christmas on the Big Island](/blog/christmas-on-the-big-island-holiday-dinner), [the Kona manta ray night snorkel guide](/blog/kona-manta-ray-night-snorkel-guide) and [the Volcano restaurants guide](/blog/volcano-hawaii-restaurants-guide).',
       'Looking to book rather than read? Dinner prices, dinners from $165 a guest and signature dinners and Stay Chef days are on the [private chef Big Island](/) page, and staffed villa parties for ten to seventy-five are [Big Island catering](/catering).',
     ],
   },
