@@ -30,6 +30,9 @@ export const islandAreas: Record<IslandId, IslandAreasPage> = {
     photo: 'areasIndexOahu',
     body: [
       'Honolulu and Waikīkī towers need the freight window, the stall, and the building rules. Kahala and Diamond Head are quieter residential rooms, and load-in is confirmed in writing. Ko Olina villas provision from the west side, not from a town round trip. Kailua and Lanikai are 30-day houses, often with galley kitchens. Hawaiʻi Kai is an east Honolulu household, and traffic is planned into the chef day. The North Shore is 60–90+ minutes from town, a surcharge day. The town index, with a page for each place, is [locations](/locations). Kitchen notes stay on the dining-in posts linked below. Request a written quote on [the quote form](/quote). Travel beyond those published drives is quoted in writing. A 20% service charge and Hawaiʻi GET up to 4.712% stay on their own lines.',
+      '## Which Oʻahu page to open first',
+      'Open [Gold Coast](/gold-coast) first when the house is an estate room from Kahala toward Diamond Head. Open [Kailua](/kailua) first for a windward month-stay, and [Ko Olina](/ko-olina) first when the villa is the venue. Towers still start from the town page for that building. The zone map is [coverage](/coverage).',
+      'The written quote changes the travel line when the house sits beyond the base, and that line stays on [pricing](/pricing). It does not rewrite the 20% service charge or Hawaiʻi GET up to 4.712%.',
     ],
     faqs: [
       {
@@ -69,6 +72,9 @@ export const islandAreas: Record<IslandId, IslandAreasPage> = {
     photo: 'areasIndexMaui',
     body: [
       'Wailea, Makena, and Kīhei are the south-shore villa week: resort ranges, condo galleys, and a lawn that needs a wet-weather backup. Kāʻanapali, Lahaina, Nāpili, and Kapalua are West Maui, and a Saturday crossing is planned into arrival rather than discovered on the road. Upcountry, including Makawao and Kula, is the elevation ask. Travel for that drive is quoted in writing. We do not print a new surcharge on this page. The town index is [locations](/locations). Open [Wailea](/wailea), [Kāʻanapali](/kaanapali), [Kapalua](/kapalua), or [Upcountry](/upcountry) for the house. Quotes are open. A 20% service charge and Hawaiʻi GET up to 4.712% stay on their own lines after the food.',
+      '## Which Maui page matches the stay',
+      'A south-shore villa week opens [Wailea](/wailea) first. A Saturday on the west side, Kapalua or Kāʻanapali, opens [West Maui](/west-maui) before the town page. An elevation house opens [Upcountry](/upcountry). Say which of those the rental is, then the town page for the driveway. Kīhei condos are not the Wailea lawn. The zone map is [coverage](/coverage).',
+      'On the written quote, Wailea and Kapalua keep the same fee lines: service at 20% and Hawaiʻi GET up to 4.712%, each alone. What changes is arrival time, and Upcountry travel is its own line on [pricing](/pricing).',
     ],
     faqs: [
       {
@@ -101,13 +107,16 @@ export const islandAreas: Record<IslandId, IslandAreasPage> = {
     h1: 'Kauai area guide — north shore, south shore, west side.',
     title: 'Kauai area guide for both shores | myCHEF',
     description:
-      'Princeville rain, the Hanalei bridge, a drier Poʻipū shore, and west-side distance each change a Kauaʻi chef night. Request availability and name the area.',
+      'Princeville rain, the Hanalei bridge, a drier Poʻipū shore, and west-side distance change a Kauaʻi chef night. Request availability and name the area.',
     lede:
       'The north shore is rain and the bridge. The south shore is drier and a shorter drive from Līhuʻe. The west side is distance. Request availability for the area the house is in.',
     kicker: 'Kauaʻi · Areas',
     photo: 'areasIndexKauai',
     body: [
       'Princeville and Hanalei need a covered lānai or a dining room written as the rain plan. A house past the Hanalei bridge also carries 72-hour notice, and a closure reschedules rather than forfeits. Poʻipū and Kōloa are the south shore: more sun, and a shorter drive from Līhuʻe than the far north. Kapaʻa and Līhuʻe sit on the east side as base. Waimea and Hanapēpē are west-side distance, and that travel is quoted in writing. We do not print a new fee here. The town index is [locations](/locations). A named area is not a confirmation. Request availability on [the quote form](/quote). A 20% service charge and Hawaiʻi GET up to 4.712% are their own lines after a written yes.',
+      '## Which shore page to open first',
+      'For a Garden Isle retreat in the rain, open [Princeville](/princeville) first. A driveway past the bridge opens [Hanalei](/hanalei) so that clause is on the request. A drier Poʻipū week opens [South Shore](/south-shore) instead. The zone map is [coverage](/coverage). Request availability and name that shore.',
+      'The written reply adds a covered-lānai rain plan on the north shore and, past the bridge, the 72-hour notice. A closure reschedules the night rather than forfeiting it. Travel beyond Līhuʻe and Kapaʻa is its own line on [pricing](/pricing). Poʻipū does not inherit the bridge.',
     ],
     faqs: [
       {
@@ -147,6 +156,9 @@ export const islandAreas: Record<IslandId, IslandAreasPage> = {
     photo: 'areasIndexBigisland',
     body: [
       'Kailua-Kona, Keauhou, Waikoloa, and the Kohala Coast share the west-side day. Seven resort communities sit inside a 30-minute radius. Hard sun is the terrace problem, and an indoor room should be named if you need one. Waimea is ranch country and cooler, with travel quoted in writing. Hilo and Volcano are not a third stop. They are a separate dedicated east-side day, 2.5–3 hours from Kona, with their own shop. The town index is [locations](/locations). Join the inquiry list on [the quote form](/quote) for the side the house is on. A 20% service charge and Hawaiʻi GET up to 4.712% are their own lines. Bands, including this island’s simpler table, are on [pricing](/pricing).',
+      '## Which west-side page to open first',
+      'A town kitchen in Kona opens [Kailua-Kona](/kailua-kona) or [Keauhou](/keauhou) first. A resort terrace opens [Waikoloa](/waikoloa) or the [Kohala Coast](/kohala). A race week opens [Ironman weeks](/ironman-weeks), because an Ironman week compresses that town. Hilo is not on that list: open [Hilo](/hilo) and [the east side](/east-side) as their own day. The zone map is [coverage](/coverage).',
+      'On the written reply, travel beyond the base is its own line on [pricing](/pricing). Hilo is a separate dedicated day, never a line on the Kona night. Join the inquiry list for the side the house is on.',
     ],
     faqs: [
       {
