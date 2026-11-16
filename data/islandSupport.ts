@@ -572,6 +572,11 @@ export const islandHow: Record<IslandId, IslandSupportPage> = {
         title: 'Shop, serve, clear.',
         body: 'We shop that day and arrive about three hours before service, timed around the corridor. We cook, serve, and leave the dishwasher empty.',
       },
+      {
+        n: '05',
+        title: 'The condo note, then our clean-down.',
+        body: 'You send one request with the address, dates, guest count, and dietary notes, and you confirm it in writing. A tower adds freight, parking, and the building rule. You pay the 50% deposit after the written yes. We sign the menu, shop inside the band for a signature dinner and at cost with receipts on Stay Chef, then cook, serve, and leave the dishwasher empty. Gratuity is never required. The reply is one written total. Use [the quote form](/quote).',
+      },
     ],
     faqs: [
       {
@@ -633,6 +638,11 @@ export const islandHow: Record<IslandId, IslandSupportPage> = {
         n: '04',
         title: 'Arrival, service, clean kitchen.',
         body: 'We shop that day and arrive about three hours before service, with West Maui traffic already in the plan. We cook, serve, and leave the kitchen clean. A lawn has a wet-weather backup on the quote.',
+      },
+      {
+        n: '05',
+        title: 'The villa’s share of the week.',
+        body: 'You send one request with the shore, dates, guest count, and dietary notes, and you confirm the week in writing. You free the villa kitchen, cooktop included. Arrival night is the evening you land. You pay the 50% deposit after the written yes. We sign that day’s menu. A signature dinner includes the shop. Stay Chef groceries are at cost with receipts. Then we cook, serve, and leave the kitchen clean. Gratuity is never required. The reply is the written total. [Request a written quote](/quote).',
       },
     ],
     faqs: [
@@ -696,6 +706,11 @@ export const islandHow: Record<IslandId, IslandSupportPage> = {
         title: 'Sign-off, service, clean-down.',
         body: 'You sign the menu before the shop. If the road is open we cook, serve, and leave the kitchen clean. If the bridge closes, we reschedule.',
       },
+      {
+        n: '05',
+        title: 'Your covered plan, and our service.',
+        body: 'You request availability in one note with the shore, dates, guest count, and dietary notes, and you confirm it in writing. Princeville names a covered lānai in case of rain. You pay the 50% deposit after a written yes, not after the request. We sign the menu before any buy. A signature dinner includes that buy. Stay Chef groceries are at cost with receipts. If the road is open we cook, serve, and leave the kitchen clean. Gratuity is never required. The reply is that written yes. [Request availability](/quote).',
+      },
     ],
     faqs: [
       {
@@ -757,6 +772,11 @@ export const islandHow: Record<IslandId, IslandSupportPage> = {
         n: '04',
         title: 'West-side shop and clean-down.',
         body: 'We provision the west side the day of service, cook, serve, and leave the dishwasher empty. A Kona-to-Hilo round trip is not on this list.',
+      },
+      {
+        n: '05',
+        title: 'What you hold, and what we provision.',
+        body: 'You join the inquiry list in one note with the west-side address, dates, guest count, and dietary notes, and you confirm it in writing. The kitchen is a Kona or Kohala house. Hilo stays its own day. You pay the 50% deposit after a written yes. We sign the menu. A signature dinner includes the shop. Stay Chef groceries are at cost with receipts. Then we cook, serve, and leave the dishwasher empty. Gratuity is never required. The reply is the total for that side. [Join the inquiry list](/quote).',
       },
     ],
     faqs: [
