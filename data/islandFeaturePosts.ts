@@ -239,6 +239,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/oahu-brunch-guide', label: 'Oʻahu brunch guide' },
         { path: '/', label: 'Private chef Oahu' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/catering', label: 'Oahu catering' },
@@ -1301,6 +1302,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/oahu-brunch-guide', label: 'Oʻahu brunch guide' },
         { path: '/blog/oahu-elopement-planning-guide', label: 'Oʻahu elopement guide' },
         { path: '/weddings', label: 'Wedding catering Oahu' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
@@ -1890,6 +1892,104 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Oahu' },
       ],
     },
+    {
+      feature: true,
+      slug: 'oahu-brunch-guide',
+      keyword: 'oahu brunch',
+      datePublished: '2026-11-17',
+      name: 'Oʻahu brunch guide',
+      h1: 'Oʻahu brunch — where the island eats late breakfast, and how to host one at home.',
+      title: 'Oahu Brunch Guide — Where to Go & Brunch at Home | myCHEF',
+      description:
+        'Oʻahu brunch, neighborhood by neighborhood: local breakfast plates, weekend waits, group tables, and when a brunch at your rental is the easier call.',
+      lede:
+        'Oʻahu brunch is less a single meal than a habit. On weekends half of Honolulu seems to be out for a late breakfast, and the lines start before the doors open. This guide explains what brunch looks like here, where it happens across the island, how to handle waits and larger groups, and when it is simpler to have brunch served at the house you are staying in. We do not name or rank restaurants, take commissions or have restaurant partners.',
+      photo: 'vacationOahu',
+      body: [],
+      sections: [
+        {
+          heading: 'What does brunch look like on Oʻahu?',
+          paras: [
+            'Brunch on Oʻahu mixes a mainland-style menu with the local breakfast plate. Next to eggs Benedict and pancakes you will find loco moco, which is rice topped with a hamburger patty, a fried egg and brown gravy, plus Portuguese sausage with eggs and rice, Spam musubi, fried rice, and pancakes with coconut or guava syrup. Malasadas, the Portuguese fried doughnuts, are a breakfast and dessert staple. Fresh papaya and pineapple, açaí bowls and Hawaiʻi-grown coffee round it out.',
+            'The local plate is filling and built for an active morning, so many visitors eat one big late breakfast and skip lunch. If you are cooking for yourselves, the [Oʻahu farmers market guide](/blog/oahu-farmers-market-villa-week) covers where to buy fruit, eggs and island coffee for the house.',
+          ],
+        },
+        {
+          heading: 'Where brunch happens, area by area',
+          paras: [
+            'Waikīkī has the most choice within walking distance: hotel breakfast rooms with ocean views, sidewalk cafés along Kalākaua and Kūhiō Avenues, and coffee shops that open early for surfers and jet-lagged arrivals. Our [Waikīkī restaurants guide](/blog/waikiki-restaurants-dining-guide) explains how the strip is laid out.',
+            'Just outside Waikīkī, Kapahulu and Kaimukī are where many residents go for weekend breakfast, with bakeries, diners and chef-run cafés in a few walkable blocks. Kakaʻako and the Ala Moana area add newer, larger rooms with easier parking. The [Honolulu restaurants guide](/blog/honolulu-restaurants-neighborhood-guide) covers these neighborhoods in more detail.',
+            'On the windward side, Kailua is a classic weekend brunch town, with the busiest tables close to the beach road; see the [Kailua restaurants guide](/blog/kailua-restaurants-dining-guide). On the North Shore, Haleʻiwa has cafés and food trucks that fill up with beachgoers by mid-morning, and on the west side the Ko Olina resorts run their own breakfast and brunch service for guests.',
+          ],
+        },
+        {
+          heading: 'Weekend waits, reservations and timing',
+          paras: [
+            'The popular brunch spots on Oʻahu are busiest from about 8 a.m. to noon on Saturdays and Sundays, and many do not take reservations for small parties. Arriving right at opening, or going on a weekday, is the easiest way to avoid a long wait. Parking is a real constraint in Kaimukī, Kapahulu and Kailua, so allow time to circle the block or walk from a nearby lot.',
+            'Holiday weekends are the hardest. Mother’s Day, Easter, Thanksgiving weekend and the days between Christmas and New Year are the peak brunch dates of the year, and hotel brunches often sell out in advance. If a specific morning matters, such as a birthday or the day after a wedding, book early or plan to host it.',
+          ],
+        },
+        {
+          heading: 'Brunch with a group: when hosting at the house is easier',
+          paras: [
+            'A table for two or four is easy to find. A table for ten or more on a weekend morning is not: most cafés cannot seat a large group together, and the ones that can usually need a set menu and a deposit. For a family reunion, a wedding party or a group of friends, that often means splitting across tables or waiting in shifts.',
+            'That is when brunch at the rental makes sense. The morning after a wedding, a birthday, Christmas morning, the day after a late arrival, or a slow start before a beach day are all common reasons. Everyone eats together, no one drives, and the kitchen is cleaned before we leave. Our page on [brunch at the house](/events/brunch) explains how we plan the morning, and the [Oʻahu wedding venues guide](/blog/oahu-wedding-venues-guide) covers the wider wedding weekend.',
+            'If the group wants an early Diamond Head hike first, remember that non-resident visitors need a timed reservation for entry and parking. Booking the hike for early morning and brunch for late morning is an easy rhythm.',
+          ],
+        },
+        {
+          heading: 'What a brunch at the rental looks like',
+          paras: [
+            'We plan the menu with you before the day: how many guests, any allergies, and whether you want a sit-down plate, family-style platters on the table or a buffet on the counter. A typical island brunch might start with cut tropical fruit and pastries, move to eggs cooked to order or a baked egg dish, add a fish course or a local-style plate with rice, and finish with something sweet. Fish is named as the species we actually bought that week, never something we hope to find.',
+            'For a small group, a [private chef Honolulu](/private-chef) booking covers menu design, shopping, cooking, service and cleanup in your kitchen. For a larger group, such as a post-wedding brunch for thirty, [Oahu catering](/catering) adds servers and a sous-chef so the food keeps coming and the plates keep clearing. Drinks can be added with a mobile bar, with spirits billed at cost or bring your own.',
+            'Tables, linens, tents and rentals are not included unless you ask for them, and then they are quoted separately. Most rentals have enough plates for their listed guest count but not for a party, so we check this with you before the day.',
+          ],
+        },
+        {
+          heading: 'What does brunch at the house cost with us?',
+          paras: [
+            'We do not publish a separate brunch price; brunch is quoted in writing for your date and guest count. As a reference, a Stay Chef day on Oʻahu starts from $1,250 for a chef and an assistant cooking one meal, with groceries billed at cost and receipts handed over. Event staff for larger groups are $80 an hour for servers and $105 an hour for a sous-chef, on four- to five-hour minimums.',
+            'A 20% service charge and Hawaiʻi GET of up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. North Shore and Turtle Bay addresses carry a published travel line from $75. The full card is on [Oahu private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan a brunch at home',
+          paras: [
+            'Send the address, the date, the guest count, the time you want to eat and any allergies through the quote form, or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total. For dinners and other meals anywhere on the island, see [private chef Oahu](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'What time is brunch on Oʻahu?',
+          a: 'Most brunch and breakfast places open early, and the busiest window is about 8 a.m. to noon on weekends. Arriving at opening or going on a weekday is the easiest way to avoid a wait.',
+        },
+        {
+          q: 'What is a typical Hawaiian breakfast?',
+          a: 'Local breakfast plates include loco moco, Portuguese sausage with eggs and rice, Spam musubi, fried rice and pancakes with coconut or guava syrup, with papaya, pineapple and island coffee on the side.',
+        },
+        {
+          q: 'Do Oʻahu brunch spots take reservations?',
+          a: 'Many popular spots do not take reservations for small parties. Hotel brunches and larger groups usually need one, often with a set menu and a deposit on holiday weekends.',
+        },
+        {
+          q: 'Can a chef cook brunch at our Oʻahu rental?',
+          a: 'Yes. We plan the menu with you, shop that morning or the day before, cook and serve in your kitchen, and clean up before we leave. Larger groups get servers and a sous-chef.',
+        },
+        {
+          q: 'How much does a private brunch at home cost?',
+          a: 'Brunch is quoted in writing. A Stay Chef day starts from $1,250 for a chef and an assistant cooking one meal, with groceries at cost. Service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/blog/honolulu-restaurants-neighborhood-guide', label: 'Honolulu restaurants guide' },
+        { path: '/events/brunch', label: 'Brunch at the house' },
+        { path: '/private-chef', label: 'Private chef Honolulu' },
+        { path: '/catering', label: 'Oahu catering' },
+        { path: '/pricing', label: 'Oahu private chef cost' },
+        { path: '/', label: 'Private chef Oahu' },
+      ],
+    },
   ],
   maui: [
     {
@@ -2108,6 +2208,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-private-dining-guide', label: 'Maui private dining guide' },
         { path: '/blog/maui-elopement-dinner-guide', label: 'Maui elopement guide' },
         { path: '/blog/kaanapali-restaurants-dining-guide', label: 'Kāʻanapali restaurants guide' },
         { path: '/', label: 'Private chef Maui' },
@@ -3052,6 +3153,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-private-dining-guide', label: 'Maui private dining guide' },
         { path: '/blog/maui-wedding-venues-guide', label: 'Maui wedding venues guide' },
         { path: '/private-chef', label: 'Personal chef Maui' },
         { path: '/weddings', label: 'Wedding catering Maui' },
@@ -3765,6 +3867,112 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Maui' },
       ],
     },
+    {
+      feature: true,
+      slug: 'maui-private-dining-guide',
+      keyword: 'maui private dining',
+      datePublished: '2026-11-17',
+      name: 'Maui private dining guide',
+      h1: 'Maui private dining — private rooms, buyouts and a dinner at your own table.',
+      title: 'Maui Private Dining — Rooms, Buyouts, Villas | myCHEF',
+      description:
+        'Maui private dining explained: restaurant private rooms, buyouts, resort set-ups and dinner at your villa, with minimums, timing and what to ask first.',
+      lede:
+        'Maui private dining can mean very different evenings. Some people want a private room in a restaurant, some want the whole place to themselves, and some want a chef to cook at the house they are already staying in. This guide explains how each option usually works on Maui, what to ask before you commit, which occasions suit which format, and what a private dinner at your villa costs with us. We do not name or rank restaurants or resorts, take commissions or have venue partners.',
+      photo: 'fineChefsEveMaui',
+      body: [],
+      sections: [
+        {
+          heading: 'Three kinds of private dining on Maui',
+          paras: [
+            'The first is a private or semi-private room inside a restaurant. You get your own space and usually a set menu, while the kitchen keeps serving the main dining room. The second is a buyout, where a restaurant or a section of a resort is closed to the public for your group. The third is a dinner at the house or villa you are renting, with a chef cooking in your kitchen and serving at your table.',
+            'Each has a place. A private room is simple for a business dinner in a resort area. A buyout suits a large wedding-week event when the venue matters more than the cost. A dinner at the villa suits a family, a celebration or a couple who want the evening without a drive home at the end.',
+          ],
+        },
+        {
+          heading: 'How restaurant private rooms and buyouts usually work',
+          paras: [
+            'Most private rooms on Maui sit in the resort corridors of Wailea, Kāʻanapali and Kapalua, where the restaurants are larger and used to groups. Expect a food and beverage minimum rather than a room fee, a set or limited menu chosen in advance, a deposit to hold the date, a service charge on the bill, and a fixed end time because the room is booked again or the kitchen closes. Our [Wailea restaurants guide](/blog/wailea-restaurants-dining-guide) and [Kāʻanapali restaurants guide](/blog/kaanapali-restaurants-dining-guide) explain how those areas are laid out.',
+            'Before you sign, ask how many guests the room seats comfortably, whether it is truly private or only screened from the main room, what the minimum includes, how far in advance the menu and the final count are due, how dietary needs are handled, and what happens if your group is smaller on the night. For peak weeks around the holidays and the busiest wedding months, book well ahead.',
+          ],
+        },
+        {
+          heading: 'Resort lawns and beach set-ups',
+          paras: [
+            'Many resorts offer private dinners on a lawn, a terrace or a beach-side spot for their own guests, run by the hotel’s banquet team. They can be lovely for a proposal or an anniversary. They are usually limited to resort guests, priced as a package, and dependent on the weather, so ask what the rain plan is and where you would move if the wind picks up.',
+            'Beaches and parks on Maui are public, and commercial activity on them generally needs a permit. If someone offers a private beach dinner, ask whether it is permitted, where exactly it takes place and what happens if the site is not available on the night.',
+          ],
+        },
+        {
+          heading: 'Private dining at your villa',
+          paras: [
+            'A private dinner at the rental takes the venue out of the equation. We plan the menu with you before the trip, shop that day, cook and serve in your kitchen, and clean the kitchen before we leave. There is no last seating, no drive back after a bottle of wine, and the children can go to bed while the adults stay at the table.',
+            'For a couple or a small group, a [personal chef Maui](/private-chef) dinner is the usual format, from a relaxed family-style meal to a plated tasting menu. If you want to sit at the kitchen counter and watch each course being finished, our [chef’s table evening](/fine-dining/chefs-table-evening) is built around that. For a rehearsal dinner, a reunion or a birthday on the lawn with twenty or more guests, [Maui catering](/catering) adds servers and a sous-chef.',
+            'We check the kitchen and the table with you before the day. Many rentals have enough plates for their listed guest count but not for a party, and tables, linens, tents and rentals are not included unless you ask for them, in which case they are quoted separately.',
+          ],
+        },
+        {
+          heading: 'Questions to ask before booking a chef at the villa',
+          paras: [
+            'Ask who plans the menu and when you will see it in writing, whether groceries are inside the price or billed separately, and how allergies are handled in the kitchen. Ask what time the chef arrives, how long service runs and whether cleanup is included. Ask which lines will be added to the total, such as service charge, tax and travel, and what the deposit and cancellation terms are. A clear written quote answers all of these before the night, so nothing on the bill is a surprise. Ours lists each line separately.',
+          ],
+        },
+        {
+          heading: 'Matching the format to the occasion',
+          paras: [
+            'For a proposal or an anniversary, privacy and timing matter most. A dinner for two on your own lānai lets you choose the moment, with no other tables nearby and no hurry. For a birthday with family across generations, a villa dinner lets everyone eat at their own pace and keeps the kids’ plates simple.',
+            'For a wedding week, the welcome dinner and the rehearsal dinner are often the best fit for a private dinner at the house, while the reception itself is usually at a venue. Our [Maui wedding venues guide](/blog/maui-wedding-venues-guide) covers that side, and [wedding catering Maui](/weddings) explains how we cook for the week. For a company group, a private room in a resort area or a dinner at the group’s house both work; the deciding factor is usually transport.',
+          ],
+        },
+        {
+          heading: 'What does a private dinner at the villa cost with us?',
+          paras: [
+            'Signature dinners on Maui are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler menu runs $190–$225 a guest. A dinner for two starts from $750 per event, and a private chef’s table menu is published at $475–$675 or more a guest. Upcountry addresses carry a published travel surcharge from $75, shown as its own line.',
+            'A 20% service charge and Hawaiʻi GET of up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. Event staff are $80 an hour for servers and $105 an hour for a sous-chef, on four- to five-hour minimums. The full card is on [Maui private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan a private dinner',
+          paras: [
+            'Send the address, the date, the guest count, the occasion and any allergies through the quote form, or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total. For dinners anywhere on the island, see [private chef Maui](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'What is private dining?',
+          a: 'A meal for your group alone, either in a private or semi-private restaurant room, in a venue you have bought out, or at your own house with a chef cooking and serving.',
+        },
+        {
+          q: 'Do Maui restaurants have private dining rooms?',
+          a: 'Some do, mostly in the resort areas of Wailea, Kāʻanapali and Kapalua. Expect a food and beverage minimum, a set menu, a deposit and a fixed end time.',
+        },
+        {
+          q: 'How far ahead should I book private dining on Maui?',
+          a: 'As early as you can for holiday weeks and wedding season. Menus and final guest counts are usually due several days before the dinner.',
+        },
+        {
+          q: 'Can we have a private dinner at our Maui rental?',
+          a: 'Yes. We plan the menu with you, shop that day, cook and serve in your kitchen and clean up before we leave. Larger groups get servers and a sous-chef.',
+        },
+        {
+          q: 'How much is a private dinner for two on Maui?',
+          a: 'A dinner for two at your rental starts from $750 per event. Service charge and GET are added as separate lines.',
+        },
+        {
+          q: 'Is a private beach dinner allowed on Maui?',
+          a: 'Beaches and parks are public, and commercial activity on them generally needs a permit. Ask any provider whether the dinner is permitted and what the rain plan is.',
+        },
+      ],
+      related: [
+        { path: '/blog/wailea-restaurants-dining-guide', label: 'Wailea restaurants guide' },
+        { path: '/fine-dining/chefs-table-evening', label: 'Chef’s table evening' },
+        { path: '/private-chef', label: 'Personal chef Maui' },
+        { path: '/catering', label: 'Maui catering' },
+        { path: '/pricing', label: 'Maui private chef cost' },
+        { path: '/', label: 'Private chef Maui' },
+      ],
+    },
   ],
   kauai: [
     {
@@ -4095,6 +4303,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-in-december-guide', label: 'Kauaʻi in December guide' },
         { path: '/blog/koloa-restaurants-south-shore-kauai-guide', label: 'Kōloa restaurants guide' },
         { path: '/blog/kauai-family-vacation-planning-guide', label: 'Kauaʻi family vacation guide' },
         { path: '/blog/kauai-luau-villa-dinner-guide', label: 'Kauaʻi luau guide' },
@@ -4329,6 +4538,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-in-december-guide', label: 'Kauaʻi in December guide' },
         { path: '/blog/new-years-eve-kauai-dinner-guide', label: 'New Year’s Eve on Kauaʻi guide' },
         { path: '/blog/thanksgiving-dinner-kauai', label: 'Thanksgiving on Kauaʻi' },
         { path: '/private-chef', label: 'Personal chef Kauai' },
@@ -5634,6 +5844,120 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Kauai' },
       ],
     },
+    {
+      feature: true,
+      slug: 'kauai-in-december-guide',
+      keyword: 'kauai in december',
+      datePublished: '2026-11-17',
+      name: 'Kauaʻi in December',
+      h1: 'Kauaʻi in December — weather, whales, holiday events and dinners at the house.',
+      title: 'Kauai in December 2026 — Weather, Events & Dinners | myCHEF',
+      description:
+        'Kauaʻi in December 2026: rain and surf by shore, whale season, the Lights on Rice Parade, holiday-week booking tips, and dinners at your rental.',
+      lede:
+        'Kauaʻi in December is green, busy at the end and quieter at the start. It is the wettest time of year on the North Shore, the start of whale season and the run-up to the island’s peak holiday weeks. This guide covers what the weather is really like on each shore, what is on during December 2026, how to plan around the Christmas and New Year rush, and how dinners at the house fit in, with what they cost with us. We do not sell tours or tickets and have no venue partners.',
+      photo: 'kauaiNorth',
+      body: [],
+      sections: [
+        {
+          heading: 'What is the weather like on Kauaʻi in December?',
+          paras: [
+            'December is in Hawaiʻi’s wet season. Kauaʻi is one of the rainiest islands, and the rain falls very unevenly. The North Shore around Princeville, Hanalei and Hāʻena gets the most showers and sometimes days of steady rain, while the South Shore around Poʻipū and Kōloa is usually drier and sunnier. The east side around Kapaʻa and Līhuʻe sits in between, with passing showers that often clear quickly.',
+            'Days are still warm, but evenings are cooler than in summer, and the sun sets before 6 p.m. Plan outdoor dinners for the first part of the evening, keep a covered lānai or the dining room as the backup, and pack a light layer for the North Shore.',
+          ],
+        },
+        {
+          heading: 'Ocean conditions and whale season',
+          paras: [
+            'Winter swells reach the North Shore from about November onward, and big surf can close beaches and make swimming dangerous there for days at a time. The South Shore is usually calmer in December, which is one reason many families base themselves in Poʻipū at this time of year. Always swim at lifeguarded beaches and follow posted warnings.',
+            'December is also the start of humpback whale season around Hawaiʻi. Sightings usually build through December and peak in the first months of the year, and whales can often be seen from shore on clear days. Keep your distance on the water, as federal rules protect the whales.',
+          ],
+        },
+        {
+          heading: 'Where to stay on Kauaʻi in December',
+          paras: [
+            'If sun is the priority, the South Shore is the safest bet. Our [Poʻipū restaurants guide](/blog/poipu-restaurants-dining-guide) and [Kōloa restaurants guide](/blog/koloa-restaurants-south-shore-kauai-guide) cover that side of the island. If you love the drama of the mountains and do not mind rain, the North Shore is spectacular in December, with waterfalls running down the cliffs after a wet night; see the [North Shore Kauaʻi dining guide](/blog/north-shore-kauai-dining-guide).',
+            'The east side is a practical middle ground, close to the airport, shops and services. The [Kapaʻa restaurants guide](/blog/kapaa-restaurants-dining-guide) explains the Coconut Coast.',
+          ],
+        },
+        {
+          heading: 'What is on in December 2026',
+          paras: [
+            'The Lights on Rice Parade in Līhuʻe is set for Friday, December 4, 2026, starting at 6:30 p.m. Floats and marching groups travel from Vidinha Stadium along Hoʻolako and Rice Streets to the Historic County Building, and organizers say Rice Street closes from 5:30 p.m. It is free and very much a local night out, so arrive early and expect traffic.',
+            'Through the month, towns and churches hold holiday concerts, craft fairs and tree lightings, and the Historic County Building in Līhuʻe has traditionally been decorated for the season. Check the county and event listings for exact dates, as smaller events are often confirmed late.',
+            'Christmas and New Year are the biggest family holidays of the year here. Our [Christmas in Kauai guide](/blog/christmas-in-kauai-holiday-dinners) and [New Year’s Eve on Kauaʻi guide](/blog/new-years-eve-kauai-dinner-guide) cover those two weeks in detail, including the county fireworks rules.',
+          ],
+        },
+        {
+          heading: 'Early December versus the holiday weeks',
+          paras: [
+            'The first two weeks of December are among the quieter times of the year on Kauaʻi. Flights and rentals are usually easier, restaurants are less crowded, and the island feels relaxed. From the third week of the month, the holiday rush begins, and the week between Christmas and New Year is the island’s peak.',
+            'For the holiday weeks, book flights, rental cars, houses and any restaurant dinners as early as you can. Many local businesses shorten their hours on Christmas Eve and New Year’s Eve and close on Christmas Day and New Year’s Day, so plan where you will eat on those days before you arrive.',
+          ],
+        },
+        {
+          heading: 'Driving and day plans in the rain',
+          paras: [
+            'Heavy rain on the North Shore can close the road beyond Hanalei for a while, as the one-lane Hanalei Bridge and low-lying stretches flood. On a wet day, check the county road notices before you set out, and keep a flexible plan: a South Shore beach, a canyon drive on the west side, or a slow afternoon at the house.',
+            'December is also a good month for hiking only if you respect the mud. Trails turn slick quickly after rain, and streams can rise fast, so never cross a swollen stream and turn back when the weather changes. Build your days around the forecast for each shore rather than for the island as a whole.',
+          ],
+        },
+        {
+          heading: 'Eating well on Kauaʻi in December',
+          paras: [
+            'Restaurants on Kauaʻi are small, and in the holiday weeks the good tables go early. With rain on the North Shore and short evenings, many families prefer to eat at the house for the big nights. A [personal chef Kauai](/private-chef) dinner is planned with you before the trip, shopped that day, cooked and served in your kitchen, and the kitchen is cleaned before we leave. Fish is named as the species we actually bought that week.',
+            'For a family reunion, a holiday party or a wedding-week dinner with more guests, [Kauai catering](/catering) adds servers and a sous-chef. Tables, linens, tents and rentals are not included unless you ask for them, and then they are quoted separately. Kauaʻi is by inquiry: we confirm a crew before we confirm the date, which is one more reason to ask early for late December.',
+          ],
+        },
+        {
+          heading: 'What does a December dinner at the house cost with us?',
+          paras: [
+            'Signature dinners on Kauaʻi are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler menu runs $190–$225 a guest. A dinner for two is $975–$1,425 per event, and Stay Chef starts from $1,650 a day. Princeville and Poʻipū add a published travel line of $50–$75, and the far North Shore is quoted case by case.',
+            'A 20% service charge and Hawaiʻi GET of up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Kauai private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan a December dinner',
+          paras: [
+            'Send the address, the dates, the guest count and any allergies through the quote form, or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total. For dinners anywhere on the island, see [private chef Kauai](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Is December a good time to visit Kauaʻi?',
+          a: 'Yes, especially the first half of the month, which is quieter. Expect rain on the North Shore, calmer and drier weather on the South Shore, and a busy holiday period from the third week of December.',
+        },
+        {
+          q: 'Does it rain a lot on Kauaʻi in December?',
+          a: 'December is the wet season. The North Shore gets the most rain, often with big surf, while Poʻipū and the South Shore are usually drier.',
+        },
+        {
+          q: 'Can you see whales on Kauaʻi in December?',
+          a: 'Humpback whale season usually starts building in December and peaks in the first months of the year. Sightings from shore are possible on clear days.',
+        },
+        {
+          q: 'When is the Lights on Rice Parade in 2026?',
+          a: 'Friday, December 4, 2026, at 6:30 p.m. in Līhuʻe, from Vidinha Stadium to the Historic County Building. Rice Street closes from 5:30 p.m.',
+        },
+        {
+          q: 'Can a private chef cook at our Kauaʻi rental in December?',
+          a: 'Yes, by inquiry. We confirm a crew before we confirm the date, so ask early for Christmas and New Year’s Eve.',
+        },
+        {
+          q: 'How much is a private chef dinner on Kauaʻi?',
+          a: 'Signature dinners are $225–$375 a guest with groceries included, minimum six. Service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/blog/christmas-in-kauai-holiday-dinners', label: 'Christmas in Kauai guide' },
+        { path: '/blog/new-years-eve-kauai-dinner-guide', label: 'New Year’s Eve on Kauaʻi guide' },
+        { path: '/private-chef', label: 'Personal chef Kauai' },
+        { path: '/catering', label: 'Kauai catering' },
+        { path: '/pricing', label: 'Kauai private chef cost' },
+        { path: '/', label: 'Private chef Kauai' },
+      ],
+    },
   ],
   bigisland: [
     {
@@ -6680,6 +7004,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/mauna-kea-stargazing-guide', label: 'Mauna Kea stargazing guide' },
         { path: '/blog/hawi-restaurants-north-kohala-guide', label: 'Hāwī restaurants guide' },
         { path: '/blog/hilo-restaurants-dining-guide', label: 'Hilo restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
@@ -7272,6 +7597,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/mauna-kea-stargazing-guide', label: 'Mauna Kea stargazing guide' },
         { path: '/blog/kona-restaurants-dining-guide', label: 'Kona restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/keauhou', label: 'Private chef Keauhou' },
@@ -7510,6 +7836,112 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/blog/waimea-big-island-restaurants-guide', label: 'Waimea restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/mauna-kea', label: 'Mauna Kea resort dinners' },
+        { path: '/catering', label: 'Big Island catering' },
+        { path: '/pricing', label: 'Big Island private chef cost' },
+        { path: '/', label: 'Private chef Big Island' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'mauna-kea-stargazing-guide',
+      keyword: 'mauna kea stargazing',
+      datePublished: '2026-11-17',
+      name: 'Mauna Kea stargazing guide',
+      h1: 'Mauna Kea stargazing — how the night really works, and how to plan dinner around it.',
+      title: 'Mauna Kea Stargazing — Planning the Night & Dinner | myCHEF',
+      description:
+        'Mauna Kea stargazing: Visitor Station hours, summit rules, the monthly telescope night, the drive from Kona, and how to plan dinner around a late return.',
+      lede:
+        'Mauna Kea stargazing is one of the best nights you can have on Hawaiʻi Island, and one of the easiest to get wrong. The summit closes to visitors after sunset, there are no restaurants on the mountain, and the drive back to the coast is long. This guide explains how stargazing actually works at the Visitor Information Station in 2026, the rules for going higher, how long the drive takes, and how to plan meals around a late night, with what a dinner at your villa costs with us. We do not sell tours and have no tour partners.',
+      photo: 'kohalaTable',
+      body: [],
+      sections: [
+        {
+          heading: 'Why Maunakea is special',
+          paras: [
+            'Maunakea rises to 13,796 feet, and its summit holds some of the world’s major observatories. The high altitude, dry air and dark skies make it one of the best places on Earth to see the stars. It is also a sacred place in Hawaiian culture, and visitors are asked to stay on roads and trails, leave nothing behind and treat the mountain with respect.',
+            'For most visitors, stargazing happens at the Onizuka Center for International Astronomy Visitor Information Station, or VIS, at about 9,200 feet on the Maunakea Access Road. That is high enough to be above the clouds on most nights.',
+          ],
+        },
+        {
+          heading: 'Stargazing at the Visitor Information Station',
+          paras: [
+            'The VIS is open every day of the year from 9 a.m. to 9 p.m., and there is no entrance or parking fee. Many people drive up for sunset and stay as the stars come out. After twilight, when weather and staffing allow, VIS staff give a short laser-guided talk about the night sky, constellations and Hawaiian wayfinding.',
+            'There are no public telescopes at the VIS any more. The nightly telescope program ended in 2019 because of crowding and damage to the area. Instead, the VIS runs a free telescope event about once a month, with limited places and a reservation required. The next event open to the general public is set for Saturday, December 12, 2026, with registration opening on November 22 at noon Hawaiʻi time. Each party can book once per quarter, and events are cancelled in bad weather.',
+          ],
+        },
+        {
+          heading: 'Summit rules and safety',
+          paras: [
+            'The summit area is closed to visitors from 30 minutes after sunset until 30 minutes before sunrise. You can watch sunset from the top, but to stay for the stars you need to come back down below Park 2, near the VIS. Above the VIS, the road turns to steep gravel, and only dependable four-wheel-drive or all-wheel-drive vehicles are allowed. Check whether your rental car contract permits it.',
+            'The mountain’s official guidance is clear: do not go above the VIS if you are under 13, pregnant, have a heart or respiratory condition or high blood pressure, or have been scuba diving in the last 24 hours. Everyone should stop at the VIS for at least 30 minutes to adjust to the altitude. Alcohol, drones and pets are not allowed, and muddy vehicles are turned away to protect the mountain from invasive species.',
+          ],
+        },
+        {
+          heading: 'Getting there, timing and what to bring',
+          paras: [
+            'The Maunakea Access Road leaves the Daniel K. Inouye Highway, also called Saddle Road, at milepost 28. From the Kona side and the Kohala resorts, allow roughly an hour and a half to two hours each way. From Hilo it is closer. There are no gas stations or restaurants on the mountain, so fill up before you leave the coast.',
+            'It is cold up there. Temperatures near the VIS can be close to freezing after dark, especially in winter, so bring warm layers, a hat and something to sit on. Check the moon: a full moon washes out many stars, so the darkest nights are around the new moon. Check the mountain weather forecast on the day, as the summit road can close for ice, snow or high wind in winter.',
+          ],
+        },
+        {
+          heading: 'Planning meals around a stargazing night',
+          paras: [
+            'The hardest part of a stargazing night is food. If you leave the coast in the afternoon, watch sunset and stay for the stars, you may not be back at your villa until 10 or 11 p.m., long after most restaurants close. Pack water and snacks for the mountain, and plan dinner before or after rather than hoping to find something on the way.',
+            'Two plans work well. The first is a big, relaxed late lunch at the house before you leave, with a light supper waiting when you get back. The second is to make the stargazing night simple and hold the celebration dinner for the evening before or after. If you are staying in ranch country, our [Waimea restaurants guide](/blog/waimea-big-island-restaurants-guide) covers the town many people pass through on the way up.',
+            'On a Stay Chef day we can plan the meals around your drive, and a [private chef Kona](/private-chef) dinner on another night of the trip is cooked, served and cleaned up at your villa. We confirm the timing in writing with the quote. For a group trip, a reunion or a retreat with more guests, [Big Island catering](/catering) adds servers and a sous-chef.',
+          ],
+        },
+        {
+          heading: 'Stargazing from the coast',
+          paras: [
+            'You do not have to drive up the mountain to see a good sky. Hawaiʻi County limits outdoor lighting to protect the observatories, and the Kohala Coast is dry and fairly dark away from the resort lights. After dinner, turn off the lānai lights and give your eyes a few minutes to adjust. On a clear, moonless night you can often see the Milky Way from the coast.',
+            'That makes an outdoor dinner on your terrace a good second-best for families with children under 13, who should not go above the VIS anyway.',
+          ],
+        },
+        {
+          heading: 'What does a villa dinner cost with us?',
+          paras: [
+            'Signature dinners on Hawaiʻi Island are published at $210–$325 a guest with groceries included, for a minimum party of six, and smaller table dinners start from $165 a guest. Stay Chef days start from $1,450 a day, with groceries billed at cost and receipts handed over. Addresses outside the Kona–Kohala corridor carry a published travel line from $75.',
+            'A 20% service charge and Hawaiʻi GET of up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Big Island private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan your stargazing week',
+          paras: [
+            'Send the address, the dates, the guest count and any allergies through the quote form, or message us on WhatsApp at +1 808-468-7748, and tell us which night you plan to go up the mountain. We reply in writing with a menu direction and a total. For dinners anywhere on the west side, see [private chef Big Island](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Can you stargaze on Mauna Kea at night?',
+          a: 'Yes, at the Visitor Information Station at about 9,200 feet, which is open until 9 p.m. daily. The summit itself closes to visitors 30 minutes after sunset.',
+        },
+        {
+          q: 'Are there public telescopes on Mauna Kea?',
+          a: 'Not every night. The nightly telescope program ended in 2019. The VIS now runs a free, reservation-only telescope event about once a month.',
+        },
+        {
+          q: 'Do you need a 4x4 to go to the Mauna Kea summit?',
+          a: 'Yes. Only four-wheel-drive or all-wheel-drive vehicles are allowed above the Visitor Information Station.',
+        },
+        {
+          q: 'Can children go to Mauna Kea?',
+          a: 'Children can visit the VIS, but the mountain’s guidance is that anyone under 13 should not go higher because of the altitude.',
+        },
+        {
+          q: 'How long is the drive from Kona to Mauna Kea?',
+          a: 'Allow roughly an hour and a half to two hours each way to the Visitor Information Station, via Saddle Road.',
+        },
+        {
+          q: 'Where can we eat after stargazing?',
+          a: 'There is nothing on the mountain, and most coast restaurants close before you get back. Plan a late lunch and a light supper at the house, or hold the big dinner for another night.',
+        },
+      ],
+      related: [
+        { path: '/blog/waimea-big-island-restaurants-guide', label: 'Waimea restaurants guide' },
+        { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/catering', label: 'Big Island catering' },
         { path: '/pricing', label: 'Big Island private chef cost' },
         { path: '/', label: 'Private chef Big Island' },
