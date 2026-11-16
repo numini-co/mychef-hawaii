@@ -149,6 +149,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         { path: '/kahala', label: 'Kahala corridor' },
         { path: '/gold-coast', label: 'Gold Coast estates' },
         { path: '/blog/dining-in-diamond-head', label: 'Diamond Head kitchen notes' },
+        { path: '/blog/kahala-diamond-head-restaurants-guide', label: 'Kahala & Diamond Head restaurants' },
       ],
     },
     {
@@ -540,6 +541,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         { path: '/upcountry', label: 'Upcountry dinners' },
         { path: '/haleakala', label: 'Kula dinners' },
         { path: '/blog/dining-in-makawao', label: 'Makawao kitchen notes' },
+        { path: '/blog/makawao-restaurants-upcountry-maui-guide', label: 'Makawao restaurants guide' },
       ],
     },
     {
@@ -1277,6 +1279,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         { path: '/mauna-lani', label: 'Mauna Lani dinners' },
         { path: '/kohala-corridor', label: 'West-side communities' },
         { path: '/pricing', label: 'Rate card' },
+        { path: '/blog/hawi-restaurants-north-kohala-guide', label: 'Hāwī & North Kohala restaurants' },
       ],
     },
     {
