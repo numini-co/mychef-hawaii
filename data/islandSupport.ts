@@ -44,6 +44,12 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
     body: [
       'A resident night starts with the house. Honolulu condos, Kahala dining rooms, Ko Olina villas, and Kailua weeks are different buildings, and the written quote names which one. A tower may need a freight window and a parking stall. A villa still needs a working cooktop. We do not treat a hotel suite with a minibar as a kitchen.',
       'A signature dinner and a Stay Chef day are separate bills on [pricing](/pricing). A 20% service charge and Hawaiʻi GET up to 4.712% sit on their own lines. Travel past the usual corridors is also its own line, and the amount is on that card. The neighborhood map is on [coverage](/coverage). Send the date on [the quote form](/quote) and request a written quote. How the night runs is on [how it works](/how-it-works). Allergy notes are on [dietary](/dietary).',
+      '## The short answers first',
+      `A signature dinner is ${signatureGuestBand('oahu')} a guest, before 20% service charge and Hawaiʻi GET up to 4.712%. Grocery shopping sits inside that band. See [pricing](/pricing).`,
+      `Stay Chef is ${stayChefUsd('oahu')} a day for the cook, plus groceries at cost with receipts, before those same fee lines.`,
+      'A kitchen needs a cooktop, a fridge, and space to plate. A minibar is not a kitchen.',
+      'Request a written quote for a Kahala or Ko Olina house.',
+      'Order is on [how it works](/how-it-works). Use [the quote form](/quote).',
     ],
     faqGroups: [
       {
@@ -120,6 +126,12 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
     body: [
       'A villa week is several meals, and the evening you land is the first of them. Wailea, Kapalua, and Kāʻanapali are the houses we write most often. Saturday traffic between the south shore and West Maui changes the call time. It does not create a second invoice when both dinners are on the quote you accept.',
       'Pāʻia and Haʻikū are confirmed on the written quote with the menu. They are not stacked onto a Wailea dinner. Upcountry travel is its own line, and the figure is on [pricing](/pricing). The neighborhood map is on [coverage](/coverage). Signature dinners and Stay Chef days stay separate on that card. Request a written quote on [the quote form](/quote). The sequence of a week is on [how it works](/how-it-works). Shop limits are on [dietary](/dietary).',
+      '## Before the villa accordions',
+      `The guest price is ${signatureGuestBand('maui')}, before 20% service charge and Hawaiʻi GET up to 4.712%. The shop for that dinner sits inside the band. See [pricing](/pricing).`,
+      `The daily chef fee starts at ${stayChefUsd('maui')}, and groceries are at cost with receipts, before those same fee lines.`,
+      'A Kapalua kitchen needs a working cooktop, a fridge, and a table.',
+      'Request a written quote, and say if arrival night is in the week.',
+      'Order is on [how it works](/how-it-works). Use [the quote form](/quote).',
     ],
     faqGroups: [
       {
@@ -196,6 +208,12 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
     body: [
       'Request availability and name the shore before anyone talks about a menu. Princeville and Hanalei sit in the north, with rain and the Hanalei bridge in the plan. Poʻipū is the south-shore kitchen, a different drive from Līhuʻe. A request is not a held crew. We write back when that shore can be staffed.',
       'A signature dinner and a Stay Chef stretch are different bills on [pricing](/pricing). A published band is not a confirmation. Travel for either shore is its own line on the written reply, and the amount is on that card. Towns are on [coverage](/coverage). Far-north houses should read [Hanalei bridge](/hanalei-bridge) before they request a date. Diet limits go on [dietary](/dietary), with the shore named. The shape of the night is on [how it works](/how-it-works).',
+      '## Before you request a shore',
+      `If that shore can be staffed, the guest price is ${signatureGuestBand('kauai')}, before 20% service charge and Hawaiʻi GET up to 4.712%, with the shop inside the band. Read [pricing](/pricing).`,
+      `The chef fee starts at ${stayChefUsd('kauai')} a day, and groceries are at cost with receipts, before those same fee lines.`,
+      'A Princeville note names a covered lānai or indoors. Rain is planned before the shop.',
+      'Request availability for Princeville or Poʻipū. A request is not a held crew.',
+      'See [how it works](/how-it-works) and [the quote form](/quote).',
     ],
     faqGroups: [
       {
@@ -272,6 +290,12 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
     body: [
       'Join the inquiry list with a west-side address. Kailua-Kona, Waikoloa, and the Kohala Coast are the usual day. Waimea is the cooler town above that coast and is still not the east side. Hilo and Volcano are a separate dedicated day, confirmed in writing, and never attached to a Kona dinner as a second stop.',
       'This island publishes a signature band and a simpler table. Both keep the grocery shop inside the guest price. Stay Chef is the multi-day fee plus groceries at cost with receipts. Those figures, the 20% service charge, and Hawaiʻi GET are on [pricing](/pricing). The town list is on [coverage](/coverage). An inquiry is not a held date. Send it on [the quote form](/quote). How a west-side night runs is on [how it works](/how-it-works). Food limits are on [dietary](/dietary).',
+      '## West-side answers first',
+      `The signature band is ${signatureGuestBand('bigisland')} a guest, before 20% service charge and Hawaiʻi GET up to 4.712%, and the shop sits inside it. See [pricing](/pricing).`,
+      `Stay Chef starts at ${stayChefUsd('bigisland')} a day. Groceries on that booking are at cost with receipts.`,
+      'A Kohala kitchen needs a cooktop, a fridge, and a place to plate out of the hard sun.',
+      'Join the inquiry list for Kona or Kohala first. Hilo is a separate dedicated day.',
+      'Steps sit on [how it works](/how-it-works) and [the quote form](/quote).',
     ],
     faqGroups: [
       {
