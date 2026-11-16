@@ -29,6 +29,14 @@ export const weddingLongform: Record<IslandId, { sections: CopySection[]; faqs: 
         ],
       },
       {
+        h2: 'A forty-guest Oʻahu reception, line by line',
+        paras: [
+          'This is how wedding catering Oahu reads on a written quote, using only the figures already published on this page. Forty guests at the $195 reception figure is a food line of 40 × $195 = $7,800 USD. That is where the band starts, not a promise: a plated Kahala menu with more courses sits higher in the $195–$290 signature band, and the quote names the number before anyone pays.',
+          'Staffing is its own line, billed by the hour against four-to-five-hour minimums. As arithmetic only: if a quote lists three servers for five hours, that line reads 3 × 5 × $80 = $1,200, and one sous-chef for five hours reads 5 × $105 = $525. The crew count follows the house and the format you pick, buffet, family-style or plated, so your own quote may list more people or fewer.',
+          'After food and staffing come the two lines that never hide inside a hospitality fee: 20% service and Hawaiʻi GET up to 4.712%. A North Shore or Turtle Bay reception adds the published travel surcharge. Half the written total locks the Saturday, and gratuity stays voluntary. The bar, rentals and florals are separate lines or stay yours. Send the headcount and the house on [the quote form](/quote), or compare the dinner bands on [pricing](/pricing).',
+        ],
+      },
+      {
         h2: 'How an Oʻahu wedding weekend is quoted',
         paras: [
           'Five fields on the quote form: island, dates, headcount, service, how to reach you. We reply in Hawaii business hours with a menu direction and a crew list. No account. No payment to enquire. WhatsApp is the same conversation. One honest follow-up, not a drip campaign. The written total is food, staffing, 20% service, GET up to 4.712%, and a 50% deposit to lock the weekend. Gratuity is voluntary.',

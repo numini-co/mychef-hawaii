@@ -486,7 +486,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/oahu/weddings': {
     title: 'Wedding Catering Oahu | Gold Coast Weekends | myCHEF',
     description:
-      'Wedding catering Oahu — one kitchen for the weekend. Kahala, Ko Olina and Kailua estates. Starting prices published.',
+      'Wedding catering Oahu, HI from $195 a guest plus staffing: welcome dinner, rehearsal, reception and brunch in Kahala, Ko Olina or Kailua homes.',
   },
   '/oahu/bar': {
     title: 'Bartender for an Oahu villa dinner | myCHEF',

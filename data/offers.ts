@@ -802,6 +802,7 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
         'Signature sits at $195–$290 a guest — groceries inside that band. Stay Chef from $1,250 a day also bills groceries at cost. After either dinner line: 20% service and Hawaiʻi GET up to 4.712%. A 50% deposit holds the date. A tip is never required.',
         'Estate driveways are the usual load-in, not a Kalākaua freight window. Compact galleys still get a bring-equipment menu when the cooktop is real. Hotel rooms without a range are declined.',
         'Every neighborhood here is part of our [private chef Oahu](/) service. Nearby: town residences in [Honolulu](/honolulu); high-rise kitchens in [Waikīkī](/waikiki); west-side villa weeks in [Ko Olina](/ko-olina).',
+        'Eating out on the other nights? The [Kahala and Diamond Head restaurants guide](/blog/kahala-diamond-head-restaurants-guide) covers Kāhala Mall, Waiʻalae Avenue and the Monsarrat cafés.',
         'Full Oʻahu rates are on [the pricing page](/pricing); send your dates on [the quote form](/quote).',
       ],
       zone: 'Base zone',
