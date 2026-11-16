@@ -212,7 +212,7 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
       `If that shore can be staffed, the guest price is ${signatureGuestBand('kauai')}, before 20% service charge and Hawaiʻi GET up to 4.712%, with the shop inside the band. Read [pricing](/pricing).`,
       `The chef fee starts at ${stayChefUsd('kauai')} a day, and groceries are at cost with receipts, before those same fee lines.`,
       'A Princeville note names a covered lānai or indoors. Rain is planned before the shop.',
-      'Request availability for Princeville or Poʻipū. A request is not a held crew.',
+      'Request availability for Princeville or Poʻipū.',
       'See [how it works](/how-it-works) and [the quote form](/quote).',
     ],
     faqGroups: [
@@ -292,10 +292,10 @@ export const islandFaq: Record<IslandId, IslandSupportPage> = {
       'This island publishes a signature band and a simpler table. Both keep the grocery shop inside the guest price. Stay Chef is the multi-day fee plus groceries at cost with receipts. Those figures, the 20% service charge, and Hawaiʻi GET are on [pricing](/pricing). The town list is on [coverage](/coverage). An inquiry is not a held date. Send it on [the quote form](/quote). How a west-side night runs is on [how it works](/how-it-works). Food limits are on [dietary](/dietary).',
       '## West-side answers first',
       `The signature band is ${signatureGuestBand('bigisland')} a guest, before 20% service charge and Hawaiʻi GET up to 4.712%, and the shop sits inside it. See [pricing](/pricing).`,
-      `Stay Chef starts at ${stayChefUsd('bigisland')} a day. Groceries on that booking are at cost with receipts.`,
+      `Stay Chef starts at ${stayChefUsd('bigisland')} a day, plus groceries at cost with receipts, before those same fee lines.`,
       'A Kohala kitchen needs a cooktop, a fridge, and a place to plate out of the hard sun.',
       'Join the inquiry list for Kona or Kohala first. Hilo is a separate dedicated day.',
-      'Steps sit on [how it works](/how-it-works) and [the quote form](/quote).',
+      'Read [how it works](/how-it-works) and [the quote form](/quote).',
     ],
     faqGroups: [
       {
