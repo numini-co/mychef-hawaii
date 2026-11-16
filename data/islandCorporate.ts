@@ -1,6 +1,7 @@
 import type { IslandId } from './islands';
 import type { IslandNestedIndexPage } from './islandHelpIndex';
 import { DESK_EMAIL, DESK_PHONE_DISPLAY, DESK_TEL, DESK_WHATSAPP } from '@/lib/contact';
+import { signatureGuestBand, STAFFING, stayChefUsd } from './rateCard';
 
 const desk = `${DESK_EMAIL}, +1 ${DESK_PHONE_DISPLAY} (${DESK_TEL}), WhatsApp ${DESK_WHATSAPP}`;
 
@@ -24,7 +25,7 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
     h1: 'Company offsite in an Oahu rental house.',
     title: 'Company offsite in an Oahu house | myCHEF',
     description:
-      'A company offsite or retreat in a Kahala, Ko Olina, Kailua, or Honolulu house. One dinner and meals across the stay have a page. Request a written quote.',
+      'A company offsite or retreat in a Kahala, Ko Olina, Kailua, or Honolulu house. One dinner and stay meals have a page. Request a written quote.',
     lede: 'Oahu villa offsites: practical notes from myCHEF Hawaii for a private chef night in your villa or vacation rental. Send your dates for a written quote.',
     kicker: 'Oʻahu · Offsites',
     photo: 'corpIndexOahu',
@@ -33,6 +34,9 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
       'Board dinners and house offsites sit in residences we can actually cook in. We do not staff a ballroom because a conference is in town.',
       'This page is the overview: a company offsite or a retreat cooked in the rented house. One company dinner night is [one company dinner](/events/corporate-events). Catered meals for the team across the stay are [meals across the stay](/corporate-catering). How to brief the house, the dates, and the dietary notes is [how to brief it](/help/corporate-guide).',
       `Staffing is not folded into the dinner. A server and a sous chef show as their own lines on the quote. A bartender or butler is quoted in writing. There is no hourly figure for either. Open [staffing](/staffing) before you assume a floor. The card is [pricing](/pricing). Quotes are open on [the quote form](/quote). A Gold Coast dining room and a Ko Olina villa do not share a freight plan. Write the building with the format. Desk: ${desk}.`,
+      '## How an Oʻahu offsite day runs',
+      `Send headcount, dates, meals, the Honolulu, Kailua, or Ko Olina house, and parking or access. The written total is ${signatureGuestBand('oahu')} a guest or Stay Chef from ${stayChefUsd('oahu')} a day, before a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines, with a server at $${STAFFING.serverHourly}/hr or a sous chef at $${STAFFING.sousHourly}/hr only as a quoted line. A 50% deposit follows a written yes. Signature groceries stay inside the band. Stay Chef adds them at cost with receipts on [pricing](/pricing). Gratuity is never required.`,
+      '[Company offsite](/corporate) is the multi-day house stay. [Corporate catering](/corporate-catering) is one dinner. [The brief](/help/corporate-guide) is what to send. [Request a written quote](/quote).',
     ],
     faqs: [
       {
@@ -82,6 +86,9 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
       'Villa offsites and crew meals sit in residences. We do not staff a resort banquet room because the group is already on property.',
       'This page is the Villa Week overview: a company offsite or a retreat cooked in the rented house. One company dinner night is [one company dinner](/events/corporate-events). Catered meals for the team across the stay are [meals across the stay](/corporate-catering). How to brief the shore, the dates, and the dietary notes is [how to brief it](/help/corporate-guide).',
       `The quote lists people separately from food. Server hours and sous-chef hours are their own lines. A lanai bartender is quoted in writing, with no hourly figure on the card. Read [staffing](/staffing). Numbers are on [pricing](/pricing). A wet lawn stays in the house you named. It does not become a hotel ballroom. Quotes are open. Put Wailea or West Maui on [the quote form](/quote). Desk: ${desk}.`,
+      '## How a Maui villa offsite runs',
+      `Name headcount, dates, meals, and the Wailea, Kapalua, or Kāʻanapali villa. The written total is ${signatureGuestBand('maui')} a guest or Stay Chef from ${stayChefUsd('maui')} a day, before a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines, with a server at $${STAFFING.serverHourly}/hr or a sous chef at $${STAFFING.sousHourly}/hr only as a quoted line. A 50% deposit follows a written yes. The villa dinner's shop stays in that guest price. Stay Chef bills the market at cost with receipts on [pricing](/pricing). Gratuity is never required.`,
+      '[This page](/corporate) is the multi-day villa stay. [Corporate catering](/corporate-catering) is one dinner. [The brief](/help/corporate-guide) covers arrival night. [Request a written quote](/quote).',
     ],
     faqs: [
       {
@@ -131,6 +138,9 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
       'A named shore is not a confirmation. Send dates on the quote form.',
       'This page is the overview for a Garden Isle company offsite or retreat in the rented estate. One company dinner night is [one company dinner](/events/corporate-events). Catered meals for the team across the stay are [meals across the stay](/corporate-catering). How to brief the shore, the bridge, and the dietary notes is [how to brief it](/help/corporate-guide).',
       `Request availability. If you want people beyond the chef, say so: server and sous-chef lines are written apart from the menu, and a bartender is quoted in writing. See [staffing](/staffing). The card is [pricing](/pricing). Use [the quote form](/quote) and request availability for one shore. A closure on the Hanalei bridge moves a north-shore night. It does not silently become Poʻipū. Desk: ${desk}.`,
+      '## How a Kauaʻi offsite day runs',
+      `Request availability with headcount, dates, the estate, and which meals. Princeville or Hanalei needs covered space for rain. Name the shore. The written total is ${signatureGuestBand('kauai')} a guest or Stay Chef from ${stayChefUsd('kauai')} a day, before a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines, with a server at $${STAFFING.serverHourly}/hr or a sous chef at $${STAFFING.sousHourly}/hr only as a quoted line. A 50% deposit follows a written yes. Either shore's dinner includes the buy. Store slips for a multi-day cook are at cost on [pricing](/pricing). Gratuity is never required.`,
+      '[This page](/corporate) is the multi-day stay. [Corporate catering](/corporate-catering) is one dinner. [The brief](/help/corporate-guide) names the shore. [Request availability](/quote).',
     ],
     faqs: [
       {
@@ -171,7 +181,7 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
     h1: 'Company retreat in a Kona or Kohala house.',
     title: 'Company retreat in a Kona house | myCHEF',
     description:
-      'A company offsite or retreat in a rented Kona, Waikoloa, or Kohala house. Hilo is a separate day. Join the inquiry list. One dinner night has its own page.',
+      'A company offsite or retreat in a Kona, Waikoloa, or Kohala house. Hilo is a separate day. Join the inquiry list. One dinner night has its own page.',
     lede: 'Hawaiʻi Island west-side villa offsites at inquiry.',
     kicker: 'Hawaiʻi Island · Offsites',
     photo: 'corpIndexBigisland',
@@ -180,6 +190,9 @@ export const islandCorporate: Record<IslandId, IslandNestedIndexPage> = {
       'East side is a dedicated day. Ironman weeks compress lodging, not a fake kitchen promise.',
       'This page is the overview for a company offsite or retreat in a rented west-side house. One company dinner night is [one company dinner](/events/corporate-events). Catered meals for the team across the stay are [meals across the stay](/corporate-catering). How to brief the address, the dates, and the dietary notes is [how to brief it](/help/corporate-guide). Hilo is a dedicated day, and it is not implied.',
       `Join the inquiry list. Staffing, if you need it, is requested as lines: a server, a sous chef, and any bartender quoted in writing. Open [staffing](/staffing). The card is [pricing](/pricing). Send the west-side address on [the quote form](/quote). Ironman weeks need an early flag because lodging and grocery windows compress. They do not add a kitchen we have not seen. Desk: ${desk}.`,
+      '## How a Kona offsite day runs',
+      `Join the inquiry list with headcount, dates, meals, and a Kona or Kohala house. Hilo is a separate dedicated day. The written total is ${signatureGuestBand('bigisland')} a guest or Stay Chef from ${stayChefUsd('bigisland')} a day, before a 20% service charge and Hawaiʻi GET up to 4.712% on their own lines, with a server at $${STAFFING.serverHourly}/hr or a sous chef at $${STAFFING.sousHourly}/hr only as a quoted line. A 50% deposit follows a written yes. The band includes the shop. Stay Chef bills groceries at cost with receipts on [pricing](/pricing). Gratuity is never required.`,
+      '[This page](/corporate) is the multi-day stay. [Corporate catering](/corporate-catering) is one dinner. [The brief](/help/corporate-guide) is the address. [Join the inquiry list](/quote).',
     ],
     faqs: [
       {
