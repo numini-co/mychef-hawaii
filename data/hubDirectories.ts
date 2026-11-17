@@ -2,7 +2,7 @@ import { SEARCH_VOLUMES } from './offers';
 import type { PhotoKey } from './photos';
 import { hubNestedDirectories, HUB_NESTED_PATHS } from './hubNestedDirectories';
 import { hubEditorialDirectories, HUB_EDITORIAL_PATHS } from './hubEditorialDirectories';
-import { bigIslandSimplerDinner, signatureGuestBand, stayChefUsd, STAFFING } from './rateCard';
+import { bigIslandSimplerDinner, getTiers, signatureGuestBand, stayChefUsd, STAFFING } from './rateCard';
 import { DESK_EMAIL, DESK_PHONE_DISPLAY, DESK_TEL, DESK_WHATSAPP } from '@/lib/contact';
 
 const oahuSig = signatureGuestBand('oahu');
@@ -14,6 +14,11 @@ const oahuStay = stayChefUsd('oahu');
 const mauiStay = stayChefUsd('maui');
 const kauaiStay = stayChefUsd('kauai');
 const biStay = stayChefUsd('bigisland');
+const oahuCore = getTiers('oahu').find((row) => row.tier === 'CORE');
+if (!oahuCore) throw new Error('Oʻahu signature band missing');
+const exampleGuests = 8;
+const exampleLow = (oahuCore.band[0] * exampleGuests).toLocaleString('en-US');
+const exampleHigh = (oahuCore.band[1] * exampleGuests).toLocaleString('en-US');
 const serverHr = STAFFING.serverHourly;
 const sousHr = STAFFING.sousHourly;
 const minHours = STAFFING.minimumHours;
@@ -832,7 +837,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
   privateChefCost: {
     path: '/private-chef-cost',
     h1: 'Fee stack explainers, by island.',
-    title: 'Fee stack explainers, by island | myCHEF Hawaii',
+    title: 'Private chef cost in Hawaii, by island | myCHEF Hawaii',
     description:
       'What a private chef costs in Hawaii: the per-guest band, 20% service, GET up to 4.712%, and a 50% deposit. Each island writes the total before you pay.',
     lede:
@@ -845,6 +850,11 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       'Service 20% and GET are their own lines. Travel prints when it applies. The written quote is the confirmed total.',
       'Two grocery models, never blended. A Signature dinner keeps the shop inside that island band. A Stay Chef day bills groceries at cost with merchant receipts. Oʻahu and Maui take written quotes. Kauaʻi and Hawaiʻi Island stay inquiry.',
       'Each island’s pricing page remains the card.',
+      '## How a Hawaii private chef total is built',
+      `Signature dinners include groceries. Oʻahu is ${oahuSig} a guest, before 20% service charge and Hawaiʻi GET up to 4.712%. Maui is ${mauiSig} a guest, before 20% service charge and Hawaiʻi GET up to 4.712%. Kauaʻi is ${kauaiSig} a guest, before 20% service charge and Hawaiʻi GET up to 4.712%. Hawaiʻi Island is ${biSig} a guest, before 20% service charge and Hawaiʻi GET up to 4.712%.`,
+      `Stay Chef is ${oahuStay} Oʻahu, ${mauiStay} Maui, ${kauaiStay} Kauaʻi, and ${biStay} Hawaiʻi Island, plus groceries at cost with receipts.`,
+      `Example: ${exampleGuests} guests at Oʻahu’s ${oahuSig} band = $${exampleLow}–$${exampleHigh} before service charge and GET. A 50% deposit follows a written yes. Gratuity is never required.`,
+      'Travel beyond the base zone is on [Oʻahu pricing](oahu:/pricing), [Maui pricing](maui:/pricing), [Kauaʻi pricing](kauai:/pricing), and [Hawaiʻi Island pricing](bigisland:/pricing), with no figure here. Oʻahu and Maui take a written quote. Kauaʻi: request availability. Hawaiʻi Island: join the inquiry list, west side first.',
     ],
     faqs: [
       {
@@ -1101,7 +1111,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     h1: 'House offsite catering in Hawaii.',
     title: 'House offsite catering in Hawaii | myCHEF',
     description:
-      'Catered team meals in a house, chosen by island. Oʻahu and Maui take a written quote. Kauaʻi: request availability. Hawaiʻi Island: join the inquiry list.',
+      'Catered team meals in a house, by island. Oʻahu and Maui take a written quote. Kauaʻi: request availability. Hawaiʻi Island: join the inquiry list.',
     lede:
       'Not HCC citywides — those are closed through 2027 and are not our product.',
     kicker: 'Statewide · Offsite catering',
@@ -1110,11 +1120,16 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
     body: [
       'This page routes a house offsite. It does not cook it. Oʻahu and Maui take a written quote. Kauaʻi takes a request for availability. Hawaiʻi Island takes an inquiry, west side first, and Hilo is not inside that request. A multi-island offsite is quoted per island: one coordinator, separate crews, no same-day crossing.',
       `Open the island that has the house: [Oʻahu offsites](oahu:/corporate), [Maui offsites](maui:/corporate), [Kauaʻi offsites](kauai:/corporate), [Hawaiʻi Island offsites](bigisland:/corporate). Each of those pages chooses the format — one executive dinner, a house offsite night, or a full-board retreat — and points at the planning brief. Desk: ${desk}.`,
+      '## Which island page to open for a company meal',
+      'Oʻahu takes a written quote for a Kahala or Ko Olina house. Open [one company dinner or catered day](oahu:/corporate-catering), [a multi-day offsite](oahu:/corporate) in one house, and [the brief](oahu:/help/corporate-guide). Include building rules.',
+      'Maui takes a written quote, including a Wailea or West Maui arrival night. Open [one company dinner](maui:/corporate-catering), [a multi-day offsite](maui:/corporate) in one villa, and [the brief](maui:/help/corporate-guide).',
+      'On Kauaʻi, request availability. Name Princeville or Poʻipū, plus rain cover or the Hanalei bridge if the estate is north. Open [one company dinner](kauai:/corporate-catering), [a multi-day offsite](kauai:/corporate), and [the brief](kauai:/help/corporate-guide).',
+      'On Hawaiʻi Island, join the inquiry list, west side first. Open [one company dinner](bigisland:/corporate-catering), [a multi-day offsite](bigisland:/corporate), and [the brief](bigisland:/help/corporate-guide). Hilo is a separate dedicated east-side day.',
     ],
     faqs: [
       {
         q: 'Do you staff HCC citywides?',
-        a: 'No. Citywides are closed through 2027 and are not the product. Other islands say it on the what-we-don’t-do list.',
+        a: 'No. Citywides are closed through 2027 and are not the product. This page routes a house meal, not a convention hall. Other islands say the same limit on the what-we-don’t-do list.',
       },
       {
         q: 'Which islands take an offsite quote, and which take an inquiry?',
@@ -1134,7 +1149,7 @@ export const hubDirectories: Record<HubDirectoryId, HubDirectory> = {
       },
       {
         q: 'How do I start an offsite on more than one island without treating them as one booking?',
-        a: `Name one island per night on [the quote form](/quote), or open that island’s corporate page first. Desk: ${desk}.`,
+        a: `Name one island per night on [the quote form](/quote), or open that island’s corporate page first. Do not file two islands as one booking. Desk: ${desk}.`,
       },
     ],
   },

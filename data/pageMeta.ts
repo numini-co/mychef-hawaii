@@ -271,7 +271,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
       'Household chef by island: daily cooking and meal prep for one home. Oʻahu and Maui quote. Kauaʻi and Hawaiʻi Island: request availability.',
   },
   '/private-chef-cost': {
-    title: 'Fee stack explainers, by island | myCHEF Hawaii',
+    title: 'Private chef cost in Hawaii, by island | myCHEF Hawaii',
     description:
       'What a private chef costs in Hawaii: the per-guest band, 20% service, GET up to 4.712%, and a 50% deposit. Each island writes the total before you pay.',
   },
@@ -303,7 +303,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/corporate-catering': {
     title: 'House offsite catering in Hawaii | myCHEF',
     description:
-      'Catered team meals in a house, chosen by island. Oʻahu and Maui take a written quote. Kauaʻi: request availability. Hawaiʻi Island: join the inquiry list.',
+      'Catered team meals in a house, by island. Oʻahu and Maui take a written quote. Kauaʻi: request availability. Hawaiʻi Island: join the inquiry list.',
   },
   '/events/birthdays': {
     title: 'Birthday dinner with a private chef in Hawaii | myCHEF',
