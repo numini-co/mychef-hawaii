@@ -588,6 +588,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/oahu-in-december-guide', label: 'Oʻahu in December guide' },
         { path: '/blog/christmas-in-honolulu-dinner', label: 'Christmas in Honolulu' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/catering', label: 'Oahu catering' },
@@ -695,6 +696,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/oahu-in-december-guide', label: 'Oʻahu in December guide' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/catering', label: 'Oahu catering' },
         { path: '/', label: 'Private chef Oahu' },
@@ -1990,6 +1992,119 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Oahu' },
       ],
     },
+    {
+      feature: true,
+      slug: 'oahu-in-december-guide',
+      keyword: 'oahu in december',
+      datePublished: '2026-11-18',
+      name: 'Oʻahu in December',
+      h1: 'Oʻahu in December — weather, events, surf and dinners at the house.',
+      title: 'Oahu in December 2026 — Weather, Events & Dinners | myCHEF',
+      description:
+        'Oʻahu in December 2026: weather by coast, North Shore surf, City Lights, the Honolulu Marathon, Pearl Harbor at 85, and dinners at your rental.',
+      lede:
+        'Oʻahu in December is busy, festive and a little wetter than the rest of the year. The month opens with Honolulu City Lights, brings the Honolulu Marathon and the 85th Pearl Harbor anniversary, and ends with the island’s peak holiday weeks. This guide covers the weather on each coast, what is on during December 2026, how to plan around the crowds and the closures, and how dinners at the house fit in, with what they cost with us. We do not sell tours or tickets and have no venue partners.',
+      photo: 'oahuEstate',
+      body: [],
+      sections: [
+        {
+          heading: 'What is the weather like on Oʻahu in December?',
+          paras: [
+            'December falls in Hawaiʻi’s wetter season, but on Oʻahu that rarely means a washed-out week. Days are still warm and most showers are short. The windward side, from Kāneʻohe to Kailua, and the mountain valleys get the most rain. The leeward and south shores, including Waikīkī, Kahala and Ko Olina, are usually drier and sunnier.',
+            'Evenings are cooler than in summer and the sun sets before 6 p.m., so outdoor dinners start earlier. Keep the covered lānai or the dining room as the backup when a passing shower comes through, and pack a light layer for evenings on the windward side.',
+          ],
+        },
+        {
+          heading: 'North Shore surf and ocean safety',
+          paras: [
+            'Winter is big-wave season on the North Shore. From around November the swells arrive, and the beaches from Haleʻiwa to Sunset can see huge surf, with big-wave contests waiting for the right conditions. Watching from the sand is a great day out, but the shorebreak and currents are dangerous, so stay out of the water when lifeguards post warnings.',
+            'The south shore around Waikīkī and Ala Moana is usually calmer in December, which suits families and swimmers. Parking and traffic on the North Shore get heavy on big-swell days, so leave early. Our [Haleʻiwa restaurants guide](/blog/haleiwa-restaurants-dining-guide) covers food on that side of the island.',
+          ],
+        },
+        {
+          heading: 'Whale season begins',
+          paras: [
+            'December is also the start of humpback whale season in Hawaiʻi. Sightings build through the month and usually peak in the first months of the year. On clear days you can often spot spouts from high points along the south and east shores. Federal rules protect the whales, so boats and swimmers must keep their distance.',
+          ],
+        },
+        {
+          heading: 'What is on in December 2026',
+          paras: [
+            'Honolulu City Lights opens on Saturday, December 5, 2026. The opening night starts with a block party on Punchbowl Street and the Frank F. Fasi Civic Center grounds from 4 p.m., the Public Workers’ Electric Light Parade sets off from ʻAʻala Park along King Street at around 6 p.m., and the holiday tree at Honolulu Hale is lit as the parade passes. The displays then stay open daily from 8 a.m. to 10 p.m. through December.',
+            'The 85th anniversary of the attack on Pearl Harbor falls on Monday, December 7, 2026. The National Pearl Harbor Remembrance Ceremony runs from 7:30 to 9 a.m. on the lawn of the Pearl Harbor National Memorial. No tickets are needed, gates open at 6:15 a.m., and most public seating is first come, first served. Organizers say USS Arizona Memorial boats that day run from noon to 3:30 p.m. on a first-come basis, with no advance reservations released, and the usual parking fee is waived.',
+            'The JAL Honolulu Marathon is on Sunday, December 13, 2026, with a 5 a.m. start on Ala Moana Boulevard and the finish in Kapiʻolani Park. The Kalākaua Merrie Mile runs on Saturday, December 12. Expect road closures through Waikīkī and along the course that morning, and busy restaurants and hotels across marathon weekend.',
+            'Christmas and New Year are the island’s biggest family holidays. Our [Christmas in Honolulu guide](/blog/christmas-in-honolulu-dinner) and [New Year’s Eve in Honolulu guide](/blog/new-years-eve-honolulu-dinner) cover those two weeks in detail.',
+          ],
+        },
+        {
+          heading: 'Early December versus the holiday weeks',
+          paras: [
+            'The first half of December is one of the easier times to visit Oʻahu. Flights and rentals are often easier to find, and restaurants are less crowded outside the City Lights opening, Pearl Harbor and marathon dates. From around the third week, the holiday rush starts, and the days between Christmas and New Year are the island’s peak.',
+            'For those weeks, book flights, rental cars, houses and any special dinners early. Many businesses shorten their hours on Christmas Eve and New Year’s Eve and close on Christmas Day, so plan where you will eat on those days before you fly. Large groups find it hardest: a table for twelve on December 26 is rare.',
+          ],
+        },
+        {
+          heading: 'Where to stay on Oʻahu in December',
+          paras: [
+            'Waikīkī and Honolulu put City Lights, the marathon and most restaurants close by; see our [Honolulu restaurants guide](/blog/honolulu-restaurants-neighborhood-guide). Kahala and the Diamond Head side are quieter but still close to town. Ko Olina, on the west side, is usually the driest and sunniest base, and the North Shore is for people who want to watch the surf and do not mind the drive.',
+          ],
+        },
+        {
+          heading: 'Eating well on Oʻahu in December',
+          paras: [
+            'With early sunsets, busy restaurants and a lot of family travel, many groups eat in for the big nights of the trip. A [private chef Honolulu](/private-chef) dinner is planned with you before you arrive, shopped on the day, cooked and served in your kitchen, and the kitchen is cleaned before we leave. Fish is named as the species we actually bought that week.',
+            'For a family reunion, a company holiday party or a wedding-week dinner with more guests, [Oahu catering](/catering) adds servers and a sous-chef. Tables, linens, tents and rentals are not included unless you ask for them, and then they are quoted as separate lines.',
+          ],
+        },
+        {
+          heading: 'What does a December dinner at the house cost with us?',
+          paras: [
+            'Signature dinners on Oʻahu are published at $195–$290 a guest with groceries included, for a minimum party of six, and a simpler menu for eight or more starts at $145–$195 a guest. A dinner for two starts from $675 per event, and Stay Chef days start from $1,250 for a chef and an assistant cooking one meal, with groceries billed at cost. North Shore and Turtle Bay addresses carry a published travel line from $75.',
+            'A 20% service charge and Hawaiʻi GET of up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. Event staff are $80 an hour for servers and $105 an hour for a sous-chef, on four- to five-hour minimums. The full card is on [Oahu private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan a December dinner',
+          paras: [
+            'Send the address, the dates, the guest count and any allergies through the quote form, or message us on WhatsApp at +1 808-468-7748. Tell us if your stay overlaps City Lights, Pearl Harbor or marathon weekend, and we will plan the timing around it. We reply in writing with a menu direction and a total. For dinners anywhere on the island, see [private chef Oahu](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Is December a good time to visit Oʻahu?',
+          a: 'Yes. It is warm, festive and busy. Early December is quieter, and the weeks around Christmas and New Year are the island’s peak, so book those early.',
+        },
+        {
+          q: 'Does it rain a lot on Oʻahu in December?',
+          a: 'December is in the wetter season, but most showers are short. The windward side gets the most rain, while Waikīkī, Kahala and Ko Olina are usually drier.',
+        },
+        {
+          q: 'When is Honolulu City Lights in 2026?',
+          a: 'Opening night is Saturday, December 5, 2026, with the Electric Light Parade on King Street and the tree lighting at Honolulu Hale. The displays stay open daily through December.',
+        },
+        {
+          q: 'When is the 2026 Honolulu Marathon?',
+          a: 'Sunday, December 13, 2026, starting at 5 a.m. on Ala Moana Boulevard and finishing in Kapiʻolani Park. Expect road closures through Waikīkī that morning.',
+        },
+        {
+          q: 'Can I visit the USS Arizona Memorial on December 7, 2026?',
+          a: 'Organizers say boats run from noon to 3:30 p.m. that day on a first-come basis, with no advance reservations released. The morning ceremony needs no ticket.',
+        },
+        {
+          q: 'How much is a private chef dinner on Oʻahu in December?',
+          a: 'Signature dinners are $195–$290 a guest with groceries included, minimum six. Service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/blog/christmas-in-honolulu-dinner', label: 'Christmas in Honolulu guide' },
+        { path: '/blog/new-years-eve-honolulu-dinner', label: 'New Year’s Eve in Honolulu guide' },
+        { path: '/private-chef', label: 'Private chef Honolulu' },
+        { path: '/catering', label: 'Oahu catering' },
+        { path: '/pricing', label: 'Oahu private chef cost' },
+        { path: '/', label: 'Private chef Oahu' },
+      ],
+    },
   ],
   maui: [
     {
@@ -2671,6 +2786,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/napili-restaurants-west-maui-guide', label: 'Nāpili restaurants guide' },
         { path: '/blog/maui-whale-watching-season-guide', label: 'Maui whale watching season guide' },
         { path: '/blog/maui-luau-villa-dinner-guide', label: 'Maui luau guide' },
         { path: '/blog/kapalua-restaurants-dining-guide', label: 'Kapalua restaurants guide' },
@@ -2911,6 +3027,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/napili-restaurants-west-maui-guide', label: 'Nāpili restaurants guide' },
         { path: '/private-chef', label: 'Personal chef Maui' },
         { path: '/catering', label: 'Maui catering' },
         { path: '/', label: 'Private chef Maui' },
@@ -3973,6 +4090,116 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Maui' },
       ],
     },
+    {
+      feature: true,
+      slug: 'napili-restaurants-west-maui-guide',
+      keyword: 'napili restaurants',
+      datePublished: '2026-11-18',
+      name: 'Nāpili restaurants guide',
+      h1: 'Nāpili restaurants — how West Maui’s quiet bay eats, and when to dine in.',
+      title: 'Napili Restaurants — West Maui Dining Guide | myCHEF',
+      description:
+        'Nāpili restaurants explained: the bay, the plaza up the hill, Kahana and Honokōwai nearby, sunset timing, groups, and when a villa dinner is easier.',
+      lede:
+        'Nāpili restaurants are few, and that is part of the appeal. Nāpili is a small bay community in West Maui, between Kahana and Kapalua, built around a crescent beach and low-rise condos rather than a resort strip. This guide explains how eating in Nāpili works, where the nearest choices are, how to time sunset and the drive, and when a dinner cooked at your villa is the better night. We do not name or rank restaurants, take commissions or have restaurant partners.',
+      photo: 'dinNapili',
+      body: [],
+      sections: [
+        {
+          heading: 'Where is Nāpili, and what is it like?',
+          paras: [
+            'Nāpili sits on the northwest coast of Maui, past Kāʻanapali, Honokōwai and Kahana and just south of Kapalua. Lower Honoapiʻilani Road runs along the shore, and the main Honoapiʻilani Highway runs above it. Most visitors stay in condos and small resorts around Nāpili Bay, a sheltered crescent of sand that is popular for swimming and snorkeling when the ocean is calm.',
+            'The bay faces west toward Molokaʻi, so sunset is the main event of the day. It is quiet at night: there is no busy main street, and most people walk to the beach for sunset and then eat at home or at one of a handful of places nearby.',
+          ],
+        },
+        {
+          heading: 'What are Nāpili restaurants like?',
+          paras: [
+            'Expect a short list. Around the bay there are beachfront resort dining rooms that serve breakfast, lunch and a sunset dinner, plus a well-known breakfast spot by the water that often has a line in the morning. Up the hill, where Napilihau Street meets the highway, a small shopping plaza has a grocery store open from early morning to evening, a poke and deli counter, a coffee shop and several casual takeout kitchens.',
+            'That mix suits Nāpili well. Breakfast and lunch are easy, and many visitors pick up poke or plate lunch and eat on the lānai. Dinner is where the choice runs out, especially if you want a sit-down meal for a larger group.',
+          ],
+        },
+        {
+          heading: 'Kahana, Honokōwai and Kapalua nearby',
+          paras: [
+            'If you want more choice, head a few minutes south. Kahana and Honokōwai have more casual restaurants, bars, food trucks and a larger supermarket, all along Lower Honoapiʻilani Road and the highway. North of Nāpili, Kapalua has resort dining rooms and a golf clubhouse restaurant; our [Kapalua restaurants guide](/blog/kapalua-restaurants-dining-guide) explains that end of the coast.',
+            'Further south, Kāʻanapali has the largest concentration of resort restaurants in West Maui; see the [Kāʻanapali restaurants guide](/blog/kaanapali-restaurants-dining-guide). Lahaina town is still rebuilding after the August 2023 wildfire, and many of its former restaurants are gone or have moved, so check current information before you plan a meal there and be respectful of the community.',
+          ],
+        },
+        {
+          heading: 'Sunset, reservations and timing',
+          paras: [
+            'Sunset tables at the beachfront dining rooms are the hardest to get, especially from December through March, when West Maui is busiest and humpback whales are often visible offshore. Book those as soon as you know your dates. Breakfast lines are shortest early, and the casual counters up the hill are easiest before the lunch rush.',
+            'Parking along the bay is limited, so walking from your condo is often easier than driving down. Most kitchens close earlier than in a city, so a late dinner after a day at Kāʻanapali or the Road to Hāna can leave you with few options.',
+          ],
+        },
+        {
+          heading: 'Getting there and stocking the kitchen',
+          paras: [
+            'Most visitors fly into Kahului and drive about an hour to Nāpili, longer in afternoon traffic, on the Honoapiʻilani Highway, which is the main road into West Maui. Stocking up at the big stores in Kahului on the way in saves money, and the grocery up the hill in Nāpili covers top-ups through the week. Our [Maui grocery stores guide](/blog/maui-grocery-stores-villa-guide) explains where to shop across the island.',
+            'Condo kitchens in Nāpili range from full kitchens to a compact galley. Check that yours has a working oven and enough plates before you plan to cook for a group.',
+          ],
+        },
+        {
+          heading: 'Eating out with a group or with children',
+          paras: [
+            'Small groups and couples do fine in Nāpili, especially for breakfast and lunch. Groups of eight or more find it harder: the dining rooms by the bay are not large, sunset seatings fill first, and splitting a family reunion across two tables or two sittings is common. If you do plan a group dinner out, book well ahead and ask about set menus and deposits.',
+            'Families with young children often prefer an early dinner. Eating at five, before the sunset rush, is easier than waiting for a table at seven, and takeout from the plaza on the lānai is a perfectly good Nāpili night.',
+          ],
+        },
+        {
+          heading: 'When a villa dinner is the better night',
+          paras: [
+            'With few restaurants and sunset tables in short supply, many groups make one or two nights of the week a dinner at the condo or villa. A [personal chef Maui](/private-chef) dinner is planned with you before you arrive, shopped on the day, cooked and served in your kitchen, and the kitchen is cleaned before we leave. You keep the lānai, the sunset and the view of Molokaʻi without a drive or a wait. Fish is named as the species we actually bought that week.',
+            'Nāpili is a base zone for us, so no travel line applies; our [private chef Nāpili](/napili) page explains how that evening runs. For a wedding week, a reunion or a larger group at an estate, [Maui catering](/catering) adds servers and a sous-chef. Tables, linens, tents and rentals are not included unless you ask for them, and then they are quoted as separate lines.',
+          ],
+        },
+        {
+          heading: 'What does a villa dinner in Nāpili cost with us?',
+          paras: [
+            'Signature dinners on Maui are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler menu runs $190–$225 a guest. A dinner for two starts from $750 per event, and Stay Chef days start from $1,550 for a chef and an assistant cooking one meal, with groceries billed at cost.',
+            'A 20% service charge and Hawaiʻi GET of up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Maui private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan your Nāpili week',
+          paras: [
+            'A pattern that works: night one is takeout from the plaza after the flight, night two is a sunset dinner you booked weeks ahead, and the night of your biggest day out is dinner at the house. Send the address, the dates, the guest count and any allergies through the quote form, or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total. For dinners anywhere on the island, see [private chef Maui](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Are there many restaurants in Nāpili?',
+          a: 'Not many. There are beachfront resort dining rooms, a busy breakfast spot by the bay and casual counters in the plaza up the hill. Kahana and Honokōwai, a few minutes south, have more choice.',
+        },
+        {
+          q: 'Is there a grocery store in Nāpili?',
+          a: 'Yes. A grocery store in the plaza at Napilihau Street and the highway is open from early morning to evening, with a poke and deli counter. Larger supermarkets are in Honokōwai and Kahului.',
+        },
+        {
+          q: 'Do I need reservations for dinner in Nāpili?',
+          a: 'For sunset tables, yes, especially from December through March. Book as soon as you know your dates.',
+        },
+        {
+          q: 'How far is Nāpili from Kahului Airport?',
+          a: 'About an hour by car on the Honoapiʻilani Highway, and longer in afternoon traffic.',
+        },
+        {
+          q: 'Can a private chef cook in a Nāpili condo?',
+          a: 'Yes, when the kitchen has a working stove or range and a table for your group. Nāpili is a base zone for us, so no travel line applies.',
+        },
+      ],
+      related: [
+        { path: '/blog/kapalua-restaurants-dining-guide', label: 'Kapalua restaurants guide' },
+        { path: '/blog/kaanapali-restaurants-dining-guide', label: 'Kāʻanapali restaurants guide' },
+        { path: '/napili', label: 'Private chef Nāpili' },
+        { path: '/private-chef', label: 'Personal chef Maui' },
+        { path: '/catering', label: 'Maui catering' },
+        { path: '/pricing', label: 'Maui private chef cost' },
+        { path: '/', label: 'Private chef Maui' },
+      ],
+    },
   ],
   kauai: [
     {
@@ -4190,6 +4417,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-brunch-guide', label: 'Kauaʻi brunch guide' },
         { path: '/blog/kauai-grocery-stores-villa-guide', label: 'Kauaʻi grocery stores guide' },
         { path: '/', label: 'Private chef Kauai' },
         { path: '/private-chef', label: 'Personal chef Kauai' },
@@ -4777,6 +5005,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-brunch-guide', label: 'Kauaʻi brunch guide' },
         { path: '/blog/lihue-restaurants-dining-guide', label: 'Līhuʻe restaurants guide' },
         { path: '/private-chef', label: 'Personal chef Kauai' },
         { path: '/catering', label: 'Kauai catering' },
@@ -5958,6 +6187,114 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Kauai' },
       ],
     },
+    {
+      feature: true,
+      slug: 'kauai-brunch-guide',
+      keyword: 'kauai brunch',
+      datePublished: '2026-11-18',
+      name: 'Kauaʻi brunch guide',
+      h1: 'Kauaʻi brunch — where the island eats late breakfast, and how to host one at home.',
+      title: 'Kauai Brunch Guide — Where to Go & Brunch at Home | myCHEF',
+      description:
+        'Kauaʻi brunch by shore: local breakfast plates, early hours, weekend waits, group tables, and when a brunch at your rental is the easier morning.',
+      lede:
+        'Kauaʻi brunch is an early, easygoing meal. The island wakes up with the roosters, many cafés open early and close by early afternoon, and the best mornings often end at the beach. This guide explains what brunch looks like on Kauaʻi, where it happens on each shore, how to handle waits and bigger groups, and when it is simpler to have brunch served at the house you are staying in. We do not name or rank restaurants, take commissions or have restaurant partners.',
+      photo: 'occBrunchKauai',
+      body: [],
+      sections: [
+        {
+          heading: 'What does brunch look like on Kauaʻi?',
+          paras: [
+            'Brunch on Kauaʻi mixes a mainland-style menu with the local breakfast plate. Next to eggs, pancakes and avocado toast you will find loco moco, which is rice topped with a hamburger patty, a fried egg and brown gravy, plus Portuguese sausage with eggs and rice, Spam musubi, fried rice and banana bread. Açaí bowls and fresh papaya, pineapple and apple bananas are everywhere, and Hawaiʻi-grown coffee is easy to find.',
+            'Taro is part of the island’s food story too. The terraced taro fields of Hanalei Valley are one of the classic North Shore views, and taro shows up as poi and in baked goods. If you are cooking for yourselves, our [Kauaʻi farmers market guide](/blog/kauai-farmers-market-villa-week) explains where to buy fruit, eggs and island produce for the house.',
+          ],
+        },
+        {
+          heading: 'Where brunch happens, shore by shore',
+          paras: [
+            'The east side, from Līhuʻe up through Wailua and Kapaʻa, has the most choice: cafés, bakeries, breakfast diners and coffee bars along the Kūhiō Highway. It is a convenient first breakfast after an early arrival, close to the airport. Our [Kapaʻa restaurants guide](/blog/kapaa-restaurants-dining-guide) explains the Coconut Coast in more detail.',
+            'On the South Shore, Kōloa and Poʻipū have resort breakfast rooms, cafés and casual spots that fill up before beach time; see the [Poʻipū restaurants guide](/blog/poipu-restaurants-dining-guide). On the North Shore, Hanalei and Princeville have a small number of breakfast places that get busy quickly, especially on weekends. On the west side, Hanapēpē and Waimea are the last stops for breakfast before the drive up Waimea Canyon.',
+          ],
+        },
+        {
+          heading: 'Early hours, waits and timing',
+          paras: [
+            'Many Kauaʻi breakfast spots open early and close by early afternoon, so brunch here usually means late morning, not mid-afternoon. Popular places can have a wait on weekends, and many do not take reservations for small groups. Arrive near opening or go on a weekday to keep the wait short.',
+            'Plan around the day. Hikers and canyon drivers eat early, beach days start mid-morning, and on the North Shore traffic at the one-lane Hanalei bridge can slow you down at busy times. Holiday mornings, such as Mother’s Day, Easter, Thanksgiving weekend and the days between Christmas and New Year, are the busiest of the year.',
+          ],
+        },
+        {
+          heading: 'Brunch with a group: when hosting at the house is easier',
+          paras: [
+            'A table for two or four is usually easy to find. A table for ten or more on a weekend morning is not: Kauaʻi cafés are small, and most cannot seat a big group together. For a family reunion, a wedding party or friends travelling together, that often means splitting across tables or waiting in shifts.',
+            'That is when brunch at the rental makes sense. The morning after a wedding, a birthday, Christmas morning, the day after a late arrival or a slow start before a beach day are common reasons. Everyone eats together, no one drives, and the kitchen is cleaned before we leave. Our page on [brunch at the house](/events/brunch) explains how we plan the morning.',
+          ],
+        },
+        {
+          heading: 'What a brunch at the rental looks like',
+          paras: [
+            'We plan the menu with you before the day: how many guests, any allergies, and whether you want a plated breakfast, family-style platters on the table or a buffet on the counter. A typical island brunch might start with tropical fruit and pastries, then eggs cooked to order or a baked egg dish, local-style fried rice, grilled fish or Portuguese sausage, and something sweet such as pancakes or banana bread. Fish is named as the species we actually bought that week.',
+            'A [personal chef Kauai](/private-chef) arrives with the groceries, cooks in your kitchen, serves and cleans up. For a larger group, [Kauai catering](/catering) adds servers and a sous-chef. Tables, linens, tents and rentals are not included unless you ask for them, and then they are quoted as separate lines.',
+          ],
+        },
+        {
+          heading: 'Beach mornings and breakfast to go',
+          paras: [
+            'On Kauaʻi many of the best mornings happen outdoors, so breakfast often travels. Bakeries and cafés on every shore sell pastries, banana bread, musubi and coffee to go, and a cooler with fruit, juice and something from the bakery makes an easy beach breakfast before the sun gets strong. Pack out everything you bring and keep food away from the feral chickens, which are bold around beach parks.',
+            'If you are heading up Waimea Canyon or out to the North Shore trails, eat early and carry water and snacks, since there are few places to buy food once you leave town. Plan a bigger late brunch for the day after a long hike, when nobody wants to get in the car.',
+          ],
+        },
+        {
+          heading: 'Where to stay for easy mornings',
+          paras: [
+            'If brunch out matters to your group, the east side has the most choice within a short drive. The South Shore suits families who want calmer winter water and a resort breakfast close by. The North Shore is the most beautiful and the most limited, and in winter it is also the wettest side, so a brunch at the house is a good plan for a rainy morning there.',
+          ],
+        },
+        {
+          heading: 'What does a brunch at the house cost with us?',
+          paras: [
+            'We do not publish a separate brunch price; brunch is quoted in writing for your date and guest count. As a reference, Stay Chef on Kauaʻi starts from $1,650 a day for a chef and an assistant cooking one meal, with groceries billed at cost and receipts handed over. Signature dinners are published at $225–$375 a guest with groceries included, for a minimum party of six. Event staff are $80 an hour for servers and $105 an hour for a sous-chef, on four- to five-hour minimums.',
+            'Princeville and Poʻipū add a published travel line of $50–$75, and the far North Shore is quoted case by case. A 20% service charge and Hawaiʻi GET of up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Kauai private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan a brunch at the house',
+          paras: [
+            'Send the address, the date, the guest count, any allergies and the time you want to eat through the quote form, or message us on WhatsApp at +1 808-468-7748. Kauaʻi is by inquiry: we confirm a crew before we confirm the date, so ask early for holiday mornings and wedding weekends. We reply in writing with a menu direction and a total. For meals anywhere on the island, see [private chef Kauai](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Where is the best area for brunch on Kauaʻi?',
+          a: 'The east side, from Līhuʻe to Kapaʻa, has the most cafés and breakfast spots. Poʻipū and Kōloa on the South Shore and Hanalei on the North Shore have fewer, busier places.',
+        },
+        {
+          q: 'Do Kauaʻi brunch spots take reservations?',
+          a: 'Many do not for small groups, and popular places can have a weekend wait. Arrive near opening or go on a weekday.',
+        },
+        {
+          q: 'What is a local Hawaiian breakfast?',
+          a: 'Local breakfast plates include loco moco, Portuguese sausage with eggs and rice, Spam musubi and fried rice, with papaya, pineapple, banana bread and island coffee on the side.',
+        },
+        {
+          q: 'Can a private chef cook brunch at our rental on Kauaʻi?',
+          a: 'Yes. We plan the menu with you, shop, cook in your kitchen, serve and clean up. Kauaʻi is by inquiry, so we confirm a crew before the date.',
+        },
+        {
+          q: 'How much does a private brunch at home cost on Kauaʻi?',
+          a: 'Brunch is quoted in writing. Stay Chef starts from $1,650 a day for a chef and an assistant cooking one meal, with groceries at cost. Service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/blog/kapaa-restaurants-dining-guide', label: 'Kapaʻa restaurants guide' },
+        { path: '/events/brunch', label: 'Brunch at the house' },
+        { path: '/private-chef', label: 'Personal chef Kauai' },
+        { path: '/catering', label: 'Kauai catering' },
+        { path: '/pricing', label: 'Kauai private chef cost' },
+        { path: '/', label: 'Private chef Kauai' },
+      ],
+    },
   ],
   bigisland: [
     {
@@ -6290,6 +6627,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kona-coffee-farm-tour-guide', label: 'Kona coffee farm tour guide' },
         { path: '/blog/kona-restaurants-dining-guide', label: 'Kona restaurants guide' },
         { path: '/', label: 'Private chef Big Island' },
         { path: '/private-chef', label: 'Private chef Kona' },
@@ -6520,6 +6858,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kona-coffee-farm-tour-guide', label: 'Kona coffee farm tour guide' },
         { path: '/blog/christmas-on-the-big-island-holiday-dinner', label: 'Christmas on the Big Island guide' },
         { path: '/blog/kona-manta-ray-night-snorkel-guide', label: 'Kona manta ray night snorkel guide' },
         { path: '/blog/thanksgiving-dinner-kona', label: 'Thanksgiving dinner in Kona' },
@@ -7941,6 +8280,120 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       ],
       related: [
         { path: '/blog/waimea-big-island-restaurants-guide', label: 'Waimea restaurants guide' },
+        { path: '/private-chef', label: 'Private chef Kona' },
+        { path: '/catering', label: 'Big Island catering' },
+        { path: '/pricing', label: 'Big Island private chef cost' },
+        { path: '/', label: 'Private chef Big Island' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'kona-coffee-farm-tour-guide',
+      keyword: 'kona coffee farm tour',
+      datePublished: '2026-11-18',
+      name: 'Kona coffee farm tour guide',
+      h1: 'Kona coffee farm tour — how to visit the coffee belt, and plan the day around it.',
+      title: 'Kona Coffee Farm Tour Guide — Visits & Tastings | myCHEF',
+      description:
+        'Kona coffee farm tour planning: where the coffee belt is, harvest season, what a tour and tasting include, how to read labels, and dinner after.',
+      lede:
+        'A Kona coffee farm tour is one of the easiest half-days on Hawaiʻi Island: a cool drive up the slope, a walk through the trees, a tasting and a bag of beans to take home. This guide explains where the coffee belt is, when to go, what tours usually include, how to read a Kona coffee label, and how to plan meals around the day. We do not sell tours, take commissions or have farm partners, and we do not name or rank farms.',
+      photo: 'dinHolualoa',
+      body: [],
+      sections: [
+        {
+          heading: 'Where is the Kona coffee belt?',
+          paras: [
+            'Kona coffee grows on the western slopes of Hualālai and Mauna Loa, above Kailua-Kona. The belt runs roughly 30 miles north to south, from North Kona through the village of Hōlualoa and down through Kealakekua and Captain Cook to Hōnaunau in South Kona. The Māmalahoa Highway, Route 180 above Kailua-Kona and Route 11 further south, links most of it.',
+            'The coffee grows in a narrow band of elevation, mostly between about 800 and 2,500 feet, where sunny mornings, afternoon clouds and volcanic soil suit the trees. Most of the several hundred farms are small family holdings, many under five acres, and a lot of them are hidden from the road.',
+          ],
+        },
+        {
+          heading: 'When is the best time for a coffee farm tour?',
+          paras: [
+            'Farms that welcome visitors are open year-round, but the season changes what you see. The coffee cherries ripen from about August to January, and pickers go through the trees by hand several times, because the cherries do not all ripen at once. During harvest you may see the mills running and beans drying on racks or decks.',
+            'In late winter and spring the trees flower with small white blossoms that locals call Kona snow. The Kona Coffee Cultural Festival is held in early November; the 2026 festival ran from November 6 to 15. A December visit still catches the late harvest, and mornings are cooler and quieter than afternoons for walking an orchard.',
+          ],
+        },
+        {
+          heading: 'What happens on a Kona coffee farm tour?',
+          paras: [
+            'Tours range from a short free walk and tasting to longer, paid, reservation-only visits. A typical visit covers the trees and the cherries, how the fruit is pulped, fermented, washed and dried, and how the beans are roasted, followed by a tasting of different roasts. Larger farms often have a tasting room and shop with set hours, while small farms may only take visitors by appointment.',
+            'Check the farm’s current hours before you go, and book ahead for groups or for an in-depth tour. Wear shoes you can walk in on uneven ground, bring water and sun protection, and remember that farms are working businesses and family homes.',
+          ],
+        },
+        {
+          heading: 'Visiting respectfully and buying beans',
+          paras: [
+            'Many Kona farms are family homes as well as businesses, so visit only farms that clearly welcome guests, stay on marked paths and do not pick cherries from the trees. Ask before taking photos of workers or private buildings, and keep to the parking areas you are shown.',
+            'Buying beans directly from the farm is the simplest way to know what you are getting and to support the grower. Ask about the roast date, the variety and whether the bag is estate coffee from that farm. Whole beans keep better than ground coffee on the trip home, and many farms will ship to the mainland if your luggage is already full.',
+          ],
+        },
+        {
+          heading: 'How to read a Kona coffee label',
+          paras: [
+            'Look for the words 100% Kona Coffee if you want coffee grown only in the Kona districts. Under Hawaiʻi law, a blend that uses the Kona name must state the percentage of Kona coffee on the label. Until June 30, 2027, that blend only needs to contain 10% coffee from the named origin; from July 1, 2027, the minimum rises to 51%.',
+            'That is why the bag you buy at the farm, which is usually 100% from that farm, tastes very different from an inexpensive blend at the airport. We follow the same rule in our kitchen: a menu card names Kona coffee only when we have the lot in writing, and otherwise it simply says coffee.',
+          ],
+        },
+        {
+          heading: 'Planning the day',
+          paras: [
+            'From Kailua-Kona, the upper coffee country around Hōlualoa is a short, winding drive up the hill. From the Kohala resorts, allow extra time each way. Route 180 is narrow, with bends and blind driveways, so take it slowly. A good plan is one or two farms in the morning, lunch in a coffee-country town, and the afternoon at the beach.',
+            'South Kona pairs well with Puʻuhonua o Hōnaunau National Historical Park at the southern end of the belt, and with snorkeling at Kealakekua Bay. If you want local produce for the house, our [Kona farmers market guide](/blog/kona-farmers-market-villa-week) explains where to shop, and the [Kona restaurants guide](/blog/kona-restaurants-dining-guide) covers eating out in town.',
+          ],
+        },
+        {
+          heading: 'Dinner after a day in coffee country',
+          paras: [
+            'After a morning on the slope and an afternoon at the beach, a quiet dinner at the house is often the best end to the day. A [private chef Kona](/private-chef) dinner is planned with you before you arrive, shopped on the day, cooked and served in your villa kitchen, and the kitchen is cleaned before we leave. Fish is named as the species we actually bought that week, and coffee can feature in a rub or a dessert.',
+            'If you are staying up the hill, our [Hōlualoa](/holualoa) page explains how dinners work in coffee country, where evenings are cooler than on the coast. For a group trip, a reunion or a retreat with more guests, [Big Island catering](/catering) adds servers and a sous-chef. Tables, linens, tents and rentals are not included unless you ask for them, and then they are quoted as separate lines.',
+          ],
+        },
+        {
+          heading: 'What does a villa dinner cost with us?',
+          paras: [
+            'Signature dinners on Hawaiʻi Island are published at $210–$325 a guest with groceries included, for a minimum party of six, and smaller table dinners start from $165 a guest. A dinner for two starts from $825 per event, and Stay Chef days start from $1,450 a day, with groceries billed at cost and receipts handed over. Addresses outside the Kona–Kohala corridor carry a published travel line from $75.',
+            'A 20% service charge and Hawaiʻi GET of up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Big Island private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan your Kona week',
+          paras: [
+            'Send the address, the dates, the guest count and any allergies through the quote form, or message us on WhatsApp at +1 808-468-7748, and tell us which day you plan to spend in coffee country. Hawaiʻi Island is by inquiry, so we confirm a crew before we confirm the date. We reply in writing with a menu direction and a total. For dinners anywhere on the west side, see [private chef Big Island](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Are Kona coffee farm tours free?',
+          a: 'Many farms offer a short free tour or tasting, and some run longer paid tours by reservation. Check each farm’s current hours and booking rules before you go.',
+        },
+        {
+          q: 'When is Kona coffee harvest season?',
+          a: 'The cherries ripen from about August to January and are picked by hand in several passes. The trees flower in late winter and spring.',
+        },
+        {
+          q: 'Where is the Kona coffee belt?',
+          a: 'On the slopes of Hualālai and Mauna Loa above Kailua-Kona, roughly 30 miles from North Kona through Hōlualoa to Hōnaunau, mostly between about 800 and 2,500 feet.',
+        },
+        {
+          q: 'What does Kona blend mean?',
+          a: 'A blend that uses the Kona name must show its Kona percentage. Until June 30, 2027 the minimum is 10%, rising to 51% from July 1, 2027. Look for 100% Kona Coffee for the real thing.',
+        },
+        {
+          q: 'How long does a coffee farm visit take?',
+          a: 'A short walk and tasting can take under an hour, and in-depth tours run longer. Many visitors combine one or two farms with lunch and a beach afternoon.',
+        },
+        {
+          q: 'Can a private chef cook dinner after our coffee farm day?',
+          a: 'Yes. We cook, serve and clean up at your villa. Hawaiʻi Island is by inquiry, so we confirm a crew before we confirm the date.',
+        },
+      ],
+      related: [
+        { path: '/blog/kona-restaurants-dining-guide', label: 'Kona restaurants guide' },
+        { path: '/blog/kona-farmers-market-villa-week', label: 'Kona farmers market guide' },
+        { path: '/holualoa', label: 'Hōlualoa' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/catering', label: 'Big Island catering' },
         { path: '/pricing', label: 'Big Island private chef cost' },

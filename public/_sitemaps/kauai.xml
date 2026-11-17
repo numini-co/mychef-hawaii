@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-11-16T23:19:21Z</lastmod>
+    <lastmod>2026-11-17T23:16:51Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -212,7 +212,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-11-16T23:19:21Z</lastmod>
+    <lastmod>2026-11-17T23:16:51Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -842,7 +842,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/kauai-farmers-market-villa-week</loc>
-    <lastmod>2026-10-26T23:17:13Z</lastmod>
+    <lastmod>2026-11-17T23:16:51Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -872,7 +872,7 @@
   </url>
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/kapaa-restaurants-dining-guide</loc>
-    <lastmod>2026-10-27T01:30:43Z</lastmod>
+    <lastmod>2026-11-17T23:16:51Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -933,6 +933,12 @@
   <url>
     <loc>https://kauai.mychef-hawaii.com/blog/kauai-in-december-guide</loc>
     <lastmod>2026-11-16T23:19:34Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://kauai.mychef-hawaii.com/blog/kauai-brunch-guide</loc>
+    <lastmod>2026-11-17T23:18:16Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
