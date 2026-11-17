@@ -157,6 +157,7 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       ],
       related: [
         { path: '/events/brunch', label: 'Brunch occasion' },
+        { path: '/blog/oahu-brunch-guide', label: 'Oʻahu brunch guide' },
         { path: '/vacation-chef', label: 'Vacation chef' },
         { path: '/menus', label: 'How menus are designed' },
       ],

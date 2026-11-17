@@ -330,6 +330,7 @@ export const fineDiningPages: Record<IslandId, FineDiningPage[]> = {
         { path: '/chefs-table', label: "Chef's table" },
         { path: '/fine-dining/tasting-menu', label: 'Tasting menu' },
         { path: '/south-maui', label: 'South Maui' },
+        { path: '/blog/maui-private-dining-guide', label: 'Maui private dining guide' },
       ],
     },
     {

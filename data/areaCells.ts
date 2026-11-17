@@ -1280,6 +1280,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
         { path: '/kohala-corridor', label: 'West-side communities' },
         { path: '/pricing', label: 'Rate card' },
         { path: '/blog/hawi-restaurants-north-kohala-guide', label: 'Hāwī & North Kohala restaurants' },
+        { path: '/blog/mauna-kea-stargazing-guide', label: 'Mauna Kea stargazing guide' },
       ],
     },
     {
