@@ -31,9 +31,9 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       datePublished: '2026-10-14',
       name: 'Private luau on Oʻahu',
       h1: 'Private luau on Oʻahu — what you can host at your own house.',
-      title: 'Private Luau on Oahu — Hosting One at Your House | myCHEF',
+      title: 'Private Luau Oahu: Backyard Menu, Staff & Cost | myCHEF',
       description:
-        'Planning a private luau on Oʻahu? What a backyard luau really needs: menu, imu vs grill, guest count, permits, staff and rain plans, house by house.',
+        'Private luau on Oahu at your rental: kālua pig without digging an imu, island menus, servers, rain plans, and dinner-sized parties from $195 a guest.',
       lede:
         'A private luau on Oʻahu usually means one of two things: seats at a resort show, or island food served at your own house. This guide is about the second one.',
       photo: 'cateringOahu',

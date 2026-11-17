@@ -1014,6 +1014,7 @@ export const moneyNeighborhoods: Record<IslandId, MoneyNeighborhood[]> = {
       body: [
         'Valley and North Shore estate dinners sit under the island [private chef Kauai](/) card; this page is the Hanalei corridor note. CORE from $225 a guest. 72-hour notice for far-North.',
         'The one-lane bridge is the logistics. A closed road moves the night; it does not eat the deposit. Hāʻena is quote-only.',
+        'Coming in winter? The [Kauaʻi in December guide](/blog/kauai-in-december-guide) covers North Shore rain, surf and whale season, and when the road past Hanalei can close.',
         'Signature groceries stay inside $225–$375 a guest. Stay Chef from $1,650 a day bills the shop at cost with receipts. They never blend. Hotel rooms without a cooktop are declined.',
         'Island overview: [private chef Kauai](/). Full rates on [the pricing page](/pricing); send your dates on [the quote form](/quote).',
       ],
