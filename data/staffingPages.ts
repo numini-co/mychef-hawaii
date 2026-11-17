@@ -32,6 +32,9 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       body: [
         'Gold Coast dining rooms in Honolulu and Kahala are where plated dinners sit. The food band does not change because a server is on the quote.',
         'The server is in a Kahala dining room or a Ko Olina villa before guests sit, once the freight window or the gate is open. They carry the courses, refill water, and clear between plates. Call time and end time are hours on the quote, apart from the food, sized to headcount and to plated or family-style. A sous chef is a separate set of hours if you ask. 20% service and Hawaiʻi GET up to 4.712% follow those hours, each alone. The published hour is on [staffing](/staffing) and [pricing](/pricing). Request a written quote on [the quote form](/quote).',
+        '## When a server earns their line',
+        'A Kahala condo or a Ko Olina house does not get a server until building rules, the freight window, or the gate are on the note. Plated courses need that person. Family-style at a smaller table can stay with the chef when the platters go out once. Larger tables are the ones that add the line.',
+        `The server is its own hourly line at $${serverHr} an hour, next to the chef fee. Then a 20% service charge and Hawaiʻi GET up to 4.712% each take a line. A 50% deposit comes after a written yes. Gratuity is never required. Drinks, if you want them, are [bartenders](/staffing/bartenders). The roster is [staffing](/staffing). Request a written quote.`,
       ],
       faqs: [
         {
@@ -79,6 +82,9 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         'We do not sell a theatrical luau bar. Ko Olina and Kahala houses.',
         'A bartender arrives before guests, sets the bar the house asked for, mixes what you supply, and closes it down when the note says the night ends. Call time and end time are written as their own hours, sized to the headcount and to whether this is a cocktail hour or the whole dinner. There is no published bartender hour. The amount is quoted in writing. The villa bar product is [the bar](/bar). The four-hour cart is [the mobile bar](/mobile-bar). This page is the person, not those products. Request a written quote on [the quote form](/quote).',
         `A Ko Olina gate and a Kahala lawn are different clocks. The bartender is on the property after that window opens, setting the station and mixing what you supplied. This page is the person for the hours you name, not the four-hour cart. No bartender hour is published. If plates also need a floor, server time is $${serverHr} an hour and sous-chef time is $${sousHr} an hour, beside the food band. 20% service and Hawaiʻi GET up to 4.712% follow as their own lines. A 50% deposit follows a written yes. Gratuity is never required. Read [staffing](/staffing) and [pricing](/pricing). Request a written quote on [the quote form](/quote).`,
+        '## When the house needs a bartender',
+        'Book this role when a Kahala house or a Ko Olina villa wants drinks mixed for the cocktail hour or through dinner. The chef stays on the food. The bartender arrives after the freight window or the gate opens, sets the station, and mixes only what the house supplies. No bartender rate is published.',
+        'Those hours are quoted hourly on their own line, next to the chef fee. The published lines around that quote are on [pricing](/pricing). A 20% service charge and Hawaiʻi GET up to 4.712% then stand alone. A 50% deposit follows a written yes. Gratuity is never required. People who carry plates are [servers](/staffing/servers). The roster is [staffing](/staffing). Request a written quote.',
       ],
       faqs: [
         {
@@ -173,6 +179,9 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       body: [
         'On a Villa Week the server is on the property before guests, with Saturday traffic between Wailea and Kapalua already in the call time. They run courses, keep water moving, and clear. A lawn needs a longer call than a dining room. Family-style on the lānai is shorter than plated. End time is when the tables are clear. Hours are separate from the food and sized to headcount. A sous chef is another set of hours. 20% service and Hawaiʻi GET up to 4.712% follow, each alone. The hour is on [staffing](/staffing) and [pricing](/pricing). Quotes are open on [the quote form](/quote).',
         `On a Wailea arrival night the server is already in the dining room, setting water and the first plates, while the hosts are still on the road from Kahului. A Kapalua lawn writes Saturday traffic on Honoapiʻilani into the call time, not into a hidden fee. Those hours print beside the food band. A server is $${serverHr} an hour. A sous chef, only if you ask, is $${sousHr} an hour. 20% service and Hawaiʻi GET up to 4.712% each take a line, then a 50% deposit. Gratuity is never required. The published hour is on [staffing](/staffing) and [pricing](/pricing). Request a written quote on [the quote form](/quote).`,
+        '## When the lānai needs a server',
+        'A Villa Week in Wailea or on West Maui uses a server when courses are plated along the lānai. Family-style platters the chef can carry in one trip stay with the chef, unless the seating is a larger table. Saturday traffic is planned into arrival. It is not a second rate.',
+        `Server time sits beside the chef fee at $${serverHr} an hour. Then the quote adds a 20% service charge and Hawaiʻi GET up to 4.712%, each alone. A 50% deposit follows a written yes. Gratuity is never required. A drinks station on that lānai is [bartenders](/staffing/bartenders). Read the roles on [staffing](/staffing). Request a written quote.`,
       ],
       faqs: [
         {
@@ -219,6 +228,9 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         'We do not staff a luau bar we do not run.',
         'The bartender is on the Wailea or West Maui lānai before guests, sets the station, mixes what the house supplies, and breaks it down at the end time. Saturday traffic changes when they roll, not whether the hours are written. Those hours are quoted in writing. There is no bartender figure on the card. This is not the villa bar product and not the four-hour cart. Read [the bar](/bar) and [the mobile bar](/mobile-bar) for those. Crew size follows headcount and how long you want the station open. Quotes are open on [the quote form](/quote).',
         `A Villa Week cocktail hour on a Wailea lānai is the bartender setting glassware and mixing what the house brought, then packing the station when the end time hits. Kapalua and Kāʻanapali use the same person, with the Saturday drive already in the call. No bartender hour is published. If the night also needs a floor, server time is $${serverHr} an hour and sous-chef time is $${sousHr} an hour, apart from the food band. 20% service and Hawaiʻi GET up to 4.712% follow on their own lines. A 50% deposit comes after a written yes. Gratuity is never required. See [staffing](/staffing) and [pricing](/pricing). Request a written quote on [the quote form](/quote).`,
+        '## When the lānai station is its own line',
+        'On a Villa Week the Wailea or West Maui lānai needs a bartender when hosts want the station open for the cocktail hour or the whole seated night. The chef does not mix. Bottles are what the house brought. No bartender figure is published.',
+        'The station is quoted hourly on its own line beside the chef fee. Other published numbers live on [pricing](/pricing). After that quote, a 20% service charge and Hawaiʻi GET up to 4.712% each take a line. A 50% deposit comes after a written yes. Gratuity is never required. The floor, if plates need hands, is [servers](/staffing/servers). See [staffing](/staffing). Request a written quote.',
       ],
       faqs: [
         {
@@ -313,6 +325,9 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       body: [
         'Request availability, then a server is on the Princeville or Poʻipū estate before guests, if a crew exists for that shore. They run courses, keep water on the table, and clear. Call time and end time are hours, separate from the food, sized to headcount and to plated or family-style. A bridge closure moves a North Shore call. It does not hand the night to the other shore. A sous chef is a second set of hours. 20% service and Hawaiʻi GET up to 4.712% follow, each alone. The hour is on [staffing](/staffing) and [pricing](/pricing). Request availability on [the quote form](/quote).',
         `On the estate a server carries plated courses through the great room or moves platters on the lawn, then clears. Princeville rain uses the covered lānai already named. Poʻipū still needs an indoor backup. Request availability for the shore. The hour is $${serverHr}/hr. A sous chef, if you ask, is $${sousHr}/hr. Those lines sit apart from the food, then 20% service and Hawaiʻi GET up to 4.712% each take a line. A 50% deposit follows a written yes. Gratuity is never required. Bands are on [pricing](/pricing).`,
+        '## When an estate dinner needs a server',
+        'Request availability, and name the estate: Princeville or Poʻipū. Plated passes through the great room need a server. Family-style, when the chef can move platters once for a smaller table, does not. Rain uses the covered space in the plan you send. A Hanalei-bridge closure moves a north-shore call.',
+        `If a crew exists, server time is $${serverHr} an hour on its own line next to the chef fee. The 20% service charge and Hawaiʻi GET up to 4.712% each print alone after that. A 50% deposit waits for a written yes. Gratuity is never required. The pour is a separate ask on [bartenders](/staffing/bartenders). See [staffing](/staffing). Request availability for that shore.`,
       ],
       faqs: [
         {
@@ -358,6 +373,9 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       body: [
         'Request availability for a bartender on the shore you named. They arrive before guests, set the station, mix what the house supplies, and close it down at the end time. A wet North Shore terrace and a Poʻipū counter are different setups. A bridge closure moves the North Shore night. Hours are quoted in writing. No bartender hour is published. This is not the villa bar and not the four-hour cart. Those are [the bar](/bar) and [the mobile bar](/mobile-bar). We will not staff a theatrical tiki bar. Request availability on [the quote form](/quote).',
         `The bartender sets a station on the Princeville terrace or the Poʻipū counter, mixes what the house brought, and packs it down at the end time. A wet north terrace uses the covered lānai. Request availability for that shore. No bartender hour is published. If the same night also needs a floor, server time is $${serverHr}/hr and sous-chef time is $${sousHr}/hr, then 20% service and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing).`,
+        '## When the estate asks for a bartender',
+        'Request availability for a Princeville terrace or a Poʻipū counter. The chef does not run drinks. The bartender mixes what the estate supplies, and a wet night uses the covered space named in the rain plan. If the Hanalei bridge closes, the north-shore station moves with it. No bartender hour is published.',
+        'The reply quotes those hours on their own line, next to the chef fee. Read the rest of the card on [pricing](/pricing). A 20% service charge and Hawaiʻi GET up to 4.712% follow as separate lines. A 50% deposit waits for a written yes. Gratuity is never required. Plate service is [servers](/staffing/servers). The role list is [staffing](/staffing). Request availability and name the shore.',
       ],
       faqs: [
         {
@@ -453,6 +471,9 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         'West-side: Kona–Kohala corridor.',
         'Join the inquiry list for a server in Kona, Waikoloa, or on the Kohala Coast. They arrive before guests, run the courses, keep water on the table, and clear. Call time and end time are hours apart from the food, sized to headcount and to plated or family-style. A sous chef is a second set of hours. 20% service and Hawaiʻi GET up to 4.712% follow, each alone. Hilo is a separate dedicated east-side day, quoted in writing, not an afternoon on this crew. The hour is on [staffing](/staffing) and [pricing](/pricing). Join the inquiry list on [the quote form](/quote).',
         `Join the inquiry list for a plated table in Waikoloa or on the Kohala Coast. The server runs each course, keeps water down, and clears, and the hours sit beside the food band. Family-style platters in Kailua-Kona usually need a shorter call than plated covers. A server is $${serverHr} an hour. A sous chef is a second line at $${sousHr} an hour. 20% service and Hawaiʻi GET up to 4.712% each print alone, then a 50% deposit. Gratuity is never required. Hilo stays a separate dedicated east-side day, not the tail of this shift. The hour is on [staffing](/staffing) and [pricing](/pricing). Join the inquiry list on [the quote form](/quote).`,
+        '## When a Kohala table needs a server',
+        'Join the inquiry list for the Kohala Coast, west side first. Plated covers need a server on every pass. Family-style can stay with the chef when one platter drop feeds a smaller table. Larger tables are what put the server on the inquiry. Hilo stays a separate dedicated east-side day.',
+        `West-side server time is $${serverHr} an hour, a line of its own beside the chef fee. A 20% service charge and Hawaiʻi GET up to 4.712% are the next two lines. A 50% deposit follows a written yes. Gratuity is never required. A terrace station is not this line. It is [bartenders](/staffing/bartenders). Roles are on [staffing](/staffing). Join the inquiry list.`,
       ],
       faqs: [
         {
@@ -492,7 +513,7 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       h1: 'Bartenders on a Kohala Coast terrace.',
       title: 'Bartenders on the Kohala Coast | myCHEF',
       description:
-        'A bartender for a Kona or Kohala terrace, mixing what the house supplies. Quoted in writing. Join the inquiry list on the west side. Hilo is its own day.',
+        'A Kona or Kohala terrace bartender mixes what the house supplies. Quoted in writing. Join the inquiry list, west side first. Hilo is its own day.',
       lede: 'Citrus on lava, hard sun. Not Hilo.',
       photo: 'staffBartendersBigisland',
       body: [
@@ -500,6 +521,9 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         'We do not staff a theatrical tiki bar.',
         'A bartender for a Kona or Kohala terrace arrives before guests, sets the station, mixes what the house supplies, and closes it down at the end time. Hours are quoted in writing. No bartender hour exists. Headcount and how long the station stays open set the crew. This is not the villa bar product and not the four-hour cart. Those are [the bar](/bar) and [the mobile bar](/mobile-bar). Hilo is a separate dedicated east-side day, quoted in writing. Join the inquiry list on [the quote form](/quote).',
         `Join the inquiry list for a station on a Kona or Kohala terrace. The bartender sets it in the shade, mixes what the house supplied, and closes it at the end time you named. Hard afternoon sun is why the station is not on open lava. No bartender hour is on the card. If the same night needs a floor, server time is $${serverHr} an hour and sous-chef time is $${sousHr} an hour, written apart from the food. 20% service and Hawaiʻi GET up to 4.712% take their own lines. A 50% deposit follows a written yes. Gratuity is never required. Hilo is not this request. See [staffing](/staffing) and [pricing](/pricing). Join the inquiry list on [the quote form](/quote).`,
+        '## When a west-side terrace needs a bartender',
+        'Join the inquiry list for a Kohala Coast terrace, west side first. The station sits in the shade, out of the hard afternoon sun. The bartender mixes what the house supplies. No bartender figure exists. Hilo is a separate dedicated east-side day.',
+        'Hours come back quoted on their own line beside the chef fee. The lines that are published are on [pricing](/pricing). Then a 20% service charge and Hawaiʻi GET up to 4.712% each print alone. A 50% deposit follows a written yes. Gratuity is never required. If the same night needs a floor, open [servers](/staffing/servers). The index is [staffing](/staffing). Join the inquiry list.',
       ],
       faqs: [
         {
