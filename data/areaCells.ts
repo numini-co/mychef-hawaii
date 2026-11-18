@@ -1,6 +1,7 @@
 import type { IslandId } from './islands';
 import type { UniqueCell } from './uniqueCells';
 import { SEARCH_VOLUMES } from './offers';
+import { signatureGuestBand } from './rateCard';
 
 /**
  * Supporting-area dinner doors. These are unique cells, not money corridors.
@@ -350,15 +351,18 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       slug: 'upcountry',
       name: 'Upcountry',
       h1: 'Upcountry Maui villa dinner.',
-      title: 'Upcountry Maui villa dinner | myCHEF',
+      title: 'Private chef in Upcountry Maui — Kula to Haʻikū | myCHEF',
       description:
-        'Villa dinners in Upcountry Maui at Kula, Makawao, and Haʻikū. Cooler air, a longer drive. Travel past the base zone is on pricing. Request a written quote.',
+        'Upcountry Maui dinners at Kula, Makawao, and Haʻikū. Cooler air, a longer drive. Travel past the base zone is on pricing. Request a written quote.',
       lede:
         'Cooler air, a longer drive, Haleakalā on the slope. The surcharge is printed. Farm names wait for verification.',
       photo: 'cellUpcountry',
       body: [
         'Outdoor setups inherit a wet-weather backup.',
         'People booking this slope are usually in a Kula, Makawao, or Haʻikū estate for a villa week, not a Wailea lawn the same night. The kitchen is cooler, and an outdoor table still needs the indoor backup this slope already uses. Request a written quote with the dates, the house address, the guest count, and dietary notes, and say whether dinner is the lanai or the dining room. Food prints as the rate-card band, then 20% service, then Hawaiʻi GET up to 4.712%. A 50% deposit holds the date after you accept. Gratuity is never required. Name Kula, Makawao, or Haʻikū in that note. Travel past the base zone is the line on [pricing](/pricing).',
+        '## Planning an Upcountry night from Kula to Haʻikū',
+        'A chef night here is Kula, Makawao, or Haʻikū: cooler air and a longer drive than the coast. The kitchen is cooler. An outdoor table still needs the indoor backup this slope already uses. Name the town, and say whether dinner is the lanai or the dining room. A Wailea lawn is a different night.',
+        `The food line is a signature dinner at ${signatureGuestBand('maui')} a guest, groceries inside that band, before a 20% service charge and Hawaiʻi GET up to 4.712%. Travel past the base zone is its own line. The figure is on [pricing](/pricing). A 50% deposit follows a written yes. Gratuity is never required. Request a written quote with the estate street and the dates.`,
       ],
       faqs: [
         {
@@ -390,7 +394,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
           a: 'No. An elevation dinner beside a South or West Maui villa week is two dated quote lines, not one same-night double. This slope is its own date. We will not hide the second drive.',
         },
         {
-          q: 'How do I enquire for an Upcountry estate?',
+          q: 'How do I inquire for an Upcountry estate?',
           a: 'File the estate street, the nights, and the seats on the quote form. WhatsApp https://wa.me/18084687748 and +1 808 468 7748 reach the same desk, quotes@mychef-hawaii.com. Maui is quote-open. The elevation line is on the written total.',
         },
       ],

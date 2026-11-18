@@ -2,6 +2,7 @@ import type { IslandId } from './islands';
 import type { PhotoKey } from './photos';
 import { SEARCH_VOLUMES } from './offers';
 import { AREA_CELLS } from './areaCells';
+import { signatureGuestBand } from './rateCard';
 
 /**
  * Island-only commercial cells from the catalog UNIQUE map.
@@ -406,7 +407,7 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
       h1: 'Kauaʻi North Shore — Princeville, Hanalei, Hāʻena.',
       title: 'Kauaʻi North Shore dinners, Princeville to Hāʻena | myCHEF',
       description:
-        'Princeville, Hanalei, and Hāʻena dinners on Kauaʻi North Shore. Winters book early. Far-north dates use the bridge weather clause. Request availability.',
+        'Princeville, Hanalei, and Hāʻena dinners on Kauaʻi. Winters book early. Far-north dates use the bridge weather clause. Request availability.',
       lede:
         'Misted mountains, wet stone, a covered lānai plan. The North is not the South. Winters book early because the weather is the calendar.',
       photo: 'cellKauaiNorth',
@@ -414,6 +415,9 @@ export const uniqueCells: Record<IslandId, UniqueCell[]> = {
         'The North Shore is three places with one weather problem: Princeville houses, Hanalei estates, and Hāʻena past the bridge. Winters book early because surf season is the calendar. A chef night can be in the kitchen or on a covered lānai. Outdoor fire is a weather call, not a promise.',
         'Hāʻena dates are confirmed on the written quote with the Hanalei-bridge weather clause. Read [Hāʻena](/haena) and [Hanalei bridge](/hanalei-bridge). Princeville is [Princeville](/princeville). Hanalei is [Hanalei](/hanalei). Bands are on [pricing](/pricing). Request availability on [the quote form](/quote) with the shore and the dates.',
         'People who book this shore usually hold a Princeville house, a Hanalei estate, or a Hāʻena place for a winter week. Dinner is the kitchen or a covered lānai. Request availability with the dates, the house address, the guest count, and dietary notes, and name which place you have. The written reply lists the rate-card band, then 20% service, then Hawaiʻi GET up to 4.712%, each alone. A 50% deposit follows a written yes. Gratuity is never required. Say whether the table is indoors if the week is wet. Travel for the shore is on [pricing](/pricing).',
+        '## Planning a North Shore night from Princeville to Hāʻena',
+        'Princeville, Hanalei, and Hāʻena are the kitchens, and winters book early. Name the place with the dates. Dinner is the kitchen or a covered lānai. Outdoor fire stays a weather call. Far-north dates use the Hanalei bridge weather clause. If the one-lane bridge closes, the night is rescheduled rather than forfeited. Read [Hanalei bridge](/hanalei-bridge). The South Shore does not inherit that clause.',
+        `The dinner on the total is the signature band, ${signatureGuestBand('kauai')} a guest, groceries inside it, before a 20% service charge and Hawaiʻi GET up to 4.712%. Travel beyond the base zone is its own line. The figure is on [pricing](/pricing). A 50% deposit follows a written yes. Gratuity is never required. Request availability and name the place.`,
       ],
       faqs: [
         {
