@@ -166,9 +166,9 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       slug: 'lunch',
       name: 'Lunch',
       h1: 'Lunch in an Oahu house — a midday menu, cooked in your kitchen.',
-      title: 'Lunch in an Oahu house | myCHEF',
+      title: 'Private chef lunch in a Kailua house | myCHEF',
       description:
-        'Lunch menus in Kailua houses, Kahala dining rooms and Ko Olina villas. Midday food. Designed per table.',
+        'Private chef lunch in a Kailua house, a Kahala dining room, or a Ko Olina villa. Midday in your kitchen, then a clear stove. Request a written quote.',
       lede:
         'Mokulua in the window if you are in Kailua. A shorter arc than dinner.',
       photo: 'menuLunchOahu',
@@ -176,6 +176,9 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
         'Midday in a Kailua or Lanikai house is a shorter cook than dinner: a set table, a hot plate, then a clean stove. Kahala and Ko Olina can take the same midday menu when the kitchen is real. A hotel room is in only if it has a stove. Most suites do not. See [how Oʻahu menus are designed](/menus).',
         'This is not a [meal-prep](/meal-prep) drop in the fridge. We cook, serve, and clear. No lunch price is published. On a Stay Chef day, lunch is part of the day rate when the day includes it, groceries at cost with receipts. Read [pricing](/pricing) and [vacation chef](/vacation-chef). [Request a written quote](/quote).',
         'Midday in Kailua or Lanikai is a shorter cook than dinner: set the kitchen, send one hot plate, clear the burners. Kahala and Ko Olina can take the same hour when the stove is real. A hotel room is in only if it has burners. No lunch price is published, and a shorter cook is not an automatic cut off dinner. On a Stay Chef day, lunch sits in the day rate when the day includes it, groceries at cost with receipts. A signature dinner keeps groceries inside its band. See [how Oʻahu menus are designed](/menus) and [pricing](/pricing). [Request a written quote](/quote) with the hour.',
+        '## A lunch that clears the kitchen by mid-afternoon',
+        'Send the address, the date and the hour, the guest count, and dietary notes, and say if it is a day-of-arrival lunch or a beach-day lunch. Kailua, Lanikai, Kahala, and Ko Olina take that midday menu when the stove is real.',
+        'Lunch is a shorter cook than dinner, then a clear stove. No lunch price is published. It is quoted in writing on its own line. A published per-guest band is a signature dinner, before a 20% service charge and Hawaiʻi GET up to 4.712%. Open [menus](/menus) and the [family-style menu](/menus/family-style-menu). Request a written quote.',
       ],
       faqs: [
         {
@@ -356,9 +359,9 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       slug: 'lunch',
       name: 'Lunch',
       h1: 'Lunch in a Maui house — midday in Kīhei and Wailea.',
-      title: 'Lunch in a Maui house | myCHEF',
+      title: 'Private chef lunch in a Wailea villa | myCHEF',
       description:
-        'Lunch in Kīhei family houses and Wailea villas. Midday food. Designed per table.',
+        'Private chef lunch in a Kīhei house or a Wailea, Kapalua, or Kāʻanapali villa. Midday in the house, not a beach park. Request a written quote.',
       lede:
         'A shorter arc than dinner. South Maui light.',
       photo: 'menuLunchMaui',
@@ -366,6 +369,9 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
         'A Kīhei or Wailea lunch is cooked in the house at midday: set the kitchen, serve, clear the burners. It is not a beach park, and it is not a hotel lawn without a stove. West Maui houses add Honoapiʻilani to the arrival, especially on Saturday. Wind moves an open table inside, written first. See [how Maui menus are designed](/menus).',
         'Lunch is not a [meal-prep](/meal-prep) fridge drop. No lunch price is published. When a Stay Chef day includes midday, the meal sits in the day rate and groceries are at cost with receipts. Read [pricing](/pricing) and [vacation chef](/vacation-chef). [Request a written quote](/quote) and name the shore.',
         'A Kīhei or Wailea lunch is cooked in the house at midday, then the burners are cleared. It is not a beach park and not a lawn without a stove. West Maui adds Honoapiʻilani to arrival, especially on Saturday, and that clock is written before you accept. Wind moves an open table inside. No lunch band is published. Request a written quote. When a Stay Chef day includes midday, groceries are at cost with receipts. Do not label a signature dinner the same way. Open [how Maui menus are designed](/menus), [pricing](/pricing), and [the quote form](/quote).',
+        '## A Wailea lunch that clears the burners',
+        'Send the villa address, the date and the hour, the guest count, and dietary notes. Say if it is a day-of-arrival lunch or a beach-day lunch still cooked in the house. Wailea, Kīhei, Kapalua, and Kāʻanapali are the houses. A beach park is not the kitchen.',
+        'The service is shorter than dinner, and the burners are cleared. No lunch price is published. The meal is quoted in writing on its own line. A published per-guest band is a signature dinner, before a 20% service charge and Hawaiʻi GET up to 4.712%. Open [menus](/menus) and the [family-style menu](/menus/family-style-menu). Request a written quote.',
       ],
       faqs: [
         {
@@ -546,9 +552,9 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       slug: 'lunch',
       name: 'Lunch',
       h1: 'Lunch in a Kauai estate.',
-      title: 'Lunch in a Kauai estate | myCHEF',
+      title: 'Private chef lunch in a Princeville kitchen | myCHEF',
       description:
-        'Midday lunch in a Kapaʻa house or a Princeville or Poʻipū kitchen, shorter than dinner. Request availability, name the shore, and note rain cover up north.',
+        'Private chef lunch in a Kapaʻa, Princeville, or Poʻipū kitchen, shorter than dinner. Request availability, name the shore, and note rain cover.',
       lede:
         'A shorter arc. A Kapaʻa house or an estate kitchen. Request availability.',
       photo: 'menuLunchKauai',
@@ -556,6 +562,9 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
         'Kapaʻa is the shorter drive from Līhuʻe, and it is a real midday booking, not a stop on the way to an estate. Princeville or Poʻipū lunches follow the shore you name, including rain cover and the bridge clause on the far north. We cook, serve, and clear. See [how Kauaʻi menus are designed](/menus). [Request availability](/quote).',
         'This is not a [meal-prep](/meal-prep) drop. No lunch price is published. If a Stay Chef day includes midday, the meal sits in the day rate and groceries are at cost with receipts. The card is [pricing](/pricing). The day rate is [vacation chef](/vacation-chef).',
         `A Kauaʻi lunch is the shorter midday in the estate kitchen, not a second dinner. Kapaʻa is the closer house. Princeville uses the covered lānai when rain starts, and a bridge closure moves a far-north midday rather than sending it south. Request availability with the hour and the shore. A server, if you want one, is $${serverHr}/hr and a sous chef is $${sousHr}/hr, written apart from the food, with 20% service and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit waits for a written yes. Gratuity is never required. See [pricing](/pricing).`,
+        '## A shorter midday on the shore you name',
+        'Request availability with the house, the date and the hour, the guest count, and dietary notes. Say if it is a day-of-arrival lunch or a beach-day lunch, and name Kapaʻa, Princeville, or Poʻipū. Rain cover belongs up north. A bridge closure moves a far-north midday.',
+        'Service is shorter than dinner. No lunch price is published. It is quoted in writing on its own line. A published per-guest band is a signature dinner, before a 20% service charge and Hawaiʻi GET up to 4.712%. Read [menus](/menus) and the [family-style menu](/menus/family-style-menu). Request availability for that shore.',
       ],
       faqs: [
         {
@@ -736,9 +745,9 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
       slug: 'lunch',
       name: 'Lunch',
       h1: 'Lunch in a Waikoloa house — midday, west side, inquiry.',
-      title: 'Lunch in a Waikoloa house | myCHEF',
+      title: 'Private chef lunch on the Kohala Coast | myCHEF',
       description:
-        'Lunch menus in Waikoloa and Kona houses. Inquiry stage. Midday food. East side is a different day.',
+        'Private chef lunch, west side first, for Waikoloa, Kona, and Kohala houses. Midday. Join the inquiry list. Hilo is a separate dedicated day.',
       lede:
         'A shorter arc than dinner. Hard sun over Waikoloa. Hilo is a separate day.',
       photo: 'menuLunchBigisland',
@@ -746,6 +755,9 @@ export const menuSkuPages: Record<IslandId, MenuSkuPage[]> = {
         'A Waikoloa or Kona lunch is a shorter cook than dinner, served inside while the rock is hot. Shade is the room, not a picnic. We set the kitchen, serve, and clear. Volcano is not a drive from Waikoloa. The east side is its own dedicated day, quoted in writing. See [how Hawaiʻi Island menus are designed](/menus).',
         'Lunch is not a [meal-prep](/meal-prep) fridge drop, and no lunch price is published. [Join the inquiry list](/quote) for the west side. On a Stay Chef day, midday sits in the day rate, groceries at cost with receipts. Read [pricing](/pricing) and [vacation chef](/vacation-chef).',
         'A Waikoloa or Kona lunch is the shorter midday, served inside while the rock is hot. The open lava is not the dining room. Join the inquiry list for that west-side hour. Volcano is not a drive tacked onto Waikoloa. The east side is its own dedicated day. No lunch price is published, so a shorter cook is still written out, not discounted off dinner. A Stay Chef day puts midday in the day rate, groceries at cost with receipts. The signature band is the dinner, groceries inside it. See [how Hawaiʻi Island menus are designed](/menus) and [pricing](/pricing). Send the hour on [the quote form](/quote).',
+        '## A west-side lunch served in the shade',
+        'Join the inquiry list, west side first. Send the Waikoloa, Kona, or Kohala address, the date and the hour, the guest count, and dietary notes, and say if it is a day-of-arrival lunch or a beach-day lunch. Shade is the room. Hilo stays off. The east side is a separate dedicated day.',
+        'Shorter than dinner. No lunch price is published. The figure is quoted in writing on its own line. A per-guest band on the card is a signature dinner, before a 20% service charge and Hawaiʻi GET up to 4.712%. See [menus](/menus) and the [family-style menu](/menus/family-style-menu). Join the inquiry list.',
       ],
       faqs: [
         {
