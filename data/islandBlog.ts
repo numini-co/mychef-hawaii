@@ -29,7 +29,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogOahu',
     body: [
       'For the longer notes — Gold Coast counters, convention weeks, short-stay villas — read the journal.',
-      'New this month: [the Kahala restaurants guide](/blog/kahala-diamond-head-restaurants-guide) — Kāhala Mall and Waiʻalae Avenue, the Gold Coast and Monsarrat end of Waikīkī, timing meals around the Diamond Head hike, and when a [private chef Honolulu](/private-chef) dinner at the house is easier. Recently: [the Honolulu restaurants guide](/blog/honolulu-restaurants-neighborhood-guide), [the Oʻahu elopement guide](/blog/oahu-elopement-planning-guide) and [the Hawaiʻi Kai restaurants guide](/blog/hawaii-kai-restaurants-east-honolulu-guide).',
+      'New this month: [the Oʻahu bachelorette party guide](/blog/oahu-bachelorette-party-guide) — where to stay, Diamond Head reservations and beach drink rules, planning the days, and the big dinner with a [private chef Honolulu](/private-chef) and a bar at the house. Recently: [the Kahala restaurants guide](/blog/kahala-diamond-head-restaurants-guide), [the Honolulu restaurants guide](/blog/honolulu-restaurants-neighborhood-guide) and [the Oʻahu elopement guide](/blog/oahu-elopement-planning-guide).',
     ],
   },
   maui: {

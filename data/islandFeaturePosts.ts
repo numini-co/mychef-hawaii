@@ -943,6 +943,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/oahu-bachelorette-party-guide', label: 'Oʻahu bachelorette party guide' },
         { path: '/blog/kaneohe-restaurants-windward-guide', label: 'Kāneʻohe restaurants guide' },
         { path: '/blog/haleiwa-restaurants-dining-guide', label: 'Haleʻiwa restaurants guide' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
@@ -1305,6 +1306,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/oahu-bachelorette-party-guide', label: 'Oʻahu bachelorette party guide' },
         { path: '/blog/oahu-brunch-guide', label: 'Oʻahu brunch guide' },
         { path: '/blog/oahu-elopement-planning-guide', label: 'Oʻahu elopement guide' },
         { path: '/weddings', label: 'Wedding catering Oahu' },
@@ -2100,6 +2102,110 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       related: [
         { path: '/blog/christmas-in-honolulu-dinner', label: 'Christmas in Honolulu guide' },
         { path: '/blog/new-years-eve-honolulu-dinner', label: 'New Year’s Eve in Honolulu guide' },
+        { path: '/private-chef', label: 'Private chef Honolulu' },
+        { path: '/catering', label: 'Oahu catering' },
+        { path: '/pricing', label: 'Oahu private chef cost' },
+        { path: '/', label: 'Private chef Oahu' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'oahu-bachelorette-party-guide',
+      keyword: 'oahu bachelorette party',
+      datePublished: '2026-11-19',
+      name: 'Oʻahu bachelorette party guide',
+      h1: 'Oʻahu bachelorette party — where to stay, what to plan, and the dinner at the house.',
+      title: 'Oahu Bachelorette Party Guide — Stay, Plan & Dine | myCHEF',
+      description:
+        'Plan an Oʻahu bachelorette party: where to stay, Diamond Head and beach rules, group dinners, a bar and private chef at the house, and real costs.',
+      lede:
+        'An Oʻahu bachelorette party is usually a long weekend with one big night in the middle. Honolulu has the flights, the nightlife and the beaches, and the island is small enough to fit a sunrise hike, a beach afternoon and a dinner in one day. The hard parts are the details: finding a house that allows a group, getting ten or more friends fed together, and knowing the rules on drinks and park reservations. This guide covers where to stay, how to plan the days, how the big dinner works, and what a chef and a bar at the house cost with us. We do not sell tours, book venues or have restaurant, bar or rental partners.',
+      photo: 'fineCelebrationOahu',
+      body: [],
+      sections: [
+        {
+          heading: 'Where to stay for a bachelorette weekend',
+          paras: [
+            'Waikīkī is the easiest base for a group that wants to walk to the beach, the shops and the bars, with hotels and condos of every size. It is also the busiest and the least private, and a hotel room rarely suits a dinner for twelve. For the dinner itself, many groups book a suite with a kitchen or move the big night to a rented house.',
+            'A house gives you privacy, a kitchen and a lānai to celebrate on. Kahala and the Diamond Head side are close to Waikīkī; Kailua on the windward side is quieter, with calm beaches; Ko Olina on the west side has resort villas and lagoons; and the North Shore is the most remote, with big surf in winter. Honolulu limits short-term rentals outside its resort areas, so confirm that a rental is legal and that the owner allows a group gathering before you pay a deposit. Our [Kailua restaurants guide](/blog/kailua-restaurants-dining-guide) and [Ko Olina restaurants guide](/blog/ko-olina-restaurants-dining-guide) describe two popular house areas.',
+          ],
+        },
+        {
+          heading: 'When to go',
+          paras: [
+            'Oʻahu works year-round, but prices and crowds follow the holidays. The weeks around Christmas and New Year, spring break and the summer school holidays are the busiest and most expensive, and big events such as the Honolulu Marathon in December make Waikīkī busier for a weekend. Spring and autumn weekends outside the holidays are usually easier to book and kinder on a shared budget.',
+            'Winter brings big surf to the North Shore, which is spectacular to watch but means the water there is often not safe for swimming. Summer brings calmer north-side water and more south-shore swell. Our [Oʻahu in December guide](/blog/oahu-in-december-guide) covers the holiday month in detail.',
+          ],
+        },
+        {
+          heading: 'Plan the days: hike, beach and one big night',
+          paras: [
+            'A pattern that works for most groups: arrive and keep the first night easy, give the second day to the island, make the second night the celebration, and finish with a late brunch before the flights. Keep the big night away from the arrival day, when someone’s flight will always be late.',
+            'Diamond Head is the classic sunrise or morning hike. Visitors who are not Hawaiʻi residents need an entry reservation, and a parking reservation if driving, booked online through the state parks system up to 30 days ahead. Entry is $5 a person and parking $10 a car, the park is open 6 a.m. to 6 p.m. with last entry at 4:30 p.m., you must arrive within 30 minutes of your slot, and it is closed on Christmas Day and New Year’s Day. Book early: popular morning slots sell out.',
+            'For the afternoon, the south shore around Waikīkī and Ala Moana is usually calm, the windward beaches around Kailua are quieter, and the North Shore is best watched from the sand in winter. Keep the afternoon short if the dinner is that night; a group that has been in the sun all day eats better after a rest and a shower.',
+          ],
+        },
+        {
+          heading: 'Drinks, beaches and the rules',
+          paras: [
+            'The legal drinking age in Hawaiʻi is 21, and ID is checked. On Oʻahu, the city ordinance bans possessing alcohol in public parks, beach parks, streets and sidewalks unless the container is still factory-sealed, so a champagne toast on a city beach is not allowed. Plan the toast at the house, on a licensed venue, or on a permitted boat trip instead.',
+            'If you are going out in Waikīkī or downtown, arrange rides in advance and agree on a meeting point; parking is expensive and the group will not want to drive. Keep the night out after dinner rather than before it, so the kitchen at the house is not waiting on a late table.',
+          ],
+        },
+        {
+          heading: 'Why the big dinner works better at the house',
+          paras: [
+            'A restaurant table for two or four is easy to find. A table for ten to sixteen on a Saturday night is not: many Honolulu restaurants cannot seat a large group together, and those that can usually require a set menu, a minimum spend or a private room booked weeks ahead. Speeches, games and the bride’s favourite music do not fit well in a busy dining room either.',
+            'At the house, the group sits at one table for as long as it likes, dresses as it likes and decorates as it likes. A [private chef Honolulu](/private-chef) dinner is planned with you before the trip, shopped on the day, cooked and served in your kitchen, and the kitchen is cleaned before we leave. Fish is named as the species we actually bought that week, and allergies and dietary needs are planned in writing.',
+          ],
+        },
+        {
+          heading: 'What the night can look like',
+          paras: [
+            'Most bachelorette dinners we plan start with a welcome drink and small bites on the lānai at sunset, then a family-style or plated dinner, a dessert moment for the bride and time left for the rest of the night. A [mobile bar](/mobile-bar) adds a bartender and a set-up for a cocktail hour or the whole evening, with spirits billed at cost or brought by you.',
+            'For a bigger group, a party that runs over two nights, or a welcome dinner that grows into a wedding week, [Oahu catering](/catering) adds servers and a sous-chef. Our page on [villa parties](/events/villa-parties) explains how staffed parties at the house work. Tables, linens, tents, decorations and rentals are not included unless you ask for them, and then they are quoted as separate lines.',
+          ],
+        },
+        {
+          heading: 'What does it cost with us?',
+          paras: [
+            'Signature dinners on Oʻahu are published at $195–$290 a guest with groceries included, for a minimum party of six, and a simpler menu runs $145–$195 a guest for eight or more. The mobile bar starts from $975 for four hours plus $65 a guest, with spirits at cost or BYO. Event staff are $80 an hour for servers and $105 an hour for a sous-chef, on four- to five-hour minimums, and Stay Chef days for a whole weekend start from $1,250 a day for a chef and an assistant cooking one meal, with groceries at cost.',
+            'North Shore and Turtle Bay addresses add a published travel line from $75. A 20% service charge and Hawaiʻi GET of up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. Many groups split the total per person; the written quote shows every line so that is easy. The full card is on [Oahu private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan it',
+          paras: [
+            'Send the house address, the date, the guest count, any allergies and the style of night you want through the quote form, or message us on WhatsApp at +1 808-468-7748. Book the dinner as soon as the house is confirmed, especially for holiday weekends. We reply in writing with a menu direction and a total. For dinners anywhere on the island, see [private chef Oahu](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Where should we stay for a bachelorette party on Oʻahu?',
+          a: 'Waikīkī is easiest for walking to beaches and nightlife. For privacy and a group dinner, a legal rental house in Kahala, Kailua or Ko Olina works well. Confirm the owner allows a gathering.',
+        },
+        {
+          q: 'Do we need a reservation to hike Diamond Head?',
+          a: 'Yes, if you are not Hawaiʻi residents. Book entry, and parking if driving, online up to 30 days ahead. Entry is $5 a person and parking $10 a car.',
+        },
+        {
+          q: 'Can we drink on the beach in Honolulu?',
+          a: 'No. City rules ban possessing alcohol in public parks, beach parks, streets and sidewalks unless the container is factory-sealed. Plan the toast at the house or a licensed venue.',
+        },
+        {
+          q: 'Can a private chef cook a bachelorette dinner at our rental?',
+          a: 'Yes. We plan the menu with you, shop, cook in your kitchen, serve and clean up. A mobile bar and servers can be added as separate lines.',
+        },
+        {
+          q: 'How much does a private chef bachelorette dinner cost on Oʻahu?',
+          a: 'Signature dinners are $195–$290 a guest with groceries included, for six or more. The mobile bar starts from $975 for four hours plus $65 a guest. Service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/blog/kailua-restaurants-dining-guide', label: 'Kailua restaurants guide' },
+        { path: '/blog/waikiki-restaurants-dining-guide', label: 'Waikīkī restaurants guide' },
+        { path: '/mobile-bar', label: 'Mobile bar' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
         { path: '/catering', label: 'Oahu catering' },
         { path: '/pricing', label: 'Oahu private chef cost' },
