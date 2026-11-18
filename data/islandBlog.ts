@@ -29,7 +29,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogOahu',
     body: [
       'For the longer notes — Gold Coast counters, convention weeks, short-stay villas — read the journal.',
-      'New this month: [the Kahala restaurants guide](/blog/kahala-diamond-head-restaurants-guide) — Kāhala Mall and Waiʻalae Avenue, the Gold Coast and Monsarrat end of Waikīkī, timing meals around the Diamond Head hike, and when a [private chef Honolulu](/private-chef) dinner at the house is easier. Recently: [the Honolulu restaurants guide](/blog/honolulu-restaurants-neighborhood-guide), [the Oʻahu elopement guide](/blog/oahu-elopement-planning-guide) and [the Hawaiʻi Kai restaurants guide](/blog/hawaii-kai-restaurants-east-honolulu-guide).',
+      'New this month: [the Oʻahu bachelorette party guide](/blog/oahu-bachelorette-party-guide) — where to stay, Diamond Head reservations and beach drink rules, planning the days, and the big dinner with a [private chef Honolulu](/private-chef) and a bar at the house. Recently: [the Kahala restaurants guide](/blog/kahala-diamond-head-restaurants-guide), [the Honolulu restaurants guide](/blog/honolulu-restaurants-neighborhood-guide) and [the Oʻahu elopement guide](/blog/oahu-elopement-planning-guide).',
     ],
   },
   maui: {
@@ -43,7 +43,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogMaui',
     body: [
       'Short posts from Wailea, Kīhei and West Maui kitchens: breakfast and lunch in the villa, cleanup, groceries at cost, and what goes on the written quote. The longer notes, including the Maui price guide, live in the journal.',
-      'New this month: [the Makawao restaurants guide](/blog/makawao-restaurants-upcountry-maui-guide) — Upcountry bakeries and paniolo-town kitchens, Pukalani and Kula, Haleakalā sunrise timing, cool evenings and when a [personal chef Maui](/private-chef) dinner at an Upcountry house fits. Recently: [the Kahului restaurants guide](/blog/kahului-restaurants-central-maui-guide), [the Maui whale watching season guide](/blog/maui-whale-watching-season-guide) and [the Pāʻia restaurants guide](/blog/paia-restaurants-north-shore-maui-guide).',
+      'New this month: [the Maui brunch guide](/blog/maui-brunch-guide) — late breakfast in South Maui, West Maui, Kahului and Upcountry, timing around the Haleakalā sunrise and the road to Hāna, weekend waits, and a [personal chef Maui](/private-chef) brunch served at the villa. Recently: [the Makawao restaurants guide](/blog/makawao-restaurants-upcountry-maui-guide), [the Kahului restaurants guide](/blog/kahului-restaurants-central-maui-guide) and [the Maui whale watching season guide](/blog/maui-whale-watching-season-guide).',
     ],
   },
   kauai: {
@@ -71,7 +71,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogBigisland',
     body: [
       'West-side kitchens and Kohala travel show up in the shorter posts; the journal keeps the longer notes.',
-      'New this month: [the Hāwī restaurants guide](/blog/hawi-restaurants-north-kohala-guide) — the North Kohala town, Kapaʻau and the Kamehameha statue, timing a day around Pololū Valley, wind and night driving, and a [private chef Kona](/private-chef) dinner back at the Kohala Coast villa. Recently: [Christmas on the Big Island](/blog/christmas-on-the-big-island-holiday-dinner), [the Kona manta ray night snorkel guide](/blog/kona-manta-ray-night-snorkel-guide) and [the Volcano restaurants guide](/blog/volcano-hawaii-restaurants-guide).',
+      'New this month: [the Kona brunch guide](/blog/kona-brunch-guide) — late breakfast on Aliʻi Drive, in Keauhou, coffee country and on the Kohala Coast, timing around morning snorkels and night tours, and a [private chef Kona](/private-chef) brunch served at the villa. Recently: [the Hāwī restaurants guide](/blog/hawi-restaurants-north-kohala-guide), [Christmas on the Big Island](/blog/christmas-on-the-big-island-holiday-dinner) and [the Kona manta ray night snorkel guide](/blog/kona-manta-ray-night-snorkel-guide).',
       'Looking to book rather than read? Dinner prices, dinners from $165 a guest and signature dinners and Stay Chef days are on the [private chef Big Island](/) page, and staffed villa parties for ten to seventy-five are [Big Island catering](/catering).',
     ],
   },
