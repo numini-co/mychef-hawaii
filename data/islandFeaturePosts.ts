@@ -2324,6 +2324,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-brunch-guide', label: 'Maui brunch guide' },
         { path: '/blog/maui-private-dining-guide', label: 'Maui private dining guide' },
         { path: '/blog/maui-elopement-dinner-guide', label: 'Maui elopement guide' },
         { path: '/blog/kaanapali-restaurants-dining-guide', label: 'Kāʻanapali restaurants guide' },
@@ -3978,6 +3979,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-brunch-guide', label: 'Maui brunch guide' },
         { path: '/blog/paia-restaurants-north-shore-maui-guide', label: 'Pāʻia restaurants guide' },
         { path: '/private-chef', label: 'Personal chef Maui' },
         { path: '/makawao', label: 'Private chef Makawao' },
@@ -4196,6 +4198,120 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/blog/kapalua-restaurants-dining-guide', label: 'Kapalua restaurants guide' },
         { path: '/blog/kaanapali-restaurants-dining-guide', label: 'Kāʻanapali restaurants guide' },
         { path: '/napili', label: 'Private chef Nāpili' },
+        { path: '/private-chef', label: 'Personal chef Maui' },
+        { path: '/catering', label: 'Maui catering' },
+        { path: '/pricing', label: 'Maui private chef cost' },
+        { path: '/', label: 'Private chef Maui' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'maui-brunch-guide',
+      keyword: 'maui brunch',
+      datePublished: '2026-11-19',
+      name: 'Maui brunch guide',
+      h1: 'Maui brunch — where the island eats late breakfast, and how to host one at the villa.',
+      title: 'Maui Brunch Guide — Where to Go & Brunch at Home | myCHEF',
+      description:
+        'Maui brunch by coast: local breakfast plates, Haleakalā sunrise and Hāna road timing, weekend waits, big groups, and brunch served at your villa.',
+      lede:
+        'Maui brunch starts early. Visitors are often awake before dawn in their first days, the Haleakalā sunrise and the road to Hāna both begin in the dark, and many cafés open early and close by early afternoon. This guide explains what brunch looks like on Maui, where it happens on each side of the island, how to time it around the big days out, how to handle waits and larger groups, and when it is simpler to have brunch cooked and served at the villa or condo you are staying in. We do not name or rank restaurants, take commissions or have restaurant partners.',
+      photo: 'occBrunchMaui',
+      body: [],
+      sections: [
+        {
+          heading: 'What does brunch look like on Maui?',
+          paras: [
+            'Brunch on Maui mixes a mainland menu with the local breakfast plate. Next to eggs Benedict, pancakes and avocado toast you will find loco moco, which is rice topped with a hamburger patty, a fried egg and brown gravy, plus Portuguese sausage with eggs and rice, Spam musubi, fried rice and banana bread. Açaí bowls, papaya, pineapple and apple bananas are on almost every menu, and Maui-grown coffee is easy to find.',
+            'Upcountry Maui adds its own flavour. The slopes around Kula grow vegetables, herbs and flowers, and the bakeries of Makawao are a classic morning stop. If you are cooking for yourselves, our [Maui farmers market guide](/blog/maui-farmers-market-villa-week) explains where to buy fruit, eggs and island produce for the house.',
+          ],
+        },
+        {
+          heading: 'Where brunch happens on each side of the island',
+          paras: [
+            'South Maui, from Kīhei through Wailea to Mākena, has the most choice for most visitors: cafés and breakfast diners along South Kīhei Road, and resort breakfast rooms and terraces in Wailea. Our [Kīhei restaurants guide](/blog/kihei-restaurants-dining-guide) and [Wailea restaurants guide](/blog/wailea-restaurants-dining-guide) cover that coast in more detail.',
+            'West Maui, from Kāʻanapali up through Honokōwai, Nāpili and Kapalua, has resort breakfasts and a smaller number of casual cafés, and it is a longer drive from the airport. Lahaina is still rebuilding after the August 2023 wildfire, so check what is open before you plan a morning there and be respectful of the community. Central Maui, in Kahului and Wailuku, has local breakfast spots close to the airport, which makes it a convenient first or last meal of the trip.',
+            'Upcountry, Makawao, Pukalani and Kula have bakeries and cafés that suit a slower morning, and Pāʻia on the North Shore is the last town with a real choice of breakfast before the road to Hāna. Our [Makawao restaurants guide](/blog/makawao-restaurants-upcountry-maui-guide) and [Pāʻia restaurants guide](/blog/paia-restaurants-north-shore-maui-guide) describe both.',
+          ],
+        },
+        {
+          heading: 'Timing brunch around Haleakalā and the road to Hāna',
+          paras: [
+            'The two biggest days out on Maui both start early, and both are followed by a very hungry group. To see sunrise from the summit of Haleakalā, every vehicle entering the park between 3 and 7 a.m. needs a sunrise reservation, booked only on Recreation.gov for $1 per vehicle, on top of the park entrance fee. The National Park Service releases reservations 60 days ahead at 7 a.m. Hawaiʻi time, with a smaller batch two days ahead, and they are not refunded for bad weather.',
+            'After sunrise, the drive down passes through Kula and Makawao, so an Upcountry breakfast on the way back is a natural plan. On the road to Hāna, eat before you leave Pāʻia and carry water and snacks, since food stops along the way are few and opening hours vary. Many groups plan a big late brunch at the house the morning after, when nobody wants to get back in the car.',
+          ],
+        },
+        {
+          heading: 'Weekend waits, holidays and whale season',
+          paras: [
+            'Many Maui breakfast places open early and close by early afternoon, so brunch here usually means late morning, not mid-afternoon. Popular spots can have a wait on weekends, and many do not take reservations for small groups. Arrive near opening or go on a weekday to keep the wait short.',
+            'Winter is also humpback whale season, and morning whale-watching tours and the busy holiday weeks fill tables quickly. Mother’s Day, Easter, Thanksgiving weekend and the days between Christmas and New Year are the busiest brunch mornings of the year. Our [whale watching season guide](/blog/maui-whale-watching-season-guide) covers the season itself.',
+          ],
+        },
+        {
+          heading: 'Brunch with a group: when hosting at the villa is easier',
+          paras: [
+            'A table for two or four is usually easy to find. A table for ten or more on a weekend morning is not: many Maui cafés are small, and resort breakfast rooms often seat large groups only at set times. For a family reunion, a wedding party or friends travelling together, that often means splitting across tables, waiting in shifts or driving in convoy.',
+            'That is when brunch at the villa makes sense. The morning after a wedding, a birthday, Christmas morning, the day after a sunrise drive or a slow start before a beach day are common reasons. Everyone eats together on the lānai, no one drives, and the kitchen is cleaned before we leave. Our page on [brunch at the house](/events/brunch) explains how we plan the morning.',
+          ],
+        },
+        {
+          heading: 'What a brunch at the villa looks like',
+          paras: [
+            'We plan the menu with you before the day: how many guests, any allergies, and whether you want a plated breakfast, family-style platters on the table or a buffet on the counter. A typical island brunch might start with tropical fruit and pastries, then eggs cooked to order or a baked egg dish, local-style fried rice, grilled fish or Portuguese sausage, and something sweet such as pancakes or banana bread. Fish is named as the species we actually bought that week.',
+            'A [personal chef Maui](/private-chef) arrives with the groceries, cooks in your kitchen, serves and cleans up. For a recovery brunch after a wedding or a larger group at an estate, [Maui catering](/catering) adds servers and a sous-chef. Tables, linens, tents and rentals are not included unless you ask for them, and then they are quoted as separate lines.',
+          ],
+        },
+        {
+          heading: 'Where to stay for easy mornings',
+          paras: [
+            'If brunch out matters to your group, South Maui has the most choice within a short drive. West Maui suits groups who want resort breakfasts and calm mornings on the water, at the cost of a longer airport transfer. Upcountry houses are cooler and quieter, with bakeries nearby but fewer full breakfast menus, so a brunch at the house is an easy plan there.',
+          ],
+        },
+        {
+          heading: 'What does a brunch at the villa cost with us?',
+          paras: [
+            'We do not publish a separate brunch price; brunch is quoted in writing for your date and guest count. As a reference, Stay Chef on Maui starts from $1,550 a day for a chef and an assistant cooking one meal, with groceries billed at cost and receipts handed over. Signature dinners are published at $225–$375 a guest with groceries included, for a minimum party of six. Event staff are $80 an hour for servers and $105 an hour for a sous-chef, on four- to five-hour minimums.',
+            'Upcountry addresses add a published travel line from $75, and Pāʻia and the North Shore are quoted with the menu. A 20% service charge and Hawaiʻi GET of up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Maui private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan a brunch at the villa',
+          paras: [
+            'Send the address, the date, the guest count, any allergies and the time you want to eat through the quote form, or message us on WhatsApp at +1 808-468-7748. Ask early for holiday mornings, wedding weekends and the peak winter weeks. We reply in writing with a menu direction and a total. For meals anywhere on the island, see [private chef Maui](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Where is the best area for brunch on Maui?',
+          a: 'South Maui, from Kīhei to Wailea, has the most cafés and breakfast spots for most visitors. Kahului and Wailuku are close to the airport, and Upcountry and Pāʻia suit a slower morning.',
+        },
+        {
+          q: 'Do Maui brunch spots take reservations?',
+          a: 'Many casual places do not for small groups, and popular ones can have a weekend wait. Resort breakfast rooms are more likely to book tables. Arrive near opening or go on a weekday.',
+        },
+        {
+          q: 'Where should we eat after the Haleakalā sunrise?',
+          a: 'The drive down passes through Kula and Makawao, so an Upcountry breakfast on the way back is the easy plan. Sunrise needs a $1 vehicle reservation on Recreation.gov for entry between 3 and 7 a.m.',
+        },
+        {
+          q: 'What is a local Hawaiian breakfast?',
+          a: 'Local breakfast plates include loco moco, Portuguese sausage with eggs and rice, Spam musubi and fried rice, with papaya, pineapple, banana bread and island coffee on the side.',
+        },
+        {
+          q: 'Can a private chef cook brunch at our villa on Maui?',
+          a: 'Yes. We plan the menu with you, shop, cook in your kitchen, serve and clean up. For larger groups we add servers and a sous-chef as separate hourly lines.',
+        },
+        {
+          q: 'How much does a private brunch at home cost on Maui?',
+          a: 'Brunch is quoted in writing. Stay Chef starts from $1,550 a day for a chef and an assistant cooking one meal, with groceries at cost. Service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/blog/makawao-restaurants-upcountry-maui-guide', label: 'Makawao restaurants guide' },
+        { path: '/blog/wailea-restaurants-dining-guide', label: 'Wailea restaurants guide' },
+        { path: '/events/brunch', label: 'Brunch at the house' },
         { path: '/private-chef', label: 'Personal chef Maui' },
         { path: '/catering', label: 'Maui catering' },
         { path: '/pricing', label: 'Maui private chef cost' },
@@ -5513,11 +5629,12 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       slug: 'kauai-wedding-venues-guide',
       keyword: 'kauai wedding venues',
       datePublished: '2026-10-29',
+      dateModified: '2026-11-19',
       name: 'Kauaʻi wedding venues guide',
       h1: 'Kauai wedding venues — choosing a shore, then a kitchen.',
       title: 'Kauai Wedding Venues — Shores, Rules & Food | myCHEF',
       description:
-        'Kauai wedding venues compared by shore: resorts, beaches, gardens, estates and rentals, with permits, rental zones, rain, roads and how catering works.',
+        'Kauai wedding venues by shore: resorts, beaches, gardens, estates and rentals, reception checks, budget tips, permits, rain and how catering works.',
       lede:
         'Kauai wedding venues are chosen by shore before anything else. The North Shore around Princeville and Hanalei is green, dramatic and wet in winter; the South Shore around Poʻipū and Kōloa is sunnier and closer to the airport; the east side around Kapaʻa and Līhuʻe sits between them. Each shore has resorts, beaches, gardens and private estates, and each comes with its own roads, rules and weather. This guide sorts Kauaʻi venues by type, explains what decides the food, and shows where a chef or a staffed wedding week fits. We do not rank or recommend named venues and we have no venue partners.',
       photo: 'weddingKauai',
@@ -5571,6 +5688,22 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
           ],
         },
         {
+          heading: 'Reception and event venues: what decides the food',
+          paras: [
+            'For the reception itself, the venue decides more about the food than the menu does. Before you compare views, ask how the food will get there and where it will be finished. A venue with a working kitchen lets a chef cook on site; a venue with only a prep area means more of the menu is prepared elsewhere and finished there, which favours family-style platters and grilled dishes over delicate plated courses.',
+            'Then check the practical limits: whether outside caterers are allowed at all, whether you must use the venue’s bar, how much power there is for warming equipment, how many restrooms there are and where guests park, and what time the site closes. On Kauaʻi many outdoor venues end the evening early because of neighbours, roads and darkness, so a reception that starts with a sunset ceremony may have only a few hours for dinner and dancing.',
+            'Count seated guests honestly. A garden lawn or an estate lānai that looks spacious in photos can seat far fewer at dinner tables than it holds standing, and every table, chair and tent you add is a rental line, not part of the food.',
+          ],
+        },
+        {
+          heading: 'Kauaʻi wedding venues on a budget',
+          paras: [
+            'The biggest lever on a Kauaʻi wedding budget is the guest list, because food and service are priced per guest. After that, the format matters: a family-style dinner needs fewer servers than a plated one, a lunch or brunch reception is usually lighter than a full evening dinner, and a weekday date is easier to staff than a peak Saturday.',
+            'A private rental that allows the event can also save on venue fees, but only if the kitchen, parking and permissions work; a cheap venue that bans outside food is not a saving. For two, an elopement dinner is a fixed price rather than a per-guest wedding, and our [Kauaʻi elopement guide](/blog/kauai-elopement-dinner-guide) explains how it works.',
+            'Ask every quote to list the food, staffing, service charge, tax and rentals as separate lines. That is the only way to compare two venues and two caterers fairly, and it shows which line to cut first.',
+          ],
+        },
+        {
           heading: 'Where a chef or a staffed wedding week fits',
           paras: [
             'If the venue allows outside food, choose between a chef-led dinner and a staffed event. For a family table, a [personal chef Kauai](/private-chef) dinner is planned with you, shopped that day, cooked and served at the house, and the kitchen is cleaned afterwards.',
@@ -5614,6 +5747,14 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         {
           q: 'How much does wedding catering cost on Kauaʻi?',
           a: 'Wedding formats start from $260 a guest plus hourly staffing, with a 20% service charge and GET up to 4.712% as separate lines. Elopement dinners are a fixed $975–$1,425.',
+        },
+        {
+          q: 'What should we ask a Kauaʻi reception venue about food?',
+          a: 'Ask whether outside caterers are allowed, whether there is a working kitchen or only a prep area, how much power is available, how many guests can be seated at tables, and what time the site closes.',
+        },
+        {
+          q: 'How can we keep Kauaʻi wedding costs down?',
+          a: 'Shorten the guest list, choose family-style service, consider a lunch or brunch reception or a weekday date, and compare quotes line by line. Elopement dinners for two are a fixed $975–$1,425.',
         },
       ],
       related: [
@@ -5733,6 +5874,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kauai-wedding-venues-guide', label: 'Kauaʻi wedding venues guide' },
         { path: '/blog/kauai-family-vacation-planning-guide', label: 'Kauaʻi family vacation guide' },
         { path: '/private-chef', label: 'Personal chef Kauai' },
         { path: '/vacation-chef', label: 'Vacation chef Kauai' },
@@ -6861,6 +7003,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kona-brunch-guide', label: 'Kona brunch guide' },
         { path: '/blog/kona-coffee-farm-tour-guide', label: 'Kona coffee farm tour guide' },
         { path: '/blog/christmas-on-the-big-island-holiday-dinner', label: 'Christmas on the Big Island guide' },
         { path: '/blog/kona-manta-ray-night-snorkel-guide', label: 'Kona manta ray night snorkel guide' },
@@ -8395,9 +8538,124 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/kona-brunch-guide', label: 'Kona brunch guide' },
         { path: '/blog/kona-restaurants-dining-guide', label: 'Kona restaurants guide' },
         { path: '/blog/kona-farmers-market-villa-week', label: 'Kona farmers market guide' },
         { path: '/holualoa', label: 'Hōlualoa' },
+        { path: '/private-chef', label: 'Private chef Kona' },
+        { path: '/catering', label: 'Big Island catering' },
+        { path: '/pricing', label: 'Big Island private chef cost' },
+        { path: '/', label: 'Private chef Big Island' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'kona-brunch-guide',
+      keyword: 'kona brunch',
+      datePublished: '2026-11-19',
+      name: 'Kona brunch guide',
+      h1: 'Kona brunch — where the west side eats late breakfast, and how to host one at the villa.',
+      title: 'Kona Brunch Guide — Where to Go & Brunch at Home | myCHEF',
+      description:
+        'Kona brunch by area: Aliʻi Drive, Keauhou, coffee country and the Kohala Coast, early hours, group tables, and brunch served at your Kona villa.',
+      lede:
+        'Kona brunch is an early meal in strong sun. The west side of Hawaiʻi Island is usually at its clearest in the morning, ocean plans start early, and many cafés open early and close by early afternoon. This guide explains what brunch looks like around Kailua-Kona, where it happens from Keauhou to the Kohala Coast, how to time it around snorkelling, night tours and the drive up the mountain, and when it is simpler to have brunch cooked and served at the villa you are staying in. We do not name or rank restaurants, take commissions or have restaurant, farm or tour partners.',
+      photo: 'occBrunchBigisland',
+      body: [],
+      sections: [
+        {
+          heading: 'What does brunch look like in Kona?',
+          paras: [
+            'Brunch in Kona mixes a mainland menu with the local breakfast plate. Next to eggs, pancakes and avocado toast you will find loco moco, which is rice topped with a hamburger patty, a fried egg and brown gravy, plus Portuguese sausage with eggs and rice, Spam musubi, fried rice and banana bread. Açaí bowls, papaya, pineapple and apple bananas are everywhere.',
+            'Coffee is the difference. Kona coffee is grown on the slopes just above town, and a cup brewed from beans roasted a few miles away is the standard here, not a treat. Macadamia nuts turn up in pancakes, breads and granola. Our [Kona coffee farm tour guide](/blog/kona-coffee-farm-tour-guide) explains the coffee belt, and our [Kona farmers market guide](/blog/kona-farmers-market-villa-week) covers buying fruit, eggs and island produce for the house.',
+          ],
+        },
+        {
+          heading: 'Where brunch happens on the west side',
+          paras: [
+            'Kailua-Kona has the most choice: cafés, breakfast diners and coffee bars along Aliʻi Drive and up the hill around the main highway, many with an ocean view across the seawall. It is the easiest first breakfast after a late arrival at Kona airport. Our [Kona restaurants guide](/blog/kona-restaurants-dining-guide) explains the town in more detail.',
+            'South along Aliʻi Drive, Keauhou has resort and shopping-centre breakfasts close to the bays. Up the slope, Hōlualoa and the coffee villages along the Māmalahoa Highway are quieter, cooler and best for coffee and baked goods. North of the airport, the Kohala Coast resorts at Waikoloa and Mauna Lani have resort breakfast rooms, and the ranch town of Waimea, about an hour from Kona, has its own cafés and a cool upcountry morning. Our [Waikoloa restaurants guide](/blog/waikoloa-restaurants-dining-guide) and [Waimea restaurants guide](/blog/waimea-big-island-restaurants-guide) cover both.',
+          ],
+        },
+        {
+          heading: 'Early hours, sun and timing',
+          paras: [
+            'Many Kona breakfast places open early and close by early afternoon, so brunch here usually means late morning, not mid-afternoon. Popular spots can have a wait on weekends, and many do not take reservations for small groups. Arrive near opening or go on a weekday to keep the wait short.',
+            'The west side is sunny and dry, and mornings are usually the clearest part of the day; clouds often build over the slopes in the afternoon. That makes early morning the time for the water and a late brunch the natural break before the hottest hours. Ask for shade, take water and sunscreen, and choose a covered table for a group with children.',
+            'Holiday mornings such as Mother’s Day, Easter, Thanksgiving weekend and the days between Christmas and New Year are the busiest of the year. Book a resort table or plan a brunch at the house well ahead for those dates.',
+          ],
+        },
+        {
+          heading: 'Brunch around snorkels, night tours and the mountain',
+          paras: [
+            'Kona’s best-known evening trips run late. A [manta ray night snorkel](/blog/kona-manta-ray-night-snorkel-guide) ends after dark, and a [Mauna Kea stargazing](/blog/mauna-kea-stargazing-guide) evening brings you back down the mountain late at night. The next morning is a good one for a slow brunch at the house rather than an early start.',
+            'Morning snorkelling and boat trips leave early, so eat something small first and plan the bigger meal for when you are back. If you are driving to the volcano or around the island, eat before you leave the west side and carry water and snacks, since food stops on the long stretches are few.',
+          ],
+        },
+        {
+          heading: 'Brunch with a group: when hosting at the villa is easier',
+          paras: [
+            'A table for two or four is usually easy to find. A table for ten or more on a weekend morning is not: many Kona cafés are small, and resort breakfast rooms often seat large groups only at set times. For a family reunion, a wedding party, a golf group or friends travelling together, that often means splitting across tables or waiting in shifts.',
+            'That is when brunch at the villa makes sense. The morning after a wedding, a birthday, Christmas morning, the day after a night tour or a slow start before a beach day are common reasons. Everyone eats together on the lānai, no one drives, and the kitchen is cleaned before we leave. Our page on [brunch at the house](/events/brunch) explains how we plan the morning.',
+          ],
+        },
+        {
+          heading: 'What a brunch at the villa looks like',
+          paras: [
+            'We plan the menu with you before the day: how many guests, any allergies, and whether you want a plated breakfast, family-style platters on the table or a buffet on the counter. A typical Kona brunch might start with tropical fruit, pastries and Kona coffee, then eggs cooked to order or a baked egg dish, local-style fried rice, grilled fish or Portuguese sausage, and macadamia nut pancakes or banana bread. Fish is named as the species we actually bought that week.',
+            'A [private chef Kona](/private-chef) arrives with the groceries, cooks in your kitchen, serves and cleans up. For a recovery brunch after a wedding or a larger group at a Kohala Coast estate, [Big Island catering](/catering) adds servers and a sous-chef. Tables, linens, tents and rentals are not included unless you ask for them, and then they are quoted as separate lines.',
+          ],
+        },
+        {
+          heading: 'Where to stay for easy mornings',
+          paras: [
+            'If brunch out matters to your group, Kailua-Kona and Keauhou have the most choice within a short drive. The Kohala Coast suits groups who want resort mornings, calmer beaches and more space, with fewer casual breakfast places nearby. Coffee-country houses up the slope are cooler and quieter, so brunch at the house is the easy plan there.',
+          ],
+        },
+        {
+          heading: 'What does a brunch at the villa cost with us?',
+          paras: [
+            'We do not publish a separate brunch price; brunch is quoted in writing for your date and guest count. As a reference, Stay Chef on Hawaiʻi Island starts from $1,450 a day for a chef and an assistant cooking one meal, with groceries billed at cost and receipts handed over. Signature dinners are published at $210–$325 a guest with groceries included, for a minimum party of six. Event staff are $80 an hour for servers and $105 an hour for a sous-chef, on four- to five-hour minimums.',
+            'Addresses outside the Kona–Kohala corridor carry a published travel line from $75, and the east side is quoted case by case. A 20% service charge and Hawaiʻi GET of up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Big Island private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan a brunch at the villa',
+          paras: [
+            'Send the address, the date, the guest count, any allergies and the time you want to eat through the quote form, or message us on WhatsApp at +1 808-468-7748. Hawaiʻi Island is by inquiry: we confirm a crew before we confirm the date, so ask early for holiday mornings and wedding weekends. We reply in writing with a menu direction and a total. For meals anywhere on the west side, see [private chef Big Island](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Where is the best area for brunch in Kona?',
+          a: 'Kailua-Kona, along Aliʻi Drive and up the hill, has the most cafés and breakfast spots. Keauhou is close by, and the Kohala Coast resorts and Waimea suit groups staying north.',
+        },
+        {
+          q: 'Do Kona brunch spots take reservations?',
+          a: 'Many casual places do not for small groups, and popular ones can have a weekend wait. Resort breakfast rooms are more likely to book tables. Arrive near opening or go on a weekday.',
+        },
+        {
+          q: 'What time of day is best on the Kona side?',
+          a: 'Mornings are usually the clearest, with clouds often building over the slopes in the afternoon. Plan the water early and a late brunch before the hottest hours.',
+        },
+        {
+          q: 'What is a local Hawaiian breakfast?',
+          a: 'Local breakfast plates include loco moco, Portuguese sausage with eggs and rice, Spam musubi and fried rice, with papaya, banana bread, macadamia nuts and Kona coffee on the side.',
+        },
+        {
+          q: 'Can a private chef cook brunch at our villa in Kona?',
+          a: 'Yes. We plan the menu with you, shop, cook in your kitchen, serve and clean up. Hawaiʻi Island is by inquiry, so we confirm a crew before the date.',
+        },
+        {
+          q: 'How much does a private brunch at home cost in Kona?',
+          a: 'Brunch is quoted in writing. Stay Chef starts from $1,450 a day for a chef and an assistant cooking one meal, with groceries at cost. Service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/blog/kona-restaurants-dining-guide', label: 'Kona restaurants guide' },
+        { path: '/blog/kona-coffee-farm-tour-guide', label: 'Kona coffee farm tour guide' },
+        { path: '/events/brunch', label: 'Brunch at the house' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/catering', label: 'Big Island catering' },
         { path: '/pricing', label: 'Big Island private chef cost' },
