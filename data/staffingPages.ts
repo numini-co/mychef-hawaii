@@ -131,6 +131,9 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         'Gold Coast houses with real dining rooms are the usual rooms.',
         'A butler is house-level service across the stay, not the server on a single pass. They are in the Kahala or Ko Olina house before the day starts, set the rooms you named, and finish at the end time on the quote. Hours are written apart from the chef and apart from a dinner server, sized to how many people are in the house and to the style of service you want. We will not sell a butler we cannot staff. There is no published hourly figure. The amount is quoted in writing. Request a written quote on [the quote form](/quote). See [staffing](/staffing).',
         `In a Kahala dining room or a Ko Olina villa the butler runs the house across the days you named, not the single pass of a dinner server. A Honolulu tower still needs the freight window and the building rules on the note before those hours are real. The hours print apart from the chef and apart from the food band. No butler rate is published. A server for the dinner is $${serverHr} an hour and a sous chef is $${sousHr} an hour. 20% service and Hawaiʻi GET up to 4.712% each take a line, then a 50% deposit. Gratuity is never required. See [staffing](/staffing) and [pricing](/pricing). Request a written quote on [the quote form](/quote).`,
+        '## When Kahala or Ko Olina has a free butler',
+        'A butler covers a Kahala or Ko Olina stay. The chef stays on the food. A dinner server stops after one plate service. Rooms, timing, and the table before anyone sits are the work, and only when a trained butler is free.',
+        'Hours are quoted in writing as their own hourly line, next to the chef fee. No butler rate is on the card. A 20% service charge and Hawaiʻi GET up to 4.712% stand alone. A 50% deposit follows a written yes. Gratuity is never required. See [servers](/staffing/servers), [staffing](/staffing), and [pricing](/pricing). Request a written quote.',
       ],
       faqs: [
         {
@@ -270,13 +273,16 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       h1: 'Butlers for a Maui villa week.',
       title: 'Butlers for a Maui villa week | myCHEF',
       description:
-        'A butler for a Wailea, Kapalua, or Kāʻanapali villa week, apart from the dinner server. Quoted in writing when someone can work. Request a written quote.',
+        'A butler for a Wailea, Kapalua, or Kāʻanapali villa week, apart from the dinner server. Quoted in writing when staffed. Request a written quote.',
       lede: 'The table set, water poured, the chef left at the pass.',
       photo: 'staffButlersMaui',
       body: [
         'We do not impersonate a resort butler department.',
         'Across a Villa Week a butler runs the house, not a single course. They arrive before the day you named in Wailea or West Maui, keep the rooms and the table, and stop at the end time. Hours are written apart from the chef and from a dinner server, and they scale to how many people are in the villa. We will not sell a butler we cannot staff. There is no hourly figure. The stay is quoted in writing. Quotes are open on [the quote form](/quote). The staffing index is [staffing](/staffing).',
         `Across a Villa Week in Wailea, Kapalua, or Kāʻanapali the butler keeps the house from the call time you named until the end time, while a dinner server only has the courses that night. Rooms, timing, and the table before anyone sits are the job. Those hours are not folded into the chef day or the food band. There is no published butler hour. A server added for dinner is $${serverHr} an hour and a sous chef is $${sousHr} an hour. 20% service and Hawaiʻi GET up to 4.712% each stand alone, then a 50% deposit. Gratuity is never required. Read [staffing](/staffing) and [pricing](/pricing). Request a written quote on [the quote form](/quote).`,
+        '## When a villa week needs a butler',
+        'A Wailea, Kapalua, or Kāʻanapali villa week adds a butler as the person for the stay. The chef cooks. A dinner server stops after one plate service. Rooms, timing, and the table before anyone sits are the work.',
+        'The villa-week quote lists those hours as their own hourly line beside the chef fee. No butler figure is on the card. A 20% service charge and Hawaiʻi GET up to 4.712% each take a row. A 50% deposit follows a written yes. Gratuity is never required. Dinner service is [servers](/staffing/servers). Open [staffing](/staffing) and [pricing](/pricing). Request a written quote.',
       ],
       faqs: [
         {
@@ -415,13 +421,16 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
       h1: 'Butlers for a Kauai estate stay.',
       title: 'Butlers for a Kauai estate stay | myCHEF',
       description:
-        'A butler for a Princeville or Poʻipū stay, separate from the dinner server. Quoted in writing when someone can work. Request availability for that shore.',
+        'A butler for a Princeville or Poʻipū stay, separate from the dinner server. Quoted in writing if we can staff it. Request availability for that shore.',
       lede: 'An empty Princeville table being set. Inquiry.',
       photo: 'staffButlersKauai',
       body: [
         'Request availability. We do not impersonate a resort butler department.',
         'A butler on either shore is house-level service across the stay, not the dinner server. They are at the Princeville or Poʻipū estate for the call time you requested, keep the house through those hours, and finish at the end time. A bridge closure moves a North Shore day. Hours are separate from the chef, sized to who is in the house. We will not sell a butler we cannot staff. There is no published hour. The stay is quoted in writing. Request availability on [the quote form](/quote). See [staffing](/staffing).',
         `A butler on the estate keeps the house across the stay, from the call time you requested until the end time, while a dinner server only has the courses. Princeville rain still moves a north-shore day under cover. Request availability for the shore. There is no published butler hour. A server added for the dinner is $${serverHr}/hr and a sous chef is $${sousHr}/hr, then 20% service and Hawaiʻi GET up to 4.712% on their own lines. A 50% deposit follows a written yes. Gratuity is never required. See [pricing](/pricing).`,
+        '## When Princeville or Poʻipū needs a butler',
+        'Request availability for Princeville or Poʻipū. The butler is the person for that stay. The chef cooks. The dinner server ends after one plate service. A bridge closure moves a far-north day.',
+        'The reply quotes butler hours as their own hourly line next to the chef fee. No butler rate is published. A 20% service charge and Hawaiʻi GET up to 4.712% each print alone. A 50% deposit waits for a written yes. Gratuity is never required. The sibling is [servers](/staffing/servers). Shore roles are on [staffing](/staffing). The card is [pricing](/pricing). Request availability for that shore.',
       ],
       faqs: [
         {
@@ -571,6 +580,9 @@ export const staffingPages: Record<IslandId, StaffingPage[]> = {
         'Join the inquiry list. We do not impersonate a hotel butler line.',
         'A butler here is house-level service across a Kona or Kohala stay. They are on property for the call time, keep the house through those hours, and stop at the end time. Hours are separate from the chef and from a dinner server, sized to who is in the house. We will not sell a butler we cannot staff. There is no published hour. Hilo is a separate dedicated east-side day, quoted in writing, even for a dinner. Join the inquiry list on [the quote form](/quote). See [staffing](/staffing).',
         `Join the inquiry list when a Kona or Kohala stay needs the house covered outside dinner. The butler is on property for the days you named, from call time to end time, while a server stops when the courses end. Those hours are not inside the chef fee and not inside the food band. No butler hour is published. A dinner server added for one night is $${serverHr} an hour and a sous chef is $${sousHr} an hour. 20% service and Hawaiʻi GET up to 4.712% each stand alone, then a 50% deposit. Gratuity is never required. Leave Hilo off that note. Read [staffing](/staffing) and [pricing](/pricing). Join the inquiry list on [the quote form](/quote).`,
+        '## When a Kona or Kohala stay needs a butler',
+        'Join the inquiry list, west side first. A Kona or Kohala butler is the person for the stay, not the chef and not the dinner server after one plate service. Hilo stays a separate dedicated east-side day.',
+        'The west-side reply quotes that butler as its own hourly line beside the chef fee. No butler figure is on the card. A 20% service charge and Hawaiʻi GET up to 4.712% each take a line. A 50% deposit follows a written yes. Gratuity is never required. Dinner plates are [servers](/staffing/servers). Roles are on [staffing](/staffing) and [pricing](/pricing). Join the inquiry list.',
       ],
       faqs: [
         {
