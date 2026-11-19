@@ -239,6 +239,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/oahu-grocery-delivery-villa-guide', label: 'Oʻahu grocery delivery guide' },
         { path: '/blog/oahu-brunch-guide', label: 'Oʻahu brunch guide' },
         { path: '/', label: 'Private chef Oahu' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
@@ -2212,6 +2213,121 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/', label: 'Private chef Oahu' },
       ],
     },
+    {
+      feature: true,
+      slug: 'oahu-grocery-delivery-villa-guide',
+      keyword: 'oahu grocery delivery',
+      datePublished: '2026-11-20',
+      name: 'Oʻahu grocery delivery guide',
+      h1: 'Oʻahu grocery delivery — stocking the rental before the first night, and what to leave to the chef.',
+      title: 'Oahu Grocery Delivery: Stocking Your Rental | myCHEF',
+      description:
+        'Oahu grocery delivery for rentals: how delivery and pickup work by area, condo rules, the Honolulu bag fee, a first-week list and when a chef shops.',
+      lede:
+        'Oʻahu grocery delivery is the easiest way to arrive at a rental with breakfast in the fridge, but it works differently from home. Coverage is thick in Honolulu and thin at the edges of the island, condo buildings have their own rules about deliveries, prices run higher than on the mainland, and the Honolulu bag rules apply to every order. This guide explains how grocery delivery and pickup work on Oʻahu, what to buy where, a simple first-week list, and when it is easier to let a chef do the shopping. We do not name or rank stores or delivery apps, take commissions or have retail partners.',
+      photo: 'blogGroceryOahu',
+      body: [],
+      sections: [
+        {
+          heading: 'How does grocery delivery work on Oʻahu?',
+          paras: [
+            'Most visitors use the same app-based delivery and store pickup they use at home. In urban Honolulu, Waikīkī, Kailua, Kāneʻohe, Kapolei and the central suburbs, you can usually choose from several supermarkets and get a delivery window the same day. Most stores also offer order-ahead pickup at the curb, which is often cheaper and faster than delivery if you have a rental car.',
+            'Coverage thins out on the North Shore, on the Waiʻanae coast and in the quieter windward valleys. There are fewer stores close by, fewer drivers and fewer windows, so plan your order a day ahead or do one big shop in town on the way out. Delivery fees, service fees and suggested tips vary by app and by order size, and substitutions are common when an item is out of stock, so check the settings before you confirm.',
+          ],
+        },
+        {
+          heading: 'Stocking the rental before you arrive',
+          paras: [
+            'If you want groceries waiting when you land, ask your host first. Some vacation rental managers will receive an order or stock a short list for a fee; many will not, because perishables need someone at the door and a working fridge with space in it. If nobody can receive it, book the first delivery window after your check-in time rather than before.',
+            'Condo towers in Waikīkī and along the Gold Coast are a special case. Many buildings send couriers to the front desk or a loading area, and some desks will not hold chilled or frozen food. Ask the building or your host how deliveries are received and add your unit number and name exactly as they appear on the booking.',
+          ],
+        },
+        {
+          heading: 'Prices, tax and the Honolulu bag rule',
+          paras: [
+            'Groceries on Oʻahu cost more than most visitors expect, because so much of what is on the shelf is shipped in. Island-grown fruit, eggs, greens and fish are the best value and the best flavour. Hawaiʻi’s general excise tax is charged on groceries as well, so the total at checkout will be a little higher than the shelf prices.',
+            'On Oʻahu, stores may not give out plastic checkout bags. Under the Honolulu ordinance, a store that provides a compliant paper or reusable bag must charge at least 15 cents per bag, and loose produce, meat and fish can still go into thin handle-less bags inside the store. Pack a couple of foldable totes and an insulated bag for the beach and the drive home.',
+          ],
+        },
+        {
+          heading: 'What to buy where',
+          paras: [
+            'Supermarkets cover almost everything, and the larger ones have fish counters with poke and fresh fish by the pound. Warehouse clubs are useful for big groups and long stays, but you need a membership. For fruit, vegetables, flowers and local snacks, the weekly markets are hard to beat; our [Oahu farmers market guide](/blog/oahu-farmers-market-villa-week) explains how they work and what is in season.',
+            'Think about what travels well. A cooler in the car keeps fish and ice cream safe on the drive from town to the North Shore or Ko Olina, and buying fish on the day you cook it is always better than stocking it for the week.',
+          ],
+        },
+        {
+          heading: 'Grocery delivery by area',
+          paras: [
+            'Waikīkī and town: the most choice and the fastest windows, but the strictest building rules and the smallest kitchens. Order little and often. Kahala and Hawaiʻi Kai: good supermarket coverage and houses with real kitchens; a delivery on the day you arrive is easy.',
+            'Kailua and the windward side: plenty of choice in Kailua and Kāneʻohe, fewer options as you head north along the coast. Ko Olina and the west side: Kapolei has the stores, and the resort is a short drive away, so order to arrive after check-in. North Shore and Turtle Bay: shop in town or in Haleʻiwa before you settle in, and expect fewer delivery windows.',
+          ],
+        },
+        {
+          heading: 'A simple first-week list for a rental',
+          paras: [
+            'For the first morning: coffee, milk or a plant milk, eggs, bread, butter, local fruit such as papaya and apple bananas, yogurt and something for the kids. For the beach: water, sunscreen, snacks and ice. For the kitchen: salt, oil, a few spices and paper towels, because many rentals leave only the basics.',
+            'Keep the list short. Many families buy far more than they eat in a week, and leftover food in a rental is hard to take home. Plan which nights you will cook, which nights you will eat out and which nights someone else will cook for you, then shop for those nights only.',
+          ],
+        },
+        {
+          heading: 'Alcohol and deliveries',
+          paras: [
+            'Supermarkets on Oʻahu sell beer, wine and spirits. You must be 21 or older to buy alcohol, and for an order that includes it, expect the courier to ask for ID at the door, so someone of age needs to receive it. If you are hosting a party, a staffed bar can be easier than stocking one yourself; our [mobile bar](/mobile-bar) page explains how that works.',
+          ],
+        },
+        {
+          heading: 'When to let a chef do the shopping',
+          paras: [
+            'For the nights that matter, grocery delivery is the wrong tool. A [private chef Honolulu](/private-chef) dinner includes the shopping: we plan the menu with you, buy fish and produce that day, cook and serve it in your kitchen and leave the kitchen clean. For a signature dinner, groceries are inside the per-guest price, so there is no separate grocery bill.',
+            'For a longer stay, a Stay Chef day or a run of chef-cooked days works differently: groceries are billed at cost with the receipts and no markup, as our note on [groceries billed at cost](/blog/grocery-at-cost) explains. For a bigger party, [Oahu catering](/catering) adds servers and a sous-chef, and the shopping is part of the plan.',
+          ],
+        },
+        {
+          heading: 'What does it cost?',
+          paras: [
+            'Signature dinners on Oʻahu are published at $195–$290 a guest with groceries included, for a minimum party of six, and a simpler menu runs $145–$195 a guest for eight or more. Stay Chef starts from $1,250 a day for a chef and an assistant cooking one meal, with groceries at cost. Weekly meal prep starts from $450 a week, also with groceries at cost, and event staff are $80 an hour for servers and $105 an hour for a sous-chef, on four- to five-hour minimums.',
+            'North Shore and Turtle Bay addresses add a published travel line from $75. A 20% service charge and Hawaiʻi GET of up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Oahu private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to book a dinner at the house',
+          paras: [
+            'Send the address, the dates, the guest count and any allergies through [the quote form](/quote), or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total. For dinners anywhere on the island, see [private chef Oahu](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Is grocery delivery available everywhere on Oʻahu?',
+          a: 'It is easy in Honolulu, Waikīkī, Kailua, Kāneʻohe, Kapolei and the central suburbs. On the North Shore and the Waiʻanae coast there are fewer stores and delivery windows, so order a day ahead or shop in town.',
+        },
+        {
+          q: 'Can groceries be delivered before we check in?',
+          a: 'Only if someone can receive them. Ask your host or building; if nobody can take chilled food, book the first window after your check-in time.',
+        },
+        {
+          q: 'Do Oʻahu stores charge for bags?',
+          a: 'Yes. Plastic checkout bags are not allowed, and stores must charge at least 15 cents for each compliant paper or reusable bag. Bring your own totes.',
+        },
+        {
+          q: 'Can alcohol be included in a grocery delivery?',
+          a: 'Supermarkets sell beer, wine and spirits, but you must be 21 or older and the courier will usually ask for ID at the door.',
+        },
+        {
+          q: 'Do we pay for groceries separately with a private chef?',
+          a: 'Not for a signature dinner; groceries are inside the $195–$290 per-guest price. For Stay Chef days and weekly meal prep, groceries are billed at cost with receipts.',
+        },
+      ],
+      related: [
+        { path: '/blog/oahu-farmers-market-villa-week', label: 'Oahu farmers market guide' },
+        { path: '/blog/grocery-at-cost', label: 'Groceries billed at cost' },
+        { path: '/private-chef', label: 'Private chef Honolulu' },
+        { path: '/catering', label: 'Oahu catering' },
+        { path: '/pricing', label: 'Oahu private chef cost' },
+        { path: '/', label: 'Private chef Oahu' },
+      ],
+    },
   ],
   maui: [
     {
@@ -2780,6 +2896,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-in-december-guide', label: 'Maui in December guide' },
         { path: '/blog/maui-whale-watching-season-guide', label: 'Maui whale watching season guide' },
         { path: '/blog/new-years-eve-maui-villa-dinner', label: 'New Year’s Eve in Maui' },
         { path: '/private-chef', label: 'Personal chef Maui' },
@@ -3849,6 +3966,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-in-december-guide', label: 'Maui in December guide' },
         { path: '/blog/christmas-in-maui-villa-dinner', label: 'Christmas in Maui guide' },
         { path: '/private-chef', label: 'Personal chef Maui' },
         { path: '/catering', label: 'Maui catering' },
@@ -4418,6 +4536,120 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/blog/makawao-restaurants-upcountry-maui-guide', label: 'Makawao restaurants guide' },
         { path: '/blog/wailea-restaurants-dining-guide', label: 'Wailea restaurants guide' },
         { path: '/events/brunch', label: 'Brunch at the house' },
+        { path: '/private-chef', label: 'Personal chef Maui' },
+        { path: '/catering', label: 'Maui catering' },
+        { path: '/pricing', label: 'Maui private chef cost' },
+        { path: '/', label: 'Private chef Maui' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'maui-in-december-guide',
+      keyword: 'maui in december',
+      datePublished: '2026-11-20',
+      name: 'Maui in December',
+      h1: 'Maui in December — weather, whales, Haleakalā and dinners at the villa.',
+      title: 'Maui in December 2026 — Weather, Whales & Dinners | myCHEF',
+      description:
+        'Maui in December 2026: weather by coast, cold Haleakalā sunrises, whale season, winter surf, holiday-week booking tips and dinners at your villa.',
+      lede:
+        'Maui in December is warm by day, cooler at night and busier as the month goes on. It is the start of whale season, the wettest month of the year on average at Kahului, a cold month at the summit of Haleakalā and the run-up to the island’s peak holiday weeks. This guide covers what the weather is really like on each side of the island, what to plan for the big days out, how to handle the Christmas and New Year rush, and how dinners at the house fit in, with what they cost with us. We do not sell tours or tickets and have no venue partners.',
+      photo: 'blogPeakMaui',
+      body: [],
+      sections: [
+        {
+          heading: 'What is the weather like on Maui in December?',
+          paras: [
+            'December is in Hawaiʻi’s wet season, but on most of Maui that means passing showers rather than lost days. At Kahului Airport, the 1991–2020 NOAA climate normals for December are an average high of 83.3°F and an average low of 65.9°F, with 2.80 inches of rain spread over about ten days with measurable rain. That makes December Kahului’s wettest month on average, and still a mostly sunny one.',
+            'Where you stay matters more than the month. South Maui, from Kīhei through Wailea to Mākena, and West Maui are on the dry, leeward side and usually sunny. The windward side, from Pāʻia toward Hāna, gets far more rain, and Upcountry evenings in Kula and Makawao are noticeably cooler. The sun sets around 6 p.m., so outdoor dinners start early.',
+          ],
+        },
+        {
+          heading: 'Haleakalā in December: cold, and booked ahead',
+          paras: [
+            'The National Park Service says the 10,023-foot summit of Haleakalā is about 30°F cooler than the coast, that temperatures can drop to freezing or below, and that rain and wind are common in the rainy season from November through March. Bring real layers, a hat and gloves for sunrise, fill the tank before you drive up, and pack food, because none is sold in the park.',
+            'To see sunrise, every vehicle entering the park between 3 and 7 a.m. needs a sunrise reservation from Recreation.gov, at $1 per vehicle plus the park entrance fee. Reservations open 60 days ahead at 7 a.m. Hawaiʻi time, with a smaller batch two days ahead, and they are not refunded for bad weather. For the holiday weeks, book the moment they open.',
+          ],
+        },
+        {
+          heading: 'Whale season and winter surf',
+          paras: [
+            'Humpback whales come to Hawaiian waters from about November through May, with the peak from January through March, according to NOAA’s Hawaiian Islands Humpback Whale National Marine Sanctuary. The shallow channel between Maui, Lānaʻi and Molokaʻi is one of the best places to see them, so sightings from West and South Maui start to build in December. Federal rules prohibit approaching within 100 yards on the water. Our [Maui whale watching season guide](/blog/maui-whale-watching-season-guide) has the detail.',
+            'Winter swells reach the north-facing shores from about November, and big surf can make some beaches dangerous for days. South and West Maui are usually calmer for swimming and snorkelling, but conditions change, so swim at lifeguarded beaches and follow the posted warnings.',
+          ],
+        },
+        {
+          heading: 'Where to stay on Maui in December',
+          paras: [
+            'For sun and calm water, South Maui is the safest bet; our [Wailea restaurants guide](/blog/wailea-restaurants-dining-guide) and [Kīhei restaurants guide](/blog/kihei-restaurants-dining-guide) cover that coast. West Maui, from Kāʻanapali to Kapalua, is the other classic base, with whales offshore and sunsets over Lānaʻi. Lahaina is still rebuilding after the August 2023 wildfire, so follow official guidance and be respectful of the community there.',
+            'Upcountry and the North Shore suit travellers who want cool nights, gardens and a quieter base. Expect more rain on that side, and build in time for the drives.',
+          ],
+        },
+        {
+          heading: 'Early December versus the holiday weeks',
+          paras: [
+            'The first two weeks of December are among the quieter times of the year on Maui. Flights and rentals are usually easier and restaurants less crowded. From around the third week, the holiday rush begins, and the week between Christmas and New Year is the busiest of the year.',
+            'For the holiday weeks, book flights, cars, houses, Haleakalā sunrise and any restaurant dinners as early as you can. Many businesses shorten their hours on Christmas Eve and New Year’s Eve and close on Christmas Day and New Year’s Day. Our [Christmas in Maui guide](/blog/christmas-in-maui-villa-dinner) and [New Year’s Eve on Maui guide](/blog/new-years-eve-maui-villa-dinner) cover those two weeks in detail.',
+          ],
+        },
+        {
+          heading: 'Planning the days around the weather',
+          paras: [
+            'Use the forecast for each side of the island, not one forecast for Maui. If it is raining in Pāʻia, it is often sunny in Wailea. Keep a flexible list: a South Maui beach morning, an Upcountry drive, a whale watch or a slow afternoon at the villa.',
+            'The road to Hāna is slower and more slippery after rain, and streams and waterfalls can rise quickly. Start early, never cross a swollen stream, and do not plan a big dinner reservation on the same evening as the drive.',
+          ],
+        },
+        {
+          heading: 'Eating well on Maui in December',
+          paras: [
+            'Restaurants are busy in the holiday weeks and the best tables go early. After a 3 a.m. Haleakalā start or a full day on the Hāna road, many families would rather eat at the house. A [personal chef Maui](/private-chef) dinner is planned with you before the trip, shopped that day, cooked and served in your kitchen, and the kitchen is cleaned before we leave. Fish is named as the species we actually bought that week.',
+            'For a family reunion, a holiday party or a wedding-week dinner with more guests, [Maui catering](/catering) adds servers and a sous-chef. Tables, linens, tents and rentals are not included unless you ask for them, and then they are quoted separately. For late December, ask early: we confirm a crew before we confirm the date.',
+          ],
+        },
+        {
+          heading: 'What does a December dinner at the villa cost with us?',
+          paras: [
+            'Signature dinners on Maui are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler menu runs $190–$225 a guest. A dinner for two starts from $750 per event, and Stay Chef starts from $1,550 a day for a chef and an assistant cooking one meal, with groceries at cost. Event staff are $80 an hour for servers and $105 an hour for a sous-chef, on four- to five-hour minimums.',
+            'Upcountry addresses add a published travel line from $75, and Pāʻia and the North Shore are quoted with the menu. A 20% service charge and Hawaiʻi GET of up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. The full card is on [Maui private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan a December dinner',
+          paras: [
+            'Send the address, the dates, the guest count and any allergies through [the quote form](/quote), or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total. For dinners anywhere on the island, see [private chef Maui](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Is December a good time to visit Maui?',
+          a: 'Yes. Days are warm, whale season is starting and the first half of the month is quieter. From the third week of December, the holiday rush makes everything busier and more expensive.',
+        },
+        {
+          q: 'How warm is Maui in December?',
+          a: 'At Kahului Airport, NOAA’s 1991–2020 normals for December are an average high of 83.3°F and an average low of 65.9°F. Upcountry nights are cooler, and the Haleakalā summit can drop to freezing.',
+        },
+        {
+          q: 'Does it rain a lot on Maui in December?',
+          a: 'December averages 2.80 inches of rain at Kahului over about ten wet days. South and West Maui are usually dry and sunny; the windward side toward Hāna is much wetter.',
+        },
+        {
+          q: 'Can you see whales on Maui in December?',
+          a: 'Yes, sightings start to build in December, and the peak is January through March. The channel between Maui, Lānaʻi and Molokaʻi is one of the best areas.',
+        },
+        {
+          q: 'Do we need a reservation for the Haleakalā sunrise in December?',
+          a: 'Yes. Every vehicle entering between 3 and 7 a.m. needs a $1 reservation from Recreation.gov, released 60 days ahead, plus the park entrance fee.',
+        },
+        {
+          q: 'How much is a private chef dinner on Maui in December?',
+          a: 'Signature dinners are $225–$375 a guest with groceries included, minimum six. Service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/blog/christmas-in-maui-villa-dinner', label: 'Christmas in Maui guide' },
+        { path: '/blog/new-years-eve-maui-villa-dinner', label: 'New Year’s Eve on Maui guide' },
+        { path: '/blog/maui-whale-watching-season-guide', label: 'Maui whale watching season guide' },
         { path: '/private-chef', label: 'Personal chef Maui' },
         { path: '/catering', label: 'Maui catering' },
         { path: '/pricing', label: 'Maui private chef cost' },
@@ -6329,11 +6561,12 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       slug: 'kauai-in-december-guide',
       keyword: 'kauai in december',
       datePublished: '2026-11-17',
+      dateModified: '2026-11-20',
       name: 'Kauaʻi in December',
       h1: 'Kauaʻi in December — weather, whales, holiday events and dinners at the house.',
       title: 'Kauai in December 2026 — Weather, Events & Dinners | myCHEF',
       description:
-        'Kauaʻi in December 2026: rain and surf by shore, whale season, the Lights on Rice Parade, holiday-week booking tips, and dinners at your rental.',
+        'Kauaʻi in December 2026: weather by the numbers and by shore, whale season, the Lights on Rice Parade, holiday booking tips and dinners at your rental.',
       lede:
         'Kauaʻi in December is green, busy at the end and quieter at the start. It is the wettest time of year on the North Shore, the start of whale season and the run-up to the island’s peak holiday weeks. This guide covers what the weather is really like on each shore, what is on during December 2026, how to plan around the Christmas and New Year rush, and how dinners at the house fit in, with what they cost with us. We do not sell tours or tickets and have no venue partners.',
       photo: 'kauaiNorth',
@@ -6344,6 +6577,20 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
           paras: [
             'December is in Hawaiʻi’s wet season. Kauaʻi is one of the rainiest islands, and the rain falls very unevenly. The North Shore around Princeville, Hanalei and Hāʻena gets the most showers and sometimes days of steady rain, while the South Shore around Poʻipū and Kōloa is usually drier and sunnier. The east side around Kapaʻa and Līhuʻe sits in between, with passing showers that often clear quickly.',
             'Days are still warm, but evenings are cooler than in summer, and the sun sets before 6 p.m. Plan outdoor dinners for the first part of the evening, keep a covered lānai or the dining room as the backup, and pack a light layer for the North Shore.',
+          ],
+        },
+        {
+          heading: 'Kauaʻi weather in December, by the numbers',
+          paras: [
+            'At Līhuʻe Airport on the east side, NOAA’s 1991–2020 climate normals for December are an average high of 79.1°F and an average low of 68.6°F, with 4.64 inches of rain. Measurable rain falls on about 18 days in an average December, but only about seven of those bring a tenth of an inch or more, which is why most December days on the east side mix short showers with long sunny spells.',
+            'Līhuʻe is a middle point. The North Shore around Hanalei is much wetter and the South Shore around Poʻipū is usually drier, so treat these numbers as the island average and adjust for where you are staying.',
+          ],
+        },
+        {
+          heading: 'Kauaʻi weather in December 2026: reading the forecast',
+          paras: [
+            'Nobody can tell you in November what a given day in late December will bring, and long-range forecasts for Hawaiʻi are not worth planning around. Watch the National Weather Service forecast for Kauaʻi in the week before you travel, and check it again each morning, by shore rather than for the island as a whole.',
+            'Take flash flood watches and high surf warnings seriously. A watch means heavy rain is possible; on the North Shore it can close the road at the Hanalei Bridge for hours. On days like that, move the beach plan to the South Shore, keep the dinner at the house and let the rain pass.',
           ],
         },
         {
@@ -6427,6 +6674,14 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         {
           q: 'How much is a private chef dinner on Kauaʻi?',
           a: 'Signature dinners are $225–$375 a guest with groceries included, minimum six. Service charge and GET are separate lines.',
+        },
+        {
+          q: 'What is the average temperature on Kauaʻi in December?',
+          a: 'At Līhuʻe Airport, NOAA’s 1991–2020 normals for December are an average high of 79.1°F and an average low of 68.6°F. The North Shore can feel cooler on wet days.',
+        },
+        {
+          q: 'How many rainy days does Kauaʻi get in December?',
+          a: 'Līhuʻe averages about 18 days with measurable rain and 4.64 inches in December, but only about seven days with a tenth of an inch or more. Most showers are short.',
         },
       ],
       related: [
@@ -7227,6 +7482,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/big-island-golf-trip-guide', label: 'Big Island golf trip guide' },
         { path: '/blog/kona-manta-ray-night-snorkel-guide', label: 'Kona manta ray night snorkel guide' },
         { path: '/blog/mauna-lani-restaurants-dining-guide', label: 'Mauna Lani restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
@@ -7471,6 +7727,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/big-island-golf-trip-guide', label: 'Big Island golf trip guide' },
         { path: '/blog/waimea-big-island-restaurants-guide', label: 'Waimea restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/catering', label: 'Big Island catering' },
@@ -8762,6 +9019,108 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         { path: '/blog/kona-restaurants-dining-guide', label: 'Kona restaurants guide' },
         { path: '/blog/kona-coffee-farm-tour-guide', label: 'Kona coffee farm tour guide' },
         { path: '/events/brunch', label: 'Brunch at the house' },
+        { path: '/private-chef', label: 'Private chef Kona' },
+        { path: '/catering', label: 'Big Island catering' },
+        { path: '/pricing', label: 'Big Island private chef cost' },
+        { path: '/', label: 'Private chef Big Island' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'big-island-golf-trip-guide',
+      keyword: 'big island golf',
+      datePublished: '2026-11-20',
+      name: 'Big Island golf trip guide',
+      h1: 'Big Island golf — planning the rounds, the weather and the dinners after.',
+      title: 'Big Island Golf Trip Guide — Timing & Dinners | myCHEF',
+      description:
+        'Big Island golf trip planning: Kohala Coast and Kona courses, east-side rain, tee times, heat, clubs and cars, and dinners for the group at the villa.',
+      lede:
+        'Big Island golf is mostly a west-side story. The famous resort courses are cut through black lava fields on the dry Kohala Coast, more courses sit above Kona and Keauhou, and the wet, green east side around Hilo and Volcano has a few quieter rounds of its own. This guide explains where the golf is, how the weather and the trade winds shape a round, how to plan a group trip and where to base yourselves, and how the evenings work when nobody wants to drive to dinner after 36 holes. We do not name or rank courses, take commissions or have golf partners.',
+      photo: 'cellKohalaCorridor',
+      body: [],
+      sections: [
+        {
+          heading: 'Where is the golf on the Big Island?',
+          paras: [
+            'Most visiting golfers stay on the Kohala Coast, north of Kona International Airport. The resort areas at [Waikoloa](/waikoloa), [Mauna Lani](/mauna-lani) and Mauna Kea each have championship courses built on old lava flows, with green fairways laid across black rock and the ocean on one side. Several are resort courses open to the public with tee times, and some are private clubs for members and their guests, so check access before you plan a round.',
+            'Around Kailua-Kona and Keauhou, courses climb the slope above the town with long views over the coast. On the east side, Hilo and the upland area near Volcano have quieter, more local courses in a much cooler and wetter climate. The island is big: a round in Hilo and a dinner on the Kohala Coast are on opposite sides of it, so plan each day around one area.',
+          ],
+        },
+        {
+          heading: 'Weather, wind and when to play',
+          paras: [
+            'The Kohala Coast is one of the driest and sunniest parts of Hawaiʻi, which is why the resorts are there. Mornings are usually calm and bright, and the wind often picks up through the afternoon, so many golfers book the earliest tee times they can get. The sun is strong all year: hats, sunscreen and more water than you think you need are part of the kit.',
+            'The east side is the opposite. At Hilo Airport, NOAA’s 1991–2020 normals for December show 12.07 inches of rain over about 22 days with measurable rain. Play there if you love green, quiet courses, but carry rain gear. When Kīlauea is erupting, vog, a volcanic haze, can drift over parts of the island, so check the air quality advisories if anyone in the group has asthma.',
+          ],
+        },
+        {
+          heading: 'Planning a Big Island golf trip for a group',
+          paras: [
+            'Book tee times as soon as your dates are fixed, especially for the winter and holiday weeks, which are the busiest of the year on the Kohala Coast. Decide early how many rounds you want; two or three on a week-long trip leaves time for the beach, a [manta ray night snorkel](/blog/kona-manta-ray-night-snorkel-guide) or an evening of [Mauna Kea stargazing](/blog/mauna-kea-stargazing-guide).',
+            'Clubs travel well as checked luggage, but airlines charge for them, and many resort pro shops rent sets, so compare before you fly. You will need a rental car or two; the courses, the airport and Kona town are spread along the coast highway. Agree on who drives after the round, because the answer affects where you eat.',
+          ],
+        },
+        {
+          heading: 'Where to base a golf group',
+          paras: [
+            'For a golf-first trip, a house or a resort residence on the Kohala Coast puts you minutes from several courses and from the beaches. Our [Waikoloa restaurants guide](/blog/waikoloa-restaurants-dining-guide) and [Mauna Lani restaurants guide](/blog/mauna-lani-restaurants-dining-guide) explain how eating out works there: mostly resort dining rooms, clubhouses and shopping-centre restaurants.',
+            'For more town life, Kailua-Kona and Keauhou have more restaurants, bars and shops, and the Kona-side courses are close. Our [Kona restaurants guide](/blog/kona-restaurants-dining-guide) covers that coast.',
+          ],
+        },
+        {
+          heading: 'Eating on a golf day',
+          paras: [
+            'A golf day has three meals with very different needs. Breakfast is early and fast, before a dawn tee time. Lunch is usually at the clubhouse. Dinner is where a group trip comes together, and it is also the meal that is hardest to book for eight or twelve people at resort restaurants in high season, especially after a long day in the sun.',
+            'Many golf groups choose to eat at the house. A [private chef Kona](/private-chef) dinner is planned with you before the trip, shopped that day, cooked and served in your kitchen, and the kitchen is cleaned before we leave. Fish is named as the species we actually bought that week. Nobody has to drive, and the evening can run as late as the group wants.',
+          ],
+        },
+        {
+          heading: 'Group dinners, welcome nights and the last night',
+          paras: [
+            'For a larger group, a welcome dinner on arrival and a celebration on the last night are the two that matter most. [Big Island catering](/catering) adds servers and a sous-chef for parties of ten or more, with a family-style table, a grill on the lānai or a plated dinner. Tables, linens and rentals are not included unless you ask for them, and then they are quoted separately.',
+            'For a full week, a chef can cook breakfast before tee times and dinner after the round on Stay Chef days, with groceries billed at cost and the receipts handed over. That suits groups who want to be on the course early and never think about the kitchen.',
+          ],
+        },
+        {
+          heading: 'What does a dinner at the house cost with us?',
+          paras: [
+            'Signature dinners on Hawaiʻi Island are published at $210–$325 a guest with groceries included, for a minimum party of six, and a simpler menu runs $165–$210 a guest. Stay Chef starts from $1,450 a day for a chef and an assistant cooking one meal, with groceries at cost, and vacation chef days start from $300 a person a day. Event staff are $80 an hour for servers and $105 an hour for a sous-chef, on four- to five-hour minimums.',
+            'Addresses outside the Kona–Kohala corridor carry a published travel line from $75, and the east side is quoted case by case. A 20% service charge and Hawaiʻi GET of up to 4.712% are their own lines, a 50% deposit locks the date and gratuity is voluntary. Many golf groups split the total per person, and the written quote shows every line. The full card is on [Big Island private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to plan dinners for your golf trip',
+          paras: [
+            'Send the address, the dates, the number of golfers and guests, and any allergies through [the quote form](/quote), or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total. For dinners anywhere on the island, see [private chef Big Island](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Where are the best areas for golf on the Big Island?',
+          a: 'Most visiting golfers base themselves on the Kohala Coast, where the resort areas at Waikoloa, Mauna Lani and Mauna Kea have courses built on lava fields. There are more courses above Kona and Keauhou, and quieter ones near Hilo and Volcano.',
+        },
+        {
+          q: 'When is the best time of day to play on the Kohala Coast?',
+          a: 'Early morning. It is usually calm and bright, and the wind often picks up through the afternoon. The sun is strong all year, so bring water and sun protection.',
+        },
+        {
+          q: 'Is it rainy for golf on the Big Island?',
+          a: 'The Kohala Coast is one of the driest parts of Hawaiʻi. The east side is very wet: Hilo averages 12.07 inches of rain in December, according to NOAA normals.',
+        },
+        {
+          q: 'Can a private chef cook for a golf group at our rental?',
+          a: 'Yes. We cook dinners at houses and resort residences on the Kona–Kohala side, and Stay Chef days can cover an early breakfast and dinner after the round.',
+        },
+        {
+          q: 'How much is a private chef dinner for a golf group on the Big Island?',
+          a: 'Signature dinners are $210–$325 a guest with groceries included, minimum six. Servers are $80 an hour, and service charge and GET are separate lines.',
+        },
+      ],
+      related: [
+        { path: '/blog/mauna-lani-restaurants-dining-guide', label: 'Mauna Lani restaurants guide' },
+        { path: '/blog/waikoloa-restaurants-dining-guide', label: 'Waikoloa restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/catering', label: 'Big Island catering' },
         { path: '/pricing', label: 'Big Island private chef cost' },
