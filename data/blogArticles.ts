@@ -184,6 +184,7 @@ export const blogArticles: Record<IslandId, BlogArticle[]> = {
         },
       ],
       related: [
+        { path: '/blog/oahu-grocery-delivery-villa-guide', label: 'Oʻahu grocery delivery guide' },
         { path: '/blog/oahu-farmers-market-villa-week', label: 'Oahu farmers markets guide' },
         { path: '/pricing', label: 'Oahu rate card' },
         { path: '/journal/what-is-included', label: 'What prints as a line' },
