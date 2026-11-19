@@ -206,15 +206,17 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
       slug: 'chefs-table',
       name: 'Chef’s table',
       h1: 'Chef’s table in an Oahu villa — the island, not a restaurant pass.',
-      title: 'Chef’s table in an Oahu villa | myCHEF',
+      title: 'Chef’s Table at Home on Oahu | Villa Counter Dinner | myCHEF',
       description:
-        'The chef plates at your Oʻahu kitchen island in Kahala, Ko Olina, Kailua, or Honolulu. Seats follow the kitchen. Request a written quote.',
+        'A chef’s table at home on Oahu: the chef cooks and plates at your villa kitchen island in Kahala, Ko Olina, Kailua or Honolulu. Request a written quote.',
       lede:
         'Guests sit the house counter. The cook plates in front of them. This is the evening’s format, not a ticketed restaurant pass.',
       photo: 'svcChefsTableOahu',
       body: [
         'People take stools at the kitchen island while the cook works the range in front of them. The crew enters on the elevator reservation a tower booked. Plates are set on that counter, not walked to a dining room. After the last course, the pass is scrubbed before the crew leaves.',
         'A Kailua galley is accepted only when the island is deep enough for guests to sit. A photo of the counter and the building rules belong in the request. The course order is the [chef’s table evening](/fine-dining/chefs-table-evening). This page is the format: the cook, the counter, the house.',
+        'How the night runs at an Oʻahu counter: the stools are set and the range is warm before anyone sits. Each course is cooked, plated and explained across the island, so a question about the fish, the sauce or a swap is answered while the pan is still on the heat. The table sets the pace — a long Kahala evening that waits for the sunset, or an early Ko Olina dinner that ends before the children are asleep. Nobody walks plates to another room; the crew clears between courses from the same side of the counter.',
+        'Who books it on Oʻahu: couples marking an [anniversary](/events/anniversaries) or a [dinner for two](/honeymoon-dinners), a small group of friends who would rather watch the cooking than wait for it, and families who want the children to see where dinner comes from. Birthdays work the same way — note the occasion and it is planned into the draft menu; [birthday dinners](/events/birthdays) has the wider options. When the guest list outgrows the stools, the same menu moves to the dining table as a [private chef dinner on Oʻahu](/private-chef).',
         'A Honolulu tower still waits on its freight window before a stool is set. Kahala needs a photo of the counter depth. Ko Olina uses the gate time the house gave. A Kailua galley is a yes only when guests face the range. Send the address, the date, who sits, dietary notes, building rules, and that photo. Seat count is confirmed in writing after the kitchen is seen. Grocery shopping sits inside this island’s signature per-guest band. Then 20% service and Hawaiʻi GET up to 4.712% print alone. A 50% deposit follows acceptance. Gratuity is never required. See [pricing](/pricing) and [Private chef Honolulu](/private-chef). Request a written quote on [the quote form](/quote).',
       ],
       faqs: [
@@ -233,6 +235,14 @@ export const islandServices: Record<IslandId, UniqueCell[]> = {
         {
           q: 'Can one person at an Oʻahu counter skip shellfish while the others keep it?',
           a: 'Write the limit before the shop. That setting changes. The others stay as drafted. We will not claim a separate allergen kitchen. Raw fish is named on the draft only when you have already cleared it.',
+        },
+        {
+          q: 'Is a chef’s table at home on Oʻahu like a restaurant chef’s table?',
+          a: 'The idea is the same — you sit where the cooking happens and the chef plates in front of you — but there is no ticketed seat and no other party at the counter. The counter is in your rental, the chef cooks only for your group, and the date is held by a written quote, not a reservation system.',
+        },
+        {
+          q: 'Can an Oʻahu chef’s table be a birthday or anniversary dinner?',
+          a: 'Yes. Say what you are celebrating in the request and the draft menu is written around it. The format does not change: guests at the island, the chef at the range. See [anniversary dinners](/events/anniversaries) and [birthday dinners](/events/birthdays) for the wider options.',
         },
         {
           q: 'How is a counter night in a Honolulu house priced?',
