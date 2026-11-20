@@ -21,6 +21,14 @@ export const weddingLongform: Record<IslandId, { sections: CopySection[]; faqs: 
         ],
       },
       {
+        h2: 'A sample Oʻahu wedding weekend menu',
+        paras: [
+          'Every Oʻahu wedding menu is written for the house and the guest list, so read this as a direction, not a set package. A Friday welcome on a Kahala lānai usually runs family-style: ahi poke tostadas with avocado and chili-ginger, a chilled cucumber-and-crab salad, then grilled fresh catch with steamed rice and baby bok choy passed down the table. The Saturday [rehearsal dinner](/rehearsal-dinners) stays coursed for the smaller list — a crudo first, miso-glazed catch or a meat main, and a plated dessert, so the toasts land between courses.',
+          'The reception follows the format the room can hold. A buffet for a walking crowd in a Ko Olina villa might open with poke and island crudités at cocktail hour, then a fish main and a meat or vegetable main on hot stations with coconut rice and island greens, and close with lilikoi cheesecake or coconut haupia. Plated keeps the same arc with more servers on the floor. The morning after can be a slow [villa brunch](/events/brunch) — eggs to order, tropical fruit and something sweet for the people who stayed up late; [the day-after brunch](/blog/day-after-brunch) shows how it runs.',
+          'Dietary needs go into the first draft, not onto a sticky note on the day: vegetarian, gluten-free and allergy plates are marked on the menu and at the pass, and children eat from the same menu or from [kids’ plates](/kids-menus). Still choosing the house? The [Oʻahu wedding venues guide](/blog/oahu-wedding-venues-guide) covers venue types, permits and what each means for the food. A two-person day is planned in [Oʻahu elopement planning](/blog/oahu-elopement-planning-guide) and on [honeymoon dinners](/honeymoon-dinners).',
+        ],
+      },
+      {
         h2: 'What an Oʻahu reception kitchen can hold',
         paras: [
           'Guest counts we staff: dinners for two to fifteen, receptions about ten to seventy-five. Elopements and dinners for two are a fixed-price product from $675 USD on Oʻahu — not a per-guest stack pretending six people are in the room. Larger rooms are quoted as exceptions, never implied as standard. If the house cannot hold the list, we say so in writing before anyone pays.',
@@ -67,6 +75,14 @@ export const weddingLongform: Record<IslandId, { sections: CopySection[]; faqs: 
         a: 'As soon as the date exists, even if the Kahala or Ko Olina house is not signed yet. December through March press the Resident’s Island calendar, and one crew holds one weekend. Surf-season North Shore dates move first. A typical reply is in Hawaii business hours. We would rather pencil a Saturday than invent a second crew in January.',
       },
       {
+        q: 'What food is served at an Oʻahu wedding reception?',
+        a: 'Whatever the menu draft for your house says — there is no fixed package. A typical Oʻahu reception opens with poke and island crudités at cocktail hour, then a fish main and a meat or vegetable main with coconut rice and island greens, and lilikoi cheesecake or haupia to close. Buffet, family-style or plated changes how the food reaches guests, not what the kitchen cooks.',
+      },
+      {
+        q: 'Can an Oʻahu wedding menu cover vegetarian, gluten-free and allergy guests?',
+        a: 'Yes. List them on the quote form and those plates are written into the first menu draft and labelled at the pass, so servers know which plate goes to which guest. Children can eat from the same menu or from separate kids’ plates.',
+      },
+      {
         q: 'Affordable wedding catering Oahu?',
         a: 'Related search, not a coupon. Wedding catering Oahu from $195 a guest plus staffing, with service and GET as their own lines. Elopements from $675. The written quote is the total — we will not invent a mystery low number.',
       },
@@ -99,6 +115,14 @@ export const weddingLongform: Record<IslandId, { sections: CopySection[]; faqs: 
         ],
       },
       {
+        h2: 'A sample Maui wedding week menu',
+        paras: [
+          'No two Maui weeks get the same menu — it is written for the house, the guest list and that morning’s catch. As a direction: the welcome dinner on a Wailea or Kapalua lānai opens with grazing boards and ahi poke with inamona and ogo, then shared platters of macadamia-crusted fresh catch, island greens and coconut rice. The [rehearsal dinner](/rehearsal-dinners) is coursed for the inner circle — kanpachi crudo, a fish or meat main, and a plated lilikoi dessert.',
+          'The reception runs buffet, family-style or plated, depending on what the estate can seat: passed pūpū at cocktail hour, wood-grilled catch alongside a ranch or vegetable main, and lilikoi cheesecake or coconut haupia to close. The recovery morning is a slow [villa brunch](/events/brunch) for whoever is still on the island. How the whole week fits together is on [the Maui wedding week page](/wedding-week).',
+          'Dietary needs go into the first draft: vegetarian, gluten-free and allergy plates are marked on the menu and at the pass, and children eat from the same menu or from [kids’ plates](/kids-menus). Still picking the estate? The [Maui wedding venues guide](/blog/maui-wedding-venues-guide) covers venue types, rules and food. A two-person day is in the [Maui elopement guide](/blog/maui-elopement-dinner-guide) and on [honeymoon dinners](/honeymoon-dinners).',
+        ],
+      },
+      {
         h2: 'Estate kitchens — not a ballroom buyout',
         paras: [
           'We cook in villas and estates. That is a kitchen constraint, not a vibe. If the Wailea residence cannot hold seventy-five, we say so before a deposit. If the Kapalua kitchen is a galley, the menu comes in as bring-equipment, or we decline. Hotel rooms without cooktops are not a wedding venue. Outdoor setups always carry a written wet-weather backup — covered lānai, indoor reset, or the reschedule posture on the booking terms — confirmed before the day, not during the rain.',
@@ -127,6 +151,14 @@ export const weddingLongform: Record<IslandId, { sections: CopySection[]; faqs: 
       {
         q: 'What guest counts does a Maui villa-week reception cover?',
         a: 'Wailea and Kapalua houses we staff sit around ten to seventy-five for the reception, and two to fifteen when the night is just the family table. Elopements start from $750+. A galley that cannot hold sixty is declined before a deposit, even if the lawn looks wide in the photos. We do not stretch a villa week into a ballroom.',
+      },
+      {
+        q: 'What food is served at a Maui wedding reception?',
+        a: 'The menu is drafted for your estate — there is no fixed package. A typical Maui reception starts with passed pūpū or grazing boards, then wood-grilled or macadamia-crusted fresh catch with a ranch or vegetable main, coconut rice and island greens, and lilikoi cheesecake or haupia. Buffet, family-style or plated changes the service, not the food.',
+      },
+      {
+        q: 'Can a Maui wedding menu cover vegetarian, gluten-free and allergy guests?',
+        a: 'Yes. Note them on the quote form and they are written into the first menu draft and labelled at the pass, so each guest gets the right plate. Children can eat from the same menu or from separate kids’ plates.',
       },
       {
         q: 'When should we book?',

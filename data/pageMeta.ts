@@ -558,7 +558,7 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
   '/maui/weddings': {
     title: 'Wedding Catering Maui | Wedding-Week Chefs | myCHEF',
     description:
-      'Wedding catering Maui — one team for the week. Welcome dinner through recovery brunch. Starting prices published. Request a quote.',
+      'Wedding catering Maui, HI from $225 a guest plus staffing: welcome dinner, rehearsal, reception and recovery brunch at Wailea, Kapalua or Kāʻanapali estates.',
   },
   '/maui/bar': {
     title: 'A Wailea bartender with the chef | myCHEF',
