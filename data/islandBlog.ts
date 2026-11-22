@@ -29,7 +29,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogOahu',
     body: [
       'For the longer notes — Gold Coast counters, convention weeks, short-stay villas — read the journal.',
-      'New this month: [the Oʻahu grocery delivery guide](/blog/oahu-grocery-delivery-villa-guide) — how delivery and pickup work by area, condo front-desk rules, the Honolulu bag fee, a first-week list and when a [private chef Honolulu](/private-chef) does the shopping. Recently: [the Oʻahu bachelorette party guide](/blog/oahu-bachelorette-party-guide), [the Kahala restaurants guide](/blog/kahala-diamond-head-restaurants-guide) and [the Honolulu restaurants guide](/blog/honolulu-restaurants-neighborhood-guide).',
+      'New this month: [the Oʻahu sunset dinner guide](/blog/oahu-sunset-dinner-guide) — which coasts face the sunset, sunset times by month, why we cook at the house rather than on a public beach, and a [private chef Honolulu](/private-chef) table on your lānai. Recently: [the Oʻahu grocery delivery guide](/blog/oahu-grocery-delivery-villa-guide), [the Oʻahu bachelorette party guide](/blog/oahu-bachelorette-party-guide) and [the Kahala restaurants guide](/blog/kahala-diamond-head-restaurants-guide).',
     ],
   },
   maui: {
@@ -43,7 +43,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogMaui',
     body: [
       'Short posts from Wailea, Kīhei and West Maui kitchens: breakfast and lunch in the villa, cleanup, groceries at cost, and what goes on the written quote. The longer notes, including the Maui price guide, live in the journal.',
-      'New this month: [Maui in December](/blog/maui-in-december-guide) — weather by coast, cold Haleakalā sunrises, whale season and winter surf, the holiday rush and a [personal chef Maui](/private-chef) dinner at the villa. Recently: [the Maui brunch guide](/blog/maui-brunch-guide), [the Makawao restaurants guide](/blog/makawao-restaurants-upcountry-maui-guide) and [the Kahului restaurants guide](/blog/kahului-restaurants-central-maui-guide).',
+      'New this month: [the Maui family vacation guide](/blog/maui-family-vacation-guide) — the coast to stay on with kids, Haleakalā and ʻĪao Valley reservations, ocean safety, feeding the group and a [personal chef Maui](/private-chef) dinner at the house. Recently: [Maui in December](/blog/maui-in-december-guide), [the Maui brunch guide](/blog/maui-brunch-guide) and [the Makawao restaurants guide](/blog/makawao-restaurants-upcountry-maui-guide).',
     ],
   },
   kauai: {
@@ -71,7 +71,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogBigisland',
     body: [
       'West-side kitchens and Kohala travel show up in the shorter posts; the journal keeps the longer notes.',
-      'New this month: [the Big Island golf trip guide](/blog/big-island-golf-trip-guide) — Kohala Coast and Kona courses, east-side rain, tee times and wind, clubs and cars, and a [private chef Kona](/private-chef) dinner for the group after the round. Recently: [the Kona brunch guide](/blog/kona-brunch-guide), [the Hāwī restaurants guide](/blog/hawi-restaurants-north-kohala-guide) and [Christmas on the Big Island](/blog/christmas-on-the-big-island-holiday-dinner).',
+      'New this month: [the Big Island in December](/blog/big-island-in-december-guide) — Kona vs Hilo weather by the numbers, Volcano and Maunakea cold, whale season, the holiday rush and a [private chef Kona](/private-chef) dinner at the villa. Recently: [the Big Island golf trip guide](/blog/big-island-golf-trip-guide), [the Kona brunch guide](/blog/kona-brunch-guide) and [Christmas on the Big Island](/blog/christmas-on-the-big-island-holiday-dinner).',
       'Looking to book rather than read? Dinner prices, dinners from $165 a guest and signature dinners and Stay Chef days are on the [private chef Big Island](/) page, and staffed villa parties for ten to seventy-five are [Big Island catering](/catering).',
     ],
   },

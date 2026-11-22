@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog</loc>
-    <lastmod>2026-11-19T23:15:26Z</lastmod>
+    <lastmod>2026-11-22T23:16:21Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -212,7 +212,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/sitemap</loc>
-    <lastmod>2026-11-19T23:15:26Z</lastmod>
+    <lastmod>2026-11-22T23:16:21Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -944,7 +944,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/christmas-on-the-big-island-holiday-dinner</loc>
-    <lastmod>2026-11-15T23:17:12Z</lastmod>
+    <lastmod>2026-11-22T23:16:21Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -956,7 +956,7 @@
   </url>
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/mauna-kea-stargazing-guide</loc>
-    <lastmod>2026-11-16T23:19:34Z</lastmod>
+    <lastmod>2026-11-22T23:16:21Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
@@ -975,6 +975,12 @@
   <url>
     <loc>https://bigisland.mychef-hawaii.com/blog/big-island-golf-trip-guide</loc>
     <lastmod>2026-11-19T23:15:26Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.35</priority>
+  </url>
+  <url>
+    <loc>https://bigisland.mychef-hawaii.com/blog/big-island-in-december-guide</loc>
+    <lastmod>2026-11-22T23:16:21Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.35</priority>
   </url>
