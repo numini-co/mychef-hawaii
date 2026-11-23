@@ -49,9 +49,9 @@ export const cateringOffers: Record<IslandId, CateringOffer> = {
     keyword: 'maui catering',
     volume: CATERING_VOLUMES['maui catering'],
     h1: 'Maui catering menus — staffed villa events, not drop-off.',
-    title: 'Maui Catering Menus | Hawaiian Villa Menus | myCHEF',
+    title: 'Maui Catering Menus & Hawaiian Catering Services | myCHEF',
     description:
-      'Maui catering menus and Hawaiian catering menus for villas of 10–75 guests — buffet, plated, or family-style in Wailea and West Maui. From $225 a guest.',
+      'Catering services Maui, HI: Maui catering menus and Hawaiian catering menus for villas of 10–75 guests — buffet, plated or family-style. From $225 a guest.',
     lede:
       'Staffed Maui catering for villa receptions, reunions and wedding weeks in Wailea, Kīhei and West Maui. Buffet or plated for 10–75 guests, from $225 a guest. Hawaiian catering menus are written for that house — not a statewide carte.',
     fromPp: 225,
