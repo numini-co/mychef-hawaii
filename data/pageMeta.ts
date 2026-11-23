@@ -619,9 +619,9 @@ export const PAGE_META: Record<string, PageMetaRecord> = {
     description: 'Maui sitemap: neighborhoods, services, occasions and guides.',
   },
   '/maui/catering': {
-    title: 'Maui Catering Menus | Hawaiian Villa Menus | myCHEF',
+    title: 'Maui Catering Menus & Hawaiian Catering Services | myCHEF',
     description:
-      'Maui catering menus and Hawaiian catering menus for villas of 10–75 guests — buffet, plated, or family-style in Wailea and West Maui. From $225 a guest.',
+      'Catering services Maui, HI: Maui catering menus and Hawaiian catering menus for villas of 10–75 guests — buffet, plated or family-style. From $225 a guest.',
   },
   '/kauai/private-chef': {
     title: 'Personal Chef Kauai | Princeville & Poipu Dinners | myCHEF',
