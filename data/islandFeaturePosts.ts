@@ -1445,11 +1445,12 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       slug: 'hawaii-kai-restaurants-east-honolulu-guide',
       keyword: 'hawaii kai restaurants',
       datePublished: '2026-11-09',
+      dateModified: '2026-11-24',
       name: 'Hawaiʻi Kai restaurants guide',
       h1: 'Hawaii Kai restaurants — eating well in East Honolulu.',
       title: 'Hawaii Kai Restaurants — East Honolulu Food Guide | myCHEF',
       description:
-        'Hawaii Kai restaurants explained: marina dining, plate lunch and poke, Hanauma Bay mornings, Kalanianaʻole traffic, rental rules and dinners at the house.',
+        'Hawaii Kai restaurants: where to eat at Koko Marina and the Towne Center, food by time of day, Hanauma Bay timing, holiday hours and dinners at the house.',
       lede:
         'Hawaii Kai restaurants are mostly local, casual and clustered in a few shopping centers around the marina at the east end of Honolulu, about twenty to thirty minutes from Waikīkī outside rush hour. It is a residential neighborhood rather than a resort, so expect plate lunch, poke, sushi, breakfast spots and a handful of waterfront dining rooms, not a long strip of tasting menus. This guide explains how eating out in Hawaiʻi Kai works around Hanauma Bay mornings, Koko Head hikes and the afternoon traffic, and when a dinner cooked at the house is the better plan. We do not rank or review restaurants and we have no restaurant partners.',
       photo: 'cellHawaiiKai',
@@ -1474,6 +1475,34 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
           paras: [
             'Most visitors come to Hawaiʻi Kai for the coast. Hanauma Bay Nature Preserve is open Wednesday to Sunday and closed every Monday and Tuesday. Entry runs from 6:45 a.m. to 1:30 p.m., and everyone has to leave by 4 p.m. Non-residents aged 13 and over pay $25. Reservations open online at 7 a.m. Hawaiʻi time, two days before your visit, and the city says the schedule can change. The bay has no restaurant, so a snorkel morning usually ends with lunch back in Hawaiʻi Kai.',
             'The Koko Crater stairs are a steep, exposed climb best done early, before the heat. Further along the coast, the Hālona Blowhole lookout, Sandy Beach and the Makapuʻu Point lighthouse trail fill the rest of the morning. Sandy Beach has a powerful shorebreak, so it is for watching unless you are an experienced bodysurfer. This is the sunrise side of the island, so the early start is a gift, not a chore.',
+          ],
+        },
+        {
+          heading: 'Where the restaurants are: Koko Marina and the Towne Center',
+          paras: [
+            'Most places to eat in Hawaiʻi Kai sit in two shopping centers a few minutes apart. Koko Marina Center is on Kalanianaʻole Highway right on the marina, with a waterfront walkway, casual counters, cafes and a few sit-down rooms that look over the boats; it is the natural stop on the way to or from Hanauma Bay. Hawaiʻi Kai Towne Center, off Keahole Street on the other side of the marina, is the larger center, with a mix of sit-down dining rooms, sushi, ramen, Thai and other Asian kitchens, breakfast spots and familiar quick-service chains.',
+            'Smaller clusters of shops along Kalanianaʻole Highway fill in the rest: a poke counter here, a bakery or a plate lunch window there. Parking is easy compared with Waikīkī, but the lots fill at weekend lunch and early dinner. If your group is large, pick one center for the evening rather than trying to split across both.',
+          ],
+        },
+        {
+          heading: 'Hawaiʻi Kai food by time of day',
+          paras: [
+            'Early morning is coffee and breakfast before the east-side coast. Hanauma Bay entry runs from 6:45 a.m. to 1:30 p.m., so a pre-snorkel breakfast has to be quick and early; a coffee and pastry, or a breakfast plate eaten after the swim, works better for most families. Lunch is where Hawaiʻi Kai shines: plate lunch, poke bowls and sushi after a morning at the bay or on the Koko Crater stairs, ideally eaten before the afternoon heat.',
+            'Late afternoon is shave ice and an early sunset drink by the water. Dinner here runs early and local, with kitchens busiest between about six and eight. For a quiet dinner at the house after a long beach day, our [private chef Honolulu](/private-chef) page explains how an evening cooked in your own kitchen works.',
+          ],
+        },
+        {
+          heading: 'How to choose the best restaurants in Hawaiʻi Kai for your group',
+          paras: [
+            'We do not rank restaurants, but the right choice usually comes down to four questions. How many of you are there? Kitchens built for couples and families struggle with a table of twelve. Do you want the water? Marina-view rooms fill first, especially at sunset on weekends. Are there children or grandparents? A counter meal at an outdoor table can be easier than a long sit-down dinner. And who is driving home?',
+            'For a celebration with wine service, many visitors drive back toward Kāhala or Kaimukī; our [Kahala restaurants guide](/blog/kahala-diamond-head-restaurants-guide) covers that side of town. For a family party or a birthday at the rental, the dinner often works better at home.',
+          ],
+        },
+        {
+          heading: 'Hawaiʻi Kai over the holidays',
+          paras: [
+            'Hanauma Bay is closed every Monday and Tuesday, and the city also closes it on Christmas Day and New Year’s Day. Restaurant holiday hours vary from year to year, so check directly before you plan a Christmas Eve or New Year’s Eve dinner out, and book early if you want a marina table.',
+            'For a holiday dinner at your house, our [Christmas in Honolulu guide](/blog/christmas-in-honolulu-dinner) and [New Year’s Eve in Honolulu guide](/blog/new-years-eve-honolulu-dinner) explain how chef dinners on those nights are planned, and holiday dates should be asked for early.',
           ],
         },
         {
@@ -1547,8 +1576,17 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
           q: 'How much is a private chef dinner in Hawaiʻi Kai?',
           a: 'Signature dinners on Oʻahu are $195–$290 a guest with groceries included, for a minimum of six, plus a 20% service charge and GET of up to 4.712% as separate lines.',
         },
+        {
+          q: 'Where are the restaurants in Hawaiʻi Kai?',
+          a: 'Mostly in two shopping centers: Koko Marina Center on Kalanianaʻole Highway by the marina, and Hawaiʻi Kai Towne Center off Keahole Street, plus a few smaller spots along the highway.',
+        },
+        {
+          q: 'Is Hanauma Bay open on Christmas Day?',
+          a: 'No. The City and County of Honolulu closes Hanauma Bay on Christmas Day and New Year’s Day, as well as every Monday and Tuesday. Check the city’s page before you go.',
+        },
       ],
       related: [
+        { path: '/blog/oahu-sunset-dinner-guide', label: 'Oʻahu sunset dinner guide' },
         { path: '/blog/kahala-diamond-head-restaurants-guide', label: 'Kahala restaurants guide' },
         { path: '/blog/honolulu-restaurants-neighborhood-guide', label: 'Honolulu restaurants guide' },
         { path: '/private-chef', label: 'Private chef Honolulu' },
@@ -3129,6 +3167,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-sunset-dinner-guide', label: 'Maui sunset dinner guide' },
         { path: '/blog/napili-restaurants-west-maui-guide', label: 'Nāpili restaurants guide' },
         { path: '/blog/maui-whale-watching-season-guide', label: 'Maui whale watching season guide' },
         { path: '/blog/maui-luau-villa-dinner-guide', label: 'Maui luau guide' },
@@ -4428,6 +4467,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/maui-sunset-dinner-guide', label: 'Maui sunset dinner guide' },
         { path: '/blog/wailea-restaurants-dining-guide', label: 'Wailea restaurants guide' },
         { path: '/fine-dining/chefs-table-evening', label: 'Chef’s table evening' },
         { path: '/private-chef', label: 'Personal chef Maui' },
@@ -4884,6 +4924,128 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       related: [
         { path: '/blog/maui-whale-watching-season-guide', label: 'Maui whale watching season guide' },
         { path: '/blog/maui-grocery-stores-villa-guide', label: 'Grocery stores Maui guide' },
+        { path: '/private-chef', label: 'Personal chef Maui' },
+        { path: '/catering', label: 'Maui catering' },
+        { path: '/pricing', label: 'Maui private chef cost' },
+        { path: '/', label: 'Private chef Maui' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'maui-sunset-dinner-guide',
+      keyword: 'sunset dinner maui',
+      datePublished: '2026-11-24',
+      name: 'Sunset dinner on Maui',
+      h1: 'Sunset dinner on Maui — which coast faces the sun, when to sit and a table at the villa.',
+      title: 'Sunset Dinner Maui: Coasts, Timing & Villa Tables | myCHEF',
+      description:
+        'Sunset dinner on Maui: which coasts face the sunset, sunset times by month, Haleakalā sunset, beach permit rules and a private sunset dinner at your villa.',
+      lede:
+        'A sunset dinner on Maui depends on three things: the coast your house or hotel faces, what time the sun goes down that month, and whether you want a restaurant, the summit of Haleakalā or a table at the place you are staying. This guide explains where the sun sets over the water on Maui, how the timing moves through the year, why a beach is a hard place to hold a dinner, and how a private sunset dinner at your villa or condo is planned and priced. We do not rank restaurants or sell tours, and we have no venue partners.',
+      photo: 'eventsMaui',
+      body: [],
+      sections: [
+        {
+          heading: 'Where does the sun set over the ocean on Maui?',
+          paras: [
+            'West Maui and South Maui are the sunset coasts. From Kāʻanapali through Nāpili to Kapalua, the shore faces west across the channel, with Lānaʻi and Molokaʻi on the horizon, so depending on the month the sun goes down over open water or toward the neighbor islands. From Kīhei through Wailea to Mākena, the south coast also faces west, across the water toward Kahoʻolawe and the small crescent of Molokini.',
+            'The other coasts are different. Pāʻia and the north shore face north, Hāna and the east side face the sunrise, and Upcountry towns such as Makawao and Kula look out over the central isthmus rather than straight into the sea. Those are lovely places to stay, but a sunset on the water usually means a drive to the west or south side.',
+          ],
+        },
+        {
+          heading: 'What time is sunset on Maui?',
+          paras: [
+            'Hawaiʻi does not use daylight saving time, so sunset moves only with the seasons. For Kahului and Wailea, the US Naval Observatory puts sunset at about 5:44 p.m. on 1 December, around 5:52 p.m. on Christmas Eve and Christmas Day, near 5:56 p.m. on New Year’s Eve and about 6:06 p.m. in mid-January. It moves to about 6:37 p.m. at the March equinox and to about 7:10 p.m. at the June solstice. Civil twilight, the usable glow after the sun is gone, adds roughly another 24 minutes.',
+            'For a dinner, that means a winter sunset table starts early. Plan drinks poured thirty to forty-five minutes before the sun touches the water, the first course down as the light goes and the main course after dark. In summer the same evening starts after seven, which suits a long beach day and a late lunch.',
+          ],
+        },
+        {
+          heading: 'Sunset at the summit of Haleakalā',
+          paras: [
+            'Many visitors want sunset from the top of Haleakalā rather than the beach. The National Park Service says no reservation is needed for sunset, unlike sunrise, which needs a vehicle reservation for the hours from 3 to 7 a.m. Everyone still pays the park entrance fee, and in the busy winter season the park asks visitors to arrive at least two to three hours before sunset, because cars can be turned around at the gate when the summit lots are full.',
+            'There is no food, drink or gas in the park, and the summit is far colder than the coast, so bring warm layers. The drive back down is long, dark and winding. That is the evening when a dinner waiting at the house makes the most sense: the chef sets up while you are on the mountain, and you sit down to a warm meal instead of looking for an open kitchen at nine at night.',
+          ],
+        },
+        {
+          heading: 'Restaurant, beach or a table at the villa',
+          paras: [
+            'A restaurant with an ocean view is the simple option for two: book the time early, ask for an outside table and accept that sunset seats go first, especially in the holiday weeks. In Kāʻanapali, the evening cliff dive at Puʻu Kekaʻa, the lava point at the north end of the beach, is part of the sunset ritual; our [Kaanapali restaurants guide](/blog/kaanapali-restaurants-dining-guide) explains the beach walk and dinner timing there.',
+            'A table at the place you are staying is the other option, and it is the one we cook. If your villa or condo has a lānai or lawn facing west, the view is already yours, nobody watches the clock for a second seating and nobody drives after dinner. It suits anniversaries, proposals, honeymoons, family dinners and groups who would struggle to get one table together in a restaurant.',
+          ],
+        },
+        {
+          heading: 'Why we do not set the table on a public beach',
+          paras: [
+            'Beaches in Hawaiʻi are public, and a dinner on the sand is an event in a public place. Maui County’s permit guidance treats a private party in a county park as something that needs a permit from the Department of Parks and Recreation, serving food at an event needs a temporary food permit from the state Department of Health, and tents, structures or cooking go through fire review. State beaches have their own rules. Permits take time, and wind, sand and other beach-goers do the rest.',
+            'That is why we cook at the house. A short walk on the beach as the sun goes down, then dinner on your own lānai a few steps away, gives you the same sky without the permits, the blown-out candles or sand in the food. If you are planning a ceremony on the sand first, our [Maui elopement guide](/blog/maui-elopement-dinner-guide) covers the separate permit steps.',
+          ],
+        },
+        {
+          heading: 'Sunset dinners by area',
+          paras: [
+            'Wailea and Mākena: large villas with lawns and big kitchens, a west-facing view toward Kahoʻolawe and Molokini, and an easy timeline for a chef team. Kīhei: condos with smaller kitchens and great lānai views, where menus built on a few hot pans and plenty of cold courses work best. Our [Wailea restaurants guide](/blog/wailea-restaurants-dining-guide) covers eating out on the same coast.',
+            'Kāʻanapali, Nāpili and Kapalua: the classic West Maui sunset, with the neighbor islands on the horizon and resort condos and homes close to the water. Upcountry and Pāʻia: plan the sunset from the west side or the mountain and dinner back at the house, or choose a long lunch and a cooler evening at home. Upcountry addresses carry a published travel line from $75.',
+          ],
+        },
+        {
+          heading: 'Planning a private sunset dinner at your villa',
+          paras: [
+            'Tell us which way the lānai faces, how many people are coming and what time you want to sit. The chef works back from that evening’s sunset: arrival and kitchen set-up about two hours ahead, something cold and raw ready as people gather, a hot course as the light goes and dessert under the lānai lights. We ask whether the house has outdoor lighting or welcomes candles in hurricane glasses.',
+            'Trade winds can be strong in the late afternoon, especially in South Maui. Every outdoor dinner we quote has a sheltered corner or an indoor table as the backup, written into the quote. In winter, the sunset is also prime whale season; NOAA puts the humpback peak from January through March, and the channel off West and South Maui is one of the best places to see them, sometimes from the lānai. Our [Maui whale watching season guide](/blog/maui-whale-watching-season-guide) has the detail.',
+          ],
+        },
+        {
+          heading: 'What to eat as the sun goes down',
+          paras: [
+            'Sunset menus on Maui lean light and local: raw fish, island greens, grilled fish or a slow-cooked main, and a fruit or chocolate dessert. Fish is named as what is on the boats that week, not promised weeks ahead, and produce comes from Upcountry growers when the chef can verify it. For a couple, a tasting-style menu of several small courses works well; our [romantic dinner](/fine-dining/romantic-dinner) and [honeymoon dinners](/honeymoon-dinners) pages show how those evenings run.',
+            'For a group, family-style platters keep everyone at the table while the sky changes, and a staffed bar takes drinks off the host’s hands. The [mobile bar](/mobile-bar) package on Maui starts from $1,200 for four hours, with spirits billed at cost or brought by you.',
+          ],
+        },
+        {
+          heading: 'Sunset dinners for groups and celebrations',
+          paras: [
+            'A table of six to about a dozen is a chef dinner. Past that, a sunset party on a lawn becomes a staffed event with servers, a sous-chef and a cleanup crew, and [Maui catering](/catering) covers staffed villa and estate events, from welcome nights to milestone birthdays. Servers are $80 an hour and a sous-chef $105 an hour, on four- to five-hour minimums, shown as their own lines. Our [Maui private dining guide](/blog/maui-private-dining-guide) compares private rooms, buyouts and dinners at the house.',
+          ],
+        },
+        {
+          heading: 'What a sunset dinner at the villa costs with us',
+          paras: [
+            'A dinner for two on Maui starts from $750. Signature dinners are published at $225–$375 a guest with groceries included, for a minimum party of six, and a simpler menu runs $190–$225 a guest. For a longer stay, Stay Chef starts from $1,550 a day for a chef and an assistant cooking one meal, with groceries billed at cost.',
+            'A 20% service charge and Hawaiʻi GET of up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. The full rate card is on [Maui private chef cost](/pricing), and the [personal chef Maui](/private-chef) page explains how an evening at the house runs.',
+          ],
+        },
+        {
+          heading: 'How to book a sunset table',
+          paras: [
+            'Send the address, the date, the guest count, which way the lānai faces and any allergies through [the quote form](/quote), or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction, a timeline set to that evening’s sunset and a total. For villa dinners anywhere on the island, see [private chef Maui](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Where is the best place for a sunset dinner on Maui?',
+          a: 'The west-facing coasts: Kāʻanapali, Nāpili and Kapalua in West Maui, and Kīhei, Wailea and Mākena in South Maui. A west-facing villa lānai gives you the same view without a reservation.',
+        },
+        {
+          q: 'What time is sunset on Maui in December?',
+          a: 'About 5:44 p.m. on 1 December, 5:52 p.m. at Christmas and 5:56 p.m. on New Year’s Eve, according to the US Naval Observatory. Hawaiʻi does not change its clocks.',
+        },
+        {
+          q: 'Do you need a reservation for sunset at Haleakalā?',
+          a: 'No. Only sunrise, from 3 to 7 a.m., needs a vehicle reservation. You still pay the entrance fee, and in winter the park asks you to arrive two to three hours before sunset.',
+        },
+        {
+          q: 'Can you have a private dinner on the beach in Maui?',
+          a: 'Only with permits. A private party in a county park needs a county permit, food service needs a health permit and tents or cooking need fire review. We cook at the house instead.',
+        },
+        {
+          q: 'How much does a private sunset dinner on Maui cost?',
+          a: 'A dinner for two starts from $750. Signature dinners are $225–$375 a guest with groceries included, minimum six, plus a 20% service charge and Hawaiʻi GET up to 4.712%.',
+        },
+      ],
+      related: [
+        { path: '/blog/maui-private-dining-guide', label: 'Maui private dining guide' },
+        { path: '/blog/kaanapali-restaurants-dining-guide', label: 'Kaanapali restaurants guide' },
         { path: '/private-chef', label: 'Personal chef Maui' },
         { path: '/catering', label: 'Maui catering' },
         { path: '/pricing', label: 'Maui private chef cost' },
@@ -5354,11 +5516,12 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
       slug: 'christmas-in-kauai-holiday-dinners',
       keyword: 'christmas in kauai',
       datePublished: '2026-10-20',
+      dateModified: '2026-11-24',
       name: 'Christmas in Kauaʻi',
       h1: 'Christmas in Kauai — holiday dinners at the villa, North Shore or South.',
       title: 'Christmas in Kauai — Holiday Dinners at the Villa | myCHEF',
       description:
-        'Christmas in Kauai: North or South Shore for the holidays, winter weather, Christmas and New Year’s Eve dinners at the villa, menus and published prices.',
+        'Christmas in Kauai 2026: dates and sunset times, North or South Shore, Christmas Eve and Christmas dinner at the villa, a day plan and published prices.',
       lede:
         'Christmas Day 2026 is a Friday and New Year’s Eve is the Thursday after, so a Kauaʻi holiday week usually takes in both. Here is how to plan the two big dinners at your rental, and which shore suits a December stay.',
       photo: 'dinPrinceville',
@@ -5377,6 +5540,27 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
             'December is winter on Kauaʻi, and the two shores behave differently. The North Shore around Princeville and Hanalei is lush and often wet, and winter swells make many north-facing beaches rough. The South Shore around Poʻipū is usually drier and sunnier, which is one reason it is popular for holiday weeks. Neither is wrong; it depends whether you want misty mountains or reliable beach afternoons.',
             'Road access matters more on the North Shore. Past Princeville the highway crosses the one-lane Hanalei bridge, and heavy rain can slow or close the road. Our [Hanalei bridge notes](/hanalei-bridge) explain how we plan around it. If your house is beyond the bridge, a holiday dinner needs a weather plan in writing, not just a hopeful arrival time.',
             'Whale season is starting too. Hawaiʻi’s Division of State Parks lists the north coast of Kauaʻi among the places with the highest concentrations of humpback sightings, and NOAA puts the peak from January through March, so late-December sightings are possible but not guaranteed.',
+          ],
+        },
+        {
+          heading: 'Christmas 2026 on Kauaʻi: the dates and the light',
+          paras: [
+            'In 2026, Christmas Eve falls on a Thursday, Christmas Day on a Friday and New Year’s Eve on the Thursday after. Many families fly in the weekend before Christmas and stay through New Year’s Day, which is why the houses, rental cars and chef dates for that stretch go first.',
+            'Kauaʻi is the westernmost of the main islands, so its sunsets come a few minutes later than on Oʻahu or Maui. For Līhuʻe, the US Naval Observatory puts sunset at about 6:01 p.m. on Christmas Eve, 6:02 p.m. on Christmas Day and 6:05 p.m. on New Year’s Eve, with civil twilight lasting roughly another 24 minutes. Hawaiʻi does not change its clocks, so those times hold whatever time zone your family flies in from.',
+          ],
+        },
+        {
+          heading: 'Christmas Eve or Christmas Day: which dinner to book',
+          paras: [
+            'Families split roughly two ways. Some keep Christmas Eve as the big dinner and make Christmas Day a slow morning with presents, a beach walk and a late brunch; our [Kauaʻi brunch guide](/blog/kauai-brunch-guide) covers brunch at the house. Others keep the morning for opening presents and the beach, and sit down to the classic Christmas dinner as the sun goes down on the 25th.',
+            'Either works with a chef. If both nights matter, ask for both in the same message: one chef across Christmas Eve and Christmas Day keeps the menus from overlapping, and the shopping for both is done in one trip before the shops get busy.',
+          ],
+        },
+        {
+          heading: 'A Christmas Day timeline with a chef at the house',
+          paras: [
+            'Christmas dinner on Kauaʻi starts days before the 25th. The menu is agreed in writing in advance, the turkey, prime rib or ham is ordered ahead, and the chef shops in the days before Christmas, because store hours on the holiday itself can be shorter and some ingredients sell out. Fish is bought as close to the day as the boats and markets allow, and named as the species actually bought.',
+            'On the day, a typical plan for a 6 p.m. table looks like this: the chef arrives about three hours ahead with the shopping, the oven goes on for the roast, cold starters are plated as people gather for the sunset, the main course is carved at the table or served family-style after dark, and dessert follows on the lānai. The kitchen is cleaned before we leave, so the rest of the evening belongs to the family.',
           ],
         },
         {
@@ -5454,8 +5638,17 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
           q: 'What happens if it rains?',
           a: 'Every outdoor dinner has a covered or indoor backup in the quote. On the North Shore we plan around the Hanalei bridge; if the road closes, the dinner is rescheduled rather than forfeited.',
         },
+        {
+          q: 'What time is sunset on Christmas Day on Kauaʻi?',
+          a: 'About 6:02 p.m. in Līhuʻe on 25 December 2026, according to the US Naval Observatory, with usable twilight for roughly another 24 minutes.',
+        },
+        {
+          q: 'When should we book Christmas dinner on Kauaʻi?',
+          a: 'As early as you can. Kauaʻi chef dates are by inquiry and confirmed in writing, and the week from Christmas Eve to New Year’s Eve is the first to fill.',
+        },
       ],
       related: [
+        { path: '/blog/kauai-brunch-guide', label: 'Kauaʻi brunch guide' },
         { path: '/blog/kauai-in-december-guide', label: 'Kauaʻi in December guide' },
         { path: '/blog/new-years-eve-kauai-dinner-guide', label: 'New Year’s Eve on Kauaʻi guide' },
         { path: '/blog/thanksgiving-dinner-kauai', label: 'Thanksgiving on Kauaʻi' },
@@ -8704,6 +8897,7 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/big-island-family-vacation-guide', label: 'Big Island family vacation guide' },
         { path: '/blog/mauna-kea-stargazing-guide', label: 'Mauna Kea stargazing guide' },
         { path: '/blog/kona-restaurants-dining-guide', label: 'Kona restaurants guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
@@ -9495,8 +9689,142 @@ export const islandFeaturePosts: Record<IslandId, FeaturePost[]> = {
         },
       ],
       related: [
+        { path: '/blog/big-island-family-vacation-guide', label: 'Big Island family vacation guide' },
         { path: '/blog/christmas-on-the-big-island-holiday-dinner', label: 'Christmas on the Big Island' },
         { path: '/blog/mauna-kea-stargazing-guide', label: 'Maunakea stargazing guide' },
+        { path: '/private-chef', label: 'Private chef Kona' },
+        { path: '/catering', label: 'Big Island catering' },
+        { path: '/pricing', label: 'Big Island private chef cost' },
+        { path: '/', label: 'Private chef Big Island' },
+      ],
+    },
+    {
+      feature: true,
+      slug: 'big-island-family-vacation-guide',
+      keyword: 'big island family vacation',
+      datePublished: '2026-11-24',
+      name: 'Big Island family vacation guide',
+      h1: 'Big Island family vacation — where to stay, what to book and how to feed everyone.',
+      title: 'Big Island Family Vacation: Stay, Plan & Eat | myCHEF',
+      description:
+        'Big Island family vacation planning: Kona or Hilo with kids, volcano and Maunakea rules for children, beach fees, groceries and a chef at the villa.',
+      lede:
+        'A Big Island family vacation is bigger than people expect. The island is larger than all the other Hawaiian islands combined, the drive from the Kona side to the volcano is a full day out, and the best-known outings come with age limits, fees or early starts. This guide covers where families stay, what children can and cannot do at the volcano and on Maunakea, beach fees and ocean safety, feeding a group at a condo or villa, and when to hand dinner to a chef. We do not sell tours, rank resorts or take commissions, and we have no venue partners.',
+      photo: 'blogKidsBigisland',
+      body: [],
+      sections: [
+        {
+          heading: 'Kona, Kohala or Hilo: where should a family stay?',
+          paras: [
+            'Most families stay on the west side. The Kona coast, from Keauhou through Kailua-Kona, has condos, vacation homes, supermarkets and the airport close by. The Kohala Coast to the north, around Waikoloa and Mauna Lani, has the resorts, the larger villas and the long sandy beaches, with the trade-off that stores and restaurants are a drive away.',
+            'Hilo and the east side are green, wet and much quieter, with easier access to the volcano and waterfalls. NOAA’s 1991–2020 climate normals put December rain at about 12 inches at Hilo airport against about 1 inch at Kona’s airport, so families who want daily beach time usually base in the west and visit the east for a day or two, or split the stay. Our [Big Island in December guide](/blog/big-island-in-december-guide) has the weather numbers.',
+          ],
+        },
+        {
+          heading: 'How big is the island, really?',
+          paras: [
+            'Distances shape every plan. Kona to the Kohala resorts is a short drive up the coast, but Kona to Hawaiʻi Volcanoes National Park is more than two hours each way, and Kona to Hilo is a long cross-island drive whichever road you choose. With children in the car, that matters more than any list of sights.',
+            'A rule that works: one big drive day for every two or three local days. Keep the volcano, the far east side and Maunakea as separate days, and spend the rest close to the house, at the beach, the pool or a coffee farm. Our [Kona coffee farm tour guide](/blog/kona-coffee-farm-tour-guide) covers an easy half-day upslope from Kona.',
+          ],
+        },
+        {
+          heading: 'The volcano with children',
+          paras: [
+            'Hawaiʻi Volcanoes National Park is open every day. The National Park Service charges $30 for a private vehicle, the pass covers the driver and up to 14 passengers for seven days, and the park does not accept cash. Children under 16 do not need their own pass if they walk or cycle in.',
+            'The park sits at around 4,000 feet, so it is cooler and often wet compared with the coast; pack jackets and rain shells even in summer. Stay on marked trails and overlooks, keep children close near cliff edges and steaming vents, and check the park’s eruption and closure updates before you drive, because conditions change. Our [Volcano Hawaii restaurants guide](/blog/volcano-hawaii-restaurants-guide) covers eating near the park.',
+          ],
+        },
+        {
+          heading: 'Maunakea: the age rule families miss',
+          paras: [
+            'The University of Hawaiʻi’s Maunakea visitor guidance is clear: children under 13 should not go above the Visitor Information Station at 9,200 feet, because prolonged exposure to high altitude can harm developing bodies. Pregnant visitors and anyone who has been scuba diving in the previous 24 hours should also stay below. Above the station, the road is steep and partly unpaved and a four-wheel-drive vehicle is required.',
+            'Families with young children can still enjoy the mountain at the station level, and stargazing at lower elevations works well with warm clothes. The summit area closes to visitors 30 minutes after sunset. Our [Maunakea stargazing guide](/blog/mauna-kea-stargazing-guide) explains how a night on the mountain fits around dinner.',
+          ],
+        },
+        {
+          heading: 'Beaches, fees and ocean safety',
+          paras: [
+            'The west side has the family beaches, but much of the shoreline is lava rock rather than sand, and winter swells can make some beaches rough. Swim at lifeguarded beaches, check the posted conditions and ask the lifeguard before you go in. Water shoes help on rocky entries.',
+            'State parks charge visitors from outside Hawaiʻi. At Hāpuna Beach State Recreation Area on the Kohala Coast, the Division of State Parks lists $5 per person entry for non-residents, free for children three and under, and $10 parking per car, credit card only, with daily hours of 7 a.m. to 7:30 p.m. Hawaiʻi bans the sale of sunscreens containing oxybenzone and octinoxate, so pack mineral sunscreen and rash guards, and teach children not to stand on coral or touch turtles.',
+          ],
+        },
+        {
+          heading: 'Mantas, whales and the outings to book ahead',
+          paras: [
+            'The manta ray night snorkel off Kona is one of the island’s most famous outings, and operators set their own minimum ages and swimming requirements, so ask before you book. Our [manta ray night snorkel Kona guide](/blog/kona-manta-ray-night-snorkel-guide) explains how the night works and how to plan dinner around it.',
+            'In winter, whale season adds another reason to look at the water. NOAA’s Hawaiian Islands Humpback Whale National Marine Sanctuary puts the season at about November through May, with the peak from January through March. Book boats, luaus and holiday-week restaurant tables early; the Christmas, spring break and summer weeks fill first.',
+          ],
+        },
+        {
+          heading: 'A realistic family week on the Big Island',
+          paras: [
+            'A pattern that works for many families: arrival and a quiet afternoon at the pool; a beach morning on the Kohala Coast; a volcano day with an early start; a slow day close to the house; a coffee farm morning or a manta night; a Maunakea or Hilo day if the children are old enough and the weather allows; and a last day back on the sand.',
+            'Plan dinners around those days. After a volcano drive or a late night on the water, nobody wants to dress up and wait for a table forty minutes away. That is the night to eat at the house.',
+          ],
+        },
+        {
+          heading: 'Feeding a family at a condo or villa',
+          paras: [
+            'Most families cook breakfast and pack lunches, and eat out or order in for dinner. Kailua-Kona has the island’s west-side supermarkets and big-box stores, so shop once for the basics near the airport on arrival and buy fish and fruit fresh during the week. The Kohala resorts are further from stores, which makes that first shop more important. Our [Kona farmers market guide](/blog/kona-farmers-market-villa-week) explains what is in season and where local growers sell.',
+            'Check the kitchen before you plan a big home-cooked meal. Condo kitchens are often small, with limited pots, knives and oven space, while large Kohala villas can have generous kitchens and outdoor grills. A photo of the kitchen tells us more than a listing.',
+          ],
+        },
+        {
+          heading: 'When a private chef makes the trip easier',
+          paras: [
+            'With grandparents, toddlers and teenagers at one table, restaurants get hard: early bedtimes, allergies, separate checks and long drives home in the dark. A [private chef Kona](/private-chef) dinner brings the meal to the house. The chef plans the menu with you, shops, cooks in your kitchen, serves and leaves the kitchen clean, and the children can eat a simpler plate first if you name their hour; our [kids menus](/kids-menus) page shows how that works.',
+            'For a longer stay, a vacation chef cooks across several days. For a reunion, a graduation trip or a birthday on the lawn, [Big Island catering](/catering) adds servers and a sous-chef, and our [family reunions notes](/blog/family-reunions) cover bigger groups across several days.',
+          ],
+        },
+        {
+          heading: 'Allergies, picky eaters and mixed diets',
+          paras: [
+            'Send allergies and dietary needs with the first message, along with the children’s ages. The chef plans around them from the start rather than swapping dishes at the table. Family-style platters let everyone take what they like, and the kitchen can keep a plain rice, pasta or grilled fish ready for the youngest guests. Fish is named as the species the chef actually bought that day.',
+          ],
+        },
+        {
+          heading: 'What family dinners cost with us on the Big Island',
+          paras: [
+            'Signature dinners on the Big Island are published at $210–$325 a guest with groceries included, for a minimum party of six, and a simpler menu runs $165–$210 a guest. A vacation chef starts from $300 a person a day, and Stay Chef starts from $1,450 a day for a chef and an assistant cooking one meal, with groceries billed at cost. Servers are $80 an hour and a sous-chef $105 an hour on four- to five-hour minimums.',
+            'A 20% service charge and Hawaiʻi GET of up to 4.712% are added as their own lines, a 50% deposit locks the date and gratuity is voluntary. Addresses outside the Kona–Kohala corridor carry a published travel line from $75, and the east side is quoted case by case. The full rate card is on [Big Island private chef cost](/pricing).',
+          ],
+        },
+        {
+          heading: 'How to ask for family dinners',
+          paras: [
+            'Send the address, the dates, the number of adults and children with ages, allergies and the nights you want cooked through [the quote form](/quote), or message us on WhatsApp at +1 808-468-7748. We reply in writing with a menu direction and a total. For villa dinners anywhere on the west side, see [private chef Big Island](/).',
+          ],
+        },
+      ],
+      faqs: [
+        {
+          q: 'Which side of the Big Island is best for families?',
+          a: 'Most families stay on the west side: the Kona coast for condos and stores, or the Kohala Coast for resorts, villas and sandy beaches. Hilo and the east side are wetter and quieter.',
+        },
+        {
+          q: 'Can children go to the top of Maunakea?',
+          a: 'No. The University of Hawaiʻi says children under 13 should not go above the Visitor Information Station at 9,200 feet because of altitude risk. Above the station, 4WD is required.',
+        },
+        {
+          q: 'How much is the entrance fee for Hawaiʻi Volcanoes National Park?',
+          a: 'The National Park Service charges $30 per private vehicle, covering everyone inside for seven days. The park is cashless, so bring a card.',
+        },
+        {
+          q: 'How long is the drive from Kona to the volcano?',
+          a: 'More than two hours each way, so treat the volcano as its own day and plan an easy dinner at the house that evening.',
+        },
+        {
+          q: 'Can a private chef cook separate meals for the kids?',
+          a: 'Yes. Name the children’s ages and dinner hour, and the chef can serve a simpler plate first, then the adult dinner, from the same kitchen.',
+        },
+        {
+          q: 'How much does a private chef cost for a Big Island family dinner?',
+          a: 'Signature dinners are $210–$325 a guest with groceries included, minimum six, and a simpler menu $165–$210 a guest, plus a 20% service charge and Hawaiʻi GET up to 4.712%.',
+        },
+      ],
+      related: [
+        { path: '/blog/big-island-in-december-guide', label: 'The Big Island in December' },
+        { path: '/blog/kona-manta-ray-night-snorkel-guide', label: 'Manta ray night snorkel Kona guide' },
         { path: '/private-chef', label: 'Private chef Kona' },
         { path: '/catering', label: 'Big Island catering' },
         { path: '/pricing', label: 'Big Island private chef cost' },

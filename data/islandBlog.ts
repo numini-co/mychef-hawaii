@@ -43,7 +43,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogMaui',
     body: [
       'Short posts from Wailea, Kīhei and West Maui kitchens: breakfast and lunch in the villa, cleanup, groceries at cost, and what goes on the written quote. The longer notes, including the Maui price guide, live in the journal.',
-      'New this month: [the Maui family vacation guide](/blog/maui-family-vacation-guide) — the coast to stay on with kids, Haleakalā and ʻĪao Valley reservations, ocean safety, feeding the group and a [personal chef Maui](/private-chef) dinner at the house. Recently: [Maui in December](/blog/maui-in-december-guide), [the Maui brunch guide](/blog/maui-brunch-guide) and [the Makawao restaurants guide](/blog/makawao-restaurants-upcountry-maui-guide).',
+      'New this month: [the Maui sunset dinner guide](/blog/maui-sunset-dinner-guide) — which coasts face the sunset, sunset times by month, Haleakalā at sunset, beach permit rules and a [personal chef Maui](/private-chef) table on your lānai. Recently: [the Maui family vacation guide](/blog/maui-family-vacation-guide), [Maui in December](/blog/maui-in-december-guide) and [the Maui brunch guide](/blog/maui-brunch-guide).',
     ],
   },
   kauai: {
@@ -71,7 +71,7 @@ export const islandBlog: Record<IslandId, IslandBlogPage> = {
     photo: 'blogBigisland',
     body: [
       'West-side kitchens and Kohala travel show up in the shorter posts; the journal keeps the longer notes.',
-      'New this month: [the Big Island in December](/blog/big-island-in-december-guide) — Kona vs Hilo weather by the numbers, Volcano and Maunakea cold, whale season, the holiday rush and a [private chef Kona](/private-chef) dinner at the villa. Recently: [the Big Island golf trip guide](/blog/big-island-golf-trip-guide), [the Kona brunch guide](/blog/kona-brunch-guide) and [Christmas on the Big Island](/blog/christmas-on-the-big-island-holiday-dinner).',
+      'New this month: [the Big Island family vacation guide](/blog/big-island-family-vacation-guide) — Kona, Kohala or Hilo with kids, volcano fees, the Maunakea age rule, beach fees and a [private chef Kona](/private-chef) dinner at the villa. Recently: [the Big Island in December](/blog/big-island-in-december-guide), [the Big Island golf trip guide](/blog/big-island-golf-trip-guide) and [the Kona brunch guide](/blog/kona-brunch-guide).',
       'Looking to book rather than read? Dinner prices, dinners from $165 a guest and signature dinners and Stay Chef days are on the [private chef Big Island](/) page, and staffed villa parties for ten to seventy-five are [Big Island catering](/catering).',
     ],
   },
