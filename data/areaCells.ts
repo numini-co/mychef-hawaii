@@ -706,7 +706,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Hāʻena is past the Hanalei bridge: far-north houses, planned dates, and a road that can close. A chef night is written with 72-hour notice. A closure moves the night. It does not forfeit the food, and it does not eat the deposit. We confirm a crew in writing.',
         'The shore overview is [North Shore](/north-shore). The weather clause is [Hanalei bridge](/hanalei-bridge). Hanalei estates are [Hanalei](/hanalei). Bands are on [pricing](/pricing). Travel is confirmed on the written quote with that weather clause. Request availability on [the quote form](/quote).',
-        'A far-north supper is planned around the house kitchen itself: which burners work, how many seats the table holds, and which backup date you can still use if the road is shut. Princeville is a different driveway, so do not file both in one note. Far-north streets are listed on [locations](/locations). Request availability for Hāʻena alone. Tell us the headcount with that backup date so the shop matches the house.',
+        'A far-north supper is planned around the house kitchen itself: which burners work, how many seats the table holds, and which backup date you can still use if the road is shut. Princeville is a different driveway, so do not file both in one note. Far-north streets are listed on [locations](/locations). Request availability for Hāʻena alone. Tell us the headcount with that backup date so the shop matches the house. For the island-wide picture of villa dinners on both shores, start at [private chef Kauai](/).',
       ],
       faqs: [
         {
@@ -755,7 +755,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'A cooktop is still required.',
         'We will not pretend Kōloa is a resort-residence page. Inquiry is the honest status.',
-        'Send the address on the quote form. A band is not an instant-booking button.',
+        'Send the address on the quote form. A band is not an instant-booking button. Kōloa is one town page; how a villa dinner runs from the North Shore to the South Shore is on [private chef Kauai](/).',
       ],
       faqs: [
         {
@@ -813,7 +813,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Līhuʻe is the in-town base beside the airport, and the usual table is a household kitchen rather than a shore estate. Weeknight households are the usual ask. We will not sell this town as a North Shore villa page. Princeville and Poʻipū remain the estate dinners. A working cooktop is required, and a room without heat is declined before anyone shops.',
         'Travel is confirmed on the written quote. This page does not treat the drive as included. East-side households continue on [Kapaʻa](/kapaa). Shore estates are [Poʻipū](/poipu) and [Princeville](/princeville). The South Shore overview is [South Shore](/south-shore). Bands are on [pricing](/pricing). Request availability on [the quote form](/quote) with the street and the dates.',
-        'A Līhuʻe supper is a weeknight in an in-town household: the fridge the family already uses, a table near the airport, and a kitchen left clear when the cook is done. It is not a shore estate shifted into town. In-town households are indexed on [locations](/locations). Request availability with that street. Name how many people sit down and whether dinner is one night or a few weeknights.',
+        'A Līhuʻe supper is a weeknight in an in-town household: the fridge the family already uses, a table near the airport, and a kitchen left clear when the cook is done. It is not a shore estate shifted into town. In-town households are indexed on [locations](/locations). Request availability with that street. Name how many people sit down and whether dinner is one night or a few weeknights. A Līhuʻe household is one door; the island overview of villa dinners by inquiry is [private chef Kauai](/).',
       ],
       faqs: [
         {
@@ -861,7 +861,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Kalāheo is quieter residential houses between Līhuʻe and the South Shore villas, not a Poʻipū lawn copied inland. We confirm a crew in writing. We do not promise every house on a given week. Bring a residential street, not a resort name. ʻEleʻele sits further toward the west. A cooktop is still required, and a room without heat is declined before a deposit.',
         'The south-west drive is confirmed on the written quote. We do not publish a separate travel price on this page. Kōloa and Poʻipū stay the shore pages, [Kōloa](/koloa) and [Poʻipū](/poipu). The shore overview is [South Shore](/south-shore). Further west is [ʻEleʻele](/eleele). Bands are on [pricing](/pricing). Request availability on [the quote form](/quote) with the street.',
-        'Kalāheo cooking is a residential supper in a quieter house between Līhuʻe and the villas: an indoor table, a home range, and no resort lawn to set. Send a street name, not a Poʻipū property. Residential towns on this side are separated on [locations](/locations). Request availability for this kitchen. Say who is eating that night, whether the table stays indoors, and that the home range can hold that meal.',
+        'Kalāheo cooking is a residential supper in a quieter house between Līhuʻe and the villas: an indoor table, a home range, and no resort lawn to set. Send a street name, not a Poʻipū property. Residential towns on this side are separated on [locations](/locations). Request availability for this kitchen. Say who is eating that night, whether the table stays indoors, and that the home range can hold that meal. Between the towns, the full island page — both shores, by inquiry — is [private chef Kauai](/).',
       ],
       faqs: [
         {
@@ -909,7 +909,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'This is Waimea on Kauaʻi: west-side distance from Līhuʻe, not the ranch town on Hawaiʻi Island. The longer drive is why the date needs advance notice. A west-side Saturday still needs its own shop list, written before anyone leaves Līhuʻe. Travel is confirmed on the written quote. We do not publish a separate travel price on this page. A cooktop is still required.',
         'Hanapēpē is the nearer west-side town, on [Hanapēpē](/hanapepe). ʻEleʻele sits back toward Kalāheo. The South Shore villas are a different drive, on [South Shore](/south-shore). Do not stack this west-side night onto a Līhuʻe afternoon without writing it. Bands are on [pricing](/pricing). Request availability on [the quote form](/quote) with the west-side street and enough notice for the day.',
-        'A Kauaʻi Waimea night begins with a shop list written for that farther kitchen before anyone leaves Līhuʻe. The dishes, the headcount, and the west-side street belong on that list. This is not the ranch town on Hawaiʻi Island. The farther address is listed on [locations](/locations). Request availability with notice for the whole day. Do not attach the list to an afternoon already booked in Līhuʻe.',
+        'A Kauaʻi Waimea night begins with a shop list written for that farther kitchen before anyone leaves Līhuʻe. The dishes, the headcount, and the west-side street belong on that list. This is not the ranch town on Hawaiʻi Island. The farther address is listed on [locations](/locations). Request availability with notice for the whole day. Do not attach the list to an afternoon already booked in Līhuʻe. The west side is one corner of the island; every shore we cook on is summarized at [private chef Kauai](/).',
       ],
       faqs: [
         {
@@ -957,7 +957,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Hanapēpē is town houses on the west side, not a visitor-villa cluster and not a North Shore copy. The night is a private kitchen and a table, with advance notice because the drive from Līhuʻe is the long one. Write one street, not a whole west-side loop. A cooktop is still required. We confirm a crew in writing when the week can be staffed.',
         'ʻEleʻele sits back toward Kalāheo, on [ʻEleʻele](/eleele). Farther west is [Kauaʻi Waimea](/waimea). The villa shore is a different page, [South Shore](/south-shore). Travel is confirmed on the written quote. We do not publish a separate travel price here. Bands are on [pricing](/pricing). Request availability on [the quote form](/quote) with the town address and the notice you can give.',
-        'Hanapēpē cooking stays inside one town house: the range in that kitchen, a small dining table, and one street rather than a loop of west-side stops. A visitor-villa cluster is the wrong picture. Town-house streets are separated on [locations](/locations). Request availability for that house and the notice you can give. Put only the headcount and that one street in the note, and leave Waimea on a separate date.',
+        'Hanapēpē cooking stays inside one town house: the range in that kitchen, a small dining table, and one street rather than a loop of west-side stops. A visitor-villa cluster is the wrong picture. Town-house streets are separated on [locations](/locations). Request availability for that house and the notice you can give. Put only the headcount and that one street in the note, and leave Waimea on a separate date. Hanapēpē is one street on the west side; how the island works by inquiry, shore by shore, is on [private chef Kauai](/).',
       ],
       faqs: [
         {
@@ -1005,7 +1005,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'Anahola is the quieter east-north coast, not a second Kapaʻa page and not the Hanalei valley. Houses here still sit a drive from Līhuʻe, and that drive is confirmed on the written quote. We do not publish a separate travel price on this page. A cooktop is required. A room without heat is declined before a deposit.',
         'Kapaʻa is the nearer east-side town, on [Kapaʻa](/kapaa). The North Shore estates are [Hanalei](/hanalei), with their own weather notes. Kitchen notes for this coast are [Anahola kitchen notes](/blog/dining-in-anahola). Bands and fee lines are on [pricing](/pricing). Request availability on [the quote form](/quote). We confirm a crew in writing. This coast is not an instant confirm.',
-        'An Anahola supper is one coast house on the quieter stretch past Kapaʻa: a single range, a single table, and the drive back toward the airport already named on the written quote. Do not treat it as a second Kapaʻa weeknight. This coast is listed on [locations](/locations). Request availability for the coast street. Include the headcount, the dates you can hold, and confirm the coast range is a real cooktop.',
+        'An Anahola supper is one coast house on the quieter stretch past Kapaʻa: a single range, a single table, and the drive back toward the airport already named on the written quote. Do not treat it as a second Kapaʻa weeknight. This coast is listed on [locations](/locations). Request availability for the coast street. Include the headcount, the dates you can hold, and confirm the coast range is a real cooktop. For the East Side alongside the North and South Shores, read [private chef Kauai](/) first.',
       ],
       faqs: [
         {
@@ -1053,7 +1053,7 @@ export const AREA_CELLS: Record<IslandId, UniqueCell[]> = {
       body: [
         'ʻEleʻele is south-west residential, further toward the west than Kalāheo and not a Poʻipū villa page. Private houses are the fit. The night is a residential supper between two towns, not a villa lunch. Advance notice is part of the ask because the day is longer than a South Shore morning. A cooktop is still required. We confirm a crew in writing when that week can be staffed.',
         'Hanapēpē continues west, on [Hanapēpē](/hanapepe). Kalāheo sits back toward Līhuʻe, on [Kalāheo](/kalaheo). The villa overview stays [South Shore](/south-shore). Travel is confirmed on the written quote. We do not publish a separate travel price here. Bands are on [pricing](/pricing). Request availability on [the quote form](/quote) with the street and the notice you can give.',
-        'ʻEleʻele is a midpoint supper on the way west: one private kitchen, a weekday pantry, and seats for a single evening between Kalāheo and Hanapēpē. It is not a villa lunch. Find this street on [locations](/locations). Request availability with the notice that longer day needs. Describe the pantry, the seats, and the evening you can actually hold, and leave Hanapēpē and Kalāheo off this note unless you want two dated lines.',
+        'ʻEleʻele is a midpoint supper on the way west: one private kitchen, a weekday pantry, and seats for a single evening between Kalāheo and Hanapēpē. It is not a villa lunch. Find this street on [locations](/locations). Request availability with the notice that longer day needs. Describe the pantry, the seats, and the evening you can actually hold, and leave Hanapēpē and Kalāheo off this note unless you want two dated lines. ʻEleʻele is a midpoint, not the whole island; the overview of in-villa chef nights across Kauaʻi is [private chef Kauai](/).',
       ],
       faqs: [
         {

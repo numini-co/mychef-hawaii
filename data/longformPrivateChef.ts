@@ -115,6 +115,14 @@ export const privateChefLongform: Record<IslandId, { sections: CopySection[]; fa
         ],
       },
       {
+        h2: 'Personal chef Maui by area — Wailea to Upcountry',
+        paras: [
+          'South Maui is the busiest door. [Wailea](/wailea) and [Makena](/makena) are base zones: resort residences with real kitchens beside quieter lava-stone houses, the same card and the same cleanup. The dinner on this page is the same product in each of them. Only the drive and the kitchen change, and both are written into the quote before anyone shops.',
+          'West Maui is [Kāʻanapali](/kaanapali), [Nāpili](/napili) and [Kapalua](/kapalua), all base zones. A Kāʻanapali condo galley and a Kapalua estate kitchen get different menus, not different prices. If the morning shop is south and the house is northwest, the drive is already inside the chef day rather than added at the door.',
+          'Houses on the [Upcountry](/upcountry) page carry the published drive surcharge from $75, printed on its own line. [Pāʻia](/paia) and Haʻikū are quoted with the menu. Every Maui town we cook in is on [locations](/locations). Name the town, the cooktop and the headcount on the quote form, and the written total shows the zone line before the deposit.',
+        ],
+      },
+      {
         h2: 'Vacation rental realities on Maui',
         paras: [
           'The honest name for most visitor bookings is a vacation rental chef: Airbnb, VRBO, resort residence, estate week. The test is still the kitchen. No cooktop, no booking. Peak villa inventory — December through March — goes first. Wedding-adjacent houses in September, October, and May should ask early even if you only want one dinner; crews also hold weeks on the weddings page.',
